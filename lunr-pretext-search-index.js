@@ -10,15 +10,6 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
-  "id": "frontmatter-4",
-  "level": "1",
-  "url": "frontmatter-4.html",
-  "type": "Preface",
-  "number": "",
-  "title": "Preface",
-  "body": " This textbook provides a comprehensive introduction to English grammar from a linguistic perspective. It is designed for undergraduate students who want to understand how English works, not just memorize rules.  The book covers foundational concepts in linguistics, the structure of English words and sentences, the verb system, and practical applications for writing and teaching.  "
-},
-{
   "id": "ch-01-introduction-to-linguistics-and-grammar-sec-11",
   "level": "1",
   "url": "ch-01-introduction-to-linguistics-and-grammar-sec-11.html",
