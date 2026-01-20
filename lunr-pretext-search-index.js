@@ -222,8 +222,296 @@ var ptx_lunr_docs = [
   "url": "ch-04-homework.html",
   "type": "Section",
   "number": "4.5",
-  "title": "Homework: Morphology",
-  "body": " Homework: Morphology  Instructions: For each word below, divide it into morphemes and classify each morpheme as free (F) or bound (B). State the total number of morphemes.  Example:  unhappiness → un- (B) + happy (F) + -ness (B) = 3 morphemes  Question 1.  disagreements  Morphemes and classifications:  Question 2.  rebuilding  Morphemes and classifications:  Question 3.  thoughtfulness  Morphemes and classifications:  Question 4.  international  Morphemes and classifications:  Question 5.  unforgettable  Morphemes and classifications:  Instructions: For each word, determine whether it contains one morpheme or multiple morphemes. Apply the English base rule: a word can only be divided into morphemes if the base is a word in modern English. Explain your reasoning.  Question 6.  receive  Number of morphemes:  Explanation:  Question 7.  grandmother  Number of morphemes:  Explanation:  Question 8.  describe  Number of morphemes:  Explanation:  Question 9.  replayable  Number of morphemes:  Explanation:  Instructions: Using the base words provided, create new words by adding affixes. Write the complete word and identify all morphemes.  Question 10. Base word: teach  Create a word with one suffix:  Create a word with two suffixes:  Question 11. Base word: hope  Create a word with a prefix:  Create a word with a prefix and a suffix:  Question 12. Base word: modern  Create a word that changes the part of speech from adjective to verb:  Create a word that changes the part of speech from adjective to noun:  Instructions: Read the passage below and answer the questions that follow.  The researchers carefully analyzed the unprecedented developments in artificial intelligence. Their findings suggested that technological modernization would dramatically reshape workplaces worldwide. The implications were unmistakable.  Question 13. Identify three words from the passage that contain multiple morphemes. For each word, identify all morphemes and explain how the affixes change the meaning or part of speech of the base word.  Word 1:  Word 2:  Word 3:  Question 14. The word unprecedented contains the prefix un- and the suffix -ed . Is \"precede\" the base word here? What about \"precedent\"? Apply the English base rule to analyze this word's morphemes.  Question 15. New words enter English regularly by applying existing morphological patterns. Think of a recent word (from technology, social media, or popular culture) that was created using productive English morphemes. Write the word, divide it into morphemes, and explain why English speakers can immediately understand it even though it's new.  Total estimated time: 30-40 minutes   Morphemes are the smallest meaningful units of language; words consist of one or more morphemes.  Free morphemes can stand alone as words; bound morphemes must attach to other morphemes.  Affixes (prefixes and suffixes) are bound morphemes that attach to bases; English has productive affixes for creating nouns, verbs, adjectives, and adverbs.  The English base rule : only divide a word if the base is a word in modern English.  Compounds combine two or more free morphemes into a single word.  Understanding morphology reveals how English builds its vocabulary through systematic, productive patterns.   "
+  "title": "Homework: Morphology and Word Structure",
+  "body": " Homework: Morphology and Word Structure   Part 1: Morpheme Identification (approx. 10 minutes)  Instructions: For each word below, divide it into morphemes and classify each morpheme as free or bound. State the total number of morphemes.  You may present your analysis using any clear method, such as:   Listing with labels (e.g., un- (bound) + happy (free) + -ness (bound) = 3 morphemes)  A simple chart or table   Be sure your method clearly shows each morpheme and its classification.  Example (completed):  Word:  unhappiness  un- (bound) + happy (free) + -ness (bound) = 3 morphemes  1.  disagreements  2.  rebuilding  3.  thoughtfulness  4.  international  5.  unforgettable    Part 2: Applying the English Base Rule (approx. 10 minutes)  Instructions: For each word, determine whether it contains one morpheme or multiple morphemes. Apply the English base rule: a word can only be divided into morphemes if the base is a word in modern English.  Example (completed):  Word:  receive  Number of morphemes: 1  Although receive begins with re- , which often means \"again,\" the remaining part -ceive is not a word in modern English. Therefore, receive is a single morpheme.  6.  grandmother  Number of morphemes:  7.  describe  Number of morphemes:  8.  replayable  Number of morphemes:  9.  construct  Number of morphemes:  10.  misunderstand  Number of morphemes:    Part 3: Word Building (approx. 10 minutes)  Instructions: Using the base words provided, create new words by adding affixes. Write the complete word and identify all morphemes.  Example (completed):  Base word:  hope  Word with one suffix: hopeful   Morphemes: hope (free) + -ful (bound)   Word with a prefix and suffix: unhopeful   Morphemes: un- (bound) + hope (free) + -ful (bound)   11. Base word: teach  Create a word with one suffix:  Morphemes:  Create a word with two suffixes:  Morphemes:  12. Base word: kind  Create a word with a prefix:  Morphemes:  Create a word with a prefix and a suffix:  Morphemes:  13. Base word: modern  Create a word that is a verb:  Morphemes:  Create a word that is a noun:  Morphemes:    Part 4: Morpheme Identification in Context (approx. 5 minutes)  Instructions: Read the passage below. Identify five words that contain multiple morphemes and list the morphemes for each.  Passage:  The researchers carefully analyzed the unprecedented developments in artificial intelligence. Their findings suggested that technological modernization would dramatically reshape workplaces worldwide. The implications were unmistakable.  Example (completed):  Word:  researchers  Morphemes: research (free) + -er (bound) + -s (bound)  14.  Word 1:  Morphemes:  Word 2:  Morphemes:  Word 3:  Morphemes:  Word 4:  Morphemes:  Word 5:  Morphemes:    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Answer the following questions, explaining your reasoning.  15. Complex words are built up step by step, with each morpheme attaching in a specific order. Track the formation of the word unprecedented by identifying the base and then showing the order in which morphemes attach.  Example (completed):  Word:  unhappiness  Formation:   1. happy (base—adjective)  2. unhappy (un- + happy—adjective meaning \"not happy\")  3. unhappiness (unhappy + -ness—noun meaning \"the state of being unhappy\")   Word:  unprecedented  Formation:   Total estimated time: 30-40 minutes  "
+},
+{
+  "id": "ch-04-homework-2-2",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-04-homework-2-6",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-04-homework-2-7",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-2-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Word: "
+},
+{
+  "id": "ch-04-homework-2-9",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-2-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-04-homework-2-10",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-2-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-04-homework-2-11",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-2-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-04-homework-2-12",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-2-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-04-homework-2-13",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-2-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-04-homework-3-2",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-04-homework-3-3",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-04-homework-3-4",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-3-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Word: "
+},
+{
+  "id": "ch-04-homework-3-7",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-3-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-04-homework-3-9",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-3-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-04-homework-3-11",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-3-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-04-homework-3-13",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-3-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-04-homework-3-15",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-3-15",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-04-homework-4-2",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-04-homework-4-3",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-04-homework-4-4",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Base word: "
+},
+{
+  "id": "ch-04-homework-4-9",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-4-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-04-homework-4-14",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-4-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-04-homework-4-19",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-4-19",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-04-homework-5-2",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-04-homework-5-3",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Passage: "
+},
+{
+  "id": "ch-04-homework-5-5",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-5-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-04-homework-5-6",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Word: "
+},
+{
+  "id": "ch-04-homework-5-8",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-5-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-04-homework-6-2",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-04-homework-6-3",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-04-homework-6-4",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-6-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-04-homework-6-5",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-6-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Word: "
+},
+{
+  "id": "ch-04-homework-6-8",
+  "level": "2",
+  "url": "ch-04-homework.html#ch-04-homework-6-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Word: "
 },
 {
   "id": "ch-04-morphology-and-word-structure-8",
@@ -304,7 +592,295 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.8",
   "title": "Homework: Open Classes",
-  "body": " Homework: Open Classes  Instructions: For each sentence below, identify and label the requested parts of speech. Use the morphological and syntactic tests from this chapter to support your answers.  Question 1.  The ambitious researcher carefully documented her remarkable discoveries.  Label all the nouns:  Label all the adjectives:  Question 2.  They quickly completed the challenging assignment before the deadline.  Label all the verbs:  Label all the adverbs:  Question 3. For the word investigation , provide one morphological test and one syntactic test that prove it is a noun.  Morphological test:  Syntactic test:  Instructions: Add the requested element to each sentence below.  Question 4. Add an appropriate adjective to the following sentence:  Original: The student submitted the report.  Your revision:  Question 5. Add an appropriate adverb to the following sentence:  Original: She completed the exam.  Your revision:  Question 6. Expand the following noun phrase by adding a determiner, an adjective, and a prepositional phrase:  Original: book  Your expanded NP:  Instructions: Write original sentences following each prompt.  Question 7. Write a sentence that includes a noun formed with the suffix -tion :  Question 8. Write a sentence that includes an adjective in predicative position (after a linking verb):  Question 9. Write a sentence that includes an adverb modifying an adjective:  Instructions: Create a diagram for each phrase below showing its internal structure (head and modifiers). Label the phrase type (NP, AdjP, AdvP) and each component. Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 10. Diagram the following noun phrase: the incredibly talented young musician from Chicago  [Insert diagram here]  Question 11. Diagram the following adjective phrase: very proud of her achievement  [Insert diagram here]  Instructions: Read the passage below and answer the questions that follow.  The wealthy contribute generously to many charities. A daily walk improves overall health remarkably. The government's new initiative fast-tracked several important proposals.  Question 12. Identify two words in the passage where the form (part of speech) differs from the function. For each word, state its form and its function.  Word 1:  Form:  Function:  Word 2:  Form:  Function:  Question 13. The passage contains the phrase a daily walk . Explain whether daily is an adjective or an adverb, and whether walk is a noun or a verb. What tests support your answer?  Question 14. In 3-4 sentences, explain why the form\/function distinction matters for grammar analysis. Use an example from the passage or create your own.  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   The form vs. function distinction is fundamental: form is what a word IS (its part of speech), while function is what a word DOES (its role in a sentence).  The dual-identification principle : when analyzing grammar, always identify both form and function.  Open classes (nouns, verbs, adjectives, adverbs) freely accept new members and carry content meaning.  Each open class has distinctive morphological properties (word forms) and syntactic properties (sentence behavior).  Nouns can be pluralized, possess, follow determiners, and serve as subjects\/objects.  Verbs can be inflected for tense, follow modals, and dictate sentence structure.  Adjectives can be graded, appear between determiners and nouns (attributive), and follow linking verbs (predicative).  Adverbs often end in -ly , modify verbs\/adjectives\/adverbs\/sentences, and cannot appear between determiners and nouns.  Each word class forms phrases with the word as head : noun phrases (NP), verb phrases (VP), adjective phrases (AdjP), adverb phrases (AdvP).   "
+  "body": " Homework: Open Classes   Part 1: Word Class Identification (approx. 10 minutes)  Instructions: For each underlined word, identify its part of speech (noun, verb, adjective, or adverb) using at least one morphological or syntactic test from the chapter. State which test you used.  Example (completed):  Word:  carefully in \"She carefully reviewed the document.\"  Part of speech: Adverb  Test used: The -ly suffix test. \"Carefully\" is formed by adding -ly to the adjective \"careful,\" which is a reliable pattern for adverbs. Additionally, it modifies the verb \"reviewed,\" telling us how she reviewed.  1.  The development of new technology takes time.  Part of speech:  Test used:  2.  She quickly solved the problem.  Part of speech:  Test used:  3.  The beautiful garden attracted visitors.  Part of speech:  Test used:  4.  The committee will investigate the matter.  Part of speech:  Test used:  5.  His response was surprisingly confident.  Part of speech:  Test used:    Part 2: Form vs. Function Analysis (approx. 10 minutes)  Instructions: For each sentence, identify the form (part of speech) and the function (grammatical role) of the underlined word. Remember the dual-identification principle: form is what the word IS; function is what the word DOES.  Example (completed):  Sentence:  The rich often have different concerns.  Word: rich  Form: Adjective (it can be graded: richer, richest; it can be modified by \"very\": very rich)  Function: Nominal (functioning as a noun--it follows the determiner \"the,\" serves as the subject of the sentence, and refers to a group of people)  6.  She gave him a cold look.  Word: cold  Form:  Function:  7.  The morning walk refreshed her.  Word: walk  Form:  Function:  8.  He ran fast to catch the bus.  Word: fast  Form:  Function:  9.  The stone wall surrounded the garden.  Word: stone  Form:  Function:  10.  The wounded were taken to the hospital.  Word: wounded  Form:  Function:    Part 3: Phrase Construction (approx. 5 minutes)  Instructions: For each head word provided, build a phrase of the specified type. Include at least two modifiers (pre-modifiers, post-modifiers, or both).  Example (completed):  Head:  teacher (build a noun phrase)  Noun phrase: the experienced history teacher from the local high school  Components: Det (the) + Adj (experienced) + N modifier (history) + Head N (teacher) + PP (from the local high school)  11. Head: decision (build a noun phrase)  Noun phrase:  Components:  12. Head: proud (build an adjective phrase)  Adjective phrase:  Components:  13. Head: quickly (build an adverb phrase)  Adverb phrase:  Components:    Part 4: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each prompt. Underline the requested element.  14. Write a sentence using a noun formed with the suffix -ment :  15. Write a sentence using an adjective in predicative position (after a linking verb like be , seem , or become ):  16. Write a sentence where an adverb modifies an adjective (not a verb):  17. Write a sentence where a noun functions adjectivally (modifying another noun):    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Read the passage below and answer the questions that follow.  Passage:  The elderly deserve our respect and consideration. A daily exercise routine significantly improves overall health. The government's new environmental policy cautiously addresses industrial pollution concerns.  18. Find two examples in the passage where form and function differ. For each, identify the word, state its form (part of speech), and explain its function in that sentence.  Example 1:  Word:  Form:  Function:  Explanation:  Example 2:  Word:  Form:  Function:  Explanation:  19. Identify the head and all modifiers in the following noun phrase from the passage:  the government's new environmental policy  Head:  Pre-modifiers (list each and identify its type--determiner, adjective, noun, etc.):  20. In 3-4 sentences, explain why understanding the distinction between form and function is important for grammatical analysis. Use a specific example from the passage or create your own to illustrate your point.   Total estimated time: 30-40 minutes  "
+},
+{
+  "id": "ch-05-homework-2-2",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-05-homework-2-3",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-05-homework-2-4",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Word: carefully "
+},
+{
+  "id": "ch-05-homework-2-7",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-2-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. development "
+},
+{
+  "id": "ch-05-homework-2-10",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-2-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. quickly "
+},
+{
+  "id": "ch-05-homework-2-13",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-2-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. beautiful "
+},
+{
+  "id": "ch-05-homework-2-16",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-2-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. investigate "
+},
+{
+  "id": "ch-05-homework-2-19",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-2-19",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. surprisingly "
+},
+{
+  "id": "ch-05-homework-3-2",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-05-homework-3-3",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-05-homework-3-4",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-3-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence: rich "
+},
+{
+  "id": "ch-05-homework-3-8",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-3-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. cold "
+},
+{
+  "id": "ch-05-homework-3-12",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-3-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. walk "
+},
+{
+  "id": "ch-05-homework-3-16",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-3-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. fast "
+},
+{
+  "id": "ch-05-homework-3-20",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-3-20",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. stone "
+},
+{
+  "id": "ch-05-homework-3-24",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-3-24",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. wounded "
+},
+{
+  "id": "ch-05-homework-4-2",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-05-homework-4-3",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-05-homework-4-4",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Head: "
+},
+{
+  "id": "ch-05-homework-4-7",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-4-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-05-homework-4-10",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-4-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-05-homework-4-13",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-4-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-05-homework-5-2",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-05-homework-5-3",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-05-homework-5-4",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-05-homework-5-5",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-5-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-05-homework-5-6",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
+},
+{
+  "id": "ch-05-homework-6-2",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-05-homework-6-3",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Passage: "
+},
+{
+  "id": "ch-05-homework-6-5",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-6-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "18. "
+},
+{
+  "id": "ch-05-homework-6-16",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-6-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "19. "
+},
+{
+  "id": "ch-05-homework-6-20",
+  "level": "2",
+  "url": "ch-05-homework.html#ch-05-homework-6-20",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "20. "
 },
 {
   "id": "ch-05-open-classes-11",
@@ -367,7 +943,259 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.6",
   "title": "Homework: Closed Classes",
-  "body": " Homework: Closed Classes  Instructions: For each sentence below, identify and label the requested closed-class words.  Question 1.  The ambitious student gave her presentation to the committee during the meeting.  Label all the determiners and classify each by type (article, demonstrative, possessive, quantifier):  Label all the prepositions:  Question 2.  Everyone who attended the conference received their materials before the session.  Label all the pronouns and classify each by type (personal, relative, indefinite, possessive):  Question 3. Identify all prepositional phrases in the following sentence and indicate whether each is adjectival (Adj) or adverbial (Adv):  The professor from Yale spoke with great enthusiasm about her research in the auditorium.  Instructions: Add the requested element to each sentence below.  Question 4. Add an adjectival prepositional phrase that modifies the noun student :  Original: The student won the award.  Your revision:  Question 5. Add an adverbial prepositional phrase that tells where or when:  Original: She completed the assignment.  Your revision:  Question 6. Replace the underlined noun phrase with an appropriate pronoun:  Original: My older brother gave my older brother's car to the mechanic.  Your revision:  Instructions: Write original sentences following each prompt.  Question 7. Write a sentence that contains at least two prepositional phrases—one adjectival and one adverbial. Underline and label each PP.  Question 8. Write a sentence that uses a reflexive pronoun correctly:  Question 9. Write a sentence that is structurally ambiguous because of PP attachment. Then explain both possible meanings.  Your sentence:  Meaning 1 (adjectival attachment):  Meaning 2 (adverbial attachment):  Instructions: Create a diagram for each phrase below showing its internal structure. Label phrase types (NP, PP) and their components. Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 10. Diagram the following noun phrase with its embedded prepositional phrase:  the old house on the corner of Main Street  [Insert diagram here]  Question 11. Diagram the following prepositional phrase:  during the long summer vacation  [Insert diagram here]  Instructions: Read the paragraph below and answer the questions that follow.  The researcher in the laboratory examined the sample with a microscope. Her analysis of the results surprised everyone in the department. The findings that she published in the journal challenged previous assumptions about the topic.  Question 12. Identify three prepositional phrases from the passage. For each, state whether it is adjectival or adverbial, and explain what question it answers (which one? where? when? how? etc.).  PP 1:  Type (Adj\/Adv):  Question answered:  PP 2:  Type (Adj\/Adv):  Question answered:  PP 3:  Type (Adj\/Adv):  Question answered:  Question 13. The phrase in the laboratory appears in the first sentence. Could this PP be either adjectival or adverbial? Explain both possible interpretations and how context helps resolve the ambiguity.  Question 14. In the final sentence, identify the relative pronoun and its antecedent. What grammatical role does the relative pronoun play within its own clause?  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   Closed classes have fixed membership and serve primarily grammatical functions.  Determiners introduce noun phrases and specify reference (which, whose, how many).  Pronouns replace noun phrases, reducing redundancy and enabling efficient reference.  Prepositions head prepositional phrases that function as adjectival or adverbial modifiers.  Adjectival PPs modify nouns, answering \"which one?\" or \"what kind?\"  Adverbial PPs modify verbs\/sentences, answering \"when?\" \"where?\" \"how?\" \"why?\"  PP attachment can be ambiguous; context and careful analysis resolve the ambiguity.  These three closed classes work together to provide the grammatical structure of sentences.   "
+  "body": " Homework: Closed Classes   Part 1: Determiner and Pronoun Identification (approx. 10 minutes)  Instructions: For each sentence, identify and classify the requested closed-class words.  Example (completed):  Sentence:  My brother gave his old car to me.  Determiners: my (possessive), his (possessive), old is NOT a determiner--it's an adjective  Pronouns: me (personal pronoun, 1st person singular, object form)  1.  The ambitious student submitted her application to several universities.  Determiners (identify each and classify by type--article, demonstrative, possessive, quantifier, number):  Pronouns:  2.  Everyone who attended the conference received their materials before the first session.  Pronouns (identify each and classify by type--personal, relative, indefinite, possessive):  3.  Those books on the shelf belong to someone in this department.  Determiners:  Pronouns:  4.  Which candidate did the committee select for themselves?  Pronouns (identify and classify each):    Part 2: Prepositional Phrase Analysis (approx. 10 minutes)  Instructions: Identify all prepositional phrases in each sentence. For each PP, indicate whether it functions as adjectival (modifying a noun) or adverbial (modifying a verb or sentence), and state what question it answers.  Example (completed):  Sentence:  The professor from Harvard lectured about linguistics in the auditorium.  PP 1: from Harvard  Type: Adjectival (modifies \"professor\")  Question answered: Which professor?  PP 2: about linguistics  Type: Adverbial (modifies \"lectured\")  Question answered: About what? (topic)  PP 3: in the auditorium  Type: Adverbial (modifies \"lectured\")  Question answered: Where?  5.  The student with the red backpack studied in the library until midnight.  PP 1:  Type:  Question answered:  PP 2:  Type:  Question answered:  PP 3:  Type:  Question answered:  6.  A painting of the mountains hangs above the fireplace in the living room.  PP 1:  Type:  Question answered:  PP 2:  Type:  Question answered:  PP 3:  Type:  Question answered:  7.  During the meeting, the manager from the accounting department spoke with great enthusiasm about the new proposal.  Identify all PPs and classify each:    Part 3: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence by adding the requested element.  8. Add an adjectival prepositional phrase that modifies the noun book :  Original: The book won an award.  Your revision:  9. Add an adverbial prepositional phrase that indicates when:  Original: She completed the project.  Your revision:  10. Replace the underlined noun phrases with appropriate pronouns:  Original: Maria told John that Maria would return John's laptop to John tomorrow.  Your revision:    Part 4: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each prompt.  11. Write a sentence containing at least two prepositional phrases--one adjectival and one adverbial. Label each PP.  12. Write a sentence using a reflexive pronoun correctly:  13. Write a sentence that is structurally ambiguous because a prepositional phrase could attach to either the noun phrase or the verb phrase. Then explain both possible meanings.  Sentence:  Meaning 1 (adjectival attachment--PP modifies noun):  Meaning 2 (adverbial attachment--PP modifies verb):    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Read the passage below and answer the questions that follow.  Passage:  The researcher in the laboratory examined the sample with a powerful microscope. Her analysis of the results surprised everyone in the department. The findings that she published in a major journal challenged several assumptions about the process.  14. Identify four prepositional phrases from the passage. For each, state whether it is adjectival or adverbial, what it modifies, and what question it answers.  PP 1:  Phrase:  Type:  Modifies:  Question answered:  PP 2:  Phrase:  Type:  Modifies:  Question answered:  PP 3:  Phrase:  Type:  Modifies:  Question answered:  PP 4:  Phrase:  Type:  Modifies:  Question answered:  15. The phrase in the laboratory in the first sentence could potentially be interpreted as either adjectival or adverbial. Explain both possible interpretations and how you would determine which reading is intended.  Adjectival interpretation:  Adverbial interpretation:  How to determine the intended reading:  16. In the final sentence, identify the relative pronoun and its antecedent. What grammatical role does the relative pronoun play within its own clause?  Relative pronoun:  Antecedent:  Grammatical role within the relative clause:  17. In 3-4 sentences, explain why closed-class words (determiners, pronouns, prepositions) are important even though they carry less content meaning than open-class words. What would happen if we removed them from sentences?   Total estimated time: 30-40 minutes  "
+},
+{
+  "id": "ch-06-homework-2-2",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-06-homework-2-3",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-06-homework-2-4",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence: "
+},
+{
+  "id": "ch-06-homework-2-7",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-2-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-06-homework-2-10",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-2-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-06-homework-2-12",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-2-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-06-homework-2-15",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-2-15",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-06-homework-3-2",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-06-homework-3-3",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-06-homework-3-4",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-3-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence: "
+},
+{
+  "id": "ch-06-homework-3-14",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-3-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-06-homework-3-24",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-3-24",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-06-homework-3-34",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-3-34",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-06-homework-4-2",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-06-homework-4-3",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-06-homework-4-6",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-06-homework-4-9",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-4-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-06-homework-4-10",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-4-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "John Maria John's John "
+},
+{
+  "id": "ch-06-homework-5-2",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-06-homework-5-3",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-06-homework-5-4",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-06-homework-5-5",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-5-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-06-homework-6-2",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-06-homework-6-3",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Passage: "
+},
+{
+  "id": "ch-06-homework-6-5",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-6-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-06-homework-6-26",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-6-26",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-06-homework-6-30",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-6-30",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-06-homework-6-34",
+  "level": "2",
+  "url": "ch-06-homework.html#ch-06-homework-6-34",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
 },
 {
   "id": "ch-06-closed-classes-9",
@@ -439,7 +1267,241 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.7",
   "title": "Homework: Introduction to Sentence Diagramming",
-  "body": " Homework: Introduction to Sentence Diagramming  Instructions: For each sentence below, identify the subject NP and predicate VP, and label any heads and modifiers.  Question 1.  The curious students from the advanced chemistry class carefully examined the unusual compound.  Subject NP:  Predicate VP:  Question 2. Identify the head and all modifiers in this noun phrase:  my extremely talented older sister from Portland  Head:  Modifiers:  Question 3. Identify the head and all modifiers\/complements in this verb phrase:  has been quietly reading the old mystery novel in the library  Head:  Modifiers\/complements:  Instructions: Add the requested element to each sentence below.  Question 4. Add a modifier to the subject NP:  Original: The student completed the assignment.  Your revision:  Question 5. Add a modifier to the predicate VP:  Original: The musician performed the song.  Your revision:  Question 6. Expand both the subject NP and the predicate VP with modifiers:  Original: Dogs bark.  Your revision:  Instructions: Write original sentences following each prompt.  Question 7. Write a sentence that follows the basic S → NP + VP pattern, with a complex subject NP containing at least a determiner, an adjective, and a prepositional phrase:  Question 8. Write a sentence that is structurally ambiguous (can have two different meanings). Then explain both possible meanings.  Your sentence:  Meaning 1:  Meaning 2:  Instructions: Create a tree diagram for each sentence below. Label all nodes (S, NP, VP, PP, Det, N, V, Adj, Adv, Prep, etc.). Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 9. Diagram the following sentence: The dog barked loudly.  [Insert diagram here]  Question 10. Diagram the following sentence: The talented student from Ohio won the prize.  [Insert diagram here]  Question 11. Diagram the following sentence: She carefully read the interesting book.  [Insert diagram here]  Instructions: Read the sentences below and answer the questions that follow.  Question 12. The sentence I saw the man with the telescope is structurally ambiguous.  a) Describe the two possible meanings:  Meaning 1:  Meaning 2:  b) For each meaning, explain whether the PP \"with the telescope\" attaches to the NP or the VP:  c) Draw a simple tree diagram sketch showing the PP attachment for ONE of the readings:  [Insert diagram here]  Question 13. Explain in 3-4 sentences why understanding hierarchical sentence structure matters for both reading and writing. Use an example to support your explanation.  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   Sentence diagrams make visible the hierarchical structure of sentences.  Every English sentence follows the basic pattern S → NP + VP .  Tree diagrams show how words group into phrases and phrases into sentences.  Heads are the central elements of phrases; modifiers add optional information; complements complete meaning.  Structural ambiguity arises when words can be grouped in multiple ways.  Understanding structure is essential for accurate interpretation and clear writing.   "
+  "body": " Homework: Introduction to Sentence Diagramming   Part 1: Subject and Predicate Identification (approx. 10 minutes)  Instructions: For each sentence, identify the complete subject NP and the complete predicate VP. Then identify the head of each.  Example (completed):  Sentence:  The exhausted marathon runner from Kenya finally collapsed at the finish line.  Subject NP: The exhausted marathon runner from Kenya  Head of subject NP: runner  Predicate VP: finally collapsed at the finish line  Head of predicate VP: collapsed  1.  The curious students from the advanced chemistry class carefully examined the unusual compound.  Subject NP:  Head of subject NP:  Predicate VP:  Head of predicate VP:  2.  My extremely talented older sister from Portland won the national competition.  Subject NP:  Head of subject NP:  Predicate VP:  Head of predicate VP:  3.  Several angry protesters outside the courthouse demanded immediate action.  Subject NP:  Head of subject NP:  Predicate VP:  Head of predicate VP:    Part 2: Heads and Modifiers (approx. 5 minutes)  Instructions: For each phrase, identify the head and list all modifiers. Classify each modifier by type (determiner, adjective, adverb, prepositional phrase, etc.).  Example (completed):  Phrase:  the very tall young basketball player from Chicago  Head: player  Modifiers:   the -- determiner  very tall -- adjective phrase (containing adverb \"very\" + adjective \"tall\")  young -- adjective  basketball -- noun (functioning adjectivally)  from Chicago -- prepositional phrase   4.  my grandmother's beautiful antique wooden jewelry box  Head:  Modifiers:  5.  extremely carefully  Head:  Modifiers:  6.  quite proud of her remarkable achievement  Head:  Modifiers:    Part 3: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each prompt.  7. Write a sentence following the basic S to NP + VP structure with a complex subject NP containing at least a determiner, an adjective, and a prepositional phrase:  8. Write a sentence that is structurally ambiguous (has two possible meanings due to different possible structures). Then explain both meanings.  Sentence:  Meaning 1:  Meaning 2:  9. Expand the simple sentence below by adding modifiers to both the subject NP and the predicate VP:  Original: Dogs bark.  Your expanded version:    Part 4: Tree Diagram Analysis (approx. 10 minutes)  Instructions: For each sentence, draw a tree diagram showing its hierarchical structure. Label all nodes (S, NP, VP, PP, Det, N, V, Adj, Adv, Prep, etc.). You may draw by hand and photograph, use a digital tool, or describe the structure in bracket notation.  Example (completed):  Sentence:  The cat slept.  Tree diagram (bracket notation): [S [NP [Det the] [N cat]] [VP [V slept]]]  10. Diagram: The dog barked loudly.  11. Diagram: The talented student from Ohio won the award.  12. Diagram: She carefully read the interesting book in the library.    Part 5: Structural Ambiguity Analysis (approx. 10 minutes)  Instructions: Analyze the structurally ambiguous sentences below.  13. The sentence I saw the man with the telescope is structurally ambiguous.  a) Describe the two possible meanings:  Meaning 1:  Meaning 2:  b) For each meaning, explain how the PP \"with the telescope\" attaches differently:  Attachment for Meaning 1:  Attachment for Meaning 2:  c) Draw or describe a simple tree structure for ONE of the readings:  14. The sentence Old men and women attended the meeting is structurally ambiguous.  a) Describe the two possible meanings:  Meaning 1:  Meaning 2:  b) Explain what structural difference creates the ambiguity:  15. In 3-4 sentences, explain why understanding hierarchical sentence structure (as shown in tree diagrams) matters for both reading comprehension and clear writing. Use a specific example to support your explanation.   Total estimated time: 30-40 minutes  "
+},
+{
+  "id": "ch-07-homework-2-2",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-07-homework-2-3",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-07-homework-2-4",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence: "
+},
+{
+  "id": "ch-07-homework-2-9",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-2-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-07-homework-2-14",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-2-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-07-homework-2-19",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-2-19",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-07-homework-3-2",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-07-homework-3-3",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-07-homework-3-4",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-3-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Phrase: "
+},
+{
+  "id": "ch-07-homework-3-8",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-3-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-07-homework-3-11",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-3-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-07-homework-3-14",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-3-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-07-homework-4-2",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-07-homework-4-3",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-07-homework-4-4",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-07-homework-4-8",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-4-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-07-homework-5-2",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-07-homework-5-3",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-07-homework-5-4",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence: "
+},
+{
+  "id": "ch-07-homework-5-6",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-07-homework-5-7",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-5-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-07-homework-5-8",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-5-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-07-homework-6-2",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-07-homework-6-3",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-07-homework-6-11",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-6-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-07-homework-6-16",
+  "level": "2",
+  "url": "ch-07-homework.html#ch-07-homework-6-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
 },
 {
   "id": "ch-07-introduction-to-sentence-diagramming-10",
@@ -519,8 +1581,296 @@ var ptx_lunr_docs = [
   "url": "ch-08-homework.html",
   "type": "Section",
   "number": "8.8",
-  "title": "Homework: Basic Sentence Elements and Patterns",
-  "body": " Homework: Basic Sentence Elements and Patterns  Instructions: For each sentence below, identify the requested elements.  Question 1.  The ambitious young students from the honors program studied diligently for the exam.  Subject NP:  Predicate:  Main verb:  Question 2. Identify all complements (DO, IO, SC, OC) in each sentence:  a) The committee awarded her the scholarship.  b) The medicine tasted bitter.  c) The critics considered the performance brilliant.  Question 3. For each underlined element, indicate whether it is an argument (required) or an adverbial (optional):  a) She put the keys on the table .  b) She found the keys on the table .  c) The professor is extremely knowledgeable .  d) The professor spoke extremely quickly .  Instructions: Complete each sentence by adding the requested element.  Question 4. Add a direct object: The talented chef prepared __________.  Question 5. Add an indirect object AND a direct object: The committee awarded __________.  Question 6. Add an object complement: The judges declared the winner __________.  Instructions: Write original sentences following each pattern.  Question 7. Write a sentence following Pattern 4 (transitive: S + V + DO):  Question 8. Write a sentence following Pattern 5 (ditransitive: S + V + IO + DO):  Question 9. Write a sentence following Pattern 3 (linking verb: S + LV + SC):  Instructions: Create a tree diagram for each sentence below. Label all elements including complements (DO, IO, SC, OC) and any adverbials. Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 10. Diagram the following sentence: The exhausted runner finally reached the finish line.  [Insert diagram here]  Question 11. Diagram the following sentence: My grandmother gave me a beautiful sweater for my birthday.  [Insert diagram here]  Instructions: Identify the sentence pattern (1-6) for each sentence and explain your reasoning.  Question 12.  The ancient lighthouse still stands on the rocky cliff.  Pattern number:  Explanation (what verb type? what complements?):  Question 13.  The principal named her class valedictorian at the ceremony.  Pattern number:  Explanation:  Question 14.  The soup smells delicious.  Pattern number:  Explanation (how do you know this is not Pattern 4?):  Question 15. In 3-4 sentences, explain how you distinguish between an argument and an adverbial when analyzing sentences. Give an example to illustrate your explanation.  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   Every sentence has a subject (what it's about) and predicate (what's said about the subject).  Complements are required elements: direct objects, indirect objects, subject complements, and object complements.  Adverbials are optional modifiers providing time, place, manner, or reason information.  Verb valency refers to the number of arguments a verb requires.  English sentences follow six basic patterns determined by verb type:   1. Intransitive : S + V  2. * Copular be** : S + be* + SC  3. Linking : S + LV + SC  4. Transitive : S + V + DO  5. Ditransitive (IO + DO) : S + V + IO + DO  6. Ditransitive (DO + OC) : S + V + DO + OC   Adverbials can appear in any pattern without changing the pattern classification.   "
+  "title": "Homework: Basic Sentence Elements and Sentence Patterns",
+  "body": " Homework: Basic Sentence Elements and Sentence Patterns   Part 1: Sentence Element Identification (approx. 10 minutes)  Instructions: For each sentence, identify the requested elements.  Example (completed):  Sentence:  The talented chef from France prepared us an exquisite meal in the kitchen.  Subject NP: The talented chef from France  Main verb: prepared  Indirect object: us  Direct object: an exquisite meal  Adverbial: in the kitchen  1.  The ambitious young researcher from the university laboratory discovered a remarkable solution.  Subject NP:  Predicate:  Main verb:  Direct object:  2. Identify all complements (DO, IO, SC, OC) in each sentence:  a) The committee awarded the outstanding student a prestigious scholarship.  b) The homemade soup tasted absolutely delicious.  c) The judges declared the young contestant the winner.  3. For each underlined element, indicate whether it is an argument (required by the verb) or an adverbial (optional modifier):  a) She placed the documents on the desk .  b) She found the documents on the desk .  c) The professor is extremely knowledgeable about linguistics .  d) The professor lectured extremely knowledgeably about linguistics .    Part 2: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence by adding the requested element.  4. Add a direct object to create a transitive sentence:  The dedicated students completed __________.  5. Add an indirect object AND a direct object to create a ditransitive sentence:  The generous donor gave __________.  6. Add a subject complement to create a linking verb sentence:  After the long hike, the exhausted climbers seemed __________.  7. Add an object complement:  The board of directors elected her __________.    Part 3: Sentence Pattern Identification (approx. 10 minutes)  Instructions: Identify the sentence pattern (1-6) for each sentence and explain your reasoning. Remember to set aside adverbials before determining the pattern.  Sentence Patterns:   Pattern 1: Intransitive (S + V)  Pattern 2: Copular be (S + be + SC)  Pattern 3: Linking verb (S + LV + SC)  Pattern 4: Transitive (S + V + DO)  Pattern 5: Ditransitive (S + V + IO + DO)  Pattern 6: Ditransitive (S + V + DO + OC)   Example (completed):  Sentence:  The ancient lighthouse still stands on the rocky cliff.  Pattern: Pattern 1 (Intransitive)  Explanation: The main verb is \"stands.\" \"On the rocky cliff\" is an adverbial (optional--answers \"where?\"). \"Still\" is also an adverbial. Without the adverbials, we have \"The ancient lighthouse stands\"--a complete sentence with just a subject and intransitive verb. \"Stands\" does not require an object or complement.  8.  The exhausted marathon runner collapsed at the finish line yesterday.  Pattern:  Explanation:  9.  My grandmother's secret recipe remains a family treasure.  Pattern:  Explanation:  10.  The committee considered the proposal inadequate.  Pattern:  Explanation:  11.  The chef prepared the guests an extraordinary seven-course meal.  Pattern:  Explanation:  12.  The situation grew increasingly tense during the negotiations.  Pattern:  Explanation:    Part 4: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each pattern. Underline or label the key elements (S, V, DO, IO, SC, OC).  13. Write a sentence following Pattern 4 (transitive: S + V + DO):  14. Write a sentence following Pattern 5 (ditransitive with IO + DO: S + V + IO + DO):  15. Write a sentence following Pattern 6 (ditransitive with DO + OC: S + V + DO + OC):    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Read the sentences below and answer the questions.  16. The verb put is unusual because it requires TWO arguments beyond the subject. Analyze the following sentences:  a) She put the book on the shelf.  What happens if you remove \"the book\"?  What happens if you remove \"on the shelf\"?  What does this tell you about the valency of put ?  17. Some verbs can be either linking or transitive depending on context. Analyze these pairs:  a) The milk smells sour. vs. The detective smells trouble.  Which sentence has a linking verb? Which has a transitive verb?  How can you tell? (Hint: Apply the be substitution test.)  18. In 3-4 sentences, explain how you distinguish between an argument and an adverbial when analyzing sentences. Why does this distinction matter for identifying sentence patterns? Give an example to illustrate.   Total estimated time: 30-40 minutes  "
+},
+{
+  "id": "ch-08-homework-2-2",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-08-homework-2-3",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-08-homework-2-4",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence: "
+},
+{
+  "id": "ch-08-homework-2-10",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-08-homework-2-15",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-15",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-08-homework-2-19",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-19",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-08-homework-2-20",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-20",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "on the desk "
+},
+{
+  "id": "ch-08-homework-2-21",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-21",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "on the desk "
+},
+{
+  "id": "ch-08-homework-2-22",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-22",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "extremely knowledgeable about linguistics "
+},
+{
+  "id": "ch-08-homework-2-23",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-2-23",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "extremely knowledgeably about linguistics "
+},
+{
+  "id": "ch-08-homework-3-2",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-08-homework-3-3",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-08-homework-3-5",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-3-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-08-homework-3-7",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-3-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-08-homework-3-9",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-3-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-08-homework-4-2",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-08-homework-4-3",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence Patterns: "
+},
+{
+  "id": "ch-08-homework-4-5",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-4-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-08-homework-4-6",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence: "
+},
+{
+  "id": "ch-08-homework-4-9",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-4-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-08-homework-4-12",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-4-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-08-homework-4-15",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-4-15",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-08-homework-4-18",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-4-18",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-08-homework-4-21",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-4-21",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-08-homework-5-2",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-08-homework-5-3",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-08-homework-5-4",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-08-homework-5-5",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-5-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-08-homework-6-2",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-08-homework-6-3",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-08-homework-6-8",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-6-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
+},
+{
+  "id": "ch-08-homework-6-12",
+  "level": "2",
+  "url": "ch-08-homework.html#ch-08-homework-6-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "18. "
 },
 {
   "id": "ch-08-basic-sentence-elements-and-sentence-patterns-11",
@@ -619,7 +1969,268 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.10",
   "title": "Homework: Compound and Complex Sentences",
-  "body": " Homework: Compound and Complex Sentences  Instructions: For each sentence below, classify it as simple, compound, complex, or compound-complex, and identify all clauses.  Question 1.  Although the weather was terrible, the athletes competed fiercely, and the crowd cheered enthusiastically.  Sentence type:  Independent clause(s):  Dependent clause(s):  Question 2. Identify the dependent clause in each sentence and classify it as an adverb clause, relative clause, or noun clause:  a) The professor who taught my linguistics class retired last year.  Dependent clause:  Type:  b) Because the deadline was extended, I had time to revise my paper.  Dependent clause:  Type:  c) I wonder whether she received my message.  Dependent clause:  Type:  Instructions: Complete each sentence with the requested element.  Question 3. Add a coordinating conjunction (FANBOYS) to create a compound sentence:  The evidence was compelling __________ the jury remained skeptical.  Question 4. Add a subordinating conjunction to create a complex sentence:  __________ you finish your work, you may leave early.  Question 5. Add a dependent clause to this independent clause:  She decided to apply for the job __________.  Instructions: Write original sentences following each prompt.  Question 6. Write a compound sentence using a semicolon and a conjunctive adverb:  Question 7. Write a complex sentence with an adverb clause showing cause or reason:  Question 8. Write a sentence that contains a relative clause modifying the subject:  Instructions: Create a tree diagram for each sentence below. Show the relationship between clauses. Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 9. Diagram the following compound sentence: The storm ended, and the sun appeared.  [Insert diagram here]  Question 10. Diagram the following complex sentence: When the bell rang, the students rushed to the exit.  [Insert diagram here]  Instructions: Read the sentences below and correct any errors, then answer the reflection question.  Question 11. Correct each comma splice or run-on sentence. Provide two different corrections for each.  a) The assignment was difficult, many students struggled to finish.  Correction 1:  Correction 2:  b) She loves hiking he prefers swimming.  Correction 1:  Correction 2:  Question 12. The following sentence uses coordination:  The experiment failed, and the researchers were disappointed.  Rewrite it using subordination to emphasize the researchers' disappointment:  Question 13. In 3-4 sentences, explain when a writer should choose coordination over subordination (or vice versa). What effect does each choice have on emphasis and meaning?  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   Simple sentences contain one independent clause.  Compound sentences join independent clauses through coordination (FANBOYS, semicolons, conjunctive adverbs).  Complex sentences combine an independent clause with dependent clause(s) through subordination.  Dependent clauses are classified as adverb (modify verbs), relative (modify nouns), or noun (function as NPs).  Coordinating conjunctions (FANBOYS) show relationships between equal ideas.  Subordinating conjunctions introduce dependent clauses showing time, cause, contrast, condition, etc.  Comma splices and run-ons are errors that can be fixed by proper punctuation or restructuring.  Choose coordination for equal ideas; choose subordination to emphasize the main clause.   "
+  "body": " Homework: Compound and Complex Sentences   Part 1: Sentence Type Identification (approx. 10 minutes)  Instructions: For each sentence, identify the sentence type (simple, compound, complex, or compound-complex) and identify all clauses. Label each clause as independent (IC) or dependent (DC).  Example (completed):  Sentence:  Although the weather was terrible, the athletes competed fiercely, and the crowd cheered enthusiastically.  Sentence type: Compound-complex  Clauses:   Although the weather was terrible -- DC (adverb clause)  the athletes competed fiercely -- IC  the crowd cheered enthusiastically -- IC   1.  The professor who taught my linguistics class has retired, but she still occasionally gives guest lectures.  Sentence type:  Clauses (identify each as IC or DC and classify any dependent clauses by type):  2.  Because the deadline was extended, I had time to revise my paper thoroughly.  Sentence type:  Clauses:  3.  The exhausted marathon runner from Kenya and her experienced coach celebrated after the race.  Sentence type:  Clauses:  4. Identify the dependent clause in each sentence and classify it as an adverb clause, relative clause, or noun clause:  a) The candidate who impressed the committee received the position.  Dependent clause:  Type:  b) I wonder whether she received my message.  Dependent clause:  Type:  c) We will leave when the meeting ends.  Dependent clause:  Type:    Part 2: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence with the requested element.  5. Add a coordinating conjunction (FANBOYS) to create a compound sentence:  The evidence was compelling __________ the jury remained skeptical.  6. Add a subordinating conjunction to create a complex sentence:  __________ you finish your assignment, you may leave early.  7. Add an appropriate conjunctive adverb with correct punctuation:  The experiment produced unexpected results __________ the team decided to repeat it.  8. Add a dependent clause to complete this sentence:  The professor praised the students __________.    Part 3: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each prompt.  9. Write a compound sentence using a semicolon and a conjunctive adverb (such as however , therefore , moreover , consequently ):  10. Write a complex sentence with an adverb clause showing cause or reason (use because , since , or as ):  11. Write a complex sentence containing a relative clause that modifies the subject:  12. Write a compound-complex sentence (two independent clauses + at least one dependent clause):    Part 4: Error Correction (approx. 5 minutes)  Instructions: Each sentence below contains a comma splice or run-on error. Provide two different corrections for each.  Example (completed):  Error:  The lecture was fascinating, I took detailed notes.  Correction 1: The lecture was fascinating, and I took detailed notes. (added coordinating conjunction)  Correction 2: The lecture was fascinating ; I took detailed notes. (replaced comma with semicolon)  13.  The assignment was challenging, many students struggled to finish it on time.  Correction 1:  Correction 2:  14.  She enjoys hiking he prefers swimming.  Correction 1:  Correction 2:  15.  The restaurant was crowded, we decided to order takeout instead.  Correction 1:  Correction 2:    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Answer the following questions about coordination and subordination.  16. The following sentence uses coordination:  The experiment failed, and the researchers were disappointed.  a) Rewrite this sentence using subordination to emphasize the researchers' disappointment:  b) Rewrite it using subordination to emphasize that the experiment failed:  c) Which version (coordination or subordination) would you choose if you wanted to present both ideas as equally important? Explain.  17. Read the following passage and answer the questions:  When the storm began, the hikers sought shelter. They found a small cave, and they waited there for hours. Although they were cold and hungry, they remained calm because they had prepared for emergencies.  a) Identify all independent and dependent clauses in the passage:  Independent clauses:  Dependent clauses (and their types):  b) How many sentences are in this passage, and what type is each?  18. In 3-4 sentences, explain when a writer should choose coordination over subordination (or vice versa). What effect does each choice have on emphasis and the relationship between ideas? Provide an example to illustrate your point.   Total estimated time: 30-40 minutes  "
+},
+{
+  "id": "ch-09-homework-2-2",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-09-homework-2-3",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-09-homework-2-4",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-2-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence: "
+},
+{
+  "id": "ch-09-homework-2-8",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-2-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-09-homework-2-11",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-2-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-09-homework-2-14",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-2-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-09-homework-2-17",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-2-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-09-homework-3-2",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-3-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-09-homework-3-3",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-09-homework-3-5",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-3-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-09-homework-3-7",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-3-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-09-homework-3-9",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-3-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-09-homework-4-2",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-4-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-09-homework-4-3",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-09-homework-4-4",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-09-homework-4-5",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-4-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-09-homework-4-6",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-09-homework-5-2",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-5-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-09-homework-5-3",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-09-homework-5-4",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Error: "
+},
+{
+  "id": "ch-09-homework-5-5",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-5-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "and "
+},
+{
+  "id": "ch-09-homework-5-6",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "; "
+},
+{
+  "id": "ch-09-homework-5-7",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-5-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-09-homework-5-10",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-5-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-09-homework-5-13",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-5-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-09-homework-6-2",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-6-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Instructions: "
+},
+{
+  "id": "ch-09-homework-6-3",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-09-homework-6-8",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-6-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
+},
+{
+  "id": "ch-09-homework-6-14",
+  "level": "2",
+  "url": "ch-09-homework.html#ch-09-homework-6-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "18. "
 },
 {
   "id": "ch-09-compound-and-complex-sentences-13",
@@ -717,8 +2328,278 @@ var ptx_lunr_docs = [
   "url": "ch-10-homework.html",
   "type": "Section",
   "number": "10.10",
-  "title": "Homework: Tense and Aspect",
-  "body": " Homework: Tense and Aspect  Instructions: For each sentence below, identify the auxiliary verb(s), main verb, tense, and aspect.  Question 1.  She has been studying linguistics for three years.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:  Question 2. Identify the tense and aspect of each underlined verb phrase:  a) The researchers have analyzed the data.  Tense:  Aspect:  b) Yesterday, she was working in the library.  Tense:  Aspect:  c) By next month, they will have completed the project.  Tense:  Aspect:  Question 3. Explain the difference in meaning between these two sentences:  a) I have lived in Chicago for five years.  b) I lived in Chicago for five years.  Instructions: Complete each sentence with the correct form of the verb in parentheses.  Question 4. Present perfect: She __________ (study) at this university since 2022.  Question 5. Past progressive: When I called, they __________ (eat) dinner.  Question 6. Present perfect progressive: I __________ (wait) for two hours now.  Instructions: Write original sentences using the indicated tense-aspect combination.  Question 7. Write a sentence in present perfect that shows a past action with present relevance:  Question 8. Write a sentence in past progressive that describes a background action interrupted by another event:  Question 9. Write a sentence in future perfect that describes an action completed before a future point:  Instructions: Create a diagram for each sentence showing the complete verb phrase structure (auxiliaries and main verb). Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 10. Diagram the following sentence: The students have been studying diligently.  [Insert diagram here]  Question 11. Diagram the following sentence: By tomorrow, she will have finished the assignment.  [Insert diagram here]  Instructions: Read the passage below and answer the questions.  Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years. By next June, she will have finished the entire project.  Question 12. Identify the tense-aspect of each underlined verb phrase in the passage and explain why that combination is appropriate for the context.  Question 13. The passage uses both moved (past simple) and has lived (present perfect). Explain why the writer chose different tense-aspects for these two verbs even though both refer to events that began in 2018.  Question 14. Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes:  She writes her dissertation.  a) Past progressive:  Meaning change:  b) Present perfect:  Meaning change:  c) Future perfect:  Meaning change:  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   Auxiliary verbs add grammatical information to main verbs.  Primary auxiliaries ( be , have , do ) form progressive, perfect, and passive constructions.  English has two tenses (present and past), marked by verb inflection.  Tense is grammatical; time is conceptual—they don't always match.  Aspect describes the internal structure of events: simple, progressive, perfect, perfect progressive.  Simple aspect presents events as wholes.  Progressive aspect presents events as ongoing.  Perfect aspect connects past events to a later reference point.  Tense and aspect combine systematically to locate events in time.   "
+  "title": "Homework: Verbs Part One - Tense and Aspect",
+  "body": " Homework: Verbs Part One - Tense and Aspect   Part 1: Identification (approx. 10 minutes)  Instructions: For each sentence below, identify the auxiliary verb(s), main verb, tense, and aspect. Use the following labels for aspect: simple, progressive, perfect, or perfect progressive.  Example (completed):  Sentence:  She has been waiting for an hour.   Auxiliary verb(s): has, been  Main verb: waiting  Tense: present  Aspect: perfect progressive   1.  The researchers have analyzed the experimental data.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:  2.  Yesterday, she was working in the library when I called.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:  3.  By next month, they will have completed the entire project.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:  4.  The professor teaches linguistics every semester.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:  5.  The students had been studying for three hours before the test began.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:    Part 2: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence with the correct form of the verb in parentheses to match the tense-aspect indicated.  Example (completed):  Present perfect:  She __________ (study) at this university since 2022.  Answer: has studied  6. Present progressive: Right now, the children __________ (play) in the park.  7. Past perfect: By the time I arrived, they __________ (already \/ leave).  8. Present perfect progressive: She __________ (work) on this project for six months.  9. Future progressive: At noon tomorrow, I __________ (meet) with the committee.  10. Past simple: The team __________ (finish) the assignment last night.    Part 3: Sentence Writing (approx. 10 minutes)  Instructions: Write original sentences using the indicated tense-aspect combination. Make sure your sentence clearly demonstrates the meaning of that combination.  Example (completed):  Present perfect (past action with present relevance):  I have already eaten breakfast, so I'm not hungry now.  11. Write a sentence in present perfect that shows an experience up to now:  12. Write a sentence in past progressive that describes a background action interrupted by another event:  13. Write a sentence in future perfect that describes an action completed before a future point:  14. Write a sentence in present simple that expresses a general truth:  15. Write a sentence in past perfect that positions one past event before another:    Part 4: Distinguishing Meaning (approx. 5 minutes)  Instructions: Explain the difference in meaning between each pair of sentences.  Example (completed):  a)  I lived in Chicago for five years.  b)  I have lived in Chicago for five years.  Explanation: Sentence (a) uses past simple, indicating I no longer live there. Sentence (b) uses present perfect, indicating I still live there now.  16. Explain the difference in meaning:  a) She read the report.  b) She has read the report.  17. Explain the difference in meaning:  a) When I arrived, they left.  b) When I arrived, they had left.  18. Explain the difference in meaning:  a) He works at a bank.  b) He is working at a bank.    Part 5: Contextual Analysis (approx. 10 minutes)  Instructions: Read the passage below and answer the questions.  Passage:  Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years now. By next June, she will have finished the entire project. After that, she will be looking for a teaching position.  19. Identify the tense-aspect of each verb phrase in the passage:   moved :  has lived :  visited :  was working :  has been writing :  will have finished :  will be looking :   20. The passage uses both moved (past simple) and has lived (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.  21. Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:  Original: She studies linguistics.  a) Past progressive:  Meaning change:  b) Present perfect:  Meaning change:  c) Future perfect:  Meaning change:   Total estimated time: 40 minutes  "
+},
+{
+  "id": "ch-10-homework-2-3",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-10-homework-2-6",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-10-homework-2-11",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-2-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-10-homework-2-16",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-2-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-10-homework-2-21",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-2-21",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-10-homework-2-26",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-2-26",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-10-homework-3-3",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-10-homework-3-4",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-3-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Present perfect: "
+},
+{
+  "id": "ch-10-homework-3-6",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-3-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-10-homework-3-7",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-3-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-10-homework-3-8",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-3-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-10-homework-3-9",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-3-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-10-homework-3-10",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-3-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-10-homework-4-3",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-10-homework-4-4",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Present perfect (past action with present relevance): "
+},
+{
+  "id": "ch-10-homework-4-6",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-10-homework-4-7",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-4-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-10-homework-4-8",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-4-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-10-homework-4-9",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-4-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-10-homework-4-10",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-4-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-10-homework-5-3",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-10-homework-5-4",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "a) "
+},
+{
+  "id": "ch-10-homework-5-5",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-5-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "b) "
+},
+{
+  "id": "ch-10-homework-5-7",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-5-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-10-homework-5-10",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-5-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
+},
+{
+  "id": "ch-10-homework-5-13",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-5-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "18. "
+},
+{
+  "id": "ch-10-homework-6-3",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Passage: "
+},
+{
+  "id": "ch-10-homework-6-5",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-6-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "19. "
+},
+{
+  "id": "ch-10-homework-6-7",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-6-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "20. "
+},
+{
+  "id": "ch-10-homework-6-8",
+  "level": "2",
+  "url": "ch-10-homework.html#ch-10-homework-6-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "21. "
 },
 {
   "id": "ch-10-verbs-part-one-tense-and-aspect-13",
@@ -807,8 +2688,296 @@ var ptx_lunr_docs = [
   "url": "ch-11-homework.html",
   "type": "Section",
   "number": "11.9",
-  "title": "Homework: Voice and Modals",
-  "body": " Homework: Voice and Modals  Instructions: For each sentence below, identify the requested elements.  Question 1. Identify whether each sentence is in active or passive voice:  a) The research team has analyzed the data carefully.  Voice:  b) The results were announced at the conference.  Voice:  c) Several important discoveries have been made this year.  Voice:  Question 2. In each sentence, identify the direct object (if active) or the original direct object that became the subject (if passive):  a) The committee approved the proposal.  b) The proposal was approved by the committee.  Question 3. Identify the meaning of each modal (ability, possibility, permission, obligation, deduction):  a) You must submit the application by Friday. Meaning:  b) She might arrive late due to traffic. Meaning:  c) That can't be the right answer. Meaning:  Instructions: Convert each sentence to the opposite voice (active → passive or passive → active). Maintain the same tense and aspect.  Question 4. Active → Passive: The architect has designed the new building.  Question 5. Active → Passive: Someone will announce the results tomorrow.  Question 6. Passive → Active: The experiment was conducted by the research team.  Instructions: Write original sentences following each prompt.  Question 7. Write a sentence in passive voice where the agent is unknown or unimportant:  Question 8. Write a sentence using must for a deduction (not obligation):  Question 9. Write a sentence using should have + past participle to express criticism or regret:  Instructions: Create a diagram for each sentence showing the voice construction. Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 10. Diagram the following passive sentence: The report was completed by the team.  [Insert diagram here]  Question 11. Diagram the following sentence with a modal: She must have forgotten the meeting.  [Insert diagram here]  Instructions: Read the passage below and answer the questions.  The new policy was announced yesterday. Employees must submit their feedback by next Friday. According to management, the changes should improve efficiency. Some workers believe the policy might create additional challenges. The final decision will be made after all responses have been reviewed.  Question 12. Identify all passive voice constructions in the passage. For each, explain why the writer might have chosen passive over active voice.  Question 13. Identify the modals in the passage and classify each as expressing epistemic modality (about certainty\/possibility) or deontic modality (about obligation\/permission).  Question 14. Consider this active sentence: The manager rejected the proposal.  a) Rewrite it in passive voice:  b) Explain a context where the passive version would be more appropriate than the active version:  c) When might a writer prefer the active version?  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   Voice describes the relationship between verb and arguments.  Active voice : subject performs the action.  Passive voice : subject receives the action (formed with be + past participle).  Use passive when the agent is unknown, irrelevant, or when focusing on the patient.  Modal auxiliaries ( can , could , will , would , shall , should , may , might , must ) add meanings of possibility, necessity, permission, etc.  Epistemic modality concerns certainty about truth.  Deontic modality concerns obligation and permission.  Semi-modals ( have to , be able to , etc.) function like modals but have some different grammatical properties.  Modal perfect (modal + have + past participle) refers to past time or expresses certainty about the past.   "
+  "title": "Homework: Verbs Part Two - Voice and Modals",
+  "body": " Homework: Verbs Part Two - Voice and Modals   Part 1: Voice Identification (approx. 8 minutes)  Instructions: For each sentence, identify whether it is in active or passive voice. If passive, identify the agent (if present) and the original active construction.  Example (completed):  Sentence:  The report was written by the committee.   Voice: passive  Agent: the committee  Active version: The committee wrote the report.   1.  The researchers carefully analyzed the data.  Voice:  2.  Three errors were discovered in the code.  Voice:  Agent (if present):  3.  The new policy will be announced tomorrow.  Voice:  Agent (if present):  4.  Someone stole my bicycle last night.  Voice:  5.  The building was constructed in 1920.  Voice:  Agent (if present):    Part 2: Voice Transformation (approx. 7 minutes)  Instructions: Convert each sentence to the opposite voice (active to passive or passive to active). Maintain the same tense and aspect.  Example (completed):  Active to passive:  The architect has designed the new building.  Answer: The new building has been designed by the architect.  6. Active to passive: The team is preparing the presentation.  7. Active to passive: Someone had stolen the documents before the investigation began.  8. Passive to active: The experiment was conducted by the research team.  9. Passive to active: The proposal will be reviewed by the committee next week.  10. Active to passive: The company will hire fifty new employees.    Part 3: Modal Meaning (approx. 10 minutes)  Instructions: For each sentence, identify the modal and classify its meaning using these categories: ability, possibility, permission, obligation\/necessity, deduction, or advice.  Example (completed):  Sentence:  You must submit the application by Friday.   Modal: must  Meaning: obligation\/necessity   11.  She can speak three languages fluently.  Modal:  Meaning:  12.  That might be the correct answer, but I'm not certain.  Modal:  Meaning:  13.  You should apologize for your mistake.  Modal:  Meaning:  14.  He must be exhausted after running the marathon.  Modal:  Meaning:  15.  May I leave the room early?  Modal:  Meaning:  16.  They could have won the game if they had practiced more.  Modal:  Meaning:  17. Explain the difference between the two uses of must :  a) You must wear a seatbelt. (Meaning type: _______________)  b) She's not answering the phone. She must be asleep. (Meaning type: _______________)    Part 4: Sentence Writing (approx. 10 minutes)  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence in passive voice where the agent is unknown:  My car was broken into last night.  18. Write a sentence in passive voice appropriate for scientific writing (focusing on method, not researcher):  19. Write a sentence using should have + past participle to express criticism or regret about something that did not happen:  20. Write a sentence using must to express a logical deduction (not obligation):  21. Write a sentence using could to express a past possibility that did not happen:  22. Write a sentence using the get-passive to describe an unexpected event:    Part 5: Analysis and Application (approx. 10 minutes)  Instructions: Read the passage below and answer the questions.  Passage:  The new policy was announced yesterday by the CEO. All employees must submit their feedback by next Friday. According to management, the changes should improve workplace efficiency. Some workers believe the policy might create additional challenges. However, the final decision will be made after all responses have been reviewed.  23. Identify all passive voice constructions in the passage. For each, explain why the writer might have chosen passive over active voice.  Passive construction 1:  Reason:  Passive construction 2:  Reason:  24. Identify the modals in the passage and classify each as expressing epistemic modality (about certainty\/possibility) or deontic modality (about obligation\/permission):  Modal 1:  Type:  Modal 2:  Type:  Modal 3:  Type:  25. Consider this active sentence: The manager rejected the proposal.  a) Rewrite it in passive voice:  b) Describe a situation where the passive version would be more appropriate than the active:  c) When might a writer prefer the active version?   Total estimated time: 45 minutes  "
+},
+{
+  "id": "ch-11-homework-2-3",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-11-homework-2-6",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-11-homework-2-8",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-2-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-11-homework-2-11",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-2-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-11-homework-2-14",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-2-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-11-homework-2-16",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-2-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-11-homework-3-3",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-11-homework-3-4",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-3-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Active to passive: "
+},
+{
+  "id": "ch-11-homework-3-6",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-3-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-11-homework-3-7",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-3-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-11-homework-3-8",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-3-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-11-homework-3-9",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-3-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-11-homework-3-10",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-3-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-11-homework-4-3",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-11-homework-4-6",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-11-homework-4-9",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-4-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-11-homework-4-12",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-4-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-11-homework-4-15",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-4-15",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-11-homework-4-18",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-4-18",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-11-homework-4-21",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-4-21",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-11-homework-4-24",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-4-24",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
+},
+{
+  "id": "ch-11-homework-5-3",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-11-homework-5-4",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Write a sentence in passive voice where the agent is unknown: "
+},
+{
+  "id": "ch-11-homework-5-6",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "18. "
+},
+{
+  "id": "ch-11-homework-5-7",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-5-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "19. "
+},
+{
+  "id": "ch-11-homework-5-8",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-5-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "20. "
+},
+{
+  "id": "ch-11-homework-5-9",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-5-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "21. "
+},
+{
+  "id": "ch-11-homework-5-10",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-5-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "22. "
+},
+{
+  "id": "ch-11-homework-6-3",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Passage: "
+},
+{
+  "id": "ch-11-homework-6-5",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-6-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "23. "
+},
+{
+  "id": "ch-11-homework-6-10",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-6-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "24. "
+},
+{
+  "id": "ch-11-homework-6-17",
+  "level": "2",
+  "url": "ch-11-homework.html#ch-11-homework-6-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "25. "
 },
 {
   "id": "ch-11-verbs-part-two-voice-and-modals-12",
@@ -880,7 +3049,259 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.7",
   "title": "Homework: Adverbials",
-  "body": " Homework: Adverbials  Instructions: For each sentence below, identify all adverbials and classify them.  Question 1.  Yesterday, she worked very diligently at the library because she had an exam.  Identify each adverbial, its form (AdvP, PP, NP, clause), and its semantic role (time, place, manner, reason, etc.):  Adverbial 1:  Form:  Semantic role:  Adverbial 2:  Form:  Semantic role:  Adverbial 3:  Form:  Semantic role:  Adverbial 4:  Form:  Semantic role:  Question 2. Classify each underlined adverbial as adjunct, disjunct, or conjunct:  a) She answered the question honestly . Type:  b) Honestly , I have no idea. Type:  c) The data were unclear; however , we drew a conclusion. Type:  Instructions: Add the requested type of adverbial to each sentence.  Question 3. Add an adverb clause of reason: She stayed home __________.  Question 4. Add a prepositional phrase of time: __________ the team completed the project.  Question 5. Add an infinitive phrase of purpose: He went to the store __________.  Instructions: Write original sentences following each prompt.  Question 6. Write a sentence with an adverb clause of condition (using if , unless , or similar):  Question 7. Write a sentence with a participial phrase functioning as an adverbial:  Question 8. Write a sentence with a disjunct that expresses your attitude toward the content:  Instructions: Create a tree diagram for each sentence showing how adverbials attach to the structure. Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 9. Diagram the following sentence: She spoke quietly in the meeting.  [Insert diagram here]  Question 10. Diagram the following sentence: When the alarm rang, everyone left quickly.  [Insert diagram here]  Instructions: Read the passage below and answer the questions.  Yesterday, the researchers finally completed their study. Surprisingly, the results contradicted earlier findings. They had worked diligently for three years because funding was limited. Nevertheless, they published their findings in a prestigious journal. If additional funding becomes available, they will continue their research next year.  Question 11. Identify five adverbials in the passage. For each, state its form and semantic role.  Question 12. The passage contains both Surprisingly and diligently . Explain why Surprisingly is a disjunct while diligently is an adjunct.  Question 13. Move the adverbial Yesterday to two different positions in its sentence. Explain how the emphasis changes in each version.  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   Adverbs are a part of speech (form); adverbials are a grammatical function.  Many structures function as adverbials: adverb phrases, PPs, NPs, clauses, infinitive phrases, participial phrases.  Adverbials provide information about time, place, manner, reason, purpose, condition, concession, and result.  Adjuncts modify clause content; disjuncts express speaker attitude; conjuncts connect sentences.  Adverb clauses are introduced by subordinating conjunctions and function as dependent clauses.  Adverbial position (initial, medial, final) affects emphasis and information flow.   "
+  "body": " Homework: Adverbials   Part 1: Identification and Classification (approx. 10 minutes)  Instructions: For each sentence, identify all adverbials, their form (adverb phrase, prepositional phrase, noun phrase, adverb clause, infinitive phrase, or participial phrase), and their semantic role (time, place, manner, reason, purpose, condition, or concession).  Example (completed):  Sentence:  Yesterday, she worked carefully at the office because she had a deadline.   Yesterday - NP - time  carefully - AdvP - manner  at the office - PP - place  because she had a deadline - adverb clause - reason   1.  Last week, the students studied diligently in the library.  Adverbial 1:  Form:  Semantic role:  Adverbial 2:  Form:  Semantic role:  Adverbial 3:  Form:  Semantic role:  2.  If you need assistance, please call the help desk immediately.  Adverbial 1:  Form:  Semantic role:  Adverbial 2:  Form:  Semantic role:  3.  She left early to catch her flight.  Adverbial 1:  Form:  Semantic role:  Adverbial 2:  Form:  Semantic role:    Part 2: Adjunct, Disjunct, or Conjunct (approx. 5 minutes)  Instructions: Classify each underlined adverbial as an adjunct (modifies the verb\/clause content), disjunct (expresses speaker's attitude), or conjunct (connects sentences).  Example (completed):  Sentence:  Fortunately, the rain stopped before the game.  Fortunately - disjunct (expresses the speaker's positive attitude toward the situation)  4.  She answered the questions honestly .  Classification and explanation:  5.  Honestly , I don't think that's a good idea.  Classification and explanation:  6.  The data were inconclusive. Nevertheless , the researchers published their findings.  Classification and explanation:  7.  He spoke softly so the children wouldn't wake up.  Classification and explanation:  8.  The experiment failed. Therefore , they redesigned the protocol.  Classification and explanation:    Part 3: Sentence Completion (approx. 5 minutes)  Instructions: Add the requested type of adverbial to complete each sentence.  Example (completed):  Add an adverb clause of condition:  __________, you should bring an umbrella.  Answer: If it looks like rain, you should bring an umbrella.  9. Add a prepositional phrase of time: __________, the committee will announce its decision.  10. Add an adverb clause of reason: She stayed home __________.  11. Add an infinitive phrase of purpose: He went to the store __________.  12. Add an adverb clause of concession: __________, we decided to proceed with the project.  13. Add a participial phrase functioning as an adverbial: __________, she answered all the questions correctly.    Part 4: Sentence Writing (approx. 10 minutes)  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence with an adverb clause of condition:  If the weather improves, we will have the picnic outside.  14. Write a sentence with an adverb clause of time (using while , when , before , after , or until ):  15. Write a sentence with a disjunct that expresses your attitude toward the content:  16. Write a sentence with a conjunct that shows contrast (using however , nevertheless , or on the other hand ):  17. Write a sentence with an adverb clause of purpose (using so that or in order that ):  18. Write a sentence with a participial phrase functioning as an adverbial of reason:    Part 5: Analysis and Application (approx. 10 minutes)  Instructions: Read the passage below and answer the questions.  Passage:  Yesterday, the researchers finally completed their groundbreaking study. Surprisingly, the results contradicted earlier findings. They had worked diligently for three years because funding was severely limited. Nevertheless, they published their findings in a prestigious journal last month. If additional funding becomes available, they will continue their research next year in a new laboratory.  19. Identify five adverbials in the passage. For each, state its form and semantic role.  Adverbial 1:  Form:  Semantic role:  Adverbial 2:  Form:  Semantic role:  Adverbial 3:  Form:  Semantic role:  Adverbial 4:  Form:  Semantic role:  Adverbial 5:  Form:  Semantic role:  20. The passage contains both Surprisingly and diligently . Explain why Surprisingly is a disjunct while diligently is an adjunct.  21. Rewrite the first sentence of the passage with the adverbial yesterday in three different positions. Explain how the emphasis changes in each version.  Position 1:  Effect on emphasis:  Position 2:  Effect on emphasis:  Position 3:  Effect on emphasis:   Total estimated time: 40 minutes  "
+},
+{
+  "id": "ch-12-homework-2-3",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-12-homework-2-6",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-12-homework-2-16",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-2-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-12-homework-2-23",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-2-23",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-12-homework-3-3",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-12-homework-3-6",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-3-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-12-homework-3-8",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-3-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-12-homework-3-10",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-3-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-12-homework-3-12",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-3-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-12-homework-3-14",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-3-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-12-homework-4-3",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-12-homework-4-4",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Add an adverb clause of condition: "
+},
+{
+  "id": "ch-12-homework-4-6",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-12-homework-4-7",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-4-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-12-homework-4-8",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-4-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-12-homework-4-9",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-4-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-12-homework-4-10",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-4-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-12-homework-5-3",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-12-homework-5-4",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Write a sentence with an adverb clause of condition: "
+},
+{
+  "id": "ch-12-homework-5-6",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-12-homework-5-7",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-5-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-12-homework-5-8",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-5-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-12-homework-5-9",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-5-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
+},
+{
+  "id": "ch-12-homework-5-10",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-5-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "18. "
+},
+{
+  "id": "ch-12-homework-6-3",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Passage: "
+},
+{
+  "id": "ch-12-homework-6-5",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-6-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "19. "
+},
+{
+  "id": "ch-12-homework-6-21",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-6-21",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "20. "
+},
+{
+  "id": "ch-12-homework-6-22",
+  "level": "2",
+  "url": "ch-12-homework.html#ch-12-homework-6-22",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "21. "
 },
 {
   "id": "ch-12-adverbials-10",
@@ -961,7 +3382,295 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.8",
   "title": "Homework: Adjectivals",
-  "body": " Homework: Adjectivals  Instructions: For each sentence below, identify the underlined adjectival and classify it.  Question 1. Identify the form of each underlined adjectival (adjective phrase, PP, relative clause, participial phrase, infinitive phrase, noun):  a) the extremely talented musician Form:  b) the book on the top shelf Form:  c) the woman who won the award Form:  d) the broken window Form:  e) something to consider Form:  f) the coffee table Form:  Question 2. For each relative clause, indicate whether it is restrictive (R) or non-restrictive (NR):  a) The students who completed the extra assignment received bonus points. Type:  b) My sister, who lives in Portland, is visiting next week. Type:  c) The Eiffel Tower, which was built in 1889, attracts millions of visitors. Type:  Instructions: Combine each pair of sentences using a relative clause or participial phrase.  Question 3. Combine with a relative clause: I met a professor. She specializes in linguistics.  Question 4. Combine with a relative clause: This is the book. I told you about it.  Question 5. Combine with a participial phrase: The students were exhausted from the exam. They went home early.  Instructions: Write original sentences following each prompt.  Question 6. Write a sentence with a non-restrictive relative clause (use commas):  Question 7. Write a sentence with a present participial phrase modifying the subject:  Question 8. Write a sentence with an infinitive phrase functioning as an adjectival (modifying a noun):  Instructions: Create a tree diagram for each sentence showing how the adjectival attaches to the noun it modifies. Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 9. Diagram the following sentence: The book that I read was fascinating.  [Insert diagram here]  Question 10. Diagram the following sentence: The student sitting in the front row asked a question.  [Insert diagram here]  Instructions: Read the sentences and answer the questions.  Question 11. Correct each dangling participle by rewriting the sentence:  a) Walking through the park, the flowers were beautiful.  Corrected:  b) Having finished the report, the computer was shut down.  Corrected:  c) Covered in mud, the mother cleaned the children's clothes.  Corrected:  Question 12. Explain the difference in meaning between these two sentences:  a) My brother who lives in Chicago is a doctor.  b) My brother, who lives in Chicago, is a doctor.  What does each sentence imply about how many brothers the speaker has?  Question 13. The following sentence contains multiple adjectivals modifying the same noun:  The talented young musician from Nashville who won the competition  Identify each adjectival and explain the typical order for pre-modifiers and post-modifiers in English noun phrases.  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   Adjectives are a part of speech (form); adjectivals are a grammatical function.  Many structures function as adjectivals: adjective phrases, nouns, PPs, relative clauses, participial phrases, infinitive phrases.  Relative clauses modify nouns and are introduced by relative pronouns or adverbs.  Restrictive modifiers identify which one; non-restrictive modifiers add extra information.  Restrictive clauses have no commas; non-restrictive clauses are set off with commas.  Participial phrases (present and past) function as adjectivals; watch for dangling participles.  Adjectivals appear in pre-modification, post-modification, or predicative position.   "
+  "body": " Homework: Adjectivals   Part 1: Identification and Classification (approx. 10 minutes)  Instructions: For each sentence, identify the underlined adjectival and classify its form (adjective phrase, prepositional phrase, relative clause, participial phrase, infinitive phrase, or noun).  Example (completed):  Sentence:  The extremely talented musician performed last night.   Form: adjective phrase  Function: modifies musician   1.  The book on the top shelf belongs to my professor.  Form:  2.  The woman who won the award gave an inspiring speech.  Form:  3.  The broken window needs to be repaired immediately.  Form:  4.  I need something to eat before the meeting.  Form:  5.  The government report was released yesterday.  Form:  6.  The students waiting in line seemed impatient.  Form:  7.  We found a very comfortable chair at the antique store.  Form:    Part 2: Restrictive vs. Non-Restrictive (approx. 5 minutes)  Instructions: For each sentence, indicate whether the underlined modifier is restrictive (R) or non-restrictive (NR). Explain your reasoning.  Example (completed):  Sentence:  My sister, who lives in Portland, is visiting next week.   Type: Non-restrictive (NR)  Reasoning: The commas indicate this adds extra information; the speaker has only one sister, so the clause doesn't identify which sister.   8.  The students who completed the extra assignment received bonus points.  Type:  Reasoning:  9.  The Eiffel Tower, which was built in 1889, attracts millions of visitors.  Type:  Reasoning:  10.  The car that I bought last year already needs repairs.  Type:  Reasoning:  11.  My neighbor's dog, a golden retriever, barks every morning.  Type:  Reasoning:    Part 3: Sentence Combining (approx. 8 minutes)  Instructions: Combine each pair of sentences using a relative clause or participial phrase.  Example (completed):  Sentences:  I met a professor. She specializes in linguistics.  Combined (relative clause): I met a professor who specializes in linguistics.  12. Combine with a relative clause: This is the book. I told you about it.  13. Combine with a relative clause: The scientist won a Nobel Prize. Her research changed medicine.  14. Combine with a participial phrase: The students were exhausted from the exam. They went home early.  15. Combine with a participial phrase: The letter was written in 1945. The letter was found in the attic.    Part 4: Sentence Writing (approx. 7 minutes)  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence with a non-restrictive relative clause:  My grandmother, who turned ninety last month, still tends her garden every day.  16. Write a sentence with a restrictive relative clause using that :  17. Write a sentence with a present participial phrase modifying the subject:  18. Write a sentence with a past participial phrase modifying a noun:  19. Write a sentence with an infinitive phrase functioning as an adjectival:  20. Write a sentence with multiple pre-modifying adjectives (at least three):    Part 5: Error Correction and Analysis (approx. 10 minutes)  Instructions: Read the sentences and answer the questions.  Dangling Participle Correction  21. Correct each dangling participle by rewriting the sentence:  a) Walking through the park, the flowers were beautiful.  Corrected:  b) Having finished the report, the computer was shut down.  Corrected:  c) Exhausted from the journey, the bed looked inviting.  Corrected:  Meaning Analysis  22. Explain the difference in meaning between these two sentences. What does each sentence imply about how many brothers the speaker has?  a) My brother who lives in Chicago is a doctor.  b) My brother, who lives in Chicago, is a doctor.  Sentence (a) implies:  Sentence (b) implies:  Multiple Adjectivals  23. The following noun phrase contains multiple adjectivals:  The talented young American jazz musician from New Orleans who won the competition  a) Identify each adjectival and its form:  b) Explain the typical order for pre-modifiers in English noun phrases (what types come before others?):  c) Why do post-modifiers (like from New Orleans and who won the competition ) follow the noun instead of preceding it?   Total estimated time: 40 minutes  "
+},
+{
+  "id": "ch-13-homework-2-3",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-13-homework-2-6",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-13-homework-2-8",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-2-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-13-homework-2-10",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-2-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-13-homework-2-12",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-2-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-13-homework-2-14",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-2-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-13-homework-2-16",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-2-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-13-homework-2-18",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-2-18",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-13-homework-3-3",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-13-homework-3-6",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-3-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-13-homework-3-9",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-3-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-13-homework-3-12",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-3-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-13-homework-3-15",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-3-15",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-13-homework-4-3",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-13-homework-4-4",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentences: "
+},
+{
+  "id": "ch-13-homework-4-6",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-13-homework-4-7",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-4-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-13-homework-4-8",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-4-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-13-homework-4-9",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-4-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-13-homework-5-3",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-13-homework-5-4",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Write a sentence with a non-restrictive relative clause: "
+},
+{
+  "id": "ch-13-homework-5-6",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-13-homework-5-7",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-5-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
+},
+{
+  "id": "ch-13-homework-5-8",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-5-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "18. "
+},
+{
+  "id": "ch-13-homework-5-9",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-5-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "19. "
+},
+{
+  "id": "ch-13-homework-5-10",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-5-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "20. "
+},
+{
+  "id": "ch-13-homework-6-3",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Dangling Participle Correction "
+},
+{
+  "id": "ch-13-homework-6-4",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-6-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "21. "
+},
+{
+  "id": "ch-13-homework-6-11",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-6-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Meaning Analysis "
+},
+{
+  "id": "ch-13-homework-6-12",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-6-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "22. "
+},
+{
+  "id": "ch-13-homework-6-17",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-6-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Multiple Adjectivals "
+},
+{
+  "id": "ch-13-homework-6-18",
+  "level": "2",
+  "url": "ch-13-homework.html#ch-13-homework-6-18",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "23. "
 },
 {
   "id": "ch-13-adjectivals-11",
@@ -1042,7 +3751,322 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.8",
   "title": "Homework: Nominals",
-  "body": " Homework: Nominals  Instructions: For each sentence below, identify the underlined nominal and classify it.  Question 1. Identify the form of each underlined nominal (NP, that-clause, wh-clause, gerund phrase, infinitive phrase):  a) Swimming every morning has improved my health. Form:  b) I don't know whether she received my message . Form:  c) The problem is that we lack sufficient funding . Form:  d) To learn a new language requires dedication. Form:  Question 2. Identify the function of each underlined nominal (subject, direct object, object of preposition, subject complement):  a) What she said surprised everyone. Function:  b) She believes that honesty is important . Function:  c) I'm interested in learning more about linguistics . Function:  d) The main issue is whether we should proceed . Function:  Instructions: Complete each sentence with the requested nominal structure.  Question 3. Add a that-clause as direct object: The scientists discovered __________.  Question 4. Add a gerund phrase as subject: __________ can be relaxing after a long day.  Question 5. Add a wh-clause as object of preposition: She was confused about __________.  Instructions: Write original sentences following each prompt.  Question 6. Write a sentence with a that-clause functioning as subject:  Question 7. Write a sentence with a gerund phrase functioning as direct object:  Question 8. Write a sentence with an infinitive phrase functioning as subject complement:  Instructions: Create a tree diagram for each sentence showing the nominal and its function. Insert your diagram as an image (Insert → Image → Upload or Camera).  Question 9. Diagram the following sentence: What he said surprised everyone.  [Insert diagram here]  Question 10. Diagram the following sentence: She enjoys reading mystery novels.  [Insert diagram here]  Instructions: Read the sentences and answer the questions.  Question 11. Consider the verb stop in these two sentences:  a) She stopped smoking.  b) She stopped to smoke.  Explain the grammatical and meaning difference between the gerund ( smoking ) and the infinitive ( to smoke ) after stop .  Question 12. Transform the following statement into four different nominal structures:  Statement: The experiment succeeded.  a) As a that-clause subject:  b) As a gerund phrase subject:  c) As a wh-clause (embedded question):  d) As an infinitive phrase (after seem ):  Question 13. In formal writing, sentences like That she resigned surprised everyone are sometimes revised to It surprised everyone that she resigned (extraposition). Explain when and why a writer might prefer each version.  Total estimated time: 30-40 minutes  Note: For diagrams, you may use any method—a digital diagramming tool, a drawing app with stylus, or a photo of a hand-drawn diagram. Insert your image using Insert → Image.   Nouns are a part of speech (form); nominals are a grammatical function.  Many structures function as nominals: noun phrases, pronouns, noun clauses, gerund phrases, infinitive phrases.  Noun clauses are introduced by that or wh-words and function as subjects, objects, or complements.  Gerund phrases ( -ing forms) function nominally in all positions.  Infinitive phrases function nominally primarily as subjects (often extraposed) and objects.  Different nominal structures may carry different meanings or stylistic effects.  Nominals occupy subject, object, complement, and object-of-preposition positions.   "
+  "body": " Homework: Nominals   Part 1: Identification and Classification (approx. 10 minutes)  Instructions: For each sentence, identify the underlined nominal and classify its form (noun phrase, that-clause, wh-clause, gerund phrase, or infinitive phrase).  Example (completed):  Sentence:  Swimming every morning has improved my health.   Form: gerund phrase  Function: subject   1.  I don't know whether she received my message .  Form:  Function:  2.  The problem is that we lack sufficient funding .  Form:  Function:  3.  To learn a new language requires dedication and practice.  Form:  Function:  4.  What the scientist discovered changed the field of biology.  Form:  Function:  5.  She enjoys reading mystery novels on rainy afternoons .  Form:  Function:  6.  He asked who would be attending the conference .  Form:  Function:  7.  Her greatest fear is making a mistake in public .  Form:  Function:    Part 2: Functional Analysis (approx. 5 minutes)  Instructions: Identify the function of each underlined nominal (subject, direct object, object of preposition, or subject complement).  Example (completed):  Sentence:  She believes that honesty is important .  Function: direct object (of the verb believes )  8.  That the project failed disappointed everyone.  Function:  9.  The committee discussed how they would proceed .  Function:  10.  She's interested in learning more about linguistics .  Function:  11.  The main issue is whether we should continue .  Function:  12.  I appreciate your helping us with the move .  Function:    Part 3: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence with the requested nominal structure.  Example (completed):  Add a that-clause as direct object:  The scientists discovered __________.  Answer: The scientists discovered that the cells could regenerate.  13. Add a gerund phrase as subject: __________ can be challenging for new employees.  14. Add a wh-clause as direct object: The detective investigated __________.  15. Add an infinitive phrase as subject complement: Her goal this year is __________.  16. Add a that-clause as subject: __________ surprised everyone at the meeting.  17. Add a gerund phrase as object of a preposition: She succeeded by __________.    Part 4: Sentence Writing (approx. 10 minutes)  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence with a that-clause functioning as subject:  That she won the scholarship made her parents proud.  18. Write a sentence with a wh-clause functioning as direct object:  19. Write a sentence with a gerund phrase functioning as object of a preposition:  20. Write a sentence with an infinitive phrase functioning as subject complement:  21. Write a sentence with a that-clause functioning as subject complement:  22. Write a sentence with an extraposed subject (using It as placeholder with a that-clause or infinitive at the end):    Part 5: Analysis and Application (approx. 10 minutes)  Instructions: Read the sentences and answer the questions.  Gerund vs. Infinitive  23. Consider the verb stop in these two sentences:  a) She stopped smoking.  b) She stopped to smoke.  Explain the grammatical difference (what form follows stop in each?) and the meaning difference:  Grammatical difference:  Meaning difference:  24. Consider the verb remember in these two sentences:  a) I remember locking the door.  b) I remember to lock the door.  Explain the meaning difference:  Transformation and Style  25. Transform the following statement into four different nominal structures:  Statement:  The experiment succeeded.  a) As a that-clause functioning as subject:  b) As a gerund phrase functioning as subject:  c) As a wh-clause (embedded question) functioning as direct object (use a verb like wonder or ask ):  d) As an infinitive phrase after the verb seem :  26. In formal writing, sentences like That she resigned surprised everyone are sometimes revised to It surprised everyone that she resigned (extraposition).  a) What is extraposition?  b) When might a writer prefer the extraposed version?  c) When might a writer prefer the non-extraposed version (with the clause in subject position)?   Total estimated time: 40 minutes  "
+},
+{
+  "id": "ch-14-homework-2-3",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-14-homework-2-6",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-14-homework-2-9",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-2-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-14-homework-2-12",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-2-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-14-homework-2-15",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-2-15",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-14-homework-2-18",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-2-18",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-14-homework-2-21",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-2-21",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-14-homework-2-24",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-2-24",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-14-homework-3-3",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-14-homework-3-6",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-3-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-14-homework-3-8",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-3-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-14-homework-3-10",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-3-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-14-homework-3-12",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-3-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-14-homework-3-14",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-3-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-14-homework-4-3",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-14-homework-4-4",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-4-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Add a that-clause as direct object: "
+},
+{
+  "id": "ch-14-homework-4-6",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-14-homework-4-7",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-4-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-14-homework-4-8",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-4-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-14-homework-4-9",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-4-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-14-homework-4-10",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-4-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
+},
+{
+  "id": "ch-14-homework-5-3",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-14-homework-5-4",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Write a sentence with a that-clause functioning as subject: "
+},
+{
+  "id": "ch-14-homework-5-6",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "18. "
+},
+{
+  "id": "ch-14-homework-5-7",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-5-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "19. "
+},
+{
+  "id": "ch-14-homework-5-8",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-5-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "20. "
+},
+{
+  "id": "ch-14-homework-5-9",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-5-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "21. "
+},
+{
+  "id": "ch-14-homework-5-10",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-5-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "22. "
+},
+{
+  "id": "ch-14-homework-6-3",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Gerund vs. Infinitive "
+},
+{
+  "id": "ch-14-homework-6-4",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-6-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "23. "
+},
+{
+  "id": "ch-14-homework-6-10",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-6-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "24. "
+},
+{
+  "id": "ch-14-homework-6-14",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-6-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Transformation and Style "
+},
+{
+  "id": "ch-14-homework-6-15",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-6-15",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "25. "
+},
+{
+  "id": "ch-14-homework-6-16",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-6-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Statement: "
+},
+{
+  "id": "ch-14-homework-6-21",
+  "level": "2",
+  "url": "ch-14-homework.html#ch-14-homework-6-21",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "26. "
 },
 {
   "id": "ch-14-nominals-11",
@@ -1132,7 +4156,268 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "15.9",
   "title": "Homework: Punctuation",
-  "body": " Homework: Punctuation  Instructions: Add commas where needed and briefly explain each comma's function (compound sentence, introductory element, series, nonrestrictive modifier, etc.).  Question 1.  After the storm passed we surveyed the damage.  Corrected:  Function(s):  Question 2.  She is talented hardworking and creative.  Corrected:  Function(s):  Question 3.  My brother who lives in Seattle is visiting next week.  Corrected:  Function(s):  Question 4.  The meeting was productive but it ran overtime.  Corrected:  Function(s):  Question 5. Explain why this sentence does NOT need a comma:  The students who completed the assignment received extra credit.  Instructions: Choose the correct punctuation mark and explain why.  Question 6.  She had one goal ( : \/ ; ) to finish the project.  Choice and reasoning:  Question 7.  The rain stopped ( : \/ ; ) we went outside.  Choice and reasoning:  Question 8.  The panel includes Dr. Lee, president ( , \/ ; ) Ms. Park, secretary ( , \/ ; ) and Mr. Kim, treasurer.  Choice and reasoning:  Instructions: Correct any apostrophe errors.  Question 9.  Its important to understand it's function.  Corrected:  Question 10.  The students books are on the table.  Corrected:  Question 11.  The Joneses car is in the driveway.  Corrected:  Question 12.  Theyre going to their house over there.  Corrected:  Instructions: Punctuate the following passages completely.  Question 13.  When the meeting ended the participants left however several stayed behind to discuss the proposal the main question was this should they proceed  Punctuated:  Question 14.  The report which took three months to complete contained the following recommendations reduce costs improve efficiency and increase training however the board rejected the proposals  Punctuated:  Question 15. The following sentences are punctuated differently. Explain how the meaning changes:  a) The students who studied passed the exam.  b) The students, who studied, passed the exam.  Explanation:  Question 16. Find a paragraph from your own writing or from published writing. Identify at least three different punctuation marks and explain the grammatical reason for each.  Paragraph (copy or describe):  Punctuation mark 1:  Reason:  Punctuation mark 2:  Reason:  Punctuation mark 3:  Reason:  Question 17. What punctuation rules do you find most confusing or difficult to apply consistently? What strategy might help you master them?   Terminal punctuation (period, question mark, exclamation point) ends sentences.  Commas separate elements, set off nonrestrictive modifiers, and join clauses with conjunctions.  Semicolons join related independent clauses and separate items in complex lists.  Colons introduce lists and explanations after complete sentences.  Apostrophes show possession and indicate contractions.  Dashes emphasize interrupting material; parentheses de-emphasize supplementary information.  Quotation marks enclose direct speech and titles of shorter works.   "
+  "body": " Homework: Punctuation   Part 1: Comma Usage (approx. 10 minutes)  Instructions: Add commas where needed in each sentence and briefly explain the function of each comma you add (compound sentence, introductory element, series, nonrestrictive modifier, coordinate adjectives, etc.).  Example (completed):  Sentence:  After the meeting ended we discussed the proposal.  Corrected: After the meeting ended, we discussed the proposal.  Function: comma after introductory adverb clause  1.  When the storm passed we surveyed the damage and began cleanup efforts.  Corrected:  Function(s):  2.  She is talented hardworking and creative.  Corrected:  Function(s):  3.  My brother who lives in Seattle is visiting next week.  Corrected:  Function(s):  4.  The meeting was productive but it ran overtime.  Corrected:  Function(s):  5.  The tall distinguished professor gave an inspiring lecture.  Corrected:  Function(s):  6. Explain why the following sentence does NOT need a comma:  The students who completed the assignment received extra credit.  Explanation:    Part 2: Semicolons and Colons (approx. 5 minutes)  Instructions: Choose the correct punctuation mark (colon or semicolon) for each sentence and explain your reasoning.  Example (completed):  Sentence:  She had three goals ( : \/ ; ) to finish her degree, to find a job, and to buy a house.  Choice: colon  Reasoning: A colon introduces a list after a complete sentence.  7.  She had one goal ( : \/ ; ) to finish the project on time.  Choice:  Reasoning:  8.  The rain stopped ( : \/ ; ) we went outside immediately.  Choice:  Reasoning:  9.  The committee includes three officers ( : \/ ; ) Dr. Lee, president; Ms. Park, secretary; and Mr. Kim, treasurer.  Choice:  Reasoning:  10.  He was exhausted ( : \/ ; ) however, he continued working.  Choice:  Reasoning:    Part 3: Apostrophes (approx. 5 minutes)  Instructions: Correct any apostrophe errors in each sentence.  Example (completed):  Sentence:  The dogs tail was wagging.  Corrected: The dog's tail was wagging.  11.  Its important to understand its function in the sentence.  Corrected:  12.  The students books were left in the classroom.  Corrected:  13.  The Joneses car is parked in the driveway.  Corrected:  14.  Theyre going to their house over there.  Corrected:  15.  The womens team won the championship.  Corrected:    Part 4: Comprehensive Punctuation (approx. 10 minutes)  Instructions: Add all necessary punctuation to the following passages.  Example (completed):  Unpunctuated:  When she arrived the meeting had already started however no one seemed to mind  Punctuated: When she arrived, the meeting had already started; however, no one seemed to mind.  16.  When the meeting ended the participants left quickly however several stayed behind to discuss the proposal the main question was this should they proceed  Punctuated:  17.  The report which took three months to complete contained the following recommendations reduce costs improve efficiency and increase employee training however the board rejected all three proposals  Punctuated:  18.  Dr Smith who has been teaching for twenty years said I believe that students learn best when theyre engaged in meaningful activities  Punctuated:    Part 5: Analysis and Application (approx. 10 minutes)  Instructions: Answer the following questions about punctuation.  Meaning and Punctuation  19. The following sentences are punctuated differently. Explain how the meaning changes:  a) The students who studied passed the exam.  b) The students, who studied, passed the exam.  Explanation of (a):  Explanation of (b):  How does punctuation change the meaning?  Real-World Application  20. Find or create a paragraph of 3-4 sentences. Identify at least four different punctuation marks and explain the grammatical reason for each.  Paragraph:  Punctuation mark 1:  Reason:  Punctuation mark 2:  Reason:  Punctuation mark 3:  Reason:  Punctuation mark 4:  Reason:  Reflection  21. Answer the following questions:  a) What punctuation rule do you find most confusing or difficult to apply consistently?  b) Why do you think this rule is challenging?  c) What strategy might help you master it?   Total estimated time: 40 minutes  "
+},
+{
+  "id": "ch-15-homework-2-3",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-2-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-15-homework-2-7",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-2-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "1. "
+},
+{
+  "id": "ch-15-homework-2-10",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-2-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "2. "
+},
+{
+  "id": "ch-15-homework-2-13",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-2-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "3. "
+},
+{
+  "id": "ch-15-homework-2-16",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-2-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "4. "
+},
+{
+  "id": "ch-15-homework-2-19",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-2-19",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "5. "
+},
+{
+  "id": "ch-15-homework-2-22",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-2-22",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "6. "
+},
+{
+  "id": "ch-15-homework-3-3",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-3-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-15-homework-3-7",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-3-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "7. "
+},
+{
+  "id": "ch-15-homework-3-10",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-3-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "8. "
+},
+{
+  "id": "ch-15-homework-3-13",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-3-13",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "9. "
+},
+{
+  "id": "ch-15-homework-3-16",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-3-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "10. "
+},
+{
+  "id": "ch-15-homework-4-3",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-4-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-15-homework-4-6",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-4-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "11. "
+},
+{
+  "id": "ch-15-homework-4-8",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-4-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "12. "
+},
+{
+  "id": "ch-15-homework-4-10",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-4-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "13. "
+},
+{
+  "id": "ch-15-homework-4-12",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-4-12",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "14. "
+},
+{
+  "id": "ch-15-homework-4-14",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-4-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "15. "
+},
+{
+  "id": "ch-15-homework-5-3",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-5-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Example (completed): "
+},
+{
+  "id": "ch-15-homework-5-4",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-5-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Unpunctuated: "
+},
+{
+  "id": "ch-15-homework-5-6",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-5-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "16. "
+},
+{
+  "id": "ch-15-homework-5-8",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-5-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "17. "
+},
+{
+  "id": "ch-15-homework-5-10",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-5-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "18. "
+},
+{
+  "id": "ch-15-homework-6-3",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-6-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Meaning and Punctuation "
+},
+{
+  "id": "ch-15-homework-6-4",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-6-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "19. "
+},
+{
+  "id": "ch-15-homework-6-10",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-6-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Real-World Application "
+},
+{
+  "id": "ch-15-homework-6-11",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-6-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "20. "
+},
+{
+  "id": "ch-15-homework-6-21",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-6-21",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Reflection "
+},
+{
+  "id": "ch-15-homework-6-22",
+  "level": "2",
+  "url": "ch-15-homework.html#ch-15-homework-6-22",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "21. "
 },
 {
   "id": "ch-15-punctuation-12",
