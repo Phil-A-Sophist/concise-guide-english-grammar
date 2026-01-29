@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-08-basic-sentence-elements-and-sentence-patterns" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Basic Sentence Elements and Sentence Patterns</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Identify subjects and predicates in sentences</p></li>
+      <li><p>Recognize the six fundamental sentence patterns in English</p></li>
+      <li><p>Distinguish between different types of complements (objects and subject complements)</p></li>
+      <li><p>Understand the concept of verb valency and how it determines sentence structure</p></li>
+      <li><p>Analyze sentences in terms of their core arguments and optional adverbials</p></li>
+      <li><p>Apply a systematic method for determining which pattern a sentence follows</p></li>
+      <li><p>Subject</p></li>
+      <li><p>Predicate</p></li>
+      <li><p>Direct object</p></li>
+      <li><p>Indirect object</p></li>
+      <li><p>Subject complement</p></li>
+      <li><p>Object complement</p></li>
+      <li><p>Adverbial</p></li>
+      <li><p>Argument</p></li>
+      <li><p>Valency</p></li>
+      <li><p>Intransitive</p></li>
+      <li><p>Transitive</p></li>
+      <li><p>Ditransitive</p></li>
+      <li><p>Linking verb</p></li>
+      <li><p>Copular verb</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-81">
+    <title>The Two Core Parts: Subject and Predicate</title>
+
+    <p>Every complete sentence has two fundamental parts: a <em>subject</em> and a <em>predicate</em>.</p>
+
+    <paragraphs>
+      <title>The Subject</title>
+    </paragraphs>
+
+    <p>The <em>subject</em> is what the sentence is about—typically who or what performs the action or is described. The subject is usually a noun phrase.</p>
+
+    <p><em>Examples:</em></p>
+
+    <ul>
+      <li><p><em><em>The tall man</em> walked slowly.</em></p></li>
+      <li><p><em><em>Three ambitious students from Pueblo</em> study hard.</em></p></li>
+      <li><p><em><em>Swimming</em> is fun.</em></p></li>
+      <li><p><em><em>What she said</em> surprised everyone.</em></p></li>
+    </ul>
+
+    <p><em>Finding the subject:</em></p>
+
+    <ul>
+      <li><p>Ask &quot;Who or what [verb]?&quot;</p></li>
+      <li><p><em>The tall man walked.</em> → Who walked? → <em>The tall man</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>The Predicate</title>
+    </paragraphs>
+
+    <p>The <em>predicate</em> is everything that is said about the subject. It always includes a verb phrase and may include objects, complements, and adverbials.</p>
+
+    <p><em>Examples:</em></p>
+
+    <ul>
+      <li><p><em>The tall man <em>walked slowly</em>.</em></p></li>
+      <li><p><em>Three students <em>study in the library every evening</em>.</em></p></li>
+      <li><p><em>She <em>is a talented musician from Argentina</em>.</em></p></li>
+    </ul>
+
+    <p><em>The predicate includes:</em></p>
+
+    <ul>
+      <li><p>The main verb (required)</p></li>
+      <li><p>Objects and complements (depending on verb type)</p></li>
+      <li><p>Adverbials (optional)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Subject-Predicate Division</title>
+    </paragraphs>
+
+    <p>Every sentence divides into these two parts:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Subject</cell>
+        <cell>Predicate</cell>
+      </row>
+      <row>
+        <cell><em>Dogs</em></cell>
+        <cell><em>bark.</em></cell>
+      </row>
+      <row>
+        <cell><em>The young artist</em></cell>
+        <cell><em>painted beautiful landscapes.</em></cell>
+      </row>
+      <row>
+        <cell><em>My neighbor's daughter from next door</em></cell>
+        <cell><em>won the competition last week.</em></cell>
+      </row>
+    </tabular>
+
+  </section>
+
+  <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-82">
+    <title>Complements: Objects and Subject Complements</title>
+
+    <p><em>Complements</em> are elements required by the verb to complete the sentence's meaning. They differ from adverbials, which are optional.</p>
+
+    <paragraphs>
+      <title>Direct Objects</title>
+    </paragraphs>
+
+    <p>The <em>direct object</em> receives the action of the verb. It answers &quot;What?&quot; or &quot;Whom?&quot;</p>
+
+    <p><em>Examples:</em></p>
+
+    <ul>
+      <li><p><em>Weasels stalk <em>rabbits</em>.</em> (stalk what? → rabbits)</p></li>
+      <li><p><em>She read <em>the book</em>.</em> (read what? → the book)</p></li>
+      <li><p><em>I saw <em>him</em>.</em> (saw whom? → him)</p></li>
+    </ul>
+
+    <p>Direct objects are always noun phrases (or clauses functioning as NPs).</p>
+
+    <paragraphs>
+      <title>Indirect Objects</title>
+    </paragraphs>
+
+    <p>The <em>indirect object</em> indicates the recipient or beneficiary of the action. It answers &quot;To whom?&quot; or &quot;For whom?&quot;</p>
+
+    <p><em>Examples:</em></p>
+
+    <ul>
+      <li><p><em>Marie sent <em>Ramon</em> a birthday gift.</em> (sent to whom? → Ramon)</p></li>
+      <li><p><em>She gave <em>me</em> the book.</em> (gave to whom? → me)</p></li>
+      <li><p><em>He told <em>the students</em> a story.</em> (told to whom? → the students)</p></li>
+    </ul>
+
+    <p>Indirect objects:</p>
+
+    <ul>
+      <li><p>Appear between the verb and direct object</p></li>
+      <li><p>Are always noun phrases</p></li>
+      <li><p>Can be rephrased with <em>to</em> or <em>for</em>: <em>She gave the book <em>to me</em>.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Subject Complements</title>
+    </paragraphs>
+
+    <p>A <em>subject complement</em> describes or identifies the subject. It follows a linking verb (<em>be</em>, <em>become</em>, <em>seem</em>, <em>appear</em>, <em>feel</em>, etc.).</p>
+
+    <p><em>Examples:</em></p>
+
+    <ul>
+      <li><p><em>I am <em>an optimist</em>.</em> (NP—identifies subject)</p></li>
+      <li><p><em>The writers are <em>very cold</em>.</em> (AdjP—describes subject)</p></li>
+      <li><p><em>He seems <em>in trouble</em>.</em> (PP—describes subject)</p></li>
+    </ul>
+
+    <p>Subject complements can be:</p>
+
+    <ul>
+      <li><p>Noun phrases: <em>She is <em>a nurse</em>.</em></p></li>
+      <li><p>Adjective phrases: <em>The trail looked <em>steep</em>.</em></p></li>
+      <li><p>Prepositional phrases: <em>He seems <em>in good spirits</em>.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Object Complements</title>
+    </paragraphs>
+
+    <p>An <em>object complement</em> describes or identifies the direct object. It follows certain transitive verbs.</p>
+
+    <p><em>Examples:</em></p>
+
+    <ul>
+      <li><p><em>The director considered the performance <em>a success</em>.</em> (NP—identifies DO)</p></li>
+      <li><p><em>The critic called the acting <em>brilliant</em>.</em> (AdjP—describes DO)</p></li>
+      <li><p><em>They elected her <em>president</em>.</em> (NP—identifies DO)</p></li>
+    </ul>
+
+    <p>Object complements can be noun phrases or adjective phrases.</p>
+
+  </section>
+
+  <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-83">
+    <title>Arguments vs. Adverbials</title>
+
+    <p>Understanding the difference between <em>arguments</em> (required elements) and <em>adverbials</em> (optional elements) is crucial for sentence analysis.</p>
+
+    <paragraphs>
+      <title>Arguments</title>
+    </paragraphs>
+
+    <p><em>Arguments</em> are the elements that a verb requires to form a complete, grammatical sentence. They include:</p>
+
+    <ul>
+      <li><p>Subject (required for all sentences)</p></li>
+      <li><p>Direct object (for transitive verbs)</p></li>
+      <li><p>Indirect object (for ditransitive verbs)</p></li>
+      <li><p>Subject complement (for linking verbs)</p></li>
+      <li><p>Object complement (for some transitive verbs)</p></li>
+    </ul>
+
+    <p><em>Test:</em> If you remove an argument, the sentence becomes ungrammatical or changes meaning dramatically.</p>
+
+    <p><em>She put the book on the table.</em></p>
+
+    <ul>
+      <li><p>Remove <em>the book</em>: <em>~~She put on the table.~~</em> ✗</p></li>
+      <li><p>Remove <em>on the table</em>: <em>~~She put the book.~~</em> ✗</p></li>
+      <li><p>All three elements are arguments of <em>put</em>.</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Adverbials</title>
+    </paragraphs>
+
+    <p><em>Adverbials</em> provide additional information about time, place, manner, reason, etc. They are optional—the sentence is grammatical without them.</p>
+
+    <p><em>Examples:</em></p>
+
+    <ul>
+      <li><p><em>Accidents happen <em>on Mondays</em>.</em> (when)</p></li>
+      <li><p><em>She spoke <em>quietly</em>.</em> (how)</p></li>
+      <li><p><em><em>Unfortunately</em>, we lost.</em> (attitude)</p></li>
+      <li><p><em>He works <em>at the hospital</em> <em>every day</em>.</em> (where, when)</p></li>
+    </ul>
+
+    <p><em>Test:</em> If you remove an adverbial, the sentence remains grammatical.</p>
+
+    <p><em>She spoke quietly in the library.</em></p>
+
+    <ul>
+      <li><p>Remove <em>quietly</em>: <em>She spoke in the library.</em> ✓</p></li>
+      <li><p>Remove <em>in the library</em>: <em>She spoke quietly.</em> ✓</p></li>
+      <li><p>Both are adverbials—optional modifiers.</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Distinguishing Arguments from Adverbials</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Arguments</cell>
+        <cell>Adverbials</cell>
+      </row>
+      <row>
+        <cell>Required by verb</cell>
+        <cell>Optional</cell>
+      </row>
+      <row>
+        <cell>Limited in number per verb</cell>
+        <cell>Unlimited</cell>
+      </row>
+      <row>
+        <cell>Cannot be moved as freely</cell>
+        <cell>Often movable</cell>
+      </row>
+      <row>
+        <cell>Removal changes grammaticality</cell>
+        <cell>Removal leaves grammatical sentence</cell>
+      </row>
+    </tabular>
+
+    <p><em>Compare:</em></p>
+
+    <ul>
+      <li><p><em>She put the book <em>on the table</em>.</em> (argument—required by <em>put</em>)</p></li>
+      <li><p><em>She read the book <em>on the table</em>.</em> (adverbial—optional location)</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-84">
+    <title>Verb Valency</title>
+
+    <p><em>Valency</em> refers to the number and types of arguments a verb requires. Different verbs have different valencies, and this determines sentence structure.</p>
+
+    <paragraphs>
+      <title>The Verb as the Sentence's Architect</title>
+    </paragraphs>
+
+    <p>The main verb determines what other elements must appear in the sentence. Think of the verb as an architect's blueprint—it specifies how many &quot;slots&quot; need to be filled and what types of elements fill them.</p>
+
+    <ul>
+      <li><p><em>Sleep</em> requires only a subject (1 argument)</p></li>
+      <li><p><em>Read</em> typically requires a subject and object (2 arguments)</p></li>
+      <li><p><em>Give</em> requires a subject, indirect object, and direct object (3 arguments)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Valency Categories</title>
+    </paragraphs>
+
+    <p><em>Intransitive Verbs (Valency: 1)</em></p>
+
+    <p>Require only a subject:</p>
+
+    <ul>
+      <li><p><em>Cameras <em>flashed</em>.</em></p></li>
+      <li><p><em>The baby <em>slept</em>.</em></p></li>
+      <li><p><em>Accidents <em>happen</em>.</em></p></li>
+    </ul>
+
+    <p><em>Transitive Verbs (Valency: 2)</em></p>
+
+    <p>Require a subject and a direct object:</p>
+
+    <ul>
+      <li><p><em>Weasels <em>stalk</em> rabbits.</em></p></li>
+      <li><p><em>She <em>read</em> the book.</em></p></li>
+      <li><p><em>They <em>completed</em> the project.</em></p></li>
+    </ul>
+
+    <p><em>Ditransitive Verbs (Valency: 3)</em></p>
+
+    <p>Require a subject, direct object, and indirect object (or object complement):</p>
+
+    <ul>
+      <li><p><em>Marie <em>sent</em> Ramon a gift.</em> (S + IO + DO)</p></li>
+      <li><p><em>She <em>gave</em> me the book.</em> (S + IO + DO)</p></li>
+      <li><p><em>The director <em>considered</em> the performance a success.</em> (S + DO + OC)</p></li>
+    </ul>
+
+    <p><em>Linking Verbs (Valency: 2)</em></p>
+
+    <p>Require a subject and subject complement:</p>
+
+    <ul>
+      <li><p><em>She <em>is</em> a doctor.</em> (S + SC)</p></li>
+      <li><p><em>The trail <em>looked</em> steep.</em> (S + SC)</p></li>
+      <li><p><em>He <em>became</em> president.</em> (S + SC)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Verbs with Variable Valency</title>
+    </paragraphs>
+
+    <p>Some verbs can be used with different valencies:</p>
+
+    <p><em>Eat:</em></p>
+
+    <ul>
+      <li><p>Intransitive: <em>We ate.</em> (1 argument)</p></li>
+      <li><p>Transitive: <em>We ate dinner.</em> (2 arguments)</p></li>
+    </ul>
+
+    <p><em>Give:</em></p>
+
+    <ul>
+      <li><p>Ditransitive: <em>She gave me a book.</em> (3 arguments)</p></li>
+      <li><p>Transitive + PP: <em>She gave a book to me.</em> (2 arguments + PP adverbial)</p></li>
+    </ul>
+
+    <p><em>Run:</em></p>
+
+    <ul>
+      <li><p>Intransitive: <em>She runs.</em> (1 argument)</p></li>
+      <li><p>Transitive: <em>She runs a business.</em> (2 arguments)</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-85">
+    <title>The Six Sentence Patterns</title>
+
+    <p>Every complete sentence in English follows one of six basic structural patterns. These patterns are determined by verb type and required elements.</p>
+
+    <paragraphs>
+      <title>Pattern 1: Intransitive (S + V)</title>
+    </paragraphs>
+
+    <p><em>Structure:</em> Subject + Verb</p>
+
+    <p><em>Intransitive verbs</em> express complete actions or states without needing a receiver.</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Subject</cell>
+        <cell>Verb</cell>
+      </row>
+      <row>
+        <cell>Thunder</cell>
+        <cell>rumbled</cell>
+      </row>
+      <row>
+        <cell>My grandmother</cell>
+        <cell>sneezed</cell>
+      </row>
+      <row>
+        <cell>The toast</cell>
+        <cell>burned</cell>
+      </row>
+      <row>
+        <cell>Her voice</cell>
+        <cell>trembled</cell>
+      </row>
+    </tabular>
+
+    <p><em>What makes it intransitive?</em></p>
+
+    <p>The verb alone completes the thought. Adverbials can be added but are not required:</p>
+
+    <ul>
+      <li><p><em>Thunder rumbled <em>across the valley</em>.</em> (still intransitive)</p></li>
+      <li><p><em>My grandmother sneezed <em>violently</em>.</em> (still intransitive)</p></li>
+    </ul>
+
+    <p><em>Exclusively intransitive verbs:</em></p>
+
+    <p><em>arrive</em>, <em>collapse</em>, <em>disappear</em>, <em>emerge</em>, <em>exist</em>, <em>fall</em>, <em>hesitate</em>, <em>occur</em>, <em>sneeze</em>, <em>vanish</em></p>
+
+    <p>You cannot say <em>~~She arrived the station~~</em> or <em>~~The building collapsed the roof~~</em>.</p>
+
+    <paragraphs>
+      <title>Pattern 2: Copular *Be* (S + *Be* + SC)</title>
+    </paragraphs>
+
+    <p><em>Structure:</em> Subject + <em>Be</em> + Subject Complement</p>
+
+    <p>The verb <em>be</em> links the subject to a <em>subject complement</em>—a word or phrase that describes or identifies the subject.</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Subject</cell>
+        <cell>Be</cell>
+        <cell>Subject Complement</cell>
+        <cell>Type</cell>
+      </row>
+      <row>
+        <cell>She</cell>
+        <cell>is</cell>
+        <cell>a violinist</cell>
+        <cell>NP</cell>
+      </row>
+      <row>
+        <cell>The solution</cell>
+        <cell>was</cell>
+        <cell>surprisingly simple</cell>
+        <cell>AdjP</cell>
+      </row>
+      <row>
+        <cell>My keys</cell>
+        <cell>are</cell>
+        <cell>under the cushion</cell>
+        <cell>PP</cell>
+      </row>
+      <row>
+        <cell>Tomorrow</cell>
+        <cell>will be</cell>
+        <cell>Tuesday</cell>
+        <cell>NP</cell>
+      </row>
+    </tabular>
+
+    <p><em>Three types of subject complements:</em></p>
+
+    <ul>
+      <li><p><em>Noun Phrase (NP)</em>: Identifies who/what the subject is</p></li>
+      <li><p><em>Marcus <em>is a carpenter</em>.</em></p></li>
+    </ul>
+
+    <ul>
+      <li><p><em>Adjective Phrase (AdjP)</em>: Describes a quality of the subject</p></li>
+      <li><p><em>The water <em>is cold</em>.</em></p></li>
+    </ul>
+
+    <ul>
+      <li><p><em>Prepositional Phrase (PP)</em>: Locates or describes the subject</p></li>
+      <li><p><em>The restaurant <em>is around the corner</em>.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Pattern 3: Linking Verb (S + LV + SC)</title>
+    </paragraphs>
+
+    <p><em>Structure:</em> Subject + Linking Verb + Subject Complement</p>
+
+    <p><em>Linking verbs</em> work like <em>be</em>—they connect the subject to a complement that describes or identifies it.</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Subject</cell>
+        <cell>Linking Verb</cell>
+        <cell>Subject Complement</cell>
+        <cell>Type</cell>
+      </row>
+      <row>
+        <cell>The bread</cell>
+        <cell>smells</cell>
+        <cell>wonderful</cell>
+        <cell>AdjP</cell>
+      </row>
+      <row>
+        <cell>Her excuse</cell>
+        <cell>sounded</cell>
+        <cell>plausible</cell>
+        <cell>AdjP</cell>
+      </row>
+      <row>
+        <cell>That musician</cell>
+        <cell>became</cell>
+        <cell>famous</cell>
+        <cell>AdjP</cell>
+      </row>
+      <row>
+        <cell>The caterpillar</cell>
+        <cell>became</cell>
+        <cell>a butterfly</cell>
+        <cell>NP</cell>
+      </row>
+    </tabular>
+
+    <p><em>The substitution test:</em></p>
+
+    <p>If you can replace the verb with a form of <em>be</em> and the sentence still makes sense, the verb is linking:</p>
+
+    <ul>
+      <li><p><em>The bread smells wonderful.</em> → <em>The bread <em>is</em> wonderful.</em> ✓ (Linking)</p></li>
+      <li><p><em>The detective smells trouble.</em> → <em>The detective <em>is</em> trouble.</em> ✗ (Not linking—transitive!)</p></li>
+    </ul>
+
+    <p><em>Common linking verbs:</em></p>
+
+    <p><em>appear</em>, <em>become</em>, <em>feel</em>, <em>get</em>, <em>grow</em>, <em>look</em>, <em>prove</em>, <em>remain</em>, <em>seem</em>, <em>smell</em>, <em>sound</em>, <em>stay</em>, <em>taste</em>, <em>turn</em></p>
+
+    <p><em>Warning</em>: Many of these verbs can also be transitive:</p>
+
+    <ul>
+      <li><p><em>She <em>felt</em> nervous.</em> (linking—&quot;nervous&quot; describes &quot;she&quot;)</p></li>
+      <li><p><em>She <em>felt</em> the fabric.</em> (transitive—&quot;fabric&quot; is a direct object)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Pattern 4: Transitive (S + V + DO)</title>
+    </paragraphs>
+
+    <p><em>Structure:</em> Subject + Verb + Direct Object</p>
+
+    <p><em>Transitive verbs</em> require a direct object—an NP that receives the action.</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Subject</cell>
+        <cell>Verb</cell>
+        <cell>Direct Object</cell>
+      </row>
+      <row>
+        <cell>Squirrels</cell>
+        <cell>gather</cell>
+        <cell>acorns</cell>
+      </row>
+      <row>
+        <cell>The tornado</cell>
+        <cell>destroyed</cell>
+        <cell>the barn</cell>
+      </row>
+      <row>
+        <cell>Nobody</cell>
+        <cell>expected</cell>
+        <cell>this outcome</cell>
+      </row>
+      <row>
+        <cell>Lightning</cell>
+        <cell>struck</cell>
+        <cell>the old oak</cell>
+      </row>
+    </tabular>
+
+    <p><em>Direct object tests:</em></p>
+
+    <ol>
+      <li><p>Ask &quot;verb what?&quot; or &quot;verb whom?&quot;: <em>Squirrels gather <em>what</em>?</em> → <em>acorns</em></p></li>
+      <li><p>Pronoun replacement: <em>She finished her dissertation.</em> → <em>She finished <em>it</em>.</em></p></li>
+      <li><p>Passive transformation: <em>Lightning struck the oak.</em> → <em>The oak was struck.</em></p></li>
+    </ol>
+
+    <paragraphs>
+      <title>Pattern 5: Ditransitive (S + V + IO + DO)</title>
+    </paragraphs>
+
+    <p><em>Structure:</em> Subject + Verb + Indirect Object + Direct Object</p>
+
+    <p>Some transitive verbs take two objects: an <em>indirect object</em> (the recipient) followed by a <em>direct object</em> (the thing transferred).</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Subject</cell>
+        <cell>Verb</cell>
+        <cell>Indirect Object</cell>
+        <cell>Direct Object</cell>
+      </row>
+      <row>
+        <cell>The librarian</cell>
+        <cell>handed</cell>
+        <cell>me</cell>
+        <cell>a book</cell>
+      </row>
+      <row>
+        <cell>She</cell>
+        <cell>told</cell>
+        <cell>the children</cell>
+        <cell>a story</cell>
+      </row>
+      <row>
+        <cell>The company</cell>
+        <cell>offered</cell>
+        <cell>employees</cell>
+        <cell>free parking</cell>
+      </row>
+      <row>
+        <cell>The chef</cell>
+        <cell>made</cell>
+        <cell>us</cell>
+        <cell>a special dessert</cell>
+      </row>
+    </tabular>
+
+    <p><em>Identifying indirect objects:</em></p>
+
+    <ol>
+      <li><p><em>To/For paraphrase</em>: You can rephrase with &quot;to&quot; or &quot;for&quot;:</p></li>
+    </ol>
+
+    <ul>
+      <li><p><em>The librarian handed me a book.</em> → <em>...handed a book <em>to me</em>.</em></p></li>
+      <li><p><em>The chef made us a dessert.</em> → <em>...made a dessert <em>for us</em>.</em></p></li>
+    </ul>
+
+    <ol>
+      <li><p><em>Order matters</em>: IO comes before DO</p></li>
+    </ol>
+
+    <p><em>Common ditransitive verbs:</em></p>
+
+    <p><em>award</em>, <em>bring</em>, <em>buy</em>, <em>cook</em>, <em>give</em>, <em>grant</em>, <em>hand</em>, <em>lend</em>, <em>make</em>, <em>offer</em>, <em>owe</em>, <em>pass</em>, <em>pay</em>, <em>promise</em>, <em>read</em>, <em>sell</em>, <em>send</em>, <em>show</em>, <em>teach</em>, <em>tell</em>, <em>throw</em>, <em>write</em></p>
+
+    <paragraphs>
+      <title>Pattern 6: Ditransitive (S + V + DO + OC)</title>
+    </paragraphs>
+
+    <p><em>Structure:</em> Subject + Verb + Direct Object + Object Complement</p>
+
+    <p>Some verbs take a direct object followed by an <em>object complement</em>—a word or phrase that describes or identifies the direct object.</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Subject</cell>
+        <cell>Verb</cell>
+        <cell>Direct Object</cell>
+        <cell>Object Complement</cell>
+        <cell>Type</cell>
+      </row>
+      <row>
+        <cell>The jury</cell>
+        <cell>found</cell>
+        <cell>her</cell>
+        <cell>guilty</cell>
+        <cell>AdjP</cell>
+      </row>
+      <row>
+        <cell>Critics</cell>
+        <cell>called</cell>
+        <cell>the film</cell>
+        <cell>a masterpiece</cell>
+        <cell>NP</cell>
+      </row>
+      <row>
+        <cell>The heat</cell>
+        <cell>made</cell>
+        <cell>everyone</cell>
+        <cell>irritable</cell>
+        <cell>AdjP</cell>
+      </row>
+      <row>
+        <cell>They</cell>
+        <cell>elected</cell>
+        <cell>her</cell>
+        <cell>president</cell>
+        <cell>NP</cell>
+      </row>
+    </tabular>
+
+    <p><em>Distinguishing Pattern 5 from Pattern 6:</em></p>
+
+    <ul>
+      <li><p><em>Pattern 5 (IO + DO)</em>: The two NPs refer to <em>different</em> things:</p></li>
+      <li><p><em>She gave <em>Marcus</em> <em>a book</em>.</em> (Marcus ≠ book)</p></li>
+    </ul>
+
+    <ul>
+      <li><p><em>Pattern 6 (DO + OC)</em>: The complement describes or equals the DO:</p></li>
+      <li><p><em>They elected <em>her</em> <em>president</em>.</em> (her = president)</p></li>
+    </ul>
+
+    <p><em>Common DO + OC verbs:</em></p>
+
+    <p><em>appoint</em>, <em>believe</em>, <em>call</em>, <em>consider</em>, <em>declare</em>, <em>deem</em>, <em>elect</em>, <em>find</em>, <em>keep</em>, <em>label</em>, <em>leave</em>, <em>make</em>, <em>name</em>, <em>paint</em>, <em>prove</em>, <em>render</em>, <em>think</em></p>
+
+  </section>
+
+  <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-86">
+    <title>A Systematic Approach to Pattern Identification</title>
+
+    <paragraphs>
+      <title>Step-by-Step Process</title>
+    </paragraphs>
+
+    <ol>
+      <li><p><em>Find the main verb</em> (not auxiliaries like <em>has</em>, <em>will</em>, <em>been</em>)</p></li>
+    </ol>
+
+    <ol>
+      <li><p><em>Identify the subject</em> (the NP before the verb)</p></li>
+    </ol>
+
+    <ol>
+      <li><p><em>Set aside adverbials</em> (time, place, manner, reason phrases)</p></li>
+    </ol>
+
+    <ol>
+      <li><p>*<em>Check for </em>be<em> first</em>* → If yes, Pattern 2 (Copular Be)</p></li>
+    </ol>
+
+    <ol>
+      <li><p>*<em>Apply the </em>be<em> substitution test</em>* → If it works, Pattern 3 (Linking)</p></li>
+    </ol>
+
+    <ol>
+      <li><p><em>Examine what follows the verb</em>:</p></li>
+    </ol>
+
+    <ul>
+      <li><p>Nothing → Pattern 1 (Intransitive)</p></li>
+      <li><p>One NP → Pattern 4 (Transitive)</p></li>
+      <li><p>Two NPs or NP + AdjP → Continue to step 7</p></li>
+    </ul>
+
+    <ol>
+      <li><p><em>For two elements after the verb, ask</em>: Do they refer to the same thing?</p></li>
+    </ol>
+
+    <ul>
+      <li><p>Same thing → Pattern 6 (DO + OC)</p></li>
+      <li><p>Different things → Pattern 5 (IO + DO)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Worked Example</title>
+    </paragraphs>
+
+    <p><em>Sentence</em>: <em>On Tuesday, the committee unanimously declared the proposal inadequate.</em></p>
+
+    <ol>
+      <li><p>Main verb: <em>declared</em></p></li>
+      <li><p>Subject: <em>the committee</em></p></li>
+      <li><p>Adverbials: <em>On Tuesday</em> (time), <em>unanimously</em> (manner)—set aside</p></li>
+      <li><p>Is it <em>be</em>? No</p></li>
+      <li><p><em>Be</em> substitution: Not applicable here</p></li>
+      <li><p>What follows verb: <em>the proposal</em> (NP) + <em>inadequate</em> (AdjP)</p></li>
+      <li><p>Same thing? Yes—the proposal is described as inadequate</p></li>
+    </ol>
+
+    <p><em>Answer: Pattern 6 (DO + OC)</em></p>
+
+  </section>
+
+  <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-87">
+    <title>Common Misconceptions</title>
+
+    <paragraphs>
+      <title>&quot;Adverbials change the pattern&quot;</title>
+    </paragraphs>
+
+    <p><em>Wrong</em>: <em>The birds sang beautifully in the garden.</em> = Pattern 4?</p>
+
+    <p><em>Right</em>: Adverbials don't affect pattern. Remove them: <em>The birds sang.</em> = Pattern 1 (Intransitive)</p>
+
+    <paragraphs>
+      <title>&quot;A PP after the verb means transitive&quot;</title>
+    </paragraphs>
+
+    <p><em>Wrong</em>: <em>She walked to the store.</em> = Transitive with &quot;the store&quot; as object?</p>
+
+    <p><em>Right</em>: &quot;To the store&quot; is a PP functioning as adverbial. Pattern 1 (Intransitive)</p>
+
+    <paragraphs>
+      <title>&quot;Long sentences must be complex patterns&quot;</title>
+    </paragraphs>
+
+    <p><em>Wrong</em>: A long sentence must be Pattern 5 or 6?</p>
+
+    <p><em>Right</em>: Length doesn't determine pattern. <em>The exhausted marathon runner from Kenya who had trained for years finally collapsed at the finish line</em> is still Pattern 1 (Intransitive).</p>
+
+    <paragraphs>
+      <title>&quot;Linking verbs are always linking&quot;</title>
+    </paragraphs>
+
+    <p><em>Wrong</em>: &quot;Feel&quot; is always linking?</p>
+
+    <p><em>Right</em>: Many verbs can be linking OR transitive:</p>
+
+    <ul>
+      <li><p><em>The silk <em>feels</em> smooth.</em> (Pattern 3—linking)</p></li>
+      <li><p><em>She <em>felt</em> the bump.</em> (Pattern 4—transitive)</p></li>
+    </ul>
+
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Adverbial</title>
+      <p>An optional element providing information about time, place, manner, reason, etc.</p>
+    </gi>
+    <gi>
+      <title>Argument</title>
+      <p>An element required by a verb to form a grammatical sentence.</p>
+    </gi>
+    <gi>
+      <title>Copular verb</title>
+      <p>A form of <em>be</em> that links subject to complement.</p>
+    </gi>
+    <gi>
+      <title>Direct object</title>
+      <p>The NP that receives the action of a transitive verb.</p>
+    </gi>
+    <gi>
+      <title>Ditransitive verb</title>
+      <p>A verb requiring two objects or an object plus complement.</p>
+    </gi>
+    <gi>
+      <title>Indirect object</title>
+      <p>The NP indicating the recipient or beneficiary.</p>
+    </gi>
+    <gi>
+      <title>Intransitive verb</title>
+      <p>A verb requiring only a subject.</p>
+    </gi>
+    <gi>
+      <title>Linking verb</title>
+      <p>A verb that connects the subject to a complement describing it.</p>
+    </gi>
+    <gi>
+      <title>Object complement</title>
+      <p>An element describing or identifying the direct object.</p>
+    </gi>
+    <gi>
+      <title>Predicate</title>
+      <p>Everything said about the subject; includes the verb and its complements/adverbials.</p>
+    </gi>
+    <gi>
+      <title>Subject</title>
+      <p>The NP indicating what the sentence is about.</p>
+    </gi>
+    <gi>
+      <title>Subject complement</title>
+      <p>An element describing or identifying the subject after a linking verb.</p>
+    </gi>
+    <gi>
+      <title>Transitive verb</title>
+      <p>A verb requiring a direct object.</p>
+    </gi>
+    <gi>
+      <title>Valency</title>
+      <p>The number and types of arguments a verb requires.</p>
+    </gi>
+  </glossary>
+
+</chapter>

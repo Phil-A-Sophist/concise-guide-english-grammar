@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-12-adverbials" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Adverbials</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Distinguish between adverbs (form) and adverbials (function)</p></li>
+      <li><p>Identify the various structures that can function as adverbials</p></li>
+      <li><p>Classify adverbials by their semantic role (time, place, manner, reason, etc.)</p></li>
+      <li><p>Understand adverbial positions in sentences</p></li>
+      <li><p>Analyze adverb clauses and their subordinating conjunctions</p></li>
+      <li><p>Use adverbials effectively to add information and connect ideas</p></li>
+      <li><p>Adverb (form)</p></li>
+      <li><p>Adverbial (function)</p></li>
+      <li><p>Adjunct</p></li>
+      <li><p>Disjunct</p></li>
+      <li><p>Conjunct</p></li>
+      <li><p>Adverb clause</p></li>
+      <li><p>Subordinating conjunction</p></li>
+      <li><p>Adverbial position</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-12-adverbials-sec-121">
+    <title>Adverbs vs. Adverbials: Form vs. Function</title>
+
+    <p>Understanding the distinction between <em>adverbs</em> (a form/part of speech) and <em>adverbials</em> (a function) is crucial for accurate grammatical analysis.</p>
+
+    <paragraphs>
+      <title>Adverb as Form</title>
+    </paragraphs>
+
+    <p>An <em>adverb</em> is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Adverbs often end in <em>-ly</em>, can modify verbs/adjectives/adverbs, and cannot appear between determiner and noun.</p>
+
+    <ul>
+      <li><p><em>quickly</em>, <em>carefully</em>, <em>often</em>, <em>very</em>, <em>however</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Adverbial as Function</title>
+    </paragraphs>
+
+    <p>An <em>adverbial</em> is any word, phrase, or clause that <em>functions</em> to modify a verb, adjective, adverb, or sentence. This is a functional category, not a form category.</p>
+
+    <p><em>Key insight</em>: All adverbs functioning as modifiers are adverbials, but not all adverbials are adverbs.</p>
+
+  </section>
+
+  <section xml:id="ch-12-adverbials-sec-122">
+    <title>Structures That Function as Adverbials</title>
+
+    <p>Many different structures can serve the adverbial function.</p>
+
+    <paragraphs>
+      <title>1. Adverb Phrases</title>
+    </paragraphs>
+
+    <p>The prototypical adverbial is an adverb phrase:</p>
+
+    <ul>
+      <li><p><em>She spoke <em>quietly</em>.</em></p></li>
+      <li><p><em>He arrived <em>very late</em>.</em></p></li>
+      <li><p><em>They finished <em>remarkably quickly</em>.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>2. Prepositional Phrases</title>
+    </paragraphs>
+
+    <p>Prepositional phrases commonly function as adverbials:</p>
+
+    <ul>
+      <li><p><em>She works <em>in the city</em>.</em> (place)</p></li>
+      <li><p><em>He arrived <em>at noon</em>.</em> (time)</p></li>
+      <li><p><em>They spoke <em>with enthusiasm</em>.</em> (manner)</p></li>
+      <li><p><em>We left <em>because of the weather</em>.</em> (reason)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>3. Noun Phrases (Temporal/Spatial)</title>
+    </paragraphs>
+
+    <p>Certain noun phrases function adverbially, especially those indicating time or direction:</p>
+
+    <ul>
+      <li><p><em>She arrived <em>yesterday</em>.</em> (time)</p></li>
+      <li><p><em>They met <em>last week</em>.</em> (time)</p></li>
+      <li><p><em>The bird flew <em>north</em>.</em> (direction)</p></li>
+      <li><p><em>We walked <em>two miles</em>.</em> (extent)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>4. Adverb Clauses</title>
+    </paragraphs>
+
+    <p>Entire clauses introduced by subordinating conjunctions function as adverbials:</p>
+
+    <ul>
+      <li><p><em><em>When the bell rang</em>, students left.</em> (time)</p></li>
+      <li><p><em>She succeeded <em>because she worked hard</em>.</em> (reason)</p></li>
+      <li><p><em><em>Although it rained</em>, we continued.</em> (concession)</p></li>
+      <li><p><em><em>If you need help</em>, call me.</em> (condition)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>5. Infinitive Phrases</title>
+    </paragraphs>
+
+    <p>Infinitive phrases can function as adverbials (especially of purpose):</p>
+
+    <ul>
+      <li><p><em>She came <em>to help</em>.</em> (purpose)</p></li>
+      <li><p><em>He studied hard <em>to pass the exam</em>.</em> (purpose)</p></li>
+      <li><p><em><em>To succeed</em>, you must practice.</em> (purpose)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>6. Participial Phrases</title>
+    </paragraphs>
+
+    <p>Participial phrases can function adverbially:</p>
+
+    <ul>
+      <li><p><em><em>Knowing the answer</em>, she raised her hand.</em> (reason/cause)</p></li>
+      <li><p><em>He left, <em>having finished his work</em>.</em> (time/reason)</p></li>
+      <li><p><em><em>Exhausted</em>, she fell asleep.</em> (reason)</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-12-adverbials-sec-123">
+    <title>Semantic Roles of Adverbials</title>
+
+    <p>Adverbials are classified by the type of information they provide.</p>
+
+    <paragraphs>
+      <title>Time Adverbials</title>
+    </paragraphs>
+
+    <p>Answer: <em>When? How long? How often?</em></p>
+
+    <ul>
+      <li><p><em>She arrived <em>yesterday</em>.</em> (point in time)</p></li>
+      <li><p><em>They talked <em>for hours</em>.</em> (duration)</p></li>
+      <li><p><em>He visits <em>often</em>.</em> (frequency)</p></li>
+      <li><p><em>We'll meet <em>before noon</em>.</em> (temporal reference)</p></li>
+      <li><p><em><em>While I was sleeping</em>, someone called.</em> (clause)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Place Adverbials</title>
+    </paragraphs>
+
+    <p>Answer: <em>Where? In what direction?</em></p>
+
+    <ul>
+      <li><p><em>She works <em>downtown</em>.</em></p></li>
+      <li><p><em>They live <em>in Boston</em>.</em></p></li>
+      <li><p><em>The cat jumped <em>onto the table</em>.</em></p></li>
+      <li><p><em>He walked <em>toward the exit</em>.</em></p></li>
+      <li><p><em><em>Where the road ends</em>, the trail begins.</em> (clause)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Manner Adverbials</title>
+    </paragraphs>
+
+    <p>Answer: <em>How? In what way?</em></p>
+
+    <ul>
+      <li><p><em>She spoke <em>quietly</em>.</em></p></li>
+      <li><p><em>He handled it <em>with care</em>.</em></p></li>
+      <li><p><em>They danced <em>gracefully</em>.</em></p></li>
+      <li><p><em>She responded <em>as if she knew</em>.</em> (clause)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Reason/Cause Adverbials</title>
+    </paragraphs>
+
+    <p>Answer: <em>Why? For what reason?</em></p>
+
+    <ul>
+      <li><p><em>She left <em>because of the noise</em>.</em></p></li>
+      <li><p><em><em>Because she was tired</em>, she went home.</em> (clause)</p></li>
+      <li><p><em><em>Since you asked</em>, I'll explain.</em> (clause)</p></li>
+      <li><p><em><em>Being tired</em>, she went home.</em> (participial)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Purpose Adverbials</title>
+    </paragraphs>
+
+    <p>Answer: <em>For what purpose? Why?</em></p>
+
+    <ul>
+      <li><p><em>She came <em>for the meeting</em>.</em></p></li>
+      <li><p><em>He exercises <em>to stay healthy</em>.</em> (infinitive)</p></li>
+      <li><p><em>She spoke quietly <em>so that no one would hear</em>.</em> (clause)</p></li>
+      <li><p><em><em>In order to succeed</em>, you must practice.</em> (infinitive)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Condition Adverbials</title>
+    </paragraphs>
+
+    <p>Answer: <em>Under what conditions?</em></p>
+
+    <ul>
+      <li><p><em><em>If it rains</em>, we'll cancel.</em></p></li>
+      <li><p><em><em>Unless you study</em>, you won't pass.</em></p></li>
+      <li><p><em><em>Provided that you agree</em>, we can proceed.</em></p></li>
+      <li><p><em><em>In case of emergency</em>, call 911.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Concession Adverbials</title>
+    </paragraphs>
+
+    <p>Answer: <em>Despite what?</em></p>
+
+    <ul>
+      <li><p><em><em>Although she tried</em>, she failed.</em></p></li>
+      <li><p><em><em>Even though it was expensive</em>, he bought it.</em></p></li>
+      <li><p><em><em>Despite the rain</em>, we continued.</em></p></li>
+      <li><p><em>She succeeded, <em>though the odds were against her</em>.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Result Adverbials</title>
+    </paragraphs>
+
+    <p>Answer: <em>With what result?</em></p>
+
+    <ul>
+      <li><p><em>He was so tired <em>that he fell asleep</em>.</em></p></li>
+      <li><p><em>It rained <em>so hard that the roads flooded</em>.</em></p></li>
+      <li><p><em>She worked hard, <em>so she succeeded</em>.</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-12-adverbials-sec-124">
+    <title>Types of Adverbials: Adjuncts, Disjuncts, and Conjuncts</title>
+
+    <p>Linguists distinguish three functional types of adverbials.</p>
+
+    <paragraphs>
+      <title>Adjuncts</title>
+    </paragraphs>
+
+    <p><em>Adjuncts</em> are integrated into clause structure, modifying the verb or clause content directly:</p>
+
+    <ul>
+      <li><p><em>She spoke <em>quietly</em>.</em> (how she spoke)</p></li>
+      <li><p><em>He arrived <em>at noon</em>.</em> (when he arrived)</p></li>
+      <li><p><em>They live <em>in Boston</em>.</em> (where they live)</p></li>
+    </ul>
+
+    <p>Adjuncts are part of the proposition—they can be focused, questioned, or negated:</p>
+
+    <ul>
+      <li><p><em>She spoke QUIETLY.</em> (emphasis)</p></li>
+      <li><p><em>Did she speak quietly?</em> (question)</p></li>
+      <li><p><em>She didn't speak quietly.</em> (negation)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Disjuncts</title>
+    </paragraphs>
+
+    <p><em>Disjuncts</em> comment on the whole sentence from an external perspective, expressing the speaker's attitude or evaluating truth:</p>
+
+    <p><em>Attitude/Stance disjuncts</em>:</p>
+
+    <ul>
+      <li><p><em><em>Unfortunately</em>, we lost.</em></p></li>
+      <li><p><em><em>Frankly</em>, I don't care.</em></p></li>
+      <li><p><em><em>Surprisingly</em>, she agreed.</em></p></li>
+      <li><p><em><em>Honestly</em>, I have no idea.</em></p></li>
+    </ul>
+
+    <p><em>Truth/Domain disjuncts</em>:</p>
+
+    <ul>
+      <li><p><em><em>Clearly</em>, this is wrong.</em></p></li>
+      <li><p><em><em>Obviously</em>, he's guilty.</em></p></li>
+      <li><p><em><em>Technically</em>, it's legal.</em></p></li>
+      <li><p><em><em>Politically</em>, it's controversial.</em></p></li>
+    </ul>
+
+    <p>Disjuncts are not part of the proposition:</p>
+
+    <ul>
+      <li><p><em>~~Did unfortunately we lose?~~</em> (cannot question)</p></li>
+      <li><p><em>It's not the case that unfortunately we lost.</em> (negation doesn't target the disjunct)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Conjuncts</title>
+    </paragraphs>
+
+    <p><em>Conjuncts</em> connect sentences or clauses, showing logical relationships:</p>
+
+    <ul>
+      <li><p><em>She was tired. <em>However</em>, she continued.</em></p></li>
+      <li><p><em>The evidence is strong. <em>Therefore</em>, we should proceed.</em></p></li>
+      <li><p><em>First, read the instructions. <em>Then</em>, begin the test.</em></p></li>
+      <li><p><em>I disagree. <em>Nevertheless</em>, I respect your view.</em></p></li>
+    </ul>
+
+    <p>Common conjuncts: <em>however</em>, <em>therefore</em>, <em>nevertheless</em>, <em>moreover</em>, <em>furthermore</em>, <em>consequently</em>, <em>thus</em>, <em>indeed</em>, <em>in fact</em>, <em>on the other hand</em></p>
+
+  </section>
+
+  <section xml:id="ch-12-adverbials-sec-125">
+    <title>Adverb Clause Structure</title>
+
+    <p><em>Adverb clauses</em> are dependent clauses that function as adverbials, introduced by subordinating conjunctions.</p>
+
+    <paragraphs>
+      <title>Structure</title>
+    </paragraphs>
+
+    <p>```</p>
+
+    <p>Adverb Clause = Subordinating Conjunction + Subject + Predicate</p>
+
+    <p>```</p>
+
+    <ul>
+      <li><p><em><em>When</em> [she arrived], we started.</em></p></li>
+      <li><p><em><em>Because</em> [the roads were icy], we drove slowly.</em></p></li>
+      <li><p><em><em>Although</em> [it was expensive], he bought it.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Common Subordinating Conjunctions</title>
+    </paragraphs>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell>Meaning</cell>
+        <cell>Conjunctions</cell>
+      </row>
+      <row>
+        <cell><em>Time</em></cell>
+        <cell><em>when, while, before, after, until, since, as, once, whenever, as soon as</em></cell>
+      </row>
+      <row>
+        <cell><em>Reason</em></cell>
+        <cell><em>because, since, as, given that, now that</em></cell>
+      </row>
+      <row>
+        <cell><em>Contrast</em></cell>
+        <cell><em>although, though, even though, while, whereas, even if</em></cell>
+      </row>
+      <row>
+        <cell><em>Condition</em></cell>
+        <cell><em>if, unless, provided that, as long as, in case</em></cell>
+      </row>
+      <row>
+        <cell><em>Purpose</em></cell>
+        <cell><em>so that, in order that</em></cell>
+      </row>
+      <row>
+        <cell><em>Result</em></cell>
+        <cell><em>so...that, such...that</em></cell>
+      </row>
+      <row>
+        <cell><em>Manner</em></cell>
+        <cell><em>as, as if, as though</em></cell>
+      </row>
+      <row>
+        <cell><em>Comparison</em></cell>
+        <cell><em>than, as...as</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Punctuation</title>
+    </paragraphs>
+
+    <p><em>Adverb clause first</em>: comma after the clause</p>
+
+    <ul>
+      <li><p><em><em>When it rains</em>, we stay inside.</em></p></li>
+    </ul>
+
+    <p><em>Adverb clause last</em>: usually no comma</p>
+
+    <ul>
+      <li><p><em>We stay inside <em>when it rains</em>.</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-12-adverbials-sec-126">
+    <title>Adverbial Position</title>
+
+    <p>Adverbials can appear in different positions, affecting emphasis and information flow.</p>
+
+    <paragraphs>
+      <title>Initial Position</title>
+    </paragraphs>
+
+    <p>At the beginning of the sentence:</p>
+
+    <ul>
+      <li><p><em><em>Yesterday</em>, she arrived.</em></p></li>
+      <li><p><em><em>In the morning</em>, we'll leave.</em></p></li>
+      <li><p><em><em>Frankly</em>, I disagree.</em></p></li>
+    </ul>
+
+    <p>Initial position often signals topic or sets the scene.</p>
+
+    <paragraphs>
+      <title>Medial Position</title>
+    </paragraphs>
+
+    <p>Between subject and verb, or within the verb phrase:</p>
+
+    <ul>
+      <li><p><em>She <em>often</em> works late.</em></p></li>
+      <li><p><em>He has <em>always</em> been reliable.</em></p></li>
+      <li><p><em>They will <em>probably</em> arrive soon.</em></p></li>
+    </ul>
+
+    <p>Medial position is common for frequency adverbs and some manner adverbs.</p>
+
+    <paragraphs>
+      <title>Final Position</title>
+    </paragraphs>
+
+    <p>At the end of the sentence:</p>
+
+    <ul>
+      <li><p><em>She arrived <em>yesterday</em>.</em></p></li>
+      <li><p><em>We'll leave <em>in the morning</em>.</em></p></li>
+      <li><p><em>He spoke <em>quietly</em>.</em></p></li>
+    </ul>
+
+    <p>Final position is the default for many adverbials, especially manner and place.</p>
+
+    <paragraphs>
+      <title>Position and Focus</title>
+    </paragraphs>
+
+    <p>Moving an adverbial to a different position can change emphasis:</p>
+
+    <ul>
+      <li><p><em>She spoke quietly <em>in the library</em>.</em> (neutral)</p></li>
+      <li><p><em><em>In the library</em>, she spoke quietly.</em> (library emphasized)</p></li>
+      <li><p><em>She spoke <em>in the library</em> quietly.</em> (quietness emphasized)</p></li>
+    </ul>
+
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Adjunct</title>
+      <p>An adverbial integrated into clause structure, modifying the verb or clause content.</p>
+    </gi>
+    <gi>
+      <title>Adverb</title>
+      <p>A part of speech that typically modifies verbs, adjectives, or other adverbs.</p>
+    </gi>
+    <gi>
+      <title>Adverb clause</title>
+      <p>A dependent clause functioning as an adverbial, introduced by a subordinating conjunction.</p>
+    </gi>
+    <gi>
+      <title>Adverbial</title>
+      <p>Any word, phrase, or clause functioning to modify a verb, adjective, adverb, or sentence.</p>
+    </gi>
+    <gi>
+      <title>Conjunct</title>
+      <p>An adverbial that connects sentences or shows logical relationships.</p>
+    </gi>
+    <gi>
+      <title>Disjunct</title>
+      <p>An adverbial expressing the speaker's attitude or evaluation, external to the proposition.</p>
+    </gi>
+    <gi>
+      <title>Subordinating conjunction</title>
+      <p>A word that introduces a dependent clause (<em>when</em>, <em>because</em>, <em>although</em>, etc.).</p>
+    </gi>
+  </glossary>
+
+</chapter>

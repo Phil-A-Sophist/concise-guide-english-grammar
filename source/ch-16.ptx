@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-16-other-grammatical-forms" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Other Grammatical Forms</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Identify and analyze nonfinite verb forms (infinitives, gerunds, participles)</p></li>
+      <li><p>Understand complement clauses and their structures</p></li>
+      <li><p>Recognize special sentence constructions (clefts, existentials, extraposition)</p></li>
+      <li><p>Analyze coordination and its effects on sentence structure</p></li>
+      <li><p>Identify ellipsis and understand how it works</p></li>
+      <li><p>Nonfinite verb</p></li>
+      <li><p>Infinitive</p></li>
+      <li><p>Gerund</p></li>
+      <li><p>Participle</p></li>
+      <li><p>Complement clause</p></li>
+      <li><p>Cleft sentence</p></li>
+      <li><p>Existential sentence</p></li>
+      <li><p>Extraposition</p></li>
+      <li><p>Coordination</p></li>
+      <li><p>Ellipsis</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-16-other-grammatical-forms-sec-161">
+    <title>Nonfinite Verb Forms</title>
+
+    <p>Verbs can be <em>finite</em> or <em>nonfinite</em>. <em>Finite verbs</em> are marked for tense and agree with their subjects. <em>Nonfinite verbs</em> lack tense marking and cannot serve as the main verb of an independent clause.</p>
+
+    <paragraphs>
+      <title>Three Types of Nonfinite Forms</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Form</cell>
+        <cell>Example</cell>
+        <cell>Characteristics</cell>
+      </row>
+      <row>
+        <cell><em>Infinitive</em></cell>
+        <cell><em>(to) write</em></cell>
+        <cell>Base form, with or without <em>to</em></cell>
+      </row>
+      <row>
+        <cell><em>Gerund/Present Participle</em></cell>
+        <cell><em>writing</em></cell>
+        <cell><em>-ing</em> form</cell>
+      </row>
+      <row>
+        <cell><em>Past Participle</em></cell>
+        <cell><em>written</em></cell>
+        <cell><em>-ed</em> or irregular form</cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Infinitives</title>
+    </paragraphs>
+
+    <p><em>To-infinitive</em>: <em>to</em> + base verb</p>
+
+    <ul>
+      <li><p><em>She wants <em>to leave</em>.</em></p></li>
+      <li><p><em>It's important <em>to practice</em>.</em></p></li>
+    </ul>
+
+    <p><em>Bare infinitive</em>: base verb without <em>to</em></p>
+
+    <ul>
+      <li><p><em>She can <em>leave</em>.</em> (after modals)</p></li>
+      <li><p><em>Let him <em>go</em>.</em> (after <em>let</em>, <em>make</em>, <em>have</em>)</p></li>
+      <li><p><em>I saw her <em>leave</em>.</em> (after perception verbs)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Gerunds and Present Participles</title>
+    </paragraphs>
+
+    <p>The <em>-ing</em> form serves two functions:</p>
+
+    <p><em>Gerund</em> (nominal function):</p>
+
+    <ul>
+      <li><p><em><em>Swimming</em> is fun.</em> (subject)</p></li>
+      <li><p><em>She enjoys <em>reading</em>.</em> (object)</p></li>
+    </ul>
+
+    <p><em>Present participle</em> (adjectival/adverbial function):</p>
+
+    <ul>
+      <li><p><em>the <em>running</em> water</em> (adjectival)</p></li>
+      <li><p><em><em>Knowing</em> the answer, she raised her hand.</em> (adverbial)</p></li>
+    </ul>
+
+    <p><em>Progressive auxiliary</em>:</p>
+
+    <ul>
+      <li><p><em>She <em>is writing</em>.</em> (part of verb phrase)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Past Participles</title>
+    </paragraphs>
+
+    <p>The past participle (<em>-ed</em> or irregular) serves several functions:</p>
+
+    <p><em>Perfect auxiliary</em>:</p>
+
+    <ul>
+      <li><p><em>She <em>has written</em> a book.</em></p></li>
+    </ul>
+
+    <p><em>Passive auxiliary</em>:</p>
+
+    <ul>
+      <li><p><em>The book <em>was written</em> by her.</em></p></li>
+    </ul>
+
+    <p><em>Adjectival</em>:</p>
+
+    <ul>
+      <li><p><em>the <em>broken</em> window</em></p></li>
+      <li><p><em>a book <em>written</em> by Hemingway</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-16-other-grammatical-forms-sec-162">
+    <title>Complement Clauses</title>
+
+    <p><em>Complement clauses</em> complete the meaning of verbs, adjectives, or nouns. They differ from relative clauses (which modify) and adverb clauses (which provide circumstantial information).</p>
+
+    <paragraphs>
+      <title>Verb Complements</title>
+    </paragraphs>
+
+    <p>Many verbs take clausal complements:</p>
+
+    <p><em>That-clauses</em>:</p>
+
+    <ul>
+      <li><p><em>I believe <em>that she's honest</em>.</em></p></li>
+      <li><p><em>He admitted <em>that he was wrong</em>.</em></p></li>
+    </ul>
+
+    <p><em>Infinitive clauses</em>:</p>
+
+    <ul>
+      <li><p><em>She wants <em>to leave</em>.</em></p></li>
+      <li><p><em>He persuaded her <em>to stay</em>.</em></p></li>
+    </ul>
+
+    <p><em>Gerund clauses</em>:</p>
+
+    <ul>
+      <li><p><em>She enjoys <em>swimming</em>.</em></p></li>
+      <li><p><em>He denied <em>stealing the money</em>.</em></p></li>
+    </ul>
+
+    <p><em>Wh-clauses</em>:</p>
+
+    <ul>
+      <li><p><em>I wonder <em>what she said</em>.</em></p></li>
+      <li><p><em>Tell me <em>how you did it</em>.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Raising vs. Control</title>
+    </paragraphs>
+
+    <p>Some verbs allow special subject relationships:</p>
+
+    <p><em>Raising</em> (subject "raised" from complement):</p>
+
+    <ul>
+      <li><p><em>She seems <em>to be happy</em>.</em> (<em>she</em> is really the subject of <em>be happy</em>)</p></li>
+      <li><p><em>It appears <em>that she's happy</em>.</em></p></li>
+    </ul>
+
+    <p><em>Control</em> (subject "controls" reference in complement):</p>
+
+    <ul>
+      <li><p><em>She promised <em>to help</em>.</em> (<em>she</em> will help—subject control)</p></li>
+      <li><p><em>She persuaded him <em>to help</em>.</em> (<em>him</em> will help—object control)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Adjective Complements</title>
+    </paragraphs>
+
+    <p>Adjectives can also take complement clauses:</p>
+
+    <ul>
+      <li><p><em>I'm glad <em>that you came</em>.</em></p></li>
+      <li><p><em>She's eager <em>to help</em>.</em></p></li>
+      <li><p><em>He's afraid <em>of failing</em>.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Noun Complements</title>
+    </paragraphs>
+
+    <p>Nouns derived from verbs can take similar complements:</p>
+
+    <ul>
+      <li><p><em>her belief <em>that honesty matters</em></em></p></li>
+      <li><p><em>his desire <em>to succeed</em></em></p></li>
+      <li><p><em>the fact <em>that she resigned</em></em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-16-other-grammatical-forms-sec-163">
+    <title>Special Constructions</title>
+
+    <p>English has several special sentence constructions that manipulate information structure.</p>
+
+    <paragraphs>
+      <title>Cleft Sentences</title>
+    </paragraphs>
+
+    <p><em>Cleft sentences</em> split a simple sentence to highlight specific information.</p>
+
+    <p><em>It-clefts</em> (focus on one element):</p>
+
+    <ul>
+      <li><p>Base: <em>John ate the cake.</em></p></li>
+      <li><p>Cleft: <em><em>It was John</em> who ate the cake.</em> (focus on John)</p></li>
+      <li><p>Cleft: <em><em>It was the cake</em> that John ate.</em> (focus on cake)</p></li>
+    </ul>
+
+    <p><em>Wh-clefts</em> (pseudo-clefts):</p>
+
+    <ul>
+      <li><p><em><em>What John ate</em> was the cake.</em></p></li>
+      <li><p><em><em>What she wants</em> is a vacation.</em></p></li>
+      <li><p><em><em>The thing I need</em> is help.</em></p></li>
+    </ul>
+
+    <p>Clefts emphasize the focused element and presuppose the rest.</p>
+
+    <paragraphs>
+      <title>Existential Sentences</title>
+    </paragraphs>
+
+    <p><em>Existential sentences</em> introduce new referents into discourse, typically beginning with <em>there</em>:</p>
+
+    <ul>
+      <li><p><em><em>There is</em> a book on the table.</em></p></li>
+      <li><p><em><em>There are</em> three students waiting.</em></p></li>
+      <li><p><em><em>There seems to be</em> a problem.</em></p></li>
+    </ul>
+
+    <p>The <em>there</em> is expletive (meaningless placeholder), not the locative adverb <em>there</em>.</p>
+
+    <paragraphs>
+      <title>Extraposition</title>
+    </paragraphs>
+
+    <p><em>Extraposition</em> moves a heavy subject clause to the end, using <em>it</em> as placeholder:</p>
+
+    <ul>
+      <li><p>Original: <em><em>That she resigned</em> surprised everyone.</em></p></li>
+      <li><p>Extraposed: <em><em>It</em> surprised everyone <em>that she resigned</em>.</em></p></li>
+    </ul>
+
+    <ul>
+      <li><p>Original: <em><em>To explain everything</em> would take too long.</em></p></li>
+      <li><p>Extraposed: <em><em>It</em> would take too long <em>to explain everything</em>.</em></p></li>
+    </ul>
+
+    <p>Extraposition improves processing by avoiding long subjects.</p>
+
+    <paragraphs>
+      <title>Topicalization</title>
+    </paragraphs>
+
+    <p><em>Topicalization</em> moves an element to sentence-initial position for emphasis:</p>
+
+    <ul>
+      <li><p>Base: <em>I never liked that movie.</em></p></li>
+      <li><p>Topicalized: <em><em>That movie</em>, I never liked.</em></p></li>
+    </ul>
+
+    <ul>
+      <li><p>Base: <em>She's talented, not lucky.</em></p></li>
+      <li><p>Topicalized: <em><em>Talented</em> she is, not lucky.</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-16-other-grammatical-forms-sec-164">
+    <title>Coordination</title>
+
+    <p><em>Coordination</em> joins elements of equal status using coordinating conjunctions.</p>
+
+    <paragraphs>
+      <title>Coordinating Conjunctions</title>
+    </paragraphs>
+
+    <p><em>and</em>, <em>but</em>, <em>or</em>, <em>nor</em>, <em>for</em>, <em>yet</em>, <em>so</em></p>
+
+    <paragraphs>
+      <title>What Can Be Coordinated</title>
+    </paragraphs>
+
+    <p>Virtually any grammatical category can be coordinated:</p>
+
+    <p><em>Words</em>:</p>
+
+    <ul>
+      <li><p><em>cats <em>and</em> dogs</em> (nouns)</p></li>
+      <li><p><em>tall <em>and</em> handsome</em> (adjectives)</p></li>
+      <li><p><em>quickly <em>but</em> carefully</em> (adverbs)</p></li>
+    </ul>
+
+    <p><em>Phrases</em>:</p>
+
+    <ul>
+      <li><p><em>in the house <em>or</em> in the garden</em> (PPs)</p></li>
+      <li><p><em>reading books <em>and</em> watching movies</em> (gerund phrases)</p></li>
+    </ul>
+
+    <p><em>Clauses</em>:</p>
+
+    <ul>
+      <li><p><em>She sings <em>and</em> he dances.</em></p></li>
+      <li><p><em>I tried <em>but</em> I failed.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Parallel Structure</title>
+    </paragraphs>
+
+    <p>Coordinated elements should be grammatically parallel:</p>
+
+    <ul>
+      <li><p>✓ <em>She likes <em>swimming</em> and <em>hiking</em>.</em> (gerunds)</p></li>
+      <li><p>✗ <em>~~She likes <em>swimming</em> and <em>to hike</em>.~~</em> (mixed forms)</p></li>
+    </ul>
+
+    <ul>
+      <li><p>✓ <em>He is <em>tall</em>, <em>dark</em>, and <em>handsome</em>.</em> (all adjectives)</p></li>
+      <li><p>✗ <em>~~He is <em>tall</em>, <em>dark</em>, and <em>has a beard</em>.~~</em> (mixed)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Correlative Conjunctions</title>
+    </paragraphs>
+
+    <p>Paired conjunctions that work together:</p>
+
+    <ul>
+      <li><p><em>both...and</em>: <em><em>Both</em> John <em>and</em> Mary attended.</em></p></li>
+      <li><p><em>either...or</em>: <em><em>Either</em> we leave now <em>or</em> we wait.</em></p></li>
+      <li><p><em>neither...nor</em>: <em><em>Neither</em> the teacher <em>nor</em> the students knew.</em></p></li>
+      <li><p><em>not only...but also</em>: <em>She's <em>not only</em> smart <em>but also</em> kind.</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-16-other-grammatical-forms-sec-165">
+    <title>Ellipsis</title>
+
+    <p><em>Ellipsis</em> is the omission of words recoverable from context, avoiding redundancy.</p>
+
+    <paragraphs>
+      <title>VP Ellipsis</title>
+    </paragraphs>
+
+    <p>The verb phrase can be omitted after an auxiliary:</p>
+
+    <ul>
+      <li><p><em>She can swim, and he can <em>[swim]</em> too.</em></p></li>
+      <li><p><em>She hasn't arrived, but he has <em>[arrived]</em>.</em></p></li>
+      <li><p><em>They want to leave, and we do <em>[want to leave]</em> too.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Gapping</title>
+    </paragraphs>
+
+    <p>In coordinated clauses, the second verb can be omitted:</p>
+
+    <ul>
+      <li><p><em>John ordered coffee, and Mary <em>[ordered]</em> tea.</em></p></li>
+      <li><p><em>She plays piano, and he <em>[plays]</em> guitar.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Sluicing</title>
+    </paragraphs>
+
+    <p>In questions, everything but the wh-word can be omitted:</p>
+
+    <ul>
+      <li><p><em>Someone called, but I don't know who <em>[called]</em>.</em></p></li>
+      <li><p><em>She bought something, but I'm not sure what <em>[she bought]</em>.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Noun Phrase Ellipsis</title>
+    </paragraphs>
+
+    <p>Part of an NP can be omitted:</p>
+
+    <ul>
+      <li><p><em>I prefer the red shirt, not the blue <em>[shirt]</em>.</em></p></li>
+      <li><p><em>Some students passed; others <em>[students]</em> failed.</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-16-other-grammatical-forms-sec-166">
+    <title>Other Notable Structures</title>
+
+    <paragraphs>
+      <title>Comparative Constructions</title>
+    </paragraphs>
+
+    <p>Comparatives use special structures:</p>
+
+    <ul>
+      <li><p><em>She is <em>taller than</em> he (is).</em></p></li>
+      <li><p><em>She runs <em>as fast as</em> her brother (does).</em></p></li>
+      <li><p><em><em>The more</em> you practice, <em>the better</em> you get.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Questions</title>
+    </paragraphs>
+
+    <p>Questions have distinctive word order:</p>
+
+    <p><em>Yes-no questions</em> (subject-auxiliary inversion):</p>
+
+    <ul>
+      <li><p>Statement: <em>She <em>can</em> swim.</em></p></li>
+      <li><p>Question: <em><em>Can</em> she swim?</em></p></li>
+    </ul>
+
+    <p><em>Wh-questions</em> (wh-movement + inversion):</p>
+
+    <ul>
+      <li><p>Statement: <em>She read something.</em></p></li>
+      <li><p>Question: <em><em>What</em> did she read?</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Negation</title>
+    </paragraphs>
+
+    <p>Negation typically involves <em>not</em> with an auxiliary:</p>
+
+    <ul>
+      <li><p><em>She <em>does not</em> understand.</em></p></li>
+      <li><p><em>They <em>have not</em> arrived.</em></p></li>
+      <li><p><em>He <em>cannot</em> come.</em></p></li>
+    </ul>
+
+    <p>With no auxiliary, <em>do</em> is inserted:</p>
+
+    <ul>
+      <li><p><em>She understands.</em> → <em>She <em>does not</em> understand.</em></p></li>
+    </ul>
+
+  </section>
+
+    <section xml:id="ch-16-homework">
+    <title>Homework: Other Grammatical Forms</title>
+
+    <p><em>Instructions:</em> Identify and classify the underlined elements in each sentence.</p>
+
+    <p><em>Question 1.</em> Identify each nonfinite form as <em>infinitive</em>, <em>gerund</em>, or <em>participle</em>:</p>
+
+    <p>a) <em>She wants <em>to leave</em> immediately.</em></p>
+
+    <p>b) <em><em>Swimming</em> is excellent exercise.</em></p>
+
+    <p>c) <em>The <em>broken</em> window needs repair.</em></p>
+
+    <p>d) <em>I saw him <em>running</em> toward the door.</em></p>
+
+    <p>e) <em>They made her <em>apologize</em>.</em></p>
+
+    <p><em>Question 2.</em> Identify each complement clause and its type (that-clause, infinitive clause, gerund clause, or wh-clause):</p>
+
+    <p>a) <em>She believes that honesty matters.</em></p>
+
+    <p>b) <em>He wants to succeed in his career.</em></p>
+
+    <p>c) <em>I wonder what she meant.</em></p>
+
+    <p>d) <em>She enjoys reading novels.</em></p>
+
+    <p><em>Instructions:</em> Identify the construction type (cleft, existential, extraposition, or topicalization) and explain what effect it creates.</p>
+
+    <p><em>Question 3.</em> <em>It was John who broke the window.</em></p>
+
+    <p>Construction type:</p>
+
+    <p>Effect:</p>
+
+    <p><em>Question 4.</em> <em>There are three students waiting in the hall.</em></p>
+
+    <p>Construction type:</p>
+
+    <p>Effect:</p>
+
+    <p><em>Question 5.</em> <em>It surprised everyone that she resigned.</em></p>
+
+    <p>Construction type:</p>
+
+    <p>Effect:</p>
+
+    <p><em>Question 6.</em> <em>That movie, I never liked.</em></p>
+
+    <p>Construction type:</p>
+
+    <p>Effect:</p>
+
+    <p><em>Instructions:</em> Revise each sentence to correct the parallelism error or to create the specified construction.</p>
+
+    <p><em>Question 7.</em> Correct the parallelism error:</p>
+
+    <p><em>She likes swimming, hiking, and to ride bikes.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 8.</em> Correct the parallelism error:</p>
+
+    <p><em>The candidate promised to cut taxes and creating jobs.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 9.</em> Rewrite as a cleft sentence emphasizing "the budget":</p>
+
+    <p><em>The committee rejected the budget.</em></p>
+
+    <p>Cleft version:</p>
+
+    <p><em>Question 10.</em> Rewrite using extraposition:</p>
+
+    <p><em>That she would resign surprised everyone.</em></p>
+
+    <p>Extraposed version:</p>
+
+    <p><em>Instructions:</em> Read the passage and answer the questions.</p>
+
+    <p><em>What surprised the investigators was the lack of evidence. There were no witnesses. Having examined the scene, they concluded that the crime had been carefully planned. It was clear that someone with inside knowledge was responsible. To identify this person would require additional investigation.</em></p>
+
+    <p><em>Question 11.</em> Identify all nonfinite verb forms in the passage and classify each as infinitive, gerund, or participle.</p>
+
+    <p><em>Question 12.</em> Identify one example of each construction type in the passage: a cleft sentence, an existential sentence, and extraposition.</p>
+
+    <p><em>Question 13.</em> The passage begins with a wh-cleft ("What surprised the investigators was the lack of evidence"). Rewrite this sentence in two other ways:</p>
+
+    <p>a) As a simple sentence (no cleft):</p>
+
+    <p>b) As an it-cleft:</p>
+
+    <p><em>Question 14.</em> Why might a writer choose to use a cleft sentence or extraposition rather than a simpler construction? In 2-3 sentences, explain the stylistic effects these constructions create.</p>
+
+    <ul>
+      <li><p><em>Nonfinite verbs</em> (infinitives, gerunds, participles) lack tense and cannot be main verbs alone.</p></li>
+      <li><p><em>Complement clauses</em> complete verbs, adjectives, or nouns, differing from relative and adverb clauses.</p></li>
+      <li><p><em>Special constructions</em> manipulate information structure: clefts, existentials, extraposition, topicalization.</p></li>
+      <li><p><em>Coordination</em> joins equal elements; coordinated elements should be parallel.</p></li>
+      <li><p><em>Ellipsis</em> omits recoverable material for efficiency.</p></li>
+    </ul>
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Cleft sentence</title>
+      <p>A construction that splits a sentence to highlight one element.</p>
+    </gi>
+    <gi>
+      <title>Complement clause</title>
+      <p>A clause completing the meaning of a verb, adjective, or noun.</p>
+    </gi>
+    <gi>
+      <title>Coordination</title>
+      <p>Joining elements of equal grammatical status.</p>
+    </gi>
+    <gi>
+      <title>Ellipsis</title>
+      <p>Omission of words recoverable from context.</p>
+    </gi>
+    <gi>
+      <title>Existential sentence</title>
+      <p>A sentence introducing entities, typically beginning with <em>there</em>.</p>
+    </gi>
+    <gi>
+      <title>Extraposition</title>
+      <p>Moving a heavy clause to the end, with <em>it</em> as placeholder.</p>
+    </gi>
+    <gi>
+      <title>Finite verb</title>
+      <p>A verb marked for tense and agreeing with its subject.</p>
+    </gi>
+    <gi>
+      <title>Gerund</title>
+      <p>The <em>-ing</em> form of a verb functioning nominally.</p>
+    </gi>
+    <gi>
+      <title>Infinitive</title>
+      <p>The base form of a verb, with or without <em>to</em>.</p>
+    </gi>
+    <gi>
+      <title>Nonfinite verb</title>
+      <p>A verb form lacking tense marking.</p>
+    </gi>
+    <gi>
+      <title>Participle</title>
+      <p>A verb form (<em>-ing</em> or <em>-ed</em>) functioning adjectivally or in verb phrases.</p>
+    </gi>
+    <gi>
+      <title>Topicalization</title>
+      <p>Moving an element to sentence-initial position for emphasis.</p>
+    </gi>
+  </glossary>
+
+</chapter>

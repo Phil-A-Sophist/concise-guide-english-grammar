@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-07-introduction-to-sentence-diagramming" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Sentence Diagramming</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Explain what sentence diagrams represent and why they are useful</p></li>
+      <li><p>Identify the basic structure shared by all English sentences (S → NP + VP)</p></li>
+      <li><p>Read and interpret tree diagrams</p></li>
+      <li><p>Recognize heads, modifiers, and complements in phrases</p></li>
+      <li><p>Understand how hierarchical structure determines meaning</p></li>
+      <li><p>Apply basic diagramming conventions to simple sentences</p></li>
+      <li><p>Tree diagram</p></li>
+      <li><p>Node</p></li>
+      <li><p>Constituent</p></li>
+      <li><p>Head</p></li>
+      <li><p>Modifier</p></li>
+      <li><p>Complement</p></li>
+      <li><p>Dominance</p></li>
+      <li><p>Structural ambiguity</p></li>
+      <li><p>S → NP + VP</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-07-introduction-to-sentence-diagramming-sec-71">
+    <title>Why Diagram Sentences?</title>
+
+    <p>When you read a sentence like <em>The exhausted hiker from Colorado finally reached the summit</em>, you process it instantly. Your brain parses the words, groups them into meaningful units, and extracts the meaning—all in a fraction of a second, without conscious effort.</p>
+
+    <p>But can you explain <em>how</em> you understand it? Which words group together? What modifies what? Why does &quot;from Colorado&quot; describe &quot;hiker&quot; rather than &quot;exhausted&quot;? Why does &quot;finally&quot; modify &quot;reached&quot; and not &quot;summit&quot;?</p>
+
+    <p><em>Sentence diagrams</em> make visible what your brain does automatically. They transform the linear string of words on the page into a picture of grammatical relationships.</p>
+
+    <paragraphs>
+      <title>Analytical Clarity</title>
+    </paragraphs>
+
+    <p>Diagrams force you to make explicit decisions about every word's function. You cannot diagram a sentence without understanding it. If you are uncertain whether &quot;in the park&quot; modifies &quot;the man&quot; or &quot;saw,&quot; the diagram demands a choice—and making that choice reveals your interpretation.</p>
+
+    <p>This explicitness is valuable for writing as well as analysis. When a sentence seems unclear or awkward, diagramming it can expose the structural problem.</p>
+
+    <paragraphs>
+      <title>Pattern Recognition</title>
+    </paragraphs>
+
+    <p>After diagramming many sentences, you will begin to recognize structural patterns instantly—even in sentences you have never seen before. You will notice that English sentences, despite their surface variety, follow a small number of fundamental patterns. This recognition transfers to reading and writing.</p>
+
+    <paragraphs>
+      <title>A Shared Vocabulary</title>
+    </paragraphs>
+
+    <p>Diagrams provide a shared vocabulary for discussing sentence structure. Instead of saying &quot;that part,&quot; you can point to a specific node or branch. Instead of vague intuitions about what &quot;sounds right,&quot; you can make precise claims about structural relationships.</p>
+
+    <paragraphs>
+      <title>Revealing Hidden Structure</title>
+    </paragraphs>
+
+    <p>Most importantly, diagrams reveal that sentences have <em>hierarchical structure</em>—structure that is not obvious from the linear sequence of words. Consider:</p>
+
+    <p><em>Flying planes can be dangerous.</em></p>
+
+    <p>This sentence is ambiguous. It could mean:</p>
+
+    <ol>
+      <li><p>The activity of flying planes is dangerous.</p></li>
+      <li><p>Planes that are flying can be dangerous.</p></li>
+    </ol>
+
+    <p>The words are the same in both readings, but the structure differs. A diagram makes this structural difference visible—two different diagrams for two different meanings.</p>
+
+  </section>
+
+  <section xml:id="ch-07-introduction-to-sentence-diagramming-sec-72">
+    <title>The Basic Structure of English Sentences</title>
+
+    <p>Every English sentence—from the simplest to the most complex—shares a fundamental structure.</p>
+
+    <paragraphs>
+      <title>S → NP + VP</title>
+    </paragraphs>
+
+    <p>At its core, every sentence (S) divides into two parts:</p>
+
+    <ul>
+      <li><p>A <em>noun phrase (NP)</em> functioning as the subject</p></li>
+      <li><p>A <em>verb phrase (VP)</em> functioning as the predicate</p></li>
+    </ul>
+
+    <p>```</p>
+
+    <p>S</p>
+
+    <p>/   \</p>
+
+    <p>NP     VP</p>
+
+    <p>(subject) (predicate)</p>
+
+    <p>```</p>
+
+    <p>The subject NP tells us <em>who or what</em> the sentence is about. The predicate VP tells us <em>what the subject does, is, or experiences</em>.</p>
+
+    <p>Consider these sentences:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Sentence</cell>
+        <cell>Subject NP</cell>
+        <cell>Predicate VP</cell>
+      </row>
+      <row>
+        <cell><em>Dogs bark.</em></cell>
+        <cell>Dogs</cell>
+        <cell>bark</cell>
+      </row>
+      <row>
+        <cell><em>The old man sat quietly.</em></cell>
+        <cell>The old man</cell>
+        <cell>sat quietly</cell>
+      </row>
+      <row>
+        <cell><em>My brilliant sister from Ohio won the prize.</em></cell>
+        <cell>My brilliant sister from Ohio</cell>
+        <cell>won the prize</cell>
+      </row>
+    </tabular>
+
+    <p>No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate (<em>The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before</em>...) and the predicate can become equally elaborate (...<em>suddenly found herself standing on the stage of Carnegie Hall</em>). But the fundamental structure—subject NP plus predicate VP—persists.</p>
+
+    <paragraphs>
+      <title>What's in the NP?</title>
+    </paragraphs>
+
+    <p>A noun phrase is built around a noun (its <em>head</em>). The simplest NP is just a noun or pronoun:</p>
+
+    <ul>
+      <li><p><em>Dogs</em> bark.</p></li>
+      <li><p><em>She</em> arrived.</p></li>
+    </ul>
+
+    <p>But NPs can include additional elements:</p>
+
+    <ul>
+      <li><p><em>Determiners</em>: <em>the</em> dog, <em>my</em> sister</p></li>
+      <li><p><em>Adjectives</em>: the <em>old</em> dog, my <em>brilliant</em> sister</p></li>
+      <li><p><em>Prepositional phrases</em>: the dog <em>on the porch</em>, my sister <em>from Ohio</em></p></li>
+      <li><p><em>Relative clauses</em>: the dog <em>that barked</em>, my sister <em>who lives in Ohio</em></p></li>
+    </ul>
+
+    <p>All of these elements cluster around the head noun, forming a unit—the noun phrase.</p>
+
+    <paragraphs>
+      <title>What's in the VP?</title>
+    </paragraphs>
+
+    <p>A verb phrase is built around a verb (its <em>head</em>). The simplest VP is just a verb:</p>
+
+    <ul>
+      <li><p>Dogs <em>bark</em>.</p></li>
+      <li><p>She <em>arrived</em>.</p></li>
+    </ul>
+
+    <p>But VPs typically include additional elements:</p>
+
+    <ul>
+      <li><p><em>Objects</em>: She <em>read the book</em>.</p></li>
+      <li><p><em>Complements</em>: He <em>is a doctor</em>. She <em>became famous</em>.</p></li>
+      <li><p><em>Adverbials</em>: She <em>arrived yesterday</em>. He <em>spoke loudly</em>.</p></li>
+    </ul>
+
+    <p>The verb phrase contains everything in the predicate—the verb itself plus whatever follows it.</p>
+
+  </section>
+
+  <section xml:id="ch-07-introduction-to-sentence-diagramming-sec-73">
+    <title>Tree Diagrams: Reading and Interpreting</title>
+
+    <p>This textbook uses <em>tree diagrams</em> (also called phrase structure trees or constituent trees) to represent sentence structure. Tree diagrams show how words group into phrases and phrases group into larger structures.</p>
+
+    <paragraphs>
+      <title>The Components of a Tree</title>
+    </paragraphs>
+
+    <p><em>Nodes</em>: Points in the tree, labeled with category symbols (S, NP, VP, N, V, etc.). Each node represents either a word or a phrase.</p>
+
+    <p><em>Branches</em>: Lines connecting nodes, showing which elements belong together. Elements connected to the same higher node form a unit.</p>
+
+    <p><em>Dominance</em>: A node dominates everything beneath it. The S node at the top dominates the entire sentence. An NP node dominates everything in that noun phrase.</p>
+
+    <paragraphs>
+      <title>Common Labels</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Label</cell>
+        <cell>Meaning</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell>S</cell>
+        <cell>Sentence</cell>
+        <cell>Complete clause</cell>
+      </row>
+      <row>
+        <cell>NP</cell>
+        <cell>Noun phrase</cell>
+        <cell><em>the dog</em>, <em>she</em>, <em>my old friend</em></cell>
+      </row>
+      <row>
+        <cell>VP</cell>
+        <cell>Verb phrase</cell>
+        <cell><em>runs</em>, <em>ate the sandwich</em>, <em>is happy</em></cell>
+      </row>
+      <row>
+        <cell>PP</cell>
+        <cell>Prepositional phrase</cell>
+        <cell><em>in the house</em>, <em>with enthusiasm</em></cell>
+      </row>
+      <row>
+        <cell>AdjP</cell>
+        <cell>Adjective phrase</cell>
+        <cell><em>very tall</em>, <em>happy</em></cell>
+      </row>
+      <row>
+        <cell>AdvP</cell>
+        <cell>Adverb phrase</cell>
+        <cell><em>quickly</em>, <em>very slowly</em></cell>
+      </row>
+      <row>
+        <cell>N</cell>
+        <cell>Noun</cell>
+        <cell><em>dog</em>, <em>happiness</em>, <em>Sarah</em></cell>
+      </row>
+      <row>
+        <cell>V</cell>
+        <cell>Verb</cell>
+        <cell><em>run</em>, <em>is</em>, <em>consider</em></cell>
+      </row>
+      <row>
+        <cell>Adj</cell>
+        <cell>Adjective</cell>
+        <cell><em>tall</em>, <em>blue</em>, <em>interesting</em></cell>
+      </row>
+      <row>
+        <cell>Adv</cell>
+        <cell>Adverb</cell>
+        <cell><em>quickly</em>, <em>never</em>, <em>there</em></cell>
+      </row>
+      <row>
+        <cell>Det</cell>
+        <cell>Determiner</cell>
+        <cell><em>the</em>, <em>a</em>, <em>my</em>, <em>this</em></cell>
+      </row>
+      <row>
+        <cell>Pro</cell>
+        <cell>Pronoun</cell>
+        <cell><em>she</em>, <em>it</em>, <em>they</em></cell>
+      </row>
+      <row>
+        <cell>Prep</cell>
+        <cell>Preposition</cell>
+        <cell><em>in</em>, <em>on</em>, <em>with</em>, <em>to</em></cell>
+      </row>
+      <row>
+        <cell>Conj</cell>
+        <cell>Conjunction</cell>
+        <cell><em>and</em>, <em>but</em>, <em>or</em></cell>
+      </row>
+      <row>
+        <cell>Aux</cell>
+        <cell>Auxiliary</cell>
+        <cell><em>has</em>, <em>will</em>, <em>been</em>, <em>can</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Reading a Simple Tree</title>
+    </paragraphs>
+
+    <p><em>Example</em>: <em>The dog barked.</em></p>
+
+    <p>```</p>
+
+    <p>S</p>
+
+    <p>/   \</p>
+
+    <p>NP      VP</p>
+
+    <p>/  \      |</p>
+
+    <p>Det   N     V</p>
+
+    <p>|    |     |</p>
+
+    <p>the  dog  barked</p>
+
+    <p>```</p>
+
+    <p>Reading from the top:</p>
+
+    <ol>
+      <li><p>The S (sentence) divides into NP and VP</p></li>
+      <li><p>The NP contains Det (determiner) + N (noun): &quot;the dog&quot;</p></li>
+      <li><p>The VP contains just V (verb): &quot;barked&quot;</p></li>
+      <li><p>The words themselves appear at the bottom</p></li>
+    </ol>
+
+    <p>The tree shows that &quot;the&quot; and &quot;dog&quot; form a unit (the NP), and this unit is the subject of the verb &quot;barked.&quot;</p>
+
+    <paragraphs>
+      <title>A More Complex Example</title>
+    </paragraphs>
+
+    <p><em>Example</em>: <em>The young artist from Paris painted beautiful landscapes.</em></p>
+
+    <p>```</p>
+
+    <p>S</p>
+
+    <p>______|______</p>
+
+    <p>|             |</p>
+
+    <p>NP             VP</p>
+
+    <p>_______|_______    ___|____</p>
+
+    <p>|    |    |     |  |        |</p>
+
+    <p>Det  Adj   N    PP  V       NP</p>
+
+    <p>|    |    |    |   |     __|__</p>
+
+    <p>the young artist |  painted |   |</p>
+
+    <p>PP       Adj   N</p>
+
+    <p>__|__       |    |</p>
+
+    <p>|     |   beautiful landscapes</p>
+
+    <p>Prep  NP</p>
+
+    <p>|    |</p>
+
+    <p>from Paris</p>
+
+    <p>```</p>
+
+    <p>This tree shows:</p>
+
+    <ul>
+      <li><p>The subject NP contains: determiner + adjective + noun + prepositional phrase</p></li>
+      <li><p>The PP &quot;from Paris&quot; is <em>inside</em> the subject NP—it modifies &quot;artist&quot;</p></li>
+      <li><p>The VP contains: verb + object NP</p></li>
+      <li><p>The object NP contains: adjective + noun</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Why Trees Show Hierarchy</title>
+    </paragraphs>
+
+    <p>Notice that the tree is not just a flat list of words. It shows <em>grouping</em>. &quot;The young artist from Paris&quot; is a unit; &quot;beautiful landscapes&quot; is a unit. These units can be moved, replaced, and manipulated as wholes.</p>
+
+    <p>For instance, you can replace the entire subject NP with a pronoun:</p>
+
+    <ul>
+      <li><p><em>The young artist from Paris</em> painted... → <em>She</em> painted...</p></li>
+    </ul>
+
+    <p>You can move the entire object NP to the front for emphasis:</p>
+
+    <ul>
+      <li><p><em>Beautiful landscapes</em>, the young artist from Paris painted.</p></li>
+    </ul>
+
+    <p>These operations work on <em>constituents</em>—groups that the tree identifies as units.</p>
+
+  </section>
+
+  <section xml:id="ch-07-introduction-to-sentence-diagramming-sec-74">
+    <title>Heads, Modifiers, and Complements</title>
+
+    <p>Every phrase is organized around a <em>head</em>—the central, obligatory element that determines the phrase's category and core meaning. Other elements are either <em>modifiers</em> (optional elements that add information) or <em>complements</em> (elements that complete the head's meaning).</p>
+
+    <paragraphs>
+      <title>Heads</title>
+    </paragraphs>
+
+    <p>The head is the word that the phrase is &quot;about.&quot; It determines:</p>
+
+    <ul>
+      <li><p><em>Category</em>: A phrase headed by a noun is a noun phrase; a phrase headed by a verb is a verb phrase</p></li>
+      <li><p><em>Core meaning</em>: The head provides the basic meaning; other elements elaborate on it</p></li>
+      <li><p><em>Grammatical requirements</em>: The head determines what complements are needed</p></li>
+    </ul>
+
+    <p>In the noun phrase &quot;the tall man,&quot; the head is &quot;man.&quot; Without &quot;man,&quot; you don't have a noun phrase.</p>
+
+    <p>In the verb phrase &quot;carefully read the instructions,&quot; the head is &quot;read.&quot; It determines the phrase's category and requires an object.</p>
+
+    <paragraphs>
+      <title>Modifiers</title>
+    </paragraphs>
+
+    <p><em>Modifiers</em> are optional elements that add information about the head. They can be removed without making the phrase ungrammatical.</p>
+
+    <p><em>In noun phrases:</em></p>
+
+    <ul>
+      <li><p>Adjectives: <em>the <em>tall</em> man</em></p></li>
+      <li><p>Prepositional phrases: <em>the man <em>in the hat</em></em></p></li>
+      <li><p>Relative clauses: <em>the man <em>who arrived late</em></em></p></li>
+    </ul>
+
+    <p><em>In verb phrases:</em></p>
+
+    <ul>
+      <li><p>Adverbs: <em>she spoke <em>quietly</em></em></p></li>
+      <li><p>Prepositional phrases: <em>she works <em>at a hospital</em></em></p></li>
+    </ul>
+
+    <p>Modifiers answer questions like &quot;which one?&quot; &quot;what kind?&quot; &quot;how?&quot; &quot;when?&quot; &quot;where?&quot;</p>
+
+    <paragraphs>
+      <title>Complements</title>
+    </paragraphs>
+
+    <p><em>Complements</em> are elements that complete the meaning of the head. Unlike modifiers, they are often required by the head.</p>
+
+    <p><em>In verb phrases</em>, the main verb often requires certain complements:</p>
+
+    <ul>
+      <li><p>Transitive verbs require objects: <em>She read <em>the book</em></em>.</p></li>
+      <li><p>Linking verbs require subject complements: <em>He is <em>a doctor</em></em>.</p></li>
+      <li><p>Ditransitive verbs require two objects: <em>She gave <em>me</em> <em>a book</em></em>.</p></li>
+    </ul>
+
+    <p>The difference between complements and modifiers can be subtle, but one test is obligatoriness: if removing an element makes the sentence feel incomplete, it's likely a complement.</p>
+
+    <ul>
+      <li><p><em>She read the book carefully.</em> → <em>She read the book.</em> (OK—&quot;carefully&quot; is a modifier)</p></li>
+      <li><p><em>She read the book carefully.</em> → <em>She read carefully.</em> (Changed meaning—&quot;the book&quot; is a complement)</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-07-introduction-to-sentence-diagramming-sec-75">
+    <title>How Structure Determines Meaning</title>
+
+    <p>One of the most important lessons of syntax is that <em>meaning depends on structure</em>, not just on the words themselves. The same words in different structures produce different meanings.</p>
+
+    <paragraphs>
+      <title>Structural Ambiguity</title>
+    </paragraphs>
+
+    <p>When a sentence has two possible structures, it is <em>structurally ambiguous</em>.</p>
+
+    <p><em>Example</em>: <em>I saw the man with binoculars.</em></p>
+
+    <p>This sentence has two readings:</p>
+
+    <ol>
+      <li><p>I used binoculars to see the man. (PP modifies VP)</p></li>
+      <li><p>I saw the man who had binoculars. (PP modifies NP)</p></li>
+    </ol>
+
+    <p><em>Structure 1</em> (PP attaches to VP—adverbial):</p>
+
+    <p>```</p>
+
+    <p>S</p>
+
+    <p>/   \</p>
+
+    <p>NP     VP</p>
+
+    <p>|    __|____|___</p>
+
+    <p>I   V    NP    PP</p>
+
+    <p>|     |     |</p>
+
+    <p>saw  the man with binoculars</p>
+
+    <p>```</p>
+
+    <p><em>Structure 2</em> (PP attaches to NP—adjectival):</p>
+
+    <p>```</p>
+
+    <p>S</p>
+
+    <p>/   \</p>
+
+    <p>NP     VP</p>
+
+    <p>|     /  \</p>
+
+    <p>I    V   NP</p>
+
+    <p>|  ___|____</p>
+
+    <p>saw |   |   |</p>
+
+    <p>the man  PP</p>
+
+    <p>|</p>
+
+    <p>with binoculars</p>
+
+    <p>```</p>
+
+    <p>The diagrams make the ambiguity explicit. In Structure 1, &quot;with binoculars&quot; modifies how I saw. In Structure 2, it modifies which man I saw.</p>
+
+    <paragraphs>
+      <title>More Examples of Structural Ambiguity</title>
+    </paragraphs>
+
+    <p><em>Example</em>: <em>Flying planes can be dangerous.</em></p>
+
+    <ul>
+      <li><p>Reading 1: The activity of flying planes is dangerous.</p></li>
+      <li><p>Reading 2: Planes that are flying can be dangerous.</p></li>
+    </ul>
+
+    <p><em>Example</em>: <em>Old men and women gathered.</em></p>
+
+    <ul>
+      <li><p>Reading 1: Old men, and women (of any age)</p></li>
+      <li><p>Reading 2: Old people of both genders</p></li>
+    </ul>
+
+    <p>In each case, the ambiguity arises from structural options—different ways of grouping the words.</p>
+
+    <paragraphs>
+      <title>Why This Matters</title>
+    </paragraphs>
+
+    <p>Understanding structural ambiguity matters for several reasons:</p>
+
+    <p><em>For reading</em>: Recognizing that a sentence has multiple possible structures helps you interpret texts accurately.</p>
+
+    <p><em>For writing</em>: Awareness of structural ambiguity helps you avoid writing sentences that could be misread. If a sentence has an unintended reading, restructure it.</p>
+
+    <p><em>For analysis</em>: Structural ambiguity demonstrates that meaning is not just in the words—it's in how the words are organized.</p>
+
+  </section>
+
+  <section xml:id="ch-07-introduction-to-sentence-diagramming-sec-76">
+    <title>Diagramming Conventions</title>
+
+    <p>This textbook follows standard conventions for tree diagrams.</p>
+
+    <paragraphs>
+      <title>Basic Conventions</title>
+    </paragraphs>
+
+    <ol>
+      <li><p><em>Top-down structure</em>: S is at the top; words are at the bottom</p></li>
+      <li><p><em>Binary branching preferred</em>: Most nodes have two daughters, though some have more</p></li>
+      <li><p><em>Labels on every node</em>: Each node is labeled with its category</p></li>
+      <li><p><em>Words as terminals</em>: Actual words appear only at the bottom of the tree</p></li>
+      <li><p><em>Lines connect related elements</em>: Branches show constituency</p></li>
+    </ol>
+
+    <paragraphs>
+      <title>Category Labels</title>
+    </paragraphs>
+
+    <p>Use standard abbreviations consistently:</p>
+
+    <ul>
+      <li><p>Phrases: S, NP, VP, PP, AdjP, AdvP</p></li>
+      <li><p>Words: N, V, Adj, Adv, Det, Pro, Prep, Conj, Aux</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Handling Complex Structures</title>
+    </paragraphs>
+
+    <p>For complex structures:</p>
+
+    <ul>
+      <li><p>Nested phrases are shown as branches within branches</p></li>
+      <li><p>Movement and gaps (in questions, relative clauses) are indicated with traces</p></li>
+      <li><p>Coordination is shown with parallel branches joined at a higher node</p></li>
+    </ul>
+
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Complement</title>
+      <p>An element that completes the meaning of a head; often required by the head.</p>
+    </gi>
+    <gi>
+      <title>Constituent</title>
+      <p>A word or group of words that functions as a structural unit.</p>
+    </gi>
+    <gi>
+      <title>Dominance</title>
+      <p>The relationship in a tree where a higher node contains lower nodes.</p>
+    </gi>
+    <gi>
+      <title>Head</title>
+      <p>The central, obligatory element of a phrase that determines its category.</p>
+    </gi>
+    <gi>
+      <title>Modifier</title>
+      <p>An optional element that adds information about a head.</p>
+    </gi>
+    <gi>
+      <title>Node</title>
+      <p>A labeled point in a tree diagram representing a word or phrase category.</p>
+    </gi>
+    <gi>
+      <title>Structural ambiguity</title>
+      <p>A situation where a sentence has multiple possible structures, each with a different meaning.</p>
+    </gi>
+    <gi>
+      <title>Tree diagram</title>
+      <p>A visual representation of sentence structure showing hierarchical relationships between constituents.</p>
+    </gi>
+  </glossary>
+
+</chapter>

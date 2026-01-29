@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-19-organization-and-concision" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Organization and Concision</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Organize information within sentences effectively</p></li>
+      <li><p>Move from known to new information</p></li>
+      <li><p>Eliminate wordiness and redundancy</p></li>
+      <li><p>Use active constructions for concision</p></li>
+      <li><p>Revise for economy without sacrificing clarity</p></li>
+      <li><p>Cohesion</p></li>
+      <li><p>Coherence</p></li>
+      <li><p>Given-new contract</p></li>
+      <li><p>End-focus</p></li>
+      <li><p>Wordiness</p></li>
+      <li><p>Redundancy</p></li>
+      <li><p>Nominalization</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-19-organization-and-concision-sec-191">
+    <title>Organizing Information</title>
+
+    <p>How you arrange information within and across sentences affects how easily readers follow your ideas.</p>
+
+    <paragraphs>
+      <title>The Given-New Contract</title>
+    </paragraphs>
+
+    <p>Effective prose moves from <em>given</em> (known) information to <em>new</em> information:</p>
+
+    <p><em>Given</em>: What the reader already knows</p>
+
+    <p><em>New</em>: What you're adding</p>
+
+    <ul>
+      <li><p><em>The study examined workplace stress. <em>This stress</em> affects employee health.</em></p></li>
+    </ul>
+
+    <p>The second sentence begins with given information (<em>This stress</em>—referring to what we just discussed) and ends with new information (<em>affects employee health</em>).</p>
+
+    <paragraphs>
+      <title>Violating the Contract</title>
+    </paragraphs>
+
+    <p>When new information comes first, readers struggle:</p>
+
+    <ul>
+      <li><p><em>~~Employee health is affected by this stress.~~</em> (new before given)</p></li>
+    </ul>
+
+    <p>Readers work harder because they encounter unknown information before they've been oriented.</p>
+
+    <paragraphs>
+      <title>Topic and Comment</title>
+    </paragraphs>
+
+    <p>Sentences typically have a <em>topic</em> (what the sentence is about) and a <em>comment</em> (what's said about it).</p>
+
+    <ul>
+      <li><p><em>Topic</em>: <em>The proposal</em></p></li>
+      <li><p><em>Comment</em>: <em>was rejected by the committee.</em></p></li>
+    </ul>
+
+    <p>Keeping topics consistent helps readers track your ideas:</p>
+
+    <ul>
+      <li><p><em>The proposal was submitted last week. <em>It</em> was reviewed by experts. <em>The proposal</em> was ultimately approved.</em></p></li>
+    </ul>
+
+    <p>Shifting topics erratically creates confusion.</p>
+
+  </section>
+
+  <section xml:id="ch-19-organization-and-concision-sec-192">
+    <title>End-Focus and End-Weight</title>
+
+    <paragraphs>
+      <title>End-Focus</title>
+    </paragraphs>
+
+    <p>English naturally stresses sentence-final position. Place important information at the end:</p>
+
+    <ul>
+      <li><p><em>The winner was <em>Maria</em>.</em> (focus on Maria)</p></li>
+      <li><p><em><em>Maria</em> won the competition.</em> (focus on winning)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>End-Weight</title>
+    </paragraphs>
+
+    <p>Heavy (long, complex) elements work better at sentence end:</p>
+
+    <ul>
+      <li><p>Awkward: <em><em>That she would resign after thirty years</em> surprised everyone.</em></p></li>
+      <li><p>Better: <em>It surprised everyone <em>that she would resign after thirty years</em>.</em></p></li>
+    </ul>
+
+    <p>This is why extraposition and passive voice are useful—they help manage end-weight.</p>
+
+  </section>
+
+  <section xml:id="ch-19-organization-and-concision-sec-193">
+    <title>Cohesion and Coherence</title>
+
+    <paragraphs>
+      <title>Cohesion</title>
+    </paragraphs>
+
+    <p><em>Cohesion</em> refers to the linguistic ties between sentences:</p>
+
+    <ul>
+      <li><p><em>Repetition</em>: <em>The proposal... This proposal...</em></p></li>
+      <li><p><em>Pronouns</em>: <em>The committee... They...</em></p></li>
+      <li><p><em>Synonyms</em>: <em>The building... The structure...</em></p></li>
+      <li><p><em>Conjunctions</em>: <em>However</em>, <em>Therefore</em>, <em>In addition</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Coherence</title>
+    </paragraphs>
+
+    <p><em>Coherence</em> is the logical connection of ideas. Text can be cohesive without being coherent if the ideas don't logically connect.</p>
+
+    <p>Both are needed for readable prose.</p>
+
+  </section>
+
+  <section xml:id="ch-19-organization-and-concision-sec-194">
+    <title>Concision: Eliminating Wordiness</title>
+
+    <p>Concise writing says what needs to be said without unnecessary words.</p>
+
+    <paragraphs>
+      <title>Redundant Pairs</title>
+    </paragraphs>
+
+    <p>Eliminate words that repeat meaning:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Wordy</cell>
+        <cell>Concise</cell>
+      </row>
+      <row>
+        <cell><em>basic fundamentals</em></cell>
+        <cell><em>basics</em> or <em>fundamentals</em></cell>
+      </row>
+      <row>
+        <cell><em>true facts</em></cell>
+        <cell><em>facts</em></cell>
+      </row>
+      <row>
+        <cell><em>past history</em></cell>
+        <cell><em>history</em></cell>
+      </row>
+      <row>
+        <cell><em>future plans</em></cell>
+        <cell><em>plans</em></cell>
+      </row>
+      <row>
+        <cell><em>consensus of opinion</em></cell>
+        <cell><em>consensus</em></cell>
+      </row>
+      <row>
+        <cell><em>completely unanimous</em></cell>
+        <cell><em>unanimous</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Meaningless Modifiers</title>
+    </paragraphs>
+
+    <p>Remove words that add nothing:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Wordy</cell>
+        <cell>Concise</cell>
+      </row>
+      <row>
+        <cell><em>really quite interesting</em></cell>
+        <cell><em>interesting</em></cell>
+      </row>
+      <row>
+        <cell><em>very unique</em></cell>
+        <cell><em>unique</em></cell>
+      </row>
+      <row>
+        <cell><em>absolutely essential</em></cell>
+        <cell><em>essential</em></cell>
+      </row>
+      <row>
+        <cell><em>completely finished</em></cell>
+        <cell><em>finished</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Wordy Phrases</title>
+    </paragraphs>
+
+    <p>Replace phrases with single words:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Wordy</cell>
+        <cell>Concise</cell>
+      </row>
+      <row>
+        <cell><em>at this point in time</em></cell>
+        <cell><em>now</em></cell>
+      </row>
+      <row>
+        <cell><em>in the event that</em></cell>
+        <cell><em>if</em></cell>
+      </row>
+      <row>
+        <cell><em>due to the fact that</em></cell>
+        <cell><em>because</em></cell>
+      </row>
+      <row>
+        <cell><em>in order to</em></cell>
+        <cell><em>to</em></cell>
+      </row>
+      <row>
+        <cell><em>a large number of</em></cell>
+        <cell><em>many</em></cell>
+      </row>
+      <row>
+        <cell><em>is able to</em></cell>
+        <cell><em>can</em></cell>
+      </row>
+      <row>
+        <cell><em>has the ability to</em></cell>
+        <cell><em>can</em></cell>
+      </row>
+      <row>
+        <cell><em>make a decision</em></cell>
+        <cell><em>decide</em></cell>
+      </row>
+      <row>
+        <cell><em>give consideration to</em></cell>
+        <cell><em>consider</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Empty Sentence Starters</title>
+    </paragraphs>
+
+    <p>Avoid weak openings:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Wordy</cell>
+        <cell>Concise</cell>
+      </row>
+      <row>
+        <cell><em>It is important to note that...</em></cell>
+        <cell>(just state it)</cell>
+      </row>
+      <row>
+        <cell><em>There are many people who believe...</em></cell>
+        <cell><em>Many people believe...</em></cell>
+      </row>
+      <row>
+        <cell><em>It is my opinion that...</em></cell>
+        <cell>(just state your opinion)</cell>
+      </row>
+      <row>
+        <cell><em>The reason why is because...</em></cell>
+        <cell><em>The reason is...</em> or <em>because</em></cell>
+      </row>
+    </tabular>
+
+  </section>
+
+  <section xml:id="ch-19-organization-and-concision-sec-195">
+    <title>Nominalization and Verb Strength</title>
+
+    <p><em>Nominalization</em> is turning a verb into a noun. While sometimes useful, excessive nominalization creates wordy, weak prose.</p>
+
+    <paragraphs>
+      <title>The Problem</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Nominalized (wordy)</cell>
+        <cell>Verbal (concise)</cell>
+      </row>
+      <row>
+        <cell><em>make an examination of</em></cell>
+        <cell><em>examine</em></cell>
+      </row>
+      <row>
+        <cell><em>give consideration to</em></cell>
+        <cell><em>consider</em></cell>
+      </row>
+      <row>
+        <cell><em>conduct an investigation of</em></cell>
+        <cell><em>investigate</em></cell>
+      </row>
+      <row>
+        <cell><em>reach a conclusion</em></cell>
+        <cell><em>conclude</em></cell>
+      </row>
+      <row>
+        <cell><em>provide assistance to</em></cell>
+        <cell><em>assist</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>When Nominalization Works</title>
+    </paragraphs>
+
+    <p>Nominalizations are useful when the noun form serves a specific purpose:</p>
+
+    <ul>
+      <li><p><em>As subjects</em>: <em>The investigation revealed problems.</em> (investigation as topic)</p></li>
+      <li><p><em>To refer back</em>: <em>This decision was controversial.</em> (referring to previous content)</p></li>
+    </ul>
+
+    <p>The key is avoiding unnecessary nominalization that buries the action.</p>
+
+  </section>
+
+  <section xml:id="ch-19-organization-and-concision-sec-196">
+    <title>Active vs. Passive for Concision</title>
+
+    <p>Active voice is often more concise than passive:</p>
+
+    <ul>
+      <li><p>Passive: <em>The report was written by the committee.</em> (8 words)</p></li>
+      <li><p>Active: <em>The committee wrote the report.</em> (5 words)</p></li>
+    </ul>
+
+    <p>However, passive can be more concise when the agent is obvious or irrelevant:</p>
+
+    <ul>
+      <li><p>Active: <em>Someone stole my car.</em> (4 words)</p></li>
+      <li><p>Passive: <em>My car was stolen.</em> (4 words—same length, but agent-free)</p></li>
+    </ul>
+
+    <p>Choose based on what's most efficient for your purpose.</p>
+
+  </section>
+
+  <section xml:id="ch-19-organization-and-concision-sec-197">
+    <title>Revision Strategies</title>
+
+    <paragraphs>
+      <title>The Shrink Test</title>
+    </paragraphs>
+
+    <p>Can you cut 10-20% of your draft without losing meaning? Most first drafts can be tightened significantly.</p>
+
+    <paragraphs>
+      <title>Read Aloud</title>
+    </paragraphs>
+
+    <p>Wordy passages often sound awkward when read aloud. Trust your ear.</p>
+
+    <paragraphs>
+      <title>Ask &quot;Do I need this word?&quot;</title>
+    </paragraphs>
+
+    <p>For every word, ask whether removing it would change meaning. If not, consider cutting it.</p>
+
+    <paragraphs>
+      <title>Watch for Patterns</title>
+    </paragraphs>
+
+    <p>If you frequently use certain wordy constructions (<em>it is</em>, <em>there are</em>, <em>the fact that</em>), search for them specifically during revision.</p>
+
+  </section>
+
+    <section xml:id="ch-19-homework">
+    <title>Homework: Organization and Concision</title>
+
+    <p><em>Instructions:</em> Revise each passage to improve given-to-new information flow.</p>
+
+    <p><em>Question 1.</em> <em>A revolutionary design was created by the engineers. Problems emerged with this design.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 2.</em> <em>Many complications arose during the project. The deadline was extended because of these complications.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 3.</em> Explain the "given-new contract" in your own words. Why does putting given information first help readers?</p>
+
+    <p><em>Instructions:</em> Cut redundant words and phrases.</p>
+
+    <p><em>Question 4.</em> <em>The basic fundamentals of grammar are essential and necessary for clear writing.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 5.</em> <em>She made a decision to completely finish the project before the final deadline.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 6.</em> <em>In the event that you need assistance, I am able to help you.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 7.</em> <em>We should return back to the original plan that we started out with in the beginning.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Instructions:</em> Revise each sentence to replace weak nominalizations with stronger verbs.</p>
+
+    <p><em>Question 8.</em> <em>The committee made an examination of the evidence.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 9.</em> <em>We will give consideration to your proposal.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 10.</em> <em>The researchers reached the conclusion that the treatment was effective.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 11.</em> <em>The company made an announcement about the acquisition of its competitor.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Instructions:</em> Revise each passage for both organization and concision. Apply multiple strategies.</p>
+
+    <p><em>Question 12.</em> <em>It is important to note that due to the fact that there were many problems that arose during the investigation, the investigators made a decision to conduct a thorough re-examination of all of the evidence that was previously collected by the team.</em></p>
+
+    <p>Revised:</p>
+
+    <p>Strategies used:</p>
+
+    <p><em>Question 13.</em> <em>At this point in time, it has come to our attention that there are a number of issues that need to be addressed. An investigation will be conducted by the committee. A report on the findings will be submitted by them at a later date.</em></p>
+
+    <p>Revised:</p>
+
+    <p>Strategies used:</p>
+
+    <p><em>Question 14.</em> Find a paragraph from your own writing (an essay, email, report, etc.). Apply the "shrink test": try to cut 15-20% of the words without losing meaning.</p>
+
+    <p>Original paragraph (with word count):</p>
+
+    <p>Revised paragraph (with word count):</p>
+
+    <p>What did you cut? Were there patterns in your wordiness?</p>
+
+    <p><em>Question 15.</em> The chapter suggests that concision is not about being brief at all costs—it's about saying what needs to be said without unnecessary words. In 1-2 paragraphs, reflect: When might wordiness be a problem in your writing? Are there contexts where more formal, elaborate language might actually be appropriate?</p>
+
+    <ul>
+      <li><p>Organize information by moving from <em>given to new</em>.</p></li>
+      <li><p>Place <em>emphasis</em> at sentence end; place <em>heavy elements</em> at end.</p></li>
+      <li><p>Create <em>cohesion</em> through repetition, pronouns, and transitions.</p></li>
+      <li><p>Eliminate <em>wordiness</em>: redundant pairs, empty phrases, unnecessary nominalizations.</p></li>
+      <li><p>Choose <em>active voice</em> for concision (when appropriate).</p></li>
+      <li><p>Revise systematically to tighten prose without sacrificing clarity.</p></li>
+    </ul>
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Coherence</title>
+      <p>The logical connection of ideas in a text.</p>
+    </gi>
+    <gi>
+      <title>Cohesion</title>
+      <p>The linguistic ties (repetition, pronouns, transitions) that connect sentences.</p>
+    </gi>
+    <gi>
+      <title>End-focus</title>
+      <p>The principle that sentence-final position receives emphasis.</p>
+    </gi>
+    <gi>
+      <title>Given information</title>
+      <p>Information the reader already knows.</p>
+    </gi>
+    <gi>
+      <title>New information</title>
+      <p>Information being introduced.</p>
+    </gi>
+    <gi>
+      <title>Nominalization</title>
+      <p>Converting a verb into a noun.</p>
+    </gi>
+    <gi>
+      <title>Wordiness</title>
+      <p>Using more words than necessary.</p>
+    </gi>
+  </glossary>
+
+</chapter>

@@ -1,0 +1,279 @@
+# Diagram Sources - Bracket Notation
+# Generated for: Concise Guide to English Grammar
+# Format: [CATEGORY child1 child2 ...] where children can be words or nested brackets
+
+### Chapter 4: Morphology
+
+# diagram_id: ch04_morpheme_unhappiness
+# caption: Morpheme tree for "unhappiness"
+[N [Adj [un-] [Adj happy]] [-ness]]
+
+# diagram_id: ch04_morpheme_rewriters
+# caption: Morpheme tree for "rewriters"
+[N [N [V [re-] [V write]] [-er]] [-s]]
+
+### Chapter 6: Syntax and Diagrams
+
+# diagram_id: ch06_basic_structure
+# caption: Basic S -> NP + VP structure
+[S [NP] [VP]]
+
+# diagram_id: ch06_dog_barked
+# caption: The dog barked
+[S [NP [Det The] [N dog]] [VP [V barked]]]
+
+# diagram_id: ch06_artist_painted
+# caption: The young artist from Paris painted beautiful landscapes
+[S [NP [Det The] [Adj young] [N artist] [PP [P from] [NP [N Paris]]]] [VP [V painted] [NP [Adj beautiful] [N landscapes]]]]
+
+# diagram_id: ch06_ambig_binoculars_vp
+# caption: I saw the man with binoculars (PP attaches to VP)
+[S [NP [Pro I]] [VP [V saw] [NP [Det the] [N man]] [PP [P with] [NP [N binoculars]]]]]
+
+# diagram_id: ch06_ambig_binoculars_np
+# caption: I saw the man with binoculars (PP attaches to NP)
+[S [NP [Pro I]] [VP [V saw] [NP [Det the] [N man] [PP [P with] [NP [N binoculars]]]]]]
+
+# diagram_id: ch06_ambig_old_men_1
+# caption: Old men and women gathered (only men are old)
+[S [NP [NP [Adj old] [N men]] [Conj and] [NP [N women]]] [VP [V gathered]]]
+
+# diagram_id: ch06_ambig_old_men_2
+# caption: Old men and women gathered (both are old)
+[S [NP [Adj old] [NP [N men] [Conj and] [N women]]] [VP [V gathered]]]
+
+# diagram_id: ch06_intransitive
+# caption: Thunder rumbled (intransitive pattern)
+[S [NP [N Thunder]] [VP [V rumbled]]]
+
+# diagram_id: ch06_transitive
+# caption: The cat chased the mouse (transitive pattern)
+[S [NP [Det The] [N cat]] [VP [V chased] [NP [Det the] [N mouse]]]]
+
+# diagram_id: ch06_linking
+# caption: She is happy (linking verb pattern)
+[S [NP [Pro She]] [VP [V is] [AdjP [Adj happy]]]]
+
+# diagram_id: ch06_ditransitive
+# caption: She gave me a book (ditransitive pattern)
+[S [NP [Pro She]] [VP [V gave] [NP [Pro me]] [NP [Det a] [N book]]]]
+
+# diagram_id: ch06_complex_trans_np
+# caption: They elected her president (complex transitive with NP)
+[S [NP [Pro They]] [VP [V elected] [NP [Pro her]] [NP [N president]]]]
+
+# diagram_id: ch06_complex_trans_adj
+# caption: The jury found him guilty (complex transitive with AdjP)
+[S [NP [Det The] [N jury]] [VP [V found] [NP [Pro him]] [AdjP [Adj guilty]]]]
+
+### Chapter 7: Verbs (Verb Phrase Structures)
+
+# diagram_id: ch07_simple_vp
+# caption: Simple VP (main verb only)
+[VP [V sleeps]]
+
+# diagram_id: ch07_vp_modal
+# caption: VP with modal
+[VP [Modal will] [V eat]]
+
+# diagram_id: ch07_vp_perfect
+# caption: VP with perfect aspect (has eaten)
+[VP [Aux has] [V eaten]]
+
+# diagram_id: ch07_vp_progressive
+# caption: VP with progressive aspect (is eating)
+[VP [Aux is] [V eating]]
+
+# diagram_id: ch07_vp_passive
+# caption: VP with passive voice (was eaten)
+[VP [Aux was] [V eaten]]
+
+# diagram_id: ch07_vp_modal_perfect
+# caption: VP with modal and perfect (will have eaten)
+[VP [Modal will] [Aux have] [V eaten]]
+
+# diagram_id: ch07_vp_perfect_progressive
+# caption: VP with perfect and progressive (has been eating)
+[VP [Aux has] [Aux been] [V eating]]
+
+# diagram_id: ch07_vp_progressive_passive
+# caption: VP with progressive and passive (is being renovated)
+[VP [Aux is] [Aux being] [V renovated]]
+
+# diagram_id: ch07_vp_complex
+# caption: VP with modal, perfect, and progressive (should have been studying)
+[VP [Modal should] [Aux have] [Aux been] [V studying]]
+
+# diagram_id: ch07_vp_full_complex
+# caption: Full complex VP (will have been being eaten)
+[VP [Modal will] [Aux have] [Aux been] [Aux being] [V eaten]]
+
+### Chapter 8: Nouns (Noun Phrase Structures)
+
+# diagram_id: ch08_simple_np
+# caption: Simple NP (noun only)
+[NP [N dogs]]
+
+# diagram_id: ch08_np_det
+# caption: NP with determiner
+[NP [Det the] [N dog]]
+
+# diagram_id: ch08_np_det_adj
+# caption: NP with determiner and adjective
+[NP [Det the] [Adj old] [N dog]]
+
+# diagram_id: ch08_np_multiple_adj
+# caption: NP with multiple pre-modifiers
+[NP [Det the] [Adj big] [Adj brown] [N dog]]
+
+# diagram_id: ch08_np_with_pp
+# caption: NP with post-modifier PP
+[NP [Det the] [N dog] [PP [P in] [NP [Det the] [N yard]]]]
+
+# diagram_id: ch08_np_with_relcl
+# caption: NP with relative clause
+[NP [Det the] [N dog] [RelCl that I saw]]
+
+# diagram_id: ch08_complex_np
+# caption: Complex NP with all elements
+[NP [Det the] [Adj big] [Adj old] [N dog] [PP [P from] [NP [N Texas]]]]
+
+# diagram_id: ch08_np_students
+# caption: The ambitious students from Pueblo
+[NP [Det The] [Adj ambitious] [N students] [PP [P from] [NP [N Pueblo]]]]
+
+### Chapter 9: Adjectives (Adjective Phrase Structures)
+
+# diagram_id: ch09_simple_adjp
+# caption: Simple AdjP (adjective only)
+[AdjP [Adj tall]]
+
+# diagram_id: ch09_adjp_degree
+# caption: AdjP with degree modifier
+[AdjP [Adv very] [Adj tall]]
+
+# diagram_id: ch09_adjp_pp_complement
+# caption: AdjP with PP complement (afraid of spiders)
+[AdjP [Adj afraid] [PP [P of] [NP [N spiders]]]]
+
+# diagram_id: ch09_adjp_pp_proud
+# caption: AdjP with PP complement (proud of her work)
+[AdjP [Adj proud] [PP [P of] [NP [N her work]]]]
+
+# diagram_id: ch09_adjp_infinitive
+# caption: AdjP with infinitive complement (eager to leave)
+[AdjP [Adj eager] [InfP [to] [VP [V leave]]]]
+
+# diagram_id: ch09_adjp_complex
+# caption: Complex AdjP (extremely difficult to understand)
+[AdjP [Adv extremely] [Adj difficult] [InfP [to] [V understand]]]
+
+# diagram_id: ch09_np_attributive
+# caption: NP with attributive adjective
+[NP [Det the] [Adj tall] [N man]]
+
+# diagram_id: ch09_np_multiple_adj
+# caption: NP with multiple attributive adjectives
+[NP [Det a] [Adj big] [Adj red] [N balloon]]
+
+# diagram_id: ch09_predicative
+# caption: Predicative AdjP after linking verb
+[S [NP [Pro She]] [VP [V is] [AdjP [Adj happy]]]]
+
+# diagram_id: ch09_np_adjectivals
+# caption: NP with adjectivals (the old house on the corner)
+[NP [Det the] [Adj old] [N house] [PP [P on] [NP [Det the] [N corner]]]]
+
+### Chapter 10: Adverbs (Adverb Phrase Structures)
+
+# diagram_id: ch10_simple_advp
+# caption: Simple AdvP
+[AdvP [Adv quickly]]
+
+# diagram_id: ch10_advp_degree
+# caption: AdvP with degree modifier
+[AdvP [Adv very] [Adv quickly]]
+
+# diagram_id: ch10_advp_quite
+# caption: AdvP (quite fortunately)
+[AdvP [Adv quite] [Adv fortunately]]
+
+# diagram_id: ch10_adv_modifying_verb
+# caption: Adverb modifying verb
+[S [NP [Pro She]] [VP [V spoke] [AdvP [Adv quietly]]]]
+
+# diagram_id: ch10_adv_modifying_adj
+# caption: Adverb modifying adjective
+[AdjP [Adv very] [Adj tall]]
+
+# diagram_id: ch10_adverbial_pp
+# caption: Adverbial PP in VP
+[S [NP [Pro She]] [VP [V works] [PP [P at] [NP [N home]]]]]
+
+# diagram_id: ch10_sentence_adverb
+# caption: Sentence adverb (initial position)
+[S [AdvP [Adv Unfortunately]] [S [NP [Pro she]] [VP [V lost]]]]
+
+# diagram_id: ch10_adverbial_clause
+# caption: Adverbial clause
+[S [AdvCl When it rained] [S [NP [Pro they]] [VP [V stayed]]]]
+
+# diagram_id: ch10_sentence_adverbials
+# caption: Sentence with multiple adverbials
+[S [NP [Pro She]] [VP [V spoke] [AdvP [Adv quietly]] [PP [P in] [NP [Det the] [N library]]]]]
+
+### Chapter 11: Closed Classes
+
+# diagram_id: ch11_simple_pp
+# caption: Simple prepositional phrase
+[PP [P in] [NP [Det the] [N box]]]
+
+# diagram_id: ch11_adjectival_pp
+# caption: Adjectival PP (the man in the hat)
+[NP [Det the] [N man] [PP [P in] [NP [Det the] [N hat]]]]
+
+# diagram_id: ch11_adverbial_pp
+# caption: Adverbial PP (She waited in the lobby)
+[S [NP [Pro She]] [VP [V waited] [PP [P in] [NP [Det the] [N lobby]]]]]
+
+# diagram_id: ch11_np_with_det
+# caption: NP with determiner and adjective
+[NP [Det the] [Adj old] [N book]]
+
+# diagram_id: ch11_possessive_np
+# caption: Possessive NP as determiner
+[NP [NP John's] [N book]]
+
+# diagram_id: ch11_pronouns
+# caption: Pronouns in sentence (She read it)
+[S [NP [Pro She]] [VP [V read] [NP [Pro it]]]]
+
+### Chapter 12: Basic Sentence Elements
+
+# diagram_id: ch12_basic_intransitive
+# caption: Basic intransitive (Cameras flashed)
+[S [NP [N Cameras]] [VP [V flashed]]]
+
+# diagram_id: ch12_basic_transitive
+# caption: Basic transitive (Weasels stalk rabbits)
+[S [NP [N Weasels]] [VP [V stalk] [NP [N rabbits]]]]
+
+# diagram_id: ch12_copular_be
+# caption: Copular be (I am an optimist)
+[S [NP [Pro I]] [VP [V am] [NP [Det an] [N optimist]]]]
+
+# diagram_id: ch12_ditransitive_io_do
+# caption: Ditransitive (Marie sent Ramon a gift)
+[S [NP [N Marie]] [VP [V sent] [NP [N Ramon]] [NP [Det a] [N gift]]]]
+
+### Chapter 16: Auxiliary Verbs
+
+# diagram_id: ch16_vp_auxiliaries
+# caption: VP with multiple auxiliaries (has been working)
+[VP [Aux has] [Aux been] [V working]]
+
+# diagram_id: ch16_passive_by
+# caption: Passive VP with by-phrase
+[VP [Aux was] [V written] [PP [P by] [NP [N Maria]]]]
+
+# END OF DIAGRAM SOURCES

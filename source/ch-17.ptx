@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-17-stylistic-choices" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Stylistic Choices</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Understand how grammatical choices affect style and meaning</p></li>
+      <li><p>Make informed decisions about sentence structure and length</p></li>
+      <li><p>Use active and passive voice strategically</p></li>
+      <li><p>Control emphasis through word order and sentence structure</p></li>
+      <li><p>Vary sentence types for rhetorical effect</p></li>
+      <li><p>Style</p></li>
+      <li><p>Register</p></li>
+      <li><p>Sentence variety</p></li>
+      <li><p>Emphasis</p></li>
+      <li><p>Information structure</p></li>
+      <li><p>Given vs. new information</p></li>
+      <li><p>End-focus</p></li>
+      <li><p>Front-weight</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-17-stylistic-choices-sec-171">
+    <title>Grammar and Style</title>
+
+    <p>Grammar isn't just about correctness—it's about choice. Every sentence offers multiple grammatically correct options, each with different stylistic effects.</p>
+
+    <paragraphs>
+      <title>Style Defined</title>
+    </paragraphs>
+
+    <p><em>Style</em> refers to the characteristic way a writer or speaker uses language. It emerges from patterns of choices: sentence length, word selection, active vs. passive voice, coordination vs. subordination.</p>
+
+    <p>Understanding grammar gives you options. Mastering style means knowing which options to choose and when.</p>
+
+  </section>
+
+  <section xml:id="ch-17-stylistic-choices-sec-172">
+    <title>Sentence Length and Complexity</title>
+
+    <paragraphs>
+      <title>Varying Sentence Length</title>
+    </paragraphs>
+
+    <p>Effective prose mixes sentence lengths. Consider these two passages:</p>
+
+    <p><em>Monotonous (all similar length)</em>:</p>
+
+    <p><em>The storm arrived. It brought heavy rain. The roads flooded. Traffic stopped. People were stranded.</em></p>
+
+    <p><em>Varied</em>:</p>
+
+    <p><em>The storm arrived with heavy rain, flooding the roads and bringing traffic to a halt. People were stranded.</em></p>
+
+    <paragraphs>
+      <title>When to Use Short Sentences</title>
+    </paragraphs>
+
+    <p>Short sentences create:</p>
+
+    <ul>
+      <li><p><em>Impact</em>: <em>She refused.</em></p></li>
+      <li><p><em>Clarity</em>: Complex information benefits from simpler structures</p></li>
+      <li><p><em>Pace</em>: Action scenes often use short, punchy sentences</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>When to Use Long Sentences</title>
+    </paragraphs>
+
+    <p>Longer sentences create:</p>
+
+    <ul>
+      <li><p><em>Flow</em>: Ideas that belong together can be combined</p></li>
+      <li><p><em>Rhythm</em>: Extended sentences can build to climactic points</p></li>
+      <li><p><em>Complexity</em>: Sophisticated relationships require more structure</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>The Power of Variation</title>
+    </paragraphs>
+
+    <p>Short sentences stand out when surrounded by longer ones. The key is strategic contrast, not arbitrary mixture.</p>
+
+  </section>
+
+  <section xml:id="ch-17-stylistic-choices-sec-173">
+    <title>Active vs. Passive Voice</title>
+
+    <paragraphs>
+      <title>Review</title>
+    </paragraphs>
+
+    <p><em>Active</em>: The subject performs the action.</p>
+
+    <ul>
+      <li><p><em>The committee <em>approved</em> the proposal.</em></p></li>
+    </ul>
+
+    <p><em>Passive</em>: The subject receives the action.</p>
+
+    <ul>
+      <li><p><em>The proposal <em>was approved</em> by the committee.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Choosing Active Voice</title>
+    </paragraphs>
+
+    <p>Use active voice when:</p>
+
+    <ol>
+      <li><p><em>The agent is important</em>: <em>The CEO announced the merger.</em></p></li>
+      <li><p><em>Directness is valued</em>: <em>We made a mistake.</em> (not <em>Mistakes were made.</em>)</p></li>
+      <li><p><em>Energy is needed</em>: Active voice tends to be more dynamic.</p></li>
+    </ol>
+
+    <paragraphs>
+      <title>Choosing Passive Voice</title>
+    </paragraphs>
+
+    <p>Use passive voice when:</p>
+
+    <ol>
+      <li><p><em>The agent is unknown or irrelevant</em>: <em>The building was constructed in 1920.</em></p></li>
+      <li><p><em>The patient is the topic</em>: <em>The proposal—which I discussed earlier—was approved.</em></p></li>
+      <li><p><em>Objectivity is expected</em>: Scientific writing often uses passive.</p></li>
+      <li><p><em>Tact is needed</em>: <em>Your request has been denied.</em> (softer than <em>We denied your request.</em>)</p></li>
+    </ol>
+
+    <paragraphs>
+      <title>Avoiding Passive Overuse</title>
+    </paragraphs>
+
+    <p>Excessive passive creates weak, evasive prose:</p>
+
+    <ul>
+      <li><p><em>~~It was decided that changes would be made.~~</em></p></li>
+      <li><p>Better: <em>The committee decided to make changes.</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-17-stylistic-choices-sec-174">
+    <title>Information Structure</title>
+
+    <p>How you arrange information within a sentence affects clarity and emphasis.</p>
+
+    <paragraphs>
+      <title>Given vs. New Information</title>
+    </paragraphs>
+
+    <p><em>Given information</em>: What the reader already knows</p>
+
+    <p><em>New information</em>: What you're adding</p>
+
+    <p>Effective prose moves from given to new:</p>
+
+    <ul>
+      <li><p><em>The proposal was controversial. <em>This controversy</em> led to lengthy debates.</em></p></li>
+    </ul>
+
+    <p>The second sentence starts with the given information (<em>This controversy</em>) and ends with the new (<em>lengthy debates</em>).</p>
+
+    <paragraphs>
+      <title>End-Focus</title>
+    </paragraphs>
+
+    <p>English naturally emphasizes information at the <em>end</em> of sentences:</p>
+
+    <ul>
+      <li><p><em>The winner was <em>Maria</em>.</em> (emphasizes Maria)</p></li>
+      <li><p><em><em>Maria</em> was the winner.</em> (emphasizes being the winner)</p></li>
+    </ul>
+
+    <p>Place your most important information at the end.</p>
+
+    <paragraphs>
+      <title>End-Weight</title>
+    </paragraphs>
+
+    <p>English prefers <em>heavy</em> (long, complex) elements at the end:</p>
+
+    <ul>
+      <li><p>Awkward: <em><em>That she would resign</em> surprised everyone.</em></p></li>
+      <li><p>Better: <em>It surprised everyone <em>that she would resign</em>.</em></p></li>
+    </ul>
+
+    <p>This is why extraposition exists—to move heavy subjects to the end.</p>
+
+  </section>
+
+  <section xml:id="ch-17-stylistic-choices-sec-175">
+    <title>Emphasis Techniques</title>
+
+    <paragraphs>
+      <title>Position</title>
+    </paragraphs>
+
+    <p><em>Sentence-initial position</em> (topic position):</p>
+
+    <ul>
+      <li><p>Sets up what the sentence is about</p></li>
+      <li><p><em>As for the budget, we need to discuss it.</em></p></li>
+    </ul>
+
+    <p><em>Sentence-final position</em> (focus position):</p>
+
+    <ul>
+      <li><p>Receives natural stress</p></li>
+      <li><p>Place key information here</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Cleft Sentences</title>
+    </paragraphs>
+
+    <p>Clefts highlight specific elements:</p>
+
+    <ul>
+      <li><p>Normal: <em>John broke the window.</em></p></li>
+      <li><p>Cleft: <em><em>It was John</em> who broke the window.</em> (emphasizes John)</p></li>
+      <li><p>Pseudo-cleft: <em><em>What John broke</em> was the window.</em> (emphasizes window)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Inversion</title>
+    </paragraphs>
+
+    <p>Reversing normal word order creates emphasis:</p>
+
+    <ul>
+      <li><p>Normal: <em>The results were more surprising.</em></p></li>
+      <li><p>Inverted: <em><em>More surprising</em> were the results.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Short Sentences for Punch</title>
+    </paragraphs>
+
+    <p>A short sentence after longer ones commands attention:</p>
+
+    <p><em>The committee debated for hours, examining every proposal, questioning every assumption, reconsidering every priority. Then they voted. The answer was no.</em></p>
+
+  </section>
+
+  <section xml:id="ch-17-stylistic-choices-sec-176">
+    <title>Coordination vs. Subordination</title>
+
+    <paragraphs>
+      <title>When to Coordinate</title>
+    </paragraphs>
+
+    <p>Use coordination (<em>and</em>, <em>but</em>, <em>or</em>) when ideas are equally important:</p>
+
+    <p><em>She studied hard, <em>and</em> she passed the exam.</em></p>
+
+    <p>Coordination suggests balance and equal weight.</p>
+
+    <paragraphs>
+      <title>When to Subordinate</title>
+    </paragraphs>
+
+    <p>Use subordination (<em>because</em>, <em>although</em>, <em>when</em>) when one idea supports another:</p>
+
+    <p><em><em>Because</em> she studied hard, she passed the exam.</em></p>
+
+    <p>Subordination highlights the main clause while providing context.</p>
+
+    <paragraphs>
+      <title>Choosing Between Them</title>
+    </paragraphs>
+
+    <p>Compare:</p>
+
+    <ul>
+      <li><p><em>She was tired, <em>but</em> she continued.</em> (equal weight—both facts matter)</p></li>
+      <li><p><em><em>Although</em> she was tired, she continued.</em> (emphasis on continuing)</p></li>
+    </ul>
+
+    <p>The choice depends on what you want to emphasize.</p>
+
+  </section>
+
+  <section xml:id="ch-17-stylistic-choices-sec-177">
+    <title>Rhetorical Sentence Patterns</title>
+
+    <paragraphs>
+      <title>Loose (Cumulative) Sentences</title>
+    </paragraphs>
+
+    <p>The main clause comes first, followed by modifying elements:</p>
+
+    <p><em>The ship sailed slowly, <em>rocking gently, its sails catching the wind, the crew relaxing on deck</em>.</em></p>
+
+    <p>Loose sentences feel natural and relaxed.</p>
+
+    <paragraphs>
+      <title>Periodic Sentences</title>
+    </paragraphs>
+
+    <p>Modifying elements come first, delaying the main clause:</p>
+
+    <p><em><em>Rocking gently, its sails catching the wind, the crew relaxing on deck</em>, the ship sailed slowly.</em></p>
+
+    <p>Periodic sentences build suspense and create emphasis.</p>
+
+    <paragraphs>
+      <title>Balanced Sentences</title>
+    </paragraphs>
+
+    <p>Parallel structures create balance:</p>
+
+    <p><em>Ask not what your country can do for you; ask what you can do for your country.</em></p>
+
+  </section>
+
+    <section xml:id="ch-17-homework">
+    <title>Homework: Stylistic Choices</title>
+
+    <p><em>Instructions:</em> Revise each passage to improve sentence variety and flow.</p>
+
+    <p><em>Question 1.</em> Revise this choppy passage by combining sentences and varying length:</p>
+
+    <p><em>The meeting started. The CEO spoke. She announced changes. Employees listened. Some were concerned. Others were relieved. The meeting ended.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 2.</em> Revise this passage by breaking up the long sentence and adding variation:</p>
+
+    <p><em>The committee, after reviewing all of the applications that had been submitted by the deadline, which was extended twice due to technical difficulties, finally announced their decision regarding the scholarship recipients, including three students from underrepresented backgrounds.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Instructions:</em> For each context, choose active or passive voice and explain your reasoning.</p>
+
+    <p><em>Question 3.</em> Context: A lab report describing experimental procedures.</p>
+
+    <p><em>We heated the solution.</em> OR <em>The solution was heated.</em></p>
+
+    <p>Choice and reasoning:</p>
+
+    <p><em>Question 4.</em> Context: A news article about corporate accountability.</p>
+
+    <p><em>The company made an error that cost millions.</em> OR <em>An error was made that cost millions.</em></p>
+
+    <p>Choice and reasoning:</p>
+
+    <p><em>Question 5.</em> Context: A memo where the topic is the project, not the team.</p>
+
+    <p><em>The team completed the project ahead of schedule.</em> OR <em>The project was completed ahead of schedule.</em></p>
+
+    <p>Choice and reasoning:</p>
+
+    <p><em>Instructions:</em> Revise each pair of sentences to improve flow by moving from given to new information.</p>
+
+    <p><em>Question 6.</em> <em>A new policy was announced yesterday. This policy will affect all employees.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 7.</em> <em>Serious problems were discovered by the auditors. The company had been hiding these problems for years.</em></p>
+
+    <p>Revised:</p>
+
+    <p><em>Question 8.</em> Use end-focus to emphasize "Maria" in this sentence:</p>
+
+    <p><em>The scholarship winner was Maria.</em></p>
+
+    <p>Revised (if needed, or explain why it already uses end-focus):</p>
+
+    <p><em>Instructions:</em> Identify the sentence pattern and explain its effect.</p>
+
+    <p><em>Question 9.</em> <em>The ship sailed slowly, rocking gently on the waves, its sails catching the afternoon light.</em></p>
+
+    <p>Pattern (loose or periodic):</p>
+
+    <p>Effect:</p>
+
+    <p><em>Question 10.</em> <em>Despite the rain, despite the cold, despite everything working against them, they finished the race.</em></p>
+
+    <p>Pattern:</p>
+
+    <p>Effect:</p>
+
+    <p><em>Question 11.</em> Find a paragraph from something you've written recently (an essay, email, or other document). Revise it by applying at least two techniques from this chapter:</p>
+
+    <ul>
+      <li><p>Varying sentence length</p></li>
+      <li><p>Adjusting active/passive voice</p></li>
+      <li><p>Improving given-to-new flow</p></li>
+      <li><p>Using end-focus for emphasis</p></li>
+    </ul>
+    <p>Original paragraph:</p>
+
+    <p>Revised paragraph:</p>
+
+    <p>Techniques applied and why:</p>
+
+    <p><em>Question 12.</em> The chapter argues that grammar is about <em>choice</em>, not just correctness. In 1-2 paragraphs, reflect: How does this perspective change how you think about your own writing? What stylistic choices have you been making unconsciously that you might now make more deliberately?</p>
+
+    <ul>
+      <li><p>Grammar offers choices; style emerges from those choices.</p></li>
+      <li><p><em>Vary sentence length</em> for rhythm and emphasis.</p></li>
+      <li><p>Choose <em>active voice</em> for directness; <em>passive voice</em> when the agent is less important.</p></li>
+      <li><p>Move from <em>given to new</em> information; place emphasis at sentence end.</p></li>
+      <li><p>Use <em>coordination</em> for equal ideas; <em>subordination</em> to highlight the main idea.</p></li>
+      <li><p>Strategic sentence patterns (loose, periodic, balanced) create rhetorical effects.</p></li>
+    </ul>
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>End-focus</title>
+      <p>The principle that sentence-final position receives emphasis.</p>
+    </gi>
+    <gi>
+      <title>Given information</title>
+      <p>Information the reader already knows.</p>
+    </gi>
+    <gi>
+      <title>Information structure</title>
+      <p>How information is arranged within a sentence.</p>
+    </gi>
+    <gi>
+      <title>Loose sentence</title>
+      <p>A sentence with the main clause first, followed by modifiers.</p>
+    </gi>
+    <gi>
+      <title>New information</title>
+      <p>Information being introduced to the reader.</p>
+    </gi>
+    <gi>
+      <title>Periodic sentence</title>
+      <p>A sentence with modifiers first, delaying the main clause.</p>
+    </gi>
+    <gi>
+      <title>Style</title>
+      <p>The characteristic way a writer uses language, emerging from patterns of choices.</p>
+    </gi>
+  </glossary>
+
+</chapter>

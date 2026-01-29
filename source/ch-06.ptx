@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-06-closed-classes" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Closed Classes</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Distinguish between open and closed word classes</p></li>
+      <li><p>Identify and classify determiners by type and function</p></li>
+      <li><p>Recognize pronoun types and their grammatical behavior</p></li>
+      <li><p>Identify prepositions and analyze prepositional phrase structure</p></li>
+      <li><p>Explain the syntactic functions of prepositional phrases (adjectival vs. adverbial)</p></li>
+      <li><p>Understand how closed-class words provide grammatical structure</p></li>
+      <li><p>Closed class</p></li>
+      <li><p>Determiner</p></li>
+      <li><p>Pronoun</p></li>
+      <li><p>Preposition</p></li>
+      <li><p>Prepositional phrase (PP)</p></li>
+      <li><p>Adjectival function</p></li>
+      <li><p>Adverbial function</p></li>
+      <li><p>Antecedent</p></li>
+      <li><p>Object of preposition</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-06-closed-classes-sec-61">
+    <title>Open vs. Closed Classes</title>
+
+    <p>Chapter 5 introduced <em>open classes</em>—word categories that freely accept new members (nouns, verbs, adjectives, adverbs). This chapter examines <em>closed classes</em>—word categories with a fixed membership that rarely changes.</p>
+
+    <paragraphs>
+      <title>Closed Classes Defined</title>
+    </paragraphs>
+
+    <p><em>Closed classes</em> resist new members. They contain a fixed (or nearly fixed) inventory of words that has remained stable for centuries:</p>
+
+    <ul>
+      <li><p><em>Determiners</em>: <em>the</em>, <em>a</em>, <em>this</em>, <em>my</em>, <em>every</em>, <em>some</em>...</p></li>
+      <li><p><em>Pronouns</em>: <em>I</em>, <em>you</em>, <em>he</em>, <em>she</em>, <em>it</em>, <em>we</em>, <em>they</em>...</p></li>
+      <li><p><em>Prepositions</em>: <em>in</em>, <em>on</em>, <em>at</em>, <em>to</em>, <em>from</em>, <em>with</em>...</p></li>
+      <li><p><em>Conjunctions</em>: <em>and</em>, <em>but</em>, <em>or</em>, <em>if</em>, <em>because</em>, <em>although</em>...</p></li>
+      <li><p><em>Auxiliary verbs</em>: <em>be</em>, <em>have</em>, <em>do</em>, <em>can</em>, <em>will</em>, <em>might</em>...</p></li>
+    </ul>
+
+    <p>When did English last add a new preposition? A new pronoun? These classes have been essentially stable for centuries. Even the gradual acceptance of singular <em>they</em> represents an expansion of function, not a new word.</p>
+
+    <paragraphs>
+      <title>Why the Difference Matters</title>
+    </paragraphs>
+
+    <p>Closed-class words differ from open-class words in important ways:</p>
+
+    <p><em>Function vs. content</em>: Open-class words carry most of the <em>content</em> meaning—ideas, actions, qualities. Closed-class words carry <em>grammatical</em> meaning—they show relationships, specify reference, and connect elements.</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Open-class (content-rich)</cell>
+        <cell>Closed-class (grammatical)</cell>
+      </row>
+      <row>
+        <cell><em>student</em>, <em>discovered</em>, <em>ancient</em></cell>
+        <cell><em>the</em>, <em>in</em>, <em>she</em>, <em>and</em>, <em>have</em></cell>
+      </row>
+    </tabular>
+
+    <p><em>Memorization vs. productivity</em>: Because closed classes are small, speakers memorize every member. Open classes are too large for complete memorization.</p>
+
+    <p><em>Processing</em>: Psycholinguistic research suggests that closed-class words are processed differently—retrieved as whole units rather than assembled from parts.</p>
+
+    <p>This chapter focuses on three closed classes essential for understanding sentence structure: determiners, pronouns, and prepositions.</p>
+
+  </section>
+
+  <section xml:id="ch-06-closed-classes-sec-62">
+    <title>Determiners</title>
+
+    <p><em>Determiners</em> introduce noun phrases and help specify reference—they help listeners identify which entity or entities the speaker means.</p>
+
+    <paragraphs>
+      <title>What Determiners Do</title>
+    </paragraphs>
+
+    <p>When you hear &quot;I saw <em>a</em> dog,&quot; the determiner <em>a</em> signals that the dog is being introduced for the first time (indefinite reference). When you hear &quot;I saw <em>the</em> dog,&quot; <em>the</em> signals that you should already know which dog (definite reference).</p>
+
+    <p>Determiners answer questions like:</p>
+
+    <ul>
+      <li><p>Which one? (<em>the</em>, <em>this</em>, <em>that</em>)</p></li>
+      <li><p>How many? (<em>three</em>, <em>several</em>, <em>many</em>)</p></li>
+      <li><p>Whose? (<em>my</em>, <em>the professor's</em>)</p></li>
+      <li><p>Which subset? (<em>some</em>, <em>any</em>, <em>every</em>, <em>no</em>)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Types of Determiners</title>
+    </paragraphs>
+
+    <p><em>Articles</em>—the most common determiners:</p>
+
+    <ul>
+      <li><p><em>Definite article</em> (<em>the</em>): The referent is identifiable to the listener</p></li>
+      <li><p><em>Indefinite articles</em> (<em>a</em>, <em>an</em>): The referent is being introduced or is unspecified</p></li>
+    </ul>
+
+    <p><em>Demonstratives</em>—point to specific entities:</p>
+
+    <ul>
+      <li><p><em>Near</em>: <em>this</em>, <em>these</em> (close to speaker)</p></li>
+      <li><p><em>Far</em>: <em>that</em>, <em>those</em> (farther from speaker)</p></li>
+    </ul>
+
+    <p><em>Possessives</em>—indicate ownership or relationship:</p>
+
+    <ul>
+      <li><p><em>Pronoun forms</em>: <em>my</em>, <em>your</em>, <em>his</em>, <em>her</em>, <em>its</em>, <em>our</em>, <em>their</em></p></li>
+      <li><p><em>Noun + 's</em>: <em>John's</em>, <em>the dog's</em>, <em>my sister's</em></p></li>
+    </ul>
+
+    <p><em>Quantifiers</em>—indicate amount or quantity:</p>
+
+    <ul>
+      <li><p><em>Universal</em>: <em>all</em>, <em>every</em>, <em>each</em>, <em>both</em></p></li>
+      <li><p><em>Existential</em>: <em>some</em>, <em>any</em>, <em>no</em></p></li>
+      <li><p><em>Degree</em>: <em>many</em>, <em>much</em>, <em>few</em>, <em>little</em>, <em>several</em>, <em>enough</em></p></li>
+    </ul>
+
+    <p><em>Numbers</em>:</p>
+
+    <ul>
+      <li><p><em>Cardinal</em>: <em>one</em>, <em>two</em>, <em>three</em>...</p></li>
+      <li><p><em>Ordinal</em>: <em>first</em>, <em>second</em>, <em>third</em>...</p></li>
+    </ul>
+
+    <p><em>Interrogative/Relative</em>: <em>which</em>, <em>what</em>, <em>whose</em></p>
+
+    <paragraphs>
+      <title>Determiner Position</title>
+    </paragraphs>
+
+    <p>Determiners occupy a specific position in the noun phrase—they come first, before any adjectives:</p>
+
+    <p>```</p>
+
+    <p>Det + (Adj) + N</p>
+
+    <p>the     big    dog</p>
+
+    <p>my      old    friend</p>
+
+    <p>some    fresh  bread</p>
+
+    <p>```</p>
+
+    <p><em>Important</em>: Most determiners are mutually exclusive—you cannot stack them:</p>
+
+    <ul>
+      <li><p><em>~~the my book~~</em></p></li>
+      <li><p><em>~~this the student~~</em></p></li>
+      <li><p><em>~~a every dog~~</em></p></li>
+    </ul>
+
+    <p>However, some combinations are allowed:</p>
+
+    <ul>
+      <li><p><em>all the students</em> (predeterminer + article)</p></li>
+      <li><p><em>both my parents</em> (predeterminer + possessive)</p></li>
+      <li><p><em>the first three chapters</em> (article + ordinal + cardinal)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Determiners vs. Adjectives</title>
+    </paragraphs>
+
+    <p>Determiners and adjectives both appear before nouns, but they differ systematically:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Feature</cell>
+        <cell>Determiners</cell>
+        <cell>Adjectives</cell>
+      </row>
+      <row>
+        <cell>Class membership</cell>
+        <cell>Closed</cell>
+        <cell>Open</cell>
+      </row>
+      <row>
+        <cell>Position</cell>
+        <cell>First (before adjectives)</cell>
+        <cell>After determiners</cell>
+      </row>
+      <row>
+        <cell>Function</cell>
+        <cell>Specify reference</cell>
+        <cell>Describe qualities</cell>
+      </row>
+      <row>
+        <cell>Stacking</cell>
+        <cell>Limited combinations</cell>
+        <cell>Multiple allowed</cell>
+      </row>
+      <row>
+        <cell>Obligatoriness</cell>
+        <cell>Often required</cell>
+        <cell>Always optional</cell>
+      </row>
+      <row>
+        <cell>Gradable</cell>
+        <cell>Usually not (<em>~~very the~~</em>)</cell>
+        <cell>Usually yes (<em>very tall</em>)</cell>
+      </row>
+    </tabular>
+
+    <p>Compare:</p>
+
+    <ul>
+      <li><p><em>The</em> is required for singular count nouns in many contexts: <em>~~Book is on table.~~</em></p></li>
+      <li><p><em>Interesting</em> is always optional: <em>The book is on the table.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Count vs. Mass Nouns and Determiners</title>
+    </paragraphs>
+
+    <p>Determiner choice interacts with whether a noun is count (discrete entities) or mass (undifferentiated substance):</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Determiner</cell>
+        <cell>Count Singular</cell>
+        <cell>Count Plural</cell>
+        <cell>Mass</cell>
+      </row>
+      <row>
+        <cell><em>a/an</em></cell>
+        <cell>✓ <em>a book</em></cell>
+        <cell>✗</cell>
+        <cell>✗</cell>
+      </row>
+      <row>
+        <cell><em>the</em></cell>
+        <cell>✓ <em>the book</em></cell>
+        <cell>✓ <em>the books</em></cell>
+        <cell>✓ <em>the water</em></cell>
+      </row>
+      <row>
+        <cell><em>this/that</em></cell>
+        <cell>✓ <em>this book</em></cell>
+        <cell>✗</cell>
+        <cell>✓ <em>this water</em></cell>
+      </row>
+      <row>
+        <cell><em>these/those</em></cell>
+        <cell>✗</cell>
+        <cell>✓ <em>these books</em></cell>
+        <cell>✗</cell>
+      </row>
+      <row>
+        <cell><em>some</em></cell>
+        <cell>✗</cell>
+        <cell>✓ <em>some books</em></cell>
+        <cell>✓ <em>some water</em></cell>
+      </row>
+      <row>
+        <cell><em>many</em></cell>
+        <cell>✗</cell>
+        <cell>✓ <em>many books</em></cell>
+        <cell>✗</cell>
+      </row>
+      <row>
+        <cell><em>much</em></cell>
+        <cell>✗</cell>
+        <cell>✗</cell>
+        <cell>✓ <em>much water</em></cell>
+      </row>
+    </tabular>
+
+    <p>These patterns are systematic—native speakers follow them automatically.</p>
+
+  </section>
+
+  <section xml:id="ch-06-closed-classes-sec-63">
+    <title>Pronouns</title>
+
+    <p><em>Pronouns</em> replace noun phrases. They allow speakers to refer to entities without repeating full NPs—crucial for efficient communication.</p>
+
+    <paragraphs>
+      <title>Why Pronouns Exist</title>
+    </paragraphs>
+
+    <p>Imagine language without pronouns:</p>
+
+    <p><em>Maria said that Maria wanted Maria's book back, but John told Maria that John had already returned Maria's book to Maria's office.</em></p>
+
+    <p>Now with pronouns:</p>
+
+    <p><em>Maria said that she wanted her book back, but John told her that he had already returned it to her office.</em></p>
+
+    <p>Pronouns reduce redundancy and improve processing. But they require listeners to track what each pronoun refers to—its <em>antecedent</em>.</p>
+
+    <paragraphs>
+      <title>Personal Pronouns</title>
+    </paragraphs>
+
+    <p>Personal pronouns are the most common type. They vary for:</p>
+
+    <ul>
+      <li><p><em>Person</em>: 1st (speaker), 2nd (addressee), 3rd (other)</p></li>
+      <li><p><em>Number</em>: singular vs. plural</p></li>
+      <li><p><em>Case</em>: subject vs. object vs. possessive</p></li>
+      <li><p><em>Gender</em> (3rd person singular): masculine, feminine, neuter</p></li>
+    </ul>
+
+    <tabular>
+      <row header="yes">
+        <cell>Person</cell>
+        <cell>Subject</cell>
+        <cell>Object</cell>
+        <cell>Possessive Det</cell>
+        <cell>Possessive Pro</cell>
+      </row>
+      <row>
+        <cell>1st sg</cell>
+        <cell>I</cell>
+        <cell>me</cell>
+        <cell>my</cell>
+        <cell>mine</cell>
+      </row>
+      <row>
+        <cell>2nd sg</cell>
+        <cell>you</cell>
+        <cell>you</cell>
+        <cell>your</cell>
+        <cell>yours</cell>
+      </row>
+      <row>
+        <cell>3rd sg masc</cell>
+        <cell>he</cell>
+        <cell>him</cell>
+        <cell>his</cell>
+        <cell>his</cell>
+      </row>
+      <row>
+        <cell>3rd sg fem</cell>
+        <cell>she</cell>
+        <cell>her</cell>
+        <cell>her</cell>
+        <cell>hers</cell>
+      </row>
+      <row>
+        <cell>3rd sg neut</cell>
+        <cell>it</cell>
+        <cell>it</cell>
+        <cell>its</cell>
+        <cell>—</cell>
+      </row>
+      <row>
+        <cell>1st pl</cell>
+        <cell>we</cell>
+        <cell>us</cell>
+        <cell>our</cell>
+        <cell>ours</cell>
+      </row>
+      <row>
+        <cell>2nd pl</cell>
+        <cell>you</cell>
+        <cell>you</cell>
+        <cell>your</cell>
+        <cell>yours</cell>
+      </row>
+      <row>
+        <cell>3rd pl</cell>
+        <cell>they</cell>
+        <cell>them</cell>
+        <cell>their</cell>
+        <cell>theirs</cell>
+      </row>
+    </tabular>
+
+    <p><em>Case matters</em>: Use subject forms for subjects, object forms for objects:</p>
+
+    <ul>
+      <li><p>Subject: <em><em>She</em> left.</em> (not <em>~~Her left.~~</em>)</p></li>
+      <li><p>Object: <em>I saw <em>her</em>.</em> (not <em>~~I saw she.~~</em>)</p></li>
+      <li><p>After preposition: <em>with <em>me</em></em> (not <em>~~with I~~</em>)</p></li>
+    </ul>
+
+    <p><em>Singular &quot;they&quot;</em>: Increasingly accepted for indefinite reference and for people who don't identify as he or she:</p>
+
+    <ul>
+      <li><p><em>Someone left <em>their</em> book.</em> (indefinite)</p></li>
+      <li><p><em>Alex said <em>they</em> would come.</em> (nonbinary reference)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Reflexive Pronouns</title>
+    </paragraphs>
+
+    <p>Reflexive pronouns end in <em>-self</em> (singular) or <em>-selves</em> (plural):</p>
+
+    <p><em>myself, yourself, himself, herself, itself, ourselves, yourselves, themselves</em></p>
+
+    <p>They are used when the object refers to the same entity as the subject:</p>
+
+    <ul>
+      <li><p><em>She hurt <em>herself</em>.</em> (she = herself)</p></li>
+      <li><p><em>They saw <em>themselves</em> in the mirror.</em></p></li>
+    </ul>
+
+    <p>Reflexives cannot be subjects and require an antecedent in the same clause:</p>
+
+    <ul>
+      <li><p><em>~~<em>Himself</em> arrived.~~</em></p></li>
+      <li><p><em>~~I saw <em>herself</em>.~~</em> (no matching antecedent)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Demonstrative Pronouns</title>
+    </paragraphs>
+
+    <p><em>This</em>, <em>that</em>, <em>these</em>, <em>those</em> can function as pronouns (standing alone) or determiners (with a noun):</p>
+
+    <ul>
+      <li><p><em>Pronoun</em>: <em><em>This</em> is interesting.</em> <em><em>Those</em> are mine.</em></p></li>
+      <li><p><em>Determiner</em>: <em><em>This book</em> is interesting.</em> <em><em>Those books</em> are mine.</em></p></li>
+    </ul>
+
+    <p>As pronouns, demonstratives typically refer to things just mentioned, about to be mentioned, or physically present.</p>
+
+    <paragraphs>
+      <title>Interrogative Pronouns</title>
+    </paragraphs>
+
+    <p>Question words that stand for unknown NPs:</p>
+
+    <ul>
+      <li><p><em>Who/whom</em> (people): <em><em>Who</em> called?</em> <em>I saw <em>whom</em>?</em></p></li>
+      <li><p><em>What</em> (things): <em><em>What</em> happened?</em></p></li>
+      <li><p><em>Which</em> (selective): <em><em>Which</em> do you want?</em></p></li>
+      <li><p><em>Whose</em> (possession): <em><em>Whose</em> is this?</em></p></li>
+    </ul>
+
+    <p><em>Who vs. whom</em>: Traditional grammar requires <em>whom</em> as object (<em>Whom did you see?</em>), but modern English often uses <em>who</em> in all positions except after prepositions (<em>To whom</em> remains preferred over <em>To who</em>).</p>
+
+    <paragraphs>
+      <title>Relative Pronouns</title>
+    </paragraphs>
+
+    <p>Relative pronouns introduce relative clauses:</p>
+
+    <ul>
+      <li><p><em>who/whom/whose</em> (people): <em>the man <em>who</em> arrived</em></p></li>
+      <li><p><em>which</em> (things): <em>the book <em>which</em> I read</em></p></li>
+      <li><p><em>that</em> (people or things): <em>the person <em>that</em> called</em></p></li>
+    </ul>
+
+    <p>The relative pronoun connects the clause to its antecedent and plays a grammatical role within the clause:</p>
+
+    <p><em>The student <em>who</em> won the prize...</em> (<em>who</em> = subject of <em>won</em>)</p>
+
+    <p><em>The book <em>that</em> I read...</em> (<em>that</em> = object of <em>read</em>)</p>
+
+    <paragraphs>
+      <title>Indefinite Pronouns</title>
+    </paragraphs>
+
+    <p>Pronouns that refer to unspecified entities:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Type</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell><em>Universal</em></cell>
+        <cell><em>everyone</em>, <em>everybody</em>, <em>everything</em>, <em>all</em>, <em>each</em>, <em>both</em></cell>
+      </row>
+      <row>
+        <cell><em>Existential</em></cell>
+        <cell><em>someone</em>, <em>somebody</em>, <em>something</em>, <em>some</em>, <em>any</em></cell>
+      </row>
+      <row>
+        <cell><em>Negative</em></cell>
+        <cell><em>no one</em>, <em>nobody</em>, <em>nothing</em>, <em>none</em></cell>
+      </row>
+    </tabular>
+
+    <p>Many indefinites are grammatically singular even when semantically plural:</p>
+
+    <ul>
+      <li><p><em>Everyone <em>is</em> here.</em> (not <em>~~Everyone are~~</em>)</p></li>
+      <li><p><em>Each of the students <em>has</em> arrived.</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-06-closed-classes-sec-64">
+    <title>Prepositions and Prepositional Phrases</title>
+
+    <p><em>Prepositions</em> are closed-class words that show relationships—typically spatial, temporal, or logical—between elements in a sentence. They combine with noun phrases to form <em>prepositional phrases (PPs)</em>.</p>
+
+    <paragraphs>
+      <title>Identifying Prepositions</title>
+    </paragraphs>
+
+    <p>A traditional mnemonic says prepositions describe &quot;anywhere a cat can be&quot;: <em>in</em> the box, <em>on</em> the table, <em>under</em> the chair, <em>beside</em> the sofa, <em>near</em> the window, <em>through</em> the door...</p>
+
+    <p>But prepositions express much more than spatial relationships:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Category</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell><em>Spatial</em></cell>
+        <cell><em>in</em>, <em>on</em>, <em>at</em>, <em>above</em>, <em>below</em>, <em>under</em>, <em>over</em>, <em>between</em>, <em>among</em>, <em>through</em>, <em>across</em>, <em>behind</em>, <em>beside</em>, <em>near</em>, <em>toward</em></cell>
+      </row>
+      <row>
+        <cell><em>Temporal</em></cell>
+        <cell><em>before</em>, <em>after</em>, <em>during</em>, <em>since</em>, <em>until</em>, <em>throughout</em></cell>
+      </row>
+      <row>
+        <cell><em>Logical/Abstract</em></cell>
+        <cell><em>of</em>, <em>for</em>, <em>with</em>, <em>by</em>, <em>about</em>, <em>without</em>, <em>despite</em>, <em>concerning</em>, <em>regarding</em></cell>
+      </row>
+    </tabular>
+
+    <p><em>Complex prepositions</em> are multi-word units that function as single prepositions:</p>
+
+    <ul>
+      <li><p><em>because of</em>, <em>instead of</em>, <em>in spite of</em></p></li>
+      <li><p><em>according to</em>, <em>due to</em>, <em>prior to</em></p></li>
+      <li><p><em>in front of</em>, <em>on top of</em>, <em>in addition to</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Prepositional Phrase Structure</title>
+    </paragraphs>
+
+    <p>A prepositional phrase consists of a preposition plus its <em>object</em> (typically a noun phrase):</p>
+
+    <p>```</p>
+
+    <p>PP → Prep + NP</p>
+
+    <p>in     the morning</p>
+
+    <p>on     the tall wooden table</p>
+
+    <p>to     my best friend</p>
+
+    <p>from   the old house on the corner</p>
+
+    <p>about  the recent controversy</p>
+
+    <p>```</p>
+
+    <p>The object of the preposition can be:</p>
+
+    <ul>
+      <li><p>A simple noun: <em>in <em>town</em></em></p></li>
+      <li><p>A complex NP: <em>in <em>the busy downtown area</em></em></p></li>
+      <li><p>A pronoun: <em>with <em>her</em></em> (object form required)</p></li>
+      <li><p>A gerund: <em>after <em>leaving</em></em>, <em>without <em>knowing</em></em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>PP Functions: Adjectival vs. Adverbial</title>
+    </paragraphs>
+
+    <p>Prepositional phrases function as <em>modifiers</em>—either <em>adjectival</em> (modifying nouns) or <em>adverbial</em> (modifying verbs, adjectives, or sentences). Understanding this distinction is essential for accurate sentence analysis.</p>
+
+    <p>#### Adjectival PPs</p>
+
+    <p><em>Adjectival PPs</em> modify nouns, answering &quot;which one?&quot; or &quot;what kind?&quot;:</p>
+
+    <ul>
+      <li><p><em>the man <em>in the hat</em></em> (which man?)</p></li>
+      <li><p><em>a book <em>about grammar</em></em> (what kind of book?)</p></li>
+      <li><p><em>the house <em>on the corner</em></em> (which house?)</p></li>
+      <li><p><em>a sense <em>of accomplishment</em></em> (what kind of sense?)</p></li>
+    </ul>
+
+    <p>Adjectival PPs follow the noun they modify and remain part of the noun phrase:</p>
+
+    <p>```</p>
+
+    <p>NP</p>
+
+    <p>├── Det: the</p>
+
+    <p>├── N: man</p>
+
+    <p>└── PP: in the hat (adjectival—modifies &quot;man&quot;)</p>
+
+    <p>```</p>
+
+    <p><em>Key characteristic</em>: Adjectival PPs are embedded within the NP. When you replace the NP with a pronoun, the PP disappears:</p>
+
+    <ul>
+      <li><p><em>The man in the hat waved.</em> → <em><em>He</em> waved.</em></p></li>
+    </ul>
+
+    <p>#### Adverbial PPs</p>
+
+    <p><em>Adverbial PPs</em> modify verbs (or whole sentences), providing information about time, place, manner, reason, etc.:</p>
+
+    <ul>
+      <li><p><em>She arrived <em>at noon</em>.</em> (when?)</p></li>
+      <li><p><em>He works <em>in the office</em>.</em> (where?)</p></li>
+      <li><p><em>They spoke <em>with enthusiasm</em>.</em> (how?)</p></li>
+      <li><p><em>We left <em>because of the weather</em>.</em> (why?)</p></li>
+      <li><p><em><em>In the morning</em>, we will leave.</em> (when?)</p></li>
+    </ul>
+
+    <p>Adverbial PPs attach to the verb phrase, not to any particular noun:</p>
+
+    <p>```</p>
+
+    <p>S</p>
+
+    <p>├── NP: She</p>
+
+    <p>└── VP</p>
+
+    <p>├── V: waited</p>
+
+    <p>└── PP: in the lobby (adverbial—modifies &quot;waited&quot;)</p>
+
+    <p>```</p>
+
+    <p><em>Key characteristic</em>: Adverbial PPs can often move to different positions in the sentence:</p>
+
+    <ul>
+      <li><p><em>She waited <em>in the lobby</em>.</em></p></li>
+      <li><p><em><em>In the lobby</em>, she waited.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Distinguishing Adjectival from Adverbial PPs</title>
+    </paragraphs>
+
+    <p>The key question: <em>What does the PP modify?</em></p>
+
+    <p><em>Test 1: What question does it answer?</em></p>
+
+    <ul>
+      <li><p>&quot;Which man?&quot; → adjectival (<em>the man in the hat</em>)</p></li>
+      <li><p>&quot;Where/when/how?&quot; → adverbial (<em>waited in the hall</em>)</p></li>
+    </ul>
+
+    <p><em>Test 2: Can it move to sentence-initial position?</em></p>
+
+    <ul>
+      <li><p>Adverbial PPs often can: <em><em>In the morning</em>, we left.</em></p></li>
+      <li><p>Adjectival PPs typically cannot: <em>~~<em>In the hat</em>, the man waved.~~</em></p></li>
+    </ul>
+
+    <p><em>Test 3: Does the noun phrase make sense without it?</em></p>
+
+    <ul>
+      <li><p>If removing the PP leaves a sensible (if less specific) NP, it's adjectival: <em>The man waved.</em> (works—which man is less clear)</p></li>
+      <li><p>If the PP provides information about the action itself, it's adverbial</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Ambiguous PP Attachment</title>
+    </paragraphs>
+
+    <p>Some sentences are ambiguous because the PP could attach to either the NP or the VP:</p>
+
+    <p><em>She saw the man with binoculars.</em></p>
+
+    <ul>
+      <li><p><em>Adjectival reading</em>: &quot;the man who had binoculars&quot; (PP modifies <em>man</em>)</p></li>
+      <li><p><em>Adverbial reading</em>: &quot;she used binoculars to see him&quot; (PP modifies <em>saw</em>)</p></li>
+    </ul>
+
+    <p><em>He discussed the problem with the professor.</em></p>
+
+    <ul>
+      <li><p><em>Adjectival reading</em>: &quot;the problem that involves the professor&quot;</p></li>
+      <li><p><em>Adverbial reading</em>: &quot;he discussed it alongside the professor&quot;</p></li>
+    </ul>
+
+    <p>In speech, context usually resolves such ambiguity. In writing, you may need to restructure for clarity:</p>
+
+    <ul>
+      <li><p><em>She saw the man who had binoculars.</em> (adjectival)</p></li>
+      <li><p><em>Using binoculars, she saw the man.</em> (adverbial)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Multiple PPs in a Sentence</title>
+    </paragraphs>
+
+    <p>Sentences often contain multiple prepositional phrases with different functions:</p>
+
+    <p><em>The student <em>from Colorado</em> studied <em>in the library</em> <em>for three hours</em>.</em></p>
+
+    <ul>
+      <li><p><em><em>from Colorado</em></em>: adjectival (modifies <em>student</em>—which student?)</p></li>
+      <li><p><em><em>in the library</em></em>: adverbial (modifies <em>studied</em>—where?)</p></li>
+      <li><p><em><em>for three hours</em></em>: adverbial (modifies <em>studied</em>—how long?)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Prepositions vs. Other Categories</title>
+    </paragraphs>
+
+    <p><em>Preposition or particle?</em></p>
+
+    <p>Some words that look like prepositions are actually <em>particles</em>—part of phrasal verbs:</p>
+
+    <ul>
+      <li><p><em>She looked <em>up</em> the word.</em> (particle—part of <em>look up</em>)</p></li>
+      <li><p><em>She looked <em>up</em> the chimney.</em> (preposition—<em>up the chimney</em> is a PP)</p></li>
+    </ul>
+
+    <p><em>Test</em>: Can you move it after the object?</p>
+
+    <ul>
+      <li><p><em>She looked the word <em>up</em>.</em> ✓ (particle)</p></li>
+      <li><p><em>~~She looked the chimney <em>up</em>.~~</em> ✗ (preposition)</p></li>
+    </ul>
+
+    <p><em>Preposition or subordinating conjunction?</em></p>
+
+    <p>Some words can be either:</p>
+
+    <ul>
+      <li><p><em>I left <em>before</em> noon.</em> (<em>before</em> = preposition; <em>noon</em> = NP object)</p></li>
+      <li><p><em>I left <em>before</em> she arrived.</em> (<em>before</em> = conjunction; introduces clause)</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-06-closed-classes-sec-65">
+    <title>Comparing the Three Classes</title>
+
+    <p>These three closed classes share important properties but differ in function:</p>
+
+    <paragraphs>
+      <title>Shared Properties</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Property</cell>
+        <cell>Determiners</cell>
+        <cell>Pronouns</cell>
+        <cell>Prepositions</cell>
+      </row>
+      <row>
+        <cell>Closed class</cell>
+        <cell>✓</cell>
+        <cell>✓</cell>
+        <cell>✓</cell>
+      </row>
+      <row>
+        <cell>Limited membership</cell>
+        <cell>✓</cell>
+        <cell>✓</cell>
+        <cell>✓</cell>
+      </row>
+      <row>
+        <cell>Grammatical function</cell>
+        <cell>✓</cell>
+        <cell>✓</cell>
+        <cell>✓</cell>
+      </row>
+      <row>
+        <cell>High frequency</cell>
+        <cell>✓</cell>
+        <cell>✓</cell>
+        <cell>✓</cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Distinctive Functions</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Class</cell>
+        <cell>Primary Function</cell>
+      </row>
+      <row>
+        <cell><em>Determiners</em></cell>
+        <cell>Specify reference within NPs</cell>
+      </row>
+      <row>
+        <cell><em>Pronouns</em></cell>
+        <cell>Replace entire NPs</cell>
+      </row>
+      <row>
+        <cell><em>Prepositions</em></cell>
+        <cell>Show relationships; head PPs</cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>How They Work Together</title>
+    </paragraphs>
+
+    <p>In a sentence like <em>She gave the book to him</em>, all three classes appear:</p>
+
+    <ul>
+      <li><p><em>She</em> (pronoun)—replaces a full NP as subject</p></li>
+      <li><p><em>the</em> (determiner)—specifies which book</p></li>
+      <li><p><em>to</em> (preposition)—shows relationship (recipient)</p></li>
+      <li><p><em>him</em> (pronoun)—replaces a full NP as object of preposition</p></li>
+    </ul>
+
+    <p>Each closed-class word does minimal semantic work but essential grammatical work—they're the glue that holds sentences together.</p>
+
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Adjectival function</title>
+      <p>The role of modifying a noun, answering &quot;which one?&quot; or &quot;what kind?&quot;</p>
+    </gi>
+    <gi>
+      <title>Adverbial function</title>
+      <p>The role of modifying a verb, adjective, adverb, or sentence, answering &quot;when?&quot; &quot;where?&quot; &quot;how?&quot; &quot;why?&quot;</p>
+    </gi>
+    <gi>
+      <title>Antecedent</title>
+      <p>The noun phrase that a pronoun refers to.</p>
+    </gi>
+    <gi>
+      <title>Article</title>
+      <p>A determiner that marks definiteness (<em>the</em>) or indefiniteness (<em>a</em>, <em>an</em>).</p>
+    </gi>
+    <gi>
+      <title>Closed class</title>
+      <p>A word class with fixed membership that rarely accepts new words.</p>
+    </gi>
+    <gi>
+      <title>Demonstrative</title>
+      <p>A word that points to specific entities (<em>this</em>, <em>that</em>, <em>these</em>, <em>those</em>).</p>
+    </gi>
+    <gi>
+      <title>Determiner</title>
+      <p>A closed-class word that introduces a noun phrase and specifies reference.</p>
+    </gi>
+    <gi>
+      <title>Indefinite pronoun</title>
+      <p>A pronoun referring to unspecified entities (<em>someone</em>, <em>everyone</em>).</p>
+    </gi>
+    <gi>
+      <title>Interrogative pronoun</title>
+      <p>A pronoun used in questions (<em>who</em>, <em>what</em>, <em>which</em>).</p>
+    </gi>
+    <gi>
+      <title>Object of preposition</title>
+      <p>The NP that follows and completes a preposition.</p>
+    </gi>
+    <gi>
+      <title>Personal pronoun</title>
+      <p>A pronoun indicating person, number, case, and (in 3rd person) gender.</p>
+    </gi>
+    <gi>
+      <title>Possessive</title>
+      <p>A form indicating ownership; can be determiner (<em>my</em>) or pronoun (<em>mine</em>).</p>
+    </gi>
+    <gi>
+      <title>Preposition</title>
+      <p>A closed-class word showing relationships, taking an NP complement to form a PP.</p>
+    </gi>
+    <gi>
+      <title>Prepositional phrase (PP)</title>
+      <p>A phrase consisting of a preposition and its object NP.</p>
+    </gi>
+    <gi>
+      <title>Pronoun</title>
+      <p>A closed-class word that replaces a noun phrase.</p>
+    </gi>
+    <gi>
+      <title>Quantifier</title>
+      <p>A determiner indicating amount or quantity (<em>some</em>, <em>all</em>, <em>many</em>).</p>
+    </gi>
+    <gi>
+      <title>Reflexive pronoun</title>
+      <p>A pronoun ending in <em>-self/-selves</em> that refers back to the subject.</p>
+    </gi>
+    <gi>
+      <title>Relative pronoun</title>
+      <p>A pronoun introducing a relative clause (<em>who</em>, <em>which</em>, <em>that</em>).</p>
+    </gi>
+  </glossary>
+
+</chapter>
