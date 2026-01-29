@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="concise-guide-english-grammar">
+    <title>A Concise Guide to English Grammar</title>
+
+    <xi:include href="./frontmatter.ptx" />
+
+    <xi:include href="./ch-01.ptx" />
+    <xi:include href="./ch-02.ptx" />
+    <xi:include href="./ch-03.ptx" />
+    <xi:include href="./ch-04.ptx" />
+    <xi:include href="./ch-05.ptx" />
+    <xi:include href="./ch-06.ptx" />
+    <xi:include href="./ch-07.ptx" />
+    <xi:include href="./ch-08.ptx" />
+    <xi:include href="./ch-09.ptx" />
+    <xi:include href="./ch-10.ptx" />
+    <xi:include href="./ch-11.ptx" />
+    <xi:include href="./ch-12.ptx" />
+    <xi:include href="./ch-13.ptx" />
+    <xi:include href="./ch-14.ptx" />
+    <xi:include href="./ch-15.ptx" />
+    <xi:include href="./ch-16.ptx" />
+    <xi:include href="./ch-17.ptx" />
+    <xi:include href="./ch-18.ptx" />
+    <xi:include href="./ch-19.ptx" />
+    <xi:include href="./ch-20.ptx" />
+    <xi:include href="./ch-21.ptx" />
+
+    <xi:include href="./backmatter.ptx" />
+  </book>
+</pretext>

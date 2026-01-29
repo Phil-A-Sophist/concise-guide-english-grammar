@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-20-genre-and-register" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Genre and Register</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Define genre and register and explain how they shape language use</p></li>
+      <li><p>Identify features of different registers (formal, informal, academic, etc.)</p></li>
+      <li><p>Adapt writing to different contexts and audiences</p></li>
+      <li><p>Recognize genre conventions and their purposes</p></li>
+      <li><p>Understand how grammar choices vary across registers</p></li>
+      <li><p>Genre</p></li>
+      <li><p>Register</p></li>
+      <li><p>Formal vs. informal</p></li>
+      <li><p>Academic writing</p></li>
+      <li><p>Technical writing</p></li>
+      <li><p>Tenor</p></li>
+      <li><p>Field</p></li>
+      <li><p>Mode</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-20-genre-and-register-sec-201">
+    <title>What Are Genre and Register?</title>
+
+    <p>Language use varies systematically depending on context. Two key concepts describe this variation: <em>genre</em> and <em>register</em>.</p>
+
+    <paragraphs>
+      <title>Genre</title>
+    </paragraphs>
+
+    <p>A <em>genre</em> is a category of text characterized by conventions of form, content, and purpose. Genres are socially recognized text types:</p>
+
+    <ul>
+      <li><p><em>Academic</em>: research articles, essays, dissertations</p></li>
+      <li><p><em>Professional</em>: business letters, reports, proposals</p></li>
+      <li><p><em>Journalistic</em>: news articles, editorials, features</p></li>
+      <li><p><em>Creative</em>: novels, poems, short stories</p></li>
+      <li><p><em>Digital</em>: emails, social media posts, text messages</p></li>
+    </ul>
+
+    <p>Each genre has expectations that writers must understand and (usually) follow.</p>
+
+    <paragraphs>
+      <title>Register</title>
+    </paragraphs>
+
+    <p><em>Register</em> refers to the variety of language appropriate to a particular situation, defined by:</p>
+
+    <ul>
+      <li><p><em>Tenor</em>: The relationship between participants (formal vs. casual)</p></li>
+      <li><p><em>Field</em>: The subject matter (technical vs. general)</p></li>
+      <li><p><em>Mode</em>: The channel (written vs. spoken; prepared vs. spontaneous)</p></li>
+    </ul>
+
+    <p>Register affects vocabulary, sentence structure, and grammatical choices.</p>
+
+  </section>
+
+  <section xml:id="ch-20-genre-and-register-sec-202">
+    <title>Formal vs. Informal Register</title>
+
+    <paragraphs>
+      <title>Formal Register</title>
+    </paragraphs>
+
+    <p>Formal register is characterized by:</p>
+
+    <p><em>Vocabulary</em>:</p>
+
+    <ul>
+      <li><p>Latinate words: <em>comprehend</em> (not <em>get</em>), <em>utilize</em> (not <em>use</em>)</p></li>
+      <li><p>Complete forms: <em>cannot</em> (not <em>can't</em>), <em>do not</em> (not <em>don't</em>)</p></li>
+      <li><p>Specialized terminology when appropriate</p></li>
+    </ul>
+
+    <p><em>Grammar</em>:</p>
+
+    <ul>
+      <li><p>Complete sentences</p></li>
+      <li><p>Standard grammar throughout</p></li>
+      <li><p>Passive voice more common</p></li>
+      <li><p>Avoidance of colloquialisms and slang</p></li>
+    </ul>
+
+    <p><em>Style</em>:</p>
+
+    <ul>
+      <li><p>Objective tone</p></li>
+      <li><p>Impersonal constructions (<em>It is believed...</em>)</p></li>
+      <li><p>Careful hedging (<em>may</em>, <em>might</em>, <em>appears to</em>)</p></li>
+    </ul>
+
+    <p><em>Example</em>:</p>
+
+    <p><em>The committee has determined that the proposed modifications are unacceptable. Consequently, the proposal will not be approved at this time.</em></p>
+
+    <paragraphs>
+      <title>Informal Register</title>
+    </paragraphs>
+
+    <p>Informal register is characterized by:</p>
+
+    <p><em>Vocabulary</em>:</p>
+
+    <ul>
+      <li><p>Common words: <em>get</em>, <em>use</em>, <em>thing</em></p></li>
+      <li><p>Contractions: <em>can't</em>, <em>don't</em>, <em>won't</em></p></li>
+      <li><p>Colloquialisms and slang (where appropriate)</p></li>
+    </ul>
+
+    <p><em>Grammar</em>:</p>
+
+    <ul>
+      <li><p>May include fragments</p></li>
+      <li><p>Coordinated sentences more than complex</p></li>
+      <li><p>Active voice predominates</p></li>
+      <li><p>First and second person common</p></li>
+    </ul>
+
+    <p><em>Style</em>:</p>
+
+    <ul>
+      <li><p>Personal tone</p></li>
+      <li><p>Direct address</p></li>
+      <li><p>Conversational features</p></li>
+    </ul>
+
+    <p><em>Example</em>:</p>
+
+    <p><em>The committee said no. They didn't like the changes, so the proposal's not going through.</em></p>
+
+  </section>
+
+  <section xml:id="ch-20-genre-and-register-sec-203">
+    <title>Academic Writing</title>
+
+    <p>Academic writing has distinctive features that serve its purposes.</p>
+
+    <paragraphs>
+      <title>Typical Features</title>
+    </paragraphs>
+
+    <p><em>Vocabulary</em>:</p>
+
+    <ul>
+      <li><p>Technical terminology specific to the field</p></li>
+      <li><p>Hedging language: <em>may</em>, <em>might</em>, <em>suggests</em>, <em>appears to</em></p></li>
+      <li><p>Formal vocabulary</p></li>
+    </ul>
+
+    <p><em>Grammar</em>:</p>
+
+    <ul>
+      <li><p>Complex sentences with subordination</p></li>
+      <li><p>Passive voice (especially in sciences)</p></li>
+      <li><p>Nominalization (<em>examination</em> rather than <em>examine</em>)</p></li>
+      <li><p>Impersonal constructions</p></li>
+    </ul>
+
+    <p><em>Structure</em>:</p>
+
+    <ul>
+      <li><p>Clear thesis statements</p></li>
+      <li><p>Topic sentences</p></li>
+      <li><p>Logical organization</p></li>
+      <li><p>Citation of sources</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Grammar in Academic Writing</title>
+    </paragraphs>
+
+    <p>Academic writing often uses:</p>
+
+    <p><em>Hedging</em>:</p>
+
+    <ul>
+      <li><p><em>The results <em>suggest</em> that...</em> (not <em>prove</em>)</p></li>
+      <li><p><em>This <em>may</em> indicate...</em> (not <em>shows</em>)</p></li>
+      <li><p><em>It <em>appears</em> that...</em> (not <em>is</em>)</p></li>
+    </ul>
+
+    <p><em>Impersonal constructions</em>:</p>
+
+    <ul>
+      <li><p><em>It has been observed that...</em></p></li>
+      <li><p><em>The data indicate that...</em></p></li>
+      <li><p><em>This study demonstrates that...</em></p></li>
+    </ul>
+
+    <p><em>Complex noun phrases</em>:</p>
+
+    <ul>
+      <li><p><em>The previously observed correlation between socioeconomic factors and educational outcomes</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-20-genre-and-register-sec-204">
+    <title>Professional Writing</title>
+
+    <p>Professional contexts have their own register expectations.</p>
+
+    <paragraphs>
+      <title>Business Writing</title>
+    </paragraphs>
+
+    <p><em>Email</em>:</p>
+
+    <ul>
+      <li><p>Clear subject lines</p></li>
+      <li><p>Concise paragraphs</p></li>
+      <li><p>Action items highlighted</p></li>
+      <li><p>Appropriate greeting and closing</p></li>
+    </ul>
+
+    <p><em>Reports</em>:</p>
+
+    <ul>
+      <li><p>Executive summaries</p></li>
+      <li><p>Clear headings</p></li>
+      <li><p>Data presentation</p></li>
+      <li><p>Recommendations</p></li>
+    </ul>
+
+    <p><em>Tone</em>: Professional but accessible; formal but not stiff</p>
+
+    <paragraphs>
+      <title>Legal Writing</title>
+    </paragraphs>
+
+    <p><em>Features</em>:</p>
+
+    <ul>
+      <li><p>Precise terminology</p></li>
+      <li><p>Defined terms</p></li>
+      <li><p>Conditional structures</p></li>
+      <li><p>Lists and enumeration</p></li>
+      <li><p>Shall/must for obligations</p></li>
+    </ul>
+
+    <p><em>Challenge</em>: Balancing precision with readability</p>
+
+    <paragraphs>
+      <title>Technical Writing</title>
+    </paragraphs>
+
+    <p><em>Features</em>:</p>
+
+    <ul>
+      <li><p>Step-by-step instructions</p></li>
+      <li><p>Imperative mood (<em>Click the button</em>, not <em>You should click...</em>)</p></li>
+      <li><p>Defined terminology</p></li>
+      <li><p>Visual elements</p></li>
+      <li><p>Active voice often preferred</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-20-genre-and-register-sec-205">
+    <title>Adapting to Context</title>
+
+    <paragraphs>
+      <title>Analyzing the Rhetorical Situation</title>
+    </paragraphs>
+
+    <p>Before writing, consider:</p>
+
+    <ol>
+      <li><p><em>Audience</em>: Who will read this? What do they know? What do they expect?</p></li>
+      <li><p><em>Purpose</em>: What am I trying to accomplish?</p></li>
+      <li><p><em>Context</em>: What's the situation? What are the conventions?</p></li>
+    </ol>
+
+    <paragraphs>
+      <title>Making Grammatical Adjustments</title>
+    </paragraphs>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell>Feature</cell>
+        <cell>Formal</cell>
+        <cell>Informal</cell>
+      </row>
+      <row>
+        <cell>Contractions</cell>
+        <cell>avoid</cell>
+        <cell>use freely</cell>
+      </row>
+      <row>
+        <cell>Passive voice</cell>
+        <cell>acceptable</cell>
+        <cell>use sparingly</cell>
+      </row>
+      <row>
+        <cell>First person</cell>
+        <cell>often avoided</cell>
+        <cell>common</cell>
+      </row>
+      <row>
+        <cell>Sentence length</cell>
+        <cell>longer, complex</cell>
+        <cell>shorter, simpler</cell>
+      </row>
+      <row>
+        <cell>Sentence fragments</cell>
+        <cell>avoid</cell>
+        <cell>occasional OK</cell>
+      </row>
+      <row>
+        <cell>Relative pronouns</cell>
+        <cell>include</cell>
+        <cell>may omit</cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Recognizing Register Shifts</title>
+    </paragraphs>
+
+    <p>Register should be consistent. Mixing registers can seem:</p>
+
+    <ul>
+      <li><p>Jarring: <em>The research demonstrates significant findings. It's pretty cool.</em></p></li>
+      <li><p>Inappropriately formal: <em>I am writing to request your presence at the barbecue.</em></p></li>
+      <li><p>Inappropriately casual: <em>The defendant was like, not guilty or whatever.</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-20-genre-and-register-sec-206">
+    <title>Digital Communication</title>
+
+    <p>Digital contexts have created new genre conventions.</p>
+
+    <paragraphs>
+      <title>Email</title>
+    </paragraphs>
+
+    <p><em>Formal emails</em> follow traditional letter conventions:</p>
+
+    <ul>
+      <li><p>Clear subject line</p></li>
+      <li><p>Professional greeting</p></li>
+      <li><p>Organized body paragraphs</p></li>
+      <li><p>Appropriate closing</p></li>
+    </ul>
+
+    <p><em>Informal emails</em> are more conversational but still clear.</p>
+
+    <paragraphs>
+      <title>Social Media</title>
+    </paragraphs>
+
+    <p><em>Features</em>:</p>
+
+    <ul>
+      <li><p>Character/length constraints</p></li>
+      <li><p>Hashtags and mentions</p></li>
+      <li><p>Informal register usually expected</p></li>
+      <li><p>Genre-specific conventions (threads, captions, etc.)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Text Messages</title>
+    </paragraphs>
+
+    <p><em>Features</em>:</p>
+
+    <ul>
+      <li><p>Abbreviated forms</p></li>
+      <li><p>Emoji/emoticons</p></li>
+      <li><p>Incomplete sentences acceptable</p></li>
+      <li><p>Highly informal register</p></li>
+    </ul>
+
+  </section>
+
+    <section xml:id="ch-20-homework">
+    <title>Homework: Genre and Register</title>
+
+
+    <paragraphs>
+      <title>Part A: Register Analysis</title>
+    </paragraphs>
+
+    <p><em>Question 1.</em> Below are four passages. For each one, identify the register (formal, informal, academic, professional) and list at least <em>two specific features</em> that indicate that register (vocabulary, sentence structure, pronouns, contractions, etc.).</p>
+
+    <p>a) <em>The committee has voted to postpone the decision pending further review of the submitted documentation.</em></p>
+
+    <p>Register:</p>
+
+    <p>Features:</p>
+
+    <p>b) <em>Hey, just checking in about the meeting—are we still on for tomorrow?</em></p>
+
+    <p>Register:</p>
+
+    <p>Features:</p>
+
+    <p>c) <em>The data suggest a statistically significant correlation between the variables (p &lt; .05), although further research is warranted.</em></p>
+
+    <p>Register:</p>
+
+    <p>Features:</p>
+
+    <p>d) <em>So basically the whole thing fell apart because nobody was in charge and everyone was just doing their own thing.</em></p>
+
+    <p>Register:</p>
+
+    <p>Features:</p>
+
+    <p><em>Question 2.</em> Rewrite this informal passage in <em>formal academic register</em>. Then identify at least three specific changes you made.</p>
+
+    <p>Original: <em>The study was pretty interesting. The researchers found that people who exercise more tend to be happier. It makes sense when you think about it.</em></p>
+
+    <p>Formal version:</p>
+
+    <p>Changes made:</p>
+
+    <p>1.</p>
+
+    <p>2.</p>
+
+    <p>3.</p>
+
+
+    <paragraphs>
+      <title>Part B: Genre Conventions</title>
+    </paragraphs>
+
+    <p><em>Question 3.</em> Choose <em>two</em> of the following genres. For each, identify at least <em>three conventions</em> that readers expect (structure, language, formatting, etc.):</p>
+
+    <ul>
+      <li><p>Academic research article</p></li>
+      <li><p>Professional business email</p></li>
+      <li><p>Newspaper article</p></li>
+      <li><p>Social media post (specify platform)</p></li>
+    </ul>
+    <p>Genre 1:</p>
+
+    <p>Conventions:</p>
+
+    <p>Genre 2:</p>
+
+    <p>Conventions:</p>
+
+    <p><em>Question 4.</em> Think about a genre you read or write frequently (it could be academic essays, text messages, social media posts, work emails, etc.). What are the unwritten rules of that genre? How did you learn them? (1 paragraph)</p>
+
+
+    <paragraphs>
+      <title>Part C: Adapting to Context</title>
+    </paragraphs>
+
+    <p><em>Question 5.</em> For each situation below, describe the <em>appropriate register</em> and explain <em>why</em> that register is appropriate for the audience and purpose.</p>
+
+    <p>a) An email to your professor requesting a deadline extension:</p>
+
+    <p>Register:</p>
+
+    <p>Why appropriate:</p>
+
+    <p>b) A cover letter for a job or internship application:</p>
+
+    <p>Register:</p>
+
+    <p>Why appropriate:</p>
+
+    <p>c) A group text planning a weekend trip:</p>
+
+    <p>Register:</p>
+
+    <p>Why appropriate:</p>
+
+    <p><em>Question 6.</em> The following passage has inconsistent register. Identify the shifts and revise for consistency:</p>
+
+    <p><em>The research methodology was carefully designed to ensure validity. We basically just surveyed a bunch of people. The results demonstrate significant findings that are super important for future studies.</em></p>
+
+    <p>Register shifts identified:</p>
+
+    <p>Revised passage:</p>
+
+
+    <paragraphs>
+      <title>Part D: Reflection</title>
+    </paragraphs>
+
+    <p><em>Question 7.</em> Think about your own writing across different contexts (school assignments, emails, texts, social media, professional communication). In 1–2 paragraphs, address:</p>
+
+    <ul>
+      <li><p>How do you adjust your language for different audiences and purposes?</p></li>
+      <li><p>Do you find these adjustments natural, or do some registers feel uncomfortable for you?</p></li>
+      <li><p>Are there registers you'd like to become more skilled at using?</p></li>
+    </ul>
+    <p><em>Question 8.</em> The chapter distinguishes between genre conventions that serve genuine communicative purposes and those that might be arbitrary or gatekeeping. Choose a genre you're familiar with (academic writing, professional email, legal documents, etc.). In 1–2 paragraphs:</p>
+
+    <ul>
+      <li><p>Identify one convention that seems genuinely useful for communication</p></li>
+      <li><p>Identify one convention that might be arbitrary or serve more as a social marker than a communicative function</p></li>
+      <li><p>How should writers navigate conventions they find arbitrary?</p></li>
+      <li><p><em>Genre</em> refers to recognized text types with conventional features.</p></li>
+      <li><p><em>Register</em> varies by tenor (relationship), field (subject), and mode (channel).</p></li>
+      <li><p><em>Formal register</em> uses standard grammar, complete forms, and impersonal constructions.</p></li>
+      <li><p><em>Informal register</em> uses contractions, simple structures, and personal tone.</p></li>
+      <li><p><em>Academic writing</em> features hedging, complex sentences, and nominalization.</p></li>
+      <li><p><em>Professional writing</em> balances formality with accessibility.</p></li>
+      <li><p>Writers must <em>adapt</em> grammatical choices to context, audience, and purpose.</p></li>
+      <li><p><em>Consistency</em> of register throughout a text is important.</p></li>
+    </ul>
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Academic writing</title>
+      <p>Writing for scholarly contexts, characterized by hedging, precision, and citation.</p>
+    </gi>
+    <gi>
+      <title>Field</title>
+      <p>The subject matter of a text.</p>
+    </gi>
+    <gi>
+      <title>Formal register</title>
+      <p>Language variety characterized by standard grammar, complete forms, and impersonal tone.</p>
+    </gi>
+    <gi>
+      <title>Genre</title>
+      <p>A category of text with recognized conventions of form, content, and purpose.</p>
+    </gi>
+    <gi>
+      <title>Hedging</title>
+      <p>Language that expresses uncertainty or tentativeness.</p>
+    </gi>
+    <gi>
+      <title>Informal register</title>
+      <p>Language variety characterized by contractions, simple structures, and personal tone.</p>
+    </gi>
+    <gi>
+      <title>Mode</title>
+      <p>The channel of communication (written, spoken, etc.).</p>
+    </gi>
+    <gi>
+      <title>Register</title>
+      <p>The variety of language appropriate to a particular situation.</p>
+    </gi>
+    <gi>
+      <title>Tenor</title>
+      <p>The relationship between participants in communication.</p>
+    </gi>
+  </glossary>
+
+</chapter>

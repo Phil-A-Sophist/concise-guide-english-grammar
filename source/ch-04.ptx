@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-04-morphology-and-word-structure" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Morphology and Word Structure</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Define morpheme and identify morphemes within words</p></li>
+      <li><p>Distinguish between free and bound morphemes</p></li>
+      <li><p>Apply morpheme identification rules to analyze word structure</p></li>
+      <li><p>Recognize common affixes for each open word class</p></li>
+      <li><p>Understand how English builds new words through productive patterns</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-04-morphology-and-word-structure-sec-41">
+    <title>Morphemes: The Building Blocks</title>
+
+    <p><em>Morphology</em> is the study of word structure and word formation. The fundamental unit of morphology is the <em>morpheme</em>—the smallest unit of language that carries meaning. A morpheme is a collection of sounds (or letters, in writing) that expresses a thought or concept.</p>
+
+    <p>Words consist of one or more morphemes connected together. Understanding how to identify and analyze morphemes gives you insight into how English builds its vocabulary and how speakers create and understand new words.</p>
+
+    <paragraphs>
+      <title>Free and Bound Morphemes</title>
+    </paragraphs>
+
+    <p>Morphemes fall into two categories based on whether they can stand alone:</p>
+
+    <p><em>Free morphemes</em> (also called bases or roots) can function as independent words. They carry the core meaning of a word.</p>
+
+    <p>Examples of free morphemes:</p>
+
+    <ul>
+      <li><p><em>boy</em>, <em>girl</em>, <em>walk</em>, <em>happy</em>, <em>book</em>, <em>run</em></p></li>
+    </ul>
+
+    <p><em>Bound morphemes</em> cannot stand alone as words; they must attach to other morphemes. Most bound morphemes in English are affixes—prefixes that attach before the base or suffixes that attach after it.</p>
+
+    <p>Examples of bound morphemes:</p>
+
+    <ul>
+      <li><p>Prefixes: <em>un-</em>, <em>re-</em>, <em>pre-</em>, <em>mis-</em>, <em>dis-</em></p></li>
+      <li><p>Suffixes: <em>-ness</em>, <em>-ly</em>, <em>-able</em>, <em>-tion</em>, <em>-er</em>, <em>-ed</em>, <em>-ing</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Morpheme Analysis Examples</title>
+    </paragraphs>
+
+    <p>Let's practice identifying morphemes in words:</p>
+
+    <p><em>Big</em> — One free morpheme</p>
+
+    <ul>
+      <li><p><em>big</em> = free</p></li>
+    </ul>
+
+    <p><em>Bigger</em> — Two morphemes</p>
+
+    <ul>
+      <li><p><em>big</em> = free morpheme</p></li>
+      <li><p><em>-er</em> = bound morpheme (comparative)</p></li>
+    </ul>
+
+    <p><em>Unbelievable</em> — Three morphemes</p>
+
+    <ul>
+      <li><p><em>un-</em> = bound morpheme (prefix meaning &quot;not&quot;)</p></li>
+      <li><p><em>believe</em> = free morpheme</p></li>
+      <li><p><em>-able</em> = bound morpheme (suffix meaning &quot;capable of&quot;)</p></li>
+    </ul>
+
+    <p><em>Rewriters</em> — Four morphemes</p>
+
+    <ul>
+      <li><p><em>re-</em> = bound morpheme (prefix meaning &quot;again&quot;)</p></li>
+      <li><p><em>write</em> = free morpheme</p></li>
+      <li><p><em>-er</em> = bound morpheme (suffix meaning &quot;one who&quot;)</p></li>
+      <li><p><em>-s</em> = bound morpheme (plural marker)</p></li>
+    </ul>
+
+    <p><em>Expectantly</em> — Three morphemes</p>
+
+    <ul>
+      <li><p><em>expect</em> = free morpheme</p></li>
+      <li><p><em>-ant</em> = bound morpheme (forms adjective)</p></li>
+      <li><p><em>-ly</em> = bound morpheme (forms adverb)</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-04-morphology-and-word-structure-sec-42">
+    <title>Common Morphemes by Word Class</title>
+
+    <p>English uses bound morphemes productively to create words belonging to different word classes. These affixes are <em>productive</em>—English speakers use them freely to create new words. You've probably encountered &quot;unfriend,&quot; &quot;unsubscribe,&quot; and &quot;retweet,&quot; none of which existed thirty years ago. The patterns are so reliable that you could invent a word right now and other English speakers would understand it immediately.</p>
+
+    <p>The following tables organize common English affixes by the word class they typically create.</p>
+
+    <paragraphs>
+      <title>Noun-Forming Morphemes</title>
+    </paragraphs>
+
+    <p>These affixes create nouns, often from verbs or adjectives:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Affix</cell>
+        <cell>Base Type</cell>
+        <cell>Meaning</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell>-ness</cell>
+        <cell>adjective</cell>
+        <cell>state/quality</cell>
+        <cell><em>happiness</em>, <em>darkness</em>, <em>kindness</em>, <em>sadness</em></cell>
+      </row>
+      <row>
+        <cell>-ity</cell>
+        <cell>adjective</cell>
+        <cell>state/quality</cell>
+        <cell><em>generosity</em>, <em>electricity</em>, <em>possibility</em>, <em>curiosity</em></cell>
+      </row>
+      <row>
+        <cell>-ment</cell>
+        <cell>verb</cell>
+        <cell>result/act</cell>
+        <cell><em>development</em>, <em>agreement</em>, <em>entertainment</em>, <em>movement</em></cell>
+      </row>
+      <row>
+        <cell>-tion/-sion</cell>
+        <cell>verb</cell>
+        <cell>act/result</cell>
+        <cell><em>selection</em>, <em>creation</em>, <em>discussion</em>, <em>decision</em></cell>
+      </row>
+      <row>
+        <cell>-er/-or</cell>
+        <cell>verb</cell>
+        <cell>one who</cell>
+        <cell><em>teacher</em>, <em>writer</em>, <em>actor</em>, <em>editor</em></cell>
+      </row>
+      <row>
+        <cell>-ist</cell>
+        <cell>noun/adj</cell>
+        <cell>one who practices</cell>
+        <cell><em>artist</em>, <em>scientist</em>, <em>guitarist</em>, <em>optimist</em></cell>
+      </row>
+      <row>
+        <cell>-ism</cell>
+        <cell>noun/adj</cell>
+        <cell>belief/practice</cell>
+        <cell><em>capitalism</em>, <em>heroism</em>, <em>criticism</em>, <em>optimism</em></cell>
+      </row>
+      <row>
+        <cell>-ance/-ence</cell>
+        <cell>verb/adj</cell>
+        <cell>state/quality</cell>
+        <cell><em>assistance</em>, <em>confidence</em>, <em>independence</em>, <em>resistance</em></cell>
+      </row>
+      <row>
+        <cell>-dom</cell>
+        <cell>noun/adj</cell>
+        <cell>state/realm</cell>
+        <cell><em>kingdom</em>, <em>freedom</em>, <em>boredom</em>, <em>wisdom</em></cell>
+      </row>
+      <row>
+        <cell>-hood</cell>
+        <cell>noun</cell>
+        <cell>state/group</cell>
+        <cell><em>childhood</em>, <em>neighborhood</em>, <em>brotherhood</em>, <em>likelihood</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Verb-Forming Morphemes</title>
+    </paragraphs>
+
+    <p>These affixes create verbs, often from nouns or adjectives:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Affix</cell>
+        <cell>Base Type</cell>
+        <cell>Meaning</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell>-ize</cell>
+        <cell>noun/adj</cell>
+        <cell>make/become</cell>
+        <cell><em>modernize</em>, <em>hospitalize</em>, <em>legalize</em>, <em>prioritize</em></cell>
+      </row>
+      <row>
+        <cell>-ify</cell>
+        <cell>noun/adj</cell>
+        <cell>make/cause</cell>
+        <cell><em>beautify</em>, <em>clarify</em>, <em>simplify</em>, <em>terrify</em></cell>
+      </row>
+      <row>
+        <cell>-ate</cell>
+        <cell>noun/adj</cell>
+        <cell>make/provide</cell>
+        <cell><em>activate</em>, <em>motivate</em>, <em>hyphenate</em>, <em>vaccinate</em></cell>
+      </row>
+      <row>
+        <cell>-en</cell>
+        <cell>adjective</cell>
+        <cell>make/become</cell>
+        <cell><em>brighten</em>, <em>darken</em>, <em>soften</em>, <em>strengthen</em></cell>
+      </row>
+      <row>
+        <cell>en-</cell>
+        <cell>noun/adj</cell>
+        <cell>put into/make</cell>
+        <cell><em>enable</em>, <em>encourage</em>, <em>endanger</em>, <em>enlarge</em></cell>
+      </row>
+      <row>
+        <cell>be-</cell>
+        <cell>noun/adj</cell>
+        <cell>make/cover</cell>
+        <cell><em>befriend</em>, <em>belittle</em>, <em>bewitch</em>, <em>bedeck</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Adjective-Forming Morphemes</title>
+    </paragraphs>
+
+    <p>These affixes create adjectives, often from nouns or verbs:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Affix</cell>
+        <cell>Base Type</cell>
+        <cell>Meaning</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell>-ful</cell>
+        <cell>noun</cell>
+        <cell>full of</cell>
+        <cell><em>hopeful</em>, <em>beautiful</em>, <em>careful</em>, <em>powerful</em></cell>
+      </row>
+      <row>
+        <cell>-less</cell>
+        <cell>noun</cell>
+        <cell>without</cell>
+        <cell><em>hopeless</em>, <em>careless</em>, <em>helpless</em>, <em>harmless</em></cell>
+      </row>
+      <row>
+        <cell>-able/-ible</cell>
+        <cell>verb</cell>
+        <cell>capable of</cell>
+        <cell><em>believable</em>, <em>readable</em>, <em>possible</em>, <em>flexible</em></cell>
+      </row>
+      <row>
+        <cell>-ous/-ious</cell>
+        <cell>noun</cell>
+        <cell>having quality</cell>
+        <cell><em>famous</em>, <em>dangerous</em>, <em>curious</em>, <em>spacious</em></cell>
+      </row>
+      <row>
+        <cell>-al</cell>
+        <cell>noun</cell>
+        <cell>relating to</cell>
+        <cell><em>musical</em>, <em>national</em>, <em>personal</em>, <em>educational</em></cell>
+      </row>
+      <row>
+        <cell>-ive</cell>
+        <cell>verb</cell>
+        <cell>tending to</cell>
+        <cell><em>creative</em>, <em>attractive</em>, <em>destructive</em>, <em>impressive</em></cell>
+      </row>
+      <row>
+        <cell>-ic</cell>
+        <cell>noun</cell>
+        <cell>relating to</cell>
+        <cell><em>artistic</em>, <em>scientific</em>, <em>historic</em>, <em>economic</em></cell>
+      </row>
+      <row>
+        <cell>-y</cell>
+        <cell>noun</cell>
+        <cell>having quality</cell>
+        <cell><em>dirty</em>, <em>sunny</em>, <em>rainy</em>, <em>noisy</em></cell>
+      </row>
+      <row>
+        <cell>-ish</cell>
+        <cell>noun/adj</cell>
+        <cell>somewhat like</cell>
+        <cell><em>childish</em>, <em>foolish</em>, <em>yellowish</em>, <em>oldish</em></cell>
+      </row>
+      <row>
+        <cell>-ly</cell>
+        <cell>noun</cell>
+        <cell>having quality</cell>
+        <cell><em>friendly</em>, <em>costly</em>, <em>lovely</em>, <em>timely</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Adverb-Forming Morphemes</title>
+    </paragraphs>
+
+    <p>English has fewer productive adverb-forming affixes:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Affix</cell>
+        <cell>Base Type</cell>
+        <cell>Meaning</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell>-ly</cell>
+        <cell>adjective</cell>
+        <cell>in this manner</cell>
+        <cell><em>quickly</em>, <em>happily</em>, <em>carefully</em>, <em>recently</em></cell>
+      </row>
+      <row>
+        <cell>-ward(s)</cell>
+        <cell>noun</cell>
+        <cell>in this direction</cell>
+        <cell><em>homeward</em>, <em>forward</em>, <em>backward</em>, <em>skyward</em></cell>
+      </row>
+      <row>
+        <cell>-wise</cell>
+        <cell>noun</cell>
+        <cell>in this way</cell>
+        <cell><em>clockwise</em>, <em>otherwise</em>, <em>likewise</em>, <em>lengthwise</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Common Meaning-Changing Prefixes</title>
+    </paragraphs>
+
+    <p>These prefixes modify meaning without changing the word class:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Prefix</cell>
+        <cell>Meaning</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell>un-</cell>
+        <cell>not, opposite</cell>
+        <cell><em>unhappy</em>, <em>undo</em>, <em>unusual</em>, <em>unfair</em></cell>
+      </row>
+      <row>
+        <cell>re-</cell>
+        <cell>again</cell>
+        <cell><em>rewrite</em>, <em>rebuild</em>, <em>rethink</em>, <em>replay</em></cell>
+      </row>
+      <row>
+        <cell>pre-</cell>
+        <cell>before</cell>
+        <cell><em>prehistoric</em>, <em>preview</em>, <em>predict</em>, <em>prepay</em></cell>
+      </row>
+      <row>
+        <cell>post-</cell>
+        <cell>after</cell>
+        <cell><em>postwar</em>, <em>postpone</em>, <em>postgraduate</em></cell>
+      </row>
+      <row>
+        <cell>mis-</cell>
+        <cell>wrongly</cell>
+        <cell><em>misunderstand</em>, <em>misspell</em>, <em>misjudge</em>, <em>misread</em></cell>
+      </row>
+      <row>
+        <cell>dis-</cell>
+        <cell>not, opposite</cell>
+        <cell><em>disagree</em>, <em>disappear</em>, <em>disconnect</em>, <em>dislike</em></cell>
+      </row>
+      <row>
+        <cell>non-</cell>
+        <cell>not</cell>
+        <cell><em>nonsense</em>, <em>nonfiction</em>, <em>nonprofit</em>, <em>nonstop</em></cell>
+      </row>
+      <row>
+        <cell>over-</cell>
+        <cell>excessive</cell>
+        <cell><em>overwork</em>, <em>overeat</em>, <em>overreact</em>, <em>overlook</em></cell>
+      </row>
+      <row>
+        <cell>under-</cell>
+        <cell>insufficient</cell>
+        <cell><em>underpay</em>, <em>underestimate</em>, <em>undervalue</em></cell>
+      </row>
+      <row>
+        <cell>anti-</cell>
+        <cell>against</cell>
+        <cell><em>antisocial</em>, <em>antiwar</em>, <em>antibiotic</em>, <em>antibody</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Productivity and New Words</title>
+    </paragraphs>
+
+    <p>These affixes are called <em>productive</em> because English speakers actively use them to create new words. Consider some recent additions to English:</p>
+
+    <ul>
+      <li><p><em>unfriend</em> (un- + friend) — to remove someone from social media</p></li>
+      <li><p><em>doomscrolling</em> (doom + scroll + -ing) — obsessively reading bad news</p></li>
+      <li><p><em>rewatchable</em> (re- + watch + -able) — worth watching again</p></li>
+      <li><p><em>influencer</em> (influence + -er) — social media personality</p></li>
+      <li><p><em>podcaster</em> (podcast + -er) — one who creates podcasts</p></li>
+    </ul>
+
+    <p>These words didn't exist twenty years ago, yet English speakers immediately understand them. This is morphological productivity in action—the same patterns that created <em>unhappy</em> and <em>teacher</em> centuries ago continue to generate new vocabulary today.</p>
+
+  </section>
+
+  <section xml:id="ch-04-morphology-and-word-structure-sec-43">
+    <title>Morpheme Boundaries</title>
+
+    <p>One of the trickiest aspects of morpheme analysis is determining where morphemes begin and end—especially with words borrowed from other languages. Many English words came from Latin, Greek, and French, bringing with them pieces that <em>look</em> like affixes but don't function as morphemes for modern English speakers.</p>
+
+    <p>Before we address these tricky cases, let's practice the correct process for analyzing morphemes in straightforward words.</p>
+
+    <paragraphs>
+      <title>Morpheme Analysis</title>
+    </paragraphs>
+
+    <p>When analyzing a word's morphemes, work systematically: identify the base (free morpheme), then examine what's attached to it. Here are three examples showing the step-by-step process.</p>
+
+    <paragraphs>
+      <title>Example 1: <em>unhappy</em></title>
+    </paragraphs>
+
+    <p>Start by finding the free morpheme—the part that can stand alone as a word:</p>
+
+    <ul>
+      <li><p><em>happy</em> is a word in English ✓</p></li>
+    </ul>
+
+    <p>Now check what's attached:</p>
+
+    <ul>
+      <li><p><em>un-</em> appears before <em>happy</em>; this is the prefix meaning &quot;not&quot;</p></li>
+      <li><p><em>un-</em> is a bound morpheme (it cannot stand alone)</p></li>
+    </ul>
+
+    <p><em>Result:</em> <em>un-</em> (bound) + <em>happy</em> (free) = 2 morphemes</p>
+
+    <paragraphs>
+      <title>Example 2: <em>rethinking</em></title>
+    </paragraphs>
+
+    <p>Find the free morpheme:</p>
+
+    <ul>
+      <li><p><em>think</em> is a word in English ✓</p></li>
+    </ul>
+
+    <p>Check what's attached before the base:</p>
+
+    <ul>
+      <li><p><em>re-</em> appears before <em>think</em>; this is the prefix meaning &quot;again&quot;</p></li>
+      <li><p><em>re-</em> is a bound morpheme</p></li>
+    </ul>
+
+    <p>Check what's attached after the base:</p>
+
+    <ul>
+      <li><p><em>-ing</em> appears after <em>think</em>; this suffix forms the present participle</p></li>
+      <li><p><em>-ing</em> is a bound morpheme</p></li>
+    </ul>
+
+    <p><em>Result:</em> <em>re-</em> (bound) + <em>think</em> (free) + <em>-ing</em> (bound) = 3 morphemes</p>
+
+    <paragraphs>
+      <title>Example 3: <em>carelessness</em></title>
+    </paragraphs>
+
+    <p>Find the free morpheme:</p>
+
+    <ul>
+      <li><p><em>care</em> is a word in English ✓</p></li>
+    </ul>
+
+    <p>Check for prefixes:</p>
+
+    <ul>
+      <li><p>None present</p></li>
+    </ul>
+
+    <p>Check for suffixes (work from the end inward):</p>
+
+    <ul>
+      <li><p><em>-ness</em> appears at the end; this suffix forms nouns meaning &quot;state of&quot;</p></li>
+      <li><p><em>-less</em> appears between <em>care</em> and <em>-ness</em>; this suffix means &quot;without&quot;</p></li>
+      <li><p>Both are bound morphemes</p></li>
+    </ul>
+
+    <p><em>Result:</em> <em>care</em> (free) + <em>-less</em> (bound) + <em>-ness</em> (bound) = 3 morphemes</p>
+
+    <paragraphs>
+      <title>Incorrect Morpheme Analysis</title>
+    </paragraphs>
+
+    <p>Now let's look at common mistakes in morpheme analysis. The fundamental principle to remember is:</p>
+
+    <p><em>A word can only be divided into morphemes if the base is a word in modern English.</em></p>
+
+    <p>This rule keeps our analysis grounded in what speakers actually know, rather than what historical linguists can reconstruct. Morphemes are psychological units—pieces that speakers recognize as meaningful. When you hear <em>unhappy</em>, you recognize both <em>un-</em> and <em>happy</em> as meaningful parts because <em>happy</em> is a word you know.</p>
+
+    <p><em>Type 1: Non-Existent Bases</em></p>
+
+    <p>Some words look like they contain familiar affixes, but the remaining &quot;base&quot; isn't actually a word in English.</p>
+
+    <p><em>Ugly</em> ≠ <em>ug</em> + <em>-ly</em></p>
+
+    <ul>
+      <li><p>&quot;Ug&quot; is not a word in English ✗</p></li>
+      <li><p>One morpheme</p></li>
+    </ul>
+
+    <p><em>Pretty</em> ≠ <em>pret</em> + <em>-ty</em></p>
+
+    <ul>
+      <li><p>&quot;Pret&quot; is not a word in English ✗</p></li>
+      <li><p>One morpheme</p></li>
+    </ul>
+
+    <p><em>Lonely</em> ≠ <em>lone</em> + <em>-ly</em></p>
+
+    <ul>
+      <li><p>Wait—&quot;lone&quot; IS a word in English ✓</p></li>
+      <li><p><em>Lonely</em> = <em>lone</em> (free) + <em>-ly</em> (bound) = 2 morphemes</p></li>
+    </ul>
+
+    <p>This shows why you must always verify: just because a word ends in <em>-ly</em> doesn't mean the rest is automatically not a word!</p>
+
+    <p><em>Type 2: Historical Parts That Have Fused</em></p>
+
+    <p>Many English words came from Latin, Greek, or French with internal structure that no longer functions for modern speakers. Consider the word <em>receive</em>. It begins with <em>re-</em>, which often means &quot;again&quot; in English (<em>rewrite</em>, <em>rebuild</em>, <em>reconsider</em>). And the rest of the word looks like it might be <em>ceive</em>. But ask yourself: Can you <em>ceive</em> something? Is <em>ceive</em> a word? Unless you're a Latin scholar who knows that <em>capere</em> meant &quot;to take,&quot; the answer is no.</p>
+
+    <p><em>Deceive</em> ≠ <em>de-</em> + <em>ceive</em></p>
+
+    <ul>
+      <li><p>&quot;Ceive&quot; is not a word in English ✗</p></li>
+      <li><p>One morpheme</p></li>
+    </ul>
+
+    <p><em>Predict</em> ≠ <em>pre-</em> + <em>dict</em></p>
+
+    <ul>
+      <li><p>&quot;Dict&quot; is not a word in English (it's Latin for &quot;say&quot;) ✗</p></li>
+      <li><p>One morpheme</p></li>
+    </ul>
+
+    <p><em>Transport</em> ≠ <em>trans-</em> + <em>port</em></p>
+
+    <ul>
+      <li><p>&quot;Port&quot; in the sense of &quot;carry&quot; is not a word in English ✗</p></li>
+      <li><p>One morpheme</p></li>
+    </ul>
+
+    <p><em>Type 3: Coincidental Resemblance</em></p>
+
+    <p>Sometimes a word contains a sequence of sounds that happens to match an existing word or affix, but the word's meaning has nothing to do with those parts. The word wasn't built from those pieces.</p>
+
+    <p><em>Understand</em> ≠ <em>under</em> + <em>stand</em></p>
+
+    <ul>
+      <li><p>Although &quot;under&quot; and &quot;stand&quot; are both English words, <em>understand</em> doesn't mean &quot;to stand under something&quot;</p></li>
+      <li><p>The word came into English as a unit with its own meaning</p></li>
+      <li><p>One morpheme</p></li>
+    </ul>
+
+    <p><em>Carpet</em> ≠ <em>car</em> + <em>pet</em></p>
+
+    <ul>
+      <li><p>Although &quot;car&quot; and &quot;pet&quot; are both English words, a carpet isn't a pet for your car!</p></li>
+      <li><p>One morpheme</p></li>
+    </ul>
+
+    <p><em>Breakfast</em> = <em>break</em> + <em>fast</em></p>
+
+    <ul>
+      <li><p>This one IS a compound—it literally means &quot;breaking the fast&quot; (the overnight period without eating)</p></li>
+      <li><p>Two morphemes</p></li>
+    </ul>
+
+    <p>The test: Does the word's meaning derive from combining the meanings of the parts? If not, it's a single morpheme regardless of what sequences it contains.</p>
+
+    <paragraphs>
+      <title>Borderline Cases</title>
+    </paragraphs>
+
+    <p>Some words present genuine challenges:</p>
+
+    <p><em>Words with archaic bases:</em> If the base existed in Old English but not modern English, treat the word as one morpheme.</p>
+
+    <ul>
+      <li><p><em>overwhelm</em> (whelm is archaic) = 1 morpheme</p></li>
+      <li><p><em>unkempt</em> (kempt is archaic) = 1 morpheme</p></li>
+    </ul>
+
+    <p><em>Latin/Greek borrowings:</em> If the base comes from Latin or Greek and isn't an English word, treat it as one morpheme.</p>
+
+    <ul>
+      <li><p><em>construct</em>, <em>instruct</em>, <em>destruct</em> = 1 morpheme each</p></li>
+      <li><p><em>receive</em>, <em>perceive</em>, <em>conceive</em> = 1 morpheme each</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Additional Morphemes on Borrowed Words</title>
+    </paragraphs>
+
+    <p>Even when a borrowed word is a single morpheme, English speakers can still add English affixes to it. Those affixes count as separate morphemes.</p>
+
+    <ul>
+      <li><p><em>constructed</em> = <em>construct</em> + <em>-ed</em> (2 morphemes)</p></li>
+      <li><p><em>receiving</em> = <em>receive</em> + <em>-ing</em> (2 morphemes)</p></li>
+      <li><p><em>destruction</em> = This is trickier—<em>destruction</em> came into English as a complete word from Latin, so it's 1 morpheme. But <em>destructive</em> in modern English is <em>destruction</em> minus <em>-ion</em> plus <em>-ive</em>? No—both <em>destruction</em> and <em>destructive</em> are borrowed as units. However, <em>destructively</em> = <em>destructive</em> + <em>-ly</em> (2 morphemes) because <em>-ly</em> is a productive English suffix added to the borrowed word.</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-04-morphology-and-word-structure-sec-44">
+    <title>Compounds</title>
+
+    <p>A <em>compound</em> is a word formed from two or more free morphemes combined together. English readily forms compounds.</p>
+
+    <paragraphs>
+      <title>Types of Compounds</title>
+    </paragraphs>
+
+    <p><em>Noun + Noun:</em></p>
+
+    <ul>
+      <li><p><em>bookcase</em>, <em>sunflower</em>, <em>bedroom</em>, <em>football</em></p></li>
+    </ul>
+
+    <p><em>Adjective + Noun:</em></p>
+
+    <ul>
+      <li><p><em>blackboard</em>, <em>highway</em>, <em>smartphone</em></p></li>
+    </ul>
+
+    <p><em>Verb + Noun:</em></p>
+
+    <ul>
+      <li><p><em>breakfast</em> (break + fast), <em>pickpocket</em></p></li>
+    </ul>
+
+    <p><em>Noun + Verb:</em></p>
+
+    <ul>
+      <li><p><em>sunrise</em>, <em>haircut</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Compound Stress</title>
+    </paragraphs>
+
+    <p>In English, compounds typically have primary stress on the first element:</p>
+
+    <ul>
+      <li><p><em>BLACK</em>board (compound: a board for writing)</p></li>
+      <li><p>black <em>BOARD</em> (phrase: a board that is black)</p></li>
+    </ul>
+
+    <ul>
+      <li><p><em>GREEN</em>house (compound: building for plants)</p></li>
+      <li><p>green <em>HOUSE</em> (phrase: a house painted green)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Analyzing Compounds</title>
+    </paragraphs>
+
+    <p>When analyzing morphemes in compounds, count each free morpheme separately:</p>
+
+    <p><em>Bookshelves</em> = 3 morphemes</p>
+
+    <ul>
+      <li><p><em>book</em> = free</p></li>
+      <li><p><em>shelf</em> = free</p></li>
+      <li><p><em>-s</em> = bound (plural)</p></li>
+    </ul>
+
+    <p><em>Uncomfortable</em> = 3 morphemes</p>
+
+    <ul>
+      <li><p><em>un-</em> = bound</p></li>
+      <li><p><em>comfort</em> = free</p></li>
+      <li><p><em>-able</em> = bound</p></li>
+    </ul>
+
+    <p><em>Sunflowers</em> = 3 morphemes</p>
+
+    <ul>
+      <li><p><em>sun</em> = free</p></li>
+      <li><p><em>flower</em> = free</p></li>
+      <li><p><em>-s</em> = bound (plural)</p></li>
+    </ul>
+
+    <p>Remember to apply the English base rule even with compounds. Some words look like they might be compounds but aren't:</p>
+
+    <p><em>Together</em> ≠ <em>to</em> + <em>get</em> + <em>her</em></p>
+
+    <ul>
+      <li><p>This word doesn't combine the meanings &quot;to,&quot; &quot;get,&quot; and &quot;her&quot;</p></li>
+      <li><p>One morpheme</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Morpheme Identification Process</title>
+    </paragraphs>
+
+    <p>Follow these steps to analyze a word's morphemes:</p>
+
+    <ol>
+      <li><p><em>Identify the base (free morpheme)</em></p></li>
+    </ol>
+
+    <ul>
+      <li><p>What is the core word that can stand alone?</p></li>
+    </ul>
+
+    <ol>
+      <li><p><em>Check for prefixes</em></p></li>
+    </ol>
+
+    <ul>
+      <li><p>Is there a meaningful unit before the base?</p></li>
+      <li><p>Is the remaining base still a word in English?</p></li>
+    </ul>
+
+    <ol>
+      <li><p><em>Check for suffixes</em></p></li>
+    </ol>
+
+    <ul>
+      <li><p>Work from the end of the word inward</p></li>
+      <li><p>Identify each suffix and its meaning</p></li>
+    </ul>
+
+    <ol>
+      <li><p><em>Verify each morpheme</em></p></li>
+    </ol>
+
+    <ul>
+      <li><p>Does each piece carry meaning?</p></li>
+      <li><p>Is the base a real English word?</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Practice Analysis</title>
+    </paragraphs>
+
+    <p>Analyze: <em>mistreatment</em></p>
+
+    <ol>
+      <li><p>Base: <em>treat</em> (free morpheme—it's a word)</p></li>
+      <li><p>Prefix: <em>mis-</em> (bound—means &quot;wrongly&quot;)</p></li>
+      <li><p>Suffix: <em>-ment</em> (bound—forms noun)</p></li>
+    </ol>
+
+    <p>Result: <em>mis-</em> + <em>treat</em> + <em>-ment</em> = 3 morphemes</p>
+
+    <p>Analyze: <em>reorganization</em></p>
+
+    <ol>
+      <li><p>Base: <em>organ</em> (free)</p></li>
+      <li><p>Prefix: <em>re-</em> (bound—&quot;again&quot;)</p></li>
+      <li><p>Suffixes: <em>-ize</em> (verb), <em>-ation</em> (noun)</p></li>
+    </ol>
+
+    <p>Result: <em>re-</em> + <em>organ</em> + <em>-ize</em> + <em>-ation</em> = 4 morphemes</p>
+
+  </section>
+
+  <section xml:id="ch-04-homework">
+    <title>Homework: Morphology and Word Structure</title>
+
+    <subsection xml:id="ch-04-homework-1">
+      <title>Part 1: Morpheme Identification (approx. 10 minutes)</title>
+
+      <p><em>Instructions:</em> For each word below, divide it into morphemes and classify each morpheme as free or bound. State the total number of morphemes.</p>
+
+      <p>You may present your analysis using any clear method, such as:</p>
+      <ul>
+        <li><p>Listing with labels (e.g., <em>un-</em> (bound) + <em>happy</em> (free) + <em>-ness</em> (bound) = 3 morphemes)</p></li>
+        <li><p>A simple chart or table</p></li>
+      </ul>
+
+      <p>Be sure your method clearly shows each morpheme and its classification.</p>
+
+      <paragraphs>
+        <title>Example (completed):</title>
+      </paragraphs>
+
+      <p><em>Word:</em> <em>unhappiness</em></p>
+      <p>un- (bound) + happy (free) + -ness (bound) = 3 morphemes</p>
+
+      <p><em>1.</em> <em>disagreements</em></p>
+      <p><em>2.</em> <em>rebuilding</em></p>
+      <p><em>3.</em> <em>thoughtfulness</em></p>
+      <p><em>4.</em> <em>international</em></p>
+      <p><em>5.</em> <em>unforgettable</em></p>
+    </subsection>
+
+    <subsection xml:id="ch-04-homework-2">
+      <title>Part 2: Applying the English Base Rule (approx. 10 minutes)</title>
+
+      <p><em>Instructions:</em> For each word, determine whether it contains one morpheme or multiple morphemes. Apply the English base rule: <em>a word can only be divided into morphemes if the base is a word in modern English.</em></p>
+
+      <paragraphs>
+        <title>Example (completed):</title>
+      </paragraphs>
+
+      <p><em>Word:</em> <em>contain</em></p>
+      <p>Number of morphemes: 1</p>
+      <p>Although <em>contain</em> appears to begin with <em>con-</em>, the remaining part <em>-tain</em> is not a word in modern English. Therefore, <em>contain</em> is a single morpheme.</p>
+
+      <p><em>6.</em> <em>grandmother</em></p>
+      <p><em>7.</em> <em>describe</em></p>
+      <p><em>8.</em> <em>replayable</em></p>
+      <p><em>9.</em> <em>subtract</em></p>
+      <p><em>10.</em> <em>misplace</em></p>
+    </subsection>
+
+    <subsection xml:id="ch-04-homework-3">
+      <title>Part 3: Word Building (approx. 10 minutes)</title>
+
+      <p><em>Instructions:</em> Using the base words provided, create new words by adding affixes. Write the complete word and identify all morphemes.</p>
+
+      <paragraphs>
+        <title>Example (completed):</title>
+      </paragraphs>
+
+      <p><em>Base word:</em> <em>hope</em></p>
+      <p>Word with one suffix: <em>hopeful</em></p>
+      <p>Morphemes: hope (free) + -ful (bound)</p>
+      <p>Word with a prefix and suffix: <em>unhopeful</em></p>
+      <p>Morphemes: un- (bound) + hope (free) + -ful (bound)</p>
+
+      <p><em>11.</em> Base word: <em>teach</em></p>
+      <p>Create a word with one suffix:</p>
+      <p>Morphemes:</p>
+      <p>Create a word with two suffixes:</p>
+      <p>Morphemes:</p>
+
+      <p><em>12.</em> Base word: <em>kind</em></p>
+      <p>Create a word with a prefix:</p>
+      <p>Morphemes:</p>
+      <p>Create a word with a prefix and a suffix:</p>
+      <p>Morphemes:</p>
+
+      <p><em>13.</em> Base word: <em>modern</em></p>
+      <p>Create a word that is a verb:</p>
+      <p>Morphemes:</p>
+      <p>Create a word that is a noun:</p>
+      <p>Morphemes:</p>
+    </subsection>
+
+    <subsection xml:id="ch-04-homework-4">
+      <title>Part 4: Morpheme Identification in Context (approx. 5 minutes)</title>
+
+      <p><em>Instructions:</em> Read the passage below. Identify five words that contain multiple morphemes and list the morphemes for each.</p>
+
+      <paragraphs>
+        <title>Passage:</title>
+      </paragraphs>
+
+      <p><em>The researchers carefully analyzed the unprecedented developments in artificial intelligence. Their findings suggested that technological modernization would dramatically reshape workplaces worldwide. The implications were unmistakable.</em></p>
+
+      <paragraphs>
+        <title>Example (completed):</title>
+      </paragraphs>
+
+      <p><em>Word:</em> <em>researchers</em></p>
+      <p>Morphemes: research (free) + -er (bound) + -s (bound)</p>
+
+      <p><em>14.</em></p>
+      <p>Word 1:</p>
+      <p>Morphemes:</p>
+      <p>Word 2:</p>
+      <p>Morphemes:</p>
+      <p>Word 3:</p>
+      <p>Morphemes:</p>
+      <p>Word 4:</p>
+      <p>Morphemes:</p>
+      <p>Word 5:</p>
+      <p>Morphemes:</p>
+    </subsection>
+
+    <subsection xml:id="ch-04-homework-5">
+      <title>Part 5: Analysis and Reflection (approx. 10 minutes)</title>
+
+      <p><em>Instructions:</em> Answer the following question, explaining your reasoning.</p>
+
+      <p><em>15.</em> Complex words are built up step by step, with each morpheme attaching in a specific order. Track the formation of the word <em>unprecedented</em> by identifying the base and then showing the order in which morphemes attach.</p>
+
+      <paragraphs>
+        <title>Example (completed):</title>
+      </paragraphs>
+
+      <p><em>Word:</em> <em>unhappiness</em></p>
+      <p>Formation:</p>
+      <ol>
+        <li><p>happy (base—adjective)</p></li>
+        <li><p>unhappy (un- + happy—adjective meaning "not happy")</p></li>
+        <li><p>unhappiness (unhappy + -ness—noun meaning "the state of being unhappy")</p></li>
+      </ol>
+
+      <p><em>Word:</em> <em>unprecedented</em></p>
+      <p>Formation:</p>
+
+      <p><em>Total estimated time: 30-40 minutes</em></p>
+    </subsection>
+
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Affix</title>
+      <p>A bound morpheme that attaches to a base; includes prefixes (before) and suffixes (after).</p>
+    </gi>
+    <gi>
+      <title>Allomorph</title>
+      <p>One of two or more phonetic forms of a single morpheme (e.g., the plural morpheme has allomorphs /s/, /z/, and /ɪz/).</p>
+    </gi>
+    <gi>
+      <title>Base</title>
+      <p>The morpheme that carries the core meaning of a word; the element to which affixes attach. Also called the root.</p>
+    </gi>
+    <gi>
+      <title>Bound morpheme</title>
+      <p>A morpheme that cannot stand alone as a word; must be attached to another morpheme.</p>
+    </gi>
+    <gi>
+      <title>Compound</title>
+      <p>A word formed by combining two or more free morphemes.</p>
+    </gi>
+    <gi>
+      <title>Free morpheme</title>
+      <p>A morpheme that can stand alone as an independent word.</p>
+    </gi>
+    <gi>
+      <title>Morpheme</title>
+      <p>The smallest unit of language that carries meaning.</p>
+    </gi>
+    <gi>
+      <title>Morphology</title>
+      <p>The branch of linguistics that studies word structure and word formation.</p>
+    </gi>
+    <gi>
+      <title>Prefix</title>
+      <p>An affix that attaches before the base.</p>
+    </gi>
+    <gi>
+      <title>Productive</title>
+      <p>Describes a morphological pattern that speakers actively use to create new words.</p>
+    </gi>
+    <gi>
+      <title>Suffix</title>
+      <p>An affix that attaches after the base.</p>
+    </gi>
+    <gi>
+      <title>Suppletion</title>
+      <p>The use of an entirely different word form to express a grammatical contrast (e.g., <em>go/went</em>).</p>
+    </gi>
+  </glossary>
+
+</chapter>

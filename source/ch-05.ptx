@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-05-open-classes" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Open Classes</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Distinguish between the form of a word (part of speech) and its function in a sentence</p></li>
+      <li><p>Define open-class words and explain why they form open classes</p></li>
+      <li><p>Apply morphological and syntactic tests to identify nouns, verbs, adjectives, and adverbs</p></li>
+      <li><p>Analyze the internal structure of noun phrases, verb phrases, adjective phrases, and adverb phrases</p></li>
+      <li><p>Identify the head of each phrase type and explain its relationship to modifiers</p></li>
+      <li><p>Form vs. function</p></li>
+      <li><p>Open class</p></li>
+      <li><p>Noun / Noun phrase (NP)</p></li>
+      <li><p>Verb / Verb phrase (VP)</p></li>
+      <li><p>Adjective / Adjective phrase (AdjP)</p></li>
+      <li><p>Adverb / Adverb phrase (AdvP)</p></li>
+      <li><p>Head</p></li>
+      <li><p>Modifier</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-05-open-classes-sec-51">
+    <title>Form vs. Function: The Foundation of Grammatical Analysis</title>
+
+    <p>Before examining specific word classes, we need to establish the most important distinction in grammar: the difference between <em>form</em> and <em>function</em>. This distinction underlies everything else in grammatical analysis, and mastering it early will prevent countless errors.</p>
+
+    <paragraphs>
+      <title>The Two Questions</title>
+    </paragraphs>
+
+    <p>When analyzing any word in a sentence, you must ask two separate questions:</p>
+
+    <ol>
+      <li><p><em>What IS this word?</em> (form)</p></li>
+      <li><p><em>What is this word DOING?</em> (function)</p></li>
+    </ol>
+
+    <p>These questions have different answers, and both answers matter.</p>
+
+    <paragraphs>
+      <title>Form: What a Word IS</title>
+    </paragraphs>
+
+    <p><em>Form</em> refers to a word's part of speech—its inherent grammatical category. We determine form by examining the word's morphological properties (what endings it can take) and its typical syntactic behavior.</p>
+
+    <p>For example, <em>happy</em> is an adjective. How do we know? Because it passes the tests for adjectives:</p>
+
+    <ul>
+      <li><p>It can be compared: <em>happier</em>, <em>happiest</em></p></li>
+      <li><p>It can be modified by <em>very</em>: <em>very happy</em></p></li>
+      <li><p>It can appear after linking verbs: <em>She seems happy</em></p></li>
+    </ul>
+
+    <p>These properties belong to the word itself, regardless of how it's used in any particular sentence.</p>
+
+    <paragraphs>
+      <title>Function: What a Word DOES</title>
+    </paragraphs>
+
+    <p><em>Function</em> refers to the grammatical role a word plays in a specific sentence. The same word can perform different functions in different sentences—and sometimes a word's function differs from what we'd expect based on its form.</p>
+
+    <p>Consider the word <em>poor</em>:</p>
+
+    <p><em>The <em>poor</em> deserve our help.</em></p>
+
+    <p>What is <em>poor</em>? By form, it's an adjective (it can be graded: <em>poorer</em>, <em>poorest</em>). But what is it doing in this sentence? It's functioning as a noun—it follows a determiner (<em>the</em>), it serves as the subject of the sentence, and it refers to a group of people. We call this an <em>adjective functioning nominally</em> (doing the job of a noun).</p>
+
+    <paragraphs>
+      <title>The Dual-Identification Principle</title>
+    </paragraphs>
+
+    <p><em>When analyzing grammar, always identify both form AND function.</em></p>
+
+    <p>This principle will guide you through the rest of this chapter and the rest of this book. Whenever you encounter a word, don't stop at one label. Ask both questions.</p>
+
+    <p>Let's see more examples:</p>
+
+    <p><em>Example 1: Form and function match</em></p>
+
+    <p><em>She spoke <em>quietly</em>.</em></p>
+
+    <ul>
+      <li><p>Form: <em>quietly</em> is an adverb (formed with <em>-ly</em> from adjective <em>quiet</em>)</p></li>
+      <li><p>Function: <em>quietly</em> functions adverbially (it modifies the verb <em>spoke</em>, telling us how she spoke)</p></li>
+    </ul>
+
+    <p>Here form and function align—an adverb doing adverb work.</p>
+
+    <p><em>Example 2: Form and function differ</em></p>
+
+    <p><em>The <em>coffee</em> table needs dusting.</em></p>
+
+    <ul>
+      <li><p>Form: <em>coffee</em> is a noun (it can be pluralized: <em>coffees</em>; it can follow determiners: <em>the coffee</em>)</p></li>
+      <li><p>Function: <em>coffee</em> functions adjectivally (it modifies <em>table</em>, telling us what kind of table)</p></li>
+    </ul>
+
+    <p>Here a noun is doing the work typically done by adjectives.</p>
+
+    <p><em>Example 3: Another mismatch</em></p>
+
+    <p><em>She runs <em>fast</em>.</em></p>
+
+    <ul>
+      <li><p>Form: <em>fast</em> is typically an adjective (<em>a fast car</em>, <em>faster</em>, <em>fastest</em>)</p></li>
+      <li><p>Function: <em>fast</em> functions adverbially (it modifies <em>runs</em>, telling us how she runs)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Why This Matters</title>
+    </paragraphs>
+
+    <p>The form/function distinction matters for three reasons:</p>
+
+    <p><em>1. Words are flexible.</em> English allows words to shift between functions freely. Understanding this prevents you from making errors like &quot;That can't be an adjective because it's modifying a verb.&quot;</p>
+
+    <p><em>2. Labels depend on context.</em> You cannot fully describe a word's grammar without seeing it in a sentence. The word <em>walk</em> is a verb in &quot;I walk to school&quot; but a noun in &quot;The walk was pleasant.&quot;</p>
+
+    <p><em>3. Complete analysis requires both.</em> Saying &quot;<em>poor</em> is an adjective&quot; in the sentence &quot;The poor deserve help&quot; is incomplete. A full analysis recognizes both what the word is (adjective) and what it's doing (functioning as a noun).</p>
+
+    <p>Throughout this chapter, we'll examine four major word classes. For each one, pay attention to both its defining characteristics (form) and the various roles it can play (function).</p>
+
+  </section>
+
+  <section xml:id="ch-05-open-classes-sec-52">
+    <title>What Are Open Classes?</title>
+
+    <p>English words fall into two broad categories: <em>open classes</em> and <em>closed classes</em>. This chapter focuses on open classes; Chapter 6 addresses closed classes.</p>
+
+    <p><em>Open classes</em> are word categories that readily accept new members. English speakers regularly create new nouns, verbs, adjectives, and adverbs:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Class</cell>
+        <cell>Recent Additions</cell>
+      </row>
+      <row>
+        <cell><em>Nouns</em></cell>
+        <cell><em>selfie</em>, <em>cryptocurrency</em>, <em>podcast</em>, <em>meme</em>, <em>influencer</em></cell>
+      </row>
+      <row>
+        <cell><em>Verbs</em></cell>
+        <cell><em>google</em>, <em>tweet</em>, <em>zoom</em>, <em>ghost</em> (meaning to ignore), <em>stream</em></cell>
+      </row>
+      <row>
+        <cell><em>Adjectives</em></cell>
+        <cell><em>viral</em>, <em>sustainable</em>, <em>gluten-free</em>, <em>binge-worthy</em></cell>
+      </row>
+      <row>
+        <cell><em>Adverbs</em></cell>
+        <cell><em>literally</em> (emphatic), <em>lowkey</em>, <em>ironically</em> (new usage)</cell>
+      </row>
+    </tabular>
+
+    <p>These four classes—nouns, verbs, adjectives, and adverbs—contain the vast majority of English words and carry most of the content meaning in sentences. They are sometimes called <em>content words</em> or <em>lexical words</em>.</p>
+
+    <paragraphs>
+      <title>Why Does It Matter That Classes Are &quot;Open&quot;?</title>
+    </paragraphs>
+
+    <p>The openness of these classes tells us something profound about language: it's creative. We don't memorize a fixed list of nouns and then stop—we keep making new ones. When Bitcoin emerged, English speakers immediately needed a word, and <em>cryptocurrency</em> was coined. When a new social platform appeared, <em>tweet</em> became both a noun and a verb.</p>
+
+    <p>This creativity follows rules. We don't randomly string sounds together; we use the morphological patterns from Chapter 4. A new noun meaning &quot;one who podcasts&quot; naturally becomes <em>podcaster</em>, following the same pattern that gave us <em>teacher</em> and <em>writer</em> centuries ago.</p>
+
+    <p>Understanding open classes helps you:</p>
+
+    <ol>
+      <li><p><em>Identify parts of speech reliably</em> using formal tests rather than meaning</p></li>
+      <li><p><em>Analyze phrase structure</em> by recognizing what can serve as a phrase's head</p></li>
+      <li><p><em>See language change in action</em> as new words enter primarily through open classes</p></li>
+    </ol>
+
+    <p>Each open class has characteristic <em>morphological</em> properties (what endings the word can take) and <em>syntactic</em> properties (how the word behaves in sentences). The following sections examine each class in detail, providing tests you can use to identify membership and explaining how each class builds phrases.</p>
+
+  </section>
+
+  <section xml:id="ch-05-open-classes-sec-53">
+    <title>Nouns</title>
+
+    <p><em>Nouns</em> are often described as words that name people, places, things, or ideas. This semantic definition works much of the time—<em>teacher</em>, <em>Paris</em>, <em>table</em>, and <em>freedom</em> are all nouns. But meaning can mislead us. Is <em>destruction</em> a &quot;thing&quot;? What about <em>arrival</em> or <em>swimming</em>? These are nouns too, but they seem to name actions rather than objects.</p>
+
+    <p>The reliable way to identify nouns is through their grammatical behavior—specifically, through tests that reveal their morphological and syntactic properties.</p>
+
+    <paragraphs>
+      <title>Morphological Tests for Nouns</title>
+    </paragraphs>
+
+    <p>Morphological tests examine what forms a word can take. Nouns have distinctive morphological properties that set them apart from other word classes.</p>
+
+    <p><em>Test 1: Plural formation</em></p>
+
+    <p>Nouns can typically be made plural. This is perhaps the most reliable morphological test for nouns:</p>
+
+    <ul>
+      <li><p><em>book</em> → <em>books</em></p></li>
+      <li><p><em>child</em> → <em>children</em></p></li>
+      <li><p><em>analysis</em> → <em>analyses</em></p></li>
+      <li><p><em>happiness</em> → <em>happinesses</em> (rare but grammatical)</p></li>
+    </ul>
+
+    <p>If you can pluralize a word, it's almost certainly a noun. Note that some nouns resist pluralization (mass nouns like <em>water</em>, <em>information</em>), but the fact that we can even ask the question &quot;Can this be plural?&quot; suggests noun-hood.</p>
+
+    <p><em>Test 2: Possessive marking</em></p>
+
+    <p>Nouns can take the possessive marker <em>'s</em>:</p>
+
+    <ul>
+      <li><p><em>the dog's tail</em></p></li>
+      <li><p><em>Maria's book</em></p></li>
+      <li><p><em>the committee's decision</em></p></li>
+    </ul>
+
+    <p>Other word classes cannot take this marker: we don't say <em>~~the happy's effect~~</em> or <em>~~the quickly's result~~</em>.</p>
+
+    <p><em>Test 3: Noun-forming suffixes</em></p>
+
+    <p>If a word ends in certain suffixes, it's likely a noun. These suffixes convert other word classes into nouns:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Suffix</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell><em>-tion/-sion</em></cell>
+        <cell><em>action</em>, <em>decision</em>, <em>conclusion</em></cell>
+      </row>
+      <row>
+        <cell><em>-ness</em></cell>
+        <cell><em>happiness</em>, <em>awkwardness</em>, <em>cleverness</em></cell>
+      </row>
+      <row>
+        <cell><em>-ity</em></cell>
+        <cell><em>curiosity</em>, <em>generosity</em>, <em>ambiguity</em></cell>
+      </row>
+      <row>
+        <cell><em>-ment</em></cell>
+        <cell><em>government</em>, <em>amazement</em>, <em>establishment</em></cell>
+      </row>
+      <row>
+        <cell><em>-er/-or</em></cell>
+        <cell><em>teacher</em>, <em>actor</em>, <em>writer</em></cell>
+      </row>
+    </tabular>
+
+    <p>When you see these endings, think &quot;noun.&quot;</p>
+
+    <paragraphs>
+      <title>Syntactic Tests for Nouns</title>
+    </paragraphs>
+
+    <p>Syntactic tests examine how a word behaves in sentences. Where can the word appear? What other words can accompany it?</p>
+
+    <p><em>Test 1: The determiner test</em></p>
+
+    <p>Nouns can follow words like <em>a</em>, <em>the</em>, <em>this</em>, <em>my</em>, and <em>every</em>. These words (called determiners) specifically introduce nouns:</p>
+
+    <ul>
+      <li><p><em>the <em>proposal</em></em></p></li>
+      <li><p><em>a <em>happiness</em></em></p></li>
+      <li><p><em>every <em>decision</em></em></p></li>
+    </ul>
+
+    <p>This test is powerful because determiners exclusively precede nouns. If <em>the</em> or <em>a</em> can go in front of a word, that word is functioning as a noun.</p>
+
+    <p><em>Test 2: The adjective modification test</em></p>
+
+    <p>Nouns can be modified by adjectives—words that describe qualities:</p>
+
+    <ul>
+      <li><p><em>the <em>new</em> proposal</em></p></li>
+      <li><p><em>a <em>great</em> happiness</em></p></li>
+      <li><p><em>every <em>important</em> decision</em></p></li>
+    </ul>
+
+    <p>Adjectives slot in between the determiner and the noun. If a word can appear in the position after an adjective, it's behaving as a noun.</p>
+
+    <p><em>Test 3: The pronoun replacement test</em></p>
+
+    <p>A noun (along with its modifiers) can be replaced by a pronoun like <em>it</em>, <em>they</em>, or <em>she</em>:</p>
+
+    <ul>
+      <li><p><em>The new proposal</em> → <em>It</em></p></li>
+      <li><p><em>My older brother</em> → <em>He</em></p></li>
+      <li><p><em>Those expensive books</em> → <em>They</em></p></li>
+    </ul>
+
+    <p>This test helps identify noun phrases—groups of words built around a noun.</p>
+
+    <p><em>Test 4: The subject/object position test</em></p>
+
+    <p>Nouns naturally fill the subject and object slots in sentences:</p>
+
+    <ul>
+      <li><p>Subject: <em><em>Books</em> are expensive.</em></p></li>
+      <li><p>Direct object: <em>I bought <em>books</em>.</em></p></li>
+      <li><p>Object of preposition: <em>I learned from <em>books</em>.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Subclasses of Nouns</title>
+    </paragraphs>
+
+    <p>Not all nouns behave identically. Two important distinctions affect how nouns can be used.</p>
+
+    <p><em>Common vs. Proper Nouns</em></p>
+
+    <ul>
+      <li><p><em>Common nouns</em> name general categories: <em>city</em>, <em>teacher</em>, <em>book</em></p></li>
+      <li><p><em>Proper nouns</em> name specific, unique entities: <em>Chicago</em>, <em>Professor Smith</em>, <em>Friday</em></p></li>
+    </ul>
+
+    <p>Proper nouns are capitalized and often don't take determiners: <em>Chicago is large</em> (not <em>~~The Chicago~~</em>). When a proper noun does take a determiner, it often signals a different meaning: <em>the Amazon</em> (river) vs. <em>Amazon</em> (company).</p>
+
+    <p><em>Count vs. Mass Nouns</em></p>
+
+    <ul>
+      <li><p><em>Count nouns</em> refer to discrete, countable entities: <em>book/books</em>, <em>idea/ideas</em></p></li>
+      <li><p>Can be pluralized: <em>three books</em></p></li>
+      <li><p>Take <em>a/an</em>: <em>a book</em></p></li>
+      <li><p>Take number words: <em>several ideas</em></p></li>
+    </ul>
+
+    <ul>
+      <li><p><em>Mass nouns</em> refer to undifferentiated substances or concepts: <em>water</em>, <em>information</em>, <em>furniture</em></p></li>
+      <li><p>Cannot be pluralized: <em>~~informations~~</em>, <em>~~furnitures~~</em></p></li>
+      <li><p>Cannot take <em>a/an</em>: <em>~~a furniture~~</em></p></li>
+      <li><p>Take quantity words instead: <em>some water</em>, <em>much information</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Noun Phrases: Structure and Headship</title>
+    </paragraphs>
+
+    <p>Nouns don't typically appear alone. They form the center of <em>noun phrases (NP)</em>—groups of words built around a noun. The noun is the <em>head</em> of the phrase, meaning it's the essential, obligatory element that determines what kind of phrase it is.</p>
+
+    <p>Think of the head as the word you cannot remove. In the phrase <em>the old brown dog in the yard</em>, you can remove <em>old</em>, <em>brown</em>, <em>in the yard</em>, and even <em>the</em>—and still have a grammatical noun phrase (<em>dog</em>). But remove <em>dog</em>, and you have nothing functional left.</p>
+
+    <p><em>A noun phrase has this basic structure:</em></p>
+
+    <p>```</p>
+
+    <p>NP</p>
+
+    <p>┌───────┼────────┐</p>
+
+    <p>Det     Adj       N</p>
+
+    <p>│       │        │</p>
+
+    <p>the    tall     student</p>
+
+    <p>```</p>
+
+    <p>Larger noun phrases add more modifiers before and after the head:</p>
+
+    <p>```</p>
+
+    <p>NP</p>
+
+    <p>┌───────┬───────┼───────────┐</p>
+
+    <p>Det     Adj     Adj          N        PP</p>
+
+    <p>│       │       │           │     ┌──┴──┐</p>
+
+    <p>the   brilliant young     student  from Ohio</p>
+
+    <p>```</p>
+
+    <p><em>Pre-modifiers</em> appear before the head noun:</p>
+
+    <ul>
+      <li><p>Determiners: <em>the</em>, <em>a</em>, <em>my</em>, <em>this</em></p></li>
+      <li><p>Adjectives: <em>tall</em>, <em>beautiful</em>, <em>old</em></p></li>
+      <li><p>Other nouns: <em>coffee</em> (in <em>coffee table</em>)</p></li>
+    </ul>
+
+    <p><em>Post-modifiers</em> appear after the head noun:</p>
+
+    <ul>
+      <li><p>Phrases starting with words like <em>in</em>, <em>of</em>, <em>from</em>: <em>the man <em>in the hat</em></em></p></li>
+      <li><p>Clauses starting with <em>that</em>, <em>who</em>, <em>which</em>: <em>the book <em>that I read</em></em></p></li>
+      <li><p>Participial phrases: <em>the dog <em>running in the park</em></em></p></li>
+    </ul>
+
+    <p>When identifying the head, ask: &quot;Which word could stand alone and still make sense as a noun phrase?&quot; That's your head.</p>
+
+  </section>
+
+  <section xml:id="ch-05-open-classes-sec-54">
+    <title>Verbs</title>
+
+    <p><em>Verbs</em> are the engine of the sentence. While nouns name things, verbs make things happen—or describe states of being. Every complete sentence requires a verb, and the verb determines much of the sentence's structure: how many participants are needed, what time frame is being discussed, whether the action is complete or ongoing.</p>
+
+    <p>Semantically, verbs express actions (<em>run</em>, <em>build</em>, <em>think</em>), states (<em>know</em>, <em>believe</em>, <em>own</em>), or occurrences (<em>happen</em>, <em>become</em>, <em>appear</em>). But as with nouns, we identify verbs more reliably through grammatical tests.</p>
+
+    <paragraphs>
+      <title>Morphological Tests for Verbs</title>
+    </paragraphs>
+
+    <p>Verbs in English have a distinctive set of forms—more than any other word class. If a word can take these various forms, it's a verb.</p>
+
+    <p><em>Test 1: Past tense formation</em></p>
+
+    <p>Verbs can be marked for past tense:</p>
+
+    <ul>
+      <li><p><em>walk</em> → <em>walked</em></p></li>
+      <li><p><em>see</em> → <em>saw</em></p></li>
+      <li><p><em>go</em> → <em>went</em></p></li>
+    </ul>
+
+    <p>This is perhaps the most diagnostic test. If you can put a word into past tense, it's a verb: &quot;Yesterday, I ___ed&quot; (or an irregular past form).</p>
+
+    <p><em>Test 2: Third-person singular present</em></p>
+
+    <p>Verbs take <em>-s</em> when the subject is third-person singular (<em>he</em>, <em>she</em>, <em>it</em>):</p>
+
+    <ul>
+      <li><p><em>I walk</em> → <em>she walks</em></p></li>
+      <li><p><em>I see</em> → <em>he sees</em></p></li>
+    </ul>
+
+    <p>This is the only agreement marking English verbs still carry, but it's a reliable indicator of verb-hood.</p>
+
+    <p><em>Test 3: Progressive form (-ing)</em></p>
+
+    <p>Verbs can take the <em>-ing</em> suffix to form the progressive:</p>
+
+    <ul>
+      <li><p><em>walk</em> → <em>walking</em></p></li>
+      <li><p><em>see</em> → <em>seeing</em></p></li>
+    </ul>
+
+    <p>Every verb in English can take <em>-ing</em>. If you can add <em>-ing</em> to a word and use it after <em>be</em> (&quot;She is ___ing&quot;), it's a verb.</p>
+
+    <p><em>Test 4: Participial forms</em></p>
+
+    <p>Verbs have a past participle form (used with <em>have</em> and in passives):</p>
+
+    <ul>
+      <li><p><em>walk</em> → <em>walked</em> (regular)</p></li>
+      <li><p><em>see</em> → <em>seen</em> (irregular)</p></li>
+      <li><p><em>go</em> → <em>gone</em> (irregular)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Syntactic Tests for Verbs</title>
+    </paragraphs>
+
+    <p><em>Test 1: The modal test</em></p>
+
+    <p>Verbs can follow modal words like <em>can</em>, <em>will</em>, <em>might</em>, <em>should</em>, <em>must</em>:</p>
+
+    <ul>
+      <li><p><em>can walk</em></p></li>
+      <li><p><em>will see</em></p></li>
+      <li><p><em>might go</em></p></li>
+    </ul>
+
+    <p>If a word can slot into &quot;She can ___,&quot; it's a verb.</p>
+
+    <p><em>Test 2: The infinitive test</em></p>
+
+    <p>Verbs can follow <em>to</em>:</p>
+
+    <ul>
+      <li><p><em>to walk</em></p></li>
+      <li><p><em>to see</em></p></li>
+      <li><p><em>to understand</em></p></li>
+    </ul>
+
+    <p>The &quot;to ___&quot; construction (called the infinitive) is available only to verbs.</p>
+
+    <p><em>Test 3: The negation test</em></p>
+
+    <p>Verbs can be negated, typically using <em>do</em> + <em>not</em>:</p>
+
+    <ul>
+      <li><p><em>She does not walk.</em></p></li>
+      <li><p><em>I did not see it.</em></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Verb Forms: The Principal Parts</title>
+    </paragraphs>
+
+    <p>Every English verb has five forms, traditionally called the <em>principal parts</em>:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Form</cell>
+        <cell>Regular (<em>walk</em>)</cell>
+        <cell>Irregular (<em>see</em>)</cell>
+        <cell>Irregular (<em>go</em>)</cell>
+      </row>
+      <row>
+        <cell>Base</cell>
+        <cell>walk</cell>
+        <cell>see</cell>
+        <cell>go</cell>
+      </row>
+      <row>
+        <cell>Past</cell>
+        <cell>walked</cell>
+        <cell>saw</cell>
+        <cell>went</cell>
+      </row>
+      <row>
+        <cell>Past participle</cell>
+        <cell>walked</cell>
+        <cell>seen</cell>
+        <cell>gone</cell>
+      </row>
+      <row>
+        <cell>Present participle</cell>
+        <cell>walking</cell>
+        <cell>seeing</cell>
+        <cell>going</cell>
+      </row>
+      <row>
+        <cell>3rd person singular</cell>
+        <cell>walks</cell>
+        <cell>sees</cell>
+        <cell>goes</cell>
+      </row>
+    </tabular>
+
+    <p><em>Regular verbs</em> (the vast majority) form their past tense and past participle by adding <em>-ed</em>.</p>
+
+    <p><em>Irregular verbs</em> form these parts unpredictably—you must memorize them. Common irregular verbs include <em>be</em>, <em>have</em>, <em>go</em>, <em>see</em>, <em>take</em>, <em>make</em>, <em>come</em>, <em>know</em>.</p>
+
+    <paragraphs>
+      <title>Verb Phrases: Structure and Headship</title>
+    </paragraphs>
+
+    <p>Like nouns, verbs form phrases. A <em>verb phrase (VP)</em> is built around a verb as its head. The verb phrase includes the main verb plus any complements the verb requires.</p>
+
+    <p>What makes verb phrases interesting is that different verbs require different complements:</p>
+
+    <p>```</p>
+
+    <p>VP                         VP                           VP</p>
+
+    <p>│                     ┌────┴────┐               ┌───────┼───────┐</p>
+
+    <p>V                     V         NP              V       NP       NP</p>
+
+    <p>│                     │         │               │       │        │</p>
+
+    <p>slept                  read    the book          gave     her    a present</p>
+
+    <p>(no complement)      (requires object)         (requires two objects)</p>
+
+    <p>```</p>
+
+    <p>The verb determines what must follow—this is the verb's <em>valency</em>, which Chapter 8 explores in detail. For now, notice that:</p>
+
+    <ul>
+      <li><p><em>sleep</em> doesn't require anything after it (intransitive)</p></li>
+      <li><p><em>read</em> requires something to be read (transitive)</p></li>
+      <li><p><em>give</em> requires both a recipient and a thing given (ditransitive)</p></li>
+    </ul>
+
+    <p>This property—that verbs dictate sentence structure—makes the verb the most important word in most sentences.</p>
+
+  </section>
+
+  <section xml:id="ch-05-open-classes-sec-55">
+    <title>Adjectives</title>
+
+    <p><em>Adjectives</em> are the descriptors of language. They modify nouns, telling us what kind of thing something is, what quality it has, or which one we mean. A <em>tall</em> building, a <em>happy</em> child, an <em>interesting</em> problem—in each case, the adjective narrows down the noun, adding specificity.</p>
+
+    <p>Unlike nouns and verbs, which often carry the core meaning of a sentence, adjectives enrich and qualify. They answer questions like &quot;What kind?&quot; (<em>a <em>wooden</em> table</em>), &quot;Which one?&quot; (<em>the <em>third</em> attempt</em>), and &quot;What is it like?&quot; (<em>She seems <em>nervous</em>.</em>).</p>
+
+    <paragraphs>
+      <title>Morphological Tests for Adjectives</title>
+    </paragraphs>
+
+    <p><em>Test 1: Comparative and superlative forms</em></p>
+
+    <p>Most adjectives can be graded—that is, they can express degrees of a quality:</p>
+
+    <ul>
+      <li><p><em>tall</em> → <em>taller</em> → <em>tallest</em></p></li>
+      <li><p><em>happy</em> → <em>happier</em> → <em>happiest</em></p></li>
+      <li><p><em>beautiful</em> → <em>more beautiful</em> → <em>most beautiful</em></p></li>
+    </ul>
+
+    <p>If a word can become comparative or superlative, it's almost certainly an adjective. This test distinguishes adjectives from nouns and verbs, which cannot be graded this way (we don't say <em>~~taller book~~</em> meaning &quot;more of a book&quot; or <em>~~he walked the walkedest~~</em>).</p>
+
+    <p>*<em>Test 2: The </em>-ish<em> test</em>*</p>
+
+    <p>Many adjectives accept the suffix <em>-ish</em>, meaning &quot;somewhat&quot;:</p>
+
+    <ul>
+      <li><p><em>tall</em> → <em>tallish</em></p></li>
+      <li><p><em>red</em> → <em>reddish</em></p></li>
+      <li><p><em>young</em> → <em>youngish</em></p></li>
+    </ul>
+
+    <p>This is a quick informal test. If <em>-ish</em> sounds natural, you likely have an adjective.</p>
+
+    <p>*<em>Test 3: Adverb formation with </em>-ly***</p>
+
+    <p>Many adjectives can become adverbs by adding <em>-ly</em>:</p>
+
+    <ul>
+      <li><p><em>happy</em> → <em>happily</em></p></li>
+      <li><p><em>quick</em> → <em>quickly</em></p></li>
+      <li><p><em>careful</em> → <em>carefully</em></p></li>
+    </ul>
+
+    <p>This shows the close relationship between adjectives and adverbs—and also helps identify adjectives in the first place.</p>
+
+    <paragraphs>
+      <title>Syntactic Tests for Adjectives</title>
+    </paragraphs>
+
+    <p><em>Test 1: The attributive position test</em></p>
+
+    <p>Adjectives can appear between a determiner and a noun—this position, directly before the noun, is called <em>attributive</em> position:</p>
+
+    <ul>
+      <li><p><em>the <em>tall</em> man</em></p></li>
+      <li><p><em>a <em>happy</em> child</em></p></li>
+      <li><p><em>the <em>interesting</em> book</em></p></li>
+    </ul>
+
+    <p>This is a defining characteristic. If a word can slot into &quot;the ___ noun,&quot; it's behaving as an adjective.</p>
+
+    <p><em>Test 2: The predicative position test</em></p>
+
+    <p>Adjectives can follow linking verbs like <em>be</em>, <em>seem</em>, <em>become</em>, and <em>appear</em>—this position, after the verb, is called <em>predicative</em> position:</p>
+
+    <ul>
+      <li><p><em>The man is <em>tall</em>.</em></p></li>
+      <li><p><em>She seems <em>happy</em>.</em></p></li>
+      <li><p><em>The book appears <em>interesting</em>.</em></p></li>
+    </ul>
+
+    <p>Most adjectives work in both positions. A few work in only one (see below).</p>
+
+    <p>*<em>Test 3: The </em>very<em> test</em>*</p>
+
+    <p>Adjectives can be modified by degree words like <em>very</em>, <em>extremely</em>, and <em>quite</em>:</p>
+
+    <ul>
+      <li><p><em><em>very</em> tall</em></p></li>
+      <li><p><em><em>extremely</em> happy</em></p></li>
+      <li><p><em><em>quite</em> interesting</em></p></li>
+    </ul>
+
+    <p>If <em>very</em> sounds natural before a word, that word is likely an adjective. (Nouns and verbs don't accept <em>very</em>: <em>~~very book~~</em>, <em>~~very walked~~</em>.)</p>
+
+    <paragraphs>
+      <title>Special Classes of Adjectives</title>
+    </paragraphs>
+
+    <p>Most adjectives are <em>gradable</em>—they can express degrees (<em>taller</em>, <em>very tall</em>). But some adjectives express absolute properties and resist grading:</p>
+
+    <ul>
+      <li><p><em>dead</em> — something is dead or not; <em>~~very dead~~</em> sounds odd</p></li>
+      <li><p><em>unique</em> — traditionally, something is unique or not; <em>~~more unique~~</em> is contested</p></li>
+      <li><p><em>pregnant</em> — grammatically ungradable, though metaphor sometimes changes this</p></li>
+    </ul>
+
+    <p>Some adjectives are <em>attributive-only</em> (they can only appear before nouns):</p>
+
+    <ul>
+      <li><p><em>the <em>main</em> reason</em> ✓ / <em>~~The reason is main~~</em> ✗</p></li>
+      <li><p><em>a <em>mere</em> child</em> ✓ / <em>~~The child is mere~~</em> ✗</p></li>
+    </ul>
+
+    <p>Others are <em>predicative-only</em> (they can only appear after linking verbs):</p>
+
+    <ul>
+      <li><p><em>The child is <em>asleep</em></em> ✓ / <em>~~the asleep child~~</em> ✗</p></li>
+      <li><p><em>She felt <em>afraid</em></em> ✓ / <em>~~the afraid woman~~</em> ✗</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Adjective Phrases: Structure and Headship</title>
+    </paragraphs>
+
+    <p>Adjectives form phrases just as nouns and verbs do. An <em>adjective phrase (AdjP)</em> has an adjective as its head, with optional modifiers before and after:</p>
+
+    <p>```</p>
+
+    <p>AdjP                    AdjP                        AdjP</p>
+
+    <p>│              ┌───────┴───────┐           ┌────────┼────────┐</p>
+
+    <p>Adj            Adv             Adj         Adv      Adj        PP</p>
+
+    <p>│              │               │           │        │      ┌──┴──┐</p>
+
+    <p>happy          very           happy       very     proud   of her work</p>
+
+    <p>```</p>
+
+    <p>Pre-modifiers of adjectives are typically degree adverbs: <em>very</em>, <em>extremely</em>, <em>somewhat</em>, <em>quite</em>.</p>
+
+    <p>Post-modifiers are often phrases introduced by prepositions: <em>proud <em>of her work</em></em>, <em>afraid <em>of the dark</em></em>, <em>interested <em>in linguistics</em></em>.</p>
+
+    <p><em>Where adjective phrases function:</em></p>
+
+    <ul>
+      <li><p><em>Attributive</em> (modifying a noun): <em>the [very tall] man</em></p></li>
+      <li><p><em>Predicative</em> (after linking verb): <em>The man is [very tall].</em></p></li>
+    </ul>
+
+    <p>When an adjective phrase appears attributively, it usually precedes the noun. When it appears predicatively, it follows the linking verb and describes the subject.</p>
+
+  </section>
+
+  <section xml:id="ch-05-open-classes-sec-56">
+    <title>Adverbs</title>
+
+    <p><em>Adverbs</em> are the most versatile and varied word class in English. While nouns name, verbs act, and adjectives describe nouns, adverbs do a bit of everything: they can modify verbs, adjectives, other adverbs, and even entire sentences. This versatility makes them both useful and tricky to identify.</p>
+
+    <p>The traditional definition—&quot;adverbs modify verbs&quot;—captures only part of the picture. Consider these sentences:</p>
+
+    <ul>
+      <li><p><em>She spoke <em>quietly</em>.</em> (modifies verb)</p></li>
+      <li><p><em>She is <em>extremely</em> talented.</em> (modifies adjective)</p></li>
+      <li><p><em>She works <em>very</em> hard.</em> (modifies adverb)</p></li>
+      <li><p><em><em>Unfortunately</em>, she couldn't attend.</em> (modifies entire sentence)</p></li>
+    </ul>
+
+    <p>In all four cases, the bolded word is an adverb—but each is doing different work.</p>
+
+    <paragraphs>
+      <title>Morphological Tests for Adverbs</title>
+    </paragraphs>
+
+    <p>*<em>Test 1: The </em>-ly<em> suffix</em>*</p>
+
+    <p>Many adverbs are formed by adding <em>-ly</em> to adjectives:</p>
+
+    <ul>
+      <li><p><em>quick</em> → <em>quickly</em></p></li>
+      <li><p><em>happy</em> → <em>happily</em></p></li>
+      <li><p><em>careful</em> → <em>carefully</em></p></li>
+    </ul>
+
+    <p>This is a reliable pattern: if you see <em>-ly</em> on what looks like an adjective, you probably have an adverb. But be careful—some <em>-ly</em> words are adjectives (<em>friendly</em>, <em>lovely</em>, <em>costly</em>), and many common adverbs don't end in <em>-ly</em> at all (<em>fast</em>, <em>well</em>, <em>always</em>, <em>never</em>, <em>here</em>, <em>there</em>).</p>
+
+    <p><em>Test 2: Comparative/superlative forms</em></p>
+
+    <p>Some adverbs can be graded, just like adjectives:</p>
+
+    <ul>
+      <li><p><em>fast</em> → <em>faster</em> → <em>fastest</em></p></li>
+      <li><p><em>soon</em> → <em>sooner</em> → <em>soonest</em></p></li>
+      <li><p><em>quickly</em> → <em>more quickly</em> → <em>most quickly</em></p></li>
+    </ul>
+
+    <p>But many common adverbs cannot: <em>~~very-er~~</em>, <em>~~always-est~~</em>, <em>~~therefore-er~~</em>. For these, we must rely on syntactic tests.</p>
+
+    <paragraphs>
+      <title>Syntactic Tests for Adverbs</title>
+    </paragraphs>
+
+    <p><em>Test 1: Modifying verbs</em></p>
+
+    <p>This is the classic adverb function. Adverbs appear near verbs and describe how, when, where, or how often the action occurs:</p>
+
+    <ul>
+      <li><p><em>She spoke <em>quietly</em>.</em> (how)</p></li>
+      <li><p><em>He <em>always</em> arrives late.</em> (frequency)</p></li>
+      <li><p><em>They <em>suddenly</em> disappeared.</em> (manner/time)</p></li>
+    </ul>
+
+    <p><em>Test 2: Modifying adjectives</em></p>
+
+    <p>Adverbs, especially degree adverbs, can intensify or qualify adjectives:</p>
+
+    <ul>
+      <li><p><em>a <em>very</em> tall building</em></p></li>
+      <li><p><em>an <em>extremely</em> difficult problem</em></p></li>
+      <li><p><em><em>surprisingly</em> easy</em></p></li>
+    </ul>
+
+    <p>This is how <em>very</em>, <em>quite</em>, <em>extremely</em>, and <em>rather</em> typically function.</p>
+
+    <p><em>Test 3: Modifying other adverbs</em></p>
+
+    <p>Adverbs can stack, with one adverb modifying another:</p>
+
+    <ul>
+      <li><p><em>She spoke <em>very</em> quietly.</em></p></li>
+      <li><p><em>He runs <em>quite</em> fast.</em></p></li>
+      <li><p><em>It happened <em>rather</em> suddenly.</em></p></li>
+    </ul>
+
+    <p><em>Test 4: Modifying sentences</em></p>
+
+    <p>Some adverbs can modify an entire sentence, typically appearing at the beginning and expressing the speaker's attitude:</p>
+
+    <ul>
+      <li><p><em><em>Unfortunately</em>, I can't attend.</em></p></li>
+      <li><p><em><em>Clearly</em>, we have a problem.</em></p></li>
+      <li><p><em><em>Apparently</em>, they've left.</em></p></li>
+    </ul>
+
+    <p>These are called <em>sentence adverbs</em> or <em>commenting adverbs</em>.</p>
+
+    <p><em>Test 5: The attributive position test (negative)</em></p>
+
+    <p>Here's a crucial way to distinguish adverbs from adjectives: adverbs <em>cannot</em> appear in attributive position (between a determiner and a noun):</p>
+
+    <ul>
+      <li><p><em>the tall man</em> ✓ (<em>tall</em> is an adjective)</p></li>
+      <li><p><em>~~the quickly man~~</em> ✗ (<em>quickly</em> is an adverb)</p></li>
+      <li><p><em>~~the often problem~~</em> ✗ (<em>often</em> is an adverb)</p></li>
+    </ul>
+
+    <p>If a word <em>can</em> appear in &quot;the ___ noun&quot; position, it's an adjective. If it <em>cannot</em>, it might be an adverb.</p>
+
+    <paragraphs>
+      <title>Semantic Categories of Adverbs</title>
+    </paragraphs>
+
+    <p>Adverbs are often classified by what question they answer:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Type</cell>
+        <cell>Examples</cell>
+        <cell>Question Answered</cell>
+      </row>
+      <row>
+        <cell><em>Manner</em></cell>
+        <cell><em>quickly</em>, <em>carefully</em>, <em>well</em></cell>
+        <cell>How?</cell>
+      </row>
+      <row>
+        <cell><em>Time</em></cell>
+        <cell><em>yesterday</em>, <em>soon</em>, <em>already</em></cell>
+        <cell>When?</cell>
+      </row>
+      <row>
+        <cell><em>Place</em></cell>
+        <cell><em>here</em>, <em>there</em>, <em>everywhere</em></cell>
+        <cell>Where?</cell>
+      </row>
+      <row>
+        <cell><em>Frequency</em></cell>
+        <cell><em>often</em>, <em>rarely</em>, <em>sometimes</em>, <em>always</em></cell>
+        <cell>How often?</cell>
+      </row>
+      <row>
+        <cell><em>Degree</em></cell>
+        <cell><em>very</em>, <em>extremely</em>, <em>somewhat</em></cell>
+        <cell>To what extent?</cell>
+      </row>
+      <row>
+        <cell><em>Sentence/Comment</em></cell>
+        <cell><em>unfortunately</em>, <em>clearly</em>, <em>obviously</em></cell>
+        <cell>Speaker's attitude?</cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Adverb Phrases: Structure and Headship</title>
+    </paragraphs>
+
+    <p>Adverbs form phrases, though adverb phrases tend to be simpler than noun or verb phrases. An <em>adverb phrase (AdvP)</em> has an adverb as its head, often with another adverb modifying it:</p>
+
+    <p>```</p>
+
+    <p>AdvP                   AdvP</p>
+
+    <p>│              ┌───────┴───────┐</p>
+
+    <p>Adv            Adv             Adv</p>
+
+    <p>│              │               │</p>
+
+    <p>quickly         very          quickly</p>
+
+    <p>```</p>
+
+    <p>Adverb phrases can grow by stacking degree modifiers:</p>
+
+    <ul>
+      <li><p><em>quickly</em></p></li>
+      <li><p><em>very quickly</em></p></li>
+      <li><p><em>rather too quickly</em></p></li>
+    </ul>
+
+    <p><em>Where adverb phrases function:</em></p>
+
+    <ul>
+      <li><p>Modifying verbs: <em>She spoke [very quietly].</em></p></li>
+      <li><p>Modifying adjectives: <em>She is [extremely] talented.</em></p></li>
+      <li><p>Modifying adverbs: <em>She works [very] hard.</em></p></li>
+      <li><p>Modifying sentences: <em>[Unfortunately], she left.</em></p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-05-open-classes-sec-57">
+    <title>Summary: Identifying Open-Class Words</title>
+
+    <p>This chapter has covered a lot of ground. Here's a quick reference to help you identify word classes and apply the dual-identification principle.</p>
+
+    <paragraphs>
+      <title>The Dual-Identification Principle</title>
+    </paragraphs>
+
+    <p>Always ask both questions:</p>
+
+    <ol>
+      <li><p><em>What IS this word?</em> (form—its part of speech)</p></li>
+      <li><p><em>What is this word DOING?</em> (function—its role in this sentence)</p></li>
+    </ol>
+
+    <paragraphs>
+      <title>Quick Reference Tests</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Part of Speech</cell>
+        <cell>Key Morphological Tests</cell>
+        <cell>Key Syntactic Tests</cell>
+      </row>
+      <row>
+        <cell><em>Noun</em></cell>
+        <cell>Plural (<em>-s</em>), possessive (<em>'s</em>), noun suffixes (<em>-tion</em>, <em>-ness</em>)</cell>
+        <cell>Follows <em>the/a</em>, takes adjective modifier, can be replaced by pronoun</cell>
+      </row>
+      <row>
+        <cell><em>Verb</em></cell>
+        <cell>Past tense (<em>-ed</em>), 3rd singular (<em>-s</em>), <em>-ing</em> form</cell>
+        <cell>Follows <em>can/will/might</em>, follows <em>to</em>, can be negated</cell>
+      </row>
+      <row>
+        <cell><em>Adjective</em></cell>
+        <cell>Comparative/superlative (<em>-er/-est</em>), <em>-ish</em>, forms adverb with <em>-ly</em></cell>
+        <cell>Between <em>the</em> and noun, after <em>be/seem</em>, modified by <em>very</em></cell>
+      </row>
+      <row>
+        <cell><em>Adverb</em></cell>
+        <cell>Often <em>-ly</em>, some comparatives</cell>
+        <cell>Modifies verbs/adjectives/adverbs/sentences, cannot go between <em>the</em> and noun</cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Phrase Types</title>
+    </paragraphs>
+
+    <p>Each word class has an associated phrase type with the word as its <em>head</em>:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Phrase</cell>
+        <cell>Head</cell>
+        <cell>Example</cell>
+      </row>
+      <row>
+        <cell>Noun phrase (NP)</cell>
+        <cell>Noun</cell>
+        <cell><em>the tall student from Ohio</em></cell>
+      </row>
+      <row>
+        <cell>Verb phrase (VP)</cell>
+        <cell>Verb</cell>
+        <cell><em>read the book carefully</em></cell>
+      </row>
+      <row>
+        <cell>Adjective phrase (AdjP)</cell>
+        <cell>Adjective</cell>
+        <cell><em>very proud of her work</em></cell>
+      </row>
+      <row>
+        <cell>Adverb phrase (AdvP)</cell>
+        <cell>Adverb</cell>
+        <cell><em>very quickly</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Analysis Process</title>
+    </paragraphs>
+
+    <ol>
+      <li><p><em>Identify form</em>: What part of speech is this word typically? Apply morphological and syntactic tests.</p></li>
+      <li><p><em>Identify function</em>: What role is it playing in this sentence? Is it modifying something? Acting as subject or object?</p></li>
+      <li><p><em>Note mismatches</em>: If form and function differ, identify both. (<em>The poor</em> = adjective form, nominal function)</p></li>
+    </ol>
+
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Adjective</title>
+      <p>An open-class word that typically modifies nouns and can be graded (comparative/superlative).</p>
+    </gi>
+    <gi>
+      <title>Adjective phrase (AdjP)</title>
+      <p>A phrase built around an adjective head, often with degree modifiers.</p>
+    </gi>
+    <gi>
+      <title>Adverb</title>
+      <p>An open-class word that modifies verbs, adjectives, other adverbs, or sentences.</p>
+    </gi>
+    <gi>
+      <title>Adverb phrase (AdvP)</title>
+      <p>A phrase built around an adverb head.</p>
+    </gi>
+    <gi>
+      <title>Attributive position</title>
+      <p>The position directly before a noun, where adjectives typically appear (<em>the tall man</em>).</p>
+    </gi>
+    <gi>
+      <title>Dual-identification principle</title>
+      <p>The practice of identifying both a word's form (part of speech) and its function (role in the sentence) when analyzing grammar.</p>
+    </gi>
+    <gi>
+      <title>Form</title>
+      <p>A word's inherent grammatical category based on its morphology and typical behavior.</p>
+    </gi>
+    <gi>
+      <title>Function</title>
+      <p>The grammatical role a word or phrase plays in a particular sentence.</p>
+    </gi>
+    <gi>
+      <title>Head</title>
+      <p>The central, obligatory element of a phrase that determines its category.</p>
+    </gi>
+    <gi>
+      <title>Modifier</title>
+      <p>An optional element that adds information about the head.</p>
+    </gi>
+    <gi>
+      <title>Morphological test</title>
+      <p>A test based on the forms a word can take (plural, tense, etc.).</p>
+    </gi>
+    <gi>
+      <title>Noun</title>
+      <p>An open-class word that can be pluralized, possess, and follow determiners.</p>
+    </gi>
+    <gi>
+      <title>Noun phrase (NP)</title>
+      <p>A phrase built around a noun head, with optional determiners and modifiers.</p>
+    </gi>
+    <gi>
+      <title>Open class</title>
+      <p>A word category that freely accepts new members (nouns, verbs, adjectives, adverbs).</p>
+    </gi>
+    <gi>
+      <title>Predicative position</title>
+      <p>The position after a linking verb, where adjectives describe the subject (<em>The man is tall</em>).</p>
+    </gi>
+    <gi>
+      <title>Syntactic test</title>
+      <p>A test based on how a word behaves in sentences.</p>
+    </gi>
+    <gi>
+      <title>Verb</title>
+      <p>An open-class word that can be inflected for tense and determines the structure of the sentence.</p>
+    </gi>
+    <gi>
+      <title>Verb phrase (VP)</title>
+      <p>A phrase built around a verb head, containing the verb and any required complements.</p>
+    </gi>
+  </glossary>
+
+</chapter>

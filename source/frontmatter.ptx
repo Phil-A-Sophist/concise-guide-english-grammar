@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+  <titlepage>
+    <author>
+      <personname>Phillip Haisley</personname>
+    </author>
+  </titlepage>
+
+  <colophon xml:id="front-colophon">
+    <edition>First Edition, 2025</edition>
+
+    <website>
+      <url href="https://phil-a-sophist.github.io/concise-guide-english-grammar/">Online Version</url>
+    </website>
+
+    <copyright>
+      <year>2025</year>
+      <holder>Phillip Haisley</holder>
+      <shortlicense>
+        <p>
+          <alert>Open Educational Resource (OER)</alert>
+        </p>
+        <p>
+          This work is licensed under a <url href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC BY 4.0)</url>.
+        </p>
+        <p>
+          You are free to share, copy, redistribute, adapt, remix, transform, and build upon this material for any purpose, even commercially, as long as you give appropriate credit.
+        </p>
+        <p>
+          This textbook is provided free of charge as an Open Educational Resource. If you find errors or have suggestions for improvement, please contact the author.
+        </p>
+      </shortlicense>
+    </copyright>
+  </colophon>
+</frontmatter>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-01-introduction-to-linguistics-and-grammar" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Linguistics and Grammar</title>
+
+  <objectives>
+    <title>Learning Objectives</title>
+    <ul>
+      <li><p>Define linguistics and explain its scientific approach to language study</p></li>
+      <li><p>Identify and describe the six major levels of linguistic analysis</p></li>
+      <li><p>Explain the concept of language productivity and its implications</p></li>
+      <li><p>Articulate the benefits of studying grammar from a scientific perspective</p></li>
+      <li><p>Distinguish between the goals of linguistics and traditional grammar instruction</p></li>
+      <li><p>--</p></li>
+    </ul>
+  </objectives>
+
+  <section xml:id="ch-01-introduction-to-linguistics-and-grammar-sec-11">
+    <title>What is Linguistics?</title>
+
+    <p>Linguistics is the scientific study of language. This definition, while brief, contains a crucial distinction that separates modern linguistics from traditional grammar instruction. When we say linguistics is <em>scientific</em>, we mean that linguists study language using empirical methods—observing how people actually use language, forming hypotheses based on those observations, and testing those hypotheses against further evidence.</p>
+
+    <p>This approach differs fundamentally from how most of us learned grammar in school. Traditional grammar instruction typically focuses on prescribing rules—telling students what they <em>should</em> say or write according to established conventions. Linguistics, by contrast, takes a descriptive approach: it seeks to understand and explain how language actually works in the minds of speakers and in real-world communication.</p>
+
+    <p>Consider an analogy to biology. A biologist studying animal behavior doesn't tell birds how they <em>should</em> build nests or criticize them for doing it &quot;wrong.&quot; Instead, the biologist observes, documents, and tries to understand the patterns and principles underlying the behavior. Linguists approach language in the same way. When a linguist studies a sentence like &quot;Me and him went to the store,&quot; they don't dismiss it as incorrect. Instead, they investigate why speakers produce such sentences, what rules govern them, and what they reveal about how our minds process language.</p>
+
+    <paragraphs>
+      <title>A Brief History</title>
+    </paragraphs>
+
+    <p>Linguistics as a formal academic discipline is relatively young. While philosophers and scholars have pondered questions about language for millennia—from Plato's <em>Cratylus</em> dialogue on whether words are naturally connected to their meanings, to the medieval grammarians who catalogued Latin's structures—the scientific study of language only emerged in the early twentieth century.</p>
+
+    <p>The field began with <em>historical linguistics</em>, the study of how languages change over time. Scholars noticed striking similarities between languages as diverse as Sanskrit, Greek, Latin, and Germanic languages, and hypothesized that they descended from a common ancestor (now called Proto-Indo-European). This discovery—that languages are related in family trees and evolve according to regular patterns—established that language could be studied systematically and scientifically.</p>
+
+    <p><em>Structural linguistics</em> emerged in the early 1900s with Ferdinand de Saussure, who emphasized studying language as a synchronic system (how it works at a given point in time) rather than just its historical development. In his foundational <em>Course in General Linguistics</em> (Saussure, 1916/1959), Saussure introduced the crucial distinction between <em>langue</em> (the abstract system of a language) and <em>parole</em> (individual speech acts), focusing linguistic attention on the underlying system that makes communication possible.</p>
+
+    <p>The field gained particular momentum in the 1950s with the work of <em>Noam Chomsky</em>, whose theories about generative grammar revolutionized our understanding of language as a cognitive system. In <em>Syntactic Structures</em> (Chomsky, 1957), Chomsky argued that humans possess an innate capacity for language—what he called <em>Universal Grammar</em>—that constrains the possible structures of human languages. This shifted the focus from cataloguing languages to understanding the mental machinery that makes language acquisition possible.</p>
+
+    <p>Today, linguistics has splintered into numerous subfields and has applications across many domains: artificial intelligence and natural language processing, teaching English to speakers of other languages (TESOL), speech pathology, cognitive science, anthropology, forensic linguistics, and many others. Wherever language plays a role—which is to say, nearly everywhere in human life—linguistic knowledge proves valuable.</p>
+
+    <paragraphs>
+      <title>What Linguistics Is Not</title>
+    </paragraphs>
+
+    <p>To understand what linguistics is, it helps to clarify what it isn't:</p>
+
+    <p><em>Linguistics is not about learning foreign languages.</em> Linguists study <em>how</em> languages work, not necessarily <em>how to speak</em> many languages. A linguist might specialize in the syntax of a language they don't speak fluently, analyzing its patterns from texts and informant interviews. That said, many linguists do speak multiple languages, and the study of linguistics often makes learning new languages easier by revealing underlying patterns.</p>
+
+    <p><em>Linguistics is not about &quot;correct&quot; grammar.</em> Linguists don't sit in judgment of how people speak. They're interested in all varieties of language—from formal academic prose to casual text messages, from prestige dialects to stigmatized ones. Every variety has its own systematic grammar worth studying.</p>
+
+    <p><em>Linguistics is not just about English.</em> While this textbook focuses on English grammar, the field of linguistics encompasses all human languages—from Mandarin (with over a billion speakers) to endangered languages with only a handful of speakers left. Cross-linguistic comparison reveals both the diversity of human languages and their surprising commonalities.</p>
+
+    <paragraphs>
+      <title>Ethics in Linguistic Research</title>
+    </paragraphs>
+
+    <p>One important ethical consideration in linguistics involves research methods. Like other social sciences, linguistics has sometimes caused harm to minoritized communities through research practices that exploited speakers or misrepresented their language varieties. Early fieldworkers sometimes extracted linguistic data from indigenous communities without proper consent, published materials that speakers considered sacred or private, or used their findings to reinforce stereotypes about &quot;primitive&quot; languages (a concept modern linguistics firmly rejects).</p>
+
+    <p>Contemporary linguists work to conduct research that respects and benefits the communities they study, often involving community members as collaborators rather than mere subjects. <em>Community-based linguistics</em> and <em>documentary linguistics</em> emphasize preserving endangered languages in ways that serve speakers' own goals—not just building academic careers or archives. If you pursue linguistics further, you'll encounter these ethical frameworks and the ongoing conversations about how to conduct responsible research.</p>
+
+  </section>
+
+  <section xml:id="ch-01-introduction-to-linguistics-and-grammar-sec-12">
+    <title>Levels of Linguistic Analysis</title>
+
+    <p>Language is a complex system, and linguists have found it useful to analyze it at several distinct levels. Each level focuses on different aspects of language structure and use. Think of these levels as different lenses through which we can examine the same phenomenon—each revealing patterns invisible from other perspectives.</p>
+
+    <paragraphs>
+      <title>Phonetics: The Physical Sounds</title>
+    </paragraphs>
+
+    <p><em>Phonetics</em> is the study of speech sounds themselves—how they are produced by the vocal tract, their acoustic properties, and how listeners perceive them. Phoneticians investigate questions like how the tongue and lips move to produce different consonants, or why certain sounds are more common across the world's languages than others.</p>
+
+    <p>When you produce a simple word like &quot;cat,&quot; your body performs an remarkable series of coordinated movements: your vocal folds vibrate at a specific frequency, your tongue rises to touch your palate for the [k], drops for the vowel [æ], then rises again to stop airflow for the final [t]. All of this happens in a fraction of a second, without conscious thought. Phoneticians use specialized equipment and notation systems (like the International Phonetic Alphabet) to capture and analyze these details.</p>
+
+    <p>Phonetics has three main branches:</p>
+
+    <ul>
+      <li><p><em>Articulatory phonetics</em> studies how sounds are produced</p></li>
+      <li><p><em>Acoustic phonetics</em> studies the physical properties of sound waves</p></li>
+      <li><p><em>Auditory phonetics</em> studies how sounds are perceived</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Phonology: Sound Patterns</title>
+    </paragraphs>
+
+    <p><em>Phonology</em> examines the sound systems of particular languages—how sounds are organized into patterns and how they relate to meaning. While phonetics deals with the physical properties of sounds, phonology deals with the abstract categories that speakers carry in their minds.</p>
+
+    <p>For example, English speakers hear &quot;p&quot; in &quot;pin&quot; and &quot;p&quot; in &quot;spin&quot; as the same sound, even though they are phonetically different (the first has a puff of air called aspiration, the second doesn't). Try holding your hand in front of your mouth while saying both words—you'll feel a burst of air with &quot;pin&quot; but not with &quot;spin.&quot; Phonology explains why speakers perceive them as equivalent: in English, aspiration isn't <em>contrastive</em> (it doesn't change meaning), so speakers learn to ignore it. In some languages, like Thai, aspiration <em>does</em> distinguish words, so speakers must attend to it.</p>
+
+    <p>Phonology also explains patterns like why English has &quot;play&quot; and &quot;pray&quot; but not &quot;pway&quot; or &quot;pwink&quot;—our phonological rules restrict certain sound combinations. These constraints are arbitrary (other languages allow [pw]) but systematic within English.</p>
+
+    <paragraphs>
+      <title>Morphology: Word Structure</title>
+    </paragraphs>
+
+    <p><em>Morphology</em> is the study of word structure and word formation. Morphologists analyze how words are built from smaller meaningful units called <em>morphemes</em>. The word &quot;unhappiness,&quot; for instance, contains three morphemes: <em>un-</em> (meaning &quot;not&quot;), <em>happy</em> (the core meaning), and <em>-ness</em> (which converts an adjective to a noun). Understanding morphology helps explain how speakers can create and understand words they've never encountered before.</p>
+
+    <p>Consider how much information a single word can pack. The word &quot;antidisestablishmentarianism&quot; contains:</p>
+
+    <ul>
+      <li><p><em>anti-</em> (against)</p></li>
+      <li><p><em>dis-</em> (reverse of)</p></li>
+      <li><p><em>establish</em> (set up)</p></li>
+      <li><p><em>-ment</em> (act of)</p></li>
+      <li><p><em>-arian</em> (person who believes in)</p></li>
+      <li><p><em>-ism</em> (doctrine)</p></li>
+    </ul>
+
+    <p>English speakers who've never seen this word can puzzle out its meaning from its parts. This demonstrates that words aren't arbitrary sound sequences—they have internal structure we can analyze.</p>
+
+    <paragraphs>
+      <title>Syntax: Sentence Structure</title>
+    </paragraphs>
+
+    <p><em>Syntax</em> is the study of sentence structure—how words combine into phrases and phrases combine into sentences. Syntax explains why &quot;The cat chased the mouse&quot; means something different from &quot;The mouse chased the cat,&quot; even though both sentences contain exactly the same words. It also explains why &quot;Chased mouse the the cat&quot; is not a possible English sentence. Syntax is the primary focus of grammar study and the heart of this textbook.</p>
+
+    <p>Syntactic knowledge is surprisingly sophisticated. Consider the sentence &quot;The horse raced past the barn fell.&quot; Most readers stumble on this—it seems ungrammatical. But if you parse it as &quot;The horse [that was] raced past the barn fell,&quot; it makes perfect sense: a horse that was raced past the barn subsequently fell. Your brain's syntactic parser made an initial decision (treating &quot;raced&quot; as the main verb) that turned out to be wrong, creating what linguists call a &quot;garden path sentence.&quot;</p>
+
+    <p>Such examples reveal that understanding sentences isn't just about knowing words—it requires implicit knowledge of syntactic structures that guide interpretation.</p>
+
+    <paragraphs>
+      <title>Semantics: Meaning</title>
+    </paragraphs>
+
+    <p><em>Semantics</em> is the study of meaning. Semanticists investigate how words and sentences convey meaning, how meanings combine, and how context affects interpretation. They analyze phenomena like:</p>
+
+    <ul>
+      <li><p><em>Synonymy</em>: why &quot;couch&quot; and &quot;sofa&quot; mean roughly the same thing</p></li>
+      <li><p><em>Ambiguity</em>: why &quot;I saw the man with binoculars&quot; has two meanings (did you use binoculars to see him, or did he have binoculars?)</p></li>
+      <li><p><em>Entailment</em>: why &quot;The cat killed the mouse&quot; implies &quot;The mouse died&quot;</p></li>
+      <li><p><em>Presupposition</em>: why &quot;Have you stopped cheating on tests?&quot; presumes you were cheating</p></li>
+    </ul>
+
+    <p>One fascinating semantic puzzle involves <em>compositionality</em>—the principle that the meaning of a sentence derives from the meanings of its parts and how they're combined. This principle explains our productivity: we understand novel sentences by computing their meaning from familiar elements. But compositionality has limits. Idioms like &quot;kick the bucket&quot; (meaning &quot;die&quot;) can't be computed from their parts—you have to learn them as units.</p>
+
+    <paragraphs>
+      <title>Pragmatics: Meaning in Context</title>
+    </paragraphs>
+
+    <p><em>Pragmatics</em> examines meaning in context—how speakers use language to accomplish things in the world and how listeners interpret speakers' intentions. Pragmatics explains why &quot;Can you pass the salt?&quot; is normally understood as a request rather than a question about ability, or why &quot;Nice weather we're having&quot; on a rainy day is understood as sarcasm.</p>
+
+    <p>Much of what we communicate goes beyond the literal meaning of our words. Consider this exchange:</p>
+
+    <blockquote>
+      <p>A: &quot;Are you coming to the party tonight?&quot;</p>
+      <p>B: &quot;I have to work early tomorrow.&quot;</p>
+    </blockquote>
+
+    <p>B never actually said &quot;no,&quot; yet A understands the decline. This inference relies on pragmatic principles—specifically, the assumption that speakers are being cooperative and relevant. If B's work schedule weren't relevant to the question, why mention it?</p>
+
+    <p>Pragmatics also covers <em>speech acts</em>—how we do things with words. Saying &quot;I promise to pay you back&quot; doesn't just describe a promise; it <em>makes</em> one. Saying &quot;I now pronounce you married&quot; (in the right context, by the right person) changes your legal status. Language isn't just about conveying information—it's about taking action in the social world.</p>
+
+    <paragraphs>
+      <title>How the Levels Connect</title>
+    </paragraphs>
+
+    <p>These levels are not isolated from each other; they interact in complex ways. A complete understanding of language requires attention to all of them.</p>
+
+    <p>For example, intonation (phonetics/phonology) affects meaning (semantics): &quot;You're going to the store&quot; said with rising intonation becomes a question. Morphological structure affects syntactic behavior: &quot;unfriendly&quot; acts as an adjective because of its suffix, while &quot;friend&quot; acts as a noun. Pragmatic context affects semantic interpretation: &quot;It's cold in here&quot; might be a statement, a request to close a window, or a complaint, depending on the situation.</p>
+
+    <p>In this textbook, we focus primarily on morphology and syntax—the structure of words and sentences—but you'll see connections to other levels throughout.</p>
+
+  </section>
+
+  <section xml:id="ch-01-introduction-to-linguistics-and-grammar-sec-13">
+    <title>Language Productivity</title>
+
+    <p>One of the most remarkable properties of human language is its <em>productivity</em> (also called <em>creativity</em> or <em>generativity</em>). This refers to our ability to produce and understand sentences we have never encountered before. Right now, you are reading sentences that have almost certainly never been written or spoken before in the history of the world, yet you understand them perfectly well. You could respond with equally novel sentences, and this exchange could continue indefinitely.</p>
+
+    <paragraphs>
+      <title>The Infinity of Language</title>
+    </paragraphs>
+
+    <p>This creativity isn't random—it's systematic. We don't produce just any combination of sounds or words; we follow patterns and rules (descriptive rules, that is) that allow us to combine existing elements in novel ways. Language is sometimes described as &quot;infinite use of finite means&quot;: from a limited set of sounds, words, and rules, we can generate an unlimited number of sentences.</p>
+
+    <p>Sentences can theoretically be infinitely long and still be grammatical. Consider: &quot;This is the cat that chased the mouse that ate the cheese that came from the cow that lived on the farm that Jack built.&quot; We could keep adding clauses forever. In practice, our memory limits how complex sentences can get, but the grammar itself sets no limit.</p>
+
+    <p>This infinite capacity rests partly on <em>recursion</em>—the ability to embed structures within structures of the same type. A noun phrase can contain a clause that contains a noun phrase that contains a clause, and so on without end:</p>
+
+    <ul>
+      <li><p><em>the book</em> (simple NP)</p></li>
+      <li><p><em>the book that she wrote</em> (NP containing a clause)</p></li>
+      <li><p><em>the book that she wrote about the theory</em> (more embedded structure)</p></li>
+      <li><p><em>the book that she wrote about the theory that changed the field that her mentor founded</em> (recursion continues)</p></li>
+    </ul>
+
+    <p>No finite list of sentences could capture English; we need rules that generate infinite possibilities.</p>
+
+    <paragraphs>
+      <title>Creative Word Formation</title>
+    </paragraphs>
+
+    <p>Language productivity extends to word formation as well. English speakers regularly create new words and understand them immediately. Verbs can be coined from nouns (as when &quot;Google&quot; became &quot;to google&quot;), compounds can be invented on the fly (&quot;pandemic puppy,&quot; &quot;Zoom fatigue,&quot; &quot;doomscrolling&quot;), and affixes can be applied productively to new bases.</p>
+
+    <p>Consider how naturally English speakers understand new words:</p>
+
+    <ul>
+      <li><p>If someone can be &quot;un-friend-ed&quot; on social media, they can also be &quot;un-follow-ed&quot;</p></li>
+      <li><p>If there's &quot;mansplaining,&quot; there can be &quot;whitesplaining&quot; or &quot;techsplaining&quot;</p></li>
+      <li><p>If something is &quot;Instagram-worthy,&quot; something else might be &quot;TikTok-worthy&quot;</p></li>
+    </ul>
+
+    <p>These words didn't exist twenty years ago. Some didn't exist five years ago. Yet English speakers immediately grasp their meaning and their grammatical behavior (which part of speech they are, how to inflect them). This is productivity in action.</p>
+
+    <paragraphs>
+      <title>Evidence from Child Language</title>
+    </paragraphs>
+
+    <p>Children provide compelling evidence of language productivity. When young children say &quot;goed&quot; instead of &quot;went&quot; or &quot;foots&quot; instead of &quot;feet,&quot; they aren't making random errors—they're demonstrating that they've extracted the regular patterns of English and can apply them systematically, even to words that happen to be irregular.</p>
+
+    <p>These so-called &quot;errors&quot; actually reveal sophisticated rule-learning. A child who says &quot;I runned to the store&quot; has internalized the rule for forming English past tense (<em>add -ed</em>) and is applying it productively. The fact that <em>run</em> is irregular (requiring <em>ran</em>) is something that must be learned as an exception. Children typically go through three stages: first using the correct irregular form (having heard it), then over-applying the regular rule, and finally mastering the exception. This U-shaped development curve demonstrates that language acquisition isn't mere mimicry—children are pattern-learning machines who extract rules and apply them creatively.</p>
+
+    <paragraphs>
+      <title>Language Change as Productivity</title>
+    </paragraphs>
+
+    <p>Language productivity also means that languages constantly change and evolve. New words enter the language (think of &quot;selfie,&quot; &quot;cryptocurrency,&quot; &quot;doomscrolling,&quot; or &quot;gaslighting&quot; in its new sense), existing words acquire new meanings, and grammatical patterns shift over time. This change is natural and inevitable, a consequence of the creative, generative nature of human language.</p>
+
+    <p>Every generation innovates. Shakespeare invented (or first recorded) words like &quot;assassination,&quot; &quot;eyeball,&quot; and &quot;lonely.&quot; More recently, technology has given us &quot;email,&quot; &quot;blog,&quot; and &quot;tweet.&quot; Slang continually refreshes: what was &quot;groovy&quot; became &quot;cool&quot; became &quot;sick&quot; became &quot;fire.&quot; These aren't corruptions of language—they're signs of its vitality.</p>
+
+    <p>Change happens at all levels. Pronunciations shift (most Americans no longer distinguish &quot;cot&quot; from &quot;caught&quot;). Grammatical patterns evolve (singular &quot;they&quot; for indefinite reference, once stigmatized, is now widely accepted). Meanings drift (&quot;awful&quot; once meant &quot;awe-inspiring&quot;; &quot;nice&quot; once meant &quot;foolish&quot;). Fighting this change is fighting the nature of language itself.</p>
+
+  </section>
+
+  <section xml:id="ch-01-introduction-to-linguistics-and-grammar-sec-14">
+    <title>Why Study Grammar Scientifically?</title>
+
+    <p>If linguistics is descriptive rather than prescriptive, you might wonder why we need to study grammar at all. Won't knowing <em>about</em> grammar just make writing feel self-conscious and stilted? In fact, the opposite is true: understanding how language works gives you more control and flexibility as a writer and speaker.</p>
+
+    <paragraphs>
+      <title>Making Implicit Knowledge Explicit</title>
+    </paragraphs>
+
+    <p>First, studying grammar scientifically helps you understand what you already know. As a native speaker, you have already internalized thousands of complex grammatical rules—you just can't consciously articulate them. You know that &quot;the big red balloon&quot; sounds right while &quot;the red big balloon&quot; sounds wrong, but can you explain why? (It has to do with adjective ordering—we'll cover this in Chapter 9.) You know that &quot;Who did you see?&quot; is fine but &quot;*Who did you see him?&quot; isn't, but can you state the rule? (It involves a constraint on movement that leaves gaps.)</p>
+
+    <p>When you learn to describe these rules explicitly, you develop a <em>metalanguage</em> for talking about language. This metalanguage is invaluable when you need to analyze your own writing, explain a grammatical concept to someone else, or understand why a sentence isn't working. Instead of vaguely feeling that something is &quot;off,&quot; you can diagnose the specific structural problem.</p>
+
+    <paragraphs>
+      <title>Making Informed Choices</title>
+    </paragraphs>
+
+    <p>Second, a descriptive understanding of grammar helps you make informed choices. Prescriptive rules often represent one option among several possibilities, each appropriate in different contexts. When you understand the difference between prescriptive conventions and the actual patterns of English, you can choose the right register for your purpose.</p>
+
+    <p>Consider the &quot;rule&quot; against ending sentences with prepositions. A descriptive linguist knows that preposition stranding is a native feature of English, used by excellent writers for centuries. An informed writer can then choose: &quot;The person to whom I spoke&quot; (more formal) or &quot;The person I spoke to&quot; (more natural). Neither is wrong; they're different tools for different contexts.</p>
+
+    <p>This knowledge is empowering. You can write formally when formality is called for and informally when that's more effective—not because you don't know the rules, but because you understand when and why to follow them. You become a code-switcher by choice rather than by limitation.</p>
+
+    <paragraphs>
+      <title>Freedom from Grammatical Anxiety</title>
+    </paragraphs>
+
+    <p>Third, studying grammar empirically frees you from grammatical insecurity. Many people feel anxious about their grammar, worried they're constantly making mistakes. This anxiety is often based on half-remembered rules from school, many of which turn out to be arbitrary preferences rather than genuine requirements of English.</p>
+
+    <p>When you learn that many &quot;rules&quot; are actually just preferences of certain style guides, or that &quot;nonstandard&quot; constructions follow their own logical patterns, you gain confidence. You can evaluate prescriptive advice critically rather than accepting it uncritically or rejecting it wholesale. You can ask: &quot;What's the purpose of this rule? Does it promote clarity? Is it appropriate for my context and audience?&quot;</p>
+
+    <p>This critical stance doesn't mean abandoning standards—it means understanding them as tools rather than treating them as sacred laws.</p>
+
+    <paragraphs>
+      <title>Becoming a Better Writer and Reader</title>
+    </paragraphs>
+
+    <p>Finally, a scientific approach to grammar helps you become a better reader and writer. Understanding syntax helps you construct clear, well-organized sentences and diagnose problems in unclear ones. When a sentence seems awkward, you can identify whether it's a modifier placement issue, a coordination problem, or a garden-path structure that leads readers astray.</p>
+
+    <p>Understanding how <em>information flow</em> works—how sentences package given and new information—helps you write coherent paragraphs. Understanding how different structures create different effects helps you develop your own style. The passive voice, for instance, isn't &quot;wrong&quot;—it's a tool for shifting focus from agent to action or patient, useful in specific rhetorical situations.</p>
+
+    <paragraphs>
+      <title>Practical Applications</title>
+    </paragraphs>
+
+    <p>The study of grammar has practical applications across many fields:</p>
+
+    <ul>
+      <li><p><em>Writing and editing</em>: Diagnosing unclear sentences, maintaining consistency, understanding style guide recommendations</p></li>
+      <li><p><em>Language teaching</em>: Explaining English patterns to non-native learners who need explicit instruction</p></li>
+      <li><p><em>Speech-language pathology</em>: Identifying and treating language disorders requires understanding normal grammatical development</p></li>
+      <li><p><em>Natural language processing</em>: Building computer systems that understand or generate language requires formal grammatical models</p></li>
+      <li><p><em>Law</em>: Legal interpretation often hinges on grammatical analysis of contracts, statutes, and wills</p></li>
+      <li><p><em>Literary analysis</em>: Understanding how authors achieve effects through grammatical choices</p></li>
+    </ul>
+
+    <p>In the chapters that follow, we'll develop a systematic understanding of English grammar: how words are built, how they combine into phrases and sentences, and how writers deploy these resources for various purposes. Throughout, we'll maintain a descriptive stance—not telling you what you should do, but showing you what the options are and how they work. The goal is not to make you afraid of making mistakes, but to give you the knowledge and confidence to make choices.</p>
+
+  </section>
+
+  <section xml:id="ch-01-homework">
+    <title>Homework: Introduction to Linguistics</title>
+
+    <paragraphs>
+      <title>Part A: Concept Check</title>
+    </paragraphs>
+
+    <p><em>Question 1.</em> In your own words, explain what it means to say that linguistics is "descriptive" rather than "prescriptive." Why does this distinction matter? (1 paragraph)</p>
+
+    <p><em>Question 2.</em> The chapter argues that children who say "goed" instead of "went" are actually demonstrating sophisticated language learning. Explain why linguists see this as evidence of productivity rather than error. (1 paragraph)</p>
+
+    <p><em>Question 3.</em> Consider the following brief exchange:</p>
+
+    <blockquote>
+      <p><em>A:</em> "You going to the thing tonight?"</p>
+      <p><em>B:</em> "Bro, I'm exhausted."</p>
+      <p><em>A:</em> "Bet."</p>
+    </blockquote>
+
+    <p>For each level of linguistic analysis below, describe <em>one observation or question</em> a linguist might raise about this exchange:</p>
+
+    <ul>
+      <li><p><em>Phonetics/Phonology:</em> (What might a linguist notice or ask about the sounds?)</p></li>
+      <li><p><em>Morphology:</em> (What might a linguist notice or ask about word structure?)</p></li>
+      <li><p><em>Syntax:</em> (What might a linguist notice or ask about sentence structure?)</p></li>
+      <li><p><em>Semantics:</em> (What might a linguist notice or ask about meaning?)</p></li>
+      <li><p><em>Pragmatics:</em> (What might a linguist notice or ask about meaning in context?)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Part B: Personal Reflection</title>
+    </paragraphs>
+
+    <p><em>Question 4.</em> Before this class, what did "grammar" mean to you? Was it something you felt confident about, anxious about, or indifferent to? Where do you think those feelings came from (school experiences, family attitudes, specific feedback you received)? (1–2 paragraphs)</p>
+
+    <p><em>Question 5.</em> Think about how you learned language as a child—not from grammar lessons, but from the people around you. What varieties of English (or other languages) were you exposed to at home, in your neighborhood, or in your early schooling? Did you ever become aware that the way you spoke at home was different from what was expected elsewhere? Describe your early linguistic environment and any awareness you developed about language differences. (1–2 paragraphs)</p>
+
+  </section>
+
+  <glossary>
+    <title>Glossary</title>
+    <gi>
+      <title>Compositionality</title>
+      <p>The principle that the meaning of a complex expression is determined by the meanings of its parts and how they are combined.</p>
+    </gi>
+    <gi>
+      <title>Descriptive grammar</title>
+      <p>An approach to grammar that aims to describe how language is actually used by speakers, without making judgments about correctness or propriety.</p>
+    </gi>
+    <gi>
+      <title>Generativity</title>
+      <p>See <em>productivity</em>.</p>
+    </gi>
+    <gi>
+      <title>Generative grammar</title>
+      <p>A theory of grammar, developed by Noam Chomsky, that aims to specify the rules that generate all and only the grammatical sentences of a language.</p>
+    </gi>
+    <gi>
+      <title>Historical linguistics</title>
+      <p>The study of how languages change over time and the relationships between languages.</p>
+    </gi>
+    <gi>
+      <title>Linguistics</title>
+      <p>The scientific study of language, encompassing its structure, use, and acquisition.</p>
+    </gi>
+    <gi>
+      <title>Metalanguage</title>
+      <p>Language used to describe or analyze language itself; technical vocabulary for discussing grammatical concepts.</p>
+    </gi>
+    <gi>
+      <title>Morpheme</title>
+      <p>The smallest unit of language that carries meaning; the building blocks of words.</p>
+    </gi>
+    <gi>
+      <title>Morphology</title>
+      <p>The branch of linguistics that studies the structure and formation of words.</p>
+    </gi>
+    <gi>
+      <title>Phonetics</title>
+      <p>The branch of linguistics that studies the physical properties of speech sounds.</p>
+    </gi>
+    <gi>
+      <title>Phonology</title>
+      <p>The branch of linguistics that studies the sound systems and patterns of languages.</p>
+    </gi>
+    <gi>
+      <title>Pragmatics</title>
+      <p>The branch of linguistics that studies how context affects meaning and how speakers use language to accomplish social goals.</p>
+    </gi>
+    <gi>
+      <title>Prescriptive grammar</title>
+      <p>An approach to grammar that sets forth rules for how language <em>should</em> be used, often based on tradition, logic, or the preferences of prestigious groups.</p>
+    </gi>
+    <gi>
+      <title>Productivity</title>
+      <p>The property of language that allows speakers to produce and understand an unlimited number of novel sentences using a finite set of elements and rules.</p>
+    </gi>
+    <gi>
+      <title>Recursion</title>
+      <p>The property of language that allows structures to be embedded within structures of the same type, enabling infinite complexity.</p>
+    </gi>
+    <gi>
+      <title>Semantics</title>
+      <p>The branch of linguistics that studies meaning in language.</p>
+    </gi>
+    <gi>
+      <title>Speech act</title>
+      <p>An action performed through language, such as promising, requesting, or apologizing.</p>
+    </gi>
+    <gi>
+      <title>Structural linguistics</title>
+      <p>An approach to linguistics that focuses on the analysis of language as a system of interrelated elements.</p>
+    </gi>
+    <gi>
+      <title>Syntax</title>
+      <p>The branch of linguistics that studies sentence structure—how words combine into phrases and sentences.</p>
+    </gi>
+    <gi>
+      <title>Universal Grammar</title>
+      <p>In Chomsky's theory, the innate knowledge of language structure that humans are born with, which constrains the possible forms of human languages.</p>
+    </gi>
+  </glossary>
+
+</chapter>
