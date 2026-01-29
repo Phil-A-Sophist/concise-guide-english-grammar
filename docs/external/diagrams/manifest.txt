@@ -1,0 +1,67 @@
+# Diagram Manifest
+# Generated diagrams: 64
+
+ch04_morpheme_unhappiness: Morpheme tree for "unhappiness"
+ch04_morpheme_rewriters: Morpheme tree for "rewriters"
+ch06_basic_structure: Basic S -> NP + VP structure
+ch06_dog_barked: The dog barked
+ch06_artist_painted: The young artist from Paris painted beautiful landscapes
+ch06_ambig_binoculars_vp: I saw the man with binoculars (PP attaches to VP)
+ch06_ambig_binoculars_np: I saw the man with binoculars (PP attaches to NP)
+ch06_ambig_old_men_1: Old men and women gathered (only men are old)
+ch06_ambig_old_men_2: Old men and women gathered (both are old)
+ch06_intransitive: Thunder rumbled (intransitive pattern)
+ch06_transitive: The cat chased the mouse (transitive pattern)
+ch06_linking: She is happy (linking verb pattern)
+ch06_ditransitive: She gave me a book (ditransitive pattern)
+ch06_complex_trans_np: They elected her president (complex transitive with NP)
+ch06_complex_trans_adj: The jury found him guilty (complex transitive with AdjP)
+ch07_simple_vp: Simple VP (main verb only)
+ch07_vp_modal: VP with modal
+ch07_vp_perfect: VP with perfect aspect (has eaten)
+ch07_vp_progressive: VP with progressive aspect (is eating)
+ch07_vp_passive: VP with passive voice (was eaten)
+ch07_vp_modal_perfect: VP with modal and perfect (will have eaten)
+ch07_vp_perfect_progressive: VP with perfect and progressive (has been eating)
+ch07_vp_progressive_passive: VP with progressive and passive (is being renovated)
+ch07_vp_complex: VP with modal, perfect, and progressive (should have been studying)
+ch07_vp_full_complex: Full complex VP (will have been being eaten)
+ch08_simple_np: Simple NP (noun only)
+ch08_np_det: NP with determiner
+ch08_np_det_adj: NP with determiner and adjective
+ch08_np_multiple_adj: NP with multiple pre-modifiers
+ch08_np_with_pp: NP with post-modifier PP
+ch08_np_with_relcl: NP with relative clause
+ch08_complex_np: Complex NP with all elements
+ch08_np_students: The ambitious students from Pueblo
+ch09_simple_adjp: Simple AdjP (adjective only)
+ch09_adjp_degree: AdjP with degree modifier
+ch09_adjp_pp_complement: AdjP with PP complement (afraid of spiders)
+ch09_adjp_pp_proud: AdjP with PP complement (proud of her work)
+ch09_adjp_infinitive: AdjP with infinitive complement (eager to leave)
+ch09_adjp_complex: Complex AdjP (extremely difficult to understand)
+ch09_np_attributive: NP with attributive adjective
+ch09_np_multiple_adj: NP with multiple attributive adjectives
+ch09_predicative: Predicative AdjP after linking verb
+ch09_np_adjectivals: NP with adjectivals (the old house on the corner)
+ch10_simple_advp: Simple AdvP
+ch10_advp_degree: AdvP with degree modifier
+ch10_advp_quite: AdvP (quite fortunately)
+ch10_adv_modifying_verb: Adverb modifying verb
+ch10_adv_modifying_adj: Adverb modifying adjective
+ch10_adverbial_pp: Adverbial PP in VP
+ch10_sentence_adverb: Sentence adverb (initial position)
+ch10_adverbial_clause: Adverbial clause
+ch10_sentence_adverbials: Sentence with multiple adverbials
+ch11_simple_pp: Simple prepositional phrase
+ch11_adjectival_pp: Adjectival PP (the man in the hat)
+ch11_adverbial_pp: Adverbial PP (She waited in the lobby)
+ch11_np_with_det: NP with determiner and adjective
+ch11_possessive_np: Possessive NP as determiner
+ch11_pronouns: Pronouns in sentence (She read it)
+ch12_basic_intransitive: Basic intransitive (Cameras flashed)
+ch12_basic_transitive: Basic transitive (Weasels stalk rabbits)
+ch12_copular_be: Copular be (I am an optimist)
+ch12_ditransitive_io_do: Ditransitive (Marie sent Ramon a gift)
+ch16_vp_auxiliaries: VP with multiple auxiliaries (has been working)
+ch16_passive_by: Passive VP with by-phrase
