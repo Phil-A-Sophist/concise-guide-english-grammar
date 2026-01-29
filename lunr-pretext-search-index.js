@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.5",
   "title": "Homework: Introduction to Linguistics",
-  "body": " Homework: Introduction to Linguistics   Part A: Concept Check   Question 1. In your own words, explain what it means to say that linguistics is \"descriptive\" rather than \"prescriptive.\" Why does this distinction matter? (1 paragraph)  Question 2. The chapter argues that children who say \"goed\" instead of \"went\" are actually demonstrating sophisticated language learning. Explain why linguists see this as evidence of productivity rather than error. (1 paragraph)  Question 3. Consider the following brief exchange:   A : \"You going to the thing tonight?\"  B : \"Bro, I'm exhausted.\"  A : \"Bet.\"   For each level of linguistic analysis below, describe one observation or question a linguist might raise about this exchange:   Phonetics\/Phonology : (What might a linguist notice or ask about the sounds?)  Morphology : (What might a linguist notice or ask about word structure?)  Syntax : (What might a linguist notice or ask about sentence structure?)  Semantics : (What might a linguist notice or ask about meaning?)  Pragmatics : (What might a linguist notice or ask about meaning in context?)    Part B: Personal Reflection   Question 4. Before this class, what did \"grammar\" mean to you? Was it something you felt confident about, anxious about, or indifferent to? Where do you think those feelings came from (school experiences, family attitudes, specific feedback you received)? (1–2 paragraphs)  Question 5. Think about how you learned language as a child—not from grammar lessons, but from the people around you. What varieties of English (or other languages) were you exposed to at home, in your neighborhood, or in your early schooling? Did you ever become aware that the way you spoke at home was different from what was expected elsewhere? Describe your early linguistic environment and any awareness you developed about language differences. (1–2 paragraphs)  "
+  "body": " Homework: Introduction to Linguistics   Part A: Concept Check   Question 1. In your own words, explain what it means to say that linguistics is \"descriptive\" rather than \"prescriptive.\" Why does this distinction matter? (1 paragraph)  Question 2. The chapter argues that children who say \"goed\" instead of \"went\" are actually demonstrating sophisticated language learning. Explain why linguists see this as evidence of productivity rather than error. (1 paragraph)  Question 3. Consider the following brief exchange:   A: \"You going to the thing tonight?\"  B: \"Bro, I'm exhausted.\"  A: \"Bet.\"   For each level of linguistic analysis below, describe one observation or question a linguist might raise about this exchange:   Phonetics\/Phonology: (What might a linguist notice or ask about the sounds?)  Morphology: (What might a linguist notice or ask about word structure?)  Syntax: (What might a linguist notice or ask about sentence structure?)  Semantics: (What might a linguist notice or ask about meaning?)  Pragmatics: (What might a linguist notice or ask about meaning in context?)    Part B: Personal Reflection   Question 4. Before this class, what did \"grammar\" mean to you? Was it something you felt confident about, anxious about, or indifferent to? Where do you think those feelings came from (school experiences, family attitudes, specific feedback you received)? (1–2 paragraphs)  Question 5. Think about how you learned language as a child—not from grammar lessons, but from the people around you. What varieties of English (or other languages) were you exposed to at home, in your neighborhood, or in your early schooling? Did you ever become aware that the way you spoke at home was different from what was expected elsewhere? Describe your early linguistic environment and any awareness you developed about language differences. (1–2 paragraphs)  "
 },
 {
   "id": "ch-01-introduction-to-linguistics-and-grammar-8",
@@ -169,7 +169,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.5",
   "title": "Homework: Language Varieties",
-  "body": " Homework: Language Varieties   Part A: Mapping Your Linguistic World   Question 1.  Speech Communities : List at least three speech communities you belong to (these could be based on region, ethnicity, family, friend groups, etc.). For each, identify one distinctive feature of how language is used in that community (vocabulary, pronunciation, grammar, or attitudes about language).  Question 2.  Discourse Communities : List at least two discourse communities you currently belong to or are trying to enter (academic disciplines, professional fields, hobby groups, online communities). For each, identify:   What genres or types of texts does this community produce?  What specialized vocabulary or jargon does it use?  How did you learn (or how are you learning) to participate in this community's language practices?    Part B: Code-Switching in Your Life   Question 3. Describe a specific situation where you code-switch—where you consciously or unconsciously adjust your language depending on context. This could be switching between languages, dialects, or registers. Address:   What triggers the switch? (audience, setting, topic, purpose)  What specific features change? (vocabulary, pronunciation, grammar, tone)  How does it feel to make this switch? Is it effortless, strategic, uncomfortable?   Question 4. The chapter discusses linguistic discrimination —being judged negatively based on how you speak. Have you ever experienced this, witnessed it, or found yourself making such judgments about others? Reflect on this experience in light of what you've learned about dialect equality.   Part C: Looking Ahead   Question 5. Think about a career or professional field you're interested in. What language expectations do you anticipate in that field? What \"discourse community\" would you need to join? What aspects of professional communication in that field seem like genuine requirements for clarity and effectiveness, and what aspects might be arbitrary conventions or gatekeeping?  "
+  "body": " Homework: Language Varieties   Part A: Mapping Your Linguistic World   Question 1. Speech Communities : List at least three speech communities you belong to (these could be based on region, ethnicity, family, friend groups, etc.). For each, identify one distinctive feature of how language is used in that community (vocabulary, pronunciation, grammar, or attitudes about language).  Question 2. Discourse Communities : List at least two discourse communities you currently belong to or are trying to enter (academic disciplines, professional fields, hobby groups, online communities). For each, identify:   What genres or types of texts does this community produce?  What specialized vocabulary or jargon does it use?  How did you learn (or how are you learning) to participate in this community's language practices?    Part B: Code-Switching in Your Life   Question 3. Describe a specific situation where you code-switch—where you consciously or unconsciously adjust your language depending on context. This could be switching between languages, dialects, or registers. Address:   What triggers the switch? (audience, setting, topic, purpose)  What specific features change? (vocabulary, pronunciation, grammar, tone)  How does it feel to make this switch? Is it effortless, strategic, uncomfortable?   Question 4. The chapter discusses linguistic discrimination —being judged negatively based on how you speak. Have you ever experienced this, witnessed it, or found yourself making such judgments about others? Reflect on this experience in light of what you've learned about dialect equality.   Part C: Looking Ahead   Question 5. Think about a career or professional field you're interested in. What language expectations do you anticipate in that field? What \"discourse community\" would you need to join? What aspects of professional communication in that field seem like genuine requirements for clarity and effectiveness, and what aspects might be arbitrary conventions or gatekeeping?  "
 },
 {
   "id": "ch-03-language-varieties-8",
@@ -196,7 +196,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Common Morphemes by Word Class",
-  "body": " Common Morphemes by Word Class  English uses bound morphemes productively to create words belonging to different word classes. These affixes are productive —English speakers use them freely to create new words. You've probably encountered \"unfriend,\" \"unsubscribe,\" and \"retweet,\" none of which existed thirty years ago. The patterns are so reliable that you could invent a word right now and other English speakers would understand it immediately.  The following tables organize common English affixes by the word class they typically create.   Noun-Forming Morphemes   These affixes create nouns, often from verbs or adjectives:  | Affix | Base Type | Meaning | Examples |  |-------|-----------|---------|----------|  | -ness | adjective | state\/quality | happiness , darkness , kindness , sadness |  | -ity | adjective | state\/quality | generosity , electricity , possibility , curiosity |  | -ment | verb | result\/act | development , agreement , entertainment , movement |  | -tion\/-sion | verb | act\/result | selection , creation , discussion , decision |  | -er\/-or | verb | one who | teacher , writer , actor , editor |  | -ist | noun\/adj | one who practices | artist , scientist , guitarist , optimist |  | -ism | noun\/adj | belief\/practice | capitalism , heroism , criticism , optimism |  | -ance\/-ence | verb\/adj | state\/quality | assistance , confidence , independence , resistance |  | -dom | noun\/adj | state\/realm | kingdom , freedom , boredom , wisdom |  | -hood | noun | state\/group | childhood , neighborhood , brotherhood , likelihood |   Verb-Forming Morphemes   These affixes create verbs, often from nouns or adjectives:  | Affix | Base Type | Meaning | Examples |  |-------|-----------|---------|----------|  | -ize | noun\/adj | make\/become | modernize , hospitalize , legalize , prioritize |  | -ify | noun\/adj | make\/cause | beautify , clarify , simplify , terrify |  | -ate | noun\/adj | make\/provide | activate , motivate , hyphenate , vaccinate |  | -en | adjective | make\/become | brighten , darken , soften , strengthen |  | en- | noun\/adj | put into\/make | enable , encourage , endanger , enlarge |  | be- | noun\/adj | make\/cover | befriend , belittle , bewitch , bedeck |   Adjective-Forming Morphemes   These affixes create adjectives, often from nouns or verbs:  | Affix | Base Type | Meaning | Examples |  |-------|-----------|---------|----------|  | -ful | noun | full of | hopeful , beautiful , careful , powerful |  | -less | noun | without | hopeless , careless , helpless , harmless |  | -able\/-ible | verb | capable of | believable , readable , possible , flexible |  | -ous\/-ious | noun | having quality | famous , dangerous , curious , spacious |  | -al | noun | relating to | musical , national , personal , educational |  | -ive | verb | tending to | creative , attractive , destructive , impressive |  | -ic | noun | relating to | artistic , scientific , historic , economic |  | -y | noun | having quality | dirty , sunny , rainy , noisy |  | -ish | noun\/adj | somewhat like | childish , foolish , yellowish , oldish |  | -ly | noun | having quality | friendly , costly , lovely , timely |   Adverb-Forming Morphemes   English has fewer productive adverb-forming affixes:  | Affix | Base Type | Meaning | Examples |  |-------|-----------|---------|----------|  | -ly | adjective | in this manner | quickly , happily , carefully , recently |  | -ward(s) | noun | in this direction | homeward , forward , backward , skyward |  | -wise | noun | in this way | clockwise , otherwise , likewise , lengthwise |   Common Meaning-Changing Prefixes   These prefixes modify meaning without changing the word class:  | Prefix | Meaning | Examples |  |--------|---------|----------|  | un- | not, opposite | unhappy , undo , unusual , unfair |  | re- | again | rewrite , rebuild , rethink , replay |  | pre- | before | prehistoric , preview , predict , prepay |  | post- | after | postwar , postpone , postgraduate |  | mis- | wrongly | misunderstand , misspell , misjudge , misread |  | dis- | not, opposite | disagree , disappear , disconnect , dislike |  | non- | not | nonsense , nonfiction , nonprofit , nonstop |  | over- | excessive | overwork , overeat , overreact , overlook |  | under- | insufficient | underpay , underestimate , undervalue |  | anti- | against | antisocial , antiwar , antibiotic , antibody |   Productivity and New Words   These affixes are called productive because English speakers actively use them to create new words. Consider some recent additions to English:   unfriend (un- + friend) — to remove someone from social media  doomscrolling (doom + scroll + -ing) — obsessively reading bad news  rewatchable (re- + watch + -able) — worth watching again  influencer (influence + -er) — social media personality  podcaster (podcast + -er) — one who creates podcasts   These words didn't exist twenty years ago, yet English speakers immediately understand them. This is morphological productivity in action—the same patterns that created unhappy and teacher centuries ago continue to generate new vocabulary today.  "
+  "body": " Common Morphemes by Word Class  English uses bound morphemes productively to create words belonging to different word classes. These affixes are productive —English speakers use them freely to create new words. You've probably encountered \"unfriend,\" \"unsubscribe,\" and \"retweet,\" none of which existed thirty years ago. The patterns are so reliable that you could invent a word right now and other English speakers would understand it immediately.  The following tables organize common English affixes by the word class they typically create.   Noun-Forming Morphemes   These affixes create nouns, often from verbs or adjectives:    Affix  Base Type  Meaning  Examples    -ness  adjective  state\/quality  happiness , darkness , kindness , sadness    -ity  adjective  state\/quality  generosity , electricity , possibility , curiosity    -ment  verb  result\/act  development , agreement , entertainment , movement    -tion\/-sion  verb  act\/result  selection , creation , discussion , decision    -er\/-or  verb  one who  teacher , writer , actor , editor    -ist  noun\/adj  one who practices  artist , scientist , guitarist , optimist    -ism  noun\/adj  belief\/practice  capitalism , heroism , criticism , optimism    -ance\/-ence  verb\/adj  state\/quality  assistance , confidence , independence , resistance    -dom  noun\/adj  state\/realm  kingdom , freedom , boredom , wisdom    -hood  noun  state\/group  childhood , neighborhood , brotherhood , likelihood     Verb-Forming Morphemes   These affixes create verbs, often from nouns or adjectives:    Affix  Base Type  Meaning  Examples    -ize  noun\/adj  make\/become  modernize , hospitalize , legalize , prioritize    -ify  noun\/adj  make\/cause  beautify , clarify , simplify , terrify    -ate  noun\/adj  make\/provide  activate , motivate , hyphenate , vaccinate    -en  adjective  make\/become  brighten , darken , soften , strengthen    en-  noun\/adj  put into\/make  enable , encourage , endanger , enlarge    be-  noun\/adj  make\/cover  befriend , belittle , bewitch , bedeck     Adjective-Forming Morphemes   These affixes create adjectives, often from nouns or verbs:    Affix  Base Type  Meaning  Examples    -ful  noun  full of  hopeful , beautiful , careful , powerful    -less  noun  without  hopeless , careless , helpless , harmless    -able\/-ible  verb  capable of  believable , readable , possible , flexible    -ous\/-ious  noun  having quality  famous , dangerous , curious , spacious    -al  noun  relating to  musical , national , personal , educational    -ive  verb  tending to  creative , attractive , destructive , impressive    -ic  noun  relating to  artistic , scientific , historic , economic    -y  noun  having quality  dirty , sunny , rainy , noisy    -ish  noun\/adj  somewhat like  childish , foolish , yellowish , oldish    -ly  noun  having quality  friendly , costly , lovely , timely     Adverb-Forming Morphemes   English has fewer productive adverb-forming affixes:    Affix  Base Type  Meaning  Examples    -ly  adjective  in this manner  quickly , happily , carefully , recently    -ward(s)  noun  in this direction  homeward , forward , backward , skyward    -wise  noun  in this way  clockwise , otherwise , likewise , lengthwise     Common Meaning-Changing Prefixes   These prefixes modify meaning without changing the word class:    Prefix  Meaning  Examples    un-  not, opposite  unhappy , undo , unusual , unfair    re-  again  rewrite , rebuild , rethink , replay    pre-  before  prehistoric , preview , predict , prepay    post-  after  postwar , postpone , postgraduate    mis-  wrongly  misunderstand , misspell , misjudge , misread    dis-  not, opposite  disagree , disappear , disconnect , dislike    non-  not  nonsense , nonfiction , nonprofit , nonstop    over-  excessive  overwork , overeat , overreact , overlook    under-  insufficient  underpay , underestimate , undervalue    anti-  against  antisocial , antiwar , antibiotic , antibody     Productivity and New Words   These affixes are called productive because English speakers actively use them to create new words. Consider some recent additions to English:   unfriend (un- + friend) — to remove someone from social media  doomscrolling (doom + scroll + -ing) — obsessively reading bad news  rewatchable (re- + watch + -able) — worth watching again  influencer (influence + -er) — social media personality  podcaster (podcast + -er) — one who creates podcasts   These words didn't exist twenty years ago, yet English speakers immediately understand them. This is morphological productivity in action—the same patterns that created unhappy and teacher centuries ago continue to generate new vocabulary today.  "
 },
 {
   "id": "ch-04-morphology-and-word-structure-sec-43",
@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "Morpheme Boundaries",
-  "body": " Morpheme Boundaries  One of the trickiest aspects of morpheme analysis is determining where morphemes begin and end—especially with words borrowed from other languages. Many English words came from Latin, Greek, and French, bringing with them pieces that look like affixes but don't function as morphemes for modern English speakers.  Consider the word receive . It begins with re- , which often means \"again\" in English ( rewrite , rebuild , reconsider ). And the rest of the word looks like it might be ceive . But ask yourself: Can you ceive something? Is ceive a word? Unless you're a Latin scholar who knows that capere meant \"to take,\" the answer is no. For modern English speakers, receive is an unanalyzable chunk—a single morpheme, even though its etymology reveals internal structure.  This observation leads us to a practical principle for morpheme analysis.   The English Base Rule   A word can only be divided into morphemes if the base is a word in modern English.  This rule helps us avoid incorrectly dividing words that look like they contain affixes but actually don't. It keeps our analysis grounded in what speakers actually know, rather than what historical linguists can reconstruct.  Why does this matter? Because morphemes are psychological units—pieces that speakers recognize as meaningful. When you hear unhappy , you recognize both un- and happy as meaningful parts because happy is a word you know. But when you hear receive , you don't decompose it into re- + ceive because ceive isn't in your mental vocabulary. The historical parts have fused into a single unit for modern speakers.  Correct analysis:  Unhappy = un- + happy   \"Happy\" is a word in English ✓  Three morphemes   Misunderstand = mis- + understand   \"Understand\" is a word in English ✓  Two morphemes   Incorrect analysis:  Ugly ≠ ug + -ly   \"Ug\" is not a word in English ✗  One morpheme   Overwhelm ≠ over- + whelm   \"Whelm\" is not a word in modern English ✗  One morpheme   Construct ≠ con- + struct   \"Struct\" is not a word in English (it's Latin) ✗  One morpheme   Receive ≠ re- + ceive   \"Ceive\" is not a word in English ✗  One morpheme    Borderline Cases   Some words present challenges:  Words with archaic bases: If the base existed in Old English but not modern English, treat the word as one morpheme.   overwhelm (whelm is archaic) = 1 morpheme   Latin\/Greek borrowings: If the base comes from Latin or Greek and isn't an English word, treat it as one morpheme.   construct , instruct , destruct = 1 morpheme each  receive , perceive , conceive = 1 morpheme each   However: If a borrowed word has acquired an English affix, that affix is a separate morpheme.   constructed = construct + -ed (2 morphemes)  receiving = receive + -ing (2 morphemes)   "
+  "body": " Morpheme Boundaries  One of the trickiest aspects of morpheme analysis is determining where morphemes begin and end—especially with words borrowed from other languages. Many English words came from Latin, Greek, and French, bringing with them pieces that look like affixes but don't function as morphemes for modern English speakers.  Before we address these tricky cases, let's practice the correct process for analyzing morphemes in straightforward words.   Morpheme Analysis   When analyzing a word's morphemes, work systematically: identify the base (free morpheme), then examine what's attached to it. Here are three examples showing the step-by-step process.   Example 1: unhappy   Start by finding the free morpheme—the part that can stand alone as a word:   happy is a word in English ✓   Now check what's attached:   un- appears before happy ; this is the prefix meaning \"not\"  un- is a bound morpheme (it cannot stand alone)   Result:  un- (bound) + happy (free) = 2 morphemes   Example 2: rethinking   Find the free morpheme:   think is a word in English ✓   Check what's attached before the base:   re- appears before think ; this is the prefix meaning \"again\"  re- is a bound morpheme   Check what's attached after the base:   -ing appears after think ; this suffix forms the present participle  -ing is a bound morpheme   Result:  re- (bound) + think (free) + -ing (bound) = 3 morphemes   Example 3: carelessness   Find the free morpheme:   care is a word in English ✓   Check for prefixes:   None present   Check for suffixes (work from the end inward):   -ness appears at the end; this suffix forms nouns meaning \"state of\"  -less appears between care and -ness ; this suffix means \"without\"  Both are bound morphemes   Result:  care (free) + -less (bound) + -ness (bound) = 3 morphemes   Incorrect Morpheme Analysis   Now let's look at common mistakes in morpheme analysis. The fundamental principle to remember is:  A word can only be divided into morphemes if the base is a word in modern English.  This rule keeps our analysis grounded in what speakers actually know, rather than what historical linguists can reconstruct. Morphemes are psychological units—pieces that speakers recognize as meaningful. When you hear unhappy , you recognize both un- and happy as meaningful parts because happy is a word you know.  Type 1: Non-Existent Bases  Some words look like they contain familiar affixes, but the remaining \"base\" isn't actually a word in English.  Ugly ≠ ug + -ly   \"Ug\" is not a word in English ✗  One morpheme   Pretty ≠ pret + -ty   \"Pret\" is not a word in English ✗  One morpheme   Lonely ≠ lone + -ly   Wait—\"lone\" IS a word in English ✓  Lonely = lone (free) + -ly (bound) = 2 morphemes   This shows why you must always verify: just because a word ends in -ly doesn't mean the rest is automatically not a word!  Type 2: Historical Parts That Have Fused  Many English words came from Latin, Greek, or French with internal structure that no longer functions for modern speakers. Consider the word receive . It begins with re- , which often means \"again\" in English ( rewrite , rebuild , reconsider ). And the rest of the word looks like it might be ceive . But ask yourself: Can you ceive something? Is ceive a word? Unless you're a Latin scholar who knows that capere meant \"to take,\" the answer is no.  Deceive ≠ de- + ceive   \"Ceive\" is not a word in English ✗  One morpheme   Predict ≠ pre- + dict   \"Dict\" is not a word in English (it's Latin for \"say\") ✗  One morpheme   Transport ≠ trans- + port   \"Port\" in the sense of \"carry\" is not a word in English ✗  One morpheme   Type 3: Coincidental Resemblance  Sometimes a word contains a sequence of sounds that happens to match an existing word or affix, but the word's meaning has nothing to do with those parts. The word wasn't built from those pieces.  Understand ≠ under + stand   Although \"under\" and \"stand\" are both English words, understand doesn't mean \"to stand under something\"  The word came into English as a unit with its own meaning  One morpheme   Carpet ≠ car + pet   Although \"car\" and \"pet\" are both English words, a carpet isn't a pet for your car!  One morpheme   Breakfast = break + fast   This one IS a compound—it literally means \"breaking the fast\" (the overnight period without eating)  Two morphemes   The test: Does the word's meaning derive from combining the meanings of the parts? If not, it's a single morpheme regardless of what sequences it contains.   Borderline Cases   Some words present genuine challenges:  Words with archaic bases: If the base existed in Old English but not modern English, treat the word as one morpheme.   overwhelm (whelm is archaic) = 1 morpheme  unkempt (kempt is archaic) = 1 morpheme   Latin\/Greek borrowings: If the base comes from Latin or Greek and isn't an English word, treat it as one morpheme.   construct , instruct , destruct = 1 morpheme each  receive , perceive , conceive = 1 morpheme each    Additional Morphemes on Borrowed Words   Even when a borrowed word is a single morpheme, English speakers can still add English affixes to it. Those affixes count as separate morphemes.   constructed = construct + -ed (2 morphemes)  receiving = receive + -ing (2 morphemes)  destruction = This is trickier— destruction came into English as a complete word from Latin, so it's 1 morpheme. But destructive in modern English is destruction minus -ion plus -ive ? No—both destruction and destructive are borrowed as units. However, destructively = destructive + -ly (2 morphemes) because -ly is a productive English suffix added to the borrowed word.   "
 },
 {
   "id": "ch-04-morphology-and-word-structure-sec-44",
@@ -214,7 +214,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "Compounds",
-  "body": " Compounds  A compound is a word formed from two or more free morphemes combined together. English readily forms compounds.   Types of Compounds   Noun + Noun:   bookcase , sunflower , bedroom , football   Adjective + Noun:   blackboard , highway , smartphone   Verb + Noun:   breakfast (break + fast), pickpocket   Noun + Verb:   sunrise , haircut    Compound Stress   In English, compounds typically have primary stress on the first element:   BLACK board (compound: a board for writing)  black BOARD (phrase: a board that is black)    GREEN house (compound: building for plants)  green HOUSE (phrase: a house painted green)    Analyzing Compounds   When analyzing morphemes in compounds, count each free morpheme separately:  Bookshelves = 3 morphemes   book = free  shelf = free  -s = bound (plural)   Unforgettable = 4 morphemes   un- = bound  for- = bound  get = free  -able = bound   Wait—is \"forgettable\" a compound? Let's check: forget = for- + get ?  Actually, \"for-\" in \"forget\" is not a productive prefix in modern English, and we don't use \"get\" with the meaning of \"forget.\" So forget is one morpheme:  Unforgettable = 3 morphemes   un- = bound  forget = free  -able = bound   ## Form and Function Tests   Morpheme Identification Process   Follow these steps to analyze a word's morphemes:   Identify the base (free morpheme)    What is the core word that can stand alone?    Check for prefixes    Is there a meaningful unit before the base?  Is the remaining base still a word in English?    Check for suffixes    Work from the end of the word inward  Identify each suffix and its meaning    Verify each morpheme    Does each piece carry meaning?  Is the base a real English word?    Practice Analysis   Analyze: disagreements   Base: agree (free morpheme—it's a word)  Prefix: dis- (bound—means \"not\")  Suffixes: -ment (bound—forms noun), -s (bound—plural)   Result: dis- + agree + -ment + -s = 4 morphemes  Analyze: internationalization   Base: nation (free)  Prefix: inter- (bound—\"between\")  Suffixes: -al (adj), -ize (verb), -ation (noun)   Result: inter- + nation + -al + -ize + -ation = 5 morphemes  "
+  "body": " Compounds  A compound is a word formed from two or more free morphemes combined together. English readily forms compounds.   Types of Compounds   Noun + Noun:   bookcase , sunflower , bedroom , football   Adjective + Noun:   blackboard , highway , smartphone   Verb + Noun:   breakfast (break + fast), pickpocket   Noun + Verb:   sunrise , haircut    Compound Stress   In English, compounds typically have primary stress on the first element:   BLACK board (compound: a board for writing)  black BOARD (phrase: a board that is black)    GREEN house (compound: building for plants)  green HOUSE (phrase: a house painted green)    Analyzing Compounds   When analyzing morphemes in compounds, count each free morpheme separately:  Bookshelves = 3 morphemes   book = free  shelf = free  -s = bound (plural)   Uncomfortable = 3 morphemes   un- = bound  comfort = free  -able = bound   Sunflowers = 3 morphemes   sun = free  flower = free  -s = bound (plural)   Remember to apply the English base rule even with compounds. Some words look like they might be compounds but aren't:  Together ≠ to + get + her   This word doesn't combine the meanings \"to,\" \"get,\" and \"her\"  One morpheme    Morpheme Identification Process   Follow these steps to analyze a word's morphemes:   Identify the base (free morpheme)    What is the core word that can stand alone?    Check for prefixes    Is there a meaningful unit before the base?  Is the remaining base still a word in English?    Check for suffixes    Work from the end of the word inward  Identify each suffix and its meaning    Verify each morpheme    Does each piece carry meaning?  Is the base a real English word?    Practice Analysis   Analyze: mistreatment   Base: treat (free morpheme—it's a word)  Prefix: mis- (bound—means \"wrongly\")  Suffix: -ment (bound—forms noun)   Result: mis- + treat + -ment = 3 morphemes  Analyze: reorganization   Base: organ (free)  Prefix: re- (bound—\"again\")  Suffixes: -ize (verb), -ation (noun)   Result: re- + organ + -ize + -ation = 4 morphemes  "
 },
 {
   "id": "ch-04-homework",
@@ -223,295 +223,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.5",
   "title": "Homework: Morphology and Word Structure",
-  "body": " Homework: Morphology and Word Structure   Part 1: Morpheme Identification (approx. 10 minutes)  Instructions: For each word below, divide it into morphemes and classify each morpheme as free or bound. State the total number of morphemes.  You may present your analysis using any clear method, such as:   Listing with labels (e.g., un- (bound) + happy (free) + -ness (bound) = 3 morphemes)  A simple chart or table   Be sure your method clearly shows each morpheme and its classification.  Example (completed):  Word:  unhappiness  un- (bound) + happy (free) + -ness (bound) = 3 morphemes  1.  disagreements  2.  rebuilding  3.  thoughtfulness  4.  international  5.  unforgettable    Part 2: Applying the English Base Rule (approx. 10 minutes)  Instructions: For each word, determine whether it contains one morpheme or multiple morphemes. Apply the English base rule: a word can only be divided into morphemes if the base is a word in modern English.  Example (completed):  Word:  receive  Number of morphemes: 1  Although receive begins with re- , which often means \"again,\" the remaining part -ceive is not a word in modern English. Therefore, receive is a single morpheme.  6.  grandmother  Number of morphemes:  7.  describe  Number of morphemes:  8.  replayable  Number of morphemes:  9.  construct  Number of morphemes:  10.  misunderstand  Number of morphemes:    Part 3: Word Building (approx. 10 minutes)  Instructions: Using the base words provided, create new words by adding affixes. Write the complete word and identify all morphemes.  Example (completed):  Base word:  hope  Word with one suffix: hopeful   Morphemes: hope (free) + -ful (bound)   Word with a prefix and suffix: unhopeful   Morphemes: un- (bound) + hope (free) + -ful (bound)   11. Base word: teach  Create a word with one suffix:  Morphemes:  Create a word with two suffixes:  Morphemes:  12. Base word: kind  Create a word with a prefix:  Morphemes:  Create a word with a prefix and a suffix:  Morphemes:  13. Base word: modern  Create a word that is a verb:  Morphemes:  Create a word that is a noun:  Morphemes:    Part 4: Morpheme Identification in Context (approx. 5 minutes)  Instructions: Read the passage below. Identify five words that contain multiple morphemes and list the morphemes for each.  Passage:  The researchers carefully analyzed the unprecedented developments in artificial intelligence. Their findings suggested that technological modernization would dramatically reshape workplaces worldwide. The implications were unmistakable.  Example (completed):  Word:  researchers  Morphemes: research (free) + -er (bound) + -s (bound)  14.  Word 1:  Morphemes:  Word 2:  Morphemes:  Word 3:  Morphemes:  Word 4:  Morphemes:  Word 5:  Morphemes:    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Answer the following questions, explaining your reasoning.  15. Complex words are built up step by step, with each morpheme attaching in a specific order. Track the formation of the word unprecedented by identifying the base and then showing the order in which morphemes attach.  Example (completed):  Word:  unhappiness  Formation:   1. happy (base—adjective)  2. unhappy (un- + happy—adjective meaning \"not happy\")  3. unhappiness (unhappy + -ness—noun meaning \"the state of being unhappy\")   Word:  unprecedented  Formation:   Total estimated time: 30-40 minutes  "
-},
-{
-  "id": "ch-04-homework-2-2",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-04-homework-2-6",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-2-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-04-homework-2-7",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-2-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Word: "
-},
-{
-  "id": "ch-04-homework-2-9",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-2-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-04-homework-2-10",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-2-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-04-homework-2-11",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-2-11",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-04-homework-2-12",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-2-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-04-homework-2-13",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-2-13",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-04-homework-3-2",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-3-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-04-homework-3-3",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-04-homework-3-4",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-3-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Word: "
-},
-{
-  "id": "ch-04-homework-3-7",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-3-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-04-homework-3-9",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-3-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-04-homework-3-11",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-3-11",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-04-homework-3-13",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-3-13",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-04-homework-3-15",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-3-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-04-homework-4-2",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-4-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-04-homework-4-3",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-04-homework-4-4",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Base word: "
-},
-{
-  "id": "ch-04-homework-4-9",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-4-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-04-homework-4-14",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-4-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-04-homework-4-19",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-4-19",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-04-homework-5-2",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-5-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-04-homework-5-3",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Passage: "
-},
-{
-  "id": "ch-04-homework-5-5",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-5-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-04-homework-5-6",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-5-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Word: "
-},
-{
-  "id": "ch-04-homework-5-8",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-5-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-04-homework-6-2",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-6-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-04-homework-6-3",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-04-homework-6-4",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-6-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-04-homework-6-5",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-6-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Word: "
-},
-{
-  "id": "ch-04-homework-6-8",
-  "level": "2",
-  "url": "ch-04-homework.html#ch-04-homework-6-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Word: "
+  "body": " Homework: Morphology and Word Structure   Part 1: Morpheme Identification (approx. 10 minutes)  Instructions: For each word below, divide it into morphemes and classify each morpheme as free or bound. State the total number of morphemes.  You may present your analysis using any clear method, such as:   Listing with labels (e.g., un- (bound) + happy (free) + -ness (bound) = 3 morphemes)  A simple chart or table   Be sure your method clearly shows each morpheme and its classification.   Example (completed):   Word:  unhappiness  un- (bound) + happy (free) + -ness (bound) = 3 morphemes  1.  disagreements  2.  rebuilding  3.  thoughtfulness  4.  international  5.  unforgettable    Part 2: Applying the English Base Rule (approx. 10 minutes)  Instructions: For each word, determine whether it contains one morpheme or multiple morphemes. Apply the English base rule: a word can only be divided into morphemes if the base is a word in modern English.   Example (completed):   Word:  contain  Number of morphemes: 1  Although contain appears to begin with con- , the remaining part -tain is not a word in modern English. Therefore, contain is a single morpheme.  6.  grandmother  7.  describe  8.  replayable  9.  subtract  10.  misplace    Part 3: Word Building (approx. 10 minutes)  Instructions: Using the base words provided, create new words by adding affixes. Write the complete word and identify all morphemes.   Example (completed):   Base word:  hope  Word with one suffix: hopeful  Morphemes: hope (free) + -ful (bound)  Word with a prefix and suffix: unhopeful  Morphemes: un- (bound) + hope (free) + -ful (bound)  11. Base word: teach  Create a word with one suffix:  Morphemes:  Create a word with two suffixes:  Morphemes:  12. Base word: kind  Create a word with a prefix:  Morphemes:  Create a word with a prefix and a suffix:  Morphemes:  13. Base word: modern  Create a word that is a verb:  Morphemes:  Create a word that is a noun:  Morphemes:    Part 4: Morpheme Identification in Context (approx. 5 minutes)  Instructions: Read the passage below. Identify five words that contain multiple morphemes and list the morphemes for each.   Passage:   The researchers carefully analyzed the unprecedented developments in artificial intelligence. Their findings suggested that technological modernization would dramatically reshape workplaces worldwide. The implications were unmistakable.   Example (completed):   Word:  researchers  Morphemes: research (free) + -er (bound) + -s (bound)  14.  Word 1:  Morphemes:  Word 2:  Morphemes:  Word 3:  Morphemes:  Word 4:  Morphemes:  Word 5:  Morphemes:    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Answer the following question, explaining your reasoning.  15. Complex words are built up step by step, with each morpheme attaching in a specific order. Track the formation of the word unprecedented by identifying the base and then showing the order in which morphemes attach.   Example (completed):   Word:  unhappiness  Formation:   happy (base—adjective)  unhappy (un- + happy—adjective meaning \"not happy\")  unhappiness (unhappy + -ness—noun meaning \"the state of being unhappy\")   Word:  unprecedented  Formation:  Total estimated time: 30-40 minutes   "
 },
 {
   "id": "ch-04-morphology-and-word-structure-8",
@@ -538,7 +250,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.2",
   "title": "What Are Open Classes?",
-  "body": " What Are Open Classes?  English words fall into two broad categories: open classes and closed classes . This chapter focuses on open classes; Chapter 6 addresses closed classes.  Open classes are word categories that readily accept new members. English speakers regularly create new nouns, verbs, adjectives, and adverbs:  | Class | Recent Additions |  |-------|------------------|  | Nouns | selfie , cryptocurrency , podcast , meme , influencer |  | Verbs | google , tweet , zoom , ghost (meaning to ignore), stream |  | Adjectives | viral , sustainable , gluten-free , binge-worthy |  | Adverbs | literally (emphatic), lowkey , ironically (new usage) |  These four classes—nouns, verbs, adjectives, and adverbs—contain the vast majority of English words and carry most of the content meaning in sentences. They are sometimes called content words or lexical words .   Why Does It Matter That Classes Are \"Open\"?   The openness of these classes tells us something profound about language: it's creative. We don't memorize a fixed list of nouns and then stop—we keep making new ones. When Bitcoin emerged, English speakers immediately needed a word, and cryptocurrency was coined. When a new social platform appeared, tweet became both a noun and a verb.  This creativity follows rules. We don't randomly string sounds together; we use the morphological patterns from Chapter 4. A new noun meaning \"one who podcasts\" naturally becomes podcaster , following the same pattern that gave us teacher and writer centuries ago.  Understanding open classes helps you:   Identify parts of speech reliably using formal tests rather than meaning  Analyze phrase structure by recognizing what can serve as a phrase's head  See language change in action as new words enter primarily through open classes   Each open class has characteristic morphological properties (what endings the word can take) and syntactic properties (how the word behaves in sentences). The following sections examine each class in detail, providing tests you can use to identify membership and explaining how each class builds phrases.  "
+  "body": " What Are Open Classes?  English words fall into two broad categories: open classes and closed classes . This chapter focuses on open classes; Chapter 6 addresses closed classes.  Open classes are word categories that readily accept new members. English speakers regularly create new nouns, verbs, adjectives, and adverbs:    Class  Recent Additions    Nouns  selfie , cryptocurrency , podcast , meme , influencer    Verbs  google , tweet , zoom , ghost (meaning to ignore), stream    Adjectives  viral , sustainable , gluten-free , binge-worthy    Adverbs  literally (emphatic), lowkey , ironically (new usage)    These four classes—nouns, verbs, adjectives, and adverbs—contain the vast majority of English words and carry most of the content meaning in sentences. They are sometimes called content words or lexical words .   Why Does It Matter That Classes Are \"Open\"?   The openness of these classes tells us something profound about language: it's creative. We don't memorize a fixed list of nouns and then stop—we keep making new ones. When Bitcoin emerged, English speakers immediately needed a word, and cryptocurrency was coined. When a new social platform appeared, tweet became both a noun and a verb.  This creativity follows rules. We don't randomly string sounds together; we use the morphological patterns from Chapter 4. A new noun meaning \"one who podcasts\" naturally becomes podcaster , following the same pattern that gave us teacher and writer centuries ago.  Understanding open classes helps you:   Identify parts of speech reliably using formal tests rather than meaning  Analyze phrase structure by recognizing what can serve as a phrase's head  See language change in action as new words enter primarily through open classes   Each open class has characteristic morphological properties (what endings the word can take) and syntactic properties (how the word behaves in sentences). The following sections examine each class in detail, providing tests you can use to identify membership and explaining how each class builds phrases.  "
 },
 {
   "id": "ch-05-open-classes-sec-53",
@@ -547,7 +259,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Nouns",
-  "body": " Nouns  Nouns are often described as words that name people, places, things, or ideas. This semantic definition works much of the time— teacher , Paris , table , and freedom are all nouns. But meaning can mislead us. Is destruction a \"thing\"? What about arrival or swimming ? These are nouns too, but they seem to name actions rather than objects.  The reliable way to identify nouns is through their grammatical behavior—specifically, through tests that reveal their morphological and syntactic properties.   Morphological Tests for Nouns   Morphological tests examine what forms a word can take. Nouns have distinctive morphological properties that set them apart from other word classes.  Test 1: Plural formation  Nouns can typically be made plural. This is perhaps the most reliable morphological test for nouns:   book → books  child → children  analysis → analyses  happiness → happinesses (rare but grammatical)   If you can pluralize a word, it's almost certainly a noun. Note that some nouns resist pluralization (mass nouns like water , information ), but the fact that we can even ask the question \"Can this be plural?\" suggests noun-hood.  Test 2: Possessive marking  Nouns can take the possessive marker 's :   the dog's tail  Maria's book  the committee's decision   Other word classes cannot take this marker: we don't say ~~the happy's effect~~ or ~~the quickly's result~~ .  Test 3: Noun-forming suffixes  If a word ends in certain suffixes, it's likely a noun. These suffixes convert other word classes into nouns:  | Suffix | Examples |  |--------|----------|  | -tion\/-sion | action , decision , conclusion |  | -ness | happiness , awkwardness , cleverness |  | -ity | curiosity , generosity , ambiguity |  | -ment | government , amazement , establishment |  | -er\/-or | teacher , actor , writer |  When you see these endings, think \"noun.\"   Syntactic Tests for Nouns   Syntactic tests examine how a word behaves in sentences. Where can the word appear? What other words can accompany it?  Test 1: The determiner test  Nouns can follow words like a , the , this , my , and every . These words (called determiners) specifically introduce nouns:   the proposal  a happiness  every decision   This test is powerful because determiners exclusively precede nouns. If the or a can go in front of a word, that word is functioning as a noun.  Test 2: The adjective modification test  Nouns can be modified by adjectives—words that describe qualities:   the new proposal  a great happiness  every important decision   Adjectives slot in between the determiner and the noun. If a word can appear in the position after an adjective, it's behaving as a noun.  Test 3: The pronoun replacement test  A noun (along with its modifiers) can be replaced by a pronoun like it , they , or she :   The new proposal → It  My older brother → He  Those expensive books → They   This test helps identify noun phrases—groups of words built around a noun.  Test 4: The subject\/object position test  Nouns naturally fill the subject and object slots in sentences:   Subject: Books are expensive.  Direct object: I bought books .  Object of preposition: I learned from books .    Subclasses of Nouns   Not all nouns behave identically. Two important distinctions affect how nouns can be used.  Common vs. Proper Nouns   Common nouns name general categories: city , teacher , book  Proper nouns name specific, unique entities: Chicago , Professor Smith , Friday   Proper nouns are capitalized and often don't take determiners: Chicago is large (not ~~The Chicago~~ ). When a proper noun does take a determiner, it often signals a different meaning: the Amazon (river) vs. Amazon (company).  Count vs. Mass Nouns   Count nouns refer to discrete, countable entities: book\/books , idea\/ideas  Can be pluralized: three books  Take a\/an : a book  Take number words: several ideas    Mass nouns refer to undifferentiated substances or concepts: water , information , furniture  Cannot be pluralized: ~~informations~~ , ~~furnitures~~  Cannot take a\/an : ~~a furniture~~  Take quantity words instead: some water , much information    Noun Phrases: Structure and Headship   Nouns don't typically appear alone. They form the center of noun phrases (NP) —groups of words built around a noun. The noun is the head of the phrase, meaning it's the essential, obligatory element that determines what kind of phrase it is.  Think of the head as the word you cannot remove. In the phrase the old brown dog in the yard , you can remove old , brown , in the yard , and even the —and still have a grammatical noun phrase ( dog ). But remove dog , and you have nothing functional left.  A noun phrase has this basic structure:  ```  NP  ┌───────┼────────┐  Det Adj N  │ │ │  the tall student  ```  Larger noun phrases add more modifiers before and after the head:  ```  NP  ┌───────┬───────┼───────────┐  Det Adj Adj N PP  │ │ │ │ ┌──┴──┐  the brilliant young student from Ohio  ```  Pre-modifiers appear before the head noun:   Determiners: the , a , my , this  Adjectives: tall , beautiful , old  Other nouns: coffee (in coffee table )   Post-modifiers appear after the head noun:   Phrases starting with words like in , of , from : the man in the hat  Clauses starting with that , who , which : the book that I read  Participial phrases: the dog running in the park   When identifying the head, ask: \"Which word could stand alone and still make sense as a noun phrase?\" That's your head.  "
+  "body": " Nouns  Nouns are often described as words that name people, places, things, or ideas. This semantic definition works much of the time— teacher , Paris , table , and freedom are all nouns. But meaning can mislead us. Is destruction a \"thing\"? What about arrival or swimming ? These are nouns too, but they seem to name actions rather than objects.  The reliable way to identify nouns is through their grammatical behavior—specifically, through tests that reveal their morphological and syntactic properties.   Morphological Tests for Nouns   Morphological tests examine what forms a word can take. Nouns have distinctive morphological properties that set them apart from other word classes.  Test 1: Plural formation  Nouns can typically be made plural. This is perhaps the most reliable morphological test for nouns:   book → books  child → children  analysis → analyses  happiness → happinesses (rare but grammatical)   If you can pluralize a word, it's almost certainly a noun. Note that some nouns resist pluralization (mass nouns like water , information ), but the fact that we can even ask the question \"Can this be plural?\" suggests noun-hood.  Test 2: Possessive marking  Nouns can take the possessive marker 's :   the dog's tail  Maria's book  the committee's decision   Other word classes cannot take this marker: we don't say ~~the happy's effect~~ or ~~the quickly's result~~ .  Test 3: Noun-forming suffixes  If a word ends in certain suffixes, it's likely a noun. These suffixes convert other word classes into nouns:    Suffix  Examples    -tion\/-sion  action , decision , conclusion    -ness  happiness , awkwardness , cleverness    -ity  curiosity , generosity , ambiguity    -ment  government , amazement , establishment    -er\/-or  teacher , actor , writer    When you see these endings, think \"noun.\"   Syntactic Tests for Nouns   Syntactic tests examine how a word behaves in sentences. Where can the word appear? What other words can accompany it?  Test 1: The determiner test  Nouns can follow words like a , the , this , my , and every . These words (called determiners) specifically introduce nouns:   the proposal  a happiness  every decision   This test is powerful because determiners exclusively precede nouns. If the or a can go in front of a word, that word is functioning as a noun.  Test 2: The adjective modification test  Nouns can be modified by adjectives—words that describe qualities:   the new proposal  a great happiness  every important decision   Adjectives slot in between the determiner and the noun. If a word can appear in the position after an adjective, it's behaving as a noun.  Test 3: The pronoun replacement test  A noun (along with its modifiers) can be replaced by a pronoun like it , they , or she :   The new proposal → It  My older brother → He  Those expensive books → They   This test helps identify noun phrases—groups of words built around a noun.  Test 4: The subject\/object position test  Nouns naturally fill the subject and object slots in sentences:   Subject: Books are expensive.  Direct object: I bought books .  Object of preposition: I learned from books .    Subclasses of Nouns   Not all nouns behave identically. Two important distinctions affect how nouns can be used.  Common vs. Proper Nouns   Common nouns name general categories: city , teacher , book  Proper nouns name specific, unique entities: Chicago , Professor Smith , Friday   Proper nouns are capitalized and often don't take determiners: Chicago is large (not ~~The Chicago~~ ). When a proper noun does take a determiner, it often signals a different meaning: the Amazon (river) vs. Amazon (company).  Count vs. Mass Nouns   Count nouns refer to discrete, countable entities: book\/books , idea\/ideas  Can be pluralized: three books  Take a\/an : a book  Take number words: several ideas    Mass nouns refer to undifferentiated substances or concepts: water , information , furniture  Cannot be pluralized: ~~informations~~ , ~~furnitures~~  Cannot take a\/an : ~~a furniture~~  Take quantity words instead: some water , much information    Noun Phrases: Structure and Headship   Nouns don't typically appear alone. They form the center of noun phrases (NP) —groups of words built around a noun. The noun is the head of the phrase, meaning it's the essential, obligatory element that determines what kind of phrase it is.  Think of the head as the word you cannot remove. In the phrase the old brown dog in the yard , you can remove old , brown , in the yard , and even the —and still have a grammatical noun phrase ( dog ). But remove dog , and you have nothing functional left.  A noun phrase has this basic structure:  ```  NP  ┌───────┼────────┐  Det Adj N  │ │ │  the tall student  ```  Larger noun phrases add more modifiers before and after the head:  ```  NP  ┌───────┬───────┼───────────┐  Det Adj Adj N PP  │ │ │ │ ┌──┴──┐  the brilliant young student from Ohio  ```  Pre-modifiers appear before the head noun:   Determiners: the , a , my , this  Adjectives: tall , beautiful , old  Other nouns: coffee (in coffee table )   Post-modifiers appear after the head noun:   Phrases starting with words like in , of , from : the man in the hat  Clauses starting with that , who , which : the book that I read  Participial phrases: the dog running in the park   When identifying the head, ask: \"Which word could stand alone and still make sense as a noun phrase?\" That's your head.  "
 },
 {
   "id": "ch-05-open-classes-sec-54",
@@ -556,7 +268,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Verbs",
-  "body": " Verbs  Verbs are the engine of the sentence. While nouns name things, verbs make things happen—or describe states of being. Every complete sentence requires a verb, and the verb determines much of the sentence's structure: how many participants are needed, what time frame is being discussed, whether the action is complete or ongoing.  Semantically, verbs express actions ( run , build , think ), states ( know , believe , own ), or occurrences ( happen , become , appear ). But as with nouns, we identify verbs more reliably through grammatical tests.   Morphological Tests for Verbs   Verbs in English have a distinctive set of forms—more than any other word class. If a word can take these various forms, it's a verb.  Test 1: Past tense formation  Verbs can be marked for past tense:   walk → walked  see → saw  go → went   This is perhaps the most diagnostic test. If you can put a word into past tense, it's a verb: \"Yesterday, I ___ed\" (or an irregular past form).  Test 2: Third-person singular present  Verbs take -s when the subject is third-person singular ( he , she , it ):   I walk → she walks  I see → he sees   This is the only agreement marking English verbs still carry, but it's a reliable indicator of verb-hood.  Test 3: Progressive form (-ing)  Verbs can take the -ing suffix to form the progressive:   walk → walking  see → seeing   Every verb in English can take -ing . If you can add -ing to a word and use it after be (\"She is ___ing\"), it's a verb.  Test 4: Participial forms  Verbs have a past participle form (used with have and in passives):   walk → walked (regular)  see → seen (irregular)  go → gone (irregular)    Syntactic Tests for Verbs   Test 1: The modal test  Verbs can follow modal words like can , will , might , should , must :   can walk  will see  might go   If a word can slot into \"She can ___,\" it's a verb.  Test 2: The infinitive test  Verbs can follow to :   to walk  to see  to understand   The \"to ___\" construction (called the infinitive) is available only to verbs.  Test 3: The negation test  Verbs can be negated, typically using do + not :   She does not walk.  I did not see it.    Verb Forms: The Principal Parts   Every English verb has five forms, traditionally called the principal parts :  | Form | Regular ( walk ) | Irregular ( see ) | Irregular ( go ) |  |------|------------------|-------------------|------------------|  | Base | walk | see | go |  | Past | walked | saw | went |  | Past participle | walked | seen | gone |  | Present participle | walking | seeing | going |  | 3rd person singular | walks | sees | goes |  Regular verbs (the vast majority) form their past tense and past participle by adding -ed .  Irregular verbs form these parts unpredictably—you must memorize them. Common irregular verbs include be , have , go , see , take , make , come , know .   Verb Phrases: Structure and Headship   Like nouns, verbs form phrases. A verb phrase (VP) is built around a verb as its head. The verb phrase includes the main verb plus any complements the verb requires.  What makes verb phrases interesting is that different verbs require different complements:  ```  VP VP VP  │ ┌────┴────┐ ┌───────┼───────┐  V V NP V NP NP  │ │ │ │ │ │  slept read the book gave her a present  (no complement) (requires object) (requires two objects)  ```  The verb determines what must follow—this is the verb's valency , which Chapter 8 explores in detail. For now, notice that:   sleep doesn't require anything after it (intransitive)  read requires something to be read (transitive)  give requires both a recipient and a thing given (ditransitive)   This property—that verbs dictate sentence structure—makes the verb the most important word in most sentences.  "
+  "body": " Verbs  Verbs are the engine of the sentence. While nouns name things, verbs make things happen—or describe states of being. Every complete sentence requires a verb, and the verb determines much of the sentence's structure: how many participants are needed, what time frame is being discussed, whether the action is complete or ongoing.  Semantically, verbs express actions ( run , build , think ), states ( know , believe , own ), or occurrences ( happen , become , appear ). But as with nouns, we identify verbs more reliably through grammatical tests.   Morphological Tests for Verbs   Verbs in English have a distinctive set of forms—more than any other word class. If a word can take these various forms, it's a verb.  Test 1: Past tense formation  Verbs can be marked for past tense:   walk → walked  see → saw  go → went   This is perhaps the most diagnostic test. If you can put a word into past tense, it's a verb: \"Yesterday, I ___ed\" (or an irregular past form).  Test 2: Third-person singular present  Verbs take -s when the subject is third-person singular ( he , she , it ):   I walk → she walks  I see → he sees   This is the only agreement marking English verbs still carry, but it's a reliable indicator of verb-hood.  Test 3: Progressive form (-ing)  Verbs can take the -ing suffix to form the progressive:   walk → walking  see → seeing   Every verb in English can take -ing . If you can add -ing to a word and use it after be (\"She is ___ing\"), it's a verb.  Test 4: Participial forms  Verbs have a past participle form (used with have and in passives):   walk → walked (regular)  see → seen (irregular)  go → gone (irregular)    Syntactic Tests for Verbs   Test 1: The modal test  Verbs can follow modal words like can , will , might , should , must :   can walk  will see  might go   If a word can slot into \"She can ___,\" it's a verb.  Test 2: The infinitive test  Verbs can follow to :   to walk  to see  to understand   The \"to ___\" construction (called the infinitive) is available only to verbs.  Test 3: The negation test  Verbs can be negated, typically using do + not :   She does not walk.  I did not see it.    Verb Forms: The Principal Parts   Every English verb has five forms, traditionally called the principal parts :    Form  Regular ( walk )  Irregular ( see )  Irregular ( go )    Base  walk  see  go    Past  walked  saw  went    Past participle  walked  seen  gone    Present participle  walking  seeing  going    3rd person singular  walks  sees  goes    Regular verbs (the vast majority) form their past tense and past participle by adding -ed .  Irregular verbs form these parts unpredictably—you must memorize them. Common irregular verbs include be , have , go , see , take , make , come , know .   Verb Phrases: Structure and Headship   Like nouns, verbs form phrases. A verb phrase (VP) is built around a verb as its head. The verb phrase includes the main verb plus any complements the verb requires.  What makes verb phrases interesting is that different verbs require different complements:  ```  VP VP VP  │ ┌────┴────┐ ┌───────┼───────┐  V V NP V NP NP  │ │ │ │ │ │  slept read the book gave her a present  (no complement) (requires object) (requires two objects)  ```  The verb determines what must follow—this is the verb's valency , which Chapter 8 explores in detail. For now, notice that:   sleep doesn't require anything after it (intransitive)  read requires something to be read (transitive)  give requires both a recipient and a thing given (ditransitive)   This property—that verbs dictate sentence structure—makes the verb the most important word in most sentences.  "
 },
 {
   "id": "ch-05-open-classes-sec-55",
@@ -574,7 +286,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.6",
   "title": "Adverbs",
-  "body": " Adverbs  Adverbs are the most versatile and varied word class in English. While nouns name, verbs act, and adjectives describe nouns, adverbs do a bit of everything: they can modify verbs, adjectives, other adverbs, and even entire sentences. This versatility makes them both useful and tricky to identify.  The traditional definition—\"adverbs modify verbs\"—captures only part of the picture. Consider these sentences:   She spoke quietly . (modifies verb)  She is extremely talented. (modifies adjective)  She works very hard. (modifies adverb)  Unfortunately , she couldn't attend. (modifies entire sentence)   In all four cases, the bolded word is an adverb—but each is doing different work.   Morphological Tests for Adverbs   * Test 1: The -ly suffix *  Many adverbs are formed by adding -ly to adjectives:   quick → quickly  happy → happily  careful → carefully   This is a reliable pattern: if you see -ly on what looks like an adjective, you probably have an adverb. But be careful—some -ly words are adjectives ( friendly , lovely , costly ), and many common adverbs don't end in -ly at all ( fast , well , always , never , here , there ).  Test 2: Comparative\/superlative forms  Some adverbs can be graded, just like adjectives:   fast → faster → fastest  soon → sooner → soonest  quickly → more quickly → most quickly   But many common adverbs cannot: ~~very-er~~ , ~~always-est~~ , ~~therefore-er~~ . For these, we must rely on syntactic tests.   Syntactic Tests for Adverbs   Test 1: Modifying verbs  This is the classic adverb function. Adverbs appear near verbs and describe how, when, where, or how often the action occurs:   She spoke quietly . (how)  He always arrives late. (frequency)  They suddenly disappeared. (manner\/time)   Test 2: Modifying adjectives  Adverbs, especially degree adverbs, can intensify or qualify adjectives:   a very tall building  an extremely difficult problem  surprisingly easy   This is how very , quite , extremely , and rather typically function.  Test 3: Modifying other adverbs  Adverbs can stack, with one adverb modifying another:   She spoke very quietly.  He runs quite fast.  It happened rather suddenly.   Test 4: Modifying sentences  Some adverbs can modify an entire sentence, typically appearing at the beginning and expressing the speaker's attitude:   Unfortunately , I can't attend.  Clearly , we have a problem.  Apparently , they've left.   These are called sentence adverbs or commenting adverbs .  Test 5: The attributive position test (negative)  Here's a crucial way to distinguish adverbs from adjectives: adverbs cannot appear in attributive position (between a determiner and a noun):   the tall man ✓ ( tall is an adjective)  ~~the quickly man~~ ✗ ( quickly is an adverb)  ~~the often problem~~ ✗ ( often is an adverb)   If a word can appear in \"the ___ noun\" position, it's an adjective. If it cannot , it might be an adverb.   Semantic Categories of Adverbs   Adverbs are often classified by what question they answer:  | Type | Examples | Question Answered |  |------|----------|-------------------|  | Manner | quickly , carefully , well | How? |  | Time | yesterday , soon , already | When? |  | Place | here , there , everywhere | Where? |  | Frequency | often , rarely , sometimes , always | How often? |  | Degree | very , extremely , somewhat | To what extent? |  | Sentence\/Comment | unfortunately , clearly , obviously | Speaker's attitude? |   Adverb Phrases: Structure and Headship   Adverbs form phrases, though adverb phrases tend to be simpler than noun or verb phrases. An adverb phrase (AdvP) has an adverb as its head, often with another adverb modifying it:  ```  AdvP AdvP  │ ┌───────┴───────┐  Adv Adv Adv  │ │ │  quickly very quickly  ```  Adverb phrases can grow by stacking degree modifiers:   quickly  very quickly  rather too quickly   Where adverb phrases function:   Modifying verbs: She spoke [very quietly].  Modifying adjectives: She is [extremely] talented.  Modifying adverbs: She works [very] hard.  Modifying sentences: [Unfortunately], she left.   "
+  "body": " Adverbs  Adverbs are the most versatile and varied word class in English. While nouns name, verbs act, and adjectives describe nouns, adverbs do a bit of everything: they can modify verbs, adjectives, other adverbs, and even entire sentences. This versatility makes them both useful and tricky to identify.  The traditional definition—\"adverbs modify verbs\"—captures only part of the picture. Consider these sentences:   She spoke quietly . (modifies verb)  She is extremely talented. (modifies adjective)  She works very hard. (modifies adverb)  Unfortunately , she couldn't attend. (modifies entire sentence)   In all four cases, the bolded word is an adverb—but each is doing different work.   Morphological Tests for Adverbs   * Test 1: The -ly suffix *  Many adverbs are formed by adding -ly to adjectives:   quick → quickly  happy → happily  careful → carefully   This is a reliable pattern: if you see -ly on what looks like an adjective, you probably have an adverb. But be careful—some -ly words are adjectives ( friendly , lovely , costly ), and many common adverbs don't end in -ly at all ( fast , well , always , never , here , there ).  Test 2: Comparative\/superlative forms  Some adverbs can be graded, just like adjectives:   fast → faster → fastest  soon → sooner → soonest  quickly → more quickly → most quickly   But many common adverbs cannot: ~~very-er~~ , ~~always-est~~ , ~~therefore-er~~ . For these, we must rely on syntactic tests.   Syntactic Tests for Adverbs   Test 1: Modifying verbs  This is the classic adverb function. Adverbs appear near verbs and describe how, when, where, or how often the action occurs:   She spoke quietly . (how)  He always arrives late. (frequency)  They suddenly disappeared. (manner\/time)   Test 2: Modifying adjectives  Adverbs, especially degree adverbs, can intensify or qualify adjectives:   a very tall building  an extremely difficult problem  surprisingly easy   This is how very , quite , extremely , and rather typically function.  Test 3: Modifying other adverbs  Adverbs can stack, with one adverb modifying another:   She spoke very quietly.  He runs quite fast.  It happened rather suddenly.   Test 4: Modifying sentences  Some adverbs can modify an entire sentence, typically appearing at the beginning and expressing the speaker's attitude:   Unfortunately , I can't attend.  Clearly , we have a problem.  Apparently , they've left.   These are called sentence adverbs or commenting adverbs .  Test 5: The attributive position test (negative)  Here's a crucial way to distinguish adverbs from adjectives: adverbs cannot appear in attributive position (between a determiner and a noun):   the tall man ✓ ( tall is an adjective)  ~~the quickly man~~ ✗ ( quickly is an adverb)  ~~the often problem~~ ✗ ( often is an adverb)   If a word can appear in \"the ___ noun\" position, it's an adjective. If it cannot , it might be an adverb.   Semantic Categories of Adverbs   Adverbs are often classified by what question they answer:    Type  Examples  Question Answered    Manner  quickly , carefully , well  How?    Time  yesterday , soon , already  When?    Place  here , there , everywhere  Where?    Frequency  often , rarely , sometimes , always  How often?    Degree  very , extremely , somewhat  To what extent?    Sentence\/Comment  unfortunately , clearly , obviously  Speaker's attitude?     Adverb Phrases: Structure and Headship   Adverbs form phrases, though adverb phrases tend to be simpler than noun or verb phrases. An adverb phrase (AdvP) has an adverb as its head, often with another adverb modifying it:  ```  AdvP AdvP  │ ┌───────┴───────┐  Adv Adv Adv  │ │ │  quickly very quickly  ```  Adverb phrases can grow by stacking degree modifiers:   quickly  very quickly  rather too quickly   Where adverb phrases function:   Modifying verbs: She spoke [very quietly].  Modifying adjectives: She is [extremely] talented.  Modifying adverbs: She works [very] hard.  Modifying sentences: [Unfortunately], she left.   "
 },
 {
   "id": "ch-05-open-classes-sec-57",
@@ -583,311 +295,14 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.7",
   "title": "Summary: Identifying Open-Class Words",
-  "body": " Summary: Identifying Open-Class Words  This chapter has covered a lot of ground. Here's a quick reference to help you identify word classes and apply the dual-identification principle.   The Dual-Identification Principle   Always ask both questions:   What IS this word? (form—its part of speech)  What is this word DOING? (function—its role in this sentence)    Quick Reference Tests   | Part of Speech | Key Morphological Tests | Key Syntactic Tests |  |----------------|------------------------|---------------------|  | Noun | Plural ( -s ), possessive ( 's ), noun suffixes ( -tion , -ness ) | Follows the\/a , takes adjective modifier, can be replaced by pronoun |  | Verb | Past tense ( -ed ), 3rd singular ( -s ), -ing form | Follows can\/will\/might , follows to , can be negated |  | Adjective | Comparative\/superlative ( -er\/-est ), -ish , forms adverb with -ly | Between the and noun, after be\/seem , modified by very |  | Adverb | Often -ly , some comparatives | Modifies verbs\/adjectives\/adverbs\/sentences, cannot go between the and noun |   Phrase Types   Each word class has an associated phrase type with the word as its head :  | Phrase | Head | Example |  |--------|------|---------|  | Noun phrase (NP) | Noun | the tall student from Ohio |  | Verb phrase (VP) | Verb | read the book carefully |  | Adjective phrase (AdjP) | Adjective | very proud of her work |  | Adverb phrase (AdvP) | Adverb | very quickly |   Analysis Process    Identify form : What part of speech is this word typically? Apply morphological and syntactic tests.  Identify function : What role is it playing in this sentence? Is it modifying something? Acting as subject or object?  Note mismatches : If form and function differ, identify both. ( The poor = adjective form, nominal function)   "
+  "body": " Summary: Identifying Open-Class Words  This chapter has covered a lot of ground. Here's a quick reference to help you identify word classes and apply the dual-identification principle.   The Dual-Identification Principle   Always ask both questions:   What IS this word? (form—its part of speech)  What is this word DOING? (function—its role in this sentence)    Quick Reference Tests     Part of Speech  Key Morphological Tests  Key Syntactic Tests    Noun  Plural ( -s ), possessive ( 's ), noun suffixes ( -tion , -ness )  Follows the\/a , takes adjective modifier, can be replaced by pronoun    Verb  Past tense ( -ed ), 3rd singular ( -s ), -ing form  Follows can\/will\/might , follows to , can be negated    Adjective  Comparative\/superlative ( -er\/-est ), -ish , forms adverb with -ly  Between the and noun, after be\/seem , modified by very    Adverb  Often -ly , some comparatives  Modifies verbs\/adjectives\/adverbs\/sentences, cannot go between the and noun     Phrase Types   Each word class has an associated phrase type with the word as its head :    Phrase  Head  Example    Noun phrase (NP)  Noun  the tall student from Ohio    Verb phrase (VP)  Verb  read the book carefully    Adjective phrase (AdjP)  Adjective  very proud of her work    Adverb phrase (AdvP)  Adverb  very quickly     Analysis Process    Identify form : What part of speech is this word typically? Apply morphological and syntactic tests.  Identify function : What role is it playing in this sentence? Is it modifying something? Acting as subject or object?  Note mismatches : If form and function differ, identify both. ( The poor = adjective form, nominal function)   "
 },
 {
-  "id": "ch-05-homework",
+  "id": "ch-05-open-classes-10",
   "level": "1",
-  "url": "ch-05-homework.html",
-  "type": "Section",
-  "number": "5.8",
-  "title": "Homework: Open Classes",
-  "body": " Homework: Open Classes   Part 1: Word Class Identification (approx. 10 minutes)  Instructions: For each underlined word, identify its part of speech (noun, verb, adjective, or adverb) using at least one morphological or syntactic test from the chapter. State which test you used.  Example (completed):  Word:  carefully in \"She carefully reviewed the document.\"  Part of speech: Adverb  Test used: The -ly suffix test. \"Carefully\" is formed by adding -ly to the adjective \"careful,\" which is a reliable pattern for adverbs. Additionally, it modifies the verb \"reviewed,\" telling us how she reviewed.  1.  The development of new technology takes time.  Part of speech:  Test used:  2.  She quickly solved the problem.  Part of speech:  Test used:  3.  The beautiful garden attracted visitors.  Part of speech:  Test used:  4.  The committee will investigate the matter.  Part of speech:  Test used:  5.  His response was surprisingly confident.  Part of speech:  Test used:    Part 2: Form vs. Function Analysis (approx. 10 minutes)  Instructions: For each sentence, identify the form (part of speech) and the function (grammatical role) of the underlined word. Remember the dual-identification principle: form is what the word IS; function is what the word DOES.  Example (completed):  Sentence:  The rich often have different concerns.  Word: rich  Form: Adjective (it can be graded: richer, richest; it can be modified by \"very\": very rich)  Function: Nominal (functioning as a noun--it follows the determiner \"the,\" serves as the subject of the sentence, and refers to a group of people)  6.  She gave him a cold look.  Word: cold  Form:  Function:  7.  The morning walk refreshed her.  Word: walk  Form:  Function:  8.  He ran fast to catch the bus.  Word: fast  Form:  Function:  9.  The stone wall surrounded the garden.  Word: stone  Form:  Function:  10.  The wounded were taken to the hospital.  Word: wounded  Form:  Function:    Part 3: Phrase Construction (approx. 5 minutes)  Instructions: For each head word provided, build a phrase of the specified type. Include at least two modifiers (pre-modifiers, post-modifiers, or both).  Example (completed):  Head:  teacher (build a noun phrase)  Noun phrase: the experienced history teacher from the local high school  Components: Det (the) + Adj (experienced) + N modifier (history) + Head N (teacher) + PP (from the local high school)  11. Head: decision (build a noun phrase)  Noun phrase:  Components:  12. Head: proud (build an adjective phrase)  Adjective phrase:  Components:  13. Head: quickly (build an adverb phrase)  Adverb phrase:  Components:    Part 4: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each prompt. Underline the requested element.  14. Write a sentence using a noun formed with the suffix -ment :  15. Write a sentence using an adjective in predicative position (after a linking verb like be , seem , or become ):  16. Write a sentence where an adverb modifies an adjective (not a verb):  17. Write a sentence where a noun functions adjectivally (modifying another noun):    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Read the passage below and answer the questions that follow.  Passage:  The elderly deserve our respect and consideration. A daily exercise routine significantly improves overall health. The government's new environmental policy cautiously addresses industrial pollution concerns.  18. Find two examples in the passage where form and function differ. For each, identify the word, state its form (part of speech), and explain its function in that sentence.  Example 1:  Word:  Form:  Function:  Explanation:  Example 2:  Word:  Form:  Function:  Explanation:  19. Identify the head and all modifiers in the following noun phrase from the passage:  the government's new environmental policy  Head:  Pre-modifiers (list each and identify its type--determiner, adjective, noun, etc.):  20. In 3-4 sentences, explain why understanding the distinction between form and function is important for grammatical analysis. Use a specific example from the passage or create your own to illustrate your point.   Total estimated time: 30-40 minutes  "
-},
-{
-  "id": "ch-05-homework-2-2",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-05-homework-2-3",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-05-homework-2-4",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Word: carefully "
-},
-{
-  "id": "ch-05-homework-2-7",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. development "
-},
-{
-  "id": "ch-05-homework-2-10",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. quickly "
-},
-{
-  "id": "ch-05-homework-2-13",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-13",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. beautiful "
-},
-{
-  "id": "ch-05-homework-2-16",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. investigate "
-},
-{
-  "id": "ch-05-homework-2-19",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-19",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. surprisingly "
-},
-{
-  "id": "ch-05-homework-3-2",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-3-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-05-homework-3-3",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-05-homework-3-4",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-3-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentence: rich "
-},
-{
-  "id": "ch-05-homework-3-8",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-3-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. cold "
-},
-{
-  "id": "ch-05-homework-3-12",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-3-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. walk "
-},
-{
-  "id": "ch-05-homework-3-16",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-3-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. fast "
-},
-{
-  "id": "ch-05-homework-3-20",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-3-20",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. stone "
-},
-{
-  "id": "ch-05-homework-3-24",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-3-24",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. wounded "
-},
-{
-  "id": "ch-05-homework-4-2",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-4-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-05-homework-4-3",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-05-homework-4-4",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Head: "
-},
-{
-  "id": "ch-05-homework-4-7",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-4-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-05-homework-4-10",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-4-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-05-homework-4-13",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-4-13",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-05-homework-5-2",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-5-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-05-homework-5-3",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-05-homework-5-4",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-05-homework-5-5",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-5-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "16. "
-},
-{
-  "id": "ch-05-homework-5-6",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-5-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "17. "
-},
-{
-  "id": "ch-05-homework-6-2",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-6-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-05-homework-6-3",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Passage: "
-},
-{
-  "id": "ch-05-homework-6-5",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-6-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "18. "
-},
-{
-  "id": "ch-05-homework-6-16",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-6-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "19. "
-},
-{
-  "id": "ch-05-homework-6-20",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-6-20",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "20. "
-},
-{
-  "id": "ch-05-open-classes-11",
-  "level": "1",
-  "url": "ch-05-open-classes-11.html",
+  "url": "ch-05-open-classes-10.html",
   "type": "Glossary",
-  "number": "5.9",
+  "number": "5.8",
   "title": "Glossary",
   "body": " Glossary   Adjective  An open-class word that typically modifies nouns and can be graded (comparative\/superlative).    Adjective phrase (AdjP)  A phrase built around an adjective head, often with degree modifiers.    Adverb  An open-class word that modifies verbs, adjectives, other adverbs, or sentences.    Adverb phrase (AdvP)  A phrase built around an adverb head.    Attributive position  The position directly before a noun, where adjectives typically appear ( the tall man ).    Dual-identification principle  The practice of identifying both a word's form (part of speech) and its function (role in the sentence) when analyzing grammar.    Form  A word's inherent grammatical category based on its morphology and typical behavior.    Function  The grammatical role a word or phrase plays in a particular sentence.    Head  The central, obligatory element of a phrase that determines its category.    Modifier  An optional element that adds information about the head.    Morphological test  A test based on the forms a word can take (plural, tense, etc.).    Noun  An open-class word that can be pluralized, possess, and follow determiners.    Noun phrase (NP)  A phrase built around a noun head, with optional determiners and modifiers.    Open class  A word category that freely accepts new members (nouns, verbs, adjectives, adverbs).    Predicative position  The position after a linking verb, where adjectives describe the subject ( The man is tall ).    Syntactic test  A test based on how a word behaves in sentences.    Verb  An open-class word that can be inflected for tense and determines the structure of the sentence.    Verb phrase (VP)  A phrase built around a verb head, containing the verb and any required complements.   "
 },
@@ -898,7 +313,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.1",
   "title": "Open vs. Closed Classes",
-  "body": " Open vs. Closed Classes  Chapter 5 introduced open classes —word categories that freely accept new members (nouns, verbs, adjectives, adverbs). This chapter examines closed classes —word categories with a fixed membership that rarely changes.   Closed Classes Defined   Closed classes resist new members. They contain a fixed (or nearly fixed) inventory of words that has remained stable for centuries:   Determiners : the , a , this , my , every , some ...  Pronouns : I , you , he , she , it , we , they ...  Prepositions : in , on , at , to , from , with ...  Conjunctions : and , but , or , if , because , although ...  Auxiliary verbs : be , have , do , can , will , might ...   When did English last add a new preposition? A new pronoun? These classes have been essentially stable for centuries. Even the gradual acceptance of singular they represents an expansion of function, not a new word.   Why the Difference Matters   Closed-class words differ from open-class words in important ways:  Function vs. content : Open-class words carry most of the content meaning—ideas, actions, qualities. Closed-class words carry grammatical meaning—they show relationships, specify reference, and connect elements.  | Open-class (content-rich) | Closed-class (grammatical) |  |---------------------------|---------------------------|  | student , discovered , ancient | the , in , she , and , have |  Memorization vs. productivity : Because closed classes are small, speakers memorize every member. Open classes are too large for complete memorization.  Processing : Psycholinguistic research suggests that closed-class words are processed differently—retrieved as whole units rather than assembled from parts.  This chapter focuses on three closed classes essential for understanding sentence structure: determiners, pronouns, and prepositions.  "
+  "body": " Open vs. Closed Classes  Chapter 5 introduced open classes —word categories that freely accept new members (nouns, verbs, adjectives, adverbs). This chapter examines closed classes —word categories with a fixed membership that rarely changes.   Closed Classes Defined   Closed classes resist new members. They contain a fixed (or nearly fixed) inventory of words that has remained stable for centuries:   Determiners : the , a , this , my , every , some ...  Pronouns : I , you , he , she , it , we , they ...  Prepositions : in , on , at , to , from , with ...  Conjunctions : and , but , or , if , because , although ...  Auxiliary verbs : be , have , do , can , will , might ...   When did English last add a new preposition? A new pronoun? These classes have been essentially stable for centuries. Even the gradual acceptance of singular they represents an expansion of function, not a new word.   Why the Difference Matters   Closed-class words differ from open-class words in important ways:  Function vs. content : Open-class words carry most of the content meaning—ideas, actions, qualities. Closed-class words carry grammatical meaning—they show relationships, specify reference, and connect elements.    Open-class (content-rich)  Closed-class (grammatical)    student , discovered , ancient  the , in , she , and , have    Memorization vs. productivity : Because closed classes are small, speakers memorize every member. Open classes are too large for complete memorization.  Processing : Psycholinguistic research suggests that closed-class words are processed differently—retrieved as whole units rather than assembled from parts.  This chapter focuses on three closed classes essential for understanding sentence structure: determiners, pronouns, and prepositions.  "
 },
 {
   "id": "ch-06-closed-classes-sec-62",
@@ -907,7 +322,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.2",
   "title": "Determiners",
-  "body": " Determiners  Determiners introduce noun phrases and help specify reference—they help listeners identify which entity or entities the speaker means.   What Determiners Do   When you hear \"I saw a dog,\" the determiner a signals that the dog is being introduced for the first time (indefinite reference). When you hear \"I saw the dog,\" the signals that you should already know which dog (definite reference).  Determiners answer questions like:   Which one? ( the , this , that )  How many? ( three , several , many )  Whose? ( my , the professor's )  Which subset? ( some , any , every , no )    Types of Determiners   Articles —the most common determiners:   Definite article ( the ): The referent is identifiable to the listener  Indefinite articles ( a , an ): The referent is being introduced or is unspecified   Demonstratives —point to specific entities:   Near : this , these (close to speaker)  Far : that , those (farther from speaker)   Possessives —indicate ownership or relationship:   Pronoun forms : my , your , his , her , its , our , their  Noun + 's : John's , the dog's , my sister's   Quantifiers —indicate amount or quantity:   Universal : all , every , each , both  Existential : some , any , no  Degree : many , much , few , little , several , enough   Numbers :   Cardinal : one , two , three ...  Ordinal : first , second , third ...   Interrogative\/Relative : which , what , whose   Determiner Position   Determiners occupy a specific position in the noun phrase—they come first, before any adjectives:  ```  Det + (Adj) + N  the big dog  my old friend  some fresh bread  ```  Important : Most determiners are mutually exclusive—you cannot stack them:   ~~the my book~~  ~~this the student~~  ~~a every dog~~   However, some combinations are allowed:   all the students (predeterminer + article)  both my parents (predeterminer + possessive)  the first three chapters (article + ordinal + cardinal)    Determiners vs. Adjectives   Determiners and adjectives both appear before nouns, but they differ systematically:  | Feature | Determiners | Adjectives |  |---------|-------------|------------|  | Class membership | Closed | Open |  | Position | First (before adjectives) | After determiners |  | Function | Specify reference | Describe qualities |  | Stacking | Limited combinations | Multiple allowed |  | Obligatoriness | Often required | Always optional |  | Gradable | Usually not ( ~~very the~~ ) | Usually yes ( very tall ) |  Compare:   The is required for singular count nouns in many contexts: ~~Book is on table.~~  Interesting is always optional: The book is on the table.    Count vs. Mass Nouns and Determiners   Determiner choice interacts with whether a noun is count (discrete entities) or mass (undifferentiated substance):  | Determiner | Count Singular | Count Plural | Mass |  |------------|----------------|--------------|------|  | a\/an | ✓ a book | ✗ | ✗ |  | the | ✓ the book | ✓ the books | ✓ the water |  | this\/that | ✓ this book | ✗ | ✓ this water |  | these\/those | ✗ | ✓ these books | ✗ |  | some | ✗ | ✓ some books | ✓ some water |  | many | ✗ | ✓ many books | ✗ |  | much | ✗ | ✗ | ✓ much water |  These patterns are systematic—native speakers follow them automatically.  "
+  "body": " Determiners  Determiners introduce noun phrases and help specify reference—they help listeners identify which entity or entities the speaker means.   What Determiners Do   When you hear \"I saw a dog,\" the determiner a signals that the dog is being introduced for the first time (indefinite reference). When you hear \"I saw the dog,\" the signals that you should already know which dog (definite reference).  Determiners answer questions like:   Which one? ( the , this , that )  How many? ( three , several , many )  Whose? ( my , the professor's )  Which subset? ( some , any , every , no )    Types of Determiners   Articles —the most common determiners:   Definite article ( the ): The referent is identifiable to the listener  Indefinite articles ( a , an ): The referent is being introduced or is unspecified   Demonstratives —point to specific entities:   Near : this , these (close to speaker)  Far : that , those (farther from speaker)   Possessives —indicate ownership or relationship:   Pronoun forms : my , your , his , her , its , our , their  Noun + 's : John's , the dog's , my sister's   Quantifiers —indicate amount or quantity:   Universal : all , every , each , both  Existential : some , any , no  Degree : many , much , few , little , several , enough   Numbers :   Cardinal : one , two , three ...  Ordinal : first , second , third ...   Interrogative\/Relative : which , what , whose   Determiner Position   Determiners occupy a specific position in the noun phrase—they come first, before any adjectives:  ```  Det + (Adj) + N  the big dog  my old friend  some fresh bread  ```  Important : Most determiners are mutually exclusive—you cannot stack them:   ~~the my book~~  ~~this the student~~  ~~a every dog~~   However, some combinations are allowed:   all the students (predeterminer + article)  both my parents (predeterminer + possessive)  the first three chapters (article + ordinal + cardinal)    Determiners vs. Adjectives   Determiners and adjectives both appear before nouns, but they differ systematically:    Feature  Determiners  Adjectives    Class membership  Closed  Open    Position  First (before adjectives)  After determiners    Function  Specify reference  Describe qualities    Stacking  Limited combinations  Multiple allowed    Obligatoriness  Often required  Always optional    Gradable  Usually not ( ~~very the~~ )  Usually yes ( very tall )    Compare:   The is required for singular count nouns in many contexts: ~~Book is on table.~~  Interesting is always optional: The book is on the table.    Count vs. Mass Nouns and Determiners   Determiner choice interacts with whether a noun is count (discrete entities) or mass (undifferentiated substance):    Determiner  Count Singular  Count Plural  Mass    a\/an  ✓ a book  ✗  ✗    the  ✓ the book  ✓ the books  ✓ the water    this\/that  ✓ this book  ✗  ✓ this water    these\/those  ✗  ✓ these books  ✗    some  ✗  ✓ some books  ✓ some water    many  ✗  ✓ many books  ✗    much  ✗  ✗  ✓ much water    These patterns are systematic—native speakers follow them automatically.  "
 },
 {
   "id": "ch-06-closed-classes-sec-63",
@@ -916,7 +331,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.3",
   "title": "Pronouns",
-  "body": " Pronouns  Pronouns replace noun phrases. They allow speakers to refer to entities without repeating full NPs—crucial for efficient communication.   Why Pronouns Exist   Imagine language without pronouns:  Maria said that Maria wanted Maria's book back, but John told Maria that John had already returned Maria's book to Maria's office.  Now with pronouns:  Maria said that she wanted her book back, but John told her that he had already returned it to her office.  Pronouns reduce redundancy and improve processing. But they require listeners to track what each pronoun refers to—its antecedent .   Personal Pronouns   Personal pronouns are the most common type. They vary for:   Person : 1st (speaker), 2nd (addressee), 3rd (other)  Number : singular vs. plural  Case : subject vs. object vs. possessive  Gender (3rd person singular): masculine, feminine, neuter   | Person | Subject | Object | Possessive Det | Possessive Pro |  |--------|---------|--------|----------------|----------------|  | 1st sg | I | me | my | mine |  | 2nd sg | you | you | your | yours |  | 3rd sg masc | he | him | his | his |  | 3rd sg fem | she | her | her | hers |  | 3rd sg neut | it | it | its | — |  | 1st pl | we | us | our | ours |  | 2nd pl | you | you | your | yours |  | 3rd pl | they | them | their | theirs |  Case matters : Use subject forms for subjects, object forms for objects:   Subject: She left. (not ~~Her left.~~ )  Object: I saw her . (not ~~I saw she.~~ )  After preposition: with me (not ~~with I~~ )   Singular \"they\" : Increasingly accepted for indefinite reference and for people who don't identify as he or she:   Someone left their book. (indefinite)  Alex said they would come. (nonbinary reference)    Reflexive Pronouns   Reflexive pronouns end in -self (singular) or -selves (plural):  myself, yourself, himself, herself, itself, ourselves, yourselves, themselves  They are used when the object refers to the same entity as the subject:   She hurt herself . (she = herself)  They saw themselves in the mirror.   Reflexives cannot be subjects and require an antecedent in the same clause:   ~~ Himself arrived.~~  ~~I saw herself .~~ (no matching antecedent)    Demonstrative Pronouns   This , that , these , those can function as pronouns (standing alone) or determiners (with a noun):   Pronoun : This is interesting.  Those are mine.  Determiner : This book is interesting.  Those books are mine.   As pronouns, demonstratives typically refer to things just mentioned, about to be mentioned, or physically present.   Interrogative Pronouns   Question words that stand for unknown NPs:   Who\/whom (people): Who called?  I saw whom ?  What (things): What happened?  Which (selective): Which do you want?  Whose (possession): Whose is this?   Who vs. whom : Traditional grammar requires whom as object ( Whom did you see? ), but modern English often uses who in all positions except after prepositions ( To whom remains preferred over To who ).   Relative Pronouns   Relative pronouns introduce relative clauses:   who\/whom\/whose (people): the man who arrived  which (things): the book which I read  that (people or things): the person that called   The relative pronoun connects the clause to its antecedent and plays a grammatical role within the clause:  The student who won the prize... ( who = subject of won )  The book that I read... ( that = object of read )   Indefinite Pronouns   Pronouns that refer to unspecified entities:  | Type | Examples |  |------|----------|  | Universal | everyone , everybody , everything , all , each , both |  | Existential | someone , somebody , something , some , any |  | Negative | no one , nobody , nothing , none |  Many indefinites are grammatically singular even when semantically plural:   Everyone is here. (not ~~Everyone are~~ )  Each of the students has arrived.   "
+  "body": " Pronouns  Pronouns replace noun phrases. They allow speakers to refer to entities without repeating full NPs—crucial for efficient communication.   Why Pronouns Exist   Imagine language without pronouns:  Maria said that Maria wanted Maria's book back, but John told Maria that John had already returned Maria's book to Maria's office.  Now with pronouns:  Maria said that she wanted her book back, but John told her that he had already returned it to her office.  Pronouns reduce redundancy and improve processing. But they require listeners to track what each pronoun refers to—its antecedent .   Personal Pronouns   Personal pronouns are the most common type. They vary for:   Person : 1st (speaker), 2nd (addressee), 3rd (other)  Number : singular vs. plural  Case : subject vs. object vs. possessive  Gender (3rd person singular): masculine, feminine, neuter     Person  Subject  Object  Possessive Det  Possessive Pro    1st sg  I  me  my  mine    2nd sg  you  you  your  yours    3rd sg masc  he  him  his  his    3rd sg fem  she  her  her  hers    3rd sg neut  it  it  its  —    1st pl  we  us  our  ours    2nd pl  you  you  your  yours    3rd pl  they  them  their  theirs    Case matters : Use subject forms for subjects, object forms for objects:   Subject: She left. (not ~~Her left.~~ )  Object: I saw her . (not ~~I saw she.~~ )  After preposition: with me (not ~~with I~~ )   Singular \"they\" : Increasingly accepted for indefinite reference and for people who don't identify as he or she:   Someone left their book. (indefinite)  Alex said they would come. (nonbinary reference)    Reflexive Pronouns   Reflexive pronouns end in -self (singular) or -selves (plural):  myself, yourself, himself, herself, itself, ourselves, yourselves, themselves  They are used when the object refers to the same entity as the subject:   She hurt herself . (she = herself)  They saw themselves in the mirror.   Reflexives cannot be subjects and require an antecedent in the same clause:   ~~ Himself arrived.~~  ~~I saw herself .~~ (no matching antecedent)    Demonstrative Pronouns   This , that , these , those can function as pronouns (standing alone) or determiners (with a noun):   Pronoun : This is interesting.  Those are mine.  Determiner : This book is interesting.  Those books are mine.   As pronouns, demonstratives typically refer to things just mentioned, about to be mentioned, or physically present.   Interrogative Pronouns   Question words that stand for unknown NPs:   Who\/whom (people): Who called?  I saw whom ?  What (things): What happened?  Which (selective): Which do you want?  Whose (possession): Whose is this?   Who vs. whom : Traditional grammar requires whom as object ( Whom did you see? ), but modern English often uses who in all positions except after prepositions ( To whom remains preferred over To who ).   Relative Pronouns   Relative pronouns introduce relative clauses:   who\/whom\/whose (people): the man who arrived  which (things): the book which I read  that (people or things): the person that called   The relative pronoun connects the clause to its antecedent and plays a grammatical role within the clause:  The student who won the prize... ( who = subject of won )  The book that I read... ( that = object of read )   Indefinite Pronouns   Pronouns that refer to unspecified entities:    Type  Examples    Universal  everyone , everybody , everything , all , each , both    Existential  someone , somebody , something , some , any    Negative  no one , nobody , nothing , none    Many indefinites are grammatically singular even when semantically plural:   Everyone is here. (not ~~Everyone are~~ )  Each of the students has arrived.   "
 },
 {
   "id": "ch-06-closed-classes-sec-64",
@@ -925,7 +340,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.4",
   "title": "Prepositions and Prepositional Phrases",
-  "body": " Prepositions and Prepositional Phrases  Prepositions are closed-class words that show relationships—typically spatial, temporal, or logical—between elements in a sentence. They combine with noun phrases to form prepositional phrases (PPs) .   Identifying Prepositions   A traditional mnemonic says prepositions describe \"anywhere a cat can be\": in the box, on the table, under the chair, beside the sofa, near the window, through the door...  But prepositions express much more than spatial relationships:  | Category | Examples |  |----------|----------|  | Spatial | in , on , at , above , below , under , over , between , among , through , across , behind , beside , near , toward |  | Temporal | before , after , during , since , until , throughout |  | Logical\/Abstract | of , for , with , by , about , without , despite , concerning , regarding |  Complex prepositions are multi-word units that function as single prepositions:   because of , instead of , in spite of  according to , due to , prior to  in front of , on top of , in addition to    Prepositional Phrase Structure   A prepositional phrase consists of a preposition plus its object (typically a noun phrase):  ```  PP → Prep + NP  in the morning  on the tall wooden table  to my best friend  from the old house on the corner  about the recent controversy  ```  The object of the preposition can be:   A simple noun: in town  A complex NP: in the busy downtown area  A pronoun: with her (object form required)  A gerund: after leaving , without knowing    PP Functions: Adjectival vs. Adverbial   Prepositional phrases function as modifiers —either adjectival (modifying nouns) or adverbial (modifying verbs, adjectives, or sentences). Understanding this distinction is essential for accurate sentence analysis.  #### Adjectival PPs  Adjectival PPs modify nouns, answering \"which one?\" or \"what kind?\":   the man in the hat (which man?)  a book about grammar (what kind of book?)  the house on the corner (which house?)  a sense of accomplishment (what kind of sense?)   Adjectival PPs follow the noun they modify and remain part of the noun phrase:  ```  NP  ├── Det: the  ├── N: man  └── PP: in the hat (adjectival—modifies \"man\")  ```  Key characteristic : Adjectival PPs are embedded within the NP. When you replace the NP with a pronoun, the PP disappears:   The man in the hat waved. → He waved.   #### Adverbial PPs  Adverbial PPs modify verbs (or whole sentences), providing information about time, place, manner, reason, etc.:   She arrived at noon . (when?)  He works in the office . (where?)  They spoke with enthusiasm . (how?)  We left because of the weather . (why?)  In the morning , we will leave. (when?)   Adverbial PPs attach to the verb phrase, not to any particular noun:  ```  S  ├── NP: She  └── VP  ├── V: waited  └── PP: in the lobby (adverbial—modifies \"waited\")  ```  Key characteristic : Adverbial PPs can often move to different positions in the sentence:   She waited in the lobby .  In the lobby , she waited.    Distinguishing Adjectival from Adverbial PPs   The key question: What does the PP modify?  Test 1: What question does it answer?   \"Which man?\" → adjectival ( the man in the hat )  \"Where\/when\/how?\" → adverbial ( waited in the hall )   Test 2: Can it move to sentence-initial position?   Adverbial PPs often can: In the morning , we left.  Adjectival PPs typically cannot: ~~ In the hat , the man waved.~~   Test 3: Does the noun phrase make sense without it?   If removing the PP leaves a sensible (if less specific) NP, it's adjectival: The man waved. (works—which man is less clear)  If the PP provides information about the action itself, it's adverbial    Ambiguous PP Attachment   Some sentences are ambiguous because the PP could attach to either the NP or the VP:  She saw the man with binoculars.   Adjectival reading : \"the man who had binoculars\" (PP modifies man )  Adverbial reading : \"she used binoculars to see him\" (PP modifies saw )   He discussed the problem with the professor.   Adjectival reading : \"the problem that involves the professor\"  Adverbial reading : \"he discussed it alongside the professor\"   In speech, context usually resolves such ambiguity. In writing, you may need to restructure for clarity:   She saw the man who had binoculars. (adjectival)  Using binoculars, she saw the man. (adverbial)    Multiple PPs in a Sentence   Sentences often contain multiple prepositional phrases with different functions:  The student from Colorado studied in the library  for three hours .   from Colorado : adjectival (modifies student —which student?)  in the library : adverbial (modifies studied —where?)  for three hours : adverbial (modifies studied —how long?)    Prepositions vs. Other Categories   Preposition or particle?  Some words that look like prepositions are actually particles —part of phrasal verbs:   She looked up the word. (particle—part of look up )  She looked up the chimney. (preposition— up the chimney is a PP)   Test : Can you move it after the object?   She looked the word up . ✓ (particle)  ~~She looked the chimney up .~~ ✗ (preposition)   Preposition or subordinating conjunction?  Some words can be either:   I left before noon. ( before = preposition; noon = NP object)  I left before she arrived. ( before = conjunction; introduces clause)   "
+  "body": " Prepositions and Prepositional Phrases  Prepositions are closed-class words that show relationships—typically spatial, temporal, or logical—between elements in a sentence. They combine with noun phrases to form prepositional phrases (PPs) .   Identifying Prepositions   A traditional mnemonic says prepositions describe \"anywhere a cat can be\": in the box, on the table, under the chair, beside the sofa, near the window, through the door...  But prepositions express much more than spatial relationships:    Category  Examples    Spatial  in , on , at , above , below , under , over , between , among , through , across , behind , beside , near , toward    Temporal  before , after , during , since , until , throughout    Logical\/Abstract  of , for , with , by , about , without , despite , concerning , regarding    Complex prepositions are multi-word units that function as single prepositions:   because of , instead of , in spite of  according to , due to , prior to  in front of , on top of , in addition to    Prepositional Phrase Structure   A prepositional phrase consists of a preposition plus its object (typically a noun phrase):  ```  PP → Prep + NP  in the morning  on the tall wooden table  to my best friend  from the old house on the corner  about the recent controversy  ```  The object of the preposition can be:   A simple noun: in town  A complex NP: in the busy downtown area  A pronoun: with her (object form required)  A gerund: after leaving , without knowing    PP Functions: Adjectival vs. Adverbial   Prepositional phrases function as modifiers —either adjectival (modifying nouns) or adverbial (modifying verbs, adjectives, or sentences). Understanding this distinction is essential for accurate sentence analysis.  #### Adjectival PPs  Adjectival PPs modify nouns, answering \"which one?\" or \"what kind?\":   the man in the hat (which man?)  a book about grammar (what kind of book?)  the house on the corner (which house?)  a sense of accomplishment (what kind of sense?)   Adjectival PPs follow the noun they modify and remain part of the noun phrase:  ```  NP  ├── Det: the  ├── N: man  └── PP: in the hat (adjectival—modifies \"man\")  ```  Key characteristic : Adjectival PPs are embedded within the NP. When you replace the NP with a pronoun, the PP disappears:   The man in the hat waved. → He waved.   #### Adverbial PPs  Adverbial PPs modify verbs (or whole sentences), providing information about time, place, manner, reason, etc.:   She arrived at noon . (when?)  He works in the office . (where?)  They spoke with enthusiasm . (how?)  We left because of the weather . (why?)  In the morning , we will leave. (when?)   Adverbial PPs attach to the verb phrase, not to any particular noun:  ```  S  ├── NP: She  └── VP  ├── V: waited  └── PP: in the lobby (adverbial—modifies \"waited\")  ```  Key characteristic : Adverbial PPs can often move to different positions in the sentence:   She waited in the lobby .  In the lobby , she waited.    Distinguishing Adjectival from Adverbial PPs   The key question: What does the PP modify?  Test 1: What question does it answer?   \"Which man?\" → adjectival ( the man in the hat )  \"Where\/when\/how?\" → adverbial ( waited in the hall )   Test 2: Can it move to sentence-initial position?   Adverbial PPs often can: In the morning , we left.  Adjectival PPs typically cannot: ~~ In the hat , the man waved.~~   Test 3: Does the noun phrase make sense without it?   If removing the PP leaves a sensible (if less specific) NP, it's adjectival: The man waved. (works—which man is less clear)  If the PP provides information about the action itself, it's adverbial    Ambiguous PP Attachment   Some sentences are ambiguous because the PP could attach to either the NP or the VP:  She saw the man with binoculars.   Adjectival reading : \"the man who had binoculars\" (PP modifies man )  Adverbial reading : \"she used binoculars to see him\" (PP modifies saw )   He discussed the problem with the professor.   Adjectival reading : \"the problem that involves the professor\"  Adverbial reading : \"he discussed it alongside the professor\"   In speech, context usually resolves such ambiguity. In writing, you may need to restructure for clarity:   She saw the man who had binoculars. (adjectival)  Using binoculars, she saw the man. (adverbial)    Multiple PPs in a Sentence   Sentences often contain multiple prepositional phrases with different functions:  The student from Colorado studied in the library  for three hours .   from Colorado : adjectival (modifies student —which student?)  in the library : adverbial (modifies studied —where?)  for three hours : adverbial (modifies studied —how long?)    Prepositions vs. Other Categories   Preposition or particle?  Some words that look like prepositions are actually particles —part of phrasal verbs:   She looked up the word. (particle—part of look up )  She looked up the chimney. (preposition— up the chimney is a PP)   Test : Can you move it after the object?   She looked the word up . ✓ (particle)  ~~She looked the chimney up .~~ ✗ (preposition)   Preposition or subordinating conjunction?  Some words can be either:   I left before noon. ( before = preposition; noon = NP object)  I left before she arrived. ( before = conjunction; introduces clause)   "
 },
 {
   "id": "ch-06-closed-classes-sec-65",
@@ -934,275 +349,14 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.5",
   "title": "Comparing the Three Classes",
-  "body": " Comparing the Three Classes  These three closed classes share important properties but differ in function:   Shared Properties   | Property | Determiners | Pronouns | Prepositions |  |----------|-------------|----------|--------------|  | Closed class | ✓ | ✓ | ✓ |  | Limited membership | ✓ | ✓ | ✓ |  | Grammatical function | ✓ | ✓ | ✓ |  | High frequency | ✓ | ✓ | ✓ |   Distinctive Functions   | Class | Primary Function |  |-------|------------------|  | Determiners | Specify reference within NPs |  | Pronouns | Replace entire NPs |  | Prepositions | Show relationships; head PPs |   How They Work Together   In a sentence like She gave the book to him , all three classes appear:   She (pronoun)—replaces a full NP as subject  the (determiner)—specifies which book  to (preposition)—shows relationship (recipient)  him (pronoun)—replaces a full NP as object of preposition   Each closed-class word does minimal semantic work but essential grammatical work—they're the glue that holds sentences together.  "
+  "body": " Comparing the Three Classes  These three closed classes share important properties but differ in function:   Shared Properties     Property  Determiners  Pronouns  Prepositions    Closed class  ✓  ✓  ✓    Limited membership  ✓  ✓  ✓    Grammatical function  ✓  ✓  ✓    High frequency  ✓  ✓  ✓     Distinctive Functions     Class  Primary Function    Determiners  Specify reference within NPs    Pronouns  Replace entire NPs    Prepositions  Show relationships; head PPs     How They Work Together   In a sentence like She gave the book to him , all three classes appear:   She (pronoun)—replaces a full NP as subject  the (determiner)—specifies which book  to (preposition)—shows relationship (recipient)  him (pronoun)—replaces a full NP as object of preposition   Each closed-class word does minimal semantic work but essential grammatical work—they're the glue that holds sentences together.  "
 },
 {
-  "id": "ch-06-homework",
+  "id": "ch-06-closed-classes-8",
   "level": "1",
-  "url": "ch-06-homework.html",
-  "type": "Section",
-  "number": "6.6",
-  "title": "Homework: Closed Classes",
-  "body": " Homework: Closed Classes   Part 1: Determiner and Pronoun Identification (approx. 10 minutes)  Instructions: For each sentence, identify and classify the requested closed-class words.  Example (completed):  Sentence:  My brother gave his old car to me.  Determiners: my (possessive), his (possessive), old is NOT a determiner--it's an adjective  Pronouns: me (personal pronoun, 1st person singular, object form)  1.  The ambitious student submitted her application to several universities.  Determiners (identify each and classify by type--article, demonstrative, possessive, quantifier, number):  Pronouns:  2.  Everyone who attended the conference received their materials before the first session.  Pronouns (identify each and classify by type--personal, relative, indefinite, possessive):  3.  Those books on the shelf belong to someone in this department.  Determiners:  Pronouns:  4.  Which candidate did the committee select for themselves?  Pronouns (identify and classify each):    Part 2: Prepositional Phrase Analysis (approx. 10 minutes)  Instructions: Identify all prepositional phrases in each sentence. For each PP, indicate whether it functions as adjectival (modifying a noun) or adverbial (modifying a verb or sentence), and state what question it answers.  Example (completed):  Sentence:  The professor from Harvard lectured about linguistics in the auditorium.  PP 1: from Harvard  Type: Adjectival (modifies \"professor\")  Question answered: Which professor?  PP 2: about linguistics  Type: Adverbial (modifies \"lectured\")  Question answered: About what? (topic)  PP 3: in the auditorium  Type: Adverbial (modifies \"lectured\")  Question answered: Where?  5.  The student with the red backpack studied in the library until midnight.  PP 1:  Type:  Question answered:  PP 2:  Type:  Question answered:  PP 3:  Type:  Question answered:  6.  A painting of the mountains hangs above the fireplace in the living room.  PP 1:  Type:  Question answered:  PP 2:  Type:  Question answered:  PP 3:  Type:  Question answered:  7.  During the meeting, the manager from the accounting department spoke with great enthusiasm about the new proposal.  Identify all PPs and classify each:    Part 3: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence by adding the requested element.  8. Add an adjectival prepositional phrase that modifies the noun book :  Original: The book won an award.  Your revision:  9. Add an adverbial prepositional phrase that indicates when:  Original: She completed the project.  Your revision:  10. Replace the underlined noun phrases with appropriate pronouns:  Original: Maria told John that Maria would return John's laptop to John tomorrow.  Your revision:    Part 4: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each prompt.  11. Write a sentence containing at least two prepositional phrases--one adjectival and one adverbial. Label each PP.  12. Write a sentence using a reflexive pronoun correctly:  13. Write a sentence that is structurally ambiguous because a prepositional phrase could attach to either the noun phrase or the verb phrase. Then explain both possible meanings.  Sentence:  Meaning 1 (adjectival attachment--PP modifies noun):  Meaning 2 (adverbial attachment--PP modifies verb):    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Read the passage below and answer the questions that follow.  Passage:  The researcher in the laboratory examined the sample with a powerful microscope. Her analysis of the results surprised everyone in the department. The findings that she published in a major journal challenged several assumptions about the process.  14. Identify four prepositional phrases from the passage. For each, state whether it is adjectival or adverbial, what it modifies, and what question it answers.  PP 1:  Phrase:  Type:  Modifies:  Question answered:  PP 2:  Phrase:  Type:  Modifies:  Question answered:  PP 3:  Phrase:  Type:  Modifies:  Question answered:  PP 4:  Phrase:  Type:  Modifies:  Question answered:  15. The phrase in the laboratory in the first sentence could potentially be interpreted as either adjectival or adverbial. Explain both possible interpretations and how you would determine which reading is intended.  Adjectival interpretation:  Adverbial interpretation:  How to determine the intended reading:  16. In the final sentence, identify the relative pronoun and its antecedent. What grammatical role does the relative pronoun play within its own clause?  Relative pronoun:  Antecedent:  Grammatical role within the relative clause:  17. In 3-4 sentences, explain why closed-class words (determiners, pronouns, prepositions) are important even though they carry less content meaning than open-class words. What would happen if we removed them from sentences?   Total estimated time: 30-40 minutes  "
-},
-{
-  "id": "ch-06-homework-2-2",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-06-homework-2-3",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-06-homework-2-4",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-2-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentence: "
-},
-{
-  "id": "ch-06-homework-2-7",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-2-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-06-homework-2-10",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-2-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-06-homework-2-12",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-2-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-06-homework-2-15",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-2-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-06-homework-3-2",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-3-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-06-homework-3-3",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-06-homework-3-4",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-3-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentence: "
-},
-{
-  "id": "ch-06-homework-3-14",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-3-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-06-homework-3-24",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-3-24",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-06-homework-3-34",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-3-34",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-06-homework-4-2",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-4-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-06-homework-4-3",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-06-homework-4-6",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-06-homework-4-9",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-4-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-06-homework-4-10",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-4-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "John Maria John's John "
-},
-{
-  "id": "ch-06-homework-5-2",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-5-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-06-homework-5-3",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-06-homework-5-4",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-06-homework-5-5",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-5-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-06-homework-6-2",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-6-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-06-homework-6-3",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Passage: "
-},
-{
-  "id": "ch-06-homework-6-5",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-6-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-06-homework-6-26",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-6-26",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-06-homework-6-30",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-6-30",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "16. "
-},
-{
-  "id": "ch-06-homework-6-34",
-  "level": "2",
-  "url": "ch-06-homework.html#ch-06-homework-6-34",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "17. "
-},
-{
-  "id": "ch-06-closed-classes-9",
-  "level": "1",
-  "url": "ch-06-closed-classes-9.html",
+  "url": "ch-06-closed-classes-8.html",
   "type": "Glossary",
-  "number": "6.7",
+  "number": "6.6",
   "title": "Glossary",
   "body": " Glossary   Adjectival function  The role of modifying a noun, answering \"which one?\" or \"what kind?\"    Adverbial function  The role of modifying a verb, adjective, adverb, or sentence, answering \"when?\" \"where?\" \"how?\" \"why?\"    Antecedent  The noun phrase that a pronoun refers to.    Article  A determiner that marks definiteness ( the ) or indefiniteness ( a , an ).    Closed class  A word class with fixed membership that rarely accepts new words.    Demonstrative  A word that points to specific entities ( this , that , these , those ).    Determiner  A closed-class word that introduces a noun phrase and specifies reference.    Indefinite pronoun  A pronoun referring to unspecified entities ( someone , everyone ).    Interrogative pronoun  A pronoun used in questions ( who , what , which ).    Object of preposition  The NP that follows and completes a preposition.    Personal pronoun  A pronoun indicating person, number, case, and (in 3rd person) gender.    Possessive  A form indicating ownership; can be determiner ( my ) or pronoun ( mine ).    Preposition  A closed-class word showing relationships, taking an NP complement to form a PP.    Prepositional phrase (PP)  A phrase consisting of a preposition and its object NP.    Pronoun  A closed-class word that replaces a noun phrase.    Quantifier  A determiner indicating amount or quantity ( some , all , many ).    Reflexive pronoun  A pronoun ending in -self\/-selves that refers back to the subject.    Relative pronoun  A pronoun introducing a relative clause ( who , which , that ).   "
 },
@@ -1222,7 +376,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.2",
   "title": "The Basic Structure of English Sentences",
-  "body": " The Basic Structure of English Sentences  Every English sentence—from the simplest to the most complex—shares a fundamental structure.   S → NP + VP   At its core, every sentence (S) divides into two parts:   A noun phrase (NP) functioning as the subject  A verb phrase (VP) functioning as the predicate   ```  S  \/ \\  NP VP  (subject) (predicate)  ```  The subject NP tells us who or what the sentence is about. The predicate VP tells us what the subject does, is, or experiences .  Consider these sentences:  | Sentence | Subject NP | Predicate VP |  |----------|-----------|--------------|  | Dogs bark. | Dogs | bark |  | The old man sat quietly. | The old man | sat quietly |  | My brilliant sister from Ohio won the prize. | My brilliant sister from Ohio | won the prize |  No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate ( The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before ...) and the predicate can become equally elaborate (... suddenly found herself standing on the stage of Carnegie Hall ). But the fundamental structure—subject NP plus predicate VP—persists.   What's in the NP?   A noun phrase is built around a noun (its head ). The simplest NP is just a noun or pronoun:   Dogs bark.  She arrived.   But NPs can include additional elements:   Determiners : the dog, my sister  Adjectives : the old dog, my brilliant sister  Prepositional phrases : the dog on the porch , my sister from Ohio  Relative clauses : the dog that barked , my sister who lives in Ohio   All of these elements cluster around the head noun, forming a unit—the noun phrase.   What's in the VP?   A verb phrase is built around a verb (its head ). The simplest VP is just a verb:   Dogs bark .  She arrived .   But VPs typically include additional elements:   Objects : She read the book .  Complements : He is a doctor . She became famous .  Adverbials : She arrived yesterday . He spoke loudly .   The verb phrase contains everything in the predicate—the verb itself plus whatever follows it.  "
+  "body": " The Basic Structure of English Sentences  Every English sentence—from the simplest to the most complex—shares a fundamental structure.   S → NP + VP   At its core, every sentence (S) divides into two parts:   A noun phrase (NP) functioning as the subject  A verb phrase (VP) functioning as the predicate   ```  S  \/ \\  NP VP  (subject) (predicate)  ```  The subject NP tells us who or what the sentence is about. The predicate VP tells us what the subject does, is, or experiences .  Consider these sentences:    Sentence  Subject NP  Predicate VP    Dogs bark.  Dogs  bark    The old man sat quietly.  The old man  sat quietly    My brilliant sister from Ohio won the prize.  My brilliant sister from Ohio  won the prize    No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate ( The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before ...) and the predicate can become equally elaborate (... suddenly found herself standing on the stage of Carnegie Hall ). But the fundamental structure—subject NP plus predicate VP—persists.   What's in the NP?   A noun phrase is built around a noun (its head ). The simplest NP is just a noun or pronoun:   Dogs bark.  She arrived.   But NPs can include additional elements:   Determiners : the dog, my sister  Adjectives : the old dog, my brilliant sister  Prepositional phrases : the dog on the porch , my sister from Ohio  Relative clauses : the dog that barked , my sister who lives in Ohio   All of these elements cluster around the head noun, forming a unit—the noun phrase.   What's in the VP?   A verb phrase is built around a verb (its head ). The simplest VP is just a verb:   Dogs bark .  She arrived .   But VPs typically include additional elements:   Objects : She read the book .  Complements : He is a doctor . She became famous .  Adverbials : She arrived yesterday . He spoke loudly .   The verb phrase contains everything in the predicate—the verb itself plus whatever follows it.  "
 },
 {
   "id": "ch-07-introduction-to-sentence-diagramming-sec-73",
@@ -1231,7 +385,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.3",
   "title": "Tree Diagrams: Reading and Interpreting",
-  "body": " Tree Diagrams: Reading and Interpreting  This textbook uses tree diagrams (also called phrase structure trees or constituent trees) to represent sentence structure. Tree diagrams show how words group into phrases and phrases group into larger structures.   The Components of a Tree   Nodes : Points in the tree, labeled with category symbols (S, NP, VP, N, V, etc.). Each node represents either a word or a phrase.  Branches : Lines connecting nodes, showing which elements belong together. Elements connected to the same higher node form a unit.  Dominance : A node dominates everything beneath it. The S node at the top dominates the entire sentence. An NP node dominates everything in that noun phrase.   Common Labels   | Label | Meaning | Examples |  |-------|---------|----------|  | S | Sentence | Complete clause |  | NP | Noun phrase | the dog , she , my old friend |  | VP | Verb phrase | runs , ate the sandwich , is happy |  | PP | Prepositional phrase | in the house , with enthusiasm |  | AdjP | Adjective phrase | very tall , happy |  | AdvP | Adverb phrase | quickly , very slowly |  | N | Noun | dog , happiness , Sarah |  | V | Verb | run , is , consider |  | Adj | Adjective | tall , blue , interesting |  | Adv | Adverb | quickly , never , there |  | Det | Determiner | the , a , my , this |  | Pro | Pronoun | she , it , they |  | Prep | Preposition | in , on , with , to |  | Conj | Conjunction | and , but , or |  | Aux | Auxiliary | has , will , been , can |   Reading a Simple Tree   Example : The dog barked.  ```  S  \/ \\  NP VP  \/ \\ |  Det N V  | | |  the dog barked  ```  Reading from the top:   The S (sentence) divides into NP and VP  The NP contains Det (determiner) + N (noun): \"the dog\"  The VP contains just V (verb): \"barked\"  The words themselves appear at the bottom   The tree shows that \"the\" and \"dog\" form a unit (the NP), and this unit is the subject of the verb \"barked.\"   A More Complex Example   Example : The young artist from Paris painted beautiful landscapes.  ```  S  ______|______  | |  NP VP  _______|_______ ___|____  | | | | | |  Det Adj N PP V NP  | | | | | __|__  the young artist | painted | |  PP Adj N  __|__ | |  | | beautiful landscapes  Prep NP  | |  from Paris  ```  This tree shows:   The subject NP contains: determiner + adjective + noun + prepositional phrase  The PP \"from Paris\" is inside the subject NP—it modifies \"artist\"  The VP contains: verb + object NP  The object NP contains: adjective + noun    Why Trees Show Hierarchy   Notice that the tree is not just a flat list of words. It shows grouping . \"The young artist from Paris\" is a unit; \"beautiful landscapes\" is a unit. These units can be moved, replaced, and manipulated as wholes.  For instance, you can replace the entire subject NP with a pronoun:   The young artist from Paris painted... → She painted...   You can move the entire object NP to the front for emphasis:   Beautiful landscapes , the young artist from Paris painted.   These operations work on constituents —groups that the tree identifies as units.  "
+  "body": " Tree Diagrams: Reading and Interpreting  This textbook uses tree diagrams (also called phrase structure trees or constituent trees) to represent sentence structure. Tree diagrams show how words group into phrases and phrases group into larger structures.   The Components of a Tree   Nodes : Points in the tree, labeled with category symbols (S, NP, VP, N, V, etc.). Each node represents either a word or a phrase.  Branches : Lines connecting nodes, showing which elements belong together. Elements connected to the same higher node form a unit.  Dominance : A node dominates everything beneath it. The S node at the top dominates the entire sentence. An NP node dominates everything in that noun phrase.   Common Labels     Label  Meaning  Examples    S  Sentence  Complete clause    NP  Noun phrase  the dog , she , my old friend    VP  Verb phrase  runs , ate the sandwich , is happy    PP  Prepositional phrase  in the house , with enthusiasm    AdjP  Adjective phrase  very tall , happy    AdvP  Adverb phrase  quickly , very slowly    N  Noun  dog , happiness , Sarah    V  Verb  run , is , consider    Adj  Adjective  tall , blue , interesting    Adv  Adverb  quickly , never , there    Det  Determiner  the , a , my , this    Pro  Pronoun  she , it , they    Prep  Preposition  in , on , with , to    Conj  Conjunction  and , but , or    Aux  Auxiliary  has , will , been , can     Reading a Simple Tree   Example : The dog barked.  ```  S  \/ \\  NP VP  \/ \\ |  Det N V  | | |  the dog barked  ```  Reading from the top:   The S (sentence) divides into NP and VP  The NP contains Det (determiner) + N (noun): \"the dog\"  The VP contains just V (verb): \"barked\"  The words themselves appear at the bottom   The tree shows that \"the\" and \"dog\" form a unit (the NP), and this unit is the subject of the verb \"barked.\"   A More Complex Example   Example : The young artist from Paris painted beautiful landscapes.  ```  S  ______|______  | |  NP VP  _______|_______ ___|____  | | | | | |  Det Adj N PP V NP  | | | | | __|__  the young artist | painted | |  PP Adj N  __|__ | |  | | beautiful landscapes  Prep NP  | |  from Paris  ```  This tree shows:   The subject NP contains: determiner + adjective + noun + prepositional phrase  The PP \"from Paris\" is inside the subject NP—it modifies \"artist\"  The VP contains: verb + object NP  The object NP contains: adjective + noun    Why Trees Show Hierarchy   Notice that the tree is not just a flat list of words. It shows grouping . \"The young artist from Paris\" is a unit; \"beautiful landscapes\" is a unit. These units can be moved, replaced, and manipulated as wholes.  For instance, you can replace the entire subject NP with a pronoun:   The young artist from Paris painted... → She painted...   You can move the entire object NP to the front for emphasis:   Beautiful landscapes , the young artist from Paris painted.   These operations work on constituents —groups that the tree identifies as units.  "
 },
 {
   "id": "ch-07-introduction-to-sentence-diagramming-sec-74",
@@ -1261,254 +415,11 @@ var ptx_lunr_docs = [
   "body": " Diagramming Conventions  This textbook follows standard conventions for tree diagrams.   Basic Conventions    Top-down structure : S is at the top; words are at the bottom  Binary branching preferred : Most nodes have two daughters, though some have more  Labels on every node : Each node is labeled with its category  Words as terminals : Actual words appear only at the bottom of the tree  Lines connect related elements : Branches show constituency    Category Labels   Use standard abbreviations consistently:   Phrases: S, NP, VP, PP, AdjP, AdvP  Words: N, V, Adj, Adv, Det, Pro, Prep, Conj, Aux    Handling Complex Structures   For complex structures:   Nested phrases are shown as branches within branches  Movement and gaps (in questions, relative clauses) are indicated with traces  Coordination is shown with parallel branches joined at a higher node   "
 },
 {
-  "id": "ch-07-homework",
+  "id": "ch-07-introduction-to-sentence-diagramming-9",
   "level": "1",
-  "url": "ch-07-homework.html",
-  "type": "Section",
-  "number": "7.7",
-  "title": "Homework: Introduction to Sentence Diagramming",
-  "body": " Homework: Introduction to Sentence Diagramming   Part 1: Subject and Predicate Identification (approx. 10 minutes)  Instructions: For each sentence, identify the complete subject NP and the complete predicate VP. Then identify the head of each.  Example (completed):  Sentence:  The exhausted marathon runner from Kenya finally collapsed at the finish line.  Subject NP: The exhausted marathon runner from Kenya  Head of subject NP: runner  Predicate VP: finally collapsed at the finish line  Head of predicate VP: collapsed  1.  The curious students from the advanced chemistry class carefully examined the unusual compound.  Subject NP:  Head of subject NP:  Predicate VP:  Head of predicate VP:  2.  My extremely talented older sister from Portland won the national competition.  Subject NP:  Head of subject NP:  Predicate VP:  Head of predicate VP:  3.  Several angry protesters outside the courthouse demanded immediate action.  Subject NP:  Head of subject NP:  Predicate VP:  Head of predicate VP:    Part 2: Heads and Modifiers (approx. 5 minutes)  Instructions: For each phrase, identify the head and list all modifiers. Classify each modifier by type (determiner, adjective, adverb, prepositional phrase, etc.).  Example (completed):  Phrase:  the very tall young basketball player from Chicago  Head: player  Modifiers:   the -- determiner  very tall -- adjective phrase (containing adverb \"very\" + adjective \"tall\")  young -- adjective  basketball -- noun (functioning adjectivally)  from Chicago -- prepositional phrase   4.  my grandmother's beautiful antique wooden jewelry box  Head:  Modifiers:  5.  extremely carefully  Head:  Modifiers:  6.  quite proud of her remarkable achievement  Head:  Modifiers:    Part 3: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each prompt.  7. Write a sentence following the basic S to NP + VP structure with a complex subject NP containing at least a determiner, an adjective, and a prepositional phrase:  8. Write a sentence that is structurally ambiguous (has two possible meanings due to different possible structures). Then explain both meanings.  Sentence:  Meaning 1:  Meaning 2:  9. Expand the simple sentence below by adding modifiers to both the subject NP and the predicate VP:  Original: Dogs bark.  Your expanded version:    Part 4: Tree Diagram Analysis (approx. 10 minutes)  Instructions: For each sentence, draw a tree diagram showing its hierarchical structure. Label all nodes (S, NP, VP, PP, Det, N, V, Adj, Adv, Prep, etc.). You may draw by hand and photograph, use a digital tool, or describe the structure in bracket notation.  Example (completed):  Sentence:  The cat slept.  Tree diagram (bracket notation): [S [NP [Det the] [N cat]] [VP [V slept]]]  10. Diagram: The dog barked loudly.  11. Diagram: The talented student from Ohio won the award.  12. Diagram: She carefully read the interesting book in the library.    Part 5: Structural Ambiguity Analysis (approx. 10 minutes)  Instructions: Analyze the structurally ambiguous sentences below.  13. The sentence I saw the man with the telescope is structurally ambiguous.  a) Describe the two possible meanings:  Meaning 1:  Meaning 2:  b) For each meaning, explain how the PP \"with the telescope\" attaches differently:  Attachment for Meaning 1:  Attachment for Meaning 2:  c) Draw or describe a simple tree structure for ONE of the readings:  14. The sentence Old men and women attended the meeting is structurally ambiguous.  a) Describe the two possible meanings:  Meaning 1:  Meaning 2:  b) Explain what structural difference creates the ambiguity:  15. In 3-4 sentences, explain why understanding hierarchical sentence structure (as shown in tree diagrams) matters for both reading comprehension and clear writing. Use a specific example to support your explanation.   Total estimated time: 30-40 minutes  "
-},
-{
-  "id": "ch-07-homework-2-2",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-07-homework-2-3",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-07-homework-2-4",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-2-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentence: "
-},
-{
-  "id": "ch-07-homework-2-9",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-2-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-07-homework-2-14",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-2-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-07-homework-2-19",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-2-19",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-07-homework-3-2",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-3-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-07-homework-3-3",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-07-homework-3-4",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-3-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Phrase: "
-},
-{
-  "id": "ch-07-homework-3-8",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-3-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-07-homework-3-11",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-3-11",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-07-homework-3-14",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-3-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-07-homework-4-2",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-4-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-07-homework-4-3",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-07-homework-4-4",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-07-homework-4-8",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-4-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-07-homework-5-2",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-5-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-07-homework-5-3",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-07-homework-5-4",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentence: "
-},
-{
-  "id": "ch-07-homework-5-6",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-5-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-07-homework-5-7",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-5-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-07-homework-5-8",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-5-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-07-homework-6-2",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-6-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-07-homework-6-3",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-07-homework-6-11",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-6-11",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-07-homework-6-16",
-  "level": "2",
-  "url": "ch-07-homework.html#ch-07-homework-6-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-07-introduction-to-sentence-diagramming-10",
-  "level": "1",
-  "url": "ch-07-introduction-to-sentence-diagramming-10.html",
+  "url": "ch-07-introduction-to-sentence-diagramming-9.html",
   "type": "Glossary",
-  "number": "7.8",
+  "number": "7.7",
   "title": "Glossary",
   "body": " Glossary   Complement  An element that completes the meaning of a head; often required by the head.    Constituent  A word or group of words that functions as a structural unit.    Dominance  The relationship in a tree where a higher node contains lower nodes.    Head  The central, obligatory element of a phrase that determines its category.    Modifier  An optional element that adds information about a head.    Node  A labeled point in a tree diagram representing a word or phrase category.    Structural ambiguity  A situation where a sentence has multiple possible structures, each with a different meaning.    Tree diagram  A visual representation of sentence structure showing hierarchical relationships between constituents.   "
 },
@@ -1519,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.1",
   "title": "The Two Core Parts: Subject and Predicate",
-  "body": " The Two Core Parts: Subject and Predicate  Every complete sentence has two fundamental parts: a subject and a predicate .   The Subject   The subject is what the sentence is about—typically who or what performs the action or is described. The subject is usually a noun phrase.  Examples:   The tall man walked slowly.  Three ambitious students from Pueblo study hard.  Swimming is fun.  What she said surprised everyone.   Finding the subject:   Ask \"Who or what [verb]?\"  The tall man walked. → Who walked? → The tall man    The Predicate   The predicate is everything that is said about the subject. It always includes a verb phrase and may include objects, complements, and adverbials.  Examples:   The tall man walked slowly .  Three students study in the library every evening .  She is a talented musician from Argentina .   The predicate includes:   The main verb (required)  Objects and complements (depending on verb type)  Adverbials (optional)    Subject-Predicate Division   Every sentence divides into these two parts:  | Subject | Predicate |  |---------|-----------|  | Dogs | bark. |  | The young artist | painted beautiful landscapes. |  | My neighbor's daughter from next door | won the competition last week. |  "
+  "body": " The Two Core Parts: Subject and Predicate  Every complete sentence has two fundamental parts: a subject and a predicate .   The Subject   The subject is what the sentence is about—typically who or what performs the action or is described. The subject is usually a noun phrase.  Examples:   The tall man walked slowly.  Three ambitious students from Pueblo study hard.  Swimming is fun.  What she said surprised everyone.   Finding the subject:   Ask \"Who or what [verb]?\"  The tall man walked. → Who walked? → The tall man    The Predicate   The predicate is everything that is said about the subject. It always includes a verb phrase and may include objects, complements, and adverbials.  Examples:   The tall man walked slowly .  Three students study in the library every evening .  She is a talented musician from Argentina .   The predicate includes:   The main verb (required)  Objects and complements (depending on verb type)  Adverbials (optional)    Subject-Predicate Division   Every sentence divides into these two parts:    Subject  Predicate    Dogs  bark.    The young artist  painted beautiful landscapes.    My neighbor's daughter from next door  won the competition last week.    "
 },
 {
   "id": "ch-08-basic-sentence-elements-and-sentence-patterns-sec-82",
@@ -1537,7 +448,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.3",
   "title": "Arguments vs. Adverbials",
-  "body": " Arguments vs. Adverbials  Understanding the difference between arguments (required elements) and adverbials (optional elements) is crucial for sentence analysis.   Arguments   Arguments are the elements that a verb requires to form a complete, grammatical sentence. They include:   Subject (required for all sentences)  Direct object (for transitive verbs)  Indirect object (for ditransitive verbs)  Subject complement (for linking verbs)  Object complement (for some transitive verbs)   Test: If you remove an argument, the sentence becomes ungrammatical or changes meaning dramatically.  She put the book on the table.   Remove the book : ~~She put on the table.~~ ✗  Remove on the table : ~~She put the book.~~ ✗  All three elements are arguments of put .    Adverbials   Adverbials provide additional information about time, place, manner, reason, etc. They are optional—the sentence is grammatical without them.  Examples:   Accidents happen on Mondays . (when)  She spoke quietly . (how)  Unfortunately , we lost. (attitude)  He works at the hospital  every day . (where, when)   Test: If you remove an adverbial, the sentence remains grammatical.  She spoke quietly in the library.   Remove quietly : She spoke in the library. ✓  Remove in the library : She spoke quietly. ✓  Both are adverbials—optional modifiers.    Distinguishing Arguments from Adverbials   | Arguments | Adverbials |  |-----------|------------|  | Required by verb | Optional |  | Limited in number per verb | Unlimited |  | Cannot be moved as freely | Often movable |  | Removal changes grammaticality | Removal leaves grammatical sentence |  Compare:   She put the book on the table . (argument—required by put )  She read the book on the table . (adverbial—optional location)   "
+  "body": " Arguments vs. Adverbials  Understanding the difference between arguments (required elements) and adverbials (optional elements) is crucial for sentence analysis.   Arguments   Arguments are the elements that a verb requires to form a complete, grammatical sentence. They include:   Subject (required for all sentences)  Direct object (for transitive verbs)  Indirect object (for ditransitive verbs)  Subject complement (for linking verbs)  Object complement (for some transitive verbs)   Test: If you remove an argument, the sentence becomes ungrammatical or changes meaning dramatically.  She put the book on the table.   Remove the book : ~~She put on the table.~~ ✗  Remove on the table : ~~She put the book.~~ ✗  All three elements are arguments of put .    Adverbials   Adverbials provide additional information about time, place, manner, reason, etc. They are optional—the sentence is grammatical without them.  Examples:   Accidents happen on Mondays . (when)  She spoke quietly . (how)  Unfortunately , we lost. (attitude)  He works at the hospital  every day . (where, when)   Test: If you remove an adverbial, the sentence remains grammatical.  She spoke quietly in the library.   Remove quietly : She spoke in the library. ✓  Remove in the library : She spoke quietly. ✓  Both are adverbials—optional modifiers.    Distinguishing Arguments from Adverbials     Arguments  Adverbials    Required by verb  Optional    Limited in number per verb  Unlimited    Cannot be moved as freely  Often movable    Removal changes grammaticality  Removal leaves grammatical sentence    Compare:   She put the book on the table . (argument—required by put )  She read the book on the table . (adverbial—optional location)   "
 },
 {
   "id": "ch-08-basic-sentence-elements-and-sentence-patterns-sec-84",
@@ -1555,7 +466,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.5",
   "title": "The Six Sentence Patterns",
-  "body": " The Six Sentence Patterns  Every complete sentence in English follows one of six basic structural patterns. These patterns are determined by verb type and required elements.   Pattern 1: Intransitive (S + V)   Structure: Subject + Verb  Intransitive verbs express complete actions or states without needing a receiver.  | Subject | Verb |  |---------|------|  | Thunder | rumbled |  | My grandmother | sneezed |  | The toast | burned |  | Her voice | trembled |  What makes it intransitive?  The verb alone completes the thought. Adverbials can be added but are not required:   Thunder rumbled across the valley . (still intransitive)  My grandmother sneezed violently . (still intransitive)   Exclusively intransitive verbs:  arrive , collapse , disappear , emerge , exist , fall , hesitate , occur , sneeze , vanish  You cannot say ~~She arrived the station~~ or ~~The building collapsed the roof~~ .   Pattern 2: Copular *Be* (S + *Be* + SC)   Structure: Subject + Be + Subject Complement  The verb be links the subject to a subject complement —a word or phrase that describes or identifies the subject.  | Subject | Be | Subject Complement | Type |  |---------|----|--------------------|------|  | She | is | a violinist | NP |  | The solution | was | surprisingly simple | AdjP |  | My keys | are | under the cushion | PP |  | Tomorrow | will be | Tuesday | NP |  Three types of subject complements:   Noun Phrase (NP) : Identifies who\/what the subject is  Marcus is a carpenter .    Adjective Phrase (AdjP) : Describes a quality of the subject  The water is cold .    Prepositional Phrase (PP) : Locates or describes the subject  The restaurant is around the corner .    Pattern 3: Linking Verb (S + LV + SC)   Structure: Subject + Linking Verb + Subject Complement  Linking verbs work like be —they connect the subject to a complement that describes or identifies it.  | Subject | Linking Verb | Subject Complement | Type |  |---------|--------------|--------------------|----- |  | The bread | smells | wonderful | AdjP |  | Her excuse | sounded | plausible | AdjP |  | That musician | became | famous | AdjP |  | The caterpillar | became | a butterfly | NP |  The substitution test:  If you can replace the verb with a form of be and the sentence still makes sense, the verb is linking:   The bread smells wonderful. → The bread is wonderful. ✓ (Linking)  The detective smells trouble. → The detective is trouble. ✗ (Not linking—transitive!)   Common linking verbs:  appear , become , feel , get , grow , look , prove , remain , seem , smell , sound , stay , taste , turn  Warning : Many of these verbs can also be transitive:   She felt nervous. (linking—\"nervous\" describes \"she\")  She felt the fabric. (transitive—\"fabric\" is a direct object)    Pattern 4: Transitive (S + V + DO)   Structure: Subject + Verb + Direct Object  Transitive verbs require a direct object—an NP that receives the action.  | Subject | Verb | Direct Object |  |---------|------|---------------|  | Squirrels | gather | acorns |  | The tornado | destroyed | the barn |  | Nobody | expected | this outcome |  | Lightning | struck | the old oak |  Direct object tests:   Ask \"verb what?\" or \"verb whom?\": Squirrels gather what ? → acorns  Pronoun replacement: She finished her dissertation. → She finished it .  Passive transformation: Lightning struck the oak. → The oak was struck.    Pattern 5: Ditransitive (S + V + IO + DO)   Structure: Subject + Verb + Indirect Object + Direct Object  Some transitive verbs take two objects: an indirect object (the recipient) followed by a direct object (the thing transferred).  | Subject | Verb | Indirect Object | Direct Object |  |---------|------|-----------------|---------------|  | The librarian | handed | me | a book |  | She | told | the children | a story |  | The company | offered | employees | free parking |  | The chef | made | us | a special dessert |  Identifying indirect objects:   To\/For paraphrase : You can rephrase with \"to\" or \"for\":    The librarian handed me a book. → ...handed a book to me .  The chef made us a dessert. → ...made a dessert for us .    Order matters : IO comes before DO   Common ditransitive verbs:  award , bring , buy , cook , give , grant , hand , lend , make , offer , owe , pass , pay , promise , read , sell , send , show , teach , tell , throw , write   Pattern 6: Ditransitive (S + V + DO + OC)   Structure: Subject + Verb + Direct Object + Object Complement  Some verbs take a direct object followed by an object complement —a word or phrase that describes or identifies the direct object.  | Subject | Verb | Direct Object | Object Complement | Type |  |---------|------|---------------|-------------------|------|  | The jury | found | her | guilty | AdjP |  | Critics | called | the film | a masterpiece | NP |  | The heat | made | everyone | irritable | AdjP |  | They | elected | her | president | NP |  Distinguishing Pattern 5 from Pattern 6:   Pattern 5 (IO + DO) : The two NPs refer to different things:  She gave Marcus  a book . (Marcus ≠ book)    Pattern 6 (DO + OC) : The complement describes or equals the DO:  They elected her  president . (her = president)   Common DO + OC verbs:  appoint , believe , call , consider , declare , deem , elect , find , keep , label , leave , make , name , paint , prove , render , think  "
+  "body": " The Six Sentence Patterns  Every complete sentence in English follows one of six basic structural patterns. These patterns are determined by verb type and required elements.   Pattern 1: Intransitive (S + V)   Structure: Subject + Verb  Intransitive verbs express complete actions or states without needing a receiver.    Subject  Verb    Thunder  rumbled    My grandmother  sneezed    The toast  burned    Her voice  trembled    What makes it intransitive?  The verb alone completes the thought. Adverbials can be added but are not required:   Thunder rumbled across the valley . (still intransitive)  My grandmother sneezed violently . (still intransitive)   Exclusively intransitive verbs:  arrive , collapse , disappear , emerge , exist , fall , hesitate , occur , sneeze , vanish  You cannot say ~~She arrived the station~~ or ~~The building collapsed the roof~~ .   Pattern 2: Copular *Be* (S + *Be* + SC)   Structure: Subject + Be + Subject Complement  The verb be links the subject to a subject complement —a word or phrase that describes or identifies the subject.    Subject  Be  Subject Complement  Type    She  is  a violinist  NP    The solution  was  surprisingly simple  AdjP    My keys  are  under the cushion  PP    Tomorrow  will be  Tuesday  NP    Three types of subject complements:   Noun Phrase (NP) : Identifies who\/what the subject is  Marcus is a carpenter .    Adjective Phrase (AdjP) : Describes a quality of the subject  The water is cold .    Prepositional Phrase (PP) : Locates or describes the subject  The restaurant is around the corner .    Pattern 3: Linking Verb (S + LV + SC)   Structure: Subject + Linking Verb + Subject Complement  Linking verbs work like be —they connect the subject to a complement that describes or identifies it.    Subject  Linking Verb  Subject Complement  Type    The bread  smells  wonderful  AdjP    Her excuse  sounded  plausible  AdjP    That musician  became  famous  AdjP    The caterpillar  became  a butterfly  NP    The substitution test:  If you can replace the verb with a form of be and the sentence still makes sense, the verb is linking:   The bread smells wonderful. → The bread is wonderful. ✓ (Linking)  The detective smells trouble. → The detective is trouble. ✗ (Not linking—transitive!)   Common linking verbs:  appear , become , feel , get , grow , look , prove , remain , seem , smell , sound , stay , taste , turn  Warning : Many of these verbs can also be transitive:   She felt nervous. (linking—\"nervous\" describes \"she\")  She felt the fabric. (transitive—\"fabric\" is a direct object)    Pattern 4: Transitive (S + V + DO)   Structure: Subject + Verb + Direct Object  Transitive verbs require a direct object—an NP that receives the action.    Subject  Verb  Direct Object    Squirrels  gather  acorns    The tornado  destroyed  the barn    Nobody  expected  this outcome    Lightning  struck  the old oak    Direct object tests:   Ask \"verb what?\" or \"verb whom?\": Squirrels gather what ? → acorns  Pronoun replacement: She finished her dissertation. → She finished it .  Passive transformation: Lightning struck the oak. → The oak was struck.    Pattern 5: Ditransitive (S + V + IO + DO)   Structure: Subject + Verb + Indirect Object + Direct Object  Some transitive verbs take two objects: an indirect object (the recipient) followed by a direct object (the thing transferred).    Subject  Verb  Indirect Object  Direct Object    The librarian  handed  me  a book    She  told  the children  a story    The company  offered  employees  free parking    The chef  made  us  a special dessert    Identifying indirect objects:   To\/For paraphrase : You can rephrase with \"to\" or \"for\":    The librarian handed me a book. → ...handed a book to me .  The chef made us a dessert. → ...made a dessert for us .    Order matters : IO comes before DO   Common ditransitive verbs:  award , bring , buy , cook , give , grant , hand , lend , make , offer , owe , pass , pay , promise , read , sell , send , show , teach , tell , throw , write   Pattern 6: Ditransitive (S + V + DO + OC)   Structure: Subject + Verb + Direct Object + Object Complement  Some verbs take a direct object followed by an object complement —a word or phrase that describes or identifies the direct object.    Subject  Verb  Direct Object  Object Complement  Type    The jury  found  her  guilty  AdjP    Critics  called  the film  a masterpiece  NP    The heat  made  everyone  irritable  AdjP    They  elected  her  president  NP    Distinguishing Pattern 5 from Pattern 6:   Pattern 5 (IO + DO) : The two NPs refer to different things:  She gave Marcus  a book . (Marcus ≠ book)    Pattern 6 (DO + OC) : The complement describes or equals the DO:  They elected her  president . (her = president)   Common DO + OC verbs:  appoint , believe , call , consider , declare , deem , elect , find , keep , label , leave , make , name , paint , prove , render , think  "
 },
 {
   "id": "ch-08-basic-sentence-elements-and-sentence-patterns-sec-86",
@@ -1576,308 +487,11 @@ var ptx_lunr_docs = [
   "body": " Common Misconceptions   \"Adverbials change the pattern\"   Wrong : The birds sang beautifully in the garden. = Pattern 4?  Right : Adverbials don't affect pattern. Remove them: The birds sang. = Pattern 1 (Intransitive)   \"A PP after the verb means transitive\"   Wrong : She walked to the store. = Transitive with \"the store\" as object?  Right : \"To the store\" is a PP functioning as adverbial. Pattern 1 (Intransitive)   \"Long sentences must be complex patterns\"   Wrong : A long sentence must be Pattern 5 or 6?  Right : Length doesn't determine pattern. The exhausted marathon runner from Kenya who had trained for years finally collapsed at the finish line is still Pattern 1 (Intransitive).   \"Linking verbs are always linking\"   Wrong : \"Feel\" is always linking?  Right : Many verbs can be linking OR transitive:   The silk feels smooth. (Pattern 3—linking)  She felt the bump. (Pattern 4—transitive)   "
 },
 {
-  "id": "ch-08-homework",
+  "id": "ch-08-basic-sentence-elements-and-sentence-patterns-10",
   "level": "1",
-  "url": "ch-08-homework.html",
-  "type": "Section",
-  "number": "8.8",
-  "title": "Homework: Basic Sentence Elements and Sentence Patterns",
-  "body": " Homework: Basic Sentence Elements and Sentence Patterns   Part 1: Sentence Element Identification (approx. 10 minutes)  Instructions: For each sentence, identify the requested elements.  Example (completed):  Sentence:  The talented chef from France prepared us an exquisite meal in the kitchen.  Subject NP: The talented chef from France  Main verb: prepared  Indirect object: us  Direct object: an exquisite meal  Adverbial: in the kitchen  1.  The ambitious young researcher from the university laboratory discovered a remarkable solution.  Subject NP:  Predicate:  Main verb:  Direct object:  2. Identify all complements (DO, IO, SC, OC) in each sentence:  a) The committee awarded the outstanding student a prestigious scholarship.  b) The homemade soup tasted absolutely delicious.  c) The judges declared the young contestant the winner.  3. For each underlined element, indicate whether it is an argument (required by the verb) or an adverbial (optional modifier):  a) She placed the documents on the desk .  b) She found the documents on the desk .  c) The professor is extremely knowledgeable about linguistics .  d) The professor lectured extremely knowledgeably about linguistics .    Part 2: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence by adding the requested element.  4. Add a direct object to create a transitive sentence:  The dedicated students completed __________.  5. Add an indirect object AND a direct object to create a ditransitive sentence:  The generous donor gave __________.  6. Add a subject complement to create a linking verb sentence:  After the long hike, the exhausted climbers seemed __________.  7. Add an object complement:  The board of directors elected her __________.    Part 3: Sentence Pattern Identification (approx. 10 minutes)  Instructions: Identify the sentence pattern (1-6) for each sentence and explain your reasoning. Remember to set aside adverbials before determining the pattern.  Sentence Patterns:   Pattern 1: Intransitive (S + V)  Pattern 2: Copular be (S + be + SC)  Pattern 3: Linking verb (S + LV + SC)  Pattern 4: Transitive (S + V + DO)  Pattern 5: Ditransitive (S + V + IO + DO)  Pattern 6: Ditransitive (S + V + DO + OC)   Example (completed):  Sentence:  The ancient lighthouse still stands on the rocky cliff.  Pattern: Pattern 1 (Intransitive)  Explanation: The main verb is \"stands.\" \"On the rocky cliff\" is an adverbial (optional--answers \"where?\"). \"Still\" is also an adverbial. Without the adverbials, we have \"The ancient lighthouse stands\"--a complete sentence with just a subject and intransitive verb. \"Stands\" does not require an object or complement.  8.  The exhausted marathon runner collapsed at the finish line yesterday.  Pattern:  Explanation:  9.  My grandmother's secret recipe remains a family treasure.  Pattern:  Explanation:  10.  The committee considered the proposal inadequate.  Pattern:  Explanation:  11.  The chef prepared the guests an extraordinary seven-course meal.  Pattern:  Explanation:  12.  The situation grew increasingly tense during the negotiations.  Pattern:  Explanation:    Part 4: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each pattern. Underline or label the key elements (S, V, DO, IO, SC, OC).  13. Write a sentence following Pattern 4 (transitive: S + V + DO):  14. Write a sentence following Pattern 5 (ditransitive with IO + DO: S + V + IO + DO):  15. Write a sentence following Pattern 6 (ditransitive with DO + OC: S + V + DO + OC):    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Read the sentences below and answer the questions.  16. The verb put is unusual because it requires TWO arguments beyond the subject. Analyze the following sentences:  a) She put the book on the shelf.  What happens if you remove \"the book\"?  What happens if you remove \"on the shelf\"?  What does this tell you about the valency of put ?  17. Some verbs can be either linking or transitive depending on context. Analyze these pairs:  a) The milk smells sour. vs. The detective smells trouble.  Which sentence has a linking verb? Which has a transitive verb?  How can you tell? (Hint: Apply the be substitution test.)  18. In 3-4 sentences, explain how you distinguish between an argument and an adverbial when analyzing sentences. Why does this distinction matter for identifying sentence patterns? Give an example to illustrate.   Total estimated time: 30-40 minutes  "
-},
-{
-  "id": "ch-08-homework-2-2",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-08-homework-2-3",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-08-homework-2-4",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentence: "
-},
-{
-  "id": "ch-08-homework-2-10",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-08-homework-2-15",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-08-homework-2-19",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-19",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-08-homework-2-20",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-20",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "on the desk "
-},
-{
-  "id": "ch-08-homework-2-21",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-21",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "on the desk "
-},
-{
-  "id": "ch-08-homework-2-22",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-22",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "extremely knowledgeable about linguistics "
-},
-{
-  "id": "ch-08-homework-2-23",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-2-23",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "extremely knowledgeably about linguistics "
-},
-{
-  "id": "ch-08-homework-3-2",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-3-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-08-homework-3-3",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-08-homework-3-5",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-3-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-08-homework-3-7",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-3-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-08-homework-3-9",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-3-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-08-homework-4-2",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-4-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-08-homework-4-3",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentence Patterns: "
-},
-{
-  "id": "ch-08-homework-4-5",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-4-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-08-homework-4-6",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentence: "
-},
-{
-  "id": "ch-08-homework-4-9",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-4-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-08-homework-4-12",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-4-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-08-homework-4-15",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-4-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-08-homework-4-18",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-4-18",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-08-homework-4-21",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-4-21",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-08-homework-5-2",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-5-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-08-homework-5-3",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-08-homework-5-4",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-08-homework-5-5",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-5-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-08-homework-6-2",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-6-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-08-homework-6-3",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "16. "
-},
-{
-  "id": "ch-08-homework-6-8",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-6-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "17. "
-},
-{
-  "id": "ch-08-homework-6-12",
-  "level": "2",
-  "url": "ch-08-homework.html#ch-08-homework-6-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "18. "
-},
-{
-  "id": "ch-08-basic-sentence-elements-and-sentence-patterns-11",
-  "level": "1",
-  "url": "ch-08-basic-sentence-elements-and-sentence-patterns-11.html",
+  "url": "ch-08-basic-sentence-elements-and-sentence-patterns-10.html",
   "type": "Glossary",
-  "number": "8.9",
+  "number": "8.8",
   "title": "Glossary",
   "body": " Glossary   Adverbial  An optional element providing information about time, place, manner, reason, etc.    Argument  An element required by a verb to form a grammatical sentence.    Copular verb  A form of be that links subject to complement.    Direct object  The NP that receives the action of a transitive verb.    Ditransitive verb  A verb requiring two objects or an object plus complement.    Indirect object  The NP indicating the recipient or beneficiary.    Intransitive verb  A verb requiring only a subject.    Linking verb  A verb that connects the subject to a complement describing it.    Object complement  An element describing or identifying the direct object.    Predicate  Everything said about the subject; includes the verb and its complements\/adverbials.    Subject  The NP indicating what the sentence is about.    Subject complement  An element describing or identifying the subject after a linking verb.    Transitive verb  A verb requiring a direct object.    Valency  The number and types of arguments a verb requires.   "
 },
@@ -1888,7 +502,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.1",
   "title": "Sentence Types Overview",
-  "body": " Sentence Types Overview  English sentences can be classified by structure:  | Type | Structure | Example |  |------|-----------|---------|  | Simple | One independent clause | The dog barked. |  | Compound | Two+ independent clauses | The dog barked, and the cat hid. |  | Complex | One independent + one+ dependent clause | The dog barked when the mail arrived. |  | Compound-complex | Two+ independent + one+ dependent clause | The dog barked when the mail arrived, and the cat hid under the bed. |  Understanding these structures allows you to vary your prose and convey relationships between ideas effectively.  "
+  "body": " Sentence Types Overview  English sentences can be classified by structure:    Type  Structure  Example    Simple  One independent clause  The dog barked.    Compound  Two+ independent clauses  The dog barked, and the cat hid.    Complex  One independent + one+ dependent clause  The dog barked when the mail arrived.    Compound-complex  Two+ independent + one+ dependent clause  The dog barked when the mail arrived, and the cat hid under the bed.    Understanding these structures allows you to vary your prose and convey relationships between ideas effectively.  "
 },
 {
   "id": "ch-09-compound-and-complex-sentences-sec-92",
@@ -1906,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.3",
   "title": "Compound Sentences",
-  "body": " Compound Sentences  A compound sentence contains two or more independent clauses joined through coordination. Each clause could stand alone, but coordination shows the ideas are related.   Creating Compound Sentences   Independent clauses can be joined by:   Coordinating conjunction (with comma): The power went out, and we lit candles.  Semicolon : The power went out; we lit candles.  Semicolon + conjunctive adverb : The power went out; therefore, we lit candles.    Coordinating Conjunctions (FANBOYS)   The acronym FANBOYS helps you remember the seven coordinating conjunctions:  | Conjunction | Relationship | Example |  |-------------|--------------|---------|  | F or | reason\/cause | We hurried home, for a storm was approaching. |  | A nd | addition | She writes poetry, and he composes music. |  | N or | negative addition | The store wasn't open, nor was anyone answering. |  | B ut | contrast | I finished the book, but I didn't understand it. |  | O r | alternative | We can meet at noon, or we can reschedule. |  | Y et | contrast (surprising) | The task seemed simple, yet it took hours. |  | S o | result\/effect | The restaurant was packed, so we ordered takeout. |  Punctuation rule : Place a comma before the conjunction when it joins two independent clauses:  The lecture was fascinating , and I took detailed notes.   Conjunctive Adverbs   Conjunctive adverbs offer another way to connect independent clauses with more explicit relationships:  | Relationship | Examples |  |--------------|----------|  | Addition | moreover, furthermore, additionally, also |  | Contrast | however, nevertheless, nonetheless, instead |  | Result | therefore, thus, consequently, hence |  | Time | meanwhile, subsequently, afterward, then |  | Example | for example, for instance, specifically |  Punctuation : Use a semicolon before and comma after the conjunctive adverb:  The experiment failed ; however , we learned from the results.   Compound vs. Compound Elements   Don't confuse compound sentences with simple sentences containing compound elements:  | Structure | Example | Type |  |-----------|---------|------|  | Compound subject | Marcus and Elena traveled. | Simple (one VP) |  | Compound predicate | The dog barked and chased the squirrel. | Simple (one subject) |  | Compound sentence | Marcus traveled, and Elena stayed. | Compound (two clauses) |  Test : Does each side of the conjunction have its own subject? If yes → compound sentence.  "
+  "body": " Compound Sentences  A compound sentence contains two or more independent clauses joined through coordination. Each clause could stand alone, but coordination shows the ideas are related.   Creating Compound Sentences   Independent clauses can be joined by:   Coordinating conjunction (with comma): The power went out, and we lit candles.  Semicolon : The power went out; we lit candles.  Semicolon + conjunctive adverb : The power went out; therefore, we lit candles.    Coordinating Conjunctions (FANBOYS)   The acronym FANBOYS helps you remember the seven coordinating conjunctions:    Conjunction  Relationship  Example    F or  reason\/cause  We hurried home, for a storm was approaching.    A nd  addition  She writes poetry, and he composes music.    N or  negative addition  The store wasn't open, nor was anyone answering.    B ut  contrast  I finished the book, but I didn't understand it.    O r  alternative  We can meet at noon, or we can reschedule.    Y et  contrast (surprising)  The task seemed simple, yet it took hours.    S o  result\/effect  The restaurant was packed, so we ordered takeout.    Punctuation rule : Place a comma before the conjunction when it joins two independent clauses:  The lecture was fascinating , and I took detailed notes.   Conjunctive Adverbs   Conjunctive adverbs offer another way to connect independent clauses with more explicit relationships:    Relationship  Examples    Addition  moreover, furthermore, additionally, also    Contrast  however, nevertheless, nonetheless, instead    Result  therefore, thus, consequently, hence    Time  meanwhile, subsequently, afterward, then    Example  for example, for instance, specifically    Punctuation : Use a semicolon before and comma after the conjunctive adverb:  The experiment failed ; however , we learned from the results.   Compound vs. Compound Elements   Don't confuse compound sentences with simple sentences containing compound elements:    Structure  Example  Type    Compound subject  Marcus and Elena traveled.  Simple (one VP)    Compound predicate  The dog barked and chased the squirrel.  Simple (one subject)    Compound sentence  Marcus traveled, and Elena stayed.  Compound (two clauses)    Test : Does each side of the conjunction have its own subject? If yes → compound sentence.  "
 },
 {
   "id": "ch-09-compound-and-complex-sentences-sec-94",
@@ -1933,7 +547,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.6",
   "title": "Subordinating Conjunctions",
-  "body": " Subordinating Conjunctions  Subordinating conjunctions introduce adverb clauses and specify relationships:  | Relationship | Subordinating Conjunctions |  |--------------|----------------------------|  | Time | when, while, before, after, until, since, as, once, whenever, as soon as |  | Cause\/Reason | because, since, as, given that, now that |  | Contrast | although, though, even though, while, whereas, even if |  | Condition | if, unless, provided that, in case, assuming that, as long as |  | Purpose | so that, in order that |  | Manner | as, as if, as though |  "
+  "body": " Subordinating Conjunctions  Subordinating conjunctions introduce adverb clauses and specify relationships:    Relationship  Subordinating Conjunctions    Time  when, while, before, after, until, since, as, once, whenever, as soon as    Cause\/Reason  because, since, as, given that, now that    Contrast  although, though, even though, while, whereas, even if    Condition  if, unless, provided that, in case, assuming that, as long as    Purpose  so that, in order that    Manner  as, as if, as though    "
 },
 {
   "id": "ch-09-compound-and-complex-sentences-sec-97",
@@ -1963,281 +577,11 @@ var ptx_lunr_docs = [
   "body": " Choosing Between Coordination and Subordination   When to Coordinate   Use compound sentences when ideas are:   Equally important : She applied, and she got the job.  Contrasting equally : It looked easy, but it was difficult.  Part of a sequence : He entered, he looked around, and he left.    When to Subordinate   Use complex sentences when:   One idea supports another : She got the job because she prepared well .  You want to emphasize the main clause : Although it was difficult , she succeeded.  Showing time, cause, or condition : Call me if you need help .    Combining Both   Compound-complex sentences combine coordination and subordination:  The dog barked when the mail arrived , and the cat hid under the bed.  This shows temporal relationships (complex) while presenting two reactions as equal (compound).  "
 },
 {
-  "id": "ch-09-homework",
+  "id": "ch-09-compound-and-complex-sentences-12",
   "level": "1",
-  "url": "ch-09-homework.html",
-  "type": "Section",
-  "number": "9.10",
-  "title": "Homework: Compound and Complex Sentences",
-  "body": " Homework: Compound and Complex Sentences   Part 1: Sentence Type Identification (approx. 10 minutes)  Instructions: For each sentence, identify the sentence type (simple, compound, complex, or compound-complex) and identify all clauses. Label each clause as independent (IC) or dependent (DC).  Example (completed):  Sentence:  Although the weather was terrible, the athletes competed fiercely, and the crowd cheered enthusiastically.  Sentence type: Compound-complex  Clauses:   Although the weather was terrible -- DC (adverb clause)  the athletes competed fiercely -- IC  the crowd cheered enthusiastically -- IC   1.  The professor who taught my linguistics class has retired, but she still occasionally gives guest lectures.  Sentence type:  Clauses (identify each as IC or DC and classify any dependent clauses by type):  2.  Because the deadline was extended, I had time to revise my paper thoroughly.  Sentence type:  Clauses:  3.  The exhausted marathon runner from Kenya and her experienced coach celebrated after the race.  Sentence type:  Clauses:  4. Identify the dependent clause in each sentence and classify it as an adverb clause, relative clause, or noun clause:  a) The candidate who impressed the committee received the position.  Dependent clause:  Type:  b) I wonder whether she received my message.  Dependent clause:  Type:  c) We will leave when the meeting ends.  Dependent clause:  Type:    Part 2: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence with the requested element.  5. Add a coordinating conjunction (FANBOYS) to create a compound sentence:  The evidence was compelling __________ the jury remained skeptical.  6. Add a subordinating conjunction to create a complex sentence:  __________ you finish your assignment, you may leave early.  7. Add an appropriate conjunctive adverb with correct punctuation:  The experiment produced unexpected results __________ the team decided to repeat it.  8. Add a dependent clause to complete this sentence:  The professor praised the students __________.    Part 3: Sentence Writing (approx. 5 minutes)  Instructions: Write original sentences following each prompt.  9. Write a compound sentence using a semicolon and a conjunctive adverb (such as however , therefore , moreover , consequently ):  10. Write a complex sentence with an adverb clause showing cause or reason (use because , since , or as ):  11. Write a complex sentence containing a relative clause that modifies the subject:  12. Write a compound-complex sentence (two independent clauses + at least one dependent clause):    Part 4: Error Correction (approx. 5 minutes)  Instructions: Each sentence below contains a comma splice or run-on error. Provide two different corrections for each.  Example (completed):  Error:  The lecture was fascinating, I took detailed notes.  Correction 1: The lecture was fascinating, and I took detailed notes. (added coordinating conjunction)  Correction 2: The lecture was fascinating ; I took detailed notes. (replaced comma with semicolon)  13.  The assignment was challenging, many students struggled to finish it on time.  Correction 1:  Correction 2:  14.  She enjoys hiking he prefers swimming.  Correction 1:  Correction 2:  15.  The restaurant was crowded, we decided to order takeout instead.  Correction 1:  Correction 2:    Part 5: Analysis and Reflection (approx. 10 minutes)  Instructions: Answer the following questions about coordination and subordination.  16. The following sentence uses coordination:  The experiment failed, and the researchers were disappointed.  a) Rewrite this sentence using subordination to emphasize the researchers' disappointment:  b) Rewrite it using subordination to emphasize that the experiment failed:  c) Which version (coordination or subordination) would you choose if you wanted to present both ideas as equally important? Explain.  17. Read the following passage and answer the questions:  When the storm began, the hikers sought shelter. They found a small cave, and they waited there for hours. Although they were cold and hungry, they remained calm because they had prepared for emergencies.  a) Identify all independent and dependent clauses in the passage:  Independent clauses:  Dependent clauses (and their types):  b) How many sentences are in this passage, and what type is each?  18. In 3-4 sentences, explain when a writer should choose coordination over subordination (or vice versa). What effect does each choice have on emphasis and the relationship between ideas? Provide an example to illustrate your point.   Total estimated time: 30-40 minutes  "
-},
-{
-  "id": "ch-09-homework-2-2",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-09-homework-2-3",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-09-homework-2-4",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-2-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentence: "
-},
-{
-  "id": "ch-09-homework-2-8",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-2-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-09-homework-2-11",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-2-11",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-09-homework-2-14",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-2-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-09-homework-2-17",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-2-17",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-09-homework-3-2",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-3-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-09-homework-3-3",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-09-homework-3-5",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-3-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-09-homework-3-7",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-3-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-09-homework-3-9",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-3-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-09-homework-4-2",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-4-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-09-homework-4-3",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-09-homework-4-4",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-09-homework-4-5",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-4-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-09-homework-4-6",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-09-homework-5-2",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-5-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-09-homework-5-3",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-09-homework-5-4",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Error: "
-},
-{
-  "id": "ch-09-homework-5-5",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-5-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "and "
-},
-{
-  "id": "ch-09-homework-5-6",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-5-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "; "
-},
-{
-  "id": "ch-09-homework-5-7",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-5-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-09-homework-5-10",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-5-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-09-homework-5-13",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-5-13",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-09-homework-6-2",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-6-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Instructions: "
-},
-{
-  "id": "ch-09-homework-6-3",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "16. "
-},
-{
-  "id": "ch-09-homework-6-8",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-6-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "17. "
-},
-{
-  "id": "ch-09-homework-6-14",
-  "level": "2",
-  "url": "ch-09-homework.html#ch-09-homework-6-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "18. "
-},
-{
-  "id": "ch-09-compound-and-complex-sentences-13",
-  "level": "1",
-  "url": "ch-09-compound-and-complex-sentences-13.html",
+  "url": "ch-09-compound-and-complex-sentences-12.html",
   "type": "Glossary",
-  "number": "9.11",
+  "number": "9.10",
   "title": "Glossary",
   "body": " Glossary   Adverb clause  A dependent clause that modifies a verb, adjective, or sentence.    Comma splice  The error of joining two independent clauses with only a comma.    Complex sentence  A sentence with one independent clause and at least one dependent clause.    Compound sentence  A sentence with two or more independent clauses joined by coordination.    Conjunctive adverb  An adverb that connects independent clauses ( however , therefore ).    Coordinating conjunction  A word that joins equal elements (FANBOYS: for , and , nor , but , or , yet , so ).    Dependent clause  A clause that cannot stand alone; also called subordinate clause.    Independent clause  A clause that can stand alone as a complete sentence.    Noun clause  A dependent clause functioning as a noun phrase.    Relative clause  A dependent clause that modifies a noun; introduced by relative pronouns.    Run-on sentence  The error of joining independent clauses without punctuation.    Simple sentence  A sentence with one independent clause.    Subordinating conjunction  A word that introduces a dependent clause and shows its relationship to the main clause.   "
 },
@@ -2257,7 +601,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.2",
   "title": "Primary Auxiliary: *Be*",
-  "body": " Primary Auxiliary: *Be*  Be is the most versatile auxiliary, used for both progressive aspect and passive voice.   Forms of *Be*   | Present | Past | Participles |  |---------|------|-------------|  | am, is, are | was, were | been, being |   Functions of Auxiliary *Be*   Progressive aspect (be + -ing):   She is reading . (present progressive)  They were studying . (past progressive)  He has been working . (present perfect progressive)   Passive voice (be + past participle):   The book was written by Maria.  The house is being built .  The work will be completed .    *Be* as Main Verb vs. Auxiliary   Be can also be a main verb (copular\/linking):   She is a teacher. (main verb—links subject to complement)   Distinguishing :   Followed by -ing form = auxiliary: She is reading .  Followed by past participle = auxiliary (passive): It was done .  Followed by NP, AdjP, PP = main verb: She is happy.   "
+  "body": " Primary Auxiliary: *Be*  Be is the most versatile auxiliary, used for both progressive aspect and passive voice.   Forms of *Be*     Present  Past  Participles    am, is, are  was, were  been, being     Functions of Auxiliary *Be*   Progressive aspect (be + -ing):   She is reading . (present progressive)  They were studying . (past progressive)  He has been working . (present perfect progressive)   Passive voice (be + past participle):   The book was written by Maria.  The house is being built .  The work will be completed .    *Be* as Main Verb vs. Auxiliary   Be can also be a main verb (copular\/linking):   She is a teacher. (main verb—links subject to complement)   Distinguishing :   Followed by -ing form = auxiliary: She is reading .  Followed by past participle = auxiliary (passive): It was done .  Followed by NP, AdjP, PP = main verb: She is happy.   "
 },
 {
   "id": "ch-10-verbs-part-one-tense-and-aspect-sec-103",
@@ -2266,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.3",
   "title": "Primary Auxiliary: *Have*",
-  "body": " Primary Auxiliary: *Have*  Have forms the perfect aspect, indicating that an action is completed or has continuing relevance.   Forms of *Have*   | Present | Past | Participle |  |---------|------|------------|  | have, has | had | had |   Functions of Auxiliary *Have*   Perfect aspect (have + past participle):   She has finished the work. (present perfect)  They had left before I arrived. (past perfect)  By then, I will have completed it. (future perfect)    *Have* as Main Verb vs. Auxiliary   Have is also a main verb meaning \"possess\":   I have a car. (main verb)  I have seen that movie. (auxiliary)   Test : Can you add got after have ?   I have (got) a car. ✓ (main verb)  ~~I have got seen that movie.~~ ✗ (auxiliary)   "
+  "body": " Primary Auxiliary: *Have*  Have forms the perfect aspect, indicating that an action is completed or has continuing relevance.   Forms of *Have*     Present  Past  Participle    have, has  had  had     Functions of Auxiliary *Have*   Perfect aspect (have + past participle):   She has finished the work. (present perfect)  They had left before I arrived. (past perfect)  By then, I will have completed it. (future perfect)    *Have* as Main Verb vs. Auxiliary   Have is also a main verb meaning \"possess\":   I have a car. (main verb)  I have seen that movie. (auxiliary)   Test : Can you add got after have ?   I have (got) a car. ✓ (main verb)  ~~I have got seen that movie.~~ ✗ (auxiliary)   "
 },
 {
   "id": "ch-10-verbs-part-one-tense-and-aspect-sec-104",
@@ -2275,7 +619,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.4",
   "title": "Primary Auxiliary: *Do*",
-  "body": " Primary Auxiliary: *Do*  Do is used for emphasis, questions, and negation when no other auxiliary is present.   Forms of *Do*   | Present | Past |  |---------|------|  | do, does | did |   Functions of Auxiliary *Do*   Do-support : When a sentence needs an auxiliary (for questions, negation) but has none, do is inserted:  Questions :   She works here. → Does she work here?  They left early. → Did they leave early?   Negation :   She works here. → She doesn't work here.  They left early. → They didn't leave early.   Emphasis :   I do understand your concern.  She did finish the assignment.   Note : If another auxiliary is present, do is not used:   She is working. → Is she working? (not ~~Does she is working?~~ )  He has left. → Has he left?   "
+  "body": " Primary Auxiliary: *Do*  Do is used for emphasis, questions, and negation when no other auxiliary is present.   Forms of *Do*     Present  Past    do, does  did     Functions of Auxiliary *Do*   Do-support : When a sentence needs an auxiliary (for questions, negation) but has none, do is inserted:  Questions :   She works here. → Does she work here?  They left early. → Did they leave early?   Negation :   She works here. → She doesn't work here.  They left early. → They didn't leave early.   Emphasis :   I do understand your concern.  She did finish the assignment.   Note : If another auxiliary is present, do is not used:   She is working. → Is she working? (not ~~Does she is working?~~ )  He has left. → Has he left?   "
 },
 {
   "id": "ch-10-verbs-part-one-tense-and-aspect-sec-105",
@@ -2284,7 +628,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.5",
   "title": "Tense: Locating Events in Time",
-  "body": " Tense: Locating Events in Time  Tense is a grammatical category that locates situations in time, typically marked by verb inflection.   Tense vs. Time   Tense is grammatical—a form of the verb.  Time is conceptual—when something actually happens.  English has only two morphological tenses : present and past. Future time is expressed through modals and aspect, not a distinct verb form.  | Tense | Marked by | Example |  |-------|-----------|---------|  | Present | base form or -s | walk, walks |  | Past | -ed or irregular form | walked, went |  | Future | modal will (no inflection) | will walk |  "
+  "body": " Tense: Locating Events in Time  Tense is a grammatical category that locates situations in time, typically marked by verb inflection.   Tense vs. Time   Tense is grammatical—a form of the verb.  Time is conceptual—when something actually happens.  English has only two morphological tenses : present and past. Future time is expressed through modals and aspect, not a distinct verb form.    Tense  Marked by  Example    Present  base form or -s  walk, walks    Past  -ed or irregular form  walked, went    Future  modal will (no inflection)  will walk    "
 },
 {
   "id": "ch-10-verbs-part-one-tense-and-aspect-sec-106",
@@ -2320,293 +664,14 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.9",
   "title": "Combining Tense and Aspect",
-  "body": " Combining Tense and Aspect  Tense and aspect combine systematically:  | | Simple | Progressive | Perfect | Perfect Progressive |  |-|--------|-------------|---------|---------------------|  | Present | walks | is walking | has walked | has been walking |  | Past | walked | was walking | had walked | had been walking |  | Future | will walk | will be walking | will have walked | will have been walking |   Timeline Visualization   Present simple ( She works ): General truth, habit  ```  Past -------|-------- Future  NOW (habit\/state)  ```  Present progressive ( She is working ): Now, in progress  ```  Past -------|======|- Future  NOW (ongoing)  ```  Present perfect ( She has worked ): Past connected to now  ```  Past ===[event]==|-------- Future  NOW (relevance)  ```  Past simple ( She worked ): Completed, disconnected from now  ```  Past --[event]--|-------- Future  NOW  ```  "
+  "body": " Combining Tense and Aspect  Tense and aspect combine systematically:     Simple  Progressive  Perfect  Perfect Progressive    Present  walks  is walking  has walked  has been walking    Past  walked  was walking  had walked  had been walking    Future  will walk  will be walking  will have walked  will have been walking     Timeline Visualization   Present simple ( She works ): General truth, habit  ```  Past -------|-------- Future  NOW (habit\/state)  ```  Present progressive ( She is working ): Now, in progress  ```  Past -------|======|- Future  NOW (ongoing)  ```  Present perfect ( She has worked ): Past connected to now  ```  Past ===[event]==|-------- Future  NOW (relevance)  ```  Past simple ( She worked ): Completed, disconnected from now  ```  Past --[event]--|-------- Future  NOW  ```  "
 },
 {
-  "id": "ch-10-homework",
+  "id": "ch-10-verbs-part-one-tense-and-aspect-12",
   "level": "1",
-  "url": "ch-10-homework.html",
-  "type": "Section",
-  "number": "10.10",
-  "title": "Homework: Verbs Part One - Tense and Aspect",
-  "body": " Homework: Verbs Part One - Tense and Aspect   Part 1: Identification (approx. 10 minutes)  Instructions: For each sentence below, identify the auxiliary verb(s), main verb, tense, and aspect. Use the following labels for aspect: simple, progressive, perfect, or perfect progressive.  Example (completed):  Sentence:  She has been waiting for an hour.   Auxiliary verb(s): has, been  Main verb: waiting  Tense: present  Aspect: perfect progressive   1.  The researchers have analyzed the experimental data.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:  2.  Yesterday, she was working in the library when I called.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:  3.  By next month, they will have completed the entire project.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:  4.  The professor teaches linguistics every semester.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:  5.  The students had been studying for three hours before the test began.  Auxiliary verb(s):  Main verb:  Tense:  Aspect:    Part 2: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence with the correct form of the verb in parentheses to match the tense-aspect indicated.  Example (completed):  Present perfect:  She __________ (study) at this university since 2022.  Answer: has studied  6. Present progressive: Right now, the children __________ (play) in the park.  7. Past perfect: By the time I arrived, they __________ (already \/ leave).  8. Present perfect progressive: She __________ (work) on this project for six months.  9. Future progressive: At noon tomorrow, I __________ (meet) with the committee.  10. Past simple: The team __________ (finish) the assignment last night.    Part 3: Sentence Writing (approx. 10 minutes)  Instructions: Write original sentences using the indicated tense-aspect combination. Make sure your sentence clearly demonstrates the meaning of that combination.  Example (completed):  Present perfect (past action with present relevance):  I have already eaten breakfast, so I'm not hungry now.  11. Write a sentence in present perfect that shows an experience up to now:  12. Write a sentence in past progressive that describes a background action interrupted by another event:  13. Write a sentence in future perfect that describes an action completed before a future point:  14. Write a sentence in present simple that expresses a general truth:  15. Write a sentence in past perfect that positions one past event before another:    Part 4: Distinguishing Meaning (approx. 5 minutes)  Instructions: Explain the difference in meaning between each pair of sentences.  Example (completed):  a)  I lived in Chicago for five years.  b)  I have lived in Chicago for five years.  Explanation: Sentence (a) uses past simple, indicating I no longer live there. Sentence (b) uses present perfect, indicating I still live there now.  16. Explain the difference in meaning:  a) She read the report.  b) She has read the report.  17. Explain the difference in meaning:  a) When I arrived, they left.  b) When I arrived, they had left.  18. Explain the difference in meaning:  a) He works at a bank.  b) He is working at a bank.    Part 5: Contextual Analysis (approx. 10 minutes)  Instructions: Read the passage below and answer the questions.  Passage:  Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years now. By next June, she will have finished the entire project. After that, she will be looking for a teaching position.  19. Identify the tense-aspect of each verb phrase in the passage:   moved :  has lived :  visited :  was working :  has been writing :  will have finished :  will be looking :   20. The passage uses both moved (past simple) and has lived (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.  21. Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:  Original: She studies linguistics.  a) Past progressive:  Meaning change:  b) Present perfect:  Meaning change:  c) Future perfect:  Meaning change:   Total estimated time: 40 minutes  "
-},
-{
-  "id": "ch-10-homework-2-3",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-10-homework-2-6",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-2-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-10-homework-2-11",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-2-11",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-10-homework-2-16",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-2-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-10-homework-2-21",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-2-21",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-10-homework-2-26",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-2-26",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-10-homework-3-3",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-10-homework-3-4",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-3-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Present perfect: "
-},
-{
-  "id": "ch-10-homework-3-6",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-3-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-10-homework-3-7",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-3-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-10-homework-3-8",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-3-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-10-homework-3-9",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-3-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-10-homework-3-10",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-3-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-10-homework-4-3",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-10-homework-4-4",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Present perfect (past action with present relevance): "
-},
-{
-  "id": "ch-10-homework-4-6",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-10-homework-4-7",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-4-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-10-homework-4-8",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-4-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-10-homework-4-9",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-4-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-10-homework-4-10",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-4-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-10-homework-5-3",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-10-homework-5-4",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "a) "
-},
-{
-  "id": "ch-10-homework-5-5",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-5-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "b) "
-},
-{
-  "id": "ch-10-homework-5-7",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-5-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "16. "
-},
-{
-  "id": "ch-10-homework-5-10",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-5-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "17. "
-},
-{
-  "id": "ch-10-homework-5-13",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-5-13",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "18. "
-},
-{
-  "id": "ch-10-homework-6-3",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Passage: "
-},
-{
-  "id": "ch-10-homework-6-5",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-6-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "19. "
-},
-{
-  "id": "ch-10-homework-6-7",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-6-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "20. "
-},
-{
-  "id": "ch-10-homework-6-8",
-  "level": "2",
-  "url": "ch-10-homework.html#ch-10-homework-6-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "21. "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-13",
-  "level": "1",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-13.html",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-12.html",
   "type": "Glossary",
-  "number": "10.11",
+  "number": "10.10",
   "title": "Glossary",
   "body": " Glossary   Aspect  A grammatical category describing the internal temporal structure of events.    Auxiliary verb  A verb that combines with a main verb to add grammatical information.    Past tense  The tense marked by -ed or irregular forms, typically indicating past time.    Perfect aspect  Aspect formed with have + past participle, connecting a past event to a later time.    Present tense  The tense marked by base form or -s , used for habits, states, and general truths.    Primary auxiliary  The auxiliaries be , have , and do .    Progressive aspect  Aspect formed with be + -ing , presenting events as ongoing.    Simple aspect  Aspect presenting events as complete wholes without internal structure.    Tense  A grammatical category locating events in time through verb inflection.    Time  The conceptual domain of when events occur (past, present, future).   "
 },
@@ -2617,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.1",
   "title": "Voice: Active and Passive",
-  "body": " Voice: Active and Passive  Voice is a grammatical category that describes the relationship between the verb and its arguments—specifically, who does the action and who receives it.   Active Voice   In active voice , the subject performs the action:   The dog bit the man. (subject = doer)  Maria wrote the report. (subject = doer)  Someone stole my bicycle. (subject = doer)   Active voice follows the pattern: Agent (doer) + Verb + Patient (receiver)   Passive Voice   In passive voice , the subject receives the action:   The man was bitten by the dog. (subject = receiver)  The report was written by Maria. (subject = receiver)  My bicycle was stolen . (subject = receiver)   Passive voice follows the pattern: * Patient (receiver) + be + past participle (+ by agent) *   Forming the Passive   Active → Passive transformation:   The active object becomes the passive subject  Add appropriate form of be  Change the main verb to past participle  The active subject becomes optional by -phrase   | Active | Passive |  |--------|---------|  | Maria wrote the report. | The report was written by Maria. |  | Someone stole my bike. | My bike was stolen. |  | They are building a house. | A house is being built. |  | She has finished the work. | The work has been finished. |   Passive with Tense and Aspect   Passive combines with all tenses and aspects:  | Tense-Aspect | Active | Passive |  |--------------|--------|---------|  | Present simple | writes | is written |  | Past simple | wrote | was written |  | Present progressive | is writing | is being written |  | Past progressive | was writing | was being written |  | Present perfect | has written | has been written |  | Past perfect | had written | had been written |  | Future | will write | will be written |  | Modal | can write | can be written |  "
+  "body": " Voice: Active and Passive  Voice is a grammatical category that describes the relationship between the verb and its arguments—specifically, who does the action and who receives it.   Active Voice   In active voice , the subject performs the action:   The dog bit the man. (subject = doer)  Maria wrote the report. (subject = doer)  Someone stole my bicycle. (subject = doer)   Active voice follows the pattern: Agent (doer) + Verb + Patient (receiver)   Passive Voice   In passive voice , the subject receives the action:   The man was bitten by the dog. (subject = receiver)  The report was written by Maria. (subject = receiver)  My bicycle was stolen . (subject = receiver)   Passive voice follows the pattern: * Patient (receiver) + be + past participle (+ by agent) *   Forming the Passive   Active → Passive transformation:   The active object becomes the passive subject  Add appropriate form of be  Change the main verb to past participle  The active subject becomes optional by -phrase     Active  Passive    Maria wrote the report.  The report was written by Maria.    Someone stole my bike.  My bike was stolen.    They are building a house.  A house is being built.    She has finished the work.  The work has been finished.     Passive with Tense and Aspect   Passive combines with all tenses and aspects:    Tense-Aspect  Active  Passive    Present simple  writes  is written    Past simple  wrote  was written    Present progressive  is writing  is being written    Past progressive  was writing  was being written    Present perfect  has written  has been written    Past perfect  had written  had been written    Future  will write  will be written    Modal  can write  can be written    "
 },
 {
   "id": "ch-11-verbs-part-two-voice-and-modals-sec-112",
@@ -2644,7 +709,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.4",
   "title": "Modal Auxiliaries",
-  "body": " Modal Auxiliaries  Modal auxiliaries add meanings related to possibility, necessity, permission, ability, and prediction. Unlike primary auxiliaries, modals have distinct grammatical properties.   The Nine Modals   | Modal | Basic Meaning |  |-------|---------------|  | can | ability, possibility, permission |  | could | past ability, possibility, polite request |  | will | future, willingness, prediction |  | would | hypothetical, polite request, past habit |  | shall | future (formal), suggestion |  | should | obligation, expectation, advice |  | may | permission, possibility |  | might | possibility (weaker than may ) |  | must | necessity, strong obligation, logical conclusion |   Properties of Modals    * No -s in third person : She can go. (not ~~She cans go~~*)  * No to infinitive : You must leave. (not ~~You must to leave~~*)  * No past participle or -ing form : ~~musted~~ , ~~musting~~*  Cannot combine directly : ~~She can must go~~  Form questions by inversion : Can she go?  * Form negatives with not** : She cannot go.*   "
+  "body": " Modal Auxiliaries  Modal auxiliaries add meanings related to possibility, necessity, permission, ability, and prediction. Unlike primary auxiliaries, modals have distinct grammatical properties.   The Nine Modals     Modal  Basic Meaning    can  ability, possibility, permission    could  past ability, possibility, polite request    will  future, willingness, prediction    would  hypothetical, polite request, past habit    shall  future (formal), suggestion    should  obligation, expectation, advice    may  permission, possibility    might  possibility (weaker than may )    must  necessity, strong obligation, logical conclusion     Properties of Modals    * No -s in third person : She can go. (not ~~She cans go~~*)  * No to infinitive : You must leave. (not ~~You must to leave~~*)  * No past participle or -ing form : ~~musted~~ , ~~musting~~*  Cannot combine directly : ~~She can must go~~  Form questions by inversion : Can she go?  * Form negatives with not** : She cannot go.*   "
 },
 {
   "id": "ch-11-verbs-part-two-voice-and-modals-sec-115",
@@ -2671,7 +736,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.7",
   "title": "Semi-Modals (Quasi-Modals)",
-  "body": " Semi-Modals (Quasi-Modals)  Semi-modals are multi-word expressions that function like modals but don't share all their grammatical properties.   Common Semi-Modals   | Semi-modal | Meaning | Example |  |------------|---------|---------|  | have to | necessity | I have to leave. |  | have got to | necessity (informal) | I' ve got to go. |  | be able to | ability | She' s able to help. |  | be going to | future intention | I' m going to study. |  | be supposed to | expectation\/obligation | You' re supposed to wait. |  | be allowed to | permission | We' re allowed to leave. |  | ought to | obligation | You ought to apologize. |  | used to | past habit | I used to live there. |   Semi-modals vs. True Modals   Unlike true modals, semi-modals:   Can be inflected: She has to go. (third person -s )  Can follow other modals: You will have to leave.  Can take -ing or infinitive forms: Having to leave upset her.   "
+  "body": " Semi-Modals (Quasi-Modals)  Semi-modals are multi-word expressions that function like modals but don't share all their grammatical properties.   Common Semi-Modals     Semi-modal  Meaning  Example    have to  necessity  I have to leave.    have got to  necessity (informal)  I' ve got to go.    be able to  ability  She' s able to help.    be going to  future intention  I' m going to study.    be supposed to  expectation\/obligation  You' re supposed to wait.    be allowed to  permission  We' re allowed to leave.    ought to  obligation  You ought to apologize.    used to  past habit  I used to live there.     Semi-modals vs. True Modals   Unlike true modals, semi-modals:   Can be inflected: She has to go. (third person -s )  Can follow other modals: You will have to leave.  Can take -ing or infinitive forms: Having to leave upset her.   "
 },
 {
   "id": "ch-11-verbs-part-two-voice-and-modals-sec-118",
@@ -2680,311 +745,14 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.8",
   "title": "Modal Perfect",
-  "body": " Modal Perfect  Modals combine with have + past participle to refer to past time or to express degrees of certainty about the past:  Modal + have + past participle :   She must have left . (I conclude she left)  He might have forgotten . (possibly he forgot)  You should have called . (but you didn't—criticism)  I would have helped if I could. (hypothetical past)  They could have won . (they had the ability but didn't)    Meanings of Modal Perfect   | Form | Meaning |  |------|---------|  | must have done | logical conclusion about past |  | may\/might have done | possibility in the past |  | could have done | past possibility or unrealized ability |  | should have done | obligation not fulfilled (criticism) |  | would have done | hypothetical past (unfulfilled) |  | can't have done | impossibility in the past |  "
+  "body": " Modal Perfect  Modals combine with have + past participle to refer to past time or to express degrees of certainty about the past:  Modal + have + past participle :   She must have left . (I conclude she left)  He might have forgotten . (possibly he forgot)  You should have called . (but you didn't—criticism)  I would have helped if I could. (hypothetical past)  They could have won . (they had the ability but didn't)    Meanings of Modal Perfect     Form  Meaning    must have done  logical conclusion about past    may\/might have done  possibility in the past    could have done  past possibility or unrealized ability    should have done  obligation not fulfilled (criticism)    would have done  hypothetical past (unfulfilled)    can't have done  impossibility in the past    "
 },
 {
-  "id": "ch-11-homework",
+  "id": "ch-11-verbs-part-two-voice-and-modals-11",
   "level": "1",
-  "url": "ch-11-homework.html",
-  "type": "Section",
-  "number": "11.9",
-  "title": "Homework: Verbs Part Two - Voice and Modals",
-  "body": " Homework: Verbs Part Two - Voice and Modals   Part 1: Voice Identification (approx. 8 minutes)  Instructions: For each sentence, identify whether it is in active or passive voice. If passive, identify the agent (if present) and the original active construction.  Example (completed):  Sentence:  The report was written by the committee.   Voice: passive  Agent: the committee  Active version: The committee wrote the report.   1.  The researchers carefully analyzed the data.  Voice:  2.  Three errors were discovered in the code.  Voice:  Agent (if present):  3.  The new policy will be announced tomorrow.  Voice:  Agent (if present):  4.  Someone stole my bicycle last night.  Voice:  5.  The building was constructed in 1920.  Voice:  Agent (if present):    Part 2: Voice Transformation (approx. 7 minutes)  Instructions: Convert each sentence to the opposite voice (active to passive or passive to active). Maintain the same tense and aspect.  Example (completed):  Active to passive:  The architect has designed the new building.  Answer: The new building has been designed by the architect.  6. Active to passive: The team is preparing the presentation.  7. Active to passive: Someone had stolen the documents before the investigation began.  8. Passive to active: The experiment was conducted by the research team.  9. Passive to active: The proposal will be reviewed by the committee next week.  10. Active to passive: The company will hire fifty new employees.    Part 3: Modal Meaning (approx. 10 minutes)  Instructions: For each sentence, identify the modal and classify its meaning using these categories: ability, possibility, permission, obligation\/necessity, deduction, or advice.  Example (completed):  Sentence:  You must submit the application by Friday.   Modal: must  Meaning: obligation\/necessity   11.  She can speak three languages fluently.  Modal:  Meaning:  12.  That might be the correct answer, but I'm not certain.  Modal:  Meaning:  13.  You should apologize for your mistake.  Modal:  Meaning:  14.  He must be exhausted after running the marathon.  Modal:  Meaning:  15.  May I leave the room early?  Modal:  Meaning:  16.  They could have won the game if they had practiced more.  Modal:  Meaning:  17. Explain the difference between the two uses of must :  a) You must wear a seatbelt. (Meaning type: _______________)  b) She's not answering the phone. She must be asleep. (Meaning type: _______________)    Part 4: Sentence Writing (approx. 10 minutes)  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence in passive voice where the agent is unknown:  My car was broken into last night.  18. Write a sentence in passive voice appropriate for scientific writing (focusing on method, not researcher):  19. Write a sentence using should have + past participle to express criticism or regret about something that did not happen:  20. Write a sentence using must to express a logical deduction (not obligation):  21. Write a sentence using could to express a past possibility that did not happen:  22. Write a sentence using the get-passive to describe an unexpected event:    Part 5: Analysis and Application (approx. 10 minutes)  Instructions: Read the passage below and answer the questions.  Passage:  The new policy was announced yesterday by the CEO. All employees must submit their feedback by next Friday. According to management, the changes should improve workplace efficiency. Some workers believe the policy might create additional challenges. However, the final decision will be made after all responses have been reviewed.  23. Identify all passive voice constructions in the passage. For each, explain why the writer might have chosen passive over active voice.  Passive construction 1:  Reason:  Passive construction 2:  Reason:  24. Identify the modals in the passage and classify each as expressing epistemic modality (about certainty\/possibility) or deontic modality (about obligation\/permission):  Modal 1:  Type:  Modal 2:  Type:  Modal 3:  Type:  25. Consider this active sentence: The manager rejected the proposal.  a) Rewrite it in passive voice:  b) Describe a situation where the passive version would be more appropriate than the active:  c) When might a writer prefer the active version?   Total estimated time: 45 minutes  "
-},
-{
-  "id": "ch-11-homework-2-3",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-11-homework-2-6",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-2-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-11-homework-2-8",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-2-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-11-homework-2-11",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-2-11",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-11-homework-2-14",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-2-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-11-homework-2-16",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-2-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-11-homework-3-3",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-11-homework-3-4",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-3-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Active to passive: "
-},
-{
-  "id": "ch-11-homework-3-6",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-3-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-11-homework-3-7",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-3-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-11-homework-3-8",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-3-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-11-homework-3-9",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-3-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-11-homework-3-10",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-3-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-11-homework-4-3",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-11-homework-4-6",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-11-homework-4-9",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-4-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-11-homework-4-12",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-4-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-11-homework-4-15",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-4-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-11-homework-4-18",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-4-18",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-11-homework-4-21",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-4-21",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "16. "
-},
-{
-  "id": "ch-11-homework-4-24",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-4-24",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "17. "
-},
-{
-  "id": "ch-11-homework-5-3",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-11-homework-5-4",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Write a sentence in passive voice where the agent is unknown: "
-},
-{
-  "id": "ch-11-homework-5-6",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-5-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "18. "
-},
-{
-  "id": "ch-11-homework-5-7",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-5-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "19. "
-},
-{
-  "id": "ch-11-homework-5-8",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-5-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "20. "
-},
-{
-  "id": "ch-11-homework-5-9",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-5-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "21. "
-},
-{
-  "id": "ch-11-homework-5-10",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-5-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "22. "
-},
-{
-  "id": "ch-11-homework-6-3",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Passage: "
-},
-{
-  "id": "ch-11-homework-6-5",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-6-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "23. "
-},
-{
-  "id": "ch-11-homework-6-10",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-6-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "24. "
-},
-{
-  "id": "ch-11-homework-6-17",
-  "level": "2",
-  "url": "ch-11-homework.html#ch-11-homework-6-17",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "25. "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-12",
-  "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-12.html",
+  "url": "ch-11-verbs-part-two-voice-and-modals-11.html",
   "type": "Glossary",
-  "number": "11.10",
+  "number": "11.9",
   "title": "Glossary",
   "body": " Glossary   Active voice  The grammatical voice where the subject performs the action.    Agent  The entity performing an action.    Deontic modality  Modal meaning concerning obligation, permission, and necessity.    Epistemic modality  Modal meaning concerning knowledge and certainty.    Modal auxiliary  An auxiliary verb expressing possibility, necessity, permission, etc.    Passive voice  The grammatical voice where the subject receives the action.    Patient  The entity affected by an action.    Semi-modal  A multi-word expression functioning like a modal ( have to , be able to ).    Voice  A grammatical category describing the relationship between verb and arguments.   "
 },
@@ -3031,7 +799,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.5",
   "title": "Adverb Clause Structure",
-  "body": " Adverb Clause Structure  Adverb clauses are dependent clauses that function as adverbials, introduced by subordinating conjunctions.   Structure   ```  Adverb Clause = Subordinating Conjunction + Subject + Predicate  ```   When [she arrived], we started.  Because [the roads were icy], we drove slowly.  Although [it was expensive], he bought it.    Common Subordinating Conjunctions   | Meaning | Conjunctions |  |---------|--------------|  | Time | when, while, before, after, until, since, as, once, whenever, as soon as |  | Reason | because, since, as, given that, now that |  | Contrast | although, though, even though, while, whereas, even if |  | Condition | if, unless, provided that, as long as, in case |  | Purpose | so that, in order that |  | Result | so...that, such...that |  | Manner | as, as if, as though |  | Comparison | than, as...as |   Punctuation   Adverb clause first : comma after the clause   When it rains , we stay inside.   Adverb clause last : usually no comma   We stay inside when it rains .   "
+  "body": " Adverb Clause Structure  Adverb clauses are dependent clauses that function as adverbials, introduced by subordinating conjunctions.   Structure   ```  Adverb Clause = Subordinating Conjunction + Subject + Predicate  ```   When [she arrived], we started.  Because [the roads were icy], we drove slowly.  Although [it was expensive], he bought it.    Common Subordinating Conjunctions     Meaning  Conjunctions    Time  when, while, before, after, until, since, as, once, whenever, as soon as    Reason  because, since, as, given that, now that    Contrast  although, though, even though, while, whereas, even if    Condition  if, unless, provided that, as long as, in case    Purpose  so that, in order that    Result  so...that, such...that    Manner  as, as if, as though    Comparison  than, as...as     Punctuation   Adverb clause first : comma after the clause   When it rains , we stay inside.   Adverb clause last : usually no comma   We stay inside when it rains .   "
 },
 {
   "id": "ch-12-adverbials-sec-126",
@@ -3043,272 +811,11 @@ var ptx_lunr_docs = [
   "body": " Adverbial Position  Adverbials can appear in different positions, affecting emphasis and information flow.   Initial Position   At the beginning of the sentence:   Yesterday , she arrived.  In the morning , we'll leave.  Frankly , I disagree.   Initial position often signals topic or sets the scene.   Medial Position   Between subject and verb, or within the verb phrase:   She often works late.  He has always been reliable.  They will probably arrive soon.   Medial position is common for frequency adverbs and some manner adverbs.   Final Position   At the end of the sentence:   She arrived yesterday .  We'll leave in the morning .  He spoke quietly .   Final position is the default for many adverbials, especially manner and place.   Position and Focus   Moving an adverbial to a different position can change emphasis:   She spoke quietly in the library . (neutral)  In the library , she spoke quietly. (library emphasized)  She spoke in the library quietly. (quietness emphasized)   "
 },
 {
-  "id": "ch-12-homework",
+  "id": "ch-12-adverbials-9",
   "level": "1",
-  "url": "ch-12-homework.html",
-  "type": "Section",
-  "number": "12.7",
-  "title": "Homework: Adverbials",
-  "body": " Homework: Adverbials   Part 1: Identification and Classification (approx. 10 minutes)  Instructions: For each sentence, identify all adverbials, their form (adverb phrase, prepositional phrase, noun phrase, adverb clause, infinitive phrase, or participial phrase), and their semantic role (time, place, manner, reason, purpose, condition, or concession).  Example (completed):  Sentence:  Yesterday, she worked carefully at the office because she had a deadline.   Yesterday - NP - time  carefully - AdvP - manner  at the office - PP - place  because she had a deadline - adverb clause - reason   1.  Last week, the students studied diligently in the library.  Adverbial 1:  Form:  Semantic role:  Adverbial 2:  Form:  Semantic role:  Adverbial 3:  Form:  Semantic role:  2.  If you need assistance, please call the help desk immediately.  Adverbial 1:  Form:  Semantic role:  Adverbial 2:  Form:  Semantic role:  3.  She left early to catch her flight.  Adverbial 1:  Form:  Semantic role:  Adverbial 2:  Form:  Semantic role:    Part 2: Adjunct, Disjunct, or Conjunct (approx. 5 minutes)  Instructions: Classify each underlined adverbial as an adjunct (modifies the verb\/clause content), disjunct (expresses speaker's attitude), or conjunct (connects sentences).  Example (completed):  Sentence:  Fortunately, the rain stopped before the game.  Fortunately - disjunct (expresses the speaker's positive attitude toward the situation)  4.  She answered the questions honestly .  Classification and explanation:  5.  Honestly , I don't think that's a good idea.  Classification and explanation:  6.  The data were inconclusive. Nevertheless , the researchers published their findings.  Classification and explanation:  7.  He spoke softly so the children wouldn't wake up.  Classification and explanation:  8.  The experiment failed. Therefore , they redesigned the protocol.  Classification and explanation:    Part 3: Sentence Completion (approx. 5 minutes)  Instructions: Add the requested type of adverbial to complete each sentence.  Example (completed):  Add an adverb clause of condition:  __________, you should bring an umbrella.  Answer: If it looks like rain, you should bring an umbrella.  9. Add a prepositional phrase of time: __________, the committee will announce its decision.  10. Add an adverb clause of reason: She stayed home __________.  11. Add an infinitive phrase of purpose: He went to the store __________.  12. Add an adverb clause of concession: __________, we decided to proceed with the project.  13. Add a participial phrase functioning as an adverbial: __________, she answered all the questions correctly.    Part 4: Sentence Writing (approx. 10 minutes)  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence with an adverb clause of condition:  If the weather improves, we will have the picnic outside.  14. Write a sentence with an adverb clause of time (using while , when , before , after , or until ):  15. Write a sentence with a disjunct that expresses your attitude toward the content:  16. Write a sentence with a conjunct that shows contrast (using however , nevertheless , or on the other hand ):  17. Write a sentence with an adverb clause of purpose (using so that or in order that ):  18. Write a sentence with a participial phrase functioning as an adverbial of reason:    Part 5: Analysis and Application (approx. 10 minutes)  Instructions: Read the passage below and answer the questions.  Passage:  Yesterday, the researchers finally completed their groundbreaking study. Surprisingly, the results contradicted earlier findings. They had worked diligently for three years because funding was severely limited. Nevertheless, they published their findings in a prestigious journal last month. If additional funding becomes available, they will continue their research next year in a new laboratory.  19. Identify five adverbials in the passage. For each, state its form and semantic role.  Adverbial 1:  Form:  Semantic role:  Adverbial 2:  Form:  Semantic role:  Adverbial 3:  Form:  Semantic role:  Adverbial 4:  Form:  Semantic role:  Adverbial 5:  Form:  Semantic role:  20. The passage contains both Surprisingly and diligently . Explain why Surprisingly is a disjunct while diligently is an adjunct.  21. Rewrite the first sentence of the passage with the adverbial yesterday in three different positions. Explain how the emphasis changes in each version.  Position 1:  Effect on emphasis:  Position 2:  Effect on emphasis:  Position 3:  Effect on emphasis:   Total estimated time: 40 minutes  "
-},
-{
-  "id": "ch-12-homework-2-3",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-12-homework-2-6",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-2-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-12-homework-2-16",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-2-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-12-homework-2-23",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-2-23",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-12-homework-3-3",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-12-homework-3-6",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-3-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-12-homework-3-8",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-3-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-12-homework-3-10",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-3-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-12-homework-3-12",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-3-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-12-homework-3-14",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-3-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-12-homework-4-3",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-12-homework-4-4",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Add an adverb clause of condition: "
-},
-{
-  "id": "ch-12-homework-4-6",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-12-homework-4-7",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-4-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-12-homework-4-8",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-4-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-12-homework-4-9",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-4-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-12-homework-4-10",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-4-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-12-homework-5-3",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-12-homework-5-4",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Write a sentence with an adverb clause of condition: "
-},
-{
-  "id": "ch-12-homework-5-6",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-5-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-12-homework-5-7",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-5-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-12-homework-5-8",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-5-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "16. "
-},
-{
-  "id": "ch-12-homework-5-9",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-5-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "17. "
-},
-{
-  "id": "ch-12-homework-5-10",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-5-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "18. "
-},
-{
-  "id": "ch-12-homework-6-3",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Passage: "
-},
-{
-  "id": "ch-12-homework-6-5",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-6-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "19. "
-},
-{
-  "id": "ch-12-homework-6-21",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-6-21",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "20. "
-},
-{
-  "id": "ch-12-homework-6-22",
-  "level": "2",
-  "url": "ch-12-homework.html#ch-12-homework-6-22",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "21. "
-},
-{
-  "id": "ch-12-adverbials-10",
-  "level": "1",
-  "url": "ch-12-adverbials-10.html",
+  "url": "ch-12-adverbials-9.html",
   "type": "Glossary",
-  "number": "12.8",
+  "number": "12.7",
   "title": "Glossary",
   "body": " Glossary   Adjunct  An adverbial integrated into clause structure, modifying the verb or clause content.    Adverb  A part of speech that typically modifies verbs, adjectives, or other adverbs.    Adverb clause  A dependent clause functioning as an adverbial, introduced by a subordinating conjunction.    Adverbial  Any word, phrase, or clause functioning to modify a verb, adjective, adverb, or sentence.    Conjunct  An adverbial that connects sentences or shows logical relationships.    Disjunct  An adverbial expressing the speaker's attitude or evaluation, external to the proposition.    Subordinating conjunction  A word that introduces a dependent clause ( when , because , although , etc.).   "
 },
@@ -3337,7 +844,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.3",
   "title": "Relative Clauses in Detail",
-  "body": " Relative Clauses in Detail  Relative clauses (also called adjective clauses) modify nouns, specifying which entity is meant.   Structure   A relative clause consists of a relative word + clause content:  ```  Relative Clause = Relative Word + Subject + Predicate  (or: Relative Word as Subject + Predicate)  ```   the book that I read (that = object of \"read\")  the student who won (who = subject of \"won\")    Relative Pronouns   | Pronoun | Use | Example |  |---------|-----|---------|  | who | subject (people) | the man who arrived |  | whom | object (people, formal) | the man whom I saw |  | whose | possessive (people\/things) | the author whose book I read |  | which | subject\/object (things) | the book which I read |  | that | subject\/object (people\/things) | the book that I read |   Relative Adverbs   | Adverb | Use | Example |  |--------|-----|---------|  | where | place | the city where I was born |  | when | time | the day when we met |  | why | reason | the reason why she left |   That vs. Which   In American English:   That is preferred for restrictive clauses  Which is preferred for non-restrictive clauses    Restrictive: The book that I recommended is excellent.  Non-restrictive: This book, which I recommended, is excellent.    Zero Relative   When the relative pronoun is the object, it can be omitted:   the book (that) I read  the man (whom) I saw  the person (that) she called   This cannot be done when the relative is the subject:   the man who arrived (not ~~the man arrived~~ )   "
+  "body": " Relative Clauses in Detail  Relative clauses (also called adjective clauses) modify nouns, specifying which entity is meant.   Structure   A relative clause consists of a relative word + clause content:  ```  Relative Clause = Relative Word + Subject + Predicate  (or: Relative Word as Subject + Predicate)  ```   the book that I read (that = object of \"read\")  the student who won (who = subject of \"won\")    Relative Pronouns     Pronoun  Use  Example    who  subject (people)  the man who arrived    whom  object (people, formal)  the man whom I saw    whose  possessive (people\/things)  the author whose book I read    which  subject\/object (things)  the book which I read    that  subject\/object (people\/things)  the book that I read     Relative Adverbs     Adverb  Use  Example    where  place  the city where I was born    when  time  the day when we met    why  reason  the reason why she left     That vs. Which   In American English:   That is preferred for restrictive clauses  Which is preferred for non-restrictive clauses    Restrictive: The book that I recommended is excellent.  Non-restrictive: This book, which I recommended, is excellent.    Zero Relative   When the relative pronoun is the object, it can be omitted:   the book (that) I read  the man (whom) I saw  the person (that) she called   This cannot be done when the relative is the subject:   the man who arrived (not ~~the man arrived~~ )   "
 },
 {
   "id": "ch-13-adjectivals-sec-134",
@@ -4435,7 +1942,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "16.1",
   "title": "Nonfinite Verb Forms",
-  "body": " Nonfinite Verb Forms  Verbs can be finite or nonfinite . Finite verbs are marked for tense and agree with their subjects. Nonfinite verbs lack tense marking and cannot serve as the main verb of an independent clause.   Three Types of Nonfinite Forms   | Form | Example | Characteristics |  |------|---------|-----------------|  | Infinitive | (to) write | Base form, with or without to |  | Gerund\/Present Participle | writing | -ing form |  | Past Participle | written | -ed or irregular form |   Infinitives   To-infinitive : to + base verb   She wants to leave .  It's important to practice .   Bare infinitive : base verb without to   She can leave . (after modals)  Let him go . (after let , make , have )  I saw her leave . (after perception verbs)    Gerunds and Present Participles   The -ing form serves two functions:  Gerund (nominal function):   Swimming is fun. (subject)  She enjoys reading . (object)   Present participle (adjectival\/adverbial function):   the running water (adjectival)  Knowing the answer, she raised her hand. (adverbial)   Progressive auxiliary :   She is writing . (part of verb phrase)    Past Participles   The past participle ( -ed or irregular) serves several functions:  Perfect auxiliary :   She has written a book.   Passive auxiliary :   The book was written by her.   Adjectival :   the broken window  a book written by Hemingway   "
+  "body": " Nonfinite Verb Forms  Verbs can be finite or nonfinite . Finite verbs are marked for tense and agree with their subjects. Nonfinite verbs lack tense marking and cannot serve as the main verb of an independent clause.   Three Types of Nonfinite Forms     Form  Example  Characteristics    Infinitive  (to) write  Base form, with or without to    Gerund\/Present Participle  writing  -ing form    Past Participle  written  -ed or irregular form     Infinitives   To-infinitive : to + base verb   She wants to leave .  It's important to practice .   Bare infinitive : base verb without to   She can leave . (after modals)  Let him go . (after let , make , have )  I saw her leave . (after perception verbs)    Gerunds and Present Participles   The -ing form serves two functions:  Gerund (nominal function):   Swimming is fun. (subject)  She enjoys reading . (object)   Present participle (adjectival\/adverbial function):   the running water (adjectival)  Knowing the answer, she raised her hand. (adverbial)   Progressive auxiliary :   She is writing . (part of verb phrase)    Past Participles   The past participle ( -ed or irregular) serves several functions:  Perfect auxiliary :   She has written a book.   Passive auxiliary :   The book was written by her.   Adjectival :   the broken window  a book written by Hemingway   "
 },
 {
   "id": "ch-16-other-grammatical-forms-sec-162",
@@ -4696,7 +2203,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "19.4",
   "title": "Concision: Eliminating Wordiness",
-  "body": " Concision: Eliminating Wordiness  Concise writing says what needs to be said without unnecessary words.   Redundant Pairs   Eliminate words that repeat meaning:  | Wordy | Concise |  |-------|---------|  | basic fundamentals | basics or fundamentals |  | true facts | facts |  | past history | history |  | future plans | plans |  | consensus of opinion | consensus |  | completely unanimous | unanimous |   Meaningless Modifiers   Remove words that add nothing:  | Wordy | Concise |  |-------|---------|  | really quite interesting | interesting |  | very unique | unique |  | absolutely essential | essential |  | completely finished | finished |   Wordy Phrases   Replace phrases with single words:  | Wordy | Concise |  |-------|---------|  | at this point in time | now |  | in the event that | if |  | due to the fact that | because |  | in order to | to |  | a large number of | many |  | is able to | can |  | has the ability to | can |  | make a decision | decide |  | give consideration to | consider |   Empty Sentence Starters   Avoid weak openings:  | Wordy | Concise |  |-------|---------|  | It is important to note that... | (just state it) |  | There are many people who believe... | Many people believe... |  | It is my opinion that... | (just state your opinion) |  | The reason why is because... | The reason is... or because |  "
+  "body": " Concision: Eliminating Wordiness  Concise writing says what needs to be said without unnecessary words.   Redundant Pairs   Eliminate words that repeat meaning:    Wordy  Concise    basic fundamentals  basics or fundamentals    true facts  facts    past history  history    future plans  plans    consensus of opinion  consensus    completely unanimous  unanimous     Meaningless Modifiers   Remove words that add nothing:    Wordy  Concise    really quite interesting  interesting    very unique  unique    absolutely essential  essential    completely finished  finished     Wordy Phrases   Replace phrases with single words:    Wordy  Concise    at this point in time  now    in the event that  if    due to the fact that  because    in order to  to    a large number of  many    is able to  can    has the ability to  can    make a decision  decide    give consideration to  consider     Empty Sentence Starters   Avoid weak openings:    Wordy  Concise    It is important to note that...  (just state it)    There are many people who believe...  Many people believe...    It is my opinion that...  (just state your opinion)    The reason why is because...  The reason is... or because    "
 },
 {
   "id": "ch-19-organization-and-concision-sec-195",
@@ -4705,7 +2212,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "19.5",
   "title": "Nominalization and Verb Strength",
-  "body": " Nominalization and Verb Strength  Nominalization is turning a verb into a noun. While sometimes useful, excessive nominalization creates wordy, weak prose.   The Problem   | Nominalized (wordy) | Verbal (concise) |  |---------------------|------------------|  | make an examination of | examine |  | give consideration to | consider |  | conduct an investigation of | investigate |  | reach a conclusion | conclude |  | provide assistance to | assist |   When Nominalization Works   Nominalizations are useful when the noun form serves a specific purpose:   As subjects : The investigation revealed problems. (investigation as topic)  To refer back : This decision was controversial. (referring to previous content)   The key is avoiding unnecessary nominalization that buries the action.  "
+  "body": " Nominalization and Verb Strength  Nominalization is turning a verb into a noun. While sometimes useful, excessive nominalization creates wordy, weak prose.   The Problem     Nominalized (wordy)  Verbal (concise)    make an examination of  examine    give consideration to  consider    conduct an investigation of  investigate    reach a conclusion  conclude    provide assistance to  assist     When Nominalization Works   Nominalizations are useful when the noun form serves a specific purpose:   As subjects : The investigation revealed problems. (investigation as topic)  To refer back : This decision was controversial. (referring to previous content)   The key is avoiding unnecessary nominalization that buries the action.  "
 },
 {
   "id": "ch-19-organization-and-concision-sec-196",
@@ -4786,7 +2293,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "20.5",
   "title": "Adapting to Context",
-  "body": " Adapting to Context   Analyzing the Rhetorical Situation   Before writing, consider:   Audience : Who will read this? What do they know? What do they expect?  Purpose : What am I trying to accomplish?  Context : What's the situation? What are the conventions?    Making Grammatical Adjustments   | Feature | Formal | Informal |  |---------|--------|----------|  | Contractions | avoid | use freely |  | Passive voice | acceptable | use sparingly |  | First person | often avoided | common |  | Sentence length | longer, complex | shorter, simpler |  | Sentence fragments | avoid | occasional OK |  | Relative pronouns | include | may omit |   Recognizing Register Shifts   Register should be consistent. Mixing registers can seem:   Jarring: The research demonstrates significant findings. It's pretty cool.  Inappropriately formal: I am writing to request your presence at the barbecue.  Inappropriately casual: The defendant was like, not guilty or whatever.   "
+  "body": " Adapting to Context   Analyzing the Rhetorical Situation   Before writing, consider:   Audience : Who will read this? What do they know? What do they expect?  Purpose : What am I trying to accomplish?  Context : What's the situation? What are the conventions?    Making Grammatical Adjustments     Feature  Formal  Informal    Contractions  avoid  use freely    Passive voice  acceptable  use sparingly    First person  often avoided  common    Sentence length  longer, complex  shorter, simpler    Sentence fragments  avoid  occasional OK    Relative pronouns  include  may omit     Recognizing Register Shifts   Register should be consistent. Mixing registers can seem:   Jarring: The research demonstrates significant findings. It's pretty cool.  Inappropriately formal: I am writing to request your presence at the barbecue.  Inappropriately casual: The defendant was like, not guilty or whatever.   "
 },
 {
   "id": "ch-20-genre-and-register-sec-206",
@@ -4831,7 +2338,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "21.2",
   "title": "L1 Grammar Instruction",
-  "body": " L1 Grammar Instruction   The Context   Native English speakers come to school already fluent. They don't need grammar instruction to communicate—they've been doing that for years. What they need is awareness of how language works and control over written conventions.   Effective Approaches for L1   Connect to reading and writing : Grammar instruction is most effective when tied to actual language use, not isolated drills.  Use authentic texts : Analyze real examples from literature, journalism, and student writing rather than invented sentences.  Focus on choices : Help students see grammar as a set of options for expressing ideas, not just rules to follow.  Emphasize revision : Grammar knowledge helps writers during revision—recognizing problems and fixing them.  Build metalanguage gradually : Students need terminology to talk about language, but terminology without understanding is useless.   Common L1 Challenges   | Challenge | Approach |  |-----------|----------|  | \"Who\" vs. \"whom\" | Teach the distinction but acknowledge that \"whom\" is declining |  | Sentence fragments | Distinguish effective fragments from unintentional ones |  | Comma splices | Teach coordination and subordination options |  | Subject-verb agreement | Focus on tricky cases (collective nouns, intervening phrases) |  | Pronoun reference | Connect to revision and clarity |  "
+  "body": " L1 Grammar Instruction   The Context   Native English speakers come to school already fluent. They don't need grammar instruction to communicate—they've been doing that for years. What they need is awareness of how language works and control over written conventions.   Effective Approaches for L1   Connect to reading and writing : Grammar instruction is most effective when tied to actual language use, not isolated drills.  Use authentic texts : Analyze real examples from literature, journalism, and student writing rather than invented sentences.  Focus on choices : Help students see grammar as a set of options for expressing ideas, not just rules to follow.  Emphasize revision : Grammar knowledge helps writers during revision—recognizing problems and fixing them.  Build metalanguage gradually : Students need terminology to talk about language, but terminology without understanding is useless.   Common L1 Challenges     Challenge  Approach    \"Who\" vs. \"whom\"  Teach the distinction but acknowledge that \"whom\" is declining    Sentence fragments  Distinguish effective fragments from unintentional ones    Comma splices  Teach coordination and subordination options    Subject-verb agreement  Focus on tricky cases (collective nouns, intervening phrases)    Pronoun reference  Connect to revision and clarity    "
 },
 {
   "id": "ch-21-teaching-grammar-sec-213",
@@ -4858,7 +2365,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "21.5",
   "title": "Error Correction",
-  "body": " Error Correction   Types of Errors   Mistakes : Slips that learners can self-correct when prompted  Errors : Systematic patterns reflecting incomplete acquisition   Corrective Feedback Options   | Type | Example | When to Use |  |------|---------|-------------|  | Explicit correction | \"No, say 'went' not 'goed'\" | When clarity is priority |  | Recast | (learner: \"She goed\") → \"She went yesterday?\" | In conversational contexts |  | Elicitation | \"She...?\" | When learner can self-correct |  | Metalinguistic feedback | \"Remember the past tense of 'go'?\" | With explicit-knowledge learners |  | Clarification request | \"Sorry, what did you say?\" | To prompt self-correction |   When to Correct   Consider:   Activity type : Fluency vs. accuracy focus  Error type : Global (affecting meaning) vs. local (minor)  Learner level : Beginners need more scaffolding  Affective factors : Balance correction with encouragement   "
+  "body": " Error Correction   Types of Errors   Mistakes : Slips that learners can self-correct when prompted  Errors : Systematic patterns reflecting incomplete acquisition   Corrective Feedback Options     Type  Example  When to Use    Explicit correction  \"No, say 'went' not 'goed'\"  When clarity is priority    Recast  (learner: \"She goed\") → \"She went yesterday?\"  In conversational contexts    Elicitation  \"She...?\"  When learner can self-correct    Metalinguistic feedback  \"Remember the past tense of 'go'?\"  With explicit-knowledge learners    Clarification request  \"Sorry, what did you say?\"  To prompt self-correction     When to Correct   Consider:   Activity type : Fluency vs. accuracy focus  Error type : Global (affecting meaning) vs. local (minor)  Learner level : Beginners need more scaffolding  Affective factors : Balance correction with encouragement   "
 },
 {
   "id": "ch-21-teaching-grammar-sec-216",
