@@ -292,27 +292,25 @@
 
     <p>We can represent phrase structure using tree diagrams. Here's a simple noun phrase:</p>
 
-<pre>
-        NP
-    ┌───┼───┐
-   Det  Adj  N
-    │    │   │
-   the  tall student
-</pre>
+    <figure xml:id="fig-ch05-np-simple">
+      <caption>A simple noun phrase: <em>the tall student</em></caption>
+      <image source="diagrams/new/ch05_np_simple.png" width="40%">
+        <description>Syntax tree diagram showing the noun phrase "the tall student" with NP as the root, branching to DET (the), ADJ (tall), and N (student)</description>
+      </image>
+    </figure>
+    <p><c>[NP [DET the] [ADJP [ADJ tall]] [N student]]</c></p>
 
     <p>The tree shows that <em>the</em>, <em>tall</em>, and <em>student</em> combine to form a single NP. The head noun <em>student</em> determines the phrase type; the determiner and adjective are its pre-modifiers.</p>
 
     <p>A more complex noun phrase adds a post-modifier:</p>
 
-<pre>
-              NP
-    ┌─────┬───┼───────┐
-   Det   Adj  N       PP
-    │     │   │    ┌──┴──┐
-   the  tall student Prep  NP
-                      │    │
-                    from  Ohio
-</pre>
+    <figure xml:id="fig-ch05-np-with-pp">
+      <caption>A noun phrase with a prepositional phrase post-modifier</caption>
+      <image source="diagrams/new/ch05_np_with_pp.png" width="55%">
+        <description>Syntax tree diagram showing "the tall student from Ohio" with nested PP containing another NP</description>
+      </image>
+    </figure>
+    <p><c>[NP [DET the] [ADJP [ADJ tall]] [N student] [PP [PREP from] [NP [N Ohio]]]]</c></p>
 
     <p>Notice that the post-modifier <em>from Ohio</em> is itself a phrase—a prepositional phrase (PP) containing its own NP. Phrases can nest inside other phrases, creating hierarchical structures.</p>
 
@@ -379,27 +377,25 @@
 
     <p><em>A simple noun phrase:</em></p>
 
-<pre>
-        NP
-    ┌───┼───┐
-   Det  Adj  N
-    │    │   │
-   the  tall student
-</pre>
+    <figure xml:id="fig-ch05-np-simple-nouns">
+      <caption>A simple noun phrase with determiner, adjective, and head noun</caption>
+      <image source="diagrams/new/ch05_np_simple.png" width="40%">
+        <description>Syntax tree for "the tall student" showing NP with DET, ADJ, and N branches</description>
+      </image>
+    </figure>
+    <p><c>[NP [DET the] [ADJP [ADJ tall]] [N student]]</c></p>
 
     <p>The noun <em>student</em> is the head—the essential word that determines the phrase type. The determiner <em>the</em> and adjective <em>tall</em> are pre-modifiers that add information about which student we mean.</p>
 
     <p><em>A larger noun phrase with post-modification:</em></p>
 
-<pre>
-                  NP
-    ┌───────┬─────┼─────┬───────┐
-   Det     Adj   Adj    N       PP
-    │       │     │     │    ┌──┴──┐
-   the  brilliant young student Prep  NP
-                               │     │
-                              from  Ohio
-</pre>
+    <figure xml:id="fig-ch05-np-complex">
+      <caption>A complex noun phrase with multiple modifiers</caption>
+      <image source="diagrams/new/ch05_np_complex.png" width="60%">
+        <description>Syntax tree for "the brilliant young student from Ohio" showing multiple adjectives and a PP post-modifier</description>
+      </image>
+    </figure>
+    <p><c>[NP [DET the] [ADJP [ADJ brilliant]] [ADJP [ADJ young]] [N student] [PP [PREP from] [NP [N Ohio]]]]</c></p>
 
     <p>Here we have multiple pre-modifiers (<em>the</em>, <em>brilliant</em>, <em>young</em>) and a prepositional phrase post-modifier (<em>from Ohio</em>). Notice how the PP contains its own NP (<em>Ohio</em>)—phrases nest inside phrases.</p>
 
@@ -605,41 +601,37 @@
 
     <p><em>An intransitive verb phrase (no object required):</em></p>
 
-<pre>
-      VP
-       │
-       V
-       │
-     slept
-</pre>
+    <figure xml:id="fig-ch05-vp-intransitive">
+      <caption>An intransitive verb phrase</caption>
+      <image source="diagrams/new/ch05_vp_intransitive.png" width="20%">
+        <description>Syntax tree showing VP with only V (slept)</description>
+      </image>
+    </figure>
+    <p><c>[VP [V slept]]</c></p>
 
     <p>The verb <em>slept</em> needs nothing after it—the subject can just sleep.</p>
 
     <p><em>A transitive verb phrase (requires an object):</em></p>
 
-<pre>
-         VP
-      ┌──┴──┐
-      V     NP
-      │   ┌─┴──┐
-    read Det   N
-          │    │
-         the  book
-</pre>
+    <figure xml:id="fig-ch05-vp-transitive">
+      <caption>A transitive verb phrase with direct object</caption>
+      <image source="diagrams/new/ch05_vp_transitive.png" width="35%">
+        <description>Syntax tree showing VP with V (read) and NP (the book)</description>
+      </image>
+    </figure>
+    <p><c>[VP [V read] [NP [DET the] [N book]]]</c></p>
 
     <p>The verb <em>read</em> requires something to be read—the NP <em>the book</em> is its direct object.</p>
 
     <p><em>A ditransitive verb phrase (requires two objects):</em></p>
 
-<pre>
-              VP
-      ┌───────┼───────┐
-      V       NP      NP
-      │       │    ┌──┴──┐
-    gave     her  Det    N
-                   │     │
-                   a   present
-</pre>
+    <figure xml:id="fig-ch05-vp-ditransitive">
+      <caption>A ditransitive verb phrase with indirect and direct objects</caption>
+      <image source="diagrams/new/ch05_vp_ditransitive.png" width="45%">
+        <description>Syntax tree showing VP with V (gave), NP (her), and NP (a present)</description>
+      </image>
+    </figure>
+    <p><c>[VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]</c></p>
 
     <p>The verb <em>gave</em> requires both a recipient (<em>her</em>) and a thing given (<em>a present</em>).</p>
 
@@ -816,37 +808,35 @@
 
     <p><em>A simple adjective phrase:</em></p>
 
-<pre>
-     AdjP
-       │
-      Adj
-       │
-     happy
-</pre>
+    <figure xml:id="fig-ch05-adjp-simple">
+      <caption>A simple adjective phrase</caption>
+      <image source="diagrams/new/ch05_adjp_simple.png" width="20%">
+        <description>Syntax tree showing ADJP with only ADJ (happy)</description>
+      </image>
+    </figure>
+    <p><c>[ADJP [ADJ happy]]</c></p>
 
     <p><em>An adjective phrase with a pre-modifier:</em></p>
 
-<pre>
-        AdjP
-     ┌───┴───┐
-    Adv     Adj
-     │       │
-   very    happy
-</pre>
+    <figure xml:id="fig-ch05-adjp-degree">
+      <caption>An adjective phrase with a degree modifier</caption>
+      <image source="diagrams/new/ch05_adjp_degree.png" width="30%">
+        <description>Syntax tree showing ADJP with ADV (very) and ADJ (happy)</description>
+      </image>
+    </figure>
+    <p><c>[ADJP [ADVP [ADV very]] [ADJ happy]]</c></p>
 
     <p>The degree adverb <em>very</em> intensifies the adjective <em>happy</em>.</p>
 
     <p><em>An adjective phrase with a post-modifier:</em></p>
 
-<pre>
-            AdjP
-     ┌───────┼───────┐
-    Adv     Adj      PP
-     │       │    ┌──┴──┐
-   very    proud Prep   NP
-                  │     │
-                 of  her work
-</pre>
+    <figure xml:id="fig-ch05-adjp-complex">
+      <caption>A complex adjective phrase with pre- and post-modifiers</caption>
+      <image source="diagrams/new/ch05_adjp_complex.png" width="50%">
+        <description>Syntax tree showing ADJP with ADV (very), ADJ (proud), and PP (of her work)</description>
+      </image>
+    </figure>
+    <p><c>[ADJP [ADVP [ADV very]] [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]</c></p>
 
     <p>Here the adjective <em>proud</em> is modified both by the degree adverb <em>very</em> (pre-modifier) and by the prepositional phrase <em>of her work</em> (post-modifier).</p>
 
@@ -1016,23 +1006,23 @@
 
     <p><em>A simple adverb phrase:</em></p>
 
-<pre>
-     AdvP
-       │
-      Adv
-       │
-    quickly
-</pre>
+    <figure xml:id="fig-ch05-advp-simple">
+      <caption>A simple adverb phrase</caption>
+      <image source="diagrams/new/ch05_advp_simple.png" width="20%">
+        <description>Syntax tree showing ADVP with only ADV (quickly)</description>
+      </image>
+    </figure>
+    <p><c>[ADVP [ADV quickly]]</c></p>
 
     <p><em>An adverb phrase with a degree modifier:</em></p>
 
-<pre>
-        AdvP
-     ┌───┴───┐
-    Adv     Adv
-     │       │
-   very   quickly
-</pre>
+    <figure xml:id="fig-ch05-advp-degree">
+      <caption>An adverb phrase with a degree modifier</caption>
+      <image source="diagrams/new/ch05_advp_degree.png" width="30%">
+        <description>Syntax tree showing ADVP with ADV (very) modifying ADV (quickly)</description>
+      </image>
+    </figure>
+    <p><c>[ADVP [ADVP [ADV very]] [ADV quickly]]</c></p>
 
     <p>The degree adverb <em>very</em> intensifies the manner adverb <em>quickly</em>.</p>
 
@@ -1523,6 +1513,133 @@
     </subsection>
 
     <p><em>Total estimated time: 30-40 minutes</em></p>
+  </section>
+
+  <section xml:id="ch-05-diagram-examples">
+    <title>Diagram Examples</title>
+
+    <p>This section provides reference diagrams for the phrase structures introduced in this chapter. Use these as models when analyzing and diagramming open-class phrases.</p>
+
+    <subsection xml:id="ch-05-diagrams-np">
+      <title>Noun Phrase Examples</title>
+
+      <figure xml:id="fig-ch05-ex-np-simple">
+        <caption>Simple NP: noun only</caption>
+        <image source="diagrams/new/ch08_simple_np.png" width="15%">
+          <description>Syntax tree for "dogs" showing NP with only N</description>
+        </image>
+      </figure>
+      <p><c>[NP [N dogs]]</c></p>
+
+      <figure xml:id="fig-ch05-ex-np-det">
+        <caption>NP with determiner</caption>
+        <image source="diagrams/new/ch08_np_det.png" width="25%">
+          <description>Syntax tree for "the dog" showing NP with DET and N</description>
+        </image>
+      </figure>
+      <p><c>[NP [DET the] [N dog]]</c></p>
+
+      <figure xml:id="fig-ch05-ex-np-det-adj">
+        <caption>NP with determiner and adjective</caption>
+        <image source="diagrams/new/ch05_np_simple.png" width="40%">
+          <description>Syntax tree for "the tall student" showing NP with DET, ADJ, and N</description>
+        </image>
+      </figure>
+      <p><c>[NP [DET the] [ADJP [ADJ tall]] [N student]]</c></p>
+
+      <figure xml:id="fig-ch05-ex-np-multi-adj">
+        <caption>NP with multiple adjectives</caption>
+        <image source="diagrams/new/ch08_np_multiple_adj.png" width="45%">
+          <description>Syntax tree for "the big brown dog" showing NP with two adjectives</description>
+        </image>
+      </figure>
+      <p><c>[NP [DET the] [ADJP [ADJ big]] [ADJP [ADJ brown]] [N dog]]</c></p>
+
+      <figure xml:id="fig-ch05-ex-np-pp">
+        <caption>NP with PP post-modifier</caption>
+        <image source="diagrams/new/ch05_np_with_pp.png" width="55%">
+          <description>Syntax tree for "the tall student from Ohio" with PP post-modifier</description>
+        </image>
+      </figure>
+      <p><c>[NP [DET the] [ADJP [ADJ tall]] [N student] [PP [PREP from] [NP [N Ohio]]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-05-diagrams-vp">
+      <title>Verb Phrase Examples</title>
+
+      <figure xml:id="fig-ch05-ex-vp-simple">
+        <caption>Simple VP: intransitive verb</caption>
+        <image source="diagrams/new/ch07_simple_vp.png" width="15%">
+          <description>Syntax tree for "sleeps" showing VP with only V</description>
+        </image>
+      </figure>
+      <p><c>[VP [V sleeps]]</c></p>
+
+      <figure xml:id="fig-ch05-ex-vp-trans">
+        <caption>Transitive VP with direct object</caption>
+        <image source="diagrams/new/ch05_vp_transitive.png" width="35%">
+          <description>Syntax tree for "read the book" showing VP with V and NP</description>
+        </image>
+      </figure>
+      <p><c>[VP [V read] [NP [DET the] [N book]]]</c></p>
+
+      <figure xml:id="fig-ch05-ex-vp-ditrans">
+        <caption>Ditransitive VP with indirect and direct objects</caption>
+        <image source="diagrams/new/ch05_vp_ditransitive.png" width="45%">
+          <description>Syntax tree for "gave her a present" showing VP with two NPs</description>
+        </image>
+      </figure>
+      <p><c>[VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-05-diagrams-adjp">
+      <title>Adjective Phrase Examples</title>
+
+      <figure xml:id="fig-ch05-ex-adjp-simple">
+        <caption>Simple AdjP</caption>
+        <image source="diagrams/new/ch05_adjp_simple.png" width="15%">
+          <description>Syntax tree for "happy" showing ADJP with only ADJ</description>
+        </image>
+      </figure>
+      <p><c>[ADJP [ADJ happy]]</c></p>
+
+      <figure xml:id="fig-ch05-ex-adjp-degree">
+        <caption>AdjP with degree adverb</caption>
+        <image source="diagrams/new/ch05_adjp_degree.png" width="30%">
+          <description>Syntax tree for "very happy" showing ADJP with ADV and ADJ</description>
+        </image>
+      </figure>
+      <p><c>[ADJP [ADVP [ADV very]] [ADJ happy]]</c></p>
+
+      <figure xml:id="fig-ch05-ex-adjp-pp">
+        <caption>AdjP with PP complement</caption>
+        <image source="diagrams/new/ch09_adjp_pp_proud.png" width="45%">
+          <description>Syntax tree for "proud of her work" showing ADJP with PP complement</description>
+        </image>
+      </figure>
+      <p><c>[ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-05-diagrams-advp">
+      <title>Adverb Phrase Examples</title>
+
+      <figure xml:id="fig-ch05-ex-advp-simple">
+        <caption>Simple AdvP</caption>
+        <image source="diagrams/new/ch05_advp_simple.png" width="15%">
+          <description>Syntax tree for "quickly" showing ADVP with only ADV</description>
+        </image>
+      </figure>
+      <p><c>[ADVP [ADV quickly]]</c></p>
+
+      <figure xml:id="fig-ch05-ex-advp-degree">
+        <caption>AdvP with degree modifier</caption>
+        <image source="diagrams/new/ch05_advp_degree.png" width="30%">
+          <description>Syntax tree for "very quickly" showing ADVP with two ADVs</description>
+        </image>
+      </figure>
+      <p><c>[ADVP [ADVP [ADV very]] [ADV quickly]]</c></p>
+    </subsection>
+
   </section>
 
   <glossary>
