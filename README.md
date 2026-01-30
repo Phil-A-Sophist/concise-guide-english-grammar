@@ -71,7 +71,9 @@ python build.py epub      # Build EPUB only
 
 ### Custom CSS
 
-The build script appends custom CSS to override PreTeXt defaults:
+The build script injects custom CSS directly into each HTML file's `<head>` section as an inline `<style>` tag. This ensures styles override PreTeXt defaults regardless of CSS cascade order.
+
+**Custom styles applied:**
 - Content area widened to 900px (from 696px) for better readability
 - All tables consistently left-aligned
 

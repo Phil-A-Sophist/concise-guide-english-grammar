@@ -77,9 +77,11 @@ python build.py epub      # Build EPUB only
 
 ### Custom CSS
 
-The build script automatically appends custom CSS to `docs/_static/pretext/css/theme.css` after each build. This provides:
+The build script automatically injects custom CSS into each HTML file's `<head>` section as an inline `<style>` tag. This approach ensures the styles override PreTeXt defaults regardless of CSS cascade order.
+
+**Custom styles applied:**
 - **Wider content area** (900px instead of default 696px) for better readability
-- **Consistent table alignment** (all tables left-aligned)
+- **Consistent table alignment** (all tables left-aligned with `!important` flags)
 
 To modify these customizations, edit the `CUSTOM_CSS` constant in `build.py`.
 
