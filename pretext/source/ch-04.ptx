@@ -780,9 +780,13 @@
     <title>Homework: Morphology and Word Structure</title>
 
     <subsection xml:id="ch-04-homework-1">
-      <title>Part 1: Morpheme Identification (approx. 10 minutes)</title>
+      <title>Morpheme Identification</title>
 
-      <p><em>Instructions:</em> For each word below, divide it into morphemes and classify each morpheme as free or bound. State the total number of morphemes.</p>
+      <paragraphs>
+        <title>Instructions:</title>
+      </paragraphs>
+
+      <p>For each word below, divide it into morphemes and classify each morpheme as free or bound. State the total number of morphemes.</p>
 
       <p>You may present your analysis using any clear method, such as:</p>
       <ul>
@@ -799,17 +803,29 @@
       <p><em>Word:</em> <em>unhappiness</em></p>
       <p>un- (bound) + happy (free) + -ness (bound) = 3 morphemes</p>
 
-      <p><em>1.</em> <em>disagreements</em></p>
-      <p><em>2.</em> <em>rebuilding</em></p>
-      <p><em>3.</em> <em>thoughtfulness</em></p>
-      <p><em>4.</em> <em>international</em></p>
-      <p><em>5.</em> <em>unforgettable</em></p>
+      <paragraphs>
+        <title>Exercises:</title>
+      </paragraphs>
+
+      <p><em>Exercise 1.</em> <em>disagreements</em></p>
+
+      <p><em>Exercise 2.</em> <em>rebuilding</em></p>
+
+      <p><em>Exercise 3.</em> <em>thoughtfulness</em></p>
+
+      <p><em>Exercise 4.</em> <em>international</em></p>
+
+      <p><em>Exercise 5.</em> <em>unforgettable</em></p>
     </subsection>
 
     <subsection xml:id="ch-04-homework-2">
-      <title>Part 2: Applying the English Base Rule (approx. 10 minutes)</title>
+      <title>Applying the English Base Rule</title>
 
-      <p><em>Instructions:</em> For each word, determine whether it contains one morpheme or multiple morphemes. Apply the English base rule: <em>a word can only be divided into morphemes if the base is a word in modern English.</em></p>
+      <paragraphs>
+        <title>Instructions:</title>
+      </paragraphs>
+
+      <p>For each word, determine whether it contains one morpheme or multiple morphemes. Apply the English base rule: <em>a word can only be divided into morphemes if the base is a word in modern English.</em></p>
 
       <paragraphs>
         <title>Example (completed):</title>
@@ -819,51 +835,79 @@
       <p>Number of morphemes: 1</p>
       <p>Although <em>contain</em> appears to begin with <em>con-</em>, the remaining part <em>-tain</em> is not a word in modern English. Therefore, <em>contain</em> is a single morpheme.</p>
 
-      <p><em>6.</em> <em>grandmother</em></p>
-      <p><em>7.</em> <em>describe</em></p>
-      <p><em>8.</em> <em>replayable</em></p>
-      <p><em>9.</em> <em>subtract</em></p>
-      <p><em>10.</em> <em>misplace</em></p>
+      <paragraphs>
+        <title>Exercises:</title>
+      </paragraphs>
+
+      <p><em>Exercise 6.</em> <em>grandmother</em></p>
+
+      <p><em>Exercise 7.</em> <em>describe</em></p>
+
+      <p><em>Exercise 8.</em> <em>replayable</em></p>
+
+      <p><em>Exercise 9.</em> <em>subtract</em></p>
+
+      <p><em>Exercise 10.</em> <em>misplace</em></p>
     </subsection>
 
     <subsection xml:id="ch-04-homework-3">
-      <title>Part 3: Word Building (approx. 10 minutes)</title>
+      <title>Word Building</title>
 
-      <p><em>Instructions:</em> Using the base words provided, create new words by adding affixes. Write the complete word and identify all morphemes.</p>
+      <paragraphs>
+        <title>Instructions:</title>
+      </paragraphs>
+
+      <p>Using the base words provided, create new words by adding affixes. Write the complete word and identify all morphemes.</p>
 
       <paragraphs>
         <title>Example (completed):</title>
       </paragraphs>
 
       <p><em>Base word:</em> <em>hope</em></p>
-      <p>Word with one suffix: <em>hopeful</em></p>
-      <p>Morphemes: hope (free) + -ful (bound)</p>
-      <p>Word with a prefix and suffix: <em>unhopeful</em></p>
-      <p>Morphemes: un- (bound) + hope (free) + -ful (bound)</p>
+      <ul>
+        <li><p>Word with one suffix: <em>hopeful</em></p></li>
+        <li><p>Morphemes: hope (free) + -ful (bound)</p></li>
+        <li><p>Word with a prefix and suffix: <em>unhopeful</em></p></li>
+        <li><p>Morphemes: un- (bound) + hope (free) + -ful (bound)</p></li>
+      </ul>
 
-      <p><em>11.</em> Base word: <em>teach</em></p>
-      <p>Create a word with one suffix:</p>
-      <p>Morphemes:</p>
-      <p>Create a word with two suffixes:</p>
-      <p>Morphemes:</p>
+      <paragraphs>
+        <title>Exercises:</title>
+      </paragraphs>
 
-      <p><em>12.</em> Base word: <em>kind</em></p>
-      <p>Create a word with a prefix:</p>
-      <p>Morphemes:</p>
-      <p>Create a word with a prefix and a suffix:</p>
-      <p>Morphemes:</p>
+      <p><em>Exercise 11.</em> Base word: <em>teach</em></p>
+      <ul>
+        <li><p>Create a word with one suffix:</p></li>
+        <li><p>Morphemes:</p></li>
+        <li><p>Create a word with two suffixes:</p></li>
+        <li><p>Morphemes:</p></li>
+      </ul>
 
-      <p><em>13.</em> Base word: <em>modern</em></p>
-      <p>Create a word that is a verb:</p>
-      <p>Morphemes:</p>
-      <p>Create a word that is a noun:</p>
-      <p>Morphemes:</p>
+      <p><em>Exercise 12.</em> Base word: <em>kind</em></p>
+      <ul>
+        <li><p>Create a word with a prefix:</p></li>
+        <li><p>Morphemes:</p></li>
+        <li><p>Create a word with a prefix and a suffix:</p></li>
+        <li><p>Morphemes:</p></li>
+      </ul>
+
+      <p><em>Exercise 13.</em> Base word: <em>modern</em></p>
+      <ul>
+        <li><p>Create a word that is a verb:</p></li>
+        <li><p>Morphemes:</p></li>
+        <li><p>Create a word that is a noun:</p></li>
+        <li><p>Morphemes:</p></li>
+      </ul>
     </subsection>
 
     <subsection xml:id="ch-04-homework-4">
-      <title>Part 4: Morpheme Identification in Context (approx. 5 minutes)</title>
+      <title>Morpheme Identification in Context</title>
 
-      <p><em>Instructions:</em> Read the passage below. Identify five words that contain multiple morphemes and list the morphemes for each.</p>
+      <paragraphs>
+        <title>Instructions:</title>
+      </paragraphs>
+
+      <p>Read the passage below. Identify five words that contain multiple morphemes and list the morphemes for each.</p>
 
       <paragraphs>
         <title>Passage:</title>
@@ -878,25 +922,33 @@
       <p><em>Word:</em> <em>researchers</em></p>
       <p>Morphemes: research (free) + -er (bound) + -s (bound)</p>
 
-      <p><em>14.</em></p>
-      <p>Word 1:</p>
-      <p>Morphemes:</p>
-      <p>Word 2:</p>
-      <p>Morphemes:</p>
-      <p>Word 3:</p>
-      <p>Morphemes:</p>
-      <p>Word 4:</p>
-      <p>Morphemes:</p>
-      <p>Word 5:</p>
-      <p>Morphemes:</p>
+      <paragraphs>
+        <title>Exercises:</title>
+      </paragraphs>
+
+      <p><em>Exercise 14.</em> Identify five words with multiple morphemes from the passage above.</p>
+      <ul>
+        <li><p>Word 1:</p></li>
+        <li><p>Morphemes:</p></li>
+        <li><p>Word 2:</p></li>
+        <li><p>Morphemes:</p></li>
+        <li><p>Word 3:</p></li>
+        <li><p>Morphemes:</p></li>
+        <li><p>Word 4:</p></li>
+        <li><p>Morphemes:</p></li>
+        <li><p>Word 5:</p></li>
+        <li><p>Morphemes:</p></li>
+      </ul>
     </subsection>
 
     <subsection xml:id="ch-04-homework-5">
-      <title>Part 5: Analysis and Reflection (approx. 10 minutes)</title>
+      <title>Analysis and Reflection</title>
 
-      <p><em>Instructions:</em> Answer the following question, explaining your reasoning.</p>
+      <paragraphs>
+        <title>Instructions:</title>
+      </paragraphs>
 
-      <p><em>15.</em> Complex words are built up step by step, with each morpheme attaching in a specific order. Track the formation of the word <em>unprecedented</em> by identifying the base and then showing the order in which morphemes attach.</p>
+      <p>Answer the following question, explaining your reasoning.</p>
 
       <paragraphs>
         <title>Example (completed):</title>
@@ -910,8 +962,15 @@
         <li><p>unhappiness (unhappy + -ness—noun meaning "the state of being unhappy")</p></li>
       </ol>
 
-      <p><em>Word:</em> <em>unprecedented</em></p>
-      <p>Formation:</p>
+      <paragraphs>
+        <title>Exercises:</title>
+      </paragraphs>
+
+      <p><em>Exercise 15.</em> Complex words are built up step by step, with each morpheme attaching in a specific order. Track the formation of the word <em>unprecedented</em> by identifying the base and then showing the order in which morphemes attach.</p>
+      <ul>
+        <li><p><em>Word:</em> <em>unprecedented</em></p></li>
+        <li><p>Formation:</p></li>
+      </ul>
 
       <p><em>Total estimated time: 30-40 minutes</em></p>
     </subsection>
