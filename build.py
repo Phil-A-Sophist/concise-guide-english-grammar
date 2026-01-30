@@ -86,7 +86,7 @@ def build_html():
     return True
 
 
-# Custom CSS to append to theme.css
+# Custom CSS to inject into HTML files
 CUSTOM_CSS = """
 /* Custom CSS for Concise Guide to English Grammar */
 
@@ -101,7 +101,17 @@ CUSTOM_CSS = """
 /* Consistent table alignment - all tables left-aligned */
 .tabular-box {
     margin-left: 0 !important;
-    margin-right: auto;
+    margin-right: auto !important;
+}
+
+.tabular-box.natural-width {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+.tabular-box.natural-width table {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Ensure tables inside paragraphs sections are also left-aligned */
@@ -113,12 +123,16 @@ section .tabular-box {
 
 
 def apply_custom_css():
-    """Append custom CSS to the theme.css file."""
-    theme_css = DOCS_DIR / "_static" / "pretext" / "css" / "theme.css"
-    if theme_css.exists():
-        with open(theme_css, "a", encoding="utf-8") as f:
-            f.write(CUSTOM_CSS)
-        print("Applied custom CSS overrides.")
+    """Inject custom CSS into all HTML files."""
+    style_tag = f"<style>{CUSTOM_CSS}</style>\n</head>"
+    count = 0
+    for html_file in DOCS_DIR.glob("*.html"):
+        content = html_file.read_text(encoding="utf-8")
+        if "</head>" in content and "/* Custom CSS for Concise Guide" not in content:
+            content = content.replace("</head>", style_tag)
+            html_file.write_text(content, encoding="utf-8")
+            count += 1
+    print(f"Injected custom CSS into {count} HTML files.")
 
 
 def find_section_files(chapter_base: str) -> list[str]:
