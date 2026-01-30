@@ -76,6 +76,9 @@ def build_html():
         shutil.rmtree(DOCS_DIR)
     shutil.copytree(OUTPUT_WEB, DOCS_DIR)
 
+    # Add .nojekyll file for GitHub Pages (allows _static folder)
+    (DOCS_DIR / ".nojekyll").touch()
+
     print("HTML build complete!")
     return True
 
