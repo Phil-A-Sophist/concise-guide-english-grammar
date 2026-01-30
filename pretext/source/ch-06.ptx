@@ -1040,6 +1040,171 @@
 
   </section>
 
+  <section xml:id="ch-06-diagram-examples">
+    <title>Diagram Examples</title>
+
+    <p>This section provides reference diagrams for closed-class word structures introduced in this chapter. Use these as models when analyzing how determiners, pronouns, prepositions, and conjunctions function within sentences.</p>
+
+    <subsection xml:id="ch-06-diagrams-sentence-basics">
+      <title>Sentence Structure Basics</title>
+
+      <paragraphs>
+        <title>6.7.1 A: Abstract sentence structure</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_basic_structure.png" width="30%">
+        <description>Abstract syntax tree showing basic sentence structure: S branches to NP and VP</description>
+      </image>
+      <p><c>[S [NP] [VP]]</c></p>
+
+      <paragraphs>
+        <title>6.7.1 B: Simple sentence with determiner</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_dog_barked.png" width="40%">
+        <description>Syntax tree for "The dog barked" showing NP with DET and N, and VP with V</description>
+      </image>
+      <p><c>[S [NP [DET The] [N dog]] [VP [V barked]]]</c></p>
+
+      <paragraphs>
+        <title>6.7.1 C: Complex sentence with multiple phrases</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_artist_painted.png" width="80%">
+        <description>Syntax tree for "The young artist from Paris painted beautiful landscapes" showing complex NP with PP modifier and transitive VP</description>
+      </image>
+      <p><c>[S [NP [DET The] [ADJP [ADJ young]] [N artist] [PP [PREP from] [NP [N Paris]]]] [VP [V painted] [NP [ADJP [ADJ beautiful]] [N landscapes]]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-06-diagrams-det">
+      <title>Determiner Examples</title>
+
+      <paragraphs>
+        <title>6.7.2 A: Possessive determiner</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_possessive_det.png" width="25%">
+        <description>Syntax tree for "her book" showing NP with possessive DET and N</description>
+      </image>
+      <p><c>[NP [DET her] [N book]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-06-diagrams-pron">
+      <title>Pronoun Examples</title>
+
+      <paragraphs>
+        <title>6.7.3 A: Pronoun as subject</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_pronoun_subject.png" width="30%">
+        <description>Syntax tree for "She sleeps" showing S with pronoun NP and intransitive VP</description>
+      </image>
+      <p><c>[S [NP [PRON She]] [VP [V sleeps]]]</c></p>
+
+      <paragraphs>
+        <title>6.7.3 B: Pronouns in ditransitive sentence</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_ditransitive.png" width="50%">
+        <description>Syntax tree for "She gave me a book" showing pronouns in subject and indirect object positions</description>
+      </image>
+      <p><c>[S [NP [PRON She]] [VP [V gave] [NP [PRON me]] [NP [DET a] [N book]]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-06-diagrams-pp">
+      <title>Prepositional Phrase Attachment</title>
+
+      <p>The following pair of diagrams illustrates the structural ambiguity discussed in Section 6.4. The sentence <em>I saw the man with binoculars</em> can be parsed two ways depending on whether the PP attaches to the NP (adjectival) or the VP (adverbial).</p>
+
+      <paragraphs>
+        <title>6.7.4 A: PP as NP modifier (adjectival)</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
+        <description>Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars</description>
+      </image>
+      <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]</c></p>
+
+      <paragraphs>
+        <title>6.7.4 B: PP as VP modifier (adverbial)</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
+        <description>Syntax tree for "I saw the man with binoculars" where PP attaches to VP, meaning I used binoculars to see him</description>
+      </image>
+      <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-06-diagrams-sentence-patterns">
+      <title>Sentence Patterns</title>
+
+      <p>These diagrams show how closed-class words function within different sentence patterns.</p>
+
+      <paragraphs>
+        <title>6.7.5 A: Intransitive pattern</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_intransitive.png" width="30%">
+        <description>Syntax tree for "Thunder rumbled" showing intransitive sentence with no determiner</description>
+      </image>
+      <p><c>[S [NP [N Thunder]] [VP [V rumbled]]]</c></p>
+
+      <paragraphs>
+        <title>6.7.5 B: Transitive pattern</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_transitive.png" width="50%">
+        <description>Syntax tree for "The cat chased the mouse" showing transitive sentence with determiners</description>
+      </image>
+      <p><c>[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]</c></p>
+
+      <paragraphs>
+        <title>6.7.5 C: Linking verb pattern</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_linking.png" width="35%">
+        <description>Syntax tree for "She is happy" showing linking verb with adjective complement</description>
+      </image>
+      <p><c>[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</c></p>
+
+      <paragraphs>
+        <title>6.7.5 D: Complex transitive with NP complement</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_complex_trans_np.png" width="50%">
+        <description>Syntax tree for "They elected her president" showing complex transitive with pronoun object and NP complement</description>
+      </image>
+      <p><c>[S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]</c></p>
+
+      <paragraphs>
+        <title>6.7.5 E: Complex transitive with AdjP complement</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_complex_trans_adj.png" width="50%">
+        <description>Syntax tree for "The jury found him guilty" showing complex transitive with pronoun object and adjective complement</description>
+      </image>
+      <p><c>[S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-06-diagrams-conj">
+      <title>Conjunction Examples</title>
+
+      <paragraphs>
+        <title>6.7.6 A: Simple NP coordination</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_np_coordination.png" width="40%">
+        <description>Syntax tree for "cats and dogs" showing coordinated NPs joined by conjunction</description>
+      </image>
+      <p><c>[NP [NP [N cats]] [CONJ and] [NP [N dogs]]]</c></p>
+
+      <p>The following pair illustrates structural ambiguity in coordination. The phrase <em>old men and women</em> can be parsed two ways.</p>
+
+      <paragraphs>
+        <title>6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_ambig_old_men_1.png" width="50%">
+        <description>Syntax tree for "Old men and women gathered" where "old" modifies only "men"</description>
+      </image>
+      <p><c>[S [NP [NP [ADJP [ADJ old]] [N men]] [CONJ and] [NP [N women]]] [VP [V gathered]]]</c></p>
+
+      <paragraphs>
+        <title>6.7.6 C: Coordination ambiguity—modifier applies to entire coordination</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_ambig_old_men_2.png" width="50%">
+        <description>Syntax tree for "Old men and women gathered" where "old" modifies both "men and women"</description>
+      </image>
+      <p><c>[S [NP [ADJP [ADJ old]] [NP [NP [N men]] [CONJ and] [NP [N women]]]] [VP [V gathered]]]</c></p>
+    </subsection>
+
+  </section>
+
   <glossary>
     <title>Glossary</title>
     <gi>

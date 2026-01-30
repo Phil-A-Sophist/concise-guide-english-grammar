@@ -163,6 +163,46 @@ The `Homework/` folder contains Word files that students can download and comple
 - **Green (#008000):** Terminal words
 - Use standard abbreviations: S, NP, VP, PP, AdjP, AdvP, N, V, Adj, Adv, Det, Pro, Aux, Modal
 
+### Update Diagrams in Chapter X (Workflow)
+
+When the user says "update the diagrams in Chapter X", follow these steps:
+
+**Step 1: Gather Information**
+1. List all diagram files in `assets/diagrams/new/` matching `chXX_*`
+2. Read Chapter 5's Diagram Examples section to confirm the formatting pattern
+3. Read the target chapter to understand its current state and content
+
+**Step 2: View All Diagrams**
+- Read each PNG file to understand what sentence/structure it depicts
+- Note the exact text shown (e.g., "The dog barked", "cats and dogs")
+
+**Step 3: Organize by Topic**
+- Group diagrams into logical subsections based on the chapter's content
+- Typically: phrase types, sentence patterns, ambiguity examples, etc.
+
+**Step 4: Apply Chapter 5 Formatting**
+
+Each diagram uses this structure:
+```xml
+<paragraphs>
+  <title>X.Y.Z Label: Description</title>
+</paragraphs>
+<image source="diagrams/new/chXX_filename.png" width="XX%">
+  <description>Accessibility description</description>
+</image>
+<p><c>[Bracket notation]</c></p>
+```
+
+**Step 5: Replace the Diagram Examples Section**
+- Keep the `<section xml:id="ch-XX-diagram-examples">` wrapper
+- Organize into `<subsection>` elements by topic
+- Use numbered labels (e.g., "7.8.1 A:", "7.8.2 B:") matching section numbers
+
+**Key Details:**
+- **Numbering:** Use [Chapter].[DiagramSection].[Subsection] [Letter] (e.g., "6.7.1 A:")
+- **Widths:** Adjust based on diagram complexity (25-80%)
+- **Bracket notation:** Match the tree structure shown in the image
+
 ---
 
 ## Chapter Organization (21 Chapters)

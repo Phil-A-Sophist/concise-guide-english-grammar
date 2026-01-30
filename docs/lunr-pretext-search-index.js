@@ -619,79 +619,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "6.7",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for closed-class word structures introduced in this chapter.   Determiner Examples   Determiner in NP: the dog   Syntax tree for \"the dog\" showing NP with DET and N    [NP [DET the] [N dog]]   Possessive determiner: her book   Syntax tree for \"her book\" showing NP with possessive DET and N    [NP [DET her] [N book]]    Pronoun Examples   Pronoun as subject: She sleeps.   Syntax tree for \"She sleeps\" showing S with pronoun NP and VP    [S [NP [PRON She]] [VP [V sleeps]]]   Pronoun as object: She read it.   Syntax tree for \"She read it\" showing pronouns in subject and object position    [S [NP [PRON She]] [VP [V read] [NP [PRON it]]]]    Prepositional Phrase Examples   Simple PP: in the box   Syntax tree for \"in the box\" showing PP with PREP and NP    [PP [PREP in] [NP [DET the] [N box]]]   PP as NP modifier (adjectival): the man in the hat   Syntax tree for \"the man in the hat\" showing NP with PP post-modifier    [NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]   PP as VP modifier (adverbial): She works at home.   Syntax tree for \"She works at home\" showing PP modifying the verb    [S [NP [PRON She]] [VP [V works] [PP [PREP at] [NP [N home]]]]]    Conjunction Example   Coordinating conjunction in NP: cats and dogs   Syntax tree for \"cats and dogs\" showing coordinated nouns    [NP [N cats] [CONJ and] [N dogs]]   "
-},
-{
-  "id": "fig-ch06-ex-np-det",
-  "level": "2",
-  "url": "ch-06-diagram-examples.html#fig-ch06-ex-np-det",
-  "type": "Figure",
-  "number": "6.7.1",
-  "title": "",
-  "body": " Determiner in NP: the dog   Syntax tree for \"the dog\" showing NP with DET and N   "
-},
-{
-  "id": "fig-ch06-ex-poss-det",
-  "level": "2",
-  "url": "ch-06-diagram-examples.html#fig-ch06-ex-poss-det",
-  "type": "Figure",
-  "number": "6.7.2",
-  "title": "",
-  "body": " Possessive determiner: her book   Syntax tree for \"her book\" showing NP with possessive DET and N   "
-},
-{
-  "id": "fig-ch06-ex-pron-subj",
-  "level": "2",
-  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pron-subj",
-  "type": "Figure",
-  "number": "6.7.3",
-  "title": "",
-  "body": " Pronoun as subject: She sleeps.   Syntax tree for \"She sleeps\" showing S with pronoun NP and VP   "
-},
-{
-  "id": "fig-ch06-ex-pron-obj",
-  "level": "2",
-  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pron-obj",
-  "type": "Figure",
-  "number": "6.7.4",
-  "title": "",
-  "body": " Pronoun as object: She read it.   Syntax tree for \"She read it\" showing pronouns in subject and object position   "
-},
-{
-  "id": "fig-ch06-ex-pp-simple",
-  "level": "2",
-  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pp-simple",
-  "type": "Figure",
-  "number": "6.7.5",
-  "title": "",
-  "body": " Simple PP: in the box   Syntax tree for \"in the box\" showing PP with PREP and NP   "
-},
-{
-  "id": "fig-ch06-ex-pp-adj",
-  "level": "2",
-  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pp-adj",
-  "type": "Figure",
-  "number": "6.7.6",
-  "title": "",
-  "body": " PP as NP modifier (adjectival): the man in the hat   Syntax tree for \"the man in the hat\" showing NP with PP post-modifier   "
-},
-{
-  "id": "fig-ch06-ex-pp-adv",
-  "level": "2",
-  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pp-adv",
-  "type": "Figure",
-  "number": "6.7.7",
-  "title": "",
-  "body": " PP as VP modifier (adverbial): She works at home.   Syntax tree for \"She works at home\" showing PP modifying the verb   "
-},
-{
-  "id": "fig-ch06-ex-np-coord",
-  "level": "2",
-  "url": "ch-06-diagram-examples.html#fig-ch06-ex-np-coord",
-  "type": "Figure",
-  "number": "6.7.8",
-  "title": "",
-  "body": " Coordinating conjunction in NP: cats and dogs   Syntax tree for \"cats and dogs\" showing coordinated nouns   "
+  "body": " Diagram Examples  This section provides reference diagrams for closed-class word structures introduced in this chapter. Use these as models when analyzing how determiners, pronouns, prepositions, and conjunctions function within sentences.   Sentence Structure Basics   6.7.1 A: Abstract sentence structure    Abstract syntax tree showing basic sentence structure: S branches to NP and VP   [S [NP] [VP]]   6.7.1 B: Simple sentence with determiner    Syntax tree for \"The dog barked\" showing NP with DET and N, and VP with V   [S [NP [DET The] [N dog]] [VP [V barked]]]   6.7.1 C: Complex sentence with multiple phrases    Syntax tree for \"The young artist from Paris painted beautiful landscapes\" showing complex NP with PP modifier and transitive VP   [S [NP [DET The] [ADJP [ADJ young]] [N artist] [PP [PREP from] [NP [N Paris]]]] [VP [V painted] [NP [ADJP [ADJ beautiful]] [N landscapes]]]]    Determiner Examples   6.7.2 A: Possessive determiner    Syntax tree for \"her book\" showing NP with possessive DET and N   [NP [DET her] [N book]]    Pronoun Examples   6.7.3 A: Pronoun as subject    Syntax tree for \"She sleeps\" showing S with pronoun NP and intransitive VP   [S [NP [PRON She]] [VP [V sleeps]]]   6.7.3 B: Pronouns in ditransitive sentence    Syntax tree for \"She gave me a book\" showing pronouns in subject and indirect object positions   [S [NP [PRON She]] [VP [V gave] [NP [PRON me]] [NP [DET a] [N book]]]]    Prepositional Phrase Attachment  The following pair of diagrams illustrates the structural ambiguity discussed in Section 6.4. The sentence I saw the man with binoculars can be parsed two ways depending on whether the PP attaches to the NP (adjectival) or the VP (adverbial).   6.7.4 A: PP as NP modifier (adjectival)    Syntax tree for \"I saw the man with binoculars\" where PP attaches to NP, meaning the man has binoculars   [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]   6.7.4 B: PP as VP modifier (adverbial)    Syntax tree for \"I saw the man with binoculars\" where PP attaches to VP, meaning I used binoculars to see him   [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]    Sentence Patterns  These diagrams show how closed-class words function within different sentence patterns.   6.7.5 A: Intransitive pattern    Syntax tree for \"Thunder rumbled\" showing intransitive sentence with no determiner   [S [NP [N Thunder]] [VP [V rumbled]]]   6.7.5 B: Transitive pattern    Syntax tree for \"The cat chased the mouse\" showing transitive sentence with determiners   [S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]   6.7.5 C: Linking verb pattern    Syntax tree for \"She is happy\" showing linking verb with adjective complement   [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]   6.7.5 D: Complex transitive with NP complement    Syntax tree for \"They elected her president\" showing complex transitive with pronoun object and NP complement   [S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]   6.7.5 E: Complex transitive with AdjP complement    Syntax tree for \"The jury found him guilty\" showing complex transitive with pronoun object and adjective complement   [S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]    Conjunction Examples   6.7.6 A: Simple NP coordination    Syntax tree for \"cats and dogs\" showing coordinated NPs joined by conjunction   [NP [NP [N cats]] [CONJ and] [NP [N dogs]]]  The following pair illustrates structural ambiguity in coordination. The phrase old men and women can be parsed two ways.   6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only    Syntax tree for \"Old men and women gathered\" where \"old\" modifies only \"men\"   [S [NP [NP [ADJP [ADJ old]] [N men]] [CONJ and] [NP [N women]]] [VP [V gathered]]]   6.7.6 C: Coordination ambiguity—modifier applies to entire coordination    Syntax tree for \"Old men and women gathered\" where \"old\" modifies both \"men and women\"   [S [NP [ADJP [ADJ old]] [NP [NP [N men]] [CONJ and] [NP [N women]]]] [VP [V gathered]]]   "
 },
 {
   "id": "ch-06-closed-classes-10",
@@ -772,43 +700,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "7.8",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for basic sentence structures introduced in this chapter.   Basic Sentence Structure   Abstract S → NP + VP template   Syntax tree showing abstract sentence structure with S, NP, and VP    [S [NP] [VP]]   Simple intransitive sentence: Thunder rumbled.   Syntax tree for \"Thunder rumbled\" showing S with NP and VP    [S [NP [N Thunder]] [VP [V rumbled]]]   Simple transitive sentence: The cat chased the mouse.   Syntax tree for \"The cat chased the mouse\" showing transitive structure    [S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]   Sentence with determiner: The dog barked.   Syntax tree for \"The dog barked\" showing NP with determiner    [S [NP [DET The] [N dog]] [VP [V barked]]]   "
-},
-{
-  "id": "fig-ch07-ex-basic-structure",
-  "level": "2",
-  "url": "ch-07-diagram-examples.html#fig-ch07-ex-basic-structure",
-  "type": "Figure",
-  "number": "7.8.1",
-  "title": "",
-  "body": " Abstract S → NP + VP template   Syntax tree showing abstract sentence structure with S, NP, and VP   "
-},
-{
-  "id": "fig-ch07-ex-intrans",
-  "level": "2",
-  "url": "ch-07-diagram-examples.html#fig-ch07-ex-intrans",
-  "type": "Figure",
-  "number": "7.8.2",
-  "title": "",
-  "body": " Simple intransitive sentence: Thunder rumbled.   Syntax tree for \"Thunder rumbled\" showing S with NP and VP   "
-},
-{
-  "id": "fig-ch07-ex-trans",
-  "level": "2",
-  "url": "ch-07-diagram-examples.html#fig-ch07-ex-trans",
-  "type": "Figure",
-  "number": "7.8.3",
-  "title": "",
-  "body": " Simple transitive sentence: The cat chased the mouse.   Syntax tree for \"The cat chased the mouse\" showing transitive structure   "
-},
-{
-  "id": "fig-ch07-ex-det-adj",
-  "level": "2",
-  "url": "ch-07-diagram-examples.html#fig-ch07-ex-det-adj",
-  "type": "Figure",
-  "number": "7.8.4",
-  "title": "",
-  "body": " Sentence with determiner: The dog barked.   Syntax tree for \"The dog barked\" showing NP with determiner   "
+  "body": " Diagram Examples  This section provides reference diagrams for basic sentence structures introduced in this chapter. Use these as models when learning to read and interpret tree diagrams.   Basic Sentence Structure   7.8.1 A: Abstract S → NP + VP template    Syntax tree showing abstract sentence structure with S branching to NP and VP   [S [NP] [VP]]   7.8.1 B: Simple intransitive sentence    Syntax tree for \"Thunder rumbled\" showing S with NP containing N and VP containing V   [S [NP [N Thunder]] [VP [V rumbled]]]   7.8.1 C: Sentence with determiner    Syntax tree for \"The dog barked\" showing NP with DET and N, and VP with V   [S [NP [DET The] [N dog]] [VP [V barked]]]   7.8.1 D: Simple transitive sentence    Syntax tree for \"The cat chased the mouse\" showing transitive structure with subject NP, V, and object NP   [S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]   "
 },
 {
   "id": "ch-07-introduction-to-sentence-diagramming-11",
@@ -898,124 +790,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.9",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for the sentence patterns introduced in this chapter.   Pattern 1: Intransitive (S-V)   Basic intransitive: Cameras flashed.   Syntax tree for \"Cameras flashed\"    [S [NP [N Cameras]] [VP [V flashed]]]   Intransitive with conjoined subjects: Frodo and Sam travel.   Syntax tree for \"Frodo and Sam travel\" with coordinated subject    [S [NP [N Frodo] [CONJ and] [N Sam]] [VP [V travel]]]   Intransitive with conjoined verbs: Gandalf thinks and acts.   Syntax tree for \"Gandalf thinks and acts\" with coordinated verbs    [S [NP [N Gandalf]] [VP [V thinks] [CONJ and] [V acts]]]    Pattern 2: Transitive (S-V-DO)   Basic transitive: Weasels stalk rabbits.   Syntax tree for \"Weasels stalk rabbits\"    [S [NP [N Weasels]] [VP [V stalk] [NP [N rabbits]]]]    Pattern 3: Ditransitive (S-V-IO-DO)   Ditransitive: Marie sent Ramon a gift.   Syntax tree for \"Marie sent Ramon a gift\" with indirect and direct objects    [S [NP [N Marie]] [VP [V sent] [NP [N Ramon]] [NP [DET a] [N gift]]]]    Pattern 4: Linking\/Copular (S-V-SC)   Copular with NP complement: I am an optimist.   Syntax tree for \"I am an optimist\"    [S [NP [PRON I]] [VP [V am] [NP [DET an] [N optimist]]]]   Copular with AdjP complement: She is happy.   Syntax tree for \"She is happy\"    [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]   Copular with PP adverbial: Phillip is over the moon.   Syntax tree for \"Phillip is over the moon\"    [S [NP [N Phillip]] [VP [V is] [PP [PREP over] [NP [DET the] [N moon]]]]]   Copular with AdvP adverbial: Phillip is here.   Syntax tree for \"Phillip is here\"    [S [NP [N Phillip]] [VP [V is] [ADVP [ADV here]]]]   Linking verb with AdjP: Phillip became famous.   Syntax tree for \"Phillip became famous\"    [S [NP [N Phillip]] [VP [V became] [ADJP [ADJ famous]]]]   Linking verb with NP: Phillip became a doctor.   Syntax tree for \"Phillip became a doctor\"    [S [NP [N Phillip]] [VP [V became] [NP [DET a] [N doctor]]]]    Pattern 5: Complex Transitive (S-V-DO-OC)   Complex transitive with AdjP object complement: The jury found him guilty.   Syntax tree for \"The jury found him guilty\"    [S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]   Complex transitive with NP object complement: They elected her president.   Syntax tree for \"They elected her president\"    [S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]   "
-},
-{
-  "id": "fig-ch08-ex-basic-intrans",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-basic-intrans",
-  "type": "Figure",
-  "number": "8.9.1",
-  "title": "",
-  "body": " Basic intransitive: Cameras flashed.   Syntax tree for \"Cameras flashed\"   "
-},
-{
-  "id": "fig-ch08-ex-conj-subj",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-conj-subj",
-  "type": "Figure",
-  "number": "8.9.2",
-  "title": "",
-  "body": " Intransitive with conjoined subjects: Frodo and Sam travel.   Syntax tree for \"Frodo and Sam travel\" with coordinated subject   "
-},
-{
-  "id": "fig-ch08-ex-conj-vp",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-conj-vp",
-  "type": "Figure",
-  "number": "8.9.3",
-  "title": "",
-  "body": " Intransitive with conjoined verbs: Gandalf thinks and acts.   Syntax tree for \"Gandalf thinks and acts\" with coordinated verbs   "
-},
-{
-  "id": "fig-ch08-ex-basic-trans",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-basic-trans",
-  "type": "Figure",
-  "number": "8.9.4",
-  "title": "",
-  "body": " Basic transitive: Weasels stalk rabbits.   Syntax tree for \"Weasels stalk rabbits\"   "
-},
-{
-  "id": "fig-ch08-ex-ditrans",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-ditrans",
-  "type": "Figure",
-  "number": "8.9.5",
-  "title": "",
-  "body": " Ditransitive: Marie sent Ramon a gift.   Syntax tree for \"Marie sent Ramon a gift\" with indirect and direct objects   "
-},
-{
-  "id": "fig-ch08-ex-cop-np",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-cop-np",
-  "type": "Figure",
-  "number": "8.9.6",
-  "title": "",
-  "body": " Copular with NP complement: I am an optimist.   Syntax tree for \"I am an optimist\"   "
-},
-{
-  "id": "fig-ch08-ex-cop-adjp",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-cop-adjp",
-  "type": "Figure",
-  "number": "8.9.7",
-  "title": "",
-  "body": " Copular with AdjP complement: She is happy.   Syntax tree for \"She is happy\"   "
-},
-{
-  "id": "fig-ch08-ex-cop-pp",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-cop-pp",
-  "type": "Figure",
-  "number": "8.9.8",
-  "title": "",
-  "body": " Copular with PP adverbial: Phillip is over the moon.   Syntax tree for \"Phillip is over the moon\"   "
-},
-{
-  "id": "fig-ch08-ex-cop-advp",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-cop-advp",
-  "type": "Figure",
-  "number": "8.9.9",
-  "title": "",
-  "body": " Copular with AdvP adverbial: Phillip is here.   Syntax tree for \"Phillip is here\"   "
-},
-{
-  "id": "fig-ch08-ex-link-adjp",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-link-adjp",
-  "type": "Figure",
-  "number": "8.9.10",
-  "title": "",
-  "body": " Linking verb with AdjP: Phillip became famous.   Syntax tree for \"Phillip became famous\"   "
-},
-{
-  "id": "fig-ch08-ex-link-np",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-link-np",
-  "type": "Figure",
-  "number": "8.9.11",
-  "title": "",
-  "body": " Linking verb with NP: Phillip became a doctor.   Syntax tree for \"Phillip became a doctor\"   "
-},
-{
-  "id": "fig-ch08-ex-complex-adjp",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-complex-adjp",
-  "type": "Figure",
-  "number": "8.9.12",
-  "title": "",
-  "body": " Complex transitive with AdjP object complement: The jury found him guilty.   Syntax tree for \"The jury found him guilty\"   "
-},
-{
-  "id": "fig-ch08-ex-complex-np",
-  "level": "2",
-  "url": "ch-08-diagram-examples.html#fig-ch08-ex-complex-np",
-  "type": "Figure",
-  "number": "8.9.13",
-  "title": "",
-  "body": " Complex transitive with NP object complement: They elected her president.   Syntax tree for \"They elected her president\"   "
+  "body": " Diagram Examples  This section provides reference diagrams for the sentence patterns introduced in this chapter.   Pattern 1: Intransitive (S-V)   8.8.1 A: Basic intransitive    Syntax tree for \"Cameras flashed\" showing S with NP and VP   [S [NP [N Cameras]] [VP [V flashed]]]   8.8.1 B: Intransitive with conjoined subjects    Syntax tree for \"Frodo and Sam travel\" with coordinated subject NP   [S [NP [NP [N Frodo]] [CONJ and] [NP [N Sam]]] [VP [V travel]]]   8.8.1 C: Intransitive with conjoined verbs    Syntax tree for \"Gandalf thinks and acts\" with coordinated VPs   [S [NP [N Gandalf]] [VP [VP [V thinks]] [CONJ and] [VP [V acts]]]]    Pattern 2: Transitive (S-V-DO)   8.8.2 A: Basic transitive    Syntax tree for \"Weasels stalk rabbits\" showing transitive structure   [S [NP [N Weasels]] [VP [V stalk] [NP [N rabbits]]]]    Pattern 3: Ditransitive (S-V-IO-DO)   8.8.3 A: Ditransitive with indirect and direct objects    Syntax tree for \"Marie sent Ramon a gift\" with IO and DO   [S [NP [N Marie]] [VP [V sent] [NP [N Ramon]] [NP [DET a] [N gift]]]]    Pattern 4: Linking\/Copular (S-V-SC)   8.8.4 A: Copular with NP complement    Syntax tree for \"I am an optimist\" with NP as subject complement   [S [NP [PRON I]] [VP [V am] [NP [DET an] [N optimist]]]]   8.8.4 B: Copular with AdjP complement    Syntax tree for \"She is happy\" with ADJP as subject complement   [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]   8.8.4 C: Copular with PP adverbial    Syntax tree for \"Phillip is over the moon\" with PP complement   [S [NP [N Phillip]] [VP [V is] [PP [PREP over] [NP [DET the] [N moon]]]]]   8.8.4 D: Copular with AdvP adverbial    Syntax tree for \"Phillip is here\" with ADVP complement   [S [NP [N Phillip]] [VP [V is] [ADVP [ADV here]]]]   8.8.4 E: Linking verb with AdjP    Syntax tree for \"Phillip became famous\" with linking verb and ADJP   [S [NP [N Phillip]] [VP [V became] [ADJP [ADJ famous]]]]   8.8.4 F: Linking verb with NP    Syntax tree for \"Phillip became a doctor\" with linking verb and NP   [S [NP [N Phillip]] [VP [V became] [NP [DET a] [N doctor]]]]    Pattern 5: Complex Transitive (S-V-DO-OC)   8.8.5 A: Complex transitive with AdjP object complement    Syntax tree for \"The jury found him guilty\" with DO and AdjP OC   [S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]   8.8.5 B: Complex transitive with NP object complement    Syntax tree for \"They elected her president\" with DO and NP OC   [S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]   "
 },
 {
   "id": "ch-08-basic-sentence-elements-and-sentence-patterns-12",
@@ -1141,43 +916,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "9.11",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for compound and complex sentence structures introduced in this chapter.   Coordination   Coordinated independent clauses: I laugh and you cry.   Syntax tree for \"I laugh and you cry\" showing two coordinated sentences    [S [S [NP [PRON I]] [VP [V laugh]]] [CONJ and] [S [NP [PRON you]] [VP [V cry]]]]    Subordination   Dependent clause second: I laugh because you cry.   Syntax tree for \"I laugh because you cry\" with dependent clause following    [S [IC [NP [PRON I]] [VP [V laugh]]] [DC [SUB because] [NP [PRON you]] [VP [V cry]]]]   Dependent clause first: Because you cry, I laugh.   Syntax tree for \"Because you cry, I laugh\" with dependent clause first    [S [DC [SUB Because] [NP [PRON you]] [VP [V cry]]] [IC [NP [PRON I]] [VP [V laugh]]]]   Adverbial clause: When it rained, they stayed.   Syntax tree for \"When it rained, they stayed\" with adverbial dependent clause    [S [DC [SUB When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON they]] [VP [V stayed]]]]   "
-},
-{
-  "id": "fig-ch09-ex-coordination",
-  "level": "2",
-  "url": "ch-09-diagram-examples.html#fig-ch09-ex-coordination",
-  "type": "Figure",
-  "number": "9.11.1",
-  "title": "",
-  "body": " Coordinated independent clauses: I laugh and you cry.   Syntax tree for \"I laugh and you cry\" showing two coordinated sentences   "
-},
-{
-  "id": "fig-ch09-ex-dc-second",
-  "level": "2",
-  "url": "ch-09-diagram-examples.html#fig-ch09-ex-dc-second",
-  "type": "Figure",
-  "number": "9.11.2",
-  "title": "",
-  "body": " Dependent clause second: I laugh because you cry.   Syntax tree for \"I laugh because you cry\" with dependent clause following   "
-},
-{
-  "id": "fig-ch09-ex-dc-first",
-  "level": "2",
-  "url": "ch-09-diagram-examples.html#fig-ch09-ex-dc-first",
-  "type": "Figure",
-  "number": "9.11.3",
-  "title": "",
-  "body": " Dependent clause first: Because you cry, I laugh.   Syntax tree for \"Because you cry, I laugh\" with dependent clause first   "
-},
-{
-  "id": "fig-ch09-ex-adv-clause",
-  "level": "2",
-  "url": "ch-09-diagram-examples.html#fig-ch09-ex-adv-clause",
-  "type": "Figure",
-  "number": "9.11.4",
-  "title": "",
-  "body": " Adverbial clause: When it rained, they stayed.   Syntax tree for \"When it rained, they stayed\" with adverbial dependent clause   "
+  "body": " Diagram Examples  This section provides reference diagrams for compound and complex sentence structures introduced in this chapter.   Coordination   9.8.1 A: Coordinated independent clauses: I laugh and you cry.    Syntax tree for \"I laugh and you cry\" showing two coordinated sentences   [S [S [NP [PRON I]] [VP [V laugh]]] [CONJ and] [S [NP [PRON you]] [VP [V cry]]]]    Subordination   9.8.2 A: Dependent clause second: I laugh because you cry.    Syntax tree for \"I laugh because you cry\" with dependent clause following   [S [IC [NP [PRON I]] [VP [V laugh]]] [DC [SUB because] [NP [PRON you]] [VP [V cry]]]]   9.8.2 B: Dependent clause first: Because you cry, I laugh.    Syntax tree for \"Because you cry, I laugh\" with dependent clause first   [S [DC [SUB Because] [NP [PRON you]] [VP [V cry]]] [IC [NP [PRON I]] [VP [V laugh]]]]   9.8.2 C: Adverbial clause: When it rained, they stayed.    Syntax tree for \"When it rained, they stayed\" with adverbial dependent clause   [S [DC [SUB When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON they]] [VP [V stayed]]]]   "
 },
 {
   "id": "ch-09-compound-and-complex-sentences-14",
@@ -1285,52 +1024,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.11",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for verb phrase structures with tense and aspect.   Aspect Examples   Progressive aspect (be + V-ing): is eating   Syntax tree for \"is eating\" showing progressive aspect    [VP [AUX is] [V eating]]   Perfect aspect (have + V-en): has eaten   Syntax tree for \"has eaten\" showing perfect aspect    [VP [AUX has] [V eaten]]   Perfect progressive (have + been + V-ing): has been eating   Syntax tree for \"has been eating\" showing perfect progressive    [VP [AUX has] [AUX been] [V eating]]   Passive (be + V-en): was eaten   Syntax tree for \"was eaten\" showing passive voice    [VP [AUX was] [V eaten]]   Progressive passive (be + being + V-en): is being renovated   Syntax tree for \"is being renovated\" showing progressive passive    [VP [AUX is] [AUX being] [V renovated]]   "
-},
-{
-  "id": "fig-ch10-ex-progressive",
-  "level": "2",
-  "url": "ch-10-diagram-examples.html#fig-ch10-ex-progressive",
-  "type": "Figure",
-  "number": "10.11.1",
-  "title": "",
-  "body": " Progressive aspect (be + V-ing): is eating   Syntax tree for \"is eating\" showing progressive aspect   "
-},
-{
-  "id": "fig-ch10-ex-perfect",
-  "level": "2",
-  "url": "ch-10-diagram-examples.html#fig-ch10-ex-perfect",
-  "type": "Figure",
-  "number": "10.11.2",
-  "title": "",
-  "body": " Perfect aspect (have + V-en): has eaten   Syntax tree for \"has eaten\" showing perfect aspect   "
-},
-{
-  "id": "fig-ch10-ex-perf-prog",
-  "level": "2",
-  "url": "ch-10-diagram-examples.html#fig-ch10-ex-perf-prog",
-  "type": "Figure",
-  "number": "10.11.3",
-  "title": "",
-  "body": " Perfect progressive (have + been + V-ing): has been eating   Syntax tree for \"has been eating\" showing perfect progressive   "
-},
-{
-  "id": "fig-ch10-ex-passive",
-  "level": "2",
-  "url": "ch-10-diagram-examples.html#fig-ch10-ex-passive",
-  "type": "Figure",
-  "number": "10.11.4",
-  "title": "",
-  "body": " Passive (be + V-en): was eaten   Syntax tree for \"was eaten\" showing passive voice   "
-},
-{
-  "id": "fig-ch10-ex-prog-passive",
-  "level": "2",
-  "url": "ch-10-diagram-examples.html#fig-ch10-ex-prog-passive",
-  "type": "Figure",
-  "number": "10.11.5",
-  "title": "",
-  "body": " Progressive passive (be + being + V-en): is being renovated   Syntax tree for \"is being renovated\" showing progressive passive   "
+  "body": " Diagram Examples  This section provides reference diagrams for verb phrase structures with tense and aspect.   Aspect Examples   10.8.1 A: Progressive aspect (be + V-ing): is eating    Syntax tree for \"is eating\" showing progressive aspect   [VP [AUX is] [V eating]]   10.8.1 B: Perfect aspect (have + V-en): has eaten    Syntax tree for \"has eaten\" showing perfect aspect   [VP [AUX has] [V eaten]]   10.8.1 C: Perfect progressive (have + been + V-ing): has been eating    Syntax tree for \"has been eating\" showing perfect progressive   [VP [AUX has] [AUX been] [V eating]]   10.8.1 D: Passive (be + V-en): was eaten    Syntax tree for \"was eaten\" showing passive voice   [VP [AUX was] [V eaten]]   10.8.1 E: Progressive passive (be + being + V-en): is being renovated    Syntax tree for \"is being renovated\" showing progressive passive   [VP [AUX is] [AUX being] [V renovated]]   "
 },
 {
   "id": "ch-10-verbs-part-one-tense-and-aspect-14",
@@ -1429,52 +1123,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.10",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for verb phrase structures with voice and modals.   Modal Examples   Modal + verb: will eat   Syntax tree for \"will eat\" showing modal with verb    [VP [MOD will] [V eat]]   Modal + perfect: will have eaten   Syntax tree for \"will have eaten\" showing modal with perfect    [VP [MOD will] [AUX have] [V eaten]]   Complex VP (modal + perfect + progressive): should have been studying   Syntax tree for \"should have been studying\"    [VP [MOD should] [AUX have] [AUX been] [V studying]]   Full complex VP: will have been being eaten   Syntax tree for \"will have been being eaten\" showing all auxiliaries    [VP [MOD will] [AUX have] [AUX been] [AUX being] [V eaten]]    Passive Voice   Passive with by-phrase: was written by Maria   Syntax tree for \"was written by Maria\" showing passive with agent    [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]   "
-},
-{
-  "id": "fig-ch11-ex-modal",
-  "level": "2",
-  "url": "ch-11-diagram-examples.html#fig-ch11-ex-modal",
-  "type": "Figure",
-  "number": "11.10.1",
-  "title": "",
-  "body": " Modal + verb: will eat   Syntax tree for \"will eat\" showing modal with verb   "
-},
-{
-  "id": "fig-ch11-ex-modal-perf",
-  "level": "2",
-  "url": "ch-11-diagram-examples.html#fig-ch11-ex-modal-perf",
-  "type": "Figure",
-  "number": "11.10.2",
-  "title": "",
-  "body": " Modal + perfect: will have eaten   Syntax tree for \"will have eaten\" showing modal with perfect   "
-},
-{
-  "id": "fig-ch11-ex-complex",
-  "level": "2",
-  "url": "ch-11-diagram-examples.html#fig-ch11-ex-complex",
-  "type": "Figure",
-  "number": "11.10.3",
-  "title": "",
-  "body": " Complex VP (modal + perfect + progressive): should have been studying   Syntax tree for \"should have been studying\"   "
-},
-{
-  "id": "fig-ch11-ex-full-complex",
-  "level": "2",
-  "url": "ch-11-diagram-examples.html#fig-ch11-ex-full-complex",
-  "type": "Figure",
-  "number": "11.10.4",
-  "title": "",
-  "body": " Full complex VP: will have been being eaten   Syntax tree for \"will have been being eaten\" showing all auxiliaries   "
-},
-{
-  "id": "fig-ch11-ex-passive-by",
-  "level": "2",
-  "url": "ch-11-diagram-examples.html#fig-ch11-ex-passive-by",
-  "type": "Figure",
-  "number": "11.10.5",
-  "title": "",
-  "body": " Passive with by-phrase: was written by Maria   Syntax tree for \"was written by Maria\" showing passive with agent   "
+  "body": " Diagram Examples  This section provides reference diagrams for verb phrase structures with voice and modals.   Modal Examples   11.8.1 A: Modal + verb: will eat    Syntax tree for \"will eat\" showing modal with verb   [VP [MOD will] [V eat]]   11.8.1 B: Modal + perfect: will have eaten    Syntax tree for \"will have eaten\" showing modal with perfect   [VP [MOD will] [AUX have] [V eaten]]   11.8.1 C: Complex VP (modal + perfect + progressive): should have been studying    Syntax tree for \"should have been studying\"   [VP [MOD should] [AUX have] [AUX been] [V studying]]   11.8.1 D: Full complex VP: will have been being eaten    Syntax tree for \"will have been being eaten\" showing all auxiliaries   [VP [MOD will] [AUX have] [AUX been] [AUX being] [V eaten]]    Passive Voice   11.8.2 A: Passive with by-phrase: was written by Maria    Syntax tree for \"was written by Maria\" showing passive with agent   [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]   "
 },
 {
   "id": "ch-11-verbs-part-two-voice-and-modals-13",
@@ -1555,70 +1204,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.8",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for adverbial structures introduced in this chapter.   Adverb as Adverbial   Adverb modifying verb: She spoke quietly.   Syntax tree for \"She spoke quietly\" showing adverb modifying verb    [S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]]]]   Sentence adverb: Unfortunately, she lost.   Syntax tree for \"Unfortunately, she lost\" showing sentence adverb    [S [ADVP [ADV Unfortunately]] [S [NP [PRON she]] [VP [V lost]]]]    PP as Adverbial   PP in VP (adverbial): She works at home.   Syntax tree for \"She works at home\" showing PP as adverbial    [S [NP [PRON She]] [VP [V works] [PP [PREP at] [NP [N home]]]]]    Other Adverbial Structures   Noun functioning as adverbial: I sleep every day.   Syntax tree for \"I sleep every day\" showing noun phrase as adverbial    [S [NP [PRON I]] [VP [V sleep] [NP [DET every] [N day]]]]   Present participle as adverbial: I left running.   Syntax tree for \"I left running\" showing participle as adverbial    [S [NP [PRON I]] [VP [V left] [VP [V running]]]]   Infinitive as adverbial: I went to run.   Syntax tree for \"I went to run\" showing infinitive as adverbial    [S [NP [PRON I]] [VP [V went] [VP [PREP to] [V run]]]]   Multiple adverbials: She spoke quietly in the library.   Syntax tree for \"She spoke quietly in the library\" showing multiple adverbials    [S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N library]]]]]   "
-},
-{
-  "id": "fig-ch12-ex-adv-verb",
-  "level": "2",
-  "url": "ch-12-diagram-examples.html#fig-ch12-ex-adv-verb",
-  "type": "Figure",
-  "number": "12.8.1",
-  "title": "",
-  "body": " Adverb modifying verb: She spoke quietly.   Syntax tree for \"She spoke quietly\" showing adverb modifying verb   "
-},
-{
-  "id": "fig-ch12-ex-sent-adv",
-  "level": "2",
-  "url": "ch-12-diagram-examples.html#fig-ch12-ex-sent-adv",
-  "type": "Figure",
-  "number": "12.8.2",
-  "title": "",
-  "body": " Sentence adverb: Unfortunately, she lost.   Syntax tree for \"Unfortunately, she lost\" showing sentence adverb   "
-},
-{
-  "id": "fig-ch12-ex-pp-adv",
-  "level": "2",
-  "url": "ch-12-diagram-examples.html#fig-ch12-ex-pp-adv",
-  "type": "Figure",
-  "number": "12.8.3",
-  "title": "",
-  "body": " PP in VP (adverbial): She works at home.   Syntax tree for \"She works at home\" showing PP as adverbial   "
-},
-{
-  "id": "fig-ch12-ex-noun-adv",
-  "level": "2",
-  "url": "ch-12-diagram-examples.html#fig-ch12-ex-noun-adv",
-  "type": "Figure",
-  "number": "12.8.4",
-  "title": "",
-  "body": " Noun functioning as adverbial: I sleep every day.   Syntax tree for \"I sleep every day\" showing noun phrase as adverbial   "
-},
-{
-  "id": "fig-ch12-ex-part-adv",
-  "level": "2",
-  "url": "ch-12-diagram-examples.html#fig-ch12-ex-part-adv",
-  "type": "Figure",
-  "number": "12.8.5",
-  "title": "",
-  "body": " Present participle as adverbial: I left running.   Syntax tree for \"I left running\" showing participle as adverbial   "
-},
-{
-  "id": "fig-ch12-ex-inf-adv",
-  "level": "2",
-  "url": "ch-12-diagram-examples.html#fig-ch12-ex-inf-adv",
-  "type": "Figure",
-  "number": "12.8.6",
-  "title": "",
-  "body": " Infinitive as adverbial: I went to run.   Syntax tree for \"I went to run\" showing infinitive as adverbial   "
-},
-{
-  "id": "fig-ch12-ex-multiple",
-  "level": "2",
-  "url": "ch-12-diagram-examples.html#fig-ch12-ex-multiple",
-  "type": "Figure",
-  "number": "12.8.7",
-  "title": "",
-  "body": " Multiple adverbials: She spoke quietly in the library.   Syntax tree for \"She spoke quietly in the library\" showing multiple adverbials   "
+  "body": " Diagram Examples  This section provides reference diagrams for adverbial structures introduced in this chapter.   Adverb as Adverbial   12.8.1 A: Adverb modifying verb: She spoke quietly.    Syntax tree for \"She spoke quietly\" showing adverb modifying verb   [S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]]]]   12.8.1 B: Sentence adverb: Unfortunately, she lost.    Syntax tree for \"Unfortunately, she lost\" showing sentence adverb   [S [ADVP [ADV Unfortunately]] [S [NP [PRON she]] [VP [V lost]]]]    PP as Adverbial   12.8.2 A: PP in VP (adverbial): She works at home.    Syntax tree for \"She works at home\" showing PP as adverbial   [S [NP [PRON She]] [VP [V works] [PP [PREP at] [NP [N home]]]]]    Other Adverbial Structures   12.8.3 A: Noun functioning as adverbial: I sleep every day.    Syntax tree for \"I sleep every day\" showing noun phrase as adverbial   [S [NP [PRON I]] [VP [V sleep] [NP [DET every] [N day]]]]   12.8.3 B: Present participle as adverbial: I left running.    Syntax tree for \"I left running\" showing participle as adverbial   [S [NP [PRON I]] [VP [V left] [VP [V running]]]]   12.8.3 C: Infinitive as adverbial: I went to run.    Syntax tree for \"I went to run\" showing infinitive as adverbial   [S [NP [PRON I]] [VP [V went] [VP [PREP to] [V run]]]]   12.8.3 D: Multiple adverbials: She spoke quietly in the library.    Syntax tree for \"She spoke quietly in the library\" showing multiple adverbials   [S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N library]]]]]   "
 },
 {
   "id": "ch-12-adverbials-11",
@@ -1996,43 +1582,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.9",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for nominal structures (noun clauses) introduced in this chapter.   Complement Clauses   That-clause in object position: I know that you cry.   Syntax tree for \"I know that you cry\" showing complement clause as object    [S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]   That-clause in subject position: That you cry upsets me.   Syntax tree for \"That you cry upsets me\" showing complement clause as subject    [S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]   If\/whether-clause in object position: I wonder if you cry.   Syntax tree for \"I wonder if you cry\" showing if-clause as object    [S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]   Missing complementizer: I know you cry.   Syntax tree for \"I know you cry\" showing omitted complementizer    [S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]   "
-},
-{
-  "id": "fig-ch13-ex-that-obj",
-  "level": "2",
-  "url": "ch-13-diagram-examples.html#fig-ch13-ex-that-obj",
-  "type": "Figure",
-  "number": "13.9.1",
-  "title": "",
-  "body": " That-clause in object position: I know that you cry.   Syntax tree for \"I know that you cry\" showing complement clause as object   "
-},
-{
-  "id": "fig-ch13-ex-that-subj",
-  "level": "2",
-  "url": "ch-13-diagram-examples.html#fig-ch13-ex-that-subj",
-  "type": "Figure",
-  "number": "13.9.2",
-  "title": "",
-  "body": " That-clause in subject position: That you cry upsets me.   Syntax tree for \"That you cry upsets me\" showing complement clause as subject   "
-},
-{
-  "id": "fig-ch13-ex-if",
-  "level": "2",
-  "url": "ch-13-diagram-examples.html#fig-ch13-ex-if",
-  "type": "Figure",
-  "number": "13.9.3",
-  "title": "",
-  "body": " If\/whether-clause in object position: I wonder if you cry.   Syntax tree for \"I wonder if you cry\" showing if-clause as object   "
-},
-{
-  "id": "fig-ch13-ex-missing-comp",
-  "level": "2",
-  "url": "ch-13-diagram-examples.html#fig-ch13-ex-missing-comp",
-  "type": "Figure",
-  "number": "13.9.4",
-  "title": "",
-  "body": " Missing complementizer: I know you cry.   Syntax tree for \"I know you cry\" showing omitted complementizer   "
+  "body": " Diagram Examples  This section provides reference diagrams for nominal structures (noun clauses) introduced in this chapter.   Complement Clauses   13.8.1 A: That-clause in object position: I know that you cry.    Syntax tree for \"I know that you cry\" showing complement clause as object   [S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]   13.8.1 B: That-clause in subject position: That you cry upsets me.    Syntax tree for \"That you cry upsets me\" showing complement clause as subject   [S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]   13.8.1 C: If\/whether-clause in object position: I wonder if you cry.    Syntax tree for \"I wonder if you cry\" showing if-clause as object   [S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]   13.8.1 D: Missing complementizer: I know you cry.    Syntax tree for \"I know you cry\" showing omitted complementizer   [S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]   "
 },
 {
   "id": "ch-13-adjectivals-12",
@@ -2437,88 +1987,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.9",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for adjectival structures introduced in this chapter.   Adjective Positions   Attributive position: the tall man   Syntax tree for \"the tall man\" showing adjective in attributive position    [NP [DET the] [ADJ tall] [N man]]   Predicative position: She is happy.   Syntax tree for \"She is happy\" showing adjective in predicative position    [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]    PP as Adjectival   PP modifying noun: the man in the hat   Syntax tree for \"the man in the hat\" showing PP as adjectival    [NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]    Participial Phrases as Adjectivals   Present participle as adjectival: the running dog barks   Syntax tree for \"the running dog barks\" showing present participle modifying noun    [S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]   Past participle as adjectival: the frightened dog barks   Syntax tree for \"the frightened dog barks\" showing past participle modifying noun    [S [NP [DET the] [VP [V frightened]] [N dog]] [VP [V barks]]]    Relative Clauses   Relative clause (who as subject): the dog who barks sleeps   Syntax tree for \"the dog who barks sleeps\" showing relative clause with who as subject    [S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]   Relative clause (that + subject): the dog that I saw sleeps   Syntax tree for \"the dog that I saw sleeps\" showing relative clause with that as relativizer    [S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   Relative clause (where): I saw the place where you live.   Syntax tree for \"I saw the place where you live\" showing relative clause with relative adverb    [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]   Empty relativizer: the dog I saw sleeps   Syntax tree for \"the dog I saw sleeps\" showing relative clause with empty relativizer    [S [NP [DET the] [N dog] [RC [REL _] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   "
-},
-{
-  "id": "fig-ch14-ex-attributive",
-  "level": "2",
-  "url": "ch-14-diagram-examples.html#fig-ch14-ex-attributive",
-  "type": "Figure",
-  "number": "14.9.1",
-  "title": "",
-  "body": " Attributive position: the tall man   Syntax tree for \"the tall man\" showing adjective in attributive position   "
-},
-{
-  "id": "fig-ch14-ex-predicative",
-  "level": "2",
-  "url": "ch-14-diagram-examples.html#fig-ch14-ex-predicative",
-  "type": "Figure",
-  "number": "14.9.2",
-  "title": "",
-  "body": " Predicative position: She is happy.   Syntax tree for \"She is happy\" showing adjective in predicative position   "
-},
-{
-  "id": "fig-ch14-ex-pp-adj",
-  "level": "2",
-  "url": "ch-14-diagram-examples.html#fig-ch14-ex-pp-adj",
-  "type": "Figure",
-  "number": "14.9.3",
-  "title": "",
-  "body": " PP modifying noun: the man in the hat   Syntax tree for \"the man in the hat\" showing PP as adjectival   "
-},
-{
-  "id": "fig-ch14-ex-present-part",
-  "level": "2",
-  "url": "ch-14-diagram-examples.html#fig-ch14-ex-present-part",
-  "type": "Figure",
-  "number": "14.9.4",
-  "title": "",
-  "body": " Present participle as adjectival: the running dog barks   Syntax tree for \"the running dog barks\" showing present participle modifying noun   "
-},
-{
-  "id": "fig-ch14-ex-past-part",
-  "level": "2",
-  "url": "ch-14-diagram-examples.html#fig-ch14-ex-past-part",
-  "type": "Figure",
-  "number": "14.9.5",
-  "title": "",
-  "body": " Past participle as adjectival: the frightened dog barks   Syntax tree for \"the frightened dog barks\" showing past participle modifying noun   "
-},
-{
-  "id": "fig-ch14-ex-relcl-who",
-  "level": "2",
-  "url": "ch-14-diagram-examples.html#fig-ch14-ex-relcl-who",
-  "type": "Figure",
-  "number": "14.9.6",
-  "title": "",
-  "body": " Relative clause (who as subject): the dog who barks sleeps   Syntax tree for \"the dog who barks sleeps\" showing relative clause with who as subject   "
-},
-{
-  "id": "fig-ch14-ex-relcl-that",
-  "level": "2",
-  "url": "ch-14-diagram-examples.html#fig-ch14-ex-relcl-that",
-  "type": "Figure",
-  "number": "14.9.7",
-  "title": "",
-  "body": " Relative clause (that + subject): the dog that I saw sleeps   Syntax tree for \"the dog that I saw sleeps\" showing relative clause with that as relativizer   "
-},
-{
-  "id": "fig-ch14-ex-relcl-where",
-  "level": "2",
-  "url": "ch-14-diagram-examples.html#fig-ch14-ex-relcl-where",
-  "type": "Figure",
-  "number": "14.9.8",
-  "title": "",
-  "body": " Relative clause (where): I saw the place where you live.   Syntax tree for \"I saw the place where you live\" showing relative clause with relative adverb   "
-},
-{
-  "id": "fig-ch14-ex-relcl-empty",
-  "level": "2",
-  "url": "ch-14-diagram-examples.html#fig-ch14-ex-relcl-empty",
-  "type": "Figure",
-  "number": "14.9.9",
-  "title": "",
-  "body": " Empty relativizer: the dog I saw sleeps   Syntax tree for \"the dog I saw sleeps\" showing relative clause with empty relativizer   "
+  "body": " Diagram Examples  This section provides reference diagrams for adjectival structures introduced in this chapter.   Adjective Positions   14.8.1 A: Attributive position: the tall man    Syntax tree for \"the tall man\" showing adjective in attributive position   [NP [DET the] [ADJ tall] [N man]]   14.8.1 B: Predicative position: She is happy.    Syntax tree for \"She is happy\" showing adjective in predicative position   [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]    PP as Adjectival   14.8.2 A: PP modifying noun: the man in the hat    Syntax tree for \"the man in the hat\" showing PP as adjectival   [NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]    Participial Phrases as Adjectivals   14.8.3 A: Present participle as adjectival: the running dog barks    Syntax tree for \"the running dog barks\" showing present participle modifying noun   [S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]   14.8.3 B: Past participle as adjectival: the frightened dog barks    Syntax tree for \"the frightened dog barks\" showing past participle modifying noun   [S [NP [DET the] [VP [V frightened]] [N dog]] [VP [V barks]]]    Relative Clauses   14.8.4 A: Relative clause (who as subject): the dog who barks sleeps    Syntax tree for \"the dog who barks sleeps\" showing relative clause with who as subject   [S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]   14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps    Syntax tree for \"the dog that I saw sleeps\" showing relative clause with that as relativizer   [S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   14.8.4 C: Relative clause (where): I saw the place where you live.    Syntax tree for \"I saw the place where you live\" showing relative clause with relative adverb   [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]   14.8.4 D: Empty relativizer: the dog I saw sleeps    Syntax tree for \"the dog I saw sleeps\" showing relative clause with empty relativizer   [S [NP [DET the] [N dog] [RC [REL _] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   "
 },
 {
   "id": "ch-14-nominals-12",
