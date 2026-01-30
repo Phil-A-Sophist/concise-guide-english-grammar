@@ -3862,24 +3862,3 @@ section > h3.heading {
 
 /* generated from pub variables */
 :root:not(.dark-mode) {--primary-color: #195684;--secondary-color: #932c1c;}
-/* Custom CSS for Concise Guide to English Grammar */
-
-/* Widen the main content area for better readability on larger screens */
-.ptx-main .ptx-content {
-    max-width: 900px !important;
-}
-.ptx-content-footer {
-    max-width: 900px !important;
-}
-
-/* Consistent table alignment - all tables left-aligned */
-.tabular-box {
-    margin-left: 0 !important;
-    margin-right: auto;
-}
-
-/* Ensure tables inside paragraphs sections are also left-aligned */
-.paragraphs .tabular-box,
-section .tabular-box {
-    margin-left: 0 !important;
-}
