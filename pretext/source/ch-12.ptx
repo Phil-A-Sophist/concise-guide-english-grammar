@@ -686,6 +686,81 @@
 
   </section>
 
+  <section xml:id="ch-12-diagram-examples">
+    <title>Diagram Examples</title>
+
+    <p>This section provides reference diagrams for adverbial structures introduced in this chapter.</p>
+
+    <subsection xml:id="ch-12-diagrams-adverb">
+      <title>Adverb as Adverbial</title>
+
+      <paragraphs>
+        <title>12.8.1 A: Adverb modifying verb: <em>She spoke quietly.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch10_adv_modifying_verb.png" width="40%">
+        <description>Syntax tree for "She spoke quietly" showing adverb modifying verb</description>
+      </image>
+      <p><c>[S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]]]]</c></p>
+
+      <paragraphs>
+        <title>12.8.1 B: Sentence adverb: <em>Unfortunately, she lost.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch10_sentence_adverb.png" width="40%">
+        <description>Syntax tree for "Unfortunately, she lost" showing sentence adverb</description>
+      </image>
+      <p><c>[S [ADVP [ADV Unfortunately]] [S [NP [PRON she]] [VP [V lost]]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-12-diagrams-pp">
+      <title>PP as Adverbial</title>
+
+      <paragraphs>
+        <title>12.8.2 A: PP in VP (adverbial): <em>She works at home.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch10_adverbial_pp.png" width="45%">
+        <description>Syntax tree for "She works at home" showing PP as adverbial</description>
+      </image>
+      <p><c>[S [NP [PRON She]] [VP [V works] [PP [PREP at] [NP [N home]]]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-12-diagrams-other">
+      <title>Other Adverbial Structures</title>
+
+      <paragraphs>
+        <title>12.8.3 A: Noun functioning as adverbial: <em>I sleep every day.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch12_noun_as_adverbial.png" width="45%">
+        <description>Syntax tree for "I sleep every day" showing noun phrase as adverbial</description>
+      </image>
+      <p><c>[S [NP [PRON I]] [VP [V sleep] [NP [DET every] [N day]]]]</c></p>
+
+      <paragraphs>
+        <title>12.8.3 B: Present participle as adverbial: <em>I left running.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch12_participle_adverbial.png" width="40%">
+        <description>Syntax tree for "I left running" showing participle as adverbial</description>
+      </image>
+      <p><c>[S [NP [PRON I]] [VP [V left] [VP [V running]]]]</c></p>
+
+      <paragraphs>
+        <title>12.8.3 C: Infinitive as adverbial: <em>I went to run.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch12_infinitive_adverbial.png" width="40%">
+        <description>Syntax tree for "I went to run" showing infinitive as adverbial</description>
+      </image>
+      <p><c>[S [NP [PRON I]] [VP [V went] [VP [PREP to] [V run]]]]</c></p>
+
+      <paragraphs>
+        <title>12.8.3 D: Multiple adverbials: <em>She spoke quietly in the library.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch10_sentence_adverbials.png" width="55%">
+        <description>Syntax tree for "She spoke quietly in the library" showing multiple adverbials</description>
+      </image>
+      <p><c>[S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N library]]]]]</c></p>
+    </subsection>
+
+  </section>
+
   <glossary>
     <title>Glossary</title>
     <gi>

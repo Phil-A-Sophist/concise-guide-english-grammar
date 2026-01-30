@@ -716,6 +716,53 @@
 
   </section>
 
+  <section xml:id="ch-09-diagram-examples">
+    <title>Diagram Examples</title>
+
+    <p>This section provides reference diagrams for compound and complex sentence structures introduced in this chapter.</p>
+
+    <subsection xml:id="ch-09-diagrams-coord">
+      <title>Coordination</title>
+
+      <paragraphs>
+        <title>9.8.1 A: Coordinated independent clauses: <em>I laugh and you cry.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch09_coordination.png" width="50%">
+        <description>Syntax tree for "I laugh and you cry" showing two coordinated sentences</description>
+      </image>
+      <p><c>[S [S [NP [PRON I]] [VP [V laugh]]] [CONJ and] [S [NP [PRON you]] [VP [V cry]]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-09-diagrams-subord">
+      <title>Subordination</title>
+
+      <paragraphs>
+        <title>9.8.2 A: Dependent clause second: <em>I laugh because you cry.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch09_subord_dc_second.png" width="55%">
+        <description>Syntax tree for "I laugh because you cry" with dependent clause following</description>
+      </image>
+      <p><c>[S [IC [NP [PRON I]] [VP [V laugh]]] [DC [SUB because] [NP [PRON you]] [VP [V cry]]]]</c></p>
+
+      <paragraphs>
+        <title>9.8.2 B: Dependent clause first: <em>Because you cry, I laugh.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch09_subord_dc_first.png" width="55%">
+        <description>Syntax tree for "Because you cry, I laugh" with dependent clause first</description>
+      </image>
+      <p><c>[S [DC [SUB Because] [NP [PRON you]] [VP [V cry]]] [IC [NP [PRON I]] [VP [V laugh]]]]</c></p>
+
+      <paragraphs>
+        <title>9.8.2 C: Adverbial clause: <em>When it rained, they stayed.</em></title>
+      </paragraphs>
+      <image source="diagrams/new/ch10_adverbial_clause.png" width="55%">
+        <description>Syntax tree for "When it rained, they stayed" with adverbial dependent clause</description>
+      </image>
+      <p><c>[S [DC [SUB When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON they]] [VP [V stayed]]]]</c></p>
+    </subsection>
+
+  </section>
+
   <glossary>
     <title>Glossary</title>
     <gi>
