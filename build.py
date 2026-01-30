@@ -16,7 +16,7 @@ from pathlib import Path
 
 # Paths
 ROOT = Path(__file__).parent
-OUTPUT_WEB = ROOT / "output" / "web"
+OUTPUT_WEB = ROOT / "pretext" / "output" / "web"
 DOCS_DIR = ROOT / "docs"
 EPUB_DIR = ROOT / "epub"
 PANDOC_PATH = Path(os.environ.get("LOCALAPPDATA", "")) / "Pandoc" / "pandoc.exe"
