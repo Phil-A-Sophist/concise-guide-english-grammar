@@ -129,6 +129,14 @@ section .tabular-box {
     font-weight: 600 !important;
     color: #2c5282 !important;
 }
+
+/* Center bracket notation beneath diagram images */
+[id*="diagrams-np"] .para:has(.code-inline),
+[id*="diagrams-vp"] .para:has(.code-inline),
+[id*="diagrams-adjp"] .para:has(.code-inline),
+[id*="diagrams-advp"] .para:has(.code-inline) {
+    text-align: center !important;
+}
 """
 
 
