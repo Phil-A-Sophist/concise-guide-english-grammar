@@ -208,34 +208,68 @@ Do NOT use multiple `---` in succession.
 
 ## Homework Section Format
 
-```markdown
-## Homework: [Chapter Topic]
+### PreTeXt Structure
 
----
+```xml
+<section xml:id="ch-XX-homework">
+  <title>Homework: [Chapter Topic]</title>
 
-### Part 1: [Section Name] (approx. X minutes)
+  <subsection xml:id="ch-XX-homework-1">
+    <title>[Descriptive Section Title]</title>
 
-**Instructions:** [Clear instructions for this part]
+    <paragraphs>
+      <title>Instructions</title>
+    </paragraphs>
+    <p>[Clear instructions for this part]</p>
 
-#### Example (completed):
+    <paragraphs>
+      <title>Example (completed)</title>
+    </paragraphs>
+    <p>[Completed example showing expected format]</p>
 
-**Word:** *example*
+    <paragraphs>
+      <title>Exercises</title>
+    </paragraphs>
 
-[Completed example showing expected format]
+    <p><em>Exercise 1.</em> [First exercise]</p>
 
----
+    <p><em>Exercise 2.</em> [Second exercise]</p>
+    <ul>
+      <li><p>[Indented sub-item for exercise]</p></li>
+      <li><p>[Another sub-item]</p></li>
+    </ul>
 
-**1.** [First question]
-
-**2.** [Second question]
+  </subsection>
+</section>
 ```
 
 ### Key Homework Conventions
-- Use `###` for Part headers
-- Use `#### Example (completed):` for examples
-- Number questions with `**1.**`, `**2.**`, etc.
-- Include time estimates for each part
-- End with total estimated time
+
+**Section and Subsection Titles:**
+- Use `<section>` for the main homework section titled "Homework: [Topic]"
+- Use `<subsection>` for each part with descriptive titles only (e.g., "Morpheme Identification")
+- Do NOT include "Part 1:", "Part 2:" in titles—the automatic numbering (4.5.1, 4.5.2) provides this
+- Do NOT include time estimates in titles
+
+**Headings within subsections:**
+- Use `<paragraphs><title>Instructions</title></paragraphs>` for instructions
+- Use `<paragraphs><title>Example (completed)</title></paragraphs>` for examples
+- Use `<paragraphs><title>Exercises</title></paragraphs>` before the exercises begin
+- Use `<paragraphs><title>Passage</title></paragraphs>` when providing reading passages
+- Do NOT include colons in these titles (PreTeXt adds punctuation automatically)
+
+**Exercise numbering:**
+- Label each exercise as "Exercise 1.", "Exercise 2.", etc. using `<em>Exercise 1.</em>`
+- Continue numbering sequentially across all subsections (Exercise 1-5, then 6-10, etc.)
+
+**Indentation for sub-items:**
+- Use `<ul>` bullet lists to indent content that belongs to an exercise
+- This includes prompts like "Create a word with one suffix:", "Morphemes:", etc.
+- Indentation helps delineate the content of each exercise
+
+**Time estimates:**
+- Include total estimated time at the end of the homework section
+- Do NOT include per-part time estimates in subsection titles
 
 ---
 
