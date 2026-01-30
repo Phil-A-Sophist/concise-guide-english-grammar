@@ -1,0 +1,134 @@
+# Bracket Notation Mapping for Syntax Tree Diagrams
+# Format: filename | bracket_notation
+# Generated for use with SyntaxTreeHybrid tool
+# Labels: S, IC, DC, RC, CC (clauses); NP, VP, PP, ADJP, ADVP (phrases)
+# POS tags: N, V, ADJ, ADV, DET, PRON, PREP, CONJ, MOD, AUX, SUB, REL, COMP
+# RULE: Every N, V, ADJ, ADV, PREP must be under its own phrase (NP, VP, ADJP, ADVP, PP)
+
+# Chapter 5 - Open Classes (Phrases and Word Classes)
+# Noun Phrases
+ch05_np_simple | [NP [DET the] [ADJP [ADJ tall]] [N student]]
+ch05_np_with_pp | [NP [DET the] [ADJP [ADJ tall]] [N student] [PP [PREP from] [NP [N Ohio]]]]
+ch05_np_complex | [NP [DET the] [ADJP [ADJ brilliant]] [ADJP [ADJ young]] [N student] [PP [PREP from] [NP [N Ohio]]]]
+# Verb Phrases
+ch05_vp_intransitive | [VP [V slept]]
+ch05_vp_transitive | [VP [V read] [NP [DET the] [N book]]]
+ch05_vp_ditransitive | [VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]
+# Adjective Phrases
+ch05_adjp_simple | [ADJP [ADJ happy]]
+ch05_adjp_degree | [ADJP [ADVP [ADV very]] [ADJ happy]]
+ch05_adjp_complex | [ADJP [ADVP [ADV very]] [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]
+# Adverb Phrases
+ch05_advp_simple | [ADVP [ADV quickly]]
+ch05_advp_degree | [ADVP [ADVP [ADV very]] [ADV quickly]]
+
+# Chapter 6 - Sentence Structures and Patterns (also Closed Classes)
+ch06_ambig_binoculars_np | [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]
+ch06_ambig_binoculars_vp | [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]
+ch06_ambig_old_men_1 | [S [NP [NP [ADJP [ADJ old]] [N men]] [CONJ and] [NP [N women]]] [VP [V gathered]]]
+ch06_ambig_old_men_2 | [S [NP [ADJP [ADJ old]] [NP [NP [N men]] [CONJ and] [NP [N women]]]] [VP [V gathered]]]
+ch06_artist_painted | [S [NP [DET The] [ADJP [ADJ young]] [N artist] [PP [PREP from] [NP [N Paris]]]] [VP [V painted] [NP [ADJP [ADJ beautiful]] [N landscapes]]]]
+ch06_basic_structure | [S [NP] [VP]]
+ch06_complex_trans_adj | [S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]
+ch06_complex_trans_np | [S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]
+ch06_ditransitive | [S [NP [PRON She]] [VP [V gave] [NP [PRON me]] [NP [DET a] [N book]]]]
+ch06_dog_barked | [S [NP [DET The] [N dog]] [VP [V barked]]]
+ch06_intransitive | [S [NP [N Thunder]] [VP [V rumbled]]]
+ch06_linking | [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]
+ch06_transitive | [S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]
+# New for Diagram Examples section
+ch06_possessive_det | [NP [DET her] [N book]]
+ch06_pronoun_subject | [S [NP [PRON She]] [VP [V sleeps]]]
+ch06_np_coordination | [NP [NP [N cats]] [CONJ and] [NP [N dogs]]]
+
+# Chapter 7 - Verb Phrase Structures
+ch07_simple_vp | [VP [V sleeps]]
+ch07_vp_complex | [VP [MOD should] [AUX have] [AUX been] [V studying]]
+ch07_vp_full_complex | [VP [MOD will] [AUX have] [AUX been] [AUX being] [V eaten]]
+ch07_vp_modal | [VP [MOD will] [V eat]]
+ch07_vp_modal_perfect | [VP [MOD will] [AUX have] [V eaten]]
+ch07_vp_passive | [VP [AUX was] [V eaten]]
+ch07_vp_perfect | [VP [AUX has] [V eaten]]
+ch07_vp_perfect_progressive | [VP [AUX has] [AUX been] [V eating]]
+ch07_vp_progressive | [VP [AUX is] [V eating]]
+ch07_vp_progressive_passive | [VP [AUX is] [AUX being] [V renovated]]
+
+# Chapter 8 - Noun Phrase Structures (and Sentence Patterns)
+ch08_complex_np | [NP [DET the] [ADJP [ADJ big]] [ADJP [ADJ old]] [N dog] [PP [PREP from] [NP [N Texas]]]]
+ch08_np_det | [NP [DET the] [N dog]]
+ch08_np_det_adj | [NP [DET the] [ADJP [ADJ old]] [N dog]]
+ch08_np_multiple_adj | [NP [DET the] [ADJP [ADJ big]] [ADJP [ADJ brown]] [N dog]]
+ch08_np_students | [NP [DET The] [ADJP [ADJ ambitious]] [N students] [PP [PREP from] [NP [N Pueblo]]]]
+ch08_np_with_pp | [NP [DET the] [N dog] [PP [PREP in] [NP [DET the] [N yard]]]]
+ch08_np_with_relcl | [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]]
+ch08_simple_np | [NP [N dogs]]
+# New for Diagram Examples section
+ch08_intrans_conj_subj | [S [NP [NP [N Frodo]] [CONJ and] [NP [N Sam]]] [VP [V travel]]]
+ch08_intrans_conj_vp | [S [NP [N Gandalf]] [VP [VP [V thinks]] [CONJ and] [VP [V acts]]]]
+ch08_copular_pp | [S [NP [N Phillip]] [VP [V is] [PP [PREP over] [NP [DET the] [N moon]]]]]
+ch08_copular_advp | [S [NP [N Phillip]] [VP [V is] [ADVP [ADV here]]]]
+ch08_linking_adjp | [S [NP [N Phillip]] [VP [V became] [ADJP [ADJ famous]]]]
+ch08_linking_np | [S [NP [N Phillip]] [VP [V became] [NP [DET a] [N doctor]]]]
+
+# Chapter 9 - Adjective Phrase Structures (and Compound/Complex Sentences)
+ch09_adjp_complex | [ADJP [ADVP [ADV extremely]] [ADJ difficult] [VP [PREP to] [V understand]]]
+ch09_adjp_degree | [ADJP [ADVP [ADV very]] [ADJ tall]]
+ch09_adjp_infinitive | [ADJP [ADJ eager] [VP [PREP to] [V leave]]]
+ch09_adjp_pp_complement | [ADJP [ADJ afraid] [PP [PREP of] [NP [N spiders]]]]
+ch09_adjp_pp_proud | [ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]
+ch09_np_adjectivals | [NP [DET the] [ADJP [ADJ old]] [N house] [PP [PREP on] [NP [DET the] [N corner]]]]
+ch09_np_attributive | [NP [DET the] [ADJP [ADJ tall]] [N man]]
+ch09_np_multiple_adj | [NP [DET a] [ADJP [ADJ big]] [ADJP [ADJ red]] [N balloon]]
+ch09_predicative | [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]
+ch09_simple_adjp | [ADJP [ADJ tall]]
+# New for Diagram Examples section
+ch09_coordination | [S [S [NP [PRON I]] [VP [V laugh]]] [CONJ and] [S [NP [PRON you]] [VP [V cry]]]]
+ch09_subord_dc_second | [S [IC [NP [PRON I]] [VP [V laugh]]] [DC [SUB because] [NP [PRON you]] [VP [V cry]]]]
+ch09_subord_dc_first | [S [DC [SUB Because] [NP [PRON you]] [VP [V cry]]] [IC [NP [PRON I]] [VP [V laugh]]]]
+
+# Chapter 10 - Adverb and Adverbial Structures
+ch10_adv_modifying_adj | [ADJP [ADVP [ADV very]] [ADJ tall]]
+ch10_adv_modifying_verb | [S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]]]]
+ch10_adverbial_clause | [S [DC [SUB When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON they]] [VP [V stayed]]]]
+ch10_adverbial_pp | [S [NP [PRON She]] [VP [V works] [PP [PREP at] [NP [N home]]]]]
+ch10_advp_degree | [ADVP [ADVP [ADV very]] [ADV quickly]]
+ch10_advp_quite | [ADVP [ADVP [ADV quite]] [ADV fortunately]]
+ch10_sentence_adverb | [S [ADVP [ADV Unfortunately]] [S [NP [PRON she]] [VP [V lost]]]]
+ch10_sentence_adverbials | [S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N library]]]]]
+ch10_simple_advp | [ADVP [ADV quickly]]
+
+# Chapter 11 - Prepositional Phrases and Determiners
+ch11_adjectival_pp | [NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]
+ch11_adverbial_pp | [S [NP [PRON She]] [VP [V waited] [PP [PREP in] [NP [DET the] [N lobby]]]]]
+ch11_np_with_det | [NP [DET the] [ADJP [ADJ old]] [N book]]
+ch11_possessive_np | [NP [NP [N John] [N 's]] [N book]]
+ch11_pronouns | [S [NP [PRON She]] [VP [V read] [NP [PRON it]]]]
+ch11_simple_pp | [PP [PREP in] [NP [DET the] [N box]]]
+
+# Chapter 12 - Sentence Patterns (and Adverbials)
+ch12_basic_intransitive | [S [NP [N Cameras]] [VP [V flashed]]]
+ch12_basic_transitive | [S [NP [N Weasels]] [VP [V stalk] [NP [N rabbits]]]]
+ch12_copular_be | [S [NP [PRON I]] [VP [V am] [NP [DET an] [N optimist]]]]
+ch12_ditransitive_io_do | [S [NP [N Marie]] [VP [V sent] [NP [N Ramon]] [NP [DET a] [N gift]]]]
+# New for Diagram Examples section (Adverbials)
+ch12_noun_as_adverbial | [S [NP [PRON I]] [VP [V sleep] [NP [DET every] [N day]]]]
+ch12_participle_adverbial | [S [NP [PRON I]] [VP [V left] [VP [V running]]]]
+ch12_infinitive_adverbial | [S [NP [PRON I]] [VP [V went] [VP [PREP to] [V run]]]]
+
+# Chapter 13 - Nominals (Noun Clauses)
+ch13_that_clause_object | [S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]
+ch13_that_clause_subject | [S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]
+ch13_if_clause | [S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]
+ch13_missing_comp | [S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]
+
+# Chapter 14 - Adjectivals (Relative Clauses, Participial Phrases)
+ch14_participle_present | [S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]
+ch14_participle_past | [S [NP [DET the] [VP [V frightened]] [N dog]] [VP [V barks]]]
+ch14_relcl_who_subject | [S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]
+ch14_relcl_that_object | [S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]
+ch14_relcl_where | [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]
+ch14_relcl_empty | [S [NP [DET the] [N dog] [RC [REL _] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]
+
+# Chapter 16 - Voice and Auxiliaries
+ch16_passive_by | [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]
+ch16_vp_auxiliaries | [VP [AUX has] [AUX been] [V working]]

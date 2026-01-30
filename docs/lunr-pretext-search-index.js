@@ -277,7 +277,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.3",
   "title": "Phrases and Headwords",
-  "body": " Phrases and Headwords  Before examining individual word classes, we need to understand how words combine into larger units called phrases . In grammar, a phrase is a group of words that functions as a single unit within a sentence. Every phrase is built around one essential word—its head —and may include other words that modify or complete it.   The Head of a Phrase   The head is the most important word in a phrase—the word that determines what kind of phrase it is and cannot be removed without destroying the phrase. Think of the head as the nucleus around which everything else orbits.  Consider this noun phrase:  the tall student from Ohio  Which word is essential? We can remove words one by one:   the tall student from Ohio → tall student from Ohio (still works)  tall student from Ohio → student from Ohio (still works)  student from Ohio → student (still works)  student → ??? (remove student and nothing remains)   The word student is the head. Every other word in the phrase— the , tall , from Ohio —is optional. But student is required. Because the head is a noun, the whole phrase is a noun phrase (NP) .   Modifiers   Modifiers are the optional words that add information about the head. They come in two types:  Pre-modifiers appear before the head:   In the tall student , both the and tall are pre-modifiers   Post-modifiers appear after the head:   In student from Ohio , the phrase from Ohio is a post-modifier   Modifiers expand the head, making it more specific. Student could be anyone; the tall student from Ohio narrows our focus to one particular person.   Four Major Phrase Types   Each of the four open word classes serves as the head of a corresponding phrase type:    Phrase Type  Abbreviation  Head  Example    Noun phrase  NP  Noun  the tall student from Ohio    Verb phrase  VP  Verb  read the book carefully    Adjective phrase  AdjP  Adjective  very proud of her work    Adverb phrase  AdvP  Adverb  quite slowly    Understanding phrase structure is essential for grammatical analysis. When we diagram sentences or analyze syntax, we work with phrases, not just individual words.   Visualizing Phrase Structure   We can represent phrase structure using tree diagrams. Here's a simple noun phrase:  NP ┌───┼───┐ Det Adj N │ │ │ the tall student  The tree shows that the , tall , and student combine to form a single NP. The head noun student determines the phrase type; the determiner and adjective are its pre-modifiers.  A more complex noun phrase adds a post-modifier:  NP ┌─────┬───┼───────┐ Det Adj N PP │ │ │ ┌──┴──┐ the tall student Prep NP │ │ from Ohio  Notice that the post-modifier from Ohio is itself a phrase—a prepositional phrase (PP) containing its own NP. Phrases can nest inside other phrases, creating hierarchical structures.   Identifying the Head   When you encounter a phrase, use this process to identify its head:   Ask: \"Which word is essential—which word cannot be removed?\"  Confirm: \"What part of speech is that word?\"  Label the phrase accordingly (NP if noun, VP if verb, etc.)   Let's practice:  extremely proud of her achievement   Remove extremely : proud of her achievement (still works)  Remove of her achievement : extremely proud (still works)  Remove proud : extremely of her achievement (broken)   The head is proud , an adjective. This is an adjective phrase (AdjP) .  very quickly   Remove very : quickly (still works)  Remove quickly : very (incomplete)   The head is quickly , an adverb. This is an adverb phrase (AdvP) .   Why Phrase Structure Matters   Understanding phrases helps you:   Analyze sentence structure. Sentences are built from phrases, and phrases from smaller phrases. Seeing these building blocks clarifies how sentences work.  Identify grammatical functions. Phrases, not just words, perform grammatical roles. The phrase \"the tall student from Ohio\" serves as a subject—not just the word \"student.\"  Understand ambiguity. Many ambiguous sentences can be explained through different possible phrase structures.  Write more effectively. When you can see the structure of your sentences, you can vary and control them more deliberately.   In the following sections, we'll examine each word class in detail. For each class, we'll begin by exploring how it forms phrases, then present the tests for identifying it.  "
+  "body": " Phrases and Headwords  Before examining individual word classes, we need to understand how words combine into larger units called phrases . In grammar, a phrase is a group of words that functions as a single unit within a sentence. Every phrase is built around one essential word—its head —and may include other words that modify or complete it.   The Head of a Phrase   The head is the most important word in a phrase—the word that determines what kind of phrase it is and cannot be removed without destroying the phrase. Think of the head as the nucleus around which everything else orbits.  Consider this noun phrase:  the tall student from Ohio  Which word is essential? We can remove words one by one:   the tall student from Ohio → tall student from Ohio (still works)  tall student from Ohio → student from Ohio (still works)  student from Ohio → student (still works)  student → ??? (remove student and nothing remains)   The word student is the head. Every other word in the phrase— the , tall , from Ohio —is optional. But student is required. Because the head is a noun, the whole phrase is a noun phrase (NP) .   Modifiers   Modifiers are the optional words that add information about the head. They come in two types:  Pre-modifiers appear before the head:   In the tall student , both the and tall are pre-modifiers   Post-modifiers appear after the head:   In student from Ohio , the phrase from Ohio is a post-modifier   Modifiers expand the head, making it more specific. Student could be anyone; the tall student from Ohio narrows our focus to one particular person.   Four Major Phrase Types   Each of the four open word classes serves as the head of a corresponding phrase type:    Phrase Type  Abbreviation  Head  Example    Noun phrase  NP  Noun  the tall student from Ohio    Verb phrase  VP  Verb  read the book carefully    Adjective phrase  AdjP  Adjective  very proud of her work    Adverb phrase  AdvP  Adverb  quite slowly    Understanding phrase structure is essential for grammatical analysis. When we diagram sentences or analyze syntax, we work with phrases, not just individual words.   Visualizing Phrase Structure   We can represent phrase structure using tree diagrams. Here's a simple noun phrase:   A simple noun phrase: the tall student   Syntax tree diagram showing the noun phrase \"the tall student\" with NP as the root, branching to DET (the), ADJ (tall), and N (student)    [NP [DET the] [ADJP [ADJ tall]] [N student]]  The tree shows that the , tall , and student combine to form a single NP. The head noun student determines the phrase type; the determiner and adjective are its pre-modifiers.  A more complex noun phrase adds a post-modifier:   A noun phrase with a prepositional phrase post-modifier   Syntax tree diagram showing \"the tall student from Ohio\" with nested PP containing another NP    [NP [DET the] [ADJP [ADJ tall]] [N student] [PP [PREP from] [NP [N Ohio]]]]  Notice that the post-modifier from Ohio is itself a phrase—a prepositional phrase (PP) containing its own NP. Phrases can nest inside other phrases, creating hierarchical structures.   Identifying the Head   When you encounter a phrase, use this process to identify its head:   Ask: \"Which word is essential—which word cannot be removed?\"  Confirm: \"What part of speech is that word?\"  Label the phrase accordingly (NP if noun, VP if verb, etc.)   Let's practice:  extremely proud of her achievement   Remove extremely : proud of her achievement (still works)  Remove of her achievement : extremely proud (still works)  Remove proud : extremely of her achievement (broken)   The head is proud , an adjective. This is an adjective phrase (AdjP) .  very quickly   Remove very : quickly (still works)  Remove quickly : very (incomplete)   The head is quickly , an adverb. This is an adverb phrase (AdvP) .   Why Phrase Structure Matters   Understanding phrases helps you:   Analyze sentence structure. Sentences are built from phrases, and phrases from smaller phrases. Seeing these building blocks clarifies how sentences work.  Identify grammatical functions. Phrases, not just words, perform grammatical roles. The phrase \"the tall student from Ohio\" serves as a subject—not just the word \"student.\"  Understand ambiguity. Many ambiguous sentences can be explained through different possible phrase structures.  Write more effectively. When you can see the structure of your sentences, you can vary and control them more deliberately.   In the following sections, we'll examine each word class in detail. For each class, we'll begin by exploring how it forms phrases, then present the tests for identifying it.  "
+},
+{
+  "id": "fig-ch05-np-simple",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-53.html#fig-ch05-np-simple",
+  "type": "Figure",
+  "number": "5.3.1",
+  "title": "",
+  "body": " A simple noun phrase: the tall student   Syntax tree diagram showing the noun phrase \"the tall student\" with NP as the root, branching to DET (the), ADJ (tall), and N (student)   "
+},
+{
+  "id": "fig-ch05-np-with-pp",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-53.html#fig-ch05-np-with-pp",
+  "type": "Figure",
+  "number": "5.3.2",
+  "title": "",
+  "body": " A noun phrase with a prepositional phrase post-modifier   Syntax tree diagram showing \"the tall student from Ohio\" with nested PP containing another NP   "
 },
 {
   "id": "ch-05-open-classes-sec-54",
@@ -286,7 +304,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.4",
   "title": "Nouns",
-  "body": " Nouns  Nouns are the naming words of language—they identify the people, places, things, concepts, and ideas we talk about. Nouns are also the most common word class in English, making up roughly 37% of words in typical texts. Every sentence has at least one noun (or pronoun standing in for a noun), and many sentences have several.   Noun Phrases: How Nouns Work in Sentences   Nouns rarely appear alone. Instead, they form the center of noun phrases (NP) —groups of words built around a noun head. Understanding noun phrases is essential because it's the phrase, not just the noun, that fills grammatical roles like subject and object.  A simple noun phrase:  NP ┌───┼───┐ Det Adj N │ │ │ the tall student  The noun student is the head—the essential word that determines the phrase type. The determiner the and adjective tall are pre-modifiers that add information about which student we mean.  A larger noun phrase with post-modification:  NP ┌───────┬─────┼─────┬───────┐ Det Adj Adj N PP │ │ │ │ ┌──┴──┐ the brilliant young student Prep NP │ │ from Ohio  Here we have multiple pre-modifiers ( the , brilliant , young ) and a prepositional phrase post-modifier ( from Ohio ). Notice how the PP contains its own NP ( Ohio )—phrases nest inside phrases.  Pre-modifiers in noun phrases include:   Determiners: the , a , my , this , every  Adjectives: tall , beautiful , old , interesting  Other nouns (functioning adjectivally): coffee (in coffee table ), history (in history professor )   Post-modifiers in noun phrases include:   Prepositional phrases: the man in the hat , a book about linguistics  Relative clauses: the book that I read , the student who won  Participial phrases: the dog running in the park    Identifying the Head Noun   The head noun is the word you cannot remove. Test by eliminating words one at a time:  The experienced history teacher from the local high school   Remove the : experienced history teacher from the local high school ✓  Remove experienced : history teacher from the local high school ✓  Remove history : teacher from the local high school ✓  Remove from the local high school : teacher ✓  Remove teacher : ??? ✗   The head is teacher . Everything else modifies it.   Why Semantic Definitions Can Mislead   The traditional definition of nouns—\"words that name people, places, things, or ideas\"—works much of the time. Teacher , Paris , table , and freedom are all nouns. But meaning can mislead us. Is destruction a \"thing\"? What about arrival or swimming ? These are nouns too, but they seem to name actions rather than objects.  The reliable way to identify nouns is through their grammatical behavior—specifically, through tests that reveal their morphological and syntactic properties.   Morphological Tests for Nouns   Morphological tests examine what forms a word can take. Nouns have distinctive morphological properties that set them apart from other word classes.  Test 1: Plural formation  Nouns can typically be made plural. This is perhaps the most reliable morphological test for nouns:   book → books  child → children  analysis → analyses  happiness → happinesses (rare but grammatical)   If you can pluralize a word, it's almost certainly a noun. Note that some nouns resist pluralization (mass nouns like water , information ), but the fact that we can even ask the question \"Can this be plural?\" suggests noun-hood.  Test 2: Possessive marking  Nouns can take the possessive marker 's :   the dog's tail  Maria's book  the committee's decision   Other word classes cannot take this marker: we don't say ~~the happy's effect~~ or ~~the quickly's result~~ .  Test 3: Noun-forming suffixes  If a word ends in certain suffixes, it's likely a noun. These suffixes convert other word classes into nouns:    Suffix  Examples    -tion\/-sion  action , decision , conclusion    -ness  happiness , awkwardness , cleverness    -ity  curiosity , generosity , ambiguity    -ment  government , amazement , establishment    -er\/-or  teacher , actor , writer    When you see these endings, think \"noun.\"   Syntactic Tests for Nouns   Syntactic tests examine how a word behaves in sentences. Where can the word appear? What other words can accompany it?  Test 1: The determiner test  Nouns can follow words like a , the , this , my , and every . These words (called determiners) specifically introduce nouns:   the proposal  a happiness  every decision   This test is powerful because determiners exclusively precede nouns. If the or a can go in front of a word, that word is functioning as a noun.  Test 2: The adjective modification test  Nouns can be modified by adjectives—words that describe qualities:   the new proposal  a great happiness  every important decision   Adjectives slot in between the determiner and the noun. If a word can appear in the position after an adjective, it's behaving as a noun.  Test 3: The pronoun replacement test  A noun (along with its modifiers) can be replaced by a pronoun like it , they , or she :   The new proposal → It  My older brother → He  Those expensive books → They   This test helps identify noun phrases—groups of words built around a noun.  Test 4: The subject\/object position test  Nouns naturally fill the subject and object slots in sentences:   Subject: Books are expensive.  Direct object: I bought books .  Object of preposition: I learned from books .    Subclasses of Nouns   Not all nouns behave identically. Two important distinctions affect how nouns can be used.  Common vs. Proper Nouns   Common nouns name general categories: city , teacher , book  Proper nouns name specific, unique entities: Chicago , Professor Smith , Friday   Proper nouns are capitalized and often don't take determiners: Chicago is large (not ~~The Chicago~~ ). When a proper noun does take a determiner, it often signals a different meaning: the Amazon (river) vs. Amazon (company).  Count vs. Mass Nouns   Count nouns refer to discrete, countable entities: book\/books , idea\/ideas  Can be pluralized: three books  Take a\/an : a book  Take number words: several ideas    Mass nouns refer to undifferentiated substances or concepts: water , information , furniture  Cannot be pluralized: ~~informations~~ , ~~furnitures~~  Cannot take a\/an : ~~a furniture~~  Take quantity words instead: some water , much information   "
+  "body": " Nouns  Nouns are the naming words of language—they identify the people, places, things, concepts, and ideas we talk about. Nouns are also the most common word class in English, making up roughly 37% of words in typical texts. Every sentence has at least one noun (or pronoun standing in for a noun), and many sentences have several.   Noun Phrases: How Nouns Work in Sentences   Nouns rarely appear alone. Instead, they form the center of noun phrases (NP) —groups of words built around a noun head. Understanding noun phrases is essential because it's the phrase, not just the noun, that fills grammatical roles like subject and object.  A simple noun phrase:   A simple noun phrase with determiner, adjective, and head noun   Syntax tree for \"the tall student\" showing NP with DET, ADJ, and N branches    [NP [DET the] [ADJP [ADJ tall]] [N student]]  The noun student is the head—the essential word that determines the phrase type. The determiner the and adjective tall are pre-modifiers that add information about which student we mean.  A larger noun phrase with post-modification:   A complex noun phrase with multiple modifiers   Syntax tree for \"the brilliant young student from Ohio\" showing multiple adjectives and a PP post-modifier    [NP [DET the] [ADJP [ADJ brilliant]] [ADJP [ADJ young]] [N student] [PP [PREP from] [NP [N Ohio]]]]  Here we have multiple pre-modifiers ( the , brilliant , young ) and a prepositional phrase post-modifier ( from Ohio ). Notice how the PP contains its own NP ( Ohio )—phrases nest inside phrases.  Pre-modifiers in noun phrases include:   Determiners: the , a , my , this , every  Adjectives: tall , beautiful , old , interesting  Other nouns (functioning adjectivally): coffee (in coffee table ), history (in history professor )   Post-modifiers in noun phrases include:   Prepositional phrases: the man in the hat , a book about linguistics  Relative clauses: the book that I read , the student who won  Participial phrases: the dog running in the park    Identifying the Head Noun   The head noun is the word you cannot remove. Test by eliminating words one at a time:  The experienced history teacher from the local high school   Remove the : experienced history teacher from the local high school ✓  Remove experienced : history teacher from the local high school ✓  Remove history : teacher from the local high school ✓  Remove from the local high school : teacher ✓  Remove teacher : ??? ✗   The head is teacher . Everything else modifies it.   Why Semantic Definitions Can Mislead   The traditional definition of nouns—\"words that name people, places, things, or ideas\"—works much of the time. Teacher , Paris , table , and freedom are all nouns. But meaning can mislead us. Is destruction a \"thing\"? What about arrival or swimming ? These are nouns too, but they seem to name actions rather than objects.  The reliable way to identify nouns is through their grammatical behavior—specifically, through tests that reveal their morphological and syntactic properties.   Morphological Tests for Nouns   Morphological tests examine what forms a word can take. Nouns have distinctive morphological properties that set them apart from other word classes.  Test 1: Plural formation  Nouns can typically be made plural. This is perhaps the most reliable morphological test for nouns:   book → books  child → children  analysis → analyses  happiness → happinesses (rare but grammatical)   If you can pluralize a word, it's almost certainly a noun. Note that some nouns resist pluralization (mass nouns like water , information ), but the fact that we can even ask the question \"Can this be plural?\" suggests noun-hood.  Test 2: Possessive marking  Nouns can take the possessive marker 's :   the dog's tail  Maria's book  the committee's decision   Other word classes cannot take this marker: we don't say ~~the happy's effect~~ or ~~the quickly's result~~ .  Test 3: Noun-forming suffixes  If a word ends in certain suffixes, it's likely a noun. These suffixes convert other word classes into nouns:    Suffix  Examples    -tion\/-sion  action , decision , conclusion    -ness  happiness , awkwardness , cleverness    -ity  curiosity , generosity , ambiguity    -ment  government , amazement , establishment    -er\/-or  teacher , actor , writer    When you see these endings, think \"noun.\"   Syntactic Tests for Nouns   Syntactic tests examine how a word behaves in sentences. Where can the word appear? What other words can accompany it?  Test 1: The determiner test  Nouns can follow words like a , the , this , my , and every . These words (called determiners) specifically introduce nouns:   the proposal  a happiness  every decision   This test is powerful because determiners exclusively precede nouns. If the or a can go in front of a word, that word is functioning as a noun.  Test 2: The adjective modification test  Nouns can be modified by adjectives—words that describe qualities:   the new proposal  a great happiness  every important decision   Adjectives slot in between the determiner and the noun. If a word can appear in the position after an adjective, it's behaving as a noun.  Test 3: The pronoun replacement test  A noun (along with its modifiers) can be replaced by a pronoun like it , they , or she :   The new proposal → It  My older brother → He  Those expensive books → They   This test helps identify noun phrases—groups of words built around a noun.  Test 4: The subject\/object position test  Nouns naturally fill the subject and object slots in sentences:   Subject: Books are expensive.  Direct object: I bought books .  Object of preposition: I learned from books .    Subclasses of Nouns   Not all nouns behave identically. Two important distinctions affect how nouns can be used.  Common vs. Proper Nouns   Common nouns name general categories: city , teacher , book  Proper nouns name specific, unique entities: Chicago , Professor Smith , Friday   Proper nouns are capitalized and often don't take determiners: Chicago is large (not ~~The Chicago~~ ). When a proper noun does take a determiner, it often signals a different meaning: the Amazon (river) vs. Amazon (company).  Count vs. Mass Nouns   Count nouns refer to discrete, countable entities: book\/books , idea\/ideas  Can be pluralized: three books  Take a\/an : a book  Take number words: several ideas    Mass nouns refer to undifferentiated substances or concepts: water , information , furniture  Cannot be pluralized: ~~informations~~ , ~~furnitures~~  Cannot take a\/an : ~~a furniture~~  Take quantity words instead: some water , much information   "
+},
+{
+  "id": "fig-ch05-np-simple-nouns",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-54.html#fig-ch05-np-simple-nouns",
+  "type": "Figure",
+  "number": "5.4.1",
+  "title": "",
+  "body": " A simple noun phrase with determiner, adjective, and head noun   Syntax tree for \"the tall student\" showing NP with DET, ADJ, and N branches   "
+},
+{
+  "id": "fig-ch05-np-complex",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-54.html#fig-ch05-np-complex",
+  "type": "Figure",
+  "number": "5.4.2",
+  "title": "",
+  "body": " A complex noun phrase with multiple modifiers   Syntax tree for \"the brilliant young student from Ohio\" showing multiple adjectives and a PP post-modifier   "
 },
 {
   "id": "ch-05-open-classes-sec-55",
@@ -295,7 +331,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.5",
   "title": "Verbs",
-  "body": " Verbs  Verbs are the engine of the sentence. While nouns name things, verbs make things happen—or describe states of being. Every complete sentence requires a verb, and the verb determines much of the sentence's structure: how many participants are needed, what time frame is being discussed, whether the action is complete or ongoing.   Verb Phrases: How Verbs Work in Sentences   Just as nouns head noun phrases, verbs head verb phrases (VP) . The verb phrase contains the main verb plus any complements or modifiers it requires. What makes verb phrases especially interesting is that different verbs require different structures.  An intransitive verb phrase (no object required):  VP │ V │ slept  The verb slept needs nothing after it—the subject can just sleep.  A transitive verb phrase (requires an object):  VP ┌──┴──┐ V NP │ ┌─┴──┐ read Det N │ │ the book  The verb read requires something to be read—the NP the book is its direct object.  A ditransitive verb phrase (requires two objects):  VP ┌───────┼───────┐ V NP NP │ │ ┌──┴──┐ gave her Det N │ │ a present  The verb gave requires both a recipient ( her ) and a thing given ( a present ).  This property—that verbs dictate what must follow them—is called the verb's valency . Chapter 8 explores valency patterns in detail. For now, notice that the verb is truly the head of the VP: it determines the entire structure of the phrase.   Identifying the Head Verb   In a verb phrase, the head verb is the word that carries the core meaning of the action or state. In complex verb phrases with auxiliaries, the main verb is the head:   She has been reading the book. — Head: reading (main verb)  They might have arrived early. — Head: arrived (main verb)  The report was written yesterday. — Head: written (main verb)   The auxiliaries ( has , been , might , have , was ) add grammatical information about tense, aspect, or voice, but the main verb supplies the core meaning.   Semantics vs. Grammar   Semantically, verbs express actions ( run , build , think ), states ( know , believe , own ), or occurrences ( happen , become , appear ). But as with nouns, we identify verbs more reliably through grammatical tests.   Morphological Tests for Verbs   Verbs in English have a distinctive set of forms—more than any other word class. If a word can take these various forms, it's a verb.  Test 1: Past tense formation  Verbs can be marked for past tense:   walk → walked  see → saw  go → went   This is perhaps the most diagnostic test. If you can put a word into past tense, it's a verb: \"Yesterday, I ___ed\" (or an irregular past form).  Test 2: Third-person singular present  Verbs take -s when the subject is third-person singular ( he , she , it ):   I walk → she walks  I see → he sees   This is the only agreement marking English verbs still carry, but it's a reliable indicator of verb-hood.  Test 3: Progressive form (-ing)  Verbs can take the -ing suffix to form the progressive:   walk → walking  see → seeing   Every verb in English can take -ing . If you can add -ing to a word and use it after be (\"She is ___ing\"), it's a verb.  Test 4: Participial forms  Verbs have a past participle form (used with have and in passives):   walk → walked (regular)  see → seen (irregular)  go → gone (irregular)    Syntactic Tests for Verbs   Test 1: The modal test  Verbs can follow modal words like can , will , might , should , must :   can walk  will see  might go   If a word can slot into \"She can ___,\" it's a verb.  Test 2: The infinitive test  Verbs can follow to :   to walk  to see  to understand   The \"to ___\" construction (called the infinitive) is available only to verbs.  Test 3: The negation test  Verbs can be negated, typically using do + not :   She does not walk.  I did not see it.    Verb Forms: The Principal Parts   Every English verb has five forms, traditionally called the principal parts :    Form  Regular ( walk )  Irregular ( see )  Irregular ( go )    Base  walk  see  go    Past  walked  saw  went    Past participle  walked  seen  gone    Present participle  walking  seeing  going    3rd person singular  walks  sees  goes    Regular verbs (the vast majority) form their past tense and past participle by adding -ed .  Irregular verbs form these parts unpredictably—you must memorize them. Common irregular verbs include be , have , go , see , take , make , come , know .  "
+  "body": " Verbs  Verbs are the engine of the sentence. While nouns name things, verbs make things happen—or describe states of being. Every complete sentence requires a verb, and the verb determines much of the sentence's structure: how many participants are needed, what time frame is being discussed, whether the action is complete or ongoing.   Verb Phrases: How Verbs Work in Sentences   Just as nouns head noun phrases, verbs head verb phrases (VP) . The verb phrase contains the main verb plus any complements or modifiers it requires. What makes verb phrases especially interesting is that different verbs require different structures.  An intransitive verb phrase (no object required):   An intransitive verb phrase   Syntax tree showing VP with only V (slept)    [VP [V slept]]  The verb slept needs nothing after it—the subject can just sleep.  A transitive verb phrase (requires an object):   A transitive verb phrase with direct object   Syntax tree showing VP with V (read) and NP (the book)    [VP [V read] [NP [DET the] [N book]]]  The verb read requires something to be read—the NP the book is its direct object.  A ditransitive verb phrase (requires two objects):   A ditransitive verb phrase with indirect and direct objects   Syntax tree showing VP with V (gave), NP (her), and NP (a present)    [VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]  The verb gave requires both a recipient ( her ) and a thing given ( a present ).  This property—that verbs dictate what must follow them—is called the verb's valency . Chapter 8 explores valency patterns in detail. For now, notice that the verb is truly the head of the VP: it determines the entire structure of the phrase.   Identifying the Head Verb   In a verb phrase, the head verb is the word that carries the core meaning of the action or state. In complex verb phrases with auxiliaries, the main verb is the head:   She has been reading the book. — Head: reading (main verb)  They might have arrived early. — Head: arrived (main verb)  The report was written yesterday. — Head: written (main verb)   The auxiliaries ( has , been , might , have , was ) add grammatical information about tense, aspect, or voice, but the main verb supplies the core meaning.   Semantics vs. Grammar   Semantically, verbs express actions ( run , build , think ), states ( know , believe , own ), or occurrences ( happen , become , appear ). But as with nouns, we identify verbs more reliably through grammatical tests.   Morphological Tests for Verbs   Verbs in English have a distinctive set of forms—more than any other word class. If a word can take these various forms, it's a verb.  Test 1: Past tense formation  Verbs can be marked for past tense:   walk → walked  see → saw  go → went   This is perhaps the most diagnostic test. If you can put a word into past tense, it's a verb: \"Yesterday, I ___ed\" (or an irregular past form).  Test 2: Third-person singular present  Verbs take -s when the subject is third-person singular ( he , she , it ):   I walk → she walks  I see → he sees   This is the only agreement marking English verbs still carry, but it's a reliable indicator of verb-hood.  Test 3: Progressive form (-ing)  Verbs can take the -ing suffix to form the progressive:   walk → walking  see → seeing   Every verb in English can take -ing . If you can add -ing to a word and use it after be (\"She is ___ing\"), it's a verb.  Test 4: Participial forms  Verbs have a past participle form (used with have and in passives):   walk → walked (regular)  see → seen (irregular)  go → gone (irregular)    Syntactic Tests for Verbs   Test 1: The modal test  Verbs can follow modal words like can , will , might , should , must :   can walk  will see  might go   If a word can slot into \"She can ___,\" it's a verb.  Test 2: The infinitive test  Verbs can follow to :   to walk  to see  to understand   The \"to ___\" construction (called the infinitive) is available only to verbs.  Test 3: The negation test  Verbs can be negated, typically using do + not :   She does not walk.  I did not see it.    Verb Forms: The Principal Parts   Every English verb has five forms, traditionally called the principal parts :    Form  Regular ( walk )  Irregular ( see )  Irregular ( go )    Base  walk  see  go    Past  walked  saw  went    Past participle  walked  seen  gone    Present participle  walking  seeing  going    3rd person singular  walks  sees  goes    Regular verbs (the vast majority) form their past tense and past participle by adding -ed .  Irregular verbs form these parts unpredictably—you must memorize them. Common irregular verbs include be , have , go , see , take , make , come , know .  "
+},
+{
+  "id": "fig-ch05-vp-intransitive",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-55.html#fig-ch05-vp-intransitive",
+  "type": "Figure",
+  "number": "5.5.1",
+  "title": "",
+  "body": " An intransitive verb phrase   Syntax tree showing VP with only V (slept)   "
+},
+{
+  "id": "fig-ch05-vp-transitive",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-55.html#fig-ch05-vp-transitive",
+  "type": "Figure",
+  "number": "5.5.2",
+  "title": "",
+  "body": " A transitive verb phrase with direct object   Syntax tree showing VP with V (read) and NP (the book)   "
+},
+{
+  "id": "fig-ch05-vp-ditransitive",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-55.html#fig-ch05-vp-ditransitive",
+  "type": "Figure",
+  "number": "5.5.3",
+  "title": "",
+  "body": " A ditransitive verb phrase with indirect and direct objects   Syntax tree showing VP with V (gave), NP (her), and NP (a present)   "
 },
 {
   "id": "ch-05-open-classes-sec-56",
@@ -304,7 +367,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.6",
   "title": "Adjectives",
-  "body": " Adjectives  Adjectives are the descriptors of language. They modify nouns, telling us what kind of thing something is, what quality it has, or which one we mean. A tall building, a happy child, an interesting problem—in each case, the adjective narrows down the noun, adding specificity.   Adjective Phrases: How Adjectives Work in Sentences   Adjectives form phrases just as nouns and verbs do. An adjective phrase (AdjP) has an adjective as its head, with optional modifiers before and after.  A simple adjective phrase:  AdjP │ Adj │ happy  An adjective phrase with a pre-modifier:  AdjP ┌───┴───┐ Adv Adj │ │ very happy  The degree adverb very intensifies the adjective happy .  An adjective phrase with a post-modifier:  AdjP ┌───────┼───────┐ Adv Adj PP │ │ ┌──┴──┐ very proud Prep NP │ │ of her work  Here the adjective proud is modified both by the degree adverb very (pre-modifier) and by the prepositional phrase of her work (post-modifier).  Common pre-modifiers of adjectives:   Degree adverbs: very , extremely , somewhat , quite , rather   Common post-modifiers of adjectives:   Prepositional phrases: proud of her work , afraid of the dark , interested in linguistics , good at math    Where Adjective Phrases Appear   Adjective phrases appear in two main positions:   Attributive position (before a noun): the [very tall] man  Predicative position (after a linking verb): The man is [very tall].   When an AdjP appears attributively, it modifies the following noun directly. When it appears predicatively, it describes the subject of the sentence.   Identifying the Head Adjective   Apply the same test: which word is essential?  extremely proud of her remarkable achievement   Remove extremely : proud of her remarkable achievement ✓  Remove of her remarkable achievement : extremely proud ✓  Remove proud : extremely of her remarkable achievement ✗   The head is proud . The adverb extremely and the PP of her remarkable achievement both modify it.   What Adjectives Do   Unlike nouns and verbs, which often carry the core meaning of a sentence, adjectives enrich and qualify. They answer questions like \"What kind?\" ( a wooden table ), \"Which one?\" ( the third attempt ), and \"What is it like?\" ( She seems nervous . ).   Morphological Tests for Adjectives   Test 1: Comparative and superlative forms  Most adjectives can be graded—that is, they can express degrees of a quality:   tall → taller → tallest  happy → happier → happiest  beautiful → more beautiful → most beautiful   If a word can become comparative or superlative, it's almost certainly an adjective. This test distinguishes adjectives from nouns and verbs, which cannot be graded this way (we don't say ~~taller book~~ meaning \"more of a book\" or ~~he walked the walkedest~~ ).  * Test 2: The -ish test *  Many adjectives accept the suffix -ish , meaning \"somewhat\":   tall → tallish  red → reddish  young → youngish   This is a quick informal test. If -ish sounds natural, you likely have an adjective.  * Test 3: Adverb formation with -ly***  Many adjectives can become adverbs by adding -ly :   happy → happily  quick → quickly  careful → carefully   This shows the close relationship between adjectives and adverbs—and also helps identify adjectives in the first place.   Syntactic Tests for Adjectives   Test 1: The attributive position test  Adjectives can appear between a determiner and a noun—this position, directly before the noun, is called attributive position:   the tall man  a happy child  the interesting book   This is a defining characteristic. If a word can slot into \"the ___ noun,\" it's behaving as an adjective.  Test 2: The predicative position test  Adjectives can follow linking verbs like be , seem , become , and appear —this position, after the verb, is called predicative position:   The man is tall .  She seems happy .  The book appears interesting .   Most adjectives work in both positions. A few work in only one (see below).  * Test 3: The very test *  Adjectives can be modified by degree words like very , extremely , and quite :   very tall  extremely happy  quite interesting   If very sounds natural before a word, that word is likely an adjective. (Nouns and verbs don't accept very : ~~very book~~ , ~~very walked~~ .)   Special Classes of Adjectives   Most adjectives are gradable —they can express degrees ( taller , very tall ). But some adjectives express absolute properties and resist grading:   dead — something is dead or not; ~~very dead~~ sounds odd  unique — traditionally, something is unique or not; ~~more unique~~ is contested  pregnant — grammatically ungradable, though metaphor sometimes changes this   Some adjectives are attributive-only (they can only appear before nouns):   the main reason ✓ \/ ~~The reason is main~~ ✗  a mere child ✓ \/ ~~The child is mere~~ ✗   Others are predicative-only (they can only appear after linking verbs):   The child is asleep ✓ \/ ~~the asleep child~~ ✗  She felt afraid ✓ \/ ~~the afraid woman~~ ✗   "
+  "body": " Adjectives  Adjectives are the descriptors of language. They modify nouns, telling us what kind of thing something is, what quality it has, or which one we mean. A tall building, a happy child, an interesting problem—in each case, the adjective narrows down the noun, adding specificity.   Adjective Phrases: How Adjectives Work in Sentences   Adjectives form phrases just as nouns and verbs do. An adjective phrase (AdjP) has an adjective as its head, with optional modifiers before and after.  A simple adjective phrase:   A simple adjective phrase   Syntax tree showing ADJP with only ADJ (happy)    [ADJP [ADJ happy]]  An adjective phrase with a pre-modifier:   An adjective phrase with a degree modifier   Syntax tree showing ADJP with ADV (very) and ADJ (happy)    [ADJP [ADVP [ADV very]] [ADJ happy]]  The degree adverb very intensifies the adjective happy .  An adjective phrase with a post-modifier:   A complex adjective phrase with pre- and post-modifiers   Syntax tree showing ADJP with ADV (very), ADJ (proud), and PP (of her work)    [ADJP [ADVP [ADV very]] [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]  Here the adjective proud is modified both by the degree adverb very (pre-modifier) and by the prepositional phrase of her work (post-modifier).  Common pre-modifiers of adjectives:   Degree adverbs: very , extremely , somewhat , quite , rather   Common post-modifiers of adjectives:   Prepositional phrases: proud of her work , afraid of the dark , interested in linguistics , good at math    Where Adjective Phrases Appear   Adjective phrases appear in two main positions:   Attributive position (before a noun): the [very tall] man  Predicative position (after a linking verb): The man is [very tall].   When an AdjP appears attributively, it modifies the following noun directly. When it appears predicatively, it describes the subject of the sentence.   Identifying the Head Adjective   Apply the same test: which word is essential?  extremely proud of her remarkable achievement   Remove extremely : proud of her remarkable achievement ✓  Remove of her remarkable achievement : extremely proud ✓  Remove proud : extremely of her remarkable achievement ✗   The head is proud . The adverb extremely and the PP of her remarkable achievement both modify it.   What Adjectives Do   Unlike nouns and verbs, which often carry the core meaning of a sentence, adjectives enrich and qualify. They answer questions like \"What kind?\" ( a wooden table ), \"Which one?\" ( the third attempt ), and \"What is it like?\" ( She seems nervous . ).   Morphological Tests for Adjectives   Test 1: Comparative and superlative forms  Most adjectives can be graded—that is, they can express degrees of a quality:   tall → taller → tallest  happy → happier → happiest  beautiful → more beautiful → most beautiful   If a word can become comparative or superlative, it's almost certainly an adjective. This test distinguishes adjectives from nouns and verbs, which cannot be graded this way (we don't say ~~taller book~~ meaning \"more of a book\" or ~~he walked the walkedest~~ ).  * Test 2: The -ish test *  Many adjectives accept the suffix -ish , meaning \"somewhat\":   tall → tallish  red → reddish  young → youngish   This is a quick informal test. If -ish sounds natural, you likely have an adjective.  * Test 3: Adverb formation with -ly***  Many adjectives can become adverbs by adding -ly :   happy → happily  quick → quickly  careful → carefully   This shows the close relationship between adjectives and adverbs—and also helps identify adjectives in the first place.   Syntactic Tests for Adjectives   Test 1: The attributive position test  Adjectives can appear between a determiner and a noun—this position, directly before the noun, is called attributive position:   the tall man  a happy child  the interesting book   This is a defining characteristic. If a word can slot into \"the ___ noun,\" it's behaving as an adjective.  Test 2: The predicative position test  Adjectives can follow linking verbs like be , seem , become , and appear —this position, after the verb, is called predicative position:   The man is tall .  She seems happy .  The book appears interesting .   Most adjectives work in both positions. A few work in only one (see below).  * Test 3: The very test *  Adjectives can be modified by degree words like very , extremely , and quite :   very tall  extremely happy  quite interesting   If very sounds natural before a word, that word is likely an adjective. (Nouns and verbs don't accept very : ~~very book~~ , ~~very walked~~ .)   Special Classes of Adjectives   Most adjectives are gradable —they can express degrees ( taller , very tall ). But some adjectives express absolute properties and resist grading:   dead — something is dead or not; ~~very dead~~ sounds odd  unique — traditionally, something is unique or not; ~~more unique~~ is contested  pregnant — grammatically ungradable, though metaphor sometimes changes this   Some adjectives are attributive-only (they can only appear before nouns):   the main reason ✓ \/ ~~The reason is main~~ ✗  a mere child ✓ \/ ~~The child is mere~~ ✗   Others are predicative-only (they can only appear after linking verbs):   The child is asleep ✓ \/ ~~the asleep child~~ ✗  She felt afraid ✓ \/ ~~the afraid woman~~ ✗   "
+},
+{
+  "id": "fig-ch05-adjp-simple",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-56.html#fig-ch05-adjp-simple",
+  "type": "Figure",
+  "number": "5.6.1",
+  "title": "",
+  "body": " A simple adjective phrase   Syntax tree showing ADJP with only ADJ (happy)   "
+},
+{
+  "id": "fig-ch05-adjp-degree",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-56.html#fig-ch05-adjp-degree",
+  "type": "Figure",
+  "number": "5.6.2",
+  "title": "",
+  "body": " An adjective phrase with a degree modifier   Syntax tree showing ADJP with ADV (very) and ADJ (happy)   "
+},
+{
+  "id": "fig-ch05-adjp-complex",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-56.html#fig-ch05-adjp-complex",
+  "type": "Figure",
+  "number": "5.6.3",
+  "title": "",
+  "body": " A complex adjective phrase with pre- and post-modifiers   Syntax tree showing ADJP with ADV (very), ADJ (proud), and PP (of her work)   "
 },
 {
   "id": "ch-05-open-classes-sec-57",
@@ -313,7 +403,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.7",
   "title": "Adverbs",
-  "body": " Adverbs  Adverbs are the most versatile and varied word class in English. While nouns name, verbs act, and adjectives describe nouns, adverbs do a bit of everything: they can modify verbs, adjectives, other adverbs, and even entire sentences. This versatility makes them both useful and tricky to identify.   Adverb Phrases: How Adverbs Work in Sentences   Adverbs form phrases, though adverb phrases (AdvP) tend to be simpler than noun or verb phrases. An AdvP has an adverb as its head, often with another adverb (typically a degree modifier) modifying it.  A simple adverb phrase:  AdvP │ Adv │ quickly  An adverb phrase with a degree modifier:  AdvP ┌───┴───┐ Adv Adv │ │ very quickly  The degree adverb very intensifies the manner adverb quickly .  Adverb phrases can grow by stacking degree modifiers:   quickly  very quickly  rather too quickly    Where Adverb Phrases Function   The traditional definition—\"adverbs modify verbs\"—captures only part of the picture. Adverb phrases can modify several different elements:   Modifying verbs:  She spoke [very quietly].  Modifying adjectives:  She is [extremely] talented.  Modifying other adverbs:  She works [very] hard.  Modifying sentences:  [Unfortunately], she couldn't attend.   In all four cases, an adverb is doing the modifying—but each targets a different element.   Identifying the Head Adverb   As with other phrase types, the head is the essential word:  quite remarkably quickly   Remove quite : remarkably quickly ✓  Remove remarkably : quite quickly ✓  Remove quickly : quite remarkably (changes meaning significantly— quickly is the main manner adverb)   In this case, quickly is the head—it expresses the core manner meaning. Quite and remarkably are degree modifiers that intensify it.   The Versatility Challenge   Consider these sentences:   She spoke quietly . (modifies verb)  She is extremely talented. (modifies adjective)  She works very hard. (modifies adverb)  Unfortunately , she couldn't attend. (modifies entire sentence)   In all four cases, the bolded word is an adverb—but each is doing different work. This versatility is what makes adverbs both powerful and tricky to identify.   Morphological Tests for Adverbs   * Test 1: The -ly suffix *  Many adverbs are formed by adding -ly to adjectives:   quick → quickly  happy → happily  careful → carefully   This is a reliable pattern: if you see -ly on what looks like an adjective, you probably have an adverb. But be careful—some -ly words are adjectives ( friendly , lovely , costly ), and many common adverbs don't end in -ly at all ( fast , well , always , never , here , there ).  Test 2: Comparative\/superlative forms  Some adverbs can be graded, just like adjectives:   fast → faster → fastest  soon → sooner → soonest  quickly → more quickly → most quickly   But many common adverbs cannot: ~~very-er~~ , ~~always-est~~ , ~~therefore-er~~ . For these, we must rely on syntactic tests.   Syntactic Tests for Adverbs   Test 1: Modifying verbs  This is the classic adverb function. Adverbs appear near verbs and describe how, when, where, or how often the action occurs:   She spoke quietly . (how)  He always arrives late. (frequency)  They suddenly disappeared. (manner\/time)   Test 2: Modifying adjectives  Adverbs, especially degree adverbs, can intensify or qualify adjectives:   a very tall building  an extremely difficult problem  surprisingly easy   This is how very , quite , extremely , and rather typically function.  Test 3: Modifying other adverbs  Adverbs can stack, with one adverb modifying another:   She spoke very quietly.  He runs quite fast.  It happened rather suddenly.   Test 4: Modifying sentences  Some adverbs can modify an entire sentence, typically appearing at the beginning and expressing the speaker's attitude:   Unfortunately , I can't attend.  Clearly , we have a problem.  Apparently , they've left.   These are called sentence adverbs or commenting adverbs .  Test 5: The attributive position test (negative)  Here's a crucial way to distinguish adverbs from adjectives: adverbs cannot appear in attributive position (between a determiner and a noun):   the tall man ✓ ( tall is an adjective)  ~~the quickly man~~ ✗ ( quickly is an adverb)  ~~the often problem~~ ✗ ( often is an adverb)   If a word can appear in \"the ___ noun\" position, it's an adjective. If it cannot , it might be an adverb.   Semantic Categories of Adverbs   Adverbs are often classified by what question they answer:    Type  Examples  Question Answered    Manner  quickly , carefully , well  How?    Time  yesterday , soon , already  When?    Place  here , there , everywhere  Where?    Frequency  often , rarely , sometimes , always  How often?    Degree  very , extremely , somewhat  To what extent?    Sentence\/Comment  unfortunately , clearly , obviously  Speaker's attitude?    "
+  "body": " Adverbs  Adverbs are the most versatile and varied word class in English. While nouns name, verbs act, and adjectives describe nouns, adverbs do a bit of everything: they can modify verbs, adjectives, other adverbs, and even entire sentences. This versatility makes them both useful and tricky to identify.   Adverb Phrases: How Adverbs Work in Sentences   Adverbs form phrases, though adverb phrases (AdvP) tend to be simpler than noun or verb phrases. An AdvP has an adverb as its head, often with another adverb (typically a degree modifier) modifying it.  A simple adverb phrase:   A simple adverb phrase   Syntax tree showing ADVP with only ADV (quickly)    [ADVP [ADV quickly]]  An adverb phrase with a degree modifier:   An adverb phrase with a degree modifier   Syntax tree showing ADVP with ADV (very) modifying ADV (quickly)    [ADVP [ADVP [ADV very]] [ADV quickly]]  The degree adverb very intensifies the manner adverb quickly .  Adverb phrases can grow by stacking degree modifiers:   quickly  very quickly  rather too quickly    Where Adverb Phrases Function   The traditional definition—\"adverbs modify verbs\"—captures only part of the picture. Adverb phrases can modify several different elements:   Modifying verbs:  She spoke [very quietly].  Modifying adjectives:  She is [extremely] talented.  Modifying other adverbs:  She works [very] hard.  Modifying sentences:  [Unfortunately], she couldn't attend.   In all four cases, an adverb is doing the modifying—but each targets a different element.   Identifying the Head Adverb   As with other phrase types, the head is the essential word:  quite remarkably quickly   Remove quite : remarkably quickly ✓  Remove remarkably : quite quickly ✓  Remove quickly : quite remarkably (changes meaning significantly— quickly is the main manner adverb)   In this case, quickly is the head—it expresses the core manner meaning. Quite and remarkably are degree modifiers that intensify it.   The Versatility Challenge   Consider these sentences:   She spoke quietly . (modifies verb)  She is extremely talented. (modifies adjective)  She works very hard. (modifies adverb)  Unfortunately , she couldn't attend. (modifies entire sentence)   In all four cases, the bolded word is an adverb—but each is doing different work. This versatility is what makes adverbs both powerful and tricky to identify.   Morphological Tests for Adverbs   * Test 1: The -ly suffix *  Many adverbs are formed by adding -ly to adjectives:   quick → quickly  happy → happily  careful → carefully   This is a reliable pattern: if you see -ly on what looks like an adjective, you probably have an adverb. But be careful—some -ly words are adjectives ( friendly , lovely , costly ), and many common adverbs don't end in -ly at all ( fast , well , always , never , here , there ).  Test 2: Comparative\/superlative forms  Some adverbs can be graded, just like adjectives:   fast → faster → fastest  soon → sooner → soonest  quickly → more quickly → most quickly   But many common adverbs cannot: ~~very-er~~ , ~~always-est~~ , ~~therefore-er~~ . For these, we must rely on syntactic tests.   Syntactic Tests for Adverbs   Test 1: Modifying verbs  This is the classic adverb function. Adverbs appear near verbs and describe how, when, where, or how often the action occurs:   She spoke quietly . (how)  He always arrives late. (frequency)  They suddenly disappeared. (manner\/time)   Test 2: Modifying adjectives  Adverbs, especially degree adverbs, can intensify or qualify adjectives:   a very tall building  an extremely difficult problem  surprisingly easy   This is how very , quite , extremely , and rather typically function.  Test 3: Modifying other adverbs  Adverbs can stack, with one adverb modifying another:   She spoke very quietly.  He runs quite fast.  It happened rather suddenly.   Test 4: Modifying sentences  Some adverbs can modify an entire sentence, typically appearing at the beginning and expressing the speaker's attitude:   Unfortunately , I can't attend.  Clearly , we have a problem.  Apparently , they've left.   These are called sentence adverbs or commenting adverbs .  Test 5: The attributive position test (negative)  Here's a crucial way to distinguish adverbs from adjectives: adverbs cannot appear in attributive position (between a determiner and a noun):   the tall man ✓ ( tall is an adjective)  ~~the quickly man~~ ✗ ( quickly is an adverb)  ~~the often problem~~ ✗ ( often is an adverb)   If a word can appear in \"the ___ noun\" position, it's an adjective. If it cannot , it might be an adverb.   Semantic Categories of Adverbs   Adverbs are often classified by what question they answer:    Type  Examples  Question Answered    Manner  quickly , carefully , well  How?    Time  yesterday , soon , already  When?    Place  here , there , everywhere  Where?    Frequency  often , rarely , sometimes , always  How often?    Degree  very , extremely , somewhat  To what extent?    Sentence\/Comment  unfortunately , clearly , obviously  Speaker's attitude?    "
+},
+{
+  "id": "fig-ch05-advp-simple",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-57.html#fig-ch05-advp-simple",
+  "type": "Figure",
+  "number": "5.7.1",
+  "title": "",
+  "body": " A simple adverb phrase   Syntax tree showing ADVP with only ADV (quickly)   "
+},
+{
+  "id": "fig-ch05-advp-degree",
+  "level": "2",
+  "url": "ch-05-open-classes-sec-57.html#fig-ch05-advp-degree",
+  "type": "Figure",
+  "number": "5.7.2",
+  "title": "",
+  "body": " An adverb phrase with a degree modifier   Syntax tree showing ADVP with ADV (very) modifying ADV (quickly)   "
 },
 {
   "id": "ch-05-open-classes-sec-58",
@@ -433,11 +541,137 @@ var ptx_lunr_docs = [
   "body": "wounded "
 },
 {
-  "id": "ch-05-open-classes-13",
+  "id": "ch-05-diagram-examples",
   "level": "1",
-  "url": "ch-05-open-classes-13.html",
-  "type": "Glossary",
+  "url": "ch-05-diagram-examples.html",
+  "type": "Section",
   "number": "5.10",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for the phrase structures introduced in this chapter. Use these as models when analyzing and diagramming open-class phrases.   Noun Phrase Examples   Simple NP: noun only   Syntax tree for \"dogs\" showing NP with only N    [NP [N dogs]]   NP with determiner   Syntax tree for \"the dog\" showing NP with DET and N    [NP [DET the] [N dog]]   NP with determiner and adjective   Syntax tree for \"the tall student\" showing NP with DET, ADJ, and N    [NP [DET the] [ADJP [ADJ tall]] [N student]]   NP with multiple adjectives   Syntax tree for \"the big brown dog\" showing NP with two adjectives    [NP [DET the] [ADJP [ADJ big]] [ADJP [ADJ brown]] [N dog]]   NP with PP post-modifier   Syntax tree for \"the tall student from Ohio\" with PP post-modifier    [NP [DET the] [ADJP [ADJ tall]] [N student] [PP [PREP from] [NP [N Ohio]]]]    Verb Phrase Examples   Simple VP: intransitive verb   Syntax tree for \"sleeps\" showing VP with only V    [VP [V sleeps]]   Transitive VP with direct object   Syntax tree for \"read the book\" showing VP with V and NP    [VP [V read] [NP [DET the] [N book]]]   Ditransitive VP with indirect and direct objects   Syntax tree for \"gave her a present\" showing VP with two NPs    [VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]    Adjective Phrase Examples   Simple AdjP   Syntax tree for \"happy\" showing ADJP with only ADJ    [ADJP [ADJ happy]]   AdjP with degree adverb   Syntax tree for \"very happy\" showing ADJP with ADV and ADJ    [ADJP [ADVP [ADV very]] [ADJ happy]]   AdjP with PP complement   Syntax tree for \"proud of her work\" showing ADJP with PP complement    [ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]    Adverb Phrase Examples   Simple AdvP   Syntax tree for \"quickly\" showing ADVP with only ADV    [ADVP [ADV quickly]]   AdvP with degree modifier   Syntax tree for \"very quickly\" showing ADVP with two ADVs    [ADVP [ADVP [ADV very]] [ADV quickly]]   "
+},
+{
+  "id": "fig-ch05-ex-np-simple",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-np-simple",
+  "type": "Figure",
+  "number": "5.10.1",
+  "title": "",
+  "body": " Simple NP: noun only   Syntax tree for \"dogs\" showing NP with only N   "
+},
+{
+  "id": "fig-ch05-ex-np-det",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-np-det",
+  "type": "Figure",
+  "number": "5.10.2",
+  "title": "",
+  "body": " NP with determiner   Syntax tree for \"the dog\" showing NP with DET and N   "
+},
+{
+  "id": "fig-ch05-ex-np-det-adj",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-np-det-adj",
+  "type": "Figure",
+  "number": "5.10.3",
+  "title": "",
+  "body": " NP with determiner and adjective   Syntax tree for \"the tall student\" showing NP with DET, ADJ, and N   "
+},
+{
+  "id": "fig-ch05-ex-np-multi-adj",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-np-multi-adj",
+  "type": "Figure",
+  "number": "5.10.4",
+  "title": "",
+  "body": " NP with multiple adjectives   Syntax tree for \"the big brown dog\" showing NP with two adjectives   "
+},
+{
+  "id": "fig-ch05-ex-np-pp",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-np-pp",
+  "type": "Figure",
+  "number": "5.10.5",
+  "title": "",
+  "body": " NP with PP post-modifier   Syntax tree for \"the tall student from Ohio\" with PP post-modifier   "
+},
+{
+  "id": "fig-ch05-ex-vp-simple",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-vp-simple",
+  "type": "Figure",
+  "number": "5.10.6",
+  "title": "",
+  "body": " Simple VP: intransitive verb   Syntax tree for \"sleeps\" showing VP with only V   "
+},
+{
+  "id": "fig-ch05-ex-vp-trans",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-vp-trans",
+  "type": "Figure",
+  "number": "5.10.7",
+  "title": "",
+  "body": " Transitive VP with direct object   Syntax tree for \"read the book\" showing VP with V and NP   "
+},
+{
+  "id": "fig-ch05-ex-vp-ditrans",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-vp-ditrans",
+  "type": "Figure",
+  "number": "5.10.8",
+  "title": "",
+  "body": " Ditransitive VP with indirect and direct objects   Syntax tree for \"gave her a present\" showing VP with two NPs   "
+},
+{
+  "id": "fig-ch05-ex-adjp-simple",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-adjp-simple",
+  "type": "Figure",
+  "number": "5.10.9",
+  "title": "",
+  "body": " Simple AdjP   Syntax tree for \"happy\" showing ADJP with only ADJ   "
+},
+{
+  "id": "fig-ch05-ex-adjp-degree",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-adjp-degree",
+  "type": "Figure",
+  "number": "5.10.10",
+  "title": "",
+  "body": " AdjP with degree adverb   Syntax tree for \"very happy\" showing ADJP with ADV and ADJ   "
+},
+{
+  "id": "fig-ch05-ex-adjp-pp",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-adjp-pp",
+  "type": "Figure",
+  "number": "5.10.11",
+  "title": "",
+  "body": " AdjP with PP complement   Syntax tree for \"proud of her work\" showing ADJP with PP complement   "
+},
+{
+  "id": "fig-ch05-ex-advp-simple",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-advp-simple",
+  "type": "Figure",
+  "number": "5.10.12",
+  "title": "",
+  "body": " Simple AdvP   Syntax tree for \"quickly\" showing ADVP with only ADV   "
+},
+{
+  "id": "fig-ch05-ex-advp-degree",
+  "level": "2",
+  "url": "ch-05-diagram-examples.html#fig-ch05-ex-advp-degree",
+  "type": "Figure",
+  "number": "5.10.13",
+  "title": "",
+  "body": " AdvP with degree modifier   Syntax tree for \"very quickly\" showing ADVP with two ADVs   "
+},
+{
+  "id": "ch-05-open-classes-14",
+  "level": "1",
+  "url": "ch-05-open-classes-14.html",
+  "type": "Glossary",
+  "number": "5.11",
   "title": "Glossary",
   "body": " Glossary   Adjective  An open-class word that typically modifies nouns and can be graded (comparative\/superlative).    Adjective phrase (AdjP)  A phrase built around an adjective head, often with degree modifiers.    Adverb  An open-class word that modifies verbs, adjectives, other adverbs, or sentences.    Adverb phrase (AdvP)  A phrase built around an adverb head.    Attributive position  The position directly before a noun, where adjectives typically appear ( the tall man ).    Dual-identification principle  The practice of identifying both a word's form (part of speech) and its function (role in the sentence) when analyzing grammar.    Form  A word's inherent grammatical category based on its morphology and typical behavior.    Function  The grammatical role a word or phrase plays in a particular sentence.    Head  The central, obligatory element of a phrase that determines its category.    Modifier  An optional element that adds information about the head.    Morphological test  A test based on the forms a word can take (plural, tense, etc.).    Noun  An open-class word that can be pluralized, possess, and follow determiners.    Noun phrase (NP)  A phrase built around a noun head, with optional determiners and modifiers.    Open class  A word category that freely accepts new members (nouns, verbs, adjectives, adverbs).    Predicative position  The position after a linking verb, where adjectives describe the subject ( The man is tall ).    Syntactic test  A test based on how a word behaves in sentences.    Verb  An open-class word that can be inflected for tense and determines the structure of the sentence.    Verb phrase (VP)  A phrase built around a verb head, containing the verb and any required complements.   "
 },
@@ -496,11 +730,92 @@ var ptx_lunr_docs = [
   "body": " Homework: Closed Classes   Determiner and Pronoun Identification  Instructions: For each sentence, identify and classify the requested closed-class words.  Example (completed):  Sentence:  My brother gave his old car to me.  Determiners: my (possessive), his (possessive), old is NOT a determiner—it's an adjective  Pronouns: me (personal pronoun, 1st person singular, object form)  Exercises:  Exercise 1.  The ambitious student submitted her application to several universities.   Determiners (identify each and classify by type—article, demonstrative, possessive, quantifier, number):  Pronouns:   Exercise 2.  Everyone who attended the conference received their materials before the first session.   Pronouns (identify each and classify by type—personal, relative, indefinite, possessive):   Exercise 3.  Those books on the shelf belong to someone in this department.   Determiners:  Pronouns:   Exercise 4.  Which candidate did the committee select for themselves?   Pronouns (identify and classify each):     Prepositional Phrase Analysis  Instructions: Identify all prepositional phrases in each sentence. For each PP, indicate whether it functions as adjectival (modifying a noun) or adverbial (modifying a verb or sentence), and state what question it answers.  Example (completed):  Sentence:  The professor from Harvard lectured about linguistics in the auditorium.  PP 1: from Harvard  Type: Adjectival (modifies \"professor\")  Question answered: Which professor?  PP 2: about linguistics  Type: Adverbial (modifies \"lectured\")  Question answered: About what? (topic)  PP 3: in the auditorium  Type: Adverbial (modifies \"lectured\")  Question answered: Where?  Exercises:  Exercise 5.  The student with the red backpack studied in the library until midnight.   PP 1:  Type:  Question answered:  PP 2:  Type:  Question answered:  PP 3:  Type:  Question answered:   Exercise 6.  A painting of the mountains hangs above the fireplace in the living room.   PP 1:  Type:  Question answered:  PP 2:  Type:  Question answered:  PP 3:  Type:  Question answered:   Exercise 7.  During the meeting, the manager from the accounting department spoke with great enthusiasm about the new proposal.   Identify all PPs and classify each:     Sentence Completion  Instructions: Complete each sentence by adding the requested element.  Exercise 8. Add an adjectival prepositional phrase that modifies the noun book :   Original: The book won an award.  Your revision:   Exercise 9. Add an adverbial prepositional phrase that indicates when:   Original: She completed the project.  Your revision:   Exercise 10. Replace the underlined noun phrases with appropriate pronouns:   Original: Maria told John that Maria would return John's laptop to John tomorrow.  Your revision:     Sentence Writing  Instructions: Write original sentences following each prompt.  Exercise 11. Write a sentence containing at least two prepositional phrases—one adjectival and one adverbial. Label each PP.   Your sentence:   Exercise 12. Write a sentence using a reflexive pronoun correctly:   Your sentence:   Exercise 13. Write a sentence that is structurally ambiguous because a prepositional phrase could attach to either the noun phrase or the verb phrase. Then explain both possible meanings.   Sentence:  Meaning 1 (adjectival attachment—PP modifies noun):  Meaning 2 (adverbial attachment—PP modifies verb):     Analysis and Reflection  Instructions: Read the passage below and answer the questions that follow.  Passage:  The researcher in the laboratory examined the sample with a powerful microscope. Her analysis of the results surprised everyone in the department. The findings that she published in a major journal challenged several assumptions about the process.  Exercise 14. Identify four prepositional phrases from the passage. For each, state whether it is adjectival or adverbial, what it modifies, and what question it answers.   PP 1:  Phrase:  Type:  Modifies:  Question answered:  PP 2:  Phrase:  Type:  Modifies:  Question answered:  PP 3:  Phrase:  Type:  Modifies:  Question answered:  PP 4:  Phrase:  Type:  Modifies:  Question answered:   Exercise 15. The phrase in the laboratory in the first sentence could potentially be interpreted as either adjectival or adverbial. Explain both possible interpretations and how you would determine which reading is intended.   Adjectival interpretation:  Adverbial interpretation:  How to determine the intended reading:   Exercise 16. In the final sentence, identify the relative pronoun and its antecedent. What grammatical role does the relative pronoun play within its own clause?   Relative pronoun:  Antecedent:  Grammatical role within the relative clause:   Exercise 17. In 3-4 sentences, explain why closed-class words (determiners, pronouns, prepositions) are important even though they carry less content meaning than open-class words. What would happen if we removed them from sentences?   Your response:    "
 },
 {
-  "id": "ch-06-closed-classes-9",
+  "id": "ch-06-diagram-examples",
   "level": "1",
-  "url": "ch-06-closed-classes-9.html",
-  "type": "Glossary",
+  "url": "ch-06-diagram-examples.html",
+  "type": "Section",
   "number": "6.7",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for closed-class word structures introduced in this chapter.   Determiner Examples   Determiner in NP: the dog   Syntax tree for \"the dog\" showing NP with DET and N    [NP [DET the] [N dog]]   Possessive determiner: her book   Syntax tree for \"her book\" showing NP with possessive DET and N    [NP [DET her] [N book]]    Pronoun Examples   Pronoun as subject: She sleeps.   Syntax tree for \"She sleeps\" showing S with pronoun NP and VP    [S [NP [PRON She]] [VP [V sleeps]]]   Pronoun as object: She read it.   Syntax tree for \"She read it\" showing pronouns in subject and object position    [S [NP [PRON She]] [VP [V read] [NP [PRON it]]]]    Prepositional Phrase Examples   Simple PP: in the box   Syntax tree for \"in the box\" showing PP with PREP and NP    [PP [PREP in] [NP [DET the] [N box]]]   PP as NP modifier (adjectival): the man in the hat   Syntax tree for \"the man in the hat\" showing NP with PP post-modifier    [NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]   PP as VP modifier (adverbial): She works at home.   Syntax tree for \"She works at home\" showing PP modifying the verb    [S [NP [PRON She]] [VP [V works] [PP [PREP at] [NP [N home]]]]]    Conjunction Example   Coordinating conjunction in NP: cats and dogs   Syntax tree for \"cats and dogs\" showing coordinated nouns    [NP [N cats] [CONJ and] [N dogs]]   "
+},
+{
+  "id": "fig-ch06-ex-np-det",
+  "level": "2",
+  "url": "ch-06-diagram-examples.html#fig-ch06-ex-np-det",
+  "type": "Figure",
+  "number": "6.7.1",
+  "title": "",
+  "body": " Determiner in NP: the dog   Syntax tree for \"the dog\" showing NP with DET and N   "
+},
+{
+  "id": "fig-ch06-ex-poss-det",
+  "level": "2",
+  "url": "ch-06-diagram-examples.html#fig-ch06-ex-poss-det",
+  "type": "Figure",
+  "number": "6.7.2",
+  "title": "",
+  "body": " Possessive determiner: her book   Syntax tree for \"her book\" showing NP with possessive DET and N   "
+},
+{
+  "id": "fig-ch06-ex-pron-subj",
+  "level": "2",
+  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pron-subj",
+  "type": "Figure",
+  "number": "6.7.3",
+  "title": "",
+  "body": " Pronoun as subject: She sleeps.   Syntax tree for \"She sleeps\" showing S with pronoun NP and VP   "
+},
+{
+  "id": "fig-ch06-ex-pron-obj",
+  "level": "2",
+  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pron-obj",
+  "type": "Figure",
+  "number": "6.7.4",
+  "title": "",
+  "body": " Pronoun as object: She read it.   Syntax tree for \"She read it\" showing pronouns in subject and object position   "
+},
+{
+  "id": "fig-ch06-ex-pp-simple",
+  "level": "2",
+  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pp-simple",
+  "type": "Figure",
+  "number": "6.7.5",
+  "title": "",
+  "body": " Simple PP: in the box   Syntax tree for \"in the box\" showing PP with PREP and NP   "
+},
+{
+  "id": "fig-ch06-ex-pp-adj",
+  "level": "2",
+  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pp-adj",
+  "type": "Figure",
+  "number": "6.7.6",
+  "title": "",
+  "body": " PP as NP modifier (adjectival): the man in the hat   Syntax tree for \"the man in the hat\" showing NP with PP post-modifier   "
+},
+{
+  "id": "fig-ch06-ex-pp-adv",
+  "level": "2",
+  "url": "ch-06-diagram-examples.html#fig-ch06-ex-pp-adv",
+  "type": "Figure",
+  "number": "6.7.7",
+  "title": "",
+  "body": " PP as VP modifier (adverbial): She works at home.   Syntax tree for \"She works at home\" showing PP modifying the verb   "
+},
+{
+  "id": "fig-ch06-ex-np-coord",
+  "level": "2",
+  "url": "ch-06-diagram-examples.html#fig-ch06-ex-np-coord",
+  "type": "Figure",
+  "number": "6.7.8",
+  "title": "",
+  "body": " Coordinating conjunction in NP: cats and dogs   Syntax tree for \"cats and dogs\" showing coordinated nouns   "
+},
+{
+  "id": "ch-06-closed-classes-10",
+  "level": "1",
+  "url": "ch-06-closed-classes-10.html",
+  "type": "Glossary",
+  "number": "6.8",
   "title": "Glossary",
   "body": " Glossary   Adjectival function  The role of modifying a noun, answering \"which one?\" or \"what kind?\"    Adverbial function  The role of modifying a verb, adjective, adverb, or sentence, answering \"when?\" \"where?\" \"how?\" \"why?\"    Antecedent  The noun phrase that a pronoun refers to.    Article  A determiner that marks definiteness ( the ) or indefiniteness ( a , an ).    Closed class  A word class with fixed membership that rarely accepts new words.    Demonstrative  A word that points to specific entities ( this , that , these , those ).    Determiner  A closed-class word that introduces a noun phrase and specifies reference.    Indefinite pronoun  A pronoun referring to unspecified entities ( someone , everyone ).    Interrogative pronoun  A pronoun used in questions ( who , what , which ).    Object of preposition  The NP that follows and completes a preposition.    Personal pronoun  A pronoun indicating person, number, case, and (in 3rd person) gender.    Possessive  A form indicating ownership; can be determiner ( my ) or pronoun ( mine ).    Preposition  A closed-class word showing relationships, taking an NP complement to form a PP.    Prepositional phrase (PP)  A phrase consisting of a preposition and its object NP.    Pronoun  A closed-class word that replaces a noun phrase.    Quantifier  A determiner indicating amount or quantity ( some , all , many ).    Reflexive pronoun  A pronoun ending in -self\/-selves that refers back to the subject.    Relative pronoun  A pronoun introducing a relative clause ( who , which , that ).   "
 },
@@ -568,11 +883,56 @@ var ptx_lunr_docs = [
   "body": " Homework: Introduction to Sentence Diagramming   Part 1: Subject and Predicate Identification  Instructions: For each sentence, identify the complete subject NP and the complete predicate VP. Then identify the head of each.  Example (completed):  Sentence:  The exhausted marathon runner from Kenya finally collapsed at the finish line.   Subject NP: The exhausted marathon runner from Kenya  Head of subject NP: runner  Predicate VP: finally collapsed at the finish line  Head of predicate VP: collapsed   Exercises:  1.  The curious students from the advanced chemistry class carefully examined the unusual compound.   Subject NP: _____  Head of subject NP: _____  Predicate VP: _____  Head of predicate VP: _____   2.  My extremely talented older sister from Portland won the national competition.   Subject NP: _____  Head of subject NP: _____  Predicate VP: _____  Head of predicate VP: _____   3.  Several angry protesters outside the courthouse demanded immediate action.   Subject NP: _____  Head of subject NP: _____  Predicate VP: _____  Head of predicate VP: _____     Part 2: Heads and Modifiers  Instructions: For each phrase, identify the head and list all modifiers. Classify each modifier by type (determiner, adjective, adverb, prepositional phrase, etc.).  Example (completed):  Phrase:  the very tall young basketball player from Chicago   Head: player  Modifiers:   the — determiner  very tall — adjective phrase (containing adverb \"very\" + adjective \"tall\")  young — adjective  basketball — noun (functioning adjectivally)  from Chicago — prepositional phrase     Exercises:  4.  my grandmother's beautiful antique wooden jewelry box   Head: _____  Modifiers: _____   5.  extremely carefully   Head: _____  Modifiers: _____   6.  quite proud of her remarkable achievement   Head: _____  Modifiers: _____     Part 3: Sentence Writing  Instructions: Write original sentences following each prompt.  Exercises:  7. Write a sentence following the basic S → NP + VP structure with a complex subject NP containing at least a determiner, an adjective, and a prepositional phrase:   Your sentence: _____   8. Write a sentence that is structurally ambiguous (has two possible meanings due to different possible structures). Then explain both meanings.   Sentence: _____  Meaning 1: _____  Meaning 2: _____   9. Expand the simple sentence below by adding modifiers to both the subject NP and the predicate VP:  Original: Dogs bark.   Your expanded version: _____     Part 4: Tree Diagram Analysis  Instructions: For each sentence, draw a tree diagram showing its hierarchical structure. Label all nodes (S, NP, VP, PP, Det, N, V, Adj, Adv, Prep, etc.). You may draw by hand and photograph, use a digital tool, or describe the structure in bracket notation.  Example (completed):  Sentence:  The cat slept.  Tree diagram (bracket notation): [S [NP [Det the] [N cat]] [VP [V slept]]]  Or as a visual tree:  S \/ \\ NP VP \/ \\ | Det N V | | | the cat slept  Exercises:  10. Diagram: The dog barked loudly.   Your diagram: _____   11. Diagram: The talented student from Ohio won the award.   Your diagram: _____   12. Diagram: She carefully read the interesting book in the library.   Your diagram: _____     Part 5: Structural Ambiguity Analysis  Instructions: Analyze the structurally ambiguous sentences below.  Exercises:  13. The sentence I saw the man with the telescope is structurally ambiguous.  a) Describe the two possible meanings:   Meaning 1: _____  Meaning 2: _____   b) For each meaning, explain how the PP \"with the telescope\" attaches differently:   Attachment for Meaning 1: _____  Attachment for Meaning 2: _____   c) Draw or describe a simple tree structure for ONE of the readings:   Your tree structure: _____   14. The sentence Old men and women attended the meeting is structurally ambiguous.  a) Describe the two possible meanings:   Meaning 1: _____  Meaning 2: _____   b) Explain what structural difference creates the ambiguity:   Your explanation: _____   15. In 3-4 sentences, explain why understanding hierarchical sentence structure (as shown in tree diagrams) matters for both reading comprehension and clear writing. Use a specific example to support your explanation.   Your response: _____    "
 },
 {
-  "id": "ch-07-introduction-to-sentence-diagramming-10",
+  "id": "ch-07-diagram-examples",
   "level": "1",
-  "url": "ch-07-introduction-to-sentence-diagramming-10.html",
-  "type": "Glossary",
+  "url": "ch-07-diagram-examples.html",
+  "type": "Section",
   "number": "7.8",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for basic sentence structures introduced in this chapter.   Basic Sentence Structure   Abstract S → NP + VP template   Syntax tree showing abstract sentence structure with S, NP, and VP    [S [NP] [VP]]   Simple intransitive sentence: Thunder rumbled.   Syntax tree for \"Thunder rumbled\" showing S with NP and VP    [S [NP [N Thunder]] [VP [V rumbled]]]   Simple transitive sentence: The cat chased the mouse.   Syntax tree for \"The cat chased the mouse\" showing transitive structure    [S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]   Sentence with determiner: The dog barked.   Syntax tree for \"The dog barked\" showing NP with determiner    [S [NP [DET The] [N dog]] [VP [V barked]]]   "
+},
+{
+  "id": "fig-ch07-ex-basic-structure",
+  "level": "2",
+  "url": "ch-07-diagram-examples.html#fig-ch07-ex-basic-structure",
+  "type": "Figure",
+  "number": "7.8.1",
+  "title": "",
+  "body": " Abstract S → NP + VP template   Syntax tree showing abstract sentence structure with S, NP, and VP   "
+},
+{
+  "id": "fig-ch07-ex-intrans",
+  "level": "2",
+  "url": "ch-07-diagram-examples.html#fig-ch07-ex-intrans",
+  "type": "Figure",
+  "number": "7.8.2",
+  "title": "",
+  "body": " Simple intransitive sentence: Thunder rumbled.   Syntax tree for \"Thunder rumbled\" showing S with NP and VP   "
+},
+{
+  "id": "fig-ch07-ex-trans",
+  "level": "2",
+  "url": "ch-07-diagram-examples.html#fig-ch07-ex-trans",
+  "type": "Figure",
+  "number": "7.8.3",
+  "title": "",
+  "body": " Simple transitive sentence: The cat chased the mouse.   Syntax tree for \"The cat chased the mouse\" showing transitive structure   "
+},
+{
+  "id": "fig-ch07-ex-det-adj",
+  "level": "2",
+  "url": "ch-07-diagram-examples.html#fig-ch07-ex-det-adj",
+  "type": "Figure",
+  "number": "7.8.4",
+  "title": "",
+  "body": " Sentence with determiner: The dog barked.   Syntax tree for \"The dog barked\" showing NP with determiner   "
+},
+{
+  "id": "ch-07-introduction-to-sentence-diagramming-11",
+  "level": "1",
+  "url": "ch-07-introduction-to-sentence-diagramming-11.html",
+  "type": "Glossary",
+  "number": "7.9",
   "title": "Glossary",
   "body": " Glossary   Complement  An element that completes the meaning of a head; often required by the head.    Constituent  A word or group of words that functions as a structural unit.    Dominance  The relationship in a tree where a higher node contains lower nodes.    Head  The central, obligatory element of a phrase that determines its category.    Modifier  An optional element that adds information about a head.    Node  A labeled point in a tree diagram representing a word or phrase category.    Structural ambiguity  A situation where a sentence has multiple possible structures, each with a different meaning.    Tree diagram  A visual representation of sentence structure showing hierarchical relationships between constituents.   "
 },
@@ -649,11 +1009,137 @@ var ptx_lunr_docs = [
   "body": " Homework: Basic Sentence Elements and Sentence Patterns   Part 1: Sentence Element Identification  Instructions: For each sentence, identify the requested elements.  Example (completed):  Sentence:  The talented chef from France prepared us an exquisite meal in the kitchen.   Subject NP: The talented chef from France  Main verb: prepared  Indirect object: us  Direct object: an exquisite meal  Adverbial: in the kitchen   Exercises:  1. The ambitious young researcher from the university laboratory discovered a remarkable solution.   Subject NP: _____  Predicate: _____  Main verb: _____  Direct object: _____   2. Identify all complements (DO, IO, SC, OC) in each sentence:  a) The committee awarded the outstanding student a prestigious scholarship.   _____   b) The homemade soup tasted absolutely delicious.   _____   c) The judges declared the young contestant the winner.   _____   3. For each underlined element, indicate whether it is an argument (required by the verb) or an adverbial (optional modifier):  a) She placed the documents on the desk .   _____   b) She found the documents on the desk .   _____   c) The professor is extremely knowledgeable about linguistics .   _____   d) The professor lectured extremely knowledgeably about linguistics .   _____     Part 2: Sentence Completion  Instructions: Complete each sentence by adding the requested element.  Exercises:  4. Add a direct object to create a transitive sentence:  The dedicated students completed _____.  5. Add an indirect object AND a direct object to create a ditransitive sentence:  The generous donor gave _____.  6. Add a subject complement to create a linking verb sentence:  After the long hike, the exhausted climbers seemed _____.  7. Add an object complement:  The board of directors elected her _____.    Part 3: Sentence Pattern Identification  Instructions: Identify the sentence pattern (1-6) for each sentence and explain your reasoning. Remember to set aside adverbials before determining the pattern.  Sentence Patterns:   Pattern 1: Intransitive (S + V)  Pattern 2: Copular be (S + be + SC)  Pattern 3: Linking verb (S + LV + SC)  Pattern 4: Transitive (S + V + DO)  Pattern 5: Ditransitive (S + V + IO + DO)  Pattern 6: Ditransitive (S + V + DO + OC)   Example (completed):  Sentence:  The ancient lighthouse still stands on the rocky cliff.   Pattern: Pattern 1 (Intransitive)  Explanation: The main verb is \"stands.\" \"On the rocky cliff\" is an adverbial (optional—answers \"where?\"). \"Still\" is also an adverbial. Without the adverbials, we have \"The ancient lighthouse stands\"—a complete sentence with just a subject and intransitive verb. \"Stands\" does not require an object or complement.   Exercises:  8. The exhausted marathon runner collapsed at the finish line yesterday.   Pattern: _____  Explanation: _____   9. My grandmother's secret recipe remains a family treasure.   Pattern: _____  Explanation: _____   10. The committee considered the proposal inadequate.   Pattern: _____  Explanation: _____   11. The chef prepared the guests an extraordinary seven-course meal.   Pattern: _____  Explanation: _____   12. The situation grew increasingly tense during the negotiations.   Pattern: _____  Explanation: _____     Part 4: Sentence Writing  Instructions: Write original sentences following each pattern. Underline or label the key elements (S, V, DO, IO, SC, OC).  Exercises:  13. Write a sentence following Pattern 4 (transitive: S + V + DO):   _____   14. Write a sentence following Pattern 5 (ditransitive with IO + DO: S + V + IO + DO):   _____   15. Write a sentence following Pattern 6 (ditransitive with DO + OC: S + V + DO + OC):   _____     Part 5: Analysis and Reflection  Instructions: Read the sentences below and answer the questions.  Exercises:  16. The verb put is unusual because it requires TWO arguments beyond the subject. Analyze the following sentences:  a) She put the book on the shelf.   What happens if you remove \"the book\"? _____  What happens if you remove \"on the shelf\"? _____  What does this tell you about the valency of put ? _____   17. Some verbs can be either linking or transitive depending on context. Analyze these pairs:  a) The milk smells sour. vs. The detective smells trouble.   Which sentence has a linking verb? Which has a transitive verb? _____  How can you tell? (Hint: Apply the be substitution test.) _____   18. In 3-4 sentences, explain how you distinguish between an argument and an adverbial when analyzing sentences. Why does this distinction matter for identifying sentence patterns? Give an example to illustrate.   _____    "
 },
 {
-  "id": "ch-08-basic-sentence-elements-and-sentence-patterns-11",
+  "id": "ch-08-diagram-examples",
   "level": "1",
-  "url": "ch-08-basic-sentence-elements-and-sentence-patterns-11.html",
-  "type": "Glossary",
+  "url": "ch-08-diagram-examples.html",
+  "type": "Section",
   "number": "8.9",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for the sentence patterns introduced in this chapter.   Pattern 1: Intransitive (S-V)   Basic intransitive: Cameras flashed.   Syntax tree for \"Cameras flashed\"    [S [NP [N Cameras]] [VP [V flashed]]]   Intransitive with conjoined subjects: Frodo and Sam travel.   Syntax tree for \"Frodo and Sam travel\" with coordinated subject    [S [NP [N Frodo] [CONJ and] [N Sam]] [VP [V travel]]]   Intransitive with conjoined verbs: Gandalf thinks and acts.   Syntax tree for \"Gandalf thinks and acts\" with coordinated verbs    [S [NP [N Gandalf]] [VP [V thinks] [CONJ and] [V acts]]]    Pattern 2: Transitive (S-V-DO)   Basic transitive: Weasels stalk rabbits.   Syntax tree for \"Weasels stalk rabbits\"    [S [NP [N Weasels]] [VP [V stalk] [NP [N rabbits]]]]    Pattern 3: Ditransitive (S-V-IO-DO)   Ditransitive: Marie sent Ramon a gift.   Syntax tree for \"Marie sent Ramon a gift\" with indirect and direct objects    [S [NP [N Marie]] [VP [V sent] [NP [N Ramon]] [NP [DET a] [N gift]]]]    Pattern 4: Linking\/Copular (S-V-SC)   Copular with NP complement: I am an optimist.   Syntax tree for \"I am an optimist\"    [S [NP [PRON I]] [VP [V am] [NP [DET an] [N optimist]]]]   Copular with AdjP complement: She is happy.   Syntax tree for \"She is happy\"    [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]   Copular with PP adverbial: Phillip is over the moon.   Syntax tree for \"Phillip is over the moon\"    [S [NP [N Phillip]] [VP [V is] [PP [PREP over] [NP [DET the] [N moon]]]]]   Copular with AdvP adverbial: Phillip is here.   Syntax tree for \"Phillip is here\"    [S [NP [N Phillip]] [VP [V is] [ADVP [ADV here]]]]   Linking verb with AdjP: Phillip became famous.   Syntax tree for \"Phillip became famous\"    [S [NP [N Phillip]] [VP [V became] [ADJP [ADJ famous]]]]   Linking verb with NP: Phillip became a doctor.   Syntax tree for \"Phillip became a doctor\"    [S [NP [N Phillip]] [VP [V became] [NP [DET a] [N doctor]]]]    Pattern 5: Complex Transitive (S-V-DO-OC)   Complex transitive with AdjP object complement: The jury found him guilty.   Syntax tree for \"The jury found him guilty\"    [S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]   Complex transitive with NP object complement: They elected her president.   Syntax tree for \"They elected her president\"    [S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]   "
+},
+{
+  "id": "fig-ch08-ex-basic-intrans",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-basic-intrans",
+  "type": "Figure",
+  "number": "8.9.1",
+  "title": "",
+  "body": " Basic intransitive: Cameras flashed.   Syntax tree for \"Cameras flashed\"   "
+},
+{
+  "id": "fig-ch08-ex-conj-subj",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-conj-subj",
+  "type": "Figure",
+  "number": "8.9.2",
+  "title": "",
+  "body": " Intransitive with conjoined subjects: Frodo and Sam travel.   Syntax tree for \"Frodo and Sam travel\" with coordinated subject   "
+},
+{
+  "id": "fig-ch08-ex-conj-vp",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-conj-vp",
+  "type": "Figure",
+  "number": "8.9.3",
+  "title": "",
+  "body": " Intransitive with conjoined verbs: Gandalf thinks and acts.   Syntax tree for \"Gandalf thinks and acts\" with coordinated verbs   "
+},
+{
+  "id": "fig-ch08-ex-basic-trans",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-basic-trans",
+  "type": "Figure",
+  "number": "8.9.4",
+  "title": "",
+  "body": " Basic transitive: Weasels stalk rabbits.   Syntax tree for \"Weasels stalk rabbits\"   "
+},
+{
+  "id": "fig-ch08-ex-ditrans",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-ditrans",
+  "type": "Figure",
+  "number": "8.9.5",
+  "title": "",
+  "body": " Ditransitive: Marie sent Ramon a gift.   Syntax tree for \"Marie sent Ramon a gift\" with indirect and direct objects   "
+},
+{
+  "id": "fig-ch08-ex-cop-np",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-cop-np",
+  "type": "Figure",
+  "number": "8.9.6",
+  "title": "",
+  "body": " Copular with NP complement: I am an optimist.   Syntax tree for \"I am an optimist\"   "
+},
+{
+  "id": "fig-ch08-ex-cop-adjp",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-cop-adjp",
+  "type": "Figure",
+  "number": "8.9.7",
+  "title": "",
+  "body": " Copular with AdjP complement: She is happy.   Syntax tree for \"She is happy\"   "
+},
+{
+  "id": "fig-ch08-ex-cop-pp",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-cop-pp",
+  "type": "Figure",
+  "number": "8.9.8",
+  "title": "",
+  "body": " Copular with PP adverbial: Phillip is over the moon.   Syntax tree for \"Phillip is over the moon\"   "
+},
+{
+  "id": "fig-ch08-ex-cop-advp",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-cop-advp",
+  "type": "Figure",
+  "number": "8.9.9",
+  "title": "",
+  "body": " Copular with AdvP adverbial: Phillip is here.   Syntax tree for \"Phillip is here\"   "
+},
+{
+  "id": "fig-ch08-ex-link-adjp",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-link-adjp",
+  "type": "Figure",
+  "number": "8.9.10",
+  "title": "",
+  "body": " Linking verb with AdjP: Phillip became famous.   Syntax tree for \"Phillip became famous\"   "
+},
+{
+  "id": "fig-ch08-ex-link-np",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-link-np",
+  "type": "Figure",
+  "number": "8.9.11",
+  "title": "",
+  "body": " Linking verb with NP: Phillip became a doctor.   Syntax tree for \"Phillip became a doctor\"   "
+},
+{
+  "id": "fig-ch08-ex-complex-adjp",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-complex-adjp",
+  "type": "Figure",
+  "number": "8.9.12",
+  "title": "",
+  "body": " Complex transitive with AdjP object complement: The jury found him guilty.   Syntax tree for \"The jury found him guilty\"   "
+},
+{
+  "id": "fig-ch08-ex-complex-np",
+  "level": "2",
+  "url": "ch-08-diagram-examples.html#fig-ch08-ex-complex-np",
+  "type": "Figure",
+  "number": "8.9.13",
+  "title": "",
+  "body": " Complex transitive with NP object complement: They elected her president.   Syntax tree for \"They elected her president\"   "
+},
+{
+  "id": "ch-08-basic-sentence-elements-and-sentence-patterns-12",
+  "level": "1",
+  "url": "ch-08-basic-sentence-elements-and-sentence-patterns-12.html",
+  "type": "Glossary",
+  "number": "8.10",
   "title": "Glossary",
   "body": " Glossary   Adverbial  An optional element providing information about time, place, manner, reason, etc.    Argument  An element required by a verb to form a grammatical sentence.    Copular verb  A form of be that links subject to complement.    Direct object  The NP that receives the action of a transitive verb.    Ditransitive verb  A verb requiring two objects or an object plus complement.    Indirect object  The NP indicating the recipient or beneficiary.    Intransitive verb  A verb requiring only a subject.    Linking verb  A verb that connects the subject to a complement describing it.    Object complement  An element describing or identifying the direct object.    Predicate  Everything said about the subject; includes the verb and its complements\/adverbials.    Subject  The NP indicating what the sentence is about.    Subject complement  An element describing or identifying the subject after a linking verb.    Transitive verb  A verb requiring a direct object.    Valency  The number and types of arguments a verb requires.   "
 },
@@ -766,11 +1252,56 @@ var ptx_lunr_docs = [
   "body": "; "
 },
 {
-  "id": "ch-09-compound-and-complex-sentences-13",
+  "id": "ch-09-diagram-examples",
   "level": "1",
-  "url": "ch-09-compound-and-complex-sentences-13.html",
-  "type": "Glossary",
+  "url": "ch-09-diagram-examples.html",
+  "type": "Section",
   "number": "9.11",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for compound and complex sentence structures introduced in this chapter.   Coordination   Coordinated independent clauses: I laugh and you cry.   Syntax tree for \"I laugh and you cry\" showing two coordinated sentences    [S [S [NP [PRON I]] [VP [V laugh]]] [CONJ and] [S [NP [PRON you]] [VP [V cry]]]]    Subordination   Dependent clause second: I laugh because you cry.   Syntax tree for \"I laugh because you cry\" with dependent clause following    [S [IC [NP [PRON I]] [VP [V laugh]]] [DC [SUB because] [NP [PRON you]] [VP [V cry]]]]   Dependent clause first: Because you cry, I laugh.   Syntax tree for \"Because you cry, I laugh\" with dependent clause first    [S [DC [SUB Because] [NP [PRON you]] [VP [V cry]]] [IC [NP [PRON I]] [VP [V laugh]]]]   Adverbial clause: When it rained, they stayed.   Syntax tree for \"When it rained, they stayed\" with adverbial dependent clause    [S [DC [SUB When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON they]] [VP [V stayed]]]]   "
+},
+{
+  "id": "fig-ch09-ex-coordination",
+  "level": "2",
+  "url": "ch-09-diagram-examples.html#fig-ch09-ex-coordination",
+  "type": "Figure",
+  "number": "9.11.1",
+  "title": "",
+  "body": " Coordinated independent clauses: I laugh and you cry.   Syntax tree for \"I laugh and you cry\" showing two coordinated sentences   "
+},
+{
+  "id": "fig-ch09-ex-dc-second",
+  "level": "2",
+  "url": "ch-09-diagram-examples.html#fig-ch09-ex-dc-second",
+  "type": "Figure",
+  "number": "9.11.2",
+  "title": "",
+  "body": " Dependent clause second: I laugh because you cry.   Syntax tree for \"I laugh because you cry\" with dependent clause following   "
+},
+{
+  "id": "fig-ch09-ex-dc-first",
+  "level": "2",
+  "url": "ch-09-diagram-examples.html#fig-ch09-ex-dc-first",
+  "type": "Figure",
+  "number": "9.11.3",
+  "title": "",
+  "body": " Dependent clause first: Because you cry, I laugh.   Syntax tree for \"Because you cry, I laugh\" with dependent clause first   "
+},
+{
+  "id": "fig-ch09-ex-adv-clause",
+  "level": "2",
+  "url": "ch-09-diagram-examples.html#fig-ch09-ex-adv-clause",
+  "type": "Figure",
+  "number": "9.11.4",
+  "title": "",
+  "body": " Adverbial clause: When it rained, they stayed.   Syntax tree for \"When it rained, they stayed\" with adverbial dependent clause   "
+},
+{
+  "id": "ch-09-compound-and-complex-sentences-14",
+  "level": "1",
+  "url": "ch-09-compound-and-complex-sentences-14.html",
+  "type": "Glossary",
+  "number": "9.12",
   "title": "Glossary",
   "body": " Glossary   Adverb clause  A dependent clause that modifies a verb, adjective, or sentence.    Comma splice  The error of joining two independent clauses with only a comma.    Complex sentence  A sentence with one independent clause and at least one dependent clause.    Compound sentence  A sentence with two or more independent clauses joined by coordination.    Conjunctive adverb  An adverb that connects independent clauses ( however , therefore ).    Coordinating conjunction  A word that joins equal elements (FANBOYS: for , and , nor , but , or , yet , so ).    Dependent clause  A clause that cannot stand alone; also called subordinate clause.    Independent clause  A clause that can stand alone as a complete sentence.    Noun clause  A dependent clause functioning as a noun phrase.    Relative clause  A dependent clause that modifies a noun; introduced by relative pronouns.    Run-on sentence  The error of joining independent clauses without punctuation.    Simple sentence  A sentence with one independent clause.    Subordinating conjunction  A word that introduces a dependent clause and shows its relationship to the main clause.   "
 },
@@ -865,11 +1396,65 @@ var ptx_lunr_docs = [
   "body": " Homework: Tense and Aspect   Part 1: Identification  Instructions: For each sentence below, identify the auxiliary verb(s), main verb, tense, and aspect. Use the following labels for aspect: simple, progressive, perfect, or perfect progressive.  Example (completed):  She has been waiting for an hour.   Auxiliary verb(s): has, been  Main verb: waiting  Tense: present  Aspect: perfect progressive   Exercises:  1. The researchers have analyzed the experimental data.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________   2. Yesterday, she was working in the library when I called.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________   3. By next month, they will have completed the entire project.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________   4. The professor teaches linguistics every semester.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________   5. The students had been studying for three hours before the test began.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________     Part 2: Sentence Completion  Instructions: Complete each sentence with the correct form of the verb in parentheses to match the tense-aspect indicated.  Example (completed):  Present perfect: She ________ (study) at this university since 2022.  Answer: has studied  Exercises:  6. Present progressive: Right now, the children ________ (play) in the park.  7. Past perfect: By the time I arrived, they ________ (already \/ leave).  8. Present perfect progressive: She ________ (work) on this project for six months.  9. Future progressive: At noon tomorrow, I ________ (meet) with the committee.  10. Past simple: The team ________ (finish) the assignment last night.    Part 3: Sentence Writing  Instructions: Write original sentences using the indicated tense-aspect combination. Make sure your sentence clearly demonstrates the meaning of that combination.  Example (completed):  Present perfect (past action with present relevance):  I have already eaten breakfast, so I'm not hungry now.  Exercises:  11. Write a sentence in present perfect that shows an experience up to now:  ________________________________________________________________________  12. Write a sentence in past progressive that describes a background action interrupted by another event:  ________________________________________________________________________  13. Write a sentence in future perfect that describes an action completed before a future point:  ________________________________________________________________________  14. Write a sentence in present simple that expresses a general truth:  ________________________________________________________________________  15. Write a sentence in past perfect that positions one past event before another:  ________________________________________________________________________    Part 4: Distinguishing Meaning  Instructions: Explain the difference in meaning between each pair of sentences.  Example (completed):  a) I lived in Chicago for five years.  b) I have lived in Chicago for five years.  Explanation: Sentence (a) uses past simple, indicating I no longer live there. Sentence (b) uses present perfect, indicating I still live there now.  Exercises:  16. Explain the difference in meaning:  a) She read the report.  b) She has read the report.  ________________________________________________________________________  17. Explain the difference in meaning:  a) When I arrived, they left.  b) When I arrived, they had left.  ________________________________________________________________________  18. Explain the difference in meaning:  a) He works at a bank.  b) He is working at a bank.  ________________________________________________________________________    Part 5: Contextual Analysis  Instructions: Read the passage below and answer the questions.  Passage:  Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years now. By next June, she will have finished the entire project. After that, she will be looking for a teaching position.  Exercises:  19. Identify the tense-aspect of each verb phrase in the passage:   moved : ________  has lived : ________  visited : ________  was working : ________  has been writing : ________  will have finished : ________  will be looking : ________   20. The passage uses both moved (past simple) and has lived (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.  ________________________________________________________________________  ________________________________________________________________________  21. Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:  Original: She studies linguistics.  a) Past progressive:  ________________________________________________________________________  Meaning change:  ________________________________________________________________________  b) Present perfect:  ________________________________________________________________________  Meaning change:  ________________________________________________________________________  c) Future perfect:  ________________________________________________________________________  Meaning change:  ________________________________________________________________________   "
 },
 {
-  "id": "ch-10-verbs-part-one-tense-and-aspect-13",
+  "id": "ch-10-diagram-examples",
   "level": "1",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-13.html",
-  "type": "Glossary",
+  "url": "ch-10-diagram-examples.html",
+  "type": "Section",
   "number": "10.11",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for verb phrase structures with tense and aspect.   Aspect Examples   Progressive aspect (be + V-ing): is eating   Syntax tree for \"is eating\" showing progressive aspect    [VP [AUX is] [V eating]]   Perfect aspect (have + V-en): has eaten   Syntax tree for \"has eaten\" showing perfect aspect    [VP [AUX has] [V eaten]]   Perfect progressive (have + been + V-ing): has been eating   Syntax tree for \"has been eating\" showing perfect progressive    [VP [AUX has] [AUX been] [V eating]]   Passive (be + V-en): was eaten   Syntax tree for \"was eaten\" showing passive voice    [VP [AUX was] [V eaten]]   Progressive passive (be + being + V-en): is being renovated   Syntax tree for \"is being renovated\" showing progressive passive    [VP [AUX is] [AUX being] [V renovated]]   "
+},
+{
+  "id": "fig-ch10-ex-progressive",
+  "level": "2",
+  "url": "ch-10-diagram-examples.html#fig-ch10-ex-progressive",
+  "type": "Figure",
+  "number": "10.11.1",
+  "title": "",
+  "body": " Progressive aspect (be + V-ing): is eating   Syntax tree for \"is eating\" showing progressive aspect   "
+},
+{
+  "id": "fig-ch10-ex-perfect",
+  "level": "2",
+  "url": "ch-10-diagram-examples.html#fig-ch10-ex-perfect",
+  "type": "Figure",
+  "number": "10.11.2",
+  "title": "",
+  "body": " Perfect aspect (have + V-en): has eaten   Syntax tree for \"has eaten\" showing perfect aspect   "
+},
+{
+  "id": "fig-ch10-ex-perf-prog",
+  "level": "2",
+  "url": "ch-10-diagram-examples.html#fig-ch10-ex-perf-prog",
+  "type": "Figure",
+  "number": "10.11.3",
+  "title": "",
+  "body": " Perfect progressive (have + been + V-ing): has been eating   Syntax tree for \"has been eating\" showing perfect progressive   "
+},
+{
+  "id": "fig-ch10-ex-passive",
+  "level": "2",
+  "url": "ch-10-diagram-examples.html#fig-ch10-ex-passive",
+  "type": "Figure",
+  "number": "10.11.4",
+  "title": "",
+  "body": " Passive (be + V-en): was eaten   Syntax tree for \"was eaten\" showing passive voice   "
+},
+{
+  "id": "fig-ch10-ex-prog-passive",
+  "level": "2",
+  "url": "ch-10-diagram-examples.html#fig-ch10-ex-prog-passive",
+  "type": "Figure",
+  "number": "10.11.5",
+  "title": "",
+  "body": " Progressive passive (be + being + V-en): is being renovated   Syntax tree for \"is being renovated\" showing progressive passive   "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-14",
+  "level": "1",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-14.html",
+  "type": "Glossary",
+  "number": "10.12",
   "title": "Glossary",
   "body": " Glossary   Aspect  A grammatical category describing the internal temporal structure of events.    Auxiliary verb  A verb that combines with a main verb to add grammatical information.    Past tense  The tense marked by -ed or irregular forms, typically indicating past time.    Perfect aspect  Aspect formed with have + past participle, connecting a past event to a later time.    Present tense  The tense marked by base form or -s , used for habits, states, and general truths.    Primary auxiliary  The auxiliaries be , have , and do .    Progressive aspect  Aspect formed with be + -ing , presenting events as ongoing.    Simple aspect  Aspect presenting events as complete wholes without internal structure.    Tense  A grammatical category locating events in time through verb inflection.    Time  The conceptual domain of when events occur (past, present, future).   "
 },
@@ -955,11 +1540,65 @@ var ptx_lunr_docs = [
   "body": " Homework: Voice and Modals   Total estimated time: 45 minutes    Part 1: Voice Identification  Instructions: For each sentence, identify whether it is in active or passive voice. If passive, identify the agent (if present) and the original active construction.  Example (completed):  Sentence:  The report was written by the committee.   Voice: passive  Agent: the committee  Active version: The committee wrote the report.   Exercises:  1.  The researchers carefully analyzed the data.   Voice: _____   2.  Three errors were discovered in the code.   Voice: _____  Agent (if present): _____   3.  The new policy will be announced tomorrow.   Voice: _____  Agent (if present): _____   4.  Someone stole my bicycle last night.   Voice: _____   5.  The building was constructed in 1920.   Voice: _____  Agent (if present): _____     Part 2: Voice Transformation  Instructions: Convert each sentence to the opposite voice (active to passive or passive to active). Maintain the same tense and aspect.  Example (completed):  Active to passive:  The architect has designed the new building.  Answer: The new building has been designed by the architect.  Exercises:  6. Active to passive: The team is preparing the presentation.   Answer: _____   7. Active to passive: Someone had stolen the documents before the investigation began.   Answer: _____   8. Passive to active: The experiment was conducted by the research team.   Answer: _____   9. Passive to active: The proposal will be reviewed by the committee next week.   Answer: _____   10. Active to passive: The company will hire fifty new employees.   Answer: _____     Part 3: Modal Meaning  Instructions: For each sentence, identify the modal and classify its meaning using these categories: ability, possibility, permission, obligation\/necessity, deduction, or advice.  Example (completed):  Sentence:  You must submit the application by Friday.   Modal: must  Meaning: obligation\/necessity   Exercises:  11.  She can speak three languages fluently.   Modal: _____  Meaning: _____   12.  That might be the correct answer, but I'm not certain.   Modal: _____  Meaning: _____   13.  You should apologize for your mistake.   Modal: _____  Meaning: _____   14.  He must be exhausted after running the marathon.   Modal: _____  Meaning: _____   15.  May I leave the room early?   Modal: _____  Meaning: _____   16.  They could have won the game if they had practiced more.   Modal: _____  Meaning: _____   17. Explain the difference between the two uses of must :   a) You must wear a seatbelt. (Meaning type: _____)  b) She's not answering the phone. She must be asleep. (Meaning type: _____)     Part 4: Sentence Writing  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence in passive voice where the agent is unknown:  My car was broken into last night.  Exercises:  18. Write a sentence in passive voice appropriate for scientific writing (focusing on method, not researcher):   Answer: _____   19. Write a sentence using should have + past participle to express criticism or regret about something that did not happen:   Answer: _____   20. Write a sentence using must to express a logical deduction (not obligation):   Answer: _____   21. Write a sentence using could to express a past possibility that did not happen:   Answer: _____   22. Write a sentence using the get-passive to describe an unexpected event:   Answer: _____     Part 5: Analysis and Application  Instructions: Read the passage below and answer the questions.  Passage:  The new policy was announced yesterday by the CEO. All employees must submit their feedback by next Friday. According to management, the changes should improve workplace efficiency. Some workers believe the policy might create additional challenges. However, the final decision will be made after all responses have been reviewed.  Exercises:  23. Identify all passive voice constructions in the passage. For each, explain why the writer might have chosen passive over active voice.   Passive construction 1: _____  Reason: _____  Passive construction 2: _____  Reason: _____   24. Identify the modals in the passage and classify each as expressing epistemic modality (about certainty\/possibility) or deontic modality (about obligation\/permission):   Modal 1: _____  Type: _____  Modal 2: _____  Type: _____  Modal 3: _____  Type: _____   25. Consider this active sentence: The manager rejected the proposal.   a) Rewrite it in passive voice: _____  b) Describe a situation where the passive version would be more appropriate than the active: _____  c) When might a writer prefer the active version? _____    "
 },
 {
-  "id": "ch-11-verbs-part-two-voice-and-modals-12",
+  "id": "ch-11-diagram-examples",
   "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-12.html",
-  "type": "Glossary",
+  "url": "ch-11-diagram-examples.html",
+  "type": "Section",
   "number": "11.10",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for verb phrase structures with voice and modals.   Modal Examples   Modal + verb: will eat   Syntax tree for \"will eat\" showing modal with verb    [VP [MOD will] [V eat]]   Modal + perfect: will have eaten   Syntax tree for \"will have eaten\" showing modal with perfect    [VP [MOD will] [AUX have] [V eaten]]   Complex VP (modal + perfect + progressive): should have been studying   Syntax tree for \"should have been studying\"    [VP [MOD should] [AUX have] [AUX been] [V studying]]   Full complex VP: will have been being eaten   Syntax tree for \"will have been being eaten\" showing all auxiliaries    [VP [MOD will] [AUX have] [AUX been] [AUX being] [V eaten]]    Passive Voice   Passive with by-phrase: was written by Maria   Syntax tree for \"was written by Maria\" showing passive with agent    [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]   "
+},
+{
+  "id": "fig-ch11-ex-modal",
+  "level": "2",
+  "url": "ch-11-diagram-examples.html#fig-ch11-ex-modal",
+  "type": "Figure",
+  "number": "11.10.1",
+  "title": "",
+  "body": " Modal + verb: will eat   Syntax tree for \"will eat\" showing modal with verb   "
+},
+{
+  "id": "fig-ch11-ex-modal-perf",
+  "level": "2",
+  "url": "ch-11-diagram-examples.html#fig-ch11-ex-modal-perf",
+  "type": "Figure",
+  "number": "11.10.2",
+  "title": "",
+  "body": " Modal + perfect: will have eaten   Syntax tree for \"will have eaten\" showing modal with perfect   "
+},
+{
+  "id": "fig-ch11-ex-complex",
+  "level": "2",
+  "url": "ch-11-diagram-examples.html#fig-ch11-ex-complex",
+  "type": "Figure",
+  "number": "11.10.3",
+  "title": "",
+  "body": " Complex VP (modal + perfect + progressive): should have been studying   Syntax tree for \"should have been studying\"   "
+},
+{
+  "id": "fig-ch11-ex-full-complex",
+  "level": "2",
+  "url": "ch-11-diagram-examples.html#fig-ch11-ex-full-complex",
+  "type": "Figure",
+  "number": "11.10.4",
+  "title": "",
+  "body": " Full complex VP: will have been being eaten   Syntax tree for \"will have been being eaten\" showing all auxiliaries   "
+},
+{
+  "id": "fig-ch11-ex-passive-by",
+  "level": "2",
+  "url": "ch-11-diagram-examples.html#fig-ch11-ex-passive-by",
+  "type": "Figure",
+  "number": "11.10.5",
+  "title": "",
+  "body": " Passive with by-phrase: was written by Maria   Syntax tree for \"was written by Maria\" showing passive with agent   "
+},
+{
+  "id": "ch-11-verbs-part-two-voice-and-modals-13",
+  "level": "1",
+  "url": "ch-11-verbs-part-two-voice-and-modals-13.html",
+  "type": "Glossary",
+  "number": "11.11",
   "title": "Glossary",
   "body": " Glossary   Active voice  The grammatical voice where the subject performs the action.    Agent  The entity performing an action.    Deontic modality  Modal meaning concerning obligation, permission, and necessity.    Epistemic modality  Modal meaning concerning knowledge and certainty.    Modal auxiliary  An auxiliary verb expressing possibility, necessity, permission, etc.    Passive voice  The grammatical voice where the subject receives the action.    Patient  The entity affected by an action.    Semi-modal  A multi-word expression functioning like a modal ( have to , be able to ).    Voice  A grammatical category describing the relationship between verb and arguments.   "
 },
@@ -1027,11 +1666,83 @@ var ptx_lunr_docs = [
   "body": " Homework: Adverbials   Part 1: Identification and Classification  Instructions: For each sentence, identify all adverbials, their form (adverb phrase, prepositional phrase, noun phrase, adverb clause, infinitive phrase, or participial phrase), and their semantic role (time, place, manner, reason, purpose, condition, or concession).  Example (completed):  Sentence:  Yesterday, she worked carefully at the office because she had a deadline.    Adverbial  Form  Semantic Role    Yesterday  NP  time    carefully  AdvP  manner    at the office  PP  place    because she had a deadline  adverb clause  reason    Exercises:  1. Last week, the students studied diligently in the library.   Adverbial 1: __________ Form: __________ Semantic role: __________  Adverbial 2: __________ Form: __________ Semantic role: __________  Adverbial 3: __________ Form: __________ Semantic role: __________   2. If you need assistance, please call the help desk immediately.   Adverbial 1: __________ Form: __________ Semantic role: __________  Adverbial 2: __________ Form: __________ Semantic role: __________   3. She left early to catch her flight.   Adverbial 1: __________ Form: __________ Semantic role: __________  Adverbial 2: __________ Form: __________ Semantic role: __________     Part 2: Adjunct, Disjunct, or Conjunct  Instructions: Classify each underlined adverbial as an adjunct (modifies the verb\/clause content), disjunct (expresses speaker's attitude), or conjunct (connects sentences).  Example (completed):  Sentence:  Fortunately, the rain stopped before the game.  Fortunately - disjunct (expresses the speaker's positive attitude toward the situation)  Exercises:  4. She answered the questions honestly .   Classification: __________  Explanation: __________   5. Honestly , I don't think that's a good idea.   Classification: __________  Explanation: __________   6. The data were inconclusive. Nevertheless , the researchers published their findings.   Classification: __________  Explanation: __________   7. He spoke softly so the children wouldn't wake up.   Classification: __________  Explanation: __________   8. The experiment failed. Therefore , they redesigned the protocol.   Classification: __________  Explanation: __________     Part 3: Sentence Completion  Instructions: Add the requested type of adverbial to complete each sentence.  Example (completed):  Add an adverb clause of condition: __________, you should bring an umbrella.  Answer:  If it looks like rain, you should bring an umbrella.  Exercises:  9. Add a prepositional phrase of time: __________, the committee will announce its decision.   Answer: __________   10. Add an adverb clause of reason: She stayed home __________.   Answer: __________   11. Add an infinitive phrase of purpose: He went to the store __________.   Answer: __________   12. Add an adverb clause of concession: __________, we decided to proceed with the project.   Answer: __________   13. Add a participial phrase functioning as an adverbial: __________, she answered all the questions correctly.   Answer: __________     Part 4: Sentence Writing  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence with an adverb clause of condition:  If the weather improves, we will have the picnic outside.  Exercises:  14. Write a sentence with an adverb clause of time (using while , when , before , after , or until ):   __________   15. Write a sentence with a disjunct that expresses your attitude toward the content:   __________   16. Write a sentence with a conjunct that shows contrast (using however , nevertheless , or on the other hand ):   __________   17. Write a sentence with an adverb clause of purpose (using so that or in order that ):   __________   18. Write a sentence with a participial phrase functioning as an adverbial of reason:   __________     Part 5: Analysis and Application  Instructions: Read the passage below and answer the questions.  Passage:  Yesterday, the researchers finally completed their groundbreaking study. Surprisingly, the results contradicted earlier findings. They had worked diligently for three years because funding was severely limited. Nevertheless, they published their findings in a prestigious journal last month. If additional funding becomes available, they will continue their research next year in a new laboratory.  Exercises:  19. Identify five adverbials in the passage. For each, state its form and semantic role.   Adverbial 1: __________ Form: __________ Semantic role: __________  Adverbial 2: __________ Form: __________ Semantic role: __________  Adverbial 3: __________ Form: __________ Semantic role: __________  Adverbial 4: __________ Form: __________ Semantic role: __________  Adverbial 5: __________ Form: __________ Semantic role: __________   20. The passage contains both Surprisingly and diligently . Explain why Surprisingly is a disjunct while diligently is an adjunct.   __________   21. Rewrite the first sentence of the passage with the adverbial yesterday in three different positions. Explain how the emphasis changes in each version.   Position 1: __________  Effect on emphasis: __________  Position 2: __________  Effect on emphasis: __________  Position 3: __________  Effect on emphasis: __________    "
 },
 {
-  "id": "ch-12-adverbials-10",
+  "id": "ch-12-diagram-examples",
   "level": "1",
-  "url": "ch-12-adverbials-10.html",
-  "type": "Glossary",
+  "url": "ch-12-diagram-examples.html",
+  "type": "Section",
   "number": "12.8",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for adverbial structures introduced in this chapter.   Adverb as Adverbial   Adverb modifying verb: She spoke quietly.   Syntax tree for \"She spoke quietly\" showing adverb modifying verb    [S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]]]]   Sentence adverb: Unfortunately, she lost.   Syntax tree for \"Unfortunately, she lost\" showing sentence adverb    [S [ADVP [ADV Unfortunately]] [S [NP [PRON she]] [VP [V lost]]]]    PP as Adverbial   PP in VP (adverbial): She works at home.   Syntax tree for \"She works at home\" showing PP as adverbial    [S [NP [PRON She]] [VP [V works] [PP [PREP at] [NP [N home]]]]]    Other Adverbial Structures   Noun functioning as adverbial: I sleep every day.   Syntax tree for \"I sleep every day\" showing noun phrase as adverbial    [S [NP [PRON I]] [VP [V sleep] [NP [DET every] [N day]]]]   Present participle as adverbial: I left running.   Syntax tree for \"I left running\" showing participle as adverbial    [S [NP [PRON I]] [VP [V left] [VP [V running]]]]   Infinitive as adverbial: I went to run.   Syntax tree for \"I went to run\" showing infinitive as adverbial    [S [NP [PRON I]] [VP [V went] [VP [PREP to] [V run]]]]   Multiple adverbials: She spoke quietly in the library.   Syntax tree for \"She spoke quietly in the library\" showing multiple adverbials    [S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N library]]]]]   "
+},
+{
+  "id": "fig-ch12-ex-adv-verb",
+  "level": "2",
+  "url": "ch-12-diagram-examples.html#fig-ch12-ex-adv-verb",
+  "type": "Figure",
+  "number": "12.8.1",
+  "title": "",
+  "body": " Adverb modifying verb: She spoke quietly.   Syntax tree for \"She spoke quietly\" showing adverb modifying verb   "
+},
+{
+  "id": "fig-ch12-ex-sent-adv",
+  "level": "2",
+  "url": "ch-12-diagram-examples.html#fig-ch12-ex-sent-adv",
+  "type": "Figure",
+  "number": "12.8.2",
+  "title": "",
+  "body": " Sentence adverb: Unfortunately, she lost.   Syntax tree for \"Unfortunately, she lost\" showing sentence adverb   "
+},
+{
+  "id": "fig-ch12-ex-pp-adv",
+  "level": "2",
+  "url": "ch-12-diagram-examples.html#fig-ch12-ex-pp-adv",
+  "type": "Figure",
+  "number": "12.8.3",
+  "title": "",
+  "body": " PP in VP (adverbial): She works at home.   Syntax tree for \"She works at home\" showing PP as adverbial   "
+},
+{
+  "id": "fig-ch12-ex-noun-adv",
+  "level": "2",
+  "url": "ch-12-diagram-examples.html#fig-ch12-ex-noun-adv",
+  "type": "Figure",
+  "number": "12.8.4",
+  "title": "",
+  "body": " Noun functioning as adverbial: I sleep every day.   Syntax tree for \"I sleep every day\" showing noun phrase as adverbial   "
+},
+{
+  "id": "fig-ch12-ex-part-adv",
+  "level": "2",
+  "url": "ch-12-diagram-examples.html#fig-ch12-ex-part-adv",
+  "type": "Figure",
+  "number": "12.8.5",
+  "title": "",
+  "body": " Present participle as adverbial: I left running.   Syntax tree for \"I left running\" showing participle as adverbial   "
+},
+{
+  "id": "fig-ch12-ex-inf-adv",
+  "level": "2",
+  "url": "ch-12-diagram-examples.html#fig-ch12-ex-inf-adv",
+  "type": "Figure",
+  "number": "12.8.6",
+  "title": "",
+  "body": " Infinitive as adverbial: I went to run.   Syntax tree for \"I went to run\" showing infinitive as adverbial   "
+},
+{
+  "id": "fig-ch12-ex-multiple",
+  "level": "2",
+  "url": "ch-12-diagram-examples.html#fig-ch12-ex-multiple",
+  "type": "Figure",
+  "number": "12.8.7",
+  "title": "",
+  "body": " Multiple adverbials: She spoke quietly in the library.   Syntax tree for \"She spoke quietly in the library\" showing multiple adverbials   "
+},
+{
+  "id": "ch-12-adverbials-11",
+  "level": "1",
+  "url": "ch-12-adverbials-11.html",
+  "type": "Glossary",
+  "number": "12.9",
   "title": "Glossary",
   "body": " Glossary   Adjunct  An adverbial integrated into clause structure, modifying the verb or clause content.    Adverb  A part of speech that typically modifies verbs, adjectives, or other adverbs.    Adverb clause  A dependent clause functioning as an adverbial, introduced by a subordinating conjunction.    Adverbial  Any word, phrase, or clause functioning to modify a verb, adjective, adverb, or sentence.    Conjunct  An adverbial that connects sentences or shows logical relationships.    Disjunct  An adverbial expressing the speaker's attitude or evaluation, external to the proposition.    Subordinating conjunction  A word that introduces a dependent clause ( when , because , although , etc.).   "
 },
@@ -1396,11 +2107,56 @@ var ptx_lunr_docs = [
   "body": "23. "
 },
 {
-  "id": "ch-13-adjectivals-11",
+  "id": "ch-13-diagram-examples",
   "level": "1",
-  "url": "ch-13-adjectivals-11.html",
-  "type": "Glossary",
+  "url": "ch-13-diagram-examples.html",
+  "type": "Section",
   "number": "13.9",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for nominal structures (noun clauses) introduced in this chapter.   Complement Clauses   That-clause in object position: I know that you cry.   Syntax tree for \"I know that you cry\" showing complement clause as object    [S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]   That-clause in subject position: That you cry upsets me.   Syntax tree for \"That you cry upsets me\" showing complement clause as subject    [S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]   If\/whether-clause in object position: I wonder if you cry.   Syntax tree for \"I wonder if you cry\" showing if-clause as object    [S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]   Missing complementizer: I know you cry.   Syntax tree for \"I know you cry\" showing omitted complementizer    [S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]   "
+},
+{
+  "id": "fig-ch13-ex-that-obj",
+  "level": "2",
+  "url": "ch-13-diagram-examples.html#fig-ch13-ex-that-obj",
+  "type": "Figure",
+  "number": "13.9.1",
+  "title": "",
+  "body": " That-clause in object position: I know that you cry.   Syntax tree for \"I know that you cry\" showing complement clause as object   "
+},
+{
+  "id": "fig-ch13-ex-that-subj",
+  "level": "2",
+  "url": "ch-13-diagram-examples.html#fig-ch13-ex-that-subj",
+  "type": "Figure",
+  "number": "13.9.2",
+  "title": "",
+  "body": " That-clause in subject position: That you cry upsets me.   Syntax tree for \"That you cry upsets me\" showing complement clause as subject   "
+},
+{
+  "id": "fig-ch13-ex-if",
+  "level": "2",
+  "url": "ch-13-diagram-examples.html#fig-ch13-ex-if",
+  "type": "Figure",
+  "number": "13.9.3",
+  "title": "",
+  "body": " If\/whether-clause in object position: I wonder if you cry.   Syntax tree for \"I wonder if you cry\" showing if-clause as object   "
+},
+{
+  "id": "fig-ch13-ex-missing-comp",
+  "level": "2",
+  "url": "ch-13-diagram-examples.html#fig-ch13-ex-missing-comp",
+  "type": "Figure",
+  "number": "13.9.4",
+  "title": "",
+  "body": " Missing complementizer: I know you cry.   Syntax tree for \"I know you cry\" showing omitted complementizer   "
+},
+{
+  "id": "ch-13-adjectivals-12",
+  "level": "1",
+  "url": "ch-13-adjectivals-12.html",
+  "type": "Glossary",
+  "number": "13.10",
   "title": "Glossary",
   "body": " Glossary   Adjectival  Any word, phrase, or clause functioning to modify a noun.    Adjective  A part of speech that typically modifies nouns and can be graded.    Attributive position  The position before a noun in the NP ( the tall man ).    Dangling participle  A participial phrase that doesn't clearly modify the intended noun.    Non-restrictive modifier  A modifier that adds supplementary information; set off with commas.    Participial phrase  A phrase built on a participle (present or past) functioning adjectivally.    Post-modifier  A modifier that follows the noun it modifies.    Pre-modifier  A modifier that precedes the noun it modifies.    Predicative position  The position after a linking verb ( The man is tall ).    Relative clause  A dependent clause introduced by a relative pronoun or adverb, modifying a noun.    Restrictive modifier  A modifier that identifies or limits the referent; no commas.   "
 },
@@ -1792,11 +2548,101 @@ var ptx_lunr_docs = [
   "body": "26. "
 },
 {
-  "id": "ch-14-nominals-11",
+  "id": "ch-14-diagram-examples",
   "level": "1",
-  "url": "ch-14-nominals-11.html",
-  "type": "Glossary",
+  "url": "ch-14-diagram-examples.html",
+  "type": "Section",
   "number": "14.9",
+  "title": "Diagram Examples",
+  "body": " Diagram Examples  This section provides reference diagrams for adjectival structures introduced in this chapter.   Adjective Positions   Attributive position: the tall man   Syntax tree for \"the tall man\" showing adjective in attributive position    [NP [DET the] [ADJ tall] [N man]]   Predicative position: She is happy.   Syntax tree for \"She is happy\" showing adjective in predicative position    [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]    PP as Adjectival   PP modifying noun: the man in the hat   Syntax tree for \"the man in the hat\" showing PP as adjectival    [NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]    Participial Phrases as Adjectivals   Present participle as adjectival: the running dog barks   Syntax tree for \"the running dog barks\" showing present participle modifying noun    [S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]   Past participle as adjectival: the frightened dog barks   Syntax tree for \"the frightened dog barks\" showing past participle modifying noun    [S [NP [DET the] [VP [V frightened]] [N dog]] [VP [V barks]]]    Relative Clauses   Relative clause (who as subject): the dog who barks sleeps   Syntax tree for \"the dog who barks sleeps\" showing relative clause with who as subject    [S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]   Relative clause (that + subject): the dog that I saw sleeps   Syntax tree for \"the dog that I saw sleeps\" showing relative clause with that as relativizer    [S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   Relative clause (where): I saw the place where you live.   Syntax tree for \"I saw the place where you live\" showing relative clause with relative adverb    [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]   Empty relativizer: the dog I saw sleeps   Syntax tree for \"the dog I saw sleeps\" showing relative clause with empty relativizer    [S [NP [DET the] [N dog] [RC [REL _] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   "
+},
+{
+  "id": "fig-ch14-ex-attributive",
+  "level": "2",
+  "url": "ch-14-diagram-examples.html#fig-ch14-ex-attributive",
+  "type": "Figure",
+  "number": "14.9.1",
+  "title": "",
+  "body": " Attributive position: the tall man   Syntax tree for \"the tall man\" showing adjective in attributive position   "
+},
+{
+  "id": "fig-ch14-ex-predicative",
+  "level": "2",
+  "url": "ch-14-diagram-examples.html#fig-ch14-ex-predicative",
+  "type": "Figure",
+  "number": "14.9.2",
+  "title": "",
+  "body": " Predicative position: She is happy.   Syntax tree for \"She is happy\" showing adjective in predicative position   "
+},
+{
+  "id": "fig-ch14-ex-pp-adj",
+  "level": "2",
+  "url": "ch-14-diagram-examples.html#fig-ch14-ex-pp-adj",
+  "type": "Figure",
+  "number": "14.9.3",
+  "title": "",
+  "body": " PP modifying noun: the man in the hat   Syntax tree for \"the man in the hat\" showing PP as adjectival   "
+},
+{
+  "id": "fig-ch14-ex-present-part",
+  "level": "2",
+  "url": "ch-14-diagram-examples.html#fig-ch14-ex-present-part",
+  "type": "Figure",
+  "number": "14.9.4",
+  "title": "",
+  "body": " Present participle as adjectival: the running dog barks   Syntax tree for \"the running dog barks\" showing present participle modifying noun   "
+},
+{
+  "id": "fig-ch14-ex-past-part",
+  "level": "2",
+  "url": "ch-14-diagram-examples.html#fig-ch14-ex-past-part",
+  "type": "Figure",
+  "number": "14.9.5",
+  "title": "",
+  "body": " Past participle as adjectival: the frightened dog barks   Syntax tree for \"the frightened dog barks\" showing past participle modifying noun   "
+},
+{
+  "id": "fig-ch14-ex-relcl-who",
+  "level": "2",
+  "url": "ch-14-diagram-examples.html#fig-ch14-ex-relcl-who",
+  "type": "Figure",
+  "number": "14.9.6",
+  "title": "",
+  "body": " Relative clause (who as subject): the dog who barks sleeps   Syntax tree for \"the dog who barks sleeps\" showing relative clause with who as subject   "
+},
+{
+  "id": "fig-ch14-ex-relcl-that",
+  "level": "2",
+  "url": "ch-14-diagram-examples.html#fig-ch14-ex-relcl-that",
+  "type": "Figure",
+  "number": "14.9.7",
+  "title": "",
+  "body": " Relative clause (that + subject): the dog that I saw sleeps   Syntax tree for \"the dog that I saw sleeps\" showing relative clause with that as relativizer   "
+},
+{
+  "id": "fig-ch14-ex-relcl-where",
+  "level": "2",
+  "url": "ch-14-diagram-examples.html#fig-ch14-ex-relcl-where",
+  "type": "Figure",
+  "number": "14.9.8",
+  "title": "",
+  "body": " Relative clause (where): I saw the place where you live.   Syntax tree for \"I saw the place where you live\" showing relative clause with relative adverb   "
+},
+{
+  "id": "fig-ch14-ex-relcl-empty",
+  "level": "2",
+  "url": "ch-14-diagram-examples.html#fig-ch14-ex-relcl-empty",
+  "type": "Figure",
+  "number": "14.9.9",
+  "title": "",
+  "body": " Empty relativizer: the dog I saw sleeps   Syntax tree for \"the dog I saw sleeps\" showing relative clause with empty relativizer   "
+},
+{
+  "id": "ch-14-nominals-12",
+  "level": "1",
+  "url": "ch-14-nominals-12.html",
+  "type": "Glossary",
+  "number": "14.10",
   "title": "Glossary",
   "body": " Glossary   Gerund  The -ing form of a verb functioning nominally.    Gerund phrase  A gerund with its complements and modifiers, functioning as a nominal.    Infinitive phrase (nominal)  A to + verb phrase functioning as a subject, object, or complement.    Nominal  Any word, phrase, or clause functioning in a position typically occupied by a noun phrase.    Nominalized adjective  An adjective with a determiner functioning as a noun ( the poor ).    Noun  A part of speech naming people, places, things, or ideas.    Noun clause  A dependent clause functioning as a nominal.    That-clause  A noun clause introduced by that .    Wh-clause  A noun clause introduced by a wh-word ( what , where , whether , etc.).   "
 },
