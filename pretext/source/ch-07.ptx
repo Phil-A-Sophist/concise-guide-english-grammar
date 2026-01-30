@@ -594,6 +594,233 @@
 
   </section>
 
+  <section xml:id="ch-07-homework">
+    <title>Homework: Introduction to Sentence Diagramming</title>
+
+    <subsection xml:id="ch-07-homework-part1">
+      <title>Part 1: Subject and Predicate Identification</title>
+
+      <p><em>Instructions:</em> For each sentence, identify the complete subject NP and the complete predicate VP. Then identify the head of each.</p>
+
+      <p><em>Example (completed):</em></p>
+
+      <p><em>Sentence:</em> <em>The exhausted marathon runner from Kenya finally collapsed at the finish line.</em></p>
+
+      <ul>
+        <li><p>Subject NP: <em>The exhausted marathon runner from Kenya</em></p></li>
+        <li><p>Head of subject NP: <em>runner</em></p></li>
+        <li><p>Predicate VP: <em>finally collapsed at the finish line</em></p></li>
+        <li><p>Head of predicate VP: <em>collapsed</em></p></li>
+      </ul>
+
+      <p><em>Exercises:</em></p>
+
+      <p><em>1.</em> <em>The curious students from the advanced chemistry class carefully examined the unusual compound.</em></p>
+
+      <ul>
+        <li><p>Subject NP: _____</p></li>
+        <li><p>Head of subject NP: _____</p></li>
+        <li><p>Predicate VP: _____</p></li>
+        <li><p>Head of predicate VP: _____</p></li>
+      </ul>
+
+      <p><em>2.</em> <em>My extremely talented older sister from Portland won the national competition.</em></p>
+
+      <ul>
+        <li><p>Subject NP: _____</p></li>
+        <li><p>Head of subject NP: _____</p></li>
+        <li><p>Predicate VP: _____</p></li>
+        <li><p>Head of predicate VP: _____</p></li>
+      </ul>
+
+      <p><em>3.</em> <em>Several angry protesters outside the courthouse demanded immediate action.</em></p>
+
+      <ul>
+        <li><p>Subject NP: _____</p></li>
+        <li><p>Head of subject NP: _____</p></li>
+        <li><p>Predicate VP: _____</p></li>
+        <li><p>Head of predicate VP: _____</p></li>
+      </ul>
+
+    </subsection>
+
+    <subsection xml:id="ch-07-homework-part2">
+      <title>Part 2: Heads and Modifiers</title>
+
+      <p><em>Instructions:</em> For each phrase, identify the head and list all modifiers. Classify each modifier by type (determiner, adjective, adverb, prepositional phrase, etc.).</p>
+
+      <p><em>Example (completed):</em></p>
+
+      <p><em>Phrase:</em> <em>the very tall young basketball player from Chicago</em></p>
+
+      <ul>
+        <li><p>Head: <em>player</em></p></li>
+        <li><p>Modifiers:</p>
+          <ul>
+            <li><p><em>the</em> — determiner</p></li>
+            <li><p><em>very tall</em> — adjective phrase (containing adverb "very" + adjective "tall")</p></li>
+            <li><p><em>young</em> — adjective</p></li>
+            <li><p><em>basketball</em> — noun (functioning adjectivally)</p></li>
+            <li><p><em>from Chicago</em> — prepositional phrase</p></li>
+          </ul>
+        </li>
+      </ul>
+
+      <p><em>Exercises:</em></p>
+
+      <p><em>4.</em> <em>my grandmother's beautiful antique wooden jewelry box</em></p>
+
+      <ul>
+        <li><p>Head: _____</p></li>
+        <li><p>Modifiers: _____</p></li>
+      </ul>
+
+      <p><em>5.</em> <em>extremely carefully</em></p>
+
+      <ul>
+        <li><p>Head: _____</p></li>
+        <li><p>Modifiers: _____</p></li>
+      </ul>
+
+      <p><em>6.</em> <em>quite proud of her remarkable achievement</em></p>
+
+      <ul>
+        <li><p>Head: _____</p></li>
+        <li><p>Modifiers: _____</p></li>
+      </ul>
+
+    </subsection>
+
+    <subsection xml:id="ch-07-homework-part3">
+      <title>Part 3: Sentence Writing</title>
+
+      <p><em>Instructions:</em> Write original sentences following each prompt.</p>
+
+      <p><em>Exercises:</em></p>
+
+      <p><em>7.</em> Write a sentence following the basic S → NP + VP structure with a complex subject NP containing at least a determiner, an adjective, and a prepositional phrase:</p>
+
+      <ul>
+        <li><p>Your sentence: _____</p></li>
+      </ul>
+
+      <p><em>8.</em> Write a sentence that is structurally ambiguous (has two possible meanings due to different possible structures). Then explain both meanings.</p>
+
+      <ul>
+        <li><p>Sentence: _____</p></li>
+        <li><p>Meaning 1: _____</p></li>
+        <li><p>Meaning 2: _____</p></li>
+      </ul>
+
+      <p><em>9.</em> Expand the simple sentence below by adding modifiers to both the subject NP and the predicate VP:</p>
+
+      <p>Original: <em>Dogs bark.</em></p>
+
+      <ul>
+        <li><p>Your expanded version: _____</p></li>
+      </ul>
+
+    </subsection>
+
+    <subsection xml:id="ch-07-homework-part4">
+      <title>Part 4: Tree Diagram Analysis</title>
+
+      <p><em>Instructions:</em> For each sentence, draw a tree diagram showing its hierarchical structure. Label all nodes (S, NP, VP, PP, Det, N, V, Adj, Adv, Prep, etc.). You may draw by hand and photograph, use a digital tool, or describe the structure in bracket notation.</p>
+
+      <p><em>Example (completed):</em></p>
+
+      <p><em>Sentence:</em> <em>The cat slept.</em></p>
+
+      <p>Tree diagram (bracket notation): [S [NP [Det the] [N cat]] [VP [V slept]]]</p>
+
+      <p>Or as a visual tree:</p>
+
+      <pre>
+       S
+     /   \
+   NP     VP
+  /  \     |
+Det   N    V
+ |    |    |
+the  cat  slept
+      </pre>
+
+      <p><em>Exercises:</em></p>
+
+      <p><em>10.</em> Diagram: <em>The dog barked loudly.</em></p>
+
+      <ul>
+        <li><p>Your diagram: _____</p></li>
+      </ul>
+
+      <p><em>11.</em> Diagram: <em>The talented student from Ohio won the award.</em></p>
+
+      <ul>
+        <li><p>Your diagram: _____</p></li>
+      </ul>
+
+      <p><em>12.</em> Diagram: <em>She carefully read the interesting book in the library.</em></p>
+
+      <ul>
+        <li><p>Your diagram: _____</p></li>
+      </ul>
+
+    </subsection>
+
+    <subsection xml:id="ch-07-homework-part5">
+      <title>Part 5: Structural Ambiguity Analysis</title>
+
+      <p><em>Instructions:</em> Analyze the structurally ambiguous sentences below.</p>
+
+      <p><em>Exercises:</em></p>
+
+      <p><em>13.</em> The sentence <em>I saw the man with the telescope</em> is structurally ambiguous.</p>
+
+      <p>a) Describe the two possible meanings:</p>
+
+      <ul>
+        <li><p>Meaning 1: _____</p></li>
+        <li><p>Meaning 2: _____</p></li>
+      </ul>
+
+      <p>b) For each meaning, explain how the PP "with the telescope" attaches differently:</p>
+
+      <ul>
+        <li><p>Attachment for Meaning 1: _____</p></li>
+        <li><p>Attachment for Meaning 2: _____</p></li>
+      </ul>
+
+      <p>c) Draw or describe a simple tree structure for ONE of the readings:</p>
+
+      <ul>
+        <li><p>Your tree structure: _____</p></li>
+      </ul>
+
+      <p><em>14.</em> The sentence <em>Old men and women attended the meeting</em> is structurally ambiguous.</p>
+
+      <p>a) Describe the two possible meanings:</p>
+
+      <ul>
+        <li><p>Meaning 1: _____</p></li>
+        <li><p>Meaning 2: _____</p></li>
+      </ul>
+
+      <p>b) Explain what structural difference creates the ambiguity:</p>
+
+      <ul>
+        <li><p>Your explanation: _____</p></li>
+      </ul>
+
+      <p><em>15.</em> In 3-4 sentences, explain why understanding hierarchical sentence structure (as shown in tree diagrams) matters for both reading comprehension and clear writing. Use a specific example to support your explanation.</p>
+
+      <ul>
+        <li><p>Your response: _____</p></li>
+      </ul>
+
+    </subsection>
+
+  </section>
+
   <glossary>
     <title>Glossary</title>
     <gi>
