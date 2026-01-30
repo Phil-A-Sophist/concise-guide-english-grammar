@@ -1,0 +1,163 @@
+#!/usr/bin/env python3
+"""
+Build script for Concise Guide to English Grammar.
+
+Usage:
+    python build.py           # Build both HTML and EPUB
+    python build.py html      # Build HTML only
+    python build.py epub      # Build EPUB only
+"""
+
+import subprocess
+import shutil
+import sys
+import os
+from pathlib import Path
+
+# Paths
+ROOT = Path(__file__).parent
+OUTPUT_WEB = ROOT / "output" / "web"
+DOCS_DIR = ROOT / "docs"
+EPUB_DIR = ROOT / "epub"
+PANDOC_PATH = Path(os.environ.get("LOCALAPPDATA", "")) / "Pandoc" / "pandoc.exe"
+
+# Book metadata for EPUB
+METADATA = {
+    "title": "A Concise Guide to English Grammar",
+    "author": "Phil A. Sophist",
+    "language": "en-US",
+}
+
+# Chapter order for EPUB
+CHAPTERS = [
+    "frontmatter.html",
+    "ch-01-introduction-to-linguistics-and-grammar.html",
+    "ch-02-prescriptive-vs-descriptive-grammar.html",
+    "ch-03-language-varieties.html",
+    "ch-04-morphology-and-word-structure.html",
+    "ch-05-open-classes.html",
+    "ch-06-closed-classes.html",
+    "ch-07-introduction-to-sentence-diagramming.html",
+    "ch-08-basic-sentence-elements-and-sentence-patterns.html",
+    "ch-09-compound-and-complex-sentences.html",
+    "ch-10-verbs-part-one-tense-and-aspect.html",
+    "ch-11-verbs-part-two-voice-and-modals.html",
+    "ch-12-adverbials.html",
+    "ch-13-nominals.html",
+    "ch-14-adjectivals.html",
+    "ch-15-punctuation.html",
+    "ch-16-other-grammatical-forms.html",
+    "ch-17-stylistic-choices.html",
+    "ch-18-clarity-and-readability.html",
+    "ch-19-organization-and-concision.html",
+    "ch-20-genre-and-register.html",
+    "ch-21-teaching-grammar.html",
+    "backmatter.html",
+]
+
+
+def build_html():
+    """Build HTML using PreTeXt."""
+    print("Building HTML with PreTeXt...")
+    result = subprocess.run(
+        ["pretext", "build", "web"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True
+    )
+
+    if result.returncode != 0:
+        print(f"PreTeXt build failed:\n{result.stderr}")
+        return False
+
+    # Copy output to docs/ for GitHub Pages
+    print("Copying to docs/ for GitHub Pages...")
+    if DOCS_DIR.exists():
+        shutil.rmtree(DOCS_DIR)
+    shutil.copytree(OUTPUT_WEB, DOCS_DIR)
+
+    print("HTML build complete!")
+    return True
+
+
+def find_section_files(chapter_base: str) -> list[str]:
+    """Find all section files for a chapter."""
+    base = chapter_base.replace(".html", "")
+    section_files = []
+    for f in sorted(DOCS_DIR.glob(f"{base}-sec-*.html")):
+        section_files.append(f.name)
+    return section_files
+
+
+def build_epub():
+    """Build EPUB from HTML using Pandoc."""
+    print("Building EPUB with Pandoc...")
+
+    if not DOCS_DIR.exists():
+        print("Error: docs/ folder not found. Run 'python build.py html' first.")
+        return False
+
+    # Build file list
+    html_files = []
+    for chapter in CHAPTERS:
+        chapter_path = DOCS_DIR / chapter
+        if chapter_path.exists():
+            html_files.append(chapter_path)
+            for section in find_section_files(chapter):
+                section_path = DOCS_DIR / section
+                if section_path.exists():
+                    html_files.append(section_path)
+
+    if not html_files:
+        print("Error: No HTML files found!")
+        return False
+
+    print(f"Processing {len(html_files)} HTML files...")
+
+    # Ensure epub directory exists
+    EPUB_DIR.mkdir(exist_ok=True)
+    output_file = EPUB_DIR / "Concise_Guide_to_English_Grammar.epub"
+
+    # Build Pandoc command
+    cmd = [
+        str(PANDOC_PATH),
+        "-f", "html",
+        "-t", "epub",
+        "-o", str(output_file),
+        f"--metadata=title:{METADATA['title']}",
+        f"--metadata=author:{METADATA['author']}",
+        f"--metadata=lang:{METADATA['language']}",
+        "--toc",
+        "--toc-depth=2",
+    ]
+    cmd.extend(str(f) for f in html_files)
+
+    result = subprocess.run(cmd, capture_output=True, text=True, cwd=DOCS_DIR)
+
+    if result.returncode != 0:
+        print(f"Pandoc failed:\n{result.stderr}")
+        return False
+
+    size_kb = output_file.stat().st_size / 1024
+    print(f"EPUB build complete: {output_file.name} ({size_kb:.1f} KB)")
+    return True
+
+
+def main():
+    args = sys.argv[1:]
+
+    if not args or "html" in args:
+        if not build_html():
+            sys.exit(1)
+
+    if not args or "epub" in args:
+        if not build_epub():
+            sys.exit(1)
+
+    print("\nBuild complete!")
+    print(f"  HTML: {DOCS_DIR}/")
+    print(f"  EPUB: {EPUB_DIR}/Concise_Guide_to_English_Grammar.epub")
+
+
+if __name__ == "__main__":
+    main()
