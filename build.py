@@ -79,8 +79,46 @@ def build_html():
     # Add .nojekyll file for GitHub Pages (allows _static folder)
     (DOCS_DIR / ".nojekyll").touch()
 
+    # Add custom CSS overrides
+    apply_custom_css()
+
     print("HTML build complete!")
     return True
+
+
+# Custom CSS to append to theme.css
+CUSTOM_CSS = """
+/* Custom CSS for Concise Guide to English Grammar */
+
+/* Widen the main content area for better readability on larger screens */
+.ptx-main .ptx-content {
+    max-width: 900px;
+}
+.ptx-content-footer {
+    max-width: 900px;
+}
+
+/* Consistent table alignment - all tables left-aligned */
+.tabular-box {
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+
+/* Ensure tables inside paragraphs sections are also left-aligned */
+.paragraphs .tabular-box,
+section .tabular-box {
+    margin-left: 0 !important;
+}
+"""
+
+
+def apply_custom_css():
+    """Append custom CSS to the theme.css file."""
+    theme_css = DOCS_DIR / "_static" / "pretext" / "css" / "theme.css"
+    if theme_css.exists():
+        with open(theme_css, "a", encoding="utf-8") as f:
+            f.write(CUSTOM_CSS)
+        print("Applied custom CSS overrides.")
 
 
 def find_section_files(chapter_base: str) -> list[str]:
