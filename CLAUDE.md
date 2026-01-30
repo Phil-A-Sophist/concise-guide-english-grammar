@@ -69,10 +69,19 @@ python build.py epub      # Build EPUB only
    - Runs `pretext build web`
    - Copies output from `pretext/output/web/` to `docs/`
    - Creates `.nojekyll` file for GitHub Pages
+   - Applies custom CSS overrides (wider content area, consistent table alignment)
 
 2. **EPUB Build:**
    - Converts HTML from `docs/` to EPUB using Pandoc
    - Outputs to `epub/Concise_Guide_to_English_Grammar.epub`
+
+### Custom CSS
+
+The build script automatically appends custom CSS to `docs/_static/pretext/css/theme.css` after each build. This provides:
+- **Wider content area** (900px instead of default 696px) for better readability
+- **Consistent table alignment** (all tables left-aligned)
+
+To modify these customizations, edit the `CUSTOM_CSS` constant in `build.py`.
 
 ### Output Locations
 
