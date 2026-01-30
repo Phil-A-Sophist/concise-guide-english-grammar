@@ -8,14 +8,36 @@
   </titlepage>
 
   <colophon xml:id="front-colophon">
-    <edition>First Edition, 2025</edition>
+    <title>Bibliographic Information</title>
+
+    <credit>
+      <role>Title</role>
+      <entity>A Concise Guide to English Grammar</entity>
+    </credit>
+
+    <credit>
+      <role>Author</role>
+      <entity>Phillip Haisley</entity>
+    </credit>
+
+    <credit>
+      <role>Publisher</role>
+      <entity>Declaude Publishing</entity>
+    </credit>
+
+    <credit>
+      <role>Year</role>
+      <entity>2026</entity>
+    </credit>
+
+    <edition>First Edition, 2026</edition>
 
     <website>
       <url href="https://phil-a-sophist.github.io/concise-guide-english-grammar/">Online Version</url>
     </website>
 
     <copyright>
-      <year>2025</year>
+      <year>2026</year>
       <holder>Phillip Haisley</holder>
       <shortlicense>
         <p>
@@ -33,4 +55,15 @@
       </shortlicense>
     </copyright>
   </colophon>
+
+  <preface xml:id="front-citation">
+    <title>How to Cite This Book</title>
+    <p>To cite this book, please use one of the following formats:</p>
+
+    <p><alert>MLA (9th Edition):</alert></p>
+    <p>Haisley, Phillip. <em>A Concise Guide to English Grammar</em>. Declaude Publishing, 2026. <url href="https://phil-a-sophist.github.io/concise-guide-english-grammar/">https://phil-a-sophist.github.io/concise-guide-english-grammar/</url>.</p>
+
+    <p><alert>APA (7th Edition):</alert></p>
+    <p>Haisley, P. (2026). <em>A Concise Guide to English Grammar</em>. Declaude Publishing. <url href="https://phil-a-sophist.github.io/concise-guide-english-grammar/">https://phil-a-sophist.github.io/concise-guide-english-grammar/</url></p>
+  </preface>
 </frontmatter>

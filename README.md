@@ -2,42 +2,107 @@
 
 An open educational resource (OER) textbook for undergraduate English grammar courses.
 
+**[Read Online](https://phil-a-sophist.github.io/concise-guide-english-grammar/)**
+
 ---
 
-## For AI Assistants (Claude Code)
+## Project Overview
 
-**IMPORTANT: Before editing or creating any content for this book, you MUST read `STYLE_GUIDE.md` to ensure consistency with existing chapters.**
-
-The style guide defines:
-- Header levels and formatting
-- Example presentation formats
-- List and table conventions
-- Homework section structure
-- Common mistakes to avoid
-
-**After completing edits, always:**
-1. Regenerate the EPUB using `generate_epub.py`
-2. Rebuild the web version using `pretext build web`
-3. Check both EPUB and HTML output for formatting issues
+- **Type:** Open educational resource (OER) college textbook
+- **Subject:** English grammar for undergraduate students
+- **Structure:** 21 chapters organized thematically
+- **Source format:** PreTeXt XML
+- **Output formats:** HTML (GitHub Pages), EPUB
 
 ---
 
 ## Project Structure
 
 ```
-concise_guide_to_english_grammar/
-├── chapters/           # Markdown source files for each chapter
-├── Homework/           # Separate homework files and answer keys
-├── assets/
-│   ├── diagrams/       # SVG diagram files
-│   └── images/         # Other images
-├── guides/             # Reference guides (diagramming, etc.)
-├── scripts/            # Generation scripts
-├── STYLE_GUIDE.md      # Formatting conventions (READ FIRST)
-├── CLAUDE.md           # Project configuration for Claude Code
-├── generate_epub.py    # EPUB generation script
-└── README.md           # This file
+concise-guide-english-grammar/
+├── pretext/
+│   ├── source/           # PreTeXt .ptx files (single source of truth)
+│   ├── config/           # publication.ptx configuration
+│   └── output/           # Temporary build output (gitignored)
+├── docs/                 # HTML output for GitHub Pages
+├── epub/                 # EPUB output
+├── assets/               # Images and diagrams
+├── Homework/             # Word files for student download
+├── reference_materials/  # Style guides, outlines, instructor materials
+├── scripts/              # Utility scripts
+├── build.py              # Build script
+├── project.ptx           # PreTeXt project configuration
+├── CLAUDE.md             # AI assistant instructions
+└── README.md             # This file
 ```
+
+---
+
+## Building the Book
+
+### Prerequisites
+
+- Python 3.x
+- PreTeXt CLI (`pip install pretext`)
+- Node.js (required by PreTeXt)
+- Pandoc (for EPUB generation)
+
+### Build Commands
+
+Run from the repository root:
+
+```bash
+python build.py           # Build both HTML and EPUB
+python build.py html      # Build HTML only
+python build.py epub      # Build EPUB only
+```
+
+### What the Build Does
+
+1. **HTML Build:**
+   - Runs `pretext build web`
+   - Copies output to `docs/` for GitHub Pages
+   - Creates `.nojekyll` file (required for GitHub Pages)
+
+2. **EPUB Build:**
+   - Converts HTML from `docs/` to EPUB using Pandoc
+   - Outputs to `epub/Concise_Guide_to_English_Grammar.epub`
+
+### Output Locations
+
+| Format | Location | Purpose |
+|--------|----------|---------|
+| HTML | `docs/` | GitHub Pages hosting |
+| EPUB | `epub/Concise_Guide_to_English_Grammar.epub` | Downloadable ebook |
+
+### Homework Workflow
+
+When homework sections are created or updated in PreTeXt:
+1. Build the HTML version
+2. Create a corresponding Word (.docx) file in `Homework/`
+3. Format the Word file for digital completion (with space for students to type answers)
+4. Name files: `ch-XX-homework.docx` and `ch-XX-answer-key.docx`
+
+### Commit and Push
+
+All builds should end with committing and pushing all changes to GitHub. This updates the live GitHub Pages site.
+
+---
+
+## Editing Content
+
+### Source of Truth
+
+**PreTeXt XML files** in `pretext/source/` are the single source of truth.
+- Do NOT edit HTML files directly (they are generated)
+- Edit `.ptx` files, then rebuild
+
+### To Edit a Chapter
+
+1. Open the relevant file in `pretext/source/` (e.g., `ch-01.ptx`)
+2. Make changes using PreTeXt XML syntax
+3. Run `python build.py` to rebuild
+4. Verify output in browser and/or EPUB reader
 
 ---
 
@@ -46,12 +111,12 @@ concise_guide_to_english_grammar/
 ### Foundations (Chapters 1-4)
 1. Introduction to Linguistics and Grammar
 2. Prescriptive vs. Descriptive Grammar
-3. Language Varieties (Sociolinguistics)
+3. Language Varieties
 4. Morphology and Word Structure
 
 ### Core Grammar (Chapters 5-9)
-5. Open Classes (nouns, verbs, adjectives, adverbs)
-6. Closed Classes (determiners, pronouns, prepositions)
+5. Open Classes
+6. Closed Classes
 7. Introduction to Sentence Diagramming
 8. Basic Sentence Elements and Sentence Patterns
 9. Compound and Complex Sentences
@@ -62,59 +127,40 @@ concise_guide_to_english_grammar/
 
 ### Form and Function (Chapters 12-15)
 12. Adverbials
-13. Adjectivals
-14. Nominals
+13. Nominals
+14. Adjectivals
 15. Punctuation
 
-### Other Topics (Chapters 16-21)
+### Writing and Style (Chapters 16-19)
 16. Other Grammatical Forms
 17. Stylistic Choices
 18. Clarity and Readability
 19. Organization and Concision
+
+### Applied Grammar (Chapters 20-21)
 20. Genre and Register
-21. Teaching Grammar (L1 and L2)
+21. Teaching Grammar
 
 ---
 
-## Building the Book
+## Reference Materials
 
-### Generate EPUB
-```bash
-cd "Writing Projects/concise_guide_to_english_grammar"
-python generate_epub.py
-```
-
-### Build Web Version
-```bash
-cd /path/to/bookmaker
-python convert_grammar_to_pretext.py  # Update .ptx files
-pretext build web                      # Build HTML
-```
-
-### Deploy to GitHub Pages
-The `docs/` folder in the bookmaker root contains the web version. After building:
-```bash
-cp -r output/web/* docs/
-```
+Located in `reference_materials/`:
+- `STYLE_GUIDE.md` - Writing and formatting conventions
+- `outlines.md` - Chapter outlines
+- `series_bible.md` - Pedagogical approach
+- `REVISION_AUDIT.md` - Chapter quality assessment
+- `PPTs/` - Instructor PowerPoint presentations
 
 ---
 
-## Key Files
+## For AI Assistants
 
-| File | Purpose |
-|------|---------|
-| `STYLE_GUIDE.md` | **Read first** - Formatting conventions |
-| `CLAUDE.md` | Project configuration for Claude Code |
-| `generate_epub.py` | Creates EPUB from markdown chapters |
-| `guides/Diagramming_Guide.md` | Syntax tree diagram conventions |
-
----
-
-## Output Formats
-
-- **EPUB**: Primary format, generated from markdown
-- **HTML**: Web version via PreTeXt, hosted on GitHub Pages
-- **PDF**: Potential future format via PreTeXt
+See `CLAUDE.md` for project-specific instructions, including:
+- Build workflow details
+- Style guide requirements
+- PreTeXt editing basics
+- Post-build cleanup checklist
 
 ---
 

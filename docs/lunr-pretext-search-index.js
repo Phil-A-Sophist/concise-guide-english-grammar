@@ -10,6 +10,15 @@ var ptx_lunr_docs = [
   "body": ""
 },
 {
+  "id": "front-citation",
+  "level": "1",
+  "url": "front-citation.html",
+  "type": "Preface",
+  "number": "",
+  "title": "How to Cite This Book",
+  "body": " How to Cite This Book  To cite this book, please use one of the following formats:  MLA (9th Edition):  Haisley, Phillip. A Concise Guide to English Grammar . Declaude Publishing, 2026. https:\/\/phil-a-sophist.github.io\/concise-guide-english-grammar\/ .  APA (7th Edition):  Haisley, P. (2026). A Concise Guide to English Grammar . Declaude Publishing. https:\/\/phil-a-sophist.github.io\/concise-guide-english-grammar\/  "
+},
+{
   "id": "ch-01-introduction-to-linguistics-and-grammar-sec-11",
   "level": "1",
   "url": "ch-01-introduction-to-linguistics-and-grammar-sec-11.html",
