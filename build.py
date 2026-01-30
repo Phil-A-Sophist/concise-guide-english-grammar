@@ -119,6 +119,16 @@ CUSTOM_CSS = """
 section .tabular-box {
     margin-left: 0 !important;
 }
+
+/* Diagram example labels - larger font for easy skimming */
+[id*="diagrams-np"] .paragraphs .heading .title,
+[id*="diagrams-vp"] .paragraphs .heading .title,
+[id*="diagrams-adjp"] .paragraphs .heading .title,
+[id*="diagrams-advp"] .paragraphs .heading .title {
+    font-size: 1.25em !important;
+    font-weight: 600 !important;
+    color: #2c5282 !important;
+}
 """
 
 

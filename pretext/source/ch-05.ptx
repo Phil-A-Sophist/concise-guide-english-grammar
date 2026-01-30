@@ -1523,120 +1523,120 @@
     <subsection xml:id="ch-05-diagrams-np">
       <title>Noun Phrase Examples</title>
 
-      <figure xml:id="fig-ch05-ex-np-simple">
-        <caption>Simple NP: noun only</caption>
-        <image source="diagrams/new/ch08_simple_np.png" width="15%">
-          <description>Syntax tree for "dogs" showing NP with only N</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.1 A: Simple NP (noun only)</title>
+      </paragraphs>
+      <image source="diagrams/new/ch08_simple_np.png" width="15%">
+        <description>Syntax tree for "dogs" showing NP with only N</description>
+      </image>
       <p><c>[NP [N dogs]]</c></p>
 
-      <figure xml:id="fig-ch05-ex-np-det">
-        <caption>NP with determiner</caption>
-        <image source="diagrams/new/ch08_np_det.png" width="25%">
-          <description>Syntax tree for "the dog" showing NP with DET and N</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.1 B: NP with determiner</title>
+      </paragraphs>
+      <image source="diagrams/new/ch08_np_det.png" width="25%">
+        <description>Syntax tree for "the dog" showing NP with DET and N</description>
+      </image>
       <p><c>[NP [DET the] [N dog]]</c></p>
 
-      <figure xml:id="fig-ch05-ex-np-det-adj">
-        <caption>NP with determiner and adjective</caption>
-        <image source="diagrams/new/ch05_np_simple.png" width="40%">
-          <description>Syntax tree for "the tall student" showing NP with DET, ADJ, and N</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.1 C: NP with determiner and adjective</title>
+      </paragraphs>
+      <image source="diagrams/new/ch05_np_simple.png" width="40%">
+        <description>Syntax tree for "the tall student" showing NP with DET, ADJ, and N</description>
+      </image>
       <p><c>[NP [DET the] [ADJP [ADJ tall]] [N student]]</c></p>
 
-      <figure xml:id="fig-ch05-ex-np-multi-adj">
-        <caption>NP with multiple adjectives</caption>
-        <image source="diagrams/new/ch08_np_multiple_adj.png" width="45%">
-          <description>Syntax tree for "the big brown dog" showing NP with two adjectives</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.1 D: NP with multiple adjectives</title>
+      </paragraphs>
+      <image source="diagrams/new/ch08_np_multiple_adj.png" width="45%">
+        <description>Syntax tree for "the big brown dog" showing NP with two adjectives</description>
+      </image>
       <p><c>[NP [DET the] [ADJP [ADJ big]] [ADJP [ADJ brown]] [N dog]]</c></p>
 
-      <figure xml:id="fig-ch05-ex-np-pp">
-        <caption>NP with PP post-modifier</caption>
-        <image source="diagrams/new/ch05_np_with_pp.png" width="55%">
-          <description>Syntax tree for "the tall student from Ohio" with PP post-modifier</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.1 E: NP with PP post-modifier</title>
+      </paragraphs>
+      <image source="diagrams/new/ch05_np_with_pp.png" width="55%">
+        <description>Syntax tree for "the tall student from Ohio" with PP post-modifier</description>
+      </image>
       <p><c>[NP [DET the] [ADJP [ADJ tall]] [N student] [PP [PREP from] [NP [N Ohio]]]]</c></p>
     </subsection>
 
     <subsection xml:id="ch-05-diagrams-vp">
       <title>Verb Phrase Examples</title>
 
-      <figure xml:id="fig-ch05-ex-vp-simple">
-        <caption>Simple VP: intransitive verb</caption>
-        <image source="diagrams/new/ch07_simple_vp.png" width="15%">
-          <description>Syntax tree for "sleeps" showing VP with only V</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.2 A: Simple VP (intransitive verb)</title>
+      </paragraphs>
+      <image source="diagrams/new/ch07_simple_vp.png" width="15%">
+        <description>Syntax tree for "sleeps" showing VP with only V</description>
+      </image>
       <p><c>[VP [V sleeps]]</c></p>
 
-      <figure xml:id="fig-ch05-ex-vp-trans">
-        <caption>Transitive VP with direct object</caption>
-        <image source="diagrams/new/ch05_vp_transitive.png" width="35%">
-          <description>Syntax tree for "read the book" showing VP with V and NP</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.2 B: Transitive VP with direct object</title>
+      </paragraphs>
+      <image source="diagrams/new/ch05_vp_transitive.png" width="35%">
+        <description>Syntax tree for "read the book" showing VP with V and NP</description>
+      </image>
       <p><c>[VP [V read] [NP [DET the] [N book]]]</c></p>
 
-      <figure xml:id="fig-ch05-ex-vp-ditrans">
-        <caption>Ditransitive VP with indirect and direct objects</caption>
-        <image source="diagrams/new/ch05_vp_ditransitive.png" width="45%">
-          <description>Syntax tree for "gave her a present" showing VP with two NPs</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.2 C: Ditransitive VP with indirect and direct objects</title>
+      </paragraphs>
+      <image source="diagrams/new/ch05_vp_ditransitive.png" width="45%">
+        <description>Syntax tree for "gave her a present" showing VP with two NPs</description>
+      </image>
       <p><c>[VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]</c></p>
     </subsection>
 
     <subsection xml:id="ch-05-diagrams-adjp">
       <title>Adjective Phrase Examples</title>
 
-      <figure xml:id="fig-ch05-ex-adjp-simple">
-        <caption>Simple AdjP</caption>
-        <image source="diagrams/new/ch05_adjp_simple.png" width="15%">
-          <description>Syntax tree for "happy" showing ADJP with only ADJ</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.3 A: Simple AdjP</title>
+      </paragraphs>
+      <image source="diagrams/new/ch05_adjp_simple.png" width="15%">
+        <description>Syntax tree for "happy" showing ADJP with only ADJ</description>
+      </image>
       <p><c>[ADJP [ADJ happy]]</c></p>
 
-      <figure xml:id="fig-ch05-ex-adjp-degree">
-        <caption>AdjP with degree adverb</caption>
-        <image source="diagrams/new/ch05_adjp_degree.png" width="30%">
-          <description>Syntax tree for "very happy" showing ADJP with ADV and ADJ</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.3 B: AdjP with degree adverb</title>
+      </paragraphs>
+      <image source="diagrams/new/ch05_adjp_degree.png" width="30%">
+        <description>Syntax tree for "very happy" showing ADJP with ADV and ADJ</description>
+      </image>
       <p><c>[ADJP [ADVP [ADV very]] [ADJ happy]]</c></p>
 
-      <figure xml:id="fig-ch05-ex-adjp-pp">
-        <caption>AdjP with PP complement</caption>
-        <image source="diagrams/new/ch09_adjp_pp_proud.png" width="45%">
-          <description>Syntax tree for "proud of her work" showing ADJP with PP complement</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.3 C: AdjP with PP complement</title>
+      </paragraphs>
+      <image source="diagrams/new/ch09_adjp_pp_proud.png" width="45%">
+        <description>Syntax tree for "proud of her work" showing ADJP with PP complement</description>
+      </image>
       <p><c>[ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]</c></p>
     </subsection>
 
     <subsection xml:id="ch-05-diagrams-advp">
       <title>Adverb Phrase Examples</title>
 
-      <figure xml:id="fig-ch05-ex-advp-simple">
-        <caption>Simple AdvP</caption>
-        <image source="diagrams/new/ch05_advp_simple.png" width="15%">
-          <description>Syntax tree for "quickly" showing ADVP with only ADV</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.4 A: Simple AdvP</title>
+      </paragraphs>
+      <image source="diagrams/new/ch05_advp_simple.png" width="15%">
+        <description>Syntax tree for "quickly" showing ADVP with only ADV</description>
+      </image>
       <p><c>[ADVP [ADV quickly]]</c></p>
 
-      <figure xml:id="fig-ch05-ex-advp-degree">
-        <caption>AdvP with degree modifier</caption>
-        <image source="diagrams/new/ch05_advp_degree.png" width="30%">
-          <description>Syntax tree for "very quickly" showing ADVP with two ADVs</description>
-        </image>
-      </figure>
+      <paragraphs>
+        <title>5.10.4 B: AdvP with degree modifier</title>
+      </paragraphs>
+      <image source="diagrams/new/ch05_advp_degree.png" width="30%">
+        <description>Syntax tree for "very quickly" showing ADVP with two ADVs</description>
+      </image>
       <p><c>[ADVP [ADVP [ADV very]] [ADV quickly]]</c></p>
     </subsection>
 
