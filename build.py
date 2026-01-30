@@ -92,10 +92,10 @@ CUSTOM_CSS = """
 
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
-    max-width: 900px;
+    max-width: 900px !important;
 }
 .ptx-content-footer {
-    max-width: 900px;
+    max-width: 900px !important;
 }
 
 /* Consistent table alignment - all tables left-aligned */
