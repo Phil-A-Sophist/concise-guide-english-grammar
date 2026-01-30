@@ -11,6 +11,8 @@
       <li><p>Apply morpheme identification rules to analyze word structure</p></li>
       <li><p>Recognize common affixes for each open word class</p></li>
       <li><p>Understand how English builds new words through productive patterns</p></li>
+      <li><p>Use morphological knowledge to make strategic writing choices</p></li>
+      <li><p>Evaluate when affixed forms versus descriptive phrases improve clarity and concision</p></li>
     </ul>
   </objectives>
 
@@ -66,17 +68,17 @@
     <p><em>Unbelievable</em> — Three morphemes</p>
 
     <ul>
-      <li><p><em>un-</em> = bound morpheme (prefix meaning &quot;not&quot;)</p></li>
+      <li><p><em>un-</em> = bound morpheme (prefix meaning "not")</p></li>
       <li><p><em>believe</em> = free morpheme</p></li>
-      <li><p><em>-able</em> = bound morpheme (suffix meaning &quot;capable of&quot;)</p></li>
+      <li><p><em>-able</em> = bound morpheme (suffix meaning "capable of")</p></li>
     </ul>
 
     <p><em>Rewriters</em> — Four morphemes</p>
 
     <ul>
-      <li><p><em>re-</em> = bound morpheme (prefix meaning &quot;again&quot;)</p></li>
+      <li><p><em>re-</em> = bound morpheme (prefix meaning "again")</p></li>
       <li><p><em>write</em> = free morpheme</p></li>
-      <li><p><em>-er</em> = bound morpheme (suffix meaning &quot;one who&quot;)</p></li>
+      <li><p><em>-er</em> = bound morpheme (suffix meaning "one who")</p></li>
       <li><p><em>-s</em> = bound morpheme (plural marker)</p></li>
     </ul>
 
@@ -93,7 +95,7 @@
   <section xml:id="ch-04-morphology-and-word-structure-sec-42">
     <title>Common Morphemes by Word Class</title>
 
-    <p>English uses bound morphemes productively to create words belonging to different word classes. These affixes are <em>productive</em>—English speakers use them freely to create new words. You've probably encountered &quot;unfriend,&quot; &quot;unsubscribe,&quot; and &quot;retweet,&quot; none of which existed thirty years ago. The patterns are so reliable that you could invent a word right now and other English speakers would understand it immediately.</p>
+    <p>English uses bound morphemes productively to create words belonging to different word classes. These affixes are <em>productive</em>—English speakers use them freely to create new words. You've probably encountered "unfriend," "unsubscribe," and "retweet," none of which existed thirty years ago. The patterns are so reliable that you could invent a word right now and other English speakers would understand it immediately.</p>
 
     <p>The following tables organize common English affixes by the word class they typically create.</p>
 
@@ -439,7 +441,7 @@
     <p>Now check what's attached:</p>
 
     <ul>
-      <li><p><em>un-</em> appears before <em>happy</em>; this is the prefix meaning &quot;not&quot;</p></li>
+      <li><p><em>un-</em> appears before <em>happy</em>; this is the prefix meaning "not"</p></li>
       <li><p><em>un-</em> is a bound morpheme (it cannot stand alone)</p></li>
     </ul>
 
@@ -458,7 +460,7 @@
     <p>Check what's attached before the base:</p>
 
     <ul>
-      <li><p><em>re-</em> appears before <em>think</em>; this is the prefix meaning &quot;again&quot;</p></li>
+      <li><p><em>re-</em> appears before <em>think</em>; this is the prefix meaning "again"</p></li>
       <li><p><em>re-</em> is a bound morpheme</p></li>
     </ul>
 
@@ -490,8 +492,8 @@
     <p>Check for suffixes (work from the end inward):</p>
 
     <ul>
-      <li><p><em>-ness</em> appears at the end; this suffix forms nouns meaning &quot;state of&quot;</p></li>
-      <li><p><em>-less</em> appears between <em>care</em> and <em>-ness</em>; this suffix means &quot;without&quot;</p></li>
+      <li><p><em>-ness</em> appears at the end; this suffix forms nouns meaning "state of"</p></li>
+      <li><p><em>-less</em> appears between <em>care</em> and <em>-ness</em>; this suffix means "without"</p></li>
       <li><p>Both are bound morphemes</p></li>
     </ul>
 
@@ -509,26 +511,26 @@
 
     <p><em>Type 1: Non-Existent Bases</em></p>
 
-    <p>Some words look like they contain familiar affixes, but the remaining &quot;base&quot; isn't actually a word in English.</p>
+    <p>Some words look like they contain familiar affixes, but the remaining "base" isn't actually a word in English.</p>
 
     <p><em>Ugly</em> ≠ <em>ug</em> + <em>-ly</em></p>
 
     <ul>
-      <li><p>&quot;Ug&quot; is not a word in English ✗</p></li>
+      <li><p>"Ug" is not a word in English ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
     <p><em>Pretty</em> ≠ <em>pret</em> + <em>-ty</em></p>
 
     <ul>
-      <li><p>&quot;Pret&quot; is not a word in English ✗</p></li>
+      <li><p>"Pret" is not a word in English ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
     <p><em>Lonely</em> ≠ <em>lone</em> + <em>-ly</em></p>
 
     <ul>
-      <li><p>Wait—&quot;lone&quot; IS a word in English ✓</p></li>
+      <li><p>Wait—"lone" IS a word in English ✓</p></li>
       <li><p><em>Lonely</em> = <em>lone</em> (free) + <em>-ly</em> (bound) = 2 morphemes</p></li>
     </ul>
 
@@ -536,26 +538,26 @@
 
     <p><em>Type 2: Historical Parts That Have Fused</em></p>
 
-    <p>Many English words came from Latin, Greek, or French with internal structure that no longer functions for modern speakers. Consider the word <em>receive</em>. It begins with <em>re-</em>, which often means &quot;again&quot; in English (<em>rewrite</em>, <em>rebuild</em>, <em>reconsider</em>). And the rest of the word looks like it might be <em>ceive</em>. But ask yourself: Can you <em>ceive</em> something? Is <em>ceive</em> a word? Unless you're a Latin scholar who knows that <em>capere</em> meant &quot;to take,&quot; the answer is no.</p>
+    <p>Many English words came from Latin, Greek, or French with internal structure that no longer functions for modern speakers. Consider the word <em>receive</em>. It begins with <em>re-</em>, which often means "again" in English (<em>rewrite</em>, <em>rebuild</em>, <em>reconsider</em>). And the rest of the word looks like it might be <em>ceive</em>. But ask yourself: Can you <em>ceive</em> something? Is <em>ceive</em> a word? Unless you're a Latin scholar who knows that <em>capere</em> meant "to take," the answer is no.</p>
 
     <p><em>Deceive</em> ≠ <em>de-</em> + <em>ceive</em></p>
 
     <ul>
-      <li><p>&quot;Ceive&quot; is not a word in English ✗</p></li>
+      <li><p>"Ceive" is not a word in English ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
     <p><em>Predict</em> ≠ <em>pre-</em> + <em>dict</em></p>
 
     <ul>
-      <li><p>&quot;Dict&quot; is not a word in English (it's Latin for &quot;say&quot;) ✗</p></li>
+      <li><p>"Dict" is not a word in English (it's Latin for "say") ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
     <p><em>Transport</em> ≠ <em>trans-</em> + <em>port</em></p>
 
     <ul>
-      <li><p>&quot;Port&quot; in the sense of &quot;carry&quot; is not a word in English ✗</p></li>
+      <li><p>"Port" in the sense of "carry" is not a word in English ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
@@ -566,7 +568,7 @@
     <p><em>Understand</em> ≠ <em>under</em> + <em>stand</em></p>
 
     <ul>
-      <li><p>Although &quot;under&quot; and &quot;stand&quot; are both English words, <em>understand</em> doesn't mean &quot;to stand under something&quot;</p></li>
+      <li><p>Although "under" and "stand" are both English words, <em>understand</em> doesn't mean "to stand under something"</p></li>
       <li><p>The word came into English as a unit with its own meaning</p></li>
       <li><p>One morpheme</p></li>
     </ul>
@@ -574,14 +576,14 @@
     <p><em>Carpet</em> ≠ <em>car</em> + <em>pet</em></p>
 
     <ul>
-      <li><p>Although &quot;car&quot; and &quot;pet&quot; are both English words, a carpet isn't a pet for your car!</p></li>
+      <li><p>Although "car" and "pet" are both English words, a carpet isn't a pet for your car!</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
     <p><em>Breakfast</em> = <em>break</em> + <em>fast</em></p>
 
     <ul>
-      <li><p>This one IS a compound—it literally means &quot;breaking the fast&quot; (the overnight period without eating)</p></li>
+      <li><p>This one IS a compound—it literally means "breaking the fast" (the overnight period without eating)</p></li>
       <li><p>Two morphemes</p></li>
     </ul>
 
@@ -705,7 +707,7 @@
     <p><em>Together</em> ≠ <em>to</em> + <em>get</em> + <em>her</em></p>
 
     <ul>
-      <li><p>This word doesn't combine the meanings &quot;to,&quot; &quot;get,&quot; and &quot;her&quot;</p></li>
+      <li><p>This word doesn't combine the meanings "to," "get," and "her"</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
@@ -758,7 +760,7 @@
 
     <ol>
       <li><p>Base: <em>treat</em> (free morpheme—it's a word)</p></li>
-      <li><p>Prefix: <em>mis-</em> (bound—means &quot;wrongly&quot;)</p></li>
+      <li><p>Prefix: <em>mis-</em> (bound—means "wrongly")</p></li>
       <li><p>Suffix: <em>-ment</em> (bound—forms noun)</p></li>
     </ol>
 
@@ -768,11 +770,171 @@
 
     <ol>
       <li><p>Base: <em>organ</em> (free)</p></li>
-      <li><p>Prefix: <em>re-</em> (bound—&quot;again&quot;)</p></li>
+      <li><p>Prefix: <em>re-</em> (bound—"again")</p></li>
       <li><p>Suffixes: <em>-ize</em> (verb), <em>-ation</em> (noun)</p></li>
     </ol>
 
     <p>Result: <em>re-</em> + <em>organ</em> + <em>-ize</em> + <em>-ation</em> = 4 morphemes</p>
+
+  </section>
+
+  <section xml:id="ch-04-morphology-and-word-structure-sec-45">
+    <title>Morphemes and Writing: Strategic Word Choice</title>
+
+    <p>The affixes introduced in Section 4.2 do more than build vocabulary—they give writers choices at the sentence level. Understanding how derivational morphemes work allows you to reshape sentences for clarity, concision, and emphasis. This section explores two ways morphological knowledge improves writing: using affixes for economy and understanding the trade-offs of nominalization.</p>
+
+    <paragraphs>
+      <title>Affixes for Economy</title>
+    </paragraphs>
+
+    <p>Many common affixes let you express in one word what might otherwise require a phrase. Consider these pairs:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Descriptive Phrase</cell>
+        <cell>Affixed Form</cell>
+        <cell>Morpheme</cell>
+      </row>
+      <row>
+        <cell><em>read again</em></cell>
+        <cell><em>reread</em></cell>
+        <cell>re- (repetition)</cell>
+      </row>
+      <row>
+        <cell><em>judged wrongly</em></cell>
+        <cell><em>misjudged</em></cell>
+        <cell>mis- (error)</cell>
+      </row>
+      <row>
+        <cell><em>not happy</em></cell>
+        <cell><em>unhappy</em></cell>
+        <cell>un- (negation)</cell>
+      </row>
+      <row>
+        <cell><em>in a careful manner</em></cell>
+        <cell><em>carefully</em></cell>
+        <cell>-ly (manner)</cell>
+      </row>
+      <row>
+        <cell><em>one who teaches</em></cell>
+        <cell><em>teacher</em></cell>
+        <cell>-er (agent)</cell>
+      </row>
+      <row>
+        <cell><em>before the war</em></cell>
+        <cell><em>prewar</em></cell>
+        <cell>pre- (temporal)</cell>
+      </row>
+    </tabular>
+
+    <p>The affixed forms are often more concise and direct. Compare:</p>
+
+    <ul>
+      <li><p><em>I read the report for a second time.</em> (8 words)</p></li>
+      <li><p><em>I reread the report.</em> (4 words)</p></li>
+    </ul>
+
+    <p>The second version says the same thing in half the words. When you recognize that <em>re-</em> means "again," you can deploy it strategically rather than spelling out the concept with a phrase.</p>
+
+    <p>However, the longer form is sometimes preferable. Consider emphasis: "I read that report <em>yet another time</em>" stresses the repetition more than "I reread" does. The phrase also allows modification—"I read it <em>one more time</em>" or "for the <em>third</em> time"—that the prefix cannot accommodate. And some affixed forms sound awkward: "She worked <em>unusually diligently</em>" is clunkier than "She worked <em>with unusual diligence</em>."</p>
+
+    <p>The choice depends on context. Ask yourself: Is concision the priority? Does the longer form add emphasis or information? Does the affixed form sound natural?</p>
+
+    <paragraphs>
+      <title>Nominalization: A Special Case</title>
+    </paragraphs>
+
+    <p><em>Nominalization</em> occurs when a verb or adjective is converted into a noun, typically through suffixes like <em>-tion</em>, <em>-ment</em>, <em>-ness</em>, <em>-ity</em>, and <em>-ance</em>. You encountered these in Section 4.2 as noun-forming morphemes. Now consider how using them affects your prose.</p>
+
+    <p>Compare these sentences:</p>
+
+    <ul>
+      <li><p><em>The committee examined the evidence.</em> (verb: <em>examined</em>)</p></li>
+      <li><p><em>The committee conducted an examination of the evidence.</em> (nominalization: <em>examination</em>)</p></li>
+    </ul>
+
+    <p>The first version is more direct—the action sits in the verb where readers expect it. The second buries the action inside a noun phrase, requiring extra words (<em>conducted</em>, <em>of</em>) to make a complete sentence.</p>
+
+    <p>Excessive nominalization creates what writing scholar Helen Sword calls "zombie nouns"—abstract nouns that drain the life from prose. Consider this heavily nominalized passage:</p>
+
+    <p><em>The implementation of the new system led to an improvement in the efficiency of operations and a reduction in the occurrence of errors.</em></p>
+
+    <p>Revised with verbs restored:</p>
+
+    <p><em>Implementing the new system improved operational efficiency and reduced errors.</em></p>
+
+    <p>The revision is clearer, more direct, and nearly half as long.</p>
+
+    <paragraphs>
+      <title>When Nominalization Strengthens Writing</title>
+    </paragraphs>
+
+    <p>Despite these cautions, nominalization serves legitimate purposes:</p>
+
+    <p><em>Creating necessary concepts.</em> Some ideas exist primarily as nouns: <em>justice</em>, <em>education</em>, <em>democracy</em>, <em>freedom</em>. You cannot easily express "We value <em>education</em>" using the verb <em>educate</em> without changing the meaning.</p>
+
+    <p><em>Building cohesion.</em> Nominalizations help connect sentences by letting you refer back to previously mentioned actions:</p>
+
+    <p><em>The researchers analyzed the data thoroughly. This analysis revealed unexpected patterns.</em></p>
+
+    <p>Here, <em>analysis</em> refers to the analyzing just described, creating a smooth bridge between sentences.</p>
+
+    <p><em>Managing emphasis.</em> Placing a nominalization in subject position can foreground an action:</p>
+
+    <p><em>The discovery of penicillin transformed medicine.</em></p>
+
+    <p>The nominalization <em>discovery</em> emphasizes the finding itself, whereas "Fleming discovered penicillin, which transformed medicine" emphasizes Fleming.</p>
+
+    <p><em>Meeting genre expectations.</em> Academic and professional writing often favors nominalized style for its formal, objective tone. Scientific articles, legal documents, and policy reports frequently use constructions like "the elimination of variables" rather than "we eliminated variables." Understanding this convention helps you adapt to different writing contexts.</p>
+
+    <paragraphs>
+      <title>When Nominalization Weakens Writing</title>
+    </paragraphs>
+
+    <p>Nominalization becomes problematic when it obscures meaning or adds unnecessary words:</p>
+
+    <p><em>Burying the action.</em> Verbs carry energy; converting them to nouns diffuses that energy. "We decided" is more direct than "We reached a decision."</p>
+
+    <p><em>Adding words.</em> Nominalizations often require support words—articles, prepositions, weak verbs like <em>make</em>, <em>give</em>, <em>conduct</em>:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Nominalized</cell>
+        <cell>Verbal</cell>
+      </row>
+      <row>
+        <cell><em>make a recommendation</em></cell>
+        <cell><em>recommend</em></cell>
+      </row>
+      <row>
+        <cell><em>give consideration to</em></cell>
+        <cell><em>consider</em></cell>
+      </row>
+      <row>
+        <cell><em>conduct an investigation</em></cell>
+        <cell><em>investigate</em></cell>
+      </row>
+    </tabular>
+
+    <p><em>Hiding agents.</em> Nominalization can obscure who performed an action. "Mistakes were made" (passive) becomes even more evasive as "The making of mistakes occurred." If accountability matters, verbal forms with clear subjects are preferable.</p>
+
+    <paragraphs>
+      <title>Making Strategic Choices</title>
+    </paragraphs>
+
+    <p>Neither "always use affixes" nor "always avoid nominalization" is good advice. The goal is intentional choice rather than unconscious habit.</p>
+
+    <p>When revising, ask yourself:</p>
+
+    <ul>
+      <li><p><em>Is the action important enough to be a verb?</em> Core actions usually belong in verb form.</p></li>
+      <li><p><em>Does the nominalization serve cohesion?</em> Using a noun to refer back to a previous idea can strengthen flow.</p></li>
+      <li><p><em>Is concision the priority?</em> Affixed forms and verbal constructions are typically shorter.</p></li>
+      <li><p><em>Does the longer form add useful emphasis or precision?</em> Sometimes spelling things out has rhetorical value.</p></li>
+      <li><p><em>What does my audience expect?</em> Academic writing tolerates more nominalization than journalism or business communication.</p></li>
+    </ul>
+
+    <p>Chapter 19 will return to nominalization as a revision strategy. For now, recognize that the morphemes you have learned are not merely analytical tools—they are choices that shape how your sentences read.</p>
 
   </section>
 
@@ -786,7 +948,9 @@
         <title>Instructions</title>
       </paragraphs>
 
-      <p>For each word below, divide it into morphemes and classify each morpheme as free or bound. State the total number of morphemes.</p>
+      <p>For each word below, determine whether it contains multiple morphemes or just one. If it contains multiple morphemes, divide it and classify each morpheme as free or bound. State the total number of morphemes.</p>
+
+      <p>Remember: <em>A word can only be divided into morphemes if the base is a word in modern English.</em></p>
 
       <p>You may present your analysis using any clear method, such as:</p>
       <ul>
@@ -803,6 +967,10 @@
       <p><em>Word:</em> <em>unhappiness</em></p>
       <p>un- (bound) + happy (free) + -ness (bound) = 3 morphemes</p>
 
+      <p><em>Word:</em> <em>contain</em></p>
+      <p>Number of morphemes: 1</p>
+      <p>Although <em>contain</em> appears to begin with <em>con-</em>, the remaining part <em>-tain</em> is not a word in modern English. Therefore, <em>contain</em> is a single morpheme.</p>
+
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
@@ -816,28 +984,6 @@
       <p><em>Exercise 4.</em> <em>international</em></p>
 
       <p><em>Exercise 5.</em> <em>unforgettable</em></p>
-    </subsection>
-
-    <subsection xml:id="ch-04-homework-2">
-      <title>Applying the English Base Rule</title>
-
-      <paragraphs>
-        <title>Instructions</title>
-      </paragraphs>
-
-      <p>For each word, determine whether it contains one morpheme or multiple morphemes. Apply the English base rule: <em>a word can only be divided into morphemes if the base is a word in modern English.</em></p>
-
-      <paragraphs>
-        <title>Example (completed)</title>
-      </paragraphs>
-
-      <p><em>Word:</em> <em>contain</em></p>
-      <p>Number of morphemes: 1</p>
-      <p>Although <em>contain</em> appears to begin with <em>con-</em>, the remaining part <em>-tain</em> is not a word in modern English. Therefore, <em>contain</em> is a single morpheme.</p>
-
-      <paragraphs>
-        <title>Exercises</title>
-      </paragraphs>
 
       <p><em>Exercise 6.</em> <em>grandmother</em></p>
 
@@ -848,6 +994,58 @@
       <p><em>Exercise 9.</em> <em>subtract</em></p>
 
       <p><em>Exercise 10.</em> <em>misplace</em></p>
+    </subsection>
+
+    <subsection xml:id="ch-04-homework-2">
+      <title>Morphemes for Economy</title>
+
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+
+      <p>Rewrite each sentence using an affix to replace the underlined phrase. Identify the morpheme you used and its meaning.</p>
+
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+
+      <p><em>Sentence:</em> She judged the distance <em>in a wrong way</em>.</p>
+      <p><em>Revised:</em> She misjudged the distance.</p>
+      <p><em>Morpheme:</em> mis- (meaning "wrongly")</p>
+
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 11.</em> They designed the memorial <em>in a time before the war</em>.</p>
+      <ul>
+        <li><p>Revised:</p></li>
+        <li><p>Morpheme:</p></li>
+      </ul>
+
+      <p><em>Exercise 12.</em> He watched his favorite film <em>for a second time</em>.</p>
+      <ul>
+        <li><p>Revised:</p></li>
+        <li><p>Morpheme:</p></li>
+      </ul>
+
+      <p><em>Exercise 13.</em> The test results were <em>not satisfying</em> to the research team.</p>
+      <ul>
+        <li><p>Revised:</p></li>
+        <li><p>Morpheme:</p></li>
+      </ul>
+
+      <p><em>Exercise 14.</em> She completed the calculations <em>in a careless manner</em>.</p>
+      <ul>
+        <li><p>Revised:</p></li>
+        <li><p>Morpheme:</p></li>
+      </ul>
+
+      <p><em>Exercise 15.</em> The technician had connected the wires <em>in an improper way</em>.</p>
+      <ul>
+        <li><p>Revised:</p></li>
+        <li><p>Morpheme:</p></li>
+      </ul>
     </subsection>
 
     <subsection xml:id="ch-04-homework-3">
@@ -875,7 +1073,7 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 11.</em> Base word: <em>teach</em></p>
+      <p><em>Exercise 16.</em> Base word: <em>teach</em></p>
       <ul>
         <li><p>Create a word with one suffix:</p></li>
         <li><p>Morphemes:</p></li>
@@ -883,7 +1081,7 @@
         <li><p>Morphemes:</p></li>
       </ul>
 
-      <p><em>Exercise 12.</em> Base word: <em>kind</em></p>
+      <p><em>Exercise 17.</em> Base word: <em>kind</em></p>
       <ul>
         <li><p>Create a word with a prefix:</p></li>
         <li><p>Morphemes:</p></li>
@@ -891,7 +1089,7 @@
         <li><p>Morphemes:</p></li>
       </ul>
 
-      <p><em>Exercise 13.</em> Base word: <em>modern</em></p>
+      <p><em>Exercise 18.</em> Base word: <em>modern</em></p>
       <ul>
         <li><p>Create a word that is a verb:</p></li>
         <li><p>Morphemes:</p></li>
@@ -926,7 +1124,7 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 14.</em> Identify five words with multiple morphemes from the passage above.</p>
+      <p><em>Exercise 19.</em> Identify five words with multiple morphemes from the passage above.</p>
       <ul>
         <li><p>Word 1:</p></li>
         <li><p>Morphemes:</p></li>
@@ -942,37 +1140,43 @@
     </subsection>
 
     <subsection xml:id="ch-04-homework-5">
-      <title>Analysis and Reflection</title>
+      <title>Comparing Morphological Choices</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
 
-      <p>Answer the following question, explaining your reasoning.</p>
+      <p>Read the two paragraphs below. Both describe the same situation, but each sentence makes different morphological choices—some use affixed forms (<em>reread</em>, <em>unfairly</em>) while others use descriptive phrases (<em>read again</em>, <em>in an unfair manner</em>). In Paragraph 2, every choice is swapped: what was an affix becomes a phrase, and vice versa.</p>
+
+      <p>Neither paragraph is entirely better than the other. Each contains some choices that improve the writing and some that weaken it.</p>
 
       <paragraphs>
-        <title>Example (completed)</title>
+        <title>Paragraph 1</title>
       </paragraphs>
 
-      <p><em>Word:</em> <em>unhappiness</em></p>
-      <p>Formation:</p>
-      <ol>
-        <li><p>happy (base—adjective)</p></li>
-        <li><p>unhappy (un- + happy—adjective meaning "not happy")</p></li>
-        <li><p>unhappiness (unhappy + -ness—noun meaning "the state of being unhappy")</p></li>
-      </ol>
+      <p><em>The hiring committee re-reviewed the applications after discovering that several candidates had been evaluated in an unfair manner. The lead reviewer, who had assessed the submissions carelessly at first, now worked with unusual diligence. Two applicants who had seemed underqualified actually possessed experience that the committee had failed to recognize previously. After reaching their decision, they resubmitted the recommendations to HR, confident that the process was now irreproachable.</em></p>
+
+      <p><em>HR, however, responded unfavorably to the revised documentation. The department head believed the committee had misjudged several candidates and requested that they consider the selections again. The committee members, though initially not satisfied with this feedback, reviewed the criticisms thoughtfully. They discovered that certain qualifications had been overvalued while others had gone without notice. After rewriting their justifications with great care, they submitted the final version for a third time, which HR found unobjectionable.</em></p>
+
+      <paragraphs>
+        <title>Paragraph 2</title>
+      </paragraphs>
+
+      <p><em>The hiring committee reviewed the applications again after discovering that several candidates had been evaluated unfairly. The lead reviewer, who had assessed the submissions without care at first, now worked unusually diligently. Two applicants who had seemed insufficiently qualified actually possessed previously unrecognized experience. After deciding, they submitted the recommendations to HR again, confident that the process was now beyond reproach.</em></p>
+
+      <p><em>HR, however, responded in an unfavorable manner to the revised documentation. The department head believed the committee had made misjudgments about several candidates and requested that they reconsider the selections. The committee members, though initially dissatisfied with this feedback, reviewed the criticisms in a thoughtful manner. They discovered that certain qualifications had been valued too highly while others had gone unnoticed. After writing their justifications again carefully, they resubmitted the final version, which HR found without objection.</em></p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 15.</em> Complex words are built up step by step, with each morpheme attaching in a specific order. Track the formation of the word <em>unprecedented</em> by identifying the base and then showing the order in which morphemes attach.</p>
-      <ul>
-        <li><p><em>Word:</em> <em>unprecedented</em></p></li>
-        <li><p>Formation:</p></li>
-      </ul>
+      <p><em>Exercise 20.</em> Identify one position where Paragraph 1 makes the better choice. Quote both versions (from Paragraph 1 and Paragraph 2), and explain why Paragraph 1's version is more effective. Consider factors like clarity, concision, and naturalness.</p>
 
-      <p><em>Total estimated time: 30-40 minutes</em></p>
+      <p><em>Exercise 21.</em> Identify one position where Paragraph 2 makes the better choice. Quote both versions, and explain why Paragraph 2's version is more effective.</p>
+
+      <p><em>Exercise 22.</em> Based on your analysis, write 2-3 sentences explaining what factors help you decide when to use an affixed form versus a descriptive phrase.</p>
+
+      <p><em>Total estimated time: 50-60 minutes</em></p>
     </subsection>
 
   </section>
@@ -1010,6 +1214,10 @@
     <gi>
       <title>Morphology</title>
       <p>The branch of linguistics that studies word structure and word formation.</p>
+    </gi>
+    <gi>
+      <title>Nominalization</title>
+      <p>The process of converting a verb or adjective into a noun, typically through suffixes like -tion, -ment, -ness, or -ity.</p>
     </gi>
     <gi>
       <title>Prefix</title>
