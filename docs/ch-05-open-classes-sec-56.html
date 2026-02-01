@@ -115,6 +115,25 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;
@@ -145,23 +164,27 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram example labels - larger font for easy skimming */
-[id*="diagrams-np"] .paragraphs .heading .title,
-[id*="diagrams-vp"] .paragraphs .heading .title,
-[id*="diagrams-adjp"] .paragraphs .heading .title,
-[id*="diagrams-advp"] .paragraphs .heading .title {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: #2c5282 !important;
+/* Diagram sections: left-align images */
+[id*="diagrams-"] .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
-/* Center bracket notation beneath diagram images */
-[id*="diagrams-np"] .para:has(.code-inline),
-[id*="diagrams-vp"] .para:has(.code-inline),
-[id*="diagrams-adjp"] .para:has(.code-inline),
-[id*="diagrams-advp"] .para:has(.code-inline) {
-    text-align: center !important;
+/* Diagram sections: left-align bracket notation */
+[id*="diagrams-"] .para:has(.code-inline) {
+    text-align: left !important;
+    margin-top: 0.25em !important;
 }
+
+/* Diagram example labels - styled as captions below bracket notation */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 0.95em !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1.5em !important;
+}
+
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
@@ -241,19 +264,18 @@ section .tabular-box {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-41.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Morphemes: The Building Blocks</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-42.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Common Morphemes by Word Class</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-43.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Morpheme Boundaries</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compounds</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-45.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
+<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Morpheme Identification</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Word Building</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Morpheme Identification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Word Building</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-9.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-8.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Glossary</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
@@ -732,12 +754,12 @@ section .tabular-box {
 </li>
 <li id="ch-05-open-classes-sec-56-22-2">
 <div class="para" id="ch-05-open-classes-sec-56-22-2-1">
-<em class="emphasis">Predicative position</em> (after a linking verb): <em class="emphasis">The man is [very tall].</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-22-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Subject complement position</em> (after a linking verb): <em class="emphasis">The man is [very tall].</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-22-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-22-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-56-23">When an AdjP appears attributively, it modifies the following noun directly. When it appears predicatively, it describes the subject of the sentence.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-23">When an AdjP appears attributively, it modifies the following noun directly. When it appears as a subject complement, it describes the subject of the sentence.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-open-classes-sec-56-24"><h3 class="heading"><span class="title">Identifying the Head Adjective.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Identifying the Head Adjective"><a href="#ch-05-open-classes-sec-56-24" title="Copy heading and permalink for Paragraphs: Identifying the Head Adjective" aria-label="Copy heading and permalink for Paragraphs: Identifying the Head Adjective">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-25">Apply the same test: which word is essential?<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -795,7 +817,8 @@ section .tabular-box {
 </ul>
 <div class="para" id="ch-05-open-classes-sec-56-35">If a word can become comparative or superlative, it’s almost certainly an adjective. This test distinguishes adjectives from nouns and verbs, which cannot be graded this way (we don’t say <em class="emphasis">~~taller book~~</em> meaning "more of a book" or <em class="emphasis">~~he walked the walkedest~~</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-35" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-36">*<em class="emphasis">Test 2: The</em>-ish<em class="emphasis">test</em>*<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-36">
+<em class="emphasis">Test 2: The -ish test</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-open-classes-sec-56-37">Many adjectives accept the suffix <em class="emphasis">-ish</em>, meaning "somewhat":<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-37" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -821,7 +844,8 @@ section .tabular-box {
 </ul>
 <div class="para" id="ch-05-open-classes-sec-56-39">This is a quick informal test. If <em class="emphasis">-ish</em> sounds natural, you likely have an adjective.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-39" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-40">*<em class="emphasis">Test 3: Adverb formation with</em>-ly***<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-40">
+<em class="emphasis">Test 3: Adverb formation with -ly</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-open-classes-sec-56-41">Many adjectives can become adverbs by adding <em class="emphasis">-ly</em>:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-41" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -876,9 +900,9 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-56-48">This is a defining characteristic. If a word can slot into "the ___ noun," it’s behaving as an adjective.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-48" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-open-classes-sec-56-49">
-<em class="emphasis">Test 2: The predicative position test</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-49" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Test 2: The subject complement position test</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-49" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-50">Adjectives can follow linking verbs like <em class="emphasis">be</em>, <em class="emphasis">seem</em>, <em class="emphasis">become</em>, and <em class="emphasis">appear</em>—this position, after the verb, is called <em class="emphasis">predicative</em> position:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-50" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-50">Adjectives can follow linking verbs like <em class="emphasis">be</em>, <em class="emphasis">seem</em>, <em class="emphasis">become</em>, and <em class="emphasis">appear</em>—this position, after the verb, is called <em class="emphasis">subject complement</em> position:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-50" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-56-51">
 <li id="ch-05-open-classes-sec-56-51-1">
@@ -902,7 +926,8 @@ section .tabular-box {
 </ul>
 <div class="para" id="ch-05-open-classes-sec-56-52">Most adjectives work in both positions. A few work in only one (see below).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-52" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-53">*<em class="emphasis">Test 3: The</em>very<em class="emphasis">test</em>*<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-53">
+<em class="emphasis">Test 3: The very test</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-open-classes-sec-56-54">Adjectives can be modified by degree words like <em class="emphasis">very</em>, <em class="emphasis">extremely</em>, and <em class="emphasis">quite</em>:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-54" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -967,7 +992,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-61-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-56-62">Others are <em class="emphasis">predicative-only</em> (they can only appear after linking verbs):<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-62" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-62">Others are <em class="emphasis">subject-complement-only</em> (they can only appear after linking verbs):<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-62" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-56-63">
 <li id="ch-05-open-classes-sec-56-63-1">

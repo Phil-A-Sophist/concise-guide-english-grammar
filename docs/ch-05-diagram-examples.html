@@ -115,6 +115,25 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;
@@ -145,23 +164,27 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram example labels - larger font for easy skimming */
-[id*="diagrams-np"] .paragraphs .heading .title,
-[id*="diagrams-vp"] .paragraphs .heading .title,
-[id*="diagrams-adjp"] .paragraphs .heading .title,
-[id*="diagrams-advp"] .paragraphs .heading .title {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: #2c5282 !important;
+/* Diagram sections: left-align images */
+[id*="diagrams-"] .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
-/* Center bracket notation beneath diagram images */
-[id*="diagrams-np"] .para:has(.code-inline),
-[id*="diagrams-vp"] .para:has(.code-inline),
-[id*="diagrams-adjp"] .para:has(.code-inline),
-[id*="diagrams-advp"] .para:has(.code-inline) {
-    text-align: center !important;
+/* Diagram sections: left-align bracket notation */
+[id*="diagrams-"] .para:has(.code-inline) {
+    text-align: left !important;
+    margin-top: 0.25em !important;
 }
+
+/* Diagram example labels - styled as captions below bracket notation */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 0.95em !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1.5em !important;
+}
+
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
@@ -241,19 +264,18 @@ section .tabular-box {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-41.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Morphemes: The Building Blocks</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-42.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Common Morphemes by Word Class</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-43.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Morpheme Boundaries</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compounds</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-45.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
+<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Morpheme Identification</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Word Building</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Morpheme Identification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Word Building</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-9.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-8.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Glossary</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter contains-active">
@@ -678,81 +700,81 @@ section .tabular-box {
 <section class="subsection" id="ch-05-diagrams-np"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.10.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Noun Phrase Examples</span>
 </h3>
-<section class="paragraphs" id="ch-05-diagrams-np-2"><h4 class="heading"><span class="title">5.10.1 A: Simple NP (noun only).</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.1 A: Simple NP (noun only)"><a href="#ch-05-diagrams-np-2" title="Copy heading and permalink for Paragraphs: 5.10.1 A: Simple NP (noun only)" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 A: Simple NP (noun only)">🔗</a></div></section><div class="image-box" style="width: 15%; margin-left: 42.5%; margin-right: 42.5%;"><img src="external/diagrams/new/ch08_simple_np.png" class="contained" alt='Syntax tree for "dogs" showing NP with only N'></div>
-<div class="para" id="ch-05-diagrams-np-4">
-<code class="code-inline tex2jax_ignore">[NP [N dogs]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 15%; margin-left: 42.5%; margin-right: 42.5%;"><img src="external/diagrams/new/ch08_simple_np.png" class="contained" alt='Syntax tree for "dogs" showing NP with only N'></div>
+<div class="para" id="ch-05-diagrams-np-3">
+<code class="code-inline tex2jax_ignore">[NP [N dogs]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-diagrams-np-5"><h4 class="heading"><span class="title">5.10.1 B: NP with determiner.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.1 B: NP with determiner"><a href="#ch-05-diagrams-np-5" title="Copy heading and permalink for Paragraphs: 5.10.1 B: NP with determiner" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 B: NP with determiner">🔗</a></div></section><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch08_np_det.png" class="contained" alt='Syntax tree for "the dog" showing NP with DET and N'></div>
-<div class="para" id="ch-05-diagrams-np-7">
-<code class="code-inline tex2jax_ignore">[NP [DET the] [N dog]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-diagrams-np-4"><h4 class="heading"><span class="title">5.10.1 A: Simple NP (noun only).</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.1 A: Simple NP (noun only)"><a href="#ch-05-diagrams-np-4" title="Copy heading and permalink for Paragraphs: 5.10.1 A: Simple NP (noun only)" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 A: Simple NP (noun only)">🔗</a></div></section><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch08_np_det.png" class="contained" alt='Syntax tree for "the dog" showing NP with DET and N'></div>
+<div class="para" id="ch-05-diagrams-np-6">
+<code class="code-inline tex2jax_ignore">[NP [DET the] [N dog]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-diagrams-np-8"><h4 class="heading"><span class="title">5.10.1 C: NP with determiner and adjective.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.1 C: NP with determiner and adjective"><a href="#ch-05-diagrams-np-8" title="Copy heading and permalink for Paragraphs: 5.10.1 C: NP with determiner and adjective" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 C: NP with determiner and adjective">🔗</a></div></section><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch05_np_simple.png" class="contained" alt='Syntax tree for "the tall student" showing NP with DET, ADJ, and N'></div>
-<div class="para" id="ch-05-diagrams-np-10">
-<code class="code-inline tex2jax_ignore">[NP [DET the] [ADJP [ADJ tall]] [N student]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-diagrams-np-7"><h4 class="heading"><span class="title">5.10.1 B: NP with determiner.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.1 B: NP with determiner"><a href="#ch-05-diagrams-np-7" title="Copy heading and permalink for Paragraphs: 5.10.1 B: NP with determiner" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 B: NP with determiner">🔗</a></div></section><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch05_np_simple.png" class="contained" alt='Syntax tree for "the tall student" showing NP with DET, ADJ, and N'></div>
+<div class="para" id="ch-05-diagrams-np-9">
+<code class="code-inline tex2jax_ignore">[NP [DET the] [ADJP [ADJ tall]] [N student]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-diagrams-np-11"><h4 class="heading"><span class="title">5.10.1 D: NP with multiple adjectives.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.1 D: NP with multiple adjectives"><a href="#ch-05-diagrams-np-11" title="Copy heading and permalink for Paragraphs: 5.10.1 D: NP with multiple adjectives" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 D: NP with multiple adjectives">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch08_np_multiple_adj.png" class="contained" alt='Syntax tree for "the big brown dog" showing NP with two adjectives'></div>
-<div class="para" id="ch-05-diagrams-np-13">
-<code class="code-inline tex2jax_ignore">[NP [DET the] [ADJP [ADJ big]] [ADJP [ADJ brown]] [N dog]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-diagrams-np-10"><h4 class="heading"><span class="title">5.10.1 C: NP with determiner and adjective.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.1 C: NP with determiner and adjective"><a href="#ch-05-diagrams-np-10" title="Copy heading and permalink for Paragraphs: 5.10.1 C: NP with determiner and adjective" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 C: NP with determiner and adjective">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch08_np_multiple_adj.png" class="contained" alt='Syntax tree for "the big brown dog" showing NP with two adjectives'></div>
+<div class="para" id="ch-05-diagrams-np-12">
+<code class="code-inline tex2jax_ignore">[NP [DET the] [ADJP [ADJ big]] [ADJP [ADJ brown]] [N dog]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-diagrams-np-14"><h4 class="heading"><span class="title">5.10.1 E: NP with PP post-modifier.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.1 E: NP with PP post-modifier"><a href="#ch-05-diagrams-np-14" title="Copy heading and permalink for Paragraphs: 5.10.1 E: NP with PP post-modifier" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 E: NP with PP post-modifier">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch05_np_with_pp.png" class="contained" alt='Syntax tree for "the tall student from Ohio" with PP post-modifier'></div>
-<div class="para" id="ch-05-diagrams-np-16">
-<code class="code-inline tex2jax_ignore">[NP [DET the] [ADJP [ADJ tall]] [N student] [PP [PREP from] [NP [N Ohio]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-diagrams-np-13"><h4 class="heading"><span class="title">5.10.1 D: NP with multiple adjectives.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.1 D: NP with multiple adjectives"><a href="#ch-05-diagrams-np-13" title="Copy heading and permalink for Paragraphs: 5.10.1 D: NP with multiple adjectives" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 D: NP with multiple adjectives">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch05_np_with_pp.png" class="contained" alt='Syntax tree for "the tall student from Ohio" with PP post-modifier'></div>
+<div class="para" id="ch-05-diagrams-np-15">
+<code class="code-inline tex2jax_ignore">[NP [DET the] [ADJP [ADJ tall]] [N student] [PP [PREP from] [NP [N Ohio]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-np-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 5.10.1: Noun Phrase Examples"><a href="#ch-05-diagrams-np" title="Copy heading and permalink for Subsection 5.10.1: Noun Phrase Examples" aria-label="Copy heading and permalink for Subsection 5.10.1: Noun Phrase Examples">🔗</a></div></section><section class="subsection" id="ch-05-diagrams-vp"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-05-diagrams-np-16"><h4 class="heading"><span class="title">5.10.1 E: NP with PP post-modifier.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.1 E: NP with PP post-modifier"><a href="#ch-05-diagrams-np-16" title="Copy heading and permalink for Paragraphs: 5.10.1 E: NP with PP post-modifier" aria-label="Copy heading and permalink for Paragraphs: 5.10.1 E: NP with PP post-modifier">🔗</a></div></section><div class="autopermalink" data-description="Subsection 5.10.1: Noun Phrase Examples"><a href="#ch-05-diagrams-np" title="Copy heading and permalink for Subsection 5.10.1: Noun Phrase Examples" aria-label="Copy heading and permalink for Subsection 5.10.1: Noun Phrase Examples">🔗</a></div></section><section class="subsection" id="ch-05-diagrams-vp"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.10.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Verb Phrase Examples</span>
 </h3>
-<section class="paragraphs" id="ch-05-diagrams-vp-2"><h4 class="heading"><span class="title">5.10.2 A: Simple VP (intransitive verb).</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.2 A: Simple VP (intransitive verb)"><a href="#ch-05-diagrams-vp-2" title="Copy heading and permalink for Paragraphs: 5.10.2 A: Simple VP (intransitive verb)" aria-label="Copy heading and permalink for Paragraphs: 5.10.2 A: Simple VP (intransitive verb)">🔗</a></div></section><div class="image-box" style="width: 15%; margin-left: 42.5%; margin-right: 42.5%;"><img src="external/diagrams/new/ch07_simple_vp.png" class="contained" alt='Syntax tree for "sleeps" showing VP with only V'></div>
-<div class="para" id="ch-05-diagrams-vp-4">
-<code class="code-inline tex2jax_ignore">[VP [V sleeps]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-vp-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 15%; margin-left: 42.5%; margin-right: 42.5%;"><img src="external/diagrams/new/ch07_simple_vp.png" class="contained" alt='Syntax tree for "sleeps" showing VP with only V'></div>
+<div class="para" id="ch-05-diagrams-vp-3">
+<code class="code-inline tex2jax_ignore">[VP [V sleeps]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-vp-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-diagrams-vp-5"><h4 class="heading"><span class="title">5.10.2 B: Transitive VP with direct object.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.2 B: Transitive VP with direct object"><a href="#ch-05-diagrams-vp-5" title="Copy heading and permalink for Paragraphs: 5.10.2 B: Transitive VP with direct object" aria-label="Copy heading and permalink for Paragraphs: 5.10.2 B: Transitive VP with direct object">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch05_vp_transitive.png" class="contained" alt='Syntax tree for "read the book" showing VP with V and NP'></div>
-<div class="para" id="ch-05-diagrams-vp-7">
-<code class="code-inline tex2jax_ignore">[VP [V read] [NP [DET the] [N book]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-vp-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-diagrams-vp-4"><h4 class="heading"><span class="title">5.10.2 A: Simple VP (intransitive verb).</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.2 A: Simple VP (intransitive verb)"><a href="#ch-05-diagrams-vp-4" title="Copy heading and permalink for Paragraphs: 5.10.2 A: Simple VP (intransitive verb)" aria-label="Copy heading and permalink for Paragraphs: 5.10.2 A: Simple VP (intransitive verb)">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch05_vp_transitive.png" class="contained" alt='Syntax tree for "read the book" showing VP with V and NP'></div>
+<div class="para" id="ch-05-diagrams-vp-6">
+<code class="code-inline tex2jax_ignore">[VP [V read] [NP [DET the] [N book]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-vp-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-diagrams-vp-8"><h4 class="heading"><span class="title">5.10.2 C: Ditransitive VP with indirect and direct objects.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.2 C: Ditransitive VP with indirect and direct objects"><a href="#ch-05-diagrams-vp-8" title="Copy heading and permalink for Paragraphs: 5.10.2 C: Ditransitive VP with indirect and direct objects" aria-label="Copy heading and permalink for Paragraphs: 5.10.2 C: Ditransitive VP with indirect and direct objects">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch05_vp_ditransitive.png" class="contained" alt='Syntax tree for "gave her a present" showing VP with two NPs'></div>
-<div class="para" id="ch-05-diagrams-vp-10">
-<code class="code-inline tex2jax_ignore">[VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-vp-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-diagrams-vp-7"><h4 class="heading"><span class="title">5.10.2 B: Transitive VP with direct object.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.2 B: Transitive VP with direct object"><a href="#ch-05-diagrams-vp-7" title="Copy heading and permalink for Paragraphs: 5.10.2 B: Transitive VP with direct object" aria-label="Copy heading and permalink for Paragraphs: 5.10.2 B: Transitive VP with direct object">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch05_vp_ditransitive.png" class="contained" alt='Syntax tree for "gave her a present" showing VP with two NPs'></div>
+<div class="para" id="ch-05-diagrams-vp-9">
+<code class="code-inline tex2jax_ignore">[VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-vp-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 5.10.2: Verb Phrase Examples"><a href="#ch-05-diagrams-vp" title="Copy heading and permalink for Subsection 5.10.2: Verb Phrase Examples" aria-label="Copy heading and permalink for Subsection 5.10.2: Verb Phrase Examples">🔗</a></div></section><section class="subsection" id="ch-05-diagrams-adjp"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-05-diagrams-vp-10"><h4 class="heading"><span class="title">5.10.2 C: Ditransitive VP with indirect and direct objects.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.2 C: Ditransitive VP with indirect and direct objects"><a href="#ch-05-diagrams-vp-10" title="Copy heading and permalink for Paragraphs: 5.10.2 C: Ditransitive VP with indirect and direct objects" aria-label="Copy heading and permalink for Paragraphs: 5.10.2 C: Ditransitive VP with indirect and direct objects">🔗</a></div></section><div class="autopermalink" data-description="Subsection 5.10.2: Verb Phrase Examples"><a href="#ch-05-diagrams-vp" title="Copy heading and permalink for Subsection 5.10.2: Verb Phrase Examples" aria-label="Copy heading and permalink for Subsection 5.10.2: Verb Phrase Examples">🔗</a></div></section><section class="subsection" id="ch-05-diagrams-adjp"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.10.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Adjective Phrase Examples</span>
 </h3>
-<section class="paragraphs" id="ch-05-diagrams-adjp-2"><h4 class="heading"><span class="title">5.10.3 A: Simple AdjP.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.3 A: Simple AdjP"><a href="#ch-05-diagrams-adjp-2" title="Copy heading and permalink for Paragraphs: 5.10.3 A: Simple AdjP" aria-label="Copy heading and permalink for Paragraphs: 5.10.3 A: Simple AdjP">🔗</a></div></section><div class="image-box" style="width: 15%; margin-left: 42.5%; margin-right: 42.5%;"><img src="external/diagrams/new/ch05_adjp_simple.png" class="contained" alt='Syntax tree for "happy" showing ADJP with only ADJ'></div>
-<div class="para" id="ch-05-diagrams-adjp-4">
-<code class="code-inline tex2jax_ignore">[ADJP [ADJ happy]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-adjp-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 15%; margin-left: 42.5%; margin-right: 42.5%;"><img src="external/diagrams/new/ch05_adjp_simple.png" class="contained" alt='Syntax tree for "happy" showing ADJP with only ADJ'></div>
+<div class="para" id="ch-05-diagrams-adjp-3">
+<code class="code-inline tex2jax_ignore">[ADJP [ADJ happy]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-adjp-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-diagrams-adjp-5"><h4 class="heading"><span class="title">5.10.3 B: AdjP with degree adverb.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.3 B: AdjP with degree adverb"><a href="#ch-05-diagrams-adjp-5" title="Copy heading and permalink for Paragraphs: 5.10.3 B: AdjP with degree adverb" aria-label="Copy heading and permalink for Paragraphs: 5.10.3 B: AdjP with degree adverb">🔗</a></div></section><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch05_adjp_degree.png" class="contained" alt='Syntax tree for "very happy" showing ADJP with ADV and ADJ'></div>
-<div class="para" id="ch-05-diagrams-adjp-7">
-<code class="code-inline tex2jax_ignore">[ADJP [ADVP [ADV very]] [ADJ happy]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-adjp-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-diagrams-adjp-4"><h4 class="heading"><span class="title">5.10.3 A: Simple AdjP.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.3 A: Simple AdjP"><a href="#ch-05-diagrams-adjp-4" title="Copy heading and permalink for Paragraphs: 5.10.3 A: Simple AdjP" aria-label="Copy heading and permalink for Paragraphs: 5.10.3 A: Simple AdjP">🔗</a></div></section><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch05_adjp_degree.png" class="contained" alt='Syntax tree for "very happy" showing ADJP with ADV and ADJ'></div>
+<div class="para" id="ch-05-diagrams-adjp-6">
+<code class="code-inline tex2jax_ignore">[ADJP [ADVP [ADV very]] [ADJ happy]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-adjp-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-diagrams-adjp-8"><h4 class="heading"><span class="title">5.10.3 C: AdjP with PP complement.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.3 C: AdjP with PP complement"><a href="#ch-05-diagrams-adjp-8" title="Copy heading and permalink for Paragraphs: 5.10.3 C: AdjP with PP complement" aria-label="Copy heading and permalink for Paragraphs: 5.10.3 C: AdjP with PP complement">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch09_adjp_pp_proud.png" class="contained" alt='Syntax tree for "proud of her work" showing ADJP with PP complement'></div>
-<div class="para" id="ch-05-diagrams-adjp-10">
-<code class="code-inline tex2jax_ignore">[ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-adjp-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-diagrams-adjp-7"><h4 class="heading"><span class="title">5.10.3 B: AdjP with degree adverb.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.3 B: AdjP with degree adverb"><a href="#ch-05-diagrams-adjp-7" title="Copy heading and permalink for Paragraphs: 5.10.3 B: AdjP with degree adverb" aria-label="Copy heading and permalink for Paragraphs: 5.10.3 B: AdjP with degree adverb">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch09_adjp_pp_proud.png" class="contained" alt='Syntax tree for "proud of her work" showing ADJP with PP complement'></div>
+<div class="para" id="ch-05-diagrams-adjp-9">
+<code class="code-inline tex2jax_ignore">[ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-adjp-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 5.10.3: Adjective Phrase Examples"><a href="#ch-05-diagrams-adjp" title="Copy heading and permalink for Subsection 5.10.3: Adjective Phrase Examples" aria-label="Copy heading and permalink for Subsection 5.10.3: Adjective Phrase Examples">🔗</a></div></section><section class="subsection" id="ch-05-diagrams-advp"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-05-diagrams-adjp-10"><h4 class="heading"><span class="title">5.10.3 C: AdjP with PP complement.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.3 C: AdjP with PP complement"><a href="#ch-05-diagrams-adjp-10" title="Copy heading and permalink for Paragraphs: 5.10.3 C: AdjP with PP complement" aria-label="Copy heading and permalink for Paragraphs: 5.10.3 C: AdjP with PP complement">🔗</a></div></section><div class="autopermalink" data-description="Subsection 5.10.3: Adjective Phrase Examples"><a href="#ch-05-diagrams-adjp" title="Copy heading and permalink for Subsection 5.10.3: Adjective Phrase Examples" aria-label="Copy heading and permalink for Subsection 5.10.3: Adjective Phrase Examples">🔗</a></div></section><section class="subsection" id="ch-05-diagrams-advp"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.10.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Adverb Phrase Examples</span>
 </h3>
-<section class="paragraphs" id="ch-05-diagrams-advp-2"><h4 class="heading"><span class="title">5.10.4 A: Simple AdvP.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.4 A: Simple AdvP"><a href="#ch-05-diagrams-advp-2" title="Copy heading and permalink for Paragraphs: 5.10.4 A: Simple AdvP" aria-label="Copy heading and permalink for Paragraphs: 5.10.4 A: Simple AdvP">🔗</a></div></section><div class="image-box" style="width: 15%; margin-left: 42.5%; margin-right: 42.5%;"><img src="external/diagrams/new/ch05_advp_simple.png" class="contained" alt='Syntax tree for "quickly" showing ADVP with only ADV'></div>
-<div class="para" id="ch-05-diagrams-advp-4">
-<code class="code-inline tex2jax_ignore">[ADVP [ADV quickly]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-advp-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 15%; margin-left: 42.5%; margin-right: 42.5%;"><img src="external/diagrams/new/ch05_advp_simple.png" class="contained" alt='Syntax tree for "quickly" showing ADVP with only ADV'></div>
+<div class="para" id="ch-05-diagrams-advp-3">
+<code class="code-inline tex2jax_ignore">[ADVP [ADV quickly]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-advp-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-diagrams-advp-5"><h4 class="heading"><span class="title">5.10.4 B: AdvP with degree modifier.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 5.10.4 B: AdvP with degree modifier"><a href="#ch-05-diagrams-advp-5" title="Copy heading and permalink for Paragraphs: 5.10.4 B: AdvP with degree modifier" aria-label="Copy heading and permalink for Paragraphs: 5.10.4 B: AdvP with degree modifier">🔗</a></div></section><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch05_advp_degree.png" class="contained" alt='Syntax tree for "very quickly" showing ADVP with two ADVs'></div>
-<div class="para" id="ch-05-diagrams-advp-7">
-<code class="code-inline tex2jax_ignore">[ADVP [ADVP [ADV very]] [ADV quickly]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-advp-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-diagrams-advp-4"><h4 class="heading"><span class="title">5.10.4 A: Simple AdvP.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.4 A: Simple AdvP"><a href="#ch-05-diagrams-advp-4" title="Copy heading and permalink for Paragraphs: 5.10.4 A: Simple AdvP" aria-label="Copy heading and permalink for Paragraphs: 5.10.4 A: Simple AdvP">🔗</a></div></section><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch05_advp_degree.png" class="contained" alt='Syntax tree for "very quickly" showing ADVP with two ADVs'></div>
+<div class="para" id="ch-05-diagrams-advp-6">
+<code class="code-inline tex2jax_ignore">[ADVP [ADVP [ADV very]] [ADV quickly]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-diagrams-advp-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 5.10.4: Adverb Phrase Examples"><a href="#ch-05-diagrams-advp" title="Copy heading and permalink for Subsection 5.10.4: Adverb Phrase Examples" aria-label="Copy heading and permalink for Subsection 5.10.4: Adverb Phrase Examples">🔗</a></div></section><div class="autopermalink" data-description="Section 5.10: Diagram Examples"><a href="#ch-05-diagram-examples" title="Copy heading and permalink for Section 5.10: Diagram Examples" aria-label="Copy heading and permalink for Section 5.10: Diagram Examples">🔗</a></div></section></div>
+<section class="paragraphs" id="ch-05-diagrams-advp-7"><h4 class="heading"><span class="title">5.10.4 B: AdvP with degree modifier.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 5.10.4 B: AdvP with degree modifier"><a href="#ch-05-diagrams-advp-7" title="Copy heading and permalink for Paragraphs: 5.10.4 B: AdvP with degree modifier" aria-label="Copy heading and permalink for Paragraphs: 5.10.4 B: AdvP with degree modifier">🔗</a></div></section><div class="autopermalink" data-description="Subsection 5.10.4: Adverb Phrase Examples"><a href="#ch-05-diagrams-advp" title="Copy heading and permalink for Subsection 5.10.4: Adverb Phrase Examples" aria-label="Copy heading and permalink for Subsection 5.10.4: Adverb Phrase Examples">🔗</a></div></section><div class="autopermalink" data-description="Section 5.10: Diagram Examples"><a href="#ch-05-diagram-examples" title="Copy heading and permalink for Section 5.10: Diagram Examples" aria-label="Copy heading and permalink for Section 5.10: Diagram Examples">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-05-homework.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-05-open-classes-14.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

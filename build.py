@@ -90,6 +90,25 @@ def build_html():
 CUSTOM_CSS = """
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;

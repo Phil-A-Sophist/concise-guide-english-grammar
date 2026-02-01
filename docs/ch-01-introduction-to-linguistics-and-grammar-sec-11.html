@@ -115,6 +115,25 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;
@@ -145,23 +164,27 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram example labels - larger font for easy skimming */
-[id*="diagrams-np"] .paragraphs .heading .title,
-[id*="diagrams-vp"] .paragraphs .heading .title,
-[id*="diagrams-adjp"] .paragraphs .heading .title,
-[id*="diagrams-advp"] .paragraphs .heading .title {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: #2c5282 !important;
+/* Diagram sections: left-align images */
+[id*="diagrams-"] .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
-/* Center bracket notation beneath diagram images */
-[id*="diagrams-np"] .para:has(.code-inline),
-[id*="diagrams-vp"] .para:has(.code-inline),
-[id*="diagrams-adjp"] .para:has(.code-inline),
-[id*="diagrams-advp"] .para:has(.code-inline) {
-    text-align: center !important;
+/* Diagram sections: left-align bracket notation */
+[id*="diagrams-"] .para:has(.code-inline) {
+    text-align: left !important;
+    margin-top: 0.25em !important;
 }
+
+/* Diagram example labels - styled as captions below bracket notation */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 0.95em !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1.5em !important;
+}
+
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
@@ -241,19 +264,18 @@ section .tabular-box {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-41.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Morphemes: The Building Blocks</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-42.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Common Morphemes by Word Class</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-43.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Morpheme Boundaries</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compounds</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-45.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
+<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Morpheme Identification</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Word Building</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Morpheme Identification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Word Building</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-9.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-8.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Glossary</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -694,19 +716,19 @@ section .tabular-box {
 <section class="paragraphs" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-11"><h3 class="heading"><span class="title">What Linguistics Is Not.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: What Linguistics Is Not"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-11" title="Copy heading and permalink for Paragraphs: What Linguistics Is Not" aria-label="Copy heading and permalink for Paragraphs: What Linguistics Is Not">🔗</a></div></section><div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-12">To understand what linguistics is, it helps to clarify what it isn’t:<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-13">
-<em class="emphasis">Linguistics is not about learning foreign languages.</em> Linguists study <em class="emphasis">how</em> languages work, not necessarily <em class="emphasis">how to speak</em> many languages. A linguist might specialize in the syntax of a language they don’t speak fluently, analyzing its patterns from texts and informant interviews. That said, many linguists do speak multiple languages, and the study of linguistics often makes learning new languages easier by revealing underlying patterns.<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-13"><h3 class="heading"><span class="title">Linguistics is not about learning foreign languages.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Linguistics is not about learning foreign languages"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-13" title="Copy heading and permalink for Paragraphs: Linguistics is not about learning foreign languages" aria-label="Copy heading and permalink for Paragraphs: Linguistics is not about learning foreign languages">🔗</a></div></section><div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-14">Linguists study <em class="emphasis">how</em> languages work, not necessarily <em class="emphasis">how to speak</em> many languages. A linguist might specialize in the syntax of a language they don’t speak fluently, analyzing its patterns from texts and informant interviews. That said, many linguists do speak multiple languages, and the study of linguistics often makes learning new languages easier by revealing underlying patterns.<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-14">
-<em class="emphasis">Linguistics is not about "correct" grammar.</em> Linguists don’t sit in judgment of how people speak. They’re interested in all varieties of language—from formal academic prose to casual text messages, from prestige dialects to stigmatized ones. Every variety has its own systematic grammar worth studying.<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-15"><h3 class="heading"><span class="title">Linguistics is not about "correct" grammar.</span></h3>
+<div class="autopermalink" data-description='Paragraphs: Linguistics is not about "correct" grammar'><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-15" title='Copy heading and permalink for Paragraphs: Linguistics is not about "correct" grammar' aria-label='Copy heading and permalink for Paragraphs: Linguistics is not about "correct" grammar'>🔗</a></div></section><div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-16">Linguists don’t sit in judgment of how people speak. They’re interested in all varieties of language—from formal academic prose to casual text messages, from prestige dialects to stigmatized ones. Every variety has its own systematic grammar worth studying.<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-15">
-<em class="emphasis">Linguistics is not just about English.</em> While this textbook focuses on English grammar, the field of linguistics encompasses all human languages—from Mandarin (with over a billion speakers) to endangered languages with only a handful of speakers left. Cross-linguistic comparison reveals both the diversity of human languages and their surprising commonalities.<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-17"><h3 class="heading"><span class="title">Linguistics is not just about English.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Linguistics is not just about English"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-17" title="Copy heading and permalink for Paragraphs: Linguistics is not just about English" aria-label="Copy heading and permalink for Paragraphs: Linguistics is not just about English">🔗</a></div></section><div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-18">While this textbook focuses on English grammar, the field of linguistics encompasses all human languages—from Mandarin (with over a billion speakers) to endangered languages with only a handful of speakers left. Cross-linguistic comparison reveals both the diversity of human languages and their surprising commonalities.<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-16"><h3 class="heading"><span class="title">Ethics in Linguistic Research.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Ethics in Linguistic Research"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-16" title="Copy heading and permalink for Paragraphs: Ethics in Linguistic Research" aria-label="Copy heading and permalink for Paragraphs: Ethics in Linguistic Research">🔗</a></div></section><div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-17">One important ethical consideration in linguistics involves research methods. Like other social sciences, linguistics has sometimes caused harm to minoritized communities through research practices that exploited speakers or misrepresented their language varieties. Early fieldworkers sometimes extracted linguistic data from indigenous communities without proper consent, published materials that speakers considered sacred or private, or used their findings to reinforce stereotypes about "primitive" languages (a concept modern linguistics firmly rejects).<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-19"><h3 class="heading"><span class="title">Ethics in Linguistic Research.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Ethics in Linguistic Research"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-19" title="Copy heading and permalink for Paragraphs: Ethics in Linguistic Research" aria-label="Copy heading and permalink for Paragraphs: Ethics in Linguistic Research">🔗</a></div></section><div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-20">One important ethical consideration in linguistics involves research methods. Like other social sciences, linguistics has sometimes caused harm to minoritized communities through research practices that exploited speakers or misrepresented their language varieties. Early fieldworkers sometimes extracted linguistic data from indigenous communities without proper consent, published materials that speakers considered sacred or private, or used their findings to reinforce stereotypes about "primitive" languages (a concept modern linguistics firmly rejects).<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-18">Contemporary linguists work to conduct research that respects and benefits the communities they study, often involving community members as collaborators rather than mere subjects. <em class="emphasis">Community-based linguistics</em> and <em class="emphasis">documentary linguistics</em> emphasize preserving endangered languages in ways that serve speakers’ own goals—not just building academic careers or archives. If you pursue linguistics further, you’ll encounter these ethical frameworks and the ongoing conversations about how to conduct responsible research.<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-01-introduction-to-linguistics-and-grammar-sec-11-21">Contemporary linguists work to conduct research that respects and benefits the communities they study, often involving community members as collaborators rather than mere subjects. <em class="emphasis">Community-based linguistics</em> and <em class="emphasis">documentary linguistics</em> emphasize preserving endangered languages in ways that serve speakers’ own goals—not just building academic careers or archives. If you pursue linguistics further, you’ll encounter these ethical frameworks and the ongoing conversations about how to conduct responsible research.<div class="autopermalink" data-description="Paragraph"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Section 1.1: What is Linguistics?"><a href="#ch-01-introduction-to-linguistics-and-grammar-sec-11" title="Copy heading and permalink for Section 1.1: What is Linguistics?" aria-label="Copy heading and permalink for Section 1.1: What is Linguistics?">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">

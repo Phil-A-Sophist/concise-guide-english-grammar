@@ -115,6 +115,25 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;
@@ -145,23 +164,27 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram example labels - larger font for easy skimming */
-[id*="diagrams-np"] .paragraphs .heading .title,
-[id*="diagrams-vp"] .paragraphs .heading .title,
-[id*="diagrams-adjp"] .paragraphs .heading .title,
-[id*="diagrams-advp"] .paragraphs .heading .title {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: #2c5282 !important;
+/* Diagram sections: left-align images */
+[id*="diagrams-"] .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
-/* Center bracket notation beneath diagram images */
-[id*="diagrams-np"] .para:has(.code-inline),
-[id*="diagrams-vp"] .para:has(.code-inline),
-[id*="diagrams-adjp"] .para:has(.code-inline),
-[id*="diagrams-advp"] .para:has(.code-inline) {
-    text-align: center !important;
+/* Diagram sections: left-align bracket notation */
+[id*="diagrams-"] .para:has(.code-inline) {
+    text-align: left !important;
+    margin-top: 0.25em !important;
 }
+
+/* Diagram example labels - styled as captions below bracket notation */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 0.95em !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1.5em !important;
+}
+
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
@@ -241,19 +264,18 @@ section .tabular-box {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-41.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Morphemes: The Building Blocks</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-42.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Common Morphemes by Word Class</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-43.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Morpheme Boundaries</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compounds</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-45.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
+<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Morpheme Identification</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Word Building</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Morpheme Identification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Word Building</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-9.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-8.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Glossary</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -678,84 +700,84 @@ section .tabular-box {
 <section class="subsection" id="ch-08-diagrams-intrans"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.9.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pattern 1: Intransitive (S-V)</span>
 </h3>
-<section class="paragraphs" id="ch-08-diagrams-intrans-2"><h4 class="heading"><span class="title">8.8.1 A: Basic intransitive.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.1 A: Basic intransitive"><a href="#ch-08-diagrams-intrans-2" title="Copy heading and permalink for Paragraphs: 8.8.1 A: Basic intransitive" aria-label="Copy heading and permalink for Paragraphs: 8.8.1 A: Basic intransitive">🔗</a></div></section><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch12_basic_intransitive.png" class="contained" alt='Syntax tree for "Cameras flashed" showing S with NP and VP'></div>
-<div class="para" id="ch-08-diagrams-intrans-4">
-<code class="code-inline tex2jax_ignore">[S [NP [N Cameras]] [VP [V flashed]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-intrans-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch12_basic_intransitive.png" class="contained" alt='Syntax tree for "Cameras flashed" showing S with NP and VP'></div>
+<div class="para" id="ch-08-diagrams-intrans-3">
+<code class="code-inline tex2jax_ignore">[S [NP [N Cameras]] [VP [V flashed]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-intrans-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-08-diagrams-intrans-5"><h4 class="heading"><span class="title">8.8.1 B: Intransitive with conjoined subjects.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.1 B: Intransitive with conjoined subjects"><a href="#ch-08-diagrams-intrans-5" title="Copy heading and permalink for Paragraphs: 8.8.1 B: Intransitive with conjoined subjects" aria-label="Copy heading and permalink for Paragraphs: 8.8.1 B: Intransitive with conjoined subjects">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch08_intrans_conj_subj.png" class="contained" alt='Syntax tree for "Frodo and Sam travel" with coordinated subject NP'></div>
-<div class="para" id="ch-08-diagrams-intrans-7">
-<code class="code-inline tex2jax_ignore">[S [NP [NP [N Frodo]] [CONJ and] [NP [N Sam]]] [VP [V travel]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-intrans-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-08-diagrams-intrans-4"><h4 class="heading"><span class="title">8.8.1 A: Basic intransitive.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.1 A: Basic intransitive"><a href="#ch-08-diagrams-intrans-4" title="Copy heading and permalink for Paragraphs: 8.8.1 A: Basic intransitive" aria-label="Copy heading and permalink for Paragraphs: 8.8.1 A: Basic intransitive">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch08_intrans_conj_subj.png" class="contained" alt='Syntax tree for "Frodo and Sam travel" with coordinated subject NP'></div>
+<div class="para" id="ch-08-diagrams-intrans-6">
+<code class="code-inline tex2jax_ignore">[S [NP [NP [N Frodo]] [CONJ and] [NP [N Sam]]] [VP [V travel]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-intrans-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-08-diagrams-intrans-8"><h4 class="heading"><span class="title">8.8.1 C: Intransitive with conjoined verbs.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.1 C: Intransitive with conjoined verbs"><a href="#ch-08-diagrams-intrans-8" title="Copy heading and permalink for Paragraphs: 8.8.1 C: Intransitive with conjoined verbs" aria-label="Copy heading and permalink for Paragraphs: 8.8.1 C: Intransitive with conjoined verbs">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch08_intrans_conj_vp.png" class="contained" alt='Syntax tree for "Gandalf thinks and acts" with coordinated VPs'></div>
-<div class="para" id="ch-08-diagrams-intrans-10">
-<code class="code-inline tex2jax_ignore">[S [NP [N Gandalf]] [VP [VP [V thinks]] [CONJ and] [VP [V acts]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-intrans-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-08-diagrams-intrans-7"><h4 class="heading"><span class="title">8.8.1 B: Intransitive with conjoined subjects.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.1 B: Intransitive with conjoined subjects"><a href="#ch-08-diagrams-intrans-7" title="Copy heading and permalink for Paragraphs: 8.8.1 B: Intransitive with conjoined subjects" aria-label="Copy heading and permalink for Paragraphs: 8.8.1 B: Intransitive with conjoined subjects">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch08_intrans_conj_vp.png" class="contained" alt='Syntax tree for "Gandalf thinks and acts" with coordinated VPs'></div>
+<div class="para" id="ch-08-diagrams-intrans-9">
+<code class="code-inline tex2jax_ignore">[S [NP [N Gandalf]] [VP [VP [V thinks]] [CONJ and] [VP [V acts]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-intrans-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 8.9.1: Pattern 1: Intransitive (S-V)"><a href="#ch-08-diagrams-intrans" title="Copy heading and permalink for Subsection 8.9.1: Pattern 1: Intransitive (S-V)" aria-label="Copy heading and permalink for Subsection 8.9.1: Pattern 1: Intransitive (S-V)">🔗</a></div></section><section class="subsection" id="ch-08-diagrams-trans"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-08-diagrams-intrans-10"><h4 class="heading"><span class="title">8.8.1 C: Intransitive with conjoined verbs.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.1 C: Intransitive with conjoined verbs"><a href="#ch-08-diagrams-intrans-10" title="Copy heading and permalink for Paragraphs: 8.8.1 C: Intransitive with conjoined verbs" aria-label="Copy heading and permalink for Paragraphs: 8.8.1 C: Intransitive with conjoined verbs">🔗</a></div></section><div class="autopermalink" data-description="Subsection 8.9.1: Pattern 1: Intransitive (S-V)"><a href="#ch-08-diagrams-intrans" title="Copy heading and permalink for Subsection 8.9.1: Pattern 1: Intransitive (S-V)" aria-label="Copy heading and permalink for Subsection 8.9.1: Pattern 1: Intransitive (S-V)">🔗</a></div></section><section class="subsection" id="ch-08-diagrams-trans"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.9.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pattern 2: Transitive (S-V-DO)</span>
 </h3>
-<section class="paragraphs" id="ch-08-diagrams-trans-2"><h4 class="heading"><span class="title">8.8.2 A: Basic transitive.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.2 A: Basic transitive"><a href="#ch-08-diagrams-trans-2" title="Copy heading and permalink for Paragraphs: 8.8.2 A: Basic transitive" aria-label="Copy heading and permalink for Paragraphs: 8.8.2 A: Basic transitive">🔗</a></div></section><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch12_basic_transitive.png" class="contained" alt='Syntax tree for "Weasels stalk rabbits" showing transitive structure'></div>
-<div class="para" id="ch-08-diagrams-trans-4">
-<code class="code-inline tex2jax_ignore">[S [NP [N Weasels]] [VP [V stalk] [NP [N rabbits]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-trans-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch12_basic_transitive.png" class="contained" alt='Syntax tree for "Weasels stalk rabbits" showing transitive structure'></div>
+<div class="para" id="ch-08-diagrams-trans-3">
+<code class="code-inline tex2jax_ignore">[S [NP [N Weasels]] [VP [V stalk] [NP [N rabbits]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-trans-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 8.9.2: Pattern 2: Transitive (S-V-DO)"><a href="#ch-08-diagrams-trans" title="Copy heading and permalink for Subsection 8.9.2: Pattern 2: Transitive (S-V-DO)" aria-label="Copy heading and permalink for Subsection 8.9.2: Pattern 2: Transitive (S-V-DO)">🔗</a></div></section><section class="subsection" id="ch-08-diagrams-ditrans"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-08-diagrams-trans-4"><h4 class="heading"><span class="title">8.8.2 A: Basic transitive.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.2 A: Basic transitive"><a href="#ch-08-diagrams-trans-4" title="Copy heading and permalink for Paragraphs: 8.8.2 A: Basic transitive" aria-label="Copy heading and permalink for Paragraphs: 8.8.2 A: Basic transitive">🔗</a></div></section><div class="autopermalink" data-description="Subsection 8.9.2: Pattern 2: Transitive (S-V-DO)"><a href="#ch-08-diagrams-trans" title="Copy heading and permalink for Subsection 8.9.2: Pattern 2: Transitive (S-V-DO)" aria-label="Copy heading and permalink for Subsection 8.9.2: Pattern 2: Transitive (S-V-DO)">🔗</a></div></section><section class="subsection" id="ch-08-diagrams-ditrans"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.9.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pattern 3: Ditransitive (S-V-IO-DO)</span>
 </h3>
-<section class="paragraphs" id="ch-08-diagrams-ditrans-2"><h4 class="heading"><span class="title">8.8.3 A: Ditransitive with indirect and direct objects.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.3 A: Ditransitive with indirect and direct objects"><a href="#ch-08-diagrams-ditrans-2" title="Copy heading and permalink for Paragraphs: 8.8.3 A: Ditransitive with indirect and direct objects" aria-label="Copy heading and permalink for Paragraphs: 8.8.3 A: Ditransitive with indirect and direct objects">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch12_ditransitive_io_do.png" class="contained" alt='Syntax tree for "Marie sent Ramon a gift" with IO and DO'></div>
-<div class="para" id="ch-08-diagrams-ditrans-4">
-<code class="code-inline tex2jax_ignore">[S [NP [N Marie]] [VP [V sent] [NP [N Ramon]] [NP [DET a] [N gift]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-ditrans-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch12_ditransitive_io_do.png" class="contained" alt='Syntax tree for "Marie sent Ramon a gift" with IO and DO'></div>
+<div class="para" id="ch-08-diagrams-ditrans-3">
+<code class="code-inline tex2jax_ignore">[S [NP [N Marie]] [VP [V sent] [NP [N Ramon]] [NP [DET a] [N gift]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-ditrans-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 8.9.3: Pattern 3: Ditransitive (S-V-IO-DO)"><a href="#ch-08-diagrams-ditrans" title="Copy heading and permalink for Subsection 8.9.3: Pattern 3: Ditransitive (S-V-IO-DO)" aria-label="Copy heading and permalink for Subsection 8.9.3: Pattern 3: Ditransitive (S-V-IO-DO)">🔗</a></div></section><section class="subsection" id="ch-08-diagrams-copular"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-08-diagrams-ditrans-4"><h4 class="heading"><span class="title">8.8.3 A: Ditransitive with indirect and direct objects.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.3 A: Ditransitive with indirect and direct objects"><a href="#ch-08-diagrams-ditrans-4" title="Copy heading and permalink for Paragraphs: 8.8.3 A: Ditransitive with indirect and direct objects" aria-label="Copy heading and permalink for Paragraphs: 8.8.3 A: Ditransitive with indirect and direct objects">🔗</a></div></section><div class="autopermalink" data-description="Subsection 8.9.3: Pattern 3: Ditransitive (S-V-IO-DO)"><a href="#ch-08-diagrams-ditrans" title="Copy heading and permalink for Subsection 8.9.3: Pattern 3: Ditransitive (S-V-IO-DO)" aria-label="Copy heading and permalink for Subsection 8.9.3: Pattern 3: Ditransitive (S-V-IO-DO)">🔗</a></div></section><section class="subsection" id="ch-08-diagrams-copular"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.9.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pattern 4: Linking/Copular (S-V-SC)</span>
 </h3>
-<section class="paragraphs" id="ch-08-diagrams-copular-2"><h4 class="heading"><span class="title">8.8.4 A: Copular with NP complement.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.4 A: Copular with NP complement"><a href="#ch-08-diagrams-copular-2" title="Copy heading and permalink for Paragraphs: 8.8.4 A: Copular with NP complement" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 A: Copular with NP complement">🔗</a></div></section><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch12_copular_be.png" class="contained" alt='Syntax tree for "I am an optimist" with NP as subject complement'></div>
-<div class="para" id="ch-08-diagrams-copular-4">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V am] [NP [DET an] [N optimist]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch12_copular_be.png" class="contained" alt='Syntax tree for "I am an optimist" with NP as subject complement'></div>
+<div class="para" id="ch-08-diagrams-copular-3">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V am] [NP [DET an] [N optimist]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-08-diagrams-copular-5"><h4 class="heading"><span class="title">8.8.4 B: Copular with AdjP complement.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.4 B: Copular with AdjP complement"><a href="#ch-08-diagrams-copular-5" title="Copy heading and permalink for Paragraphs: 8.8.4 B: Copular with AdjP complement" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 B: Copular with AdjP complement">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch06_linking.png" class="contained" alt='Syntax tree for "She is happy" with ADJP as subject complement'></div>
-<div class="para" id="ch-08-diagrams-copular-7">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-08-diagrams-copular-4"><h4 class="heading"><span class="title">8.8.4 A: Copular with NP complement.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.4 A: Copular with NP complement"><a href="#ch-08-diagrams-copular-4" title="Copy heading and permalink for Paragraphs: 8.8.4 A: Copular with NP complement" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 A: Copular with NP complement">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch06_linking.png" class="contained" alt='Syntax tree for "She is happy" with ADJP as subject complement'></div>
+<div class="para" id="ch-08-diagrams-copular-6">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-08-diagrams-copular-8"><h4 class="heading"><span class="title">8.8.4 C: Copular with PP adverbial.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.4 C: Copular with PP adverbial"><a href="#ch-08-diagrams-copular-8" title="Copy heading and permalink for Paragraphs: 8.8.4 C: Copular with PP adverbial" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 C: Copular with PP adverbial">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch08_copular_pp.png" class="contained" alt='Syntax tree for "Phillip is over the moon" with PP complement'></div>
-<div class="para" id="ch-08-diagrams-copular-10">
-<code class="code-inline tex2jax_ignore">[S [NP [N Phillip]] [VP [V is] [PP [PREP over] [NP [DET the] [N moon]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-08-diagrams-copular-7"><h4 class="heading"><span class="title">8.8.4 B: Copular with AdjP complement.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.4 B: Copular with AdjP complement"><a href="#ch-08-diagrams-copular-7" title="Copy heading and permalink for Paragraphs: 8.8.4 B: Copular with AdjP complement" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 B: Copular with AdjP complement">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch08_copular_pp.png" class="contained" alt='Syntax tree for "Phillip is over the moon" with PP complement'></div>
+<div class="para" id="ch-08-diagrams-copular-9">
+<code class="code-inline tex2jax_ignore">[S [NP [N Phillip]] [VP [V is] [PP [PREP over] [NP [DET the] [N moon]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-08-diagrams-copular-11"><h4 class="heading"><span class="title">8.8.4 D: Copular with AdvP adverbial.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.4 D: Copular with AdvP adverbial"><a href="#ch-08-diagrams-copular-11" title="Copy heading and permalink for Paragraphs: 8.8.4 D: Copular with AdvP adverbial" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 D: Copular with AdvP adverbial">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch08_copular_advp.png" class="contained" alt='Syntax tree for "Phillip is here" with ADVP complement'></div>
-<div class="para" id="ch-08-diagrams-copular-13">
-<code class="code-inline tex2jax_ignore">[S [NP [N Phillip]] [VP [V is] [ADVP [ADV here]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-08-diagrams-copular-10"><h4 class="heading"><span class="title">8.8.4 C: Copular with PP adverbial.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.4 C: Copular with PP adverbial"><a href="#ch-08-diagrams-copular-10" title="Copy heading and permalink for Paragraphs: 8.8.4 C: Copular with PP adverbial" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 C: Copular with PP adverbial">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch08_copular_advp.png" class="contained" alt='Syntax tree for "Phillip is here" with ADVP complement'></div>
+<div class="para" id="ch-08-diagrams-copular-12">
+<code class="code-inline tex2jax_ignore">[S [NP [N Phillip]] [VP [V is] [ADVP [ADV here]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-08-diagrams-copular-14"><h4 class="heading"><span class="title">8.8.4 E: Linking verb with AdjP.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.4 E: Linking verb with AdjP"><a href="#ch-08-diagrams-copular-14" title="Copy heading and permalink for Paragraphs: 8.8.4 E: Linking verb with AdjP" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 E: Linking verb with AdjP">🔗</a></div></section><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch08_linking_adjp.png" class="contained" alt='Syntax tree for "Phillip became famous" with linking verb and ADJP'></div>
-<div class="para" id="ch-08-diagrams-copular-16">
-<code class="code-inline tex2jax_ignore">[S [NP [N Phillip]] [VP [V became] [ADJP [ADJ famous]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-08-diagrams-copular-13"><h4 class="heading"><span class="title">8.8.4 D: Copular with AdvP adverbial.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.4 D: Copular with AdvP adverbial"><a href="#ch-08-diagrams-copular-13" title="Copy heading and permalink for Paragraphs: 8.8.4 D: Copular with AdvP adverbial" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 D: Copular with AdvP adverbial">🔗</a></div></section><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch08_linking_adjp.png" class="contained" alt='Syntax tree for "Phillip became famous" with linking verb and ADJP'></div>
+<div class="para" id="ch-08-diagrams-copular-15">
+<code class="code-inline tex2jax_ignore">[S [NP [N Phillip]] [VP [V became] [ADJP [ADJ famous]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-08-diagrams-copular-17"><h4 class="heading"><span class="title">8.8.4 F: Linking verb with NP.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.4 F: Linking verb with NP"><a href="#ch-08-diagrams-copular-17" title="Copy heading and permalink for Paragraphs: 8.8.4 F: Linking verb with NP" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 F: Linking verb with NP">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch08_linking_np.png" class="contained" alt='Syntax tree for "Phillip became a doctor" with linking verb and NP'></div>
-<div class="para" id="ch-08-diagrams-copular-19">
-<code class="code-inline tex2jax_ignore">[S [NP [N Phillip]] [VP [V became] [NP [DET a] [N doctor]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-08-diagrams-copular-16"><h4 class="heading"><span class="title">8.8.4 E: Linking verb with AdjP.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.4 E: Linking verb with AdjP"><a href="#ch-08-diagrams-copular-16" title="Copy heading and permalink for Paragraphs: 8.8.4 E: Linking verb with AdjP" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 E: Linking verb with AdjP">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch08_linking_np.png" class="contained" alt='Syntax tree for "Phillip became a doctor" with linking verb and NP'></div>
+<div class="para" id="ch-08-diagrams-copular-18">
+<code class="code-inline tex2jax_ignore">[S [NP [N Phillip]] [VP [V became] [NP [DET a] [N doctor]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-copular-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 8.9.4: Pattern 4: Linking/Copular (S-V-SC)"><a href="#ch-08-diagrams-copular" title="Copy heading and permalink for Subsection 8.9.4: Pattern 4: Linking/Copular (S-V-SC)" aria-label="Copy heading and permalink for Subsection 8.9.4: Pattern 4: Linking/Copular (S-V-SC)">🔗</a></div></section><section class="subsection" id="ch-08-diagrams-complex-trans"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-08-diagrams-copular-19"><h4 class="heading"><span class="title">8.8.4 F: Linking verb with NP.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.4 F: Linking verb with NP"><a href="#ch-08-diagrams-copular-19" title="Copy heading and permalink for Paragraphs: 8.8.4 F: Linking verb with NP" aria-label="Copy heading and permalink for Paragraphs: 8.8.4 F: Linking verb with NP">🔗</a></div></section><div class="autopermalink" data-description="Subsection 8.9.4: Pattern 4: Linking/Copular (S-V-SC)"><a href="#ch-08-diagrams-copular" title="Copy heading and permalink for Subsection 8.9.4: Pattern 4: Linking/Copular (S-V-SC)" aria-label="Copy heading and permalink for Subsection 8.9.4: Pattern 4: Linking/Copular (S-V-SC)">🔗</a></div></section><section class="subsection" id="ch-08-diagrams-complex-trans"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">8.9.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pattern 5: Complex Transitive (S-V-DO-OC)</span>
 </h3>
-<section class="paragraphs" id="ch-08-diagrams-complex-trans-2"><h4 class="heading"><span class="title">8.8.5 A: Complex transitive with AdjP object complement.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.5 A: Complex transitive with AdjP object complement"><a href="#ch-08-diagrams-complex-trans-2" title="Copy heading and permalink for Paragraphs: 8.8.5 A: Complex transitive with AdjP object complement" aria-label="Copy heading and permalink for Paragraphs: 8.8.5 A: Complex transitive with AdjP object complement">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_complex_trans_adj.png" class="contained" alt='Syntax tree for "The jury found him guilty" with DO and AdjP OC'></div>
-<div class="para" id="ch-08-diagrams-complex-trans-4">
-<code class="code-inline tex2jax_ignore">[S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-complex-trans-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_complex_trans_adj.png" class="contained" alt='Syntax tree for "The jury found him guilty" with DO and AdjP OC'></div>
+<div class="para" id="ch-08-diagrams-complex-trans-3">
+<code class="code-inline tex2jax_ignore">[S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-complex-trans-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-08-diagrams-complex-trans-5"><h4 class="heading"><span class="title">8.8.5 B: Complex transitive with NP object complement.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 8.8.5 B: Complex transitive with NP object complement"><a href="#ch-08-diagrams-complex-trans-5" title="Copy heading and permalink for Paragraphs: 8.8.5 B: Complex transitive with NP object complement" aria-label="Copy heading and permalink for Paragraphs: 8.8.5 B: Complex transitive with NP object complement">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch06_complex_trans_np.png" class="contained" alt='Syntax tree for "They elected her president" with DO and NP OC'></div>
-<div class="para" id="ch-08-diagrams-complex-trans-7">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-complex-trans-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-08-diagrams-complex-trans-4"><h4 class="heading"><span class="title">8.8.5 A: Complex transitive with AdjP object complement.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.5 A: Complex transitive with AdjP object complement"><a href="#ch-08-diagrams-complex-trans-4" title="Copy heading and permalink for Paragraphs: 8.8.5 A: Complex transitive with AdjP object complement" aria-label="Copy heading and permalink for Paragraphs: 8.8.5 A: Complex transitive with AdjP object complement">🔗</a></div></section><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch06_complex_trans_np.png" class="contained" alt='Syntax tree for "They elected her president" with DO and NP OC'></div>
+<div class="para" id="ch-08-diagrams-complex-trans-6">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-08-diagrams-complex-trans-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 8.9.5: Pattern 5: Complex Transitive (S-V-DO-OC)"><a href="#ch-08-diagrams-complex-trans" title="Copy heading and permalink for Subsection 8.9.5: Pattern 5: Complex Transitive (S-V-DO-OC)" aria-label="Copy heading and permalink for Subsection 8.9.5: Pattern 5: Complex Transitive (S-V-DO-OC)">🔗</a></div></section><div class="autopermalink" data-description="Section 8.9: Diagram Examples"><a href="#ch-08-diagram-examples" title="Copy heading and permalink for Section 8.9: Diagram Examples" aria-label="Copy heading and permalink for Section 8.9: Diagram Examples">🔗</a></div></section></div>
+<section class="paragraphs" id="ch-08-diagrams-complex-trans-7"><h4 class="heading"><span class="title">8.8.5 B: Complex transitive with NP object complement.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 8.8.5 B: Complex transitive with NP object complement"><a href="#ch-08-diagrams-complex-trans-7" title="Copy heading and permalink for Paragraphs: 8.8.5 B: Complex transitive with NP object complement" aria-label="Copy heading and permalink for Paragraphs: 8.8.5 B: Complex transitive with NP object complement">🔗</a></div></section><div class="autopermalink" data-description="Subsection 8.9.5: Pattern 5: Complex Transitive (S-V-DO-OC)"><a href="#ch-08-diagrams-complex-trans" title="Copy heading and permalink for Subsection 8.9.5: Pattern 5: Complex Transitive (S-V-DO-OC)" aria-label="Copy heading and permalink for Subsection 8.9.5: Pattern 5: Complex Transitive (S-V-DO-OC)">🔗</a></div></section><div class="autopermalink" data-description="Section 8.9: Diagram Examples"><a href="#ch-08-diagram-examples" title="Copy heading and permalink for Section 8.9: Diagram Examples" aria-label="Copy heading and permalink for Section 8.9: Diagram Examples">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-08-homework.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-08-basic-sentence-elements-and-sentence-patterns-12.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

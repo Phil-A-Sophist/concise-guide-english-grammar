@@ -115,6 +115,25 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;
@@ -145,23 +164,27 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram example labels - larger font for easy skimming */
-[id*="diagrams-np"] .paragraphs .heading .title,
-[id*="diagrams-vp"] .paragraphs .heading .title,
-[id*="diagrams-adjp"] .paragraphs .heading .title,
-[id*="diagrams-advp"] .paragraphs .heading .title {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: #2c5282 !important;
+/* Diagram sections: left-align images */
+[id*="diagrams-"] .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
-/* Center bracket notation beneath diagram images */
-[id*="diagrams-np"] .para:has(.code-inline),
-[id*="diagrams-vp"] .para:has(.code-inline),
-[id*="diagrams-adjp"] .para:has(.code-inline),
-[id*="diagrams-advp"] .para:has(.code-inline) {
-    text-align: center !important;
+/* Diagram sections: left-align bracket notation */
+[id*="diagrams-"] .para:has(.code-inline) {
+    text-align: left !important;
+    margin-top: 0.25em !important;
 }
+
+/* Diagram example labels - styled as captions below bracket notation */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 0.95em !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1.5em !important;
+}
+
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
@@ -241,19 +264,18 @@ section .tabular-box {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-41.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Morphemes: The Building Blocks</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-42.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Common Morphemes by Word Class</span></a></div></li>
 <li class="toc-item toc-section active"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-43.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Morpheme Boundaries</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compounds</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-45.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
+<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Morpheme Identification</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Word Building</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Morpheme Identification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Word Building</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-9.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-8.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Glossary</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -836,188 +858,302 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-04-morphology-and-word-structure-sec-43-38">
-<em class="emphasis">Lonely</em> ≠ <em class="emphasis">lone</em> + <em class="emphasis">-ly</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-38" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Type 2: Historical Parts That Have Fused</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-38" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-39">
-<li id="ch-04-morphology-and-word-structure-sec-43-39-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-39-1-1">Wait—"lone" IS a word in English ✓<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-39-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-39">Many English words came from Latin, Greek, or French with internal structure that no longer functions for modern speakers. Consider the word <em class="emphasis">receive</em>. It begins with <em class="emphasis">re-</em>, which often means "again" in English (<em class="emphasis">rewrite</em>, <em class="emphasis">rebuild</em>, <em class="emphasis">reconsider</em>). And the rest of the word looks like it might be <em class="emphasis">ceive</em>. But ask yourself: Can you <em class="emphasis">ceive</em> something? Is <em class="emphasis">ceive</em> a word? Unless you’re a Latin scholar who knows that <em class="emphasis">capere</em> meant "to take," the answer is no.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-39" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-39-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-40">
+<em class="emphasis">Deceive</em> ≠ <em class="emphasis">de-</em> + <em class="emphasis">ceive</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-41">
+<li id="ch-04-morphology-and-word-structure-sec-43-41-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-41-1-1">"Ceive" is not a word in English ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-41-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-41-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-43-39-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-39-2-1">
-<em class="emphasis">Lonely</em> = <em class="emphasis">lone</em> (free) + <em class="emphasis">-ly</em> (bound) = 2 morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-39-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-43-41-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-41-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-41-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-39-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-40">This shows why you must always verify: just because a word ends in <em class="emphasis">-ly</em> doesn’t mean the rest is automatically not a word!<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-41">
-<em class="emphasis">Type 2: Historical Parts That Have Fused</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-41" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-42">Many English words came from Latin, Greek, or French with internal structure that no longer functions for modern speakers. Consider the word <em class="emphasis">receive</em>. It begins with <em class="emphasis">re-</em>, which often means "again" in English (<em class="emphasis">rewrite</em>, <em class="emphasis">rebuild</em>, <em class="emphasis">reconsider</em>). And the rest of the word looks like it might be <em class="emphasis">ceive</em>. But ask yourself: Can you <em class="emphasis">ceive</em> something? Is <em class="emphasis">ceive</em> a word? Unless you’re a Latin scholar who knows that <em class="emphasis">capere</em> meant "to take," the answer is no.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-42" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-43">
-<em class="emphasis">Deceive</em> ≠ <em class="emphasis">de-</em> + <em class="emphasis">ceive</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-43" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-44">
-<li id="ch-04-morphology-and-word-structure-sec-43-44-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-44-1-1">"Ceive" is not a word in English ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-44-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-44-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-43-44-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-44-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-44-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-44-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-41-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-45">
-<em class="emphasis">Predict</em> ≠ <em class="emphasis">pre-</em> + <em class="emphasis">dict</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-45" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-42">
+<em class="emphasis">Predict</em> ≠ <em class="emphasis">pre-</em> + <em class="emphasis">dict</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-42" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-46">
-<li id="ch-04-morphology-and-word-structure-sec-43-46-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-46-1-1">"Dict" is not a word in English (it’s Latin for "say") ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-46-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-43">
+<li id="ch-04-morphology-and-word-structure-sec-43-43-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-43-1-1">"Dict" is not a word in English (it’s Latin for "say") ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-43-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-46-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-43-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-43-46-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-46-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-46-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-43-43-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-43-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-43-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-46-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-47">
-<em class="emphasis">Transport</em> ≠ <em class="emphasis">trans-</em> + <em class="emphasis">port</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-47" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-48">
-<li id="ch-04-morphology-and-word-structure-sec-43-48-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-48-1-1">"Port" in the sense of "carry" is not a word in English ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-48-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-48-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-43-48-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-48-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-48-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-48-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-43-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-49">
-<em class="emphasis">Type 3: Coincidental Resemblance</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-49" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-44">
+<em class="emphasis">Transport</em> ≠ <em class="emphasis">trans-</em> + <em class="emphasis">port</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-44" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-50">Sometimes a word contains a sequence of sounds that happens to match an existing word or affix, but the word’s meaning has nothing to do with those parts. The word wasn’t built from those pieces.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-50" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-45">
+<li id="ch-04-morphology-and-word-structure-sec-43-45-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-45-1-1">"Port" in the sense of "carry" is not a word in English ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-45-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-51">
-<em class="emphasis">Understand</em> ≠ <em class="emphasis">under</em> + <em class="emphasis">stand</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-51" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-52">
-<li id="ch-04-morphology-and-word-structure-sec-43-52-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-52-1-1">Although "under" and "stand" are both English words, <em class="emphasis">understand</em> doesn’t mean "to stand under something"<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-52-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-52-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-45-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-43-52-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-52-2-1">The word came into English as a unit with its own meaning<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-52-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-43-45-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-45-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-45-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-52-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-43-52-3">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-52-3-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-52-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-52-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-45-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-53">
-<em class="emphasis">Carpet</em> ≠ <em class="emphasis">car</em> + <em class="emphasis">pet</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-46">
+<em class="emphasis">Type 3: Coincidental Resemblance</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-46" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-54">
-<li id="ch-04-morphology-and-word-structure-sec-43-54-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-54-1-1">Although "car" and "pet" are both English words, a carpet isn’t a pet for your car!<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-54-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-47">Sometimes a word contains a sequence of sounds that happens to match an existing word or affix, but the word’s meaning has nothing to do with those parts. The word wasn’t built from those pieces.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-47" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-54-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-48">
+<em class="emphasis">Understand</em> ≠ <em class="emphasis">under</em> + <em class="emphasis">stand</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-48" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-49">
+<li id="ch-04-morphology-and-word-structure-sec-43-49-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-49-1-1">Although "under" and "stand" are both English words, <em class="emphasis">understand</em> doesn’t mean "to stand under something"<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-49-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-49-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-43-54-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-54-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-54-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-43-49-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-49-2-1">The word came into English as a unit with its own meaning<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-49-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-54-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-49-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-</ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-55">
-<em class="emphasis">Breakfast</em> = <em class="emphasis">break</em> + <em class="emphasis">fast</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-55" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-43-49-3">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-49-3-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-49-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-56">
-<li id="ch-04-morphology-and-word-structure-sec-43-56-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-56-1-1">This one IS a compound—it literally means "breaking the fast" (the overnight period without eating)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-56-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-56-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-43-56-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-56-2-1">Two morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-56-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-56-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-49-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-57">The test: Does the word’s meaning derive from combining the meanings of the parts? If not, it’s a single morpheme regardless of what sequences it contains.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-57" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-50">
+<em class="emphasis">Carpet</em> ≠ <em class="emphasis">car</em> + <em class="emphasis">pet</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-50" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-43-58"><h3 class="heading"><span class="title">Borderline Cases.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Borderline Cases"><a href="#ch-04-morphology-and-word-structure-sec-43-58" title="Copy heading and permalink for Paragraphs: Borderline Cases" aria-label="Copy heading and permalink for Paragraphs: Borderline Cases">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-43-59">Some words present genuine challenges:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-59" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-51">
+<li id="ch-04-morphology-and-word-structure-sec-43-51-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-51-1-1">Although "car" and "pet" are both English words, a carpet isn’t a pet for your car!<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-51-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-60">
-<em class="emphasis">Words with archaic bases:</em> If the base existed in Old English but not modern English, treat the word as one morpheme.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-60" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-61">
-<li id="ch-04-morphology-and-word-structure-sec-43-61-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-61-1-1">
-<em class="emphasis">overwhelm</em> (whelm is archaic) = 1 morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-61-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-61-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-51-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-43-61-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-61-2-1">
-<em class="emphasis">unkempt</em> (kempt is archaic) = 1 morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-61-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-43-51-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-51-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-51-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-61-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-51-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-62">
-<em class="emphasis">Latin/Greek borrowings:</em> If the base comes from Latin or Greek and isn’t an English word, treat it as one morpheme.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-62" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-52">
+<em class="emphasis">Breakfast</em> = <em class="emphasis">break</em> + <em class="emphasis">fast</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-52" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-53">
+<li id="ch-04-morphology-and-word-structure-sec-43-53-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-53-1-1">This one IS a compound—it literally means "breaking the fast" (the overnight period without eating)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-53-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-53-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-43-53-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-53-2-1">Two morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-53-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-53-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-54">The test: Does the word’s meaning derive from combining the meanings of the parts? If not, it’s a single morpheme regardless of what sequences it contains.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-54" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-43-55"><h3 class="heading"><span class="title">Borderline Cases.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Borderline Cases"><a href="#ch-04-morphology-and-word-structure-sec-43-55" title="Copy heading and permalink for Paragraphs: Borderline Cases" aria-label="Copy heading and permalink for Paragraphs: Borderline Cases">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-43-56">Some words present genuine challenges:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-56" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-57">
+<em class="emphasis">Words with archaic bases:</em> If the base existed in Old English but not modern English, treat the word as one morpheme.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-57" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-58">
+<li id="ch-04-morphology-and-word-structure-sec-43-58-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-58-1-1">
+<em class="emphasis">overwhelm</em> (whelm is archaic) = 1 morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-58-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-58-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-43-58-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-58-2-1">
+<em class="emphasis">unkempt</em> (kempt is archaic) = 1 morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-58-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-58-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-59">
+<em class="emphasis">Latin/Greek borrowings:</em> If the base comes from Latin or Greek and isn’t an English word, treat it as one morpheme.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-59" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-60">
+<li id="ch-04-morphology-and-word-structure-sec-43-60-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-60-1-1">
+<em class="emphasis">construct</em>, <em class="emphasis">instruct</em>, <em class="emphasis">destruct</em> = 1 morpheme each<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-60-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-60-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-43-60-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-60-2-1">
+<em class="emphasis">receive</em>, <em class="emphasis">perceive</em>, <em class="emphasis">conceive</em> = 1 morpheme each<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-60-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-60-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-43-61"><h3 class="heading"><span class="title">Additional Morphemes on Borrowed Words.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Additional Morphemes on Borrowed Words"><a href="#ch-04-morphology-and-word-structure-sec-43-61" title="Copy heading and permalink for Paragraphs: Additional Morphemes on Borrowed Words" aria-label="Copy heading and permalink for Paragraphs: Additional Morphemes on Borrowed Words">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-43-62">Even when a borrowed word is a single morpheme, English speakers can still add English affixes to it. Those affixes count as separate morphemes.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-62" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-63">
 <li id="ch-04-morphology-and-word-structure-sec-43-63-1">
 <div class="para" id="ch-04-morphology-and-word-structure-sec-43-63-1-1">
-<em class="emphasis">construct</em>, <em class="emphasis">instruct</em>, <em class="emphasis">destruct</em> = 1 morpheme each<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-63-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">constructed</em> = <em class="emphasis">construct</em> + <em class="emphasis">-ed</em> (2 morphemes)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-63-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-63-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-04-morphology-and-word-structure-sec-43-63-2">
 <div class="para" id="ch-04-morphology-and-word-structure-sec-43-63-2-1">
-<em class="emphasis">receive</em>, <em class="emphasis">perceive</em>, <em class="emphasis">conceive</em> = 1 morpheme each<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-63-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">receiving</em> = <em class="emphasis">receive</em> + <em class="emphasis">-ing</em> (2 morphemes)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-63-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-63-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
+<li id="ch-04-morphology-and-word-structure-sec-43-63-3">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-63-3-1">
+<em class="emphasis">destruction</em> = This is trickier—<em class="emphasis">destruction</em> came into English as a complete word from Latin, so it’s 1 morpheme. But <em class="emphasis">destructive</em> in modern English is <em class="emphasis">destruction</em> minus <em class="emphasis">-ion</em> plus <em class="emphasis">-ive</em>? No—both <em class="emphasis">destruction</em> and <em class="emphasis">destructive</em> are borrowed as units. However, <em class="emphasis">destructively</em> = <em class="emphasis">destructive</em> + <em class="emphasis">-ly</em> (2 morphemes) because <em class="emphasis">-ly</em> is a productive English suffix added to the borrowed word.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-63-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-63-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
 </ul>
-<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-43-64"><h3 class="heading"><span class="title">Additional Morphemes on Borrowed Words.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Additional Morphemes on Borrowed Words"><a href="#ch-04-morphology-and-word-structure-sec-43-64" title="Copy heading and permalink for Paragraphs: Additional Morphemes on Borrowed Words" aria-label="Copy heading and permalink for Paragraphs: Additional Morphemes on Borrowed Words">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-43-65">Even when a borrowed word is a single morpheme, English speakers can still add English affixes to it. Those affixes count as separate morphemes.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-65" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-43-64"><h3 class="heading"><span class="title">Compounds.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Compounds"><a href="#ch-04-morphology-and-word-structure-sec-43-64" title="Copy heading and permalink for Paragraphs: Compounds" aria-label="Copy heading and permalink for Paragraphs: Compounds">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-43-65">A <em class="emphasis">compound</em> is a word formed from two or more free morphemes combined together. English readily forms compounds.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-65" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-66">
-<li id="ch-04-morphology-and-word-structure-sec-43-66-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-66-1-1">
-<em class="emphasis">constructed</em> = <em class="emphasis">construct</em> + <em class="emphasis">-ed</em> (2 morphemes)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-66-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-66">
+<em class="emphasis">Noun + Noun:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-66" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-66-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-67"><li id="ch-04-morphology-and-word-structure-sec-43-67-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-67-1-1">
+<em class="emphasis">bookcase</em>, <em class="emphasis">sunflower</em>, <em class="emphasis">bedroom</em>, <em class="emphasis">football</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-67-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-67-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-68">
+<em class="emphasis">Adjective + Noun:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-68" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-69"><li id="ch-04-morphology-and-word-structure-sec-43-69-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-69-1-1">
+<em class="emphasis">blackboard</em>, <em class="emphasis">highway</em>, <em class="emphasis">smartphone</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-69-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-69-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-70">
+<em class="emphasis">Verb + Noun:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-70" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-71"><li id="ch-04-morphology-and-word-structure-sec-43-71-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-71-1-1">
+<em class="emphasis">breakfast</em> (break + fast), <em class="emphasis">pickpocket</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-71-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-71-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-72">
+<em class="emphasis">Noun + Verb:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-72" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-73"><li id="ch-04-morphology-and-word-structure-sec-43-73-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-73-1-1">
+<em class="emphasis">sunrise</em>, <em class="emphasis">haircut</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-73-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-73-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-74">In English, compounds typically have primary stress on the first element:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-74" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-75">
+<li id="ch-04-morphology-and-word-structure-sec-43-75-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-75-1-1">
+<em class="emphasis">BLACK</em>board (compound: a board for writing)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-75-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-75-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-43-66-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-66-2-1">
-<em class="emphasis">receiving</em> = <em class="emphasis">receive</em> + <em class="emphasis">-ing</em> (2 morphemes)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-66-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-43-75-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-75-2-1">black <em class="emphasis">BOARD</em> (phrase: a board that is black)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-75-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-66-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-75-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-43-66-3">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-43-66-3-1">
-<em class="emphasis">destruction</em> = This is trickier—<em class="emphasis">destruction</em> came into English as a complete word from Latin, so it’s 1 morpheme. But <em class="emphasis">destructive</em> in modern English is <em class="emphasis">destruction</em> minus <em class="emphasis">-ion</em> plus <em class="emphasis">-ive</em>? No—both <em class="emphasis">destruction</em> and <em class="emphasis">destructive</em> are borrowed as units. However, <em class="emphasis">destructively</em> = <em class="emphasis">destructive</em> + <em class="emphasis">-ly</em> (2 morphemes) because <em class="emphasis">-ly</em> is a productive English suffix added to the borrowed word.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-66-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</ul>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-76">
+<li id="ch-04-morphology-and-word-structure-sec-43-76-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-76-1-1">
+<em class="emphasis">GREEN</em>house (compound: building for plants)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-76-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-66-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-76-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-43-76-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-76-2-1">green <em class="emphasis">HOUSE</em> (phrase: a house painted green)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-76-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-76-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-77">When analyzing morphemes in compounds, count each free morpheme separately:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-77" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-78">
+<em class="emphasis">Bookshelves</em> = 3 morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-78" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-79">
+<li id="ch-04-morphology-and-word-structure-sec-43-79-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-79-1-1">
+<em class="emphasis">book</em> = free<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-79-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-79-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-43-79-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-79-2-1">
+<em class="emphasis">shelf</em> = free<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-79-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-79-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-43-79-3">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-79-3-1">
+<em class="emphasis">-s</em> = bound (plural)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-79-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-79-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-80">
+<em class="emphasis">Sunflowers</em> = 3 morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-80" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-81">
+<li id="ch-04-morphology-and-word-structure-sec-43-81-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-81-1-1">
+<em class="emphasis">sun</em> = free<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-81-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-81-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-43-81-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-81-2-1">
+<em class="emphasis">flower</em> = free<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-81-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-81-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-43-81-3">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-81-3-1">
+<em class="emphasis">-s</em> = bound (plural)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-81-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-81-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-82">Remember to apply the English base rule even with compounds. Some words look like they might be compounds but aren’t:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-82" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-83">
+<em class="emphasis">Together</em> ≠ <em class="emphasis">to</em> + <em class="emphasis">get</em> + <em class="emphasis">her</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-83" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-43-84">
+<li id="ch-04-morphology-and-word-structure-sec-43-84-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-84-1-1">This word doesn’t combine the meanings "to," "get," and "her"<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-84-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-84-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-43-84-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-43-84-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-43-84-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-43-84-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <div class="autopermalink" data-description="Section 4.3: Morpheme Boundaries"><a href="#ch-04-morphology-and-word-structure-sec-43" title="Copy heading and permalink for Section 4.3: Morpheme Boundaries" aria-label="Copy heading and permalink for Section 4.3: Morpheme Boundaries">🔗</a></div></section></div>
