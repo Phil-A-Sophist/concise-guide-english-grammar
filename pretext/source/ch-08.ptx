@@ -1054,125 +1054,125 @@
     <subsection xml:id="ch-08-diagrams-intrans">
       <title>Pattern 1: Intransitive (S-V)</title>
 
-      <paragraphs>
-        <title>8.8.1 A: Basic intransitive</title>
-      </paragraphs>
       <image source="diagrams/new/ch12_basic_intransitive.png" width="30%">
         <description>Syntax tree for "Cameras flashed" showing S with NP and VP</description>
       </image>
       <p><c>[S [NP [N Cameras]] [VP [V flashed]]]</c></p>
-
       <paragraphs>
-        <title>8.8.1 B: Intransitive with conjoined subjects</title>
+        <title>8.8.1 A: Basic intransitive</title>
       </paragraphs>
+
       <image source="diagrams/new/ch08_intrans_conj_subj.png" width="45%">
         <description>Syntax tree for "Frodo and Sam travel" with coordinated subject NP</description>
       </image>
       <p><c>[S [NP [NP [N Frodo]] [CONJ and] [NP [N Sam]]] [VP [V travel]]]</c></p>
-
       <paragraphs>
-        <title>8.8.1 C: Intransitive with conjoined verbs</title>
+        <title>8.8.1 B: Intransitive with conjoined subjects</title>
       </paragraphs>
+
       <image source="diagrams/new/ch08_intrans_conj_vp.png" width="45%">
         <description>Syntax tree for "Gandalf thinks and acts" with coordinated VPs</description>
       </image>
       <p><c>[S [NP [N Gandalf]] [VP [VP [V thinks]] [CONJ and] [VP [V acts]]]]</c></p>
+      <paragraphs>
+        <title>8.8.1 C: Intransitive with conjoined verbs</title>
+      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-08-diagrams-trans">
       <title>Pattern 2: Transitive (S-V-DO)</title>
 
-      <paragraphs>
-        <title>8.8.2 A: Basic transitive</title>
-      </paragraphs>
       <image source="diagrams/new/ch12_basic_transitive.png" width="40%">
         <description>Syntax tree for "Weasels stalk rabbits" showing transitive structure</description>
       </image>
       <p><c>[S [NP [N Weasels]] [VP [V stalk] [NP [N rabbits]]]]</c></p>
+      <paragraphs>
+        <title>8.8.2 A: Basic transitive</title>
+      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-08-diagrams-ditrans">
       <title>Pattern 3: Ditransitive (S-V-IO-DO)</title>
 
-      <paragraphs>
-        <title>8.8.3 A: Ditransitive with indirect and direct objects</title>
-      </paragraphs>
       <image source="diagrams/new/ch12_ditransitive_io_do.png" width="50%">
         <description>Syntax tree for "Marie sent Ramon a gift" with IO and DO</description>
       </image>
       <p><c>[S [NP [N Marie]] [VP [V sent] [NP [N Ramon]] [NP [DET a] [N gift]]]]</c></p>
+      <paragraphs>
+        <title>8.8.3 A: Ditransitive with indirect and direct objects</title>
+      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-08-diagrams-copular">
       <title>Pattern 4: Linking/Copular (S-V-SC)</title>
 
-      <paragraphs>
-        <title>8.8.4 A: Copular with NP complement</title>
-      </paragraphs>
       <image source="diagrams/new/ch12_copular_be.png" width="40%">
         <description>Syntax tree for "I am an optimist" with NP as subject complement</description>
       </image>
       <p><c>[S [NP [PRON I]] [VP [V am] [NP [DET an] [N optimist]]]]</c></p>
-
       <paragraphs>
-        <title>8.8.4 B: Copular with AdjP complement</title>
+        <title>8.8.4 A: Copular with NP complement</title>
       </paragraphs>
+
       <image source="diagrams/new/ch06_linking.png" width="35%">
         <description>Syntax tree for "She is happy" with ADJP as subject complement</description>
       </image>
       <p><c>[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</c></p>
-
       <paragraphs>
-        <title>8.8.4 C: Copular with PP adverbial</title>
+        <title>8.8.4 B: Copular with AdjP complement</title>
       </paragraphs>
+
       <image source="diagrams/new/ch08_copular_pp.png" width="50%">
         <description>Syntax tree for "Phillip is over the moon" with PP complement</description>
       </image>
       <p><c>[S [NP [N Phillip]] [VP [V is] [PP [PREP over] [NP [DET the] [N moon]]]]]</c></p>
-
       <paragraphs>
-        <title>8.8.4 D: Copular with AdvP adverbial</title>
+        <title>8.8.4 C: Copular with PP adverbial</title>
       </paragraphs>
+
       <image source="diagrams/new/ch08_copular_advp.png" width="35%">
         <description>Syntax tree for "Phillip is here" with ADVP complement</description>
       </image>
       <p><c>[S [NP [N Phillip]] [VP [V is] [ADVP [ADV here]]]]</c></p>
-
       <paragraphs>
-        <title>8.8.4 E: Linking verb with AdjP</title>
+        <title>8.8.4 D: Copular with AdvP adverbial</title>
       </paragraphs>
+
       <image source="diagrams/new/ch08_linking_adjp.png" width="40%">
         <description>Syntax tree for "Phillip became famous" with linking verb and ADJP</description>
       </image>
       <p><c>[S [NP [N Phillip]] [VP [V became] [ADJP [ADJ famous]]]]</c></p>
-
       <paragraphs>
-        <title>8.8.4 F: Linking verb with NP</title>
+        <title>8.8.4 E: Linking verb with AdjP</title>
       </paragraphs>
+
       <image source="diagrams/new/ch08_linking_np.png" width="45%">
         <description>Syntax tree for "Phillip became a doctor" with linking verb and NP</description>
       </image>
       <p><c>[S [NP [N Phillip]] [VP [V became] [NP [DET a] [N doctor]]]]</c></p>
+      <paragraphs>
+        <title>8.8.4 F: Linking verb with NP</title>
+      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-08-diagrams-complex-trans">
       <title>Pattern 5: Complex Transitive (S-V-DO-OC)</title>
 
-      <paragraphs>
-        <title>8.8.5 A: Complex transitive with AdjP object complement</title>
-      </paragraphs>
       <image source="diagrams/new/ch06_complex_trans_adj.png" width="50%">
         <description>Syntax tree for "The jury found him guilty" with DO and AdjP OC</description>
       </image>
       <p><c>[S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]</c></p>
-
       <paragraphs>
-        <title>8.8.5 B: Complex transitive with NP object complement</title>
+        <title>8.8.5 A: Complex transitive with AdjP object complement</title>
       </paragraphs>
+
       <image source="diagrams/new/ch06_complex_trans_np.png" width="45%">
         <description>Syntax tree for "They elected her president" with DO and NP OC</description>
       </image>
       <p><c>[S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]</c></p>
+      <paragraphs>
+        <title>8.8.5 B: Complex transitive with NP object complement</title>
+      </paragraphs>
     </subsection>
 
   </section>

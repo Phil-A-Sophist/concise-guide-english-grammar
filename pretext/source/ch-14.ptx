@@ -686,89 +686,89 @@
     <subsection xml:id="ch-14-diagrams-position">
       <title>Adjective Positions</title>
 
-      <paragraphs>
-        <title>14.8.1 A: Attributive position: <em>the tall man</em></title>
-      </paragraphs>
       <image source="diagrams/new/ch09_np_attributive.png" width="35%">
         <description>Syntax tree for "the tall man" showing adjective in attributive position</description>
       </image>
       <p><c>[NP [DET the] [ADJ tall] [N man]]</c></p>
-
       <paragraphs>
-        <title>14.8.1 B: Predicative position: <em>She is happy.</em></title>
+        <title>14.8.1 A: Attributive position: <em>the tall man</em></title>
       </paragraphs>
+
       <image source="diagrams/new/ch09_predicative.png" width="35%">
         <description>Syntax tree for "She is happy" showing adjective in predicative position</description>
       </image>
       <p><c>[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</c></p>
+      <paragraphs>
+        <title>14.8.1 B: Predicative position: <em>She is happy.</em></title>
+      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-14-diagrams-pp">
       <title>PP as Adjectival</title>
 
-      <paragraphs>
-        <title>14.8.2 A: PP modifying noun: <em>the man in the hat</em></title>
-      </paragraphs>
       <image source="diagrams/new/ch11_adjectival_pp.png" width="50%">
         <description>Syntax tree for "the man in the hat" showing PP as adjectival</description>
       </image>
       <p><c>[NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]</c></p>
+      <paragraphs>
+        <title>14.8.2 A: PP modifying noun: <em>the man in the hat</em></title>
+      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-14-diagrams-participle">
       <title>Participial Phrases as Adjectivals</title>
 
-      <paragraphs>
-        <title>14.8.3 A: Present participle as adjectival: <em>the running dog barks</em></title>
-      </paragraphs>
       <image source="diagrams/new/ch14_participle_present.png" width="50%">
         <description>Syntax tree for "the running dog barks" showing present participle modifying noun</description>
       </image>
       <p><c>[S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]</c></p>
-
       <paragraphs>
-        <title>14.8.3 B: Past participle as adjectival: <em>the frightened dog barks</em></title>
+        <title>14.8.3 A: Present participle as adjectival: <em>the running dog barks</em></title>
       </paragraphs>
+
       <image source="diagrams/new/ch14_participle_past.png" width="50%">
         <description>Syntax tree for "the frightened dog barks" showing past participle modifying noun</description>
       </image>
       <p><c>[S [NP [DET the] [VP [V frightened]] [N dog]] [VP [V barks]]]</c></p>
+      <paragraphs>
+        <title>14.8.3 B: Past participle as adjectival: <em>the frightened dog barks</em></title>
+      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-14-diagrams-relcl">
       <title>Relative Clauses</title>
 
-      <paragraphs>
-        <title>14.8.4 A: Relative clause (who as subject): <em>the dog who barks sleeps</em></title>
-      </paragraphs>
       <image source="diagrams/new/ch14_relcl_who_subject.png" width="55%">
         <description>Syntax tree for "the dog who barks sleeps" showing relative clause with who as subject</description>
       </image>
       <p><c>[S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]</c></p>
-
       <paragraphs>
-        <title>14.8.4 B: Relative clause (that + subject): <em>the dog that I saw sleeps</em></title>
+        <title>14.8.4 A: Relative clause (who as subject): <em>the dog who barks sleeps</em></title>
       </paragraphs>
+
       <image source="diagrams/new/ch14_relcl_that_object.png" width="60%">
         <description>Syntax tree for "the dog that I saw sleeps" showing relative clause with that as relativizer</description>
       </image>
       <p><c>[S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]</c></p>
-
       <paragraphs>
-        <title>14.8.4 C: Relative clause (where): <em>I saw the place where you live.</em></title>
+        <title>14.8.4 B: Relative clause (that + subject): <em>the dog that I saw sleeps</em></title>
       </paragraphs>
+
       <image source="diagrams/new/ch14_relcl_where.png" width="65%">
         <description>Syntax tree for "I saw the place where you live" showing relative clause with relative adverb</description>
       </image>
       <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]</c></p>
-
       <paragraphs>
-        <title>14.8.4 D: Empty relativizer: <em>the dog I saw sleeps</em></title>
+        <title>14.8.4 C: Relative clause (where): <em>I saw the place where you live.</em></title>
       </paragraphs>
+
       <image source="diagrams/new/ch14_relcl_empty.png" width="60%">
         <description>Syntax tree for "the dog I saw sleeps" showing relative clause with empty relativizer</description>
       </image>
       <p><c>[S [NP [DET the] [N dog] [RC [REL _] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]</c></p>
+      <paragraphs>
+        <title>14.8.4 D: Empty relativizer: <em>the dog I saw sleeps</em></title>
+      </paragraphs>
     </subsection>
 
   </section>
