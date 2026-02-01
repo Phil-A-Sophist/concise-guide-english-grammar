@@ -1241,23 +1241,69 @@
       </row>
       <row>
         <cell><em>Noun</em></cell>
-        <cell>Plural (<em>-s</em>), possessive (<em>'s</em>), noun suffixes (<em>-tion</em>, <em>-ness</em>)</cell>
-        <cell>Follows <em>the/a</em>, takes adjective modifier, can be replaced by pronoun</cell>
+        <cell>
+          <ul>
+            <li><p>Plural (<em>-s</em>)</p></li>
+            <li><p>Possessive (<em>'s</em>)</p></li>
+            <li><p>Noun suffixes (<em>-tion</em>, <em>-ness</em>)</p></li>
+          </ul>
+        </cell>
+        <cell>
+          <ul>
+            <li><p>Follows <em>the/a</em></p></li>
+            <li><p>Takes adjective modifier</p></li>
+            <li><p>Can be replaced by pronoun</p></li>
+          </ul>
+        </cell>
       </row>
       <row>
         <cell><em>Verb</em></cell>
-        <cell>Past tense (<em>-ed</em>), 3rd singular (<em>-s</em>), <em>-ing</em> form</cell>
-        <cell>Follows <em>can/will/might</em>, follows <em>to</em>, can be negated</cell>
+        <cell>
+          <ul>
+            <li><p>Past tense (<em>-ed</em>)</p></li>
+            <li><p>3rd singular (<em>-s</em>)</p></li>
+            <li><p><em>-ing</em> form</p></li>
+          </ul>
+        </cell>
+        <cell>
+          <ul>
+            <li><p>Follows <em>can/will/might</em></p></li>
+            <li><p>Follows <em>to</em></p></li>
+            <li><p>Can be negated</p></li>
+          </ul>
+        </cell>
       </row>
       <row>
         <cell><em>Adjective</em></cell>
-        <cell>Comparative/superlative (<em>-er/-est</em>), <em>-ish</em>, forms adverb with <em>-ly</em></cell>
-        <cell>Between <em>the</em> and noun, after <em>be/seem</em>, modified by <em>very</em></cell>
+        <cell>
+          <ul>
+            <li><p>Comparative/superlative (<em>-er/-est</em>)</p></li>
+            <li><p><em>-ish</em> suffix</p></li>
+            <li><p>Forms adverb with <em>-ly</em></p></li>
+          </ul>
+        </cell>
+        <cell>
+          <ul>
+            <li><p>Between <em>the</em> and noun</p></li>
+            <li><p>After <em>be/seem</em></p></li>
+            <li><p>Modified by <em>very</em></p></li>
+          </ul>
+        </cell>
       </row>
       <row>
         <cell><em>Adverb</em></cell>
-        <cell>Often <em>-ly</em>, some comparatives</cell>
-        <cell>Modifies verbs/adjectives/adverbs/sentences, cannot go between <em>the</em> and noun</cell>
+        <cell>
+          <ul>
+            <li><p>Often <em>-ly</em></p></li>
+            <li><p>Some comparatives</p></li>
+          </ul>
+        </cell>
+        <cell>
+          <ul>
+            <li><p>Modifies verbs/adjectives/adverbs/sentences</p></li>
+            <li><p>Cannot go between <em>the</em> and noun</p></li>
+          </ul>
+        </cell>
       </row>
     </tabular>
 
