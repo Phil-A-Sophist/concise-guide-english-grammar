@@ -103,10 +103,25 @@ table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text */
+/* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
+.ptx-toc, .ptx-toc a, .ptx-toc .toc-item,
+.ptx-navbar, .ptx-navbar a,
+.toc-title-line, .codenumber, .title,
+.dropdown, .dropdown-menu, .dropdown a,
+.searchbox, .searchbox input,
+.ptx-sidebar, .ptx-sidebar a,
+nav, nav a,
+.toc-chapter, .toc-section,
+.ptx-page-footer, .ptx-content-footer a {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text with increased size (+2pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
     font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    line-height: 1.6 !important;
 }
 
 /* Widen the main content area for better readability on larger screens */
