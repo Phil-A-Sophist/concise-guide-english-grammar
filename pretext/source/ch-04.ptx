@@ -527,15 +527,6 @@
       <li><p>One morpheme</p></li>
     </ul>
 
-    <p><em>Lonely</em> ≠ <em>lone</em> + <em>-ly</em></p>
-
-    <ul>
-      <li><p>Wait—"lone" IS a word in English ✓</p></li>
-      <li><p><em>Lonely</em> = <em>lone</em> (free) + <em>-ly</em> (bound) = 2 morphemes</p></li>
-    </ul>
-
-    <p>This shows why you must always verify: just because a word ends in <em>-ly</em> doesn't mean the rest is automatically not a word!</p>
-
     <p><em>Type 2: Historical Parts That Have Fused</em></p>
 
     <p>Many English words came from Latin, Greek, or French with internal structure that no longer functions for modern speakers. Consider the word <em>receive</em>. It begins with <em>re-</em>, which often means "again" in English (<em>rewrite</em>, <em>rebuild</em>, <em>reconsider</em>). And the rest of the word looks like it might be <em>ceive</em>. But ask yourself: Can you <em>ceive</em> something? Is <em>ceive</em> a word? Unless you're a Latin scholar who knows that <em>capere</em> meant "to take," the answer is no.</p>
@@ -621,16 +612,11 @@
       <li><p><em>destruction</em> = This is trickier—<em>destruction</em> came into English as a complete word from Latin, so it's 1 morpheme. But <em>destructive</em> in modern English is <em>destruction</em> minus <em>-ion</em> plus <em>-ive</em>? No—both <em>destruction</em> and <em>destructive</em> are borrowed as units. However, <em>destructively</em> = <em>destructive</em> + <em>-ly</em> (2 morphemes) because <em>-ly</em> is a productive English suffix added to the borrowed word.</p></li>
     </ul>
 
-  </section>
-
-  <section xml:id="ch-04-morphology-and-word-structure-sec-44">
-    <title>Compounds</title>
+    <paragraphs>
+      <title>Compounds</title>
+    </paragraphs>
 
     <p>A <em>compound</em> is a word formed from two or more free morphemes combined together. English readily forms compounds.</p>
-
-    <paragraphs>
-      <title>Types of Compounds</title>
-    </paragraphs>
 
     <p><em>Noun + Noun:</em></p>
 
@@ -656,10 +642,6 @@
       <li><p><em>sunrise</em>, <em>haircut</em></p></li>
     </ul>
 
-    <paragraphs>
-      <title>Compound Stress</title>
-    </paragraphs>
-
     <p>In English, compounds typically have primary stress on the first element:</p>
 
     <ul>
@@ -672,10 +654,6 @@
       <li><p>green <em>HOUSE</em> (phrase: a house painted green)</p></li>
     </ul>
 
-    <paragraphs>
-      <title>Analyzing Compounds</title>
-    </paragraphs>
-
     <p>When analyzing morphemes in compounds, count each free morpheme separately:</p>
 
     <p><em>Bookshelves</em> = 3 morphemes</p>
@@ -684,14 +662,6 @@
       <li><p><em>book</em> = free</p></li>
       <li><p><em>shelf</em> = free</p></li>
       <li><p><em>-s</em> = bound (plural)</p></li>
-    </ul>
-
-    <p><em>Uncomfortable</em> = 3 morphemes</p>
-
-    <ul>
-      <li><p><em>un-</em> = bound</p></li>
-      <li><p><em>comfort</em> = free</p></li>
-      <li><p><em>-able</em> = bound</p></li>
     </ul>
 
     <p><em>Sunflowers</em> = 3 morphemes</p>
@@ -711,74 +681,9 @@
       <li><p>One morpheme</p></li>
     </ul>
 
-    <paragraphs>
-      <title>Morpheme Identification Process</title>
-    </paragraphs>
-
-    <p>Follow these steps to analyze a word's morphemes:</p>
-
-    <ol>
-      <li><p><em>Identify the base (free morpheme)</em></p></li>
-    </ol>
-
-    <ul>
-      <li><p>What is the core word that can stand alone?</p></li>
-    </ul>
-
-    <ol>
-      <li><p><em>Check for prefixes</em></p></li>
-    </ol>
-
-    <ul>
-      <li><p>Is there a meaningful unit before the base?</p></li>
-      <li><p>Is the remaining base still a word in English?</p></li>
-    </ul>
-
-    <ol>
-      <li><p><em>Check for suffixes</em></p></li>
-    </ol>
-
-    <ul>
-      <li><p>Work from the end of the word inward</p></li>
-      <li><p>Identify each suffix and its meaning</p></li>
-    </ul>
-
-    <ol>
-      <li><p><em>Verify each morpheme</em></p></li>
-    </ol>
-
-    <ul>
-      <li><p>Does each piece carry meaning?</p></li>
-      <li><p>Is the base a real English word?</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Practice Analysis</title>
-    </paragraphs>
-
-    <p>Analyze: <em>mistreatment</em></p>
-
-    <ol>
-      <li><p>Base: <em>treat</em> (free morpheme—it's a word)</p></li>
-      <li><p>Prefix: <em>mis-</em> (bound—means "wrongly")</p></li>
-      <li><p>Suffix: <em>-ment</em> (bound—forms noun)</p></li>
-    </ol>
-
-    <p>Result: <em>mis-</em> + <em>treat</em> + <em>-ment</em> = 3 morphemes</p>
-
-    <p>Analyze: <em>reorganization</em></p>
-
-    <ol>
-      <li><p>Base: <em>organ</em> (free)</p></li>
-      <li><p>Prefix: <em>re-</em> (bound—"again")</p></li>
-      <li><p>Suffixes: <em>-ize</em> (verb), <em>-ation</em> (noun)</p></li>
-    </ol>
-
-    <p>Result: <em>re-</em> + <em>organ</em> + <em>-ize</em> + <em>-ation</em> = 4 morphemes</p>
-
   </section>
 
-  <section xml:id="ch-04-morphology-and-word-structure-sec-45">
+  <section xml:id="ch-04-morphology-and-word-structure-sec-44">
     <title>Morphemes and Writing: Strategic Word Choice</title>
 
     <p>The affixes introduced in Section 4.2 do more than build vocabulary—they give writers choices at the sentence level. Understanding how derivational morphemes work allows you to reshape sentences for clarity, concision, and emphasis. This section explores two ways morphological knowledge improves writing: using affixes for economy and understanding the trade-offs of nominalization.</p>
