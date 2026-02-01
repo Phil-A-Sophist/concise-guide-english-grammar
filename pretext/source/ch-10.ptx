@@ -836,45 +836,45 @@
     <subsection xml:id="ch-10-diagrams-aspect">
       <title>Aspect Examples</title>
 
-      <paragraphs>
-        <title>10.8.1 A: Progressive aspect (be + V-ing): <em>is eating</em></title>
-      </paragraphs>
       <image source="diagrams/new/ch07_vp_progressive.png" width="25%">
         <description>Syntax tree for "is eating" showing progressive aspect</description>
       </image>
       <p><c>[VP [AUX is] [V eating]]</c></p>
-
       <paragraphs>
-        <title>10.8.1 B: Perfect aspect (have + V-en): <em>has eaten</em></title>
+        <title>10.8.1 A: Progressive aspect (be + V-ing): <em>is eating</em></title>
       </paragraphs>
+
       <image source="diagrams/new/ch07_vp_perfect.png" width="25%">
         <description>Syntax tree for "has eaten" showing perfect aspect</description>
       </image>
       <p><c>[VP [AUX has] [V eaten]]</c></p>
-
       <paragraphs>
-        <title>10.8.1 C: Perfect progressive (have + been + V-ing): <em>has been eating</em></title>
+        <title>10.8.1 B: Perfect aspect (have + V-en): <em>has eaten</em></title>
       </paragraphs>
+
       <image source="diagrams/new/ch07_vp_perfect_progressive.png" width="35%">
         <description>Syntax tree for "has been eating" showing perfect progressive</description>
       </image>
       <p><c>[VP [AUX has] [AUX been] [V eating]]</c></p>
-
       <paragraphs>
-        <title>10.8.1 D: Passive (be + V-en): <em>was eaten</em></title>
+        <title>10.8.1 C: Perfect progressive (have + been + V-ing): <em>has been eating</em></title>
       </paragraphs>
+
       <image source="diagrams/new/ch07_vp_passive.png" width="25%">
         <description>Syntax tree for "was eaten" showing passive voice</description>
       </image>
       <p><c>[VP [AUX was] [V eaten]]</c></p>
-
       <paragraphs>
-        <title>10.8.1 E: Progressive passive (be + being + V-en): <em>is being renovated</em></title>
+        <title>10.8.1 D: Passive (be + V-en): <em>was eaten</em></title>
       </paragraphs>
+
       <image source="diagrams/new/ch07_vp_progressive_passive.png" width="35%">
         <description>Syntax tree for "is being renovated" showing progressive passive</description>
       </image>
       <p><c>[VP [AUX is] [AUX being] [V renovated]]</c></p>
+      <paragraphs>
+        <title>10.8.1 E: Progressive passive (be + being + V-en): <em>is being renovated</em></title>
+      </paragraphs>
     </subsection>
 
   </section>
