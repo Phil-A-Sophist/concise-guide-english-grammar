@@ -858,10 +858,10 @@
 
     <ul>
       <li><p><em>Attributive position</em> (before a noun): <em>the [very tall] man</em></p></li>
-      <li><p><em>Predicative position</em> (after a linking verb): <em>The man is [very tall].</em></p></li>
+      <li><p><em>Subject complement position</em> (after a linking verb): <em>The man is [very tall].</em></p></li>
     </ul>
 
-    <p>When an AdjP appears attributively, it modifies the following noun directly. When it appears predicatively, it describes the subject of the sentence.</p>
+    <p>When an AdjP appears attributively, it modifies the following noun directly. When it appears as a subject complement, it describes the subject of the sentence.</p>
 
     <paragraphs>
       <title>Identifying the Head Adjective</title>
@@ -901,7 +901,7 @@
 
     <p>If a word can become comparative or superlative, it's almost certainly an adjective. This test distinguishes adjectives from nouns and verbs, which cannot be graded this way (we don't say <em>~~taller book~~</em> meaning &quot;more of a book&quot; or <em>~~he walked the walkedest~~</em>).</p>
 
-    <p>*<em>Test 2: The </em>-ish<em> test</em>*</p>
+    <p><em>Test 2: The -ish test</em></p>
 
     <p>Many adjectives accept the suffix <em>-ish</em>, meaning &quot;somewhat&quot;:</p>
 
@@ -913,7 +913,7 @@
 
     <p>This is a quick informal test. If <em>-ish</em> sounds natural, you likely have an adjective.</p>
 
-    <p>*<em>Test 3: Adverb formation with </em>-ly***</p>
+    <p><em>Test 3: Adverb formation with -ly</em></p>
 
     <p>Many adjectives can become adverbs by adding <em>-ly</em>:</p>
 
@@ -941,9 +941,9 @@
 
     <p>This is a defining characteristic. If a word can slot into &quot;the ___ noun,&quot; it's behaving as an adjective.</p>
 
-    <p><em>Test 2: The predicative position test</em></p>
+    <p><em>Test 2: The subject complement position test</em></p>
 
-    <p>Adjectives can follow linking verbs like <em>be</em>, <em>seem</em>, <em>become</em>, and <em>appear</em>—this position, after the verb, is called <em>predicative</em> position:</p>
+    <p>Adjectives can follow linking verbs like <em>be</em>, <em>seem</em>, <em>become</em>, and <em>appear</em>—this position, after the verb, is called <em>subject complement</em> position:</p>
 
     <ul>
       <li><p><em>The man is <em>tall</em>.</em></p></li>
@@ -953,7 +953,7 @@
 
     <p>Most adjectives work in both positions. A few work in only one (see below).</p>
 
-    <p>*<em>Test 3: The </em>very<em> test</em>*</p>
+    <p><em>Test 3: The very test</em></p>
 
     <p>Adjectives can be modified by degree words like <em>very</em>, <em>extremely</em>, and <em>quite</em>:</p>
 
@@ -984,7 +984,7 @@
       <li><p><em>a <em>mere</em> child</em> ✓ / <em>~~The child is mere~~</em> ✗</p></li>
     </ul>
 
-    <p>Others are <em>predicative-only</em> (they can only appear after linking verbs):</p>
+    <p>Others are <em>subject-complement-only</em> (they can only appear after linking verbs):</p>
 
     <ul>
       <li><p><em>The child is <em>asleep</em></em> ✓ / <em>~~the asleep child~~</em> ✗</p></li>
@@ -1083,7 +1083,7 @@
       <title>Morphological Tests for Adverbs</title>
     </paragraphs>
 
-    <p>*<em>Test 1: The </em>-ly<em> suffix</em>*</p>
+    <p><em>Test 1: The -ly suffix</em></p>
 
     <p>Many adverbs are formed by adding <em>-ly</em> to adjectives:</p>
 
@@ -1463,7 +1463,7 @@
 
       <p><em>Exercise 14.</em> Write a sentence using a noun formed with the suffix <em>-ment</em>:</p>
 
-      <p><em>Exercise 15.</em> Write a sentence using an adjective in predicative position (after a linking verb like <em>be</em>, <em>seem</em>, or <em>become</em>):</p>
+      <p><em>Exercise 15.</em> Write a sentence using an adjective in subject complement position (after a linking verb like <em>be</em>, <em>seem</em>, or <em>become</em>):</p>
 
       <p><em>Exercise 16.</em> Write a sentence where an adverb modifies an adjective (not a verb):</p>
 
@@ -1701,7 +1701,7 @@
       <p>A word category that freely accepts new members (nouns, verbs, adjectives, adverbs).</p>
     </gi>
     <gi>
-      <title>Predicative position</title>
+      <title>Subject complement position</title>
       <p>The position after a linking verb, where adjectives describe the subject (<em>The man is tall</em>).</p>
     </gi>
     <gi>
