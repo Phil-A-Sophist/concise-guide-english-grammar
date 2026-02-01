@@ -137,6 +137,11 @@ section .tabular-box {
 [id*="diagrams-advp"] .para:has(.code-inline) {
     text-align: center !important;
 }
+
+/* Hide the page footer with PreTeXt/Runestone/MathJax links */
+#ptx-page-footer {
+    display: none !important;
+}
 """
 
 
