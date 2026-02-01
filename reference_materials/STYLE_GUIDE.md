@@ -4,6 +4,18 @@ This document defines the formatting conventions for all chapters in this textbo
 
 ---
 
+## Typography
+
+### Fonts
+- **Titles and Headings (H1, H2)**: Sans-serif (Open Sans or system sans-serif stack)
+- **Body text/Paragraphs**: Serif (Garamond or system serif stack)
+- **Monospace/code**: Inconsolata or system monospace
+
+### Heading Hierarchy
+The visual design pairs sans-serif headings with serif body text—a classic typographic combination that creates clear visual hierarchy while maintaining readability for extended reading.
+
+---
+
 ## Document Structure
 
 ### Chapter Header
@@ -80,6 +92,36 @@ Use `*~~text~~*` for ungrammatical constructions:
 - ✓ for grammatical/correct
 - ✗ for ungrammatical/incorrect
 
+### Labeled Content: Inline vs. Block Format
+
+When content has an italicized or bolded label followed by explanatory text, choose the format based on content length:
+
+**Inline format** (label and content on same line):
+Use when the content is brief—a few words, a short list, or one short sentence.
+```markdown
+*Example:* The word *unhappy* contains two morphemes.
+
+**Prefix:** A morpheme attached before the base.
+```
+
+**Block format** (label on its own line, content below and indented):
+Use when the explanation runs longer than one line or contains multiple sentences.
+```markdown
+*Example*
+    The word *unhappy* contains two morphemes. The prefix *un-* attaches
+    to the base *happy*, changing its meaning to the opposite. This is
+    a productive pattern in English.
+```
+
+In PreTeXt, use `<paragraphs><title>` for block-format labels:
+```xml
+<paragraphs>
+  <title>Example</title>
+</paragraphs>
+<p>The word <em>unhappy</em> contains two morphemes. The prefix <em>un-</em>
+attaches to the base <em>happy</em>, changing its meaning to the opposite.</p>
+```
+
 ---
 
 ## Lists
@@ -101,7 +143,8 @@ Use for sequential steps or ordered items:
 ```
 
 ### Definition-Style Lists
-For categorized examples, use bold labels followed by content:
+
+**Short content (same line):** When the content after the label is brief (a few words or a short list), keep everything on the same line:
 ```markdown
 **Spatial:** *in*, *on*, *at*, *above*, *below*
 
@@ -109,6 +152,18 @@ For categorized examples, use bold labels followed by content:
 
 **Abstract:** *of*, *for*, *with*, *by*, *about*
 ```
+
+**Extended content (block format):** When the content requires more than one line of explanation, use block format—put the label on its own line, then the explanation below it, indented:
+```markdown
+**Spatial Prepositions**
+    Words like *in*, *on*, and *at* indicate physical location or position.
+    These are among the most common prepositions in English and often have
+    metaphorical extensions (e.g., *in love*, *on fire*).
+```
+
+**Guidelines for choosing format:**
+- Same-line format: Use for lists of examples, single-sentence definitions, or content that fits comfortably on one line
+- Block format: Use when the explanation runs longer than one line or includes multiple sentences
 
 ---
 
@@ -258,9 +313,18 @@ Do NOT use multiple `---` in succession.
 - Use `<paragraphs><title>Passage</title></paragraphs>` when providing reading passages
 - Do NOT include colons in these titles (PreTeXt adds punctuation automatically)
 
-**Exercise numbering:**
+**Exercise numbering and formatting:**
 - Label each exercise as "Exercise 1.", "Exercise 2.", etc. using `<em>Exercise 1.</em>`
 - Continue numbering sequentially across all subsections (Exercise 1-5, then 6-10, etc.)
+- **Short exercises:** If the exercise content is brief (a few words), keep on the same line: `<em>Exercise 1.</em> Identify the noun.`
+- **Extended exercises:** If the exercise requires multi-line explanation, put the label on its own line, then the content in a separate paragraph or list below it:
+```xml
+<paragraphs>
+  <title>Exercise 1</title>
+</paragraphs>
+<p>Analyze the following sentence for morpheme boundaries. Identify each
+morpheme as free or bound, and explain your reasoning.</p>
+```
 
 **Indentation for sub-items:**
 - Use `<ul>` bullet lists to indent content that belongs to an exercise

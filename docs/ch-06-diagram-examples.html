@@ -115,6 +115,25 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;
@@ -145,23 +164,27 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram example labels - larger font for easy skimming */
-[id*="diagrams-np"] .paragraphs .heading .title,
-[id*="diagrams-vp"] .paragraphs .heading .title,
-[id*="diagrams-adjp"] .paragraphs .heading .title,
-[id*="diagrams-advp"] .paragraphs .heading .title {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: #2c5282 !important;
+/* Diagram sections: left-align images */
+[id*="diagrams-"] .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
-/* Center bracket notation beneath diagram images */
-[id*="diagrams-np"] .para:has(.code-inline),
-[id*="diagrams-vp"] .para:has(.code-inline),
-[id*="diagrams-adjp"] .para:has(.code-inline),
-[id*="diagrams-advp"] .para:has(.code-inline) {
-    text-align: center !important;
+/* Diagram sections: left-align bracket notation */
+[id*="diagrams-"] .para:has(.code-inline) {
+    text-align: left !important;
+    margin-top: 0.25em !important;
 }
+
+/* Diagram example labels - styled as captions below bracket notation */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 0.95em !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1.5em !important;
+}
+
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
@@ -241,19 +264,18 @@ section .tabular-box {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-41.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Morphemes: The Building Blocks</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-42.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Common Morphemes by Word Class</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-43.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Morpheme Boundaries</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compounds</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-45.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
+<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Morpheme Identification</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Word Building</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Morpheme Identification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Word Building</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-9.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-8.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Glossary</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -678,108 +700,108 @@ section .tabular-box {
 <section class="subsection" id="ch-06-diagrams-sentence-basics"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.7.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sentence Structure Basics</span>
 </h3>
-<section class="paragraphs" id="ch-06-diagrams-sentence-basics-2"><h4 class="heading"><span class="title">6.7.1 A: Abstract sentence structure.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.1 A: Abstract sentence structure"><a href="#ch-06-diagrams-sentence-basics-2" title="Copy heading and permalink for Paragraphs: 6.7.1 A: Abstract sentence structure" aria-label="Copy heading and permalink for Paragraphs: 6.7.1 A: Abstract sentence structure">🔗</a></div></section><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch06_basic_structure.png" class="contained" alt="Abstract syntax tree showing basic sentence structure: S branches to NP and VP"></div>
-<div class="para" id="ch-06-diagrams-sentence-basics-4">
-<code class="code-inline tex2jax_ignore">[S [NP] [VP]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-basics-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch06_basic_structure.png" class="contained" alt="Abstract syntax tree showing basic sentence structure: S branches to NP and VP"></div>
+<div class="para" id="ch-06-diagrams-sentence-basics-3">
+<code class="code-inline tex2jax_ignore">[S [NP] [VP]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-basics-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-sentence-basics-5"><h4 class="heading"><span class="title">6.7.1 B: Simple sentence with determiner.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.1 B: Simple sentence with determiner"><a href="#ch-06-diagrams-sentence-basics-5" title="Copy heading and permalink for Paragraphs: 6.7.1 B: Simple sentence with determiner" aria-label="Copy heading and permalink for Paragraphs: 6.7.1 B: Simple sentence with determiner">🔗</a></div></section><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch06_dog_barked.png" class="contained" alt='Syntax tree for "The dog barked" showing NP with DET and N, and VP with V'></div>
-<div class="para" id="ch-06-diagrams-sentence-basics-7">
-<code class="code-inline tex2jax_ignore">[S [NP [DET The] [N dog]] [VP [V barked]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-basics-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-sentence-basics-4"><h4 class="heading"><span class="title">6.7.1 A: Abstract sentence structure.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.1 A: Abstract sentence structure"><a href="#ch-06-diagrams-sentence-basics-4" title="Copy heading and permalink for Paragraphs: 6.7.1 A: Abstract sentence structure" aria-label="Copy heading and permalink for Paragraphs: 6.7.1 A: Abstract sentence structure">🔗</a></div></section><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch06_dog_barked.png" class="contained" alt='Syntax tree for "The dog barked" showing NP with DET and N, and VP with V'></div>
+<div class="para" id="ch-06-diagrams-sentence-basics-6">
+<code class="code-inline tex2jax_ignore">[S [NP [DET The] [N dog]] [VP [V barked]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-basics-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-sentence-basics-8"><h4 class="heading"><span class="title">6.7.1 C: Complex sentence with multiple phrases.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.1 C: Complex sentence with multiple phrases"><a href="#ch-06-diagrams-sentence-basics-8" title="Copy heading and permalink for Paragraphs: 6.7.1 C: Complex sentence with multiple phrases" aria-label="Copy heading and permalink for Paragraphs: 6.7.1 C: Complex sentence with multiple phrases">🔗</a></div></section><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/diagrams/new/ch06_artist_painted.png" class="contained" alt='Syntax tree for "The young artist from Paris painted beautiful landscapes" showing complex NP with PP modifier and transitive VP'></div>
-<div class="para" id="ch-06-diagrams-sentence-basics-10">
-<code class="code-inline tex2jax_ignore">[S [NP [DET The] [ADJP [ADJ young]] [N artist] [PP [PREP from] [NP [N Paris]]]] [VP [V painted] [NP [ADJP [ADJ beautiful]] [N landscapes]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-basics-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-sentence-basics-7"><h4 class="heading"><span class="title">6.7.1 B: Simple sentence with determiner.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.1 B: Simple sentence with determiner"><a href="#ch-06-diagrams-sentence-basics-7" title="Copy heading and permalink for Paragraphs: 6.7.1 B: Simple sentence with determiner" aria-label="Copy heading and permalink for Paragraphs: 6.7.1 B: Simple sentence with determiner">🔗</a></div></section><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/diagrams/new/ch06_artist_painted.png" class="contained" alt='Syntax tree for "The young artist from Paris painted beautiful landscapes" showing complex NP with PP modifier and transitive VP'></div>
+<div class="para" id="ch-06-diagrams-sentence-basics-9">
+<code class="code-inline tex2jax_ignore">[S [NP [DET The] [ADJP [ADJ young]] [N artist] [PP [PREP from] [NP [N Paris]]]] [VP [V painted] [NP [ADJP [ADJ beautiful]] [N landscapes]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-basics-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 6.7.1: Sentence Structure Basics"><a href="#ch-06-diagrams-sentence-basics" title="Copy heading and permalink for Subsection 6.7.1: Sentence Structure Basics" aria-label="Copy heading and permalink for Subsection 6.7.1: Sentence Structure Basics">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-det"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-06-diagrams-sentence-basics-10"><h4 class="heading"><span class="title">6.7.1 C: Complex sentence with multiple phrases.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.1 C: Complex sentence with multiple phrases"><a href="#ch-06-diagrams-sentence-basics-10" title="Copy heading and permalink for Paragraphs: 6.7.1 C: Complex sentence with multiple phrases" aria-label="Copy heading and permalink for Paragraphs: 6.7.1 C: Complex sentence with multiple phrases">🔗</a></div></section><div class="autopermalink" data-description="Subsection 6.7.1: Sentence Structure Basics"><a href="#ch-06-diagrams-sentence-basics" title="Copy heading and permalink for Subsection 6.7.1: Sentence Structure Basics" aria-label="Copy heading and permalink for Subsection 6.7.1: Sentence Structure Basics">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-det"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.7.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Determiner Examples</span>
 </h3>
-<section class="paragraphs" id="ch-06-diagrams-det-2"><h4 class="heading"><span class="title">6.7.2 A: Possessive determiner.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.2 A: Possessive determiner"><a href="#ch-06-diagrams-det-2" title="Copy heading and permalink for Paragraphs: 6.7.2 A: Possessive determiner" aria-label="Copy heading and permalink for Paragraphs: 6.7.2 A: Possessive determiner">🔗</a></div></section><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch06_possessive_det.png" class="contained" alt='Syntax tree for "her book" showing NP with possessive DET and N'></div>
-<div class="para" id="ch-06-diagrams-det-4">
-<code class="code-inline tex2jax_ignore">[NP [DET her] [N book]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-det-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch06_possessive_det.png" class="contained" alt='Syntax tree for "her book" showing NP with possessive DET and N'></div>
+<div class="para" id="ch-06-diagrams-det-3">
+<code class="code-inline tex2jax_ignore">[NP [DET her] [N book]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-det-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 6.7.2: Determiner Examples"><a href="#ch-06-diagrams-det" title="Copy heading and permalink for Subsection 6.7.2: Determiner Examples" aria-label="Copy heading and permalink for Subsection 6.7.2: Determiner Examples">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-pron"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-06-diagrams-det-4"><h4 class="heading"><span class="title">6.7.2 A: Possessive determiner.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.2 A: Possessive determiner"><a href="#ch-06-diagrams-det-4" title="Copy heading and permalink for Paragraphs: 6.7.2 A: Possessive determiner" aria-label="Copy heading and permalink for Paragraphs: 6.7.2 A: Possessive determiner">🔗</a></div></section><div class="autopermalink" data-description="Subsection 6.7.2: Determiner Examples"><a href="#ch-06-diagrams-det" title="Copy heading and permalink for Subsection 6.7.2: Determiner Examples" aria-label="Copy heading and permalink for Subsection 6.7.2: Determiner Examples">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-pron"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.7.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Pronoun Examples</span>
 </h3>
-<section class="paragraphs" id="ch-06-diagrams-pron-2"><h4 class="heading"><span class="title">6.7.3 A: Pronoun as subject.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.3 A: Pronoun as subject"><a href="#ch-06-diagrams-pron-2" title="Copy heading and permalink for Paragraphs: 6.7.3 A: Pronoun as subject" aria-label="Copy heading and permalink for Paragraphs: 6.7.3 A: Pronoun as subject">🔗</a></div></section><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch06_pronoun_subject.png" class="contained" alt='Syntax tree for "She sleeps" showing S with pronoun NP and intransitive VP'></div>
-<div class="para" id="ch-06-diagrams-pron-4">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pron-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch06_pronoun_subject.png" class="contained" alt='Syntax tree for "She sleeps" showing S with pronoun NP and intransitive VP'></div>
+<div class="para" id="ch-06-diagrams-pron-3">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pron-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-pron-5"><h4 class="heading"><span class="title">6.7.3 B: Pronouns in ditransitive sentence.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.3 B: Pronouns in ditransitive sentence"><a href="#ch-06-diagrams-pron-5" title="Copy heading and permalink for Paragraphs: 6.7.3 B: Pronouns in ditransitive sentence" aria-label="Copy heading and permalink for Paragraphs: 6.7.3 B: Pronouns in ditransitive sentence">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_ditransitive.png" class="contained" alt='Syntax tree for "She gave me a book" showing pronouns in subject and indirect object positions'></div>
-<div class="para" id="ch-06-diagrams-pron-7">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V gave] [NP [PRON me]] [NP [DET a] [N book]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pron-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-pron-4"><h4 class="heading"><span class="title">6.7.3 A: Pronoun as subject.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.3 A: Pronoun as subject"><a href="#ch-06-diagrams-pron-4" title="Copy heading and permalink for Paragraphs: 6.7.3 A: Pronoun as subject" aria-label="Copy heading and permalink for Paragraphs: 6.7.3 A: Pronoun as subject">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_ditransitive.png" class="contained" alt='Syntax tree for "She gave me a book" showing pronouns in subject and indirect object positions'></div>
+<div class="para" id="ch-06-diagrams-pron-6">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V gave] [NP [PRON me]] [NP [DET a] [N book]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pron-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 6.7.3: Pronoun Examples"><a href="#ch-06-diagrams-pron" title="Copy heading and permalink for Subsection 6.7.3: Pronoun Examples" aria-label="Copy heading and permalink for Subsection 6.7.3: Pronoun Examples">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-pp"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-06-diagrams-pron-7"><h4 class="heading"><span class="title">6.7.3 B: Pronouns in ditransitive sentence.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.3 B: Pronouns in ditransitive sentence"><a href="#ch-06-diagrams-pron-7" title="Copy heading and permalink for Paragraphs: 6.7.3 B: Pronouns in ditransitive sentence" aria-label="Copy heading and permalink for Paragraphs: 6.7.3 B: Pronouns in ditransitive sentence">🔗</a></div></section><div class="autopermalink" data-description="Subsection 6.7.3: Pronoun Examples"><a href="#ch-06-diagrams-pron" title="Copy heading and permalink for Subsection 6.7.3: Pronoun Examples" aria-label="Copy heading and permalink for Subsection 6.7.3: Pronoun Examples">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-pp"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.7.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Prepositional Phrase Attachment</span>
 </h3>
 <div class="para" id="ch-06-diagrams-pp-2">The following pair of diagrams illustrates the structural ambiguity discussed in Section 6.4. The sentence <em class="emphasis">I saw the man with binoculars</em> can be parsed two ways depending on whether the PP attaches to the NP (adjectival) or the VP (adverbial).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pp-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-pp-3"><h4 class="heading"><span class="title">6.7.4 A: PP as NP modifier (adjectival).</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.4 A: PP as NP modifier (adjectival)"><a href="#ch-06-diagrams-pp-3" title="Copy heading and permalink for Paragraphs: 6.7.4 A: PP as NP modifier (adjectival)" aria-label="Copy heading and permalink for Paragraphs: 6.7.4 A: PP as NP modifier (adjectival)">🔗</a></div></section><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/diagrams/new/ch06_ambig_binoculars_np.png" class="contained" alt='Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars'></div>
-<div class="para" id="ch-06-diagrams-pp-5">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pp-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/diagrams/new/ch06_ambig_binoculars_np.png" class="contained" alt='Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars'></div>
+<div class="para" id="ch-06-diagrams-pp-4">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pp-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-pp-6"><h4 class="heading"><span class="title">6.7.4 B: PP as VP modifier (adverbial).</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.4 B: PP as VP modifier (adverbial)"><a href="#ch-06-diagrams-pp-6" title="Copy heading and permalink for Paragraphs: 6.7.4 B: PP as VP modifier (adverbial)" aria-label="Copy heading and permalink for Paragraphs: 6.7.4 B: PP as VP modifier (adverbial)">🔗</a></div></section><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/diagrams/new/ch06_ambig_binoculars_vp.png" class="contained" alt='Syntax tree for "I saw the man with binoculars" where PP attaches to VP, meaning I used binoculars to see him'></div>
-<div class="para" id="ch-06-diagrams-pp-8">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pp-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-pp-5"><h4 class="heading"><span class="title">6.7.4 A: PP as NP modifier (adjectival).</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.4 A: PP as NP modifier (adjectival)"><a href="#ch-06-diagrams-pp-5" title="Copy heading and permalink for Paragraphs: 6.7.4 A: PP as NP modifier (adjectival)" aria-label="Copy heading and permalink for Paragraphs: 6.7.4 A: PP as NP modifier (adjectival)">🔗</a></div></section><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/diagrams/new/ch06_ambig_binoculars_vp.png" class="contained" alt='Syntax tree for "I saw the man with binoculars" where PP attaches to VP, meaning I used binoculars to see him'></div>
+<div class="para" id="ch-06-diagrams-pp-7">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pp-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 6.7.4: Prepositional Phrase Attachment"><a href="#ch-06-diagrams-pp" title="Copy heading and permalink for Subsection 6.7.4: Prepositional Phrase Attachment" aria-label="Copy heading and permalink for Subsection 6.7.4: Prepositional Phrase Attachment">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-sentence-patterns"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-06-diagrams-pp-8"><h4 class="heading"><span class="title">6.7.4 B: PP as VP modifier (adverbial).</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.4 B: PP as VP modifier (adverbial)"><a href="#ch-06-diagrams-pp-8" title="Copy heading and permalink for Paragraphs: 6.7.4 B: PP as VP modifier (adverbial)" aria-label="Copy heading and permalink for Paragraphs: 6.7.4 B: PP as VP modifier (adverbial)">🔗</a></div></section><div class="autopermalink" data-description="Subsection 6.7.4: Prepositional Phrase Attachment"><a href="#ch-06-diagrams-pp" title="Copy heading and permalink for Subsection 6.7.4: Prepositional Phrase Attachment" aria-label="Copy heading and permalink for Subsection 6.7.4: Prepositional Phrase Attachment">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-sentence-patterns"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.7.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sentence Patterns</span>
 </h3>
 <div class="para" id="ch-06-diagrams-sentence-patterns-2">These diagrams show how closed-class words function within different sentence patterns.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-3"><h4 class="heading"><span class="title">6.7.5 A: Intransitive pattern.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.5 A: Intransitive pattern"><a href="#ch-06-diagrams-sentence-patterns-3" title="Copy heading and permalink for Paragraphs: 6.7.5 A: Intransitive pattern" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 A: Intransitive pattern">🔗</a></div></section><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch06_intransitive.png" class="contained" alt='Syntax tree for "Thunder rumbled" showing intransitive sentence with no determiner'></div>
-<div class="para" id="ch-06-diagrams-sentence-patterns-5">
-<code class="code-inline tex2jax_ignore">[S [NP [N Thunder]] [VP [V rumbled]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch06_intransitive.png" class="contained" alt='Syntax tree for "Thunder rumbled" showing intransitive sentence with no determiner'></div>
+<div class="para" id="ch-06-diagrams-sentence-patterns-4">
+<code class="code-inline tex2jax_ignore">[S [NP [N Thunder]] [VP [V rumbled]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-6"><h4 class="heading"><span class="title">6.7.5 B: Transitive pattern.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.5 B: Transitive pattern"><a href="#ch-06-diagrams-sentence-patterns-6" title="Copy heading and permalink for Paragraphs: 6.7.5 B: Transitive pattern" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 B: Transitive pattern">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_transitive.png" class="contained" alt='Syntax tree for "The cat chased the mouse" showing transitive sentence with determiners'></div>
-<div class="para" id="ch-06-diagrams-sentence-patterns-8">
-<code class="code-inline tex2jax_ignore">[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-5"><h4 class="heading"><span class="title">6.7.5 A: Intransitive pattern.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.5 A: Intransitive pattern"><a href="#ch-06-diagrams-sentence-patterns-5" title="Copy heading and permalink for Paragraphs: 6.7.5 A: Intransitive pattern" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 A: Intransitive pattern">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_transitive.png" class="contained" alt='Syntax tree for "The cat chased the mouse" showing transitive sentence with determiners'></div>
+<div class="para" id="ch-06-diagrams-sentence-patterns-7">
+<code class="code-inline tex2jax_ignore">[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-9"><h4 class="heading"><span class="title">6.7.5 C: Linking verb pattern.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.5 C: Linking verb pattern"><a href="#ch-06-diagrams-sentence-patterns-9" title="Copy heading and permalink for Paragraphs: 6.7.5 C: Linking verb pattern" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 C: Linking verb pattern">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch06_linking.png" class="contained" alt='Syntax tree for "She is happy" showing linking verb with adjective complement'></div>
-<div class="para" id="ch-06-diagrams-sentence-patterns-11">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-8"><h4 class="heading"><span class="title">6.7.5 B: Transitive pattern.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.5 B: Transitive pattern"><a href="#ch-06-diagrams-sentence-patterns-8" title="Copy heading and permalink for Paragraphs: 6.7.5 B: Transitive pattern" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 B: Transitive pattern">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch06_linking.png" class="contained" alt='Syntax tree for "She is happy" showing linking verb with adjective complement'></div>
+<div class="para" id="ch-06-diagrams-sentence-patterns-10">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-12"><h4 class="heading"><span class="title">6.7.5 D: Complex transitive with NP complement.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.5 D: Complex transitive with NP complement"><a href="#ch-06-diagrams-sentence-patterns-12" title="Copy heading and permalink for Paragraphs: 6.7.5 D: Complex transitive with NP complement" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 D: Complex transitive with NP complement">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_complex_trans_np.png" class="contained" alt='Syntax tree for "They elected her president" showing complex transitive with pronoun object and NP complement'></div>
-<div class="para" id="ch-06-diagrams-sentence-patterns-14">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-11"><h4 class="heading"><span class="title">6.7.5 C: Linking verb pattern.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.5 C: Linking verb pattern"><a href="#ch-06-diagrams-sentence-patterns-11" title="Copy heading and permalink for Paragraphs: 6.7.5 C: Linking verb pattern" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 C: Linking verb pattern">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_complex_trans_np.png" class="contained" alt='Syntax tree for "They elected her president" showing complex transitive with pronoun object and NP complement'></div>
+<div class="para" id="ch-06-diagrams-sentence-patterns-13">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-15"><h4 class="heading"><span class="title">6.7.5 E: Complex transitive with AdjP complement.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.5 E: Complex transitive with AdjP complement"><a href="#ch-06-diagrams-sentence-patterns-15" title="Copy heading and permalink for Paragraphs: 6.7.5 E: Complex transitive with AdjP complement" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 E: Complex transitive with AdjP complement">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_complex_trans_adj.png" class="contained" alt='Syntax tree for "The jury found him guilty" showing complex transitive with pronoun object and adjective complement'></div>
-<div class="para" id="ch-06-diagrams-sentence-patterns-17">
-<code class="code-inline tex2jax_ignore">[S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-14"><h4 class="heading"><span class="title">6.7.5 D: Complex transitive with NP complement.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.5 D: Complex transitive with NP complement"><a href="#ch-06-diagrams-sentence-patterns-14" title="Copy heading and permalink for Paragraphs: 6.7.5 D: Complex transitive with NP complement" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 D: Complex transitive with NP complement">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_complex_trans_adj.png" class="contained" alt='Syntax tree for "The jury found him guilty" showing complex transitive with pronoun object and adjective complement'></div>
+<div class="para" id="ch-06-diagrams-sentence-patterns-16">
+<code class="code-inline tex2jax_ignore">[S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-sentence-patterns-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 6.7.5: Sentence Patterns"><a href="#ch-06-diagrams-sentence-patterns" title="Copy heading and permalink for Subsection 6.7.5: Sentence Patterns" aria-label="Copy heading and permalink for Subsection 6.7.5: Sentence Patterns">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-conj"><h3 class="heading hide-type">
+<section class="paragraphs" id="ch-06-diagrams-sentence-patterns-17"><h4 class="heading"><span class="title">6.7.5 E: Complex transitive with AdjP complement.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.5 E: Complex transitive with AdjP complement"><a href="#ch-06-diagrams-sentence-patterns-17" title="Copy heading and permalink for Paragraphs: 6.7.5 E: Complex transitive with AdjP complement" aria-label="Copy heading and permalink for Paragraphs: 6.7.5 E: Complex transitive with AdjP complement">🔗</a></div></section><div class="autopermalink" data-description="Subsection 6.7.5: Sentence Patterns"><a href="#ch-06-diagrams-sentence-patterns" title="Copy heading and permalink for Subsection 6.7.5: Sentence Patterns" aria-label="Copy heading and permalink for Subsection 6.7.5: Sentence Patterns">🔗</a></div></section><section class="subsection" id="ch-06-diagrams-conj"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">6.7.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Conjunction Examples</span>
 </h3>
-<section class="paragraphs" id="ch-06-diagrams-conj-2"><h4 class="heading"><span class="title">6.7.6 A: Simple NP coordination.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.6 A: Simple NP coordination"><a href="#ch-06-diagrams-conj-2" title="Copy heading and permalink for Paragraphs: 6.7.6 A: Simple NP coordination" aria-label="Copy heading and permalink for Paragraphs: 6.7.6 A: Simple NP coordination">🔗</a></div></section><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch06_np_coordination.png" class="contained" alt='Syntax tree for "cats and dogs" showing coordinated NPs joined by conjunction'></div>
-<div class="para" id="ch-06-diagrams-conj-4">
-<code class="code-inline tex2jax_ignore">[NP [NP [N cats]] [CONJ and] [NP [N dogs]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-conj-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/diagrams/new/ch06_np_coordination.png" class="contained" alt='Syntax tree for "cats and dogs" showing coordinated NPs joined by conjunction'></div>
+<div class="para" id="ch-06-diagrams-conj-3">
+<code class="code-inline tex2jax_ignore">[NP [NP [N cats]] [CONJ and] [NP [N dogs]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-conj-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-diagrams-conj-5">The following pair illustrates structural ambiguity in coordination. The phrase <em class="emphasis">old men and women</em> can be parsed two ways.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-conj-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-conj-4"><h4 class="heading"><span class="title">6.7.6 A: Simple NP coordination.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.6 A: Simple NP coordination"><a href="#ch-06-diagrams-conj-4" title="Copy heading and permalink for Paragraphs: 6.7.6 A: Simple NP coordination" aria-label="Copy heading and permalink for Paragraphs: 6.7.6 A: Simple NP coordination">🔗</a></div></section><div class="para" id="ch-06-diagrams-conj-5">The following pair illustrates structural ambiguity in coordination. The phrase <em class="emphasis">old men and women</em> can be parsed two ways.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-conj-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-conj-6"><h4 class="heading"><span class="title">6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only"><a href="#ch-06-diagrams-conj-6" title="Copy heading and permalink for Paragraphs: 6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only" aria-label="Copy heading and permalink for Paragraphs: 6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_ambig_old_men_1.png" class="contained" alt='Syntax tree for "Old men and women gathered" where "old" modifies only "men"'></div>
-<div class="para" id="ch-06-diagrams-conj-8">
-<code class="code-inline tex2jax_ignore">[S [NP [NP [ADJP [ADJ old]] [N men]] [CONJ and] [NP [N women]]] [VP [V gathered]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-conj-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_ambig_old_men_1.png" class="contained" alt='Syntax tree for "Old men and women gathered" where "old" modifies only "men"'></div>
+<div class="para" id="ch-06-diagrams-conj-7">
+<code class="code-inline tex2jax_ignore">[S [NP [NP [ADJP [ADJ old]] [N men]] [CONJ and] [NP [N women]]] [VP [V gathered]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-conj-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-diagrams-conj-9"><h4 class="heading"><span class="title">6.7.6 C: Coordination ambiguity—modifier applies to entire coordination.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 6.7.6 C: Coordination ambiguity—modifier applies to entire coordination"><a href="#ch-06-diagrams-conj-9" title="Copy heading and permalink for Paragraphs: 6.7.6 C: Coordination ambiguity—modifier applies to entire coordination" aria-label="Copy heading and permalink for Paragraphs: 6.7.6 C: Coordination ambiguity—modifier applies to entire coordination">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_ambig_old_men_2.png" class="contained" alt='Syntax tree for "Old men and women gathered" where "old" modifies both "men and women"'></div>
-<div class="para" id="ch-06-diagrams-conj-11">
-<code class="code-inline tex2jax_ignore">[S [NP [ADJP [ADJ old]] [NP [NP [N men]] [CONJ and] [NP [N women]]]] [VP [V gathered]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-conj-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-06-diagrams-conj-8"><h4 class="heading"><span class="title">6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only"><a href="#ch-06-diagrams-conj-8" title="Copy heading and permalink for Paragraphs: 6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only" aria-label="Copy heading and permalink for Paragraphs: 6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_ambig_old_men_2.png" class="contained" alt='Syntax tree for "Old men and women gathered" where "old" modifies both "men and women"'></div>
+<div class="para" id="ch-06-diagrams-conj-10">
+<code class="code-inline tex2jax_ignore">[S [NP [ADJP [ADJ old]] [NP [NP [N men]] [CONJ and] [NP [N women]]]] [VP [V gathered]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-conj-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 6.7.6: Conjunction Examples"><a href="#ch-06-diagrams-conj" title="Copy heading and permalink for Subsection 6.7.6: Conjunction Examples" aria-label="Copy heading and permalink for Subsection 6.7.6: Conjunction Examples">🔗</a></div></section><div class="autopermalink" data-description="Section 6.7: Diagram Examples"><a href="#ch-06-diagram-examples" title="Copy heading and permalink for Section 6.7: Diagram Examples" aria-label="Copy heading and permalink for Section 6.7: Diagram Examples">🔗</a></div></section></div>
+<section class="paragraphs" id="ch-06-diagrams-conj-11"><h4 class="heading"><span class="title">6.7.6 C: Coordination ambiguity—modifier applies to entire coordination.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 6.7.6 C: Coordination ambiguity—modifier applies to entire coordination"><a href="#ch-06-diagrams-conj-11" title="Copy heading and permalink for Paragraphs: 6.7.6 C: Coordination ambiguity—modifier applies to entire coordination" aria-label="Copy heading and permalink for Paragraphs: 6.7.6 C: Coordination ambiguity—modifier applies to entire coordination">🔗</a></div></section><div class="autopermalink" data-description="Subsection 6.7.6: Conjunction Examples"><a href="#ch-06-diagrams-conj" title="Copy heading and permalink for Subsection 6.7.6: Conjunction Examples" aria-label="Copy heading and permalink for Subsection 6.7.6: Conjunction Examples">🔗</a></div></section><div class="autopermalink" data-description="Section 6.7: Diagram Examples"><a href="#ch-06-diagram-examples" title="Copy heading and permalink for Section 6.7: Diagram Examples" aria-label="Copy heading and permalink for Section 6.7: Diagram Examples">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-06-homework.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-06-closed-classes-10.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

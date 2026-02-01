@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Compounds</title>
+<title>Morphemes and Writing: Strategic Word Choice</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -115,6 +115,25 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;
@@ -145,23 +164,27 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram example labels - larger font for easy skimming */
-[id*="diagrams-np"] .paragraphs .heading .title,
-[id*="diagrams-vp"] .paragraphs .heading .title,
-[id*="diagrams-adjp"] .paragraphs .heading .title,
-[id*="diagrams-advp"] .paragraphs .heading .title {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: #2c5282 !important;
+/* Diagram sections: left-align images */
+[id*="diagrams-"] .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
-/* Center bracket notation beneath diagram images */
-[id*="diagrams-np"] .para:has(.code-inline),
-[id*="diagrams-vp"] .para:has(.code-inline),
-[id*="diagrams-adjp"] .para:has(.code-inline),
-[id*="diagrams-advp"] .para:has(.code-inline) {
-    text-align: center !important;
+/* Diagram sections: left-align bracket notation */
+[id*="diagrams-"] .para:has(.code-inline) {
+    text-align: left !important;
+    margin-top: 0.25em !important;
 }
+
+/* Diagram example labels - styled as captions below bracket notation */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 0.95em !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1.5em !important;
+}
+
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
@@ -184,7 +207,7 @@ section .tabular-box {
 <ol id="searchresults" class="searchresults"></ol>
 </div>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-04-morphology-and-word-structure-sec-43.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-04-morphology-and-word-structure.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-04-morphology-and-word-structure-sec-45.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="ch-04-morphology-and-word-structure-sec-43.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-04-morphology-and-word-structure.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-04-homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -241,19 +264,18 @@ section .tabular-box {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-41.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Morphemes: The Building Blocks</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-42.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Common Morphemes by Word Class</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-43.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Morpheme Boundaries</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compounds</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-45.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
+<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Morpheme Identification</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Word Building</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Morpheme Identification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Word Building</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-9.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-8.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Glossary</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -671,279 +693,203 @@ section .tabular-box {
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="ch-04-morphology-and-word-structure-sec-44"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Compounds</span>
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Morphemes and Writing: Strategic Word Choice</span>
 </h2>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-2">A <em class="emphasis">compound</em> is a word formed from two or more free morphemes combined together. English readily forms compounds.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-2">The affixes introduced in Section 4.2 do more than build vocabulary—they give writers choices at the sentence level. Understanding how derivational morphemes work allows you to reshape sentences for clarity, concision, and emphasis. This section explores two ways morphological knowledge improves writing: using affixes for economy and understanding the trade-offs of nominalization.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-3"><h3 class="heading"><span class="title">Types of Compounds.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Types of Compounds"><a href="#ch-04-morphology-and-word-structure-sec-44-3" title="Copy heading and permalink for Paragraphs: Types of Compounds" aria-label="Copy heading and permalink for Paragraphs: Types of Compounds">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-4">
-<em class="emphasis">Noun + Noun:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-3"><h3 class="heading"><span class="title">Affixes for Economy.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Affixes for Economy"><a href="#ch-04-morphology-and-word-structure-sec-44-3" title="Copy heading and permalink for Paragraphs: Affixes for Economy" aria-label="Copy heading and permalink for Paragraphs: Affixes for Economy">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-4">Many common affixes let you express in one word what might otherwise require a phrase. Consider these pairs:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-5"><li id="ch-04-morphology-and-word-structure-sec-44-5-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-5-1-1">
-<em class="emphasis">bookcase</em>, <em class="emphasis">sunflower</em>, <em class="emphasis">bedroom</em>, <em class="emphasis">football</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Descriptive Phrase</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Affixed Form</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Morpheme</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">read again</em></td>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">reread</em></td>
+<td class="l m b0 r0 l0 t0 lines">re- (repetition)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">judged wrongly</em></td>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">misjudged</em></td>
+<td class="l m b0 r0 l0 t0 lines">mis- (error)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">not happy</em></td>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">unhappy</em></td>
+<td class="l m b0 r0 l0 t0 lines">un- (negation)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">in a careful manner</em></td>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">carefully</em></td>
+<td class="l m b0 r0 l0 t0 lines">-ly (manner)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">one who teaches</em></td>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">teacher</em></td>
+<td class="l m b0 r0 l0 t0 lines">-er (agent)</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">before the war</em></td>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">prewar</em></td>
+<td class="l m b0 r0 l0 t0 lines">pre- (temporal)</td>
+</tr>
+</table></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-6">The affixed forms are often more concise and direct. Compare:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li></ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-6">
-<em class="emphasis">Adjective + Noun:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-7"><li id="ch-04-morphology-and-word-structure-sec-44-7-1">
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-7">
+<li id="ch-04-morphology-and-word-structure-sec-44-7-1">
 <div class="para" id="ch-04-morphology-and-word-structure-sec-44-7-1-1">
-<em class="emphasis">blackboard</em>, <em class="emphasis">highway</em>, <em class="emphasis">smartphone</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">I read the report for a second time.</em> (8 words)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-7-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li></ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-8">
-<em class="emphasis">Verb + Noun:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</li>
+<li id="ch-04-morphology-and-word-structure-sec-44-7-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-7-2-1">
+<em class="emphasis">I reread the report.</em> (4 words)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-9"><li id="ch-04-morphology-and-word-structure-sec-44-9-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-9-1-1">
-<em class="emphasis">breakfast</em> (break + fast), <em class="emphasis">pickpocket</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-7-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-8">The second version says the same thing in half the words. When you recognize that <em class="emphasis">re-</em> means "again," you can deploy it strategically rather than spelling out the concept with a phrase.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-9-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li></ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-10">
-<em class="emphasis">Noun + Verb:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-9">However, the longer form is sometimes preferable. Consider emphasis: "I read that report <em class="emphasis">yet another time</em>" stresses the repetition more than "I reread" does. The phrase also allows modification—"I read it <em class="emphasis">one more time</em>" or "for the <em class="emphasis">third</em> time"—that the prefix cannot accommodate. And some affixed forms sound awkward: "She worked <em class="emphasis">unusually diligently</em>" is clunkier than "She worked <em class="emphasis">with unusual diligence</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-11"><li id="ch-04-morphology-and-word-structure-sec-44-11-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-11-1-1">
-<em class="emphasis">sunrise</em>, <em class="emphasis">haircut</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-10">The choice depends on context. Ask yourself: Is concision the priority? Does the longer form add emphasis or information? Does the affixed form sound natural?<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-11-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li></ul>
-<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-12"><h3 class="heading"><span class="title">Compound Stress.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Compound Stress"><a href="#ch-04-morphology-and-word-structure-sec-44-12" title="Copy heading and permalink for Paragraphs: Compound Stress" aria-label="Copy heading and permalink for Paragraphs: Compound Stress">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-13">In English, compounds typically have primary stress on the first element:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-11"><h3 class="heading"><span class="title">Nominalization: A Special Case.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Nominalization: A Special Case"><a href="#ch-04-morphology-and-word-structure-sec-44-11" title="Copy heading and permalink for Paragraphs: Nominalization: A Special Case" aria-label="Copy heading and permalink for Paragraphs: Nominalization: A Special Case">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-12">
+<em class="emphasis">Nominalization</em> occurs when a verb or adjective is converted into a noun, typically through suffixes like <em class="emphasis">-tion</em>, <em class="emphasis">-ment</em>, <em class="emphasis">-ness</em>, <em class="emphasis">-ity</em>, and <em class="emphasis">-ance</em>. You encountered these in Section 4.2 as noun-forming morphemes. Now consider how using them affects your prose.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-13">Compare these sentences:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-14">
 <li id="ch-04-morphology-and-word-structure-sec-44-14-1">
 <div class="para" id="ch-04-morphology-and-word-structure-sec-44-14-1-1">
-<em class="emphasis">BLACK</em>board (compound: a board for writing)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">The committee examined the evidence.</em> (verb: <em class="emphasis">examined</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-14-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-04-morphology-and-word-structure-sec-44-14-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-14-2-1">black <em class="emphasis">BOARD</em> (phrase: a board that is black)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-14-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-14-2-1">
+<em class="emphasis">The committee conducted an examination of the evidence.</em> (nominalization: <em class="emphasis">examination</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-14-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-14-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-15">
-<li id="ch-04-morphology-and-word-structure-sec-44-15-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-15-1-1">
-<em class="emphasis">GREEN</em>house (compound: building for plants)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-15">The first version is more direct—the action sits in the verb where readers expect it. The second buries the action inside a noun phrase, requiring extra words (<em class="emphasis">conducted</em>, <em class="emphasis">of</em>) to make a complete sentence.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-15-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-16">Excessive nominalization creates what writing scholar Helen Sword calls "zombie nouns"—abstract nouns that drain the life from prose. Consider this heavily nominalized passage:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-17">
+<em class="emphasis">The implementation of the new system led to an improvement in the efficiency of operations and a reduction in the occurrence of errors.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-18">Revised with verbs restored:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-19">
+<em class="emphasis">Implementing the new system improved operational efficiency and reduced errors.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-20">The revision is clearer, more direct, and nearly half as long.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-21"><h3 class="heading"><span class="title">When Nominalization Strengthens Writing.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: When Nominalization Strengthens Writing"><a href="#ch-04-morphology-and-word-structure-sec-44-21" title="Copy heading and permalink for Paragraphs: When Nominalization Strengthens Writing" aria-label="Copy heading and permalink for Paragraphs: When Nominalization Strengthens Writing">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-22">Despite these cautions, nominalization serves legitimate purposes:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-22" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-23"><h3 class="heading"><span class="title">Creating necessary concepts.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Creating necessary concepts"><a href="#ch-04-morphology-and-word-structure-sec-44-23" title="Copy heading and permalink for Paragraphs: Creating necessary concepts" aria-label="Copy heading and permalink for Paragraphs: Creating necessary concepts">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-24">Some ideas exist primarily as nouns: <em class="emphasis">justice</em>, <em class="emphasis">education</em>, <em class="emphasis">democracy</em>, <em class="emphasis">freedom</em>. You cannot easily express "We value <em class="emphasis">education</em>" using the verb <em class="emphasis">educate</em> without changing the meaning.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-24" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-25"><h3 class="heading"><span class="title">Building cohesion.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Building cohesion"><a href="#ch-04-morphology-and-word-structure-sec-44-25" title="Copy heading and permalink for Paragraphs: Building cohesion" aria-label="Copy heading and permalink for Paragraphs: Building cohesion">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-26">Nominalizations help connect sentences by letting you refer back to previously mentioned actions:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-26" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-27">
+<em class="emphasis">The researchers analyzed the data thoroughly. This analysis revealed unexpected patterns.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-27" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-28">Here, <em class="emphasis">analysis</em> refers to the analyzing just described, creating a smooth bridge between sentences.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-29"><h3 class="heading"><span class="title">Managing emphasis.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Managing emphasis"><a href="#ch-04-morphology-and-word-structure-sec-44-29" title="Copy heading and permalink for Paragraphs: Managing emphasis" aria-label="Copy heading and permalink for Paragraphs: Managing emphasis">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-30">Placing a nominalization in subject position can foreground an action:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-30" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-31">
+<em class="emphasis">The discovery of penicillin transformed medicine.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-31" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-32">The nominalization <em class="emphasis">discovery</em> emphasizes the finding itself, whereas "Fleming discovered penicillin, which transformed medicine" emphasizes Fleming.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-32" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-33"><h3 class="heading"><span class="title">Meeting genre expectations.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Meeting genre expectations"><a href="#ch-04-morphology-and-word-structure-sec-44-33" title="Copy heading and permalink for Paragraphs: Meeting genre expectations" aria-label="Copy heading and permalink for Paragraphs: Meeting genre expectations">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-34">Academic and professional writing often favors nominalized style for its formal, objective tone. Scientific articles, legal documents, and policy reports frequently use constructions like "the elimination of variables" rather than "we eliminated variables." Understanding this convention helps you adapt to different writing contexts.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-34" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-35"><h3 class="heading"><span class="title">When Nominalization Weakens Writing.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: When Nominalization Weakens Writing"><a href="#ch-04-morphology-and-word-structure-sec-44-35" title="Copy heading and permalink for Paragraphs: When Nominalization Weakens Writing" aria-label="Copy heading and permalink for Paragraphs: When Nominalization Weakens Writing">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-36">Nominalization becomes problematic when it obscures meaning or adds unnecessary words:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-37"><h3 class="heading"><span class="title">Burying the action.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Burying the action"><a href="#ch-04-morphology-and-word-structure-sec-44-37" title="Copy heading and permalink for Paragraphs: Burying the action" aria-label="Copy heading and permalink for Paragraphs: Burying the action">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-38">Verbs carry energy; converting them to nouns diffuses that energy. "We decided" is more direct than "We reached a decision."<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-38" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-39"><h3 class="heading"><span class="title">Adding words.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Adding words"><a href="#ch-04-morphology-and-word-structure-sec-44-39" title="Copy heading and permalink for Paragraphs: Adding words" aria-label="Copy heading and permalink for Paragraphs: Adding words">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-40">Nominalizations often require support words—articles, prepositions, weak verbs like <em class="emphasis">make</em>, <em class="emphasis">give</em>, <em class="emphasis">conduct</em>:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="l m b0 r0 l0 t0 lines">Nominalized</th>
+<th scope="col" class="l m b0 r0 l0 t0 lines">Verbal</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">make a recommendation</em></td>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">recommend</em></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">give consideration to</em></td>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">consider</em></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">conduct an investigation</em></td>
+<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">investigate</em></td>
+</tr>
+</table></div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-42"><h3 class="heading"><span class="title">Hiding agents.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Hiding agents"><a href="#ch-04-morphology-and-word-structure-sec-44-42" title="Copy heading and permalink for Paragraphs: Hiding agents" aria-label="Copy heading and permalink for Paragraphs: Hiding agents">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-43">Nominalization can obscure who performed an action. "Mistakes were made" (passive) becomes even more evasive as "The making of mistakes occurred." If accountability matters, verbal forms with clear subjects are preferable.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-43" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-44"><h3 class="heading"><span class="title">Making Strategic Choices.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Making Strategic Choices"><a href="#ch-04-morphology-and-word-structure-sec-44-44" title="Copy heading and permalink for Paragraphs: Making Strategic Choices" aria-label="Copy heading and permalink for Paragraphs: Making Strategic Choices">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-45">Neither "always use affixes" nor "always avoid nominalization" is good advice. The goal is intentional choice rather than unconscious habit.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-45" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-46">When revising, ask yourself:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-46" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-47">
+<li id="ch-04-morphology-and-word-structure-sec-44-47-1">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-47-1-1">
+<em class="emphasis">Is the action important enough to be a verb?</em> Core actions usually belong in verb form.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-47-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-47-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-44-15-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-15-2-1">green <em class="emphasis">HOUSE</em> (phrase: a house painted green)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-15-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-44-47-2">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-47-2-1">
+<em class="emphasis">Does the nominalization serve cohesion?</em> Using a noun to refer back to a previous idea can strengthen flow.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-47-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-15-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-47-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-</ul>
-<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-16"><h3 class="heading"><span class="title">Analyzing Compounds.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Analyzing Compounds"><a href="#ch-04-morphology-and-word-structure-sec-44-16" title="Copy heading and permalink for Paragraphs: Analyzing Compounds" aria-label="Copy heading and permalink for Paragraphs: Analyzing Compounds">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-17">When analyzing morphemes in compounds, count each free morpheme separately:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-44-47-3">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-47-3-1">
+<em class="emphasis">Is concision the priority?</em> Affixed forms and verbal constructions are typically shorter.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-47-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-18">
-<em class="emphasis">Bookshelves</em> = 3 morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-19">
-<li id="ch-04-morphology-and-word-structure-sec-44-19-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-19-1-1">
-<em class="emphasis">book</em> = free<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-19-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-19-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-47-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-44-19-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-19-2-1">
-<em class="emphasis">shelf</em> = free<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-19-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-44-47-4">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-47-4-1">
+<em class="emphasis">Does the longer form add useful emphasis or precision?</em> Sometimes spelling things out has rhetorical value.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-47-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-19-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-47-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-04-morphology-and-word-structure-sec-44-19-3">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-19-3-1">
-<em class="emphasis">-s</em> = bound (plural)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-19-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-04-morphology-and-word-structure-sec-44-47-5">
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-47-5-1">
+<em class="emphasis">What does my audience expect?</em> Academic writing tolerates more nominalization than journalism or business communication.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-47-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-19-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-20">
-<em class="emphasis">Uncomfortable</em> = 3 morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-21">
-<li id="ch-04-morphology-and-word-structure-sec-44-21-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-21-1-1">
-<em class="emphasis">un-</em> = bound<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-21-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-21-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-21-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-21-2-1">
-<em class="emphasis">comfort</em> = free<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-21-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-21-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-21-3">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-21-3-1">
-<em class="emphasis">-able</em> = bound<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-21-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-21-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-22">
-<em class="emphasis">Sunflowers</em> = 3 morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-22" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-23">
-<li id="ch-04-morphology-and-word-structure-sec-44-23-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-23-1-1">
-<em class="emphasis">sun</em> = free<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-23-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-23-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-23-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-23-2-1">
-<em class="emphasis">flower</em> = free<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-23-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-23-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-23-3">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-23-3-1">
-<em class="emphasis">-s</em> = bound (plural)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-23-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-23-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-24">Remember to apply the English base rule even with compounds. Some words look like they might be compounds but aren’t:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-24" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-25">
-<em class="emphasis">Together</em> ≠ <em class="emphasis">to</em> + <em class="emphasis">get</em> + <em class="emphasis">her</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-26">
-<li id="ch-04-morphology-and-word-structure-sec-44-26-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-26-1-1">This word doesn’t combine the meanings "to," "get," and "her"<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-26-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-26-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-26-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-26-2-1">One morpheme<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-26-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-26-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-27"><h3 class="heading"><span class="title">Morpheme Identification Process.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Morpheme Identification Process"><a href="#ch-04-morphology-and-word-structure-sec-44-27" title="Copy heading and permalink for Paragraphs: Morpheme Identification Process" aria-label="Copy heading and permalink for Paragraphs: Morpheme Identification Process">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-28">Follow these steps to analyze a word’s morphemes:<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ol class="decimal" id="ch-04-morphology-and-word-structure-sec-44-29"><li id="ch-04-morphology-and-word-structure-sec-44-29-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-29-1-1">
-<em class="emphasis">Identify the base (free morpheme)</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-29-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 1"><a href="#ch-04-morphology-and-word-structure-sec-44-29-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
-</li></ol>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-30"><li id="ch-04-morphology-and-word-structure-sec-44-30-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-30-1-1">What is the core word that can stand alone?<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-30-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-30-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li></ul>
-<ol class="decimal" id="ch-04-morphology-and-word-structure-sec-44-31"><li id="ch-04-morphology-and-word-structure-sec-44-31-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-31-1-1">
-<em class="emphasis">Check for prefixes</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-31-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 1"><a href="#ch-04-morphology-and-word-structure-sec-44-31-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
-</li></ol>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-32">
-<li id="ch-04-morphology-and-word-structure-sec-44-32-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-32-1-1">Is there a meaningful unit before the base?<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-32-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-32-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-32-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-32-2-1">Is the remaining base still a word in English?<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-32-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-32-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-47-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<ol class="decimal" id="ch-04-morphology-and-word-structure-sec-44-33"><li id="ch-04-morphology-and-word-structure-sec-44-33-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-33-1-1">
-<em class="emphasis">Check for suffixes</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-33-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-04-morphology-and-word-structure-sec-44-48">Chapter 19 will return to nominalization as a revision strategy. For now, recognize that the morphemes you have learned are not merely analytical tools—they are choices that shape how your sentences read.<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-48" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1"><a href="#ch-04-morphology-and-word-structure-sec-44-33-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
-</li></ol>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-34">
-<li id="ch-04-morphology-and-word-structure-sec-44-34-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-34-1-1">Work from the end of the word inward<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-34-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-34-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-34-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-34-2-1">Identify each suffix and its meaning<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-34-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-34-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<ol class="decimal" id="ch-04-morphology-and-word-structure-sec-44-35"><li id="ch-04-morphology-and-word-structure-sec-44-35-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-35-1-1">
-<em class="emphasis">Verify each morpheme</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-35-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 1"><a href="#ch-04-morphology-and-word-structure-sec-44-35-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
-</li></ol>
-<ul class="disc" id="ch-04-morphology-and-word-structure-sec-44-36">
-<li id="ch-04-morphology-and-word-structure-sec-44-36-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-36-1-1">Does each piece carry meaning?<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-36-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-36-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-36-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-36-2-1">Is the base a real English word?<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-36-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-04-morphology-and-word-structure-sec-44-36-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<section class="paragraphs" id="ch-04-morphology-and-word-structure-sec-44-37"><h3 class="heading"><span class="title">Practice Analysis.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Practice Analysis"><a href="#ch-04-morphology-and-word-structure-sec-44-37" title="Copy heading and permalink for Paragraphs: Practice Analysis" aria-label="Copy heading and permalink for Paragraphs: Practice Analysis">🔗</a></div></section><div class="para" id="ch-04-morphology-and-word-structure-sec-44-38">Analyze: <em class="emphasis">mistreatment</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-38" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ol class="decimal" id="ch-04-morphology-and-word-structure-sec-44-39">
-<li id="ch-04-morphology-and-word-structure-sec-44-39-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-39-1-1">Base: <em class="emphasis">treat</em> (free morpheme—it’s a word)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-39-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 1"><a href="#ch-04-morphology-and-word-structure-sec-44-39-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-39-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-39-2-1">Prefix: <em class="emphasis">mis-</em> (bound—means "wrongly")<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-39-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 2"><a href="#ch-04-morphology-and-word-structure-sec-44-39-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-39-3">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-39-3-1">Suffix: <em class="emphasis">-ment</em> (bound—forms noun)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-39-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 3"><a href="#ch-04-morphology-and-word-structure-sec-44-39-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
-</li>
-</ol>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-40">Result: <em class="emphasis">mis-</em> + <em class="emphasis">treat</em> + <em class="emphasis">-ment</em> = 3 morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-41">Analyze: <em class="emphasis">reorganization</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-41" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ol class="decimal" id="ch-04-morphology-and-word-structure-sec-44-42">
-<li id="ch-04-morphology-and-word-structure-sec-44-42-1">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-42-1-1">Base: <em class="emphasis">organ</em> (free)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-42-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 1"><a href="#ch-04-morphology-and-word-structure-sec-44-42-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-42-2">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-42-2-1">Prefix: <em class="emphasis">re-</em> (bound—"again")<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-42-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 2"><a href="#ch-04-morphology-and-word-structure-sec-44-42-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
-</li>
-<li id="ch-04-morphology-and-word-structure-sec-44-42-3">
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-42-3-1">Suffixes: <em class="emphasis">-ize</em> (verb), <em class="emphasis">-ation</em> (noun)<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-42-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 3"><a href="#ch-04-morphology-and-word-structure-sec-44-42-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
-</li>
-</ol>
-<div class="para" id="ch-04-morphology-and-word-structure-sec-44-43">Result: <em class="emphasis">re-</em> + <em class="emphasis">organ</em> + <em class="emphasis">-ize</em> + <em class="emphasis">-ation</em> = 4 morphemes<div class="autopermalink" data-description="Paragraph"><a href="#ch-04-morphology-and-word-structure-sec-44-43" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Section 4.4: Compounds"><a href="#ch-04-morphology-and-word-structure-sec-44" title="Copy heading and permalink for Section 4.4: Compounds" aria-label="Copy heading and permalink for Section 4.4: Compounds">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Section 4.4: Morphemes and Writing: Strategic Word Choice"><a href="#ch-04-morphology-and-word-structure-sec-44" title="Copy heading and permalink for Section 4.4: Morphemes and Writing: Strategic Word Choice" aria-label="Copy heading and permalink for Section 4.4: Morphemes and Writing: Strategic Word Choice">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="ch-04-morphology-and-word-structure-sec-43.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-04-morphology-and-word-structure-sec-45.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="ch-04-morphology-and-word-structure-sec-43.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-04-homework.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

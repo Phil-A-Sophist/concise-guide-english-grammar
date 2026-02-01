@@ -115,6 +115,25 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;
@@ -145,23 +164,27 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram example labels - larger font for easy skimming */
-[id*="diagrams-np"] .paragraphs .heading .title,
-[id*="diagrams-vp"] .paragraphs .heading .title,
-[id*="diagrams-adjp"] .paragraphs .heading .title,
-[id*="diagrams-advp"] .paragraphs .heading .title {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: #2c5282 !important;
+/* Diagram sections: left-align images */
+[id*="diagrams-"] .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
-/* Center bracket notation beneath diagram images */
-[id*="diagrams-np"] .para:has(.code-inline),
-[id*="diagrams-vp"] .para:has(.code-inline),
-[id*="diagrams-adjp"] .para:has(.code-inline),
-[id*="diagrams-advp"] .para:has(.code-inline) {
-    text-align: center !important;
+/* Diagram sections: left-align bracket notation */
+[id*="diagrams-"] .para:has(.code-inline) {
+    text-align: left !important;
+    margin-top: 0.25em !important;
 }
+
+/* Diagram example labels - styled as captions below bracket notation */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 0.95em !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1.5em !important;
+}
+
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
@@ -241,19 +264,18 @@ section .tabular-box {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-41.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Morphemes: The Building Blocks</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-42.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Common Morphemes by Word Class</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-43.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Morpheme Boundaries</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compounds</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-45.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
+<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Morpheme Identification</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Word Building</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Morpheme Identification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Word Building</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-9.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-8.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Glossary</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -721,91 +743,91 @@ section .tabular-box {
 <div class="para" id="ch-03-language-varieties-sec-33-14">Each stage differs dramatically from the others. Old English is completely foreign to modern readers—it requires translation. Middle English is partially comprehensible with effort. Early Modern English is mostly accessible but noticeably different. The language never stopped changing; we just notice older changes less because we learned the results.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-03-language-varieties-sec-33-15"><h3 class="heading"><span class="title">Mechanisms of Change.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Mechanisms of Change"><a href="#ch-03-language-varieties-sec-33-15" title="Copy heading and permalink for Paragraphs: Mechanisms of Change" aria-label="Copy heading and permalink for Paragraphs: Mechanisms of Change">🔗</a></div></section><div class="para" id="ch-03-language-varieties-sec-33-16">
-<em class="emphasis">Sound change</em> alters pronunciation systematically. The "Great Vowel Shift" (roughly 1400-1700) transformed English vowels: "house" was once pronounced like "hoose," "name" like "nahm." More recently, many American dialects have undergone vowel shifts that linguists are still documenting.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Mechanisms of Change"><a href="#ch-03-language-varieties-sec-33-15" title="Copy heading and permalink for Paragraphs: Mechanisms of Change" aria-label="Copy heading and permalink for Paragraphs: Mechanisms of Change">🔗</a></div></section><section class="paragraphs" id="ch-03-language-varieties-sec-33-16"><h3 class="heading"><span class="title">Sound change.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Sound change"><a href="#ch-03-language-varieties-sec-33-16" title="Copy heading and permalink for Paragraphs: Sound change" aria-label="Copy heading and permalink for Paragraphs: Sound change">🔗</a></div></section><div class="para" id="ch-03-language-varieties-sec-33-17">Sound change alters pronunciation systematically. The "Great Vowel Shift" (roughly 1400-1700) transformed English vowels: "house" was once pronounced like "hoose," "name" like "nahm." More recently, many American dialects have undergone vowel shifts that linguists are still documenting.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-03-language-varieties-sec-33-17">
-<em class="emphasis">Grammatical change</em> alters morphology and syntax. English has lost most of its case endings (Old English had four cases, like German; Modern English only preserves case in pronouns). Word order has become more fixed as inflectional endings disappeared. New constructions emerge: the progressive ("I am going") expanded dramatically in Modern English.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-03-language-varieties-sec-33-18"><h3 class="heading"><span class="title">Grammatical change.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Grammatical change"><a href="#ch-03-language-varieties-sec-33-18" title="Copy heading and permalink for Paragraphs: Grammatical change" aria-label="Copy heading and permalink for Paragraphs: Grammatical change">🔗</a></div></section><div class="para" id="ch-03-language-varieties-sec-33-19">Grammatical change alters morphology and syntax. English has lost most of its case endings (Old English had four cases, like German; Modern English only preserves case in pronouns). Word order has become more fixed as inflectional endings disappeared. New constructions emerge: the progressive ("I am going") expanded dramatically in Modern English.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-03-language-varieties-sec-33-18">
-<em class="emphasis">Lexical change</em> adds, removes, and shifts words. New words enter through:<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-03-language-varieties-sec-33-20"><h3 class="heading"><span class="title">Lexical change.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Lexical change"><a href="#ch-03-language-varieties-sec-33-20" title="Copy heading and permalink for Paragraphs: Lexical change" aria-label="Copy heading and permalink for Paragraphs: Lexical change">🔗</a></div></section><div class="para" id="ch-03-language-varieties-sec-33-21">Lexical change adds, removes, and shifts words. New words enter through:<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-03-language-varieties-sec-33-19">
-<li id="ch-03-language-varieties-sec-33-19-1">
-<div class="para" id="ch-03-language-varieties-sec-33-19-1-1">
-<em class="emphasis">Coining</em>: "blog," "selfie," "doomscrolling"<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-19-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ch-03-language-varieties-sec-33-22">
+<li id="ch-03-language-varieties-sec-33-22-1">
+<div class="para" id="ch-03-language-varieties-sec-33-22-1-1">
+<em class="emphasis">Coining</em>: "blog," "selfie," "doomscrolling"<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-22-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-19-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-22-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-03-language-varieties-sec-33-19-2">
-<div class="para" id="ch-03-language-varieties-sec-33-19-2-1">
-<em class="emphasis">Borrowing</em>: "sushi," "yoga," "algorithm"<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-19-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-03-language-varieties-sec-33-22-2">
+<div class="para" id="ch-03-language-varieties-sec-33-22-2-1">
+<em class="emphasis">Borrowing</em>: "sushi," "yoga," "algorithm"<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-22-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-19-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-22-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-03-language-varieties-sec-33-19-3">
-<div class="para" id="ch-03-language-varieties-sec-33-19-3-1">
-<em class="emphasis">Compounding</em>: "smartphone," "cybersecurity"<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-19-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-03-language-varieties-sec-33-22-3">
+<div class="para" id="ch-03-language-varieties-sec-33-22-3-1">
+<em class="emphasis">Compounding</em>: "smartphone," "cybersecurity"<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-22-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-19-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-22-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-03-language-varieties-sec-33-19-4">
-<div class="para" id="ch-03-language-varieties-sec-33-19-4-1">
-<em class="emphasis">Derivation</em>: "unfriend," "mansplain"<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-19-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-03-language-varieties-sec-33-22-4">
+<div class="para" id="ch-03-language-varieties-sec-33-22-4-1">
+<em class="emphasis">Derivation</em>: "unfriend," "mansplain"<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-22-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-19-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-22-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-03-language-varieties-sec-33-20">Old words become obsolete ("forsooth," "prithee") or shift meaning ("awful" once meant "inspiring awe"; "nice" once meant "foolish"; "silly" once meant "blessed").<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-03-language-varieties-sec-33-23">Old words become obsolete ("forsooth," "prithee") or shift meaning ("awful" once meant "inspiring awe"; "nice" once meant "foolish"; "silly" once meant "blessed").<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-03-language-varieties-sec-33-21">
-<em class="emphasis">Semantic change</em> shifts meanings. "Decimate" originally meant "kill one in ten"; now it means "devastate." "Literally" is increasingly used for emphasis rather than literal meaning. Such shifts are as old as language itself.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-03-language-varieties-sec-33-24"><h3 class="heading"><span class="title">Semantic change.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Semantic change"><a href="#ch-03-language-varieties-sec-33-24" title="Copy heading and permalink for Paragraphs: Semantic change" aria-label="Copy heading and permalink for Paragraphs: Semantic change">🔗</a></div></section><div class="para" id="ch-03-language-varieties-sec-33-25">Semantic change shifts meanings. "Decimate" originally meant "kill one in ten"; now it means "devastate." "Literally" is increasingly used for emphasis rather than literal meaning. Such shifts are as old as language itself.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-03-language-varieties-sec-33-22"><h3 class="heading"><span class="title">Why People Resist Change.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Why People Resist Change"><a href="#ch-03-language-varieties-sec-33-22" title="Copy heading and permalink for Paragraphs: Why People Resist Change" aria-label="Copy heading and permalink for Paragraphs: Why People Resist Change">🔗</a></div></section><div class="para" id="ch-03-language-varieties-sec-33-23">If change is natural and universal, why do people resist it so strongly?<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ch-03-language-varieties-sec-33-24">
-<em class="emphasis">Nostalgia</em>: People associate earlier stages of language with their youth or with respected figures from the past. The language of our grandparents sounds more "proper" because we associate it with authority.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-24" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ch-03-language-varieties-sec-33-25">
-<em class="emphasis">Social markers</em>: As discussed above, language features can mark social identity. Resisting change is often about resisting the social changes that new language represents. Objections to singular "they" are often really about discomfort with changing gender norms.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ch-03-language-varieties-sec-33-26">
-<em class="emphasis">Loss aversion</em>: People notice what seems to be lost (distinctions, words, "rules") more than what’s gained. We don’t celebrate new expressive resources as readily as we mourn "declining standards."<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-26" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="ch-03-language-varieties-sec-33-27">
-<em class="emphasis">Education and investment</em>: People who learned prescriptive rules have invested effort in mastering them. It’s uncomfortable to learn that those rules might be arbitrary or changing.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-27" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-03-language-varieties-sec-33-26"><h3 class="heading"><span class="title">Why People Resist Change.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Why People Resist Change"><a href="#ch-03-language-varieties-sec-33-26" title="Copy heading and permalink for Paragraphs: Why People Resist Change" aria-label="Copy heading and permalink for Paragraphs: Why People Resist Change">🔗</a></div></section><div class="para" id="ch-03-language-varieties-sec-33-27">If change is natural and universal, why do people resist it so strongly?<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-27" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-03-language-varieties-sec-33-28">
-<em class="emphasis">Genuine confusion</em>: Occasionally, new usages do create temporary ambiguity. But languages develop ways to resolve ambiguity; if a change persists despite creating confusion, the confusion usually wasn’t actually that serious.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Nostalgia</em>: People associate earlier stages of language with their youth or with respected figures from the past. The language of our grandparents sounds more "proper" because we associate it with authority.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-03-language-varieties-sec-33-29"><h3 class="heading"><span class="title">Embracing Change.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Embracing Change"><a href="#ch-03-language-varieties-sec-33-29" title="Copy heading and permalink for Paragraphs: Embracing Change" aria-label="Copy heading and permalink for Paragraphs: Embracing Change">🔗</a></div></section><div class="para" id="ch-03-language-varieties-sec-33-30">From a descriptive perspective, change is neither good nor bad. Old forms aren’t better than new ones; they’re just older. Efforts to freeze language in some imagined perfect state are doomed to fail, and they reflect a misunderstanding of what language is.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-30" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-03-language-varieties-sec-33-29">
+<em class="emphasis">Social markers</em>: As discussed above, language features can mark social identity. Resisting change is often about resisting the social changes that new language represents. Objections to singular "they" are often really about discomfort with changing gender norms.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-29" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-03-language-varieties-sec-33-31">Language belongs to its speakers, and it will continue to evolve as they use it. The "errors" that horrify prescriptivists today are often the standard forms of tomorrow. Shakespeare used "you" as a singular (replacing "thou"); we don’t consider that an error. Chaucer used double negatives; we don’t consider <em class="emphasis">him</em> uneducated.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-31" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-03-language-varieties-sec-33-30">
+<em class="emphasis">Loss aversion</em>: People notice what seems to be lost (distinctions, words, "rules") more than what’s gained. We don’t celebrate new expressive resources as readily as we mourn "declining standards."<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-30" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-03-language-varieties-sec-33-32">What can you do with this knowledge?<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-32" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-03-language-varieties-sec-33-31">
+<em class="emphasis">Education and investment</em>: People who learned prescriptive rules have invested effort in mastering them. It’s uncomfortable to learn that those rules might be arbitrary or changing.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-31" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-03-language-varieties-sec-33-33">
-<li id="ch-03-language-varieties-sec-33-33-1">
-<div class="para" id="ch-03-language-varieties-sec-33-33-1-1">Notice your own reactions to unfamiliar language—are they linguistic or social?<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-33-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-03-language-varieties-sec-33-32">
+<em class="emphasis">Genuine confusion</em>: Occasionally, new usages do create temporary ambiguity. But languages develop ways to resolve ambiguity; if a change persists despite creating confusion, the confusion usually wasn’t actually that serious.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-32" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-33-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<section class="paragraphs" id="ch-03-language-varieties-sec-33-33"><h3 class="heading"><span class="title">Embracing Change.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Embracing Change"><a href="#ch-03-language-varieties-sec-33-33" title="Copy heading and permalink for Paragraphs: Embracing Change" aria-label="Copy heading and permalink for Paragraphs: Embracing Change">🔗</a></div></section><div class="para" id="ch-03-language-varieties-sec-33-34">From a descriptive perspective, change is neither good nor bad. Old forms aren’t better than new ones; they’re just older. Efforts to freeze language in some imagined perfect state are doomed to fail, and they reflect a misunderstanding of what language is.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-34" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-03-language-varieties-sec-33-35">Language belongs to its speakers, and it will continue to evolve as they use it. The "errors" that horrify prescriptivists today are often the standard forms of tomorrow. Shakespeare used "you" as a singular (replacing "thou"); we don’t consider that an error. Chaucer used double negatives; we don’t consider <em class="emphasis">him</em> uneducated.<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-35" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-03-language-varieties-sec-33-36">What can you do with this knowledge?<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-03-language-varieties-sec-33-37">
+<li id="ch-03-language-varieties-sec-33-37-1">
+<div class="para" id="ch-03-language-varieties-sec-33-37-1-1">Notice your own reactions to unfamiliar language—are they linguistic or social?<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-37-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-37-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-03-language-varieties-sec-33-33-2">
-<div class="para" id="ch-03-language-varieties-sec-33-33-2-1">Distinguish between genuine confusion and mere unfamiliarity<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-33-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-03-language-varieties-sec-33-37-2">
+<div class="para" id="ch-03-language-varieties-sec-33-37-2-1">Distinguish between genuine confusion and mere unfamiliarity<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-37-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-33-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-37-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-03-language-varieties-sec-33-33-3">
-<div class="para" id="ch-03-language-varieties-sec-33-33-3-1">Recognize that your own "standard" language was once innovative<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-33-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-03-language-varieties-sec-33-37-3">
+<div class="para" id="ch-03-language-varieties-sec-33-37-3-1">Recognize that your own "standard" language was once innovative<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-37-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-33-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-37-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-03-language-varieties-sec-33-33-4">
-<div class="para" id="ch-03-language-varieties-sec-33-33-4-1">Appreciate the creativity that drives language change<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-33-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-03-language-varieties-sec-33-37-4">
+<div class="para" id="ch-03-language-varieties-sec-33-37-4-1">Appreciate the creativity that drives language change<div class="autopermalink" data-description="Paragraph"><a href="#ch-03-language-varieties-sec-33-37-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-33-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-03-language-varieties-sec-33-37-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <div class="autopermalink" data-description="Section 3.3: Language Change and Attitudes"><a href="#ch-03-language-varieties-sec-33" title="Copy heading and permalink for Section 3.3: Language Change and Attitudes" aria-label="Copy heading and permalink for Section 3.3: Language Change and Attitudes">🔗</a></div></section></div>

@@ -115,6 +115,25 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
+/* Typography: Sans-serif headings, Garamond body text */
+:root {
+    --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
+/* Apply sans-serif to headings and table headers */
+h1, h2, .ptx-content h1, .ptx-content h2,
+.heading .title, section > .heading > .title,
+table th, .tabular-box th {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Apply Garamond to body text */
+.ptx-content, .ptx-content p, .ptx-content li,
+.ptx-main .ptx-content {
+    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+}
+
 /* Widen the main content area for better readability on larger screens */
 .ptx-main .ptx-content {
     max-width: 900px !important;
@@ -145,23 +164,27 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram example labels - larger font for easy skimming */
-[id*="diagrams-np"] .paragraphs .heading .title,
-[id*="diagrams-vp"] .paragraphs .heading .title,
-[id*="diagrams-adjp"] .paragraphs .heading .title,
-[id*="diagrams-advp"] .paragraphs .heading .title {
-    font-size: 1.25em !important;
-    font-weight: 600 !important;
-    color: #2c5282 !important;
+/* Diagram sections: left-align images */
+[id*="diagrams-"] .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
-/* Center bracket notation beneath diagram images */
-[id*="diagrams-np"] .para:has(.code-inline),
-[id*="diagrams-vp"] .para:has(.code-inline),
-[id*="diagrams-adjp"] .para:has(.code-inline),
-[id*="diagrams-advp"] .para:has(.code-inline) {
-    text-align: center !important;
+/* Diagram sections: left-align bracket notation */
+[id*="diagrams-"] .para:has(.code-inline) {
+    text-align: left !important;
+    margin-top: 0.25em !important;
 }
+
+/* Diagram example labels - styled as captions below bracket notation */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 0.95em !important;
+    font-weight: 600 !important;
+    color: #4a5568 !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 1.5em !important;
+}
+
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
@@ -241,19 +264,18 @@ section .tabular-box {
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-41.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Morphemes: The Building Blocks</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-42.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Common Morphemes by Word Class</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-43.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Morpheme Boundaries</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Compounds</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-45.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-sec-44.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Morphemes and Writing: Strategic Word Choice</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
+<div class="toc-title-box"><a href="ch-04-homework.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Homework: Morphology and Word Structure</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Morpheme Identification</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Word Building</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-1" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Morpheme Identification</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-2" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Morphemes for Economy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-3" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Word Building</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-4" class="internal"><span class="codenumber">4.5.4</span> <span class="title">Morpheme Identification in Context</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="ch-04-homework.html#ch-04-homework-5" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Comparing Morphological Choices</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-9.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="ch-04-morphology-and-word-structure-8.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Glossary</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -719,23 +741,23 @@ section .tabular-box {
 <section class="paragraphs" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-9"><h3 class="heading"><span class="title">Second Language Acquisition: Effort Required.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Second Language Acquisition: Effort Required"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-9" title="Copy heading and permalink for Paragraphs: Second Language Acquisition: Effort Required" aria-label="Copy heading and permalink for Paragraphs: Second Language Acquisition: Effort Required">🔗</a></div></section><div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-10">A <em class="emphasis">second language (L2)</em> is any language learned after the first language is established. L2 acquisition works differently from L1 acquisition in important ways.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-11">
-<em class="emphasis">L2 acquisition is more variable.</em> While every child successfully acquires their first language, adult learners rarely achieve native-like proficiency in a second language. Success depends on factors like motivation, instruction, immersion, and aptitude.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-11"><h3 class="heading"><span class="title">L2 acquisition is more variable.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: L2 acquisition is more variable"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-11" title="Copy heading and permalink for Paragraphs: L2 acquisition is more variable" aria-label="Copy heading and permalink for Paragraphs: L2 acquisition is more variable">🔗</a></div></section><div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-12">While every child successfully acquires their first language, adult learners rarely achieve native-like proficiency in a second language. Success depends on factors like motivation, instruction, immersion, and aptitude.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-12">
-<em class="emphasis">L2 acquisition typically requires explicit instruction.</em> While children acquire descriptive rules unconsciously, adult learners often benefit from being taught rules explicitly—both descriptive patterns ("English puts adjectives before nouns") and prescriptive conventions ("In formal writing, avoid contractions").<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-13"><h3 class="heading"><span class="title">L2 acquisition typically requires explicit instruction.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: L2 acquisition typically requires explicit instruction"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-13" title="Copy heading and permalink for Paragraphs: L2 acquisition typically requires explicit instruction" aria-label="Copy heading and permalink for Paragraphs: L2 acquisition typically requires explicit instruction">🔗</a></div></section><div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-14">While children acquire descriptive rules unconsciously, adult learners often benefit from being taught rules explicitly—both descriptive patterns ("English puts adjectives before nouns") and prescriptive conventions ("In formal writing, avoid contractions").<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-13">
-<em class="emphasis">L2 acquisition happens after the first language is in place.</em> Adult learners approach a new language through the lens of their first language. Features that differ from L1 tend to be harder to acquire; features similar to L1 are easier.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-15"><h3 class="heading"><span class="title">L2 acquisition happens after the first language is in place.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: L2 acquisition happens after the first language is in place"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-15" title="Copy heading and permalink for Paragraphs: L2 acquisition happens after the first language is in place" aria-label="Copy heading and permalink for Paragraphs: L2 acquisition happens after the first language is in place">🔗</a></div></section><div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-16">Adult learners approach a new language through the lens of their first language. Features that differ from L1 tend to be harder to acquire; features similar to L1 are easier.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-14">These differences have led some linguists to propose a <em class="emphasis">critical period</em> for language acquisition—a window in early childhood during which the brain is especially receptive to language learning. After this window closes (perhaps around puberty), language learning becomes more difficult and less complete.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-17">These differences have led some linguists to propose a <em class="emphasis">critical period</em> for language acquisition—a window in early childhood during which the brain is especially receptive to language learning. After this window closes (perhaps around puberty), language learning becomes more difficult and less complete.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-15"><h3 class="heading"><span class="title">Implications for Understanding Grammar.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Implications for Understanding Grammar"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-15" title="Copy heading and permalink for Paragraphs: Implications for Understanding Grammar" aria-label="Copy heading and permalink for Paragraphs: Implications for Understanding Grammar">🔗</a></div></section><div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-16">This distinction between L1 and L2 acquisition helps explain why prescriptive rules are so often necessary in education. Children who grow up speaking a prestige variety arrive at school already having acquired its descriptive patterns unconsciously. Children who grow up speaking other varieties are essentially learning Standard English as a second dialect—they need explicit instruction in patterns that differ from their home variety.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-18"><h3 class="heading"><span class="title">Implications for Understanding Grammar.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Implications for Understanding Grammar"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-18" title="Copy heading and permalink for Paragraphs: Implications for Understanding Grammar" aria-label="Copy heading and permalink for Paragraphs: Implications for Understanding Grammar">🔗</a></div></section><div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-19">This distinction between L1 and L2 acquisition helps explain why prescriptive rules are so often necessary in education. Children who grow up speaking a prestige variety arrive at school already having acquired its descriptive patterns unconsciously. Children who grow up speaking other varieties are essentially learning Standard English as a second dialect—they need explicit instruction in patterns that differ from their home variety.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-17">Similarly, students learning English as a second language need explicit instruction in both descriptive patterns (how English actually works) and prescriptive conventions (what formal contexts expect). The good news is that explicit knowledge about grammar—the kind this textbook provides—can support both L1 literacy development and L2 language learning.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-20">Similarly, students learning English as a second language need explicit instruction in both descriptive patterns (how English actually works) and prescriptive conventions (what formal contexts expect). The good news is that explicit knowledge about grammar—the kind this textbook provides—can support both L1 literacy development and L2 language learning.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-18">Understanding this distinction also helps teachers and writers be more precise. A native speaker who writes "Me and him went to the store" isn’t making a language acquisition error—they’ve acquired a descriptive pattern that differs from the prestige standard. What they need is information about when the standard form is expected, not remediation for a deficiency. An L2 learner who writes the same sentence might be producing an error that reflects incomplete acquisition of English case marking. The same surface error can have different causes, and effective teaching responds to the cause.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-02-prescriptive-vs-descriptive-grammar-sec-25-21">Understanding this distinction also helps teachers and writers be more precise. A native speaker who writes "Me and him went to the store" isn’t making a language acquisition error—they’ve acquired a descriptive pattern that differs from the prestige standard. What they need is information about when the standard form is expected, not remediation for a deficiency. An L2 learner who writes the same sentence might be producing an error that reflects incomplete acquisition of English case marking. The same surface error can have different causes, and effective teaching responds to the cause.<div class="autopermalink" data-description="Paragraph"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Section 2.5: How We Learn Language: First and Second Language Acquisition"><a href="#ch-02-prescriptive-vs-descriptive-grammar-sec-25" title="Copy heading and permalink for Section 2.5: How We Learn Language: First and Second Language Acquisition" aria-label="Copy heading and permalink for Section 2.5: How We Learn Language: First and Second Language Acquisition">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
