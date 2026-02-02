@@ -1416,158 +1416,212 @@
     </subsection>
 
     <subsection xml:id="ch-05-homework-2">
-      <title>Form vs. Function Analysis</title>
+      <title>Phrase Identification</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each sentence, identify the form (part of speech) and the function (grammatical role) of the underlined word. Remember the dual-identification principle: form is what the word IS; function is what the word DOES.</p>
+      <p>For each phrase below, identify: (1) the headword, and (2) the phrase type (NP, VP, AdjP, or AdvP).</p>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
-      <p><em>Sentence:</em> <em>The <term>rich</term> often have different concerns.</em></p>
-      <p>Word: <em>rich</em></p>
-      <p>Form: Adjective (it can be graded: <em>richer</em>, <em>richest</em>; it can be modified by "very": <em>very rich</em>)</p>
-      <p>Function: Nominal (functioning as a noun—it follows the determiner "the," serves as the subject of the sentence, and refers to a group of people)</p>
+      <p><em>Phrase:</em> <em>the old wooden bridge</em></p>
+      <p>Headword: <em>bridge</em> (the noun that the phrase is built around)</p>
+      <p>Phrase type: Noun Phrase (NP)</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 6.</em> <em>She gave him a <term>cold</term> look.</em></p>
+      <p><em>Exercise 6.</em> <em>very carefully</em></p>
       <ul>
-        <li><p>Form:</p></li>
-        <li><p>Function:</p></li>
+        <li><p>Headword:</p></li>
+        <li><p>Phrase type:</p></li>
       </ul>
 
-      <p><em>Exercise 7.</em> <em>The morning <term>walk</term> refreshed her.</em></p>
+      <p><em>Exercise 7.</em> <em>read the entire chapter</em></p>
       <ul>
-        <li><p>Form:</p></li>
-        <li><p>Function:</p></li>
+        <li><p>Headword:</p></li>
+        <li><p>Phrase type:</p></li>
       </ul>
 
-      <p><em>Exercise 8.</em> <em>He ran <term>fast</term> to catch the bus.</em></p>
+      <p><em>Exercise 8.</em> <em>extremely proud</em></p>
       <ul>
-        <li><p>Form:</p></li>
-        <li><p>Function:</p></li>
+        <li><p>Headword:</p></li>
+        <li><p>Phrase type:</p></li>
       </ul>
 
-      <p><em>Exercise 9.</em> <em>The <term>stone</term> wall surrounded the garden.</em></p>
+      <p><em>Exercise 9.</em> <em>my sister's new apartment</em></p>
       <ul>
-        <li><p>Form:</p></li>
-        <li><p>Function:</p></li>
+        <li><p>Headword:</p></li>
+        <li><p>Phrase type:</p></li>
       </ul>
 
-      <p><em>Exercise 10.</em> <em>The <term>wounded</term> were taken to the hospital.</em></p>
+      <p><em>Exercise 10.</em> <em>gave her the news</em></p>
       <ul>
-        <li><p>Form:</p></li>
-        <li><p>Function:</p></li>
+        <li><p>Headword:</p></li>
+        <li><p>Phrase type:</p></li>
       </ul>
     </subsection>
 
     <subsection xml:id="ch-05-homework-3">
-      <title>Phrase Construction</title>
+      <title>Phrase Replacement</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each head word provided, build a phrase of the specified type. Include at least two modifiers (pre-modifiers, post-modifiers, or both).</p>
+      <p>In each sentence below, find the phrase of the specified type, then rewrite the sentence replacing that phrase with a different phrase of the same type. Your replacement should change the meaning while keeping the sentence grammatical.</p>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
-      <p><em>Head:</em> <em>teacher</em> (build a noun phrase)</p>
-      <p>Noun phrase: <em>the experienced history teacher from the local high school</em></p>
-      <p>Components: Det (the) + Adj (experienced) + N modifier (history) + Head N (teacher) + PP (from the local high school)</p>
+      <p><em>Sentence:</em> <em>The young scientist discovered a new element.</em></p>
+      <p><em>Find and replace:</em> The NP that serves as subject</p>
+      <p>Original NP: <em>The young scientist</em></p>
+      <p>Revised sentence: <em>My neighbor's curious daughter discovered a new element.</em></p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 11.</em> Head: <em>decision</em> (build a noun phrase)</p>
+      <p><em>Exercise 11.</em> <em>The committee reviewed the lengthy proposal.</em></p>
       <ul>
-        <li><p>Noun phrase:</p></li>
-        <li><p>Components:</p></li>
+        <li><p>Find and replace: The NP that serves as object (after the verb)</p></li>
+        <li><p>Original NP:</p></li>
+        <li><p>Revised sentence:</p></li>
       </ul>
 
-      <p><em>Exercise 12.</em> Head: <em>proud</em> (build an adjective phrase)</p>
+      <p><em>Exercise 12.</em> <em>She seemed extremely confident during the interview.</em></p>
       <ul>
-        <li><p>Adjective phrase:</p></li>
-        <li><p>Components:</p></li>
+        <li><p>Find and replace: The AdjP (adjective phrase)</p></li>
+        <li><p>Original AdjP:</p></li>
+        <li><p>Revised sentence:</p></li>
       </ul>
 
-      <p><em>Exercise 13.</em> Head: <em>quickly</em> (build an adverb phrase)</p>
+      <p><em>Exercise 13.</em> <em>The dog barked quite loudly at the mail carrier.</em></p>
       <ul>
-        <li><p>Adverb phrase:</p></li>
-        <li><p>Components:</p></li>
+        <li><p>Find and replace: The AdvP (adverb phrase)</p></li>
+        <li><p>Original AdvP:</p></li>
+        <li><p>Revised sentence:</p></li>
+      </ul>
+
+      <p><em>Exercise 14.</em> <em>The talented musician plays the guitar.</em></p>
+      <ul>
+        <li><p>Find and replace: The VP (verb phrase—includes the verb and everything that follows it)</p></li>
+        <li><p>Original VP:</p></li>
+        <li><p>Revised sentence:</p></li>
       </ul>
     </subsection>
 
     <subsection xml:id="ch-05-homework-4">
-      <title>Sentence Writing</title>
+      <title>Flexible Words</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Write original sentences following each prompt. Underline the requested element.</p>
+      <p>Many English words can function as different parts of speech. For each word below, write a sentence using it as the headword of the specified phrase type. You may change the word's form if needed (e.g., <em>book</em> → <em>books</em>, <em>booked</em>, <em>booking</em>).</p>
+
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><em>Word:</em> <em>book</em></p>
+      <p><em>Use as:</em> headword of a VP (verb phrase)</p>
+      <p>Sentence: <em>We booked the flight last Tuesday.</em></p>
+      <p>Explanation: <em>Booked</em> is the headword of the VP <em>booked the flight last Tuesday</em>.</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 14.</em> Write a sentence using a noun formed with the suffix <em>-ment</em>:</p>
+      <p><em>Exercise 15.</em> <em>clean</em> — use as the headword of a VP</p>
+      <ul>
+        <li><p>Your sentence:</p></li>
+      </ul>
 
-      <p><em>Exercise 15.</em> Write a sentence using an adjective in subject complement position (after a linking verb like <em>be</em>, <em>seem</em>, or <em>become</em>):</p>
+      <p><em>Exercise 16.</em> <em>clean</em> — use as the headword of an AdjP</p>
+      <ul>
+        <li><p>Your sentence:</p></li>
+      </ul>
 
-      <p><em>Exercise 16.</em> Write a sentence where an adverb modifies an adjective (not a verb):</p>
+      <p><em>Exercise 17.</em> <em>water</em> — use as the headword of an NP</p>
+      <ul>
+        <li><p>Your sentence:</p></li>
+      </ul>
 
-      <p><em>Exercise 17.</em> Write a sentence where a noun functions adjectivally (modifying another noun):</p>
+      <p><em>Exercise 18.</em> <em>water</em> — use as the headword of a VP</p>
+      <ul>
+        <li><p>Your sentence:</p></li>
+      </ul>
+
+      <p><em>Exercise 19.</em> <em>light</em> — use as the headword of an NP</p>
+      <ul>
+        <li><p>Your sentence:</p></li>
+      </ul>
+
+      <p><em>Exercise 20.</em> <em>light</em> — use as the headword of an AdjP</p>
+      <ul>
+        <li><p>Your sentence:</p></li>
+      </ul>
     </subsection>
 
     <subsection xml:id="ch-05-homework-5">
-      <title>Analysis and Reflection</title>
+      <title>Word Class Transformations</title>
 
       <paragraphs>
-        <title>Passage</title>
+        <title>Instructions</title>
       </paragraphs>
-      <p><em>The elderly deserve our respect and consideration. A daily exercise routine significantly improves overall health. The government's new environmental policy cautiously addresses industrial pollution concerns.</em></p>
+      <p>The sentences below express similar ideas, but each uses a different form of the root word <em>create</em>. For each sentence, identify the part of speech of the underlined word, explain which test(s) you used to identify it, and then answer the reflection questions at the end.</p>
+
+      <paragraphs>
+        <title>Sentences</title>
+      </paragraphs>
+      <p>A. <em>The artist's <term>creation</term> amazed the critics.</em></p>
+      <p>B. <em>The artist <term>created</term> something amazing.</em></p>
+      <p>C. <em>The artist is highly <term>creative</term>.</em></p>
+      <p>D. <em>The artist works <term>creatively</term>.</em></p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 18.</em> Find two examples in the passage where form and function differ. For each, identify the word, state its form (part of speech), and explain its function in that sentence.</p>
+      <p><em>Exercise 21.</em> Sentence A: <em>creation</em></p>
       <ul>
-        <li><p>Example 1:</p>
-          <ul>
-            <li><p>Word:</p></li>
-            <li><p>Form:</p></li>
-            <li><p>Function:</p></li>
-            <li><p>Explanation:</p></li>
-          </ul>
-        </li>
-        <li><p>Example 2:</p>
-          <ul>
-            <li><p>Word:</p></li>
-            <li><p>Form:</p></li>
-            <li><p>Function:</p></li>
-            <li><p>Explanation:</p></li>
-          </ul>
-        </li>
+        <li><p>Part of speech:</p></li>
+        <li><p>Test(s) used to identify it:</p></li>
       </ul>
 
-      <p><em>Exercise 19.</em> Identify the head and all modifiers in the following noun phrase from the passage:</p>
-      <p><em>the government's new environmental policy</em></p>
+      <p><em>Exercise 22.</em> Sentence B: <em>created</em></p>
       <ul>
-        <li><p>Head:</p></li>
-        <li><p>Pre-modifiers (list each and identify its type—determiner, adjective, noun, etc.):</p></li>
+        <li><p>Part of speech:</p></li>
+        <li><p>Test(s) used to identify it:</p></li>
       </ul>
 
-      <p><em>Exercise 20.</em> In 3-4 sentences, explain why understanding the distinction between form and function is important for grammatical analysis. Use a specific example from the passage or create your own to illustrate your point.</p>
+      <p><em>Exercise 23.</em> Sentence C: <em>creative</em></p>
+      <ul>
+        <li><p>Part of speech:</p></li>
+        <li><p>Test(s) used to identify it:</p></li>
+      </ul>
+
+      <p><em>Exercise 24.</em> Sentence D: <em>creatively</em></p>
+      <ul>
+        <li><p>Part of speech:</p></li>
+        <li><p>Test(s) used to identify it:</p></li>
+      </ul>
+
+      <paragraphs>
+        <title>Reflection</title>
+      </paragraphs>
+
+      <p><em>Exercise 25.</em> All four sentences communicate something about an artist making things. Compare them:</p>
+      <ul>
+        <li><p>a. Which sentence feels clearest or most direct to you? Why?</p></li>
+        <li><p>b. What does each version emphasize? (For instance, does one focus more on the product? The process? The person?)</p></li>
+        <li><p>c. In what writing situation might you choose one version over another?</p></li>
+      </ul>
     </subsection>
 
-    <p><em>Total estimated time: 30-40 minutes</em></p>
+    <p><em>Total estimated time: 35-45 minutes</em></p>
   </section>
 
   <section xml:id="ch-05-diagram-examples">
