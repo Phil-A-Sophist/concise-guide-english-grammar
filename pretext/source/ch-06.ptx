@@ -6,24 +6,16 @@
   <objectives>
     <title>Learning Objectives</title>
     <ul>
-      <li><p>Distinguish between open and closed word classes</p></li>
-      <li><p>Identify and classify determiners by type and function</p></li>
-      <li><p>Recognize pronoun types and their grammatical behavior</p></li>
+      <li><p>Distinguish between open and closed word classes and explain why the distinction matters</p></li>
+      <li><p>Identify and classify determiners by type (articles, demonstratives, possessives, quantifiers)</p></li>
+      <li><p>Recognize pronoun types and understand their grammatical behavior, including case and antecedent relationships</p></li>
       <li><p>Identify prepositions and analyze prepositional phrase structure</p></li>
-      <li><p>Explain the syntactic functions of prepositional phrases (adjectival vs. adverbial)</p></li>
-      <li><p>Understand how closed-class words provide grammatical structure</p></li>
-      <li><p>Closed class</p></li>
-      <li><p>Determiner</p></li>
-      <li><p>Pronoun</p></li>
-      <li><p>Preposition</p></li>
-      <li><p>Prepositional phrase (PP)</p></li>
-      <li><p>Adjectival function</p></li>
-      <li><p>Adverbial function</p></li>
-      <li><p>Antecedent</p></li>
-      <li><p>Object of preposition</p></li>
-      <li><p>--</p></li>
+      <li><p>Distinguish between adjectival and adverbial functions of prepositional phrases</p></li>
+      <li><p>Understand how closed-class words provide grammatical structure to sentences</p></li>
     </ul>
   </objectives>
+
+  <p><em>Key Terms: closed class, determiner, article, demonstrative, possessive, quantifier, pronoun, personal pronoun, reflexive pronoun, antecedent, preposition, prepositional phrase (PP), object of preposition, adjectival function, adverbial function</em></p>
 
   <section xml:id="ch-06-closed-classes-sec-61">
     <title>Open vs. Closed Classes</title>
@@ -40,7 +32,6 @@
       <li><p><em>Determiners</em>: <em>the</em>, <em>a</em>, <em>this</em>, <em>my</em>, <em>every</em>, <em>some</em>...</p></li>
       <li><p><em>Pronouns</em>: <em>I</em>, <em>you</em>, <em>he</em>, <em>she</em>, <em>it</em>, <em>we</em>, <em>they</em>...</p></li>
       <li><p><em>Prepositions</em>: <em>in</em>, <em>on</em>, <em>at</em>, <em>to</em>, <em>from</em>, <em>with</em>...</p></li>
-      <li><p><em>Conjunctions</em>: <em>and</em>, <em>but</em>, <em>or</em>, <em>if</em>, <em>because</em>, <em>although</em>...</p></li>
       <li><p><em>Auxiliary verbs</em>: <em>be</em>, <em>have</em>, <em>do</em>, <em>can</em>, <em>will</em>, <em>might</em>...</p></li>
     </ul>
 
@@ -61,7 +52,7 @@
       </row>
       <row>
         <cell><em>student</em>, <em>discovered</em>, <em>ancient</em></cell>
-        <cell><em>the</em>, <em>in</em>, <em>she</em>, <em>and</em>, <em>have</em></cell>
+        <cell><em>the</em>, <em>in</em>, <em>she</em>, <em>have</em></cell>
       </row>
     </tabular>
 
@@ -139,19 +130,23 @@
       <title>Determiner Position</title>
     </paragraphs>
 
-    <p>Determiners occupy a specific position in the noun phrase—they come first, before any adjectives:</p>
+    <p>Determiners occupy a specific position in the noun phrase—they come first, before any adjectives. This consistent position makes them easy to identify:</p>
 
-    <p>```</p>
+    <figure xml:id="fig-ch06-det-position">
+      <caption>Determiner position in the noun phrase</caption>
+      <image source="diagrams/new/ch06_dog_barked.png" width="40%">
+        <description>Syntax tree showing "The dog barked" with determiner in initial NP position</description>
+      </image>
+    </figure>
+    <p><c>[NP [DET the] [N dog]]</c></p>
 
-    <p>Det + (Adj) + N</p>
+    <p>The pattern is consistent: <em>Det + (Adj) + N</em></p>
 
-    <p>the     big    dog</p>
-
-    <p>my      old    friend</p>
-
-    <p>some    fresh  bread</p>
-
-    <p>```</p>
+    <ul>
+      <li><p><em>the big dog</em></p></li>
+      <li><p><em>my old friend</em></p></li>
+      <li><p><em>some fresh bread</em></p></li>
+    </ul>
 
     <p><em>Important</em>: Most determiners are mutually exclusive—you cannot stack them:</p>
 
@@ -168,6 +163,16 @@
       <li><p><em>both my parents</em> (predeterminer + possessive)</p></li>
       <li><p><em>the first three chapters</em> (article + ordinal + cardinal)</p></li>
     </ul>
+
+    <p>A tree diagram shows how predeterminers occupy their own position before the central determiner:</p>
+
+    <figure xml:id="fig-ch06-predeterminer">
+      <caption>Predeterminer structure: "all the students"</caption>
+      <image source="diagrams/new/ch06_predeterminer.png" width="30%">
+        <description>Syntax tree showing "all the students" with predeterminer, determiner, and noun</description>
+      </image>
+    </figure>
+    <p><c>[NP [PREDET all] [DET the] [N students]]</c></p>
 
     <paragraphs>
       <title>Determiners vs. Adjectives</title>
@@ -299,6 +304,16 @@
     <p><em>Maria said that she wanted her book back, but John told her that he had already returned it to her office.</em></p>
 
     <p>Pronouns reduce redundancy and improve processing. But they require listeners to track what each pronoun refers to—its <em>antecedent</em>.</p>
+
+    <p>In syntax trees, pronouns occupy the same NP position that full noun phrases would:</p>
+
+    <figure xml:id="fig-ch06-pronoun-np">
+      <caption>Pronouns function as complete NPs</caption>
+      <image source="diagrams/new/ch06_pronoun_subject.png" width="30%">
+        <description>Syntax tree for "She sleeps" showing pronoun as complete NP</description>
+      </image>
+    </figure>
+    <p><c>[S [NP [PRON She]] [VP [V sleeps]]]</c></p>
 
     <paragraphs>
       <title>Personal Pronouns</title>
@@ -445,24 +460,6 @@
     <p><em>Who vs. whom</em>: Traditional grammar requires <em>whom</em> as object (<em>Whom did you see?</em>), but modern English often uses <em>who</em> in all positions except after prepositions (<em>To whom</em> remains preferred over <em>To who</em>).</p>
 
     <paragraphs>
-      <title>Relative Pronouns</title>
-    </paragraphs>
-
-    <p>Relative pronouns introduce relative clauses:</p>
-
-    <ul>
-      <li><p><em>who/whom/whose</em> (people): <em>the man <em>who</em> arrived</em></p></li>
-      <li><p><em>which</em> (things): <em>the book <em>which</em> I read</em></p></li>
-      <li><p><em>that</em> (people or things): <em>the person <em>that</em> called</em></p></li>
-    </ul>
-
-    <p>The relative pronoun connects the clause to its antecedent and plays a grammatical role within the clause:</p>
-
-    <p><em>The student <em>who</em> won the prize...</em> (<em>who</em> = subject of <em>won</em>)</p>
-
-    <p><em>The book <em>that</em> I read...</em> (<em>that</em> = object of <em>read</em>)</p>
-
-    <paragraphs>
       <title>Indefinite Pronouns</title>
     </paragraphs>
 
@@ -540,23 +537,25 @@
       <title>Prepositional Phrase Structure</title>
     </paragraphs>
 
-    <p>A prepositional phrase consists of a preposition plus its <em>object</em> (typically a noun phrase):</p>
+    <p>A prepositional phrase consists of a preposition plus its <em>object</em> (typically a noun phrase). The formula is simple: <em>PP → Prep + NP</em></p>
 
-    <p>```</p>
+    <figure xml:id="fig-ch06-pp-structure">
+      <caption>Basic prepositional phrase structure</caption>
+      <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
+        <description>Syntax tree showing a prepositional phrase with preposition and NP object</description>
+      </image>
+    </figure>
+    <p><c>[PP [PREP with] [NP [N binoculars]]]</c></p>
 
-    <p>PP → Prep + NP</p>
+    <p>Examples of prepositional phrases:</p>
 
-    <p>in     the morning</p>
-
-    <p>on     the tall wooden table</p>
-
-    <p>to     my best friend</p>
-
-    <p>from   the old house on the corner</p>
-
-    <p>about  the recent controversy</p>
-
-    <p>```</p>
+    <ul>
+      <li><p><em>in the morning</em></p></li>
+      <li><p><em>on the tall wooden table</em></p></li>
+      <li><p><em>to my best friend</em></p></li>
+      <li><p><em>from the old house on the corner</em></p></li>
+      <li><p><em>about the recent controversy</em></p></li>
+    </ul>
 
     <p>The object of the preposition can be:</p>
 
@@ -573,9 +572,11 @@
 
     <p>Prepositional phrases function as <em>modifiers</em>—either <em>adjectival</em> (modifying nouns) or <em>adverbial</em> (modifying verbs, adjectives, or sentences). Understanding this distinction is essential for accurate sentence analysis.</p>
 
-    <p>#### Adjectival PPs</p>
+    <paragraphs>
+      <title>Adjectival PPs</title>
+    </paragraphs>
 
-    <p><em>Adjectival PPs</em> modify nouns, answering &quot;which one?&quot; or &quot;what kind?&quot;:</p>
+    <p><em>Adjectival PPs</em> modify nouns, answering "which one?" or "what kind?":</p>
 
     <ul>
       <li><p><em>the man <em>in the hat</em></em> (which man?)</p></li>
@@ -584,19 +585,15 @@
       <li><p><em>a sense <em>of accomplishment</em></em> (what kind of sense?)</p></li>
     </ul>
 
-    <p>Adjectival PPs follow the noun they modify and remain part of the noun phrase:</p>
+    <p>Adjectival PPs follow the noun they modify and remain part of the noun phrase. The tree diagram shows this attachment clearly:</p>
 
-    <p>```</p>
-
-    <p>NP</p>
-
-    <p>├── Det: the</p>
-
-    <p>├── N: man</p>
-
-    <p>└── PP: in the hat (adjectival—modifies &quot;man&quot;)</p>
-
-    <p>```</p>
+    <figure xml:id="fig-ch06-pp-adjectival">
+      <caption>Adjectival PP modifying a noun (PP inside NP)</caption>
+      <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
+        <description>Syntax tree showing PP "with binoculars" attached inside the NP, modifying "man"</description>
+      </image>
+    </figure>
+    <p><c>[NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]</c></p>
 
     <p><em>Key characteristic</em>: Adjectival PPs are embedded within the NP. When you replace the NP with a pronoun, the PP disappears:</p>
 
@@ -604,7 +601,9 @@
       <li><p><em>The man in the hat waved.</em> → <em><em>He</em> waved.</em></p></li>
     </ul>
 
-    <p>#### Adverbial PPs</p>
+    <paragraphs>
+      <title>Adverbial PPs</title>
+    </paragraphs>
 
     <p><em>Adverbial PPs</em> modify verbs (or whole sentences), providing information about time, place, manner, reason, etc.:</p>
 
@@ -616,21 +615,15 @@
       <li><p><em><em>In the morning</em>, we will leave.</em> (when?)</p></li>
     </ul>
 
-    <p>Adverbial PPs attach to the verb phrase, not to any particular noun:</p>
+    <p>Adverbial PPs attach to the verb phrase, not to any particular noun. Compare the tree structure:</p>
 
-    <p>```</p>
-
-    <p>S</p>
-
-    <p>├── NP: She</p>
-
-    <p>└── VP</p>
-
-    <p>├── V: waited</p>
-
-    <p>└── PP: in the lobby (adverbial—modifies &quot;waited&quot;)</p>
-
-    <p>```</p>
+    <figure xml:id="fig-ch06-pp-adverbial">
+      <caption>Adverbial PP modifying a verb (PP inside VP)</caption>
+      <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
+        <description>Syntax tree showing PP "with binoculars" attached to VP, modifying "saw"</description>
+      </image>
+    </figure>
+    <p><c>[VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]</c></p>
 
     <p><em>Key characteristic</em>: Adverbial PPs can often move to different positions in the sentence:</p>
 
@@ -820,23 +813,127 @@
 
   </section>
 
+  <section xml:id="ch-06-closed-classes-sec-67">
+    <title>Summary: Identifying Closed-Class Words</title>
+
+    <p>This chapter has covered the major closed word classes. Here's a quick reference for identifying and analyzing them.</p>
+
+    <paragraphs>
+      <title>Open vs. Closed: The Key Difference</title>
+    </paragraphs>
+
+    <p>Closed-class words:</p>
+    <ul>
+      <li><p>Cannot easily accept new members</p></li>
+      <li><p>Carry grammatical rather than content meaning</p></li>
+      <li><p>Are high-frequency and essential for structure</p></li>
+      <li><p>Must be memorized (small, fixed sets)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Quick Reference: Identifying Closed-Class Words</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Class</cell>
+        <cell>Key Identification Tests</cell>
+        <cell>Examples</cell>
+      </row>
+      <row>
+        <cell><em>Determiner</em></cell>
+        <cell>
+          <ul>
+            <li><p>Appears first in NP (before adjectives)</p></li>
+            <li><p>Cannot be stacked with other determiners</p></li>
+            <li><p>Specifies reference</p></li>
+          </ul>
+        </cell>
+        <cell><em>the</em>, <em>a</em>, <em>my</em>, <em>this</em>, <em>some</em>, <em>every</em></cell>
+      </row>
+      <row>
+        <cell><em>Pronoun</em></cell>
+        <cell>
+          <ul>
+            <li><p>Replaces a full NP</p></li>
+            <li><p>Has case forms (subject/object)</p></li>
+            <li><p>Requires antecedent (usually)</p></li>
+          </ul>
+        </cell>
+        <cell><em>I/me</em>, <em>she/her</em>, <em>they/them</em>, <em>who</em></cell>
+      </row>
+      <row>
+        <cell><em>Preposition</em></cell>
+        <cell>
+          <ul>
+            <li><p>Takes NP object to form PP</p></li>
+            <li><p>Shows spatial/temporal/logical relationship</p></li>
+            <li><p>PP functions adjectivally or adverbially</p></li>
+          </ul>
+        </cell>
+        <cell><em>in</em>, <em>on</em>, <em>to</em>, <em>from</em>, <em>with</em>, <em>about</em></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>PP Function: Adjectival vs. Adverbial</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Function</cell>
+        <cell>Modifies</cell>
+        <cell>Questions Answered</cell>
+        <cell>Can Move?</cell>
+      </row>
+      <row>
+        <cell><em>Adjectival</em></cell>
+        <cell>Noun</cell>
+        <cell>Which one? What kind?</cell>
+        <cell>No (stays with noun)</cell>
+      </row>
+      <row>
+        <cell><em>Adverbial</em></cell>
+        <cell>Verb/Sentence</cell>
+        <cell>Where? When? How? Why?</cell>
+        <cell>Often yes</cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Analysis Process</title>
+    </paragraphs>
+
+    <ol>
+      <li><p><em>Identify the word class</em>: Is it a determiner, pronoun, or preposition?</p></li>
+      <li><p><em>Classify the subtype</em>: What kind of determiner/pronoun/preposition is it?</p></li>
+      <li><p><em>Analyze function</em>: What grammatical role does it play? (For PPs: adjectival or adverbial?)</p></li>
+      <li><p><em>Note relationships</em>: What does it modify? What is the antecedent?</p></li>
+    </ol>
+
+  </section>
+
   <section xml:id="ch-06-homework">
     <title>Homework: Closed Classes</title>
 
-    <subsection xml:id="ch-06-homework-determiners-pronouns">
+    <subsection xml:id="ch-06-homework-1">
       <title>Determiner and Pronoun Identification</title>
 
-      <p><em>Instructions:</em> For each sentence, identify and classify the requested closed-class words.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence, identify and classify the requested closed-class words.</p>
 
-      <p><em>Example (completed):</em></p>
-
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
       <p><em>Sentence:</em> <em>My brother gave his old car to me.</em></p>
-
-      <p>Determiners: <em>my</em> (possessive), <em>his</em> (possessive), <em>old</em> is NOT a determiner—it's an adjective</p>
-
+      <p>Determiners: <em>my</em> (possessive), <em>his</em> (possessive). Note: <em>old</em> is NOT a determiner—it's an adjective.</p>
       <p>Pronouns: <em>me</em> (personal pronoun, 1st person singular, object form)</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
       <p><em>Exercise 1.</em> <em>The ambitious student submitted her application to several universities.</em></p>
 
@@ -866,28 +963,27 @@
 
     </subsection>
 
-    <subsection xml:id="ch-06-homework-prepositional-phrases">
+    <subsection xml:id="ch-06-homework-2">
       <title>Prepositional Phrase Analysis</title>
 
-      <p><em>Instructions:</em> Identify all prepositional phrases in each sentence. For each PP, indicate whether it functions as adjectival (modifying a noun) or adverbial (modifying a verb or sentence), and state what question it answers.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Identify all prepositional phrases in each sentence. For each PP, indicate whether it functions as adjectival (modifying a noun) or adverbial (modifying a verb or sentence), and state what question it answers.</p>
 
-      <p><em>Example (completed):</em></p>
-
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
       <p><em>Sentence:</em> <em>The professor from Harvard lectured about linguistics in the auditorium.</em></p>
+      <ul>
+        <li><p>PP 1: <em>from Harvard</em> — Adjectival (modifies "professor") — Which professor?</p></li>
+        <li><p>PP 2: <em>about linguistics</em> — Adverbial (modifies "lectured") — About what?</p></li>
+        <li><p>PP 3: <em>in the auditorium</em> — Adverbial (modifies "lectured") — Where?</p></li>
+      </ul>
 
-      <p>PP 1: <em>from Harvard</em></p>
-      <p>Type: Adjectival (modifies "professor")</p>
-      <p>Question answered: Which professor?</p>
-
-      <p>PP 2: <em>about linguistics</em></p>
-      <p>Type: Adverbial (modifies "lectured")</p>
-      <p>Question answered: About what? (topic)</p>
-
-      <p>PP 3: <em>in the auditorium</em></p>
-      <p>Type: Adverbial (modifies "lectured")</p>
-      <p>Question answered: Where?</p>
-
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
       <p><em>Exercise 5.</em> <em>The student with the red backpack studied in the library until midnight.</em></p>
 
@@ -925,10 +1021,17 @@
 
     </subsection>
 
-    <subsection xml:id="ch-06-homework-sentence-completion">
+    <subsection xml:id="ch-06-homework-3">
       <title>Sentence Completion</title>
 
-      <p><em>Instructions:</em> Complete each sentence by adding the requested element.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Complete each sentence by adding the requested element.</p>
+
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
       <p><em>Exercise 8.</em> Add an adjectival prepositional phrase that modifies the noun <em>book</em>:</p>
 
@@ -953,10 +1056,17 @@
 
     </subsection>
 
-    <subsection xml:id="ch-06-homework-sentence-writing">
+    <subsection xml:id="ch-06-homework-4">
       <title>Sentence Writing</title>
 
-      <p><em>Instructions:</em> Write original sentences following each prompt.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Write original sentences following each prompt.</p>
+
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
       <p><em>Exercise 11.</em> Write a sentence containing at least two prepositional phrases—one adjectival and one adverbial. Label each PP.</p>
 
@@ -980,70 +1090,76 @@
 
     </subsection>
 
-    <subsection xml:id="ch-06-homework-analysis-reflection">
+    <subsection xml:id="ch-06-homework-5">
       <title>Analysis and Reflection</title>
 
-      <p><em>Instructions:</em> Read the passage below and answer the questions that follow.</p>
-
-      <p><em>Passage:</em></p>
-
+      <paragraphs>
+        <title>Passage</title>
+      </paragraphs>
       <p><em>The researcher in the laboratory examined the sample with a powerful microscope. Her analysis of the results surprised everyone in the department. The findings that she published in a major journal challenged several assumptions about the process.</em></p>
 
-      <p><em>Exercise 14.</em> Identify four prepositional phrases from the passage. For each, state whether it is adjectival or adverbial, what it modifies, and what question it answers.</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
+      <p><em>Exercise 14.</em> Identify four prepositional phrases from the passage. For each, state whether it is adjectival or adverbial, what it modifies, and what question it answers.</p>
       <ul>
-        <li><p>PP 1:</p></li>
-        <li><p>Phrase:</p></li>
-        <li><p>Type:</p></li>
-        <li><p>Modifies:</p></li>
-        <li><p>Question answered:</p></li>
-        <li><p>PP 2:</p></li>
-        <li><p>Phrase:</p></li>
-        <li><p>Type:</p></li>
-        <li><p>Modifies:</p></li>
-        <li><p>Question answered:</p></li>
-        <li><p>PP 3:</p></li>
-        <li><p>Phrase:</p></li>
-        <li><p>Type:</p></li>
-        <li><p>Modifies:</p></li>
-        <li><p>Question answered:</p></li>
-        <li><p>PP 4:</p></li>
-        <li><p>Phrase:</p></li>
-        <li><p>Type:</p></li>
-        <li><p>Modifies:</p></li>
-        <li><p>Question answered:</p></li>
+        <li><p>PP 1:</p>
+          <ul>
+            <li><p>Phrase:</p></li>
+            <li><p>Type:</p></li>
+            <li><p>Modifies:</p></li>
+            <li><p>Question answered:</p></li>
+          </ul>
+        </li>
+        <li><p>PP 2:</p>
+          <ul>
+            <li><p>Phrase:</p></li>
+            <li><p>Type:</p></li>
+            <li><p>Modifies:</p></li>
+            <li><p>Question answered:</p></li>
+          </ul>
+        </li>
+        <li><p>PP 3:</p>
+          <ul>
+            <li><p>Phrase:</p></li>
+            <li><p>Type:</p></li>
+            <li><p>Modifies:</p></li>
+            <li><p>Question answered:</p></li>
+          </ul>
+        </li>
+        <li><p>PP 4:</p>
+          <ul>
+            <li><p>Phrase:</p></li>
+            <li><p>Type:</p></li>
+            <li><p>Modifies:</p></li>
+            <li><p>Question answered:</p></li>
+          </ul>
+        </li>
       </ul>
 
       <p><em>Exercise 15.</em> The phrase <em>in the laboratory</em> in the first sentence could potentially be interpreted as either adjectival or adverbial. Explain both possible interpretations and how you would determine which reading is intended.</p>
-
       <ul>
         <li><p>Adjectival interpretation:</p></li>
         <li><p>Adverbial interpretation:</p></li>
         <li><p>How to determine the intended reading:</p></li>
       </ul>
 
-      <p><em>Exercise 16.</em> In the final sentence, identify the relative pronoun and its antecedent. What grammatical role does the relative pronoun play within its own clause?</p>
-
-      <ul>
-        <li><p>Relative pronoun:</p></li>
-        <li><p>Antecedent:</p></li>
-        <li><p>Grammatical role within the relative clause:</p></li>
-      </ul>
-
-      <p><em>Exercise 17.</em> In 3-4 sentences, explain why closed-class words (determiners, pronouns, prepositions) are important even though they carry less content meaning than open-class words. What would happen if we removed them from sentences?</p>
-
+      <p><em>Exercise 16.</em> In 3-4 sentences, explain why closed-class words (determiners, pronouns, prepositions) are important even though they carry less content meaning than open-class words. What would happen if we removed them from sentences?</p>
       <ul>
         <li><p>Your response:</p></li>
       </ul>
 
     </subsection>
 
+    <p><em>Total estimated time: 30-40 minutes</em></p>
+
   </section>
 
   <section xml:id="ch-06-diagram-examples">
     <title>Diagram Examples</title>
 
-    <p>This section provides reference diagrams for closed-class word structures introduced in this chapter. Use these as models when analyzing how determiners, pronouns, prepositions, and conjunctions function within sentences.</p>
+    <p>This section provides reference diagrams for closed-class word structures introduced in this chapter. Use these as models when analyzing how determiners, pronouns, and prepositions function within sentences.</p>
 
     <subsection xml:id="ch-06-diagrams-sentence-basics">
       <title>Sentence Structure Basics</title>
@@ -1053,7 +1169,7 @@
       </image>
       <p><c>[S [NP] [VP]]</c></p>
       <paragraphs>
-        <title>6.7.1 A: Abstract sentence structure</title>
+        <title>6.9.1 A: Abstract sentence structure</title>
       </paragraphs>
 
       <image source="diagrams/new/ch06_dog_barked.png" width="40%">
@@ -1061,7 +1177,7 @@
       </image>
       <p><c>[S [NP [DET The] [N dog]] [VP [V barked]]]</c></p>
       <paragraphs>
-        <title>6.7.1 B: Simple sentence with determiner</title>
+        <title>6.9.1 B: Simple sentence with determiner</title>
       </paragraphs>
 
       <image source="diagrams/new/ch06_artist_painted.png" width="80%">
@@ -1069,7 +1185,7 @@
       </image>
       <p><c>[S [NP [DET The] [ADJP [ADJ young]] [N artist] [PP [PREP from] [NP [N Paris]]]] [VP [V painted] [NP [ADJP [ADJ beautiful]] [N landscapes]]]]</c></p>
       <paragraphs>
-        <title>6.7.1 C: Complex sentence with multiple phrases</title>
+        <title>6.9.1 C: Complex sentence with multiple phrases</title>
       </paragraphs>
     </subsection>
 
@@ -1081,7 +1197,7 @@
       </image>
       <p><c>[NP [DET her] [N book]]</c></p>
       <paragraphs>
-        <title>6.7.2 A: Possessive determiner</title>
+        <title>6.9.2 A: Possessive determiner</title>
       </paragraphs>
     </subsection>
 
@@ -1093,7 +1209,7 @@
       </image>
       <p><c>[S [NP [PRON She]] [VP [V sleeps]]]</c></p>
       <paragraphs>
-        <title>6.7.3 A: Pronoun as subject</title>
+        <title>6.9.3 A: Pronoun as subject</title>
       </paragraphs>
 
       <image source="diagrams/new/ch06_ditransitive.png" width="50%">
@@ -1101,7 +1217,7 @@
       </image>
       <p><c>[S [NP [PRON She]] [VP [V gave] [NP [PRON me]] [NP [DET a] [N book]]]]</c></p>
       <paragraphs>
-        <title>6.7.3 B: Pronouns in ditransitive sentence</title>
+        <title>6.9.3 B: Pronouns in ditransitive sentence</title>
       </paragraphs>
     </subsection>
 
@@ -1115,7 +1231,7 @@
       </image>
       <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]</c></p>
       <paragraphs>
-        <title>6.7.4 A: PP as NP modifier (adjectival)</title>
+        <title>6.9.4 A: PP as NP modifier (adjectival)</title>
       </paragraphs>
 
       <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
@@ -1123,7 +1239,7 @@
       </image>
       <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]</c></p>
       <paragraphs>
-        <title>6.7.4 B: PP as VP modifier (adverbial)</title>
+        <title>6.9.4 B: PP as VP modifier (adverbial)</title>
       </paragraphs>
     </subsection>
 
@@ -1137,7 +1253,7 @@
       </image>
       <p><c>[S [NP [N Thunder]] [VP [V rumbled]]]</c></p>
       <paragraphs>
-        <title>6.7.5 A: Intransitive pattern</title>
+        <title>6.9.5 A: Intransitive pattern</title>
       </paragraphs>
 
       <image source="diagrams/new/ch06_transitive.png" width="50%">
@@ -1145,7 +1261,7 @@
       </image>
       <p><c>[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]</c></p>
       <paragraphs>
-        <title>6.7.5 B: Transitive pattern</title>
+        <title>6.9.5 B: Transitive pattern</title>
       </paragraphs>
 
       <image source="diagrams/new/ch06_linking.png" width="35%">
@@ -1153,7 +1269,7 @@
       </image>
       <p><c>[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</c></p>
       <paragraphs>
-        <title>6.7.5 C: Linking verb pattern</title>
+        <title>6.9.5 C: Linking verb pattern</title>
       </paragraphs>
 
       <image source="diagrams/new/ch06_complex_trans_np.png" width="50%">
@@ -1161,7 +1277,7 @@
       </image>
       <p><c>[S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]</c></p>
       <paragraphs>
-        <title>6.7.5 D: Complex transitive with NP complement</title>
+        <title>6.9.5 D: Complex transitive with NP complement</title>
       </paragraphs>
 
       <image source="diagrams/new/ch06_complex_trans_adj.png" width="50%">
@@ -1169,37 +1285,19 @@
       </image>
       <p><c>[S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]</c></p>
       <paragraphs>
-        <title>6.7.5 E: Complex transitive with AdjP complement</title>
+        <title>6.9.5 E: Complex transitive with AdjP complement</title>
       </paragraphs>
     </subsection>
 
-    <subsection xml:id="ch-06-diagrams-conj">
-      <title>Conjunction Examples</title>
+    <subsection xml:id="ch-06-diagrams-predet">
+      <title>Predeterminer Examples</title>
 
-      <image source="diagrams/new/ch06_np_coordination.png" width="40%">
-        <description>Syntax tree for "cats and dogs" showing coordinated NPs joined by conjunction</description>
+      <image source="diagrams/new/ch06_predeterminer.png" width="30%">
+        <description>Syntax tree for "all the students" showing predeterminer position</description>
       </image>
-      <p><c>[NP [NP [N cats]] [CONJ and] [NP [N dogs]]]</c></p>
+      <p><c>[NP [PREDET all] [DET the] [N students]]</c></p>
       <paragraphs>
-        <title>6.7.6 A: Simple NP coordination</title>
-      </paragraphs>
-
-      <p>The following pair illustrates structural ambiguity in coordination. The phrase <em>old men and women</em> can be parsed two ways.</p>
-
-      <image source="diagrams/new/ch06_ambig_old_men_1.png" width="50%">
-        <description>Syntax tree for "Old men and women gathered" where "old" modifies only "men"</description>
-      </image>
-      <p><c>[S [NP [NP [ADJP [ADJ old]] [N men]] [CONJ and] [NP [N women]]] [VP [V gathered]]]</c></p>
-      <paragraphs>
-        <title>6.7.6 B: Coordination ambiguity—modifier applies to first conjunct only</title>
-      </paragraphs>
-
-      <image source="diagrams/new/ch06_ambig_old_men_2.png" width="50%">
-        <description>Syntax tree for "Old men and women gathered" where "old" modifies both "men and women"</description>
-      </image>
-      <p><c>[S [NP [ADJP [ADJ old]] [NP [NP [N men]] [CONJ and] [NP [N women]]]] [VP [V gathered]]]</c></p>
-      <paragraphs>
-        <title>6.7.6 C: Coordination ambiguity—modifier applies to entire coordination</title>
+        <title>6.9.6 A: Predeterminer in NP structure</title>
       </paragraphs>
     </subsection>
 
@@ -1274,10 +1372,6 @@
     <gi>
       <title>Reflexive pronoun</title>
       <p>A pronoun ending in <em>-self/-selves</em> that refers back to the subject.</p>
-    </gi>
-    <gi>
-      <title>Relative pronoun</title>
-      <p>A pronoun introducing a relative clause (<em>who</em>, <em>which</em>, <em>that</em>).</p>
     </gi>
   </glossary>
 
