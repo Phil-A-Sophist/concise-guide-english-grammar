@@ -430,7 +430,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "5.9",
   "title": "Homework: Open Classes",
-  "body": " Homework: Open Classes   Word Class Identification   Instructions   For each underlined word, identify its part of speech (noun, verb, adjective, or adverb) using at least one morphological or syntactic test from the chapter. State which test you used.   Example (completed)   Word:  carefully in \"She carefully reviewed the document.\"  Part of speech: Adverb  Test used: The -ly suffix test. \"Carefully\" is formed by adding -ly to the adjective \"careful,\" which is a reliable pattern for adverbs. Additionally, it modifies the verb \"reviewed,\" telling us how she reviewed.   Exercises   Exercise 1.  The development of new technology takes time.   Part of speech:  Test used:   Exercise 2.  She quickly solved the problem.   Part of speech:  Test used:   Exercise 3.  The beautiful garden attracted visitors.   Part of speech:  Test used:   Exercise 4.  The committee will investigate the matter.   Part of speech:  Test used:   Exercise 5.  His response was surprisingly confident.   Part of speech:  Test used:     Form vs. Function Analysis   Instructions   For each sentence, identify the form (part of speech) and the function (grammatical role) of the underlined word. Remember the dual-identification principle: form is what the word IS; function is what the word DOES.   Example (completed)   Sentence:  The rich often have different concerns.  Word: rich  Form: Adjective (it can be graded: richer , richest ; it can be modified by \"very\": very rich )  Function: Nominal (functioning as a noun—it follows the determiner \"the,\" serves as the subject of the sentence, and refers to a group of people)   Exercises   Exercise 6.  She gave him a cold look.   Form:  Function:   Exercise 7.  The morning walk refreshed her.   Form:  Function:   Exercise 8.  He ran fast to catch the bus.   Form:  Function:   Exercise 9.  The stone wall surrounded the garden.   Form:  Function:   Exercise 10.  The wounded were taken to the hospital.   Form:  Function:     Phrase Construction   Instructions   For each head word provided, build a phrase of the specified type. Include at least two modifiers (pre-modifiers, post-modifiers, or both).   Example (completed)   Head:  teacher (build a noun phrase)  Noun phrase: the experienced history teacher from the local high school  Components: Det (the) + Adj (experienced) + N modifier (history) + Head N (teacher) + PP (from the local high school)   Exercises   Exercise 11. Head: decision (build a noun phrase)   Noun phrase:  Components:   Exercise 12. Head: proud (build an adjective phrase)   Adjective phrase:  Components:   Exercise 13. Head: quickly (build an adverb phrase)   Adverb phrase:  Components:     Sentence Writing   Instructions   Write original sentences following each prompt. Underline the requested element.   Exercises   Exercise 14. Write a sentence using a noun formed with the suffix -ment :  Exercise 15. Write a sentence using an adjective in subject complement position (after a linking verb like be , seem , or become ):  Exercise 16. Write a sentence where an adverb modifies an adjective (not a verb):  Exercise 17. Write a sentence where a noun functions adjectivally (modifying another noun):    Analysis and Reflection   Passage   The elderly deserve our respect and consideration. A daily exercise routine significantly improves overall health. The government's new environmental policy cautiously addresses industrial pollution concerns.   Exercises   Exercise 18. Find two examples in the passage where form and function differ. For each, identify the word, state its form (part of speech), and explain its function in that sentence.   Example 1:   Word:  Form:  Function:  Explanation:    Example 2:   Word:  Form:  Function:  Explanation:     Exercise 19. Identify the head and all modifiers in the following noun phrase from the passage:  the government's new environmental policy   Head:  Pre-modifiers (list each and identify its type—determiner, adjective, noun, etc.):   Exercise 20. In 3-4 sentences, explain why understanding the distinction between form and function is important for grammatical analysis. Use a specific example from the passage or create your own to illustrate your point.   Total estimated time: 30-40 minutes  "
+  "body": " Homework: Open Classes   Word Class Identification   Instructions   For each underlined word, identify its part of speech (noun, verb, adjective, or adverb) using at least one morphological or syntactic test from the chapter. State which test you used.   Example (completed)   Word:  carefully in \"She carefully reviewed the document.\"  Part of speech: Adverb  Test used: The -ly suffix test. \"Carefully\" is formed by adding -ly to the adjective \"careful,\" which is a reliable pattern for adverbs. Additionally, it modifies the verb \"reviewed,\" telling us how she reviewed.   Exercises   Exercise 1.  The development of new technology takes time.   Part of speech:  Test used:   Exercise 2.  She quickly solved the problem.   Part of speech:  Test used:   Exercise 3.  The beautiful garden attracted visitors.   Part of speech:  Test used:   Exercise 4.  The committee will investigate the matter.   Part of speech:  Test used:   Exercise 5.  His response was surprisingly confident.   Part of speech:  Test used:     Phrase Identification   Instructions   For each phrase below, identify: (1) the headword, and (2) the phrase type (NP, VP, AdjP, or AdvP).   Example (completed)   Phrase:  the old wooden bridge  Headword: bridge (the noun that the phrase is built around)  Phrase type: Noun Phrase (NP)   Exercises   Exercise 6.  very carefully   Headword:  Phrase type:   Exercise 7.  read the entire chapter   Headword:  Phrase type:   Exercise 8.  extremely proud   Headword:  Phrase type:   Exercise 9.  my sister's new apartment   Headword:  Phrase type:   Exercise 10.  gave her the news   Headword:  Phrase type:     Phrase Replacement   Instructions   In each sentence below, find the phrase of the specified type, then rewrite the sentence replacing that phrase with a different phrase of the same type. Your replacement should change the meaning while keeping the sentence grammatical.   Example (completed)   Sentence:  The young scientist discovered a new element.  Find and replace: The NP that serves as subject  Original NP: The young scientist  Revised sentence: My neighbor's curious daughter discovered a new element.   Exercises   Exercise 11.  The committee reviewed the lengthy proposal.   Find and replace: The NP that serves as object (after the verb)  Original NP:  Revised sentence:   Exercise 12.  She seemed extremely confident during the interview.   Find and replace: The AdjP (adjective phrase)  Original AdjP:  Revised sentence:   Exercise 13.  The dog barked quite loudly at the mail carrier.   Find and replace: The AdvP (adverb phrase)  Original AdvP:  Revised sentence:   Exercise 14.  The talented musician plays the guitar.   Find and replace: The VP (verb phrase—includes the verb and everything that follows it)  Original VP:  Revised sentence:     Flexible Words   Instructions   Many English words can function as different parts of speech. For each word below, write a sentence using it as the headword of the specified phrase type. You may change the word's form if needed (e.g., book → books , booked , booking ).   Example (completed)   Word:  book  Use as: headword of a VP (verb phrase)  Sentence: We booked the flight last Tuesday.  Explanation: Booked is the headword of the VP booked the flight last Tuesday .   Exercises   Exercise 15.  clean — use as the headword of a VP   Your sentence:   Exercise 16.  clean — use as the headword of an AdjP   Your sentence:   Exercise 17.  water — use as the headword of an NP   Your sentence:   Exercise 18.  water — use as the headword of a VP   Your sentence:   Exercise 19.  light — use as the headword of an NP   Your sentence:   Exercise 20.  light — use as the headword of an AdjP   Your sentence:     Word Class Transformations   Instructions   The sentences below express similar ideas, but each uses a different form of the root word create . For each sentence, identify the part of speech of the underlined word, explain which test(s) you used to identify it, and then answer the reflection questions at the end.   Sentences   A. The artist's creation amazed the critics.  B. The artist created something amazing.  C. The artist is highly creative .  D. The artist works creatively .   Exercises   Exercise 21. Sentence A: creation   Part of speech:  Test(s) used to identify it:   Exercise 22. Sentence B: created   Part of speech:  Test(s) used to identify it:   Exercise 23. Sentence C: creative   Part of speech:  Test(s) used to identify it:   Exercise 24. Sentence D: creatively   Part of speech:  Test(s) used to identify it:    Reflection   Exercise 25. All four sentences communicate something about an artist making things. Compare them:   a. Which sentence feels clearest or most direct to you? Why?  b. What does each version emphasize? (For instance, does one focus more on the product? The process? The person?)  c. In what writing situation might you choose one version over another?    Total estimated time: 35-45 minutes  "
 },
 {
   "id": "ch-05-homework-1-9",
@@ -478,58 +478,40 @@ var ptx_lunr_docs = [
   "body": "surprisingly "
 },
 {
-  "id": "ch-05-homework-2-5",
+  "id": "ch-05-homework-5-5",
   "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-5",
+  "url": "ch-05-homework.html#ch-05-homework-5-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "rich "
+  "body": "creation "
 },
 {
-  "id": "ch-05-homework-2-10",
+  "id": "ch-05-homework-5-6",
   "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-10",
+  "url": "ch-05-homework.html#ch-05-homework-5-6",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "cold "
+  "body": "created "
 },
 {
-  "id": "ch-05-homework-2-12",
+  "id": "ch-05-homework-5-7",
   "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-12",
+  "url": "ch-05-homework.html#ch-05-homework-5-7",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "walk "
+  "body": "creative "
 },
 {
-  "id": "ch-05-homework-2-14",
+  "id": "ch-05-homework-5-8",
   "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-14",
+  "url": "ch-05-homework.html#ch-05-homework-5-8",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "fast "
-},
-{
-  "id": "ch-05-homework-2-16",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "stone "
-},
-{
-  "id": "ch-05-homework-2-18",
-  "level": "2",
-  "url": "ch-05-homework.html#ch-05-homework-2-18",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "wounded "
+  "body": "creatively "
 },
 {
   "id": "ch-05-diagram-examples",
