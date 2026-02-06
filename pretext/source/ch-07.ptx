@@ -829,37 +829,37 @@ the  cat  slept
     <subsection xml:id="ch-07-diagrams-basic">
       <title>Basic Sentence Structure</title>
 
+      <paragraphs>
+        <title>7.8.1 A: Abstract S → NP + VP template</title>
+      </paragraphs>
       <image source="diagrams/new/ch06_basic_structure.png" width="25%">
         <description>Syntax tree showing abstract sentence structure with S branching to NP and VP</description>
       </image>
       <p><c>[S [NP] [VP]]</c></p>
-      <paragraphs>
-        <title>7.8.1 A: Abstract S → NP + VP template</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>7.8.1 B: Simple intransitive sentence</title>
+      </paragraphs>
       <image source="diagrams/new/ch06_intransitive.png" width="30%">
         <description>Syntax tree for "Thunder rumbled" showing S with NP containing N and VP containing V</description>
       </image>
       <p><c>[S [NP [N Thunder]] [VP [V rumbled]]]</c></p>
-      <paragraphs>
-        <title>7.8.1 B: Simple intransitive sentence</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>7.8.1 C: Sentence with determiner</title>
+      </paragraphs>
       <image source="diagrams/new/ch06_dog_barked.png" width="35%">
         <description>Syntax tree for "The dog barked" showing NP with DET and N, and VP with V</description>
       </image>
       <p><c>[S [NP [DET The] [N dog]] [VP [V barked]]]</c></p>
-      <paragraphs>
-        <title>7.8.1 C: Sentence with determiner</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>7.8.1 D: Simple transitive sentence</title>
+      </paragraphs>
       <image source="diagrams/new/ch06_transitive.png" width="50%">
         <description>Syntax tree for "The cat chased the mouse" showing transitive structure with subject NP, V, and object NP</description>
       </image>
       <p><c>[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]</c></p>
-      <paragraphs>
-        <title>7.8.1 D: Simple transitive sentence</title>
-      </paragraphs>
     </subsection>
 
   </section>

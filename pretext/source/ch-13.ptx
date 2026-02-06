@@ -668,37 +668,37 @@
     <subsection xml:id="ch-13-diagrams-complement">
       <title>Complement Clauses</title>
 
+      <paragraphs>
+        <title>13.8.1 A: That-clause in object position: <em>I know that you cry.</em></title>
+      </paragraphs>
       <image source="diagrams/new/ch13_that_clause_object.png" width="55%">
         <description>Syntax tree for "I know that you cry" showing complement clause as object</description>
       </image>
       <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]</c></p>
-      <paragraphs>
-        <title>13.8.1 A: That-clause in object position: <em>I know that you cry.</em></title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>13.8.1 B: That-clause in subject position: <em>That you cry upsets me.</em></title>
+      </paragraphs>
       <image source="diagrams/new/ch13_that_clause_subject.png" width="55%">
         <description>Syntax tree for "That you cry upsets me" showing complement clause as subject</description>
       </image>
       <p><c>[S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]</c></p>
-      <paragraphs>
-        <title>13.8.1 B: That-clause in subject position: <em>That you cry upsets me.</em></title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>13.8.1 C: If/whether-clause in object position: <em>I wonder if you cry.</em></title>
+      </paragraphs>
       <image source="diagrams/new/ch13_if_clause.png" width="55%">
         <description>Syntax tree for "I wonder if you cry" showing if-clause as object</description>
       </image>
       <p><c>[S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]</c></p>
-      <paragraphs>
-        <title>13.8.1 C: If/whether-clause in object position: <em>I wonder if you cry.</em></title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>13.8.1 D: Missing complementizer: <em>I know you cry.</em></title>
+      </paragraphs>
       <image source="diagrams/new/ch13_missing_comp.png" width="55%">
         <description>Syntax tree for "I know you cry" showing omitted complementizer</description>
       </image>
       <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]</c></p>
-      <paragraphs>
-        <title>13.8.1 D: Missing complementizer: <em>I know you cry.</em></title>
-      </paragraphs>
     </subsection>
 
   </section>

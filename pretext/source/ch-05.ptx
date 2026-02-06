@@ -1632,121 +1632,121 @@
     <subsection xml:id="ch-05-diagrams-np">
       <title>Noun Phrase Examples</title>
 
+      <paragraphs>
+        <title>5.10.1 A: Simple NP (noun only)</title>
+      </paragraphs>
       <image source="diagrams/new/ch08_simple_np.png" width="15%">
         <description>Syntax tree for "dogs" showing NP with only N</description>
       </image>
       <p><c>[NP [N dogs]]</c></p>
-      <paragraphs>
-        <title>5.10.1 A: Simple NP (noun only)</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>5.10.1 B: NP with determiner</title>
+      </paragraphs>
       <image source="diagrams/new/ch08_np_det.png" width="25%">
         <description>Syntax tree for "the dog" showing NP with DET and N</description>
       </image>
       <p><c>[NP [DET the] [N dog]]</c></p>
-      <paragraphs>
-        <title>5.10.1 B: NP with determiner</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>5.10.1 C: NP with determiner and adjective</title>
+      </paragraphs>
       <image source="diagrams/new/ch05_np_simple.png" width="40%">
         <description>Syntax tree for "the tall student" showing NP with DET, ADJ, and N</description>
       </image>
       <p><c>[NP [DET the] [ADJP [ADJ tall]] [N student]]</c></p>
-      <paragraphs>
-        <title>5.10.1 C: NP with determiner and adjective</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>5.10.1 D: NP with multiple adjectives</title>
+      </paragraphs>
       <image source="diagrams/new/ch08_np_multiple_adj.png" width="45%">
         <description>Syntax tree for "the big brown dog" showing NP with two adjectives</description>
       </image>
       <p><c>[NP [DET the] [ADJP [ADJ big]] [ADJP [ADJ brown]] [N dog]]</c></p>
-      <paragraphs>
-        <title>5.10.1 D: NP with multiple adjectives</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>5.10.1 E: NP with PP post-modifier</title>
+      </paragraphs>
       <image source="diagrams/new/ch05_np_with_pp.png" width="55%">
         <description>Syntax tree for "the tall student from Ohio" with PP post-modifier</description>
       </image>
       <p><c>[NP [DET the] [ADJP [ADJ tall]] [N student] [PP [PREP from] [NP [N Ohio]]]]</c></p>
-      <paragraphs>
-        <title>5.10.1 E: NP with PP post-modifier</title>
-      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-05-diagrams-vp">
       <title>Verb Phrase Examples</title>
 
+      <paragraphs>
+        <title>5.10.2 A: Simple VP (intransitive verb)</title>
+      </paragraphs>
       <image source="diagrams/new/ch07_simple_vp.png" width="15%">
         <description>Syntax tree for "sleeps" showing VP with only V</description>
       </image>
       <p><c>[VP [V sleeps]]</c></p>
-      <paragraphs>
-        <title>5.10.2 A: Simple VP (intransitive verb)</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>5.10.2 B: Transitive VP with direct object</title>
+      </paragraphs>
       <image source="diagrams/new/ch05_vp_transitive.png" width="35%">
         <description>Syntax tree for "read the book" showing VP with V and NP</description>
       </image>
       <p><c>[VP [V read] [NP [DET the] [N book]]]</c></p>
-      <paragraphs>
-        <title>5.10.2 B: Transitive VP with direct object</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>5.10.2 C: Ditransitive VP with indirect and direct objects</title>
+      </paragraphs>
       <image source="diagrams/new/ch05_vp_ditransitive.png" width="45%">
         <description>Syntax tree for "gave her a present" showing VP with two NPs</description>
       </image>
       <p><c>[VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]</c></p>
-      <paragraphs>
-        <title>5.10.2 C: Ditransitive VP with indirect and direct objects</title>
-      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-05-diagrams-adjp">
       <title>Adjective Phrase Examples</title>
 
+      <paragraphs>
+        <title>5.10.3 A: Simple AdjP</title>
+      </paragraphs>
       <image source="diagrams/new/ch05_adjp_simple.png" width="15%">
         <description>Syntax tree for "happy" showing ADJP with only ADJ</description>
       </image>
       <p><c>[ADJP [ADJ happy]]</c></p>
-      <paragraphs>
-        <title>5.10.3 A: Simple AdjP</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>5.10.3 B: AdjP with degree adverb</title>
+      </paragraphs>
       <image source="diagrams/new/ch05_adjp_degree.png" width="30%">
         <description>Syntax tree for "very happy" showing ADJP with ADV and ADJ</description>
       </image>
       <p><c>[ADJP [ADVP [ADV very]] [ADJ happy]]</c></p>
-      <paragraphs>
-        <title>5.10.3 B: AdjP with degree adverb</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>5.10.3 C: AdjP with PP complement</title>
+      </paragraphs>
       <image source="diagrams/new/ch09_adjp_pp_proud.png" width="45%">
         <description>Syntax tree for "proud of her work" showing ADJP with PP complement</description>
       </image>
       <p><c>[ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]</c></p>
-      <paragraphs>
-        <title>5.10.3 C: AdjP with PP complement</title>
-      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-05-diagrams-advp">
       <title>Adverb Phrase Examples</title>
 
+      <paragraphs>
+        <title>5.10.4 A: Simple AdvP</title>
+      </paragraphs>
       <image source="diagrams/new/ch05_advp_simple.png" width="15%">
         <description>Syntax tree for "quickly" showing ADVP with only ADV</description>
       </image>
       <p><c>[ADVP [ADV quickly]]</c></p>
-      <paragraphs>
-        <title>5.10.4 A: Simple AdvP</title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>5.10.4 B: AdvP with degree modifier</title>
+      </paragraphs>
       <image source="diagrams/new/ch05_advp_degree.png" width="30%">
         <description>Syntax tree for "very quickly" showing ADVP with two ADVs</description>
       </image>
       <p><c>[ADVP [ADVP [ADV very]] [ADV quickly]]</c></p>
-      <paragraphs>
-        <title>5.10.4 B: AdvP with degree modifier</title>
-      </paragraphs>
     </subsection>
 
   </section>
