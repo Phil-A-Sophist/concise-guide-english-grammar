@@ -179,25 +179,48 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram sections: left-align images */
+/* === Diagram Examples pages (dedicated reference sections) === */
+/* Labels: bold, normal size, above the diagram */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 1em !important;
+    font-weight: 700 !important;
+    color: #2d3748 !important;
+    margin-top: 1.5em !important;
+    margin-bottom: 0.4em !important;
+}
+
+/* Images: left-aligned */
 [id*="diagrams-"] .image-box {
     margin-left: 0 !important;
     margin-right: auto !important;
 }
 
-/* Diagram sections: left-align bracket notation */
+/* Bracket notation: left-aligned, tighter spacing below image */
 [id*="diagrams-"] .para:has(.code-inline) {
     text-align: left !important;
     margin-top: 0.25em !important;
+    margin-bottom: 0.25em !important;
 }
 
-/* Diagram example labels - styled as captions below bracket notation */
-[id*="diagrams-"] .paragraphs .heading .title {
-    font-size: 0.95em !important;
-    font-weight: 600 !important;
-    color: #4a5568 !important;
-    margin-top: 0.5em !important;
-    margin-bottom: 1.5em !important;
+/* === Inline diagrams (future use, outside diagram-examples sections) === */
+/* Images: left-aligned */
+.ptx-content .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+/* Bracket notation: left-aligned */
+.ptx-content .para:has(.code-inline) {
+    text-align: left !important;
+}
+
+/* Inline diagram labels: smaller, not bold, lighter color */
+.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
+    font-size: 0.85em !important;
+    font-weight: 400 !important;
+    color: #718096 !important;
+    margin-top: 0.25em !important;
+    margin-bottom: 1em !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -716,27 +739,27 @@ section .tabular-box {
 <section class="subsection" id="ch-13-diagrams-complement"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">13.9.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Complement Clauses</span>
 </h3>
-<div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch13_that_clause_object.png" class="contained" alt='Syntax tree for "I know that you cry" showing complement clause as object'></div>
-<div class="para" id="ch-13-diagrams-complement-3">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-diagrams-complement-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-13-diagrams-complement-2"><h4 class="heading"><span class="title">13.8.1 A: That-clause in object position: <em class="emphasis">I know that you cry.</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 13.8.1 A: That-clause in object position: I know that you cry."><a href="#ch-13-diagrams-complement-2" title="Copy heading and permalink for Paragraphs: 13.8.1 A: That-clause in object position: I know that you cry." aria-label="Copy heading and permalink for Paragraphs: 13.8.1 A: That-clause in object position: I know that you cry.">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch13_that_clause_object.png" class="contained" alt='Syntax tree for "I know that you cry" showing complement clause as object'></div>
+<div class="para" id="ch-13-diagrams-complement-4">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-diagrams-complement-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-13-diagrams-complement-4"><h4 class="heading"><span class="title">13.8.1 A: That-clause in object position: <em class="emphasis">I know that you cry.</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 13.8.1 A: That-clause in object position: I know that you cry."><a href="#ch-13-diagrams-complement-4" title="Copy heading and permalink for Paragraphs: 13.8.1 A: That-clause in object position: I know that you cry." aria-label="Copy heading and permalink for Paragraphs: 13.8.1 A: That-clause in object position: I know that you cry.">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch13_that_clause_subject.png" class="contained" alt='Syntax tree for "That you cry upsets me" showing complement clause as subject'></div>
-<div class="para" id="ch-13-diagrams-complement-6">
-<code class="code-inline tex2jax_ignore">[S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-diagrams-complement-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-13-diagrams-complement-5"><h4 class="heading"><span class="title">13.8.1 B: That-clause in subject position: <em class="emphasis">That you cry upsets me.</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 13.8.1 B: That-clause in subject position: That you cry upsets me."><a href="#ch-13-diagrams-complement-5" title="Copy heading and permalink for Paragraphs: 13.8.1 B: That-clause in subject position: That you cry upsets me." aria-label="Copy heading and permalink for Paragraphs: 13.8.1 B: That-clause in subject position: That you cry upsets me.">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch13_that_clause_subject.png" class="contained" alt='Syntax tree for "That you cry upsets me" showing complement clause as subject'></div>
+<div class="para" id="ch-13-diagrams-complement-7">
+<code class="code-inline tex2jax_ignore">[S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-diagrams-complement-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-13-diagrams-complement-7"><h4 class="heading"><span class="title">13.8.1 B: That-clause in subject position: <em class="emphasis">That you cry upsets me.</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 13.8.1 B: That-clause in subject position: That you cry upsets me."><a href="#ch-13-diagrams-complement-7" title="Copy heading and permalink for Paragraphs: 13.8.1 B: That-clause in subject position: That you cry upsets me." aria-label="Copy heading and permalink for Paragraphs: 13.8.1 B: That-clause in subject position: That you cry upsets me.">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch13_if_clause.png" class="contained" alt='Syntax tree for "I wonder if you cry" showing if-clause as object'></div>
-<div class="para" id="ch-13-diagrams-complement-9">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-diagrams-complement-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-13-diagrams-complement-8"><h4 class="heading"><span class="title">13.8.1 C: If/whether-clause in object position: <em class="emphasis">I wonder if you cry.</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 13.8.1 C: If/whether-clause in object position: I wonder if you cry."><a href="#ch-13-diagrams-complement-8" title="Copy heading and permalink for Paragraphs: 13.8.1 C: If/whether-clause in object position: I wonder if you cry." aria-label="Copy heading and permalink for Paragraphs: 13.8.1 C: If/whether-clause in object position: I wonder if you cry.">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch13_if_clause.png" class="contained" alt='Syntax tree for "I wonder if you cry" showing if-clause as object'></div>
+<div class="para" id="ch-13-diagrams-complement-10">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-diagrams-complement-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-13-diagrams-complement-10"><h4 class="heading"><span class="title">13.8.1 C: If/whether-clause in object position: <em class="emphasis">I wonder if you cry.</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 13.8.1 C: If/whether-clause in object position: I wonder if you cry."><a href="#ch-13-diagrams-complement-10" title="Copy heading and permalink for Paragraphs: 13.8.1 C: If/whether-clause in object position: I wonder if you cry." aria-label="Copy heading and permalink for Paragraphs: 13.8.1 C: If/whether-clause in object position: I wonder if you cry.">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch13_missing_comp.png" class="contained" alt='Syntax tree for "I know you cry" showing omitted complementizer'></div>
-<div class="para" id="ch-13-diagrams-complement-12">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-diagrams-complement-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-13-diagrams-complement-11"><h4 class="heading"><span class="title">13.8.1 D: Missing complementizer: <em class="emphasis">I know you cry.</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 13.8.1 D: Missing complementizer: I know you cry."><a href="#ch-13-diagrams-complement-11" title="Copy heading and permalink for Paragraphs: 13.8.1 D: Missing complementizer: I know you cry." aria-label="Copy heading and permalink for Paragraphs: 13.8.1 D: Missing complementizer: I know you cry.">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch13_missing_comp.png" class="contained" alt='Syntax tree for "I know you cry" showing omitted complementizer'></div>
+<div class="para" id="ch-13-diagrams-complement-13">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-diagrams-complement-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-13-diagrams-complement-13"><h4 class="heading"><span class="title">13.8.1 D: Missing complementizer: <em class="emphasis">I know you cry.</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 13.8.1 D: Missing complementizer: I know you cry."><a href="#ch-13-diagrams-complement-13" title="Copy heading and permalink for Paragraphs: 13.8.1 D: Missing complementizer: I know you cry." aria-label="Copy heading and permalink for Paragraphs: 13.8.1 D: Missing complementizer: I know you cry.">🔗</a></div></section><div class="autopermalink" data-description="Subsection 13.9.1: Complement Clauses"><a href="#ch-13-diagrams-complement" title="Copy heading and permalink for Subsection 13.9.1: Complement Clauses" aria-label="Copy heading and permalink for Subsection 13.9.1: Complement Clauses">🔗</a></div></section><div class="autopermalink" data-description="Section 13.9: Diagram Examples"><a href="#ch-13-diagram-examples" title="Copy heading and permalink for Section 13.9: Diagram Examples" aria-label="Copy heading and permalink for Section 13.9: Diagram Examples">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 13.9.1: Complement Clauses"><a href="#ch-13-diagrams-complement" title="Copy heading and permalink for Subsection 13.9.1: Complement Clauses" aria-label="Copy heading and permalink for Subsection 13.9.1: Complement Clauses">🔗</a></div></section><div class="autopermalink" data-description="Section 13.9: Diagram Examples"><a href="#ch-13-diagram-examples" title="Copy heading and permalink for Section 13.9: Diagram Examples" aria-label="Copy heading and permalink for Section 13.9: Diagram Examples">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-13-homework.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-13-adjectivals-12.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

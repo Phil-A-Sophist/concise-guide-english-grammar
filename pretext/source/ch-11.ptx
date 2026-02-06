@@ -860,49 +860,49 @@
     <subsection xml:id="ch-11-diagrams-modals">
       <title>Modal Examples</title>
 
+      <paragraphs>
+        <title>11.8.1 A: Modal + verb: <em>will eat</em></title>
+      </paragraphs>
       <image source="diagrams/new/ch07_vp_modal.png" width="25%">
         <description>Syntax tree for "will eat" showing modal with verb</description>
       </image>
       <p><c>[VP [MOD will] [V eat]]</c></p>
-      <paragraphs>
-        <title>11.8.1 A: Modal + verb: <em>will eat</em></title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>11.8.1 B: Modal + perfect: <em>will have eaten</em></title>
+      </paragraphs>
       <image source="diagrams/new/ch07_vp_modal_perfect.png" width="35%">
         <description>Syntax tree for "will have eaten" showing modal with perfect</description>
       </image>
       <p><c>[VP [MOD will] [AUX have] [V eaten]]</c></p>
-      <paragraphs>
-        <title>11.8.1 B: Modal + perfect: <em>will have eaten</em></title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>11.8.1 C: Complex VP (modal + perfect + progressive): <em>should have been studying</em></title>
+      </paragraphs>
       <image source="diagrams/new/ch07_vp_complex.png" width="45%">
         <description>Syntax tree for "should have been studying"</description>
       </image>
       <p><c>[VP [MOD should] [AUX have] [AUX been] [V studying]]</c></p>
-      <paragraphs>
-        <title>11.8.1 C: Complex VP (modal + perfect + progressive): <em>should have been studying</em></title>
-      </paragraphs>
 
+      <paragraphs>
+        <title>11.8.1 D: Full complex VP: <em>will have been being eaten</em></title>
+      </paragraphs>
       <image source="diagrams/new/ch07_vp_full_complex.png" width="55%">
         <description>Syntax tree for "will have been being eaten" showing all auxiliaries</description>
       </image>
       <p><c>[VP [MOD will] [AUX have] [AUX been] [AUX being] [V eaten]]</c></p>
-      <paragraphs>
-        <title>11.8.1 D: Full complex VP: <em>will have been being eaten</em></title>
-      </paragraphs>
     </subsection>
 
     <subsection xml:id="ch-11-diagrams-passive">
       <title>Passive Voice</title>
 
+      <paragraphs>
+        <title>11.8.2 A: Passive with by-phrase: <em>was written by Maria</em></title>
+      </paragraphs>
       <image source="diagrams/new/ch16_passive_by.png" width="45%">
         <description>Syntax tree for "was written by Maria" showing passive with agent</description>
       </image>
       <p><c>[VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]</c></p>
-      <paragraphs>
-        <title>11.8.2 A: Passive with by-phrase: <em>was written by Maria</em></title>
-      </paragraphs>
     </subsection>
 
   </section>

@@ -154,25 +154,48 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram sections: left-align images */
+/* === Diagram Examples pages (dedicated reference sections) === */
+/* Labels: bold, normal size, above the diagram */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 1em !important;
+    font-weight: 700 !important;
+    color: #2d3748 !important;
+    margin-top: 1.5em !important;
+    margin-bottom: 0.4em !important;
+}
+
+/* Images: left-aligned */
 [id*="diagrams-"] .image-box {
     margin-left: 0 !important;
     margin-right: auto !important;
 }
 
-/* Diagram sections: left-align bracket notation */
+/* Bracket notation: left-aligned, tighter spacing below image */
 [id*="diagrams-"] .para:has(.code-inline) {
     text-align: left !important;
     margin-top: 0.25em !important;
+    margin-bottom: 0.25em !important;
 }
 
-/* Diagram example labels - styled as captions below bracket notation */
-[id*="diagrams-"] .paragraphs .heading .title {
-    font-size: 0.95em !important;
-    font-weight: 600 !important;
-    color: #4a5568 !important;
-    margin-top: 0.5em !important;
-    margin-bottom: 1.5em !important;
+/* === Inline diagrams (future use, outside diagram-examples sections) === */
+/* Images: left-aligned */
+.ptx-content .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+/* Bracket notation: left-aligned */
+.ptx-content .para:has(.code-inline) {
+    text-align: left !important;
+}
+
+/* Inline diagram labels: smaller, not bold, lighter color */
+.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
+    font-size: 0.85em !important;
+    font-weight: 400 !important;
+    color: #718096 !important;
+    margin-top: 0.25em !important;
+    margin-bottom: 1em !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */

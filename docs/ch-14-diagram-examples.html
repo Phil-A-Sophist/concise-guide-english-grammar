@@ -179,25 +179,48 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram sections: left-align images */
+/* === Diagram Examples pages (dedicated reference sections) === */
+/* Labels: bold, normal size, above the diagram */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 1em !important;
+    font-weight: 700 !important;
+    color: #2d3748 !important;
+    margin-top: 1.5em !important;
+    margin-bottom: 0.4em !important;
+}
+
+/* Images: left-aligned */
 [id*="diagrams-"] .image-box {
     margin-left: 0 !important;
     margin-right: auto !important;
 }
 
-/* Diagram sections: left-align bracket notation */
+/* Bracket notation: left-aligned, tighter spacing below image */
 [id*="diagrams-"] .para:has(.code-inline) {
     text-align: left !important;
     margin-top: 0.25em !important;
+    margin-bottom: 0.25em !important;
 }
 
-/* Diagram example labels - styled as captions below bracket notation */
-[id*="diagrams-"] .paragraphs .heading .title {
-    font-size: 0.95em !important;
-    font-weight: 600 !important;
-    color: #4a5568 !important;
-    margin-top: 0.5em !important;
-    margin-bottom: 1.5em !important;
+/* === Inline diagrams (future use, outside diagram-examples sections) === */
+/* Images: left-aligned */
+.ptx-content .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+/* Bracket notation: left-aligned */
+.ptx-content .para:has(.code-inline) {
+    text-align: left !important;
+}
+
+/* Inline diagram labels: smaller, not bold, lighter color */
+.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
+    font-size: 0.85em !important;
+    font-weight: 400 !important;
+    color: #718096 !important;
+    margin-top: 0.25em !important;
+    margin-bottom: 1em !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -716,61 +739,61 @@ section .tabular-box {
 <section class="subsection" id="ch-14-diagrams-position"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">14.9.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Adjective Positions</span>
 </h3>
-<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch09_np_attributive.png" class="contained" alt='Syntax tree for "the tall man" showing adjective in attributive position'></div>
-<div class="para" id="ch-14-diagrams-position-3">
-<code class="code-inline tex2jax_ignore">[NP [DET the] [ADJ tall] [N man]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-position-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-14-diagrams-position-2"><h4 class="heading"><span class="title">14.8.1 A: Attributive position: <em class="emphasis">the tall man</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 14.8.1 A: Attributive position: the tall man"><a href="#ch-14-diagrams-position-2" title="Copy heading and permalink for Paragraphs: 14.8.1 A: Attributive position: the tall man" aria-label="Copy heading and permalink for Paragraphs: 14.8.1 A: Attributive position: the tall man">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch09_np_attributive.png" class="contained" alt='Syntax tree for "the tall man" showing adjective in attributive position'></div>
+<div class="para" id="ch-14-diagrams-position-4">
+<code class="code-inline tex2jax_ignore">[NP [DET the] [ADJ tall] [N man]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-position-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-14-diagrams-position-4"><h4 class="heading"><span class="title">14.8.1 A: Attributive position: <em class="emphasis">the tall man</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 14.8.1 A: Attributive position: the tall man"><a href="#ch-14-diagrams-position-4" title="Copy heading and permalink for Paragraphs: 14.8.1 A: Attributive position: the tall man" aria-label="Copy heading and permalink for Paragraphs: 14.8.1 A: Attributive position: the tall man">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch09_predicative.png" class="contained" alt='Syntax tree for "She is happy" showing adjective in predicative position'></div>
-<div class="para" id="ch-14-diagrams-position-6">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-position-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-14-diagrams-position-5"><h4 class="heading"><span class="title">14.8.1 B: Predicative position: <em class="emphasis">She is happy.</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 14.8.1 B: Predicative position: She is happy."><a href="#ch-14-diagrams-position-5" title="Copy heading and permalink for Paragraphs: 14.8.1 B: Predicative position: She is happy." aria-label="Copy heading and permalink for Paragraphs: 14.8.1 B: Predicative position: She is happy.">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch09_predicative.png" class="contained" alt='Syntax tree for "She is happy" showing adjective in predicative position'></div>
+<div class="para" id="ch-14-diagrams-position-7">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-position-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-14-diagrams-position-7"><h4 class="heading"><span class="title">14.8.1 B: Predicative position: <em class="emphasis">She is happy.</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 14.8.1 B: Predicative position: She is happy."><a href="#ch-14-diagrams-position-7" title="Copy heading and permalink for Paragraphs: 14.8.1 B: Predicative position: She is happy." aria-label="Copy heading and permalink for Paragraphs: 14.8.1 B: Predicative position: She is happy.">🔗</a></div></section><div class="autopermalink" data-description="Subsection 14.9.1: Adjective Positions"><a href="#ch-14-diagrams-position" title="Copy heading and permalink for Subsection 14.9.1: Adjective Positions" aria-label="Copy heading and permalink for Subsection 14.9.1: Adjective Positions">🔗</a></div></section><section class="subsection" id="ch-14-diagrams-pp"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection 14.9.1: Adjective Positions"><a href="#ch-14-diagrams-position" title="Copy heading and permalink for Subsection 14.9.1: Adjective Positions" aria-label="Copy heading and permalink for Subsection 14.9.1: Adjective Positions">🔗</a></div></section><section class="subsection" id="ch-14-diagrams-pp"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">14.9.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">PP as Adjectival</span>
 </h3>
-<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch11_adjectival_pp.png" class="contained" alt='Syntax tree for "the man in the hat" showing PP as adjectival'></div>
-<div class="para" id="ch-14-diagrams-pp-3">
-<code class="code-inline tex2jax_ignore">[NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-pp-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-14-diagrams-pp-2"><h4 class="heading"><span class="title">14.8.2 A: PP modifying noun: <em class="emphasis">the man in the hat</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 14.8.2 A: PP modifying noun: the man in the hat"><a href="#ch-14-diagrams-pp-2" title="Copy heading and permalink for Paragraphs: 14.8.2 A: PP modifying noun: the man in the hat" aria-label="Copy heading and permalink for Paragraphs: 14.8.2 A: PP modifying noun: the man in the hat">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch11_adjectival_pp.png" class="contained" alt='Syntax tree for "the man in the hat" showing PP as adjectival'></div>
+<div class="para" id="ch-14-diagrams-pp-4">
+<code class="code-inline tex2jax_ignore">[NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-pp-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-14-diagrams-pp-4"><h4 class="heading"><span class="title">14.8.2 A: PP modifying noun: <em class="emphasis">the man in the hat</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 14.8.2 A: PP modifying noun: the man in the hat"><a href="#ch-14-diagrams-pp-4" title="Copy heading and permalink for Paragraphs: 14.8.2 A: PP modifying noun: the man in the hat" aria-label="Copy heading and permalink for Paragraphs: 14.8.2 A: PP modifying noun: the man in the hat">🔗</a></div></section><div class="autopermalink" data-description="Subsection 14.9.2: PP as Adjectival"><a href="#ch-14-diagrams-pp" title="Copy heading and permalink for Subsection 14.9.2: PP as Adjectival" aria-label="Copy heading and permalink for Subsection 14.9.2: PP as Adjectival">🔗</a></div></section><section class="subsection" id="ch-14-diagrams-participle"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection 14.9.2: PP as Adjectival"><a href="#ch-14-diagrams-pp" title="Copy heading and permalink for Subsection 14.9.2: PP as Adjectival" aria-label="Copy heading and permalink for Subsection 14.9.2: PP as Adjectival">🔗</a></div></section><section class="subsection" id="ch-14-diagrams-participle"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">14.9.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Participial Phrases as Adjectivals</span>
 </h3>
-<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch14_participle_present.png" class="contained" alt='Syntax tree for "the running dog barks" showing present participle modifying noun'></div>
-<div class="para" id="ch-14-diagrams-participle-3">
-<code class="code-inline tex2jax_ignore">[S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-participle-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-14-diagrams-participle-2"><h4 class="heading"><span class="title">14.8.3 A: Present participle as adjectival: <em class="emphasis">the running dog barks</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 14.8.3 A: Present participle as adjectival: the running dog barks"><a href="#ch-14-diagrams-participle-2" title="Copy heading and permalink for Paragraphs: 14.8.3 A: Present participle as adjectival: the running dog barks" aria-label="Copy heading and permalink for Paragraphs: 14.8.3 A: Present participle as adjectival: the running dog barks">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch14_participle_present.png" class="contained" alt='Syntax tree for "the running dog barks" showing present participle modifying noun'></div>
+<div class="para" id="ch-14-diagrams-participle-4">
+<code class="code-inline tex2jax_ignore">[S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-participle-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-14-diagrams-participle-4"><h4 class="heading"><span class="title">14.8.3 A: Present participle as adjectival: <em class="emphasis">the running dog barks</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 14.8.3 A: Present participle as adjectival: the running dog barks"><a href="#ch-14-diagrams-participle-4" title="Copy heading and permalink for Paragraphs: 14.8.3 A: Present participle as adjectival: the running dog barks" aria-label="Copy heading and permalink for Paragraphs: 14.8.3 A: Present participle as adjectival: the running dog barks">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch14_participle_past.png" class="contained" alt='Syntax tree for "the frightened dog barks" showing past participle modifying noun'></div>
-<div class="para" id="ch-14-diagrams-participle-6">
-<code class="code-inline tex2jax_ignore">[S [NP [DET the] [VP [V frightened]] [N dog]] [VP [V barks]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-participle-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-14-diagrams-participle-5"><h4 class="heading"><span class="title">14.8.3 B: Past participle as adjectival: <em class="emphasis">the frightened dog barks</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 14.8.3 B: Past participle as adjectival: the frightened dog barks"><a href="#ch-14-diagrams-participle-5" title="Copy heading and permalink for Paragraphs: 14.8.3 B: Past participle as adjectival: the frightened dog barks" aria-label="Copy heading and permalink for Paragraphs: 14.8.3 B: Past participle as adjectival: the frightened dog barks">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch14_participle_past.png" class="contained" alt='Syntax tree for "the frightened dog barks" showing past participle modifying noun'></div>
+<div class="para" id="ch-14-diagrams-participle-7">
+<code class="code-inline tex2jax_ignore">[S [NP [DET the] [VP [V frightened]] [N dog]] [VP [V barks]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-participle-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-14-diagrams-participle-7"><h4 class="heading"><span class="title">14.8.3 B: Past participle as adjectival: <em class="emphasis">the frightened dog barks</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 14.8.3 B: Past participle as adjectival: the frightened dog barks"><a href="#ch-14-diagrams-participle-7" title="Copy heading and permalink for Paragraphs: 14.8.3 B: Past participle as adjectival: the frightened dog barks" aria-label="Copy heading and permalink for Paragraphs: 14.8.3 B: Past participle as adjectival: the frightened dog barks">🔗</a></div></section><div class="autopermalink" data-description="Subsection 14.9.3: Participial Phrases as Adjectivals"><a href="#ch-14-diagrams-participle" title="Copy heading and permalink for Subsection 14.9.3: Participial Phrases as Adjectivals" aria-label="Copy heading and permalink for Subsection 14.9.3: Participial Phrases as Adjectivals">🔗</a></div></section><section class="subsection" id="ch-14-diagrams-relcl"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Subsection 14.9.3: Participial Phrases as Adjectivals"><a href="#ch-14-diagrams-participle" title="Copy heading and permalink for Subsection 14.9.3: Participial Phrases as Adjectivals" aria-label="Copy heading and permalink for Subsection 14.9.3: Participial Phrases as Adjectivals">🔗</a></div></section><section class="subsection" id="ch-14-diagrams-relcl"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">14.9.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Relative Clauses</span>
 </h3>
-<div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch14_relcl_who_subject.png" class="contained" alt='Syntax tree for "the dog who barks sleeps" showing relative clause with who as subject'></div>
-<div class="para" id="ch-14-diagrams-relcl-3">
-<code class="code-inline tex2jax_ignore">[S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-relcl-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-14-diagrams-relcl-2"><h4 class="heading"><span class="title">14.8.4 A: Relative clause (who as subject): <em class="emphasis">the dog who barks sleeps</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 14.8.4 A: Relative clause (who as subject): the dog who barks sleeps"><a href="#ch-14-diagrams-relcl-2" title="Copy heading and permalink for Paragraphs: 14.8.4 A: Relative clause (who as subject): the dog who barks sleeps" aria-label="Copy heading and permalink for Paragraphs: 14.8.4 A: Relative clause (who as subject): the dog who barks sleeps">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch14_relcl_who_subject.png" class="contained" alt='Syntax tree for "the dog who barks sleeps" showing relative clause with who as subject'></div>
+<div class="para" id="ch-14-diagrams-relcl-4">
+<code class="code-inline tex2jax_ignore">[S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-relcl-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-14-diagrams-relcl-4"><h4 class="heading"><span class="title">14.8.4 A: Relative clause (who as subject): <em class="emphasis">the dog who barks sleeps</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 14.8.4 A: Relative clause (who as subject): the dog who barks sleeps"><a href="#ch-14-diagrams-relcl-4" title="Copy heading and permalink for Paragraphs: 14.8.4 A: Relative clause (who as subject): the dog who barks sleeps" aria-label="Copy heading and permalink for Paragraphs: 14.8.4 A: Relative clause (who as subject): the dog who barks sleeps">🔗</a></div></section><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/diagrams/new/ch14_relcl_that_object.png" class="contained" alt='Syntax tree for "the dog that I saw sleeps" showing relative clause with that as relativizer'></div>
-<div class="para" id="ch-14-diagrams-relcl-6">
-<code class="code-inline tex2jax_ignore">[S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-relcl-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-14-diagrams-relcl-5"><h4 class="heading"><span class="title">14.8.4 B: Relative clause (that + subject): <em class="emphasis">the dog that I saw sleeps</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps"><a href="#ch-14-diagrams-relcl-5" title="Copy heading and permalink for Paragraphs: 14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps" aria-label="Copy heading and permalink for Paragraphs: 14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps">🔗</a></div></section><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/diagrams/new/ch14_relcl_that_object.png" class="contained" alt='Syntax tree for "the dog that I saw sleeps" showing relative clause with that as relativizer'></div>
+<div class="para" id="ch-14-diagrams-relcl-7">
+<code class="code-inline tex2jax_ignore">[S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-relcl-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-14-diagrams-relcl-7"><h4 class="heading"><span class="title">14.8.4 B: Relative clause (that + subject): <em class="emphasis">the dog that I saw sleeps</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps"><a href="#ch-14-diagrams-relcl-7" title="Copy heading and permalink for Paragraphs: 14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps" aria-label="Copy heading and permalink for Paragraphs: 14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps">🔗</a></div></section><div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/diagrams/new/ch14_relcl_where.png" class="contained" alt='Syntax tree for "I saw the place where you live" showing relative clause with relative adverb'></div>
-<div class="para" id="ch-14-diagrams-relcl-9">
-<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-relcl-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-14-diagrams-relcl-8"><h4 class="heading"><span class="title">14.8.4 C: Relative clause (where): <em class="emphasis">I saw the place where you live.</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 14.8.4 C: Relative clause (where): I saw the place where you live."><a href="#ch-14-diagrams-relcl-8" title="Copy heading and permalink for Paragraphs: 14.8.4 C: Relative clause (where): I saw the place where you live." aria-label="Copy heading and permalink for Paragraphs: 14.8.4 C: Relative clause (where): I saw the place where you live.">🔗</a></div></section><div class="image-box" style="width: 65%; margin-left: 17.5%; margin-right: 17.5%;"><img src="external/diagrams/new/ch14_relcl_where.png" class="contained" alt='Syntax tree for "I saw the place where you live" showing relative clause with relative adverb'></div>
+<div class="para" id="ch-14-diagrams-relcl-10">
+<code class="code-inline tex2jax_ignore">[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-relcl-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-14-diagrams-relcl-10"><h4 class="heading"><span class="title">14.8.4 C: Relative clause (where): <em class="emphasis">I saw the place where you live.</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 14.8.4 C: Relative clause (where): I saw the place where you live."><a href="#ch-14-diagrams-relcl-10" title="Copy heading and permalink for Paragraphs: 14.8.4 C: Relative clause (where): I saw the place where you live." aria-label="Copy heading and permalink for Paragraphs: 14.8.4 C: Relative clause (where): I saw the place where you live.">🔗</a></div></section><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/diagrams/new/ch14_relcl_empty.png" class="contained" alt='Syntax tree for "the dog I saw sleeps" showing relative clause with empty relativizer'></div>
-<div class="para" id="ch-14-diagrams-relcl-12">
-<code class="code-inline tex2jax_ignore">[S [NP [DET the] [N dog] [RC [REL _] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-relcl-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-14-diagrams-relcl-11"><h4 class="heading"><span class="title">14.8.4 D: Empty relativizer: <em class="emphasis">the dog I saw sleeps</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 14.8.4 D: Empty relativizer: the dog I saw sleeps"><a href="#ch-14-diagrams-relcl-11" title="Copy heading and permalink for Paragraphs: 14.8.4 D: Empty relativizer: the dog I saw sleeps" aria-label="Copy heading and permalink for Paragraphs: 14.8.4 D: Empty relativizer: the dog I saw sleeps">🔗</a></div></section><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/diagrams/new/ch14_relcl_empty.png" class="contained" alt='Syntax tree for "the dog I saw sleeps" showing relative clause with empty relativizer'></div>
+<div class="para" id="ch-14-diagrams-relcl-13">
+<code class="code-inline tex2jax_ignore">[S [NP [DET the] [N dog] [RC [REL _] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-diagrams-relcl-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-14-diagrams-relcl-13"><h4 class="heading"><span class="title">14.8.4 D: Empty relativizer: <em class="emphasis">the dog I saw sleeps</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 14.8.4 D: Empty relativizer: the dog I saw sleeps"><a href="#ch-14-diagrams-relcl-13" title="Copy heading and permalink for Paragraphs: 14.8.4 D: Empty relativizer: the dog I saw sleeps" aria-label="Copy heading and permalink for Paragraphs: 14.8.4 D: Empty relativizer: the dog I saw sleeps">🔗</a></div></section><div class="autopermalink" data-description="Subsection 14.9.4: Relative Clauses"><a href="#ch-14-diagrams-relcl" title="Copy heading and permalink for Subsection 14.9.4: Relative Clauses" aria-label="Copy heading and permalink for Subsection 14.9.4: Relative Clauses">🔗</a></div></section><div class="autopermalink" data-description="Section 14.9: Diagram Examples"><a href="#ch-14-diagram-examples" title="Copy heading and permalink for Section 14.9: Diagram Examples" aria-label="Copy heading and permalink for Section 14.9: Diagram Examples">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 14.9.4: Relative Clauses"><a href="#ch-14-diagrams-relcl" title="Copy heading and permalink for Subsection 14.9.4: Relative Clauses" aria-label="Copy heading and permalink for Subsection 14.9.4: Relative Clauses">🔗</a></div></section><div class="autopermalink" data-description="Section 14.9: Diagram Examples"><a href="#ch-14-diagram-examples" title="Copy heading and permalink for Section 14.9: Diagram Examples" aria-label="Copy heading and permalink for Section 14.9: Diagram Examples">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-14-homework.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-14-nominals-12.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

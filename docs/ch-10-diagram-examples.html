@@ -179,25 +179,48 @@ section .tabular-box {
     margin-left: 0 !important;
 }
 
-/* Diagram sections: left-align images */
+/* === Diagram Examples pages (dedicated reference sections) === */
+/* Labels: bold, normal size, above the diagram */
+[id*="diagrams-"] .paragraphs .heading .title {
+    font-size: 1em !important;
+    font-weight: 700 !important;
+    color: #2d3748 !important;
+    margin-top: 1.5em !important;
+    margin-bottom: 0.4em !important;
+}
+
+/* Images: left-aligned */
 [id*="diagrams-"] .image-box {
     margin-left: 0 !important;
     margin-right: auto !important;
 }
 
-/* Diagram sections: left-align bracket notation */
+/* Bracket notation: left-aligned, tighter spacing below image */
 [id*="diagrams-"] .para:has(.code-inline) {
     text-align: left !important;
     margin-top: 0.25em !important;
+    margin-bottom: 0.25em !important;
 }
 
-/* Diagram example labels - styled as captions below bracket notation */
-[id*="diagrams-"] .paragraphs .heading .title {
-    font-size: 0.95em !important;
-    font-weight: 600 !important;
-    color: #4a5568 !important;
-    margin-top: 0.5em !important;
-    margin-bottom: 1.5em !important;
+/* === Inline diagrams (future use, outside diagram-examples sections) === */
+/* Images: left-aligned */
+.ptx-content .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+/* Bracket notation: left-aligned */
+.ptx-content .para:has(.code-inline) {
+    text-align: left !important;
+}
+
+/* Inline diagram labels: smaller, not bold, lighter color */
+.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
+    font-size: 0.85em !important;
+    font-weight: 400 !important;
+    color: #718096 !important;
+    margin-top: 0.25em !important;
+    margin-bottom: 1em !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -716,32 +739,32 @@ section .tabular-box {
 <section class="subsection" id="ch-10-diagrams-aspect"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">10.11.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Aspect Examples</span>
 </h3>
-<div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch07_vp_progressive.png" class="contained" alt='Syntax tree for "is eating" showing progressive aspect'></div>
-<div class="para" id="ch-10-diagrams-aspect-3">
-<code class="code-inline tex2jax_ignore">[VP [AUX is] [V eating]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-10-diagrams-aspect-2"><h4 class="heading"><span class="title">10.8.1 A: Progressive aspect (be + V-ing): <em class="emphasis">is eating</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 10.8.1 A: Progressive aspect (be + V-ing): is eating"><a href="#ch-10-diagrams-aspect-2" title="Copy heading and permalink for Paragraphs: 10.8.1 A: Progressive aspect (be + V-ing): is eating" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 A: Progressive aspect (be + V-ing): is eating">🔗</a></div></section><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch07_vp_progressive.png" class="contained" alt='Syntax tree for "is eating" showing progressive aspect'></div>
+<div class="para" id="ch-10-diagrams-aspect-4">
+<code class="code-inline tex2jax_ignore">[VP [AUX is] [V eating]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-10-diagrams-aspect-4"><h4 class="heading"><span class="title">10.8.1 A: Progressive aspect (be + V-ing): <em class="emphasis">is eating</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 10.8.1 A: Progressive aspect (be + V-ing): is eating"><a href="#ch-10-diagrams-aspect-4" title="Copy heading and permalink for Paragraphs: 10.8.1 A: Progressive aspect (be + V-ing): is eating" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 A: Progressive aspect (be + V-ing): is eating">🔗</a></div></section><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch07_vp_perfect.png" class="contained" alt='Syntax tree for "has eaten" showing perfect aspect'></div>
-<div class="para" id="ch-10-diagrams-aspect-6">
-<code class="code-inline tex2jax_ignore">[VP [AUX has] [V eaten]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-10-diagrams-aspect-5"><h4 class="heading"><span class="title">10.8.1 B: Perfect aspect (have + V-en): <em class="emphasis">has eaten</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 10.8.1 B: Perfect aspect (have + V-en): has eaten"><a href="#ch-10-diagrams-aspect-5" title="Copy heading and permalink for Paragraphs: 10.8.1 B: Perfect aspect (have + V-en): has eaten" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 B: Perfect aspect (have + V-en): has eaten">🔗</a></div></section><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch07_vp_perfect.png" class="contained" alt='Syntax tree for "has eaten" showing perfect aspect'></div>
+<div class="para" id="ch-10-diagrams-aspect-7">
+<code class="code-inline tex2jax_ignore">[VP [AUX has] [V eaten]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-10-diagrams-aspect-7"><h4 class="heading"><span class="title">10.8.1 B: Perfect aspect (have + V-en): <em class="emphasis">has eaten</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 10.8.1 B: Perfect aspect (have + V-en): has eaten"><a href="#ch-10-diagrams-aspect-7" title="Copy heading and permalink for Paragraphs: 10.8.1 B: Perfect aspect (have + V-en): has eaten" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 B: Perfect aspect (have + V-en): has eaten">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch07_vp_perfect_progressive.png" class="contained" alt='Syntax tree for "has been eating" showing perfect progressive'></div>
-<div class="para" id="ch-10-diagrams-aspect-9">
-<code class="code-inline tex2jax_ignore">[VP [AUX has] [AUX been] [V eating]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-10-diagrams-aspect-8"><h4 class="heading"><span class="title">10.8.1 C: Perfect progressive (have + been + V-ing): <em class="emphasis">has been eating</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 10.8.1 C: Perfect progressive (have + been + V-ing): has been eating"><a href="#ch-10-diagrams-aspect-8" title="Copy heading and permalink for Paragraphs: 10.8.1 C: Perfect progressive (have + been + V-ing): has been eating" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 C: Perfect progressive (have + been + V-ing): has been eating">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch07_vp_perfect_progressive.png" class="contained" alt='Syntax tree for "has been eating" showing perfect progressive'></div>
+<div class="para" id="ch-10-diagrams-aspect-10">
+<code class="code-inline tex2jax_ignore">[VP [AUX has] [AUX been] [V eating]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-10-diagrams-aspect-10"><h4 class="heading"><span class="title">10.8.1 C: Perfect progressive (have + been + V-ing): <em class="emphasis">has been eating</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 10.8.1 C: Perfect progressive (have + been + V-ing): has been eating"><a href="#ch-10-diagrams-aspect-10" title="Copy heading and permalink for Paragraphs: 10.8.1 C: Perfect progressive (have + been + V-ing): has been eating" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 C: Perfect progressive (have + been + V-ing): has been eating">🔗</a></div></section><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch07_vp_passive.png" class="contained" alt='Syntax tree for "was eaten" showing passive voice'></div>
-<div class="para" id="ch-10-diagrams-aspect-12">
-<code class="code-inline tex2jax_ignore">[VP [AUX was] [V eaten]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-10-diagrams-aspect-11"><h4 class="heading"><span class="title">10.8.1 D: Passive (be + V-en): <em class="emphasis">was eaten</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 10.8.1 D: Passive (be + V-en): was eaten"><a href="#ch-10-diagrams-aspect-11" title="Copy heading and permalink for Paragraphs: 10.8.1 D: Passive (be + V-en): was eaten" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 D: Passive (be + V-en): was eaten">🔗</a></div></section><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/diagrams/new/ch07_vp_passive.png" class="contained" alt='Syntax tree for "was eaten" showing passive voice'></div>
+<div class="para" id="ch-10-diagrams-aspect-13">
+<code class="code-inline tex2jax_ignore">[VP [AUX was] [V eaten]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-10-diagrams-aspect-13"><h4 class="heading"><span class="title">10.8.1 D: Passive (be + V-en): <em class="emphasis">was eaten</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 10.8.1 D: Passive (be + V-en): was eaten"><a href="#ch-10-diagrams-aspect-13" title="Copy heading and permalink for Paragraphs: 10.8.1 D: Passive (be + V-en): was eaten" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 D: Passive (be + V-en): was eaten">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch07_vp_progressive_passive.png" class="contained" alt='Syntax tree for "is being renovated" showing progressive passive'></div>
-<div class="para" id="ch-10-diagrams-aspect-15">
-<code class="code-inline tex2jax_ignore">[VP [AUX is] [AUX being] [V renovated]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-10-diagrams-aspect-14"><h4 class="heading"><span class="title">10.8.1 E: Progressive passive (be + being + V-en): <em class="emphasis">is being renovated</em>.</span></h4>
+<div class="autopermalink" data-description="Paragraphs: 10.8.1 E: Progressive passive (be + being + V-en): is being renovated"><a href="#ch-10-diagrams-aspect-14" title="Copy heading and permalink for Paragraphs: 10.8.1 E: Progressive passive (be + being + V-en): is being renovated" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 E: Progressive passive (be + being + V-en): is being renovated">🔗</a></div></section><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch07_vp_progressive_passive.png" class="contained" alt='Syntax tree for "is being renovated" showing progressive passive'></div>
+<div class="para" id="ch-10-diagrams-aspect-16">
+<code class="code-inline tex2jax_ignore">[VP [AUX is] [AUX being] [V renovated]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-diagrams-aspect-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-10-diagrams-aspect-16"><h4 class="heading"><span class="title">10.8.1 E: Progressive passive (be + being + V-en): <em class="emphasis">is being renovated</em>.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: 10.8.1 E: Progressive passive (be + being + V-en): is being renovated"><a href="#ch-10-diagrams-aspect-16" title="Copy heading and permalink for Paragraphs: 10.8.1 E: Progressive passive (be + being + V-en): is being renovated" aria-label="Copy heading and permalink for Paragraphs: 10.8.1 E: Progressive passive (be + being + V-en): is being renovated">🔗</a></div></section><div class="autopermalink" data-description="Subsection 10.11.1: Aspect Examples"><a href="#ch-10-diagrams-aspect" title="Copy heading and permalink for Subsection 10.11.1: Aspect Examples" aria-label="Copy heading and permalink for Subsection 10.11.1: Aspect Examples">🔗</a></div></section><div class="autopermalink" data-description="Section 10.11: Diagram Examples"><a href="#ch-10-diagram-examples" title="Copy heading and permalink for Section 10.11: Diagram Examples" aria-label="Copy heading and permalink for Section 10.11: Diagram Examples">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 10.11.1: Aspect Examples"><a href="#ch-10-diagrams-aspect" title="Copy heading and permalink for Subsection 10.11.1: Aspect Examples" aria-label="Copy heading and permalink for Subsection 10.11.1: Aspect Examples">🔗</a></div></section><div class="autopermalink" data-description="Section 10.11: Diagram Examples"><a href="#ch-10-diagram-examples" title="Copy heading and permalink for Section 10.11: Diagram Examples" aria-label="Copy heading and permalink for Section 10.11: Diagram Examples">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-10-homework.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-10-verbs-part-one-tense-and-aspect-14.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
