@@ -338,6 +338,12 @@
 
     <p>These patterns are systematic—native speakers follow them automatically.</p>
 
+    <paragraphs>
+      <title>Determiners or Pronouns?</title>
+    </paragraphs>
+
+    <p>Some words can be either a determiner or a pronoun depending on how they are used in a sentence. For example, possessive forms like <em>her</em> and <em>his</em>, and demonstratives like <em>this</em> and <em>that</em>, can appear as determiners (before a noun) or as standalone pronouns. See section 6.3 on pronouns for more details on how these overlapping forms work.</p>
+
   </section>
 
   <section xml:id="ch-06-closed-classes-sec-63">
@@ -539,6 +545,30 @@
     </tabular>
 
     <p>Pronouns also have possessive forms that function as determiners (<em>my</em>, <em>your</em>, <em>his</em>, <em>her</em>, <em>its</em>, <em>our</em>, <em>their</em>) or as standalone pronouns (<em>mine</em>, <em>yours</em>, <em>his</em>, <em>hers</em>, <em>ours</em>, <em>theirs</em>). These are discussed in section 6.2 under possessive determiners.</p>
+
+    <paragraphs>
+      <title>When the Same Word Is a Pronoun or a Determiner</title>
+    </paragraphs>
+
+    <p>Several words can function as either a pronoun or a determiner depending on their position in the sentence. The key distinction is simple: if the word stands alone in place of a noun phrase, it is a <em>pronoun</em>. If it appears before a noun to introduce a noun phrase, it is a <em>determiner</em>.</p>
+
+    <p>Consider <em>her</em>:</p>
+
+    <ul>
+      <li><p><em>I saw <em>her</em>.</em> — <em>her</em> is a pronoun (it replaces an entire NP and stands alone as the object)</p></li>
+      <li><p><em>I read <em>her</em> book.</em> — <em>her</em> is a determiner (it introduces the noun phrase <em>her book</em>, specifying whose book)</p></li>
+    </ul>
+
+    <p>The same pattern applies to other possessive forms. When <em>his</em>, <em>my</em>, <em>your</em>, <em>our</em>, <em>its</em>, or <em>their</em> appear before a noun, they function as determiners. Some of these also have standalone pronoun forms: <em>mine</em>, <em>yours</em>, <em>his</em>, <em>hers</em>, <em>ours</em>, <em>theirs</em>.</p>
+
+    <p>Demonstratives show the same dual behavior:</p>
+
+    <ul>
+      <li><p><em><em>This</em> is interesting.</em> — <em>this</em> is a pronoun (stands alone as the subject)</p></li>
+      <li><p><em><em>This</em> book is interesting.</em> — <em>this</em> is a determiner (introduces the NP <em>this book</em>)</p></li>
+    </ul>
+
+    <p>The word class of these forms depends entirely on how they are used in a particular sentence, not on the word itself. Context determines category.</p>
 
     <p><em>Case matters</em>: Use subject forms for subjects, object forms for objects:</p>
 
@@ -749,7 +779,7 @@
 
     <p>Prepositional phrases function as <em>modifiers</em>—they provide additional information about other elements in the sentence. Understanding what a PP modifies is essential for accurate sentence analysis. PPs can modify several different kinds of elements:</p>
 
-    <p><em>PPs modifying noun phrases</em>: A PP can modify a noun, answering "which one?" or "what kind?"</p>
+    <p><em>PPs modifying noun phrases</em>: A PP can modify a noun, answering &quot;which one?&quot; or &quot;what kind?&quot;</p>
 
     <ul>
       <li><p><em>the man <em>in the hat</em></em> (which man?)</p></li>
@@ -757,6 +787,16 @@
       <li><p><em>the house <em>on the corner</em></em> (which house?)</p></li>
       <li><p><em>a sense <em>of accomplishment</em></em> (what kind of sense?)</p></li>
     </ul>
+
+    <p>In a tree diagram, notice how the PP <em>in the hat</em> is embedded inside the NP—it is part of the noun phrase, not separate from it:</p>
+
+    <image source="diagrams/new/ch06_pp_mod_np.png" width="50%">
+      <description>Syntax tree for "the man in the hat" showing PP embedded inside the NP, modifying the noun "man"</description>
+    </image>
+    <p><c>[NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]</c></p>
+    <paragraphs>
+      <title>PP modifying a noun phrase: <em>the man in the hat</em></title>
+    </paragraphs>
 
     <p><em>PPs modifying verb phrases</em>: A PP can modify a verb or the action it describes, providing information about time, place, manner, reason, and other circumstances:</p>
 
@@ -767,6 +807,16 @@
       <li><p><em>We left <em>because of the weather</em>.</em> (why?)</p></li>
     </ul>
 
+    <p>When a PP modifies the verb, it attaches inside the VP rather than inside any noun phrase:</p>
+
+    <image source="diagrams/new/ch06_pp_mod_vp.png" width="60%">
+      <description>Syntax tree for "She waited in the lobby" showing PP attached inside the VP, modifying the verb "waited"</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V waited] [PP [PREP in] [NP [DET the] [N lobby]]]]]</c></p>
+    <paragraphs>
+      <title>PP modifying a verb phrase: <em>She waited in the lobby</em></title>
+    </paragraphs>
+
     <p><em>PPs modifying adjective phrases</em>: Some adjectives require or commonly take PP complements:</p>
 
     <ul>
@@ -774,6 +824,16 @@
       <li><p><em>I'm afraid <em>of the dark</em>.</em> (afraid of what?)</p></li>
       <li><p><em>He was angry <em>about the decision</em>.</em> (angry about what?)</p></li>
     </ul>
+
+    <p>Here, the PP <em>of her work</em> is embedded inside the adjective phrase, completing the meaning of <em>proud</em>:</p>
+
+    <image source="diagrams/new/ch06_pp_mod_adjp.png" width="60%">
+      <description>Syntax tree for "She is proud of her work" showing PP embedded inside the ADJP, complementing the adjective "proud"</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V is] [ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]]]</c></p>
+    <paragraphs>
+      <title>PP modifying an adjective phrase: <em>She is proud of her work</em></title>
+    </paragraphs>
 
     <p><em>PPs modifying sentences</em>: A PP can modify an entire sentence, often appearing at the beginning:</p>
 
@@ -783,38 +843,15 @@
       <li><p><em><em>According to the report</em>, sales have increased.</em> (on what authority?)</p></li>
     </ul>
 
-    <p>The most common distinction is between PPs that modify noun phrases and PPs that modify verb phrases. When a PP modifies a noun, it follows the noun and remains part of the noun phrase. The tree diagram shows this attachment clearly:</p>
+    <p>When a PP modifies the whole sentence, it attaches at the sentence level rather than inside any particular phrase:</p>
 
-    <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
-      <description>Syntax tree showing PP "with binoculars" attached inside the NP, modifying "man"</description>
+    <image source="diagrams/new/ch06_pp_mod_sentence.png" width="60%">
+      <description>Syntax tree for "In the morning, we will leave" showing PP attached at the sentence level</description>
     </image>
-    <p><c>[NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]</c></p>
+    <p><c>[S [PP [PREP In] [NP [DET the] [N morning]]] [NP [PRON we]] [VP [MOD will] [V leave]]]</c></p>
     <paragraphs>
-      <title>PP modifying a noun phrase (PP inside NP)</title>
+      <title>PP modifying a sentence: <em>In the morning, we will leave</em></title>
     </paragraphs>
-
-    <p><em>Key characteristic</em>: When a PP modifies a noun, it is embedded within the NP. When you replace the NP with a pronoun, the PP disappears along with it:</p>
-
-    <ul>
-      <li><p><em>The man in the hat waved.</em> → <em><em>He</em> waved.</em></p></li>
-    </ul>
-
-    <p>When a PP modifies a verb, it attaches to the verb phrase rather than to any particular noun. Compare the tree structure:</p>
-
-    <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
-      <description>Syntax tree showing PP "with binoculars" attached to VP, modifying "saw"</description>
-    </image>
-    <p><c>[VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]</c></p>
-    <paragraphs>
-      <title>PP modifying a verb phrase (PP inside VP)</title>
-    </paragraphs>
-
-    <p><em>Key characteristic</em>: PPs that modify verbs can often move to different positions in the sentence:</p>
-
-    <ul>
-      <li><p><em>She waited <em>in the lobby</em>.</em></p></li>
-      <li><p><em><em>In the lobby</em>, she waited.</em></p></li>
-    </ul>
 
     <paragraphs>
       <title>Determining What a PP Modifies</title>
@@ -826,7 +863,7 @@
 
     <ul>
       <li><p>&quot;Which one?&quot; or &quot;What kind?&quot; → PP modifies a noun (<em>the man in the hat</em>)</p></li>
-      <li><p>&quot;Where?&quot; &quot;When?&quot; &quot;How?&quot; → PP modifies a verb (<em>waited in the hall</em>)</p></li>
+      <li><p>&quot;Where?&quot; &quot;When?&quot; &quot;How?&quot; → PP modifies a verb (<em>waited in the lobby</em>)</p></li>
     </ul>
 
     <p><em>Test 2: Can it move to sentence-initial position?</em></p>
@@ -844,17 +881,43 @@
     </ul>
 
     <paragraphs>
-      <title>Ambiguous PP Attachment</title>
+      <title>Structural Ambiguity in PP Attachment</title>
     </paragraphs>
 
-    <p>Some sentences are ambiguous because the PP could attach to either the NP or the VP:</p>
+    <p>Sometimes a prepositional phrase can plausibly attach to either the noun phrase or the verb phrase, creating <em>structural ambiguity</em>—a single sentence with two different possible structures and two different meanings. This is not a matter of vague wording; the words themselves are perfectly clear. The ambiguity arises because the grammar allows two different attachment points for the PP.</p>
 
-    <p><em>She saw the man with binoculars.</em></p>
+    <p>Consider the classic example:</p>
+
+    <p><em>I saw the man with binoculars.</em></p>
 
     <ul>
-      <li><p>PP modifying the noun: &quot;the man who had binoculars&quot; (PP modifies <em>man</em>)</p></li>
-      <li><p>PP modifying the verb: &quot;she used binoculars to see him&quot; (PP modifies <em>saw</em>)</p></li>
+      <li><p><em>Reading 1</em>: The PP <em>with binoculars</em> modifies the noun <em>man</em>—&quot;the man who had binoculars&quot;</p></li>
+      <li><p><em>Reading 2</em>: The PP <em>with binoculars</em> modifies the verb <em>saw</em>—&quot;I used binoculars to see him&quot;</p></li>
     </ul>
+
+    <p>The two readings correspond to two different tree structures. In Reading 1, the PP is embedded inside the NP:</p>
+
+    <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
+      <description>Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars</description>
+    </image>
+    <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]</c></p>
+    <paragraphs>
+      <title>PP modifying the NP: &quot;the man with binoculars&quot;</title>
+    </paragraphs>
+
+    <p>In Reading 2, the PP attaches to the VP instead:</p>
+
+    <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
+      <description>Syntax tree for "I saw the man with binoculars" where PP attaches to VP, meaning I used binoculars to see him</description>
+    </image>
+    <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]</c></p>
+    <paragraphs>
+      <title>PP modifying the VP: &quot;saw with binoculars&quot;</title>
+    </paragraphs>
+
+    <p>You can use the tests from the previous section to tease apart the two readings. The pronoun replacement test is especially helpful: if you replace <em>the man with binoculars</em> with <em>him</em> and the sentence still makes sense (<em>I saw him with binoculars</em>), then <em>with binoculars</em> can modify the verb. If the PP disappears when you pronominalize (<em>I saw him</em>), it was part of the NP.</p>
+
+    <p>Here is another example of the same kind of ambiguity:</p>
 
     <p><em>He discussed the problem with the professor.</em></p>
 
@@ -866,8 +929,8 @@
     <p>In speech, context usually resolves such ambiguity. In writing, you may need to restructure for clarity:</p>
 
     <ul>
-      <li><p><em>She saw the man who had binoculars.</em> (PP modifies noun)</p></li>
-      <li><p><em>Using binoculars, she saw the man.</em> (PP modifies verb)</p></li>
+      <li><p><em>I saw the man who had binoculars.</em> (PP modifies noun—unambiguous)</p></li>
+      <li><p><em>Using binoculars, I saw the man.</em> (PP modifies verb—unambiguous)</p></li>
     </ul>
 
     <paragraphs>
@@ -1499,10 +1562,44 @@
       </image>
       <p><c>[PP [PREP before] [NP [N noon]]]</c></p>
 
+      <p>The following diagrams show how a PP attaches differently depending on what it modifies: a noun phrase, a verb phrase, an adjective phrase, or an entire sentence.</p>
+
+      <paragraphs>
+        <title>6.8.3 E: PP modifying NP — "the man in the hat"</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_pp_mod_np.png" width="50%">
+        <description>Syntax tree for "the man in the hat" showing PP embedded inside the NP, modifying the noun "man"</description>
+      </image>
+      <p><c>[NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]</c></p>
+
+      <paragraphs>
+        <title>6.8.3 F: PP modifying VP — "She waited in the lobby"</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_pp_mod_vp.png" width="60%">
+        <description>Syntax tree for "She waited in the lobby" showing PP attached inside the VP, modifying the verb "waited"</description>
+      </image>
+      <p><c>[S [NP [PRON She]] [VP [V waited] [PP [PREP in] [NP [DET the] [N lobby]]]]]</c></p>
+
+      <paragraphs>
+        <title>6.8.3 G: PP modifying AdjP — "She is proud of her work"</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_pp_mod_adjp.png" width="60%">
+        <description>Syntax tree for "She is proud of her work" showing PP embedded inside the ADJP, complementing the adjective "proud"</description>
+      </image>
+      <p><c>[S [NP [PRON She]] [VP [V is] [ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]]]</c></p>
+
+      <paragraphs>
+        <title>6.8.3 H: PP modifying sentence — "In the morning, we will leave"</title>
+      </paragraphs>
+      <image source="diagrams/new/ch06_pp_mod_sentence.png" width="60%">
+        <description>Syntax tree for "In the morning, we will leave" showing PP attached at the sentence level</description>
+      </image>
+      <p><c>[S [PP [PREP In] [NP [DET the] [N morning]]] [NP [PRON we]] [VP [MOD will] [V leave]]]</c></p>
+
       <p>The following pair of diagrams illustrates structural ambiguity. The sentence <em>I saw the man with binoculars</em> can be parsed two ways depending on whether the PP <em>with binoculars</em> modifies the noun phrase or the verb phrase.</p>
 
       <paragraphs>
-        <title>6.8.3 E: PP modifies NP — "the man with binoculars"</title>
+        <title>6.8.3 I: PP modifies NP — "the man with binoculars"</title>
       </paragraphs>
       <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
         <description>Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars</description>
@@ -1510,7 +1607,7 @@
       <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]</c></p>
 
       <paragraphs>
-        <title>6.8.3 F: PP modifies VP — "saw with binoculars"</title>
+        <title>6.8.3 J: PP modifies VP — "saw with binoculars"</title>
       </paragraphs>
       <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
         <description>Syntax tree for "I saw the man with binoculars" where PP attaches to VP, meaning I used binoculars to see him</description>
@@ -1518,7 +1615,7 @@
       <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]</c></p>
 
       <paragraphs>
-        <title>6.8.3 G: Complex sentence with PP modifier</title>
+        <title>6.8.3 K: Complex sentence with PP modifier</title>
       </paragraphs>
       <image source="diagrams/new/ch06_artist_painted.png" width="80%">
         <description>Syntax tree for "The young artist from Paris painted beautiful landscapes" showing complex NP with PP modifier and transitive VP</description>

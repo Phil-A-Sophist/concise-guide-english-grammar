@@ -51,6 +51,11 @@ ch06_np_full_car | [NP [DET The] [ADJP [ADJ old]] [N car] [PP [PREP on] [NP [DET
 ch06_pp_on_table | [PP [PREP on] [NP [DET the] [N table]]]
 ch06_pp_with_her | [PP [PREP with] [NP [PRON her]]]
 ch06_pp_before_noon | [PP [PREP before] [NP [N noon]]]
+# New diagrams for PP modification examples
+ch06_pp_mod_np | [NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]
+ch06_pp_mod_vp | [S [NP [PRON She]] [VP [V waited] [PP [PREP in] [NP [DET the] [N lobby]]]]]
+ch06_pp_mod_adjp | [S [NP [PRON She]] [VP [V is] [ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]]]
+ch06_pp_mod_sentence | [S [PP [PREP In] [NP [DET the] [N morning]]] [NP [PRON we]] [VP [MOD will] [V leave]]]
 
 # Chapter 7 - Verb Phrase Structures
 ch07_simple_vp | [VP [V sleeps]]
