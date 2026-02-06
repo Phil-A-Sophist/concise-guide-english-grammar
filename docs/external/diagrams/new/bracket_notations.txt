@@ -40,6 +40,17 @@ ch06_transitive | [S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mous
 ch06_possessive_det | [NP [DET her] [N book]]
 ch06_pronoun_subject | [S [NP [PRON She]] [VP [V sleeps]]]
 ch06_np_coordination | [NP [NP [N cats]] [CONJ and] [NP [N dogs]]]
+# New diagrams for revised Chapter 6
+ch06_two_determiners | [NP [DET all] [DET the] [N students]]
+ch06_dem_det | [NP [DET this] [N book]]
+ch06_quant_det | [NP [DET every] [N student]]
+ch06_np_full_sleeps | [S [NP [DET The] [ADJP [ADJ tall]] [N student]] [VP [V sleeps]]]
+ch06_np_full_gave | [S [NP [DET The] [N teacher]] [VP [V gave] [NP [DET the] [ADJP [ADJ young]] [N student]] [NP [DET a] [N book]]]]
+ch06_np_pronoun_it | [NP [PRON it]]
+ch06_np_full_car | [NP [DET The] [ADJP [ADJ old]] [N car] [PP [PREP on] [NP [DET the] [N corner]]]]
+ch06_pp_on_table | [PP [PREP on] [NP [DET the] [N table]]]
+ch06_pp_with_her | [PP [PREP with] [NP [PRON her]]]
+ch06_pp_before_noon | [PP [PREP before] [NP [N noon]]]
 
 # Chapter 7 - Verb Phrase Structures
 ch07_simple_vp | [VP [V sleeps]]
