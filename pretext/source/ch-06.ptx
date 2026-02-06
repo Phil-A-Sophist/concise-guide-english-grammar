@@ -132,13 +132,13 @@
 
     <p>Determiners occupy a specific position in the noun phrase—they come first, before any adjectives. This consistent position makes them easy to identify:</p>
 
-    <figure xml:id="fig-ch06-det-position">
-      <caption>Determiner position in the noun phrase</caption>
-      <image source="diagrams/new/ch06_dog_barked.png" width="40%">
-        <description>Syntax tree showing "The dog barked" with determiner in initial NP position</description>
-      </image>
-    </figure>
+    <image source="diagrams/new/ch06_dog_barked.png" width="40%">
+      <description>Syntax tree showing "The dog barked" with determiner in initial NP position</description>
+    </image>
     <p><c>[NP [DET the] [N dog]]</c></p>
+    <paragraphs>
+      <title>Determiner position in the noun phrase</title>
+    </paragraphs>
 
     <p>The pattern is consistent: <em>Det + (Adj) + N</em></p>
 
@@ -166,13 +166,13 @@
 
     <p>A tree diagram shows how predeterminers occupy their own position before the central determiner:</p>
 
-    <figure xml:id="fig-ch06-predeterminer">
-      <caption>Predeterminer structure: "all the students"</caption>
-      <image source="diagrams/new/ch06_predeterminer.png" width="30%">
-        <description>Syntax tree showing "all the students" with predeterminer, determiner, and noun</description>
-      </image>
-    </figure>
+    <image source="diagrams/new/ch06_predeterminer.png" width="30%">
+      <description>Syntax tree showing "all the students" with predeterminer, determiner, and noun</description>
+    </image>
     <p><c>[NP [PREDET all] [DET the] [N students]]</c></p>
+    <paragraphs>
+      <title>Predeterminer structure: "all the students"</title>
+    </paragraphs>
 
     <paragraphs>
       <title>Determiners vs. Adjectives</title>
@@ -307,13 +307,13 @@
 
     <p>In syntax trees, pronouns occupy the same NP position that full noun phrases would:</p>
 
-    <figure xml:id="fig-ch06-pronoun-np">
-      <caption>Pronouns function as complete NPs</caption>
-      <image source="diagrams/new/ch06_pronoun_subject.png" width="30%">
-        <description>Syntax tree for "She sleeps" showing pronoun as complete NP</description>
-      </image>
-    </figure>
+    <image source="diagrams/new/ch06_pronoun_subject.png" width="30%">
+      <description>Syntax tree for "She sleeps" showing pronoun as complete NP</description>
+    </image>
     <p><c>[S [NP [PRON She]] [VP [V sleeps]]]</c></p>
+    <paragraphs>
+      <title>Pronouns function as complete NPs</title>
+    </paragraphs>
 
     <paragraphs>
       <title>Personal Pronouns</title>
@@ -539,13 +539,13 @@
 
     <p>A prepositional phrase consists of a preposition plus its <em>object</em> (typically a noun phrase). The formula is simple: <em>PP → Prep + NP</em></p>
 
-    <figure xml:id="fig-ch06-pp-structure">
-      <caption>Basic prepositional phrase structure</caption>
-      <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
-        <description>Syntax tree showing a prepositional phrase with preposition and NP object</description>
-      </image>
-    </figure>
+    <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
+      <description>Syntax tree showing a prepositional phrase with preposition and NP object</description>
+    </image>
     <p><c>[PP [PREP with] [NP [N binoculars]]]</c></p>
+    <paragraphs>
+      <title>Basic prepositional phrase structure</title>
+    </paragraphs>
 
     <p>Examples of prepositional phrases:</p>
 
@@ -587,13 +587,13 @@
 
     <p>Adjectival PPs follow the noun they modify and remain part of the noun phrase. The tree diagram shows this attachment clearly:</p>
 
-    <figure xml:id="fig-ch06-pp-adjectival">
-      <caption>Adjectival PP modifying a noun (PP inside NP)</caption>
-      <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
-        <description>Syntax tree showing PP "with binoculars" attached inside the NP, modifying "man"</description>
-      </image>
-    </figure>
+    <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
+      <description>Syntax tree showing PP "with binoculars" attached inside the NP, modifying "man"</description>
+    </image>
     <p><c>[NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]</c></p>
+    <paragraphs>
+      <title>Adjectival PP modifying a noun (PP inside NP)</title>
+    </paragraphs>
 
     <p><em>Key characteristic</em>: Adjectival PPs are embedded within the NP. When you replace the NP with a pronoun, the PP disappears:</p>
 
@@ -617,13 +617,13 @@
 
     <p>Adverbial PPs attach to the verb phrase, not to any particular noun. Compare the tree structure:</p>
 
-    <figure xml:id="fig-ch06-pp-adverbial">
-      <caption>Adverbial PP modifying a verb (PP inside VP)</caption>
-      <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
-        <description>Syntax tree showing PP "with binoculars" attached to VP, modifying "saw"</description>
-      </image>
-    </figure>
+    <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
+      <description>Syntax tree showing PP "with binoculars" attached to VP, modifying "saw"</description>
+    </image>
     <p><c>[VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]</c></p>
+    <paragraphs>
+      <title>Adverbial PP modifying a verb (PP inside VP)</title>
+    </paragraphs>
 
     <p><em>Key characteristic</em>: Adverbial PPs can often move to different positions in the sentence:</p>
 
