@@ -253,3 +253,12 @@ Located in `reference_materials/`:
 - `image_inventory_detailed.md` - Image-to-chapter mapping
 - `PPTs/` - Instructor PowerPoint presentations
 - `Other Class Materials/` - Handouts and tests
+
+## Memory System
+
+This project uses an ongoing memory consolidation system. Follow these rules on every task:
+
+1. **Before starting any task:** Read `.memory/state.md` and all `.memory/state-t*.md` snapshot files.
+2. **During every task:** Spawn a parallel subagent to handle memory consolidation. The subagent should read and follow the instructions in `.memory/instructions.md`. This runs alongside the main task — do not wait for it to complete.
+3. **The memory agent updates:** `.memory/state.md` every cycle, and `.memory/project-map.md` and `.memory/knowledge-base.md` when the current task produces relevant changes.
+4. **Never skip the memory cycle.** Even for small tasks, the parallel agent should run.
