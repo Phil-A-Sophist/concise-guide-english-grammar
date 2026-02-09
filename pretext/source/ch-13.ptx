@@ -38,7 +38,7 @@
     <p>An <em>adjective</em> is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Adjectives can be graded, appear between determiners and nouns, follow linking verbs, and be modified by <em>very</em>.</p>
 
     <ul>
-      <li><p><em>tall</em>, <em>beautiful</em>, <em>interesting</em>, <em>happy</em></p></li>
+      <li><p>tall, <em>beautiful</em>, <em>interesting</em>, <em>happy</em></p></li>
     </ul>
 
     <paragraphs>
@@ -172,27 +172,27 @@
         <cell>Example</cell>
       </row>
       <row>
-        <cell><em>who</em></cell>
+        <cell>who</cell>
         <cell>subject (people)</cell>
         <cell><em>the man <em>who</em> arrived</em></cell>
       </row>
       <row>
-        <cell><em>whom</em></cell>
+        <cell>whom</cell>
         <cell>object (people, formal)</cell>
         <cell><em>the man <em>whom</em> I saw</em></cell>
       </row>
       <row>
-        <cell><em>whose</em></cell>
+        <cell>whose</cell>
         <cell>possessive (people/things)</cell>
         <cell><em>the author <em>whose</em> book I read</em></cell>
       </row>
       <row>
-        <cell><em>which</em></cell>
+        <cell>which</cell>
         <cell>subject/object (things)</cell>
         <cell><em>the book <em>which</em> I read</em></cell>
       </row>
       <row>
-        <cell><em>that</em></cell>
+        <cell>that</cell>
         <cell>subject/object (people/things)</cell>
         <cell><em>the book <em>that</em> I read</em></cell>
       </row>
@@ -209,17 +209,17 @@
         <cell>Example</cell>
       </row>
       <row>
-        <cell><em>where</em></cell>
+        <cell>where</cell>
         <cell>place</cell>
         <cell><em>the city <em>where</em> I was born</em></cell>
       </row>
       <row>
-        <cell><em>when</em></cell>
+        <cell>when</cell>
         <cell>time</cell>
         <cell><em>the day <em>when</em> we met</em></cell>
       </row>
       <row>
-        <cell><em>why</em></cell>
+        <cell>why</cell>
         <cell>reason</cell>
         <cell><em>the reason <em>why</em> she left</em></cell>
       </row>
@@ -470,7 +470,7 @@
     </ol>
 
     <ul>
-      <li><p><em>a beautiful large old round red French wooden cooking pot</em></p></li>
+      <li><p>a beautiful large old round red French wooden cooking pot</p></li>
     </ul>
 
     <paragraphs>

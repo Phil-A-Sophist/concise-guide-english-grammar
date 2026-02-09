@@ -23,10 +23,10 @@
     <p>Most students first learn about parts of speech through definitions based on meaning. You've probably heard these:</p>
 
     <ul>
-      <li><p><em>A noun names a person, place, thing, or idea.</em></p></li>
-      <li><p><em>A verb is an action word.</em></p></li>
-      <li><p><em>An adjective describes a noun.</em></p></li>
-      <li><p><em>An adverb modifies a verb.</em></p></li>
+      <li><p>A noun names a person, place, thing, or idea.</p></li>
+      <li><p>A verb is an action word.</p></li>
+      <li><p>An adjective describes a noun.</p></li>
+      <li><p>An adverb modifies a verb.</p></li>
     </ul>
 
     <p>These <em>semantic</em> definitions—definitions based on meaning—are helpful starting points. They work well for many common words: <em>teacher</em> names a person (noun), <em>run</em> expresses an action (verb), <em>tall</em> describes a quality (adjective), <em>quickly</em> tells how an action is performed (adverb).</p>
@@ -171,19 +171,19 @@
         <cell>Recent Additions</cell>
       </row>
       <row>
-        <cell><em>Nouns</em></cell>
+        <cell>Nouns</cell>
         <cell><em>selfie</em>, <em>cryptocurrency</em>, <em>podcast</em>, <em>meme</em>, <em>influencer</em></cell>
       </row>
       <row>
-        <cell><em>Verbs</em></cell>
+        <cell>Verbs</cell>
         <cell><em>google</em>, <em>tweet</em>, <em>zoom</em>, <em>ghost</em> (meaning to ignore), <em>stream</em></cell>
       </row>
       <row>
-        <cell><em>Adjectives</em></cell>
+        <cell>Adjectives</cell>
         <cell><em>viral</em>, <em>sustainable</em>, <em>gluten-free</em>, <em>binge-worthy</em></cell>
       </row>
       <row>
-        <cell><em>Adverbs</em></cell>
+        <cell>Adverbs</cell>
         <cell><em>literally</em> (emphatic), <em>lowkey</em>, <em>ironically</em> (new usage)</cell>
       </row>
     </tabular>
@@ -268,28 +268,28 @@
         <cell>Example</cell>
       </row>
       <row>
-        <cell><em>Noun phrase</em></cell>
+        <cell>Noun phrase</cell>
         <cell>NP</cell>
         <cell>Noun</cell>
-        <cell><em>the tall student from Ohio</em></cell>
+        <cell>the tall student from Ohio</cell>
       </row>
       <row>
-        <cell><em>Verb phrase</em></cell>
+        <cell>Verb phrase</cell>
         <cell>VP</cell>
         <cell>Verb</cell>
-        <cell><em>read the book carefully</em></cell>
+        <cell>read the book carefully</cell>
       </row>
       <row>
-        <cell><em>Adjective phrase</em></cell>
+        <cell>Adjective phrase</cell>
         <cell>AdjP</cell>
         <cell>Adjective</cell>
-        <cell><em>very proud of her work</em></cell>
+        <cell>very proud of her work</cell>
       </row>
       <row>
-        <cell><em>Adverb phrase</em></cell>
+        <cell>Adverb phrase</cell>
         <cell>AdvP</cell>
         <cell>Adverb</cell>
-        <cell><em>quite slowly</em></cell>
+        <cell>quite slowly</cell>
       </row>
     </tabular>
 
@@ -424,9 +424,9 @@
     <p>Nouns can take the possessive marker <em>'s</em>:</p>
 
     <ul>
-      <li><p><em>the dog's tail</em></p></li>
-      <li><p><em>Maria's book</em></p></li>
-      <li><p><em>the committee's decision</em></p></li>
+      <li><p>the dog's tail</p></li>
+      <li><p>Maria's book</p></li>
+      <li><p>the committee's decision</p></li>
     </ul>
 
     <p>Other word classes cannot take this marker: we don't say <em>~~the happy's effect~~</em> or <em>~~the quickly's result~~</em>.</p>
@@ -441,23 +441,23 @@
         <cell>Examples</cell>
       </row>
       <row>
-        <cell><em>-tion/-sion</em></cell>
+        <cell>-tion/-sion</cell>
         <cell><em>action</em>, <em>decision</em>, <em>conclusion</em></cell>
       </row>
       <row>
-        <cell><em>-ness</em></cell>
+        <cell>-ness</cell>
         <cell><em>happiness</em>, <em>awkwardness</em>, <em>cleverness</em></cell>
       </row>
       <row>
-        <cell><em>-ity</em></cell>
+        <cell>-ity</cell>
         <cell><em>curiosity</em>, <em>generosity</em>, <em>ambiguity</em></cell>
       </row>
       <row>
-        <cell><em>-ment</em></cell>
+        <cell>-ment</cell>
         <cell><em>government</em>, <em>amazement</em>, <em>establishment</em></cell>
       </row>
       <row>
-        <cell><em>-er/-or</em></cell>
+        <cell>-er/-or</cell>
         <cell><em>teacher</em>, <em>actor</em>, <em>writer</em></cell>
       </row>
     </tabular>
@@ -705,9 +705,9 @@
     <p>Verbs can follow modal words like <em>can</em>, <em>will</em>, <em>might</em>, <em>should</em>, <em>must</em>:</p>
 
     <ul>
-      <li><p><em>can walk</em></p></li>
-      <li><p><em>will see</em></p></li>
-      <li><p><em>might go</em></p></li>
+      <li><p>can walk</p></li>
+      <li><p>will see</p></li>
+      <li><p>might go</p></li>
     </ul>
 
     <p>If a word can slot into &quot;She can ___,&quot; it's a verb.</p>
@@ -717,9 +717,9 @@
     <p>Verbs can follow <em>to</em>:</p>
 
     <ul>
-      <li><p><em>to walk</em></p></li>
-      <li><p><em>to see</em></p></li>
-      <li><p><em>to understand</em></p></li>
+      <li><p>to walk</p></li>
+      <li><p>to see</p></li>
+      <li><p>to understand</p></li>
     </ul>
 
     <p>The &quot;to ___&quot; construction (called the infinitive) is available only to verbs.</p>
@@ -729,8 +729,8 @@
     <p>Verbs can be negated, typically using <em>do</em> + <em>not</em>:</p>
 
     <ul>
-      <li><p><em>She does not walk.</em></p></li>
-      <li><p><em>I did not see it.</em></p></li>
+      <li><p>She does not walk.</p></li>
+      <li><p>I did not see it.</p></li>
     </ul>
 
     <!-- PHRASE STRUCTURE (moved down) -->
@@ -996,9 +996,9 @@
     <p>Most adjectives are <em>gradable</em>—they can express degrees (<em>taller</em>, <em>very tall</em>). But some adjectives express absolute properties and resist grading:</p>
 
     <ul>
-      <li><p><em>dead</em> — something is dead or not; <em>~~very dead~~</em> sounds odd</p></li>
-      <li><p><em>unique</em> — traditionally, something is unique or not; <em>~~more unique~~</em> is contested</p></li>
-      <li><p><em>pregnant</em> — grammatically ungradable, though metaphor sometimes changes this</p></li>
+      <li><p>dead — something is dead or not; <em>~~very dead~~</em> sounds odd</p></li>
+      <li><p>unique — traditionally, something is unique or not; <em>~~more unique~~</em> is contested</p></li>
+      <li><p>pregnant — grammatically ungradable, though metaphor sometimes changes this</p></li>
     </ul>
 
     <p>Some adjectives are <em>attributive-only</em> (they can only appear before nouns):</p>
@@ -1173,9 +1173,9 @@
 
     <p>Adverb phrases can grow by stacking degree modifiers:</p>
     <ul>
-      <li><p><em>quickly</em></p></li>
-      <li><p><em>very quickly</em></p></li>
-      <li><p><em>rather too quickly</em></p></li>
+      <li><p>quickly</p></li>
+      <li><p>very quickly</p></li>
+      <li><p>rather too quickly</p></li>
     </ul>
 
     <paragraphs>
@@ -1226,32 +1226,32 @@
         <cell>Question Answered</cell>
       </row>
       <row>
-        <cell><em>Manner</em></cell>
+        <cell>Manner</cell>
         <cell><em>quickly</em>, <em>carefully</em>, <em>well</em></cell>
         <cell>How?</cell>
       </row>
       <row>
-        <cell><em>Time</em></cell>
+        <cell>Time</cell>
         <cell><em>yesterday</em>, <em>soon</em>, <em>already</em></cell>
         <cell>When?</cell>
       </row>
       <row>
-        <cell><em>Place</em></cell>
+        <cell>Place</cell>
         <cell><em>here</em>, <em>there</em>, <em>everywhere</em></cell>
         <cell>Where?</cell>
       </row>
       <row>
-        <cell><em>Frequency</em></cell>
+        <cell>Frequency</cell>
         <cell><em>often</em>, <em>rarely</em>, <em>sometimes</em>, <em>always</em></cell>
         <cell>How often?</cell>
       </row>
       <row>
-        <cell><em>Degree</em></cell>
+        <cell>Degree</cell>
         <cell><em>very</em>, <em>extremely</em>, <em>somewhat</em></cell>
         <cell>To what extent?</cell>
       </row>
       <row>
-        <cell><em>Sentence/Comment</em></cell>
+        <cell>Sentence/Comment</cell>
         <cell><em>unfortunately</em>, <em>clearly</em>, <em>obviously</em></cell>
         <cell>Speaker's attitude?</cell>
       </row>
@@ -1286,7 +1286,7 @@
         <cell>Key Syntactic Tests</cell>
       </row>
       <row>
-        <cell><em>Noun</em></cell>
+        <cell>Noun</cell>
         <cell>
           <ul>
             <li><p>Plural (<em>-s</em>)</p></li>
@@ -1303,7 +1303,7 @@
         </cell>
       </row>
       <row>
-        <cell><em>Verb</em></cell>
+        <cell>Verb</cell>
         <cell>
           <ul>
             <li><p>Past tense (<em>-ed</em>)</p></li>
@@ -1320,7 +1320,7 @@
         </cell>
       </row>
       <row>
-        <cell><em>Adjective</em></cell>
+        <cell>Adjective</cell>
         <cell>
           <ul>
             <li><p>Comparative/superlative (<em>-er/-est</em>)</p></li>
@@ -1337,7 +1337,7 @@
         </cell>
       </row>
       <row>
-        <cell><em>Adverb</em></cell>
+        <cell>Adverb</cell>
         <cell>
           <ul>
             <li><p>Often <em>-ly</em></p></li>
@@ -1368,22 +1368,22 @@
       <row>
         <cell>Noun phrase (NP)</cell>
         <cell>Noun</cell>
-        <cell><em>the tall student from Ohio</em></cell>
+        <cell>the tall student from Ohio</cell>
       </row>
       <row>
         <cell>Verb phrase (VP)</cell>
         <cell>Verb</cell>
-        <cell><em>read the book carefully</em></cell>
+        <cell>read the book carefully</cell>
       </row>
       <row>
         <cell>Adjective phrase (AdjP)</cell>
         <cell>Adjective</cell>
-        <cell><em>very proud of her work</em></cell>
+        <cell>very proud of her work</cell>
       </row>
       <row>
         <cell>Adverb phrase (AdvP)</cell>
         <cell>Adverb</cell>
-        <cell><em>very quickly</em></cell>
+        <cell>very quickly</cell>
       </row>
     </tabular>
 
@@ -1392,9 +1392,9 @@
     </paragraphs>
 
     <ol>
-      <li><p><em>Identify form</em>: What part of speech is this word typically? Apply morphological and syntactic tests.</p></li>
-      <li><p><em>Identify function</em>: What role is it playing in this sentence? Is it modifying something? Acting as subject or object?</p></li>
-      <li><p><em>Note mismatches</em>: If form and function differ, identify both. (<em>The poor</em> = adjective form, nominal function)</p></li>
+      <li><p>Identify form: What part of speech is this word typically? Apply morphological and syntactic tests.</p></li>
+      <li><p>Identify function: What role is it playing in this sentence? Is it modifying something? Acting as subject or object?</p></li>
+      <li><p>Note mismatches: If form and function differ, identify both. (<em>The poor</em> = adjective form, nominal function)</p></li>
     </ol>
 
   </section>

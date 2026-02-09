@@ -179,7 +179,7 @@
     <p>Very long sentences strain working memory. When sentences exceed 25-30 words, consider dividing them:</p>
 
     <ul>
-      <li><p><em>~~The committee, which was established by the board last year to investigate the issues raised by employees concerning workplace conditions, submitted its final report, which contained numerous recommendations for improvement, yesterday.~~</em></p></li>
+      <li><p>~~The committee, which was established by the board last year to investigate the issues raised by employees concerning workplace conditions, submitted its final report, which contained numerous recommendations for improvement, yesterday.~~</p></li>
     </ul>
 
     <ul>
@@ -193,7 +193,7 @@
     <p>Multiple embeddings create difficulty:</p>
 
     <ul>
-      <li><p><em>~~The book that the professor who teaches the course that I'm taking recommended was unavailable.~~</em></p></li>
+      <li><p>~~The book that the professor who teaches the course that I'm taking recommended was unavailable.~~</p></li>
     </ul>
 
     <ul>

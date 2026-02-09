@@ -77,20 +77,20 @@
         <cell>Passive</cell>
       </row>
       <row>
-        <cell><em>Maria wrote the report.</em></cell>
-        <cell><em>The report was written by Maria.</em></cell>
+        <cell>Maria wrote the report.</cell>
+        <cell>The report was written by Maria.</cell>
       </row>
       <row>
-        <cell><em>Someone stole my bike.</em></cell>
-        <cell><em>My bike was stolen.</em></cell>
+        <cell>Someone stole my bike.</cell>
+        <cell>My bike was stolen.</cell>
       </row>
       <row>
-        <cell><em>They are building a house.</em></cell>
-        <cell><em>A house is being built.</em></cell>
+        <cell>They are building a house.</cell>
+        <cell>A house is being built.</cell>
       </row>
       <row>
-        <cell><em>She has finished the work.</em></cell>
-        <cell><em>The work has been finished.</em></cell>
+        <cell>She has finished the work.</cell>
+        <cell>The work has been finished.</cell>
       </row>
     </tabular>
 
@@ -108,43 +108,43 @@
       </row>
       <row>
         <cell>Present simple</cell>
-        <cell><em>writes</em></cell>
-        <cell><em>is written</em></cell>
+        <cell>writes</cell>
+        <cell>is written</cell>
       </row>
       <row>
         <cell>Past simple</cell>
-        <cell><em>wrote</em></cell>
-        <cell><em>was written</em></cell>
+        <cell>wrote</cell>
+        <cell>was written</cell>
       </row>
       <row>
         <cell>Present progressive</cell>
-        <cell><em>is writing</em></cell>
-        <cell><em>is being written</em></cell>
+        <cell>is writing</cell>
+        <cell>is being written</cell>
       </row>
       <row>
         <cell>Past progressive</cell>
-        <cell><em>was writing</em></cell>
-        <cell><em>was being written</em></cell>
+        <cell>was writing</cell>
+        <cell>was being written</cell>
       </row>
       <row>
         <cell>Present perfect</cell>
-        <cell><em>has written</em></cell>
-        <cell><em>has been written</em></cell>
+        <cell>has written</cell>
+        <cell>has been written</cell>
       </row>
       <row>
         <cell>Past perfect</cell>
-        <cell><em>had written</em></cell>
-        <cell><em>had been written</em></cell>
+        <cell>had written</cell>
+        <cell>had been written</cell>
       </row>
       <row>
         <cell>Future</cell>
-        <cell><em>will write</em></cell>
-        <cell><em>will be written</em></cell>
+        <cell>will write</cell>
+        <cell>will be written</cell>
       </row>
       <row>
         <cell>Modal</cell>
-        <cell><em>can write</em></cell>
-        <cell><em>can be written</em></cell>
+        <cell>can write</cell>
+        <cell>can be written</cell>
       </row>
     </tabular>
 
@@ -255,39 +255,39 @@
         <cell>Basic Meaning</cell>
       </row>
       <row>
-        <cell><em>can</em></cell>
+        <cell>can</cell>
         <cell>ability, possibility, permission</cell>
       </row>
       <row>
-        <cell><em>could</em></cell>
+        <cell>could</cell>
         <cell>past ability, possibility, polite request</cell>
       </row>
       <row>
-        <cell><em>will</em></cell>
+        <cell>will</cell>
         <cell>future, willingness, prediction</cell>
       </row>
       <row>
-        <cell><em>would</em></cell>
+        <cell>would</cell>
         <cell>hypothetical, polite request, past habit</cell>
       </row>
       <row>
-        <cell><em>shall</em></cell>
+        <cell>shall</cell>
         <cell>future (formal), suggestion</cell>
       </row>
       <row>
-        <cell><em>should</em></cell>
+        <cell>should</cell>
         <cell>obligation, expectation, advice</cell>
       </row>
       <row>
-        <cell><em>may</em></cell>
+        <cell>may</cell>
         <cell>permission, possibility</cell>
       </row>
       <row>
-        <cell><em>might</em></cell>
+        <cell>might</cell>
         <cell>possibility (weaker than <em>may</em>)</cell>
       </row>
       <row>
-        <cell><em>must</em></cell>
+        <cell>must</cell>
         <cell>necessity, strong obligation, logical conclusion</cell>
       </row>
     </tabular>
@@ -300,8 +300,8 @@
       <li><p>*<em>No </em>-s<em> in third person</em><em>: </em>She <em>can</em> go.<em> (not </em>~~She cans go~~*)</p></li>
       <li><p>*<em>No </em>to<em> infinitive</em><em>: </em>You <em>must</em> leave.<em> (not </em>~~You must to leave~~*)</p></li>
       <li><p>*<em>No past participle or </em>-ing<em> form</em><em>: </em>~~musted~~<em>, </em>~~musting~~*</p></li>
-      <li><p><em>Cannot combine directly</em>: <em>~~She can must go~~</em></p></li>
-      <li><p><em>Form questions by inversion</em>: <em><em>Can</em> she go?</em></p></li>
+      <li><p>Cannot combine directly: <em>~~She can must go~~</em></p></li>
+      <li><p>Form questions by inversion: <em><em>Can</em> she go?</em></p></li>
       <li><p>*<em>Form negatives with </em>not**<em>: </em>She <em>cannot</em> go.*</p></li>
     </ol>
 
@@ -486,42 +486,42 @@
         <cell>Example</cell>
       </row>
       <row>
-        <cell><em>have to</em></cell>
+        <cell>have to</cell>
         <cell>necessity</cell>
         <cell><em>I <em>have to</em> leave.</em></cell>
       </row>
       <row>
-        <cell><em>have got to</em></cell>
+        <cell>have got to</cell>
         <cell>necessity (informal)</cell>
         <cell><em>I'<em>ve got to</em> go.</em></cell>
       </row>
       <row>
-        <cell><em>be able to</em></cell>
+        <cell>be able to</cell>
         <cell>ability</cell>
         <cell><em>She'<em>s able to</em> help.</em></cell>
       </row>
       <row>
-        <cell><em>be going to</em></cell>
+        <cell>be going to</cell>
         <cell>future intention</cell>
         <cell><em>I'<em>m going to</em> study.</em></cell>
       </row>
       <row>
-        <cell><em>be supposed to</em></cell>
+        <cell>be supposed to</cell>
         <cell>expectation/obligation</cell>
         <cell><em>You'<em>re supposed to</em> wait.</em></cell>
       </row>
       <row>
-        <cell><em>be allowed to</em></cell>
+        <cell>be allowed to</cell>
         <cell>permission</cell>
         <cell><em>We'<em>re allowed to</em> leave.</em></cell>
       </row>
       <row>
-        <cell><em>ought to</em></cell>
+        <cell>ought to</cell>
         <cell>obligation</cell>
         <cell><em>You <em>ought to</em> apologize.</em></cell>
       </row>
       <row>
-        <cell><em>used to</em></cell>
+        <cell>used to</cell>
         <cell>past habit</cell>
         <cell><em>I <em>used to</em> live there.</em></cell>
       </row>
@@ -566,27 +566,27 @@
         <cell>Meaning</cell>
       </row>
       <row>
-        <cell><em>must have done</em></cell>
+        <cell>must have done</cell>
         <cell>logical conclusion about past</cell>
       </row>
       <row>
-        <cell><em>may/might have done</em></cell>
+        <cell>may/might have done</cell>
         <cell>possibility in the past</cell>
       </row>
       <row>
-        <cell><em>could have done</em></cell>
+        <cell>could have done</cell>
         <cell>past possibility or unrealized ability</cell>
       </row>
       <row>
-        <cell><em>should have done</em></cell>
+        <cell>should have done</cell>
         <cell>obligation not fulfilled (criticism)</cell>
       </row>
       <row>
-        <cell><em>would have done</em></cell>
+        <cell>would have done</cell>
         <cell>hypothetical past (unfulfilled)</cell>
       </row>
       <row>
-        <cell><em>can't have done</em></cell>
+        <cell>can't have done</cell>
         <cell>impossibility in the past</cell>
       </row>
     </tabular>

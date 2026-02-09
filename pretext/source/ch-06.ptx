@@ -29,10 +29,10 @@
     <p><em>Closed classes</em> resist new members. They contain a fixed (or nearly fixed) inventory of words that has remained stable for centuries:</p>
 
     <ul>
-      <li><p><em>Determiners</em>: <em>the</em>, <em>a</em>, <em>this</em>, <em>my</em>, <em>every</em>, <em>some</em>...</p></li>
-      <li><p><em>Pronouns</em>: <em>I</em>, <em>you</em>, <em>he</em>, <em>she</em>, <em>it</em>, <em>we</em>, <em>they</em>...</p></li>
-      <li><p><em>Prepositions</em>: <em>in</em>, <em>on</em>, <em>at</em>, <em>to</em>, <em>from</em>, <em>with</em>...</p></li>
-      <li><p><em>Auxiliary verbs</em>: <em>be</em>, <em>have</em>, <em>do</em>, <em>can</em>, <em>will</em>, <em>might</em>...</p></li>
+      <li><p>Determiners: <em>the</em>, <em>a</em>, <em>this</em>, <em>my</em>, <em>every</em>, <em>some</em>...</p></li>
+      <li><p>Pronouns: <em>I</em>, <em>you</em>, <em>he</em>, <em>she</em>, <em>it</em>, <em>we</em>, <em>they</em>...</p></li>
+      <li><p>Prepositions: <em>in</em>, <em>on</em>, <em>at</em>, <em>to</em>, <em>from</em>, <em>with</em>...</p></li>
+      <li><p>Auxiliary verbs: <em>be</em>, <em>have</em>, <em>do</em>, <em>can</em>, <em>will</em>, <em>might</em>...</p></li>
     </ul>
 
     <p>When did English last add a new preposition? A new pronoun? These classes have been essentially stable for centuries. Even the gradual acceptance of singular <em>they</em> represents an expansion of function, not a new word.</p>
@@ -119,30 +119,30 @@
     <p><em>Demonstratives</em>—point to specific entities:</p>
 
     <ul>
-      <li><p><em>Near</em>: <em>this</em>, <em>these</em> (close to speaker)</p></li>
-      <li><p><em>Far</em>: <em>that</em>, <em>those</em> (farther from speaker)</p></li>
+      <li><p>Near: <em>this</em>, <em>these</em> (close to speaker)</p></li>
+      <li><p>Far: <em>that</em>, <em>those</em> (farther from speaker)</p></li>
     </ul>
 
     <p><em>Possessives</em>—indicate ownership or relationship:</p>
 
     <ul>
-      <li><p><em>Pronoun forms</em>: <em>my</em>, <em>your</em>, <em>his</em>, <em>her</em>, <em>its</em>, <em>our</em>, <em>their</em></p></li>
-      <li><p><em>Noun + 's</em>: <em>John's</em>, <em>the dog's</em>, <em>my sister's</em></p></li>
+      <li><p>Pronoun forms: <em>my</em>, <em>your</em>, <em>his</em>, <em>her</em>, <em>its</em>, <em>our</em>, <em>their</em></p></li>
+      <li><p>Noun + 's: <em>John's</em>, <em>the dog's</em>, <em>my sister's</em></p></li>
     </ul>
 
     <p><em>Quantifiers</em>—indicate amount or quantity:</p>
 
     <ul>
-      <li><p><em>Universal</em>: <em>all</em>, <em>every</em>, <em>each</em>, <em>both</em></p></li>
-      <li><p><em>Existential</em>: <em>some</em>, <em>any</em>, <em>no</em></p></li>
-      <li><p><em>Degree</em>: <em>many</em>, <em>much</em>, <em>few</em>, <em>little</em>, <em>several</em>, <em>enough</em></p></li>
+      <li><p>Universal: <em>all</em>, <em>every</em>, <em>each</em>, <em>both</em></p></li>
+      <li><p>Existential: <em>some</em>, <em>any</em>, <em>no</em></p></li>
+      <li><p>Degree: <em>many</em>, <em>much</em>, <em>few</em>, <em>little</em>, <em>several</em>, <em>enough</em></p></li>
     </ul>
 
     <p><em>Numbers</em>:</p>
 
     <ul>
-      <li><p><em>Cardinal</em>: <em>one</em>, <em>two</em>, <em>three</em>...</p></li>
-      <li><p><em>Ordinal</em>: <em>first</em>, <em>second</em>, <em>third</em>...</p></li>
+      <li><p>Cardinal: <em>one</em>, <em>two</em>, <em>three</em>...</p></li>
+      <li><p>Ordinal: <em>first</em>, <em>second</em>, <em>third</em>...</p></li>
     </ul>
 
     <p><em>Interrogative/Relative</em>: <em>which</em>, <em>what</em>, <em>whose</em></p>
@@ -164,17 +164,17 @@
     <p>The pattern is consistent: <em>Det + (Adj) + N</em></p>
 
     <ul>
-      <li><p><em>the big dog</em></p></li>
-      <li><p><em>my old friend</em></p></li>
-      <li><p><em>some fresh bread</em></p></li>
+      <li><p>the big dog</p></li>
+      <li><p>my old friend</p></li>
+      <li><p>some fresh bread</p></li>
     </ul>
 
     <p><em>Important</em>: Most determiners are mutually exclusive—you cannot stack them:</p>
 
     <ul>
-      <li><p><em>~~the my book~~</em></p></li>
-      <li><p><em>~~this the student~~</em></p></li>
-      <li><p><em>~~a every dog~~</em></p></li>
+      <li><p>~~the my book~~</p></li>
+      <li><p>~~this the student~~</p></li>
+      <li><p>~~a every dog~~</p></li>
     </ul>
 
     <p>Nouns usually take just one determiner. However, in some cases two determiners can appear together in the same noun phrase:</p>
@@ -293,43 +293,43 @@
         <cell>Mass</cell>
       </row>
       <row>
-        <cell><em>a/an</em></cell>
+        <cell>a/an</cell>
         <cell>✓ <em>a book</em></cell>
         <cell>✗</cell>
         <cell>✗</cell>
       </row>
       <row>
-        <cell><em>the</em></cell>
+        <cell>the</cell>
         <cell>✓ <em>the book</em></cell>
         <cell>✓ <em>the books</em></cell>
         <cell>✓ <em>the water</em></cell>
       </row>
       <row>
-        <cell><em>this/that</em></cell>
+        <cell>this/that</cell>
         <cell>✓ <em>this book</em></cell>
         <cell>✗</cell>
         <cell>✓ <em>this water</em></cell>
       </row>
       <row>
-        <cell><em>these/those</em></cell>
+        <cell>these/those</cell>
         <cell>✗</cell>
         <cell>✓ <em>these books</em></cell>
         <cell>✗</cell>
       </row>
       <row>
-        <cell><em>some</em></cell>
+        <cell>some</cell>
         <cell>✗</cell>
         <cell>✓ <em>some books</em></cell>
         <cell>✓ <em>some water</em></cell>
       </row>
       <row>
-        <cell><em>many</em></cell>
+        <cell>many</cell>
         <cell>✗</cell>
         <cell>✓ <em>many books</em></cell>
         <cell>✗</cell>
       </row>
       <row>
-        <cell><em>much</em></cell>
+        <cell>much</cell>
         <cell>✗</cell>
         <cell>✗</cell>
         <cell>✓ <em>much water</em></cell>
@@ -472,9 +472,9 @@
     <p>Personal pronouns are the most common type. They vary for:</p>
 
     <ul>
-      <li><p><em>Person</em>: 1st (speaker), 2nd (addressee), 3rd (other)</p></li>
-      <li><p><em>Number</em>: singular vs. plural</p></li>
-      <li><p><em>Case</em>: subject vs. object</p></li>
+      <li><p>Person: 1st (speaker), 2nd (addressee), 3rd (other)</p></li>
+      <li><p>Number: singular vs. plural</p></li>
+      <li><p>Case: subject vs. object</p></li>
       <li><p><em>Gender</em> (3rd person singular): masculine, feminine, neuter</p></li>
     </ul>
 
@@ -614,8 +614,8 @@
     <p><em>This</em>, <em>that</em>, <em>these</em>, <em>those</em> can function as pronouns (standing alone) or determiners (with a noun):</p>
 
     <ul>
-      <li><p><em>Pronoun</em>: <em><em>This</em> is interesting.</em> <em><em>Those</em> are mine.</em></p></li>
-      <li><p><em>Determiner</em>: <em><em>This book</em> is interesting.</em> <em><em>Those books</em> are mine.</em></p></li>
+      <li><p>Pronoun: <em><em>This</em> is interesting.</em> <em><em>Those</em> are mine.</em></p></li>
+      <li><p>Determiner: <em><em>This book</em> is interesting.</em> <em><em>Those books</em> are mine.</em></p></li>
     </ul>
 
     <p>As pronouns, demonstratives typically refer to things just mentioned, about to be mentioned, or physically present.</p>
@@ -647,15 +647,15 @@
         <cell>Examples</cell>
       </row>
       <row>
-        <cell><em>Universal</em></cell>
+        <cell>Universal</cell>
         <cell><em>everyone</em>, <em>everybody</em>, <em>everything</em>, <em>all</em>, <em>each</em>, <em>both</em></cell>
       </row>
       <row>
-        <cell><em>Existential</em></cell>
+        <cell>Existential</cell>
         <cell><em>someone</em>, <em>somebody</em>, <em>something</em>, <em>some</em>, <em>any</em></cell>
       </row>
       <row>
-        <cell><em>Negative</em></cell>
+        <cell>Negative</cell>
         <cell><em>no one</em>, <em>nobody</em>, <em>nothing</em>, <em>none</em></cell>
       </row>
     </tabular>
@@ -694,15 +694,15 @@
         <cell>Examples</cell>
       </row>
       <row>
-        <cell><em>Spatial</em></cell>
+        <cell>Spatial</cell>
         <cell><em>in</em>, <em>on</em>, <em>at</em>, <em>above</em>, <em>below</em>, <em>under</em>, <em>over</em>, <em>between</em>, <em>among</em>, <em>through</em>, <em>across</em>, <em>behind</em>, <em>beside</em>, <em>near</em>, <em>toward</em></cell>
       </row>
       <row>
-        <cell><em>Temporal</em></cell>
+        <cell>Temporal</cell>
         <cell><em>before</em>, <em>after</em>, <em>during</em>, <em>since</em>, <em>until</em>, <em>throughout</em></cell>
       </row>
       <row>
-        <cell><em>Logical/Abstract</em></cell>
+        <cell>Logical/Abstract</cell>
         <cell><em>of</em>, <em>for</em>, <em>with</em>, <em>by</em>, <em>about</em>, <em>without</em>, <em>despite</em>, <em>concerning</em>, <em>regarding</em></cell>
       </row>
     </tabular>
@@ -710,9 +710,9 @@
     <p><em>Complex prepositions</em> are multi-word units that function as single prepositions:</p>
 
     <ul>
-      <li><p><em>because of</em>, <em>instead of</em>, <em>in spite of</em></p></li>
-      <li><p><em>according to</em>, <em>due to</em>, <em>prior to</em></p></li>
-      <li><p><em>in front of</em>, <em>on top of</em>, <em>in addition to</em></p></li>
+      <li><p>because of, <em>instead of</em>, <em>in spite of</em></p></li>
+      <li><p>according to, <em>due to</em>, <em>prior to</em></p></li>
+      <li><p>in front of, <em>on top of</em>, <em>in addition to</em></p></li>
     </ul>
 
     <paragraphs>
@@ -758,11 +758,11 @@
     <p>Examples of prepositional phrases:</p>
 
     <ul>
-      <li><p><em>in the morning</em></p></li>
-      <li><p><em>on the tall wooden table</em></p></li>
-      <li><p><em>to my best friend</em></p></li>
-      <li><p><em>from the old house on the corner</em></p></li>
-      <li><p><em>about the recent controversy</em></p></li>
+      <li><p>in the morning</p></li>
+      <li><p>on the tall wooden table</p></li>
+      <li><p>to my best friend</p></li>
+      <li><p>from the old house on the corner</p></li>
+      <li><p>about the recent controversy</p></li>
     </ul>
 
     <p>The object of the preposition can be:</p>
@@ -891,8 +891,8 @@
     <p><em>I saw the man with binoculars.</em></p>
 
     <ul>
-      <li><p><em>Reading 1</em>: The PP <em>with binoculars</em> modifies the noun <em>man</em>—&quot;the man who had binoculars&quot;</p></li>
-      <li><p><em>Reading 2</em>: The PP <em>with binoculars</em> modifies the verb <em>saw</em>—&quot;I used binoculars to see him&quot;</p></li>
+      <li><p>Reading 1: The PP <em>with binoculars</em> modifies the noun <em>man</em>—&quot;the man who had binoculars&quot;</p></li>
+      <li><p>Reading 2: The PP <em>with binoculars</em> modifies the verb <em>saw</em>—&quot;I used binoculars to see him&quot;</p></li>
     </ul>
 
     <p>The two readings correspond to two different tree structures. In Reading 1, the PP is embedded inside the NP:</p>
@@ -1001,15 +1001,15 @@
         <cell>Primary Function</cell>
       </row>
       <row>
-        <cell><em>Determiners</em></cell>
+        <cell>Determiners</cell>
         <cell>Specify reference within NPs</cell>
       </row>
       <row>
-        <cell><em>Pronouns</em></cell>
+        <cell>Pronouns</cell>
         <cell>Replace entire NPs</cell>
       </row>
       <row>
-        <cell><em>Prepositions</em></cell>
+        <cell>Prepositions</cell>
         <cell>Show relationships; head PPs</cell>
       </row>
     </tabular>
@@ -1059,7 +1059,7 @@
         <cell>Examples</cell>
       </row>
       <row>
-        <cell><em>Determiner</em></cell>
+        <cell>Determiner</cell>
         <cell>
           <ul>
             <li><p>Appears first in NP (before adjectives)</p></li>
@@ -1070,7 +1070,7 @@
         <cell><em>the</em>, <em>a</em>, <em>my</em>, <em>this</em>, <em>some</em>, <em>every</em></cell>
       </row>
       <row>
-        <cell><em>Pronoun</em></cell>
+        <cell>Pronoun</cell>
         <cell>
           <ul>
             <li><p>Replaces a full NP</p></li>
@@ -1081,7 +1081,7 @@
         <cell><em>I/me</em>, <em>she/her</em>, <em>they/them</em>, <em>who</em></cell>
       </row>
       <row>
-        <cell><em>Preposition</em></cell>
+        <cell>Preposition</cell>
         <cell>
           <ul>
             <li><p>Takes NP object to form PP</p></li>
@@ -1105,13 +1105,13 @@
         <cell>Can Move?</cell>
       </row>
       <row>
-        <cell><em>Modifying a noun</em></cell>
+        <cell>Modifying a noun</cell>
         <cell>Noun</cell>
         <cell>Which one? What kind?</cell>
         <cell>No (stays with noun)</cell>
       </row>
       <row>
-        <cell><em>Modifying a verb</em></cell>
+        <cell>Modifying a verb</cell>
         <cell>Verb/Sentence</cell>
         <cell>Where? When? How? Why?</cell>
         <cell>Often yes</cell>
@@ -1123,10 +1123,10 @@
     </paragraphs>
 
     <ol>
-      <li><p><em>Identify the word class</em>: Is it a determiner, pronoun, or preposition?</p></li>
-      <li><p><em>Classify the subtype</em>: What kind of determiner/pronoun/preposition is it?</p></li>
-      <li><p><em>Analyze function</em>: What grammatical role does it play? (For PPs: what does it modify?)</p></li>
-      <li><p><em>Note relationships</em>: What does it modify? What is the antecedent?</p></li>
+      <li><p>Identify the word class: Is it a determiner, pronoun, or preposition?</p></li>
+      <li><p>Classify the subtype: What kind of determiner/pronoun/preposition is it?</p></li>
+      <li><p>Analyze function: What grammatical role does it play? (For PPs: what does it modify?)</p></li>
+      <li><p>Note relationships: What does it modify? What is the antecedent?</p></li>
     </ol>
 
   </section>

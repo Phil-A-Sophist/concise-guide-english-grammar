@@ -41,24 +41,24 @@
         <cell>Example</cell>
       </row>
       <row>
-        <cell><em>Simple</em></cell>
+        <cell>Simple</cell>
         <cell>One independent clause</cell>
-        <cell><em>The dog barked.</em></cell>
+        <cell>The dog barked.</cell>
       </row>
       <row>
-        <cell><em>Compound</em></cell>
+        <cell>Compound</cell>
         <cell>Two+ independent clauses</cell>
-        <cell><em>The dog barked, and the cat hid.</em></cell>
+        <cell>The dog barked, and the cat hid.</cell>
       </row>
       <row>
-        <cell><em>Complex</em></cell>
+        <cell>Complex</cell>
         <cell>One independent + one+ dependent clause</cell>
-        <cell><em>The dog barked when the mail arrived.</em></cell>
+        <cell>The dog barked when the mail arrived.</cell>
       </row>
       <row>
-        <cell><em>Compound-complex</em></cell>
+        <cell>Compound-complex</cell>
         <cell>Two+ independent + one+ dependent clause</cell>
-        <cell><em>The dog barked when the mail arrived, and the cat hid under the bed.</em></cell>
+        <cell>The dog barked when the mail arrived, and the cat hid under the bed.</cell>
       </row>
     </tabular>
 
@@ -78,9 +78,9 @@
     <p>Simple sentences can be long if they have compound subjects, compound predicates, or extensive modification:</p>
 
     <ul>
-      <li><p><em>Compound subject</em>: <em>Marcus <em>and</em> Elena traveled to Spain.</em> (still simple—one predicate)</p></li>
-      <li><p><em>Compound predicate</em>: <em>The dog <em>barked</em> and <em>chased</em> the squirrel.</em> (still simple—one subject)</p></li>
-      <li><p><em>Heavy modification</em>: <em>The exhausted marathon runner from Kenya collapsed at the finish line.</em> (still simple—one clause)</p></li>
+      <li><p>Compound subject: <em>Marcus <em>and</em> Elena traveled to Spain.</em> (still simple—one predicate)</p></li>
+      <li><p>Compound predicate: <em>The dog <em>barked</em> and <em>chased</em> the squirrel.</em> (still simple—one subject)</p></li>
+      <li><p>Heavy modification: <em>The exhausted marathon runner from Kenya collapsed at the finish line.</em> (still simple—one clause)</p></li>
     </ul>
 
   </section>
@@ -98,8 +98,8 @@
 
     <ol>
       <li><p><em>Coordinating conjunction</em> (with comma): <em>The power went out, and we lit candles.</em></p></li>
-      <li><p><em>Semicolon</em>: <em>The power went out; we lit candles.</em></p></li>
-      <li><p><em>Semicolon + conjunctive adverb</em>: <em>The power went out; therefore, we lit candles.</em></p></li>
+      <li><p>Semicolon: <em>The power went out; we lit candles.</em></p></li>
+      <li><p>Semicolon + conjunctive adverb: <em>The power went out; therefore, we lit candles.</em></p></li>
     </ol>
 
     <paragraphs>
@@ -168,23 +168,23 @@
       </row>
       <row>
         <cell>Addition</cell>
-        <cell><em>moreover, furthermore, additionally, also</em></cell>
+        <cell>moreover, furthermore, additionally, also</cell>
       </row>
       <row>
         <cell>Contrast</cell>
-        <cell><em>however, nevertheless, nonetheless, instead</em></cell>
+        <cell>however, nevertheless, nonetheless, instead</cell>
       </row>
       <row>
         <cell>Result</cell>
-        <cell><em>therefore, thus, consequently, hence</em></cell>
+        <cell>therefore, thus, consequently, hence</cell>
       </row>
       <row>
         <cell>Time</cell>
-        <cell><em>meanwhile, subsequently, afterward, then</em></cell>
+        <cell>meanwhile, subsequently, afterward, then</cell>
       </row>
       <row>
         <cell>Example</cell>
-        <cell><em>for example, for instance, specifically</em></cell>
+        <cell>for example, for instance, specifically</cell>
       </row>
     </tabular>
 
@@ -237,8 +237,8 @@
     <p>An <em>independent clause</em> expresses a complete thought:</p>
 
     <ul>
-      <li><p><em>The power flickered.</em></p></li>
-      <li><p><em>Everyone looked up.</em></p></li>
+      <li><p>The power flickered.</p></li>
+      <li><p>Everyone looked up.</p></li>
     </ul>
 
     <p>A <em>dependent clause</em> has a subject and predicate but cannot stand alone:</p>
@@ -265,9 +265,9 @@
     </paragraphs>
 
     <ul>
-      <li><p><em>Show relationships</em>: Causal, temporal, and conditional connections become explicit</p></li>
-      <li><p><em>Emphasize main ideas</em>: Subordinating less important information guides readers</p></li>
-      <li><p><em>Create sophisticated prose</em>: Varied structures make writing more engaging</p></li>
+      <li><p>Show relationships: Causal, temporal, and conditional connections become explicit</p></li>
+      <li><p>Emphasize main ideas: Subordinating less important information guides readers</p></li>
+      <li><p>Create sophisticated prose: Varied structures make writing more engaging</p></li>
     </ul>
 
   </section>
@@ -357,28 +357,28 @@
         <cell>Subordinating Conjunctions</cell>
       </row>
       <row>
-        <cell><em>Time</em></cell>
-        <cell><em>when, while, before, after, until, since, as, once, whenever, as soon as</em></cell>
+        <cell>Time</cell>
+        <cell>when, while, before, after, until, since, as, once, whenever, as soon as</cell>
       </row>
       <row>
-        <cell><em>Cause/Reason</em></cell>
-        <cell><em>because, since, as, given that, now that</em></cell>
+        <cell>Cause/Reason</cell>
+        <cell>because, since, as, given that, now that</cell>
       </row>
       <row>
-        <cell><em>Contrast</em></cell>
-        <cell><em>although, though, even though, while, whereas, even if</em></cell>
+        <cell>Contrast</cell>
+        <cell>although, though, even though, while, whereas, even if</cell>
       </row>
       <row>
-        <cell><em>Condition</em></cell>
-        <cell><em>if, unless, provided that, in case, assuming that, as long as</em></cell>
+        <cell>Condition</cell>
+        <cell>if, unless, provided that, in case, assuming that, as long as</cell>
       </row>
       <row>
-        <cell><em>Purpose</em></cell>
-        <cell><em>so that, in order that</em></cell>
+        <cell>Purpose</cell>
+        <cell>so that, in order that</cell>
       </row>
       <row>
-        <cell><em>Manner</em></cell>
-        <cell><em>as, as if, as though</em></cell>
+        <cell>Manner</cell>
+        <cell>as, as if, as though</cell>
       </row>
     </tabular>
 
@@ -400,7 +400,7 @@
     <p><em>With semicolon only</em>: no conjunction needed</p>
 
     <ul>
-      <li><p><em>It rained; we stayed inside.</em></p></li>
+      <li><p>It rained; we stayed inside.</p></li>
     </ul>
 
     <p><em>With conjunctive adverb</em>: semicolon before, comma after</p>
@@ -481,9 +481,9 @@
     <p>Use compound sentences when ideas are:</p>
 
     <ul>
-      <li><p><em>Equally important</em>: <em>She applied, and she got the job.</em></p></li>
-      <li><p><em>Contrasting equally</em>: <em>It looked easy, but it was difficult.</em></p></li>
-      <li><p><em>Part of a sequence</em>: <em>He entered, he looked around, and he left.</em></p></li>
+      <li><p>Equally important: <em>She applied, and she got the job.</em></p></li>
+      <li><p>Contrasting equally: <em>It looked easy, but it was difficult.</em></p></li>
+      <li><p>Part of a sequence: <em>He entered, he looked around, and he left.</em></p></li>
     </ul>
 
     <paragraphs>
@@ -493,9 +493,9 @@
     <p>Use complex sentences when:</p>
 
     <ul>
-      <li><p><em>One idea supports another</em>: <em>She got the job <em>because she prepared well</em>.</em></p></li>
-      <li><p><em>You want to emphasize the main clause</em>: <em><em>Although it was difficult</em>, she succeeded.</em></p></li>
-      <li><p><em>Showing time, cause, or condition</em>: <em>Call me <em>if you need help</em>.</em></p></li>
+      <li><p>One idea supports another: <em>She got the job <em>because she prepared well</em>.</em></p></li>
+      <li><p>You want to emphasize the main clause: <em><em>Although it was difficult</em>, she succeeded.</em></p></li>
+      <li><p>Showing time, cause, or condition: <em>Call me <em>if you need help</em>.</em></p></li>
     </ul>
 
     <paragraphs>
@@ -526,9 +526,9 @@
 
       <p>Clauses:</p>
       <ul>
-        <li><p><em>Although the weather was terrible</em> — DC (adverb clause)</p></li>
-        <li><p><em>the athletes competed fiercely</em> — IC</p></li>
-        <li><p><em>the crowd cheered enthusiastically</em> — IC</p></li>
+        <li><p>Although the weather was terrible — DC (adverb clause)</p></li>
+        <li><p>the athletes competed fiercely — IC</p></li>
+        <li><p>the crowd cheered enthusiastically — IC</p></li>
       </ul>
 
       <p><em>Exercises:</em></p>
@@ -582,22 +582,22 @@
 
       <p>5. Add a coordinating conjunction (FANBOYS) to create a compound sentence:</p>
       <ul>
-        <li><p><em>The evidence was compelling ________ the jury remained skeptical.</em></p></li>
+        <li><p>The evidence was compelling ________ the jury remained skeptical.</p></li>
       </ul>
 
       <p>6. Add a subordinating conjunction to create a complex sentence:</p>
       <ul>
-        <li><p><em>________ you finish your assignment, you may leave early.</em></p></li>
+        <li><p>________ you finish your assignment, you may leave early.</p></li>
       </ul>
 
       <p>7. Add an appropriate conjunctive adverb with correct punctuation:</p>
       <ul>
-        <li><p><em>The experiment produced unexpected results ________ the team decided to repeat it.</em></p></li>
+        <li><p>The experiment produced unexpected results ________ the team decided to repeat it.</p></li>
       </ul>
 
       <p>8. Add a dependent clause to complete this sentence:</p>
       <ul>
-        <li><p><em>The professor praised the students ________.</em></p></li>
+        <li><p>The professor praised the students ________.</p></li>
       </ul>
 
     </subsection>
