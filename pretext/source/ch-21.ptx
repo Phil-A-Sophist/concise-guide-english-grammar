@@ -280,8 +280,8 @@
     <p>Languages without articles (Chinese, Japanese, Russian, etc.) pose challenges:</p>
 
     <ul>
-      <li><p><em>~~She is teacher.~~</em> → <em>She is <em>a</em> teacher.</em></p></li>
-      <li><p><em>~~I saw elephant.~~</em> → <em>I saw <em>an</em> elephant.</em></p></li>
+      <li><p><em>~~She is teacher.~~</em> → "She is <em>a</em> teacher."</p></li>
+      <li><p><em>~~I saw elephant.~~</em> → "I saw <em>an</em> elephant."</p></li>
     </ul>
 
     <p><em>Teaching tip</em>: Focus on the concept of countability and definiteness, not just rules.</p>
