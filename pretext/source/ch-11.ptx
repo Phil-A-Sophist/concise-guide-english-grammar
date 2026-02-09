@@ -37,9 +37,9 @@
     <p>In <em>active voice</em>, the subject performs the action:</p>
 
     <ul>
-      <li><p><em>The dog <em>bit</em> the man.</em> (subject = doer)</p></li>
-      <li><p><em>Maria <em>wrote</em> the report.</em> (subject = doer)</p></li>
-      <li><p><em>Someone <em>stole</em> my bicycle.</em> (subject = doer)</p></li>
+      <li><p>"The dog <em>bit</em> the man." (subject = doer)</p></li>
+      <li><p>"Maria <em>wrote</em> the report." (subject = doer)</p></li>
+      <li><p>"Someone <em>stole</em> my bicycle." (subject = doer)</p></li>
     </ul>
 
     <p>Active voice follows the pattern: <em>Agent (doer) + Verb + Patient (receiver)</em></p>
@@ -51,24 +51,24 @@
     <p>In <em>passive voice</em>, the subject receives the action:</p>
 
     <ul>
-      <li><p><em>The man <em>was bitten</em> by the dog.</em> (subject = receiver)</p></li>
-      <li><p><em>The report <em>was written</em> by Maria.</em> (subject = receiver)</p></li>
-      <li><p><em>My bicycle <em>was stolen</em>.</em> (subject = receiver)</p></li>
+      <li><p>"The man <em>was bitten</em> by the dog." (subject = receiver)</p></li>
+      <li><p>"The report <em>was written</em> by Maria." (subject = receiver)</p></li>
+      <li><p>"My bicycle <em>was stolen</em>." (subject = receiver)</p></li>
     </ul>
 
-    <p>Passive voice follows the pattern: *<em>Patient (receiver) + </em>be<em> + past participle (+ </em>by<em> agent)</em>*</p>
+    <p>Passive voice follows the pattern: *<em>Patient (receiver) + </em>be<em> + past participle (+ </em>by agent)*</p>
 
     <paragraphs>
       <title>Forming the Passive</title>
     </paragraphs>
 
-    <p><em>Active → Passive transformation:</em></p>
+    <p>Active → Passive transformation:</p>
 
     <ol>
       <li><p>The active object becomes the passive subject</p></li>
-      <li><p>Add appropriate form of <em>be</em></p></li>
+      <li><p>Add appropriate form of be</p></li>
       <li><p>Change the main verb to past participle</p></li>
-      <li><p>The active subject becomes optional <em>by</em>-phrase</p></li>
+      <li><p>The active subject becomes optional by-phrase</p></li>
     </ol>
 
     <tabular halign="left">
@@ -159,37 +159,37 @@
       <title>Appropriate Uses of Passive</title>
     </paragraphs>
 
-    <p><em>1. Agent is unknown or irrelevant:</em></p>
+    <p>1. Agent is unknown or irrelevant:</p>
 
     <ul>
-      <li><p><em>My car <em>was stolen</em> last night.</em> (who did it is unknown)</p></li>
-      <li><p><em>The building <em>was constructed</em> in 1920.</em> (builder not important)</p></li>
+      <li><p><em>My car was stolen last night.</em> (who did it is unknown)</p></li>
+      <li><p>"The building <em>was constructed</em> in 1920." (builder not important)</p></li>
     </ul>
 
     <p><em>2. Focusing on the action or patient:</em></p>
 
     <ul>
-      <li><p><em>The suspect <em>was arrested</em> at 3 a.m.</em></p></li>
-      <li><p><em>Three errors <em>were discovered</em> in the code.</em></p></li>
+      <li><p>"The suspect <em>was arrested</em> at 3 a.m."</p></li>
+      <li><p>"Three errors <em>were discovered</em> in the code."</p></li>
     </ul>
 
     <p><em>3. Scientific and academic writing</em> (for objectivity):</p>
 
     <ul>
-      <li><p><em>The samples <em>were analyzed</em> using spectroscopy.</em></p></li>
-      <li><p><em>The data <em>were collected</em> over six months.</em></p></li>
+      <li><p>"The samples <em>were analyzed</em> using spectroscopy."</p></li>
+      <li><p>"The data <em>were collected</em> over six months."</p></li>
     </ul>
 
     <p><em>4. Avoiding blame or responsibility:</em></p>
 
     <ul>
-      <li><p><em>Mistakes <em>were made</em>.</em> (who made them is obscured)</p></li>
+      <li><p>"Mistakes <em>were made</em>." (who made them is obscured)</p></li>
     </ul>
 
     <p><em>5. Maintaining topic continuity:</em></p>
 
     <ul>
-      <li><p><em>The report discussed several issues. These issues <em>were identified</em> by the committee.</em></p></li>
+      <li><p>"The report discussed several issues. These issues <em>were identified</em> by the committee."</p></li>
     </ul>
 
     <paragraphs>
@@ -199,22 +199,22 @@
     <p><em>When agent is important:</em></p>
 
     <ul>
-      <li><p>Weak: <em>The decision <em>was made</em>.</em></p></li>
-      <li><p>Stronger: <em>The CEO <em>made</em> the decision.</em></p></li>
+      <li><p>Weak: "The decision <em>was made</em>."</p></li>
+      <li><p>Stronger: "The CEO <em>made</em> the decision."</p></li>
     </ul>
 
     <p><em>When it creates confusion:</em></p>
 
     <ul>
       <li><p>Confusing: <em>The proposal <em>was rejected</em> by the committee that <em>was formed</em> by the board.</em></p></li>
-      <li><p>Clearer: <em>The committee that the board formed <em>rejected</em> the proposal.</em></p></li>
+      <li><p>Clearer: "The committee that the board formed <em>rejected</em> the proposal."</p></li>
     </ul>
 
     <p><em>When active is more direct:</em></p>
 
     <ul>
-      <li><p>Passive: <em>The ball <em>was kicked</em> by the child.</em></p></li>
-      <li><p>Active: <em>The child <em>kicked</em> the ball.</em></p></li>
+      <li><p>Passive: "The ball <em>was kicked</em> by the child."</p></li>
+      <li><p>Active: "The child <em>kicked</em> the ball."</p></li>
     </ul>
 
   </section>
@@ -225,9 +225,9 @@
     <p>English has an alternative passive formed with <em>get</em> instead of <em>be</em>:</p>
 
     <ul>
-      <li><p><em>He <em>got fired</em> last week.</em></p></li>
-      <li><p><em>She <em>got promoted</em> to manager.</em></p></li>
-      <li><p><em>They <em>got married</em> in June.</em></p></li>
+      <li><p>"He <em>got fired</em> last week."</p></li>
+      <li><p>"She <em>got promoted</em> to manager."</p></li>
+      <li><p>"They <em>got married</em> in June."</p></li>
     </ul>
 
     <p><em>Get-passive</em> is more informal and often implies:</p>
@@ -284,7 +284,7 @@
       </row>
       <row>
         <cell>might</cell>
-        <cell>possibility (weaker than <em>may</em>)</cell>
+        <cell>possibility (weaker than may)</cell>
       </row>
       <row>
         <cell>must</cell>
@@ -301,7 +301,7 @@
       <li><p>*<em>No </em>to<em> infinitive</em><em>: </em>You <em>must</em> leave.<em> (not </em>~~You must to leave~~*)</p></li>
       <li><p>*<em>No past participle or </em>-ing<em> form</em><em>: </em>~~musted~~<em>, </em>~~musting~~*</p></li>
       <li><p>Cannot combine directly: <em>~~She can must go~~</em></p></li>
-      <li><p>Form questions by inversion: <em><em>Can</em> she go?</em></p></li>
+      <li><p>Form questions by inversion: Can she go?</p></li>
       <li><p>*<em>Form negatives with </em>not**<em>: </em>She <em>cannot</em> go.*</p></li>
     </ol>
 
@@ -317,22 +317,22 @@
     <p><em>Ability</em>:</p>
 
     <ul>
-      <li><p><em>She <em>can</em> speak French.</em> (present ability)</p></li>
-      <li><p><em>She <em>could</em> speak French when she was young.</em> (past ability)</p></li>
+      <li><p>"She <em>can</em> speak French." (present ability)</p></li>
+      <li><p>"She <em>could</em> speak French when she was young." (past ability)</p></li>
     </ul>
 
     <p><em>Possibility</em>:</p>
 
     <ul>
-      <li><p><em>It <em>can</em> get cold here in winter.</em> (general possibility)</p></li>
-      <li><p><em>That <em>could</em> be true.</em> (specific possibility)</p></li>
+      <li><p>"It <em>can</em> get cold here in winter." (general possibility)</p></li>
+      <li><p>"That <em>could</em> be true." (specific possibility)</p></li>
     </ul>
 
     <p><em>Permission</em>:</p>
 
     <ul>
-      <li><p><em><em>Can</em> I leave early?</em> (informal)</p></li>
-      <li><p><em><em>Could</em> I borrow your pen?</em> (polite)</p></li>
+      <li><p>Can I leave early? (informal)</p></li>
+      <li><p>Could I borrow your pen? (polite)</p></li>
     </ul>
 
     <paragraphs>
@@ -342,34 +342,34 @@
     <p><em>Future</em>:</p>
 
     <ul>
-      <li><p><em>I <em>will</em> call you tomorrow.</em></p></li>
-      <li><p><em>She <em>will</em> be at the meeting.</em></p></li>
+      <li><p>"I <em>will</em> call you tomorrow."</p></li>
+      <li><p>"She <em>will</em> be at the meeting."</p></li>
     </ul>
 
     <p><em>Willingness</em>:</p>
 
     <ul>
-      <li><p><em><em>Will</em> you help me?</em></p></li>
-      <li><p><em>I <em>won't</em> tolerate that behavior.</em></p></li>
+      <li><p>Will you help me?</p></li>
+      <li><p>"I <em>won't</em> tolerate that behavior."</p></li>
     </ul>
 
     <p><em>Hypothetical/Conditional</em>:</p>
 
     <ul>
-      <li><p><em>I <em>would</em> go if I had time.</em></p></li>
-      <li><p><em>What <em>would</em> you do?</em></p></li>
+      <li><p>"I <em>would</em> go if I had time."</p></li>
+      <li><p>"What <em>would</em> you do?"</p></li>
     </ul>
 
     <p><em>Polite requests</em>:</p>
 
     <ul>
-      <li><p><em><em>Would</em> you close the door?</em></p></li>
+      <li><p>Would you close the door?</p></li>
     </ul>
 
     <p><em>Past habit</em>:</p>
 
     <ul>
-      <li><p><em>We <em>would</em> go fishing every summer.</em></p></li>
+      <li><p>"We <em>would</em> go fishing every summer."</p></li>
     </ul>
 
     <paragraphs>
@@ -379,35 +379,35 @@
     <p><em>Shall</em> (formal, mostly British):</p>
 
     <ul>
-      <li><p><em><em>Shall</em> I open the window?</em> (offer)</p></li>
-      <li><p><em>We <em>shall</em> overcome.</em> (determination)</p></li>
+      <li><p>Shall I open the window? (offer)</p></li>
+      <li><p>"We <em>shall</em> overcome." (determination)</p></li>
     </ul>
 
     <p><em>Should</em> (obligation, expectation):</p>
 
     <ul>
-      <li><p><em>You <em>should</em> apologize.</em> (advice/obligation)</p></li>
-      <li><p><em>She <em>should</em> arrive soon.</em> (expectation)</p></li>
-      <li><p><em>If you <em>should</em> need help, call me.</em> (hypothetical)</p></li>
+      <li><p>"You <em>should</em> apologize." (advice/obligation)</p></li>
+      <li><p>"She <em>should</em> arrive soon." (expectation)</p></li>
+      <li><p>"If you <em>should</em> need help, call me." (hypothetical)</p></li>
     </ul>
 
     <paragraphs>
       <title>*May* and *Might*</title>
     </paragraphs>
 
-    <p><em>Permission</em> (<em>may</em>):</p>
+    <p><em>Permission</em> (may):</p>
 
     <ul>
-      <li><p><em><em>May</em> I come in?</em> (formal)</p></li>
-      <li><p><em>You <em>may</em> leave when finished.</em></p></li>
+      <li><p>May I come in? (formal)</p></li>
+      <li><p>"You <em>may</em> leave when finished."</p></li>
     </ul>
 
     <p><em>Possibility</em>:</p>
 
     <ul>
-      <li><p><em>It <em>may</em> rain tomorrow.</em> (possible)</p></li>
-      <li><p><em>It <em>might</em> rain tomorrow.</em> (less certain)</p></li>
-      <li><p><em>She <em>may</em> have forgotten.</em> (possible past)</p></li>
+      <li><p>"It <em>may</em> rain tomorrow." (possible)</p></li>
+      <li><p>"It <em>might</em> rain tomorrow." (less certain)</p></li>
+      <li><p>"She <em>may</em> have forgotten." (possible past)</p></li>
     </ul>
 
     <paragraphs>
@@ -417,18 +417,18 @@
     <p><em>Necessity/Obligation</em>:</p>
 
     <ul>
-      <li><p><em>You <em>must</em> submit the form by Friday.</em></p></li>
-      <li><p><em>Visitors <em>must</em> sign in.</em></p></li>
+      <li><p>"You <em>must</em> submit the form by Friday."</p></li>
+      <li><p>"Visitors <em>must</em> sign in."</p></li>
     </ul>
 
     <p><em>Logical conclusion</em>:</p>
 
     <ul>
-      <li><p><em>She's not answering—she <em>must</em> be asleep.</em></p></li>
-      <li><p><em>He <em>must</em> have left already.</em> (deduction about past)</p></li>
+      <li><p>"She's not answering—she <em>must</em> be asleep."</p></li>
+      <li><p>"He <em>must</em> have left already." (deduction about past)</p></li>
     </ul>
 
-    <p><em>Note</em>: For negation, <em>must not</em> means prohibition (<em>You must not enter</em>), while <em>don't have to</em> means lack of necessity (<em>You don't have to enter</em>).</p>
+    <p><em>Note</em>: For negation, <em>must not</em> means prohibition (You must not enter), while <em>don't have to</em> means lack of necessity (You don't have to enter).</p>
 
   </section>
 
@@ -444,9 +444,9 @@
     <p><em>Epistemic modality</em> concerns knowledge, belief, and certainty about whether something is true:</p>
 
     <ul>
-      <li><p><em>She <em>must</em> be home.</em> (I conclude this)</p></li>
-      <li><p><em>He <em>might</em> know the answer.</em> (possibly)</p></li>
-      <li><p><em>That <em>can't</em> be right.</em> (impossibility)</p></li>
+      <li><p>"She <em>must</em> be home." (I conclude this)</p></li>
+      <li><p>"He <em>might</em> know the answer." (possibly)</p></li>
+      <li><p>"That <em>can't</em> be right." (impossibility)</p></li>
     </ul>
 
     <paragraphs>
@@ -456,16 +456,16 @@
     <p><em>Deontic modality</em> concerns obligation, permission, and necessity for action:</p>
 
     <ul>
-      <li><p><em>You <em>must</em> leave now.</em> (obligation)</p></li>
-      <li><p><em>You <em>may</em> enter.</em> (permission)</p></li>
-      <li><p><em><em>Can</em> I go?</em> (asking permission)</p></li>
+      <li><p>"You <em>must</em> leave now." (obligation)</p></li>
+      <li><p>"You <em>may</em> enter." (permission)</p></li>
+      <li><p>Can I go? (asking permission)</p></li>
     </ul>
 
     <p>The same modal can have both meanings:</p>
 
     <ul>
-      <li><p><em>You <em>must</em> be tired.</em> (epistemic—I deduce you're tired)</p></li>
-      <li><p><em>You <em>must</em> rest.</em> (deontic—I'm telling you to rest)</p></li>
+      <li><p>"You <em>must</em> be tired." (epistemic—I deduce you're tired)</p></li>
+      <li><p>"You <em>must</em> rest." (deontic—I'm telling you to rest)</p></li>
     </ul>
 
   </section>
@@ -488,42 +488,42 @@
       <row>
         <cell>have to</cell>
         <cell>necessity</cell>
-        <cell><em>I <em>have to</em> leave.</em></cell>
+        <cell>"I have to leave."</cell>
       </row>
       <row>
         <cell>have got to</cell>
         <cell>necessity (informal)</cell>
-        <cell><em>I'<em>ve got to</em> go.</em></cell>
+        <cell>"I've got to go."</cell>
       </row>
       <row>
         <cell>be able to</cell>
         <cell>ability</cell>
-        <cell><em>She'<em>s able to</em> help.</em></cell>
+        <cell>"She's able to help."</cell>
       </row>
       <row>
         <cell>be going to</cell>
         <cell>future intention</cell>
-        <cell><em>I'<em>m going to</em> study.</em></cell>
+        <cell>"I'm going to study."</cell>
       </row>
       <row>
         <cell>be supposed to</cell>
         <cell>expectation/obligation</cell>
-        <cell><em>You'<em>re supposed to</em> wait.</em></cell>
+        <cell>"You're supposed to wait."</cell>
       </row>
       <row>
         <cell>be allowed to</cell>
         <cell>permission</cell>
-        <cell><em>We'<em>re allowed to</em> leave.</em></cell>
+        <cell>"We're allowed to leave."</cell>
       </row>
       <row>
         <cell>ought to</cell>
         <cell>obligation</cell>
-        <cell><em>You <em>ought to</em> apologize.</em></cell>
+        <cell>"You ought to apologize."</cell>
       </row>
       <row>
         <cell>used to</cell>
         <cell>past habit</cell>
-        <cell><em>I <em>used to</em> live there.</em></cell>
+        <cell>"I used to live there."</cell>
       </row>
     </tabular>
 
@@ -534,8 +534,8 @@
     <p>Unlike true modals, semi-modals:</p>
 
     <ul>
-      <li><p>Can be inflected: <em>She <em>has to</em> go.</em> (third person <em>-s</em>)</p></li>
-      <li><p>Can follow other modals: <em>You <em>will have to</em> leave.</em></p></li>
+      <li><p>Can be inflected: "She <em>has to</em> go." (third person -s)</p></li>
+      <li><p>Can follow other modals: "You <em>will have to</em> leave."</p></li>
       <li><p>Can take <em>-ing</em> or infinitive forms: <em>Having to leave upset her.</em></p></li>
     </ul>
 
@@ -549,11 +549,11 @@
     <p><em>Modal + have + past participle</em>:</p>
 
     <ul>
-      <li><p><em>She <em>must have left</em>.</em> (I conclude she left)</p></li>
-      <li><p><em>He <em>might have forgotten</em>.</em> (possibly he forgot)</p></li>
-      <li><p><em>You <em>should have called</em>.</em> (but you didn't—criticism)</p></li>
-      <li><p><em>I <em>would have helped</em> if I could.</em> (hypothetical past)</p></li>
-      <li><p><em>They <em>could have won</em>.</em> (they had the ability but didn't)</p></li>
+      <li><p>"She <em>must have left</em>." (I conclude she left)</p></li>
+      <li><p>"He <em>might have forgotten</em>." (possibly he forgot)</p></li>
+      <li><p>"You <em>should have called</em>." (but you didn't—criticism)</p></li>
+      <li><p>"I <em>would have helped</em> if I could." (hypothetical past)</p></li>
+      <li><p>"They <em>could have won</em>." (they had the ability but didn't)</p></li>
     </ul>
 
     <paragraphs>
@@ -939,7 +939,7 @@
     </gi>
     <gi>
       <title>Semi-modal</title>
-      <p>A multi-word expression functioning like a modal (<em>have to</em>, <em>be able to</em>).</p>
+      <p>A multi-word expression functioning like a modal (have to, be able to).</p>
     </gi>
     <gi>
       <title>Voice</title>
