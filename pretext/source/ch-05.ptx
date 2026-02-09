@@ -29,7 +29,7 @@
       <li><p>An adverb modifies a verb.</p></li>
     </ul>
 
-    <p>These <em>semantic</em> definitions—definitions based on meaning—are helpful starting points. They work well for many common words: <em>teacher</em> names a person (noun), <em>run</em> expresses an action (verb), <em>tall</em> describes a quality (adjective), <em>quickly</em> tells how an action is performed (adverb).</p>
+    <p>These <term>semantic</term> definitions—definitions based on meaning—are helpful starting points. They work well for many common words: teacher names a person (noun), run expresses an action (verb), tall describes a quality (adjective), quickly tells how an action is performed (adverb).</p>
 
     <paragraphs>
       <title>The Limits of Semantic Definitions</title>
@@ -37,11 +37,11 @@
 
     <p>But semantic definitions run into trouble surprisingly often. Consider these challenges:</p>
 
-    <p><em>Is "destruction" a thing?</em> The word <em>destruction</em> is clearly a noun—it follows <em>the</em> (<em>the destruction</em>), it can be plural (<em>destructions</em>), and it has a noun suffix (<em>-tion</em>). Yet it doesn't name a "thing" in any concrete sense. It names an action or event. Similarly, <em>arrival</em>, <em>swimming</em>, <em>development</em>, and <em>happiness</em> are all nouns, but none names a "person, place, or thing."</p>
+    <p><em>Is "destruction" a thing?</em> The word destruction is clearly a noun—it follows the (the destruction), it can be plural (destructions), and it has a noun suffix (-tion). Yet it doesn't name a "thing" in any concrete sense. It names an action or event. Similarly, arrival, swimming, development, and happiness are all nouns, but none names a "person, place, or thing."</p>
 
-    <p><em>Is "know" an action?</em> The verb <em>know</em> doesn't describe anything we actively do—it describes a mental state. So do <em>believe</em>, <em>own</em>, <em>resemble</em>, and <em>deserve</em>. These are verbs, but calling them "action words" stretches the definition uncomfortably.</p>
+    <p><em>Is "know" an action?</em> The verb know doesn't describe anything we actively do—it describes a mental state. So do believe, own, resemble, and deserve. These are verbs, but calling them "action words" stretches the definition uncomfortably.</p>
 
-    <p><em>Where do function words fit?</em> What "thing" does <em>the</em> name? What action does <em>is</em> perform? Words like <em>the</em>, <em>a</em>, <em>of</em>, and <em>very</em> play grammatical roles that semantic definitions cannot easily capture.</p>
+    <p><em>Where do function words fit?</em> What "thing" does the name? What action does is perform? Words like the, a, of, and very play grammatical roles that semantic definitions cannot easily capture.</p>
 
     <p>The fundamental problem is that semantic definitions work backward: they assume we already know what the word means and then try to fit that meaning into a category. But meaning is slippery, and the same word can mean different things in different contexts.</p>
 
@@ -51,11 +51,11 @@
 
     <p>In this course, we'll use two more reliable methods for identifying parts of speech:</p>
 
-    <p><em>Morphological tests</em> examine what <em>forms</em> a word can take—what endings or inflections it accepts. Nouns can be plural and possessive. Verbs can take past tense and <em>-ing</em>. Adjectives can be compared. These patterns are consistent regardless of meaning.</p>
+    <p><term>Morphological tests</term> examine what <em>forms</em> a word can take—what endings or inflections it accepts. Nouns can be plural and possessive. Verbs can take past tense and -ing. Adjectives can be compared. These patterns are consistent regardless of meaning.</p>
 
-    <p><em>Syntactic tests</em> examine how a word <em>functions</em> in sentences—where it can appear and what other words can accompany it. Nouns follow determiners like <em>the</em>. Verbs follow modals like <em>can</em>. Adjectives appear between <em>the</em> and a noun.</p>
+    <p><term>Syntactic tests</term> examine how a word <em>functions</em> in sentences—where it can appear and what other words can accompany it. Nouns follow determiners like the. Verbs follow modals like can. Adjectives appear between the and a noun.</p>
 
-    <p>Together, these tests give us objective criteria for classification. Rather than asking "Does this word name a thing?" (which is debatable), we ask "Can this word be pluralized? Can it follow <em>the</em>?" (which we can test directly).</p>
+    <p>Together, these tests give us objective criteria for classification. Rather than asking "Does this word name a thing?" (which is debatable), we ask "Can this word be pluralized? Can it follow the?" (which we can test directly).</p>
 
     <paragraphs>
       <title>The Two Questions</title>
@@ -79,7 +79,7 @@
     <p>For example, <em>happy</em> is an adjective. How do we know? Because it passes the tests for adjectives:</p>
 
     <ul>
-      <li><p>It can be compared: <em>happier</em>, <em>happiest</em></p></li>
+      <li><p>It can be compared: happier, happiest</p></li>
       <li><p>It can be modified by <em>very</em>: <em>very happy</em></p></li>
       <li><p>It can appear after linking verbs: <em>She seems happy</em></p></li>
     </ul>
@@ -92,11 +92,11 @@
 
     <p><em>Function</em> refers to the grammatical role a word plays in a specific sentence. The same word can perform different functions in different sentences—and sometimes a word's function differs from what we'd expect based on its form.</p>
 
-    <p>Consider the word <em>poor</em>:</p>
+    <p>Consider the word poor:</p>
 
-    <p><em>The <em>poor</em> deserve our help.</em></p>
+    <p>"The <em>poor</em> deserve our help."</p>
 
-    <p>What is <em>poor</em>? By form, it's an adjective (it can be graded: <em>poorer</em>, <em>poorest</em>). But what is it doing in this sentence? It's functioning as a noun—it follows a determiner (<em>the</em>), it serves as the subject of the sentence, and it refers to a group of people. We call this an <em>adjective functioning nominally</em> (doing the job of a noun).</p>
+    <p>What is <em>poor</em>? By form, it's an adjective (it can be graded: poorer, poorest). But what is it doing in this sentence? It's functioning as a noun—it follows a determiner (the), it serves as the subject of the sentence, and it refers to a group of people. We call this an <em>adjective functioning nominally</em> (doing the job of a noun).</p>
 
     <paragraphs>
       <title>Form and Function Can Match or Differ</title>
@@ -104,33 +104,33 @@
 
     <p><em>Example 1: Form and function match</em></p>
 
-    <p><em>She spoke <em>quietly</em>.</em></p>
+    <p>"She spoke <em>quietly</em>."</p>
 
     <ul>
-      <li><p>Form: <em>quietly</em> is an adverb (formed with <em>-ly</em> from adjective <em>quiet</em>)</p></li>
-      <li><p>Function: <em>quietly</em> functions adverbially (it modifies the verb <em>spoke</em>, telling us how she spoke)</p></li>
+      <li><p>Form: quietly is an adverb (formed with -ly from adjective quiet)</p></li>
+      <li><p>Function: quietly functions adverbially (it modifies the verb spoke, telling us how she spoke)</p></li>
     </ul>
 
     <p>Here form and function align—an adverb doing adverb work.</p>
 
     <p><em>Example 2: Form and function differ</em></p>
 
-    <p><em>The <em>coffee</em> table needs dusting.</em></p>
+    <p>"The <em>coffee</em> table needs dusting."</p>
 
     <ul>
-      <li><p>Form: <em>coffee</em> is a noun (it can be pluralized: <em>coffees</em>; it can follow determiners: <em>the coffee</em>)</p></li>
-      <li><p>Function: <em>coffee</em> functions adjectivally (it modifies <em>table</em>, telling us what kind of table)</p></li>
+      <li><p>Form: coffee is a noun (it can be pluralized: coffees; it can follow determiners: the coffee)</p></li>
+      <li><p>Function: coffee functions adjectivally (it modifies table, telling us what kind of table)</p></li>
     </ul>
 
     <p>Here a noun is doing the work typically done by adjectives.</p>
 
     <p><em>Example 3: Another mismatch</em></p>
 
-    <p><em>She runs <em>fast</em>.</em></p>
+    <p>"She runs <em>fast</em>."</p>
 
     <ul>
-      <li><p>Form: <em>fast</em> is typically an adjective (<em>a fast car</em>, <em>faster</em>, <em>fastest</em>)</p></li>
-      <li><p>Function: <em>fast</em> functions adverbially (it modifies <em>runs</em>, telling us how she runs)</p></li>
+      <li><p>Form: fast is typically an adjective (a fast car, faster, fastest)</p></li>
+      <li><p>Function: fast functions adverbially (it modifies runs, telling us how she runs)</p></li>
     </ul>
 
     <paragraphs>
@@ -146,7 +146,7 @@
       </li>
       <li>
         <title>Labels depend on context</title>
-        <p>You cannot fully describe a word's grammar without seeing it in a sentence. The word <em>walk</em> is a verb in "I walk to school" but a noun in "The walk was pleasant."</p>
+        <p>You cannot fully describe a word's grammar without seeing it in a sentence. The word walk is a verb in "I walk to school" but a noun in "The walk was pleasant."</p>
       </li>
       <li>
         <title>Complete analysis requires both</title>
@@ -172,19 +172,19 @@
       </row>
       <row>
         <cell>Nouns</cell>
-        <cell><em>selfie</em>, <em>cryptocurrency</em>, <em>podcast</em>, <em>meme</em>, <em>influencer</em></cell>
+        <cell>selfie, cryptocurrency, podcast, meme, influencer</cell>
       </row>
       <row>
         <cell>Verbs</cell>
-        <cell><em>google</em>, <em>tweet</em>, <em>zoom</em>, <em>ghost</em> (meaning to ignore), <em>stream</em></cell>
+        <cell>google, tweet, zoom, ghost (meaning to ignore), stream</cell>
       </row>
       <row>
         <cell>Adjectives</cell>
-        <cell><em>viral</em>, <em>sustainable</em>, <em>gluten-free</em>, <em>binge-worthy</em></cell>
+        <cell>viral, sustainable, gluten-free, binge-worthy</cell>
       </row>
       <row>
         <cell>Adverbs</cell>
-        <cell><em>literally</em> (emphatic), <em>lowkey</em>, <em>ironically</em> (new usage)</cell>
+        <cell>literally (emphatic), lowkey, ironically (new usage)</cell>
       </row>
     </tabular>
 
@@ -228,13 +228,13 @@
     <p>Which word is essential? We can remove words one by one:</p>
 
     <ul>
-      <li><p><em>the tall student from Ohio</em> → <em>tall student from Ohio</em> (still works)</p></li>
-      <li><p><em>tall student from Ohio</em> → <em>student from Ohio</em> (still works)</p></li>
-      <li><p><em>student from Ohio</em> → <em>student</em> (still works)</p></li>
-      <li><p><em>student</em> → ??? (remove <em>student</em> and nothing remains)</p></li>
+      <li><p>the tall student from Ohio → tall student from Ohio (still works)</p></li>
+      <li><p>tall student from Ohio → student from Ohio (still works)</p></li>
+      <li><p>student from Ohio → student (still works)</p></li>
+      <li><p><em>student</em> → ??? (remove student and nothing remains)</p></li>
     </ul>
 
-    <p>The word <em>student</em> is the head. Every other word in the phrase—<em>the</em>, <em>tall</em>, <em>from Ohio</em>—is optional. But <em>student</em> is required. Because the head is a noun, the whole phrase is a <em>noun phrase (NP)</em>.</p>
+    <p>The word student is the head. Every other word in the phrase—the, tall, from Ohio—is optional. But <em>student</em> is required. Because the head is a noun, the whole phrase is a <em>noun phrase (NP)</em>.</p>
 
     <paragraphs>
       <title>Modifiers</title>
@@ -380,9 +380,9 @@
 
     <p><em>Nouns</em> are the naming words of language—they identify the people, places, things, concepts, and ideas we talk about. Nouns are also the most common word class in English, making up roughly 37% of words in typical texts. Every sentence has at least one noun (or pronoun standing in for a noun), and many sentences have several. But nouns do far more than simply label concrete objects. They name everything that human beings can think about, experience, or imagine—from the tangible realities of everyday life to the most abstract reaches of philosophy and emotion.</p>
 
-    <p>Consider the enormous range of semantic information that nouns convey. <em>Concrete nouns</em> name entities we can perceive with our senses: people (<em>teacher</em>, <em>doctor</em>, <em>child</em>), places (<em>Paris</em>, <em>kitchen</em>, <em>forest</em>), and physical objects (<em>table</em>, <em>car</em>, <em>river</em>). <em>Abstract nouns</em>, on the other hand, name things we cannot touch or see directly: ideas (<em>freedom</em>, <em>justice</em>, <em>democracy</em>), emotions (<em>happiness</em>, <em>anger</em>, <em>grief</em>), qualities (<em>beauty</em>, <em>strength</em>, <em>intelligence</em>), and events (<em>arrival</em>, <em>destruction</em>, <em>celebration</em>).</p>
+    <p>Consider the enormous range of semantic information that nouns convey. <em>Concrete nouns</em> name entities we can perceive with our senses: people (teacher, doctor, child), places (Paris, kitchen, forest), and physical objects (table, car, river). <em>Abstract nouns</em>, on the other hand, name things we cannot touch or see directly: ideas (freedom, justice, democracy), emotions (happiness, anger, grief), qualities (beauty, strength, intelligence), and events (arrival, destruction, celebration).</p>
 
-    <p>What makes nouns especially interesting is that they can name actions (<em>destruction</em>, <em>swimming</em>, <em>departure</em>), states (<em>happiness</em>, <em>confusion</em>, <em>awareness</em>), and relationships (<em>friendship</em>, <em>partnership</em>, <em>rivalry</em>). When we say <em>The destruction of the city was devastating</em>, the word <em>destruction</em> names an event—something that happened—yet grammatically it behaves exactly like any other noun. This vast semantic range is precisely why the traditional "person, place, thing, or idea" definition is inadequate. It tries to capture meaning in a tidy formula, but the kinds of meaning that nouns express resist such simple categorization.</p>
+    <p>What makes nouns especially interesting is that they can name actions (destruction, swimming, departure), states (happiness, confusion, awareness), and relationships (friendship, partnership, rivalry). When we say <em>The destruction of the city was devastating</em>, the word destruction names an event—something that happened—yet grammatically it behaves exactly like any other noun. This vast semantic range is precisely why the traditional "person, place, thing, or idea" definition is inadequate. It tries to capture meaning in a tidy formula, but the kinds of meaning that nouns express resist such simple categorization.</p>
 
     <!-- SEMANTIC DISCUSSION (moved up, expanded) -->
 
@@ -390,11 +390,11 @@
       <title>Why Semantic Definitions Can Mislead</title>
     </paragraphs>
 
-    <p>The traditional definition of nouns—"words that name people, places, things, or ideas"—works much of the time. <em>Teacher</em>, <em>Paris</em>, <em>table</em>, and <em>freedom</em> are all nouns. But meaning can mislead us. Is <em>destruction</em> a "thing"? What about <em>arrival</em> or <em>swimming</em>? These are nouns too, but they seem to name actions rather than objects.</p>
+    <p>The traditional definition of nouns—"words that name people, places, things, or ideas"—works much of the time. Teacher, Paris, table, and <em>freedom</em> are all nouns. But meaning can mislead us. Is <em>destruction</em> a "thing"? What about <em>arrival</em> or <em>swimming</em>? These are nouns too, but they seem to name actions rather than objects.</p>
 
-    <p>The problem runs deeper than a few awkward examples. Consider how many nouns describe processes or activities: <em>investigation</em>, <em>negotiation</em>, <em>performance</em>, <em>growth</em>. These words name things that happen over time—they are semantically closer to verbs than to the prototypical "things" that the traditional definition envisions. Or consider nouns like <em>absence</em>, <em>silence</em>, and <em>emptiness</em>, which name the <em>lack</em> of something. Can an absence really be called a "thing" or an "idea"? Technically perhaps, but the label becomes so stretched as to be meaningless.</p>
+    <p>The problem runs deeper than a few awkward examples. Consider how many nouns describe processes or activities: investigation, negotiation, performance, growth. These words name things that happen over time—they are semantically closer to verbs than to the prototypical "things" that the traditional definition envisions. Or consider nouns like <em>absence</em>, <em>silence</em>, and <em>emptiness</em>, which name the <em>lack</em> of something. Can an absence really be called a "thing" or an "idea"? Technically perhaps, but the label becomes so stretched as to be meaningless.</p>
 
-    <p>There is also the problem of overlap between categories. <em>Love</em> can be a noun (<em>Their love was strong</em>) or a verb (<em>They love each other</em>). <em>Run</em> can be a verb (<em>She runs daily</em>) or a noun (<em>She went for a run</em>). If nouns are "things" and verbs are "actions," how do we handle words that seem to be both? The answer is that we do not rely on meaning alone. Meaning gives us a starting intuition, but grammar gives us certainty.</p>
+    <p>There is also the problem of overlap between categories. <em>Love</em> can be a noun (Their love was strong) or a verb (They love each other). <em>Run</em> can be a verb (She runs daily) or a noun (She went for a run). If nouns are "things" and verbs are "actions," how do we handle words that seem to be both? The answer is that we do not rely on meaning alone. Meaning gives us a starting intuition, but grammar gives us certainty.</p>
 
     <p>The reliable way to identify nouns is through their grammatical behavior—specifically, through tests that reveal their morphological and syntactic properties.</p>
 
@@ -411,13 +411,13 @@
     <p>Nouns can typically be made plural. This is perhaps the most reliable morphological test for nouns:</p>
 
     <ul>
-      <li><p><em>book</em> → <em>books</em></p></li>
-      <li><p><em>child</em> → <em>children</em></p></li>
-      <li><p><em>analysis</em> → <em>analyses</em></p></li>
-      <li><p><em>happiness</em> → <em>happinesses</em> (rare but grammatical)</p></li>
+      <li><p>book → books</p></li>
+      <li><p>child → children</p></li>
+      <li><p>analysis → analyses</p></li>
+      <li><p>happiness → happinesses (rare but grammatical)</p></li>
     </ul>
 
-    <p>If you can pluralize a word, it's almost certainly a noun. Note that some nouns resist pluralization (mass nouns like <em>water</em>, <em>information</em>), but the fact that we can even ask the question &quot;Can this be plural?&quot; suggests noun-hood.</p>
+    <p>If you can pluralize a word, it's almost certainly a noun. Note that some nouns resist pluralization (mass nouns like water, information), but the fact that we can even ask the question &quot;Can this be plural?&quot; suggests noun-hood.</p>
 
     <p><em>Test 2: Possessive marking</em></p>
 
@@ -442,23 +442,23 @@
       </row>
       <row>
         <cell>-tion/-sion</cell>
-        <cell><em>action</em>, <em>decision</em>, <em>conclusion</em></cell>
+        <cell>action, decision, conclusion</cell>
       </row>
       <row>
         <cell>-ness</cell>
-        <cell><em>happiness</em>, <em>awkwardness</em>, <em>cleverness</em></cell>
+        <cell>happiness, awkwardness, cleverness</cell>
       </row>
       <row>
         <cell>-ity</cell>
-        <cell><em>curiosity</em>, <em>generosity</em>, <em>ambiguity</em></cell>
+        <cell>curiosity, generosity, ambiguity</cell>
       </row>
       <row>
         <cell>-ment</cell>
-        <cell><em>government</em>, <em>amazement</em>, <em>establishment</em></cell>
+        <cell>government, amazement, establishment</cell>
       </row>
       <row>
         <cell>-er/-or</cell>
-        <cell><em>teacher</em>, <em>actor</em>, <em>writer</em></cell>
+        <cell>teacher, actor, writer</cell>
       </row>
     </tabular>
 
@@ -474,12 +474,12 @@
 
     <p><em>Test 1: The determiner test</em></p>
 
-    <p>Nouns can follow words like <em>a</em>, <em>the</em>, <em>this</em>, <em>my</em>, and <em>every</em>. These words (called determiners) specifically introduce nouns:</p>
+    <p>Nouns can follow words like a, the, this, my, and <em>every</em>. These words (called determiners) specifically introduce nouns:</p>
 
     <ul>
-      <li><p><em>the <em>proposal</em></em></p></li>
-      <li><p><em>a <em>happiness</em></em></p></li>
-      <li><p><em>every <em>decision</em></em></p></li>
+      <li><p>the proposal</p></li>
+      <li><p>a happiness</p></li>
+      <li><p>every decision</p></li>
     </ul>
 
     <p>This test is powerful because determiners exclusively precede nouns. If <em>the</em> or <em>a</em> can go in front of a word, that word is functioning as a noun.</p>
@@ -489,8 +489,8 @@
     <p>Nouns can be modified by adjectives—words that describe qualities:</p>
 
     <ul>
-      <li><p><em>the <em>new</em> proposal</em></p></li>
-      <li><p><em>a <em>great</em> happiness</em></p></li>
+      <li><p>the new proposal</p></li>
+      <li><p>a great happiness</p></li>
       <li><p><em>every <em>important</em> decision</em></p></li>
     </ul>
 
@@ -498,12 +498,12 @@
 
     <p><em>Test 3: The pronoun replacement test</em></p>
 
-    <p>A noun (along with its modifiers) can be replaced by a pronoun like <em>it</em>, <em>they</em>, or <em>she</em>:</p>
+    <p>A noun (along with its modifiers) can be replaced by a pronoun like it, they, or she:</p>
 
     <ul>
-      <li><p><em>The new proposal</em> → <em>It</em></p></li>
-      <li><p><em>My older brother</em> → <em>He</em></p></li>
-      <li><p><em>Those expensive books</em> → <em>They</em></p></li>
+      <li><p>The new proposal → It</p></li>
+      <li><p>My older brother → He</p></li>
+      <li><p>Those expensive books → They</p></li>
     </ul>
 
     <p>This test helps identify noun phrases—groups of words built around a noun.</p>
@@ -513,9 +513,9 @@
     <p>Nouns naturally fill the subject and object slots in sentences:</p>
 
     <ul>
-      <li><p>Subject: <em><em>Books</em> are expensive.</em></p></li>
-      <li><p>Direct object: <em>I bought <em>books</em>.</em></p></li>
-      <li><p>Object of preposition: <em>I learned from <em>books</em>.</em></p></li>
+      <li><p>Subject: Books are expensive.</p></li>
+      <li><p>Direct object: "I bought <em>books</em>."</p></li>
+      <li><p>Object of preposition: "I learned from <em>books</em>."</p></li>
     </ul>
 
     <!-- PHRASE STRUCTURE (moved down) -->
@@ -548,18 +548,18 @@
       <title>A complex noun phrase with multiple modifiers</title>
     </paragraphs>
 
-    <p>Here we have multiple pre-modifiers (<em>the</em>, <em>brilliant</em>, <em>young</em>) and a prepositional phrase post-modifier (<em>from Ohio</em>). Notice how the PP contains its own NP (<em>Ohio</em>)—phrases nest inside phrases.</p>
+    <p>Here we have multiple pre-modifiers (the, brilliant, young) and a prepositional phrase post-modifier (from Ohio). Notice how the PP contains its own NP (Ohio)—phrases nest inside phrases.</p>
 
     <p><em>Pre-modifiers</em> in noun phrases include:</p>
     <ul>
-      <li><p>Determiners: <em>the</em>, <em>a</em>, <em>my</em>, <em>this</em>, <em>every</em></p></li>
-      <li><p>Adjectives: <em>tall</em>, <em>beautiful</em>, <em>old</em>, <em>interesting</em></p></li>
-      <li><p>Other nouns (functioning adjectivally): <em>coffee</em> (in <em>coffee table</em>), <em>history</em> (in <em>history professor</em>)</p></li>
+      <li><p>Determiners: the, a, my, this, every</p></li>
+      <li><p>Adjectives: tall, beautiful, old, interesting</p></li>
+      <li><p>Other nouns (functioning adjectivally): <em>coffee</em> (in coffee table), <em>history</em> (in history professor)</p></li>
     </ul>
 
     <p><em>Post-modifiers</em> in noun phrases include:</p>
     <ul>
-      <li><p>Prepositional phrases: <em>the man <em>in the hat</em></em>, <em>a book <em>about linguistics</em></em></p></li>
+      <li><p>Prepositional phrases: the man in the hat, a book about linguistics</p></li>
     </ul>
 
     <!-- IDENTIFYING THE HEAD (moved down) -->
@@ -593,26 +593,26 @@
     <p><em>Common vs. Proper Nouns</em></p>
 
     <ul>
-      <li><p><em>Common nouns</em> name general categories: <em>city</em>, <em>teacher</em>, <em>book</em></p></li>
-      <li><p><em>Proper nouns</em> name specific, unique entities: <em>Chicago</em>, <em>Professor Smith</em>, <em>Friday</em></p></li>
+      <li><p><em>Common nouns</em> name general categories: city, teacher, book</p></li>
+      <li><p><em>Proper nouns</em> name specific, unique entities: Chicago, Professor Smith, Friday</p></li>
     </ul>
 
-    <p>Proper nouns are capitalized and often don't take determiners: <em>Chicago is large</em> (not <em>~~The Chicago~~</em>). When a proper noun does take a determiner, it often signals a different meaning: <em>the Amazon</em> (river) vs. <em>Amazon</em> (company).</p>
+    <p>Proper nouns are capitalized and often don't take determiners: <em>Chicago is large</em> (not ~~The Chicago~~). When a proper noun does take a determiner, it often signals a different meaning: <em>the Amazon</em> (river) vs. <em>Amazon</em> (company).</p>
 
     <p><em>Count vs. Mass Nouns</em></p>
 
     <ul>
-      <li><p><em>Count nouns</em> refer to discrete, countable entities: <em>book/books</em>, <em>idea/ideas</em></p></li>
+      <li><p><em>Count nouns</em> refer to discrete, countable entities: book/books, idea/ideas</p></li>
       <li><p>Can be pluralized: <em>three books</em></p></li>
       <li><p>Take <em>a/an</em>: <em>a book</em></p></li>
       <li><p>Take number words: <em>several ideas</em></p></li>
     </ul>
 
     <ul>
-      <li><p><em>Mass nouns</em> refer to undifferentiated substances or concepts: <em>water</em>, <em>information</em>, <em>furniture</em></p></li>
-      <li><p>Cannot be pluralized: <em>~~informations~~</em>, <em>~~furnitures~~</em></p></li>
+      <li><p><em>Mass nouns</em> refer to undifferentiated substances or concepts: water, information, furniture</p></li>
+      <li><p>Cannot be pluralized: ~~informations~~, ~~furnitures~~</p></li>
       <li><p>Cannot take <em>a/an</em>: <em>~~a furniture~~</em></p></li>
-      <li><p>Take quantity words instead: <em>some water</em>, <em>much information</em></p></li>
+      <li><p>Take quantity words instead: some water, much information</p></li>
     </ul>
 
   </section>
@@ -624,11 +624,11 @@
 
     <p><em>Verbs</em> are the engine of the sentence. While nouns name things, verbs make things happen—or describe states of being. Every complete sentence requires a verb, and the verb determines much of the sentence's structure: how many participants are needed, what time frame is being discussed, whether the action is complete or ongoing. Without a verb, a sentence is just a collection of nouns and modifiers with no predication—no assertion about what is happening, what has happened, or what might happen.</p>
 
-    <p>The semantic range of verbs is far broader than the traditional label "action words" suggests. While many verbs do express physical actions—<em>run</em>, <em>build</em>, <em>write</em>, <em>throw</em>, <em>cook</em>—others describe mental activities: <em>think</em>, <em>calculate</em>, <em>analyze</em>, <em>imagine</em>, <em>consider</em>. These mental action verbs involve no observable physical movement, yet they clearly describe something the mind does.</p>
+    <p>The semantic range of verbs is far broader than the traditional label "action words" suggests. While many verbs do express physical actions—run, build, write, throw, cook—others describe mental activities: think, calculate, analyze, imagine, consider. These mental action verbs involve no observable physical movement, yet they clearly describe something the mind does.</p>
 
-    <p>Beyond actions, many verbs describe <em>states</em>—conditions that simply exist without any action occurring. Cognitive state verbs like <em>know</em>, <em>believe</em>, and <em>understand</em> describe what the mind holds rather than what it does. Emotional state verbs like <em>love</em>, <em>fear</em>, and <em>desire</em> name feelings that persist without any effort. Relational verbs like <em>own</em>, <em>possess</em>, <em>resemble</em>, and <em>deserve</em> describe how entities stand in relation to one another. None of these involve any action at all, yet they are unquestionably verbs.</p>
+    <p>Beyond actions, many verbs describe <em>states</em>—conditions that simply exist without any action occurring. Cognitive state verbs like <em>know</em>, <em>believe</em>, and <em>understand</em> describe what the mind holds rather than what it does. Emotional state verbs like <em>love</em>, <em>fear</em>, and <em>desire</em> name feelings that persist without any effort. Relational verbs like own, possess, resemble, and <em>deserve</em> describe how entities stand in relation to one another. None of these involve any action at all, yet they are unquestionably verbs.</p>
 
-    <p>Still other verbs express <em>occurrences</em> or <em>changes</em>: <em>happen</em>, <em>become</em>, <em>appear</em>, <em>grow</em>, <em>develop</em>, <em>emerge</em>. Perception verbs like <em>see</em>, <em>hear</em>, <em>feel</em>, <em>notice</em>, and <em>taste</em> describe sensory experiences that are neither fully active nor fully passive. Communication verbs like <em>say</em>, <em>tell</em>, <em>ask</em>, <em>explain</em>, and <em>argue</em> describe the exchange of information. This enormous semantic diversity means that defining verbs as "action words" captures only a fraction of what verbs actually do. Words like <em>know</em>, <em>own</em>, and <em>resemble</em> are verbs that describe no action whatsoever.</p>
+    <p>Still other verbs express <em>occurrences</em> or <em>changes</em>: happen, become, appear, grow, develop, emerge. Perception verbs like see, hear, feel, notice, and <em>taste</em> describe sensory experiences that are neither fully active nor fully passive. Communication verbs like say, tell, ask, explain, and <em>argue</em> describe the exchange of information. This enormous semantic diversity means that defining verbs as "action words" captures only a fraction of what verbs actually do. Words like <em>know</em>, <em>own</em>, and <em>resemble</em> are verbs that describe no action whatsoever.</p>
 
     <!-- SEMANTIC DISCUSSION (moved up, expanded) -->
 
@@ -636,7 +636,7 @@
       <title>Semantics vs. Grammar</title>
     </paragraphs>
 
-    <p>Semantically, verbs express actions (<em>run</em>, <em>build</em>, <em>think</em>), states (<em>know</em>, <em>believe</em>, <em>own</em>), or occurrences (<em>happen</em>, <em>become</em>, <em>appear</em>). But as with nouns, we identify verbs more reliably through grammatical tests.</p>
+    <p>Semantically, verbs express actions (run, build, think), states (know, believe, own), or occurrences (happen, become, appear). But as with nouns, we identify verbs more reliably through grammatical tests.</p>
 
     <p>The inadequacy of semantic definitions becomes clear when we look at borderline cases. Consider the verb <em>have</em> in <em>She has a sister</em>. What "action" is being performed? None—<em>have</em> simply describes a relationship. Or consider <em>seem</em> in <em>He seems tired</em>. The verb <em>seem</em> doesn't describe an action, a state the subject controls, or even a clear event—it expresses an appearance or impression. Yet <em>seem</em> is the verb in this sentence, the word around which the entire predicate is organized.</p>
 
@@ -655,20 +655,20 @@
     <p>Verbs can be marked for past tense:</p>
 
     <ul>
-      <li><p><em>walk</em> → <em>walked</em></p></li>
-      <li><p><em>see</em> → <em>saw</em></p></li>
-      <li><p><em>go</em> → <em>went</em></p></li>
+      <li><p>walk → walked</p></li>
+      <li><p>see → saw</p></li>
+      <li><p>go → went</p></li>
     </ul>
 
     <p>This is perhaps the most diagnostic test. If you can put a word into past tense, it's a verb: &quot;Yesterday, I ___ed&quot; (or an irregular past form).</p>
 
     <p><em>Test 2: Third-person singular present</em></p>
 
-    <p>Verbs take <em>-s</em> when the subject is third-person singular (<em>he</em>, <em>she</em>, <em>it</em>):</p>
+    <p>Verbs take <em>-s</em> when the subject is third-person singular (he, she, it):</p>
 
     <ul>
-      <li><p><em>I walk</em> → <em>she walks</em></p></li>
-      <li><p><em>I see</em> → <em>he sees</em></p></li>
+      <li><p>I walk → she walks</p></li>
+      <li><p>I see → he sees</p></li>
     </ul>
 
     <p>This is the only agreement marking English verbs still carry, but it's a reliable indicator of verb-hood.</p>
@@ -678,20 +678,20 @@
     <p>Verbs can take the <em>-ing</em> suffix to form the progressive:</p>
 
     <ul>
-      <li><p><em>walk</em> → <em>walking</em></p></li>
-      <li><p><em>see</em> → <em>seeing</em></p></li>
+      <li><p>walk → walking</p></li>
+      <li><p>see → seeing</p></li>
     </ul>
 
     <p>Every verb in English can take <em>-ing</em>. If you can add <em>-ing</em> to a word and use it after <em>be</em> (&quot;She is ___ing&quot;), it's a verb.</p>
 
     <p><em>Test 4: Participial forms</em></p>
 
-    <p>Verbs have a past participle form (used with <em>have</em> and in passives):</p>
+    <p>Verbs have a past participle form (used with have and in passives):</p>
 
     <ul>
-      <li><p><em>walk</em> → <em>walked</em> (regular)</p></li>
-      <li><p><em>see</em> → <em>seen</em> (irregular)</p></li>
-      <li><p><em>go</em> → <em>gone</em> (irregular)</p></li>
+      <li><p>walk → walked (regular)</p></li>
+      <li><p>see → seen (irregular)</p></li>
+      <li><p>go → gone (irregular)</p></li>
     </ul>
 
     <!-- SYNTACTIC TESTS -->
@@ -702,7 +702,7 @@
 
     <p><em>Test 1: The modal test</em></p>
 
-    <p>Verbs can follow modal words like <em>can</em>, <em>will</em>, <em>might</em>, <em>should</em>, <em>must</em>:</p>
+    <p>Verbs can follow modal words like can, will, might, should, must:</p>
 
     <ul>
       <li><p>can walk</p></li>
@@ -775,7 +775,7 @@
       <title>A ditransitive verb phrase with indirect and direct objects</title>
     </paragraphs>
 
-    <p>The verb <em>gave</em> requires both a recipient (<em>her</em>) and a thing given (<em>a present</em>).</p>
+    <p>The verb <em>gave</em> requires both a recipient (her) and a thing given (a present).</p>
 
     <p>This property—that verbs dictate what must follow them—is called the verb's <em>valency</em>. Chapter 8 explores valency patterns in detail. For now, notice that the verb is truly the head of the VP: it determines the entire structure of the phrase.</p>
 
@@ -788,12 +788,12 @@
     <p>In a verb phrase, the head verb is the word that carries the core meaning of the action or state. In complex verb phrases with auxiliaries, the <em>main verb</em> is the head:</p>
 
     <ul>
-      <li><p><em>She <em>has been reading</em> the book.</em> — Head: <em>reading</em> (main verb)</p></li>
-      <li><p><em>They <em>might have arrived</em> early.</em> — Head: <em>arrived</em> (main verb)</p></li>
-      <li><p><em>The report <em>was written</em> yesterday.</em> — Head: <em>written</em> (main verb)</p></li>
+      <li><p>"She <em>has been reading</em> the book." — Head: <em>reading</em> (main verb)</p></li>
+      <li><p>"They <em>might have arrived</em> early." — Head: <em>arrived</em> (main verb)</p></li>
+      <li><p>"The report <em>was written</em> yesterday." — Head: <em>written</em> (main verb)</p></li>
     </ul>
 
-    <p>The auxiliaries (<em>has</em>, <em>been</em>, <em>might</em>, <em>have</em>, <em>was</em>) add grammatical information about tense, aspect, or voice, but the main verb supplies the core meaning.</p>
+    <p>The auxiliaries (has, been, might, have, was) add grammatical information about tense, aspect, or voice, but the main verb supplies the core meaning.</p>
 
   </section>
 
@@ -804,9 +804,9 @@
 
     <p><em>Adjectives</em> are the descriptors of language. They modify nouns, telling us what kind of thing something is, what quality it has, or which one we mean. A <em>tall</em> building, a <em>happy</em> child, an <em>interesting</em> problem—in each case, the adjective narrows down the noun, adding specificity. But the range of qualities that adjectives can express is remarkably broad, extending well beyond simple physical description.</p>
 
-    <p>Consider the kinds of information adjectives convey. <em>Physical qualities</em> include size (<em>tall</em>, <em>tiny</em>, <em>enormous</em>), weight (<em>heavy</em>, <em>light</em>, <em>massive</em>), texture (<em>rough</em>, <em>smooth</em>, <em>silky</em>), and shape (<em>round</em>, <em>flat</em>, <em>triangular</em>). <em>Evaluative</em> adjectives express opinions or judgments: <em>good</em>, <em>beautiful</em>, <em>terrible</em>, <em>delicious</em>, <em>boring</em>. <em>Age and temporal</em> adjectives locate things in time: <em>old</em>, <em>new</em>, <em>ancient</em>, <em>modern</em>, <em>recent</em>. <em>Color</em> adjectives describe appearance: <em>red</em>, <em>blue</em>, <em>green</em>, <em>dark</em>, <em>pale</em>. And <em>origin or material</em> adjectives identify where something comes from or what it is made of: <em>wooden</em>, <em>American</em>, <em>silk</em>, <em>digital</em>, <em>solar</em>.</p>
+    <p>Consider the kinds of information adjectives convey. <em>Physical qualities</em> include size (tall, tiny, enormous), weight (heavy, light, massive), texture (rough, smooth, silky), and shape (round, flat, triangular). <em>Evaluative</em> adjectives express opinions or judgments: good, beautiful, terrible, delicious, boring. <em>Age and temporal</em> adjectives locate things in time: old, new, ancient, modern, recent. <em>Color</em> adjectives describe appearance: red, blue, green, dark, pale. And <em>origin or material</em> adjectives identify where something comes from or what it is made of: wooden, American, silk, digital, solar.</p>
 
-    <p>An important distinction exists between <em>subjective</em> and <em>objective</em> adjectives. Some adjectives express opinions that can vary from person to person—<em>nice</em>, <em>wonderful</em>, <em>ugly</em>, <em>fascinating</em>—while others state measurable or verifiable facts—<em>rectangular</em>, <em>empty</em>, <em>dead</em>, <em>wooden</em>. A building might be <em>beautiful</em> to one person and <em>hideous</em> to another, but if it is <em>rectangular</em>, that is an observable fact. This distinction matters because subjective adjectives can often be graded (<em>more beautiful</em>, <em>most fascinating</em>), while many objective adjectives resist grading (<em>~~more rectangular~~</em>, <em>~~most wooden~~</em> sound odd). The breadth of this semantic range—from personal judgment to physical measurement to origin and material—shows why the traditional definition "describes a noun" is too vague to be useful as a test for identifying adjectives.</p>
+    <p>An important distinction exists between <em>subjective</em> and <em>objective</em> adjectives. Some adjectives express opinions that can vary from person to person—nice, wonderful, ugly, fascinating—while others state measurable or verifiable facts—rectangular, empty, dead, wooden. A building might be <em>beautiful</em> to one person and <em>hideous</em> to another, but if it is <em>rectangular</em>, that is an observable fact. This distinction matters because subjective adjectives can often be graded (more beautiful, most fascinating), while many objective adjectives resist grading (~~more rectangular~~, ~~most wooden~~ sound odd). The breadth of this semantic range—from personal judgment to physical measurement to origin and material—shows why the traditional definition "describes a noun" is too vague to be useful as a test for identifying adjectives.</p>
 
     <!-- SEMANTIC DISCUSSION (moved up, expanded) -->
 
@@ -814,11 +814,11 @@
       <title>What Adjectives Do</title>
     </paragraphs>
 
-    <p>Unlike nouns and verbs, which often carry the core meaning of a sentence, adjectives enrich and qualify. They answer questions like "What kind?" (<em>a <em>wooden</em> table</em>), "Which one?" (<em>the <em>third</em> attempt</em>), and "What is it like?" (<em>She seems <em>nervous</em>.</em>).</p>
+    <p>Unlike nouns and verbs, which often carry the core meaning of a sentence, adjectives enrich and qualify. They answer questions like "What kind?" (<em>a wooden table</em>), "Which one?" (<em>the third attempt</em>), and "What is it like?" (<em>She seems nervous.</em>).</p>
 
-    <p>But adjectives also do subtler work. They can express temporary states (<em>She is <em>tired</em></em>) or permanent properties (<em>The wall is <em>brick</em></em>). They can classify nouns into types (<em>a <em>solar</em> panel</em>, <em>a <em>criminal</em> investigation</em>) in ways that go beyond mere description. They can even express the speaker's emotional reaction to something (<em>an <em>amazing</em> performance</em>, <em>a <em>terrible</em> mistake</em>), blending description with evaluation.</p>
+    <p>But adjectives also do subtler work. They can express temporary states (<em>She is tired</em>) or permanent properties (<em>The wall is brick</em>). They can classify nouns into types (<em>a solar panel</em>, <em>a criminal investigation</em>) in ways that go beyond mere description. They can even express the speaker's emotional reaction to something (<em>an amazing performance</em>, <em>a terrible mistake</em>), blending description with evaluation.</p>
 
-    <p>This wide functional range creates a challenge: many words that "describe" nouns are not adjectives at all. In <em>the coffee table</em>, the word <em>coffee</em> describes what kind of table it is—but <em>coffee</em> is a noun, not an adjective. In <em>the running water</em>, the word <em>running</em> describes the water—but <em>running</em> is a verb form (a present participle). Description is a <em>function</em> that many word classes can perform; it does not reliably identify adjective <em>form</em>. This is why we need the morphological and syntactic tests that follow.</p>
+    <p>This wide functional range creates a challenge: many words that "describe" nouns are not adjectives at all. In <em>the coffee table</em>, the word coffee describes what kind of table it is—but <em>coffee</em> is a noun, not an adjective. In <em>the running water</em>, the word running describes the water—but <em>running</em> is a verb form (a present participle). Description is a <em>function</em> that many word classes can perform; it does not reliably identify adjective <em>form</em>. This is why we need the morphological and syntactic tests that follow.</p>
 
     <!-- MORPHOLOGICAL TESTS -->
 
@@ -831,21 +831,21 @@
     <p>Most adjectives can be graded—that is, they can express degrees of a quality:</p>
 
     <ul>
-      <li><p><em>tall</em> → <em>taller</em> → <em>tallest</em></p></li>
-      <li><p><em>happy</em> → <em>happier</em> → <em>happiest</em></p></li>
-      <li><p><em>beautiful</em> → <em>more beautiful</em> → <em>most beautiful</em></p></li>
+      <li><p>tall → taller → <em>tallest</em></p></li>
+      <li><p>happy → happier → <em>happiest</em></p></li>
+      <li><p>beautiful → more beautiful → <em>most beautiful</em></p></li>
     </ul>
 
-    <p>If a word can become comparative or superlative, it's almost certainly an adjective. This test distinguishes adjectives from nouns and verbs, which cannot be graded this way (we don't say <em>~~taller book~~</em> meaning &quot;more of a book&quot; or <em>~~he walked the walkedest~~</em>).</p>
+    <p>If a word can become comparative or superlative, it's almost certainly an adjective. This test distinguishes adjectives from nouns and verbs, which cannot be graded this way (we don't say ~~taller book~~ meaning &quot;more of a book&quot; or ~~he walked the walkedest~~).</p>
 
     <p><em>Test 2: The -ish test</em></p>
 
     <p>Many adjectives accept the suffix <em>-ish</em>, meaning &quot;somewhat&quot;:</p>
 
     <ul>
-      <li><p><em>tall</em> → <em>tallish</em></p></li>
-      <li><p><em>red</em> → <em>reddish</em></p></li>
-      <li><p><em>young</em> → <em>youngish</em></p></li>
+      <li><p>tall → tallish</p></li>
+      <li><p>red → reddish</p></li>
+      <li><p>young → youngish</p></li>
     </ul>
 
     <p>This is a quick informal test. If <em>-ish</em> sounds natural, you likely have an adjective.</p>
@@ -855,9 +855,9 @@
     <p>Many adjectives can become adverbs by adding <em>-ly</em>:</p>
 
     <ul>
-      <li><p><em>happy</em> → <em>happily</em></p></li>
-      <li><p><em>quick</em> → <em>quickly</em></p></li>
-      <li><p><em>careful</em> → <em>carefully</em></p></li>
+      <li><p>happy → happily</p></li>
+      <li><p>quick → quickly</p></li>
+      <li><p>careful → carefully</p></li>
     </ul>
 
     <p>This shows the close relationship between adjectives and adverbs—and also helps identify adjectives in the first place.</p>
@@ -873,36 +873,36 @@
     <p>Adjectives can appear between a determiner and a noun—this position, directly before the noun, is called <em>attributive</em> position:</p>
 
     <ul>
-      <li><p><em>the <em>tall</em> man</em></p></li>
-      <li><p><em>a <em>happy</em> child</em></p></li>
-      <li><p><em>the <em>interesting</em> book</em></p></li>
+      <li><p>the tall man</p></li>
+      <li><p>a happy child</p></li>
+      <li><p>the interesting book</p></li>
     </ul>
 
     <p>This is a defining characteristic. If a word can slot into &quot;the ___ noun,&quot; it's behaving as an adjective.</p>
 
     <p><em>Test 2: The subject complement position test</em></p>
 
-    <p>Adjectives can follow linking verbs like <em>be</em>, <em>seem</em>, <em>become</em>, and <em>appear</em>—this position, after the verb, is called <em>subject complement</em> position:</p>
+    <p>Adjectives can follow linking verbs like be, seem, become, and <em>appear</em>—this position, after the verb, is called <em>subject complement</em> position:</p>
 
     <ul>
-      <li><p><em>The man is <em>tall</em>.</em></p></li>
-      <li><p><em>She seems <em>happy</em>.</em></p></li>
-      <li><p><em>The book appears <em>interesting</em>.</em></p></li>
+      <li><p>"The man is <em>tall</em>."</p></li>
+      <li><p>"She seems <em>happy</em>."</p></li>
+      <li><p>"The book appears <em>interesting</em>."</p></li>
     </ul>
 
     <p>Most adjectives work in both positions. A few work in only one (see below).</p>
 
     <p><em>Test 3: The very test</em></p>
 
-    <p>Adjectives can be modified by degree words like <em>very</em>, <em>extremely</em>, and <em>quite</em>:</p>
+    <p>Adjectives can be modified by degree words like very, <em>extremely</em>, and <em>quite</em>:</p>
 
     <ul>
-      <li><p><em><em>very</em> tall</em></p></li>
-      <li><p><em><em>extremely</em> happy</em></p></li>
-      <li><p><em><em>quite</em> interesting</em></p></li>
+      <li><p>very tall</p></li>
+      <li><p>extremely happy</p></li>
+      <li><p>quite interesting</p></li>
     </ul>
 
-    <p>If <em>very</em> sounds natural before a word, that word is likely an adjective. (Nouns and verbs don't accept <em>very</em>: <em>~~very book~~</em>, <em>~~very walked~~</em>.)</p>
+    <p>If <em>very</em> sounds natural before a word, that word is likely an adjective. (Nouns and verbs don't accept very: ~~very book~~, ~~very walked~~.)</p>
 
     <!-- PHRASE STRUCTURE (moved down) -->
 
@@ -948,12 +948,12 @@
 
     <p><em>Common pre-modifiers of adjectives:</em></p>
     <ul>
-      <li><p>Degree adverbs: <em>very</em>, <em>extremely</em>, <em>somewhat</em>, <em>quite</em>, <em>rather</em></p></li>
+      <li><p>Degree adverbs: very, extremely, somewhat, quite, rather</p></li>
     </ul>
 
     <p><em>Common post-modifiers of adjectives:</em></p>
     <ul>
-      <li><p>Prepositional phrases: <em>proud <em>of her work</em></em>, <em>afraid <em>of the dark</em></em>, <em>interested <em>in linguistics</em></em>, <em>good <em>at math</em></em></p></li>
+      <li><p>Prepositional phrases: proud of her work, afraid of the dark, interested in linguistics, good at math</p></li>
     </ul>
 
     <paragraphs>
@@ -993,7 +993,7 @@
       <title>Special Classes of Adjectives</title>
     </paragraphs>
 
-    <p>Most adjectives are <em>gradable</em>—they can express degrees (<em>taller</em>, <em>very tall</em>). But some adjectives express absolute properties and resist grading:</p>
+    <p>Most adjectives are <em>gradable</em>—they can express degrees (taller, very tall). But some adjectives express absolute properties and resist grading:</p>
 
     <ul>
       <li><p>dead — something is dead or not; <em>~~very dead~~</em> sounds odd</p></li>
@@ -1004,15 +1004,15 @@
     <p>Some adjectives are <em>attributive-only</em> (they can only appear before nouns):</p>
 
     <ul>
-      <li><p><em>the <em>main</em> reason</em> ✓ / <em>~~The reason is main~~</em> ✗</p></li>
-      <li><p><em>a <em>mere</em> child</em> ✓ / <em>~~The child is mere~~</em> ✗</p></li>
+      <li><p>the main reason ✓ / <em>~~The reason is main~~</em> ✗</p></li>
+      <li><p>a mere child ✓ / <em>~~The child is mere~~</em> ✗</p></li>
     </ul>
 
     <p>Others are <em>subject-complement-only</em> (they can only appear after linking verbs):</p>
 
     <ul>
-      <li><p><em>The child is <em>asleep</em></em> ✓ / <em>~~the asleep child~~</em> ✗</p></li>
-      <li><p><em>She felt <em>afraid</em></em> ✓ / <em>~~the afraid woman~~</em> ✗</p></li>
+      <li><p>The child is asleep ✓ / <em>~~the asleep child~~</em> ✗</p></li>
+      <li><p>She felt afraid ✓ / <em>~~the afraid woman~~</em> ✗</p></li>
     </ul>
 
   </section>
@@ -1024,9 +1024,9 @@
 
     <p><em>Adverbs</em> are the most versatile and varied word class in English. While nouns name, verbs act, and adjectives describe nouns, adverbs do a bit of everything: they can modify verbs, adjectives, other adverbs, and even entire sentences. This versatility makes them both useful and tricky to identify. In fact, linguists sometimes joke that "adverb" is the category where we put everything that does not fit neatly anywhere else.</p>
 
-    <p>The semantic categories of adverbs reveal just how broad this word class is. <em>Manner</em> adverbs describe how something happens: <em>quickly</em>, <em>carefully</em>, <em>silently</em>, <em>awkwardly</em>, <em>gracefully</em>. <em>Time</em> adverbs tell us when something happens: <em>yesterday</em>, <em>soon</em>, <em>already</em>, <em>eventually</em>, <em>now</em>. <em>Place</em> adverbs identify where something happens: <em>here</em>, <em>there</em>, <em>everywhere</em>, <em>outside</em>, <em>nearby</em>. <em>Frequency</em> adverbs indicate how often something occurs: <em>always</em>, <em>never</em>, <em>rarely</em>, <em>sometimes</em>, <em>often</em>. <em>Degree</em> adverbs express the extent or intensity of something: <em>very</em>, <em>extremely</em>, <em>somewhat</em>, <em>barely</em>, <em>completely</em>.</p>
+    <p>The semantic categories of adverbs reveal just how broad this word class is. <em>Manner</em> adverbs describe how something happens: quickly, carefully, silently, awkwardly, gracefully. <em>Time</em> adverbs tell us when something happens: yesterday, soon, already, eventually, now. <em>Place</em> adverbs identify where something happens: here, there, everywhere, outside, nearby. <em>Frequency</em> adverbs indicate how often something occurs: always, never, rarely, sometimes, often. <em>Degree</em> adverbs express the extent or intensity of something: very, extremely, somewhat, barely, completely.</p>
 
-    <p>Beyond these core categories, <em>comment</em> or <em>attitude</em> adverbs express the speaker's stance toward what is being said: <em>unfortunately</em>, <em>clearly</em>, <em>obviously</em>, <em>hopefully</em>, <em>surprisingly</em>. And <em>connecting</em> adverbs signal logical relationships between ideas: <em>therefore</em>, <em>however</em>, <em>consequently</em>, <em>nevertheless</em>, <em>meanwhile</em>. This enormous range—from describing how someone walks to expressing the speaker's attitude toward an entire proposition to connecting one argument to the next—is precisely why the traditional definition "modifies a verb" captures only a fraction of what adverbs actually do. A word like <em>very</em> never modifies a verb at all; a word like <em>unfortunately</em> modifies an entire sentence rather than any single verb within it; and a word like <em>however</em> serves a logical connecting function that has nothing to do with modifying anything in the traditional sense.</p>
+    <p>Beyond these core categories, <em>comment</em> or <em>attitude</em> adverbs express the speaker's stance toward what is being said: unfortunately, clearly, obviously, hopefully, surprisingly. And <em>connecting</em> adverbs signal logical relationships between ideas: therefore, however, consequently, nevertheless, meanwhile. This enormous range—from describing how someone walks to expressing the speaker's attitude toward an entire proposition to connecting one argument to the next—is precisely why the traditional definition "modifies a verb" captures only a fraction of what adverbs actually do. A word like <em>very</em> never modifies a verb at all; a word like <em>unfortunately</em> modifies an entire sentence rather than any single verb within it; and a word like <em>however</em> serves a logical connecting function that has nothing to do with modifying anything in the traditional sense.</p>
 
     <!-- SEMANTIC DISCUSSION (moved up, expanded) -->
 
@@ -1037,17 +1037,17 @@
     <p>Consider these sentences:</p>
 
     <ul>
-      <li><p><em>She spoke <em>quietly</em>.</em> (modifies verb)</p></li>
-      <li><p><em>She is <em>extremely</em> talented.</em> (modifies adjective)</p></li>
-      <li><p><em>She works <em>very</em> hard.</em> (modifies adverb)</p></li>
+      <li><p>"She spoke <em>quietly</em>." (modifies verb)</p></li>
+      <li><p>"She is <em>extremely</em> talented." (modifies adjective)</p></li>
+      <li><p>"She works <em>very</em> hard." (modifies adverb)</p></li>
       <li><p><em><em>Unfortunately</em>, she couldn't attend.</em> (modifies entire sentence)</p></li>
     </ul>
 
     <p>In all four cases, the bolded word is an adverb—but each is doing different work. This versatility is what makes adverbs both powerful and tricky to identify.</p>
 
-    <p>The challenge deepens when we consider that adverbs can appear in many different positions within a sentence. A manner adverb might appear after the verb (<em>She spoke quietly</em>), before the verb (<em>She quietly spoke</em>), or even at the beginning of the sentence (<em>Quietly, she spoke</em>). A frequency adverb like <em>always</em> typically appears before the main verb (<em>She always arrives early</em>) but after an auxiliary (<em>She has always arrived early</em>). A sentence adverb like <em>fortunately</em> most naturally appears at the start of a sentence but can also be inserted parenthetically (<em>She was, fortunately, unharmed</em>). This positional flexibility sets adverbs apart from other word classes, which tend to occupy more predictable slots in the sentence.</p>
+    <p>The challenge deepens when we consider that adverbs can appear in many different positions within a sentence. A manner adverb might appear after the verb (She spoke quietly), before the verb (She quietly spoke), or even at the beginning of the sentence (Quietly, she spoke). A frequency adverb like <em>always</em> typically appears before the main verb (She always arrives early) but after an auxiliary (She has always arrived early). A sentence adverb like <em>fortunately</em> most naturally appears at the start of a sentence but can also be inserted parenthetically (She was, fortunately, unharmed). This positional flexibility sets adverbs apart from other word classes, which tend to occupy more predictable slots in the sentence.</p>
 
-    <p>Because adverbs are so varied, no single semantic definition can capture them all. A manner adverb like <em>slowly</em> seems quite different from a degree adverb like <em>very</em>, which in turn seems different from a sentence adverb like <em>obviously</em>. What unites them is not meaning but grammar: they share certain morphological and syntactic properties that distinguish them from nouns, verbs, and adjectives. The tests below identify those shared properties.</p>
+    <p>Because adverbs are so varied, no single semantic definition can capture them all. A manner adverb like slowly seems quite different from a degree adverb like very, which in turn seems different from a sentence adverb like obviously. What unites them is not meaning but grammar: they share certain morphological and syntactic properties that distinguish them from nouns, verbs, and adjectives. The tests below identify those shared properties.</p>
 
     <!-- MORPHOLOGICAL TESTS -->
 
@@ -1060,24 +1060,24 @@
     <p>Many adverbs are formed by adding <em>-ly</em> to adjectives:</p>
 
     <ul>
-      <li><p><em>quick</em> → <em>quickly</em></p></li>
-      <li><p><em>happy</em> → <em>happily</em></p></li>
-      <li><p><em>careful</em> → <em>carefully</em></p></li>
+      <li><p>quick → quickly</p></li>
+      <li><p>happy → happily</p></li>
+      <li><p>careful → carefully</p></li>
     </ul>
 
-    <p>This is a reliable pattern: if you see <em>-ly</em> on what looks like an adjective, you probably have an adverb. But be careful—some <em>-ly</em> words are adjectives (<em>friendly</em>, <em>lovely</em>, <em>costly</em>), and many common adverbs don't end in <em>-ly</em> at all (<em>fast</em>, <em>well</em>, <em>always</em>, <em>never</em>, <em>here</em>, <em>there</em>).</p>
+    <p>This is a reliable pattern: if you see <em>-ly</em> on what looks like an adjective, you probably have an adverb. But be careful—some <em>-ly</em> words are adjectives (friendly, lovely, costly), and many common adverbs don't end in <em>-ly</em> at all (fast, well, always, never, here, there).</p>
 
     <p><em>Test 2: Comparative/superlative forms</em></p>
 
     <p>Some adverbs can be graded, just like adjectives:</p>
 
     <ul>
-      <li><p><em>fast</em> → <em>faster</em> → <em>fastest</em></p></li>
-      <li><p><em>soon</em> → <em>sooner</em> → <em>soonest</em></p></li>
-      <li><p><em>quickly</em> → <em>more quickly</em> → <em>most quickly</em></p></li>
+      <li><p>fast → faster → <em>fastest</em></p></li>
+      <li><p>soon → sooner → <em>soonest</em></p></li>
+      <li><p>quickly → more quickly → <em>most quickly</em></p></li>
     </ul>
 
-    <p>But many common adverbs cannot: <em>~~very-er~~</em>, <em>~~always-est~~</em>, <em>~~therefore-er~~</em>. For these, we must rely on syntactic tests.</p>
+    <p>But many common adverbs cannot: ~~very-er~~, ~~always-est~~, ~~therefore-er~~. For these, we must rely on syntactic tests.</p>
 
     <!-- SYNTACTIC TESTS -->
 
@@ -1090,9 +1090,9 @@
     <p>This is the classic adverb function. Adverbs appear near verbs and describe how, when, where, or how often the action occurs:</p>
 
     <ul>
-      <li><p><em>She spoke <em>quietly</em>.</em> (how)</p></li>
-      <li><p><em>He <em>always</em> arrives late.</em> (frequency)</p></li>
-      <li><p><em>They <em>suddenly</em> disappeared.</em> (manner/time)</p></li>
+      <li><p>"She spoke <em>quietly</em>." (how)</p></li>
+      <li><p>"He <em>always</em> arrives late." (frequency)</p></li>
+      <li><p>"They <em>suddenly</em> disappeared." (manner/time)</p></li>
     </ul>
 
     <p><em>Test 2: Modifying adjectives</em></p>
@@ -1100,21 +1100,21 @@
     <p>Adverbs, especially degree adverbs, can intensify or qualify adjectives:</p>
 
     <ul>
-      <li><p><em>a <em>very</em> tall building</em></p></li>
-      <li><p><em>an <em>extremely</em> difficult problem</em></p></li>
-      <li><p><em><em>surprisingly</em> easy</em></p></li>
+      <li><p>a very tall building</p></li>
+      <li><p>an extremely difficult problem</p></li>
+      <li><p>surprisingly easy</p></li>
     </ul>
 
-    <p>This is how <em>very</em>, <em>quite</em>, <em>extremely</em>, and <em>rather</em> typically function.</p>
+    <p>This is how very, quite, extremely, and <em>rather</em> typically function.</p>
 
     <p><em>Test 3: Modifying other adverbs</em></p>
 
     <p>Adverbs can stack, with one adverb modifying another:</p>
 
     <ul>
-      <li><p><em>She spoke <em>very</em> quietly.</em></p></li>
-      <li><p><em>He runs <em>quite</em> fast.</em></p></li>
-      <li><p><em>It happened <em>rather</em> suddenly.</em></p></li>
+      <li><p>"She spoke <em>very</em> quietly."</p></li>
+      <li><p>"He runs <em>quite</em> fast."</p></li>
+      <li><p>"It happened <em>rather</em> suddenly."</p></li>
     </ul>
 
     <p><em>Test 4: Modifying sentences</em></p>
@@ -1134,9 +1134,9 @@
     <p>Here's a crucial way to distinguish adverbs from adjectives: adverbs <em>cannot</em> appear in attributive position (between a determiner and a noun):</p>
 
     <ul>
-      <li><p><em>the tall man</em> ✓ (<em>tall</em> is an adjective)</p></li>
-      <li><p><em>~~the quickly man~~</em> ✗ (<em>quickly</em> is an adverb)</p></li>
-      <li><p><em>~~the often problem~~</em> ✗ (<em>often</em> is an adverb)</p></li>
+      <li><p><em>the tall man</em> ✓ (tall is an adjective)</p></li>
+      <li><p><em>~~the quickly man~~</em> ✗ (quickly is an adverb)</p></li>
+      <li><p><em>~~the often problem~~</em> ✗ (often is an adverb)</p></li>
     </ul>
 
     <p>If a word <em>can</em> appear in &quot;the ___ noun&quot; position, it's an adjective. If it <em>cannot</em>, it might be an adverb.</p>
@@ -1206,7 +1206,7 @@
     <ul>
       <li><p>Remove <em>quite</em>: <em>remarkably quickly</em> ✓</p></li>
       <li><p>Remove <em>remarkably</em>: <em>quite quickly</em> ✓</p></li>
-      <li><p>Remove <em>quickly</em>: <em>quite remarkably</em> (changes meaning significantly—<em>quickly</em> is the main manner adverb)</p></li>
+      <li><p>Remove <em>quickly</em>: <em>quite remarkably</em> (changes meaning significantly—quickly is the main manner adverb)</p></li>
     </ul>
 
     <p>In this case, <em>quickly</em> is the head—it expresses the core manner meaning. <em>Quite</em> and <em>remarkably</em> are degree modifiers that intensify it.</p>
@@ -1227,32 +1227,32 @@
       </row>
       <row>
         <cell>Manner</cell>
-        <cell><em>quickly</em>, <em>carefully</em>, <em>well</em></cell>
+        <cell>quickly, carefully, well</cell>
         <cell>How?</cell>
       </row>
       <row>
         <cell>Time</cell>
-        <cell><em>yesterday</em>, <em>soon</em>, <em>already</em></cell>
+        <cell>yesterday, soon, already</cell>
         <cell>When?</cell>
       </row>
       <row>
         <cell>Place</cell>
-        <cell><em>here</em>, <em>there</em>, <em>everywhere</em></cell>
+        <cell>here, there, everywhere</cell>
         <cell>Where?</cell>
       </row>
       <row>
         <cell>Frequency</cell>
-        <cell><em>often</em>, <em>rarely</em>, <em>sometimes</em>, <em>always</em></cell>
+        <cell>often, rarely, sometimes, always</cell>
         <cell>How often?</cell>
       </row>
       <row>
         <cell>Degree</cell>
-        <cell><em>very</em>, <em>extremely</em>, <em>somewhat</em></cell>
+        <cell>very, extremely, somewhat</cell>
         <cell>To what extent?</cell>
       </row>
       <row>
         <cell>Sentence/Comment</cell>
-        <cell><em>unfortunately</em>, <em>clearly</em>, <em>obviously</em></cell>
+        <cell>unfortunately, clearly, obviously</cell>
         <cell>Speaker's attitude?</cell>
       </row>
     </tabular>
@@ -1289,9 +1289,9 @@
         <cell>Noun</cell>
         <cell>
           <ul>
-            <li><p>Plural (<em>-s</em>)</p></li>
-            <li><p>Possessive (<em>'s</em>)</p></li>
-            <li><p>Noun suffixes (<em>-tion</em>, <em>-ness</em>)</p></li>
+            <li><p>Plural (-s)</p></li>
+            <li><p>Possessive ('s)</p></li>
+            <li><p>Noun suffixes (-tion, -ness)</p></li>
           </ul>
         </cell>
         <cell>
@@ -1306,8 +1306,8 @@
         <cell>Verb</cell>
         <cell>
           <ul>
-            <li><p>Past tense (<em>-ed</em>)</p></li>
-            <li><p>3rd singular (<em>-s</em>)</p></li>
+            <li><p>Past tense (-ed)</p></li>
+            <li><p>3rd singular (-s)</p></li>
             <li><p><em>-ing</em> form</p></li>
           </ul>
         </cell>
@@ -1323,7 +1323,7 @@
         <cell>Adjective</cell>
         <cell>
           <ul>
-            <li><p>Comparative/superlative (<em>-er/-est</em>)</p></li>
+            <li><p>Comparative/superlative (-er/-est)</p></li>
             <li><p><em>-ish</em> suffix</p></li>
             <li><p>Forms adverb with <em>-ly</em></p></li>
           </ul>
@@ -1394,7 +1394,7 @@
     <ol>
       <li><p>Identify form: What part of speech is this word typically? Apply morphological and syntactic tests.</p></li>
       <li><p>Identify function: What role is it playing in this sentence? Is it modifying something? Acting as subject or object?</p></li>
-      <li><p>Note mismatches: If form and function differ, identify both. (<em>The poor</em> = adjective form, nominal function)</p></li>
+      <li><p>Note mismatches: If form and function differ, identify both. (The poor = adjective form, nominal function)</p></li>
     </ol>
 
   </section>
@@ -1557,7 +1557,7 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Many English words can function as different parts of speech. For each word below, write a sentence using it as the headword of the specified phrase type. You may change the word's form if needed (e.g., <em>book</em> → <em>books</em>, <em>booked</em>, <em>booking</em>).</p>
+      <p>Many English words can function as different parts of speech. For each word below, write a sentence using it as the headword of the specified phrase type. You may change the word's form if needed (e.g., book → books, booked, booking).</p>
 
       <paragraphs>
         <title>Example (completed)</title>
@@ -1808,7 +1808,7 @@
     </gi>
     <gi>
       <title>Attributive position</title>
-      <p>The position directly before a noun, where adjectives typically appear (<em>the tall man</em>).</p>
+      <p>The position directly before a noun, where adjectives typically appear (the tall man).</p>
     </gi>
     <gi>
       <title>Dual-identification principle</title>
@@ -1848,7 +1848,7 @@
     </gi>
     <gi>
       <title>Subject complement position</title>
-      <p>The position after a linking verb, where adjectives describe the subject (<em>The man is tall</em>).</p>
+      <p>The position after a linking verb, where adjectives describe the subject (The man is tall).</p>
     </gi>
     <gi>
       <title>Syntactic test</title>
