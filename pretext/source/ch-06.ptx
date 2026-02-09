@@ -29,10 +29,10 @@
     <p><em>Closed classes</em> resist new members. They contain a fixed (or nearly fixed) inventory of words that has remained stable for centuries:</p>
 
     <ul>
-      <li><p>Determiners: <em>the</em>, <em>a</em>, <em>this</em>, <em>my</em>, <em>every</em>, <em>some</em>...</p></li>
-      <li><p>Pronouns: <em>I</em>, <em>you</em>, <em>he</em>, <em>she</em>, <em>it</em>, <em>we</em>, <em>they</em>...</p></li>
-      <li><p>Prepositions: <em>in</em>, <em>on</em>, <em>at</em>, <em>to</em>, <em>from</em>, <em>with</em>...</p></li>
-      <li><p>Auxiliary verbs: <em>be</em>, <em>have</em>, <em>do</em>, <em>can</em>, <em>will</em>, <em>might</em>...</p></li>
+      <li><p>Determiners: the, a, this, my, every, some...</p></li>
+      <li><p>Pronouns: I, you, he, she, it, we, they...</p></li>
+      <li><p>Prepositions: in, on, at, to, from, with...</p></li>
+      <li><p>Auxiliary verbs: be, have, do, can, will, might...</p></li>
     </ul>
 
     <p>When did English last add a new preposition? A new pronoun? These classes have been essentially stable for centuries. Even the gradual acceptance of singular <em>they</em> represents an expansion of function, not a new word.</p>
@@ -51,8 +51,8 @@
         <cell>Closed-class (grammatical)</cell>
       </row>
       <row>
-        <cell><em>student</em>, <em>discovered</em>, <em>ancient</em></cell>
-        <cell><em>the</em>, <em>in</em>, <em>she</em>, <em>have</em></cell>
+        <cell>student, discovered, ancient</cell>
+        <cell>the, in, she, have</cell>
       </row>
     </tabular>
 
@@ -75,17 +75,17 @@
 
     <p>Think of a noun like <em>dog</em> as naming a general concept—the category of all dogs. By itself, <em>dog</em> is abstract and unanchored. It doesn't tell us which dog, how many dogs, or whose dog. Determiners are the words that take this general noun concept and pin it down to something specific. They are <em>reference-setting</em> words: they establish the link between a word and the particular entity (or entities) the speaker has in mind.</p>
 
-    <p>Determiners do several kinds of semantic work. They signal <em>definiteness</em>—whether the listener should already know the referent (<em>the</em>) or is hearing about it for the first time (<em>a</em>). They indicate <em>quantity</em>—how many entities are involved (<em>some</em>, <em>many</em>, <em>every</em>, <em>three</em>). They mark <em>possession</em>—who the entity belongs to or is associated with (<em>my</em>, <em>their</em>, <em>the professor's</em>). And they express <em>proximity</em>—whether the entity is near or far from the speaker (<em>this</em>, <em>that</em>).</p>
+    <p>Determiners do several kinds of semantic work. They signal <em>definiteness</em>—whether the listener should already know the referent (the) or is hearing about it for the first time (a). They indicate <em>quantity</em>—how many entities are involved (some, many, every, three). They mark <em>possession</em>—who the entity belongs to or is associated with (my, their, the professor's). And they express <em>proximity</em>—whether the entity is near or far from the speaker (this, that).</p>
 
     <p>Without determiners, listeners cannot tell which entity the speaker means or how many are involved. Consider how dramatically the meaning changes when we put different determiners before the same noun:</p>
 
     <ul>
       <li><p><em>~~Dog barked.~~</em> (ungrammatical in standard English—which dog? how many?)</p></li>
-      <li><p><em><em>The</em> dog barked.</em> (a specific, identifiable dog—the listener knows which one)</p></li>
-      <li><p><em><em>A</em> dog barked.</em> (some dog, not previously identified—introducing a new referent)</p></li>
-      <li><p><em><em>My</em> dog barked.</em> (the dog belonging to the speaker)</p></li>
-      <li><p><em><em>Every</em> dog barked.</em> (all dogs in the relevant group, without exception)</p></li>
-      <li><p><em><em>That</em> dog barked.</em> (a specific dog at some distance from the speaker)</p></li>
+      <li><p>The dog barked. (a specific, identifiable dog—the listener knows which one)</p></li>
+      <li><p>A dog barked. (some dog, not previously identified—introducing a new referent)</p></li>
+      <li><p>My dog barked. (the dog belonging to the speaker)</p></li>
+      <li><p>Every dog barked. (all dogs in the relevant group, without exception)</p></li>
+      <li><p>That dog barked. (a specific dog at some distance from the speaker)</p></li>
     </ul>
 
     <p>The noun <em>dog</em> stays the same in every sentence, but the determiner transforms the meaning entirely. This is a remarkable amount of work for such small words. Determiners carry minimal content meaning on their own—you cannot picture <em>the</em> or <em>a</em> or <em>every</em>—but they do essential grammatical work. They are the words that turn a bare concept into something a listener can locate in the real world.</p>
@@ -99,10 +99,10 @@
     <p>Determiners answer questions like:</p>
 
     <ul>
-      <li><p>Which one? (<em>the</em>, <em>this</em>, <em>that</em>)</p></li>
-      <li><p>How many? (<em>three</em>, <em>several</em>, <em>many</em>)</p></li>
-      <li><p>Whose? (<em>my</em>, <em>the professor's</em>)</p></li>
-      <li><p>Which subset? (<em>some</em>, <em>any</em>, <em>every</em>, <em>no</em>)</p></li>
+      <li><p>Which one? (the, this, that)</p></li>
+      <li><p>How many? (three, several, many)</p></li>
+      <li><p>Whose? (my, the professor's)</p></li>
+      <li><p>Which subset? (some, any, every, no)</p></li>
     </ul>
 
     <paragraphs>
@@ -112,8 +112,8 @@
     <p><em>Articles</em>—the most common determiners:</p>
 
     <ul>
-      <li><p><em>Definite article</em> (<em>the</em>): The referent is identifiable to the listener</p></li>
-      <li><p><em>Indefinite articles</em> (<em>a</em>, <em>an</em>): The referent is being introduced or is unspecified</p></li>
+      <li><p><em>Definite article</em> (the): The referent is identifiable to the listener</p></li>
+      <li><p><em>Indefinite articles</em> (a, an): The referent is being introduced or is unspecified</p></li>
     </ul>
 
     <p><em>Demonstratives</em>—point to specific entities:</p>
@@ -126,26 +126,26 @@
     <p><em>Possessives</em>—indicate ownership or relationship:</p>
 
     <ul>
-      <li><p>Pronoun forms: <em>my</em>, <em>your</em>, <em>his</em>, <em>her</em>, <em>its</em>, <em>our</em>, <em>their</em></p></li>
-      <li><p>Noun + 's: <em>John's</em>, <em>the dog's</em>, <em>my sister's</em></p></li>
+      <li><p>Pronoun forms: my, your, his, her, its, our, their</p></li>
+      <li><p>Noun + 's: John's, the dog's, my sister's</p></li>
     </ul>
 
     <p><em>Quantifiers</em>—indicate amount or quantity:</p>
 
     <ul>
-      <li><p>Universal: <em>all</em>, <em>every</em>, <em>each</em>, <em>both</em></p></li>
-      <li><p>Existential: <em>some</em>, <em>any</em>, <em>no</em></p></li>
-      <li><p>Degree: <em>many</em>, <em>much</em>, <em>few</em>, <em>little</em>, <em>several</em>, <em>enough</em></p></li>
+      <li><p>Universal: all, every, each, both</p></li>
+      <li><p>Existential: some, any, no</p></li>
+      <li><p>Degree: many, much, few, little, several, enough</p></li>
     </ul>
 
     <p><em>Numbers</em>:</p>
 
     <ul>
-      <li><p>Cardinal: <em>one</em>, <em>two</em>, <em>three</em>...</p></li>
-      <li><p>Ordinal: <em>first</em>, <em>second</em>, <em>third</em>...</p></li>
+      <li><p>Cardinal: one, two, three...</p></li>
+      <li><p>Ordinal: first, second, third...</p></li>
     </ul>
 
-    <p><em>Interrogative/Relative</em>: <em>which</em>, <em>what</em>, <em>whose</em></p>
+    <p><em>Interrogative/Relative</em>: which, what, whose</p>
 
     <paragraphs>
       <title>Determiner Position</title>
@@ -180,8 +180,8 @@
     <p>Nouns usually take just one determiner. However, in some cases two determiners can appear together in the same noun phrase:</p>
 
     <ul>
-      <li><p><em>all the students</em> (two determiners: <em>all</em> + <em>the</em>)</p></li>
-      <li><p><em>both my parents</em> (two determiners: <em>both</em> + <em>my</em>)</p></li>
+      <li><p><em>all the students</em> (two determiners: all + the)</p></li>
+      <li><p><em>both my parents</em> (two determiners: both + my)</p></li>
       <li><p><em>the first three chapters</em> (article + ordinal + cardinal)</p></li>
     </ul>
 
@@ -234,8 +234,8 @@
       </row>
       <row>
         <cell>Gradable</cell>
-        <cell>Usually not (<em>~~very the~~</em>)</cell>
-        <cell>Usually yes (<em>very tall</em>)</cell>
+        <cell>Usually not (~~very the~~)</cell>
+        <cell>Usually yes (very tall)</cell>
       </row>
     </tabular>
 
@@ -275,7 +275,7 @@
       <li><p><em>every single student</em> ✓ — not <em>~~single every student~~</em></p></li>
     </ul>
 
-    <p>Notice that you can stack multiple adjectives between the determiner and the noun (<em>the tall, friendly, old man</em>), but the determiner must always come first. If you find yourself unable to move a word after an adjective—if it insists on occupying the first position—that word is a determiner.</p>
+    <p>Notice that you can stack multiple adjectives between the determiner and the noun (the tall, friendly, old man), but the determiner must always come first. If you find yourself unable to move a word after an adjective—if it insists on occupying the first position—that word is a determiner.</p>
 
     <p>Using both tests together provides a reliable method. If a pre-noun word is not gradable with <em>very</em> and must come before all adjectives, it is a determiner. If it is gradable and can follow a determiner, it is an adjective.</p>
 
@@ -294,45 +294,45 @@
       </row>
       <row>
         <cell>a/an</cell>
-        <cell>✓ <em>a book</em></cell>
+        <cell>✓ a book</cell>
         <cell>✗</cell>
         <cell>✗</cell>
       </row>
       <row>
         <cell>the</cell>
-        <cell>✓ <em>the book</em></cell>
-        <cell>✓ <em>the books</em></cell>
-        <cell>✓ <em>the water</em></cell>
+        <cell>✓ the book</cell>
+        <cell>✓ the books</cell>
+        <cell>✓ the water</cell>
       </row>
       <row>
         <cell>this/that</cell>
-        <cell>✓ <em>this book</em></cell>
+        <cell>✓ this book</cell>
         <cell>✗</cell>
-        <cell>✓ <em>this water</em></cell>
+        <cell>✓ this water</cell>
       </row>
       <row>
         <cell>these/those</cell>
         <cell>✗</cell>
-        <cell>✓ <em>these books</em></cell>
+        <cell>✓ these books</cell>
         <cell>✗</cell>
       </row>
       <row>
         <cell>some</cell>
         <cell>✗</cell>
-        <cell>✓ <em>some books</em></cell>
-        <cell>✓ <em>some water</em></cell>
+        <cell>✓ some books</cell>
+        <cell>✓ some water</cell>
       </row>
       <row>
         <cell>many</cell>
         <cell>✗</cell>
-        <cell>✓ <em>many books</em></cell>
+        <cell>✓ many books</cell>
         <cell>✗</cell>
       </row>
       <row>
         <cell>much</cell>
         <cell>✗</cell>
         <cell>✗</cell>
-        <cell>✓ <em>much water</em></cell>
+        <cell>✓ much water</cell>
       </row>
     </tabular>
 
@@ -351,7 +351,7 @@
 
     <p><em>Pronouns</em> replace noun phrases. They are the stand-in system of language—compact pointers that take the place of full descriptions. Instead of repeating a long or complex noun phrase every time we refer to an entity, we can substitute a short pronoun that listeners understand as referring to the same thing. This makes language dramatically more efficient, but it also requires listeners to track what each pronoun refers to.</p>
 
-    <p>Pronouns encode several kinds of relational information in a remarkably small package. They mark <em>person</em>—distinguishing the speaker (<em>I</em>, <em>we</em>) from the addressee (<em>you</em>) from everyone else (<em>he</em>, <em>she</em>, <em>it</em>, <em>they</em>). They mark <em>number</em>—singular versus plural. In the third person singular, they mark <em>gender</em> (<em>he</em>, <em>she</em>, <em>it</em>). And they mark <em>case</em>—whether the pronoun is functioning as a subject (<em>I</em>, <em>she</em>, <em>they</em>) or an object (<em>me</em>, <em>her</em>, <em>them</em>). A single pronoun like <em>her</em> simultaneously tells you: third person, singular, feminine, object case. That is a lot of grammatical information packed into one syllable.</p>
+    <p>Pronouns encode several kinds of relational information in a remarkably small package. They mark <em>person</em>—distinguishing the speaker (I, we) from the addressee (you) from everyone else (he, she, it, they). They mark <em>number</em>—singular versus plural. In the third person singular, they mark <em>gender</em> (he, she, it). And they mark <em>case</em>—whether the pronoun is functioning as a subject (I, she, they) or an object (me, her, them). A single pronoun like <em>her</em> simultaneously tells you: third person, singular, feminine, object case. That is a lot of grammatical information packed into one syllable.</p>
 
     <p>Pronouns also serve a crucial role in connecting sentences to each other. When you read <em>The professor entered the room. She placed her notes on the desk.</em>, the pronouns <em>she</em> and <em>her</em> create <em>cohesion</em>—they link the second sentence back to the first by referring to the same person. Without pronouns, every sentence would stand in isolation, and readers would have to re-identify every entity from scratch each time it was mentioned.</p>
 
@@ -377,7 +377,7 @@
 
     <p>An important principle to understand is that pronouns do not just replace the head noun—they replace the <em>entire noun phrase</em>, including all of its modifiers. When you substitute a pronoun for a noun phrase, the determiner, any adjectives, and any post-modifiers all disappear, collapsed into the single pronoun.</p>
 
-    <p>Consider the noun phrase <em>the brilliant young student from Ohio</em>. This phrase contains a determiner (<em>the</em>), two adjectives (<em>brilliant</em>, <em>young</em>), a head noun (<em>student</em>), and a prepositional phrase modifier (<em>from Ohio</em>)—six words in total. When we replace this NP with a pronoun, the entire six-word phrase becomes <em>she</em>. The pronoun does not replace just <em>student</em>; it replaces the whole expression.</p>
+    <p>Consider the noun phrase <em>the brilliant young student from Ohio</em>. This phrase contains a determiner (the), two adjectives (brilliant, young), a head noun (student), and a prepositional phrase modifier (from Ohio)—six words in total. When we replace this NP with a pronoun, the entire six-word phrase becomes <em>she</em>. The pronoun does not replace just <em>student</em>; it replaces the whole expression.</p>
 
     <p>The following diagram pairs illustrate this principle. In each pair, the first diagram shows a full noun phrase with its internal structure, and the second shows how that entire structure collapses to a single pronoun.</p>
 
@@ -453,12 +453,12 @@
       <li><p><term>The committee</term> released <em>its</em> report last week.</p></li>
     </ul>
 
-    <p>In each of these sentences, the connection between the pronoun and its antecedent is clear. The reader has no trouble determining who <em>she</em>, <em>himself</em>, <em>their</em>, or <em>its</em> refers to because only one noun phrase in the sentence matches the pronoun's features (person, number, gender).</p>
+    <p>In each of these sentences, the connection between the pronoun and its antecedent is clear. The reader has no trouble determining who she, himself, their, or <em>its</em> refers to because only one noun phrase in the sentence matches the pronoun's features (person, number, gender).</p>
 
     <p>However, ambiguous pronoun reference is one of the most common writing problems. It occurs when a pronoun could plausibly refer to more than one antecedent:</p>
 
     <ul>
-      <li><p><em>Maria told Sarah that <em>she</em> should leave.</em></p></li>
+      <li><p>"Maria told Sarah that <em>she</em> should leave."</p></li>
     </ul>
 
     <p>Who should leave—Maria or Sarah? Both are third-person singular feminine, so the pronoun <em>she</em> could refer to either one. The reader is left guessing. In cases like this, the writer needs to restructure the sentence to eliminate the ambiguity: <em>Maria told Sarah, "You should leave"</em> or <em>Maria told Sarah, "I should leave."</em></p>
@@ -544,7 +544,7 @@
       </row>
     </tabular>
 
-    <p>Pronouns also have possessive forms that function as determiners (<em>my</em>, <em>your</em>, <em>his</em>, <em>her</em>, <em>its</em>, <em>our</em>, <em>their</em>) or as standalone pronouns (<em>mine</em>, <em>yours</em>, <em>his</em>, <em>hers</em>, <em>ours</em>, <em>theirs</em>). These are discussed in section 6.2 under possessive determiners.</p>
+    <p>Pronouns also have possessive forms that function as determiners (my, your, his, her, its, our, their) or as standalone pronouns (mine, yours, his, hers, ours, theirs). These are discussed in section 6.2 under possessive determiners.</p>
 
     <paragraphs>
       <title>When the Same Word Is a Pronoun or a Determiner</title>
@@ -555,17 +555,17 @@
     <p>Consider <em>her</em>:</p>
 
     <ul>
-      <li><p><em>I saw <em>her</em>.</em> — <em>her</em> is a pronoun (it replaces an entire NP and stands alone as the object)</p></li>
-      <li><p><em>I read <em>her</em> book.</em> — <em>her</em> is a determiner (it introduces the noun phrase <em>her book</em>, specifying whose book)</p></li>
+      <li><p>"I saw <em>her</em>." — <em>her</em> is a pronoun (it replaces an entire NP and stands alone as the object)</p></li>
+      <li><p>"I read <em>her</em> book." — <em>her</em> is a determiner (it introduces the noun phrase her book, specifying whose book)</p></li>
     </ul>
 
-    <p>The same pattern applies to other possessive forms. When <em>his</em>, <em>my</em>, <em>your</em>, <em>our</em>, <em>its</em>, or <em>their</em> appear before a noun, they function as determiners. Some of these also have standalone pronoun forms: <em>mine</em>, <em>yours</em>, <em>his</em>, <em>hers</em>, <em>ours</em>, <em>theirs</em>.</p>
+    <p>The same pattern applies to other possessive forms. When his, my, your, our, its, or <em>their</em> appear before a noun, they function as determiners. Some of these also have standalone pronoun forms: mine, yours, his, hers, ours, theirs.</p>
 
     <p>Demonstratives show the same dual behavior:</p>
 
     <ul>
-      <li><p><em><em>This</em> is interesting.</em> — <em>this</em> is a pronoun (stands alone as the subject)</p></li>
-      <li><p><em><em>This</em> book is interesting.</em> — <em>this</em> is a determiner (introduces the NP <em>this book</em>)</p></li>
+      <li><p>This is interesting. — <em>this</em> is a pronoun (stands alone as the subject)</p></li>
+      <li><p>This book is interesting. — <em>this</em> is a determiner (introduces the NP this book)</p></li>
     </ul>
 
     <p>The word class of these forms depends entirely on how they are used in a particular sentence, not on the word itself. Context determines category.</p>
@@ -573,16 +573,16 @@
     <p><em>Case matters</em>: Use subject forms for subjects, object forms for objects:</p>
 
     <ul>
-      <li><p>Subject: <em><em>She</em> left.</em> (not <em>~~Her left.~~</em>)</p></li>
-      <li><p>Object: <em>I saw <em>her</em>.</em> (not <em>~~I saw she.~~</em>)</p></li>
-      <li><p>After preposition: <em>with <em>me</em></em> (not <em>~~with I~~</em>)</p></li>
+      <li><p>Subject: She left. (not ~~Her left.~~)</p></li>
+      <li><p>Object: "I saw <em>her</em>." (not ~~I saw she.~~)</p></li>
+      <li><p>After preposition: with me (not ~~with I~~)</p></li>
     </ul>
 
     <p><em>Singular &quot;they&quot;</em>: Increasingly accepted for indefinite reference and for people who don't identify as he or she:</p>
 
     <ul>
-      <li><p><em>Someone left <em>their</em> book.</em> (indefinite)</p></li>
-      <li><p><em>Alex said <em>they</em> would come.</em> (nonbinary reference)</p></li>
+      <li><p>"Someone left <em>their</em> book." (indefinite)</p></li>
+      <li><p>"Alex said <em>they</em> would come." (nonbinary reference)</p></li>
     </ul>
 
     <paragraphs>
@@ -596,8 +596,8 @@
     <p>They are used when the object refers to the same entity as the subject:</p>
 
     <ul>
-      <li><p><em>She hurt <em>herself</em>.</em> (she = herself)</p></li>
-      <li><p><em>They saw <em>themselves</em> in the mirror.</em></p></li>
+      <li><p>"She hurt <em>herself</em>." (she = herself)</p></li>
+      <li><p>"They saw <em>themselves</em> in the mirror."</p></li>
     </ul>
 
     <p>Reflexives cannot be subjects and require an antecedent in the same clause:</p>
@@ -611,11 +611,11 @@
       <title>Demonstrative Pronouns</title>
     </paragraphs>
 
-    <p><em>This</em>, <em>that</em>, <em>these</em>, <em>those</em> can function as pronouns (standing alone) or determiners (with a noun):</p>
+    <p>This, that, these, those can function as pronouns (standing alone) or determiners (with a noun):</p>
 
     <ul>
-      <li><p>Pronoun: <em><em>This</em> is interesting.</em> <em><em>Those</em> are mine.</em></p></li>
-      <li><p>Determiner: <em><em>This book</em> is interesting.</em> <em><em>Those books</em> are mine.</em></p></li>
+      <li><p>Pronoun: This is interesting. Those are mine.</p></li>
+      <li><p>Determiner: This book is interesting. Those books are mine.</p></li>
     </ul>
 
     <p>As pronouns, demonstratives typically refer to things just mentioned, about to be mentioned, or physically present.</p>
@@ -627,13 +627,13 @@
     <p>Question words that stand for unknown NPs:</p>
 
     <ul>
-      <li><p><em>Who/whom</em> (people): <em><em>Who</em> called?</em> <em>I saw <em>whom</em>?</em></p></li>
-      <li><p><em>What</em> (things): <em><em>What</em> happened?</em></p></li>
-      <li><p><em>Which</em> (selective): <em><em>Which</em> do you want?</em></p></li>
-      <li><p><em>Whose</em> (possession): <em><em>Whose</em> is this?</em></p></li>
+      <li><p><em>Who/whom</em> (people): Who called? "I saw <em>whom</em>?"</p></li>
+      <li><p><em>What</em> (things): What happened?</p></li>
+      <li><p><em>Which</em> (selective): Which do you want?</p></li>
+      <li><p><em>Whose</em> (possession): Whose is this?</p></li>
     </ul>
 
-    <p><em>Who vs. whom</em>: Traditional grammar requires <em>whom</em> as object (<em>Whom did you see?</em>), but modern English often uses <em>who</em> in all positions except after prepositions (<em>To whom</em> remains preferred over <em>To who</em>).</p>
+    <p><em>Who vs. whom</em>: Traditional grammar requires <em>whom</em> as object (Whom did you see?), but modern English often uses <em>who</em> in all positions except after prepositions (To whom remains preferred over To who).</p>
 
     <paragraphs>
       <title>Indefinite Pronouns</title>
@@ -648,23 +648,23 @@
       </row>
       <row>
         <cell>Universal</cell>
-        <cell><em>everyone</em>, <em>everybody</em>, <em>everything</em>, <em>all</em>, <em>each</em>, <em>both</em></cell>
+        <cell>everyone, everybody, everything, all, each, both</cell>
       </row>
       <row>
         <cell>Existential</cell>
-        <cell><em>someone</em>, <em>somebody</em>, <em>something</em>, <em>some</em>, <em>any</em></cell>
+        <cell>someone, somebody, something, some, any</cell>
       </row>
       <row>
         <cell>Negative</cell>
-        <cell><em>no one</em>, <em>nobody</em>, <em>nothing</em>, <em>none</em></cell>
+        <cell>no one, nobody, nothing, none</cell>
       </row>
     </tabular>
 
     <p>Many indefinites are grammatically singular even when semantically plural:</p>
 
     <ul>
-      <li><p><em>Everyone <em>is</em> here.</em> (not <em>~~Everyone are~~</em>)</p></li>
-      <li><p><em>Each of the students <em>has</em> arrived.</em></p></li>
+      <li><p>"Everyone <em>is</em> here." (not ~~Everyone are~~)</p></li>
+      <li><p>"Each of the students <em>has</em> arrived."</p></li>
     </ul>
 
   </section>
@@ -676,7 +676,7 @@
 
     <p>Consider the range of relationships that prepositions express. They mark <em>spatial relationships</em>—where things are in relation to each other: <em>in</em> the box, <em>on</em> the table, <em>under</em> the bridge, <em>above</em> the clouds, <em>beside</em> the river, <em>between</em> the buildings. They mark <em>temporal relationships</em>—when events occur relative to other events: <em>before</em> lunch, <em>after</em> the meeting, <em>during</em> the lecture, <em>since</em> Tuesday, <em>until</em> midnight, <em>throughout</em> the semester. And they mark <em>logical and abstract relationships</em>—connections of cause, purpose, association, and topic: <em>of</em> the people, <em>for</em> a reason, <em>with</em> great care, <em>about</em> the election, <em>despite</em> the obstacles, <em>because of</em> the weather.</p>
 
-    <p>A single preposition shift can change meaning dramatically. Think about how differently these phrases describe the relationship between the book and the table: <em>the book <em>on</em> the table</em>, <em>the book <em>about</em> the table</em>, <em>the book <em>under</em> the table</em>, <em>the book <em>beside</em> the table</em>. The noun phrase stays the same, but the preposition reconfigures the relationship entirely—from physical location (<em>on</em>, <em>under</em>, <em>beside</em>) to subject matter (<em>about</em>).</p>
+    <p>A single preposition shift can change meaning dramatically. Think about how differently these phrases describe the relationship between the book and the table: <em>the book <em>on</em> the table</em>, <em>the book <em>about</em> the table</em>, <em>the book <em>under</em> the table</em>, <em>the book <em>beside</em> the table</em>. The noun phrase stays the same, but the preposition reconfigures the relationship entirely—from physical location (on, under, beside) to subject matter (about).</p>
 
     <p>Prepositions combine with noun phrases to form <em>prepositional phrases (PPs)</em>, which function as modifiers throughout the sentence. They are among the most common structures in English—virtually every sentence of any complexity contains at least one prepositional phrase.</p>
 
@@ -695,15 +695,15 @@
       </row>
       <row>
         <cell>Spatial</cell>
-        <cell><em>in</em>, <em>on</em>, <em>at</em>, <em>above</em>, <em>below</em>, <em>under</em>, <em>over</em>, <em>between</em>, <em>among</em>, <em>through</em>, <em>across</em>, <em>behind</em>, <em>beside</em>, <em>near</em>, <em>toward</em></cell>
+        <cell>in, on, at, above, below, under, over, between, among, through, across, behind, beside, near, toward</cell>
       </row>
       <row>
         <cell>Temporal</cell>
-        <cell><em>before</em>, <em>after</em>, <em>during</em>, <em>since</em>, <em>until</em>, <em>throughout</em></cell>
+        <cell>before, after, during, since, until, throughout</cell>
       </row>
       <row>
         <cell>Logical/Abstract</cell>
-        <cell><em>of</em>, <em>for</em>, <em>with</em>, <em>by</em>, <em>about</em>, <em>without</em>, <em>despite</em>, <em>concerning</em>, <em>regarding</em></cell>
+        <cell>of, for, with, by, about, without, despite, concerning, regarding</cell>
       </row>
     </tabular>
 
@@ -768,9 +768,9 @@
     <p>The object of the preposition can be:</p>
 
     <ul>
-      <li><p>A simple noun: <em>in <em>town</em></em></p></li>
-      <li><p>A complex NP: <em>in <em>the busy downtown area</em></em></p></li>
-      <li><p>A pronoun: <em>with <em>her</em></em> (object form required)</p></li>
+      <li><p>A simple noun: in town</p></li>
+      <li><p>A complex NP: in the busy downtown area</p></li>
+      <li><p>A pronoun: with her (object form required)</p></li>
     </ul>
 
     <paragraphs>
@@ -782,10 +782,10 @@
     <p><em>PPs modifying noun phrases</em>: A PP can modify a noun, answering &quot;which one?&quot; or &quot;what kind?&quot;</p>
 
     <ul>
-      <li><p><em>the man <em>in the hat</em></em> (which man?)</p></li>
-      <li><p><em>a book <em>about grammar</em></em> (what kind of book?)</p></li>
-      <li><p><em>the house <em>on the corner</em></em> (which house?)</p></li>
-      <li><p><em>a sense <em>of accomplishment</em></em> (what kind of sense?)</p></li>
+      <li><p>the man in the hat (which man?)</p></li>
+      <li><p>a book about grammar (what kind of book?)</p></li>
+      <li><p>the house on the corner (which house?)</p></li>
+      <li><p>a sense of accomplishment (what kind of sense?)</p></li>
     </ul>
 
     <p>In a tree diagram, notice how the PP <em>in the hat</em> is embedded inside the NP—it is part of the noun phrase, not separate from it:</p>
@@ -801,10 +801,10 @@
     <p><em>PPs modifying verb phrases</em>: A PP can modify a verb or the action it describes, providing information about time, place, manner, reason, and other circumstances:</p>
 
     <ul>
-      <li><p><em>She waited <em>in the lobby</em>.</em> (where?)</p></li>
-      <li><p><em>He arrived <em>at noon</em>.</em> (when?)</p></li>
-      <li><p><em>They spoke <em>with enthusiasm</em>.</em> (how?)</p></li>
-      <li><p><em>We left <em>because of the weather</em>.</em> (why?)</p></li>
+      <li><p>"She waited <em>in the lobby</em>." (where?)</p></li>
+      <li><p>"He arrived <em>at noon</em>." (when?)</p></li>
+      <li><p>"They spoke <em>with enthusiasm</em>." (how?)</p></li>
+      <li><p>"We left <em>because of the weather</em>." (why?)</p></li>
     </ul>
 
     <p>When a PP modifies the verb, it attaches inside the VP rather than inside any noun phrase:</p>
@@ -820,9 +820,9 @@
     <p><em>PPs modifying adjective phrases</em>: Some adjectives require or commonly take PP complements:</p>
 
     <ul>
-      <li><p><em>She is proud <em>of her work</em>.</em> (proud of what?)</p></li>
-      <li><p><em>I'm afraid <em>of the dark</em>.</em> (afraid of what?)</p></li>
-      <li><p><em>He was angry <em>about the decision</em>.</em> (angry about what?)</p></li>
+      <li><p>"She is proud <em>of her work</em>." (proud of what?)</p></li>
+      <li><p>"I'm afraid <em>of the dark</em>." (afraid of what?)</p></li>
+      <li><p>"He was angry <em>about the decision</em>." (angry about what?)</p></li>
     </ul>
 
     <p>Here, the PP <em>of her work</em> is embedded inside the adjective phrase, completing the meaning of <em>proud</em>:</p>
@@ -862,8 +862,8 @@
     <p><em>Test 1: What question does it answer?</em></p>
 
     <ul>
-      <li><p>&quot;Which one?&quot; or &quot;What kind?&quot; → PP modifies a noun (<em>the man in the hat</em>)</p></li>
-      <li><p>&quot;Where?&quot; &quot;When?&quot; &quot;How?&quot; → PP modifies a verb (<em>waited in the lobby</em>)</p></li>
+      <li><p>&quot;Which one?&quot; or &quot;What kind?&quot; → PP modifies a noun (the man in the hat)</p></li>
+      <li><p>&quot;Where?&quot; &quot;When?&quot; &quot;How?&quot; → PP modifies a verb (waited in the lobby)</p></li>
     </ul>
 
     <p><em>Test 2: Can it move to sentence-initial position?</em></p>
@@ -876,8 +876,8 @@
     <p><em>Test 3: Does the noun phrase make sense without it?</em></p>
 
     <ul>
-      <li><p>If replacing the NP with a pronoun eliminates the PP, it modifies the noun: <em>The man in the hat waved.</em> → <em>He waved.</em> (PP gone—it was part of the NP)</p></li>
-      <li><p>If the PP survives pronoun replacement, it modifies the verb: <em>She saw the man with binoculars.</em> → <em>She saw him with binoculars.</em> (PP remains—it modifies <em>saw</em>)</p></li>
+      <li><p>If replacing the NP with a pronoun eliminates the PP, it modifies the noun: The man in the hat waved. → He waved. (PP gone—it was part of the NP)</p></li>
+      <li><p>If the PP survives pronoun replacement, it modifies the verb: She saw the man with binoculars. → She saw him with binoculars. (PP remains—it modifies saw)</p></li>
     </ul>
 
     <paragraphs>
@@ -915,7 +915,7 @@
       <title>PP modifying the VP: &quot;saw with binoculars&quot;</title>
     </paragraphs>
 
-    <p>You can use the tests from the previous section to tease apart the two readings. The pronoun replacement test is especially helpful: if you replace <em>the man with binoculars</em> with <em>him</em> and the sentence still makes sense (<em>I saw him with binoculars</em>), then <em>with binoculars</em> can modify the verb. If the PP disappears when you pronominalize (<em>I saw him</em>), it was part of the NP.</p>
+    <p>You can use the tests from the previous section to tease apart the two readings. The pronoun replacement test is especially helpful: if you replace <em>the man with binoculars</em> with <em>him</em> and the sentence still makes sense (I saw him with binoculars), then <em>with binoculars</em> can modify the verb. If the PP disappears when you pronominalize (I saw him), it was part of the NP.</p>
 
     <p>Here is another example of the same kind of ambiguity:</p>
 
@@ -1067,7 +1067,7 @@
             <li><p>Specifies reference</p></li>
           </ul>
         </cell>
-        <cell><em>the</em>, <em>a</em>, <em>my</em>, <em>this</em>, <em>some</em>, <em>every</em></cell>
+        <cell>the, a, my, this, some, every</cell>
       </row>
       <row>
         <cell>Pronoun</cell>
@@ -1078,7 +1078,7 @@
             <li><p>Requires antecedent (usually)</p></li>
           </ul>
         </cell>
-        <cell><em>I/me</em>, <em>she/her</em>, <em>they/them</em>, <em>who</em></cell>
+        <cell>I/me, she/her, they/them, who</cell>
       </row>
       <row>
         <cell>Preposition</cell>
@@ -1089,7 +1089,7 @@
             <li><p>PP modifies nouns, verbs, adjectives, or sentences</p></li>
           </ul>
         </cell>
-        <cell><em>in</em>, <em>on</em>, <em>to</em>, <em>from</em>, <em>with</em>, <em>about</em></cell>
+        <cell>in, on, to, from, with, about</cell>
       </row>
     </tabular>
 
@@ -1358,8 +1358,8 @@
 
       <p><em>Exercise 15.</em> The phrase <em>in the laboratory</em> in the first sentence could modify either the noun <em>researcher</em> or the verb <em>examined</em>. Explain both possible interpretations and how you would determine which reading is intended.</p>
       <ul>
-        <li><p>NP-modifying interpretation (modifies <em>researcher</em>):</p></li>
-        <li><p>VP-modifying interpretation (modifies <em>examined</em>):</p></li>
+        <li><p>NP-modifying interpretation (modifies researcher):</p></li>
+        <li><p>VP-modifying interpretation (modifies examined):</p></li>
         <li><p>How to determine the intended reading:</p></li>
       </ul>
 
@@ -1647,7 +1647,7 @@
     </gi>
     <gi>
       <title>Article</title>
-      <p>A determiner that marks definiteness (<em>the</em>) or indefiniteness (<em>a</em>, <em>an</em>).</p>
+      <p>A determiner that marks definiteness (the) or indefiniteness (a, an).</p>
     </gi>
     <gi>
       <title>Closed class</title>
@@ -1655,7 +1655,7 @@
     </gi>
     <gi>
       <title>Demonstrative</title>
-      <p>A word that points to specific entities (<em>this</em>, <em>that</em>, <em>these</em>, <em>those</em>).</p>
+      <p>A word that points to specific entities (this, that, these, those).</p>
     </gi>
     <gi>
       <title>Determiner</title>
@@ -1663,11 +1663,11 @@
     </gi>
     <gi>
       <title>Indefinite pronoun</title>
-      <p>A pronoun referring to unspecified entities (<em>someone</em>, <em>everyone</em>).</p>
+      <p>A pronoun referring to unspecified entities (someone, everyone).</p>
     </gi>
     <gi>
       <title>Interrogative pronoun</title>
-      <p>A pronoun used in questions (<em>who</em>, <em>what</em>, <em>which</em>).</p>
+      <p>A pronoun used in questions (who, what, which).</p>
     </gi>
     <gi>
       <title>Object of preposition</title>
@@ -1679,7 +1679,7 @@
     </gi>
     <gi>
       <title>Possessive</title>
-      <p>A form indicating ownership; can be determiner (<em>my</em>) or pronoun (<em>mine</em>).</p>
+      <p>A form indicating ownership; can be determiner (my) or pronoun (mine).</p>
     </gi>
     <gi>
       <title>Preposition</title>
@@ -1695,7 +1695,7 @@
     </gi>
     <gi>
       <title>Quantifier</title>
-      <p>A determiner indicating amount or quantity (<em>some</em>, <em>all</em>, <em>many</em>).</p>
+      <p>A determiner indicating amount or quantity (some, all, many).</p>
     </gi>
     <gi>
       <title>Reflexive pronoun</title>

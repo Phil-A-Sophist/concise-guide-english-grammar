@@ -128,13 +128,13 @@
       </row>
     </tabular>
 
-    <p>No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate (<em>The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before</em>...) and the predicate can become equally elaborate (...<em>suddenly found herself standing on the stage of Carnegie Hall</em>). But the fundamental structure—subject NP plus predicate VP—persists.</p>
+    <p>No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate (The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before...) and the predicate can become equally elaborate (...suddenly found herself standing on the stage of Carnegie Hall). But the fundamental structure—subject NP plus predicate VP—persists.</p>
 
     <paragraphs>
       <title>What's in the NP?</title>
     </paragraphs>
 
-    <p>A noun phrase is built around a noun (its <em>head</em>). The simplest NP is just a noun or pronoun:</p>
+    <p>A noun phrase is built around a noun (its head). The simplest NP is just a noun or pronoun:</p>
 
     <ul>
       <li><p><em>Dogs</em> bark.</p></li>
@@ -156,7 +156,7 @@
       <title>What's in the VP?</title>
     </paragraphs>
 
-    <p>A verb phrase is built around a verb (its <em>head</em>). The simplest VP is just a verb:</p>
+    <p>A verb phrase is built around a verb (its head). The simplest VP is just a verb:</p>
 
     <ul>
       <li><p>Dogs <em>bark</em>.</p></li>
@@ -208,72 +208,72 @@
       <row>
         <cell>NP</cell>
         <cell>Noun phrase</cell>
-        <cell><em>the dog</em>, <em>she</em>, <em>my old friend</em></cell>
+        <cell>the dog, she, my old friend</cell>
       </row>
       <row>
         <cell>VP</cell>
         <cell>Verb phrase</cell>
-        <cell><em>runs</em>, <em>ate the sandwich</em>, <em>is happy</em></cell>
+        <cell>runs, ate the sandwich, is happy</cell>
       </row>
       <row>
         <cell>PP</cell>
         <cell>Prepositional phrase</cell>
-        <cell><em>in the house</em>, <em>with enthusiasm</em></cell>
+        <cell>in the house, with enthusiasm</cell>
       </row>
       <row>
         <cell>AdjP</cell>
         <cell>Adjective phrase</cell>
-        <cell><em>very tall</em>, <em>happy</em></cell>
+        <cell>very tall, happy</cell>
       </row>
       <row>
         <cell>AdvP</cell>
         <cell>Adverb phrase</cell>
-        <cell><em>quickly</em>, <em>very slowly</em></cell>
+        <cell>quickly, very slowly</cell>
       </row>
       <row>
         <cell>N</cell>
         <cell>Noun</cell>
-        <cell><em>dog</em>, <em>happiness</em>, <em>Sarah</em></cell>
+        <cell>dog, happiness, Sarah</cell>
       </row>
       <row>
         <cell>V</cell>
         <cell>Verb</cell>
-        <cell><em>run</em>, <em>is</em>, <em>consider</em></cell>
+        <cell>run, is, consider</cell>
       </row>
       <row>
         <cell>Adj</cell>
         <cell>Adjective</cell>
-        <cell><em>tall</em>, <em>blue</em>, <em>interesting</em></cell>
+        <cell>tall, blue, interesting</cell>
       </row>
       <row>
         <cell>Adv</cell>
         <cell>Adverb</cell>
-        <cell><em>quickly</em>, <em>never</em>, <em>there</em></cell>
+        <cell>quickly, never, there</cell>
       </row>
       <row>
         <cell>Det</cell>
         <cell>Determiner</cell>
-        <cell><em>the</em>, <em>a</em>, <em>my</em>, <em>this</em></cell>
+        <cell>the, a, my, this</cell>
       </row>
       <row>
         <cell>Pro</cell>
         <cell>Pronoun</cell>
-        <cell><em>she</em>, <em>it</em>, <em>they</em></cell>
+        <cell>she, it, they</cell>
       </row>
       <row>
         <cell>Prep</cell>
         <cell>Preposition</cell>
-        <cell><em>in</em>, <em>on</em>, <em>with</em>, <em>to</em></cell>
+        <cell>in, on, with, to</cell>
       </row>
       <row>
         <cell>Conj</cell>
         <cell>Conjunction</cell>
-        <cell><em>and</em>, <em>but</em>, <em>or</em></cell>
+        <cell>and, but, or</cell>
       </row>
       <row>
         <cell>Aux</cell>
         <cell>Auxiliary</cell>
-        <cell><em>has</em>, <em>will</em>, <em>been</em>, <em>can</em></cell>
+        <cell>has, will, been, can</cell>
       </row>
     </tabular>
 
@@ -413,16 +413,16 @@
     <p><em>In noun phrases:</em></p>
 
     <ul>
-      <li><p>Adjectives: <em>the <em>tall</em> man</em></p></li>
-      <li><p>Prepositional phrases: <em>the man <em>in the hat</em></em></p></li>
-      <li><p>Relative clauses: <em>the man <em>who arrived late</em></em></p></li>
+      <li><p>Adjectives: the tall man</p></li>
+      <li><p>Prepositional phrases: the man in the hat</p></li>
+      <li><p>Relative clauses: the man who arrived late</p></li>
     </ul>
 
     <p><em>In verb phrases:</em></p>
 
     <ul>
-      <li><p>Adverbs: <em>she spoke <em>quietly</em></em></p></li>
-      <li><p>Prepositional phrases: <em>she works <em>at a hospital</em></em></p></li>
+      <li><p>Adverbs: she spoke quietly</p></li>
+      <li><p>Prepositional phrases: she works at a hospital</p></li>
     </ul>
 
     <p>Modifiers answer questions like &quot;which one?&quot; &quot;what kind?&quot; &quot;how?&quot; &quot;when?&quot; &quot;where?&quot;</p>
@@ -436,16 +436,16 @@
     <p><em>In verb phrases</em>, the main verb often requires certain complements:</p>
 
     <ul>
-      <li><p>Transitive verbs require objects: <em>She read <em>the book</em></em>.</p></li>
-      <li><p>Linking verbs require subject complements: <em>He is <em>a doctor</em></em>.</p></li>
+      <li><p>Transitive verbs require objects: She read the book.</p></li>
+      <li><p>Linking verbs require subject complements: He is a doctor.</p></li>
       <li><p>Ditransitive verbs require two objects: <em>She gave <em>me</em> <em>a book</em></em>.</p></li>
     </ul>
 
     <p>The difference between complements and modifiers can be subtle, but one test is obligatoriness: if removing an element makes the sentence feel incomplete, it's likely a complement.</p>
 
     <ul>
-      <li><p><em>She read the book carefully.</em> → <em>She read the book.</em> (OK—&quot;carefully&quot; is a modifier)</p></li>
-      <li><p><em>She read the book carefully.</em> → <em>She read carefully.</em> (Changed meaning—&quot;the book&quot; is a complement)</p></li>
+      <li><p>She read the book carefully. → She read the book. (OK—&quot;carefully&quot; is a modifier)</p></li>
+      <li><p>She read the book carefully. → She read carefully. (Changed meaning—&quot;the book&quot; is a complement)</p></li>
     </ul>
 
   </section>
