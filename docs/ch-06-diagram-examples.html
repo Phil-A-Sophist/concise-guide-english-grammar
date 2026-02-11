@@ -216,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, bold black */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.9em !important;
-    font-weight: 700 !important;
-    color: #000000 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -874,7 +880,7 @@ section .tabular-box {
 <div class="para" id="ch-06-diagrams-pp-26">
 <code class="code-inline tex2jax_ignore">[S [PP [PREP In] [NP [DET the] [N morning]]] [NP [PRON we]] [VP [MOD will] [V leave]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pp-26" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-diagrams-pp-27">The following pair of diagrams illustrates structural ambiguity. The sentence <em class="emphasis">I saw the man with binoculars</em> can be parsed two ways depending on whether the PP <em class="emphasis">with binoculars</em> modifies the noun phrase or the verb phrase.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pp-27" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-diagrams-pp-27">The following pair of diagrams illustrates structural ambiguity. The sentence I saw the man with binoculars can be parsed two ways depending on whether the PP with binoculars modifies the noun phrase or the verb phrase.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-diagrams-pp-27" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-diagrams-pp-28"><h4 class="heading"><span class="title">6.8.3 I: PP modifies NP — "the man with binoculars".</span></h4>
 <div class="autopermalink" data-description='Paragraphs: 6.8.3 I: PP modifies NP — "the man with binoculars"'><a href="#ch-06-diagrams-pp-28" title='Copy heading and permalink for Paragraphs: 6.8.3 I: PP modifies NP — "the man with binoculars"' aria-label='Copy heading and permalink for Paragraphs: 6.8.3 I: PP modifies NP — "the man with binoculars"'>🔗</a></div></section><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/diagrams/new/ch06_ambig_binoculars_np.png" class="contained" alt='Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars'></div>

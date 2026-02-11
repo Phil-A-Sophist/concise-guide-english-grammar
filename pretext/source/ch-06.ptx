@@ -35,7 +35,7 @@
       <li><p>Auxiliary verbs: be, have, do, can, will, might...</p></li>
     </ul>
 
-    <p>When did English last add a new preposition? A new pronoun? These classes have been essentially stable for centuries. Even the gradual acceptance of singular <em>they</em> represents an expansion of function, not a new word.</p>
+    <p>When did English last add a new preposition? A new pronoun? These classes have been essentially stable for centuries. Even the gradual acceptance of singular they represents an expansion of function, not a new word.</p>
 
     <paragraphs>
       <title>Why the Difference Matters</title>
@@ -67,13 +67,13 @@
   <section xml:id="ch-06-closed-classes-sec-62">
     <title>Determiners</title>
 
-    <p><em>Determiners</em> introduce noun phrases and help specify reference—they help listeners identify which entity or entities the speaker means.</p>
+    <p><term>Determiners</term> introduce noun phrases and help specify reference—they help listeners identify which entity or entities the speaker means.</p>
 
     <paragraphs>
       <title>Determiners as Reference-Setting Words</title>
     </paragraphs>
 
-    <p>Think of a noun like <em>dog</em> as naming a general concept—the category of all dogs. By itself, <em>dog</em> is abstract and unanchored. It doesn't tell us which dog, how many dogs, or whose dog. Determiners are the words that take this general noun concept and pin it down to something specific. They are <em>reference-setting</em> words: they establish the link between a word and the particular entity (or entities) the speaker has in mind.</p>
+    <p>Think of a noun like dog as naming a general concept—the category of all dogs. By itself, dog is abstract and unanchored. It doesn't tell us which dog, how many dogs, or whose dog. Determiners are the words that take this general noun concept and pin it down to something specific. They are <em>reference-setting</em> words: they establish the link between a word and the particular entity (or entities) the speaker has in mind.</p>
 
     <p>Determiners do several kinds of semantic work. They signal <em>definiteness</em>—whether the listener should already know the referent (the) or is hearing about it for the first time (a). They indicate <em>quantity</em>—how many entities are involved (some, many, every, three). They mark <em>possession</em>—who the entity belongs to or is associated with (my, their, the professor's). And they express <em>proximity</em>—whether the entity is near or far from the speaker (this, that).</p>
 
@@ -88,13 +88,13 @@
       <li><p>That dog barked. (a specific dog at some distance from the speaker)</p></li>
     </ul>
 
-    <p>The noun <em>dog</em> stays the same in every sentence, but the determiner transforms the meaning entirely. This is a remarkable amount of work for such small words. Determiners carry minimal content meaning on their own—you cannot picture <em>the</em> or <em>a</em> or <em>every</em>—but they do essential grammatical work. They are the words that turn a bare concept into something a listener can locate in the real world.</p>
+    <p>The noun dog stays the same in every sentence, but the determiner transforms the meaning entirely. This is a remarkable amount of work for such small words. Determiners carry minimal content meaning on their own—you cannot picture the or a or every—but they do essential grammatical work. They are the words that turn a bare concept into something a listener can locate in the real world.</p>
 
     <paragraphs>
       <title>What Determiners Do</title>
     </paragraphs>
 
-    <p>When you hear &quot;I saw <em>a</em> dog,&quot; the determiner <em>a</em> signals that the dog is being introduced for the first time (indefinite reference). When you hear &quot;I saw <em>the</em> dog,&quot; <em>the</em> signals that you should already know which dog (definite reference).</p>
+    <p>When you hear &quot;I saw a dog,&quot; the determiner a signals that the dog is being introduced for the first time (indefinite reference). When you hear &quot;I saw the dog,&quot; the signals that you should already know which dog (definite reference).</p>
 
     <p>Determiners answer questions like:</p>
 
@@ -119,8 +119,8 @@
     <p><em>Demonstratives</em>—point to specific entities:</p>
 
     <ul>
-      <li><p>Near: <em>this</em>, <em>these</em> (close to speaker)</p></li>
-      <li><p>Far: <em>that</em>, <em>those</em> (farther from speaker)</p></li>
+      <li><p>Near: this, these (close to speaker)</p></li>
+      <li><p>Far: that, those (farther from speaker)</p></li>
     </ul>
 
     <p><em>Possessives</em>—indicate ownership or relationship:</p>
@@ -153,15 +153,15 @@
 
     <p>Determiners occupy a specific position in the noun phrase—they come first, before any adjectives. This consistent position makes them easy to identify:</p>
 
-    <image source="diagrams/new/ch06_dog_barked.png" width="40%">
-      <description>Syntax tree showing "The dog barked" with determiner in initial NP position</description>
-    </image>
+    <figure xml:id="fig-ch06-det-position">
+      <caption>Determiner position in the noun phrase</caption>
+      <image source="diagrams/new/ch06_dog_barked.png" width="40%">
+        <description>Syntax tree showing "The dog barked" with determiner in initial NP position</description>
+      </image>
+    </figure>
     <p><c>[NP [DET the] [N dog]]</c></p>
-    <paragraphs>
-      <title>Determiner position in the noun phrase</title>
-    </paragraphs>
 
-    <p>The pattern is consistent: <em>Det + (Adj) + N</em></p>
+    <p>The pattern is consistent: Det + (Adj) + N</p>
 
     <ul>
       <li><p>the big dog</p></li>
@@ -180,20 +180,20 @@
     <p>Nouns usually take just one determiner. However, in some cases two determiners can appear together in the same noun phrase:</p>
 
     <ul>
-      <li><p><em>all the students</em> (two determiners: all + the)</p></li>
-      <li><p><em>both my parents</em> (two determiners: both + my)</p></li>
-      <li><p><em>the first three chapters</em> (article + ordinal + cardinal)</p></li>
+      <li><p>all the students (two determiners: all + the)</p></li>
+      <li><p>both my parents (two determiners: both + my)</p></li>
+      <li><p>the first three chapters (article + ordinal + cardinal)</p></li>
     </ul>
 
-    <p>Words like <em>all</em> and <em>both</em> are the most common determiners that can combine with another determiner. A tree diagram shows how both determiners appear within the noun phrase:</p>
+    <p>Words like all and both are the most common determiners that can combine with another determiner. A tree diagram shows how both determiners appear within the noun phrase:</p>
 
-    <image source="diagrams/new/ch06_two_determiners.png" width="30%">
-      <description>Syntax tree showing "all the students" with two determiners and a noun</description>
-    </image>
+    <figure xml:id="fig-ch06-two-determiners">
+      <caption>A noun phrase with two determiners</caption>
+      <image source="diagrams/new/ch06_two_determiners.png" width="30%">
+        <description>Syntax tree showing "all the students" with two determiners and a noun</description>
+      </image>
+    </figure>
     <p><c>[NP [DET all] [DET the] [N students]]</c></p>
-    <paragraphs>
-      <title>A noun phrase with two determiners</title>
-    </paragraphs>
 
     <paragraphs>
       <title>Determiners vs. Adjectives</title>
@@ -242,8 +242,8 @@
     <p>Compare:</p>
 
     <ul>
-      <li><p><em>The</em> is required for singular count nouns in many contexts: <em>~~Book is on table.~~</em></p></li>
-      <li><p><em>Interesting</em> is always optional: <em>The book is on the table.</em></p></li>
+      <li><p>The is required for singular count nouns in many contexts: <em>~~Book is on table.~~</em></p></li>
+      <li><p>Interesting is always optional: The book is on the table.</p></li>
     </ul>
 
     <paragraphs>
@@ -252,16 +252,16 @@
 
     <p>Because determiners and adjectives both appear before nouns, students sometimes confuse them. Two simple tests reliably distinguish the two categories.</p>
 
-    <p><em>Test 1: Adjectives are gradable—determiners are not.</em> You can modify adjectives with degree words like <em>very</em>, <em>extremely</em>, and <em>rather</em>. You cannot do this with determiners. If a word before a noun can be modified by <em>very</em>, it is an adjective, not a determiner:</p>
+    <p><em>Test 1: Adjectives are gradable—determiners are not.</em> You can modify adjectives with degree words like very, extremely, and rather. You cannot do this with determiners. If a word before a noun can be modified by very, it is an adjective, not a determiner:</p>
 
     <ul>
-      <li><p><em>very tall</em> ✓ — <em>tall</em> is an adjective</p></li>
-      <li><p><em>extremely happy</em> ✓ — <em>happy</em> is an adjective</p></li>
-      <li><p><em>rather old</em> ✓ — <em>old</em> is an adjective</p></li>
-      <li><p><em>~~very the~~</em> ✗ — <em>the</em> is a determiner</p></li>
-      <li><p><em>~~extremely my~~</em> ✗ — <em>my</em> is a determiner</p></li>
-      <li><p><em>~~very this~~</em> ✗ — <em>this</em> is a determiner</p></li>
-      <li><p><em>~~rather every~~</em> ✗ — <em>every</em> is a determiner</p></li>
+      <li><p>very tall ✓ — tall is an adjective</p></li>
+      <li><p>extremely happy ✓ — happy is an adjective</p></li>
+      <li><p>rather old ✓ — old is an adjective</p></li>
+      <li><p><em>~~very the~~</em> ✗ — the is a determiner</p></li>
+      <li><p><em>~~extremely my~~</em> ✗ — my is a determiner</p></li>
+      <li><p><em>~~very this~~</em> ✗ — this is a determiner</p></li>
+      <li><p><em>~~rather every~~</em> ✗ — every is a determiner</p></li>
     </ul>
 
     <p>This test works because adjectives describe qualities that exist on a scale (tall, taller, tallest), while determiners set reference and have no scale to intensify.</p>
@@ -269,15 +269,15 @@
     <p><em>Test 2: Determiners always come before adjectives in a noun phrase.</em> The word order within a noun phrase is fixed: Det + Adj + N. If a word must appear first—before any adjectives—it is a determiner:</p>
 
     <ul>
-      <li><p><em>the tall man</em> ✓ — not <em>~~tall the man~~</em></p></li>
-      <li><p><em>my old friend</em> ✓ — not <em>~~old my friend~~</em></p></li>
-      <li><p><em>some fresh bread</em> ✓ — not <em>~~fresh some bread~~</em></p></li>
-      <li><p><em>every single student</em> ✓ — not <em>~~single every student~~</em></p></li>
+      <li><p>the tall man ✓ — not <em>~~tall the man~~</em></p></li>
+      <li><p>my old friend ✓ — not <em>~~old my friend~~</em></p></li>
+      <li><p>some fresh bread ✓ — not <em>~~fresh some bread~~</em></p></li>
+      <li><p>every single student ✓ — not <em>~~single every student~~</em></p></li>
     </ul>
 
     <p>Notice that you can stack multiple adjectives between the determiner and the noun (the tall, friendly, old man), but the determiner must always come first. If you find yourself unable to move a word after an adjective—if it insists on occupying the first position—that word is a determiner.</p>
 
-    <p>Using both tests together provides a reliable method. If a pre-noun word is not gradable with <em>very</em> and must come before all adjectives, it is a determiner. If it is gradable and can follow a determiner, it is an adjective.</p>
+    <p>Using both tests together provides a reliable method. If a pre-noun word is not gradable with very and must come before all adjectives, it is a determiner. If it is gradable and can follow a determiner, it is an adjective.</p>
 
     <paragraphs>
       <title>Count vs. Mass Nouns and Determiners</title>
@@ -342,20 +342,20 @@
       <title>Determiners or Pronouns?</title>
     </paragraphs>
 
-    <p>Some words can be either a determiner or a pronoun depending on how they are used in a sentence. For example, possessive forms like <em>her</em> and <em>his</em>, and demonstratives like <em>this</em> and <em>that</em>, can appear as determiners (before a noun) or as standalone pronouns. See section 6.3 on pronouns for more details on how these overlapping forms work.</p>
+    <p>Some words can be either a determiner or a pronoun depending on how they are used in a sentence. For example, possessive forms like her and his, and demonstratives like this and that, can appear as determiners (before a noun) or as standalone pronouns. See section 6.3 on pronouns for more details on how these overlapping forms work.</p>
 
   </section>
 
   <section xml:id="ch-06-closed-classes-sec-63">
     <title>Pronouns</title>
 
-    <p><em>Pronouns</em> replace noun phrases. They are the stand-in system of language—compact pointers that take the place of full descriptions. Instead of repeating a long or complex noun phrase every time we refer to an entity, we can substitute a short pronoun that listeners understand as referring to the same thing. This makes language dramatically more efficient, but it also requires listeners to track what each pronoun refers to.</p>
+    <p><term>Pronouns</term> replace noun phrases. They are the stand-in system of language—compact pointers that take the place of full descriptions. Instead of repeating a long or complex noun phrase every time we refer to an entity, we can substitute a short pronoun that listeners understand as referring to the same thing. This makes language dramatically more efficient, but it also requires listeners to track what each pronoun refers to.</p>
 
-    <p>Pronouns encode several kinds of relational information in a remarkably small package. They mark <em>person</em>—distinguishing the speaker (I, we) from the addressee (you) from everyone else (he, she, it, they). They mark <em>number</em>—singular versus plural. In the third person singular, they mark <em>gender</em> (he, she, it). And they mark <em>case</em>—whether the pronoun is functioning as a subject (I, she, they) or an object (me, her, them). A single pronoun like <em>her</em> simultaneously tells you: third person, singular, feminine, object case. That is a lot of grammatical information packed into one syllable.</p>
+    <p>Pronouns encode several kinds of relational information in a remarkably small package. They mark <em>person</em>—distinguishing the speaker (I, we) from the addressee (you) from everyone else (he, she, it, they). They mark <em>number</em>—singular versus plural. In the third person singular, they mark <em>gender</em> (he, she, it). And they mark <em>case</em>—whether the pronoun is functioning as a subject (I, she, they) or an object (me, her, them). A single pronoun like her simultaneously tells you: third person, singular, feminine, object case. That is a lot of grammatical information packed into one syllable.</p>
 
-    <p>Pronouns also serve a crucial role in connecting sentences to each other. When you read <em>The professor entered the room. She placed her notes on the desk.</em>, the pronouns <em>she</em> and <em>her</em> create <em>cohesion</em>—they link the second sentence back to the first by referring to the same person. Without pronouns, every sentence would stand in isolation, and readers would have to re-identify every entity from scratch each time it was mentioned.</p>
+    <p>Pronouns also serve a crucial role in connecting sentences to each other. When you read The professor entered the room. She placed her notes on the desk., the pronouns she and her create <em>cohesion</em>—they link the second sentence back to the first by referring to the same person. Without pronouns, every sentence would stand in isolation, and readers would have to re-identify every entity from scratch each time it was mentioned.</p>
 
-    <p>The tradeoff is that pronouns are efficient but potentially ambiguous. They require listeners to track references—to remember who <em>she</em> is, what <em>it</em> refers to, and which group <em>they</em> picks out. When this tracking breaks down, communication fails. Ambiguous pronoun reference is one of the most common writing problems, and we will return to it later in this section.</p>
+    <p>The tradeoff is that pronouns are efficient but potentially ambiguous. They require listeners to track references—to remember who she is, what it refers to, and which group they picks out. When this tracking breaks down, communication fails. Ambiguous pronoun reference is one of the most common writing problems, and we will return to it later in this section.</p>
 
     <paragraphs>
       <title>Why Pronouns Exist</title>
@@ -363,13 +363,13 @@
 
     <p>Imagine language without pronouns:</p>
 
-    <p><em>Maria said that Maria wanted Maria's book back, but John told Maria that John had already returned Maria's book to Maria's office.</em></p>
+    <p>Maria said that Maria wanted Maria's book back, but John told Maria that John had already returned Maria's book to Maria's office.</p>
 
     <p>Now with pronouns:</p>
 
-    <p><em>Maria said that she wanted her book back, but John told her that he had already returned it to her office.</em></p>
+    <p>Maria said that she wanted her book back, but John told her that he had already returned it to her office.</p>
 
-    <p>Pronouns reduce redundancy and improve processing. The second version is not only shorter but easier to read and understand. The repeated proper nouns in the first version are distracting, and they actually make the sentence harder to process because the reader has to work to determine whether each instance of <em>Maria</em> refers to the same person or potentially different people. Pronouns, by contrast, signal continuity: they tell the reader that the same entity is still being discussed.</p>
+    <p>Pronouns reduce redundancy and improve processing. The second version is not only shorter but easier to read and understand. The repeated proper nouns in the first version are distracting, and they actually make the sentence harder to process because the reader has to work to determine whether each instance of Maria refers to the same person or potentially different people. Pronouns, by contrast, signal continuity: they tell the reader that the same entity is still being discussed.</p>
 
     <paragraphs>
       <title>Pronouns Replace Entire Noun Phrases</title>
@@ -377,65 +377,65 @@
 
     <p>An important principle to understand is that pronouns do not just replace the head noun—they replace the <em>entire noun phrase</em>, including all of its modifiers. When you substitute a pronoun for a noun phrase, the determiner, any adjectives, and any post-modifiers all disappear, collapsed into the single pronoun.</p>
 
-    <p>Consider the noun phrase <em>the brilliant young student from Ohio</em>. This phrase contains a determiner (the), two adjectives (brilliant, young), a head noun (student), and a prepositional phrase modifier (from Ohio)—six words in total. When we replace this NP with a pronoun, the entire six-word phrase becomes <em>she</em>. The pronoun does not replace just <em>student</em>; it replaces the whole expression.</p>
+    <p>Consider the noun phrase the brilliant young student from Ohio. This phrase contains a determiner (the), two adjectives (brilliant, young), a head noun (student), and a prepositional phrase modifier (from Ohio)—six words in total. When we replace this NP with a pronoun, the entire six-word phrase becomes she. The pronoun does not replace just student; it replaces the whole expression.</p>
 
     <p>The following diagram pairs illustrate this principle. In each pair, the first diagram shows a full noun phrase with its internal structure, and the second shows how that entire structure collapses to a single pronoun.</p>
 
-    <paragraphs>
-      <title>Full NP: <em>The tall student sleeps</em></title>
-    </paragraphs>
-    <image source="diagrams/new/ch06_np_full_sleeps.png" width="50%">
-      <description>Syntax tree for "The tall student sleeps" showing full NP with determiner, adjective, and noun</description>
-    </image>
+    <figure xml:id="fig-ch06-np-full-sleeps">
+      <caption>Full NP: <em>The tall student sleeps</em></caption>
+      <image source="diagrams/new/ch06_np_full_sleeps.png" width="50%">
+        <description>Syntax tree for "The tall student sleeps" showing full NP with determiner, adjective, and noun</description>
+      </image>
+    </figure>
     <p><c>[S [NP [DET The] [ADJP [ADJ tall]] [N student]] [VP [V sleeps]]]</c></p>
 
-    <paragraphs>
-      <title>Pronoun replacement: <em>She sleeps</em></title>
-    </paragraphs>
-    <image source="diagrams/new/ch06_pronoun_subject.png" width="30%">
-      <description>Syntax tree for "She sleeps" showing pronoun as complete NP</description>
-    </image>
+    <figure xml:id="fig-ch06-pronoun-sleeps">
+      <caption>Pronoun replacement: <em>She sleeps</em></caption>
+      <image source="diagrams/new/ch06_pronoun_subject.png" width="30%">
+        <description>Syntax tree for "She sleeps" showing pronoun as complete NP</description>
+      </image>
+    </figure>
     <p><c>[S [NP [PRON She]] [VP [V sleeps]]]</c></p>
 
-    <p>Notice that the three-word noun phrase <em>the tall student</em>—with its determiner, adjective phrase, and noun—has been entirely replaced by the single pronoun <em>She</em>. The NP node in the tree now contains only the pronoun.</p>
+    <p>Notice that the three-word noun phrase the tall student—with its determiner, adjective phrase, and noun—has been entirely replaced by the single pronoun She. The NP node in the tree now contains only the pronoun.</p>
 
-    <paragraphs>
-      <title>Full NPs: <em>The teacher gave the young student a book</em></title>
-    </paragraphs>
-    <image source="diagrams/new/ch06_np_full_gave.png" width="75%">
-      <description>Syntax tree for "The teacher gave the young student a book" showing full NPs</description>
-    </image>
+    <figure xml:id="fig-ch06-np-full-gave">
+      <caption>Full NPs: <em>The teacher gave the young student a book</em></caption>
+      <image source="diagrams/new/ch06_np_full_gave.png" width="75%">
+        <description>Syntax tree for "The teacher gave the young student a book" showing full NPs</description>
+      </image>
+    </figure>
     <p><c>[S [NP [DET The] [N teacher]] [VP [V gave] [NP [DET the] [ADJP [ADJ young]] [N student]] [NP [DET a] [N book]]]]</c></p>
 
-    <paragraphs>
-      <title>Pronoun replacement: <em>She gave me a book</em></title>
-    </paragraphs>
-    <image source="diagrams/new/ch06_ditransitive.png" width="50%">
-      <description>Syntax tree for "She gave me a book" showing pronouns replacing full NPs</description>
-    </image>
+    <figure xml:id="fig-ch06-pronoun-gave">
+      <caption>Pronoun replacement: <em>She gave me a book</em></caption>
+      <image source="diagrams/new/ch06_ditransitive.png" width="50%">
+        <description>Syntax tree for "She gave me a book" showing pronouns replacing full NPs</description>
+      </image>
+    </figure>
     <p><c>[S [NP [PRON She]] [VP [V gave] [NP [PRON me]] [NP [DET a] [N book]]]]</c></p>
 
-    <p>In this pair, two of the three noun phrases have been replaced by pronouns. <em>The teacher</em> becomes <em>She</em>, and <em>the young student</em> becomes <em>me</em>. The third NP, <em>a book</em>, retains its full form. This illustrates a common pattern: in real language, some NPs in a sentence are pronominalized while others are not, depending on which entities have already been introduced.</p>
+    <p>In this pair, two of the three noun phrases have been replaced by pronouns. The teacher becomes She, and the young student becomes me. The third NP, a book, retains its full form. This illustrates a common pattern: in real language, some NPs in a sentence are pronominalized while others are not, depending on which entities have already been introduced.</p>
 
     <p>The same principle applies to complex noun phrases with post-modifiers:</p>
 
-    <paragraphs>
-      <title>Full NP: <em>The old car on the corner</em></title>
-    </paragraphs>
-    <image source="diagrams/new/ch06_np_full_car.png" width="55%">
-      <description>Syntax tree for "The old car on the corner" showing complex NP with adjective and PP</description>
-    </image>
+    <figure xml:id="fig-ch06-np-full-car">
+      <caption>Full NP: <em>The old car on the corner</em></caption>
+      <image source="diagrams/new/ch06_np_full_car.png" width="55%">
+        <description>Syntax tree for "The old car on the corner" showing complex NP with adjective and PP</description>
+      </image>
+    </figure>
     <p><c>[NP [DET The] [ADJP [ADJ old]] [N car] [PP [PREP on] [NP [DET the] [N corner]]]]</c></p>
 
-    <paragraphs>
-      <title>Pronoun replacement: <em>it</em></title>
-    </paragraphs>
-    <image source="diagrams/new/ch06_np_pronoun_it.png" width="10%">
-      <description>Syntax tree showing single pronoun "it" as complete NP</description>
-    </image>
+    <figure xml:id="fig-ch06-pronoun-it">
+      <caption>Pronoun replacement: <em>it</em></caption>
+      <image source="diagrams/new/ch06_np_pronoun_it.png" width="10%">
+        <description>Syntax tree showing single pronoun "it" as complete NP</description>
+      </image>
+    </figure>
     <p><c>[NP [PRON it]]</c></p>
 
-    <p>Here the entire complex noun phrase—determiner, adjective, head noun, and prepositional phrase modifier—collapses to the single pronoun <em>it</em>. The pronoun stands in for all of that structure. This is why we say that pronouns replace noun phrases, not just nouns. Whether the original NP is two words or ten, the pronoun takes over the entire position.</p>
+    <p>Here the entire complex noun phrase—determiner, adjective, head noun, and prepositional phrase modifier—collapses to the single pronoun it. The pronoun stands in for all of that structure. This is why we say that pronouns replace noun phrases, not just nouns. Whether the original NP is two words or ten, the pronoun takes over the entire position.</p>
 
     <paragraphs>
       <title>Antecedents</title>
@@ -449,7 +449,7 @@
       <li><p><term>The professor</term> said <em>she</em> would return the papers.</p></li>
       <li><p><term>My brother</term> hurt <em>himself</em> playing soccer.</p></li>
       <li><p><term>The students</term> submitted <em>their</em> assignments on time.</p></li>
-      <li><p><term>Maria</term> told John that <em>she</em> would be late, but <term>he</term> didn't believe <em>her</em>.</p></li>
+      <li><p><term>Maria</term> told <term>John</term> that <em>she</em> would be late, but <em>he</em> didn't believe <em>her</em>.</p></li>
       <li><p><term>The committee</term> released <em>its</em> report last week.</p></li>
     </ul>
 
@@ -461,7 +461,7 @@
       <li><p>"Maria told Sarah that <em>she</em> should leave."</p></li>
     </ul>
 
-    <p>Who should leave—Maria or Sarah? Both are third-person singular feminine, so the pronoun <em>she</em> could refer to either one. The reader is left guessing. In cases like this, the writer needs to restructure the sentence to eliminate the ambiguity: <em>Maria told Sarah, "You should leave"</em> or <em>Maria told Sarah, "I should leave."</em></p>
+    <p>Who should leave—Maria or Sarah? Both are third-person singular feminine, so the pronoun <em>she</em> could refer to either one. The reader is left guessing. In cases like this, the writer needs to restructure the sentence to eliminate the ambiguity: Maria told Sarah, "You should leave" or Maria told Sarah, "I should leave."</p>
 
     <p>A good rule of thumb: whenever you use a pronoun, make sure the reader can identify the antecedent without hesitation. If there is any doubt, repeat the noun or rephrase the sentence.</p>
 
@@ -552,20 +552,20 @@
 
     <p>Several words can function as either a pronoun or a determiner depending on their position in the sentence. The key distinction is simple: if the word stands alone in place of a noun phrase, it is a <em>pronoun</em>. If it appears before a noun to introduce a noun phrase, it is a <em>determiner</em>.</p>
 
-    <p>Consider <em>her</em>:</p>
+    <p>Consider her:</p>
 
     <ul>
-      <li><p>"I saw <em>her</em>." — <em>her</em> is a pronoun (it replaces an entire NP and stands alone as the object)</p></li>
-      <li><p>"I read <em>her</em> book." — <em>her</em> is a determiner (it introduces the noun phrase her book, specifying whose book)</p></li>
+      <li><p>"I saw her." — her is a pronoun (it replaces an entire NP and stands alone as the object)</p></li>
+      <li><p>"I read her book." — her is a determiner (it introduces the noun phrase her book, specifying whose book)</p></li>
     </ul>
 
-    <p>The same pattern applies to other possessive forms. When his, my, your, our, its, or <em>their</em> appear before a noun, they function as determiners. Some of these also have standalone pronoun forms: mine, yours, his, hers, ours, theirs.</p>
+    <p>The same pattern applies to other possessive forms. When his, my, your, our, its, or their appear before a noun, they function as determiners. Some of these also have standalone pronoun forms: mine, yours, his, hers, ours, theirs.</p>
 
     <p>Demonstratives show the same dual behavior:</p>
 
     <ul>
-      <li><p>This is interesting. — <em>this</em> is a pronoun (stands alone as the subject)</p></li>
-      <li><p>This book is interesting. — <em>this</em> is a determiner (introduces the NP this book)</p></li>
+      <li><p>This is interesting. — this is a pronoun (stands alone as the subject)</p></li>
+      <li><p>This book is interesting. — this is a determiner (introduces the NP this book)</p></li>
     </ul>
 
     <p>The word class of these forms depends entirely on how they are used in a particular sentence, not on the word itself. Context determines category.</p>
@@ -574,37 +574,37 @@
 
     <ul>
       <li><p>Subject: She left. (not ~~Her left.~~)</p></li>
-      <li><p>Object: "I saw <em>her</em>." (not ~~I saw she.~~)</p></li>
+      <li><p>Object: "I saw her." (not ~~I saw she.~~)</p></li>
       <li><p>After preposition: with me (not ~~with I~~)</p></li>
     </ul>
 
     <p><em>Singular &quot;they&quot;</em>: Increasingly accepted for indefinite reference and for people who don't identify as he or she:</p>
 
     <ul>
-      <li><p>"Someone left <em>their</em> book." (indefinite)</p></li>
-      <li><p>"Alex said <em>they</em> would come." (nonbinary reference)</p></li>
+      <li><p>"Someone left their book." (indefinite)</p></li>
+      <li><p>"Alex said they would come." (nonbinary reference)</p></li>
     </ul>
 
     <paragraphs>
       <title>Reflexive Pronouns</title>
     </paragraphs>
 
-    <p>Reflexive pronouns end in <em>-self</em> (singular) or <em>-selves</em> (plural):</p>
+    <p>Reflexive pronouns end in -self (singular) or -selves (plural):</p>
 
-    <p><em>myself, yourself, himself, herself, itself, ourselves, yourselves, themselves</em></p>
+    <p>myself, yourself, himself, herself, itself, ourselves, yourselves, themselves</p>
 
     <p>They are used when the object refers to the same entity as the subject:</p>
 
     <ul>
-      <li><p>"She hurt <em>herself</em>." (she = herself)</p></li>
-      <li><p>"They saw <em>themselves</em> in the mirror."</p></li>
+      <li><p>"She hurt herself." (she = herself)</p></li>
+      <li><p>"They saw themselves in the mirror."</p></li>
     </ul>
 
     <p>Reflexives cannot be subjects and require an antecedent in the same clause:</p>
 
     <ul>
-      <li><p><em>~~<em>Himself</em> arrived.~~</em></p></li>
-      <li><p><em>~~I saw <em>herself</em>.~~</em> (no matching antecedent)</p></li>
+      <li><p><em>~~Himself arrived.~~</em></p></li>
+      <li><p><em>~~I saw herself.~~</em> (no matching antecedent)</p></li>
     </ul>
 
     <paragraphs>
@@ -627,13 +627,13 @@
     <p>Question words that stand for unknown NPs:</p>
 
     <ul>
-      <li><p><em>Who/whom</em> (people): Who called? "I saw <em>whom</em>?"</p></li>
+      <li><p><em>Who/whom</em> (people): Who called? "I saw whom?"</p></li>
       <li><p><em>What</em> (things): What happened?</p></li>
       <li><p><em>Which</em> (selective): Which do you want?</p></li>
       <li><p><em>Whose</em> (possession): Whose is this?</p></li>
     </ul>
 
-    <p><em>Who vs. whom</em>: Traditional grammar requires <em>whom</em> as object (Whom did you see?), but modern English often uses <em>who</em> in all positions except after prepositions (To whom remains preferred over To who).</p>
+    <p><em>Who vs. whom</em>: Traditional grammar requires whom as object (Whom did you see?), but modern English often uses who in all positions except after prepositions (To whom remains preferred over To who).</p>
 
     <paragraphs>
       <title>Indefinite Pronouns</title>
@@ -663,8 +663,8 @@
     <p>Many indefinites are grammatically singular even when semantically plural:</p>
 
     <ul>
-      <li><p>"Everyone <em>is</em> here." (not ~~Everyone are~~)</p></li>
-      <li><p>"Each of the students <em>has</em> arrived."</p></li>
+      <li><p>"Everyone is here." (not ~~Everyone are~~)</p></li>
+      <li><p>"Each of the students has arrived."</p></li>
     </ul>
 
   </section>
@@ -672,11 +672,11 @@
   <section xml:id="ch-06-closed-classes-sec-64">
     <title>Prepositions and Prepositional Phrases</title>
 
-    <p><em>Prepositions</em> are the relationship words of English. They create connections between elements in a sentence, expressing how entities relate to each other in space, time, and abstract logic. Without prepositions, we could name things and describe actions, but we could not express where something is, when it happened, how it was done, or what it was about.</p>
+    <p><term>Prepositions</term> are the relationship words of English. They create connections between elements in a sentence, expressing how entities relate to each other in space, time, and abstract logic. Without prepositions, we could name things and describe actions, but we could not express where something is, when it happened, how it was done, or what it was about.</p>
 
-    <p>Consider the range of relationships that prepositions express. They mark <em>spatial relationships</em>—where things are in relation to each other: <em>in</em> the box, <em>on</em> the table, <em>under</em> the bridge, <em>above</em> the clouds, <em>beside</em> the river, <em>between</em> the buildings. They mark <em>temporal relationships</em>—when events occur relative to other events: <em>before</em> lunch, <em>after</em> the meeting, <em>during</em> the lecture, <em>since</em> Tuesday, <em>until</em> midnight, <em>throughout</em> the semester. And they mark <em>logical and abstract relationships</em>—connections of cause, purpose, association, and topic: <em>of</em> the people, <em>for</em> a reason, <em>with</em> great care, <em>about</em> the election, <em>despite</em> the obstacles, <em>because of</em> the weather.</p>
+    <p>Consider the range of relationships that prepositions express. They mark <em>spatial relationships</em>—where things are in relation to each other: in the box, on the table, under the bridge, above the clouds, beside the river, between the buildings. They mark <em>temporal relationships</em>—when events occur relative to other events: before lunch, after the meeting, during the lecture, since Tuesday, until midnight, throughout the semester. And they mark <em>logical and abstract relationships</em>—connections of cause, purpose, association, and topic: of the people, for a reason, with great care, about the election, despite the obstacles, because of the weather.</p>
 
-    <p>A single preposition shift can change meaning dramatically. Think about how differently these phrases describe the relationship between the book and the table: <em>the book <em>on</em> the table</em>, <em>the book <em>about</em> the table</em>, <em>the book <em>under</em> the table</em>, <em>the book <em>beside</em> the table</em>. The noun phrase stays the same, but the preposition reconfigures the relationship entirely—from physical location (on, under, beside) to subject matter (about).</p>
+    <p>A single preposition shift can change meaning dramatically. Think about how differently these phrases describe the relationship between the book and the table: the book on the table, the book about the table, the book under the table, the book beside the table. The noun phrase stays the same, but the preposition reconfigures the relationship entirely—from physical location (on, under, beside) to subject matter (about).</p>
 
     <p>Prepositions combine with noun phrases to form <em>prepositional phrases (PPs)</em>, which function as modifiers throughout the sentence. They are among the most common structures in English—virtually every sentence of any complexity contains at least one prepositional phrase.</p>
 
@@ -684,7 +684,7 @@
       <title>Identifying Prepositions</title>
     </paragraphs>
 
-    <p>A traditional mnemonic says prepositions describe &quot;anywhere a cat can be&quot;: <em>in</em> the box, <em>on</em> the table, <em>under</em> the chair, <em>beside</em> the sofa, <em>near</em> the window, <em>through</em> the door...</p>
+    <p>A traditional mnemonic says prepositions describe &quot;anywhere a cat can be&quot;: in the box, on the table, under the chair, beside the sofa, near the window, through the door...</p>
 
     <p>But prepositions express much more than spatial relationships:</p>
 
@@ -710,50 +710,50 @@
     <p><em>Complex prepositions</em> are multi-word units that function as single prepositions:</p>
 
     <ul>
-      <li><p>because of, <em>instead of</em>, <em>in spite of</em></p></li>
-      <li><p>according to, <em>due to</em>, <em>prior to</em></p></li>
-      <li><p>in front of, <em>on top of</em>, <em>in addition to</em></p></li>
+      <li><p>because of, instead of, in spite of</p></li>
+      <li><p>according to, due to, prior to</p></li>
+      <li><p>in front of, on top of, in addition to</p></li>
     </ul>
 
     <paragraphs>
       <title>Prepositional Phrase Structure</title>
     </paragraphs>
 
-    <p>A prepositional phrase consists of a preposition plus its <em>object</em> (typically a noun phrase). The formula is simple: <em>PP → Prep + NP</em></p>
+    <p>A prepositional phrase consists of a preposition plus its <em>object</em> (typically a noun phrase). The formula is simple: PP → Prep + NP</p>
 
     <p>Here are several prepositional phrases shown as tree diagrams. Notice how each one follows the same pattern—a preposition followed by a noun phrase of varying complexity:</p>
 
-    <image source="diagrams/new/ch11_simple_pp.png" width="35%">
-      <description>Syntax tree for "in the box" showing PP with preposition and NP object</description>
-    </image>
+    <figure xml:id="fig-ch06-pp-in-box">
+      <caption>A simple prepositional phrase: <em>in the box</em></caption>
+      <image source="diagrams/new/ch11_simple_pp.png" width="35%">
+        <description>Syntax tree for "in the box" showing PP with preposition and NP object</description>
+      </image>
+    </figure>
     <p><c>[PP [PREP in] [NP [DET the] [N box]]]</c></p>
-    <paragraphs>
-      <title>A simple prepositional phrase: <em>in the box</em></title>
-    </paragraphs>
 
-    <image source="diagrams/new/ch06_pp_on_table.png" width="35%">
-      <description>Syntax tree for "on the table" showing PP structure</description>
-    </image>
+    <figure xml:id="fig-ch06-pp-on-table">
+      <caption>Prepositional phrase: <em>on the table</em></caption>
+      <image source="diagrams/new/ch06_pp_on_table.png" width="35%">
+        <description>Syntax tree for "on the table" showing PP structure</description>
+      </image>
+    </figure>
     <p><c>[PP [PREP on] [NP [DET the] [N table]]]</c></p>
-    <paragraphs>
-      <title>Prepositional phrase: <em>on the table</em></title>
-    </paragraphs>
 
-    <image source="diagrams/new/ch06_pp_with_her.png" width="25%">
-      <description>Syntax tree for "with her" showing PP with pronoun object</description>
-    </image>
+    <figure xml:id="fig-ch06-pp-with-her">
+      <caption>Prepositional phrase with pronoun object: <em>with her</em></caption>
+      <image source="diagrams/new/ch06_pp_with_her.png" width="25%">
+        <description>Syntax tree for "with her" showing PP with pronoun object</description>
+      </image>
+    </figure>
     <p><c>[PP [PREP with] [NP [PRON her]]]</c></p>
-    <paragraphs>
-      <title>Prepositional phrase with pronoun object: <em>with her</em></title>
-    </paragraphs>
 
-    <image source="diagrams/new/ch06_pp_before_noon.png" width="25%">
-      <description>Syntax tree for "before noon" showing PP with simple NP</description>
-    </image>
+    <figure xml:id="fig-ch06-pp-before-noon">
+      <caption>Prepositional phrase: <em>before noon</em></caption>
+      <image source="diagrams/new/ch06_pp_before_noon.png" width="25%">
+        <description>Syntax tree for "before noon" showing PP with simple NP</description>
+      </image>
+    </figure>
     <p><c>[PP [PREP before] [NP [N noon]]]</c></p>
-    <paragraphs>
-      <title>Prepositional phrase: <em>before noon</em></title>
-    </paragraphs>
 
     <p>Examples of prepositional phrases:</p>
 
@@ -788,70 +788,70 @@
       <li><p>a sense of accomplishment (what kind of sense?)</p></li>
     </ul>
 
-    <p>In a tree diagram, notice how the PP <em>in the hat</em> is embedded inside the NP—it is part of the noun phrase, not separate from it:</p>
+    <p>In a tree diagram, notice how the PP in the hat is embedded inside the NP—it is part of the noun phrase, not separate from it:</p>
 
-    <image source="diagrams/new/ch06_pp_mod_np.png" width="50%">
-      <description>Syntax tree for "the man in the hat" showing PP embedded inside the NP, modifying the noun "man"</description>
-    </image>
+    <figure xml:id="fig-ch06-pp-mod-np">
+      <caption>PP modifying a noun phrase: <em>the man in the hat</em></caption>
+      <image source="diagrams/new/ch06_pp_mod_np.png" width="50%">
+        <description>Syntax tree for "the man in the hat" showing PP embedded inside the NP, modifying the noun "man"</description>
+      </image>
+    </figure>
     <p><c>[NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]</c></p>
-    <paragraphs>
-      <title>PP modifying a noun phrase: <em>the man in the hat</em></title>
-    </paragraphs>
 
     <p><em>PPs modifying verb phrases</em>: A PP can modify a verb or the action it describes, providing information about time, place, manner, reason, and other circumstances:</p>
 
     <ul>
-      <li><p>"She waited <em>in the lobby</em>." (where?)</p></li>
-      <li><p>"He arrived <em>at noon</em>." (when?)</p></li>
-      <li><p>"They spoke <em>with enthusiasm</em>." (how?)</p></li>
-      <li><p>"We left <em>because of the weather</em>." (why?)</p></li>
+      <li><p>"She waited in the lobby." (where?)</p></li>
+      <li><p>"He arrived at noon." (when?)</p></li>
+      <li><p>"They spoke with enthusiasm." (how?)</p></li>
+      <li><p>"We left because of the weather." (why?)</p></li>
     </ul>
 
     <p>When a PP modifies the verb, it attaches inside the VP rather than inside any noun phrase:</p>
 
-    <image source="diagrams/new/ch06_pp_mod_vp.png" width="60%">
-      <description>Syntax tree for "She waited in the lobby" showing PP attached inside the VP, modifying the verb "waited"</description>
-    </image>
+    <figure xml:id="fig-ch06-pp-mod-vp">
+      <caption>PP modifying a verb phrase: <em>She waited in the lobby</em></caption>
+      <image source="diagrams/new/ch06_pp_mod_vp.png" width="60%">
+        <description>Syntax tree for "She waited in the lobby" showing PP attached inside the VP, modifying the verb "waited"</description>
+      </image>
+    </figure>
     <p><c>[S [NP [PRON She]] [VP [V waited] [PP [PREP in] [NP [DET the] [N lobby]]]]]</c></p>
-    <paragraphs>
-      <title>PP modifying a verb phrase: <em>She waited in the lobby</em></title>
-    </paragraphs>
 
     <p><em>PPs modifying adjective phrases</em>: Some adjectives require or commonly take PP complements:</p>
 
     <ul>
-      <li><p>"She is proud <em>of her work</em>." (proud of what?)</p></li>
-      <li><p>"I'm afraid <em>of the dark</em>." (afraid of what?)</p></li>
-      <li><p>"He was angry <em>about the decision</em>." (angry about what?)</p></li>
+      <li><p>"She is proud of her work." (proud of what?)</p></li>
+      <li><p>"I'm afraid of the dark." (afraid of what?)</p></li>
+      <li><p>"He was angry about the decision." (angry about what?)</p></li>
     </ul>
 
-    <p>Here, the PP <em>of her work</em> is embedded inside the adjective phrase, completing the meaning of <em>proud</em>:</p>
+    <p>Here, the PP of her work is embedded inside the adjective phrase, completing the meaning of proud:</p>
 
-    <image source="diagrams/new/ch06_pp_mod_adjp.png" width="60%">
-      <description>Syntax tree for "She is proud of her work" showing PP embedded inside the ADJP, complementing the adjective "proud"</description>
-    </image>
+    <figure xml:id="fig-ch06-pp-mod-adjp">
+      <caption>PP modifying an adjective phrase: <em>She is proud of her work</em></caption>
+      <image source="diagrams/new/ch06_pp_mod_adjp.png" width="60%">
+        <description>Syntax tree for "She is proud of her work" showing PP embedded inside the ADJP, complementing the adjective "proud"</description>
+      </image>
+    </figure>
     <p><c>[S [NP [PRON She]] [VP [V is] [ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]]]</c></p>
-    <paragraphs>
-      <title>PP modifying an adjective phrase: <em>She is proud of her work</em></title>
-    </paragraphs>
 
     <p><em>PPs modifying sentences</em>: A PP can modify an entire sentence, often appearing at the beginning:</p>
 
     <ul>
-      <li><p><em><em>In the morning</em>, we will leave.</em> (when?)</p></li>
-      <li><p><em><em>Despite the rain</em>, the game continued.</em> (under what circumstances?)</p></li>
-      <li><p><em><em>According to the report</em>, sales have increased.</em> (on what authority?)</p></li>
+      <li><p>In the morning, we will leave. (when?)</p></li>
+      <li><p>Despite the rain, the game continued. (under what circumstances?)</p></li>
+      <li><p>According to the report, sales have increased. (on what authority?)</p></li>
     </ul>
 
     <p>When a PP modifies the whole sentence, it attaches at the sentence level rather than inside any particular phrase:</p>
 
-    <image source="diagrams/new/ch06_pp_mod_sentence.png" width="60%">
-      <description>Syntax tree for "In the morning, we will leave" showing PP attached at the sentence level</description>
-    </image>
+    <figure xml:id="fig-ch06-pp-mod-sentence">
+      <caption>PP modifying a sentence: <em>In the morning, we will leave</em></caption>
+      <image source="diagrams/new/ch06_pp_mod_sentence.png" width="60%">
+        <description>Syntax tree for "In the morning, we will leave" showing PP attached at the sentence level</description>
+      </image>
+    </figure>
     <p><c>[S [PP [PREP In] [NP [DET the] [N morning]]] [NP [PRON we]] [VP [MOD will] [V leave]]]</c></p>
-    <paragraphs>
-      <title>PP modifying a sentence: <em>In the morning, we will leave</em></title>
-    </paragraphs>
 
     <paragraphs>
       <title>Determining What a PP Modifies</title>
@@ -869,8 +869,8 @@
     <p><em>Test 2: Can it move to sentence-initial position?</em></p>
 
     <ul>
-      <li><p>PPs that modify verbs often can: <em><em>In the morning</em>, we left.</em></p></li>
-      <li><p>PPs that modify nouns typically cannot: <em>~~<em>In the hat</em>, the man waved.~~</em></p></li>
+      <li><p>PPs that modify verbs often can: In the morning, we left.</p></li>
+      <li><p>PPs that modify nouns typically cannot: <em>~~In the hat, the man waved.~~</em></p></li>
     </ul>
 
     <p><em>Test 3: Does the noun phrase make sense without it?</em></p>
@@ -888,38 +888,38 @@
 
     <p>Consider the classic example:</p>
 
-    <p><em>I saw the man with binoculars.</em></p>
+    <p>I saw the man with binoculars.</p>
 
     <ul>
-      <li><p>Reading 1: The PP <em>with binoculars</em> modifies the noun <em>man</em>—&quot;the man who had binoculars&quot;</p></li>
-      <li><p>Reading 2: The PP <em>with binoculars</em> modifies the verb <em>saw</em>—&quot;I used binoculars to see him&quot;</p></li>
+      <li><p>Reading 1: The PP with binoculars modifies the noun man—&quot;the man who had binoculars&quot;</p></li>
+      <li><p>Reading 2: The PP with binoculars modifies the verb saw—&quot;I used binoculars to see him&quot;</p></li>
     </ul>
 
     <p>The two readings correspond to two different tree structures. In Reading 1, the PP is embedded inside the NP:</p>
 
-    <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
-      <description>Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars</description>
-    </image>
+    <figure xml:id="fig-ch06-ambig-np">
+      <caption>PP modifying the NP: "the man with binoculars"</caption>
+      <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
+        <description>Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars</description>
+      </image>
+    </figure>
     <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]</c></p>
-    <paragraphs>
-      <title>PP modifying the NP: &quot;the man with binoculars&quot;</title>
-    </paragraphs>
 
     <p>In Reading 2, the PP attaches to the VP instead:</p>
 
-    <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
-      <description>Syntax tree for "I saw the man with binoculars" where PP attaches to VP, meaning I used binoculars to see him</description>
-    </image>
+    <figure xml:id="fig-ch06-ambig-vp">
+      <caption>PP modifying the VP: "saw with binoculars"</caption>
+      <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
+        <description>Syntax tree for "I saw the man with binoculars" where PP attaches to VP, meaning I used binoculars to see him</description>
+      </image>
+    </figure>
     <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]</c></p>
-    <paragraphs>
-      <title>PP modifying the VP: &quot;saw with binoculars&quot;</title>
-    </paragraphs>
 
-    <p>You can use the tests from the previous section to tease apart the two readings. The pronoun replacement test is especially helpful: if you replace <em>the man with binoculars</em> with <em>him</em> and the sentence still makes sense (I saw him with binoculars), then <em>with binoculars</em> can modify the verb. If the PP disappears when you pronominalize (I saw him), it was part of the NP.</p>
+    <p>You can use the tests from the previous section to tease apart the two readings. The pronoun replacement test is especially helpful: if you replace the man with binoculars with him and the sentence still makes sense (I saw him with binoculars), then with binoculars can modify the verb. If the PP disappears when you pronominalize (I saw him), it was part of the NP.</p>
 
     <p>Here is another example of the same kind of ambiguity:</p>
 
-    <p><em>He discussed the problem with the professor.</em></p>
+    <p>He discussed the problem with the professor.</p>
 
     <ul>
       <li><p>PP modifying the noun: &quot;the problem that involves the professor&quot;</p></li>
@@ -929,8 +929,8 @@
     <p>In speech, context usually resolves such ambiguity. In writing, you may need to restructure for clarity:</p>
 
     <ul>
-      <li><p><em>I saw the man who had binoculars.</em> (PP modifies noun—unambiguous)</p></li>
-      <li><p><em>Using binoculars, I saw the man.</em> (PP modifies verb—unambiguous)</p></li>
+      <li><p>I saw the man who had binoculars. (PP modifies noun—unambiguous)</p></li>
+      <li><p>Using binoculars, I saw the man. (PP modifies verb—unambiguous)</p></li>
     </ul>
 
     <paragraphs>
@@ -939,12 +939,12 @@
 
     <p>Sentences often contain multiple prepositional phrases with different functions:</p>
 
-    <p><em>The student <em>from Colorado</em> studied <em>in the library</em> <em>for three hours</em>.</em></p>
+    <p>The student from Colorado studied in the library for three hours.</p>
 
     <ul>
-      <li><p><em><em>from Colorado</em></em>: modifies the noun <em>student</em> (which student?)</p></li>
-      <li><p><em><em>in the library</em></em>: modifies the verb <em>studied</em> (where?)</p></li>
-      <li><p><em><em>for three hours</em></em>: modifies the verb <em>studied</em> (how long?)</p></li>
+      <li><p>from Colorado: modifies the noun student (which student?)</p></li>
+      <li><p>in the library: modifies the verb studied (where?)</p></li>
+      <li><p>for three hours: modifies the verb studied (how long?)</p></li>
     </ul>
 
   </section>
@@ -1018,13 +1018,13 @@
       <title>How They Work Together</title>
     </paragraphs>
 
-    <p>In a sentence like <em>She gave the book to him</em>, all three classes appear:</p>
+    <p>In a sentence like She gave the book to him, all three classes appear:</p>
 
     <ul>
-      <li><p><em>She</em> (pronoun)—replaces a full NP as subject</p></li>
-      <li><p><em>the</em> (determiner)—specifies which book</p></li>
-      <li><p><em>to</em> (preposition)—shows relationship (recipient)</p></li>
-      <li><p><em>him</em> (pronoun)—replaces a full NP as object of preposition</p></li>
+      <li><p>She (pronoun)—replaces a full NP as subject</p></li>
+      <li><p>the (determiner)—specifies which book</p></li>
+      <li><p>to (preposition)—shows relationship (recipient)</p></li>
+      <li><p>him (pronoun)—replaces a full NP as object of preposition</p></li>
     </ul>
 
     <p>Each closed-class word does minimal semantic work but essential grammatical work—they're the glue that holds sentences together.</p>
@@ -1145,38 +1145,32 @@
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
-      <p><em>Sentence:</em> <em>My brother gave his old car to me.</em></p>
-      <p>Determiners: <em>my</em> (possessive), <em>his</em> (possessive). Note: <em>old</em> is NOT a determiner—it's an adjective.</p>
-      <p>Pronouns: <em>me</em> (personal pronoun, 1st person singular, object form)</p>
+      <p><em>Sentence:</em> My brother gave his old car to me.</p>
+      <p>Determiners: my (possessive), his (possessive). Note: old is NOT a determiner—it's an adjective.</p>
+      <p>Pronouns: me (personal pronoun, 1st person singular, object form)</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 1.</em> <em>The ambitious student submitted her application to several universities.</em></p>
+      <p><em>Exercise 1.</em> The ambitious student submitted her application to several universities.</p>
 
       <ul>
         <li><p>Determiners (identify each and classify by type—article, demonstrative, possessive, quantifier, number):</p></li>
         <li><p>Pronouns:</p></li>
       </ul>
 
-      <p><em>Exercise 2.</em> <em>Everyone who attended the conference received their materials before the first session.</em></p>
+      <p><em>Exercise 2.</em> Everyone who attended the conference received their materials before the first session.</p>
 
       <ul>
         <li><p>Pronouns (identify each and classify by type—personal, relative, indefinite, possessive):</p></li>
       </ul>
 
-      <p><em>Exercise 3.</em> <em>Those books on the shelf belong to someone in this department.</em></p>
+      <p><em>Exercise 3.</em> Those books on the shelf belong to someone in this department.</p>
 
       <ul>
         <li><p>Determiners:</p></li>
         <li><p>Pronouns:</p></li>
-      </ul>
-
-      <p><em>Exercise 4.</em> <em>Which candidate did the committee select for themselves?</em></p>
-
-      <ul>
-        <li><p>Pronouns (identify and classify each):</p></li>
       </ul>
 
     </subsection>
@@ -1187,54 +1181,62 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Identify all prepositional phrases in each sentence. For each PP, indicate what it modifies (a noun phrase, a verb phrase, or the whole sentence) and state what question it answers.</p>
+      <p>Identify all prepositional phrases in each sentence. For each PP, state the specific word it modifies, that word's part of speech, and what question the PP answers.</p>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
-      <p><em>Sentence:</em> <em>The professor from Harvard lectured about linguistics in the auditorium.</em></p>
+      <p><em>Sentence:</em> The professor from Harvard lectured about linguistics in the auditorium.</p>
       <ul>
-        <li><p>PP 1: <em>from Harvard</em> — Modifies NP <em>professor</em> — Which professor?</p></li>
-        <li><p>PP 2: <em>about linguistics</em> — Modifies VP <em>lectured</em> — About what?</p></li>
-        <li><p>PP 3: <em>in the auditorium</em> — Modifies VP <em>lectured</em> — Where?</p></li>
+        <li><p>PP 1: from Harvard — Modifies: <q>professor</q> (noun) — Which professor?</p></li>
+        <li><p>PP 2: about linguistics — Modifies: <q>lectured</q> (verb) — About what?</p></li>
+        <li><p>PP 3: in the auditorium — Modifies: <q>lectured</q> (verb) — Where?</p></li>
       </ul>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 5.</em> <em>The student with the red backpack studied in the library until midnight.</em></p>
+      <p><em>Exercise 4.</em> The student with the red backpack studied in the library until midnight.</p>
 
       <ul>
         <li><p>PP 1:</p></li>
-        <li><p>Type:</p></li>
+        <li><p>Modifies:</p></li>
         <li><p>Question answered:</p></li>
         <li><p>PP 2:</p></li>
-        <li><p>Type:</p></li>
+        <li><p>Modifies:</p></li>
         <li><p>Question answered:</p></li>
         <li><p>PP 3:</p></li>
-        <li><p>Type:</p></li>
+        <li><p>Modifies:</p></li>
         <li><p>Question answered:</p></li>
       </ul>
 
-      <p><em>Exercise 6.</em> <em>A painting of the mountains hangs above the fireplace in the living room.</em></p>
+      <p><em>Exercise 5.</em> The child with the blue hat ran to the store for some milk.</p>
 
       <ul>
         <li><p>PP 1:</p></li>
-        <li><p>Type:</p></li>
+        <li><p>Modifies:</p></li>
         <li><p>Question answered:</p></li>
         <li><p>PP 2:</p></li>
-        <li><p>Type:</p></li>
+        <li><p>Modifies:</p></li>
         <li><p>Question answered:</p></li>
         <li><p>PP 3:</p></li>
-        <li><p>Type:</p></li>
+        <li><p>Modifies:</p></li>
         <li><p>Question answered:</p></li>
       </ul>
 
-      <p><em>Exercise 7.</em> <em>During the meeting, the manager from the accounting department spoke with great enthusiasm about the new proposal.</em></p>
+      <p><em>Exercise 6.</em> The author of the bestselling novel spoke to reporters about her new book.</p>
 
       <ul>
-        <li><p>Identify all PPs and classify each:</p></li>
+        <li><p>PP 1:</p></li>
+        <li><p>Modifies:</p></li>
+        <li><p>Question answered:</p></li>
+        <li><p>PP 2:</p></li>
+        <li><p>Modifies:</p></li>
+        <li><p>Question answered:</p></li>
+        <li><p>PP 3:</p></li>
+        <li><p>Modifies:</p></li>
+        <li><p>Question answered:</p></li>
       </ul>
 
     </subsection>
@@ -1251,24 +1253,24 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 8.</em> Add a prepositional phrase that modifies the noun <em>book</em>:</p>
+      <p><em>Exercise 7.</em> Add a prepositional phrase that modifies the noun book:</p>
 
       <ul>
-        <li><p>Original: <em>The book won an award.</em></p></li>
+        <li><p>Original: The book won an award.</p></li>
         <li><p>Your revision:</p></li>
       </ul>
 
-      <p><em>Exercise 9.</em> Add a prepositional phrase that modifies the verb and indicates when:</p>
+      <p><em>Exercise 8.</em> Add a prepositional phrase that modifies the verb and indicates when:</p>
 
       <ul>
-        <li><p>Original: <em>She completed the project.</em></p></li>
+        <li><p>Original: She completed the project.</p></li>
         <li><p>Your revision:</p></li>
       </ul>
 
-      <p><em>Exercise 10.</em> Replace the underlined noun phrases with appropriate pronouns:</p>
+      <p><em>Exercise 9.</em> Replace the noun phrases with appropriate pronouns:</p>
 
       <ul>
-        <li><p>Original: <em>Maria told John that Maria would return John's laptop to John tomorrow.</em></p></li>
+        <li><p>Original: Maria told John that Maria would return John's laptop to John tomorrow.</p></li>
         <li><p>Your revision:</p></li>
       </ul>
 
@@ -1280,30 +1282,35 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Write original sentences following each prompt.</p>
+      <p>Write original sentences following each prompt. Identify the requested elements in your sentence.</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 11.</em> Write a sentence containing at least two prepositional phrases—one that modifies a noun and one that modifies a verb. Label each PP and state what it modifies.</p>
+      <p><em>Exercise 10.</em> Write a sentence that includes both a prepositional phrase and a pronoun. Identify each.</p>
 
       <ul>
         <li><p>Your sentence:</p></li>
+        <li><p>Prepositional phrase:</p></li>
+        <li><p>Pronoun:</p></li>
       </ul>
 
-      <p><em>Exercise 12.</em> Write a sentence using a reflexive pronoun correctly:</p>
+      <p><em>Exercise 11.</em> Write a sentence that includes at least two prepositional phrases. Identify each.</p>
 
       <ul>
         <li><p>Your sentence:</p></li>
+        <li><p>PP 1:</p></li>
+        <li><p>PP 2:</p></li>
       </ul>
 
-      <p><em>Exercise 13.</em> Write a sentence that is structurally ambiguous because a prepositional phrase could attach to either the noun phrase or the verb phrase. Then explain both possible meanings.</p>
+      <p><em>Exercise 12.</em> Write a sentence that includes a determiner, a conjunction, and a prepositional phrase. Identify each.</p>
 
       <ul>
-        <li><p>Sentence:</p></li>
-        <li><p>Meaning 1 (PP modifies noun):</p></li>
-        <li><p>Meaning 2 (PP modifies verb):</p></li>
+        <li><p>Your sentence:</p></li>
+        <li><p>Determiner:</p></li>
+        <li><p>Conjunction:</p></li>
+        <li><p>Prepositional phrase:</p></li>
       </ul>
 
     </subsection>
@@ -1312,60 +1319,55 @@
       <title>Analysis and Reflection</title>
 
       <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Read the following passage carefully. It contains intentional errors involving closed-class words (determiners, pronouns, and prepositions). Answer the questions that follow.</p>
+
+      <paragraphs>
         <title>Passage</title>
       </paragraphs>
-      <p><em>The researcher in the laboratory examined the sample with a powerful microscope. Her analysis of the results surprised everyone in the department. The findings that she published in a major journal challenged several assumptions about the process.</em></p>
+      <p>Last year, the bank launched a cryptocurrency trading desk and began aggressively buying Bitcoin. The executives at the firm instructed the traders to promote it on social media and in client newsletters. Once the cryptocurrency had risen sharply in value, the bank quietly sold their holdings at a massive profit. Many investors who had followed the bank's public recommendations lost money when the scheme collapsed.</p>
+
+      <p>The SEC is now looking into it. They told regulators that the bank had full compliance to all trading laws. That was confirmed by an internal review, but outside auditors disagreed. A few of the executives admitted that this put them in a difficult position. This eventually led to a class-action lawsuit filed on the bank. The bank has tried to distance itself from that, but the damage to its reputation may be permanent.</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 14.</em> Identify four prepositional phrases from the passage. For each, state what it modifies (a noun phrase, a verb phrase, or the whole sentence) and what question it answers.</p>
+      <p><em>Exercise 13.</em> Identify three pronouns in the passage that have vague or ambiguous referents. For each, explain the problem and suggest a revision.</p>
       <ul>
-        <li><p>PP 1:</p>
-          <ul>
-            <li><p>Phrase:</p></li>
-            <li><p>Type:</p></li>
-            <li><p>Modifies:</p></li>
-            <li><p>Question answered:</p></li>
-          </ul>
-        </li>
-        <li><p>PP 2:</p>
-          <ul>
-            <li><p>Phrase:</p></li>
-            <li><p>Type:</p></li>
-            <li><p>Modifies:</p></li>
-            <li><p>Question answered:</p></li>
-          </ul>
-        </li>
-        <li><p>PP 3:</p>
-          <ul>
-            <li><p>Phrase:</p></li>
-            <li><p>Type:</p></li>
-            <li><p>Modifies:</p></li>
-            <li><p>Question answered:</p></li>
-          </ul>
-        </li>
-        <li><p>PP 4:</p>
-          <ul>
-            <li><p>Phrase:</p></li>
-            <li><p>Type:</p></li>
-            <li><p>Modifies:</p></li>
-            <li><p>Question answered:</p></li>
-          </ul>
-        </li>
+        <li><p>Pronoun 1:</p></li>
+        <li><p>Problem:</p></li>
+        <li><p>Revision:</p></li>
+        <li><p>Pronoun 2:</p></li>
+        <li><p>Problem:</p></li>
+        <li><p>Revision:</p></li>
+        <li><p>Pronoun 3:</p></li>
+        <li><p>Problem:</p></li>
+        <li><p>Revision:</p></li>
       </ul>
 
-      <p><em>Exercise 15.</em> The phrase <em>in the laboratory</em> in the first sentence could modify either the noun <em>researcher</em> or the verb <em>examined</em>. Explain both possible interpretations and how you would determine which reading is intended.</p>
+      <p><em>Exercise 14.</em> Find two determiner problems in the passage: one where the is used before the reader knows which specific thing is meant, and one where quantifiers contradict each other. Explain each problem and suggest a fix.</p>
       <ul>
-        <li><p>NP-modifying interpretation (modifies researcher):</p></li>
-        <li><p>VP-modifying interpretation (modifies examined):</p></li>
-        <li><p>How to determine the intended reading:</p></li>
+        <li><p>Problem 1 (premature <q>the</q>):</p></li>
+        <li><p>Explanation:</p></li>
+        <li><p>Fix:</p></li>
+        <li><p>Problem 2 (contradictory quantifiers):</p></li>
+        <li><p>Explanation:</p></li>
+        <li><p>Fix:</p></li>
       </ul>
 
-      <p><em>Exercise 16.</em> In 3-4 sentences, explain why closed-class words (determiners, pronouns, prepositions) are important even though they carry less content meaning than open-class words. What would happen if we removed them from sentences?</p>
+      <p><em>Exercise 15.</em> Find two incorrectly used prepositions in the passage. State the error and provide the correct preposition.</p>
       <ul>
-        <li><p>Your response:</p></li>
+        <li><p>Error 1:</p></li>
+        <li><p>Correction:</p></li>
+        <li><p>Error 2:</p></li>
+        <li><p>Correction:</p></li>
+      </ul>
+
+      <p><em>Exercise 16.</em> Choose one of the two paragraphs and rewrite it, correcting all closed-class word issues (pronoun reference, determiner usage, and preposition choice).</p>
+      <ul>
+        <li><p>Your rewritten paragraph:</p></li>
       </ul>
 
     </subsection>
@@ -1596,7 +1598,7 @@
       </image>
       <p><c>[S [PP [PREP In] [NP [DET the] [N morning]]] [NP [PRON we]] [VP [MOD will] [V leave]]]</c></p>
 
-      <p>The following pair of diagrams illustrates structural ambiguity. The sentence <em>I saw the man with binoculars</em> can be parsed two ways depending on whether the PP <em>with binoculars</em> modifies the noun phrase or the verb phrase.</p>
+      <p>The following pair of diagrams illustrates structural ambiguity. The sentence I saw the man with binoculars can be parsed two ways depending on whether the PP with binoculars modifies the noun phrase or the verb phrase.</p>
 
       <paragraphs>
         <title>6.8.3 I: PP modifies NP — "the man with binoculars"</title>
@@ -1699,7 +1701,7 @@
     </gi>
     <gi>
       <title>Reflexive pronoun</title>
-      <p>A pronoun ending in <em>-self/-selves</em> that refers back to the subject.</p>
+      <p>A pronoun ending in -self/-selves that refers back to the subject.</p>
     </gi>
   </glossary>
 

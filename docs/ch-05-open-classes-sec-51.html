@@ -216,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, bold black */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.9em !important;
-    font-weight: 700 !important;
-    color: #000000 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -808,7 +814,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Paragraphs: Form: What a Word IS"><a href="#ch-05-open-classes-sec-51-20" title="Copy heading and permalink for Paragraphs: Form: What a Word IS" aria-label="Copy heading and permalink for Paragraphs: Form: What a Word IS">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-51-21">
 <em class="emphasis">Form</em> refers to a word’s part of speech—its inherent grammatical category. We determine form by examining the word’s morphological properties (what endings it can take) and its typical syntactic behavior.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-51-22">For example, <em class="emphasis">happy</em> is an adjective. How do we know? Because it passes the tests for adjectives:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-22" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-51-22">For example, happy is an adjective. How do we know? Because it passes the tests for adjectives:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-22" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-51-23">
 <li id="ch-05-open-classes-sec-51-23-1">
@@ -817,12 +823,12 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-51-23-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-51-23-2">
-<div class="para" id="ch-05-open-classes-sec-51-23-2-1">It can be modified by <em class="emphasis">very</em>: <em class="emphasis">very happy</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-23-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-51-23-2-1">It can be modified by very: very happy<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-23-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-51-23-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-51-23-3">
-<div class="para" id="ch-05-open-classes-sec-51-23-3-1">It can appear after linking verbs: <em class="emphasis">She seems happy</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-23-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-51-23-3-1">It can appear after linking verbs: She seems happy<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-23-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-51-23-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -835,15 +841,15 @@ section .tabular-box {
 </div>
 <div class="para" id="ch-05-open-classes-sec-51-27">Consider the word poor:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-27" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-51-28">"The <em class="emphasis">poor</em> deserve our help."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-51-28">"The poor deserve our help."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-51-29">What is <em class="emphasis">poor</em>? By form, it’s an adjective (it can be graded: poorer, poorest). But what is it doing in this sentence? It’s functioning as a noun—it follows a determiner (the), it serves as the subject of the sentence, and it refers to a group of people. We call this an <em class="emphasis">adjective functioning nominally</em> (doing the job of a noun).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-29" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-51-29">What is poor? By form, it’s an adjective (it can be graded: poorer, poorest). But what is it doing in this sentence? It’s functioning as a noun—it follows a determiner (the), it serves as the subject of the sentence, and it refers to a group of people. We call this an <em class="emphasis">adjective functioning nominally</em> (doing the job of a noun).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-29" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-open-classes-sec-51-30"><h3 class="heading"><span class="title">Form and Function Can Match or Differ.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Form and Function Can Match or Differ"><a href="#ch-05-open-classes-sec-51-30" title="Copy heading and permalink for Paragraphs: Form and Function Can Match or Differ" aria-label="Copy heading and permalink for Paragraphs: Form and Function Can Match or Differ">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-51-31">
 <em class="emphasis">Example 1: Form and function match</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-31" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-51-32">"She spoke <em class="emphasis">quietly</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-32" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-51-32">"She spoke quietly."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-32" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-51-33">
 <li id="ch-05-open-classes-sec-51-33-1">
@@ -862,7 +868,7 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-51-35">
 <em class="emphasis">Example 2: Form and function differ</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-35" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-51-36">"The <em class="emphasis">coffee</em> table needs dusting."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-51-36">"The coffee table needs dusting."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-51-37">
 <li id="ch-05-open-classes-sec-51-37-1">
@@ -881,7 +887,7 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-51-39">
 <em class="emphasis">Example 3: Another mismatch</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-39" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-51-40">"She runs <em class="emphasis">fast</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-51-40">"She runs fast."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-51-41">
 <li id="ch-05-open-classes-sec-51-41-1">
@@ -910,7 +916,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item 2: Labels depend on context"><a href="#ch-05-open-classes-sec-51-44-2" title="Copy heading and permalink for Item 2: Labels depend on context" aria-label="Copy heading and permalink for Item 2: Labels depend on context">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-51-44-3">
-<span class="heading li--heading"><span class="title li--heading-title">Complete analysis requires both.</span></span><div class="para" id="ch-05-open-classes-sec-51-44-3-2">Saying "<em class="emphasis">poor</em> is an adjective" in the sentence "The poor deserve help" is incomplete. A full analysis recognizes both what the word is (adjective) and what it’s doing (functioning as a noun).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-44-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="heading li--heading"><span class="title li--heading-title">Complete analysis requires both.</span></span><div class="para" id="ch-05-open-classes-sec-51-44-3-2">Saying "poor is an adjective" in the sentence "The poor deserve help" is incomplete. A full analysis recognizes both what the word is (adjective) and what it’s doing (functioning as a noun).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-51-44-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3: Complete analysis requires both"><a href="#ch-05-open-classes-sec-51-44-3" title="Copy heading and permalink for Item 3: Complete analysis requires both" aria-label="Copy heading and permalink for Item 3: Complete analysis requires both">🔗</a></div>
 </li>
