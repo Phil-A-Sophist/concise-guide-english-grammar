@@ -216,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, bold black */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.9em !important;
-    font-weight: 700 !important;
-    color: #000000 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -735,20 +741,20 @@ section .tabular-box {
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Verbs</span>
 </h2>
 <div class="para" id="ch-05-open-classes-sec-55-2">
-<em class="emphasis">Verbs</em> are the engine of the sentence. While nouns name things, verbs make things happen—or describe states of being. Every complete sentence requires a verb, and the verb determines much of the sentence’s structure: how many participants are needed, what time frame is being discussed, whether the action is complete or ongoing. Without a verb, a sentence is just a collection of nouns and modifiers with no predication—no assertion about what is happening, what has happened, or what might happen.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">Verbs</dfn> are the engine of the sentence. While nouns name things, verbs make things happen—or describe states of being. Every complete sentence requires a verb, and the verb determines much of the sentence’s structure: how many participants are needed, what time frame is being discussed, whether the action is complete or ongoing. Without a verb, a sentence is just a collection of nouns and modifiers with no predication—no assertion about what is happening, what has happened, or what might happen.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-open-classes-sec-55-3">The semantic range of verbs is far broader than the traditional label "action words" suggests. While many verbs do express physical actions—run, build, write, throw, cook—others describe mental activities: think, calculate, analyze, imagine, consider. These mental action verbs involve no observable physical movement, yet they clearly describe something the mind does.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-4">Beyond actions, many verbs describe <em class="emphasis">states</em>—conditions that simply exist without any action occurring. Cognitive state verbs like <em class="emphasis">know</em>, <em class="emphasis">believe</em>, and <em class="emphasis">understand</em> describe what the mind holds rather than what it does. Emotional state verbs like <em class="emphasis">love</em>, <em class="emphasis">fear</em>, and <em class="emphasis">desire</em> name feelings that persist without any effort. Relational verbs like own, possess, resemble, and <em class="emphasis">deserve</em> describe how entities stand in relation to one another. None of these involve any action at all, yet they are unquestionably verbs.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-4">Beyond actions, many verbs describe <em class="emphasis">states</em>—conditions that simply exist without any action occurring. Cognitive state verbs like know, believe, and understand describe what the mind holds rather than what it does. Emotional state verbs like love, fear, and desire name feelings that persist without any effort. Relational verbs like own, possess, resemble, and deserve describe how entities stand in relation to one another. None of these involve any action at all, yet they are unquestionably verbs.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-5">Still other verbs express <em class="emphasis">occurrences</em> or <em class="emphasis">changes</em>: happen, become, appear, grow, develop, emerge. Perception verbs like see, hear, feel, notice, and <em class="emphasis">taste</em> describe sensory experiences that are neither fully active nor fully passive. Communication verbs like say, tell, ask, explain, and <em class="emphasis">argue</em> describe the exchange of information. This enormous semantic diversity means that defining verbs as "action words" captures only a fraction of what verbs actually do. Words like <em class="emphasis">know</em>, <em class="emphasis">own</em>, and <em class="emphasis">resemble</em> are verbs that describe no action whatsoever.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-5">Still other verbs express <em class="emphasis">occurrences</em> or <em class="emphasis">changes</em>: happen, become, appear, grow, develop, emerge. Perception verbs like see, hear, feel, notice, and taste describe sensory experiences that are neither fully active nor fully passive. Communication verbs like say, tell, ask, explain, and argue describe the exchange of information. This enormous semantic diversity means that defining verbs as "action words" captures only a fraction of what verbs actually do. Words like know, own, and resemble are verbs that describe no action whatsoever.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-open-classes-sec-55-6"><h3 class="heading"><span class="title">Semantics vs. Grammar.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Semantics vs. Grammar"><a href="#ch-05-open-classes-sec-55-6" title="Copy heading and permalink for Paragraphs: Semantics vs. Grammar" aria-label="Copy heading and permalink for Paragraphs: Semantics vs. Grammar">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-55-7">Semantically, verbs express actions (run, build, think), states (know, believe, own), or occurrences (happen, become, appear). But as with nouns, we identify verbs more reliably through grammatical tests.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-8">The inadequacy of semantic definitions becomes clear when we look at borderline cases. Consider the verb <em class="emphasis">have</em> in <em class="emphasis">She has a sister</em>. What "action" is being performed? None—<em class="emphasis">have</em> simply describes a relationship. Or consider <em class="emphasis">seem</em> in <em class="emphasis">He seems tired</em>. The verb <em class="emphasis">seem</em> doesn’t describe an action, a state the subject controls, or even a clear event—it expresses an appearance or impression. Yet <em class="emphasis">seem</em> is the verb in this sentence, the word around which the entire predicate is organized.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-8">The inadequacy of semantic definitions becomes clear when we look at borderline cases. Consider the verb have in She has a sister. What "action" is being performed? None—have simply describes a relationship. Or consider seem in He seems tired. The verb seem doesn’t describe an action, a state the subject controls, or even a clear event—it expresses an appearance or impression. Yet seem is the verb in this sentence, the word around which the entire predicate is organized.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-9">Even within the category of action verbs, meaning can be slippery. Is <em class="emphasis">sleeping</em> an action? We say <em class="emphasis">She is sleeping</em>, and <em class="emphasis">sleep</em> passes every verb test—but it describes inactivity rather than activity. What about <em class="emphasis">waiting</em>? The person who waits may be doing nothing at all, yet <em class="emphasis">wait</em> is clearly a verb. These examples show that trying to identify verbs by asking "Is this an action?" leads to confusion. Instead, we rely on the morphological and syntactic tests that follow.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-9">Even within the category of action verbs, meaning can be slippery. Is sleeping an action? We say She is sleeping, and sleep passes every verb test—but it describes inactivity rather than activity. What about waiting? The person who waits may be doing nothing at all, yet wait is clearly a verb. These examples show that trying to identify verbs by asking "Is this an action?" leads to confusion. Instead, we rely on the morphological and syntactic tests that follow.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-open-classes-sec-55-10"><h3 class="heading"><span class="title">Morphological Tests for Verbs.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Morphological Tests for Verbs"><a href="#ch-05-open-classes-sec-55-10" title="Copy heading and permalink for Paragraphs: Morphological Tests for Verbs" aria-label="Copy heading and permalink for Paragraphs: Morphological Tests for Verbs">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-55-11">Verbs in English have a distinctive set of forms—more than any other word class. If a word can take these various forms, it’s a verb.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -780,7 +786,7 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-55-16">
 <em class="emphasis">Test 2: Third-person singular present</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-17">Verbs take <em class="emphasis">-s</em> when the subject is third-person singular (he, she, it):<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-17">Verbs take -s when the subject is third-person singular (he, she, it):<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-55-18">
 <li id="ch-05-open-classes-sec-55-18-1">
@@ -799,7 +805,7 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-55-20">
 <em class="emphasis">Test 3: Progressive form (-ing)</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-21">Verbs can take the <em class="emphasis">-ing</em> suffix to form the progressive:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-21">Verbs can take the -ing suffix to form the progressive:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-55-22">
 <li id="ch-05-open-classes-sec-55-22-1">
@@ -813,7 +819,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-55-22-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-55-23">Every verb in English can take <em class="emphasis">-ing</em>. If you can add <em class="emphasis">-ing</em> to a word and use it after <em class="emphasis">be</em> ("She is ___ing"), it’s a verb.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-23">Every verb in English can take -ing. If you can add -ing to a word and use it after be ("She is ___ing"), it’s a verb.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-open-classes-sec-55-24">
 <em class="emphasis">Test 4: Participial forms</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-24" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -865,7 +871,7 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-55-32">
 <em class="emphasis">Test 2: The infinitive test</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-32" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-33">Verbs can follow <em class="emphasis">to</em>:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-33" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-33">Verbs can follow to:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-33" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-55-34">
 <li id="ch-05-open-classes-sec-55-34-1">
@@ -889,7 +895,7 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-55-36">
 <em class="emphasis">Test 3: The negation test</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-37">Verbs can be negated, typically using <em class="emphasis">do</em> + <em class="emphasis">not</em>:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-37" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-37">Verbs can be negated, typically using do + not:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-37" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-55-38">
 <li id="ch-05-open-classes-sec-55-38-1">
@@ -909,56 +915,53 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-55-41">
 <em class="emphasis">An intransitive verb phrase (no object required):</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-41" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/diagrams/new/ch05_vp_intransitive.png" class="contained" alt="Syntax tree showing VP with only V (slept)"></div>
-<div class="para" id="ch-05-open-classes-sec-55-43">
+<figure class="figure figure-like" id="fig-ch05-vp-intransitive"><div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/diagrams/new/ch05_vp_intransitive.png" class="contained" alt="Syntax tree showing VP with only V (slept)"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.5.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>An intransitive verb phrase<div class="autopermalink" data-description="Figure 5.5.1"><a href="#fig-ch05-vp-intransitive" title="Copy heading and permalink for Figure 5.5.1" aria-label="Copy heading and permalink for Figure 5.5.1">🔗</a></div></figcaption></figure><div class="para" id="ch-05-open-classes-sec-55-43">
 <code class="code-inline tex2jax_ignore">[VP [V slept]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-43" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-open-classes-sec-55-44"><h3 class="heading"><span class="title">An intransitive verb phrase.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: An intransitive verb phrase"><a href="#ch-05-open-classes-sec-55-44" title="Copy heading and permalink for Paragraphs: An intransitive verb phrase" aria-label="Copy heading and permalink for Paragraphs: An intransitive verb phrase">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-55-45">The verb <em class="emphasis">slept</em> needs nothing after it—the subject can just sleep.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-45" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-44">The verb slept needs nothing after it—the subject can just sleep.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-44" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-46">
-<em class="emphasis">A transitive verb phrase (requires an object):</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-46" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-45">
+<em class="emphasis">A transitive verb phrase (requires an object):</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-45" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch05_vp_transitive.png" class="contained" alt="Syntax tree showing VP with V (read) and NP (the book)"></div>
-<div class="para" id="ch-05-open-classes-sec-55-48">
-<code class="code-inline tex2jax_ignore">[VP [V read] [NP [DET the] [N book]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-48" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<figure class="figure figure-like" id="fig-ch05-vp-transitive"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/diagrams/new/ch05_vp_transitive.png" class="contained" alt="Syntax tree showing VP with V (read) and NP (the book)"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.5.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A transitive verb phrase with direct object<div class="autopermalink" data-description="Figure 5.5.2"><a href="#fig-ch05-vp-transitive" title="Copy heading and permalink for Figure 5.5.2" aria-label="Copy heading and permalink for Figure 5.5.2">🔗</a></div></figcaption></figure><div class="para" id="ch-05-open-classes-sec-55-47">
+<code class="code-inline tex2jax_ignore">[VP [V read] [NP [DET the] [N book]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-47" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-open-classes-sec-55-49"><h3 class="heading"><span class="title">A transitive verb phrase with direct object.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: A transitive verb phrase with direct object"><a href="#ch-05-open-classes-sec-55-49" title="Copy heading and permalink for Paragraphs: A transitive verb phrase with direct object" aria-label="Copy heading and permalink for Paragraphs: A transitive verb phrase with direct object">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-55-50">The verb <em class="emphasis">read</em> requires something to be read—the NP <em class="emphasis">the book</em> is its direct object.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-50" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-48">The verb read requires something to be read—the NP the book is its direct object.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-48" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-51">
-<em class="emphasis">A ditransitive verb phrase (requires two objects):</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-51" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-49">
+<em class="emphasis">A ditransitive verb phrase (requires two objects):</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-49" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch05_vp_ditransitive.png" class="contained" alt="Syntax tree showing VP with V (gave), NP (her), and NP (a present)"></div>
-<div class="para" id="ch-05-open-classes-sec-55-53">
-<code class="code-inline tex2jax_ignore">[VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<figure class="figure figure-like" id="fig-ch05-vp-ditransitive"><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="external/diagrams/new/ch05_vp_ditransitive.png" class="contained" alt="Syntax tree showing VP with V (gave), NP (her), and NP (a present)"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.5.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A ditransitive verb phrase with indirect and direct objects<div class="autopermalink" data-description="Figure 5.5.3"><a href="#fig-ch05-vp-ditransitive" title="Copy heading and permalink for Figure 5.5.3" aria-label="Copy heading and permalink for Figure 5.5.3">🔗</a></div></figcaption></figure><div class="para" id="ch-05-open-classes-sec-55-51">
+<code class="code-inline tex2jax_ignore">[VP [V gave] [NP [PRON her]] [NP [DET a] [N present]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-51" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-open-classes-sec-55-54"><h3 class="heading"><span class="title">A ditransitive verb phrase with indirect and direct objects.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: A ditransitive verb phrase with indirect and direct objects"><a href="#ch-05-open-classes-sec-55-54" title="Copy heading and permalink for Paragraphs: A ditransitive verb phrase with indirect and direct objects" aria-label="Copy heading and permalink for Paragraphs: A ditransitive verb phrase with indirect and direct objects">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-55-55">The verb <em class="emphasis">gave</em> requires both a recipient (her) and a thing given (a present).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-55" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-52">The verb gave requires both a recipient (her) and a thing given (a present).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-52" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-55-56">This property—that verbs dictate what must follow them—is called the verb’s <em class="emphasis">valency</em>. Chapter 8 explores valency patterns in detail. For now, notice that the verb is truly the head of the VP: it determines the entire structure of the phrase.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-56" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-53">This property—that verbs dictate what must follow them—is called the verb’s <em class="emphasis">valency</em>. Chapter 8 explores valency patterns in detail. For now, notice that the verb is truly the head of the VP: it determines the entire structure of the phrase.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-open-classes-sec-55-57"><h3 class="heading"><span class="title">Identifying the Head Verb.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Identifying the Head Verb"><a href="#ch-05-open-classes-sec-55-57" title="Copy heading and permalink for Paragraphs: Identifying the Head Verb" aria-label="Copy heading and permalink for Paragraphs: Identifying the Head Verb">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-55-58">In a verb phrase, the head verb is the word that carries the core meaning of the action or state. In complex verb phrases with auxiliaries, the <em class="emphasis">main verb</em> is the head:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-58" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-open-classes-sec-55-54"><h3 class="heading"><span class="title">Identifying the Head Verb.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Identifying the Head Verb"><a href="#ch-05-open-classes-sec-55-54" title="Copy heading and permalink for Paragraphs: Identifying the Head Verb" aria-label="Copy heading and permalink for Paragraphs: Identifying the Head Verb">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-55-55">In a verb phrase, the head verb is the word that carries the core meaning of the action or state. In complex verb phrases with auxiliaries, the <em class="emphasis">main verb</em> is the head:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-55" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-05-open-classes-sec-55-59">
-<li id="ch-05-open-classes-sec-55-59-1">
-<div class="para" id="ch-05-open-classes-sec-55-59-1-1">"She <em class="emphasis">has been reading</em> the book." — Head: <em class="emphasis">reading</em> (main verb)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-59-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ch-05-open-classes-sec-55-56">
+<li id="ch-05-open-classes-sec-55-56-1">
+<div class="para" id="ch-05-open-classes-sec-55-56-1-1">"She has been reading the book." — Head: reading (main verb)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-56-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-55-59-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-55-56-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-05-open-classes-sec-55-59-2">
-<div class="para" id="ch-05-open-classes-sec-55-59-2-1">"They <em class="emphasis">might have arrived</em> early." — Head: <em class="emphasis">arrived</em> (main verb)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-59-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-05-open-classes-sec-55-56-2">
+<div class="para" id="ch-05-open-classes-sec-55-56-2-1">"They might have arrived early." — Head: arrived (main verb)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-56-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-55-59-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-55-56-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-05-open-classes-sec-55-59-3">
-<div class="para" id="ch-05-open-classes-sec-55-59-3-1">"The report <em class="emphasis">was written</em> yesterday." — Head: <em class="emphasis">written</em> (main verb)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-59-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-05-open-classes-sec-55-56-3">
+<div class="para" id="ch-05-open-classes-sec-55-56-3-1">"The report was written yesterday." — Head: written (main verb)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-56-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-55-59-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-55-56-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-55-60">The auxiliaries (has, been, might, have, was) add grammatical information about tense, aspect, or voice, but the main verb supplies the core meaning.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-60" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-55-57">The auxiliaries (has, been, might, have, was) add grammatical information about tense, aspect, or voice, but the main verb supplies the core meaning.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-55-57" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Section 5.5: Verbs"><a href="#ch-05-open-classes-sec-55" title="Copy heading and permalink for Section 5.5: Verbs" aria-label="Copy heading and permalink for Section 5.5: Verbs">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
