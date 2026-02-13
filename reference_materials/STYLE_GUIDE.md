@@ -83,16 +83,15 @@ Use for:
 - Technical terms on first use (when not bolded)
 
 Do NOT use italics for:
-- Linguistic examples or words being analyzed (leave as plain text)
+- Linguistic examples or words being analyzed — use `<foreign>` instead (see Language Example Formatting below)
 - Lists of example words
 
 ### Strikethrough for Ungrammatical Examples
-Use `~~text~~` for ungrammatical constructions:
-```markdown
-~~The happy's effect~~
+Use the PreTeXt `<delete>` element for ungrammatical constructions. It renders as `<del>` in HTML (strikethrough):
+```xml
+<foreign><delete>The happy's effect</delete></foreign>
 ```
-
-In PreTeXt, use plain `~~text~~` without an `<em>` wrapper: `~~The happy's effect~~`
+Do NOT use `~~text~~` (literal tildes do not render as strikethrough in PreTeXt).
 
 ### Grammaticality Judgments
 - ✓ for grammatical/correct
@@ -127,6 +126,124 @@ In PreTeXt, use `<paragraphs><title>` for block-format labels:
 <p>The word unhappy contains two morphemes. The prefix un-
 attaches to the base happy, changing its meaning to the opposite.</p>
 ```
+
+---
+
+## Language Example Formatting
+
+Language examples (words, phrases, or sentences being discussed as linguistic objects) use a distinct visual treatment to separate them from the surrounding explanatory prose. This requires a manual read-through of each chapter to distinguish language examples from genuine emphasis.
+
+### PreTeXt Element: `<foreign>`
+
+All language examples use the `<foreign>` element, which renders as `<i class="foreign">` in HTML. Custom CSS overrides this to display as **sans-serif, non-italic, at 0.9em** (slightly smaller than body text).
+
+```xml
+<foreign>the dog barked</foreign>
+```
+
+**What counts as a language example:**
+- Words being discussed as words: "the determiner `<q><foreign>the</foreign></q>` signals..."
+- Phrases or sentences presented as examples of grammatical structures
+- Pattern notation: `<foreign>Det + Adj + N</foreign>`
+- Items in example lists, table cells with example words/phrases
+
+**What is NOT a language example (keep as `<em>` or `<term>`):**
+- Technical terms being defined: `<term>Closed classes</term> resist new members.`
+- Emphasis on concepts: `<em>Case matters</em>: Use subject forms...`
+- Category labels: `<em>Articles</em>—the most common determiners:`
+- Test labels: `<em>Test 1: Adjectives are gradable.</em>`
+
+### Inline Examples in Paragraphs: Quotation Marks
+
+Single language examples within paragraph text use `<q>` (quotation marks) as the default marker:
+
+```xml
+<p>The determiner <q><foreign>a</foreign></q> signals indefinite reference.</p>
+```
+
+This renders as: The determiner "a" signals indefinite reference.
+
+For inline sentence examples, wrap the full sentence:
+
+```xml
+<p>When you hear <q><foreign>I saw the dog,</foreign></q> the determiner signals...</p>
+```
+
+### Grouped Multiple Examples: Parentheses
+
+When listing multiple language examples together as a set, use parentheses around the group:
+
+```xml
+<p>They indicate quantity (<foreign>some</foreign>, <foreign>many</foreign>, <foreign>every</foreign>, <foreign>three</foreign>).</p>
+```
+
+This is the ONLY use of parentheses for language examples. Do not parenthesize single examples.
+
+If a series of examples was previously formatted with separate parentheses around each word, consolidate into one grouped set:
+- Before: `(<foreign>his</foreign>), (<foreign>my</foreign>), (<foreign>your</foreign>)`
+- After: `(<foreign>his</foreign>, <foreign>my</foreign>, <foreign>your</foreign>)`
+
+### Lists, Tables, and Block Quotes: No Markers
+
+In bulleted lists, numbered lists, tables, and block quotes, language examples need **no quotation marks or parentheses**. The font change plus the grey background (applied by CSS) provides sufficient visual distinction:
+
+```xml
+<ul>
+  <li><p><foreign>the big dog</foreign></p></li>
+  <li><p><foreign>my old friend</foreign></p></li>
+</ul>
+```
+
+In list items that mix example and explanatory text, the example appears bare:
+
+```xml
+<li><p><foreign>very tall</foreign> — <foreign>tall</foreign> is an adjective</p></li>
+```
+
+### Highlighting Within Examples
+
+To highlight a specific word within a language example, use `<em>` inside `<foreign>`:
+
+```xml
+<foreign><em>The</em> dog barked.</foreign>
+```
+
+This renders the full phrase in sans-serif, with the target word additionally emphasized.
+
+### Ungrammatical Examples
+
+Use `<delete>` inside `<foreign>` for struck-through ungrammatical examples:
+
+```xml
+<foreign><delete>Dog barked.</delete></foreign>
+```
+
+Often paired with a grammatical counterpart:
+
+```xml
+<li><p><foreign><em>She</em> left.</foreign> (not <foreign><delete>Her left.</delete></foreign>)</p></li>
+```
+
+### CSS Behavior (Reference)
+
+The following CSS rules are injected by `build.py`:
+- `.foreign` / `i.foreign`: sans-serif, non-italic, 0.9em
+- `q`: sans-serif, 0.9em (matches foreign text in quoted context)
+- `ul:has(> li .foreign)`, `ol:has(> li .foreign)`: grey background (#f5f6f8), left border, indentation
+- `.tabular-box:has(.foreign)`: same grey background treatment
+- `del`: browser-default strikethrough
+
+### Quick Reference Table
+
+| Context | Marker | Example |
+|---------|--------|---------|
+| Single word/phrase in paragraph | Quotation marks (`<q>`) | `<q><foreign>the</foreign></q>` |
+| Sentence example in paragraph | Quotation marks (`<q>`) | `<q><foreign>The dog barked.</foreign></q>` |
+| Grouped multiples in paragraph | Parentheses | `(<foreign>a</foreign>, <foreign>an</foreign>)` |
+| Example in list item | None | `<foreign>the big dog</foreign>` |
+| Example in table cell | None | `<foreign>a book</foreign>` |
+| Ungrammatical example | Strikethrough | `<foreign><delete>text</delete></foreign>` |
+| Highlighted word in example | `<em>` inside `<foreign>` | `<foreign><em>The</em> dog</foreign>` |
 
 ---
 
@@ -175,47 +292,63 @@ Use for sequential steps or ordered items:
 
 ## Examples and Analyses
 
-### Inline Examples
-Present simple examples within prose:
-```markdown
-For example, happy is an adjective because it can be compared (happier, happiest) and modified by very (very happy).
+Use the Language Example Formatting system (above) for all examples. This section provides PreTeXt XML templates for common analysis patterns.
+
+### Inline Examples in Prose
+
+Always wrap inline language examples using the `<q><foreign>` pattern documented above:
+
+```xml
+<p>For example, <q><foreign>happy</foreign></q> is an adjective because it can be compared (<q><foreign>happier</foreign></q>, <q><foreign>happiest</foreign></q>) and modified by <q><foreign>very</foreign></q> (<q><foreign>very happy</foreign></q>).</p>
+```
+
+Or, using grouped parentheses for multiple related examples:
+
+```xml
+<p>Adjectives can be modified by adverbs such as <foreign>(very, somewhat, extremely, rather)</foreign>.</p>
 ```
 
 ### Formatted Example Analyses
-For morpheme breakdowns or grammatical analyses, use a consistent format:
+
+For morpheme breakdowns or grammatical analyses, use PreTeXt list structures:
 
 **Simple format (preferred):**
-```markdown
-Unhappy = un- + happy
-- un- = bound morpheme (prefix meaning "not")
-- happy = free morpheme
-- Total: 2 morphemes
+```xml
+<p><q><foreign>Unhappy</foreign></q> = un- + happy</p>
+<ul>
+  <li><p>un- = bound morpheme (prefix meaning "not")</p></li>
+  <li><p>happy = free morpheme</p></li>
+  <li><p>Total: 2 morphemes</p></li>
+</ul>
 ```
 
 **For incorrect analyses:**
-```markdown
-Ugly ≠ ug + -ly
-- "Ug" is not a word in English ✗
-- One morpheme
+```xml
+<p><q><delete><foreign>Ugly</foreign></delete></q> ≠ ug + -ly</p>
+<ul>
+  <li><p>"Ug" is not a word in English ✗</p></li>
+  <li><p>One morpheme</p></li>
+</ul>
 ```
 
 ### Categorized Examples
+
 When presenting multiple types/categories, use bold labels (NOT `####` headers):
 
 **Correct:**
-```markdown
-**Type 1: Non-Existent Bases**
-
-Some words look like they contain familiar affixes, but the remaining "base" isn't actually a word in English.
-
-Ugly ≠ ug + -ly
-- "Ug" is not a word in English ✗
-- One morpheme
+```xml
+<p><strong>Type 1: Non-Existent Bases</strong></p>
+<p>Some words look like they contain familiar affixes, but the remaining "base" isn't actually a word in English.</p>
+<p><q><delete><foreign>Ugly</foreign></delete></q> ≠ ug + -ly</p>
+<ul>
+  <li><p>"Ug" is not a word in English ✗</p></li>
+  <li><p>One morpheme</p></li>
+</ul>
 ```
 
 **Incorrect (do not use):**
-```markdown
-#### Type 1: Non-Existent Bases
+```xml
+<title>Type 1: Non-Existent Bases</title>
 ```
 
 ---
@@ -397,6 +530,7 @@ Before finalizing a chapter, verify:
 - [ ] Section numbers match chapter (4.1, 4.2 for Chapter 4)
 - [ ] Subsection headers use `###` without numbers
 - [ ] `####` used sparingly (homework examples only)
+- [ ] Language examples use `<foreign>` (not `<em>`) with correct markers per context
 - [ ] Examples use consistent formatting throughout
 - [ ] Tables render properly
 - [ ] Horizontal rules separate major sections

@@ -43,25 +43,30 @@ Last updated: 2026-02-12
 
 ## Language Example Formatting
 
-**Current approach:** Multi-pronged formatting system using `<foreign>` PreTeXt element with refined marking rules:
+**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, now documented in STYLE_GUIDE.md for rollout across all chapters:
 
-1. **`<foreign>`** for all language examples → renders as `<i class="foreign">` → CSS overrides to sans-serif, non-italic
-2. **Font sizing:** `.foreign` and `q` elements use `font-size: 0.9em` (scaled down from 0.95em for clarity)
-3. **Marking by context:**
-   - **Paragraphs:** Inline sentence examples use quotation marks via `<q>`: `<q><foreign>The dog barked.</foreign></q>`
-   - **Lists/tables/block quotes:** No additional markers needed; font styling + optional grey background (#f5f6f8) with left border are sufficient visual distinction
-   - **Parenthetical grouping:** Use parentheses only for grouped multiple examples in a row: `<foreign>(some, many, every, three)</foreign>`
-4. **`<em>`** retained ONLY for emphasis, labels, and technical terms (NOT language examples)
-5. **`<em>` inside `<foreign>`** highlights specific words within examples (e.g., target determiner in a phrase)
-6. CSS `:has(.foreign)` selector gives broken-out lists/tables grey background with left border
-7. **Strikethrough for ungrammatical examples:** Use PreTeXt `<delete>` element: `<delete><foreign>ungrammatical text</foreign></delete>`
+1. **`<foreign>` element (REQUIRED):** All language examples use `<foreign>` → renders as `<i class="foreign">` → CSS overrides to sans-serif, non-italic, 0.9em
+2. **`<q>` element (inline examples in paragraphs):** Automatically renders quotation marks: `<q><foreign>The dog barked.</foreign></q>` → "The dog barked."
+3. **Parenthetical grouping:** Use parentheses only for grouped multiple examples: `<foreign>(some, many, every, three)</foreign>` (NOT individual examples)
+4. **No markers in lists/tables/block quotes:** Font styling + grey background (#f5f6f8) with left border (CSS `:has(.foreign)`) provides sufficient distinction
+5. **Highlighting within examples:** Use `<em>` inside `<foreign>`: `<foreign><em>The</em> dog barked.</foreign>`
+6. **Ungrammatical examples:** Use `<delete>` inside `<foreign>`: `<foreign><delete>ungrammatical text</delete></foreign>` (renders as strikethrough)
+7. **`<em>` element (emphasis ONLY):** Retain exclusively for emphasis, labels, and technical terms (NOT language examples)
+
+**Documentation:** STYLE_GUIDE.md now contains:
+- Core markup elements section
+- Detailed marking rules by context (paragraphs, lists, tables, block quotes, grouped examples)
+- Formatting examples showing correct and incorrect usage
+- Quick reference table for all contexts
+- CSS behavior reference
+- PreTeXt XML template updates for Examples and Analyses section
 
 **Previously tried:**
 - Italics (`<em>`) for language examples — removed because it conflated emphasis with language mention
-- Considered `<c>` (code), `<alert>`, and custom elements — rejected because `<foreign>` already maps to `<i class="foreign">` which is cleanly targetable in CSS
+- `<c>` (code), `<alert>`, custom elements — rejected because `<foreign>` already maps to cleanly targetable CSS
 - Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element
-- Font size at 18px (0.95em) — refined further to 0.9em for better consistency with sans-serif rendering at various display sizes
+- Font size at 0.95em — refined to 0.9em for better sans-serif rendering consistency
 
-**Context:** Chapter 6 is the test chapter where the refined rules are being standardized across all example contexts. The approach balances visual clarity (sans-serif, reduced size) with semantic correctness (proper XML elements, no over-marking). Manual review of each chapter required to apply rules correctly; later chapters will follow the same pattern.
+**Context:** Chapter 6 formatting approved by user and now fully documented. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently; remaining chapters (1-5, 7-21) will follow this documented pattern.
 
 ## Archived
