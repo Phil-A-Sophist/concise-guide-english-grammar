@@ -101,14 +101,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.13';
+eBookConfig.runestone_version = '7.11.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.0d5f811896ddeac1.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.e2abc79debce15fd.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -226,6 +226,41 @@ section .tabular-box {
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
+}
+
+/* ===== Language Example Styling ===== */
+
+/* Language examples (<foreign> element): sans-serif at body text size */
+.ptx-content .foreign,
+.ptx-content i.foreign {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-style: normal !important;
+    font-size: inherit !important;
+}
+
+/* Broken-out example lists: light grey background with indentation */
+.ptx-content ul:has(> li .foreign),
+.ptx-content ol:has(> li .foreign) {
+    background-color: #f5f6f8 !important;
+    padding: 0.6em 1.5em !important;
+    border-radius: 5px !important;
+    margin-left: 1em !important;
+    border-left: 3px solid #e2e4e8 !important;
+}
+
+/* Tables containing language examples: light grey background */
+.ptx-content .tabular-box:has(.foreign) {
+    background-color: #f5f6f8 !important;
+    padding: 0.5em 0.75em !important;
+    border-radius: 5px !important;
+    margin-left: 1em !important;
+    border-left: 3px solid #e2e4e8 !important;
+}
+
+/* Inline quotation marks around sentence examples: sans-serif */
+.ptx-content q {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: inherit !important;
 }
 </style>
 </head>
@@ -739,7 +774,7 @@ section .tabular-box {
 </div></dd>
 <dt id="ch-06-closed-classes-12-3">Article.<div class="autopermalink" data-description="Term: Article"><a href="#ch-06-closed-classes-12-3" title="Copy heading and permalink for Term: Article" aria-label="Copy heading and permalink for Term: Article">🔗</a></div>
 </dt>
-<dd><div class="para" id="ch-06-closed-classes-12-3-2">A determiner that marks definiteness (<em class="emphasis">the</em>) or indefiniteness (<em class="emphasis">a</em>, <em class="emphasis">an</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dd><div class="para" id="ch-06-closed-classes-12-3-2">A determiner that marks definiteness (<i class="foreign">the</i>) or indefiniteness (<i class="foreign">a</i>, <i class="foreign">an</i>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></dd>
 <dt id="ch-06-closed-classes-12-4">Closed class.<div class="autopermalink" data-description="Term: Closed class"><a href="#ch-06-closed-classes-12-4" title="Copy heading and permalink for Term: Closed class" aria-label="Copy heading and permalink for Term: Closed class">🔗</a></div>
 </dt>
@@ -747,7 +782,7 @@ section .tabular-box {
 </div></dd>
 <dt id="ch-06-closed-classes-12-5">Demonstrative.<div class="autopermalink" data-description="Term: Demonstrative"><a href="#ch-06-closed-classes-12-5" title="Copy heading and permalink for Term: Demonstrative" aria-label="Copy heading and permalink for Term: Demonstrative">🔗</a></div>
 </dt>
-<dd><div class="para" id="ch-06-closed-classes-12-5-2">A word that points to specific entities (<em class="emphasis">this</em>, <em class="emphasis">that</em>, <em class="emphasis">these</em>, <em class="emphasis">those</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dd><div class="para" id="ch-06-closed-classes-12-5-2">A word that points to specific entities (<i class="foreign">this</i>, <i class="foreign">that</i>, <i class="foreign">these</i>, <i class="foreign">those</i>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></dd>
 <dt id="ch-06-closed-classes-12-6">Determiner.<div class="autopermalink" data-description="Term: Determiner"><a href="#ch-06-closed-classes-12-6" title="Copy heading and permalink for Term: Determiner" aria-label="Copy heading and permalink for Term: Determiner">🔗</a></div>
 </dt>
@@ -755,11 +790,11 @@ section .tabular-box {
 </div></dd>
 <dt id="ch-06-closed-classes-12-7">Indefinite pronoun.<div class="autopermalink" data-description="Term: Indefinite pronoun"><a href="#ch-06-closed-classes-12-7" title="Copy heading and permalink for Term: Indefinite pronoun" aria-label="Copy heading and permalink for Term: Indefinite pronoun">🔗</a></div>
 </dt>
-<dd><div class="para" id="ch-06-closed-classes-12-7-2">A pronoun referring to unspecified entities (<em class="emphasis">someone</em>, <em class="emphasis">everyone</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dd><div class="para" id="ch-06-closed-classes-12-7-2">A pronoun referring to unspecified entities (<i class="foreign">someone</i>, <i class="foreign">everyone</i>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></dd>
 <dt id="ch-06-closed-classes-12-8">Interrogative pronoun.<div class="autopermalink" data-description="Term: Interrogative pronoun"><a href="#ch-06-closed-classes-12-8" title="Copy heading and permalink for Term: Interrogative pronoun" aria-label="Copy heading and permalink for Term: Interrogative pronoun">🔗</a></div>
 </dt>
-<dd><div class="para" id="ch-06-closed-classes-12-8-2">A pronoun used in questions (<em class="emphasis">who</em>, <em class="emphasis">what</em>, <em class="emphasis">which</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dd><div class="para" id="ch-06-closed-classes-12-8-2">A pronoun used in questions (<i class="foreign">who</i>, <i class="foreign">what</i>, <i class="foreign">which</i>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></dd>
 <dt id="ch-06-closed-classes-12-9">Object of preposition.<div class="autopermalink" data-description="Term: Object of preposition"><a href="#ch-06-closed-classes-12-9" title="Copy heading and permalink for Term: Object of preposition" aria-label="Copy heading and permalink for Term: Object of preposition">🔗</a></div>
 </dt>
@@ -771,7 +806,7 @@ section .tabular-box {
 </div></dd>
 <dt id="ch-06-closed-classes-12-11">Possessive.<div class="autopermalink" data-description="Term: Possessive"><a href="#ch-06-closed-classes-12-11" title="Copy heading and permalink for Term: Possessive" aria-label="Copy heading and permalink for Term: Possessive">🔗</a></div>
 </dt>
-<dd><div class="para" id="ch-06-closed-classes-12-11-2">A form indicating ownership; can be determiner (<em class="emphasis">my</em>) or pronoun (<em class="emphasis">mine</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dd><div class="para" id="ch-06-closed-classes-12-11-2">A form indicating ownership; can be determiner (<i class="foreign">my</i>) or pronoun (<i class="foreign">mine</i>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></dd>
 <dt id="ch-06-closed-classes-12-12">Preposition.<div class="autopermalink" data-description="Term: Preposition"><a href="#ch-06-closed-classes-12-12" title="Copy heading and permalink for Term: Preposition" aria-label="Copy heading and permalink for Term: Preposition">🔗</a></div>
 </dt>
@@ -787,11 +822,11 @@ section .tabular-box {
 </div></dd>
 <dt id="ch-06-closed-classes-12-15">Quantifier.<div class="autopermalink" data-description="Term: Quantifier"><a href="#ch-06-closed-classes-12-15" title="Copy heading and permalink for Term: Quantifier" aria-label="Copy heading and permalink for Term: Quantifier">🔗</a></div>
 </dt>
-<dd><div class="para" id="ch-06-closed-classes-12-15-2">A determiner indicating amount or quantity (<em class="emphasis">some</em>, <em class="emphasis">all</em>, <em class="emphasis">many</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-15-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dd><div class="para" id="ch-06-closed-classes-12-15-2">A determiner indicating amount or quantity (<i class="foreign">some</i>, <i class="foreign">all</i>, <i class="foreign">many</i>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-15-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></dd>
 <dt id="ch-06-closed-classes-12-16">Reflexive pronoun.<div class="autopermalink" data-description="Term: Reflexive pronoun"><a href="#ch-06-closed-classes-12-16" title="Copy heading and permalink for Term: Reflexive pronoun" aria-label="Copy heading and permalink for Term: Reflexive pronoun">🔗</a></div>
 </dt>
-<dd><div class="para" id="ch-06-closed-classes-12-16-2">A pronoun ending in <em class="emphasis">-self/-selves</em> that refers back to the subject.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-16-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dd><div class="para" id="ch-06-closed-classes-12-16-2">A pronoun ending in (<i class="foreign">-self/-selves</i>) that refers back to the subject.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-12-16-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></dd>
 </dl>
 <div class="autopermalink" data-description="Glossary 6.9: Glossary"><a href="#ch-06-closed-classes-12" title="Copy heading and permalink for Glossary 6.9: Glossary" aria-label="Copy heading and permalink for Glossary 6.9: Glossary">🔗</a></div></section></div>
