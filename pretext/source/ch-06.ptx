@@ -80,7 +80,7 @@
     <p>Without determiners, listeners cannot tell which entity the speaker means or how many are involved. Consider how dramatically the meaning changes when we put different determiners before the same noun:</p>
 
     <ul>
-      <li><p><foreign>~~Dog barked.~~</foreign> (ungrammatical in standard English—which dog? how many?)</p></li>
+      <li><p><foreign><delete>Dog barked.</delete></foreign> (ungrammatical in standard English—which dog? how many?)</p></li>
       <li><p><foreign><em>The</em> dog barked.</foreign> (a specific, identifiable dog—the listener knows which one)</p></li>
       <li><p><foreign><em>A</em> dog barked.</foreign> (some dog, not previously identified—introducing a new referent)</p></li>
       <li><p><foreign><em>My</em> dog barked.</foreign> (the dog belonging to the speaker)</p></li>
@@ -172,9 +172,9 @@
     <p><em>Important</em>: Most determiners are mutually exclusive—you cannot stack them:</p>
 
     <ul>
-      <li><p><foreign>~~the my book~~</foreign></p></li>
-      <li><p><foreign>~~this the student~~</foreign></p></li>
-      <li><p><foreign>~~a every dog~~</foreign></p></li>
+      <li><p><foreign><delete>the my book</delete></foreign></p></li>
+      <li><p><foreign><delete>this the student</delete></foreign></p></li>
+      <li><p><foreign><delete>a every dog</delete></foreign></p></li>
     </ul>
 
     <p>Nouns usually take just one determiner. However, in some cases two determiners can appear together in the same noun phrase:</p>
@@ -234,7 +234,7 @@
       </row>
       <row>
         <cell>Gradable</cell>
-        <cell>Usually not (<foreign>~~very the~~</foreign>)</cell>
+        <cell>Usually not (<foreign><delete>very the</delete></foreign>)</cell>
         <cell>Usually yes (<foreign>very tall</foreign>)</cell>
       </row>
     </tabular>
@@ -242,7 +242,7 @@
     <p>Compare:</p>
 
     <ul>
-      <li><p>(<foreign>The</foreign>) is required for singular count nouns in many contexts: <foreign>~~Book is on table.~~</foreign></p></li>
+      <li><p>(<foreign>The</foreign>) is required for singular count nouns in many contexts: <foreign><delete>Book is on table.</delete></foreign></p></li>
       <li><p>(<foreign>Interesting</foreign>) is always optional: <foreign>The book is on the table.</foreign></p></li>
     </ul>
 
@@ -258,10 +258,10 @@
       <li><p><foreign>very tall</foreign> ✓ — (<foreign>tall</foreign>) is an adjective</p></li>
       <li><p><foreign>extremely happy</foreign> ✓ — (<foreign>happy</foreign>) is an adjective</p></li>
       <li><p><foreign>rather old</foreign> ✓ — (<foreign>old</foreign>) is an adjective</p></li>
-      <li><p><foreign>~~very the~~</foreign> ✗ — (<foreign>the</foreign>) is a determiner</p></li>
-      <li><p><foreign>~~extremely my~~</foreign> ✗ — (<foreign>my</foreign>) is a determiner</p></li>
-      <li><p><foreign>~~very this~~</foreign> ✗ — (<foreign>this</foreign>) is a determiner</p></li>
-      <li><p><foreign>~~rather every~~</foreign> ✗ — (<foreign>every</foreign>) is a determiner</p></li>
+      <li><p><foreign><delete>very the</delete></foreign> ✗ — (<foreign>the</foreign>) is a determiner</p></li>
+      <li><p><foreign><delete>extremely my</delete></foreign> ✗ — (<foreign>my</foreign>) is a determiner</p></li>
+      <li><p><foreign><delete>very this</delete></foreign> ✗ — (<foreign>this</foreign>) is a determiner</p></li>
+      <li><p><foreign><delete>rather every</delete></foreign> ✗ — (<foreign>every</foreign>) is a determiner</p></li>
     </ul>
 
     <p>This test works because adjectives describe qualities that exist on a scale (<foreign>tall</foreign>, <foreign>taller</foreign>, <foreign>tallest</foreign>), while determiners set reference and have no scale to intensify.</p>
@@ -269,10 +269,10 @@
     <p><em>Test 2: Determiners always come before adjectives in a noun phrase.</em> The word order within a noun phrase is fixed: <foreign>Det + Adj + N</foreign>. If a word must appear first—before any adjectives—it is a determiner:</p>
 
     <ul>
-      <li><p><foreign>the tall man</foreign> ✓ — not <foreign>~~tall the man~~</foreign></p></li>
-      <li><p><foreign>my old friend</foreign> ✓ — not <foreign>~~old my friend~~</foreign></p></li>
-      <li><p><foreign>some fresh bread</foreign> ✓ — not <foreign>~~fresh some bread~~</foreign></p></li>
-      <li><p><foreign>every single student</foreign> ✓ — not <foreign>~~single every student~~</foreign></p></li>
+      <li><p><foreign>the tall man</foreign> ✓ — not <foreign><delete>tall the man</delete></foreign></p></li>
+      <li><p><foreign>my old friend</foreign> ✓ — not <foreign><delete>old my friend</delete></foreign></p></li>
+      <li><p><foreign>some fresh bread</foreign> ✓ — not <foreign><delete>fresh some bread</delete></foreign></p></li>
+      <li><p><foreign>every single student</foreign> ✓ — not <foreign><delete>single every student</delete></foreign></p></li>
     </ul>
 
     <p>Notice that you can stack multiple adjectives between the determiner and the noun (<foreign>the tall, friendly, old man</foreign>), but the determiner must always come first. If you find yourself unable to move a word after an adjective—if it insists on occupying the first position—that word is a determiner.</p>
@@ -573,9 +573,9 @@
     <p><em>Case matters</em>: Use subject forms for subjects, object forms for objects:</p>
 
     <ul>
-      <li><p>Subject: <foreign><em>She</em> left.</foreign> (not <foreign>~~Her left.~~</foreign>)</p></li>
-      <li><p>Object: <foreign>I saw <em>her</em>.</foreign> (not <foreign>~~I saw she.~~</foreign>)</p></li>
-      <li><p>After preposition: <foreign>with <em>me</em></foreign> (not <foreign>~~with I~~</foreign>)</p></li>
+      <li><p>Subject: <foreign><em>She</em> left.</foreign> (not <foreign><delete>Her left.</delete></foreign>)</p></li>
+      <li><p>Object: <foreign>I saw <em>her</em>.</foreign> (not <foreign><delete>I saw she.</delete></foreign>)</p></li>
+      <li><p>After preposition: <foreign>with <em>me</em></foreign> (not <foreign><delete>with I</delete></foreign>)</p></li>
     </ul>
 
     <p><em>Singular "they"</em>: Increasingly accepted for indefinite reference and for people who don't identify as he or she:</p>
@@ -603,8 +603,8 @@
     <p>Reflexives cannot be subjects and require an antecedent in the same clause:</p>
 
     <ul>
-      <li><p><foreign>~~Himself arrived.~~</foreign></p></li>
-      <li><p><foreign>~~I saw herself.~~</foreign> (no matching antecedent)</p></li>
+      <li><p><foreign><delete>Himself arrived.</delete></foreign></p></li>
+      <li><p><foreign><delete>I saw herself.</delete></foreign> (no matching antecedent)</p></li>
     </ul>
 
     <paragraphs>
@@ -663,7 +663,7 @@
     <p>Many indefinites are grammatically singular even when semantically plural:</p>
 
     <ul>
-      <li><p><foreign>Everyone <em>is</em> here.</foreign> (not <foreign>~~Everyone are~~</foreign>)</p></li>
+      <li><p><foreign>Everyone <em>is</em> here.</foreign> (not <foreign><delete>Everyone are</delete></foreign>)</p></li>
       <li><p><foreign>Each of the students <em>has</em> arrived.</foreign></p></li>
     </ul>
 
@@ -870,7 +870,7 @@
 
     <ul>
       <li><p>PPs that modify verbs often can: <foreign><em>In the morning</em>, we left.</foreign></p></li>
-      <li><p>PPs that modify nouns typically cannot: <foreign>~~<em>In the hat</em>, the man waved.~~</foreign></p></li>
+      <li><p>PPs that modify nouns typically cannot: <foreign><delete><em>In the hat</em>, the man waved.</delete></foreign></p></li>
     </ul>
 
     <p><em>Test 3: Does the noun phrase make sense without it?</em></p>
