@@ -2,205 +2,208 @@
 
 ## Executive Summary
 
-This audit evaluates the current textbook draft against the originality and pedagogical requirements for an open-source educational publication. The textbook currently has 27 chapters in markdown format with a total of approximately 300KB of content.
+This audit evaluates the current textbook against originality and pedagogical requirements for an open educational resource. The textbook has **21 chapters** in PreTeXt XML format, organized in 6 thematic sections.
+
+**Note:** This audit was originally written against a 27-chapter structure and has been updated (2026-02-13) to reflect the current 21-chapter organization. Consolidation from 27 to 21 chapters merged and reorganized significant content. Assessments from the original audit have been carried forward where applicable, but chapters that were heavily consolidated may need fresh review.
 
 ---
 
 ## Chapter-by-Chapter Assessment
 
-### PART I: FOUNDATIONS OF GRAMMAR (Chapters 1-3)
+### Foundations (Chapters 1-4)
 
-#### Chapter 1: Introduction to Linguistics and Grammar (15KB)
+#### Chapter 1: Introduction to Linguistics and Grammar
 - **Structure**: Well-developed with learning objectives, exercises, glossary
 - **Originality Concern**: LOW - Content is foundational and presented in original voice
 - **Pedagogical Fit**: GOOD - Designed for self-study with comprehension checks
 - **Revision Priority**: LOW
-- **Notes**: Examples are fresh (Wug Test explanation, biology analogy). Keep most content; add more embedded comprehension checks.
+- **Formatting**: Language example formatting applied
+- **Notes**: Examples are fresh (Wug Test explanation, biology analogy). No answer key needed (open-ended questions).
 
-#### Chapter 2: Prescriptive vs. Descriptive Grammar (16KB)
+#### Chapter 2: Prescriptive vs. Descriptive Grammar
 - **Structure**: Complete with exercises and glossary
 - **Originality Concern**: LOW - Standard concepts explained in original voice
 - **Pedagogical Fit**: GOOD
 - **Revision Priority**: LOW
-- **Notes**: Good balance of explanation and examples.
+- **Formatting**: Language example formatting applied
+- **Notes**: Good balance of explanation and examples. No answer key needed (open-ended questions).
 
-#### Chapter 3: Language Variation and Social Context (22KB)
-- **Structure**: Most complete chapter; comprehensive coverage
+#### Chapter 3: Language Varieties
+- **Structure**: Comprehensive coverage
 - **Originality Concern**: LOW
 - **Pedagogical Fit**: GOOD
 - **Revision Priority**: LOW
-- **Notes**: Excellent coverage of dialects, code-switching, language change.
+- **Formatting**: Language example formatting applied
+- **Notes**: Excellent coverage of dialects, code-switching, language change. No answer key needed (open-ended questions).
 
-### PART II: WORDS AND PHRASES (Chapters 4-10)
-
-#### Chapter 4: Morphology and Word Structure (16KB)
+#### Chapter 4: Morphology and Word Structure
 - **Structure**: Complete
 - **Originality Concern**: MEDIUM - Review example words against class materials
 - **Pedagogical Fit**: GOOD
 - **Revision Priority**: MEDIUM
-- **Notes**: Ensure morpheme examples are fresh.
+- **Formatting**: Language example formatting pending
+- **Notes**: Ensure morpheme examples are fresh. Answer key exists.
 
-#### Chapter 5: Parts of Speech Overview (18KB)
-- **Structure**: Very complete with tables, exercises, diagrams
+### Core Grammar (Chapters 5-9)
+
+#### Chapter 5: Open Classes
+- **Structure**: Complete with tables, exercises, diagrams
 - **Originality Concern**: MEDIUM - Example sentences may mirror class materials
 - **Pedagogical Fit**: GOOD
 - **Revision Priority**: MEDIUM
-- **Notes**: Has ASCII tree diagrams - REPLACE WITH EXTRACTED IMAGES. Review example sentences.
+- **Formatting**: Language example formatting pending
+- **Notes**: Consolidates open word classes (nouns, verbs, adjectives, adverbs). Diagram section present. Answer key exists.
+- **Prior concern (old Ch 5-7, 9)**: Review example sentences for originality. Ensure NP, VP, and adverbial tree diagrams are integrated.
 
-#### Chapter 6: Nouns and Noun Phrases (16KB)
+#### Chapter 6: Closed Classes
 - **Structure**: Complete
 - **Originality Concern**: MEDIUM
 - **Pedagogical Fit**: GOOD
 - **Revision Priority**: MEDIUM
-- **Notes**: Add image diagrams for NP structure.
+- **Formatting**: Language example formatting applied (pilot chapter)
+- **Notes**: Consolidates closed word classes (determiners, pronouns, prepositions, conjunctions). Answer key exists.
+- **Prior concern (old Ch 8, 10)**: Add PP tree diagrams where relevant.
 
-#### Chapter 7: Identifying Verbs (16KB)
-- **Structure**: Complete
+#### Chapter 7: Introduction to Sentence Diagramming
 - **Originality Concern**: MEDIUM
 - **Pedagogical Fit**: GOOD
 - **Revision Priority**: MEDIUM
-- **Notes**: Add image diagrams for VP structure.
+- **Formatting**: Language example formatting pending
+- **Notes**: Moved diagramming earlier in the book (was Ch 25 in old structure). Should showcase tree diagram images. Answer key exists.
+- **Prior concern (old Ch 25)**: Was previously CRITICAL priority due to being minimal. Now significantly developed as an introductory chapter.
 
-#### Chapter 8: Adjectives and Adjectivals (16KB)
-- **Structure**: Complete
-- **Originality Concern**: MEDIUM
-- **Pedagogical Fit**: GOOD
-- **Revision Priority**: MEDIUM
-
-#### Chapter 9: Adverbs and Adverbials (17KB)
-- **Structure**: Complete
-- **Originality Concern**: MEDIUM
-- **Pedagogical Fit**: GOOD
-- **Revision Priority**: MEDIUM
-- **Notes**: Good candidate for adverbial tree diagrams.
-
-#### Chapter 10: Prepositional Phrases (16KB)
-- **Structure**: Complete
-- **Originality Concern**: MEDIUM
-- **Pedagogical Fit**: GOOD
-- **Revision Priority**: MEDIUM
-- **Notes**: Add PP tree diagrams.
-
-### PART III: SENTENCE PATTERNS AND STRUCTURES (Chapters 11-15)
-
-#### Chapter 11: Basic Sentence Elements (14KB)
-- **Structure**: Complete
-- **Originality Concern**: MEDIUM
-- **Pedagogical Fit**: GOOD
-- **Revision Priority**: MEDIUM
-
-#### Chapter 12: The Six Basic Sentence Patterns (14KB)
+#### Chapter 8: Basic Sentence Elements and Sentence Patterns
 - **Structure**: Complete with detailed pattern explanations
 - **Originality Concern**: HIGH - Pattern examples may closely mirror class materials
 - **Pedagogical Fit**: GOOD
 - **Revision Priority**: HIGH
-- **Notes**: Has ASCII tree diagrams. Examples like "Cameras flashed," "Weasels stalk rabbits" - VERIFY AGAINST SOURCE MATERIALS. Replace with extracted image diagrams.
+- **Formatting**: Language example formatting pending
+- **Notes**: Consolidates old Ch 11 (Basic Sentence Elements) and Ch 12 (Six Sentence Patterns). Answer key exists.
+- **Prior concern**: Examples like "Cameras flashed," "Weasels stalk rabbits" — VERIFY AGAINST SOURCE MATERIALS. Replace ASCII diagrams with extracted image diagrams.
 
-#### Chapter 13: Compound Sentences (13KB)
+#### Chapter 9: Compound and Complex Sentences
 - **Structure**: Complete
 - **Originality Concern**: HIGH - Conjunction handling may mirror handouts
 - **Pedagogical Fit**: GOOD
 - **Revision Priority**: HIGH
-- **Notes**: Add compound sentence tree diagrams (have good images).
+- **Formatting**: Language example formatting pending
+- **Notes**: Consolidates old Ch 13 (Compound), Ch 14 (Complex), and Ch 15 (Sentence Combining). Answer key exists.
+- **Prior concern**: Add compound and complex sentence tree diagrams. Subordinate clause diagrams needed.
 
-#### Chapter 14: Complex Sentences (13KB)
-- **Structure**: Complete
-- **Originality Concern**: HIGH
-- **Pedagogical Fit**: GOOD
-- **Revision Priority**: HIGH
-- **Notes**: Add complex sentence diagrams (subordinate clauses).
+### The Verb System (Chapters 10-11)
 
-#### Chapter 15: Sentence Combining (12KB)
-- **Structure**: Complete
+#### Chapter 10: Verbs Part One: Tense and Aspect
+- **Originality Concern**: MEDIUM
+- **Pedagogical Fit**: NEEDS REVIEW — consolidation may have resolved prior expansion concerns
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: Consolidates old Ch 17 (Tense) and Ch 18 (Aspect), both of which were flagged as short and needing expansion. Verify that consolidation provides adequate coverage. Answer key exists.
+
+#### Chapter 11: Verbs Part Two: Voice and Modals
+- **Originality Concern**: MEDIUM
+- **Pedagogical Fit**: NEEDS REVIEW — consolidation may have resolved prior expansion concerns
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: Consolidates old Ch 16 (Auxiliaries), Ch 19 (Voice), and Ch 20 (Modals), all flagged as needing expansion. Add auxiliary verb diagrams (Aux node images available). Answer key exists.
+
+### Form and Function (Chapters 12-15)
+
+#### Chapter 12: Adverbials
 - **Originality Concern**: MEDIUM
 - **Pedagogical Fit**: GOOD
 - **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: Incorporates advanced adverbial content beyond the old Ch 9 coverage. Good candidate for tree diagrams. Answer key exists.
 
-### PART IV: THE VERB SYSTEM (Chapters 16-21)
-
-#### Chapter 16: Auxiliary Verbs (12KB)
-- **Structure**: Complete
+#### Chapter 13: Nominals
 - **Originality Concern**: MEDIUM
-- **Pedagogical Fit**: GOOD
+- **Pedagogical Fit**: NEEDS REVIEW
 - **Revision Priority**: MEDIUM
-- **Notes**: Add auxiliary verb diagrams (have good images with Aux nodes).
+- **Formatting**: Language example formatting pending
+- **Notes**: Likely incorporates complement clause content (old Ch 23, which was skeleton-only). Verify this content has been adequately developed. Answer key exists.
 
-#### Chapter 17: Tense (9KB)
-- **Structure**: Shorter than earlier chapters
+#### Chapter 14: Adjectivals
 - **Originality Concern**: MEDIUM
-- **Pedagogical Fit**: NEEDS EXPANSION
-- **Revision Priority**: HIGH
-- **Notes**: Expand with more examples and exercises.
+- **Pedagogical Fit**: NEEDS REVIEW
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: Likely incorporates relative clause content (old Ch 22, which was skeleton-only). Relative clause diagrams available. Verify adequate development. Answer key exists.
 
-#### Chapter 18: Aspect (7KB)
-- **Structure**: SHORT - needs expansion
-- **Originality Concern**: MEDIUM
-- **Pedagogical Fit**: NEEDS EXPANSION
-- **Revision Priority**: HIGH
-- **Notes**: Significantly expand progressive and perfect aspects.
-
-#### Chapter 19: Voice (5KB)
-- **Structure**: SHORT - needs significant expansion
-- **Originality Concern**: LOW (sparse content)
-- **Pedagogical Fit**: NEEDS MAJOR EXPANSION
-- **Revision Priority**: HIGH
-- **Notes**: Active/passive voice needs much more development.
-
-#### Chapter 20: Modal Verbs (5KB)
-- **Structure**: SHORT - needs significant expansion
+#### Chapter 15: Punctuation
 - **Originality Concern**: LOW
-- **Pedagogical Fit**: NEEDS MAJOR EXPANSION
-- **Revision Priority**: HIGH
-- **Notes**: Modals barely covered. Expand significantly.
+- **Pedagogical Fit**: NEEDS REVIEW
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: New chapter in the 21-chapter structure. Answer key exists.
 
-#### Chapter 21: Nonfinite Verb Forms (5KB)
-- **Structure**: SHORT - needs significant expansion
+### Writing and Style (Chapters 16-19)
+
+#### Chapter 16: Other Grammatical Forms
 - **Originality Concern**: LOW
-- **Pedagogical Fit**: NEEDS MAJOR EXPANSION
-- **Revision Priority**: HIGH
-- **Notes**: Infinitives, participles, gerunds need development.
+- **Pedagogical Fit**: NEEDS REVIEW
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: Likely incorporates nonfinite verb forms (old Ch 21) and special constructions (old Ch 24), both of which were skeleton-only. Verify adequate development. Answer key to be created later.
 
-### PART V: ADVANCED STRUCTURES (Chapters 22-24)
-
-#### Chapter 22: Relative Clauses (5KB)
-- **Structure**: SHORT - skeleton only
+#### Chapter 17: Stylistic Choices
 - **Originality Concern**: LOW
-- **Pedagogical Fit**: NEEDS MAJOR EXPANSION
-- **Revision Priority**: HIGH
-- **Notes**: Have relative clause diagrams to include.
+- **Pedagogical Fit**: NEEDS REVIEW
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: Corresponds to old Ch 27 (skeleton-only). Verify development. Answer key to be created later.
 
-#### Chapter 23: Complement Clauses (5KB)
-- **Structure**: SHORT - skeleton only
+#### Chapter 18: Clarity and Readability
 - **Originality Concern**: LOW
-- **Pedagogical Fit**: NEEDS MAJOR EXPANSION
-- **Revision Priority**: HIGH
+- **Pedagogical Fit**: NEEDS REVIEW
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: Corresponds partially to old Ch 26 (Grammar in Writing, skeleton-only). Answer key to be created later.
 
-#### Chapter 24: Special Constructions (5KB)
-- **Structure**: SHORT - skeleton only
+#### Chapter 19: Organization and Concision
 - **Originality Concern**: LOW
-- **Pedagogical Fit**: NEEDS MAJOR EXPANSION
-- **Revision Priority**: HIGH
+- **Pedagogical Fit**: NEEDS REVIEW
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: Corresponds partially to old Ch 26 (Grammar in Writing, skeleton-only). Answer key to be created later.
 
-### PART VI: APPLICATION AND PRACTICE (Chapters 25-27)
+### Applied Grammar (Chapters 20-21)
 
-#### Chapter 25: Sentence Diagramming (5KB)
-- **Structure**: SHORT - has ASCII diagrams
-- **Originality Concern**: MEDIUM
-- **Pedagogical Fit**: NEEDS MAJOR EXPANSION
-- **Revision Priority**: CRITICAL
-- **Notes**: This chapter should showcase the extracted tree diagrams. Currently minimal. Expand significantly with proper image figures.
-
-#### Chapter 26: Grammar in Writing (5KB)
-- **Structure**: SHORT - skeleton only
+#### Chapter 20: Genre and Register
 - **Originality Concern**: LOW
-- **Pedagogical Fit**: NEEDS MAJOR EXPANSION
-- **Revision Priority**: HIGH
+- **Pedagogical Fit**: NEEDS REVIEW
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: New chapter in the 21-chapter structure. Answer key to be created later.
 
-#### Chapter 27: Stylistic Choices (6KB)
-- **Structure**: SHORT - skeleton only
+#### Chapter 21: Teaching Grammar
 - **Originality Concern**: LOW
-- **Pedagogical Fit**: NEEDS MAJOR EXPANSION
-- **Revision Priority**: HIGH
+- **Pedagogical Fit**: NEEDS REVIEW
+- **Revision Priority**: MEDIUM
+- **Formatting**: Language example formatting pending
+- **Notes**: New chapter in the 21-chapter structure. Answer key to be created later.
+
+---
+
+## Answer Key Status
+
+| Chapters | Status |
+|----------|--------|
+| 1-3 | Not needed (open-ended questions) |
+| 4-15 | Answer keys exist |
+| 16-21 | To be created later |
+
+---
+
+## Language Example Formatting Status
+
+| Chapters | Status |
+|----------|--------|
+| 1-3 | Applied |
+| 6 | Applied (pilot) |
+| 4-5 | Pending (next) |
+| 7-21 | Pending |
+
+See `STYLE_GUIDE.md` for the complete Language Example Formatting System.
 
 ---
 
@@ -210,20 +213,20 @@ This audit evaluates the current textbook draft against the originality and peda
 
 | Diagram Type | Count | Target Chapters | Source Files |
 |--------------|-------|-----------------|--------------|
-| Simple intransitive | 3+ | Ch 11, 12 | W6D1, W6D2 |
-| Copular be (NP complement) | 2+ | Ch 12 | W6D1 |
-| Copular be (AdjP complement) | 2+ | Ch 12 | W6D1 |
-| Copular be (PP complement) | 1+ | Ch 12 | W6D1 |
-| Linking verb | 3+ | Ch 12 | W6D1, W6D2 |
-| Transitive | 3+ | Ch 12 | W6D2 |
-| Ditransitive (IO+DO) | 1+ | Ch 12 | W6D2 |
-| Compound subject | 1+ | Ch 13 | W8D1 |
-| Compound predicate | 1+ | Ch 13 | W8D1 |
-| Compound sentence | 2+ | Ch 13 | W8D1 |
-| Complex sentence (subordinate) | 2+ | Ch 14 | W8D1, W8D2 |
-| Relative clause | 1+ | Ch 22 | Adverbials PPT |
-| Auxiliary verb structure | 2+ | Ch 16 | W11D1 |
-| PP as modifier | 3+ | Ch 10 | Various |
+| Simple intransitive | 3+ | Ch 7, 8 | W6D1, W6D2 |
+| Copular be (NP complement) | 2+ | Ch 8 | W6D1 |
+| Copular be (AdjP complement) | 2+ | Ch 8 | W6D1 |
+| Copular be (PP complement) | 1+ | Ch 8 | W6D1 |
+| Linking verb | 3+ | Ch 8 | W6D1, W6D2 |
+| Transitive | 3+ | Ch 8 | W6D2 |
+| Ditransitive (IO+DO) | 1+ | Ch 8 | W6D2 |
+| Compound subject | 1+ | Ch 9 | W8D1 |
+| Compound predicate | 1+ | Ch 9 | W8D1 |
+| Compound sentence | 2+ | Ch 9 | W8D1 |
+| Complex sentence (subordinate) | 2+ | Ch 9 | W8D1, W8D2 |
+| Relative clause | 1+ | Ch 14 | Adverbials PPT |
+| Auxiliary verb structure | 2+ | Ch 11 | W11D1 |
+| PP as modifier | 3+ | Ch 6 | Various |
 
 ### Non-Diagram Images (Exclude from textbook)
 
@@ -238,41 +241,33 @@ See `image_inventory_detailed.md` for full mapping of images to chapters.
 
 ## Revision Priority Summary
 
-### CRITICAL (Rewrite/Expand First)
-1. Chapter 25: Sentence Diagramming - Central to textbook, needs images
-2. Chapter 12: Sentence Patterns - Example similarity concern, needs images
-
-### HIGH PRIORITY (Significant Revision Needed)
-3. Chapters 17-21: Verb system chapters are underdeveloped
-4. Chapters 22-24: Advanced structures are skeleton only
-5. Chapters 13-14: Compound/complex sentences need images
-6. Chapters 26-27: Application chapters are underdeveloped
+### HIGH PRIORITY
+1. Chapter 8: Sentence Elements and Patterns — Example originality concern, needs image diagrams
+2. Chapter 9: Compound and Complex Sentences — Conjunction examples may mirror handouts, needs diagrams
 
 ### MEDIUM PRIORITY (Review and Refresh)
-7. Chapters 4-11: Review examples for originality, add images where helpful
+3. Chapters 4-7: Review examples for originality, integrate diagrams
+4. Chapters 10-11: Verify consolidation adequately covers tense/aspect/voice/modals (were underdeveloped as separate chapters)
+5. Chapters 12-15: Review form/function chapters, especially 13-14 which may incorporate former skeleton chapters
+6. Chapters 16-21: Review Writing/Style/Applied chapters (several correspond to former skeleton chapters)
 
 ### LOW PRIORITY (Minor Touch-ups)
-8. Chapters 1-3: Foundational chapters are well-developed
+7. Chapters 1-3: Well-developed foundational chapters
 
 ---
 
 ## Specific Changes Required
 
-### Examples to Replace (Verify Against Source Materials)
-- Chapter 12: "Cameras flashed," "I am an optimist," "Weasels stalk rabbits," "Marie sent Ramon a gift"
-- Review all example sentences in Parts II and III
+### Examples to Verify Against Source Materials
+- Chapter 8: "Cameras flashed," "I am an optimist," "Weasels stalk rabbits," "Marie sent Ramon a gift"
+- Review example sentences in Chapters 5-9
 
-### ASCII Diagrams to Replace with Images
-- Chapter 5: Basic phrase structure diagrams
-- Chapter 12: All six pattern diagrams
-- Chapter 25: All demonstration diagrams
-
-### Content to Expand Significantly
-- Voice (active/passive) - currently 186 lines
-- Modal verbs - currently 186 lines
-- Aspect - currently 7KB
-- Relative clauses - currently 5KB
-- All Part V and VI chapters
+### Diagrams to Integrate
+- Chapter 7: Introductory diagramming examples
+- Chapter 8: All six sentence pattern diagrams
+- Chapter 9: Compound and complex sentence diagrams
+- Chapter 11: Auxiliary verb structure diagrams
+- Chapter 14: Relative clause diagrams
 
 ### Structural Additions Needed
 - Common misconceptions sections
@@ -284,14 +279,14 @@ See `image_inventory_detailed.md` for full mapping of images to chapters.
 
 ## Next Steps
 
-1. **Create detailed image mapping** - Assign specific images to specific chapters
-2. **Rename images** with descriptive names
-3. **Begin chapter rewrites** starting with highest priority
-4. **Integrate images** using PreTeXt figure syntax
-5. **Expand underdeveloped chapters** with fresh content
-6. **Consistency pass** for terminology and cross-references
-7. **Build and verify** epub output
+1. **Continue language example formatting rollout** (Chapters 4-5, then 7-21)
+2. **Fresh review of consolidated chapters** — Chapters that merged multiple old chapters (5-6, 8-11, 13-14, 16) need assessment of whether consolidation produced adequate coverage
+3. **Fresh review of new/expanded chapters** — Chapters with no old equivalent (15, 20, 21) need quality assessment
+4. **Integrate diagrams** using PreTeXt figure syntax
+5. **Consistency pass** for terminology and cross-references
+6. **Create answer keys** for Chapters 16-21
 
 ---
 
-*Audit completed: Phase 1*
+*Audit originally completed: Phase 1*
+*Updated to 21-chapter structure: 2026-02-13*

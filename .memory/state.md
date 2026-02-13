@@ -1,27 +1,31 @@
 # Project State
 
-Task: 9
-Last updated: 2026-02-12
+Task: 14
+Last updated: 2026-02-13
 
 ## Overview
 "A Concise Guide to English Grammar" is an open educational resource (OER) college textbook on English grammar, authored in PreTeXt XML (21 chapters) and published as HTML via GitHub Pages and as an EPUB ebook.
 
 ## Active Threads
-- **Language example formatting rollout in progress** — Chapters 1, 2, and 6 completed and committed. STYLE_GUIDE.md comprehensively documents the Language Example Formatting System. Rollout to remaining chapters (3-5, 7-21) continues.
+- **Language example formatting rollout in progress** — Chapters 1-3 and 6 completed and committed. Chapters 4-5 currently being edited (unstaged changes in working tree).
   - Formatting rules: `<foreign>` for all language examples (sans-serif, 0.9em), `<q><foreign>` for inline examples, parentheses only for grouped multiples, `<delete>` for ungrammatical, `<em>` for emphasis only
-  - Quick reference table and CSS behavior in STYLE_GUIDE.md ready for implementation
+  - Comprehensive documentation in STYLE_GUIDE.md ready for implementation across remaining chapters
+- **REVISION_AUDIT.md being updated** — unstaged changes in working tree alongside ch-04/ch-05 edits
 
 ## Completed Recently
-- Chapter 2 language example formatting applied and committed (2026-02-12)
-- Chapter 1 language example formatting applied (2026-02-12)
-- Chapter 6 language example formatting completed and approved (pilot chapter)
-- STYLE_GUIDE.md updated with comprehensive Language Example Formatting System
+- REVISION_AUDIT.md fully updated to 21-chapter structure (was referencing old 27-chapter organization)
+- Answer key status clarified: Ch 1-3 not needed (open-ended questions), Ch 4-15 exist, Ch 16-21 deferred
+- Untracked files resolved: `nul` deleted, `.claude/` added to .gitignore, Diagram Examples folder committed
+- Chapters 1-3 language example formatting applied, built, committed, and pushed
+- Chapter 6 language example formatting completed (was the pilot chapter)
 
 ## Next Steps
-- Continue formatting rollout: Chapters 3-5, then 7-21
-- Track completion status as rollout progresses
+- Complete and commit language example formatting for Chapters 4-5
+- Continue rollout to Chapters 7-21
+- Build HTML/EPUB after each batch of chapter updates
+- Monitor REVISION_AUDIT.md for revision priorities
 
-## Open Questions
-- Answer keys exist only for Chapters 4-15; Chapters 1-3 and 16-21 may still need them
-- The REVISION_AUDIT.md references an older 27-chapter structure; update needed to reflect current 21-chapter organization
-- Untracked files in working tree: `.claude/`, `nul`, and `reference_materials/Other Class Materials/Other Class Materials/Diagram Examples/` — may need to be committed or gitignored
+## Notes
+- Answer keys: Chapters 4-15 exist; Chapters 1-3 and 16-21 not applicable or deferred
+- .gitignore updated to exclude `.claude/` directory from version control
+- Working tree has unstaged changes: .gitignore, .memory/state.md, ch-04.ptx, ch-05.ptx, REVISION_AUDIT.md
