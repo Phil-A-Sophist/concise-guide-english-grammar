@@ -34,7 +34,7 @@
     <p>Examples of free morphemes:</p>
 
     <ul>
-      <li><p>boy, girl, walk, happy, book, run</p></li>
+      <li><p><foreign>boy, girl, walk, happy, book, run</foreign></p></li>
     </ul>
 
     <p><term>Bound morphemes</term> cannot stand alone as words; they must attach to other morphemes. Most bound morphemes in English are affixes—prefixes that attach before the base or suffixes that attach after it.</p>
@@ -42,8 +42,8 @@
     <p>Examples of bound morphemes:</p>
 
     <ul>
-      <li><p>Prefixes: un-, re-, pre-, mis-, dis-</p></li>
-      <li><p>Suffixes: -ness, -ly, -able, -tion, -er, -ed, -ing</p></li>
+      <li><p>Prefixes: <foreign>un-, re-, pre-, mis-, dis-</foreign></p></li>
+      <li><p>Suffixes: <foreign>-ness, -ly, -able, -tion, -er, -ed, -ing</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -52,42 +52,42 @@
 
     <p>Let's practice identifying morphemes in words:</p>
 
-    <p>"Big" — One free morpheme</p>
+    <p><q><foreign>Big</foreign></q> — One free morpheme</p>
 
     <ul>
-      <li><p>big = free</p></li>
+      <li><p><foreign>big</foreign> = free</p></li>
     </ul>
 
-    <p>"Bigger" — Two morphemes</p>
+    <p><q><foreign>Bigger</foreign></q> — Two morphemes</p>
 
     <ul>
-      <li><p>big = free morpheme</p></li>
-      <li><p>-er = bound morpheme (comparative)</p></li>
+      <li><p><foreign>big</foreign> = free morpheme</p></li>
+      <li><p><foreign>-er</foreign> = bound morpheme (comparative)</p></li>
     </ul>
 
-    <p>"Unbelievable" — Three morphemes</p>
+    <p><q><foreign>Unbelievable</foreign></q> — Three morphemes</p>
 
     <ul>
-      <li><p>un- = bound morpheme (prefix meaning "not")</p></li>
-      <li><p>believe = free morpheme</p></li>
-      <li><p>-able = bound morpheme (suffix meaning "capable of")</p></li>
+      <li><p><foreign>un-</foreign> = bound morpheme (prefix meaning "not")</p></li>
+      <li><p><foreign>believe</foreign> = free morpheme</p></li>
+      <li><p><foreign>-able</foreign> = bound morpheme (suffix meaning "capable of")</p></li>
     </ul>
 
-    <p>"Rewriters" — Four morphemes</p>
+    <p><q><foreign>Rewriters</foreign></q> — Four morphemes</p>
 
     <ul>
-      <li><p>re- = bound morpheme (prefix meaning "again")</p></li>
-      <li><p>write = free morpheme</p></li>
-      <li><p>-er = bound morpheme (suffix meaning "one who")</p></li>
-      <li><p>-s = bound morpheme (plural marker)</p></li>
+      <li><p><foreign>re-</foreign> = bound morpheme (prefix meaning "again")</p></li>
+      <li><p><foreign>write</foreign> = free morpheme</p></li>
+      <li><p><foreign>-er</foreign> = bound morpheme (suffix meaning "one who")</p></li>
+      <li><p><foreign>-s</foreign> = bound morpheme (plural marker)</p></li>
     </ul>
 
-    <p>"Expectantly" — Three morphemes</p>
+    <p><q><foreign>Expectantly</foreign></q> — Three morphemes</p>
 
     <ul>
-      <li><p>expect = free morpheme</p></li>
-      <li><p>-ant = bound morpheme (forms adjective)</p></li>
-      <li><p>-ly = bound morpheme (forms adverb)</p></li>
+      <li><p><foreign>expect</foreign> = free morpheme</p></li>
+      <li><p><foreign>-ant</foreign> = bound morpheme (forms adjective)</p></li>
+      <li><p><foreign>-ly</foreign> = bound morpheme (forms adverb)</p></li>
     </ul>
 
   </section>
@@ -95,7 +95,7 @@
   <section xml:id="ch-04-morphology-and-word-structure-sec-42">
     <title>Common Morphemes by Word Class</title>
 
-    <p>English uses bound morphemes productively to create words belonging to different word classes. These affixes are <term>productive</term>—English speakers use them freely to create new words. You've probably encountered "unfriend," "unsubscribe," and "retweet," none of which existed thirty years ago. The patterns are so reliable that you could invent a word right now and other English speakers would understand it immediately.</p>
+    <p>English uses bound morphemes productively to create words belonging to different word classes. These affixes are <term>productive</term>—English speakers use them freely to create new words. You've probably encountered <q><foreign>unfriend</foreign></q>, <q><foreign>unsubscribe</foreign></q>, and <q><foreign>retweet</foreign></q>, none of which existed thirty years ago. The patterns are so reliable that you could invent a word right now and other English speakers would understand it immediately.</p>
 
     <p>The following tables organize common English affixes by the word class they typically create.</p>
 
@@ -113,64 +113,64 @@
         <cell>Examples</cell>
       </row>
       <row>
-        <cell>-ness</cell>
+        <cell><foreign>-ness</foreign></cell>
         <cell>adjective</cell>
         <cell>state/quality</cell>
-        <cell>happiness, darkness, kindness, sadness</cell>
+        <cell><foreign>happiness, darkness, kindness, sadness</foreign></cell>
       </row>
       <row>
-        <cell>-ity</cell>
+        <cell><foreign>-ity</foreign></cell>
         <cell>adjective</cell>
         <cell>state/quality</cell>
-        <cell>generosity, electricity, possibility, curiosity</cell>
+        <cell><foreign>generosity, electricity, possibility, curiosity</foreign></cell>
       </row>
       <row>
-        <cell>-ment</cell>
+        <cell><foreign>-ment</foreign></cell>
         <cell>verb</cell>
         <cell>result/act</cell>
-        <cell>development, agreement, entertainment, movement</cell>
+        <cell><foreign>development, agreement, entertainment, movement</foreign></cell>
       </row>
       <row>
-        <cell>-tion/-sion</cell>
+        <cell><foreign>-tion/-sion</foreign></cell>
         <cell>verb</cell>
         <cell>act/result</cell>
-        <cell>selection, creation, discussion, decision</cell>
+        <cell><foreign>selection, creation, discussion, decision</foreign></cell>
       </row>
       <row>
-        <cell>-er/-or</cell>
+        <cell><foreign>-er/-or</foreign></cell>
         <cell>verb</cell>
         <cell>one who</cell>
-        <cell>teacher, writer, actor, editor</cell>
+        <cell><foreign>teacher, writer, actor, editor</foreign></cell>
       </row>
       <row>
-        <cell>-ist</cell>
+        <cell><foreign>-ist</foreign></cell>
         <cell>noun/adj</cell>
         <cell>one who practices</cell>
-        <cell>artist, scientist, guitarist, optimist</cell>
+        <cell><foreign>artist, scientist, guitarist, optimist</foreign></cell>
       </row>
       <row>
-        <cell>-ism</cell>
+        <cell><foreign>-ism</foreign></cell>
         <cell>noun/adj</cell>
         <cell>belief/practice</cell>
-        <cell>capitalism, heroism, criticism, optimism</cell>
+        <cell><foreign>capitalism, heroism, criticism, optimism</foreign></cell>
       </row>
       <row>
-        <cell>-ance/-ence</cell>
+        <cell><foreign>-ance/-ence</foreign></cell>
         <cell>verb/adj</cell>
         <cell>state/quality</cell>
-        <cell>assistance, confidence, independence, resistance</cell>
+        <cell><foreign>assistance, confidence, independence, resistance</foreign></cell>
       </row>
       <row>
-        <cell>-dom</cell>
+        <cell><foreign>-dom</foreign></cell>
         <cell>noun/adj</cell>
         <cell>state/realm</cell>
-        <cell>kingdom, freedom, boredom, wisdom</cell>
+        <cell><foreign>kingdom, freedom, boredom, wisdom</foreign></cell>
       </row>
       <row>
-        <cell>-hood</cell>
+        <cell><foreign>-hood</foreign></cell>
         <cell>noun</cell>
         <cell>state/group</cell>
-        <cell>childhood, neighborhood, brotherhood, likelihood</cell>
+        <cell><foreign>childhood, neighborhood, brotherhood, likelihood</foreign></cell>
       </row>
     </tabular>
 
@@ -188,40 +188,40 @@
         <cell>Examples</cell>
       </row>
       <row>
-        <cell>-ize</cell>
+        <cell><foreign>-ize</foreign></cell>
         <cell>noun/adj</cell>
         <cell>make/become</cell>
-        <cell>modernize, hospitalize, legalize, prioritize</cell>
+        <cell><foreign>modernize, hospitalize, legalize, prioritize</foreign></cell>
       </row>
       <row>
-        <cell>-ify</cell>
+        <cell><foreign>-ify</foreign></cell>
         <cell>noun/adj</cell>
         <cell>make/cause</cell>
-        <cell>beautify, clarify, simplify, terrify</cell>
+        <cell><foreign>beautify, clarify, simplify, terrify</foreign></cell>
       </row>
       <row>
-        <cell>-ate</cell>
+        <cell><foreign>-ate</foreign></cell>
         <cell>noun/adj</cell>
         <cell>make/provide</cell>
-        <cell>activate, motivate, hyphenate, vaccinate</cell>
+        <cell><foreign>activate, motivate, hyphenate, vaccinate</foreign></cell>
       </row>
       <row>
-        <cell>-en</cell>
+        <cell><foreign>-en</foreign></cell>
         <cell>adjective</cell>
         <cell>make/become</cell>
-        <cell>brighten, darken, soften, strengthen</cell>
+        <cell><foreign>brighten, darken, soften, strengthen</foreign></cell>
       </row>
       <row>
-        <cell>en-</cell>
+        <cell><foreign>en-</foreign></cell>
         <cell>noun/adj</cell>
         <cell>put into/make</cell>
-        <cell>enable, encourage, endanger, enlarge</cell>
+        <cell><foreign>enable, encourage, endanger, enlarge</foreign></cell>
       </row>
       <row>
-        <cell>be-</cell>
+        <cell><foreign>be-</foreign></cell>
         <cell>noun/adj</cell>
         <cell>make/cover</cell>
-        <cell>befriend, belittle, bewitch, bedeck</cell>
+        <cell><foreign>befriend, belittle, bewitch, bedeck</foreign></cell>
       </row>
     </tabular>
 
@@ -239,64 +239,64 @@
         <cell>Examples</cell>
       </row>
       <row>
-        <cell>-ful</cell>
+        <cell><foreign>-ful</foreign></cell>
         <cell>noun</cell>
         <cell>full of</cell>
-        <cell>hopeful, beautiful, careful, powerful</cell>
+        <cell><foreign>hopeful, beautiful, careful, powerful</foreign></cell>
       </row>
       <row>
-        <cell>-less</cell>
+        <cell><foreign>-less</foreign></cell>
         <cell>noun</cell>
         <cell>without</cell>
-        <cell>hopeless, careless, helpless, harmless</cell>
+        <cell><foreign>hopeless, careless, helpless, harmless</foreign></cell>
       </row>
       <row>
-        <cell>-able/-ible</cell>
+        <cell><foreign>-able/-ible</foreign></cell>
         <cell>verb</cell>
         <cell>capable of</cell>
-        <cell>believable, readable, possible, flexible</cell>
+        <cell><foreign>believable, readable, possible, flexible</foreign></cell>
       </row>
       <row>
-        <cell>-ous/-ious</cell>
+        <cell><foreign>-ous/-ious</foreign></cell>
         <cell>noun</cell>
         <cell>having quality</cell>
-        <cell>famous, dangerous, curious, spacious</cell>
+        <cell><foreign>famous, dangerous, curious, spacious</foreign></cell>
       </row>
       <row>
-        <cell>-al</cell>
+        <cell><foreign>-al</foreign></cell>
         <cell>noun</cell>
         <cell>relating to</cell>
-        <cell>musical, national, personal, educational</cell>
+        <cell><foreign>musical, national, personal, educational</foreign></cell>
       </row>
       <row>
-        <cell>-ive</cell>
+        <cell><foreign>-ive</foreign></cell>
         <cell>verb</cell>
         <cell>tending to</cell>
-        <cell>creative, attractive, destructive, impressive</cell>
+        <cell><foreign>creative, attractive, destructive, impressive</foreign></cell>
       </row>
       <row>
-        <cell>-ic</cell>
+        <cell><foreign>-ic</foreign></cell>
         <cell>noun</cell>
         <cell>relating to</cell>
-        <cell>artistic, scientific, historic, economic</cell>
+        <cell><foreign>artistic, scientific, historic, economic</foreign></cell>
       </row>
       <row>
-        <cell>-y</cell>
+        <cell><foreign>-y</foreign></cell>
         <cell>noun</cell>
         <cell>having quality</cell>
-        <cell>dirty, sunny, rainy, noisy</cell>
+        <cell><foreign>dirty, sunny, rainy, noisy</foreign></cell>
       </row>
       <row>
-        <cell>-ish</cell>
+        <cell><foreign>-ish</foreign></cell>
         <cell>noun/adj</cell>
         <cell>somewhat like</cell>
-        <cell>childish, foolish, yellowish, oldish</cell>
+        <cell><foreign>childish, foolish, yellowish, oldish</foreign></cell>
       </row>
       <row>
-        <cell>-ly</cell>
+        <cell><foreign>-ly</foreign></cell>
         <cell>noun</cell>
         <cell>having quality</cell>
-        <cell>friendly, costly, lovely, timely</cell>
+        <cell><foreign>friendly, costly, lovely, timely</foreign></cell>
       </row>
     </tabular>
 
@@ -314,22 +314,22 @@
         <cell>Examples</cell>
       </row>
       <row>
-        <cell>-ly</cell>
+        <cell><foreign>-ly</foreign></cell>
         <cell>adjective</cell>
         <cell>in this manner</cell>
-        <cell>quickly, happily, carefully, recently</cell>
+        <cell><foreign>quickly, happily, carefully, recently</foreign></cell>
       </row>
       <row>
-        <cell>-ward(s)</cell>
+        <cell><foreign>-ward(s)</foreign></cell>
         <cell>noun</cell>
         <cell>in this direction</cell>
-        <cell>homeward, forward, backward, skyward</cell>
+        <cell><foreign>homeward, forward, backward, skyward</foreign></cell>
       </row>
       <row>
-        <cell>-wise</cell>
+        <cell><foreign>-wise</foreign></cell>
         <cell>noun</cell>
         <cell>in this way</cell>
-        <cell>clockwise, otherwise, likewise, lengthwise</cell>
+        <cell><foreign>clockwise, otherwise, likewise, lengthwise</foreign></cell>
       </row>
     </tabular>
 
@@ -346,54 +346,54 @@
         <cell>Examples</cell>
       </row>
       <row>
-        <cell>un-</cell>
+        <cell><foreign>un-</foreign></cell>
         <cell>not, opposite</cell>
-        <cell>unhappy, undo, unusual, unfair</cell>
+        <cell><foreign>unhappy, undo, unusual, unfair</foreign></cell>
       </row>
       <row>
-        <cell>re-</cell>
+        <cell><foreign>re-</foreign></cell>
         <cell>again</cell>
-        <cell>rewrite, rebuild, rethink, replay</cell>
+        <cell><foreign>rewrite, rebuild, rethink, replay</foreign></cell>
       </row>
       <row>
-        <cell>pre-</cell>
+        <cell><foreign>pre-</foreign></cell>
         <cell>before</cell>
-        <cell>prehistoric, preview, predict, prepay</cell>
+        <cell><foreign>prehistoric, preview, predict, prepay</foreign></cell>
       </row>
       <row>
-        <cell>post-</cell>
+        <cell><foreign>post-</foreign></cell>
         <cell>after</cell>
-        <cell>postwar, postpone, postgraduate</cell>
+        <cell><foreign>postwar, postpone, postgraduate</foreign></cell>
       </row>
       <row>
-        <cell>mis-</cell>
+        <cell><foreign>mis-</foreign></cell>
         <cell>wrongly</cell>
-        <cell>misunderstand, misspell, misjudge, misread</cell>
+        <cell><foreign>misunderstand, misspell, misjudge, misread</foreign></cell>
       </row>
       <row>
-        <cell>dis-</cell>
+        <cell><foreign>dis-</foreign></cell>
         <cell>not, opposite</cell>
-        <cell>disagree, disappear, disconnect, dislike</cell>
+        <cell><foreign>disagree, disappear, disconnect, dislike</foreign></cell>
       </row>
       <row>
-        <cell>non-</cell>
+        <cell><foreign>non-</foreign></cell>
         <cell>not</cell>
-        <cell>nonsense, nonfiction, nonprofit, nonstop</cell>
+        <cell><foreign>nonsense, nonfiction, nonprofit, nonstop</foreign></cell>
       </row>
       <row>
-        <cell>over-</cell>
+        <cell><foreign>over-</foreign></cell>
         <cell>excessive</cell>
-        <cell>overwork, overeat, overreact, overlook</cell>
+        <cell><foreign>overwork, overeat, overreact, overlook</foreign></cell>
       </row>
       <row>
-        <cell>under-</cell>
+        <cell><foreign>under-</foreign></cell>
         <cell>insufficient</cell>
-        <cell>underpay, underestimate, undervalue</cell>
+        <cell><foreign>underpay, underestimate, undervalue</foreign></cell>
       </row>
       <row>
-        <cell>anti-</cell>
+        <cell><foreign>anti-</foreign></cell>
         <cell>against</cell>
-        <cell>antisocial, antiwar, antibiotic, antibody</cell>
+        <cell><foreign>antisocial, antiwar, antibiotic, antibody</foreign></cell>
       </row>
     </tabular>
 
@@ -404,14 +404,14 @@
     <p>These affixes are called <term>productive</term> because English speakers actively use them to create new words. Consider some recent additions to English:</p>
 
     <ul>
-      <li><p>"unfriend" (un- + friend) — to remove someone from social media</p></li>
-      <li><p>"doomscrolling" (doom + scroll + -ing) — obsessively reading bad news</p></li>
-      <li><p>"rewatchable" (re- + watch + -able) — worth watching again</p></li>
-      <li><p>"influencer" (influence + -er) — social media personality</p></li>
-      <li><p>"podcaster" (podcast + -er) — one who creates podcasts</p></li>
+      <li><p><foreign>unfriend</foreign> (<foreign>un-</foreign> + <foreign>friend</foreign>) — to remove someone from social media</p></li>
+      <li><p><foreign>doomscrolling</foreign> (<foreign>doom</foreign> + <foreign>scroll</foreign> + <foreign>-ing</foreign>) — obsessively reading bad news</p></li>
+      <li><p><foreign>rewatchable</foreign> (<foreign>re-</foreign> + <foreign>watch</foreign> + <foreign>-able</foreign>) — worth watching again</p></li>
+      <li><p><foreign>influencer</foreign> (<foreign>influence</foreign> + <foreign>-er</foreign>) — social media personality</p></li>
+      <li><p><foreign>podcaster</foreign> (<foreign>podcast</foreign> + <foreign>-er</foreign>) — one who creates podcasts</p></li>
     </ul>
 
-    <p>These words didn't exist twenty years ago, yet English speakers immediately understand them. This is morphological productivity in action—the same patterns that created "unhappy" and "teacher" centuries ago continue to generate new vocabulary today.</p>
+    <p>These words didn't exist twenty years ago, yet English speakers immediately understand them. This is morphological productivity in action—the same patterns that created <q><foreign>unhappy</foreign></q> and <q><foreign>teacher</foreign></q> centuries ago continue to generate new vocabulary today.</p>
 
   </section>
 
@@ -435,17 +435,17 @@
     <p>Start by finding the free morpheme—the part that can stand alone as a word:</p>
 
     <ul>
-      <li><p>"happy" is a word in English ✓</p></li>
+      <li><p><foreign>happy</foreign> is a word in English ✓</p></li>
     </ul>
 
     <p>Now check what's attached:</p>
 
     <ul>
-      <li><p>"un-" appears before "happy"; this is the prefix meaning "not"</p></li>
-      <li><p>"un-" is a bound morpheme (it cannot stand alone)</p></li>
+      <li><p><foreign>un-</foreign> appears before <foreign>happy</foreign>; this is the prefix meaning "not"</p></li>
+      <li><p><foreign>un-</foreign> is a bound morpheme (it cannot stand alone)</p></li>
     </ul>
 
-    <p>Result: un- (bound) + happy (free) = 2 morphemes</p>
+    <p>Result: <foreign>un-</foreign> (bound) + <foreign>happy</foreign> (free) = 2 morphemes</p>
 
     <paragraphs>
       <title>Example 2: "rethinking"</title>
@@ -454,24 +454,24 @@
     <p>Find the free morpheme:</p>
 
     <ul>
-      <li><p>"think" is a word in English ✓</p></li>
+      <li><p><foreign>think</foreign> is a word in English ✓</p></li>
     </ul>
 
     <p>Check what's attached before the base:</p>
 
     <ul>
-      <li><p>"re-" appears before "think"; this is the prefix meaning "again"</p></li>
-      <li><p>"re-" is a bound morpheme</p></li>
+      <li><p><foreign>re-</foreign> appears before <foreign>think</foreign>; this is the prefix meaning "again"</p></li>
+      <li><p><foreign>re-</foreign> is a bound morpheme</p></li>
     </ul>
 
     <p>Check what's attached after the base:</p>
 
     <ul>
-      <li><p>"-ing" appears after "think"; this suffix forms the present participle</p></li>
-      <li><p>"-ing" is a bound morpheme</p></li>
+      <li><p><foreign>-ing</foreign> appears after <foreign>think</foreign>; this suffix forms the present participle</p></li>
+      <li><p><foreign>-ing</foreign> is a bound morpheme</p></li>
     </ul>
 
-    <p>Result: re- (bound) + think (free) + -ing (bound) = 3 morphemes</p>
+    <p>Result: <foreign>re-</foreign> (bound) + <foreign>think</foreign> (free) + <foreign>-ing</foreign> (bound) = 3 morphemes</p>
 
     <paragraphs>
       <title>Example 3: "carelessness"</title>
@@ -480,7 +480,7 @@
     <p>Find the free morpheme:</p>
 
     <ul>
-      <li><p>"care" is a word in English ✓</p></li>
+      <li><p><foreign>care</foreign> is a word in English ✓</p></li>
     </ul>
 
     <p>Check for prefixes:</p>
@@ -492,12 +492,12 @@
     <p>Check for suffixes (work from the end inward):</p>
 
     <ul>
-      <li><p>"-ness" appears at the end; this suffix forms nouns meaning "state of"</p></li>
-      <li><p>"-less" appears between "care" and "-ness"; this suffix means "without"</p></li>
+      <li><p><foreign>-ness</foreign> appears at the end; this suffix forms nouns meaning "state of"</p></li>
+      <li><p><foreign>-less</foreign> appears between <foreign>care</foreign> and <foreign>-ness</foreign>; this suffix means "without"</p></li>
       <li><p>Both are bound morphemes</p></li>
     </ul>
 
-    <p>Result: care (free) + -less (bound) + -ness (bound) = 3 morphemes</p>
+    <p>Result: <foreign>care</foreign> (free) + <foreign>-less</foreign> (bound) + <foreign>-ness</foreign> (bound) = 3 morphemes</p>
 
     <paragraphs>
       <title>Incorrect Morpheme Analysis</title>
@@ -507,48 +507,48 @@
 
     <p><em>A word can only be divided into morphemes if the base is a word in modern English.</em></p>
 
-    <p>This rule keeps our analysis grounded in what speakers actually know, rather than what historical linguists can reconstruct. Morphemes are psychological units—pieces that speakers recognize as meaningful. When you hear "unhappy," you recognize both "un-" and "happy" as meaningful parts because "happy" is a word you know.</p>
+    <p>This rule keeps our analysis grounded in what speakers actually know, rather than what historical linguists can reconstruct. Morphemes are psychological units—pieces that speakers recognize as meaningful. When you hear <q><foreign>unhappy</foreign></q>, you recognize both <q><foreign>un-</foreign></q> and <q><foreign>happy</foreign></q> as meaningful parts because <q><foreign>happy</foreign></q> is a word you know.</p>
 
     <p><em>Type 1: Non-Existent Bases</em></p>
 
     <p>Some words look like they contain familiar affixes, but the remaining "base" isn't actually a word in English.</p>
 
-    <p>"Ugly" ≠ "ug" + "-ly"</p>
+    <p><q><foreign>Ugly</foreign></q> ≠ <foreign>ug</foreign> + <foreign>-ly</foreign></p>
 
     <ul>
-      <li><p>"Ug" is not a word in English ✗</p></li>
+      <li><p><foreign>Ug</foreign> is not a word in English ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
-    <p>"Pretty" ≠ "pret" + "-ty"</p>
+    <p><q><foreign>Pretty</foreign></q> ≠ <foreign>pret</foreign> + <foreign>-ty</foreign></p>
 
     <ul>
-      <li><p>"Pret" is not a word in English ✗</p></li>
+      <li><p><foreign>Pret</foreign> is not a word in English ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
     <p><em>Type 2: Historical Parts That Have Fused</em></p>
 
-    <p>Many English words came from Latin, Greek, or French with internal structure that no longer functions for modern speakers. Consider the word "receive." It begins with "re-," which often means "again" in English ("rewrite," "rebuild," "reconsider"). And the rest of the word looks like it might be "ceive." But ask yourself: Can you "ceive" something? Is "ceive" a word? Unless you're a Latin scholar who knows that "capere" meant "to take," the answer is no.</p>
+    <p>Many English words came from Latin, Greek, or French with internal structure that no longer functions for modern speakers. Consider the word <q><foreign>receive</foreign></q>. It begins with <q><foreign>re-</foreign></q>, which often means "again" in English (<foreign>rewrite</foreign>, <foreign>rebuild</foreign>, <foreign>reconsider</foreign>). And the rest of the word looks like it might be <q><foreign>ceive</foreign></q>. But ask yourself: Can you <q><foreign>ceive</foreign></q> something? Is <q><foreign>ceive</foreign></q> a word? Unless you're a Latin scholar who knows that <q><foreign>capere</foreign></q> meant "to take," the answer is no.</p>
 
-    <p>"Deceive" ≠ "de-" + "ceive"</p>
+    <p><q><foreign>Deceive</foreign></q> ≠ <foreign>de-</foreign> + <foreign>ceive</foreign></p>
 
     <ul>
-      <li><p>"Ceive" is not a word in English ✗</p></li>
+      <li><p><foreign>Ceive</foreign> is not a word in English ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
-    <p>"Predict" ≠ "pre-" + "dict"</p>
+    <p><q><foreign>Predict</foreign></q> ≠ <foreign>pre-</foreign> + <foreign>dict</foreign></p>
 
     <ul>
-      <li><p>"Dict" is not a word in English (it's Latin for "say") ✗</p></li>
+      <li><p><foreign>Dict</foreign> is not a word in English (it's Latin for "say") ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
-    <p>"Transport" ≠ "trans-" + "port"</p>
+    <p><q><foreign>Transport</foreign></q> ≠ <foreign>trans-</foreign> + <foreign>port</foreign></p>
 
     <ul>
-      <li><p>"Port" in the sense of "carry" is not a word in English ✗</p></li>
+      <li><p><foreign>Port</foreign> in the sense of "carry" is not a word in English ✗</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
@@ -556,22 +556,22 @@
 
     <p>Sometimes a word contains a sequence of sounds that happens to match an existing word or affix, but the word's meaning has nothing to do with those parts. The word wasn't built from those pieces.</p>
 
-    <p>"Understand" ≠ "under" + "stand"</p>
+    <p><q><foreign>Understand</foreign></q> ≠ <foreign>under</foreign> + <foreign>stand</foreign></p>
 
     <ul>
-      <li><p>Although "under" and "stand" are both English words, "understand" doesn't mean "to stand under something"</p></li>
+      <li><p>Although <foreign>under</foreign> and <foreign>stand</foreign> are both English words, <foreign>understand</foreign> doesn't mean "to stand under something"</p></li>
       <li><p>The word came into English as a unit with its own meaning</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
-    <p>"Carpet" ≠ "car" + "pet"</p>
+    <p><q><foreign>Carpet</foreign></q> ≠ <foreign>car</foreign> + <foreign>pet</foreign></p>
 
     <ul>
-      <li><p>Although "car" and "pet" are both English words, a carpet isn't a pet for your car!</p></li>
+      <li><p>Although <foreign>car</foreign> and <foreign>pet</foreign> are both English words, a carpet isn't a pet for your car!</p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
-    <p>"Breakfast" = "break" + "fast"</p>
+    <p><q><foreign>Breakfast</foreign></q> = <foreign>break</foreign> + <foreign>fast</foreign></p>
 
     <ul>
       <li><p>This one IS a compound—it literally means "breaking the fast" (the overnight period without eating)</p></li>
@@ -589,15 +589,15 @@
     <p><em>Words with archaic bases:</em> If the base existed in Old English but not modern English, treat the word as one morpheme.</p>
 
     <ul>
-      <li><p>overwhelm (whelm is archaic) = 1 morpheme</p></li>
-      <li><p>unkempt (kempt is archaic) = 1 morpheme</p></li>
+      <li><p><foreign>overwhelm</foreign> (<foreign>whelm</foreign> is archaic) = 1 morpheme</p></li>
+      <li><p><foreign>unkempt</foreign> (<foreign>kempt</foreign> is archaic) = 1 morpheme</p></li>
     </ul>
 
     <p><em>Latin/Greek borrowings:</em> If the base comes from Latin or Greek and isn't an English word, treat it as one morpheme.</p>
 
     <ul>
-      <li><p>construct, instruct, destruct = 1 morpheme each</p></li>
-      <li><p>receive, perceive, conceive = 1 morpheme each</p></li>
+      <li><p><foreign>construct, instruct, destruct</foreign> = 1 morpheme each</p></li>
+      <li><p><foreign>receive, perceive, conceive</foreign> = 1 morpheme each</p></li>
     </ul>
 
     <paragraphs>
@@ -607,9 +607,9 @@
     <p>Even when a borrowed word is a single morpheme, English speakers can still add English affixes to it. Those affixes count as separate morphemes.</p>
 
     <ul>
-      <li><p>constructed = construct + -ed (2 morphemes)</p></li>
-      <li><p>receiving = receive + -ing (2 morphemes)</p></li>
-      <li><p>destruction = This is trickier—destruction came into English as a complete word from Latin, so it's 1 morpheme. But destructive in modern English is destruction minus -ion plus -ive? No—both destruction and destructive are borrowed as units. However, destructively = destructive + -ly (2 morphemes) because -ly is a productive English suffix added to the borrowed word.</p></li>
+      <li><p><foreign>constructed</foreign> = <foreign>construct</foreign> + <foreign>-ed</foreign> (2 morphemes)</p></li>
+      <li><p><foreign>receiving</foreign> = <foreign>receive</foreign> + <foreign>-ing</foreign> (2 morphemes)</p></li>
+      <li><p><foreign>destruction</foreign> = This is trickier—<foreign>destruction</foreign> came into English as a complete word from Latin, so it's 1 morpheme. But <foreign>destructive</foreign> in modern English is <foreign>destruction</foreign> minus <foreign>-ion</foreign> plus <foreign>-ive</foreign>? No—both <foreign>destruction</foreign> and <foreign>destructive</foreign> are borrowed as units. However, <foreign>destructively</foreign> = <foreign>destructive</foreign> + <foreign>-ly</foreign> (2 morphemes) because <foreign>-ly</foreign> is a productive English suffix added to the borrowed word.</p></li>
     </ul>
 
     <paragraphs>
@@ -621,63 +621,63 @@
     <p>Noun + Noun:</p>
 
     <ul>
-      <li><p>bookcase, sunflower, bedroom, football</p></li>
+      <li><p><foreign>bookcase, sunflower, bedroom, football</foreign></p></li>
     </ul>
 
     <p>Adjective + Noun:</p>
 
     <ul>
-      <li><p>blackboard, highway, smartphone</p></li>
+      <li><p><foreign>blackboard, highway, smartphone</foreign></p></li>
     </ul>
 
     <p>Verb + Noun:</p>
 
     <ul>
-      <li><p>breakfast (break + fast), pickpocket</p></li>
+      <li><p><foreign>breakfast</foreign> (<foreign>break</foreign> + <foreign>fast</foreign>), <foreign>pickpocket</foreign></p></li>
     </ul>
 
     <p>Noun + Verb:</p>
 
     <ul>
-      <li><p>sunrise, haircut</p></li>
+      <li><p><foreign>sunrise, haircut</foreign></p></li>
     </ul>
 
     <p>In English, compounds typically have primary stress on the first element:</p>
 
     <ul>
-      <li><p><em>BLACK</em>board (compound: a board for writing)</p></li>
-      <li><p>black <em>BOARD</em> (phrase: a board that is black)</p></li>
+      <li><p><foreign><em>BLACK</em>board</foreign> (compound: a board for writing)</p></li>
+      <li><p><foreign>black <em>BOARD</em></foreign> (phrase: a board that is black)</p></li>
     </ul>
 
     <ul>
-      <li><p><em>GREEN</em>house (compound: building for plants)</p></li>
-      <li><p>green <em>HOUSE</em> (phrase: a house painted green)</p></li>
+      <li><p><foreign><em>GREEN</em>house</foreign> (compound: building for plants)</p></li>
+      <li><p><foreign>green <em>HOUSE</em></foreign> (phrase: a house painted green)</p></li>
     </ul>
 
     <p>When analyzing morphemes in compounds, count each free morpheme separately:</p>
 
-    <p>"Bookshelves" = 3 morphemes</p>
+    <p><q><foreign>Bookshelves</foreign></q> = 3 morphemes</p>
 
     <ul>
-      <li><p>book = free</p></li>
-      <li><p>shelf = free</p></li>
-      <li><p>-s = bound (plural)</p></li>
+      <li><p><foreign>book</foreign> = free</p></li>
+      <li><p><foreign>shelf</foreign> = free</p></li>
+      <li><p><foreign>-s</foreign> = bound (plural)</p></li>
     </ul>
 
-    <p>"Sunflowers" = 3 morphemes</p>
+    <p><q><foreign>Sunflowers</foreign></q> = 3 morphemes</p>
 
     <ul>
-      <li><p>sun = free</p></li>
-      <li><p>flower = free</p></li>
-      <li><p>-s = bound (plural)</p></li>
+      <li><p><foreign>sun</foreign> = free</p></li>
+      <li><p><foreign>flower</foreign> = free</p></li>
+      <li><p><foreign>-s</foreign> = bound (plural)</p></li>
     </ul>
 
     <p>Remember to apply the English base rule even with compounds. Some words look like they might be compounds but aren't:</p>
 
-    <p>"Together" ≠ to + get + her</p>
+    <p><q><foreign>Together</foreign></q> ≠ <foreign>to</foreign> + <foreign>get</foreign> + <foreign>her</foreign></p>
 
     <ul>
-      <li><p>This word doesn't combine the meanings "to," "get," and "her"</p></li>
+      <li><p>This word doesn't combine the meanings of <foreign>to</foreign>, <foreign>get</foreign>, and <foreign>her</foreign></p></li>
       <li><p>One morpheme</p></li>
     </ul>
 
@@ -701,47 +701,47 @@
         <cell>Morpheme</cell>
       </row>
       <row>
-        <cell>read again</cell>
-        <cell>reread</cell>
-        <cell>re- (repetition)</cell>
+        <cell><foreign>read again</foreign></cell>
+        <cell><foreign>reread</foreign></cell>
+        <cell><foreign>re-</foreign> (repetition)</cell>
       </row>
       <row>
-        <cell>judged wrongly</cell>
-        <cell>misjudged</cell>
-        <cell>mis- (error)</cell>
+        <cell><foreign>judged wrongly</foreign></cell>
+        <cell><foreign>misjudged</foreign></cell>
+        <cell><foreign>mis-</foreign> (error)</cell>
       </row>
       <row>
-        <cell>not happy</cell>
-        <cell>unhappy</cell>
-        <cell>un- (negation)</cell>
+        <cell><foreign>not happy</foreign></cell>
+        <cell><foreign>unhappy</foreign></cell>
+        <cell><foreign>un-</foreign> (negation)</cell>
       </row>
       <row>
-        <cell>in a careful manner</cell>
-        <cell>carefully</cell>
-        <cell>-ly (manner)</cell>
+        <cell><foreign>in a careful manner</foreign></cell>
+        <cell><foreign>carefully</foreign></cell>
+        <cell><foreign>-ly</foreign> (manner)</cell>
       </row>
       <row>
-        <cell>one who teaches</cell>
-        <cell>teacher</cell>
-        <cell>-er (agent)</cell>
+        <cell><foreign>one who teaches</foreign></cell>
+        <cell><foreign>teacher</foreign></cell>
+        <cell><foreign>-er</foreign> (agent)</cell>
       </row>
       <row>
-        <cell>before the war</cell>
-        <cell>prewar</cell>
-        <cell>pre- (temporal)</cell>
+        <cell><foreign>before the war</foreign></cell>
+        <cell><foreign>prewar</foreign></cell>
+        <cell><foreign>pre-</foreign> (temporal)</cell>
       </row>
     </tabular>
 
     <p>The affixed forms are often more concise and direct. Compare:</p>
 
     <ul>
-      <li><p>"I read the report for a second time." (8 words)</p></li>
-      <li><p>"I reread the report." (4 words)</p></li>
+      <li><p><foreign>I read the report for a second time.</foreign> (8 words)</p></li>
+      <li><p><foreign>I reread the report.</foreign> (4 words)</p></li>
     </ul>
 
-    <p>The second version says the same thing in half the words. When you recognize that re- means "again," you can deploy it strategically rather than spelling out the concept with a phrase.</p>
+    <p>The second version says the same thing in half the words. When you recognize that <foreign>re-</foreign> means "again," you can deploy it strategically rather than spelling out the concept with a phrase.</p>
 
-    <p>However, the longer form is sometimes preferable. Consider emphasis: "I read that report <em>yet another time</em>" stresses the repetition more than "I reread" does. The phrase also allows modification—"I read it <em>one more time</em>" or "for the <em>third</em> time"—that the prefix cannot accommodate. And some affixed forms sound awkward: "She worked unusually diligently" is clunkier than "She worked with unusual diligence."</p>
+    <p>However, the longer form is sometimes preferable. Consider emphasis: <q><foreign>I read that report <em>yet another time</em></foreign></q> stresses the repetition more than <q><foreign>I reread</foreign></q> does. The phrase also allows modification—<q><foreign>I read it <em>one more time</em></foreign></q> or <q><foreign>for the <em>third</em> time</foreign></q>—that the prefix cannot accommodate. And some affixed forms sound awkward: <q><foreign>She worked unusually diligently</foreign></q> is clunkier than <q><foreign>She worked with unusual diligence.</foreign></q></p>
 
     <p>The choice depends on context. Ask yourself: Is concision the priority? Does the longer form add emphasis or information? Does the affixed form sound natural?</p>
 
@@ -754,19 +754,19 @@
     <p>Compare these sentences:</p>
 
     <ul>
-      <li><p>"The committee examined the evidence." (verb: examined)</p></li>
-      <li><p>"The committee conducted an examination of the evidence." (nominalization: examination)</p></li>
+      <li><p><foreign>The committee examined the evidence.</foreign> (verb: <foreign>examined</foreign>)</p></li>
+      <li><p><foreign>The committee conducted an examination of the evidence.</foreign> (nominalization: <foreign>examination</foreign>)</p></li>
     </ul>
 
     <p>The first version is more direct—the action sits in the verb where readers expect it. The second buries the action inside a noun phrase, requiring extra words ("conducted," "of") to make a complete sentence.</p>
 
     <p>Excessive nominalization creates what writing scholar Helen Sword calls "zombie nouns"—abstract nouns that drain the life from prose. Consider this heavily nominalized passage:</p>
 
-    <p>"The implementation of the new system led to an improvement in the efficiency of operations and a reduction in the occurrence of errors."</p>
+    <p><q><foreign>The implementation of the new system led to an improvement in the efficiency of operations and a reduction in the occurrence of errors.</foreign></q></p>
 
     <p>Revised with verbs restored:</p>
 
-    <p>"Implementing the new system improved operational efficiency and reduced errors."</p>
+    <p><q><foreign>Implementing the new system improved operational efficiency and reduced errors.</foreign></q></p>
 
     <p>The revision is clearer, more direct, and nearly half as long.</p>
 
@@ -780,7 +780,7 @@
       <title>Creating necessary concepts</title>
     </paragraphs>
 
-    <p>Some ideas exist primarily as nouns: justice, education, democracy, freedom. You cannot easily express "We value education" using the verb educate without changing the meaning.</p>
+    <p>Some ideas exist primarily as nouns: <foreign>justice</foreign>, <foreign>education</foreign>, <foreign>democracy</foreign>, <foreign>freedom</foreign>. You cannot easily express <q><foreign>We value education</foreign></q> using the verb <q><foreign>educate</foreign></q> without changing the meaning.</p>
 
     <paragraphs>
       <title>Building cohesion</title>
@@ -788,9 +788,9 @@
 
     <p>Nominalizations help connect sentences by letting you refer back to previously mentioned actions:</p>
 
-    <p>"The researchers analyzed the data thoroughly. This analysis revealed unexpected patterns."</p>
+    <p><q><foreign>The researchers analyzed the data thoroughly. This analysis revealed unexpected patterns.</foreign></q></p>
 
-    <p>Here, "analysis" refers to the analyzing just described, creating a smooth bridge between sentences.</p>
+    <p>Here, <q><foreign>analysis</foreign></q> refers to the analyzing just described, creating a smooth bridge between sentences.</p>
 
     <paragraphs>
       <title>Managing emphasis</title>
@@ -798,15 +798,15 @@
 
     <p>Placing a nominalization in subject position can foreground an action:</p>
 
-    <p>"The discovery of penicillin transformed medicine."</p>
+    <p><q><foreign>The discovery of penicillin transformed medicine.</foreign></q></p>
 
-    <p>The nominalization "discovery" emphasizes the finding itself, whereas "Fleming discovered penicillin, which transformed medicine" emphasizes Fleming.</p>
+    <p>The nominalization <q><foreign>discovery</foreign></q> emphasizes the finding itself, whereas <q><foreign>Fleming discovered penicillin, which transformed medicine</foreign></q> emphasizes Fleming.</p>
 
     <paragraphs>
       <title>Meeting genre expectations</title>
     </paragraphs>
 
-    <p>Academic and professional writing often favors nominalized style for its formal, objective tone. Scientific articles, legal documents, and policy reports frequently use constructions like "the elimination of variables" rather than "we eliminated variables." Understanding this convention helps you adapt to different writing contexts.</p>
+    <p>Academic and professional writing often favors nominalized style for its formal, objective tone. Scientific articles, legal documents, and policy reports frequently use constructions like <q><foreign>the elimination of variables</foreign></q> rather than <q><foreign>we eliminated variables.</foreign></q> Understanding this convention helps you adapt to different writing contexts.</p>
 
     <paragraphs>
       <title>When Nominalization Weakens Writing</title>
@@ -818,7 +818,7 @@
       <title>Burying the action</title>
     </paragraphs>
 
-    <p>Verbs carry energy; converting them to nouns diffuses that energy. "We decided" is more direct than "We reached a decision."</p>
+    <p>Verbs carry energy; converting them to nouns diffuses that energy. <q><foreign>We decided</foreign></q> is more direct than <q><foreign>We reached a decision.</foreign></q></p>
 
     <paragraphs>
       <title>Adding words</title>
@@ -832,16 +832,16 @@
         <cell>Verbal</cell>
       </row>
       <row>
-        <cell>make a recommendation</cell>
-        <cell>recommend</cell>
+        <cell><foreign>make a recommendation</foreign></cell>
+        <cell><foreign>recommend</foreign></cell>
       </row>
       <row>
-        <cell>give consideration to</cell>
-        <cell>consider</cell>
+        <cell><foreign>give consideration to</foreign></cell>
+        <cell><foreign>consider</foreign></cell>
       </row>
       <row>
-        <cell>conduct an investigation</cell>
-        <cell>investigate</cell>
+        <cell><foreign>conduct an investigation</foreign></cell>
+        <cell><foreign>investigate</foreign></cell>
       </row>
     </tabular>
 
@@ -849,7 +849,7 @@
       <title>Hiding agents</title>
     </paragraphs>
 
-    <p>Nominalization can obscure who performed an action. "Mistakes were made" (passive) becomes even more evasive as "The making of mistakes occurred." If accountability matters, verbal forms with clear subjects are preferable.</p>
+    <p>Nominalization can obscure who performed an action. <q><foreign>Mistakes were made</foreign></q> (passive) becomes even more evasive as <q><foreign>The making of mistakes occurred.</foreign></q> If accountability matters, verbal forms with clear subjects are preferable.</p>
 
     <paragraphs>
       <title>Making Strategic Choices</title>
@@ -897,36 +897,36 @@
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p>Word: "unhappiness"</p>
-      <p>un- (bound) + happy (free) + -ness (bound) = 3 morphemes</p>
+      <p>Word: <q><foreign>unhappiness</foreign></q></p>
+      <p><foreign>un-</foreign> (bound) + <foreign>happy</foreign> (free) + <foreign>-ness</foreign> (bound) = 3 morphemes</p>
 
-      <p>Word: "contain"</p>
+      <p>Word: <q><foreign>contain</foreign></q></p>
       <p>Number of morphemes: 1</p>
-      <p>Although "contain" appears to begin with con-, the remaining part -tain is not a word in modern English. Therefore, "contain" is a single morpheme.</p>
+      <p>Although <q><foreign>contain</foreign></q> appears to begin with <foreign>con-</foreign>, the remaining part <foreign>-tain</foreign> is not a word in modern English. Therefore, <q><foreign>contain</foreign></q> is a single morpheme.</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p>Exercise 1. disagreements</p>
+      <p><em>Exercise 1.</em> <foreign>disagreements</foreign></p>
 
-      <p>Exercise 2. rebuilding</p>
+      <p><em>Exercise 2.</em> <foreign>rebuilding</foreign></p>
 
-      <p>Exercise 3. thoughtfulness</p>
+      <p><em>Exercise 3.</em> <foreign>thoughtfulness</foreign></p>
 
-      <p>Exercise 4. international</p>
+      <p><em>Exercise 4.</em> <foreign>international</foreign></p>
 
-      <p>Exercise 5. unforgettable</p>
+      <p><em>Exercise 5.</em> <foreign>unforgettable</foreign></p>
 
-      <p>Exercise 6. grandmother</p>
+      <p><em>Exercise 6.</em> <foreign>grandmother</foreign></p>
 
-      <p>Exercise 7. describe</p>
+      <p><em>Exercise 7.</em> <foreign>describe</foreign></p>
 
-      <p>Exercise 8. replayable</p>
+      <p><em>Exercise 8.</em> <foreign>replayable</foreign></p>
 
-      <p>Exercise 9. subtract</p>
+      <p><em>Exercise 9.</em> <foreign>subtract</foreign></p>
 
-      <p>Exercise 10. misplace</p>
+      <p><em>Exercise 10.</em> <foreign>misplace</foreign></p>
     </subsection>
 
     <subsection xml:id="ch-04-homework-2">
@@ -942,39 +942,39 @@
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p>Sentence: "She judged the distance <em>in a wrong way</em>."</p>
-      <p>Revised: "She misjudged the distance."</p>
-      <p>Morpheme: mis- (meaning "wrongly")</p>
+      <p>Sentence: <q><foreign>She judged the distance <em>in a wrong way</em>.</foreign></q></p>
+      <p>Revised: <q><foreign>She misjudged the distance.</foreign></q></p>
+      <p>Morpheme: <foreign>mis-</foreign> (meaning "wrongly")</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p>Exercise 11. "They designed the memorial <em>in a time before the war</em>."</p>
+      <p><em>Exercise 11.</em> <q><foreign>They designed the memorial <em>in a time before the war</em>.</foreign></q></p>
       <ul>
         <li><p>Revised:</p></li>
         <li><p>Morpheme:</p></li>
       </ul>
 
-      <p>Exercise 12. "He watched his favorite film <em>for a second time</em>."</p>
+      <p><em>Exercise 12.</em> <q><foreign>He watched his favorite film <em>for a second time</em>.</foreign></q></p>
       <ul>
         <li><p>Revised:</p></li>
         <li><p>Morpheme:</p></li>
       </ul>
 
-      <p>Exercise 13. "The test results were <em>not satisfying</em> to the research team."</p>
+      <p><em>Exercise 13.</em> <q><foreign>The test results were <em>not satisfying</em> to the research team.</foreign></q></p>
       <ul>
         <li><p>Revised:</p></li>
         <li><p>Morpheme:</p></li>
       </ul>
 
-      <p>Exercise 14. "She completed the calculations <em>in a careless manner</em>."</p>
+      <p><em>Exercise 14.</em> <q><foreign>She completed the calculations <em>in a careless manner</em>.</foreign></q></p>
       <ul>
         <li><p>Revised:</p></li>
         <li><p>Morpheme:</p></li>
       </ul>
 
-      <p>Exercise 15. "The technician had connected the wires <em>in an improper way</em>."</p>
+      <p><em>Exercise 15.</em> <q><foreign>The technician had connected the wires <em>in an improper way</em>.</foreign></q></p>
       <ul>
         <li><p>Revised:</p></li>
         <li><p>Morpheme:</p></li>
@@ -994,19 +994,19 @@
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p>Base word: hope</p>
+      <p>Base word: <q><foreign>hope</foreign></q></p>
       <ul>
-        <li><p>Word with one suffix: hopeful</p></li>
-        <li><p>Morphemes: hope (free) + -ful (bound)</p></li>
-        <li><p>Word with a prefix and suffix: unhopeful</p></li>
-        <li><p>Morphemes: un- (bound) + hope (free) + -ful (bound)</p></li>
+        <li><p>Word with one suffix: <foreign>hopeful</foreign></p></li>
+        <li><p>Morphemes: <foreign>hope</foreign> (free) + <foreign>-ful</foreign> (bound)</p></li>
+        <li><p>Word with a prefix and suffix: <foreign>unhopeful</foreign></p></li>
+        <li><p>Morphemes: <foreign>un-</foreign> (bound) + <foreign>hope</foreign> (free) + <foreign>-ful</foreign> (bound)</p></li>
       </ul>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p>Exercise 16. Base word: teach</p>
+      <p><em>Exercise 16.</em> Base word: <q><foreign>teach</foreign></q></p>
       <ul>
         <li><p>Create a word with one suffix:</p></li>
         <li><p>Morphemes:</p></li>
@@ -1014,7 +1014,7 @@
         <li><p>Morphemes:</p></li>
       </ul>
 
-      <p>Exercise 17. Base word: kind</p>
+      <p><em>Exercise 17.</em> Base word: <q><foreign>kind</foreign></q></p>
       <ul>
         <li><p>Create a word with a prefix:</p></li>
         <li><p>Morphemes:</p></li>
@@ -1022,7 +1022,7 @@
         <li><p>Morphemes:</p></li>
       </ul>
 
-      <p>Exercise 18. Base word: modern</p>
+      <p><em>Exercise 18.</em> Base word: <q><foreign>modern</foreign></q></p>
       <ul>
         <li><p>Create a word that is a verb:</p></li>
         <li><p>Morphemes:</p></li>
@@ -1044,20 +1044,20 @@
         <title>Passage</title>
       </paragraphs>
 
-      <p>"The researchers carefully analyzed the unprecedented developments in artificial intelligence. Their findings suggested that technological modernization would dramatically reshape workplaces worldwide. The implications were unmistakable."</p>
+      <p><foreign>The researchers carefully analyzed the unprecedented developments in artificial intelligence. Their findings suggested that technological modernization would dramatically reshape workplaces worldwide. The implications were unmistakable.</foreign></p>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p>Word: researchers</p>
-      <p>Morphemes: research (free) + -er (bound) + -s (bound)</p>
+      <p>Word: <q><foreign>researchers</foreign></q></p>
+      <p>Morphemes: <foreign>research</foreign> (free) + <foreign>-er</foreign> (bound) + <foreign>-s</foreign> (bound)</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p>Exercise 19. Identify five words with multiple morphemes from the passage above.</p>
+      <p><em>Exercise 19.</em> Identify five words with multiple morphemes from the passage above.</p>
       <ul>
         <li><p>Word 1:</p></li>
         <li><p>Morphemes:</p></li>
@@ -1087,27 +1087,27 @@
         <title>Paragraph 1</title>
       </paragraphs>
 
-      <p>"The hiring committee re-reviewed the applications after discovering that several candidates had been evaluated in an unfair manner. The lead reviewer, who had assessed the submissions carelessly at first, now worked with unusual diligence. Two applicants who had seemed underqualified actually possessed experience that the committee had failed to recognize previously. After reaching their decision, they resubmitted the recommendations to HR, confident that the process was now irreproachable."</p>
+      <p><foreign>The hiring committee re-reviewed the applications after discovering that several candidates had been evaluated in an unfair manner. The lead reviewer, who had assessed the submissions carelessly at first, now worked with unusual diligence. Two applicants who had seemed underqualified actually possessed experience that the committee had failed to recognize previously. After reaching their decision, they resubmitted the recommendations to HR, confident that the process was now irreproachable.</foreign></p>
 
-      <p>"HR, however, responded unfavorably to the revised documentation. The department head believed the committee had misjudged several candidates and requested that they consider the selections again. The committee members, though initially not satisfied with this feedback, reviewed the criticisms thoughtfully. They discovered that certain qualifications had been overvalued while others had gone without notice. After rewriting their justifications with great care, they submitted the final version for a third time, which HR found unobjectionable."</p>
+      <p><foreign>HR, however, responded unfavorably to the revised documentation. The department head believed the committee had misjudged several candidates and requested that they consider the selections again. The committee members, though initially not satisfied with this feedback, reviewed the criticisms thoughtfully. They discovered that certain qualifications had been overvalued while others had gone without notice. After rewriting their justifications with great care, they submitted the final version for a third time, which HR found unobjectionable.</foreign></p>
 
       <paragraphs>
         <title>Paragraph 2</title>
       </paragraphs>
 
-      <p>"The hiring committee reviewed the applications again after discovering that several candidates had been evaluated unfairly. The lead reviewer, who had assessed the submissions without care at first, now worked unusually diligently. Two applicants who had seemed insufficiently qualified actually possessed previously unrecognized experience. After deciding, they submitted the recommendations to HR again, confident that the process was now beyond reproach."</p>
+      <p><foreign>The hiring committee reviewed the applications again after discovering that several candidates had been evaluated unfairly. The lead reviewer, who had assessed the submissions without care at first, now worked unusually diligently. Two applicants who had seemed insufficiently qualified actually possessed previously unrecognized experience. After deciding, they submitted the recommendations to HR again, confident that the process was now beyond reproach.</foreign></p>
 
-      <p>"HR, however, responded in an unfavorable manner to the revised documentation. The department head believed the committee had made misjudgments about several candidates and requested that they reconsider the selections. The committee members, though initially dissatisfied with this feedback, reviewed the criticisms in a thoughtful manner. They discovered that certain qualifications had been valued too highly while others had gone unnoticed. After writing their justifications again carefully, they resubmitted the final version, which HR found without objection."</p>
+      <p><foreign>HR, however, responded in an unfavorable manner to the revised documentation. The department head believed the committee had made misjudgments about several candidates and requested that they reconsider the selections. The committee members, though initially dissatisfied with this feedback, reviewed the criticisms in a thoughtful manner. They discovered that certain qualifications had been valued too highly while others had gone unnoticed. After writing their justifications again carefully, they resubmitted the final version, which HR found without objection.</foreign></p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p>Exercise 20. Identify one position where Paragraph 1 makes the better choice. Quote both versions (from Paragraph 1 and Paragraph 2), and explain why Paragraph 1's version is more effective. Consider factors like clarity, concision, and naturalness.</p>
+      <p><em>Exercise 20.</em> Identify one position where Paragraph 1 makes the better choice. Quote both versions (from Paragraph 1 and Paragraph 2), and explain why Paragraph 1's version is more effective. Consider factors like clarity, concision, and naturalness.</p>
 
-      <p>Exercise 21. Identify one position where Paragraph 2 makes the better choice. Quote both versions, and explain why Paragraph 2's version is more effective.</p>
+      <p><em>Exercise 21.</em> Identify one position where Paragraph 2 makes the better choice. Quote both versions, and explain why Paragraph 2's version is more effective.</p>
 
-      <p>Exercise 22. Based on your analysis, write 2-3 sentences explaining what factors help you decide when to use an affixed form versus a descriptive phrase.</p>
+      <p><em>Exercise 22.</em> Based on your analysis, write 2-3 sentences explaining what factors help you decide when to use an affixed form versus a descriptive phrase.</p>
 
       <p>Total estimated time: 50-60 minutes</p>
     </subsection>
