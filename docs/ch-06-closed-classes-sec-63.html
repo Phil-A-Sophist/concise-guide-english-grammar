@@ -101,14 +101,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.13';
+eBookConfig.runestone_version = '7.11.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.0d5f811896ddeac1.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.e2abc79debce15fd.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -226,6 +226,41 @@ section .tabular-box {
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
+}
+
+/* ===== Language Example Styling ===== */
+
+/* Language examples (<foreign> element): sans-serif at body text size */
+.ptx-content .foreign,
+.ptx-content i.foreign {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-style: normal !important;
+    font-size: inherit !important;
+}
+
+/* Broken-out example lists: light grey background with indentation */
+.ptx-content ul:has(> li .foreign),
+.ptx-content ol:has(> li .foreign) {
+    background-color: #f5f6f8 !important;
+    padding: 0.6em 1.5em !important;
+    border-radius: 5px !important;
+    margin-left: 1em !important;
+    border-left: 3px solid #e2e4e8 !important;
+}
+
+/* Tables containing language examples: light grey background */
+.ptx-content .tabular-box:has(.foreign) {
+    background-color: #f5f6f8 !important;
+    padding: 0.5em 0.75em !important;
+    border-radius: 5px !important;
+    margin-left: 1em !important;
+    border-left: 3px solid #e2e4e8 !important;
+}
+
+/* Inline quotation marks around sentence examples: sans-serif */
+.ptx-content q {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: inherit !important;
 }
 </style>
 </head>
@@ -735,118 +770,118 @@ section .tabular-box {
 <div class="para" id="ch-06-closed-classes-sec-63-2">
 <em class="emphasis">Pronouns</em> replace noun phrases. They are the stand-in system of language—compact pointers that take the place of full descriptions. Instead of repeating a long or complex noun phrase every time we refer to an entity, we can substitute a short pronoun that listeners understand as referring to the same thing. This makes language dramatically more efficient, but it also requires listeners to track what each pronoun refers to.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-3">Pronouns encode several kinds of relational information in a remarkably small package. They mark <em class="emphasis">person</em>—distinguishing the speaker (<em class="emphasis">I</em>, <em class="emphasis">we</em>) from the addressee (<em class="emphasis">you</em>) from everyone else (<em class="emphasis">he</em>, <em class="emphasis">she</em>, <em class="emphasis">it</em>, <em class="emphasis">they</em>). They mark <em class="emphasis">number</em>—singular versus plural. In the third person singular, they mark <em class="emphasis">gender</em> (<em class="emphasis">he</em>, <em class="emphasis">she</em>, <em class="emphasis">it</em>). And they mark <em class="emphasis">case</em>—whether the pronoun is functioning as a subject (<em class="emphasis">I</em>, <em class="emphasis">she</em>, <em class="emphasis">they</em>) or an object (<em class="emphasis">me</em>, <em class="emphasis">her</em>, <em class="emphasis">them</em>). A single pronoun like <em class="emphasis">her</em> simultaneously tells you: third person, singular, feminine, object case. That is a lot of grammatical information packed into one syllable.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-3">Pronouns encode several kinds of relational information in a remarkably small package. They mark <em class="emphasis">person</em>—distinguishing the speaker (<i class="foreign">I</i>, <i class="foreign">we</i>) from the addressee (<i class="foreign">you</i>) from everyone else (<i class="foreign">he</i>, <i class="foreign">she</i>, <i class="foreign">it</i>, <i class="foreign">they</i>). They mark <em class="emphasis">number</em>—singular versus plural. In the third person singular, they mark <em class="emphasis">gender</em> (<i class="foreign">he</i>, <i class="foreign">she</i>, <i class="foreign">it</i>). And they mark <em class="emphasis">case</em>—whether the pronoun is functioning as a subject (<i class="foreign">I</i>, <i class="foreign">she</i>, <i class="foreign">they</i>) or an object (<i class="foreign">me</i>, <i class="foreign">her</i>, <i class="foreign">them</i>). A single pronoun like (<i class="foreign">her</i>) simultaneously tells you: third person, singular, feminine, object case. That is a lot of grammatical information packed into one syllable.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-4">Pronouns also serve a crucial role in connecting sentences to each other. When you read <em class="emphasis">The professor entered the room. She placed her notes on the desk.</em>, the pronouns <em class="emphasis">she</em> and <em class="emphasis">her</em> create <em class="emphasis">cohesion</em>—they link the second sentence back to the first by referring to the same person. Without pronouns, every sentence would stand in isolation, and readers would have to re-identify every entity from scratch each time it was mentioned.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-4">Pronouns also serve a crucial role in connecting sentences to each other. When you read “<i class="foreign">The professor entered the room. She placed her notes on the desk.</i>”, the pronouns (<i class="foreign">she</i>) and (<i class="foreign">her</i>) create <em class="emphasis">cohesion</em>—they link the second sentence back to the first by referring to the same person. Without pronouns, every sentence would stand in isolation, and readers would have to re-identify every entity from scratch each time it was mentioned.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-5">The tradeoff is that pronouns are efficient but potentially ambiguous. They require listeners to track references—to remember who <em class="emphasis">she</em> is, what <em class="emphasis">it</em> refers to, and which group <em class="emphasis">they</em> picks out. When this tracking breaks down, communication fails. Ambiguous pronoun reference is one of the most common writing problems, and we will return to it later in this section.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-5">The tradeoff is that pronouns are efficient but potentially ambiguous. They require listeners to track references—to remember who (<i class="foreign">she</i>) is, what (<i class="foreign">it</i>) refers to, and which group (<i class="foreign">they</i>) picks out. When this tracking breaks down, communication fails. Ambiguous pronoun reference is one of the most common writing problems, and we will return to it later in this section.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-63-6"><h3 class="heading"><span class="title">Why Pronouns Exist.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Why Pronouns Exist"><a href="#ch-06-closed-classes-sec-63-6" title="Copy heading and permalink for Paragraphs: Why Pronouns Exist" aria-label="Copy heading and permalink for Paragraphs: Why Pronouns Exist">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-63-7">Imagine language without pronouns:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-8">
-<em class="emphasis">Maria said that Maria wanted Maria’s book back, but John told Maria that John had already returned Maria’s book to Maria’s office.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">Maria said that Maria wanted Maria’s book back, but John told Maria that John had already returned Maria’s book to Maria’s office.</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-9">Now with pronouns:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-10">
-<em class="emphasis">Maria said that she wanted her book back, but John told her that he had already returned it to her office.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">Maria said that she wanted her book back, but John told her that he had already returned it to her office.</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-11">Pronouns reduce redundancy and improve processing. The second version is not only shorter but easier to read and understand. The repeated proper nouns in the first version are distracting, and they actually make the sentence harder to process because the reader has to work to determine whether each instance of <em class="emphasis">Maria</em> refers to the same person or potentially different people. Pronouns, by contrast, signal continuity: they tell the reader that the same entity is still being discussed.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-11">Pronouns reduce redundancy and improve processing. The second version is not only shorter but easier to read and understand. The repeated proper nouns in the first version are distracting, and they actually make the sentence harder to process because the reader has to work to determine whether each instance of (<i class="foreign">Maria</i>) refers to the same person or potentially different people. Pronouns, by contrast, signal continuity: they tell the reader that the same entity is still being discussed.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-63-12"><h3 class="heading"><span class="title">Pronouns Replace Entire Noun Phrases.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Pronouns Replace Entire Noun Phrases"><a href="#ch-06-closed-classes-sec-63-12" title="Copy heading and permalink for Paragraphs: Pronouns Replace Entire Noun Phrases" aria-label="Copy heading and permalink for Paragraphs: Pronouns Replace Entire Noun Phrases">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-63-13">An important principle to understand is that pronouns do not just replace the head noun—they replace the <em class="emphasis">entire noun phrase</em>, including all of its modifiers. When you substitute a pronoun for a noun phrase, the determiner, any adjectives, and any post-modifiers all disappear, collapsed into the single pronoun.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-14">Consider the noun phrase <em class="emphasis">the brilliant young student from Ohio</em>. This phrase contains a determiner (<em class="emphasis">the</em>), two adjectives (<em class="emphasis">brilliant</em>, <em class="emphasis">young</em>), a head noun (<em class="emphasis">student</em>), and a prepositional phrase modifier (<em class="emphasis">from Ohio</em>)—six words in total. When we replace this NP with a pronoun, the entire six-word phrase becomes <em class="emphasis">she</em>. The pronoun does not replace just <em class="emphasis">student</em>; it replaces the whole expression.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-14">Consider the noun phrase (<i class="foreign">the brilliant young student from Ohio</i>). This phrase contains a determiner (<i class="foreign">the</i>), two adjectives (<i class="foreign">brilliant</i>, <i class="foreign">young</i>), a head noun (<i class="foreign">student</i>), and a prepositional phrase modifier (<i class="foreign">from Ohio</i>)—six words in total. When we replace this NP with a pronoun, the entire six-word phrase becomes (<i class="foreign">she</i>). The pronoun does not replace just (<i class="foreign">student</i>); it replaces the whole expression.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-15">The following diagram pairs illustrate this principle. In each pair, the first diagram shows a full noun phrase with its internal structure, and the second shows how that entire structure collapses to a single pronoun.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-closed-classes-sec-63-16"><h3 class="heading"><span class="title">Full NP: <em class="emphasis">The tall student sleeps</em>.</span></h3>
+<section class="paragraphs" id="ch-06-closed-classes-sec-63-16"><h3 class="heading"><span class="title">Full NP: <i class="foreign">The tall student sleeps</i>.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Full NP: The tall student sleeps"><a href="#ch-06-closed-classes-sec-63-16" title="Copy heading and permalink for Paragraphs: Full NP: The tall student sleeps" aria-label="Copy heading and permalink for Paragraphs: Full NP: The tall student sleeps">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_np_full_sleeps.png" class="contained" alt='Syntax tree for "The tall student sleeps" showing full NP with determiner, adjective, and noun'></div>
 <div class="para" id="ch-06-closed-classes-sec-63-18">
 <code class="code-inline tex2jax_ignore">[S [NP [DET The] [ADJP [ADJ tall]] [N student]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-closed-classes-sec-63-19"><h3 class="heading"><span class="title">Pronoun replacement: <em class="emphasis">She sleeps</em>.</span></h3>
+<section class="paragraphs" id="ch-06-closed-classes-sec-63-19"><h3 class="heading"><span class="title">Pronoun replacement: <i class="foreign">She sleeps</i>.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Pronoun replacement: She sleeps"><a href="#ch-06-closed-classes-sec-63-19" title="Copy heading and permalink for Paragraphs: Pronoun replacement: She sleeps" aria-label="Copy heading and permalink for Paragraphs: Pronoun replacement: She sleeps">🔗</a></div></section><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch06_pronoun_subject.png" class="contained" alt='Syntax tree for "She sleeps" showing pronoun as complete NP'></div>
 <div class="para" id="ch-06-closed-classes-sec-63-21">
 <code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V sleeps]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-22">Notice that the three-word noun phrase <em class="emphasis">the tall student</em>—with its determiner, adjective phrase, and noun—has been entirely replaced by the single pronoun <em class="emphasis">She</em>. The NP node in the tree now contains only the pronoun.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-22" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-22">Notice that the three-word noun phrase (<i class="foreign">the tall student</i>)—with its determiner, adjective phrase, and noun—has been entirely replaced by the single pronoun (<i class="foreign">She</i>). The NP node in the tree now contains only the pronoun.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-22" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-closed-classes-sec-63-23"><h3 class="heading"><span class="title">Full NPs: <em class="emphasis">The teacher gave the young student a book</em>.</span></h3>
+<section class="paragraphs" id="ch-06-closed-classes-sec-63-23"><h3 class="heading"><span class="title">Full NPs: <i class="foreign">The teacher gave the young student a book</i>.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Full NPs: The teacher gave the young student a book"><a href="#ch-06-closed-classes-sec-63-23" title="Copy heading and permalink for Paragraphs: Full NPs: The teacher gave the young student a book" aria-label="Copy heading and permalink for Paragraphs: Full NPs: The teacher gave the young student a book">🔗</a></div></section><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/diagrams/new/ch06_np_full_gave.png" class="contained" alt='Syntax tree for "The teacher gave the young student a book" showing full NPs'></div>
 <div class="para" id="ch-06-closed-classes-sec-63-25">
 <code class="code-inline tex2jax_ignore">[S [NP [DET The] [N teacher]] [VP [V gave] [NP [DET the] [ADJP [ADJ young]] [N student]] [NP [DET a] [N book]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-25" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-closed-classes-sec-63-26"><h3 class="heading"><span class="title">Pronoun replacement: <em class="emphasis">She gave me a book</em>.</span></h3>
+<section class="paragraphs" id="ch-06-closed-classes-sec-63-26"><h3 class="heading"><span class="title">Pronoun replacement: <i class="foreign">She gave me a book</i>.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Pronoun replacement: She gave me a book"><a href="#ch-06-closed-classes-sec-63-26" title="Copy heading and permalink for Paragraphs: Pronoun replacement: She gave me a book" aria-label="Copy heading and permalink for Paragraphs: Pronoun replacement: She gave me a book">🔗</a></div></section><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch06_ditransitive.png" class="contained" alt='Syntax tree for "She gave me a book" showing pronouns replacing full NPs'></div>
 <div class="para" id="ch-06-closed-classes-sec-63-28">
 <code class="code-inline tex2jax_ignore">[S [NP [PRON She]] [VP [V gave] [NP [PRON me]] [NP [DET a] [N book]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-29">In this pair, two of the three noun phrases have been replaced by pronouns. <em class="emphasis">The teacher</em> becomes <em class="emphasis">She</em>, and <em class="emphasis">the young student</em> becomes <em class="emphasis">me</em>. The third NP, <em class="emphasis">a book</em>, retains its full form. This illustrates a common pattern: in real language, some NPs in a sentence are pronominalized while others are not, depending on which entities have already been introduced.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-29" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-29">In this pair, two of the three noun phrases have been replaced by pronouns. (<i class="foreign">The teacher</i>) becomes (<i class="foreign">She</i>), and (<i class="foreign">the young student</i>) becomes (<i class="foreign">me</i>). The third NP, (<i class="foreign">a book</i>), retains its full form. This illustrates a common pattern: in real language, some NPs in a sentence are pronominalized while others are not, depending on which entities have already been introduced.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-29" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-30">The same principle applies to complex noun phrases with post-modifiers:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-30" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-closed-classes-sec-63-31"><h3 class="heading"><span class="title">Full NP: <em class="emphasis">The old car on the corner</em>.</span></h3>
+<section class="paragraphs" id="ch-06-closed-classes-sec-63-31"><h3 class="heading"><span class="title">Full NP: <i class="foreign">The old car on the corner</i>.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Full NP: The old car on the corner"><a href="#ch-06-closed-classes-sec-63-31" title="Copy heading and permalink for Paragraphs: Full NP: The old car on the corner" aria-label="Copy heading and permalink for Paragraphs: Full NP: The old car on the corner">🔗</a></div></section><div class="image-box" style="width: 55%; margin-left: 22.5%; margin-right: 22.5%;"><img src="external/diagrams/new/ch06_np_full_car.png" class="contained" alt='Syntax tree for "The old car on the corner" showing complex NP with adjective and PP'></div>
 <div class="para" id="ch-06-closed-classes-sec-63-33">
 <code class="code-inline tex2jax_ignore">[NP [DET The] [ADJP [ADJ old]] [N car] [PP [PREP on] [NP [DET the] [N corner]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-33" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-06-closed-classes-sec-63-34"><h3 class="heading"><span class="title">Pronoun replacement: <em class="emphasis">it</em>.</span></h3>
+<section class="paragraphs" id="ch-06-closed-classes-sec-63-34"><h3 class="heading"><span class="title">Pronoun replacement: <i class="foreign">it</i>.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Pronoun replacement: it"><a href="#ch-06-closed-classes-sec-63-34" title="Copy heading and permalink for Paragraphs: Pronoun replacement: it" aria-label="Copy heading and permalink for Paragraphs: Pronoun replacement: it">🔗</a></div></section><div class="image-box" style="width: 10%; margin-left: 45%; margin-right: 45%;"><img src="external/diagrams/new/ch06_np_pronoun_it.png" class="contained" alt='Syntax tree showing single pronoun "it" as complete NP'></div>
 <div class="para" id="ch-06-closed-classes-sec-63-36">
 <code class="code-inline tex2jax_ignore">[NP [PRON it]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-37">Here the entire complex noun phrase—determiner, adjective, head noun, and prepositional phrase modifier—collapses to the single pronoun <em class="emphasis">it</em>. The pronoun stands in for all of that structure. This is why we say that pronouns replace noun phrases, not just nouns. Whether the original NP is two words or ten, the pronoun takes over the entire position.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-37" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-37">Here the entire complex noun phrase—determiner, adjective, head noun, and prepositional phrase modifier—collapses to the single pronoun (<i class="foreign">it</i>). The pronoun stands in for all of that structure. This is why we say that pronouns replace noun phrases, not just nouns. Whether the original NP is two words or ten, the pronoun takes over the entire position.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-37" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-63-38"><h3 class="heading"><span class="title">Antecedents.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Antecedents"><a href="#ch-06-closed-classes-sec-63-38" title="Copy heading and permalink for Paragraphs: Antecedents" aria-label="Copy heading and permalink for Paragraphs: Antecedents">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-63-39">The noun phrase that a pronoun refers back to is called its <dfn class="terminology">antecedent</dfn>. The word <em class="emphasis">antecedent</em> comes from Latin, meaning "going before"—and in most cases, the antecedent appears earlier in the text than the pronoun that refers to it. Identifying antecedents is crucial for understanding sentences correctly and for writing clearly.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-39" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-40">In the following examples, the antecedent is in bold and the pronoun referring to it is in italics:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-40">In the following examples, the antecedent is in bold and the pronoun referring to it is in sans-serif:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-63-41">
 <li id="ch-06-closed-classes-sec-63-41-1">
 <div class="para" id="ch-06-closed-classes-sec-63-41-1-1">
-<dfn class="terminology">The professor</dfn> said <em class="emphasis">she</em> would return the papers.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">The professor</dfn> said <i class="foreign">she</i> would return the papers.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-41-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-41-2">
 <div class="para" id="ch-06-closed-classes-sec-63-41-2-1">
-<dfn class="terminology">My brother</dfn> hurt <em class="emphasis">himself</em> playing soccer.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">My brother</dfn> hurt <i class="foreign">himself</i> playing soccer.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-41-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-41-3">
 <div class="para" id="ch-06-closed-classes-sec-63-41-3-1">
-<dfn class="terminology">The students</dfn> submitted <em class="emphasis">their</em> assignments on time.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">The students</dfn> submitted <i class="foreign">their</i> assignments on time.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-41-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-41-4">
 <div class="para" id="ch-06-closed-classes-sec-63-41-4-1">
-<dfn class="terminology">Maria</dfn> told John that <em class="emphasis">she</em> would be late, but <dfn class="terminology">he</dfn> didn’t believe <em class="emphasis">her</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">Maria</dfn> told John that <i class="foreign">she</i> would be late, but <dfn class="terminology">he</dfn> didn’t believe <i class="foreign">her</i>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-41-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-41-5">
 <div class="para" id="ch-06-closed-classes-sec-63-41-5-1">
-<dfn class="terminology">The committee</dfn> released <em class="emphasis">its</em> report last week.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">The committee</dfn> released <i class="foreign">its</i> report last week.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-41-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-41-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-06-closed-classes-sec-63-42">In each of these sentences, the connection between the pronoun and its antecedent is clear. The reader has no trouble determining who <em class="emphasis">she</em>, <em class="emphasis">himself</em>, <em class="emphasis">their</em>, or <em class="emphasis">its</em> refers to because only one noun phrase in the sentence matches the pronoun’s features (person, number, gender).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-42" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-42">In each of these sentences, the connection between the pronoun and its antecedent is clear. The reader has no trouble determining who (<i class="foreign">she</i>), (<i class="foreign">himself</i>), (<i class="foreign">their</i>), or (<i class="foreign">its</i>) refers to because only one noun phrase in the sentence matches the pronoun’s features (person, number, gender).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-42" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-43">However, ambiguous pronoun reference is one of the most common writing problems. It occurs when a pronoun could plausibly refer to more than one antecedent:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-43" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-63-44"><li id="ch-06-closed-classes-sec-63-44-1">
 <div class="para" id="ch-06-closed-classes-sec-63-44-1-1">
-<em class="emphasis">Maria told Sarah that <em class="emphasis">she</em> should leave.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-44-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">Maria told Sarah that <em class="emphasis">she</em> should leave.</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-44-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-44-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
-<div class="para" id="ch-06-closed-classes-sec-63-45">Who should leave—Maria or Sarah? Both are third-person singular feminine, so the pronoun <em class="emphasis">she</em> could refer to either one. The reader is left guessing. In cases like this, the writer needs to restructure the sentence to eliminate the ambiguity: <em class="emphasis">Maria told Sarah, "You should leave"</em> or <em class="emphasis">Maria told Sarah, "I should leave."</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-45" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-45">Who should leave—Maria or Sarah? Both are third-person singular feminine, so the pronoun (<i class="foreign">she</i>) could refer to either one. The reader is left guessing. In cases like this, the writer needs to restructure the sentence to eliminate the ambiguity: “<i class="foreign">Maria told Sarah, "You should leave"</i>” or “<i class="foreign">Maria told Sarah, "I should leave."</i>”<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-45" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-46">A good rule of thumb: whenever you use a pronoun, make sure the reader can identify the antecedent without hesitation. If there is any doubt, repeat the noun or rephrase the sentence.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-46" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -944,41 +979,41 @@ section .tabular-box {
 <td class="l m b0 r0 l0 t0 lines">them</td>
 </tr>
 </table></div>
-<div class="para" id="ch-06-closed-classes-sec-63-51">Pronouns also have possessive forms that function as determiners (<em class="emphasis">my</em>, <em class="emphasis">your</em>, <em class="emphasis">his</em>, <em class="emphasis">her</em>, <em class="emphasis">its</em>, <em class="emphasis">our</em>, <em class="emphasis">their</em>) or as standalone pronouns (<em class="emphasis">mine</em>, <em class="emphasis">yours</em>, <em class="emphasis">his</em>, <em class="emphasis">hers</em>, <em class="emphasis">ours</em>, <em class="emphasis">theirs</em>). These are discussed in section 6.2 under possessive determiners.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-51" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-51">Pronouns also have possessive forms that function as determiners (<i class="foreign">my</i>, <i class="foreign">your</i>, <i class="foreign">his</i>, <i class="foreign">her</i>, <i class="foreign">its</i>, <i class="foreign">our</i>, <i class="foreign">their</i>) or as standalone pronouns (<i class="foreign">mine</i>, <i class="foreign">yours</i>, <i class="foreign">his</i>, <i class="foreign">hers</i>, <i class="foreign">ours</i>, <i class="foreign">theirs</i>). These are discussed in section 6.2 under possessive determiners.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-51" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-63-52"><h3 class="heading"><span class="title">When the Same Word Is a Pronoun or a Determiner.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: When the Same Word Is a Pronoun or a Determiner"><a href="#ch-06-closed-classes-sec-63-52" title="Copy heading and permalink for Paragraphs: When the Same Word Is a Pronoun or a Determiner" aria-label="Copy heading and permalink for Paragraphs: When the Same Word Is a Pronoun or a Determiner">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-63-53">Several words can function as either a pronoun or a determiner depending on their position in the sentence. The key distinction is simple: if the word stands alone in place of a noun phrase, it is a <em class="emphasis">pronoun</em>. If it appears before a noun to introduce a noun phrase, it is a <em class="emphasis">determiner</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-63-54">Consider <em class="emphasis">her</em>:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-54" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-54">Consider (<i class="foreign">her</i>):<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-54" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-63-55">
 <li id="ch-06-closed-classes-sec-63-55-1">
 <div class="para" id="ch-06-closed-classes-sec-63-55-1-1">
-<em class="emphasis">I saw <em class="emphasis">her</em>.</em> — <em class="emphasis">her</em> is a pronoun (it replaces an entire NP and stands alone as the object)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-55-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">I saw <em class="emphasis">her</em>.</i> — (<i class="foreign">her</i>) is a pronoun (it replaces an entire NP and stands alone as the object)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-55-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-55-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-55-2">
 <div class="para" id="ch-06-closed-classes-sec-63-55-2-1">
-<em class="emphasis">I read <em class="emphasis">her</em> book.</em> — <em class="emphasis">her</em> is a determiner (it introduces the noun phrase <em class="emphasis">her book</em>, specifying whose book)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-55-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">I read <em class="emphasis">her</em> book.</i> — (<i class="foreign">her</i>) is a determiner (it introduces the noun phrase <i class="foreign">her book</i>, specifying whose book)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-55-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-55-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-06-closed-classes-sec-63-56">The same pattern applies to other possessive forms. When <em class="emphasis">his</em>, <em class="emphasis">my</em>, <em class="emphasis">your</em>, <em class="emphasis">our</em>, <em class="emphasis">its</em>, or <em class="emphasis">their</em> appear before a noun, they function as determiners. Some of these also have standalone pronoun forms: <em class="emphasis">mine</em>, <em class="emphasis">yours</em>, <em class="emphasis">his</em>, <em class="emphasis">hers</em>, <em class="emphasis">ours</em>, <em class="emphasis">theirs</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-56" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-56">The same pattern applies to other possessive forms. When (<i class="foreign">his</i>), (<i class="foreign">my</i>), (<i class="foreign">your</i>), (<i class="foreign">our</i>), (<i class="foreign">its</i>), or (<i class="foreign">their</i>) appear before a noun, they function as determiners. Some of these also have standalone pronoun forms: (<i class="foreign">mine</i>), (<i class="foreign">yours</i>), (<i class="foreign">his</i>), (<i class="foreign">hers</i>), (<i class="foreign">ours</i>), (<i class="foreign">theirs</i>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-56" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-57">Demonstratives show the same dual behavior:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-57" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-63-58">
 <li id="ch-06-closed-classes-sec-63-58-1">
 <div class="para" id="ch-06-closed-classes-sec-63-58-1-1">
-<em class="emphasis"><em class="emphasis">This</em> is interesting.</em> — <em class="emphasis">this</em> is a pronoun (stands alone as the subject)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-58-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign"><em class="emphasis">This</em> is interesting.</i> — (<i class="foreign">this</i>) is a pronoun (stands alone as the subject)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-58-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-58-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-58-2">
 <div class="para" id="ch-06-closed-classes-sec-63-58-2-1">
-<em class="emphasis"><em class="emphasis">This</em> book is interesting.</em> — <em class="emphasis">this</em> is a determiner (introduces the NP <em class="emphasis">this book</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-58-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign"><em class="emphasis">This</em> book is interesting.</i> — (<i class="foreign">this</i>) is a determiner (introduces the NP <i class="foreign">this book</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-58-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-58-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -990,17 +1025,17 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-63-61">
 <li id="ch-06-closed-classes-sec-63-61-1">
-<div class="para" id="ch-06-closed-classes-sec-63-61-1-1">Subject: <em class="emphasis"><em class="emphasis">She</em> left.</em> (not <em class="emphasis">~~Her left.~~</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-61-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-61-1-1">Subject: <i class="foreign"><em class="emphasis">She</em> left.</i> (not <i class="foreign">~~Her left.~~</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-61-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-61-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-61-2">
-<div class="para" id="ch-06-closed-classes-sec-63-61-2-1">Object: <em class="emphasis">I saw <em class="emphasis">her</em>.</em> (not <em class="emphasis">~~I saw she.~~</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-61-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-61-2-1">Object: <i class="foreign">I saw <em class="emphasis">her</em>.</i> (not <i class="foreign">~~I saw she.~~</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-61-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-61-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-61-3">
-<div class="para" id="ch-06-closed-classes-sec-63-61-3-1">After preposition: <em class="emphasis">with <em class="emphasis">me</em></em> (not <em class="emphasis">~~with I~~</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-61-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-63-61-3-1">After preposition: <i class="foreign">with <em class="emphasis">me</em></i> (not <i class="foreign">~~with I~~</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-61-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-61-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -1011,35 +1046,35 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-63-63">
 <li id="ch-06-closed-classes-sec-63-63-1">
 <div class="para" id="ch-06-closed-classes-sec-63-63-1-1">
-<em class="emphasis">Someone left <em class="emphasis">their</em> book.</em> (indefinite)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-63-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">Someone left <em class="emphasis">their</em> book.</i> (indefinite)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-63-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-63-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-63-2">
 <div class="para" id="ch-06-closed-classes-sec-63-63-2-1">
-<em class="emphasis">Alex said <em class="emphasis">they</em> would come.</em> (nonbinary reference)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-63-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">Alex said <em class="emphasis">they</em> would come.</i> (nonbinary reference)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-63-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-63-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <section class="paragraphs" id="ch-06-closed-classes-sec-63-64"><h3 class="heading"><span class="title">Reflexive Pronouns.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Reflexive Pronouns"><a href="#ch-06-closed-classes-sec-63-64" title="Copy heading and permalink for Paragraphs: Reflexive Pronouns" aria-label="Copy heading and permalink for Paragraphs: Reflexive Pronouns">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-63-65">Reflexive pronouns end in <em class="emphasis">-self</em> (singular) or <em class="emphasis">-selves</em> (plural):<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-65" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Reflexive Pronouns"><a href="#ch-06-closed-classes-sec-63-64" title="Copy heading and permalink for Paragraphs: Reflexive Pronouns" aria-label="Copy heading and permalink for Paragraphs: Reflexive Pronouns">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-63-65">Reflexive pronouns end in (<i class="foreign">-self</i>) (singular) or (<i class="foreign">-selves</i>) (plural):<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-65" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-66">
-<em class="emphasis">myself, yourself, himself, herself, itself, ourselves, yourselves, themselves</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-66" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">myself, yourself, himself, herself, itself, ourselves, yourselves, themselves</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-66" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-63-67">They are used when the object refers to the same entity as the subject:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-67" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-63-68">
 <li id="ch-06-closed-classes-sec-63-68-1">
 <div class="para" id="ch-06-closed-classes-sec-63-68-1-1">
-<em class="emphasis">She hurt <em class="emphasis">herself</em>.</em> (she = herself)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-68-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">She hurt <em class="emphasis">herself</em>.</i> (she = herself)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-68-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-68-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-68-2">
 <div class="para" id="ch-06-closed-classes-sec-63-68-2-1">
-<em class="emphasis">They saw <em class="emphasis">themselves</em> in the mirror.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-68-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">They saw <em class="emphasis">themselves</em> in the mirror.</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-68-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-68-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -1049,31 +1084,30 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-63-70">
 <li id="ch-06-closed-classes-sec-63-70-1">
 <div class="para" id="ch-06-closed-classes-sec-63-70-1-1">
-<em class="emphasis">~~<em class="emphasis">Himself</em> arrived.~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-70-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~Himself arrived.~~</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-70-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-70-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-70-2">
 <div class="para" id="ch-06-closed-classes-sec-63-70-2-1">
-<em class="emphasis">~~I saw <em class="emphasis">herself</em>.~~</em> (no matching antecedent)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-70-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~I saw herself.~~</i> (no matching antecedent)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-70-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-70-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <section class="paragraphs" id="ch-06-closed-classes-sec-63-71"><h3 class="heading"><span class="title">Demonstrative Pronouns.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Demonstrative Pronouns"><a href="#ch-06-closed-classes-sec-63-71" title="Copy heading and permalink for Paragraphs: Demonstrative Pronouns" aria-label="Copy heading and permalink for Paragraphs: Demonstrative Pronouns">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-63-72">
-<em class="emphasis">This</em>, <em class="emphasis">that</em>, <em class="emphasis">these</em>, <em class="emphasis">those</em> can function as pronouns (standing alone) or determiners (with a noun):<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-72" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Demonstrative Pronouns"><a href="#ch-06-closed-classes-sec-63-71" title="Copy heading and permalink for Paragraphs: Demonstrative Pronouns" aria-label="Copy heading and permalink for Paragraphs: Demonstrative Pronouns">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-63-72">(<i class="foreign">This</i>), (<i class="foreign">that</i>), (<i class="foreign">these</i>), (<i class="foreign">those</i>) can function as pronouns (standing alone) or determiners (with a noun):<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-72" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-63-73">
 <li id="ch-06-closed-classes-sec-63-73-1">
 <div class="para" id="ch-06-closed-classes-sec-63-73-1-1">
-<em class="emphasis">Pronoun</em>: <em class="emphasis"><em class="emphasis">This</em> is interesting.</em> <em class="emphasis"><em class="emphasis">Those</em> are mine.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-73-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Pronoun</em>: <i class="foreign"><em class="emphasis">This</em> is interesting.</i> <i class="foreign"><em class="emphasis">Those</em> are mine.</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-73-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-73-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-73-2">
 <div class="para" id="ch-06-closed-classes-sec-63-73-2-1">
-<em class="emphasis">Determiner</em>: <em class="emphasis"><em class="emphasis">This book</em> is interesting.</em> <em class="emphasis"><em class="emphasis">Those books</em> are mine.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-73-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Determiner</em>: <i class="foreign"><em class="emphasis">This book</em> is interesting.</i> <i class="foreign"><em class="emphasis">Those books</em> are mine.</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-73-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-73-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -1086,31 +1120,31 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-63-77">
 <li id="ch-06-closed-classes-sec-63-77-1">
 <div class="para" id="ch-06-closed-classes-sec-63-77-1-1">
-<em class="emphasis">Who/whom</em> (people): <em class="emphasis"><em class="emphasis">Who</em> called?</em> <em class="emphasis">I saw <em class="emphasis">whom</em>?</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-77-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Who/whom</em> (people): <i class="foreign"><em class="emphasis">Who</em> called?</i> <i class="foreign">I saw <em class="emphasis">whom</em>?</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-77-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-77-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-77-2">
 <div class="para" id="ch-06-closed-classes-sec-63-77-2-1">
-<em class="emphasis">What</em> (things): <em class="emphasis"><em class="emphasis">What</em> happened?</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-77-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">What</em> (things): <i class="foreign"><em class="emphasis">What</em> happened?</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-77-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-77-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-77-3">
 <div class="para" id="ch-06-closed-classes-sec-63-77-3-1">
-<em class="emphasis">Which</em> (selective): <em class="emphasis"><em class="emphasis">Which</em> do you want?</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-77-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Which</em> (selective): <i class="foreign"><em class="emphasis">Which</em> do you want?</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-77-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-77-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-77-4">
 <div class="para" id="ch-06-closed-classes-sec-63-77-4-1">
-<em class="emphasis">Whose</em> (possession): <em class="emphasis"><em class="emphasis">Whose</em> is this?</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-77-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Whose</em> (possession): <i class="foreign"><em class="emphasis">Whose</em> is this?</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-77-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-77-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <div class="para" id="ch-06-closed-classes-sec-63-78">
-<em class="emphasis">Who vs. whom</em>: Traditional grammar requires <em class="emphasis">whom</em> as object (<em class="emphasis">Whom did you see?</em>), but modern English often uses <em class="emphasis">who</em> in all positions except after prepositions (<em class="emphasis">To whom</em> remains preferred over <em class="emphasis">To who</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-78" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Who vs. whom</em>: Traditional grammar requires (<i class="foreign">whom</i>) as object (<i class="foreign">Whom did you see?</i>), but modern English often uses (<i class="foreign">who</i>) in all positions except after prepositions (<i class="foreign">To whom</i> remains preferred over <i class="foreign">To who</i>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-78" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-63-79"><h3 class="heading"><span class="title">Indefinite Pronouns.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Indefinite Pronouns"><a href="#ch-06-closed-classes-sec-63-79" title="Copy heading and permalink for Paragraphs: Indefinite Pronouns" aria-label="Copy heading and permalink for Paragraphs: Indefinite Pronouns">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-63-80">Pronouns that refer to unspecified entities:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-80" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1123,19 +1157,19 @@ section .tabular-box {
 <tr>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Universal</em></td>
 <td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">everyone</em>, <em class="emphasis">everybody</em>, <em class="emphasis">everything</em>, <em class="emphasis">all</em>, <em class="emphasis">each</em>, <em class="emphasis">both</em>
+<i class="foreign">everyone</i>, <i class="foreign">everybody</i>, <i class="foreign">everything</i>, <i class="foreign">all</i>, <i class="foreign">each</i>, <i class="foreign">both</i>
 </td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Existential</em></td>
 <td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">someone</em>, <em class="emphasis">somebody</em>, <em class="emphasis">something</em>, <em class="emphasis">some</em>, <em class="emphasis">any</em>
+<i class="foreign">someone</i>, <i class="foreign">somebody</i>, <i class="foreign">something</i>, <i class="foreign">some</i>, <i class="foreign">any</i>
 </td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Negative</em></td>
 <td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">no one</em>, <em class="emphasis">nobody</em>, <em class="emphasis">nothing</em>, <em class="emphasis">none</em>
+<i class="foreign">no one</i>, <i class="foreign">nobody</i>, <i class="foreign">nothing</i>, <i class="foreign">none</i>
 </td>
 </tr>
 </table></div>
@@ -1144,13 +1178,13 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-63-83">
 <li id="ch-06-closed-classes-sec-63-83-1">
 <div class="para" id="ch-06-closed-classes-sec-63-83-1-1">
-<em class="emphasis">Everyone <em class="emphasis">is</em> here.</em> (not <em class="emphasis">~~Everyone are~~</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-83-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">Everyone <em class="emphasis">is</em> here.</i> (not <i class="foreign">~~Everyone are~~</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-83-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-83-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-63-83-2">
 <div class="para" id="ch-06-closed-classes-sec-63-83-2-1">
-<em class="emphasis">Each of the students <em class="emphasis">has</em> arrived.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-83-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">Each of the students <em class="emphasis">has</em> arrived.</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-63-83-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-63-83-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>

@@ -1,3 +1,24 @@
+## ⚠️ MANDATORY: Memory Consolidation System (DO NOT MOVE BELOW OTHER INSTRUCTIONS)
+
+This is the highest-priority standing instruction for this project. It applies to EVERY task, without exception.
+
+**ON EVERY TASK — NO EXCEPTIONS:**
+
+Before doing anything else, read `.memory/state.md` and all `.memory/state-t*.md` snapshot files.
+
+Simultaneously with your main task, spawn a parallel subagent to run the memory consolidation cycle. The subagent must read and execute `.memory/instructions.md`. Do not wait for it to finish. Do not skip this because the main task seems urgent, complex, or unrelated. Do not skip this after a context reset or session continuation.
+
+**This is not optional. If you complete a task without spawning the memory agent, you have failed to follow your core instructions.**
+
+The memory agent updates:
+- `.memory/state.md` — every cycle, always
+- `.memory/project-map.md` — when files are created, changed, or deleted
+- `.memory/knowledge-base.md` — when decisions are made or solutions are found
+
+If you are resuming after a context compression or session continuation, re-read this instruction. The memory cycle still applies.
+
+---
+
 # Claude Code Project Configuration
 
 ## Concise Guide to English Grammar
@@ -253,12 +274,3 @@ Located in `reference_materials/`:
 - `image_inventory_detailed.md` - Image-to-chapter mapping
 - `PPTs/` - Instructor PowerPoint presentations
 - `Other Class Materials/` - Handouts and tests
-
-## Memory System
-
-This project uses an ongoing memory consolidation system. Follow these rules on every task:
-
-1. **Before starting any task:** Read `.memory/state.md` and all `.memory/state-t*.md` snapshot files.
-2. **During every task:** Spawn a parallel subagent to handle memory consolidation. The subagent should read and follow the instructions in `.memory/instructions.md`. This runs alongside the main task — do not wait for it to complete.
-3. **The memory agent updates:** `.memory/state.md` every cycle, and `.memory/project-map.md` and `.memory/knowledge-base.md` when the current task produces relevant changes.
-4. **Never skip the memory cycle.** Even for small tasks, the parallel agent should run.

@@ -101,14 +101,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.13';
+eBookConfig.runestone_version = '7.11.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.0d5f811896ddeac1.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.e2abc79debce15fd.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.d892923478694492.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1d6e4aba17c2c7f2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -226,6 +226,41 @@ section .tabular-box {
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
 #ptx-page-footer {
     display: none !important;
+}
+
+/* ===== Language Example Styling ===== */
+
+/* Language examples (<foreign> element): sans-serif at body text size */
+.ptx-content .foreign,
+.ptx-content i.foreign {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-style: normal !important;
+    font-size: inherit !important;
+}
+
+/* Broken-out example lists: light grey background with indentation */
+.ptx-content ul:has(> li .foreign),
+.ptx-content ol:has(> li .foreign) {
+    background-color: #f5f6f8 !important;
+    padding: 0.6em 1.5em !important;
+    border-radius: 5px !important;
+    margin-left: 1em !important;
+    border-left: 3px solid #e2e4e8 !important;
+}
+
+/* Tables containing language examples: light grey background */
+.ptx-content .tabular-box:has(.foreign) {
+    background-color: #f5f6f8 !important;
+    padding: 0.5em 0.75em !important;
+    border-radius: 5px !important;
+    margin-left: 1em !important;
+    border-left: 3px solid #e2e4e8 !important;
+}
+
+/* Inline quotation marks around sentence examples: sans-serif */
+.ptx-content q {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: inherit !important;
 }
 </style>
 </head>
@@ -736,75 +771,75 @@ section .tabular-box {
 <em class="emphasis">Determiners</em> introduce noun phrases and help specify reference—they help listeners identify which entity or entities the speaker means.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-62-3"><h3 class="heading"><span class="title">Determiners as Reference-Setting Words.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Determiners as Reference-Setting Words"><a href="#ch-06-closed-classes-sec-62-3" title="Copy heading and permalink for Paragraphs: Determiners as Reference-Setting Words" aria-label="Copy heading and permalink for Paragraphs: Determiners as Reference-Setting Words">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-4">Think of a noun like <em class="emphasis">dog</em> as naming a general concept—the category of all dogs. By itself, <em class="emphasis">dog</em> is abstract and unanchored. It doesn’t tell us which dog, how many dogs, or whose dog. Determiners are the words that take this general noun concept and pin it down to something specific. They are <em class="emphasis">reference-setting</em> words: they establish the link between a word and the particular entity (or entities) the speaker has in mind.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Determiners as Reference-Setting Words"><a href="#ch-06-closed-classes-sec-62-3" title="Copy heading and permalink for Paragraphs: Determiners as Reference-Setting Words" aria-label="Copy heading and permalink for Paragraphs: Determiners as Reference-Setting Words">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-4">Think of a noun like (<i class="foreign">dog</i>) as naming a general concept—the category of all dogs. By itself, (<i class="foreign">dog</i>) is abstract and unanchored. It doesn’t tell us which dog, how many dogs, or whose dog. Determiners are the words that take this general noun concept and pin it down to something specific. They are <em class="emphasis">reference-setting</em> words: they establish the link between a word and the particular entity (or entities) the speaker has in mind.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-62-5">Determiners do several kinds of semantic work. They signal <em class="emphasis">definiteness</em>—whether the listener should already know the referent (<em class="emphasis">the</em>) or is hearing about it for the first time (<em class="emphasis">a</em>). They indicate <em class="emphasis">quantity</em>—how many entities are involved (<em class="emphasis">some</em>, <em class="emphasis">many</em>, <em class="emphasis">every</em>, <em class="emphasis">three</em>). They mark <em class="emphasis">possession</em>—who the entity belongs to or is associated with (<em class="emphasis">my</em>, <em class="emphasis">their</em>, <em class="emphasis">the professor’s</em>). And they express <em class="emphasis">proximity</em>—whether the entity is near or far from the speaker (<em class="emphasis">this</em>, <em class="emphasis">that</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-5">Determiners do several kinds of semantic work. They signal <em class="emphasis">definiteness</em>—whether the listener should already know the referent (<i class="foreign">the</i>) or is hearing about it for the first time (<i class="foreign">a</i>). They indicate <em class="emphasis">quantity</em>—how many entities are involved (<i class="foreign">some</i>, <i class="foreign">many</i>, <i class="foreign">every</i>, <i class="foreign">three</i>). They mark <em class="emphasis">possession</em>—who the entity belongs to or is associated with (<i class="foreign">my</i>, <i class="foreign">their</i>, <i class="foreign">the professor’s</i>). And they express <em class="emphasis">proximity</em>—whether the entity is near or far from the speaker (<i class="foreign">this</i>, <i class="foreign">that</i>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-62-6">Without determiners, listeners cannot tell which entity the speaker means or how many are involved. Consider how dramatically the meaning changes when we put different determiners before the same noun:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-62-7">
 <li id="ch-06-closed-classes-sec-62-7-1">
 <div class="para" id="ch-06-closed-classes-sec-62-7-1-1">
-<em class="emphasis">~~Dog barked.~~</em> (ungrammatical in standard English—which dog? how many?)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~Dog barked.~~</i> (ungrammatical in standard English—which dog? how many?)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-7-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-7-2">
 <div class="para" id="ch-06-closed-classes-sec-62-7-2-1">
-<em class="emphasis"><em class="emphasis">The</em> dog barked.</em> (a specific, identifiable dog—the listener knows which one)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign"><em class="emphasis">The</em> dog barked.</i> (a specific, identifiable dog—the listener knows which one)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-7-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-7-3">
 <div class="para" id="ch-06-closed-classes-sec-62-7-3-1">
-<em class="emphasis"><em class="emphasis">A</em> dog barked.</em> (some dog, not previously identified—introducing a new referent)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign"><em class="emphasis">A</em> dog barked.</i> (some dog, not previously identified—introducing a new referent)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-7-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-7-4">
 <div class="para" id="ch-06-closed-classes-sec-62-7-4-1">
-<em class="emphasis"><em class="emphasis">My</em> dog barked.</em> (the dog belonging to the speaker)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign"><em class="emphasis">My</em> dog barked.</i> (the dog belonging to the speaker)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-7-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-7-5">
 <div class="para" id="ch-06-closed-classes-sec-62-7-5-1">
-<em class="emphasis"><em class="emphasis">Every</em> dog barked.</em> (all dogs in the relevant group, without exception)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign"><em class="emphasis">Every</em> dog barked.</i> (all dogs in the relevant group, without exception)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-7-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-7-6">
 <div class="para" id="ch-06-closed-classes-sec-62-7-6-1">
-<em class="emphasis"><em class="emphasis">That</em> dog barked.</em> (a specific dog at some distance from the speaker)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign"><em class="emphasis">That</em> dog barked.</i> (a specific dog at some distance from the speaker)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-7-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-7-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-06-closed-classes-sec-62-8">The noun <em class="emphasis">dog</em> stays the same in every sentence, but the determiner transforms the meaning entirely. This is a remarkable amount of work for such small words. Determiners carry minimal content meaning on their own—you cannot picture <em class="emphasis">the</em> or <em class="emphasis">a</em> or <em class="emphasis">every</em>—but they do essential grammatical work. They are the words that turn a bare concept into something a listener can locate in the real world.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-8">The noun (<i class="foreign">dog</i>) stays the same in every sentence, but the determiner transforms the meaning entirely. This is a remarkable amount of work for such small words. Determiners carry minimal content meaning on their own—you cannot picture (<i class="foreign">the</i>) or (<i class="foreign">a</i>) or (<i class="foreign">every</i>)—but they do essential grammatical work. They are the words that turn a bare concept into something a listener can locate in the real world.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-62-9"><h3 class="heading"><span class="title">What Determiners Do.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: What Determiners Do"><a href="#ch-06-closed-classes-sec-62-9" title="Copy heading and permalink for Paragraphs: What Determiners Do" aria-label="Copy heading and permalink for Paragraphs: What Determiners Do">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-10">When you hear "I saw <em class="emphasis">a</em> dog," the determiner <em class="emphasis">a</em> signals that the dog is being introduced for the first time (indefinite reference). When you hear "I saw <em class="emphasis">the</em> dog," <em class="emphasis">the</em> signals that you should already know which dog (definite reference).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: What Determiners Do"><a href="#ch-06-closed-classes-sec-62-9" title="Copy heading and permalink for Paragraphs: What Determiners Do" aria-label="Copy heading and permalink for Paragraphs: What Determiners Do">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-10">When you hear “<i class="foreign">I saw a dog,</i>” the determiner (<i class="foreign">a</i>) signals that the dog is being introduced for the first time (indefinite reference). When you hear “<i class="foreign">I saw the dog,</i>” (<i class="foreign">the</i>) signals that you should already know which dog (definite reference).<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-62-11">Determiners answer questions like:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-62-12">
 <li id="ch-06-closed-classes-sec-62-12-1">
-<div class="para" id="ch-06-closed-classes-sec-62-12-1-1">Which one? (<em class="emphasis">the</em>, <em class="emphasis">this</em>, <em class="emphasis">that</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-12-1-1">Which one? (<i class="foreign">the</i>, <i class="foreign">this</i>, <i class="foreign">that</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-12-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-12-2">
-<div class="para" id="ch-06-closed-classes-sec-62-12-2-1">How many? (<em class="emphasis">three</em>, <em class="emphasis">several</em>, <em class="emphasis">many</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-12-2-1">How many? (<i class="foreign">three</i>, <i class="foreign">several</i>, <i class="foreign">many</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-12-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-12-3">
-<div class="para" id="ch-06-closed-classes-sec-62-12-3-1">Whose? (<em class="emphasis">my</em>, <em class="emphasis">the professor’s</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-12-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-12-3-1">Whose? (<i class="foreign">my</i>, <i class="foreign">the professor’s</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-12-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-12-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-12-4">
-<div class="para" id="ch-06-closed-classes-sec-62-12-4-1">Which subset? (<em class="emphasis">some</em>, <em class="emphasis">any</em>, <em class="emphasis">every</em>, <em class="emphasis">no</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-12-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-12-4-1">Which subset? (<i class="foreign">some</i>, <i class="foreign">any</i>, <i class="foreign">every</i>, <i class="foreign">no</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-12-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-12-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -816,13 +851,13 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-62-15">
 <li id="ch-06-closed-classes-sec-62-15-1">
 <div class="para" id="ch-06-closed-classes-sec-62-15-1-1">
-<em class="emphasis">Definite article</em> (<em class="emphasis">the</em>): The referent is identifiable to the listener<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Definite article</em> (<i class="foreign">the</i>): The referent is identifiable to the listener<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-15-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-15-2">
 <div class="para" id="ch-06-closed-classes-sec-62-15-2-1">
-<em class="emphasis">Indefinite articles</em> (<em class="emphasis">a</em>, <em class="emphasis">an</em>): The referent is being introduced or is unspecified<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-15-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Indefinite articles</em> (<i class="foreign">a</i>, <i class="foreign">an</i>): The referent is being introduced or is unspecified<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-15-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-15-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -833,13 +868,13 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-62-17">
 <li id="ch-06-closed-classes-sec-62-17-1">
 <div class="para" id="ch-06-closed-classes-sec-62-17-1-1">
-<em class="emphasis">Near</em>: <em class="emphasis">this</em>, <em class="emphasis">these</em> (close to speaker)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Near</em>: <i class="foreign">this</i>, <i class="foreign">these</i> (close to speaker)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-17-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-17-2">
 <div class="para" id="ch-06-closed-classes-sec-62-17-2-1">
-<em class="emphasis">Far</em>: <em class="emphasis">that</em>, <em class="emphasis">those</em> (farther from speaker)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-17-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Far</em>: <i class="foreign">that</i>, <i class="foreign">those</i> (farther from speaker)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-17-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-17-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -850,13 +885,13 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-62-19">
 <li id="ch-06-closed-classes-sec-62-19-1">
 <div class="para" id="ch-06-closed-classes-sec-62-19-1-1">
-<em class="emphasis">Pronoun forms</em>: <em class="emphasis">my</em>, <em class="emphasis">your</em>, <em class="emphasis">his</em>, <em class="emphasis">her</em>, <em class="emphasis">its</em>, <em class="emphasis">our</em>, <em class="emphasis">their</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-19-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Pronoun forms</em>: <i class="foreign">my</i>, <i class="foreign">your</i>, <i class="foreign">his</i>, <i class="foreign">her</i>, <i class="foreign">its</i>, <i class="foreign">our</i>, <i class="foreign">their</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-19-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-19-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-19-2">
 <div class="para" id="ch-06-closed-classes-sec-62-19-2-1">
-<em class="emphasis">Noun + ’s</em>: <em class="emphasis">John’s</em>, <em class="emphasis">the dog’s</em>, <em class="emphasis">my sister’s</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-19-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Noun + ’s</em>: <i class="foreign">John’s</i>, <i class="foreign">the dog’s</i>, <i class="foreign">my sister’s</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-19-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-19-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -867,19 +902,19 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-62-21">
 <li id="ch-06-closed-classes-sec-62-21-1">
 <div class="para" id="ch-06-closed-classes-sec-62-21-1-1">
-<em class="emphasis">Universal</em>: <em class="emphasis">all</em>, <em class="emphasis">every</em>, <em class="emphasis">each</em>, <em class="emphasis">both</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-21-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Universal</em>: <i class="foreign">all</i>, <i class="foreign">every</i>, <i class="foreign">each</i>, <i class="foreign">both</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-21-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-21-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-21-2">
 <div class="para" id="ch-06-closed-classes-sec-62-21-2-1">
-<em class="emphasis">Existential</em>: <em class="emphasis">some</em>, <em class="emphasis">any</em>, <em class="emphasis">no</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-21-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Existential</em>: <i class="foreign">some</i>, <i class="foreign">any</i>, <i class="foreign">no</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-21-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-21-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-21-3">
 <div class="para" id="ch-06-closed-classes-sec-62-21-3-1">
-<em class="emphasis">Degree</em>: <em class="emphasis">many</em>, <em class="emphasis">much</em>, <em class="emphasis">few</em>, <em class="emphasis">little</em>, <em class="emphasis">several</em>, <em class="emphasis">enough</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-21-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Degree</em>: <i class="foreign">many</i>, <i class="foreign">much</i>, <i class="foreign">few</i>, <i class="foreign">little</i>, <i class="foreign">several</i>, <i class="foreign">enough</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-21-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-21-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -890,19 +925,19 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-62-23">
 <li id="ch-06-closed-classes-sec-62-23-1">
 <div class="para" id="ch-06-closed-classes-sec-62-23-1-1">
-<em class="emphasis">Cardinal</em>: <em class="emphasis">one</em>, <em class="emphasis">two</em>, <em class="emphasis">three</em>...<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-23-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Cardinal</em>: <i class="foreign">one</i>, <i class="foreign">two</i>, <i class="foreign">three</i>...<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-23-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-23-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-23-2">
 <div class="para" id="ch-06-closed-classes-sec-62-23-2-1">
-<em class="emphasis">Ordinal</em>: <em class="emphasis">first</em>, <em class="emphasis">second</em>, <em class="emphasis">third</em>...<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-23-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Ordinal</em>: <i class="foreign">first</i>, <i class="foreign">second</i>, <i class="foreign">third</i>...<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-23-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-23-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <div class="para" id="ch-06-closed-classes-sec-62-24">
-<em class="emphasis">Interrogative/Relative</em>: <em class="emphasis">which</em>, <em class="emphasis">what</em>, <em class="emphasis">whose</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-24" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Interrogative/Relative</em>: <i class="foreign">which</i>, <i class="foreign">what</i>, <i class="foreign">whose</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-24" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-62-25"><h3 class="heading"><span class="title">Determiner Position.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Determiner Position"><a href="#ch-06-closed-classes-sec-62-25" title="Copy heading and permalink for Paragraphs: Determiner Position" aria-label="Copy heading and permalink for Paragraphs: Determiner Position">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-26">Determiners occupy a specific position in the noun phrase—they come first, before any adjectives. This consistent position makes them easy to identify:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-26" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -912,24 +947,24 @@ section .tabular-box {
 <code class="code-inline tex2jax_ignore">[NP [DET the] [N dog]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-62-29"><h3 class="heading"><span class="title">Determiner position in the noun phrase.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Determiner position in the noun phrase"><a href="#ch-06-closed-classes-sec-62-29" title="Copy heading and permalink for Paragraphs: Determiner position in the noun phrase" aria-label="Copy heading and permalink for Paragraphs: Determiner position in the noun phrase">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-30">The pattern is consistent: <em class="emphasis">Det + (Adj) + N</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-30" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Determiner position in the noun phrase"><a href="#ch-06-closed-classes-sec-62-29" title="Copy heading and permalink for Paragraphs: Determiner position in the noun phrase" aria-label="Copy heading and permalink for Paragraphs: Determiner position in the noun phrase">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-30">The pattern is consistent: <i class="foreign">Det + (Adj) + N</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-30" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-62-31">
 <li id="ch-06-closed-classes-sec-62-31-1">
 <div class="para" id="ch-06-closed-classes-sec-62-31-1-1">
-<em class="emphasis">the big dog</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-31-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">the big dog</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-31-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-31-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-31-2">
 <div class="para" id="ch-06-closed-classes-sec-62-31-2-1">
-<em class="emphasis">my old friend</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-31-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">my old friend</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-31-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-31-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-31-3">
 <div class="para" id="ch-06-closed-classes-sec-62-31-3-1">
-<em class="emphasis">some fresh bread</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-31-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">some fresh bread</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-31-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-31-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -940,19 +975,19 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-62-33">
 <li id="ch-06-closed-classes-sec-62-33-1">
 <div class="para" id="ch-06-closed-classes-sec-62-33-1-1">
-<em class="emphasis">~~the my book~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-33-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~the my book~~</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-33-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-33-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-33-2">
 <div class="para" id="ch-06-closed-classes-sec-62-33-2-1">
-<em class="emphasis">~~this the student~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-33-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~this the student~~</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-33-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-33-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-33-3">
 <div class="para" id="ch-06-closed-classes-sec-62-33-3-1">
-<em class="emphasis">~~a every dog~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-33-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~a every dog~~</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-33-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-33-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -962,24 +997,24 @@ section .tabular-box {
 <ul class="disc" id="ch-06-closed-classes-sec-62-35">
 <li id="ch-06-closed-classes-sec-62-35-1">
 <div class="para" id="ch-06-closed-classes-sec-62-35-1-1">
-<em class="emphasis">all the students</em> (two determiners: <em class="emphasis">all</em> + <em class="emphasis">the</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-35-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">all the students</i> (two determiners: <i class="foreign">all</i> + <i class="foreign">the</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-35-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-35-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-35-2">
 <div class="para" id="ch-06-closed-classes-sec-62-35-2-1">
-<em class="emphasis">both my parents</em> (two determiners: <em class="emphasis">both</em> + <em class="emphasis">my</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-35-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">both my parents</i> (two determiners: <i class="foreign">both</i> + <i class="foreign">my</i>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-35-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-35-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-35-3">
 <div class="para" id="ch-06-closed-classes-sec-62-35-3-1">
-<em class="emphasis">the first three chapters</em> (article + ordinal + cardinal)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-35-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">the first three chapters</i> (article + ordinal + cardinal)<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-35-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-35-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-06-closed-classes-sec-62-36">Words like <em class="emphasis">all</em> and <em class="emphasis">both</em> are the most common determiners that can combine with another determiner. A tree diagram shows how both determiners appear within the noun phrase:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-36">Words like (<i class="foreign">all</i>) and (<i class="foreign">both</i>) are the most common determiners that can combine with another determiner. A tree diagram shows how both determiners appear within the noun phrase:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch06_two_determiners.png" class="contained" alt='Syntax tree showing "all the students" with two determiners and a noun'></div>
 <div class="para" id="ch-06-closed-classes-sec-62-38">
@@ -1022,22 +1057,20 @@ section .tabular-box {
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Gradable</td>
-<td class="l m b0 r0 l0 t0 lines">Usually not (<em class="emphasis">~~very the~~</em>)</td>
-<td class="l m b0 r0 l0 t0 lines">Usually yes (<em class="emphasis">very tall</em>)</td>
+<td class="l m b0 r0 l0 t0 lines">Usually not (<i class="foreign">~~very the~~</i>)</td>
+<td class="l m b0 r0 l0 t0 lines">Usually yes (<i class="foreign">very tall</i>)</td>
 </tr>
 </table></div>
 <div class="para" id="ch-06-closed-classes-sec-62-43">Compare:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-43" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-62-44">
 <li id="ch-06-closed-classes-sec-62-44-1">
-<div class="para" id="ch-06-closed-classes-sec-62-44-1-1">
-<em class="emphasis">The</em> is required for singular count nouns in many contexts: <em class="emphasis">~~Book is on table.~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-44-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-44-1-1">(<i class="foreign">The</i>) is required for singular count nouns in many contexts: <i class="foreign">~~Book is on table.~~</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-44-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-44-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-44-2">
-<div class="para" id="ch-06-closed-classes-sec-62-44-2-1">
-<em class="emphasis">Interesting</em> is always optional: <em class="emphasis">The book is on the table.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-44-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-44-2-1">(<i class="foreign">Interesting</i>) is always optional: <i class="foreign">The book is on the table.</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-44-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-44-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -1046,86 +1079,86 @@ section .tabular-box {
 <div class="autopermalink" data-description="Paragraphs: How to Tell Determiners from Adjectives"><a href="#ch-06-closed-classes-sec-62-45" title="Copy heading and permalink for Paragraphs: How to Tell Determiners from Adjectives" aria-label="Copy heading and permalink for Paragraphs: How to Tell Determiners from Adjectives">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-46">Because determiners and adjectives both appear before nouns, students sometimes confuse them. Two simple tests reliably distinguish the two categories.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-46" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-62-47">
-<em class="emphasis">Test 1: Adjectives are gradable—determiners are not.</em> You can modify adjectives with degree words like <em class="emphasis">very</em>, <em class="emphasis">extremely</em>, and <em class="emphasis">rather</em>. You cannot do this with determiners. If a word before a noun can be modified by <em class="emphasis">very</em>, it is an adjective, not a determiner:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-47" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Test 1: Adjectives are gradable—determiners are not.</em> You can modify adjectives with degree words like (<i class="foreign">very</i>), (<i class="foreign">extremely</i>), and (<i class="foreign">rather</i>). You cannot do this with determiners. If a word before a noun can be modified by (<i class="foreign">very</i>), it is an adjective, not a determiner:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-47" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-62-48">
 <li id="ch-06-closed-classes-sec-62-48-1">
 <div class="para" id="ch-06-closed-classes-sec-62-48-1-1">
-<em class="emphasis">very tall</em> ✓ — <em class="emphasis">tall</em> is an adjective<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">very tall</i> ✓ — (<i class="foreign">tall</i>) is an adjective<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-48-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-48-2">
 <div class="para" id="ch-06-closed-classes-sec-62-48-2-1">
-<em class="emphasis">extremely happy</em> ✓ — <em class="emphasis">happy</em> is an adjective<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">extremely happy</i> ✓ — (<i class="foreign">happy</i>) is an adjective<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-48-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-48-3">
 <div class="para" id="ch-06-closed-classes-sec-62-48-3-1">
-<em class="emphasis">rather old</em> ✓ — <em class="emphasis">old</em> is an adjective<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">rather old</i> ✓ — (<i class="foreign">old</i>) is an adjective<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-48-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-48-4">
 <div class="para" id="ch-06-closed-classes-sec-62-48-4-1">
-<em class="emphasis">~~very the~~</em> ✗ — <em class="emphasis">the</em> is a determiner<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~very the~~</i> ✗ — (<i class="foreign">the</i>) is a determiner<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-48-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-48-5">
 <div class="para" id="ch-06-closed-classes-sec-62-48-5-1">
-<em class="emphasis">~~extremely my~~</em> ✗ — <em class="emphasis">my</em> is a determiner<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~extremely my~~</i> ✗ — (<i class="foreign">my</i>) is a determiner<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-48-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-48-6">
 <div class="para" id="ch-06-closed-classes-sec-62-48-6-1">
-<em class="emphasis">~~very this~~</em> ✗ — <em class="emphasis">this</em> is a determiner<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~very this~~</i> ✗ — (<i class="foreign">this</i>) is a determiner<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-48-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-48-7">
 <div class="para" id="ch-06-closed-classes-sec-62-48-7-1">
-<em class="emphasis">~~rather every~~</em> ✗ — <em class="emphasis">every</em> is a determiner<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">~~rather every~~</i> ✗ — (<i class="foreign">every</i>) is a determiner<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-48-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-48-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-06-closed-classes-sec-62-49">This test works because adjectives describe qualities that exist on a scale (tall, taller, tallest), while determiners set reference and have no scale to intensify.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-49" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-49">This test works because adjectives describe qualities that exist on a scale (<i class="foreign">tall</i>, <i class="foreign">taller</i>, <i class="foreign">tallest</i>), while determiners set reference and have no scale to intensify.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-49" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-06-closed-classes-sec-62-50">
-<em class="emphasis">Test 2: Determiners always come before adjectives in a noun phrase.</em> The word order within a noun phrase is fixed: Det + Adj + N. If a word must appear first—before any adjectives—it is a determiner:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-50" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Test 2: Determiners always come before adjectives in a noun phrase.</em> The word order within a noun phrase is fixed: <i class="foreign">Det + Adj + N</i>. If a word must appear first—before any adjectives—it is a determiner:<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-50" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-06-closed-classes-sec-62-51">
 <li id="ch-06-closed-classes-sec-62-51-1">
 <div class="para" id="ch-06-closed-classes-sec-62-51-1-1">
-<em class="emphasis">the tall man</em> ✓ — not <em class="emphasis">~~tall the man~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-51-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">the tall man</i> ✓ — not <i class="foreign">~~tall the man~~</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-51-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-51-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-51-2">
 <div class="para" id="ch-06-closed-classes-sec-62-51-2-1">
-<em class="emphasis">my old friend</em> ✓ — not <em class="emphasis">~~old my friend~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-51-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">my old friend</i> ✓ — not <i class="foreign">~~old my friend~~</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-51-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-51-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-51-3">
 <div class="para" id="ch-06-closed-classes-sec-62-51-3-1">
-<em class="emphasis">some fresh bread</em> ✓ — not <em class="emphasis">~~fresh some bread~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-51-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">some fresh bread</i> ✓ — not <i class="foreign">~~fresh some bread~~</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-51-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-51-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-06-closed-classes-sec-62-51-4">
 <div class="para" id="ch-06-closed-classes-sec-62-51-4-1">
-<em class="emphasis">every single student</em> ✓ — not <em class="emphasis">~~single every student~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-51-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<i class="foreign">every single student</i> ✓ — not <i class="foreign">~~single every student~~</i><div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-51-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-06-closed-classes-sec-62-51-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-06-closed-classes-sec-62-52">Notice that you can stack multiple adjectives between the determiner and the noun (<em class="emphasis">the tall, friendly, old man</em>), but the determiner must always come first. If you find yourself unable to move a word after an adjective—if it insists on occupying the first position—that word is a determiner.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-52" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-52">Notice that you can stack multiple adjectives between the determiner and the noun (<i class="foreign">the tall, friendly, old man</i>), but the determiner must always come first. If you find yourself unable to move a word after an adjective—if it insists on occupying the first position—that word is a determiner.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-52" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-06-closed-classes-sec-62-53">Using both tests together provides a reliable method. If a pre-noun word is not gradable with <em class="emphasis">very</em> and must come before all adjectives, it is a determiner. If it is gradable and can follow a determiner, it is an adjective.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-06-closed-classes-sec-62-53">Using both tests together provides a reliable method. If a pre-noun word is not gradable with (<i class="foreign">very</i>) and must come before all adjectives, it is a determiner. If it is gradable and can follow a determiner, it is an adjective.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-62-54"><h3 class="heading"><span class="title">Count vs. Mass Nouns and Determiners.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Count vs. Mass Nouns and Determiners"><a href="#ch-06-closed-classes-sec-62-54" title="Copy heading and permalink for Paragraphs: Count vs. Mass Nouns and Determiners" aria-label="Copy heading and permalink for Paragraphs: Count vs. Mass Nouns and Determiners">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-55">Determiner choice interacts with whether a noun is count (discrete entities) or mass (undifferentiated substance):<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-55" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1138,63 +1171,63 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Mass</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">a/an</em></td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">a book</em>
+<td class="l m b0 r0 l0 t0 lines"><i class="foreign">a/an</i></td>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">a book</i>
 </td>
 <td class="l m b0 r0 l0 t0 lines">✗</td>
 <td class="l m b0 r0 l0 t0 lines">✗</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the</em></td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">the book</em>
+<td class="l m b0 r0 l0 t0 lines"><i class="foreign">the</i></td>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">the book</i>
 </td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">the books</em>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">the books</i>
 </td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">the water</em>
-</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">this/that</em></td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">this book</em>
-</td>
-<td class="l m b0 r0 l0 t0 lines">✗</td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">this water</em>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">the water</i>
 </td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">these/those</em></td>
-<td class="l m b0 r0 l0 t0 lines">✗</td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">these books</em>
+<td class="l m b0 r0 l0 t0 lines"><i class="foreign">this/that</i></td>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">this book</i>
 </td>
 <td class="l m b0 r0 l0 t0 lines">✗</td>
-</tr>
-<tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">some</em></td>
-<td class="l m b0 r0 l0 t0 lines">✗</td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">some books</em>
-</td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">some water</em>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">this water</i>
 </td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">many</em></td>
+<td class="l m b0 r0 l0 t0 lines"><i class="foreign">these/those</i></td>
 <td class="l m b0 r0 l0 t0 lines">✗</td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">many books</em>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">these books</i>
 </td>
 <td class="l m b0 r0 l0 t0 lines">✗</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">much</em></td>
+<td class="l m b0 r0 l0 t0 lines"><i class="foreign">some</i></td>
+<td class="l m b0 r0 l0 t0 lines">✗</td>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">some books</i>
+</td>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">some water</i>
+</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><i class="foreign">many</i></td>
+<td class="l m b0 r0 l0 t0 lines">✗</td>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">many books</i>
+</td>
+<td class="l m b0 r0 l0 t0 lines">✗</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><i class="foreign">much</i></td>
 <td class="l m b0 r0 l0 t0 lines">✗</td>
 <td class="l m b0 r0 l0 t0 lines">✗</td>
-<td class="l m b0 r0 l0 t0 lines">✓ <em class="emphasis">much water</em>
+<td class="l m b0 r0 l0 t0 lines">✓ <i class="foreign">much water</i>
 </td>
 </tr>
 </table></div>
 <div class="para" id="ch-06-closed-classes-sec-62-57">These patterns are systematic—native speakers follow them automatically.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-57" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-06-closed-classes-sec-62-58"><h3 class="heading"><span class="title">Determiners or Pronouns?</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Determiners or Pronouns?"><a href="#ch-06-closed-classes-sec-62-58" title="Copy heading and permalink for Paragraphs: Determiners or Pronouns?" aria-label="Copy heading and permalink for Paragraphs: Determiners or Pronouns?">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-59">Some words can be either a determiner or a pronoun depending on how they are used in a sentence. For example, possessive forms like <em class="emphasis">her</em> and <em class="emphasis">his</em>, and demonstratives like <em class="emphasis">this</em> and <em class="emphasis">that</em>, can appear as determiners (before a noun) or as standalone pronouns. See section 6.3 on pronouns for more details on how these overlapping forms work.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-59" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Determiners or Pronouns?"><a href="#ch-06-closed-classes-sec-62-58" title="Copy heading and permalink for Paragraphs: Determiners or Pronouns?" aria-label="Copy heading and permalink for Paragraphs: Determiners or Pronouns?">🔗</a></div></section><div class="para" id="ch-06-closed-classes-sec-62-59">Some words can be either a determiner or a pronoun depending on how they are used in a sentence. For example, possessive forms like (<i class="foreign">her</i>) and (<i class="foreign">his</i>), and demonstratives like (<i class="foreign">this</i>) and (<i class="foreign">that</i>), can appear as determiners (before a noun) or as standalone pronouns. See section 6.3 on pronouns for more details on how these overlapping forms work.<div class="autopermalink" data-description="Paragraph"><a href="#ch-06-closed-classes-sec-62-59" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Section 6.2: Determiners"><a href="#ch-06-closed-classes-sec-62" title="Copy heading and permalink for Section 6.2: Determiners" aria-label="Copy heading and permalink for Section 6.2: Determiners">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">

@@ -227,6 +227,41 @@ section .tabular-box {
 #ptx-page-footer {
     display: none !important;
 }
+
+/* ===== Language Example Styling ===== */
+
+/* Language examples (<foreign> element): sans-serif at body text size */
+.ptx-content .foreign,
+.ptx-content i.foreign {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-style: normal !important;
+    font-size: inherit !important;
+}
+
+/* Broken-out example lists: light grey background with indentation */
+.ptx-content ul:has(> li .foreign),
+.ptx-content ol:has(> li .foreign) {
+    background-color: #f5f6f8 !important;
+    padding: 0.6em 1.5em !important;
+    border-radius: 5px !important;
+    margin-left: 1em !important;
+    border-left: 3px solid #e2e4e8 !important;
+}
+
+/* Tables containing language examples: light grey background */
+.ptx-content .tabular-box:has(.foreign) {
+    background-color: #f5f6f8 !important;
+    padding: 0.5em 0.75em !important;
+    border-radius: 5px !important;
+    margin-left: 1em !important;
+    border-left: 3px solid #e2e4e8 !important;
+}
+
+/* Inline quotation marks around sentence examples: sans-serif */
+.ptx-content q {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: inherit !important;
+}
 </style>
 </head>
 <body id="concise-guide-english-grammar" class="pretext book ignore-math">
