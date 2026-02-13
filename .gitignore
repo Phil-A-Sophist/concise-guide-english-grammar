@@ -91,6 +91,9 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+# Don't track Claude Code local settings
+.claude/
+
 # Don't track common virtual environment directories
 venv/
 
