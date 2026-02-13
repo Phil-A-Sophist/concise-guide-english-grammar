@@ -43,20 +43,25 @@ Last updated: 2026-02-12
 
 ## Language Example Formatting
 
-**Current approach:** Multi-pronged formatting system using `<foreign>` PreTeXt element:
+**Current approach:** Multi-pronged formatting system using `<foreign>` PreTeXt element with refined marking rules:
+
 1. **`<foreign>`** for all language examples → renders as `<i class="foreign">` → CSS overrides to sans-serif, non-italic
-2. **Inline word examples** in parentheses: `(<foreign>dog</foreign>)` → "(dog)" in sans-serif
-3. **Inline sentence examples** in quotation marks via `<q>`: `<q><foreign>The dog barked.</foreign></q>` → renders with quotes
+2. **Font sizing:** `.foreign` and `q` elements use `font-size: 0.9em` (scaled down from 0.95em for clarity)
+3. **Marking by context:**
+   - **Paragraphs:** Inline sentence examples use quotation marks via `<q>`: `<q><foreign>The dog barked.</foreign></q>`
+   - **Lists/tables/block quotes:** No additional markers needed; font styling + optional grey background (#f5f6f8) with left border are sufficient visual distinction
+   - **Parenthetical grouping:** Use parentheses only for grouped multiple examples in a row: `<foreign>(some, many, every, three)</foreign>`
 4. **`<em>`** retained ONLY for emphasis, labels, and technical terms (NOT language examples)
-5. **`<em>` inside `<foreign>`** highlights specific words within examples (e.g., the target determiner)
-6. CSS `:has(.foreign)` selector gives broken-out lists/tables grey background (#f5f6f8) with left border
-7. **Strikethrough for ungrammatical examples:** Use PreTeXt `<delete>` element: `<delete><foreign>ungrammatical text</foreign></delete>` → renders as struck-through sans-serif text
+5. **`<em>` inside `<foreign>`** highlights specific words within examples (e.g., target determiner in a phrase)
+6. CSS `:has(.foreign)` selector gives broken-out lists/tables grey background with left border
+7. **Strikethrough for ungrammatical examples:** Use PreTeXt `<delete>` element: `<delete><foreign>ungrammatical text</foreign></delete>`
 
 **Previously tried:**
 - Italics (`<em>`) for language examples — removed because it conflated emphasis with language mention
 - Considered `<c>` (code), `<alert>`, and custom elements — rejected because `<foreign>` already maps to `<i class="foreign">` which is cleanly targetable in CSS
-- Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element for proper HTML strikethrough
+- Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element
+- Font size at 18px (0.95em) — refined further to 0.9em for better consistency with sans-serif rendering at various display sizes
 
-**Context:** Chapter 6 is the test chapter. Font size for `.foreign` class reduced to 18px (from inherit, 19px). Remaining chapters (1-5, 7-21) still need the same treatment. The approach requires a manual read-through of each chapter to distinguish language examples from genuine emphasis.
+**Context:** Chapter 6 is the test chapter where the refined rules are being standardized across all example contexts. The approach balances visual clarity (sans-serif, reduced size) with semantic correctness (proper XML elements, no over-marking). Manual review of each chapter required to apply rules correctly; later chapters will follow the same pattern.
 
 ## Archived
