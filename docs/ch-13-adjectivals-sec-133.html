@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -803,27 +811,27 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Example</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">who</em></td>
+<td class="l m b0 r0 l0 t0 lines">who</td>
 <td class="l m b0 r0 l0 t0 lines">subject (people)</td>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the man <em class="emphasis">who</em> arrived</em></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">whom</em></td>
+<td class="l m b0 r0 l0 t0 lines">whom</td>
 <td class="l m b0 r0 l0 t0 lines">object (people, formal)</td>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the man <em class="emphasis">whom</em> I saw</em></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">whose</em></td>
+<td class="l m b0 r0 l0 t0 lines">whose</td>
 <td class="l m b0 r0 l0 t0 lines">possessive (people/things)</td>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the author <em class="emphasis">whose</em> book I read</em></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">which</em></td>
+<td class="l m b0 r0 l0 t0 lines">which</td>
 <td class="l m b0 r0 l0 t0 lines">subject/object (things)</td>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the book <em class="emphasis">which</em> I read</em></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">that</em></td>
+<td class="l m b0 r0 l0 t0 lines">that</td>
 <td class="l m b0 r0 l0 t0 lines">subject/object (people/things)</td>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the book <em class="emphasis">that</em> I read</em></td>
 </tr>
@@ -836,17 +844,17 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Example</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">where</em></td>
+<td class="l m b0 r0 l0 t0 lines">where</td>
 <td class="l m b0 r0 l0 t0 lines">place</td>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the city <em class="emphasis">where</em> I was born</em></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">when</em></td>
+<td class="l m b0 r0 l0 t0 lines">when</td>
 <td class="l m b0 r0 l0 t0 lines">time</td>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the day <em class="emphasis">when</em> we met</em></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">why</em></td>
+<td class="l m b0 r0 l0 t0 lines">why</td>
 <td class="l m b0 r0 l0 t0 lines">reason</td>
 <td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the reason <em class="emphasis">why</em> she left</em></td>
 </tr>
@@ -870,12 +878,12 @@ section .tabular-box {
 </ul>
 <ul class="disc" id="ch-13-adjectivals-sec-133-17">
 <li id="ch-13-adjectivals-sec-133-17-1">
-<div class="para" id="ch-13-adjectivals-sec-133-17-1-1">Restrictive: <em class="emphasis">The book <em class="emphasis">that</em> I recommended is excellent.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-adjectivals-sec-133-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-13-adjectivals-sec-133-17-1-1">Restrictive: "The book <em class="emphasis">that</em> I recommended is excellent."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-adjectivals-sec-133-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-13-adjectivals-sec-133-17-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-13-adjectivals-sec-133-17-2">
-<div class="para" id="ch-13-adjectivals-sec-133-17-2-1">Non-restrictive: <em class="emphasis">This book, <em class="emphasis">which</em> I recommended, is excellent.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-adjectivals-sec-133-17-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-13-adjectivals-sec-133-17-2-1">Non-restrictive: "This book, <em class="emphasis">which</em> I recommended, is excellent."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-adjectivals-sec-133-17-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-13-adjectivals-sec-133-17-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -907,7 +915,7 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-13-adjectivals-sec-133-22"><li id="ch-13-adjectivals-sec-133-22-1">
 <div class="para" id="ch-13-adjectivals-sec-133-22-1-1">
-<em class="emphasis">the man <em class="emphasis">who</em> arrived</em> (not <em class="emphasis">~~the man arrived~~</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-adjectivals-sec-133-22-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">the man <em class="emphasis">who</em> arrived</em> (not ~~the man arrived~~)<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-adjectivals-sec-133-22-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-13-adjectivals-sec-133-22-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>

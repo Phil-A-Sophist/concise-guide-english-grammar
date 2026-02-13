@@ -43,7 +43,7 @@
     <ul>
       <li><p><em>~~John told Mark that <em>he</em> was promoted.~~</em> (Who was promoted?)</p></li>
       <li><p>Clear: <em>John told Mark, &quot;I was promoted.&quot;</em></p></li>
-      <li><p>Clear: <em>John congratulated Mark on <em>Mark's</em> promotion.</em></p></li>
+      <li><p>Clear: "John congratulated Mark on <em>Mark's</em> promotion."</p></li>
     </ul>
 
     <paragraphs>
@@ -66,7 +66,7 @@
       <title>Broad Reference</title>
     </paragraphs>
 
-    <p>When <em>this</em>, <em>that</em>, <em>which</em>, or <em>it</em> refers to a whole clause rather than a specific noun:</p>
+    <p>When this, that, which, or <em>it</em> refers to a whole clause rather than a specific noun:</p>
 
     <ul>
       <li><p><em>~~She arrived late, which upset everyone.~~</em> (What does &quot;which&quot; refer to?)</p></li>
@@ -90,12 +90,12 @@
 
     <ul>
       <li><p><em>~~She almost drove <em>her car</em> into every pothole.~~</em> (Did she almost drive, or almost every pothole?)</p></li>
-      <li><p>Clear: <em>She drove her car into <em>almost every</em> pothole.</em></p></li>
+      <li><p>Clear: "She drove her car into <em>almost every</em> pothole."</p></li>
     </ul>
 
     <ul>
       <li><p><em>~~I only eat <em>vegetables</em>.~~</em> (Only I eat them? I do nothing but eat them?)</p></li>
-      <li><p>Clear: <em>I eat <em>only vegetables</em>.</em></p></li>
+      <li><p>Clear: "I eat <em>only vegetables</em>."</p></li>
     </ul>
 
     <paragraphs>
@@ -106,8 +106,8 @@
 
     <ul>
       <li><p><em>~~Students who study <em>often</em> succeed.~~</em> (Do they study often, or often succeed?)</p></li>
-      <li><p>Clear: <em>Students who <em>often study</em> succeed.</em></p></li>
-      <li><p>Clear: <em>Students who study succeed <em>often</em>.</em></p></li>
+      <li><p>Clear: "Students who <em>often study</em> succeed."</p></li>
+      <li><p>Clear: "Students who study succeed <em>often</em>."</p></li>
     </ul>
 
     <paragraphs>
@@ -179,7 +179,7 @@
     <p>Very long sentences strain working memory. When sentences exceed 25-30 words, consider dividing them:</p>
 
     <ul>
-      <li><p><em>~~The committee, which was established by the board last year to investigate the issues raised by employees concerning workplace conditions, submitted its final report, which contained numerous recommendations for improvement, yesterday.~~</em></p></li>
+      <li><p>~~The committee, which was established by the board last year to investigate the issues raised by employees concerning workplace conditions, submitted its final report, which contained numerous recommendations for improvement, yesterday.~~</p></li>
     </ul>
 
     <ul>
@@ -193,7 +193,7 @@
     <p>Multiple embeddings create difficulty:</p>
 
     <ul>
-      <li><p><em>~~The book that the professor who teaches the course that I'm taking recommended was unavailable.~~</em></p></li>
+      <li><p>~~The book that the professor who teaches the course that I'm taking recommended was unavailable.~~</p></li>
     </ul>
 
     <ul>
@@ -231,7 +231,7 @@
       <title>With Correlative Conjunctions</title>
     </paragraphs>
 
-    <p>Parallelism is especially important with correlative conjunctions (<em>both...and</em>, <em>either...or</em>, <em>not only...but also</em>):</p>
+    <p>Parallelism is especially important with correlative conjunctions (both...and, either...or, not only...but also):</p>
 
     <ul>
       <li><p><em>~~She <em>not only</em> plays piano <em>but also</em> she sings.~~</em></p></li>
@@ -255,7 +255,7 @@
     <p>Choose words that say exactly what you mean:</p>
 
     <ul>
-      <li><p>Vague: <em>The results were <em>interesting</em>.</em></p></li>
+      <li><p>Vague: "The results were <em>interesting</em>."</p></li>
       <li><p>Precise: <em>The results were <em>surprising</em> / <em>encouraging</em> / <em>contradictory</em>.</em></p></li>
     </ul>
 

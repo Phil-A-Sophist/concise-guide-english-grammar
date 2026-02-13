@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -775,15 +783,15 @@ section .tabular-box {
 </div>
 <section class="paragraphs" id="ch-05-homework-1-4"><h4 class="heading"><span class="title">Example (completed).</span></h4>
 <div class="autopermalink" data-description="Paragraphs: Example (completed)"><a href="#ch-05-homework-1-4" title="Copy heading and permalink for Paragraphs: Example (completed)" aria-label="Copy heading and permalink for Paragraphs: Example (completed)">🔗</a></div></section><div class="para" id="ch-05-homework-1-5">
-<em class="emphasis">Word:</em> <em class="emphasis">carefully</em> in "She <em class="emphasis">carefully</em> reviewed the document."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Word:</em> carefully in "She carefully reviewed the document."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-homework-1-6">Part of speech: Adverb<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-homework-1-7">Test used: The <em class="emphasis">-ly</em> suffix test. "Carefully" is formed by adding <em class="emphasis">-ly</em> to the adjective "careful," which is a reliable pattern for adverbs. Additionally, it modifies the verb "reviewed," telling us how she reviewed.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-homework-1-7">Test used: The -ly suffix test. "Carefully" is formed by adding -ly to the adjective "careful," which is a reliable pattern for adverbs. Additionally, it modifies the verb "reviewed," telling us how she reviewed.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-homework-1-8"><h4 class="heading"><span class="title">Exercises.</span></h4>
 <div class="autopermalink" data-description="Paragraphs: Exercises"><a href="#ch-05-homework-1-8" title="Copy heading and permalink for Paragraphs: Exercises" aria-label="Copy heading and permalink for Paragraphs: Exercises">🔗</a></div></section><div class="para" id="ch-05-homework-1-9">
-<em class="emphasis">Exercise 1.</em> <em class="emphasis">The <dfn class="terminology">development</dfn> of new technology takes time.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 1.</em> The <dfn class="terminology">development</dfn> of new technology takes time.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-1-10">
 <li id="ch-05-homework-1-10-1">
@@ -798,7 +806,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-1-11">
-<em class="emphasis">Exercise 2.</em> <em class="emphasis">She <dfn class="terminology">quickly</dfn> solved the problem.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 2.</em> She <dfn class="terminology">quickly</dfn> solved the problem.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-1-12">
 <li id="ch-05-homework-1-12-1">
@@ -813,7 +821,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-1-13">
-<em class="emphasis">Exercise 3.</em> <em class="emphasis">The <dfn class="terminology">beautiful</dfn> garden attracted visitors.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 3.</em> The <dfn class="terminology">beautiful</dfn> garden attracted visitors.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-1-14">
 <li id="ch-05-homework-1-14-1">
@@ -828,7 +836,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-1-15">
-<em class="emphasis">Exercise 4.</em> <em class="emphasis">The committee will <dfn class="terminology">investigate</dfn> the matter.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 4.</em> The committee will <dfn class="terminology">investigate</dfn> the matter.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-1-16">
 <li id="ch-05-homework-1-16-1">
@@ -843,7 +851,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-1-17">
-<em class="emphasis">Exercise 5.</em> <em class="emphasis">His response was <dfn class="terminology">surprisingly</dfn> confident.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 5.</em> His response was <dfn class="terminology">surprisingly</dfn> confident.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-1-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-1-18">
 <li id="ch-05-homework-1-18-1">
@@ -865,15 +873,15 @@ section .tabular-box {
 </div>
 <section class="paragraphs" id="ch-05-homework-2-4"><h4 class="heading"><span class="title">Example (completed).</span></h4>
 <div class="autopermalink" data-description="Paragraphs: Example (completed)"><a href="#ch-05-homework-2-4" title="Copy heading and permalink for Paragraphs: Example (completed)" aria-label="Copy heading and permalink for Paragraphs: Example (completed)">🔗</a></div></section><div class="para" id="ch-05-homework-2-5">
-<em class="emphasis">Phrase:</em> <em class="emphasis">the old wooden bridge</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Phrase:</em> the old wooden bridge<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-homework-2-6">Headword: <em class="emphasis">bridge</em> (the noun that the phrase is built around)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-homework-2-6">Headword: bridge (the noun that the phrase is built around)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-homework-2-7">Phrase type: Noun Phrase (NP)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-homework-2-8"><h4 class="heading"><span class="title">Exercises.</span></h4>
 <div class="autopermalink" data-description="Paragraphs: Exercises"><a href="#ch-05-homework-2-8" title="Copy heading and permalink for Paragraphs: Exercises" aria-label="Copy heading and permalink for Paragraphs: Exercises">🔗</a></div></section><div class="para" id="ch-05-homework-2-9">
-<em class="emphasis">Exercise 6.</em> <em class="emphasis">very carefully</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 6.</em> very carefully<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-2-10">
 <li id="ch-05-homework-2-10-1">
@@ -888,7 +896,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-2-11">
-<em class="emphasis">Exercise 7.</em> <em class="emphasis">read the entire chapter</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 7.</em> read the entire chapter<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-2-12">
 <li id="ch-05-homework-2-12-1">
@@ -903,7 +911,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-2-13">
-<em class="emphasis">Exercise 8.</em> <em class="emphasis">extremely proud</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 8.</em> extremely proud<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-2-14">
 <li id="ch-05-homework-2-14-1">
@@ -918,7 +926,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-2-15">
-<em class="emphasis">Exercise 9.</em> <em class="emphasis">my sister’s new apartment</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 9.</em> my sister’s new apartment<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-2-16">
 <li id="ch-05-homework-2-16-1">
@@ -933,7 +941,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-2-17">
-<em class="emphasis">Exercise 10.</em> <em class="emphasis">gave her the news</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 10.</em> gave her the news<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-2-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-2-18">
 <li id="ch-05-homework-2-18-1">
@@ -955,18 +963,18 @@ section .tabular-box {
 </div>
 <section class="paragraphs" id="ch-05-homework-3-4"><h4 class="heading"><span class="title">Example (completed).</span></h4>
 <div class="autopermalink" data-description="Paragraphs: Example (completed)"><a href="#ch-05-homework-3-4" title="Copy heading and permalink for Paragraphs: Example (completed)" aria-label="Copy heading and permalink for Paragraphs: Example (completed)">🔗</a></div></section><div class="para" id="ch-05-homework-3-5">
-<em class="emphasis">Sentence:</em> <em class="emphasis">The young scientist discovered a new element.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Sentence:</em> The young scientist discovered a new element.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-homework-3-6">
 <em class="emphasis">Find and replace:</em> The NP that serves as subject<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-homework-3-7">Original NP: <em class="emphasis">The young scientist</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-homework-3-7">Original NP: The young scientist<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-homework-3-8">Revised sentence: <em class="emphasis">My neighbor’s curious daughter discovered a new element.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-homework-3-8">Revised sentence: My neighbor’s curious daughter discovered a new element.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-homework-3-9"><h4 class="heading"><span class="title">Exercises.</span></h4>
 <div class="autopermalink" data-description="Paragraphs: Exercises"><a href="#ch-05-homework-3-9" title="Copy heading and permalink for Paragraphs: Exercises" aria-label="Copy heading and permalink for Paragraphs: Exercises">🔗</a></div></section><div class="para" id="ch-05-homework-3-10">
-<em class="emphasis">Exercise 11.</em> <em class="emphasis">The committee reviewed the lengthy proposal.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 11.</em> The committee reviewed the lengthy proposal.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-3-11">
 <li id="ch-05-homework-3-11-1">
@@ -986,7 +994,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-3-12">
-<em class="emphasis">Exercise 12.</em> <em class="emphasis">She seemed extremely confident during the interview.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 12.</em> She seemed extremely confident during the interview.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-3-13">
 <li id="ch-05-homework-3-13-1">
@@ -1006,7 +1014,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-3-14">
-<em class="emphasis">Exercise 13.</em> <em class="emphasis">The dog barked quite loudly at the mail carrier.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 13.</em> The dog barked quite loudly at the mail carrier.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-3-15">
 <li id="ch-05-homework-3-15-1">
@@ -1026,7 +1034,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-3-16">
-<em class="emphasis">Exercise 14.</em> <em class="emphasis">The talented musician plays the guitar.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 14.</em> The talented musician plays the guitar.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-3-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-3-17">
 <li id="ch-05-homework-3-17-1">
@@ -1049,22 +1057,22 @@ section .tabular-box {
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.9.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Flexible Words</span>
 </h3>
 <section class="paragraphs" id="ch-05-homework-4-2"><h4 class="heading"><span class="title">Instructions.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: Instructions"><a href="#ch-05-homework-4-2" title="Copy heading and permalink for Paragraphs: Instructions" aria-label="Copy heading and permalink for Paragraphs: Instructions">🔗</a></div></section><div class="para" id="ch-05-homework-4-3">Many English words can function as different parts of speech. For each word below, write a sentence using it as the headword of the specified phrase type. You may change the word’s form if needed (e.g., <em class="emphasis">book</em> → <em class="emphasis">books</em>, <em class="emphasis">booked</em>, <em class="emphasis">booking</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Instructions"><a href="#ch-05-homework-4-2" title="Copy heading and permalink for Paragraphs: Instructions" aria-label="Copy heading and permalink for Paragraphs: Instructions">🔗</a></div></section><div class="para" id="ch-05-homework-4-3">Many English words can function as different parts of speech. For each word below, write a sentence using it as the headword of the specified phrase type. You may change the word’s form if needed (e.g., book → books, booked, booking).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-homework-4-4"><h4 class="heading"><span class="title">Example (completed).</span></h4>
 <div class="autopermalink" data-description="Paragraphs: Example (completed)"><a href="#ch-05-homework-4-4" title="Copy heading and permalink for Paragraphs: Example (completed)" aria-label="Copy heading and permalink for Paragraphs: Example (completed)">🔗</a></div></section><div class="para" id="ch-05-homework-4-5">
-<em class="emphasis">Word:</em> <em class="emphasis">book</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Word:</em> book<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-homework-4-6">
 <em class="emphasis">Use as:</em> headword of a VP (verb phrase)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-homework-4-7">Sentence: <em class="emphasis">We booked the flight last Tuesday.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-homework-4-7">Sentence: We booked the flight last Tuesday.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-homework-4-8">Explanation: <em class="emphasis">Booked</em> is the headword of the VP <em class="emphasis">booked the flight last Tuesday</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-homework-4-8">Explanation: Booked is the headword of the VP booked the flight last Tuesday.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-homework-4-9"><h4 class="heading"><span class="title">Exercises.</span></h4>
 <div class="autopermalink" data-description="Paragraphs: Exercises"><a href="#ch-05-homework-4-9" title="Copy heading and permalink for Paragraphs: Exercises" aria-label="Copy heading and permalink for Paragraphs: Exercises">🔗</a></div></section><div class="para" id="ch-05-homework-4-10">
-<em class="emphasis">Exercise 15.</em> <em class="emphasis">clean</em> — use as the headword of a VP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 15.</em> clean — use as the headword of a VP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-4-11"><li id="ch-05-homework-4-11-1">
 <div class="para" id="ch-05-homework-4-11-1-1">Your sentence:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1072,7 +1080,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-05-homework-4-11-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
 <div class="para" id="ch-05-homework-4-12">
-<em class="emphasis">Exercise 16.</em> <em class="emphasis">clean</em> — use as the headword of an AdjP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 16.</em> clean — use as the headword of an AdjP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-4-13"><li id="ch-05-homework-4-13-1">
 <div class="para" id="ch-05-homework-4-13-1-1">Your sentence:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1080,7 +1088,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-05-homework-4-13-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
 <div class="para" id="ch-05-homework-4-14">
-<em class="emphasis">Exercise 17.</em> <em class="emphasis">water</em> — use as the headword of an NP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 17.</em> water — use as the headword of an NP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-4-15"><li id="ch-05-homework-4-15-1">
 <div class="para" id="ch-05-homework-4-15-1-1">Your sentence:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1088,7 +1096,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-05-homework-4-15-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
 <div class="para" id="ch-05-homework-4-16">
-<em class="emphasis">Exercise 18.</em> <em class="emphasis">water</em> — use as the headword of a VP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 18.</em> water — use as the headword of a VP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-4-17"><li id="ch-05-homework-4-17-1">
 <div class="para" id="ch-05-homework-4-17-1-1">Your sentence:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1096,7 +1104,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-05-homework-4-17-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
 <div class="para" id="ch-05-homework-4-18">
-<em class="emphasis">Exercise 19.</em> <em class="emphasis">light</em> — use as the headword of an NP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 19.</em> light — use as the headword of an NP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-4-19"><li id="ch-05-homework-4-19-1">
 <div class="para" id="ch-05-homework-4-19-1-1">Your sentence:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-19-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1104,7 +1112,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-05-homework-4-19-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
 <div class="para" id="ch-05-homework-4-20">
-<em class="emphasis">Exercise 20.</em> <em class="emphasis">light</em> — use as the headword of an AdjP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 20.</em> light — use as the headword of an AdjP<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-4-21"><li id="ch-05-homework-4-21-1">
 <div class="para" id="ch-05-homework-4-21-1-1">Your sentence:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-4-21-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1115,20 +1123,20 @@ section .tabular-box {
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.9.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Word Class Transformations</span>
 </h3>
 <section class="paragraphs" id="ch-05-homework-5-2"><h4 class="heading"><span class="title">Instructions.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: Instructions"><a href="#ch-05-homework-5-2" title="Copy heading and permalink for Paragraphs: Instructions" aria-label="Copy heading and permalink for Paragraphs: Instructions">🔗</a></div></section><div class="para" id="ch-05-homework-5-3">The sentences below express similar ideas, but each uses a different form of the root word <em class="emphasis">create</em>. For each sentence, identify the part of speech of the underlined word, explain which test(s) you used to identify it, and then answer the reflection questions at the end.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Instructions"><a href="#ch-05-homework-5-2" title="Copy heading and permalink for Paragraphs: Instructions" aria-label="Copy heading and permalink for Paragraphs: Instructions">🔗</a></div></section><div class="para" id="ch-05-homework-5-3">The sentences below express similar ideas, but each uses a different form of the root word create. For each sentence, identify the part of speech of the underlined word, explain which test(s) you used to identify it, and then answer the reflection questions at the end.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-homework-5-4"><h4 class="heading"><span class="title">Sentences.</span></h4>
-<div class="autopermalink" data-description="Paragraphs: Sentences"><a href="#ch-05-homework-5-4" title="Copy heading and permalink for Paragraphs: Sentences" aria-label="Copy heading and permalink for Paragraphs: Sentences">🔗</a></div></section><div class="para" id="ch-05-homework-5-5">A. <em class="emphasis">The artist’s <dfn class="terminology">creation</dfn> amazed the critics.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Sentences"><a href="#ch-05-homework-5-4" title="Copy heading and permalink for Paragraphs: Sentences" aria-label="Copy heading and permalink for Paragraphs: Sentences">🔗</a></div></section><div class="para" id="ch-05-homework-5-5">A. The artist’s <dfn class="terminology">creation</dfn> amazed the critics.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-homework-5-6">B. <em class="emphasis">The artist <dfn class="terminology">created</dfn> something amazing.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-homework-5-6">B. The artist <dfn class="terminology">created</dfn> something amazing.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-homework-5-7">C. <em class="emphasis">The artist is highly <dfn class="terminology">creative</dfn>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-homework-5-7">C. The artist is highly <dfn class="terminology">creative</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-homework-5-8">D. <em class="emphasis">The artist works <dfn class="terminology">creatively</dfn>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-homework-5-8">D. The artist works <dfn class="terminology">creatively</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-homework-5-9"><h4 class="heading"><span class="title">Exercises.</span></h4>
 <div class="autopermalink" data-description="Paragraphs: Exercises"><a href="#ch-05-homework-5-9" title="Copy heading and permalink for Paragraphs: Exercises" aria-label="Copy heading and permalink for Paragraphs: Exercises">🔗</a></div></section><div class="para" id="ch-05-homework-5-10">
-<em class="emphasis">Exercise 21.</em> Sentence A: <em class="emphasis">creation</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 21.</em> Sentence A: creation<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-5-11">
 <li id="ch-05-homework-5-11-1">
@@ -1143,7 +1151,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-5-12">
-<em class="emphasis">Exercise 22.</em> Sentence B: <em class="emphasis">created</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 22.</em> Sentence B: created<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-5-13">
 <li id="ch-05-homework-5-13-1">
@@ -1158,7 +1166,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-5-14">
-<em class="emphasis">Exercise 23.</em> Sentence C: <em class="emphasis">creative</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 23.</em> Sentence C: creative<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-5-15">
 <li id="ch-05-homework-5-15-1">
@@ -1173,7 +1181,7 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-05-homework-5-16">
-<em class="emphasis">Exercise 24.</em> Sentence D: <em class="emphasis">creatively</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Exercise 24.</em> Sentence D: creatively<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-homework-5-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-homework-5-17">
 <li id="ch-05-homework-5-17-1">

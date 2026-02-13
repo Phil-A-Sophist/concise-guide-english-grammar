@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -874,7 +882,7 @@ section .tabular-box {
 <div class="para" id="ch-12-homework-part2-6">
 <em class="emphasis">Exercises:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-12-homework-part2-7">4. <em class="emphasis">She answered the questions <em class="emphasis">honestly</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-12-homework-part2-7">4. "She answered the questions <em class="emphasis">honestly</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-12-homework-part2-8">
 <li id="ch-12-homework-part2-8-1">
@@ -902,7 +910,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-12-homework-part2-10-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-12-homework-part2-11">6. <em class="emphasis">The data were inconclusive. <em class="emphasis">Nevertheless</em>, the researchers published their findings.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-12-homework-part2-11">6. "The data were inconclusive. <em class="emphasis">Nevertheless</em>, the researchers published their findings."<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-12-homework-part2-12">
 <li id="ch-12-homework-part2-12-1">
@@ -916,7 +924,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-12-homework-part2-12-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-12-homework-part2-13">7. <em class="emphasis">He spoke <em class="emphasis">softly</em> so the children wouldn’t wake up.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-12-homework-part2-13">7. "He spoke <em class="emphasis">softly</em> so the children wouldn’t wake up."<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-12-homework-part2-14">
 <li id="ch-12-homework-part2-14-1">
@@ -930,7 +938,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-12-homework-part2-14-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-12-homework-part2-15">8. <em class="emphasis">The experiment failed. <em class="emphasis">Therefore</em>, they redesigned the protocol.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part2-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-12-homework-part2-15">8. "The experiment failed. <em class="emphasis">Therefore</em>, they redesigned the protocol."<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part2-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-12-homework-part2-16">
 <li id="ch-12-homework-part2-16-1">
@@ -1015,7 +1023,7 @@ section .tabular-box {
 <div class="para" id="ch-12-homework-part4-6">
 <em class="emphasis">Exercises:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-12-homework-part4-7">14. Write a sentence with an adverb clause of time (using <em class="emphasis">while</em>, <em class="emphasis">when</em>, <em class="emphasis">before</em>, <em class="emphasis">after</em>, or <em class="emphasis">until</em>):<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-12-homework-part4-7">14. Write a sentence with an adverb clause of time (using while, when, before, after, or until):<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-12-homework-part4-8"><li id="ch-12-homework-part4-8-1">
 <div class="para" id="ch-12-homework-part4-8-1-1">__________<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -1029,14 +1037,14 @@ section .tabular-box {
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-12-homework-part4-10-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
-<div class="para" id="ch-12-homework-part4-11">16. Write a sentence with a conjunct that shows contrast (using <em class="emphasis">however</em>, <em class="emphasis">nevertheless</em>, or <em class="emphasis">on the other hand</em>):<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-12-homework-part4-11">16. Write a sentence with a conjunct that shows contrast (using however, nevertheless, or on the other hand):<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-12-homework-part4-12"><li id="ch-12-homework-part4-12-1">
 <div class="para" id="ch-12-homework-part4-12-1-1">__________<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-12-homework-part4-12-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
-<div class="para" id="ch-12-homework-part4-13">17. Write a sentence with an adverb clause of purpose (using <em class="emphasis">so that</em> or <em class="emphasis">in order that</em>):<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-12-homework-part4-13">17. Write a sentence with an adverb clause of purpose (using so that or in order that):<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-12-homework-part4-14"><li id="ch-12-homework-part4-14-1">
 <div class="para" id="ch-12-homework-part4-14-1-1">__________<div class="autopermalink" data-description="Paragraph"><a href="#ch-12-homework-part4-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>

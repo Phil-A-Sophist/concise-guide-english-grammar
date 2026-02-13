@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -773,14 +781,13 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-15-punctuation-sec-156-4">
 <li id="ch-15-punctuation-sec-156-4-1">
-<div class="para" id="ch-15-punctuation-sec-156-4-1-1">
-<em class="emphasis">the dog’s tail</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-15-punctuation-sec-156-4-1-1">the dog’s tail<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-15-punctuation-sec-156-4-2">
 <div class="para" id="ch-15-punctuation-sec-156-4-2-1">
-<em class="emphasis">James’s book</em> (or <em class="emphasis">James’ book</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">James’s book</em> (or James’ book)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -789,14 +796,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-15-punctuation-sec-156-6">
 <li id="ch-15-punctuation-sec-156-6-1">
-<div class="para" id="ch-15-punctuation-sec-156-6-1-1">
-<em class="emphasis">the dogs’ tails</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-15-punctuation-sec-156-6-1-1">the dogs’ tails<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-6-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-15-punctuation-sec-156-6-2">
-<div class="para" id="ch-15-punctuation-sec-156-6-2-1">
-<em class="emphasis">the students’ grades</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-15-punctuation-sec-156-6-2-1">the students’ grades<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-6-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -805,14 +810,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-15-punctuation-sec-156-8">
 <li id="ch-15-punctuation-sec-156-8-1">
-<div class="para" id="ch-15-punctuation-sec-156-8-1-1">
-<em class="emphasis">the children’s toys</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-15-punctuation-sec-156-8-1-1">the children’s toys<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-8-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-15-punctuation-sec-156-8-2">
-<div class="para" id="ch-15-punctuation-sec-156-8-2-1">
-<em class="emphasis">the women’s team</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-15-punctuation-sec-156-8-2-1">the women’s team<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-8-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -847,13 +850,13 @@ section .tabular-box {
 <ul class="disc" id="ch-15-punctuation-sec-156-14">
 <li id="ch-15-punctuation-sec-156-14-1">
 <div class="para" id="ch-15-punctuation-sec-156-14-1-1">
-<em class="emphasis">Its</em> = possessive (<em class="emphasis">The dog wagged its tail.</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Its</em> = possessive (The dog wagged its tail.)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-14-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-15-punctuation-sec-156-14-2">
 <div class="para" id="ch-15-punctuation-sec-156-14-2-1">
-<em class="emphasis">It’s</em> = it is (<em class="emphasis">It’s raining.</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-14-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">It’s</em> = it is (It’s raining.)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-14-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-14-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -864,19 +867,19 @@ section .tabular-box {
 <ul class="disc" id="ch-15-punctuation-sec-156-16">
 <li id="ch-15-punctuation-sec-156-16-1">
 <div class="para" id="ch-15-punctuation-sec-156-16-1-1">
-<em class="emphasis">Their</em> = possessive (<em class="emphasis">Their house</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Their</em> = possessive (Their house)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-16-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-15-punctuation-sec-156-16-2">
 <div class="para" id="ch-15-punctuation-sec-156-16-2-1">
-<em class="emphasis">There</em> = location (<em class="emphasis">over there</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-16-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">There</em> = location (over there)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-16-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-16-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-15-punctuation-sec-156-16-3">
 <div class="para" id="ch-15-punctuation-sec-156-16-3-1">
-<em class="emphasis">They’re</em> = they are (<em class="emphasis">They’re coming</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-16-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">They’re</em> = they are (They’re coming)<div class="autopermalink" data-description="Paragraph"><a href="#ch-15-punctuation-sec-156-16-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-15-punctuation-sec-156-16-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>

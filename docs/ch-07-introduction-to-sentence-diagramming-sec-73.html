@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -794,100 +802,72 @@ section .tabular-box {
 <tr>
 <td class="l m b0 r0 l0 t0 lines">NP</td>
 <td class="l m b0 r0 l0 t0 lines">Noun phrase</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">the dog</em>, <em class="emphasis">she</em>, <em class="emphasis">my old friend</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">the dog, she, my old friend</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">VP</td>
 <td class="l m b0 r0 l0 t0 lines">Verb phrase</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">runs</em>, <em class="emphasis">ate the sandwich</em>, <em class="emphasis">is happy</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">runs, ate the sandwich, is happy</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">PP</td>
 <td class="l m b0 r0 l0 t0 lines">Prepositional phrase</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">in the house</em>, <em class="emphasis">with enthusiasm</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">in the house, with enthusiasm</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">AdjP</td>
 <td class="l m b0 r0 l0 t0 lines">Adjective phrase</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">very tall</em>, <em class="emphasis">happy</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">very tall, happy</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">AdvP</td>
 <td class="l m b0 r0 l0 t0 lines">Adverb phrase</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">quickly</em>, <em class="emphasis">very slowly</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">quickly, very slowly</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">N</td>
 <td class="l m b0 r0 l0 t0 lines">Noun</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">dog</em>, <em class="emphasis">happiness</em>, <em class="emphasis">Sarah</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">dog, happiness, Sarah</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">V</td>
 <td class="l m b0 r0 l0 t0 lines">Verb</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">run</em>, <em class="emphasis">is</em>, <em class="emphasis">consider</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">run, is, consider</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Adj</td>
 <td class="l m b0 r0 l0 t0 lines">Adjective</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">tall</em>, <em class="emphasis">blue</em>, <em class="emphasis">interesting</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">tall, blue, interesting</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Adv</td>
 <td class="l m b0 r0 l0 t0 lines">Adverb</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">quickly</em>, <em class="emphasis">never</em>, <em class="emphasis">there</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">quickly, never, there</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Det</td>
 <td class="l m b0 r0 l0 t0 lines">Determiner</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">the</em>, <em class="emphasis">a</em>, <em class="emphasis">my</em>, <em class="emphasis">this</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">the, a, my, this</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Pro</td>
 <td class="l m b0 r0 l0 t0 lines">Pronoun</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">she</em>, <em class="emphasis">it</em>, <em class="emphasis">they</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">she, it, they</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Prep</td>
 <td class="l m b0 r0 l0 t0 lines">Preposition</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">in</em>, <em class="emphasis">on</em>, <em class="emphasis">with</em>, <em class="emphasis">to</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">in, on, with, to</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Conj</td>
 <td class="l m b0 r0 l0 t0 lines">Conjunction</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">and</em>, <em class="emphasis">but</em>, <em class="emphasis">or</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">and, but, or</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Aux</td>
 <td class="l m b0 r0 l0 t0 lines">Auxiliary</td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">has</em>, <em class="emphasis">will</em>, <em class="emphasis">been</em>, <em class="emphasis">can</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">has, will, been, can</td>
 </tr>
 </table></div>
 <section class="paragraphs" id="ch-07-introduction-to-sentence-diagramming-sec-73-9"><h3 class="heading"><span class="title">Reading a Simple Tree.</span></h3>
@@ -1014,8 +994,7 @@ section .tabular-box {
 <div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-73-48">You can move the entire object NP to the front for emphasis:<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-73-48" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-07-introduction-to-sentence-diagramming-sec-73-49"><li id="ch-07-introduction-to-sentence-diagramming-sec-73-49-1">
-<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-73-49-1-1">
-<em class="emphasis">Beautiful landscapes</em>, the young artist from Paris painted.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-73-49-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-73-49-1-1">Beautiful landscapes, the young artist from Paris painted.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-73-49-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-07-introduction-to-sentence-diagramming-sec-73-49-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>

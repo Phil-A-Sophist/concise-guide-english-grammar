@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -770,26 +778,22 @@ section .tabular-box {
 <section class="paragraphs" id="ch-21-teaching-grammar-sec-217-2"><h3 class="heading"><span class="title">Principles.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Principles"><a href="#ch-21-teaching-grammar-sec-217-2" title="Copy heading and permalink for Paragraphs: Principles" aria-label="Copy heading and permalink for Paragraphs: Principles">🔗</a></div></section><ol class="decimal" id="ch-21-teaching-grammar-sec-217-3">
 <li id="ch-21-teaching-grammar-sec-217-3-1">
-<div class="para" id="ch-21-teaching-grammar-sec-217-3-1-1">
-<em class="emphasis">Meaningful context</em>: Connect grammar to communication<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-21-teaching-grammar-sec-217-3-1-1">Meaningful context: Connect grammar to communication<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 1"><a href="#ch-21-teaching-grammar-sec-217-3-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="ch-21-teaching-grammar-sec-217-3-2">
-<div class="para" id="ch-21-teaching-grammar-sec-217-3-2-1">
-<em class="emphasis">Appropriate challenge</em>: Match activity to learner level<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-21-teaching-grammar-sec-217-3-2-1">Appropriate challenge: Match activity to learner level<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 2"><a href="#ch-21-teaching-grammar-sec-217-3-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 <li id="ch-21-teaching-grammar-sec-217-3-3">
-<div class="para" id="ch-21-teaching-grammar-sec-217-3-3-1">
-<em class="emphasis">Balanced practice</em>: Input, noticing, controlled practice, free production<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-21-teaching-grammar-sec-217-3-3-1">Balanced practice: Input, noticing, controlled practice, free production<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#ch-21-teaching-grammar-sec-217-3-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
 <li id="ch-21-teaching-grammar-sec-217-3-4">
-<div class="para" id="ch-21-teaching-grammar-sec-217-3-4-1">
-<em class="emphasis">Engagement</em>: Make activities interesting and relevant<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-21-teaching-grammar-sec-217-3-4-1">Engagement: Make activities interesting and relevant<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 4"><a href="#ch-21-teaching-grammar-sec-217-3-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
 </li>
@@ -813,32 +817,27 @@ section .tabular-box {
 <section class="paragraphs" id="ch-21-teaching-grammar-sec-217-10"><h3 class="heading"><span class="title">Sample Sequence.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Sample Sequence"><a href="#ch-21-teaching-grammar-sec-217-10" title="Copy heading and permalink for Paragraphs: Sample Sequence" aria-label="Copy heading and permalink for Paragraphs: Sample Sequence">🔗</a></div></section><ol class="decimal" id="ch-21-teaching-grammar-sec-217-11">
 <li id="ch-21-teaching-grammar-sec-217-11-1">
-<div class="para" id="ch-21-teaching-grammar-sec-217-11-1-1">
-<em class="emphasis">Notice</em>: Students read a text with target structure highlighted<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-21-teaching-grammar-sec-217-11-1-1">Notice: Students read a text with target structure highlighted<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 1"><a href="#ch-21-teaching-grammar-sec-217-11-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="ch-21-teaching-grammar-sec-217-11-2">
-<div class="para" id="ch-21-teaching-grammar-sec-217-11-2-1">
-<em class="emphasis">Analyze</em>: Students identify patterns and formulate rules<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-21-teaching-grammar-sec-217-11-2-1">Analyze: Students identify patterns and formulate rules<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 2"><a href="#ch-21-teaching-grammar-sec-217-11-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 <li id="ch-21-teaching-grammar-sec-217-11-3">
-<div class="para" id="ch-21-teaching-grammar-sec-217-11-3-1">
-<em class="emphasis">Practice</em>: Controlled exercises applying the rule<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-21-teaching-grammar-sec-217-11-3-1">Practice: Controlled exercises applying the rule<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#ch-21-teaching-grammar-sec-217-11-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
 <li id="ch-21-teaching-grammar-sec-217-11-4">
-<div class="para" id="ch-21-teaching-grammar-sec-217-11-4-1">
-<em class="emphasis">Produce</em>: Communicative activity requiring the structure<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-21-teaching-grammar-sec-217-11-4-1">Produce: Communicative activity requiring the structure<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 4"><a href="#ch-21-teaching-grammar-sec-217-11-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
 </li>
 <li id="ch-21-teaching-grammar-sec-217-11-5">
-<div class="para" id="ch-21-teaching-grammar-sec-217-11-5-1">
-<em class="emphasis">Reflect</em>: Discussion of difficulties and strategies<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-21-teaching-grammar-sec-217-11-5-1">Reflect: Discussion of difficulties and strategies<div class="autopermalink" data-description="Paragraph"><a href="#ch-21-teaching-grammar-sec-217-11-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 5"><a href="#ch-21-teaching-grammar-sec-217-11-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
 </li>

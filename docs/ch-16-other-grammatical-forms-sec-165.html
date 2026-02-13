@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -775,20 +783,17 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-16-other-grammatical-forms-sec-165-5">
 <li id="ch-16-other-grammatical-forms-sec-165-5-1">
-<div class="para" id="ch-16-other-grammatical-forms-sec-165-5-1-1">
-<em class="emphasis">She can swim, and he can <em class="emphasis">[swim]</em> too.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-16-other-grammatical-forms-sec-165-5-1-1">"She can swim, and he can <em class="emphasis">[swim]</em> too."<div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-16-other-grammatical-forms-sec-165-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-16-other-grammatical-forms-sec-165-5-2">
-<div class="para" id="ch-16-other-grammatical-forms-sec-165-5-2-1">
-<em class="emphasis">She hasn’t arrived, but he has <em class="emphasis">[arrived]</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-16-other-grammatical-forms-sec-165-5-2-1">"She hasn’t arrived, but he has <em class="emphasis">[arrived]</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-16-other-grammatical-forms-sec-165-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-16-other-grammatical-forms-sec-165-5-3">
-<div class="para" id="ch-16-other-grammatical-forms-sec-165-5-3-1">
-<em class="emphasis">They want to leave, and we do <em class="emphasis">[want to leave]</em> too.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-16-other-grammatical-forms-sec-165-5-3-1">"They want to leave, and we do <em class="emphasis">[want to leave]</em> too."<div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-16-other-grammatical-forms-sec-165-5-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -798,14 +803,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-16-other-grammatical-forms-sec-165-8">
 <li id="ch-16-other-grammatical-forms-sec-165-8-1">
-<div class="para" id="ch-16-other-grammatical-forms-sec-165-8-1-1">
-<em class="emphasis">John ordered coffee, and Mary <em class="emphasis">[ordered]</em> tea.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-16-other-grammatical-forms-sec-165-8-1-1">"John ordered coffee, and Mary <em class="emphasis">[ordered]</em> tea."<div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-16-other-grammatical-forms-sec-165-8-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-16-other-grammatical-forms-sec-165-8-2">
-<div class="para" id="ch-16-other-grammatical-forms-sec-165-8-2-1">
-<em class="emphasis">She plays piano, and he <em class="emphasis">[plays]</em> guitar.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-16-other-grammatical-forms-sec-165-8-2-1">"She plays piano, and he <em class="emphasis">[plays]</em> guitar."<div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-16-other-grammatical-forms-sec-165-8-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -815,14 +818,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-16-other-grammatical-forms-sec-165-11">
 <li id="ch-16-other-grammatical-forms-sec-165-11-1">
-<div class="para" id="ch-16-other-grammatical-forms-sec-165-11-1-1">
-<em class="emphasis">Someone called, but I don’t know who <em class="emphasis">[called]</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-16-other-grammatical-forms-sec-165-11-1-1">"Someone called, but I don’t know who <em class="emphasis">[called]</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-11-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-16-other-grammatical-forms-sec-165-11-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-16-other-grammatical-forms-sec-165-11-2">
-<div class="para" id="ch-16-other-grammatical-forms-sec-165-11-2-1">
-<em class="emphasis">She bought something, but I’m not sure what <em class="emphasis">[she bought]</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-16-other-grammatical-forms-sec-165-11-2-1">"She bought something, but I’m not sure what <em class="emphasis">[she bought]</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-11-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-16-other-grammatical-forms-sec-165-11-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -832,14 +833,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-16-other-grammatical-forms-sec-165-14">
 <li id="ch-16-other-grammatical-forms-sec-165-14-1">
-<div class="para" id="ch-16-other-grammatical-forms-sec-165-14-1-1">
-<em class="emphasis">I prefer the red shirt, not the blue <em class="emphasis">[shirt]</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-16-other-grammatical-forms-sec-165-14-1-1">"I prefer the red shirt, not the blue <em class="emphasis">[shirt]</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-14-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-16-other-grammatical-forms-sec-165-14-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-16-other-grammatical-forms-sec-165-14-2">
-<div class="para" id="ch-16-other-grammatical-forms-sec-165-14-2-1">
-<em class="emphasis">Some students passed; others <em class="emphasis">[students]</em> failed.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-14-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-16-other-grammatical-forms-sec-165-14-2-1">"Some students passed; others <em class="emphasis">[students]</em> failed."<div class="autopermalink" data-description="Paragraph"><a href="#ch-16-other-grammatical-forms-sec-165-14-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-16-other-grammatical-forms-sec-165-14-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>

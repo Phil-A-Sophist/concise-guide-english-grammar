@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -780,14 +788,12 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item 1"><a href="#ch-09-compound-and-complex-sentences-sec-93-5-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="ch-09-compound-and-complex-sentences-sec-93-5-2">
-<div class="para" id="ch-09-compound-and-complex-sentences-sec-93-5-2-1">
-<em class="emphasis">Semicolon</em>: <em class="emphasis">The power went out; we lit candles.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-09-compound-and-complex-sentences-sec-93-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-09-compound-and-complex-sentences-sec-93-5-2-1">Semicolon: <em class="emphasis">The power went out; we lit candles.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-09-compound-and-complex-sentences-sec-93-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 2"><a href="#ch-09-compound-and-complex-sentences-sec-93-5-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 <li id="ch-09-compound-and-complex-sentences-sec-93-5-3">
-<div class="para" id="ch-09-compound-and-complex-sentences-sec-93-5-3-1">
-<em class="emphasis">Semicolon + conjunctive adverb</em>: <em class="emphasis">The power went out; therefore, we lit candles.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-09-compound-and-complex-sentences-sec-93-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-09-compound-and-complex-sentences-sec-93-5-3-1">Semicolon + conjunctive adverb: <em class="emphasis">The power went out; therefore, we lit candles.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-09-compound-and-complex-sentences-sec-93-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#ch-09-compound-and-complex-sentences-sec-93-5-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
@@ -802,53 +808,45 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Example</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">F</em>or</td>
+<td class="l m b0 r0 l0 t0 lines">For</td>
 <td class="l m b0 r0 l0 t0 lines">reason/cause</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">We hurried home, <em class="emphasis">for</em> a storm was approaching.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"We hurried home, for a storm was approaching."</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">A</em>nd</td>
+<td class="l m b0 r0 l0 t0 lines">And</td>
 <td class="l m b0 r0 l0 t0 lines">addition</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">She writes poetry, <em class="emphasis">and</em> he composes music.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"She writes poetry, and he composes music."</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">N</em>or</td>
+<td class="l m b0 r0 l0 t0 lines">Nor</td>
 <td class="l m b0 r0 l0 t0 lines">negative addition</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">The store wasn’t open, <em class="emphasis">nor</em> was anyone answering.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"The store wasn’t open, nor was anyone answering."</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">B</em>ut</td>
+<td class="l m b0 r0 l0 t0 lines">But</td>
 <td class="l m b0 r0 l0 t0 lines">contrast</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">I finished the book, <em class="emphasis">but</em> I didn’t understand it.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"I finished the book, but I didn’t understand it."</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">O</em>r</td>
+<td class="l m b0 r0 l0 t0 lines">Or</td>
 <td class="l m b0 r0 l0 t0 lines">alternative</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">We can meet at noon, <em class="emphasis">or</em> we can reschedule.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"We can meet at noon, or we can reschedule."</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">Y</em>et</td>
+<td class="l m b0 r0 l0 t0 lines">Yet</td>
 <td class="l m b0 r0 l0 t0 lines">contrast (surprising)</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">The task seemed simple, <em class="emphasis">yet</em> it took hours.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"The task seemed simple, yet it took hours."</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">S</em>o</td>
+<td class="l m b0 r0 l0 t0 lines">So</td>
 <td class="l m b0 r0 l0 t0 lines">result/effect</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">The restaurant was packed, <em class="emphasis">so</em> we ordered takeout.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"The restaurant was packed, so we ordered takeout."</td>
 </tr>
 </table></div>
 <div class="para" id="ch-09-compound-and-complex-sentences-sec-93-9">
 <em class="emphasis">Punctuation rule</em>: Place a <em class="emphasis">comma before</em> the conjunction when it joins two independent clauses:<div class="autopermalink" data-description="Paragraph"><a href="#ch-09-compound-and-complex-sentences-sec-93-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-09-compound-and-complex-sentences-sec-93-10">
-<em class="emphasis">The lecture was fascinating<em class="emphasis">,</em> and I took detailed notes.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-09-compound-and-complex-sentences-sec-93-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-09-compound-and-complex-sentences-sec-93-10">"The lecture was fascinating<em class="emphasis">,</em> and I took detailed notes."<div class="autopermalink" data-description="Paragraph"><a href="#ch-09-compound-and-complex-sentences-sec-93-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-09-compound-and-complex-sentences-sec-93-11"><h3 class="heading"><span class="title">Conjunctive Adverbs.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Conjunctive Adverbs"><a href="#ch-09-compound-and-complex-sentences-sec-93-11" title="Copy heading and permalink for Paragraphs: Conjunctive Adverbs" aria-label="Copy heading and permalink for Paragraphs: Conjunctive Adverbs">🔗</a></div></section><div class="para" id="ch-09-compound-and-complex-sentences-sec-93-12">
@@ -861,23 +859,23 @@ section .tabular-box {
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Addition</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">moreover, furthermore, additionally, also</em></td>
+<td class="l m b0 r0 l0 t0 lines">moreover, furthermore, additionally, also</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Contrast</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">however, nevertheless, nonetheless, instead</em></td>
+<td class="l m b0 r0 l0 t0 lines">however, nevertheless, nonetheless, instead</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Result</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">therefore, thus, consequently, hence</em></td>
+<td class="l m b0 r0 l0 t0 lines">therefore, thus, consequently, hence</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Time</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">meanwhile, subsequently, afterward, then</em></td>
+<td class="l m b0 r0 l0 t0 lines">meanwhile, subsequently, afterward, then</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Example</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">for example, for instance, specifically</em></td>
+<td class="l m b0 r0 l0 t0 lines">for example, for instance, specifically</td>
 </tr>
 </table></div>
 <div class="para" id="ch-09-compound-and-complex-sentences-sec-93-14">
@@ -897,17 +895,17 @@ section .tabular-box {
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Compound subject</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Marcus <em class="emphasis">and</em> Elena traveled.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"Marcus and Elena traveled."</td>
 <td class="l m b0 r0 l0 t0 lines">Simple (one VP)</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Compound predicate</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">The dog <em class="emphasis">barked and chased</em> the squirrel.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"The dog barked and chased the squirrel."</td>
 <td class="l m b0 r0 l0 t0 lines">Simple (one subject)</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Compound sentence</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Marcus traveled, <em class="emphasis">and</em> Elena stayed.</em></td>
+<td class="l m b0 r0 l0 t0 lines">"Marcus traveled, and Elena stayed."</td>
 <td class="l m b0 r0 l0 t0 lines">Compound (two clauses)</td>
 </tr>
 </table></div>

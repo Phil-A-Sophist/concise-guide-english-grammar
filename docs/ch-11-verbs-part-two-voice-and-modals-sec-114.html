@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -777,39 +785,39 @@ section .tabular-box {
 <th scope="col" class="l m b1 r0 l0 t0 lines">Basic Meaning</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">can</em></td>
+<td class="l m b0 r0 l0 t0 lines">can</td>
 <td class="l m b0 r0 l0 t0 lines">ability, possibility, permission</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">could</em></td>
+<td class="l m b0 r0 l0 t0 lines">could</td>
 <td class="l m b0 r0 l0 t0 lines">past ability, possibility, polite request</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">will</em></td>
+<td class="l m b0 r0 l0 t0 lines">will</td>
 <td class="l m b0 r0 l0 t0 lines">future, willingness, prediction</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">would</em></td>
+<td class="l m b0 r0 l0 t0 lines">would</td>
 <td class="l m b0 r0 l0 t0 lines">hypothetical, polite request, past habit</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">shall</em></td>
+<td class="l m b0 r0 l0 t0 lines">shall</td>
 <td class="l m b0 r0 l0 t0 lines">future (formal), suggestion</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">should</em></td>
+<td class="l m b0 r0 l0 t0 lines">should</td>
 <td class="l m b0 r0 l0 t0 lines">obligation, expectation, advice</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">may</em></td>
+<td class="l m b0 r0 l0 t0 lines">may</td>
 <td class="l m b0 r0 l0 t0 lines">permission, possibility</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">might</em></td>
-<td class="l m b0 r0 l0 t0 lines">possibility (weaker than <em class="emphasis">may</em>)</td>
+<td class="l m b0 r0 l0 t0 lines">might</td>
+<td class="l m b0 r0 l0 t0 lines">possibility (weaker than may)</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">must</em></td>
+<td class="l m b0 r0 l0 t0 lines">must</td>
 <td class="l m b0 r0 l0 t0 lines">necessity, strong obligation, logical conclusion</td>
 </tr>
 </table></div>
@@ -831,14 +839,12 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item 3"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-114-6-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-114-6-4">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-114-6-4-1">
-<em class="emphasis">Cannot combine directly</em>: <em class="emphasis">~~She can must go~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-114-6-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-114-6-4-1">Cannot combine directly: <em class="emphasis">~~She can must go~~</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-114-6-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 4"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-114-6-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-114-6-5">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-114-6-5-1">
-<em class="emphasis">Form questions by inversion</em>: <em class="emphasis"><em class="emphasis">Can</em> she go?</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-114-6-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-114-6-5-1">Form questions by inversion: Can she go?<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-114-6-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 5"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-114-6-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
 </li>

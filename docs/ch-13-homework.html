@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -777,7 +785,7 @@ section .tabular-box {
 <dfn class="terminology">Example (completed):</dfn><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-4">
-<em class="emphasis">Sentence:</em> <em class="emphasis">The <em class="emphasis">extremely talented</em> musician performed last night.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Sentence:</em> "The <em class="emphasis">extremely talented</em> musician performed last night."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-13-homework-2-5">
 <li id="ch-13-homework-2-5-1">
@@ -792,37 +800,37 @@ section .tabular-box {
 </li>
 </ul>
 <div class="para" id="ch-13-homework-2-6">
-<dfn class="terminology">1.</dfn> <em class="emphasis">The book <em class="emphasis">on the top shelf</em> belongs to my professor.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">1.</dfn> "The book <em class="emphasis">on the top shelf</em> belongs to my professor."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-7">Form:<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-8">
-<dfn class="terminology">2.</dfn> <em class="emphasis">The woman <em class="emphasis">who won the award</em> gave an inspiring speech.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">2.</dfn> "The woman <em class="emphasis">who won the award</em> gave an inspiring speech."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-9">Form:<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-10">
-<dfn class="terminology">3.</dfn> <em class="emphasis">The <em class="emphasis">broken</em> window needs to be repaired immediately.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">3.</dfn> "The <em class="emphasis">broken</em> window needs to be repaired immediately."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-11">Form:<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-12">
-<dfn class="terminology">4.</dfn> <em class="emphasis">I need something <em class="emphasis">to eat</em> before the meeting.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">4.</dfn> "I need something <em class="emphasis">to eat</em> before the meeting."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-13">Form:<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-14">
-<dfn class="terminology">5.</dfn> <em class="emphasis">The <em class="emphasis">government</em> report was released yesterday.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">5.</dfn> "The <em class="emphasis">government</em> report was released yesterday."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-15">Form:<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-16">
-<dfn class="terminology">6.</dfn> <em class="emphasis">The students <em class="emphasis">waiting in line</em> seemed impatient.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">6.</dfn> "The students <em class="emphasis">waiting in line</em> seemed impatient."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-17">Form:<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-18">
-<dfn class="terminology">7.</dfn> <em class="emphasis">We found a <em class="emphasis">very comfortable</em> chair at the antique store.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">7.</dfn> "We found a <em class="emphasis">very comfortable</em> chair at the antique store."<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-13-homework-2-19">Form:<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-2-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -985,7 +993,7 @@ section .tabular-box {
 </div>
 <div class="para" id="ch-13-homework-6-21">b) Explain the typical order for pre-modifiers in English noun phrases (what types come before others?):<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-6-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-13-homework-6-22">c) Why do post-modifiers (like <em class="emphasis">from New Orleans</em> and <em class="emphasis">who won the competition</em>) follow the noun instead of preceding it?<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-6-22" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-13-homework-6-22">c) Why do post-modifiers (like from New Orleans and who won the competition) follow the noun instead of preceding it?<div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-6-22" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Subsection 13.8.5: Part 5: Error Correction and Analysis (approx. 10 minutes)"><a href="#ch-13-homework-6" title="Copy heading and permalink for Subsection 13.8.5: Part 5: Error Correction and Analysis (approx. 10 minutes)" aria-label="Copy heading and permalink for Subsection 13.8.5: Part 5: Error Correction and Analysis (approx. 10 minutes)">🔗</a></div></section><div class="para" id="ch-13-homework-7">
 <em class="emphasis">Total estimated time: 40 minutes</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-13-homework-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>

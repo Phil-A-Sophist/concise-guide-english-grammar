@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -775,12 +783,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-20-genre-and-register-sec-202-5">
 <li id="ch-20-genre-and-register-sec-202-5-1">
-<div class="para" id="ch-20-genre-and-register-sec-202-5-1-1">Latinate words: <em class="emphasis">comprehend</em> (not <em class="emphasis">get</em>), <em class="emphasis">utilize</em> (not <em class="emphasis">use</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-20-genre-and-register-sec-202-5-1-1">Latinate words: <em class="emphasis">comprehend</em> (not get), <em class="emphasis">utilize</em> (not use)<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-20-genre-and-register-sec-202-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-20-genre-and-register-sec-202-5-2">
-<div class="para" id="ch-20-genre-and-register-sec-202-5-2-1">Complete forms: <em class="emphasis">cannot</em> (not <em class="emphasis">can’t</em>), <em class="emphasis">do not</em> (not <em class="emphasis">don’t</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-20-genre-and-register-sec-202-5-2-1">Complete forms: <em class="emphasis">cannot</em> (not can’t), <em class="emphasis">do not</em> (not don’t)<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-20-genre-and-register-sec-202-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -825,12 +833,12 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-20-genre-and-register-sec-202-9-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-20-genre-and-register-sec-202-9-2">
-<div class="para" id="ch-20-genre-and-register-sec-202-9-2-1">Impersonal constructions (<em class="emphasis">It is believed...</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-20-genre-and-register-sec-202-9-2-1">Impersonal constructions (It is believed...)<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-20-genre-and-register-sec-202-9-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-20-genre-and-register-sec-202-9-3">
-<div class="para" id="ch-20-genre-and-register-sec-202-9-3-1">Careful hedging (<em class="emphasis">may</em>, <em class="emphasis">might</em>, <em class="emphasis">appears to</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-9-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-20-genre-and-register-sec-202-9-3-1">Careful hedging (may, might, appears to)<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-9-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-20-genre-and-register-sec-202-9-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -849,12 +857,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-20-genre-and-register-sec-202-15">
 <li id="ch-20-genre-and-register-sec-202-15-1">
-<div class="para" id="ch-20-genre-and-register-sec-202-15-1-1">Common words: <em class="emphasis">get</em>, <em class="emphasis">use</em>, <em class="emphasis">thing</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-20-genre-and-register-sec-202-15-1-1">Common words: get, use, thing<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-20-genre-and-register-sec-202-15-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-20-genre-and-register-sec-202-15-2">
-<div class="para" id="ch-20-genre-and-register-sec-202-15-2-1">Contractions: <em class="emphasis">can’t</em>, <em class="emphasis">don’t</em>, <em class="emphasis">won’t</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-15-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-20-genre-and-register-sec-202-15-2-1">Contractions: can’t, don’t, won’t<div class="autopermalink" data-description="Paragraph"><a href="#ch-20-genre-and-register-sec-202-15-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-20-genre-and-register-sec-202-15-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
