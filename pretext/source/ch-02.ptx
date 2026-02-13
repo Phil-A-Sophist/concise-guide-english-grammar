@@ -31,39 +31,27 @@
     <p><em>Examples of descriptive rules:</em></p>
 
     <ol>
-      <li><p><em>Word order determines meaning.</em> In English, &quot;The dog bit the man&quot; means something entirely different from &quot;The man bit the dog.&quot; No one teaches children this rule explicitly; they figure it out from exposure. And no native speaker ever gets it wrong.</p></li>
+      <li><p><em>Word order determines meaning.</em> In English, <foreign>The dog bit the man</foreign> means something entirely different from <foreign>The man bit the dog</foreign>. No one teaches children this rule explicitly; they figure it out from exposure. And no native speaker ever gets it wrong.</p></li>
+      <li><p><em>Adjectives precede nouns (in most cases).</em> We say <foreign>the red house</foreign>, not <foreign><delete>the house red</delete></foreign>. We say <foreign>a beautiful sunset</foreign>, not <foreign><delete>a sunset beautiful</delete></foreign>. This pattern is so automatic that native speakers don't even realize they're following a rule.</p></li>
+      <li><p><em>Question formation requires auxiliary movement.</em> To turn <foreign>She can swim</foreign> into a question, we move <foreign>can</foreign> to the front: <foreign>Can she swim?</foreign> If there's no auxiliary, we add <foreign>do</foreign>: <foreign>She swims</foreign> becomes <foreign>Does she swim?</foreign> Native speakers produce these patterns effortlessly, even though few could articulate the rule.</p></li>
     </ol>
 
-    <ol>
-      <li><p><em>Adjectives precede nouns (in most cases).</em> We say &quot;the red house,&quot; not &quot;the house red.&quot; We say &quot;a beautiful sunset,&quot; not &quot;a sunset beautiful.&quot; This pattern is so automatic that native speakers don't even realize they're following a rule.</p></li>
-    </ol>
-
-    <ol>
-      <li><p><em>Question formation requires auxiliary movement.</em> To turn &quot;She can swim&quot; into a question, we move &quot;can&quot; to the front: &quot;Can she swim?&quot; If there's no auxiliary, we add &quot;do&quot;: &quot;She swims&quot; becomes &quot;Does she swim?&quot; Native speakers produce these patterns effortlessly, even though few could articulate the rule.</p></li>
-    </ol>
-
-    <p>The key characteristic of descriptive rules is that violating them produces gibberish—sequences that aren't recognizable as English at all. &quot;Store the to went him and me&quot; isn't a sentence any English speaker would produce or understand. It violates the descriptive rules of English word order.</p>
+    <p>The key characteristic of descriptive rules is that violating them produces gibberish—sequences that aren't recognizable as English at all. <q><foreign><delete>Store the to went him and me</delete></foreign></q> isn't a sentence any English speaker would produce or understand. It violates the descriptive rules of English word order.</p>
 
     <paragraphs>
       <title>Prescriptive Grammar: How Someone Says Language Should Be Used</title>
     </paragraphs>
 
-    <p><em>Prescriptive grammar</em> sets forth rules about how language <em>should</em> be used. These rules are explicitly taught—in schools, in style guides, in writing handbooks—and they represent the preferences of particular groups or authorities. Prescriptive rules are typically framed as &quot;should&quot; or &quot;should not&quot; statements: &quot;Don't end a sentence with a preposition.&quot; &quot;Never split an infinitive.&quot; &quot;Use 'whom,' not 'who,' as an object.&quot;</p>
+    <p><em>Prescriptive grammar</em> sets forth rules about how language <em>should</em> be used. These rules are explicitly taught—in schools, in style guides, in writing handbooks—and they represent the preferences of particular groups or authorities. Prescriptive rules are typically framed as &quot;should&quot; or &quot;should not&quot; statements: <q><foreign>Don't end a sentence with a preposition.</foreign></q> <q><foreign>Never split an infinitive.</foreign></q> <q><foreign>Use <em>whom</em>, not <em>who</em>, as an object.</foreign></q></p>
 
     <p>Unlike descriptive rules, prescriptive rules must be consciously learned. You weren't born knowing that split infinitives are supposedly wrong; someone had to tell you. And unlike descriptive rules, violating prescriptive rules produces comprehensible English—English that might be judged negatively in certain contexts, but English nonetheless.</p>
 
     <p><em>Examples of prescriptive rules:</em></p>
 
     <ol>
-      <li><p><em>Don't end a sentence with a preposition.</em> According to this rule, &quot;What are you looking at?&quot; should be &quot;At what are you looking?&quot; But the first version is natural English that everyone understands; the second sounds stilted and awkward.</p></li>
-    </ol>
-
-    <ol>
-      <li><p><em>Use &quot;whom&quot; as the object of a verb or preposition.</em> According to this rule, &quot;Who did you see?&quot; should be &quot;Whom did you see?&quot; But in casual speech, most English speakers use &quot;who&quot; in both positions without confusion.</p></li>
-    </ol>
-
-    <ol>
-      <li><p><em>Avoid double negatives.</em> According to this rule, &quot;I don't know nothing&quot; is incorrect because two negatives make a positive. But speakers who use double negatives intend emphasis, not logical confusion—and everyone understands them perfectly.</p></li>
+      <li><p><em>Don't end a sentence with a preposition.</em> According to this rule, <foreign>What are you looking at?</foreign> should be <foreign>At what are you looking?</foreign> But the first version is natural English that everyone understands; the second sounds stilted and awkward.</p></li>
+      <li><p><em>Use <foreign>whom</foreign> as the object of a verb or preposition.</em> According to this rule, <foreign>Who did you see?</foreign> should be <foreign>Whom did you see?</foreign> But in casual speech, most English speakers use <foreign>who</foreign> in both positions without confusion.</p></li>
+      <li><p><em>Avoid double negatives.</em> According to this rule, <foreign>I don't know nothing</foreign> is incorrect because two negatives make a positive. But speakers who use double negatives intend emphasis, not logical confusion—and everyone understands them perfectly.</p></li>
     </ol>
 
     <paragraphs>
@@ -75,8 +63,8 @@
     <p>Compare:</p>
 
     <ul>
-      <li><p>&quot;Me and him went to the store&quot; (violates prescriptive rule but perfectly comprehensible)</p></li>
-      <li><p>&quot;Store the to went him and me&quot; (violates descriptive word-order rules and is incomprehensible)</p></li>
+      <li><p><foreign>Me and him went to the store</foreign> (violates prescriptive rule but perfectly comprehensible)</p></li>
+      <li><p><foreign><delete>Store the to went him and me</delete></foreign> (violates descriptive word-order rules and is incomprehensible)</p></li>
     </ul>
 
     <p>The first sentence might earn you a correction from your English teacher, but no one would fail to understand it. The second sentence isn't English at all—it violates the fundamental patterns that make English English.</p>
@@ -94,9 +82,7 @@
   <section xml:id="ch-02-prescriptive-vs-descriptive-grammar-sec-22">
     <title>Prescriptive Rules</title>
 
-    <p>Prescriptive rules are typically formulated as &quot;should&quot; or &quot;should not&quot; statements: &quot;Don't end a sentence with a preposition.&quot; &quot;Never split an infinitive.&quot; &quot;Use 'whom,' not 'who,' as an object.&quot; These rules are taught explicitly—in schools, in style guides, in writing handbooks—and many people believe they represent timeless standards of good English.</p>
-
-    <p>In fact, most prescriptive rules have specific historical origins, and their status as &quot;rules&quot; often reflects social and political factors more than linguistic ones.</p>
+    <p>Many people believe that prescriptive rules represent timeless standards of good English. In fact, most have specific historical origins, and their status as &quot;rules&quot; often reflects social and political factors more than linguistic ones.</p>
 
     <paragraphs>
       <title>The Origins of Prescriptive Grammar in English</title>
@@ -119,7 +105,7 @@
       <title>The Great Grammarians</title>
     </paragraphs>
 
-    <p><em>Robert Lowth</em> (1710–1787), a bishop and Oxford professor, published <em>A Short Introduction to English Grammar</em> (Lowth, 1762). Lowth's grammar was immensely influential, establishing many of the prescriptive rules still taught today. He declared that ending sentences with prepositions was &quot;an idiom which our language is strongly inclined to&quot; but which should be avoided in formal writing. He criticized double negatives as illogical (even though they had been standard in English for centuries, including in Chaucer and Shakespeare). He insisted on <em>whom</em> as the objective case, even in contexts where <em>who</em> was more natural.</p>
+    <p><em>Robert Lowth</em> (1710–1787), a bishop and Oxford professor, published <em>A Short Introduction to English Grammar</em> (Lowth, 1762). Lowth's grammar was immensely influential, establishing many of the prescriptive rules still taught today. He declared that ending sentences with prepositions was <q><foreign>an idiom which our language is strongly inclined to</foreign></q> but which should be avoided in formal writing. He criticized double negatives as illogical (even though they had been standard in English for centuries, including in Chaucer and Shakespeare). He insisted on <q><foreign>whom</foreign></q> as the objective case, even in contexts where <q><foreign>who</foreign></q> was more natural.</p>
 
     <p><em>Lindley Murray</em> (1745–1826), an American-born grammarian, published <em>English Grammar</em> (Murray, 1795), which became the most widely used grammar textbook for the next century. Murray borrowed heavily from Lowth but was even more dogmatic. His grammar went through over 200 editions and shaped generations of English speakers' beliefs about &quot;correct&quot; grammar.</p>
 
@@ -131,11 +117,11 @@
 
     <p>Many prescriptive rules were borrowed from Latin grammar, despite fundamental differences between the two languages.</p>
 
-    <p><em>The split infinitive rule</em>: Latin infinitives are single words (<em>amare</em> = &quot;to love&quot;), so they cannot be split. English infinitives are two words (&quot;to love&quot;), so they can be split (&quot;to boldly go&quot;). The prescriptive rule against splitting infinitives makes no sense for English—it was imported wholesale from Latin because Latin was considered the model of a proper language. Writers from Samuel Johnson to George Bernard Shaw to Gene Roddenberry have split infinitives with great effectiveness.</p>
+    <p><em>The split infinitive rule</em>: Latin infinitives are single words (<foreign>amare</foreign> = &quot;to love&quot;), so they cannot be split. English infinitives are two words (<q><foreign>to love</foreign></q>), so they can be split (<q><foreign>to boldly go</foreign></q>). The prescriptive rule against splitting infinitives makes no sense for English—it was imported wholesale from Latin because Latin was considered the model of a proper language. Writers from Samuel Johnson to George Bernard Shaw to Gene Roddenberry have split infinitives with great effectiveness.</p>
 
-    <p><em>The rule against ending sentences with prepositions</em>: Latin prepositions must precede their objects (<em>ad portam</em> = &quot;to the gate&quot;). But English has a long history of what linguists call &quot;preposition stranding&quot;—leaving the preposition at the end of a sentence (&quot;What are you looking at?&quot;). This construction is natural, idiomatic, and has been used by the best English writers for centuries. As Winston Churchill supposedly quipped about this rule, &quot;This is the sort of English up with which I will not put.&quot;</p>
+    <p><em>The rule against ending sentences with prepositions</em>: Latin prepositions must precede their objects (<foreign>ad portam</foreign> = &quot;to the gate&quot;). But English has a long history of what linguists call &quot;preposition stranding&quot;—leaving the preposition at the end of a sentence (<q><foreign>What are you looking at?</foreign></q>). This construction is natural, idiomatic, and has been used by the best English writers for centuries. As Winston Churchill supposedly quipped about this rule, <q><foreign>This is the sort of English up with which I will not put.</foreign></q></p>
 
-    <p><em>The rule against double negatives</em>: Latin uses single negation, so grammarians reasoned that English should too. They argued that two negatives make a positive (&quot;I don't want nothing&quot; supposedly means &quot;I want something&quot;). But this logic fails for language. Multiple negation for emphasis is found in many languages and was standard in English until the eighteenth century. &quot;I can't get no satisfaction&quot; is emphatic negation, not logical confusion—and every speaker of English understands it perfectly.</p>
+    <p><em>The rule against double negatives</em>: Latin uses single negation, so grammarians reasoned that English should too. They argued that two negatives make a positive (<q><foreign>I don't want nothing</foreign></q> supposedly means <q><foreign>I want something</foreign></q>). But this logic fails for language. Multiple negation for emphasis is found in many languages and was standard in English until the eighteenth century. <q><foreign>I can't get no satisfaction</foreign></q> is emphatic negation, not logical confusion—and every speaker of English understands it perfectly.</p>
 
     <paragraphs>
       <title>Social and Political Functions</title>
@@ -164,40 +150,40 @@
 
     <p><em>&quot;Don't end a sentence with a preposition.&quot;</em></p>
 
-    <p>This rule was borrowed from Latin and has never reflected actual English usage. Sentences like &quot;Who did you talk to?&quot; and &quot;That's something I won't put up with&quot; are perfectly natural and idiomatic. Straining to avoid final prepositions often produces awkward, stilted sentences. Most modern style guides acknowledge that this &quot;rule&quot; is outdated.</p>
+    <p>This rule was borrowed from Latin and has never reflected actual English usage. Sentences like <q><foreign>Who did you talk to?</foreign></q> and <q><foreign>That's something I won't put up with</foreign></q> are perfectly natural and idiomatic. Straining to avoid final prepositions often produces awkward, stilted sentences. Most modern style guides acknowledge that this &quot;rule&quot; is outdated.</p>
 
     <p><em>&quot;Don't start a sentence with 'and' or 'but'.&quot;</em></p>
 
-    <p>Many teachers prohibit sentence-initial conjunctions, but the best writers have always used them. The King James Bible (&quot;And God said, Let there be light: and there was light&quot;), Jane Austen, Ernest Hemingway, and countless others begin sentences with conjunctions. They create emphasis, establish connections between ideas, and can make prose more vigorous. The prohibition may be useful for beginning writers who overuse this construction, but it's not a rule of English grammar.</p>
+    <p>Many teachers prohibit sentence-initial conjunctions, but the best writers have always used them. The King James Bible (<q><foreign>And God said, Let there be light: and there was light</foreign></q>), Jane Austen, Ernest Hemingway, and countless others begin sentences with conjunctions. They create emphasis, establish connections between ideas, and can make prose more vigorous. The prohibition may be useful for beginning writers who overuse this construction, but it's not a rule of English grammar.</p>
 
     <p><em>&quot;Never split an infinitive.&quot;</em></p>
 
-    <p>Borrowed from Latin (where infinitives can't be split because they're single words), this rule has been violated by excellent writers for centuries. Sometimes splitting the infinitive produces a better sentence: &quot;to boldly go&quot; has a rhythm that &quot;to go boldly&quot; or &quot;boldly to go&quot; lacks. Modern style guides generally advise against awkward splits but permit them when they improve clarity or flow.</p>
+    <p>Borrowed from Latin (where infinitives can't be split because they're single words), this rule has been violated by excellent writers for centuries. Sometimes splitting the infinitive produces a better sentence: <q><foreign>to boldly go</foreign></q> has a rhythm that <q><foreign>to go boldly</foreign></q> or <q><foreign>boldly to go</foreign></q> lacks. Modern style guides generally advise against awkward splits but permit them when they improve clarity or flow.</p>
 
     <p><em>&quot;Use the serial comma&quot; (or don't).</em></p>
 
-    <p>The serial comma (also called the Oxford comma) is the comma before &quot;and&quot; in a series: &quot;I bought apples, oranges, and bananas.&quot; Some style guides require it; others prohibit it. This is purely a matter of convention—neither option is grammatically superior. Being consistent matters more than which option you choose. (Though partisans of the serial comma love to cite ambiguous sentences that can be resolved by its presence.)</p>
+    <p>The serial comma (also called the Oxford comma) is the comma before <q><foreign>and</foreign></q> in a series: <q><foreign>I bought apples, oranges, and bananas.</foreign></q> Some style guides require it; others prohibit it. This is purely a matter of convention—neither option is grammatically superior. Being consistent matters more than which option you choose. (Though partisans of the serial comma love to cite ambiguous sentences that can be resolved by its presence.)</p>
 
     <p><em>&quot;Avoid the passive voice.&quot;</em></p>
 
-    <p>Many writing guides advise against passive constructions (&quot;The mouse was eaten by the cat&quot;) in favor of active ones (&quot;The cat ate the mouse&quot;). Active voice is often more direct and vigorous. But passive voice is useful when:</p>
+    <p>Many writing guides advise against passive constructions (<q><foreign>The mouse was eaten by the cat</foreign></q>) in favor of active ones (<q><foreign>The cat ate the mouse</foreign></q>). Active voice is often more direct and vigorous. But passive voice is useful when:</p>
 
     <ul>
-      <li><p>The agent is unknown: &quot;The window was broken during the storm.&quot;</p></li>
-      <li><p>The agent is unimportant: &quot;The building was constructed in 1890.&quot;</p></li>
-      <li><p>You want to emphasize the action or patient: &quot;The suspect was arrested.&quot;</p></li>
-      <li><p>Scientific convention calls for it: &quot;The data were analyzed using...&quot;</p></li>
+      <li><p>The agent is unknown: <foreign>The window was broken during the storm.</foreign></p></li>
+      <li><p>The agent is unimportant: <foreign>The building was constructed in 1890.</foreign></p></li>
+      <li><p>You want to emphasize the action or patient: <foreign>The suspect was arrested.</foreign></p></li>
+      <li><p>Scientific convention calls for it: <foreign>The data were analyzed using...</foreign></p></li>
     </ul>
 
     <p>Skilled writers use both voices strategically.</p>
 
     <p><em>&quot;Use 'whom' as the object of a verb or preposition.&quot;</em></p>
 
-    <p>In formal written English, &quot;whom&quot; is the objective form: &quot;To whom did you speak?&quot; &quot;Whom did you see?&quot; But in spoken English and informal writing, &quot;who&quot; has largely replaced &quot;whom&quot; in most contexts. Using &quot;whom&quot; incorrectly (hypercorrection) often sounds worse than using &quot;who.&quot; Many linguists predict that &quot;whom&quot; will eventually disappear from English—it's already rare in casual speech.</p>
+    <p>In formal written English, <q><foreign>whom</foreign></q> is the objective form: <q><foreign>To whom did you speak?</foreign></q> <q><foreign>Whom did you see?</foreign></q> But in spoken English and informal writing, <q><foreign>who</foreign></q> has largely replaced <q><foreign>whom</foreign></q> in most contexts. Using <q><foreign>whom</foreign></q> incorrectly (hypercorrection) often sounds worse than using <q><foreign>who</foreign></q>. Many linguists predict that <q><foreign>whom</foreign></q> will eventually disappear from English—it's already rare in casual speech.</p>
 
     <p><em>&quot;Don't use singular 'they.'&quot;</em></p>
 
-    <p>Traditionally, &quot;they&quot; was considered exclusively plural, and singular indefinite reference required &quot;he&quot; (as in &quot;Everyone should do his best&quot;). But singular &quot;they&quot; has been used for centuries—Shakespeare wrote &quot;And everyone to rest themselves betake&quot; in <em>The Rape of Lucrece</em> (Shakespeare, 1594)—and has become standard in contemporary English for indefinite and nonbinary reference. Most style guides now accept it, and the American Dialect Society (2020) named singular &quot;they&quot; its Word of the Year in 2015 and Word of the Decade in 2020.</p>
+    <p>Traditionally, <q><foreign>they</foreign></q> was considered exclusively plural, and singular indefinite reference required <q><foreign>he</foreign></q> (as in <q><foreign>Everyone should do his best</foreign></q>). But singular <q><foreign>they</foreign></q> has been used for centuries—Shakespeare wrote <q><foreign>And everyone to rest themselves betake</foreign></q> in <em>The Rape of Lucrece</em> (Shakespeare, 1594)—and has become standard in contemporary English for indefinite and nonbinary reference. Most style guides now accept it, and the American Dialect Society (2020) named singular <q><foreign>they</foreign></q> its Word of the Year in 2015 and Word of the Decade in 2020.</p>
 
   </section>
 
@@ -210,9 +196,9 @@
       <title>Native Speaker Intuitions</title>
     </paragraphs>
 
-    <p>One way linguists identify descriptive rules is by consulting native speaker intuitions. If you're a native English speaker, you know—without being taught—that &quot;the big red balloon&quot; sounds right while &quot;the red big balloon&quot; sounds odd. You know that &quot;she walks&quot; needs an <em>-s</em> but &quot;they walk&quot; doesn't. You know that &quot;I saw her&quot; is grammatical but &quot;I saw she&quot; isn't. These judgments reflect your unconscious knowledge of English grammar.</p>
+    <p>One way linguists identify descriptive rules is by consulting native speaker intuitions. If you're a native English speaker, you know—without being taught—that <q><foreign>the big red balloon</foreign></q> sounds right while <q><foreign>the red big balloon</foreign></q> sounds odd. You know that <q><foreign>she walks</foreign></q> needs an <q><foreign>-s</foreign></q> but <q><foreign>they walk</foreign></q> doesn't. You know that <q><foreign>I saw her</foreign></q> is grammatical but <q><foreign><delete>I saw she</delete></foreign></q> isn't. These judgments reflect your unconscious knowledge of English grammar.</p>
 
-    <p>Descriptive rules are remarkably consistent across speakers of the same dialect. Ask a hundred native English speakers which sounds better, &quot;The cat sat on the mat&quot; or &quot;The cat the mat on sat,&quot; and all hundred will choose the first. That consistency reflects shared grammatical knowledge.</p>
+    <p>Descriptive rules are remarkably consistent across speakers of the same dialect. Ask a hundred native English speakers which sounds better, <q><foreign>The cat sat on the mat</foreign></q> or <q><foreign><delete>The cat the mat on sat</delete></foreign></q>, and all hundred will choose the first. That consistency reflects shared grammatical knowledge.</p>
 
     <p>These rules are also remarkably complex. Linguists have been studying English syntax for decades and still haven't fully described all the rules that native speakers know intuitively. Your knowledge of English is deeper and more sophisticated than any grammar book can capture.</p>
 
@@ -223,23 +209,23 @@
     <p>Consider what you know about English question formation. To turn a statement into a yes/no question, you move an auxiliary verb to the front:</p>
 
     <ul>
-      <li><p>Statement: &quot;She <em>can</em> speak French.&quot;</p></li>
-      <li><p>Question: &quot;<em>Can</em> she speak French?&quot;</p></li>
+      <li><p>Statement: <foreign>She <em>can</em> speak French.</foreign></p></li>
+      <li><p>Question: <foreign><em>Can</em> she speak French?</foreign></p></li>
     </ul>
 
-    <p>If there's no auxiliary, you add &quot;do&quot;:</p>
+    <p>If there's no auxiliary, you add <q><foreign>do</foreign></q>:</p>
 
     <ul>
-      <li><p>Statement: &quot;She speaks French.&quot;</p></li>
-      <li><p>Question: &quot;<em>Does</em> she speak French?&quot;</p></li>
+      <li><p>Statement: <foreign>She speaks French.</foreign></p></li>
+      <li><p>Question: <foreign><em>Does</em> she speak French?</foreign></p></li>
     </ul>
 
     <p>But how do you know which word to move in complex sentences?</p>
 
     <ul>
-      <li><p>Statement: &quot;The man who <em>is</em> tall <em>can</em> speak French.&quot;</p></li>
-      <li><p>Question: &quot;<em>Can</em> the man who is tall speak French?&quot; (correct)</p></li>
-      <li><p>Not: &quot;<em>Is</em> the man who tall can speak French?&quot; (wrong)</p></li>
+      <li><p>Statement: <foreign>The man who <em>is</em> tall <em>can</em> speak French.</foreign></p></li>
+      <li><p>Question: <foreign><em>Can</em> the man who is tall speak French?</foreign> (correct)</p></li>
+      <li><p>Not: <foreign><delete>Is the man who tall can speak French?</delete></foreign> (wrong)</p></li>
     </ul>
 
     <p>You move the auxiliary from the main clause, not from the embedded relative clause. No one taught you this rule—you figured it out. And every native English speaker follows it perfectly, even though few could state the rule.</p>
@@ -250,13 +236,13 @@
       <title>Word Order and Meaning</title>
     </paragraphs>
 
-    <p>Some of the most fundamental descriptive rules involve word order. In English, word order determines grammatical relationships and meaning. &quot;The dog bit the man&quot; means something entirely different from &quot;The man bit the dog,&quot; even though the two sentences contain exactly the same words. English relies heavily on word order because it has relatively few inflectional endings (unlike Latin or Russian, where endings mark grammatical relationships).</p>
+    <p>Some of the most fundamental descriptive rules involve word order. In English, word order determines grammatical relationships and meaning. <q><foreign>The dog bit the man</foreign></q> means something entirely different from <q><foreign>The man bit the dog</foreign></q>, even though the two sentences contain exactly the same words. English relies heavily on word order because it has relatively few inflectional endings (unlike Latin or Russian, where endings mark grammatical relationships).</p>
 
-    <p>Other word order rules are equally systematic. Adjectives normally precede nouns (&quot;the red house,&quot; not &quot;the house red&quot;—though French speakers say <em>la maison rouge</em>). When multiple adjectives appear, they occur in a specific order:</p>
+    <p>Other word order rules are equally systematic. Adjectives normally precede nouns (<q><foreign>the red house</foreign></q>, not <q><foreign><delete>the house red</delete></foreign></q>—though French speakers say <q><foreign>la maison rouge</foreign></q>). When multiple adjectives appear, they occur in a specific order:</p>
 
-    <p><em>Opinion → Size → Age → Shape → Color → Origin → Material → Purpose</em></p>
+    <p><foreign>Opinion → Size → Age → Shape → Color → Origin → Material → Purpose</foreign></p>
 
-    <p>That's why &quot;a beautiful big old rectangular green French silver whittling knife&quot; sounds natural while other orders sound wrong. Native speakers follow this rule without ever being taught it or even knowing it exists. Try saying &quot;a green rectangular old big beautiful knife&quot;—it sounds bizarre.</p>
+    <p>That's why <q><foreign>a beautiful big old rectangular green French silver whittling knife</foreign></q> sounds natural while other orders sound wrong. Native speakers follow this rule without ever being taught it or even knowing it exists. Try saying <q><foreign>a green rectangular old big beautiful knife</foreign></q>—it sounds bizarre.</p>
 
     <p>This adjective-order rule is so deeply ingrained that most English speakers can't articulate it. When linguists discovered and described this pattern, many native speakers were astonished: &quot;I've been following a rule I never knew existed!&quot;</p>
 
@@ -264,18 +250,18 @@
       <title>Natural Acquisition</title>
     </paragraphs>
 
-    <p>Children acquire descriptive rules through exposure to language, not through instruction. A child who hears &quot;walked,&quot; &quot;jumped,&quot; and &quot;played&quot; will eventually produce &quot;goed&quot; instead of &quot;went&quot;—evidence that they've extracted the rule for past tense formation and are applying it productively.</p>
+    <p>Children acquire descriptive rules through exposure to language, not through instruction. A child who hears (<foreign>walked</foreign>, <foreign>jumped</foreign>, <foreign>played</foreign>) will eventually produce <q><foreign>goed</foreign></q> instead of <q><foreign>went</foreign></q>—evidence that they've extracted the rule for past tense formation and are applying it productively.</p>
 
-    <p>These &quot;errors&quot; are actually signs of sophisticated linguistic development. The child isn't making a mistake; they're demonstrating that they've learned the regular past-tense pattern and are generalizing it. Eventually, children learn that &quot;go&quot; is irregular, but the overgeneralization shows that they're not just mimicking what they hear—they're building a rule system.</p>
+    <p>These &quot;errors&quot; are actually signs of sophisticated linguistic development. The child isn't making a mistake; they're demonstrating that they've learned the regular past-tense pattern and are generalizing it. Eventually, children learn that <q><foreign>go</foreign></q> is irregular, but the overgeneralization shows that they're not just mimicking what they hear—they're building a rule system.</p>
 
     <p>Consider the acquisition sequence:</p>
 
     <ol>
-      <li><p>Child hears &quot;went&quot; and uses it correctly (memorized form)</p></li>
-      <li><p>Child discovers the <em>-ed</em> rule from other verbs</p></li>
-      <li><p>Child applies the rule to &quot;go&quot; and says &quot;goed&quot; (overgeneralization)</p></li>
-      <li><p>Child eventually learns that &quot;go&quot; is an exception</p></li>
-      <li><p>Child returns to &quot;went&quot; (but now understands it differently)</p></li>
+      <li><p>Child hears <foreign>went</foreign> and uses it correctly (memorized form)</p></li>
+      <li><p>Child discovers the <foreign>-ed</foreign> rule from other verbs</p></li>
+      <li><p>Child applies the rule to <foreign>go</foreign> and says <foreign>goed</foreign> (overgeneralization)</p></li>
+      <li><p>Child eventually learns that <foreign>go</foreign> is an exception</p></li>
+      <li><p>Child returns to <foreign>went</foreign> (but now understands it differently)</p></li>
     </ol>
 
     <p>Stage 3, the &quot;error&quot; stage, is actually the most cognitively sophisticated—it shows the child has extracted and is applying an abstract rule.</p>
@@ -288,11 +274,11 @@
 
     <p>Importantly, non-standard dialects have their own descriptive rules—patterns that are just as systematic as those of Standard English. African American Vernacular English (AAVE), for example, has grammatical rules for:</p>
 
-    <p><em>Habitual &quot;be&quot;</em>: &quot;She be working&quot; means she works regularly (habitually), whereas &quot;She working&quot; means she's working right now. Standard English can't make this distinction with a single word.</p>
+    <p><em>Habitual &quot;be&quot;</em>: <q><foreign>She be working</foreign></q> means she works regularly (habitually), whereas <q><foreign>She working</foreign></q> means she's working right now. Standard English can't make this distinction with a single word.</p>
 
-    <p><em>Negative concord</em>: &quot;I don't want nothing&quot; uses multiple negatives for emphasis, following a systematic rule (not random negativity).</p>
+    <p><em>Negative concord</em>: <q><foreign>I don't want nothing</foreign></q> uses multiple negatives for emphasis, following a systematic rule (not random negativity).</p>
 
-    <p><em>Copula deletion</em>: &quot;She nice&quot; follows a predictable pattern—the copula &quot;is&quot; can be deleted exactly where Standard English can contract it (&quot;She's nice&quot;), but not elsewhere.</p>
+    <p><em>Copula deletion</em>: <q><foreign>She nice</foreign></q> follows a predictable pattern—the copula <q><foreign>is</foreign></q> can be deleted exactly where Standard English can contract it (<q><foreign>She's nice</foreign></q>), but not elsewhere.</p>
 
     <p>These patterns aren't &quot;broken&quot; Standard English; they're rule-governed features of a different variety. Speakers of AAVE who use these forms are following their grammar, not failing to follow Standard grammar.</p>
 
@@ -309,7 +295,7 @@
 
     <p>Prescriptive rules matter in contexts where readers expect them. In academic writing, professional communication, and formal publications, following prescriptive conventions signals competence and credibility. Readers who expect formal prose may be distracted or annoyed by constructions that violate prescriptive norms, even if those constructions are grammatically fine in descriptive terms.</p>
 
-    <p>Think of it like dress codes. There's nothing intrinsically wrong with wearing jeans and a t-shirt, but if you show up to a job interview dressed that way, you might not get the job. The jeans aren't &quot;wrong&quot;—they're just not appropriate for the context. Similarly, starting a formal essay with &quot;So&quot; or using &quot;they&quot; as a singular pronoun in a conservative publication might be descriptively fine but prescriptively risky.</p>
+    <p>Think of it like dress codes. There's nothing intrinsically wrong with wearing jeans and a t-shirt, but if you show up to a job interview dressed that way, you might not get the job. The jeans aren't &quot;wrong&quot;—they're just not appropriate for the context. Similarly, starting a formal essay with <q><foreign>So</foreign></q> or using <q><foreign>they</foreign></q> as a singular pronoun in a conservative publication might be descriptively fine but prescriptively risky.</p>
 
     <paragraphs>
       <title>When Prescriptive Rules Serve Clarity</title>
@@ -320,11 +306,11 @@
     <p>Consider pronoun reference. The prescriptive advice to keep pronouns close to their antecedents helps prevent confusion:</p>
 
     <ul>
-      <li><p>Confusing: &quot;The manager told the employee that she needed to improve her performance.&quot; (Who needs to improve—the manager or the employee?)</p></li>
-      <li><p>Clearer: &quot;The manager told the employee that the employee needed to improve.&quot;</p></li>
+      <li><p>Confusing: <foreign>The manager told the employee that she needed to improve her performance.</foreign> (Who needs to improve—the manager or the employee?)</p></li>
+      <li><p>Clearer: <foreign>The manager told the employee that the employee needed to improve.</foreign></p></li>
     </ul>
 
-    <p>Or consider modifier placement. &quot;I only ate three cookies&quot; might mean &quot;I ate cookies, not cake&quot; or &quot;I ate three, not four.&quot; Careful placement of &quot;only&quot; can resolve ambiguity.</p>
+    <p>Or consider modifier placement. <q><foreign>I only ate three cookies</foreign></q> might mean &quot;I ate cookies, not cake&quot; or &quot;I ate three, not four.&quot; Careful placement of <q><foreign>only</foreign></q> can resolve ambiguity.</p>
 
     <p>These aren't arbitrary preferences—they're tools for clear communication.</p>
 
@@ -334,7 +320,7 @@
 
     <p>Effective communicators adjust their language to fit the context. The way you write an academic paper differs from the way you text a friend, which differs from the way you address a public meeting. None of these registers is inherently better than the others; they're appropriate for different purposes.</p>
 
-    <p>This means that apparent &quot;violations&quot; of prescriptive rules often aren't errors at all—they're choices. Starting a sentence with &quot;but&quot; might be perfect for a blog post but inappropriate for a legal brief. Using contractions might be ideal for a magazine article but wrong for a dissertation. Splitting an infinitive might create exactly the emphasis you want.</p>
+    <p>This means that apparent &quot;violations&quot; of prescriptive rules often aren't errors at all—they're choices. Starting a sentence with <q><foreign>but</foreign></q> might be perfect for a blog post but inappropriate for a legal brief. Using contractions might be ideal for a magazine article but wrong for a dissertation. Splitting an infinitive might create exactly the emphasis you want.</p>
 
     <p>The goal is to make informed choices, not to follow rules blindly.</p>
 
@@ -346,21 +332,9 @@
 
     <ol>
       <li><p><em>What's the origin of this rule?</em> Is it based on Latin, on logic, on tradition, or on genuine clarity concerns?</p></li>
-    </ol>
-
-    <ol>
       <li><p><em>What's the context?</em> Am I writing for an audience that expects formal prose? Am I in a context where rule violations will be judged harshly?</p></li>
-    </ol>
-
-    <ol>
       <li><p><em>What's the alternative?</em> If I follow the rule, does the sentence become clearer, or just different? Does violating the rule create ambiguity?</p></li>
-    </ol>
-
-    <ol>
       <li><p><em>What's my purpose?</em> Am I trying to sound authoritative and formal, or conversational and accessible?</p></li>
-    </ol>
-
-    <ol>
       <li><p><em>What do expert writers do?</em> Not just textbooks, but actual good writers—novelists, journalists, essayists. Do they follow this rule?</p></li>
     </ol>
 
@@ -370,7 +344,7 @@
       <title>The Informed Writer</title>
     </paragraphs>
 
-    <p>Consider the &quot;rule&quot; against split infinitives. If you know that this rule has no basis in English grammar and has been broken by good writers for centuries, you can split infinitives when doing so sounds better: &quot;to boldly go&quot; has a rhythm that &quot;to go boldly&quot; lacks. But if you're writing for an audience that includes sticklers who will be distracted by the split infinitive, you might decide to avoid it—not because it's wrong, but because it could undermine your message.</p>
+    <p>Consider the &quot;rule&quot; against split infinitives. If you know that this rule has no basis in English grammar and has been broken by good writers for centuries, you can split infinitives when doing so sounds better: <q><foreign>to boldly go</foreign></q> has a rhythm that <q><foreign>to go boldly</foreign></q> lacks. But if you're writing for an audience that includes sticklers who will be distracted by the split infinitive, you might decide to avoid it—not because it's wrong, but because it could undermine your message.</p>
 
     <p>This is what it means to study grammar as a writer, not just as a rule-follower: understanding the resources the language offers so you can deploy them effectively for your own purposes.</p>
 
@@ -401,7 +375,7 @@
 
     <p>What's remarkable about this process is how little explicit teaching it requires. Children acquire the <em>descriptive grammar</em> of their community—the actual patterns used by the speakers around them—simply through exposure. No one sits a three-year-old down and explains subject-verb agreement or question formation. Children figure these patterns out on their own.</p>
 
-    <p>This is why first language acquisition almost always succeeds. Barring severe impairment, every child who is exposed to language acquires a fully grammatical first language. The grammar they acquire is the descriptive grammar of their community—if a child grows up in a community that uses double negatives, that becomes part of the child's grammar, just as &quot;I don't have any&quot; becomes part of another child's grammar. Both children have successfully acquired language.</p>
+    <p>This is why first language acquisition almost always succeeds. Barring severe impairment, every child who is exposed to language acquires a fully grammatical first language. The grammar they acquire is the descriptive grammar of their community—if a child grows up in a community that uses double negatives, that becomes part of the child's grammar, just as <q><foreign>I don't have any</foreign></q> becomes part of another child's grammar. Both children have successfully acquired language.</p>
 
     <paragraphs>
       <title>Second Language Acquisition: Effort Required</title>
@@ -437,7 +411,7 @@
 
     <p>Similarly, students learning English as a second language need explicit instruction in both descriptive patterns (how English actually works) and prescriptive conventions (what formal contexts expect). The good news is that explicit knowledge about grammar—the kind this textbook provides—can support both L1 literacy development and L2 language learning.</p>
 
-    <p>Understanding this distinction also helps teachers and writers be more precise. A native speaker who writes &quot;Me and him went to the store&quot; isn't making a language acquisition error—they've acquired a descriptive pattern that differs from the prestige standard. What they need is information about when the standard form is expected, not remediation for a deficiency. An L2 learner who writes the same sentence might be producing an error that reflects incomplete acquisition of English case marking. The same surface error can have different causes, and effective teaching responds to the cause.</p>
+    <p>Understanding this distinction also helps teachers and writers be more precise. A native speaker who writes <q><foreign>Me and him went to the store</foreign></q> isn't making a language acquisition error—they've acquired a descriptive pattern that differs from the prestige standard. What they need is information about when the standard form is expected, not remediation for a deficiency. An L2 learner who writes the same sentence might be producing an error that reflects incomplete acquisition of English case marking. The same surface error can have different causes, and effective teaching responds to the cause.</p>
 
   </section>
 
@@ -486,7 +460,7 @@
     </gi>
     <gi>
       <title>Hypercorrection</title>
-      <p>An incorrect use of language that results from an attempt to apply a prescriptive rule in contexts where it doesn't belong (e.g., using &quot;whom&quot; as a subject because the speaker believes it sounds more formal).</p>
+      <p>An incorrect use of language that results from an attempt to apply a prescriptive rule in contexts where it doesn't belong (e.g., using <q><foreign>whom</foreign></q> as a subject because the speaker believes it sounds more formal).</p>
     </gi>
     <gi>
       <title>First language (L1)</title>
@@ -506,7 +480,7 @@
     </gi>
     <gi>
       <title>Overgeneralization</title>
-      <p>The application of a grammatical rule to cases where it doesn't apply (e.g., &quot;goed&quot; for &quot;went&quot;), indicating that learners are extracting rules rather than just memorizing forms.</p>
+      <p>The application of a grammatical rule to cases where it doesn't apply (e.g., <q><foreign>goed</foreign></q> for <q><foreign>went</foreign></q>), indicating that learners are extracting rules rather than just memorizing forms.</p>
     </gi>
     <gi>
       <title>Prescriptive rule</title>
@@ -526,15 +500,15 @@
     </gi>
     <gi>
       <title>Serial comma (Oxford comma)</title>
-      <p>A comma placed before the final conjunction in a series of three or more items (e.g., &quot;red, white, and blue&quot;).</p>
+      <p>A comma placed before the final conjunction in a series of three or more items (e.g., <q><foreign>red, white, and blue</foreign></q>).</p>
     </gi>
     <gi>
-      <title>Singular &quot;they&quot;</title>
-      <p>The use of &quot;they&quot; to refer to a single person, especially when the person's gender is unknown or nonbinary; increasingly accepted in standard usage.</p>
+      <title>Singular <q><foreign>they</foreign></q></title>
+      <p>The use of <q><foreign>they</foreign></q> to refer to a single person, especially when the person's gender is unknown or nonbinary; increasingly accepted in standard usage.</p>
     </gi>
     <gi>
       <title>Split infinitive</title>
-      <p>An infinitive with an adverb placed between &quot;to&quot; and the verb (e.g., &quot;to boldly go&quot;); prohibited by prescriptive tradition but widely used by good writers.</p>
+      <p>An infinitive with an adverb placed between <q><foreign>to</foreign></q> and the verb (e.g., <q><foreign>to boldly go</foreign></q>); prohibited by prescriptive tradition but widely used by good writers.</p>
     </gi>
     <gi>
       <title>Standard variety</title>
