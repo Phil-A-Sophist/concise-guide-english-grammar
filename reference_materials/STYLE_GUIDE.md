@@ -78,15 +78,21 @@ Use for:
 
 ### Italics (`*text*`)
 Use for:
-- Linguistic examples (words being analyzed): `*happy*`, `*un-*`, `*rewriters*`
+- Emphasis on important concepts or distinctions
 - Titles of works: `*Adventures of Huckleberry Finn*`
 - Technical terms on first use (when not bolded)
 
+Do NOT use italics for:
+- Linguistic examples or words being analyzed (leave as plain text)
+- Lists of example words
+
 ### Strikethrough for Ungrammatical Examples
-Use `*~~text~~*` for ungrammatical constructions:
+Use `~~text~~` for ungrammatical constructions:
 ```markdown
-*~~The happy's effect~~*
+~~The happy's effect~~
 ```
+
+In PreTeXt, use plain `~~text~~` without an `<em>` wrapper: `~~The happy's effect~~`
 
 ### Grammaticality Judgments
 - ✓ for grammatical/correct
@@ -99,7 +105,7 @@ When content has an italicized or bolded label followed by explanatory text, cho
 **Inline format** (label and content on same line):
 Use when the content is brief—a few words, a short list, or one short sentence.
 ```markdown
-*Example:* The word *unhappy* contains two morphemes.
+*Example:* The word unhappy contains two morphemes.
 
 **Prefix:** A morpheme attached before the base.
 ```
@@ -108,8 +114,8 @@ Use when the content is brief—a few words, a short list, or one short sentence
 Use when the explanation runs longer than one line or contains multiple sentences.
 ```markdown
 *Example*
-    The word *unhappy* contains two morphemes. The prefix *un-* attaches
-    to the base *happy*, changing its meaning to the opposite. This is
+    The word unhappy contains two morphemes. The prefix un- attaches
+    to the base happy, changing its meaning to the opposite. This is
     a productive pattern in English.
 ```
 
@@ -118,8 +124,8 @@ In PreTeXt, use `<paragraphs><title>` for block-format labels:
 <paragraphs>
   <title>Example</title>
 </paragraphs>
-<p>The word <em>unhappy</em> contains two morphemes. The prefix <em>un-</em>
-attaches to the base <em>happy</em>, changing its meaning to the opposite.</p>
+<p>The word unhappy contains two morphemes. The prefix un-
+attaches to the base happy, changing its meaning to the opposite.</p>
 ```
 
 ---
@@ -146,19 +152,19 @@ Use for sequential steps or ordered items:
 
 **Short content (same line):** When the content after the label is brief (a few words or a short list), keep everything on the same line:
 ```markdown
-**Spatial:** *in*, *on*, *at*, *above*, *below*
+**Spatial:** in, on, at, above, below
 
-**Temporal:** *before*, *after*, *during*, *since*
+**Temporal:** before, after, during, since
 
-**Abstract:** *of*, *for*, *with*, *by*, *about*
+**Abstract:** of, for, with, by, about
 ```
 
 **Extended content (block format):** When the content requires more than one line of explanation, use block format—put the label on its own line, then the explanation below it, indented:
 ```markdown
 **Spatial Prepositions**
-    Words like *in*, *on*, and *at* indicate physical location or position.
+    Words like in, on, and at indicate physical location or position.
     These are among the most common prepositions in English and often have
-    metaphorical extensions (e.g., *in love*, *on fire*).
+    metaphorical extensions (e.g., in love, on fire).
 ```
 
 **Guidelines for choosing format:**
@@ -172,7 +178,7 @@ Use for sequential steps or ordered items:
 ### Inline Examples
 Present simple examples within prose:
 ```markdown
-For example, *happy* is an adjective because it can be compared (*happier*, *happiest*) and modified by *very* (*very happy*).
+For example, happy is an adjective because it can be compared (happier, happiest) and modified by very (very happy).
 ```
 
 ### Formatted Example Analyses
@@ -180,15 +186,15 @@ For morpheme breakdowns or grammatical analyses, use a consistent format:
 
 **Simple format (preferred):**
 ```markdown
-*Unhappy* = *un-* + *happy*
-- *un-* = bound morpheme (prefix meaning "not")
-- *happy* = free morpheme
+Unhappy = un- + happy
+- un- = bound morpheme (prefix meaning "not")
+- happy = free morpheme
 - Total: 2 morphemes
 ```
 
 **For incorrect analyses:**
 ```markdown
-*Ugly* ≠ *ug* + *-ly*
+Ugly ≠ ug + -ly
 - "Ug" is not a word in English ✗
 - One morpheme
 ```
@@ -202,7 +208,7 @@ When presenting multiple types/categories, use bold labels (NOT `####` headers):
 
 Some words look like they contain familiar affixes, but the remaining "base" isn't actually a word in English.
 
-*Ugly* ≠ *ug* + *-ly*
+Ugly ≠ ug + -ly
 - "Ug" is not a word in English ✗
 - One morpheme
 ```

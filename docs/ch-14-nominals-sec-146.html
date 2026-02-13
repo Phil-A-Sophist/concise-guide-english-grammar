@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -774,14 +782,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-14-nominals-sec-146-5">
 <li id="ch-14-nominals-sec-146-5-1">
-<div class="para" id="ch-14-nominals-sec-146-5-1-1">
-<em class="emphasis">I like <em class="emphasis">swimming</em>.</em> / <em class="emphasis">I like <em class="emphasis">to swim</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-5-1-1">"I like <em class="emphasis">swimming</em>." / "I like <em class="emphasis">to swim</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-14-nominals-sec-146-5-2">
-<div class="para" id="ch-14-nominals-sec-146-5-2-1">
-<em class="emphasis">She started <em class="emphasis">working</em>.</em> / <em class="emphasis">She started <em class="emphasis">to work</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-5-2-1">"She started <em class="emphasis">working</em>." / "She started <em class="emphasis">to work</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -789,20 +795,18 @@ section .tabular-box {
 <div class="para" id="ch-14-nominals-sec-146-6">But some verbs show clear differences:<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-14-nominals-sec-146-7">
-<em class="emphasis">Gerund only</em>: <em class="emphasis">enjoy</em>, <em class="emphasis">avoid</em>, <em class="emphasis">finish</em>, <em class="emphasis">deny</em>, <em class="emphasis">consider</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Gerund only</em>: enjoy, avoid, finish, deny, consider<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-14-nominals-sec-146-8"><li id="ch-14-nominals-sec-146-8-1">
-<div class="para" id="ch-14-nominals-sec-146-8-1-1">
-<em class="emphasis">She enjoys <em class="emphasis">swimming</em>.</em> (not <em class="emphasis">~~to swim~~</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-8-1-1">"She enjoys <em class="emphasis">swimming</em>." (not ~~to swim~~)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-8-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
 <div class="para" id="ch-14-nominals-sec-146-9">
-<em class="emphasis">Infinitive only</em>: <em class="emphasis">want</em>, <em class="emphasis">hope</em>, <em class="emphasis">decide</em>, <em class="emphasis">agree</em>, <em class="emphasis">refuse</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Infinitive only</em>: want, hope, decide, agree, refuse<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-14-nominals-sec-146-10"><li id="ch-14-nominals-sec-146-10-1">
-<div class="para" id="ch-14-nominals-sec-146-10-1-1">
-<em class="emphasis">She wants <em class="emphasis">to swim</em>.</em> (not <em class="emphasis">~~swimming~~</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-10-1-1">"She wants <em class="emphasis">to swim</em>." (not ~~swimming~~)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-10-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
@@ -811,28 +815,24 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-14-nominals-sec-146-12">
 <li id="ch-14-nominals-sec-146-12-1">
-<div class="para" id="ch-14-nominals-sec-146-12-1-1">
-<em class="emphasis">I stopped <em class="emphasis">smoking</em>.</em> (quit the habit)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-12-1-1">"I stopped <em class="emphasis">smoking</em>." (quit the habit)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-12-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-14-nominals-sec-146-12-2">
-<div class="para" id="ch-14-nominals-sec-146-12-2-1">
-<em class="emphasis">I stopped <em class="emphasis">to smoke</em>.</em> (paused in order to smoke)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-12-2-1">"I stopped <em class="emphasis">to smoke</em>." (paused in order to smoke)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-12-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <ul class="disc" id="ch-14-nominals-sec-146-13">
 <li id="ch-14-nominals-sec-146-13-1">
-<div class="para" id="ch-14-nominals-sec-146-13-1-1">
-<em class="emphasis">I remember <em class="emphasis">locking</em> the door.</em> (I recall doing it)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-13-1-1">"I remember <em class="emphasis">locking</em> the door." (I recall doing it)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-13-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-13-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-14-nominals-sec-146-13-2">
-<div class="para" id="ch-14-nominals-sec-146-13-2-1">
-<em class="emphasis">I remember <em class="emphasis">to lock</em> the door.</em> (I don’t forget to do it)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-13-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-13-2-1">"I remember <em class="emphasis">to lock</em> the door." (I don’t forget to do it)<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-13-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-13-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -842,14 +842,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-14-nominals-sec-146-16">
 <li id="ch-14-nominals-sec-146-16-1">
-<div class="para" id="ch-14-nominals-sec-146-16-1-1">
-<em class="emphasis">I believe <em class="emphasis">that she’s honest</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-16-1-1">"I believe <em class="emphasis">that she’s honest</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-16-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-14-nominals-sec-146-16-2">
-<div class="para" id="ch-14-nominals-sec-146-16-2-1">
-<em class="emphasis">I believe <em class="emphasis">her to be honest</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-16-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-16-2-1">"I believe <em class="emphasis">her to be honest</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-16-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-16-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -861,14 +859,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-14-nominals-sec-146-20">
 <li id="ch-14-nominals-sec-146-20-1">
-<div class="para" id="ch-14-nominals-sec-146-20-1-1">
-<em class="emphasis">He admitted <em class="emphasis">that he was wrong</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-20-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-20-1-1">"He admitted <em class="emphasis">that he was wrong</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-20-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-20-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-14-nominals-sec-146-20-2">
-<div class="para" id="ch-14-nominals-sec-146-20-2-1">
-<em class="emphasis">He admitted <em class="emphasis">being wrong</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-20-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-14-nominals-sec-146-20-2-1">"He admitted <em class="emphasis">being wrong</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-14-nominals-sec-146-20-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-14-nominals-sec-146-20-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>

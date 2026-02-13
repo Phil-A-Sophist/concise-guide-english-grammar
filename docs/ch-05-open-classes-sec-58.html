@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -794,27 +802,27 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Key Syntactic Tests</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Noun</em></td>
+<td class="l m b0 r0 l0 t0 lines">Noun</td>
 <td class="l m b0 r0 l0 t0 lines"><ul class="disc" id="ch-05-open-classes-sec-58-7-2-2-1">
 <li id="ch-05-open-classes-sec-58-7-2-2-1-1">
-<div class="para" id="ch-05-open-classes-sec-58-7-2-2-1-1-1">Plural (<em class="emphasis">-s</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-2-2-1-1-1">Plural (-s)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-2-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-2-2-1-2">
-<div class="para" id="ch-05-open-classes-sec-58-7-2-2-1-2-1">Possessive (<em class="emphasis">’s</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-2-2-1-2-1">Possessive (’s)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-2-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-2-2-1-3">
-<div class="para" id="ch-05-open-classes-sec-58-7-2-2-1-3-1">Noun suffixes (<em class="emphasis">-tion</em>, <em class="emphasis">-ness</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-2-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-2-2-1-3-1">Noun suffixes (-tion, -ness)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-2-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-2-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul></td>
 <td class="l m b0 r0 l0 t0 lines"><ul class="disc" id="ch-05-open-classes-sec-58-7-2-3-1">
 <li id="ch-05-open-classes-sec-58-7-2-3-1-1">
-<div class="para" id="ch-05-open-classes-sec-58-7-2-3-1-1-1">Follows <em class="emphasis">the/a</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-2-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-2-3-1-1-1">Follows the/a<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-2-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-2-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -831,33 +839,32 @@ section .tabular-box {
 </ul></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Verb</em></td>
+<td class="l m b0 r0 l0 t0 lines">Verb</td>
 <td class="l m b0 r0 l0 t0 lines"><ul class="disc" id="ch-05-open-classes-sec-58-7-3-2-1">
 <li id="ch-05-open-classes-sec-58-7-3-2-1-1">
-<div class="para" id="ch-05-open-classes-sec-58-7-3-2-1-1-1">Past tense (<em class="emphasis">-ed</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-3-2-1-1-1">Past tense (-ed)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-3-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-3-2-1-2">
-<div class="para" id="ch-05-open-classes-sec-58-7-3-2-1-2-1">3rd singular (<em class="emphasis">-s</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-3-2-1-2-1">3rd singular (-s)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-3-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-3-2-1-3">
-<div class="para" id="ch-05-open-classes-sec-58-7-3-2-1-3-1">
-<em class="emphasis">-ing</em> form<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-3-2-1-3-1">-ing form<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-3-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul></td>
 <td class="l m b0 r0 l0 t0 lines"><ul class="disc" id="ch-05-open-classes-sec-58-7-3-3-1">
 <li id="ch-05-open-classes-sec-58-7-3-3-1-1">
-<div class="para" id="ch-05-open-classes-sec-58-7-3-3-1-1-1">Follows <em class="emphasis">can/will/might</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-3-3-1-1-1">Follows can/will/might<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-3-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-3-3-1-2">
-<div class="para" id="ch-05-open-classes-sec-58-7-3-3-1-2-1">Follows <em class="emphasis">to</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-3-3-1-2-1">Follows to<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-3-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-3-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -869,48 +876,47 @@ section .tabular-box {
 </ul></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Adjective</em></td>
+<td class="l m b0 r0 l0 t0 lines">Adjective</td>
 <td class="l m b0 r0 l0 t0 lines"><ul class="disc" id="ch-05-open-classes-sec-58-7-4-2-1">
 <li id="ch-05-open-classes-sec-58-7-4-2-1-1">
-<div class="para" id="ch-05-open-classes-sec-58-7-4-2-1-1-1">Comparative/superlative (<em class="emphasis">-er/-est</em>)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-4-2-1-1-1">Comparative/superlative (-er/-est)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-4-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-4-2-1-2">
-<div class="para" id="ch-05-open-classes-sec-58-7-4-2-1-2-1">
-<em class="emphasis">-ish</em> suffix<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-4-2-1-2-1">-ish suffix<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-4-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-4-2-1-3">
-<div class="para" id="ch-05-open-classes-sec-58-7-4-2-1-3-1">Forms adverb with <em class="emphasis">-ly</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-4-2-1-3-1">Forms adverb with -ly<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-4-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul></td>
 <td class="l m b0 r0 l0 t0 lines"><ul class="disc" id="ch-05-open-classes-sec-58-7-4-3-1">
 <li id="ch-05-open-classes-sec-58-7-4-3-1-1">
-<div class="para" id="ch-05-open-classes-sec-58-7-4-3-1-1-1">Between <em class="emphasis">the</em> and noun<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-4-3-1-1-1">Between the and noun<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-4-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-4-3-1-2">
-<div class="para" id="ch-05-open-classes-sec-58-7-4-3-1-2-1">After <em class="emphasis">be/seem</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-4-3-1-2-1">After be/seem<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-4-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-4-3-1-3">
-<div class="para" id="ch-05-open-classes-sec-58-7-4-3-1-3-1">Modified by <em class="emphasis">very</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-4-3-1-3-1">Modified by very<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-4-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-4-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul></td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Adverb</em></td>
+<td class="l m b0 r0 l0 t0 lines">Adverb</td>
 <td class="l m b0 r0 l0 t0 lines"><ul class="disc" id="ch-05-open-classes-sec-58-7-5-2-1">
 <li id="ch-05-open-classes-sec-58-7-5-2-1-1">
-<div class="para" id="ch-05-open-classes-sec-58-7-5-2-1-1-1">Often <em class="emphasis">-ly</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-5-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-5-2-1-1-1">Often -ly<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-5-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-5-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -927,7 +933,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-5-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-7-5-3-1-2">
-<div class="para" id="ch-05-open-classes-sec-58-7-5-3-1-2-1">Cannot go between <em class="emphasis">the</em> and noun<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-5-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-7-5-3-1-2-1">Cannot go between the and noun<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-7-5-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-58-7-5-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -946,41 +952,38 @@ section .tabular-box {
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Noun phrase (NP)</td>
 <td class="l m b0 r0 l0 t0 lines">Noun</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">the tall student from Ohio</em></td>
+<td class="l m b0 r0 l0 t0 lines">the tall student from Ohio</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Verb phrase (VP)</td>
 <td class="l m b0 r0 l0 t0 lines">Verb</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">read the book carefully</em></td>
+<td class="l m b0 r0 l0 t0 lines">read the book carefully</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Adjective phrase (AdjP)</td>
 <td class="l m b0 r0 l0 t0 lines">Adjective</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">very proud of her work</em></td>
+<td class="l m b0 r0 l0 t0 lines">very proud of her work</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Adverb phrase (AdvP)</td>
 <td class="l m b0 r0 l0 t0 lines">Adverb</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">very quickly</em></td>
+<td class="l m b0 r0 l0 t0 lines">very quickly</td>
 </tr>
 </table></div>
 <section class="paragraphs" id="ch-05-open-classes-sec-58-11"><h3 class="heading"><span class="title">Analysis Process.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Analysis Process"><a href="#ch-05-open-classes-sec-58-11" title="Copy heading and permalink for Paragraphs: Analysis Process" aria-label="Copy heading and permalink for Paragraphs: Analysis Process">🔗</a></div></section><ol class="decimal" id="ch-05-open-classes-sec-58-12">
 <li id="ch-05-open-classes-sec-58-12-1">
-<div class="para" id="ch-05-open-classes-sec-58-12-1-1">
-<em class="emphasis">Identify form</em>: What part of speech is this word typically? Apply morphological and syntactic tests.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-12-1-1">Identify form: What part of speech is this word typically? Apply morphological and syntactic tests.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 1"><a href="#ch-05-open-classes-sec-58-12-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-12-2">
-<div class="para" id="ch-05-open-classes-sec-58-12-2-1">
-<em class="emphasis">Identify function</em>: What role is it playing in this sentence? Is it modifying something? Acting as subject or object?<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-12-2-1">Identify function: What role is it playing in this sentence? Is it modifying something? Acting as subject or object?<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 2"><a href="#ch-05-open-classes-sec-58-12-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-58-12-3">
-<div class="para" id="ch-05-open-classes-sec-58-12-3-1">
-<em class="emphasis">Note mismatches</em>: If form and function differ, identify both. (<em class="emphasis">The poor</em> = adjective form, nominal function)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-12-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-58-12-3-1">Note mismatches: If form and function differ, identify both. (The poor = adjective form, nominal function)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-58-12-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#ch-05-open-classes-sec-58-12-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>

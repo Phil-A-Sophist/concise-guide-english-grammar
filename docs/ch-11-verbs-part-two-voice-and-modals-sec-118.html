@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -774,32 +782,27 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4">
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-1">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-1-1">
-<em class="emphasis">She <em class="emphasis">must have left</em>.</em> (I conclude she left)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-1-1">"She <em class="emphasis">must have left</em>." (I conclude she left)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-2">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-2-1">
-<em class="emphasis">He <em class="emphasis">might have forgotten</em>.</em> (possibly he forgot)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-2-1">"He <em class="emphasis">might have forgotten</em>." (possibly he forgot)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-3">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-3-1">
-<em class="emphasis">You <em class="emphasis">should have called</em>.</em> (but you didn’t—criticism)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-3-1">"You <em class="emphasis">should have called</em>." (but you didn’t—criticism)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-4">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-4-1">
-<em class="emphasis">I <em class="emphasis">would have helped</em> if I could.</em> (hypothetical past)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-4-1">"I <em class="emphasis">would have helped</em> if I could." (hypothetical past)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-5">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-5-1">
-<em class="emphasis">They <em class="emphasis">could have won</em>.</em> (they had the ability but didn’t)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-118-4-5-1">"They <em class="emphasis">could have won</em>." (they had the ability but didn’t)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-118-4-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -811,27 +814,27 @@ section .tabular-box {
 <th scope="col" class="l m b1 r0 l0 t0 lines">Meaning</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">must have done</em></td>
+<td class="l m b0 r0 l0 t0 lines">must have done</td>
 <td class="l m b0 r0 l0 t0 lines">logical conclusion about past</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">may/might have done</em></td>
+<td class="l m b0 r0 l0 t0 lines">may/might have done</td>
 <td class="l m b0 r0 l0 t0 lines">possibility in the past</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">could have done</em></td>
+<td class="l m b0 r0 l0 t0 lines">could have done</td>
 <td class="l m b0 r0 l0 t0 lines">past possibility or unrealized ability</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">should have done</em></td>
+<td class="l m b0 r0 l0 t0 lines">should have done</td>
 <td class="l m b0 r0 l0 t0 lines">obligation not fulfilled (criticism)</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">would have done</em></td>
+<td class="l m b0 r0 l0 t0 lines">would have done</td>
 <td class="l m b0 r0 l0 t0 lines">hypothetical past (unfulfilled)</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">can’t have done</em></td>
+<td class="l m b0 r0 l0 t0 lines">can’t have done</td>
 <td class="l m b0 r0 l0 t0 lines">impossibility in the past</td>
 </tr>
 </table></div>

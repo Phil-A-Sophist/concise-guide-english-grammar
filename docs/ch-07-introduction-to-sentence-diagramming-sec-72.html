@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -807,25 +815,25 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Predicate VP</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Dogs bark.</em></td>
+<td class="l m b0 r0 l0 t0 lines">Dogs bark.</td>
 <td class="l m b0 r0 l0 t0 lines">Dogs</td>
 <td class="l m b0 r0 l0 t0 lines">bark</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">The old man sat quietly.</em></td>
+<td class="l m b0 r0 l0 t0 lines">The old man sat quietly.</td>
 <td class="l m b0 r0 l0 t0 lines">The old man</td>
 <td class="l m b0 r0 l0 t0 lines">sat quietly</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">My brilliant sister from Ohio won the prize.</em></td>
+<td class="l m b0 r0 l0 t0 lines">My brilliant sister from Ohio won the prize.</td>
 <td class="l m b0 r0 l0 t0 lines">My brilliant sister from Ohio</td>
 <td class="l m b0 r0 l0 t0 lines">won the prize</td>
 </tr>
 </table></div>
-<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-15">No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate (<em class="emphasis">The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before</em>...) and the predicate can become equally elaborate (...<em class="emphasis">suddenly found herself standing on the stage of Carnegie Hall</em>). But the fundamental structure—subject NP plus predicate VP—persists.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-15">No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate (The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before...) and the predicate can become equally elaborate (...suddenly found herself standing on the stage of Carnegie Hall). But the fundamental structure—subject NP plus predicate VP—persists.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-07-introduction-to-sentence-diagramming-sec-72-16"><h3 class="heading"><span class="title">What’s in the NP?</span></h3>
-<div class="autopermalink" data-description="Paragraphs: What’s in the NP?"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-16" title="Copy heading and permalink for Paragraphs: What’s in the NP?" aria-label="Copy heading and permalink for Paragraphs: What’s in the NP?">🔗</a></div></section><div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-17">A noun phrase is built around a noun (its <em class="emphasis">head</em>). The simplest NP is just a noun or pronoun:<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: What’s in the NP?"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-16" title="Copy heading and permalink for Paragraphs: What’s in the NP?" aria-label="Copy heading and permalink for Paragraphs: What’s in the NP?">🔗</a></div></section><div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-17">A noun phrase is built around a noun (its head). The simplest NP is just a noun or pronoun:<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-07-introduction-to-sentence-diagramming-sec-72-18">
 <li id="ch-07-introduction-to-sentence-diagramming-sec-72-18-1">
@@ -845,26 +853,22 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-07-introduction-to-sentence-diagramming-sec-72-20">
 <li id="ch-07-introduction-to-sentence-diagramming-sec-72-20-1">
-<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-20-1-1">
-<em class="emphasis">Determiners</em>: <em class="emphasis">the</em> dog, <em class="emphasis">my</em> sister<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-20-1-1">Determiners: <em class="emphasis">the</em> dog, <em class="emphasis">my</em> sister<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-07-introduction-to-sentence-diagramming-sec-72-20-2">
-<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-20-2-1">
-<em class="emphasis">Adjectives</em>: the <em class="emphasis">old</em> dog, my <em class="emphasis">brilliant</em> sister<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-20-2-1">Adjectives: the <em class="emphasis">old</em> dog, my <em class="emphasis">brilliant</em> sister<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-07-introduction-to-sentence-diagramming-sec-72-20-3">
-<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-20-3-1">
-<em class="emphasis">Prepositional phrases</em>: the dog <em class="emphasis">on the porch</em>, my sister <em class="emphasis">from Ohio</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-20-3-1">Prepositional phrases: the dog <em class="emphasis">on the porch</em>, my sister <em class="emphasis">from Ohio</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-07-introduction-to-sentence-diagramming-sec-72-20-4">
-<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-20-4-1">
-<em class="emphasis">Relative clauses</em>: the dog <em class="emphasis">that barked</em>, my sister <em class="emphasis">who lives in Ohio</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-20-4-1">Relative clauses: the dog <em class="emphasis">that barked</em>, my sister <em class="emphasis">who lives in Ohio</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-20-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -872,7 +876,7 @@ section .tabular-box {
 <div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-21">All of these elements cluster around the head noun, forming a unit—the noun phrase.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-07-introduction-to-sentence-diagramming-sec-72-22"><h3 class="heading"><span class="title">What’s in the VP?</span></h3>
-<div class="autopermalink" data-description="Paragraphs: What’s in the VP?"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-22" title="Copy heading and permalink for Paragraphs: What’s in the VP?" aria-label="Copy heading and permalink for Paragraphs: What’s in the VP?">🔗</a></div></section><div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-23">A verb phrase is built around a verb (its <em class="emphasis">head</em>). The simplest VP is just a verb:<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: What’s in the VP?"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-22" title="Copy heading and permalink for Paragraphs: What’s in the VP?" aria-label="Copy heading and permalink for Paragraphs: What’s in the VP?">🔗</a></div></section><div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-23">A verb phrase is built around a verb (its head). The simplest VP is just a verb:<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-07-introduction-to-sentence-diagramming-sec-72-24">
 <li id="ch-07-introduction-to-sentence-diagramming-sec-72-24-1">
@@ -890,20 +894,17 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-07-introduction-to-sentence-diagramming-sec-72-26">
 <li id="ch-07-introduction-to-sentence-diagramming-sec-72-26-1">
-<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-26-1-1">
-<em class="emphasis">Objects</em>: She <em class="emphasis">read the book</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-26-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-26-1-1">Objects: She <em class="emphasis">read the book</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-26-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-26-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-07-introduction-to-sentence-diagramming-sec-72-26-2">
-<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-26-2-1">
-<em class="emphasis">Complements</em>: He <em class="emphasis">is a doctor</em>. She <em class="emphasis">became famous</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-26-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-26-2-1">Complements: He <em class="emphasis">is a doctor</em>. She <em class="emphasis">became famous</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-26-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-26-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-07-introduction-to-sentence-diagramming-sec-72-26-3">
-<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-26-3-1">
-<em class="emphasis">Adverbials</em>: She <em class="emphasis">arrived yesterday</em>. He <em class="emphasis">spoke loudly</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-26-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-07-introduction-to-sentence-diagramming-sec-72-26-3-1">Adverbials: She <em class="emphasis">arrived yesterday</em>. He <em class="emphasis">spoke loudly</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-26-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-07-introduction-to-sentence-diagramming-sec-72-26-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>

@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -778,30 +786,28 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Concise</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">basic fundamentals</em></td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">basics</em> or <em class="emphasis">fundamentals</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">basic fundamentals</td>
+<td class="l m b0 r0 l0 t0 lines">basics or fundamentals</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">true facts</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">facts</em></td>
+<td class="l m b0 r0 l0 t0 lines">true facts</td>
+<td class="l m b0 r0 l0 t0 lines">facts</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">past history</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">history</em></td>
+<td class="l m b0 r0 l0 t0 lines">past history</td>
+<td class="l m b0 r0 l0 t0 lines">history</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">future plans</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">plans</em></td>
+<td class="l m b0 r0 l0 t0 lines">future plans</td>
+<td class="l m b0 r0 l0 t0 lines">plans</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">consensus of opinion</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">consensus</em></td>
+<td class="l m b0 r0 l0 t0 lines">consensus of opinion</td>
+<td class="l m b0 r0 l0 t0 lines">consensus</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">completely unanimous</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">unanimous</em></td>
+<td class="l m b0 r0 l0 t0 lines">completely unanimous</td>
+<td class="l m b0 r0 l0 t0 lines">unanimous</td>
 </tr>
 </table></div>
 <section class="paragraphs" id="ch-19-organization-and-concision-sec-194-6"><h3 class="heading"><span class="title">Meaningless Modifiers.</span></h3>
@@ -813,20 +819,20 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Concise</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">really quite interesting</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">interesting</em></td>
+<td class="l m b0 r0 l0 t0 lines">really quite interesting</td>
+<td class="l m b0 r0 l0 t0 lines">interesting</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">very unique</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">unique</em></td>
+<td class="l m b0 r0 l0 t0 lines">very unique</td>
+<td class="l m b0 r0 l0 t0 lines">unique</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">absolutely essential</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">essential</em></td>
+<td class="l m b0 r0 l0 t0 lines">absolutely essential</td>
+<td class="l m b0 r0 l0 t0 lines">essential</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">completely finished</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">finished</em></td>
+<td class="l m b0 r0 l0 t0 lines">completely finished</td>
+<td class="l m b0 r0 l0 t0 lines">finished</td>
 </tr>
 </table></div>
 <section class="paragraphs" id="ch-19-organization-and-concision-sec-194-9"><h3 class="heading"><span class="title">Wordy Phrases.</span></h3>
@@ -838,40 +844,40 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Concise</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">at this point in time</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">now</em></td>
+<td class="l m b0 r0 l0 t0 lines">at this point in time</td>
+<td class="l m b0 r0 l0 t0 lines">now</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">in the event that</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">if</em></td>
+<td class="l m b0 r0 l0 t0 lines">in the event that</td>
+<td class="l m b0 r0 l0 t0 lines">if</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">due to the fact that</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">because</em></td>
+<td class="l m b0 r0 l0 t0 lines">due to the fact that</td>
+<td class="l m b0 r0 l0 t0 lines">because</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">in order to</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">to</em></td>
+<td class="l m b0 r0 l0 t0 lines">in order to</td>
+<td class="l m b0 r0 l0 t0 lines">to</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">a large number of</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">many</em></td>
+<td class="l m b0 r0 l0 t0 lines">a large number of</td>
+<td class="l m b0 r0 l0 t0 lines">many</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">is able to</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">can</em></td>
+<td class="l m b0 r0 l0 t0 lines">is able to</td>
+<td class="l m b0 r0 l0 t0 lines">can</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">has the ability to</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">can</em></td>
+<td class="l m b0 r0 l0 t0 lines">has the ability to</td>
+<td class="l m b0 r0 l0 t0 lines">can</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">make a decision</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">decide</em></td>
+<td class="l m b0 r0 l0 t0 lines">make a decision</td>
+<td class="l m b0 r0 l0 t0 lines">decide</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">give consideration to</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">consider</em></td>
+<td class="l m b0 r0 l0 t0 lines">give consideration to</td>
+<td class="l m b0 r0 l0 t0 lines">consider</td>
 </tr>
 </table></div>
 <section class="paragraphs" id="ch-19-organization-and-concision-sec-194-12"><h3 class="heading"><span class="title">Empty Sentence Starters.</span></h3>
@@ -883,22 +889,20 @@ section .tabular-box {
 <th scope="col" class="l m b0 r0 l0 t0 lines">Concise</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">It is important to note that...</em></td>
+<td class="l m b0 r0 l0 t0 lines">It is important to note that...</td>
 <td class="l m b0 r0 l0 t0 lines">(just state it)</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">There are many people who believe...</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Many people believe...</em></td>
+<td class="l m b0 r0 l0 t0 lines">There are many people who believe...</td>
+<td class="l m b0 r0 l0 t0 lines">Many people believe...</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">It is my opinion that...</em></td>
+<td class="l m b0 r0 l0 t0 lines">It is my opinion that...</td>
 <td class="l m b0 r0 l0 t0 lines">(just state your opinion)</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">The reason why is because...</em></td>
-<td class="l m b0 r0 l0 t0 lines">
-<em class="emphasis">The reason is...</em> or <em class="emphasis">because</em>
-</td>
+<td class="l m b0 r0 l0 t0 lines">The reason why is because...</td>
+<td class="l m b0 r0 l0 t0 lines">The reason is... or because</td>
 </tr>
 </table></div>
 <div class="autopermalink" data-description="Section 19.4: Concision: Eliminating Wordiness"><a href="#ch-19-organization-and-concision-sec-194" title="Copy heading and permalink for Section 19.4: Concision: Eliminating Wordiness" aria-label="Copy heading and permalink for Section 19.4: Concision: Eliminating Wordiness">🔗</a></div></section></div>

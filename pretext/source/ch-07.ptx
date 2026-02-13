@@ -112,29 +112,29 @@
         <cell>Predicate VP</cell>
       </row>
       <row>
-        <cell><em>Dogs bark.</em></cell>
+        <cell>Dogs bark.</cell>
         <cell>Dogs</cell>
         <cell>bark</cell>
       </row>
       <row>
-        <cell><em>The old man sat quietly.</em></cell>
+        <cell>The old man sat quietly.</cell>
         <cell>The old man</cell>
         <cell>sat quietly</cell>
       </row>
       <row>
-        <cell><em>My brilliant sister from Ohio won the prize.</em></cell>
+        <cell>My brilliant sister from Ohio won the prize.</cell>
         <cell>My brilliant sister from Ohio</cell>
         <cell>won the prize</cell>
       </row>
     </tabular>
 
-    <p>No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate (<em>The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before</em>...) and the predicate can become equally elaborate (...<em>suddenly found herself standing on the stage of Carnegie Hall</em>). But the fundamental structure—subject NP plus predicate VP—persists.</p>
+    <p>No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate (The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before...) and the predicate can become equally elaborate (...suddenly found herself standing on the stage of Carnegie Hall). But the fundamental structure—subject NP plus predicate VP—persists.</p>
 
     <paragraphs>
       <title>What's in the NP?</title>
     </paragraphs>
 
-    <p>A noun phrase is built around a noun (its <em>head</em>). The simplest NP is just a noun or pronoun:</p>
+    <p>A noun phrase is built around a noun (its head). The simplest NP is just a noun or pronoun:</p>
 
     <ul>
       <li><p><em>Dogs</em> bark.</p></li>
@@ -144,10 +144,10 @@
     <p>But NPs can include additional elements:</p>
 
     <ul>
-      <li><p><em>Determiners</em>: <em>the</em> dog, <em>my</em> sister</p></li>
-      <li><p><em>Adjectives</em>: the <em>old</em> dog, my <em>brilliant</em> sister</p></li>
-      <li><p><em>Prepositional phrases</em>: the dog <em>on the porch</em>, my sister <em>from Ohio</em></p></li>
-      <li><p><em>Relative clauses</em>: the dog <em>that barked</em>, my sister <em>who lives in Ohio</em></p></li>
+      <li><p>Determiners: <em>the</em> dog, <em>my</em> sister</p></li>
+      <li><p>Adjectives: the <em>old</em> dog, my <em>brilliant</em> sister</p></li>
+      <li><p>Prepositional phrases: the dog <em>on the porch</em>, my sister <em>from Ohio</em></p></li>
+      <li><p>Relative clauses: the dog <em>that barked</em>, my sister <em>who lives in Ohio</em></p></li>
     </ul>
 
     <p>All of these elements cluster around the head noun, forming a unit—the noun phrase.</p>
@@ -156,7 +156,7 @@
       <title>What's in the VP?</title>
     </paragraphs>
 
-    <p>A verb phrase is built around a verb (its <em>head</em>). The simplest VP is just a verb:</p>
+    <p>A verb phrase is built around a verb (its head). The simplest VP is just a verb:</p>
 
     <ul>
       <li><p>Dogs <em>bark</em>.</p></li>
@@ -166,9 +166,9 @@
     <p>But VPs typically include additional elements:</p>
 
     <ul>
-      <li><p><em>Objects</em>: She <em>read the book</em>.</p></li>
-      <li><p><em>Complements</em>: He <em>is a doctor</em>. She <em>became famous</em>.</p></li>
-      <li><p><em>Adverbials</em>: She <em>arrived yesterday</em>. He <em>spoke loudly</em>.</p></li>
+      <li><p>Objects: She <em>read the book</em>.</p></li>
+      <li><p>Complements: He <em>is a doctor</em>. She <em>became famous</em>.</p></li>
+      <li><p>Adverbials: She <em>arrived yesterday</em>. He <em>spoke loudly</em>.</p></li>
     </ul>
 
     <p>The verb phrase contains everything in the predicate—the verb itself plus whatever follows it.</p>
@@ -208,72 +208,72 @@
       <row>
         <cell>NP</cell>
         <cell>Noun phrase</cell>
-        <cell><em>the dog</em>, <em>she</em>, <em>my old friend</em></cell>
+        <cell>the dog, she, my old friend</cell>
       </row>
       <row>
         <cell>VP</cell>
         <cell>Verb phrase</cell>
-        <cell><em>runs</em>, <em>ate the sandwich</em>, <em>is happy</em></cell>
+        <cell>runs, ate the sandwich, is happy</cell>
       </row>
       <row>
         <cell>PP</cell>
         <cell>Prepositional phrase</cell>
-        <cell><em>in the house</em>, <em>with enthusiasm</em></cell>
+        <cell>in the house, with enthusiasm</cell>
       </row>
       <row>
         <cell>AdjP</cell>
         <cell>Adjective phrase</cell>
-        <cell><em>very tall</em>, <em>happy</em></cell>
+        <cell>very tall, happy</cell>
       </row>
       <row>
         <cell>AdvP</cell>
         <cell>Adverb phrase</cell>
-        <cell><em>quickly</em>, <em>very slowly</em></cell>
+        <cell>quickly, very slowly</cell>
       </row>
       <row>
         <cell>N</cell>
         <cell>Noun</cell>
-        <cell><em>dog</em>, <em>happiness</em>, <em>Sarah</em></cell>
+        <cell>dog, happiness, Sarah</cell>
       </row>
       <row>
         <cell>V</cell>
         <cell>Verb</cell>
-        <cell><em>run</em>, <em>is</em>, <em>consider</em></cell>
+        <cell>run, is, consider</cell>
       </row>
       <row>
         <cell>Adj</cell>
         <cell>Adjective</cell>
-        <cell><em>tall</em>, <em>blue</em>, <em>interesting</em></cell>
+        <cell>tall, blue, interesting</cell>
       </row>
       <row>
         <cell>Adv</cell>
         <cell>Adverb</cell>
-        <cell><em>quickly</em>, <em>never</em>, <em>there</em></cell>
+        <cell>quickly, never, there</cell>
       </row>
       <row>
         <cell>Det</cell>
         <cell>Determiner</cell>
-        <cell><em>the</em>, <em>a</em>, <em>my</em>, <em>this</em></cell>
+        <cell>the, a, my, this</cell>
       </row>
       <row>
         <cell>Pro</cell>
         <cell>Pronoun</cell>
-        <cell><em>she</em>, <em>it</em>, <em>they</em></cell>
+        <cell>she, it, they</cell>
       </row>
       <row>
         <cell>Prep</cell>
         <cell>Preposition</cell>
-        <cell><em>in</em>, <em>on</em>, <em>with</em>, <em>to</em></cell>
+        <cell>in, on, with, to</cell>
       </row>
       <row>
         <cell>Conj</cell>
         <cell>Conjunction</cell>
-        <cell><em>and</em>, <em>but</em>, <em>or</em></cell>
+        <cell>and, but, or</cell>
       </row>
       <row>
         <cell>Aux</cell>
         <cell>Auxiliary</cell>
-        <cell><em>has</em>, <em>will</em>, <em>been</em>, <em>can</em></cell>
+        <cell>has, will, been, can</cell>
       </row>
     </tabular>
 
@@ -376,7 +376,7 @@
     <p>You can move the entire object NP to the front for emphasis:</p>
 
     <ul>
-      <li><p><em>Beautiful landscapes</em>, the young artist from Paris painted.</p></li>
+      <li><p>Beautiful landscapes, the young artist from Paris painted.</p></li>
     </ul>
 
     <p>These operations work on <em>constituents</em>—groups that the tree identifies as units.</p>
@@ -395,9 +395,9 @@
     <p>The head is the word that the phrase is &quot;about.&quot; It determines:</p>
 
     <ul>
-      <li><p><em>Category</em>: A phrase headed by a noun is a noun phrase; a phrase headed by a verb is a verb phrase</p></li>
-      <li><p><em>Core meaning</em>: The head provides the basic meaning; other elements elaborate on it</p></li>
-      <li><p><em>Grammatical requirements</em>: The head determines what complements are needed</p></li>
+      <li><p>Category: A phrase headed by a noun is a noun phrase; a phrase headed by a verb is a verb phrase</p></li>
+      <li><p>Core meaning: The head provides the basic meaning; other elements elaborate on it</p></li>
+      <li><p>Grammatical requirements: The head determines what complements are needed</p></li>
     </ul>
 
     <p>In the noun phrase &quot;the tall man,&quot; the head is &quot;man.&quot; Without &quot;man,&quot; you don't have a noun phrase.</p>
@@ -413,16 +413,16 @@
     <p><em>In noun phrases:</em></p>
 
     <ul>
-      <li><p>Adjectives: <em>the <em>tall</em> man</em></p></li>
-      <li><p>Prepositional phrases: <em>the man <em>in the hat</em></em></p></li>
-      <li><p>Relative clauses: <em>the man <em>who arrived late</em></em></p></li>
+      <li><p>Adjectives: the tall man</p></li>
+      <li><p>Prepositional phrases: the man in the hat</p></li>
+      <li><p>Relative clauses: the man who arrived late</p></li>
     </ul>
 
     <p><em>In verb phrases:</em></p>
 
     <ul>
-      <li><p>Adverbs: <em>she spoke <em>quietly</em></em></p></li>
-      <li><p>Prepositional phrases: <em>she works <em>at a hospital</em></em></p></li>
+      <li><p>Adverbs: she spoke quietly</p></li>
+      <li><p>Prepositional phrases: she works at a hospital</p></li>
     </ul>
 
     <p>Modifiers answer questions like &quot;which one?&quot; &quot;what kind?&quot; &quot;how?&quot; &quot;when?&quot; &quot;where?&quot;</p>
@@ -436,16 +436,16 @@
     <p><em>In verb phrases</em>, the main verb often requires certain complements:</p>
 
     <ul>
-      <li><p>Transitive verbs require objects: <em>She read <em>the book</em></em>.</p></li>
-      <li><p>Linking verbs require subject complements: <em>He is <em>a doctor</em></em>.</p></li>
+      <li><p>Transitive verbs require objects: She read the book.</p></li>
+      <li><p>Linking verbs require subject complements: He is a doctor.</p></li>
       <li><p>Ditransitive verbs require two objects: <em>She gave <em>me</em> <em>a book</em></em>.</p></li>
     </ul>
 
     <p>The difference between complements and modifiers can be subtle, but one test is obligatoriness: if removing an element makes the sentence feel incomplete, it's likely a complement.</p>
 
     <ul>
-      <li><p><em>She read the book carefully.</em> → <em>She read the book.</em> (OK—&quot;carefully&quot; is a modifier)</p></li>
-      <li><p><em>She read the book carefully.</em> → <em>She read carefully.</em> (Changed meaning—&quot;the book&quot; is a complement)</p></li>
+      <li><p>She read the book carefully. → She read the book. (OK—&quot;carefully&quot; is a modifier)</p></li>
+      <li><p>She read the book carefully. → She read carefully. (Changed meaning—&quot;the book&quot; is a complement)</p></li>
     </ul>
 
   </section>
@@ -562,11 +562,11 @@
     </paragraphs>
 
     <ol>
-      <li><p><em>Top-down structure</em>: S is at the top; words are at the bottom</p></li>
-      <li><p><em>Binary branching preferred</em>: Most nodes have two daughters, though some have more</p></li>
-      <li><p><em>Labels on every node</em>: Each node is labeled with its category</p></li>
-      <li><p><em>Words as terminals</em>: Actual words appear only at the bottom of the tree</p></li>
-      <li><p><em>Lines connect related elements</em>: Branches show constituency</p></li>
+      <li><p>Top-down structure: S is at the top; words are at the bottom</p></li>
+      <li><p>Binary branching preferred: Most nodes have two daughters, though some have more</p></li>
+      <li><p>Labels on every node: Each node is labeled with its category</p></li>
+      <li><p>Words as terminals: Actual words appear only at the bottom of the tree</p></li>
+      <li><p>Lines connect related elements: Branches show constituency</p></li>
     </ol>
 
     <paragraphs>
@@ -657,11 +657,11 @@
         <li><p>Head: <em>player</em></p></li>
         <li><p>Modifiers:</p>
           <ul>
-            <li><p><em>the</em> — determiner</p></li>
-            <li><p><em>very tall</em> — adjective phrase (containing adverb "very" + adjective "tall")</p></li>
-            <li><p><em>young</em> — adjective</p></li>
-            <li><p><em>basketball</em> — noun (functioning adjectivally)</p></li>
-            <li><p><em>from Chicago</em> — prepositional phrase</p></li>
+            <li><p>the — determiner</p></li>
+            <li><p>very tall — adjective phrase (containing adverb "very" + adjective "tall")</p></li>
+            <li><p>young — adjective</p></li>
+            <li><p>basketball — noun (functioning adjectivally)</p></li>
+            <li><p>from Chicago — prepositional phrase</p></li>
           </ul>
         </li>
       </ul>

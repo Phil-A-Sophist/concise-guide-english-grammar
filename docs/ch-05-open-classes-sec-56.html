@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -768,18 +776,18 @@ section .tabular-box {
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Adjectives</span>
 </h2>
 <div class="para" id="ch-05-open-classes-sec-56-2">
-<em class="emphasis">Adjectives</em> are the descriptors of language. They modify nouns, telling us what kind of thing something is, what quality it has, or which one we mean. A <em class="emphasis">tall</em> building, a <em class="emphasis">happy</em> child, an <em class="emphasis">interesting</em> problem—in each case, the adjective narrows down the noun, adding specificity. But the range of qualities that adjectives can express is remarkably broad, extending well beyond simple physical description.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">Adjectives</dfn> are the descriptors of language. They modify nouns, telling us what kind of thing something is, what quality it has, or which one we mean. A tall building, a happy child, an interesting problem—in each case, the adjective narrows down the noun, adding specificity. But the range of qualities that adjectives can express is remarkably broad, extending well beyond simple physical description.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-3">Consider the kinds of information adjectives convey. <em class="emphasis">Physical qualities</em> include size (<em class="emphasis">tall</em>, <em class="emphasis">tiny</em>, <em class="emphasis">enormous</em>), weight (<em class="emphasis">heavy</em>, <em class="emphasis">light</em>, <em class="emphasis">massive</em>), texture (<em class="emphasis">rough</em>, <em class="emphasis">smooth</em>, <em class="emphasis">silky</em>), and shape (<em class="emphasis">round</em>, <em class="emphasis">flat</em>, <em class="emphasis">triangular</em>). <em class="emphasis">Evaluative</em> adjectives express opinions or judgments: <em class="emphasis">good</em>, <em class="emphasis">beautiful</em>, <em class="emphasis">terrible</em>, <em class="emphasis">delicious</em>, <em class="emphasis">boring</em>. <em class="emphasis">Age and temporal</em> adjectives locate things in time: <em class="emphasis">old</em>, <em class="emphasis">new</em>, <em class="emphasis">ancient</em>, <em class="emphasis">modern</em>, <em class="emphasis">recent</em>. <em class="emphasis">Color</em> adjectives describe appearance: <em class="emphasis">red</em>, <em class="emphasis">blue</em>, <em class="emphasis">green</em>, <em class="emphasis">dark</em>, <em class="emphasis">pale</em>. And <em class="emphasis">origin or material</em> adjectives identify where something comes from or what it is made of: <em class="emphasis">wooden</em>, <em class="emphasis">American</em>, <em class="emphasis">silk</em>, <em class="emphasis">digital</em>, <em class="emphasis">solar</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-3">Consider the kinds of information adjectives convey. <em class="emphasis">Physical qualities</em> include size (tall, tiny, enormous), weight (heavy, light, massive), texture (rough, smooth, silky), and shape (round, flat, triangular). <em class="emphasis">Evaluative</em> adjectives express opinions or judgments: good, beautiful, terrible, delicious, boring. <em class="emphasis">Age and temporal</em> adjectives locate things in time: old, new, ancient, modern, recent. <em class="emphasis">Color</em> adjectives describe appearance: red, blue, green, dark, pale. And <em class="emphasis">origin or material</em> adjectives identify where something comes from or what it is made of: wooden, American, silk, digital, solar.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-4">An important distinction exists between <em class="emphasis">subjective</em> and <em class="emphasis">objective</em> adjectives. Some adjectives express opinions that can vary from person to person—<em class="emphasis">nice</em>, <em class="emphasis">wonderful</em>, <em class="emphasis">ugly</em>, <em class="emphasis">fascinating</em>—while others state measurable or verifiable facts—<em class="emphasis">rectangular</em>, <em class="emphasis">empty</em>, <em class="emphasis">dead</em>, <em class="emphasis">wooden</em>. A building might be <em class="emphasis">beautiful</em> to one person and <em class="emphasis">hideous</em> to another, but if it is <em class="emphasis">rectangular</em>, that is an observable fact. This distinction matters because subjective adjectives can often be graded (<em class="emphasis">more beautiful</em>, <em class="emphasis">most fascinating</em>), while many objective adjectives resist grading (<em class="emphasis">~~more rectangular~~</em>, <em class="emphasis">~~most wooden~~</em> sound odd). The breadth of this semantic range—from personal judgment to physical measurement to origin and material—shows why the traditional definition "describes a noun" is too vague to be useful as a test for identifying adjectives.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-4">An important distinction exists between <em class="emphasis">subjective</em> and <em class="emphasis">objective</em> adjectives. Some adjectives express opinions that can vary from person to person—nice, wonderful, ugly, fascinating—while others state measurable or verifiable facts—rectangular, empty, dead, wooden. A building might be beautiful to one person and hideous to another, but if it is rectangular, that is an observable fact. This distinction matters because subjective adjectives can often be graded (more beautiful, most fascinating), while many objective adjectives resist grading (~~more rectangular~~, ~~most wooden~~ sound odd). The breadth of this semantic range—from personal judgment to physical measurement to origin and material—shows why the traditional definition "describes a noun" is too vague to be useful as a test for identifying adjectives.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-open-classes-sec-56-5"><h3 class="heading"><span class="title">What Adjectives Do.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: What Adjectives Do"><a href="#ch-05-open-classes-sec-56-5" title="Copy heading and permalink for Paragraphs: What Adjectives Do" aria-label="Copy heading and permalink for Paragraphs: What Adjectives Do">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-6">Unlike nouns and verbs, which often carry the core meaning of a sentence, adjectives enrich and qualify. They answer questions like "What kind?" (<em class="emphasis">a <em class="emphasis">wooden</em> table</em>), "Which one?" (<em class="emphasis">the <em class="emphasis">third</em> attempt</em>), and "What is it like?" (<em class="emphasis">She seems <em class="emphasis">nervous</em>.</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: What Adjectives Do"><a href="#ch-05-open-classes-sec-56-5" title="Copy heading and permalink for Paragraphs: What Adjectives Do" aria-label="Copy heading and permalink for Paragraphs: What Adjectives Do">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-6">Unlike nouns and verbs, which often carry the core meaning of a sentence, adjectives enrich and qualify. They answer questions like "What kind?" (a wooden table), "Which one?" (the third attempt), and "What is it like?" (She seems nervous.).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-7">But adjectives also do subtler work. They can express temporary states (<em class="emphasis">She is <em class="emphasis">tired</em></em>) or permanent properties (<em class="emphasis">The wall is <em class="emphasis">brick</em></em>). They can classify nouns into types (<em class="emphasis">a <em class="emphasis">solar</em> panel</em>, <em class="emphasis">a <em class="emphasis">criminal</em> investigation</em>) in ways that go beyond mere description. They can even express the speaker’s emotional reaction to something (<em class="emphasis">an <em class="emphasis">amazing</em> performance</em>, <em class="emphasis">a <em class="emphasis">terrible</em> mistake</em>), blending description with evaluation.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-7">But adjectives also do subtler work. They can express temporary states (She is tired) or permanent properties (The wall is brick). They can classify nouns into types (a solar panel, a criminal investigation) in ways that go beyond mere description. They can even express the speaker’s emotional reaction to something (an amazing performance, a terrible mistake), blending description with evaluation.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-8">This wide functional range creates a challenge: many words that "describe" nouns are not adjectives at all. In <em class="emphasis">the coffee table</em>, the word <em class="emphasis">coffee</em> describes what kind of table it is—but <em class="emphasis">coffee</em> is a noun, not an adjective. In <em class="emphasis">the running water</em>, the word <em class="emphasis">running</em> describes the water—but <em class="emphasis">running</em> is a verb form (a present participle). Description is a <em class="emphasis">function</em> that many word classes can perform; it does not reliably identify adjective <em class="emphasis">form</em>. This is why we need the morphological and syntactic tests that follow.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-8">This wide functional range creates a challenge: many words that "describe" nouns are not adjectives at all. In the coffee table, the word coffee describes what kind of table it is—but coffee is a noun, not an adjective. In the running water, the word running describes the water—but running is a verb form (a present participle). Description is a <em class="emphasis">function</em> that many word classes can perform; it does not reliably identify adjective <em class="emphasis">form</em>. This is why we need the morphological and syntactic tests that follow.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-open-classes-sec-56-9"><h3 class="heading"><span class="title">Morphological Tests for Adjectives.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Morphological Tests for Adjectives"><a href="#ch-05-open-classes-sec-56-9" title="Copy heading and permalink for Paragraphs: Morphological Tests for Adjectives" aria-label="Copy heading and permalink for Paragraphs: Morphological Tests for Adjectives">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-10">
@@ -789,74 +797,65 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-56-12">
 <li id="ch-05-open-classes-sec-56-12-1">
-<div class="para" id="ch-05-open-classes-sec-56-12-1-1">
-<em class="emphasis">tall</em> → <em class="emphasis">taller</em> → <em class="emphasis">tallest</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-12-1-1">tall → taller → tallest<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-12-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-12-2">
-<div class="para" id="ch-05-open-classes-sec-56-12-2-1">
-<em class="emphasis">happy</em> → <em class="emphasis">happier</em> → <em class="emphasis">happiest</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-12-2-1">happy → happier → happiest<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-12-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-12-3">
-<div class="para" id="ch-05-open-classes-sec-56-12-3-1">
-<em class="emphasis">beautiful</em> → <em class="emphasis">more beautiful</em> → <em class="emphasis">most beautiful</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-12-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-12-3-1">beautiful → more beautiful → most beautiful<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-12-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-12-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-56-13">If a word can become comparative or superlative, it’s almost certainly an adjective. This test distinguishes adjectives from nouns and verbs, which cannot be graded this way (we don’t say <em class="emphasis">~~taller book~~</em> meaning "more of a book" or <em class="emphasis">~~he walked the walkedest~~</em>).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-13">If a word can become comparative or superlative, it’s almost certainly an adjective. This test distinguishes adjectives from nouns and verbs, which cannot be graded this way (we don’t say ~~taller book~~ meaning "more of a book" or ~~he walked the walkedest~~).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-open-classes-sec-56-14">
 <em class="emphasis">Test 2: The -ish test</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-15">Many adjectives accept the suffix <em class="emphasis">-ish</em>, meaning "somewhat":<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-15">Many adjectives accept the suffix -ish, meaning "somewhat":<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-56-16">
 <li id="ch-05-open-classes-sec-56-16-1">
-<div class="para" id="ch-05-open-classes-sec-56-16-1-1">
-<em class="emphasis">tall</em> → <em class="emphasis">tallish</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-16-1-1">tall → tallish<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-16-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-16-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-16-2">
-<div class="para" id="ch-05-open-classes-sec-56-16-2-1">
-<em class="emphasis">red</em> → <em class="emphasis">reddish</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-16-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-16-2-1">red → reddish<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-16-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-16-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-16-3">
-<div class="para" id="ch-05-open-classes-sec-56-16-3-1">
-<em class="emphasis">young</em> → <em class="emphasis">youngish</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-16-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-16-3-1">young → youngish<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-16-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-16-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-56-17">This is a quick informal test. If <em class="emphasis">-ish</em> sounds natural, you likely have an adjective.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-17">This is a quick informal test. If -ish sounds natural, you likely have an adjective.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ch-05-open-classes-sec-56-18">
 <em class="emphasis">Test 3: Adverb formation with -ly</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-19">Many adjectives can become adverbs by adding <em class="emphasis">-ly</em>:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-19">Many adjectives can become adverbs by adding -ly:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-56-20">
 <li id="ch-05-open-classes-sec-56-20-1">
-<div class="para" id="ch-05-open-classes-sec-56-20-1-1">
-<em class="emphasis">happy</em> → <em class="emphasis">happily</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-20-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-20-1-1">happy → happily<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-20-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-20-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-20-2">
-<div class="para" id="ch-05-open-classes-sec-56-20-2-1">
-<em class="emphasis">quick</em> → <em class="emphasis">quickly</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-20-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-20-2-1">quick → quickly<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-20-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-20-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-20-3">
-<div class="para" id="ch-05-open-classes-sec-56-20-3-1">
-<em class="emphasis">careful</em> → <em class="emphasis">carefully</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-20-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-20-3-1">careful → carefully<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-20-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-20-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -871,20 +870,17 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-56-25">
 <li id="ch-05-open-classes-sec-56-25-1">
-<div class="para" id="ch-05-open-classes-sec-56-25-1-1">
-<em class="emphasis">the <em class="emphasis">tall</em> man</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-25-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-25-1-1">the tall man<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-25-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-25-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-25-2">
-<div class="para" id="ch-05-open-classes-sec-56-25-2-1">
-<em class="emphasis">a <em class="emphasis">happy</em> child</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-25-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-25-2-1">a happy child<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-25-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-25-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-25-3">
-<div class="para" id="ch-05-open-classes-sec-56-25-3-1">
-<em class="emphasis">the <em class="emphasis">interesting</em> book</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-25-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-25-3-1">the interesting book<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-25-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-25-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -894,24 +890,21 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-56-27">
 <em class="emphasis">Test 2: The subject complement position test</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-27" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-28">Adjectives can follow linking verbs like <em class="emphasis">be</em>, <em class="emphasis">seem</em>, <em class="emphasis">become</em>, and <em class="emphasis">appear</em>—this position, after the verb, is called <em class="emphasis">subject complement</em> position:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-28">Adjectives can follow linking verbs like be, seem, become, and appear—this position, after the verb, is called <em class="emphasis">subject complement</em> position:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-28" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-56-29">
 <li id="ch-05-open-classes-sec-56-29-1">
-<div class="para" id="ch-05-open-classes-sec-56-29-1-1">
-<em class="emphasis">The man is <em class="emphasis">tall</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-29-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-29-1-1">"The man is tall."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-29-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-29-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-29-2">
-<div class="para" id="ch-05-open-classes-sec-56-29-2-1">
-<em class="emphasis">She seems <em class="emphasis">happy</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-29-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-29-2-1">"She seems happy."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-29-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-29-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-29-3">
-<div class="para" id="ch-05-open-classes-sec-56-29-3-1">
-<em class="emphasis">The book appears <em class="emphasis">interesting</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-29-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-29-3-1">"The book appears interesting."<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-29-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-29-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -921,29 +914,26 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-56-31">
 <em class="emphasis">Test 3: The very test</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-31" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-32">Adjectives can be modified by degree words like <em class="emphasis">very</em>, <em class="emphasis">extremely</em>, and <em class="emphasis">quite</em>:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-32" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-32">Adjectives can be modified by degree words like very, extremely, and quite:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-32" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-05-open-classes-sec-56-33">
 <li id="ch-05-open-classes-sec-56-33-1">
-<div class="para" id="ch-05-open-classes-sec-56-33-1-1">
-<em class="emphasis"><em class="emphasis">very</em> tall</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-33-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-33-1-1">very tall<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-33-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-33-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-33-2">
-<div class="para" id="ch-05-open-classes-sec-56-33-2-1">
-<em class="emphasis"><em class="emphasis">extremely</em> happy</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-33-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-33-2-1">extremely happy<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-33-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-33-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-05-open-classes-sec-56-33-3">
-<div class="para" id="ch-05-open-classes-sec-56-33-3-1">
-<em class="emphasis"><em class="emphasis">quite</em> interesting</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-33-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-33-3-1">quite interesting<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-33-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-33-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-56-34">If <em class="emphasis">very</em> sounds natural before a word, that word is likely an adjective. (Nouns and verbs don’t accept <em class="emphasis">very</em>: <em class="emphasis">~~very book~~</em>, <em class="emphasis">~~very walked~~</em>.)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-34" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-34">If very sounds natural before a word, that word is likely an adjective. (Nouns and verbs don’t accept very: ~~very book~~, ~~very walked~~.)<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-34" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-05-open-classes-sec-56-35"><h3 class="heading"><span class="title">Adjective Phrases: How Adjectives Work in Sentences.</span></h3>
 <div class="autopermalink" data-description="Paragraphs: Adjective Phrases: How Adjectives Work in Sentences"><a href="#ch-05-open-classes-sec-56-35" title="Copy heading and permalink for Paragraphs: Adjective Phrases: How Adjectives Work in Sentences" aria-label="Copy heading and permalink for Paragraphs: Adjective Phrases: How Adjectives Work in Sentences">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-36">Adjectives form phrases just as nouns and verbs do. An <em class="emphasis">adjective phrase (AdjP)</em> has an adjective as its head, with optional modifiers before and after.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-36" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -951,144 +941,133 @@ section .tabular-box {
 <div class="para" id="ch-05-open-classes-sec-56-37">
 <em class="emphasis">A simple adjective phrase:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-37" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/diagrams/new/ch05_adjp_simple.png" class="contained" alt="Syntax tree showing ADJP with only ADJ (happy)"></div>
-<div class="para" id="ch-05-open-classes-sec-56-39">
+<figure class="figure figure-like" id="fig-ch05-adjp-simple"><div class="image-box" style="width: 20%; margin-left: 40%; margin-right: 40%;"><img src="external/diagrams/new/ch05_adjp_simple.png" class="contained" alt="Syntax tree showing ADJP with only ADJ (happy)"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A simple adjective phrase<div class="autopermalink" data-description="Figure 5.6.1"><a href="#fig-ch05-adjp-simple" title="Copy heading and permalink for Figure 5.6.1" aria-label="Copy heading and permalink for Figure 5.6.1">🔗</a></div></figcaption></figure><div class="para" id="ch-05-open-classes-sec-56-39">
 <code class="code-inline tex2jax_ignore">[ADJP [ADJ happy]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-39" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-open-classes-sec-56-40"><h3 class="heading"><span class="title">A simple adjective phrase.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: A simple adjective phrase"><a href="#ch-05-open-classes-sec-56-40" title="Copy heading and permalink for Paragraphs: A simple adjective phrase" aria-label="Copy heading and permalink for Paragraphs: A simple adjective phrase">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-41">
-<em class="emphasis">An adjective phrase with a pre-modifier:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-41" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-40">
+<em class="emphasis">An adjective phrase with a pre-modifier:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-40" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch05_adjp_degree.png" class="contained" alt="Syntax tree showing ADJP with ADV (very) and ADJ (happy)"></div>
-<div class="para" id="ch-05-open-classes-sec-56-43">
-<code class="code-inline tex2jax_ignore">[ADJP [ADVP [ADV very]] [ADJ happy]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-43" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<figure class="figure figure-like" id="fig-ch05-adjp-degree"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/diagrams/new/ch05_adjp_degree.png" class="contained" alt="Syntax tree showing ADJP with ADV (very) and ADJ (happy)"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>An adjective phrase with a degree modifier<div class="autopermalink" data-description="Figure 5.6.2"><a href="#fig-ch05-adjp-degree" title="Copy heading and permalink for Figure 5.6.2" aria-label="Copy heading and permalink for Figure 5.6.2">🔗</a></div></figcaption></figure><div class="para" id="ch-05-open-classes-sec-56-42">
+<code class="code-inline tex2jax_ignore">[ADJP [ADVP [ADV very]] [ADJ happy]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-42" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-open-classes-sec-56-44"><h3 class="heading"><span class="title">An adjective phrase with a degree modifier.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: An adjective phrase with a degree modifier"><a href="#ch-05-open-classes-sec-56-44" title="Copy heading and permalink for Paragraphs: An adjective phrase with a degree modifier" aria-label="Copy heading and permalink for Paragraphs: An adjective phrase with a degree modifier">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-45">The degree adverb <em class="emphasis">very</em> intensifies the adjective <em class="emphasis">happy</em>.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-45" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-43">The degree adverb very intensifies the adjective happy.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-43" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-46">
-<em class="emphasis">An adjective phrase with a post-modifier:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-46" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-44">
+<em class="emphasis">An adjective phrase with a post-modifier:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-44" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch05_adjp_complex.png" class="contained" alt="Syntax tree showing ADJP with ADV (very), ADJ (proud), and PP (of her work)"></div>
+<figure class="figure figure-like" id="fig-ch05-adjp-complex"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/diagrams/new/ch05_adjp_complex.png" class="contained" alt="Syntax tree showing ADJP with ADV (very), ADJ (proud), and PP (of her work)"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A complex adjective phrase with pre- and post-modifiers<div class="autopermalink" data-description="Figure 5.6.3"><a href="#fig-ch05-adjp-complex" title="Copy heading and permalink for Figure 5.6.3" aria-label="Copy heading and permalink for Figure 5.6.3">🔗</a></div></figcaption></figure><div class="para" id="ch-05-open-classes-sec-56-46">
+<code class="code-inline tex2jax_ignore">[ADJP [ADVP [ADV very]] [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-46" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ch-05-open-classes-sec-56-47">Here the adjective proud is modified both by the degree adverb very (pre-modifier) and by the prepositional phrase of her work (post-modifier).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-47" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="para" id="ch-05-open-classes-sec-56-48">
-<code class="code-inline tex2jax_ignore">[ADJP [ADVP [ADV very]] [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]</code><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-48" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<em class="emphasis">Common pre-modifiers of adjectives:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-48" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-open-classes-sec-56-49"><h3 class="heading"><span class="title">A complex adjective phrase with pre- and post-modifiers.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: A complex adjective phrase with pre- and post-modifiers"><a href="#ch-05-open-classes-sec-56-49" title="Copy heading and permalink for Paragraphs: A complex adjective phrase with pre- and post-modifiers" aria-label="Copy heading and permalink for Paragraphs: A complex adjective phrase with pre- and post-modifiers">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-50">Here the adjective <em class="emphasis">proud</em> is modified both by the degree adverb <em class="emphasis">very</em> (pre-modifier) and by the prepositional phrase <em class="emphasis">of her work</em> (post-modifier).<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-50" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ch-05-open-classes-sec-56-49"><li id="ch-05-open-classes-sec-56-49-1">
+<div class="para" id="ch-05-open-classes-sec-56-49-1-1">Degree adverbs: very, extremely, somewhat, quite, rather<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-49-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-51">
-<em class="emphasis">Common pre-modifiers of adjectives:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-51" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-05-open-classes-sec-56-52"><li id="ch-05-open-classes-sec-56-52-1">
-<div class="para" id="ch-05-open-classes-sec-56-52-1-1">Degree adverbs: <em class="emphasis">very</em>, <em class="emphasis">extremely</em>, <em class="emphasis">somewhat</em>, <em class="emphasis">quite</em>, <em class="emphasis">rather</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-52-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-52-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-49-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
-<div class="para" id="ch-05-open-classes-sec-56-53">
-<em class="emphasis">Common post-modifiers of adjectives:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-50">
+<em class="emphasis">Common post-modifiers of adjectives:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-50" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-05-open-classes-sec-56-54"><li id="ch-05-open-classes-sec-56-54-1">
-<div class="para" id="ch-05-open-classes-sec-56-54-1-1">Prepositional phrases: <em class="emphasis">proud <em class="emphasis">of her work</em></em>, <em class="emphasis">afraid <em class="emphasis">of the dark</em></em>, <em class="emphasis">interested <em class="emphasis">in linguistics</em></em>, <em class="emphasis">good <em class="emphasis">at math</em></em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-54-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ch-05-open-classes-sec-56-51"><li id="ch-05-open-classes-sec-56-51-1">
+<div class="para" id="ch-05-open-classes-sec-56-51-1-1">Prepositional phrases: proud of her work, afraid of the dark, interested in linguistics, good at math<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-51-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-51-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li></ul>
+<section class="paragraphs" id="ch-05-open-classes-sec-56-52"><h3 class="heading"><span class="title">Where Adjective Phrases Appear.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Where Adjective Phrases Appear"><a href="#ch-05-open-classes-sec-56-52" title="Copy heading and permalink for Paragraphs: Where Adjective Phrases Appear" aria-label="Copy heading and permalink for Paragraphs: Where Adjective Phrases Appear">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-53">Adjective phrases appear in two main positions:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-53" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-05-open-classes-sec-56-54">
+<li id="ch-05-open-classes-sec-56-54-1">
+<div class="para" id="ch-05-open-classes-sec-56-54-1-1">
+<em class="emphasis">Attributive position</em> (before a noun): the [very tall] man<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-54-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-54-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li></ul>
-<section class="paragraphs" id="ch-05-open-classes-sec-56-55"><h3 class="heading"><span class="title">Where Adjective Phrases Appear.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Where Adjective Phrases Appear"><a href="#ch-05-open-classes-sec-56-55" title="Copy heading and permalink for Paragraphs: Where Adjective Phrases Appear" aria-label="Copy heading and permalink for Paragraphs: Where Adjective Phrases Appear">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-56">Adjective phrases appear in two main positions:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-56" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-05-open-classes-sec-56-57">
-<li id="ch-05-open-classes-sec-56-57-1">
-<div class="para" id="ch-05-open-classes-sec-56-57-1-1">
-<em class="emphasis">Attributive position</em> (before a noun): <em class="emphasis">the [very tall] man</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-57-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-57-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-05-open-classes-sec-56-57-2">
-<div class="para" id="ch-05-open-classes-sec-56-57-2-1">
-<em class="emphasis">Subject complement position</em> (after a linking verb): <em class="emphasis">The man is [very tall].</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-57-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-05-open-classes-sec-56-54-2">
+<div class="para" id="ch-05-open-classes-sec-56-54-2-1">
+<em class="emphasis">Subject complement position</em> (after a linking verb): The man is [very tall].<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-54-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-57-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-54-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-56-58">When an AdjP appears attributively, it modifies the following noun directly. When it appears as a subject complement, it describes the subject of the sentence.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-58" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-55">When an AdjP appears attributively, it modifies the following noun directly. When it appears as a subject complement, it describes the subject of the sentence.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-55" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<section class="paragraphs" id="ch-05-open-classes-sec-56-59"><h3 class="heading"><span class="title">Identifying the Head Adjective.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Identifying the Head Adjective"><a href="#ch-05-open-classes-sec-56-59" title="Copy heading and permalink for Paragraphs: Identifying the Head Adjective" aria-label="Copy heading and permalink for Paragraphs: Identifying the Head Adjective">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-60">Apply the same test: which word is essential?<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-60" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-open-classes-sec-56-56"><h3 class="heading"><span class="title">Identifying the Head Adjective.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Identifying the Head Adjective"><a href="#ch-05-open-classes-sec-56-56" title="Copy heading and permalink for Paragraphs: Identifying the Head Adjective" aria-label="Copy heading and permalink for Paragraphs: Identifying the Head Adjective">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-57">Apply the same test: which word is essential?<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-57" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-05-open-classes-sec-56-61">
-<em class="emphasis">extremely proud of her remarkable achievement</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-61" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-58">extremely proud of her remarkable achievement<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-58" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-05-open-classes-sec-56-62">
-<li id="ch-05-open-classes-sec-56-62-1">
-<div class="para" id="ch-05-open-classes-sec-56-62-1-1">Remove <em class="emphasis">extremely</em>: <em class="emphasis">proud of her remarkable achievement</em> ✓<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-62-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ch-05-open-classes-sec-56-59">
+<li id="ch-05-open-classes-sec-56-59-1">
+<div class="para" id="ch-05-open-classes-sec-56-59-1-1">Remove extremely: proud of her remarkable achievement ✓<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-59-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-62-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-59-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-05-open-classes-sec-56-62-2">
-<div class="para" id="ch-05-open-classes-sec-56-62-2-1">Remove <em class="emphasis">of her remarkable achievement</em>: <em class="emphasis">extremely proud</em> ✓<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-62-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-05-open-classes-sec-56-59-2">
+<div class="para" id="ch-05-open-classes-sec-56-59-2-1">Remove of her remarkable achievement: extremely proud ✓<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-59-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-62-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-59-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-05-open-classes-sec-56-62-3">
-<div class="para" id="ch-05-open-classes-sec-56-62-3-1">Remove <em class="emphasis">proud</em>: <em class="emphasis">extremely of her remarkable achievement</em> ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-62-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-05-open-classes-sec-56-59-3">
+<div class="para" id="ch-05-open-classes-sec-56-59-3-1">Remove proud: extremely of her remarkable achievement ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-59-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-62-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<div class="para" id="ch-05-open-classes-sec-56-63">The head is <em class="emphasis">proud</em>. The adverb <em class="emphasis">extremely</em> and the PP <em class="emphasis">of her remarkable achievement</em> both modify it.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-63" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<section class="paragraphs" id="ch-05-open-classes-sec-56-64"><h3 class="heading"><span class="title">Special Classes of Adjectives.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Special Classes of Adjectives"><a href="#ch-05-open-classes-sec-56-64" title="Copy heading and permalink for Paragraphs: Special Classes of Adjectives" aria-label="Copy heading and permalink for Paragraphs: Special Classes of Adjectives">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-65">Most adjectives are <em class="emphasis">gradable</em>—they can express degrees (<em class="emphasis">taller</em>, <em class="emphasis">very tall</em>). But some adjectives express absolute properties and resist grading:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-65" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ul class="disc" id="ch-05-open-classes-sec-56-66">
-<li id="ch-05-open-classes-sec-56-66-1">
-<div class="para" id="ch-05-open-classes-sec-56-66-1-1">
-<em class="emphasis">dead</em> — something is dead or not; <em class="emphasis">~~very dead~~</em> sounds odd<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-66-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-66-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-05-open-classes-sec-56-66-2">
-<div class="para" id="ch-05-open-classes-sec-56-66-2-1">
-<em class="emphasis">unique</em> — traditionally, something is unique or not; <em class="emphasis">~~more unique~~</em> is contested<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-66-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-66-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="ch-05-open-classes-sec-56-66-3">
-<div class="para" id="ch-05-open-classes-sec-56-66-3-1">
-<em class="emphasis">pregnant</em> — grammatically ungradable, though metaphor sometimes changes this<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-66-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-66-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-59-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-56-67">Some adjectives are <em class="emphasis">attributive-only</em> (they can only appear before nouns):<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-67" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-60">The head is proud. The adverb extremely and the PP of her remarkable achievement both modify it.<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-60" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-05-open-classes-sec-56-68">
-<li id="ch-05-open-classes-sec-56-68-1">
-<div class="para" id="ch-05-open-classes-sec-56-68-1-1">
-<em class="emphasis">the <em class="emphasis">main</em> reason</em> ✓ / <em class="emphasis">~~The reason is main~~</em> ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-68-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="paragraphs" id="ch-05-open-classes-sec-56-61"><h3 class="heading"><span class="title">Special Classes of Adjectives.</span></h3>
+<div class="autopermalink" data-description="Paragraphs: Special Classes of Adjectives"><a href="#ch-05-open-classes-sec-56-61" title="Copy heading and permalink for Paragraphs: Special Classes of Adjectives" aria-label="Copy heading and permalink for Paragraphs: Special Classes of Adjectives">🔗</a></div></section><div class="para" id="ch-05-open-classes-sec-56-62">Most adjectives are <em class="emphasis">gradable</em>—they can express degrees (taller, very tall). But some adjectives express absolute properties and resist grading:<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-62" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-68-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<ul class="disc" id="ch-05-open-classes-sec-56-63">
+<li id="ch-05-open-classes-sec-56-63-1">
+<div class="para" id="ch-05-open-classes-sec-56-63-1-1">dead — something is dead or not; ~~very dead~~ sounds odd<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-63-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-63-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-05-open-classes-sec-56-68-2">
-<div class="para" id="ch-05-open-classes-sec-56-68-2-1">
-<em class="emphasis">a <em class="emphasis">mere</em> child</em> ✓ / <em class="emphasis">~~The child is mere~~</em> ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-68-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-05-open-classes-sec-56-63-2">
+<div class="para" id="ch-05-open-classes-sec-56-63-2-1">unique — traditionally, something is unique or not; ~~more unique~~ is contested<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-63-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-68-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-63-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-05-open-classes-sec-56-63-3">
+<div class="para" id="ch-05-open-classes-sec-56-63-3-1">pregnant — grammatically ungradable, though metaphor sometimes changes this<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-63-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-63-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-05-open-classes-sec-56-69">Others are <em class="emphasis">subject-complement-only</em> (they can only appear after linking verbs):<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-69" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-05-open-classes-sec-56-64">Some adjectives are <em class="emphasis">attributive-only</em> (they can only appear before nouns):<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-64" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ul class="disc" id="ch-05-open-classes-sec-56-70">
-<li id="ch-05-open-classes-sec-56-70-1">
-<div class="para" id="ch-05-open-classes-sec-56-70-1-1">
-<em class="emphasis">The child is <em class="emphasis">asleep</em></em> ✓ / <em class="emphasis">~~the asleep child~~</em> ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-70-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ch-05-open-classes-sec-56-65">
+<li id="ch-05-open-classes-sec-56-65-1">
+<div class="para" id="ch-05-open-classes-sec-56-65-1-1">the main reason ✓ / ~~The reason is main~~ ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-65-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-70-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-65-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ch-05-open-classes-sec-56-70-2">
-<div class="para" id="ch-05-open-classes-sec-56-70-2-1">
-<em class="emphasis">She felt <em class="emphasis">afraid</em></em> ✓ / <em class="emphasis">~~the afraid woman~~</em> ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-70-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ch-05-open-classes-sec-56-65-2">
+<div class="para" id="ch-05-open-classes-sec-56-65-2-1">a mere child ✓ / ~~The child is mere~~ ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-65-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-70-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-65-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para" id="ch-05-open-classes-sec-56-66">Others are <em class="emphasis">subject-complement-only</em> (they can only appear after linking verbs):<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-66" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ul class="disc" id="ch-05-open-classes-sec-56-67">
+<li id="ch-05-open-classes-sec-56-67-1">
+<div class="para" id="ch-05-open-classes-sec-56-67-1-1">The child is asleep ✓ / ~~the asleep child~~ ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-67-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-67-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="ch-05-open-classes-sec-56-67-2">
+<div class="para" id="ch-05-open-classes-sec-56-67-2-1">She felt afraid ✓ / ~~the afraid woman~~ ✗<div class="autopermalink" data-description="Paragraph"><a href="#ch-05-open-classes-sec-56-67-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#ch-05-open-classes-sec-56-67-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <div class="autopermalink" data-description="Section 5.6: Adjectives"><a href="#ch-05-open-classes-sec-56" title="Copy heading and permalink for Section 5.6: Adjectives" aria-label="Copy heading and permalink for Section 5.6: Adjectives">🔗</a></div></section></div>

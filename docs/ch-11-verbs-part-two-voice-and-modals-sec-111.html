@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -775,20 +783,17 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-11-verbs-part-two-voice-and-modals-sec-111-5">
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-111-5-1">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-5-1-1">
-<em class="emphasis">The dog <em class="emphasis">bit</em> the man.</em> (subject = doer)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-5-1-1">"The dog <em class="emphasis">bit</em> the man." (subject = doer)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-111-5-2">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-5-2-1">
-<em class="emphasis">Maria <em class="emphasis">wrote</em> the report.</em> (subject = doer)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-5-2-1">"Maria <em class="emphasis">wrote</em> the report." (subject = doer)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-111-5-3">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-5-3-1">
-<em class="emphasis">Someone <em class="emphasis">stole</em> my bicycle.</em> (subject = doer)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-5-3-1">"Someone <em class="emphasis">stole</em> my bicycle." (subject = doer)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-5-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -800,29 +805,25 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-11-verbs-part-two-voice-and-modals-sec-111-9">
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-111-9-1">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-9-1-1">
-<em class="emphasis">The man <em class="emphasis">was bitten</em> by the dog.</em> (subject = receiver)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-9-1-1">"The man <em class="emphasis">was bitten</em> by the dog." (subject = receiver)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-9-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-9-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-111-9-2">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-9-2-1">
-<em class="emphasis">The report <em class="emphasis">was written</em> by Maria.</em> (subject = receiver)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-9-2-1">"The report <em class="emphasis">was written</em> by Maria." (subject = receiver)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-9-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-9-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-111-9-3">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-9-3-1">
-<em class="emphasis">My bicycle <em class="emphasis">was stolen</em>.</em> (subject = receiver)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-9-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-9-3-1">"My bicycle <em class="emphasis">was stolen</em>." (subject = receiver)<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-9-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-9-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-10">Passive voice follows the pattern: *<em class="emphasis">Patient (receiver) +</em>be<em class="emphasis">+ past participle (+</em>by<em class="emphasis">agent)</em>*<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-10">Passive voice follows the pattern: *<em class="emphasis">Patient (receiver) +</em>be<em class="emphasis">+ past participle (+</em>by agent)*<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <section class="paragraphs" id="ch-11-verbs-part-two-voice-and-modals-sec-111-11"><h3 class="heading"><span class="title">Forming the Passive.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Forming the Passive"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-11" title="Copy heading and permalink for Paragraphs: Forming the Passive" aria-label="Copy heading and permalink for Paragraphs: Forming the Passive">🔗</a></div></section><div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-12">
-<em class="emphasis">Active → Passive transformation:</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Forming the Passive"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-11" title="Copy heading and permalink for Paragraphs: Forming the Passive" aria-label="Copy heading and permalink for Paragraphs: Forming the Passive">🔗</a></div></section><div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-12">Active → Passive transformation:<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ol class="decimal" id="ch-11-verbs-part-two-voice-and-modals-sec-111-13">
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-111-13-1">
@@ -831,7 +832,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item 1"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-13-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-111-13-2">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-13-2-1">Add appropriate form of <em class="emphasis">be</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-13-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-13-2-1">Add appropriate form of be<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-13-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 2"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-13-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
@@ -841,7 +842,7 @@ section .tabular-box {
 <div class="autopermalink" data-description="Item 3"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-13-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
 <li id="ch-11-verbs-part-two-voice-and-modals-sec-111-13-4">
-<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-13-4-1">The active subject becomes optional <em class="emphasis">by</em>-phrase<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-13-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-11-verbs-part-two-voice-and-modals-sec-111-13-4-1">The active subject becomes optional by-phrase<div class="autopermalink" data-description="Paragraph"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-13-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 4"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111-13-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
 </li>
@@ -852,20 +853,20 @@ section .tabular-box {
 <th scope="col" class="l m b1 r0 l0 t0 lines">Passive</th>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Maria wrote the report.</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">The report was written by Maria.</em></td>
+<td class="l m b0 r0 l0 t0 lines">Maria wrote the report.</td>
+<td class="l m b0 r0 l0 t0 lines">The report was written by Maria.</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">Someone stole my bike.</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">My bike was stolen.</em></td>
+<td class="l m b0 r0 l0 t0 lines">Someone stole my bike.</td>
+<td class="l m b0 r0 l0 t0 lines">My bike was stolen.</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">They are building a house.</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">A house is being built.</em></td>
+<td class="l m b0 r0 l0 t0 lines">They are building a house.</td>
+<td class="l m b0 r0 l0 t0 lines">A house is being built.</td>
 </tr>
 <tr>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">She has finished the work.</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">The work has been finished.</em></td>
+<td class="l m b0 r0 l0 t0 lines">She has finished the work.</td>
+<td class="l m b0 r0 l0 t0 lines">The work has been finished.</td>
 </tr>
 </table></div>
 <section class="paragraphs" id="ch-11-verbs-part-two-voice-and-modals-sec-111-15"><h3 class="heading"><span class="title">Passive with Tense and Aspect.</span></h3>
@@ -879,43 +880,43 @@ section .tabular-box {
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Present simple</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">writes</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">is written</em></td>
+<td class="l m b0 r0 l0 t0 lines">writes</td>
+<td class="l m b0 r0 l0 t0 lines">is written</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Past simple</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">wrote</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">was written</em></td>
+<td class="l m b0 r0 l0 t0 lines">wrote</td>
+<td class="l m b0 r0 l0 t0 lines">was written</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Present progressive</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">is writing</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">is being written</em></td>
+<td class="l m b0 r0 l0 t0 lines">is writing</td>
+<td class="l m b0 r0 l0 t0 lines">is being written</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Past progressive</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">was writing</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">was being written</em></td>
+<td class="l m b0 r0 l0 t0 lines">was writing</td>
+<td class="l m b0 r0 l0 t0 lines">was being written</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Present perfect</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">has written</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">has been written</em></td>
+<td class="l m b0 r0 l0 t0 lines">has written</td>
+<td class="l m b0 r0 l0 t0 lines">has been written</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Past perfect</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">had written</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">had been written</em></td>
+<td class="l m b0 r0 l0 t0 lines">had written</td>
+<td class="l m b0 r0 l0 t0 lines">had been written</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Future</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">will write</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">will be written</em></td>
+<td class="l m b0 r0 l0 t0 lines">will write</td>
+<td class="l m b0 r0 l0 t0 lines">will be written</td>
 </tr>
 <tr>
 <td class="l m b0 r0 l0 t0 lines">Modal</td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">can write</em></td>
-<td class="l m b0 r0 l0 t0 lines"><em class="emphasis">can be written</em></td>
+<td class="l m b0 r0 l0 t0 lines">can write</td>
+<td class="l m b0 r0 l0 t0 lines">can be written</td>
 </tr>
 </table></div>
 <div class="autopermalink" data-description="Section 11.1: Voice: Active and Passive"><a href="#ch-11-verbs-part-two-voice-and-modals-sec-111" title="Copy heading and permalink for Section 11.1: Voice: Active and Passive" aria-label="Copy heading and permalink for Section 11.1: Voice: Active and Passive">🔗</a></div></section></div>

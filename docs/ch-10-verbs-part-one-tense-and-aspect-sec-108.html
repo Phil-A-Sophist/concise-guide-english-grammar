@@ -115,17 +115,19 @@ eBookConfig.enable_chatcodes =  false;
 <style>
 /* Custom CSS for Concise Guide to English Grammar */
 
-/* Typography: Sans-serif headings, Garamond body text */
+/* Typography: Sans-serif headings, Georgia body text */
 :root {
     --font-headings: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --font-body: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
+    --font-body: Georgia, "Times New Roman", Times, serif !important;
 }
 
-/* Apply sans-serif to headings and table headers */
+/* Apply sans-serif to headings and table headers - BOLD BLACK */
 h1, h2, .ptx-content h1, .ptx-content h2,
 .heading .title, section > .heading > .title,
 table th, .tabular-box th {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+    color: #000000 !important;
 }
 
 /* Apply sans-serif to navigation elements: TOC, navbar, dropdowns */
@@ -141,11 +143,11 @@ nav, nav a,
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-/* Apply Garamond to body text with increased size (+2pt from default) */
+/* Apply Georgia to body text with increased size (+3pt from default) */
 .ptx-content, .ptx-content p, .ptx-content li,
 .ptx-main .ptx-content {
-    font-family: Garamond, "EB Garamond", "Times New Roman", Times, serif !important;
-    font-size: 1.125rem !important;  /* 18px instead of 16px default */
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.1875rem !important;  /* 19px instead of 16px default */
     line-height: 1.6 !important;
 }
 
@@ -180,11 +182,11 @@ section .tabular-box {
 }
 
 /* === Diagram Examples pages (dedicated reference sections) === */
-/* Labels: bold, normal size, above the diagram */
+/* Labels: bold black, normal size, above the diagram */
 [id*="diagrams-"] .paragraphs .heading .title {
     font-size: 1em !important;
     font-weight: 700 !important;
-    color: #2d3748 !important;
+    color: #000000 !important;
     margin-top: 1.5em !important;
     margin-bottom: 0.4em !important;
 }
@@ -214,13 +216,19 @@ section .tabular-box {
     text-align: left !important;
 }
 
-/* Inline diagram labels: smaller, not bold, lighter color */
-.ptx-content .paragraphs:not([id*="diagrams-"] .paragraphs) .heading .title {
-    font-size: 0.85em !important;
-    font-weight: 400 !important;
-    color: #718096 !important;
-    margin-top: 0.25em !important;
-    margin-bottom: 1em !important;
+/* Figure captions: small, not bold, left-aligned */
+.ptx-content figcaption {
+    font-size: 9pt !important;
+    font-weight: normal !important;
+    text-align: left !important;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    margin-top: 0.3em !important;
+}
+
+/* Keep figure images left-aligned (not centered) */
+.ptx-content .figure-like .image-box {
+    margin-left: 0 !important;
+    margin-right: auto !important;
 }
 
 /* Hide the page footer with PreTeXt/Runestone/MathJax links */
@@ -775,43 +783,37 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5">
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5-1">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5-1-1">
-<em class="emphasis">She <em class="emphasis">works</em> at a bank.</em> (present simple—habitual)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5-1-1">"She <em class="emphasis">works</em> at a bank." (present simple—habitual)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-5-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5-2">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5-2-1">
-<em class="emphasis">She <em class="emphasis">worked</em> at a bank.</em> (past simple—completed)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5-2-1">"She <em class="emphasis">worked</em> at a bank." (past simple—completed)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-5-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5-3">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5-3-1">
-<em class="emphasis">She <em class="emphasis">will work</em> at a bank.</em> (future simple—predicted)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-5-3-1">"She <em class="emphasis">will work</em> at a bank." (future simple—predicted)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-5-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
 <section class="paragraphs" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-6"><h3 class="heading"><span class="title">Progressive Aspect.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Progressive Aspect"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-6" title="Copy heading and permalink for Paragraphs: Progressive Aspect" aria-label="Copy heading and permalink for Paragraphs: Progressive Aspect">🔗</a></div></section><div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-7">The <em class="emphasis">progressive aspect</em> (be + <em class="emphasis">-ing</em>) presents events as ongoing, in progress:<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Progressive Aspect"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-6" title="Copy heading and permalink for Paragraphs: Progressive Aspect" aria-label="Copy heading and permalink for Paragraphs: Progressive Aspect">🔗</a></div></section><div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-7">The <em class="emphasis">progressive aspect</em> (be + -ing) presents events as ongoing, in progress:<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8">
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8-1">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8-1-1">
-<em class="emphasis">She <em class="emphasis">is working</em> right now.</em> (present progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8-1-1">"She <em class="emphasis">is working</em> right now." (present progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-8-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8-2">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8-2-1">
-<em class="emphasis">She <em class="emphasis">was working</em> when I called.</em> (past progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8-2-1">"She <em class="emphasis">was working</em> when I called." (past progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-8-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8-3">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8-3-1">
-<em class="emphasis">She <em class="emphasis">will be working</em> at noon.</em> (future progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-8-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-8-3-1">"She <em class="emphasis">will be working</em> at noon." (future progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-8-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-8-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -821,26 +823,22 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10">
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-1">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-1-1">
-<em class="emphasis">Actions in progress</em>: <em class="emphasis">I’m reading a book.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-1-1">Actions in progress: <em class="emphasis">I’m reading a book.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-2">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-2-1">
-<em class="emphasis">Temporary situations</em>: <em class="emphasis">She’s living in Boston this year.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-2-1">Temporary situations: <em class="emphasis">She’s living in Boston this year.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-3">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-3-1">
-<em class="emphasis">Future arrangements</em>: <em class="emphasis">We’re meeting tomorrow.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-3-1">Future arrangements: <em class="emphasis">We’re meeting tomorrow.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-4">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-4-1">
-<em class="emphasis">Background to another event</em>: <em class="emphasis">I was sleeping when the phone rang.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-10-4-1">Background to another event: <em class="emphasis">I was sleeping when the phone rang.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-10-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -850,14 +848,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-12">
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-12-1">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-12-1-1">
-<em class="emphasis">~~I am knowing the answer.~~</em> → <em class="emphasis">I know the answer.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-12-1-1">~~I am knowing the answer.~~ → I know the answer.<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-12-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-12-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-12-2">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-12-2-1">
-<em class="emphasis">~~She is loving chocolate.~~</em> → <em class="emphasis">She loves chocolate.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-12-2-1">~~She is loving chocolate.~~ → She loves chocolate.<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-12-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-12-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -867,20 +863,17 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15">
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15-1">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15-1-1">
-<em class="emphasis">She <em class="emphasis">has worked</em> here for ten years.</em> (present perfect)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15-1-1">"She <em class="emphasis">has worked</em> here for ten years." (present perfect)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-15-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-15-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15-2">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15-2-1">
-<em class="emphasis">She <em class="emphasis">had worked</em> there before moving.</em> (past perfect)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-15-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15-2-1">"She <em class="emphasis">had worked</em> there before moving." (past perfect)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-15-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-15-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15-3">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15-3-1">
-<em class="emphasis">By then, she <em class="emphasis">will have worked</em> here a decade.</em> (future perfect)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-15-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-15-3-1">"By then, she <em class="emphasis">will have worked</em> here a decade." (future perfect)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-15-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-15-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -890,26 +883,22 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17">
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-1">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-1-1">
-<em class="emphasis">Past action with present relevance</em>: <em class="emphasis">I’ve finished my work.</em> (so I’m free now)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-1-1">Past action with present relevance: <em class="emphasis">I’ve finished my work.</em> (so I’m free now)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-2">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-2-1">
-<em class="emphasis">Experience up to now</em>: <em class="emphasis">She has visited Paris twice.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-2-1">Experience up to now: <em class="emphasis">She has visited Paris twice.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-3">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-3-1">
-<em class="emphasis">Continuing situation</em>: <em class="emphasis">He has lived here since 2010.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-3-1">Continuing situation: <em class="emphasis">He has lived here since 2010.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-4">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-4-1">
-<em class="emphasis">Recent past</em>: <em class="emphasis">They have just arrived.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-17-4-1">Recent past: <em class="emphasis">They have just arrived.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-17-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -918,30 +907,26 @@ section .tabular-box {
 <em class="emphasis">Past perfect</em> positions events before another past reference point:<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-18" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-19"><li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-19-1">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-19-1-1">
-<em class="emphasis">When I arrived, she <em class="emphasis">had already left</em>.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-19-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-19-1-1">"When I arrived, she <em class="emphasis">had already left</em>."<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-19-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-19-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li></ul>
 <section class="paragraphs" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-20"><h3 class="heading"><span class="title">Perfect Progressive Aspect.</span></h3>
-<div class="autopermalink" data-description="Paragraphs: Perfect Progressive Aspect"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-20" title="Copy heading and permalink for Paragraphs: Perfect Progressive Aspect" aria-label="Copy heading and permalink for Paragraphs: Perfect Progressive Aspect">🔗</a></div></section><div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-21">The <em class="emphasis">perfect progressive</em> (have + been + <em class="emphasis">-ing</em>) combines perfect and progressive meanings:<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraphs: Perfect Progressive Aspect"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-20" title="Copy heading and permalink for Paragraphs: Perfect Progressive Aspect" aria-label="Copy heading and permalink for Paragraphs: Perfect Progressive Aspect">🔗</a></div></section><div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-21">The <em class="emphasis">perfect progressive</em> (have + been + -ing) combines perfect and progressive meanings:<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <ul class="disc" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22">
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22-1">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22-1-1">
-<em class="emphasis">She <em class="emphasis">has been working</em> all morning.</em> (present perfect progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-22-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22-1-1">"She <em class="emphasis">has been working</em> all morning." (present perfect progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-22-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-22-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22-2">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22-2-1">
-<em class="emphasis">She <em class="emphasis">had been working</em> when I called.</em> (past perfect progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-22-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22-2-1">"She <em class="emphasis">had been working</em> when I called." (past perfect progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-22-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-22-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22-3">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22-3-1">
-<em class="emphasis">By noon, she <em class="emphasis">will have been working</em> for six hours.</em> (future perfect progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-22-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-22-3-1">"By noon, she <em class="emphasis">will have been working</em> for six hours." (future perfect progressive)<div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-22-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-22-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -951,14 +936,12 @@ section .tabular-box {
 </div>
 <ul class="disc" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-24">
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-24-1">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-24-1-1">
-<em class="emphasis">Duration of ongoing activity</em>: <em class="emphasis">I’ve been waiting for an hour.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-24-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-24-1-1">Duration of ongoing activity: <em class="emphasis">I’ve been waiting for an hour.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-24-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-24-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="ch-10-verbs-part-one-tense-and-aspect-sec-108-24-2">
-<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-24-2-1">
-<em class="emphasis">Explanation for current state</em>: <em class="emphasis">She’s tired because she’s been running.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-24-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-10-verbs-part-one-tense-and-aspect-sec-108-24-2-1">Explanation for current state: <em class="emphasis">She’s tired because she’s been running.</em><div class="autopermalink" data-description="Paragraph"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-24-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#ch-10-verbs-part-one-tense-and-aspect-sec-108-24-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
