@@ -22,7 +22,7 @@
 
     <p>This approach differs fundamentally from how most of us learned grammar in school. Traditional grammar instruction typically focuses on prescribing rules—telling students what they <em>should</em> say or write according to established conventions. Linguistics, by contrast, takes a descriptive approach: it seeks to understand and explain how language actually works in the minds of speakers and in real-world communication.</p>
 
-    <p>Consider an analogy to biology. A biologist studying animal behavior doesn't tell birds how they <em>should</em> build nests or criticize them for doing it &quot;wrong.&quot; Instead, the biologist observes, documents, and tries to understand the patterns and principles underlying the behavior. Linguists approach language in the same way. When a linguist studies a sentence like &quot;Me and him went to the store,&quot; they don't dismiss it as incorrect. Instead, they investigate why speakers produce such sentences, what rules govern them, and what they reveal about how our minds process language.</p>
+    <p>Consider an analogy to biology. A biologist studying animal behavior doesn't tell birds how they <em>should</em> build nests or criticize them for doing it &quot;wrong.&quot; Instead, the biologist observes, documents, and tries to understand the patterns and principles underlying the behavior. Linguists approach language in the same way. When a linguist studies a sentence like <q><foreign>Me and him went to the store,</foreign></q> they don't dismiss it as incorrect. Instead, they investigate why speakers produce such sentences, what rules govern them, and what they reveal about how our minds process language.</p>
 
     <paragraphs>
       <title>A Brief History</title>
@@ -83,7 +83,7 @@
 
     <p><em>Phonetics</em> is the study of speech sounds themselves—how they are produced by the vocal tract, their acoustic properties, and how listeners perceive them. Phoneticians investigate questions like how the tongue and lips move to produce different consonants, or why certain sounds are more common across the world's languages than others.</p>
 
-    <p>When you produce a simple word like &quot;cat,&quot; your body performs an remarkable series of coordinated movements: your vocal folds vibrate at a specific frequency, your tongue rises to touch your palate for the [k], drops for the vowel [æ], then rises again to stop airflow for the final [t]. All of this happens in a fraction of a second, without conscious thought. Phoneticians use specialized equipment and notation systems (like the International Phonetic Alphabet) to capture and analyze these details.</p>
+    <p>When you produce a simple word like <q><foreign>cat</foreign></q>, your body performs an remarkable series of coordinated movements: your vocal folds vibrate at a specific frequency, your tongue rises to touch your palate for the [k], drops for the vowel [æ], then rises again to stop airflow for the final [t]. All of this happens in a fraction of a second, without conscious thought. Phoneticians use specialized equipment and notation systems (like the International Phonetic Alphabet) to capture and analyze these details.</p>
 
     <p>Phonetics has three main branches:</p>
 
@@ -99,25 +99,25 @@
 
     <p><em>Phonology</em> examines the sound systems of particular languages—how sounds are organized into patterns and how they relate to meaning. While phonetics deals with the physical properties of sounds, phonology deals with the abstract categories that speakers carry in their minds.</p>
 
-    <p>For example, English speakers hear &quot;p&quot; in &quot;pin&quot; and &quot;p&quot; in &quot;spin&quot; as the same sound, even though they are phonetically different (the first has a puff of air called aspiration, the second doesn't). Try holding your hand in front of your mouth while saying both words—you'll feel a burst of air with &quot;pin&quot; but not with &quot;spin.&quot; Phonology explains why speakers perceive them as equivalent: in English, aspiration isn't <em>contrastive</em> (it doesn't change meaning), so speakers learn to ignore it. In some languages, like Thai, aspiration <em>does</em> distinguish words, so speakers must attend to it.</p>
+    <p>For example, English speakers hear <q><foreign>p</foreign></q> in <q><foreign>pin</foreign></q> and <q><foreign>p</foreign></q> in <q><foreign>spin</foreign></q> as the same sound, even though they are phonetically different (the first has a puff of air called aspiration, the second doesn't). Try holding your hand in front of your mouth while saying both words—you'll feel a burst of air with <q><foreign>pin</foreign></q> but not with <q><foreign>spin</foreign></q>. Phonology explains why speakers perceive them as equivalent: in English, aspiration isn't <em>contrastive</em> (it doesn't change meaning), so speakers learn to ignore it. In some languages, like Thai, aspiration <em>does</em> distinguish words, so speakers must attend to it.</p>
 
-    <p>Phonology also explains patterns like why English has &quot;play&quot; and &quot;pray&quot; but not &quot;pway&quot; or &quot;pwink&quot;—our phonological rules restrict certain sound combinations. These constraints are arbitrary (other languages allow [pw]) but systematic within English.</p>
+    <p>Phonology also explains patterns like why English has <q><foreign>play</foreign></q> and <q><foreign>pray</foreign></q> but not <q><foreign>pway</foreign></q> or <q><foreign>pwink</foreign></q>—our phonological rules restrict certain sound combinations. These constraints are arbitrary (other languages allow [pw]) but systematic within English.</p>
 
     <paragraphs>
       <title>Morphology: Word Structure</title>
     </paragraphs>
 
-    <p><em>Morphology</em> is the study of word structure and word formation. Morphologists analyze how words are built from smaller meaningful units called <em>morphemes</em>. The word &quot;unhappiness,&quot; for instance, contains three morphemes: <em>un-</em> (meaning &quot;not&quot;), <em>happy</em> (the core meaning), and <em>-ness</em> (which converts an adjective to a noun). Understanding morphology helps explain how speakers can create and understand words they've never encountered before.</p>
+    <p><em>Morphology</em> is the study of word structure and word formation. Morphologists analyze how words are built from smaller meaningful units called <em>morphemes</em>. The word <q><foreign>unhappiness</foreign></q>, for instance, contains three morphemes: <q><foreign>un-</foreign></q> (meaning &quot;not&quot;), <q><foreign>happy</foreign></q> (the core meaning), and <q><foreign>-ness</foreign></q> (which converts an adjective to a noun). Understanding morphology helps explain how speakers can create and understand words they've never encountered before.</p>
 
-    <p>Consider how much information a single word can pack. The word &quot;antidisestablishmentarianism&quot; contains:</p>
+    <p>Consider how much information a single word can pack. The word <q><foreign>antidisestablishmentarianism</foreign></q> contains:</p>
 
     <ul>
-      <li><p><em>anti-</em> (against)</p></li>
-      <li><p><em>dis-</em> (reverse of)</p></li>
-      <li><p><em>establish</em> (set up)</p></li>
-      <li><p><em>-ment</em> (act of)</p></li>
-      <li><p><em>-arian</em> (person who believes in)</p></li>
-      <li><p><em>-ism</em> (doctrine)</p></li>
+      <li><p><foreign>anti-</foreign> (against)</p></li>
+      <li><p><foreign>dis-</foreign> (reverse of)</p></li>
+      <li><p><foreign>establish</foreign> (set up)</p></li>
+      <li><p><foreign>-ment</foreign> (act of)</p></li>
+      <li><p><foreign>-arian</foreign> (person who believes in)</p></li>
+      <li><p><foreign>-ism</foreign> (doctrine)</p></li>
     </ul>
 
     <p>English speakers who've never seen this word can puzzle out its meaning from its parts. This demonstrates that words aren't arbitrary sound sequences—they have internal structure we can analyze.</p>
@@ -126,9 +126,9 @@
       <title>Syntax: Sentence Structure</title>
     </paragraphs>
 
-    <p><em>Syntax</em> is the study of sentence structure—how words combine into phrases and phrases combine into sentences. Syntax explains why &quot;The cat chased the mouse&quot; means something different from &quot;The mouse chased the cat,&quot; even though both sentences contain exactly the same words. It also explains why &quot;Chased mouse the the cat&quot; is not a possible English sentence. Syntax is the primary focus of grammar study and the heart of this textbook.</p>
+    <p><em>Syntax</em> is the study of sentence structure—how words combine into phrases and phrases combine into sentences. Syntax explains why <q><foreign>The cat chased the mouse</foreign></q> means something different from <q><foreign>The mouse chased the cat</foreign></q>, even though both sentences contain exactly the same words. It also explains why <q><foreign><delete>Chased mouse the the cat</delete></foreign></q> is not a possible English sentence. Syntax is the primary focus of grammar study and the heart of this textbook.</p>
 
-    <p>Syntactic knowledge is surprisingly sophisticated. Consider the sentence &quot;The horse raced past the barn fell.&quot; Most readers stumble on this—it seems ungrammatical. But if you parse it as &quot;The horse [that was] raced past the barn fell,&quot; it makes perfect sense: a horse that was raced past the barn subsequently fell. Your brain's syntactic parser made an initial decision (treating &quot;raced&quot; as the main verb) that turned out to be wrong, creating what linguists call a &quot;garden path sentence.&quot;</p>
+    <p>Syntactic knowledge is surprisingly sophisticated. Consider the sentence <q><foreign>The horse raced past the barn fell.</foreign></q> Most readers stumble on this—it seems ungrammatical. But if you parse it as <q><foreign>The horse [that was] raced past the barn fell</foreign></q>, it makes perfect sense: a horse that was raced past the barn subsequently fell. Your brain's syntactic parser made an initial decision (treating <q><foreign>raced</foreign></q> as the main verb) that turned out to be wrong, creating what linguists call a &quot;garden path sentence.&quot;</p>
 
     <p>Such examples reveal that understanding sentences isn't just about knowing words—it requires implicit knowledge of syntactic structures that guide interpretation.</p>
 
@@ -139,30 +139,30 @@
     <p><em>Semantics</em> is the study of meaning. Semanticists investigate how words and sentences convey meaning, how meanings combine, and how context affects interpretation. They analyze phenomena like:</p>
 
     <ul>
-      <li><p><em>Synonymy</em>: why &quot;couch&quot; and &quot;sofa&quot; mean roughly the same thing</p></li>
-      <li><p><em>Ambiguity</em>: why &quot;I saw the man with binoculars&quot; has two meanings (did you use binoculars to see him, or did he have binoculars?)</p></li>
-      <li><p><em>Entailment</em>: why &quot;The cat killed the mouse&quot; implies &quot;The mouse died&quot;</p></li>
-      <li><p><em>Presupposition</em>: why &quot;Have you stopped cheating on tests?&quot; presumes you were cheating</p></li>
+      <li><p><em>Synonymy</em>: why <foreign>couch</foreign> and <foreign>sofa</foreign> mean roughly the same thing</p></li>
+      <li><p><em>Ambiguity</em>: why <foreign>I saw the man with binoculars</foreign> has two meanings (did you use binoculars to see him, or did he have binoculars?)</p></li>
+      <li><p><em>Entailment</em>: why <foreign>The cat killed the mouse</foreign> implies <foreign>The mouse died</foreign></p></li>
+      <li><p><em>Presupposition</em>: why <foreign>Have you stopped cheating on tests?</foreign> presumes you were cheating</p></li>
     </ul>
 
-    <p>One fascinating semantic puzzle involves <em>compositionality</em>—the principle that the meaning of a sentence derives from the meanings of its parts and how they're combined. This principle explains our productivity: we understand novel sentences by computing their meaning from familiar elements. But compositionality has limits. Idioms like &quot;kick the bucket&quot; (meaning &quot;die&quot;) can't be computed from their parts—you have to learn them as units.</p>
+    <p>One fascinating semantic puzzle involves <em>compositionality</em>—the principle that the meaning of a sentence derives from the meanings of its parts and how they're combined. This principle explains our productivity: we understand novel sentences by computing their meaning from familiar elements. But compositionality has limits. Idioms like <q><foreign>kick the bucket</foreign></q> (meaning &quot;die&quot;) can't be computed from their parts—you have to learn them as units.</p>
 
     <paragraphs>
       <title>Pragmatics: Meaning in Context</title>
     </paragraphs>
 
-    <p><em>Pragmatics</em> examines meaning in context—how speakers use language to accomplish things in the world and how listeners interpret speakers' intentions. Pragmatics explains why &quot;Can you pass the salt?&quot; is normally understood as a request rather than a question about ability, or why &quot;Nice weather we're having&quot; on a rainy day is understood as sarcasm.</p>
+    <p><em>Pragmatics</em> examines meaning in context—how speakers use language to accomplish things in the world and how listeners interpret speakers' intentions. Pragmatics explains why <q><foreign>Can you pass the salt?</foreign></q> is normally understood as a request rather than a question about ability, or why <q><foreign>Nice weather we're having</foreign></q> on a rainy day is understood as sarcasm.</p>
 
     <p>Much of what we communicate goes beyond the literal meaning of our words. Consider this exchange:</p>
 
     <blockquote>
-      <p>A: &quot;Are you coming to the party tonight?&quot;</p>
-      <p>B: &quot;I have to work early tomorrow.&quot;</p>
+      <p>A: <foreign>Are you coming to the party tonight?</foreign></p>
+      <p>B: <foreign>I have to work early tomorrow.</foreign></p>
     </blockquote>
 
-    <p>B never actually said &quot;no,&quot; yet A understands the decline. This inference relies on pragmatic principles—specifically, the assumption that speakers are being cooperative and relevant. If B's work schedule weren't relevant to the question, why mention it?</p>
+    <p>B never actually said <q><foreign>no</foreign></q>, yet A understands the decline. This inference relies on pragmatic principles—specifically, the assumption that speakers are being cooperative and relevant. If B's work schedule weren't relevant to the question, why mention it?</p>
 
-    <p>Pragmatics also covers <em>speech acts</em>—how we do things with words. Saying &quot;I promise to pay you back&quot; doesn't just describe a promise; it <em>makes</em> one. Saying &quot;I now pronounce you married&quot; (in the right context, by the right person) changes your legal status. Language isn't just about conveying information—it's about taking action in the social world.</p>
+    <p>Pragmatics also covers <em>speech acts</em>—how we do things with words. Saying <q><foreign>I promise to pay you back</foreign></q> doesn't just describe a promise; it <em>makes</em> one. Saying <q><foreign>I now pronounce you married</foreign></q> (in the right context, by the right person) changes your legal status. Language isn't just about conveying information—it's about taking action in the social world.</p>
 
     <paragraphs>
       <title>How the Levels Connect</title>
@@ -170,7 +170,7 @@
 
     <p>These levels are not isolated from each other; they interact in complex ways. A complete understanding of language requires attention to all of them.</p>
 
-    <p>For example, intonation (phonetics/phonology) affects meaning (semantics): &quot;You're going to the store&quot; said with rising intonation becomes a question. Morphological structure affects syntactic behavior: &quot;unfriendly&quot; acts as an adjective because of its suffix, while &quot;friend&quot; acts as a noun. Pragmatic context affects semantic interpretation: &quot;It's cold in here&quot; might be a statement, a request to close a window, or a complaint, depending on the situation.</p>
+    <p>For example, intonation (phonetics/phonology) affects meaning (semantics): <q><foreign>You're going to the store</foreign></q> said with rising intonation becomes a question. Morphological structure affects syntactic behavior: <q><foreign>unfriendly</foreign></q> acts as an adjective because of its suffix, while <q><foreign>friend</foreign></q> acts as a noun. Pragmatic context affects semantic interpretation: <q><foreign>It's cold in here</foreign></q> might be a statement, a request to close a window, or a complaint, depending on the situation.</p>
 
     <p>In this textbook, we focus primarily on morphology and syntax—the structure of words and sentences—but you'll see connections to other levels throughout.</p>
 
@@ -187,15 +187,15 @@
 
     <p>This creativity isn't random—it's systematic. We don't produce just any combination of sounds or words; we follow patterns and rules (descriptive rules, that is) that allow us to combine existing elements in novel ways. Language is sometimes described as &quot;infinite use of finite means&quot;: from a limited set of sounds, words, and rules, we can generate an unlimited number of sentences.</p>
 
-    <p>Sentences can theoretically be infinitely long and still be grammatical. Consider: &quot;This is the cat that chased the mouse that ate the cheese that came from the cow that lived on the farm that Jack built.&quot; We could keep adding clauses forever. In practice, our memory limits how complex sentences can get, but the grammar itself sets no limit.</p>
+    <p>Sentences can theoretically be infinitely long and still be grammatical. Consider: <q><foreign>This is the cat that chased the mouse that ate the cheese that came from the cow that lived on the farm that Jack built.</foreign></q> We could keep adding clauses forever. In practice, our memory limits how complex sentences can get, but the grammar itself sets no limit.</p>
 
     <p>This infinite capacity rests partly on <em>recursion</em>—the ability to embed structures within structures of the same type. A noun phrase can contain a clause that contains a noun phrase that contains a clause, and so on without end:</p>
 
     <ul>
-      <li><p><em>the book</em> (simple NP)</p></li>
-      <li><p><em>the book that she wrote</em> (NP containing a clause)</p></li>
-      <li><p><em>the book that she wrote about the theory</em> (more embedded structure)</p></li>
-      <li><p><em>the book that she wrote about the theory that changed the field that her mentor founded</em> (recursion continues)</p></li>
+      <li><p><foreign>the book</foreign> (simple NP)</p></li>
+      <li><p><foreign>the book that she wrote</foreign> (NP containing a clause)</p></li>
+      <li><p><foreign>the book that she wrote about the theory</foreign> (more embedded structure)</p></li>
+      <li><p><foreign>the book that she wrote about the theory that changed the field that her mentor founded</foreign> (recursion continues)</p></li>
     </ul>
 
     <p>No finite list of sentences could capture English; we need rules that generate infinite possibilities.</p>
@@ -204,14 +204,14 @@
       <title>Creative Word Formation</title>
     </paragraphs>
 
-    <p>Language productivity extends to word formation as well. English speakers regularly create new words and understand them immediately. Verbs can be coined from nouns (as when &quot;Google&quot; became &quot;to google&quot;), compounds can be invented on the fly (&quot;pandemic puppy,&quot; &quot;Zoom fatigue,&quot; &quot;doomscrolling&quot;), and affixes can be applied productively to new bases.</p>
+    <p>Language productivity extends to word formation as well. English speakers regularly create new words and understand them immediately. Verbs can be coined from nouns (as when <q><foreign>Google</foreign></q> became <q><foreign>to google</foreign></q>), compounds can be invented on the fly (<foreign>pandemic puppy</foreign>, <foreign>Zoom fatigue</foreign>, <foreign>doomscrolling</foreign>), and affixes can be applied productively to new bases.</p>
 
     <p>Consider how naturally English speakers understand new words:</p>
 
     <ul>
-      <li><p>If someone can be &quot;un-friend-ed&quot; on social media, they can also be &quot;un-follow-ed&quot;</p></li>
-      <li><p>If there's &quot;mansplaining,&quot; there can be &quot;whitesplaining&quot; or &quot;techsplaining&quot;</p></li>
-      <li><p>If something is &quot;Instagram-worthy,&quot; something else might be &quot;TikTok-worthy&quot;</p></li>
+      <li><p>If someone can be <foreign>un-friend-ed</foreign> on social media, they can also be <foreign>un-follow-ed</foreign></p></li>
+      <li><p>If there's <foreign>mansplaining</foreign>, there can be <foreign>whitesplaining</foreign> or <foreign>techsplaining</foreign></p></li>
+      <li><p>If something is <foreign>Instagram-worthy</foreign>, something else might be <foreign>TikTok-worthy</foreign></p></li>
     </ul>
 
     <p>These words didn't exist twenty years ago. Some didn't exist five years ago. Yet English speakers immediately grasp their meaning and their grammatical behavior (which part of speech they are, how to inflect them). This is productivity in action.</p>
@@ -220,19 +220,19 @@
       <title>Evidence from Child Language</title>
     </paragraphs>
 
-    <p>Children provide compelling evidence of language productivity. When young children say &quot;goed&quot; instead of &quot;went&quot; or &quot;foots&quot; instead of &quot;feet,&quot; they aren't making random errors—they're demonstrating that they've extracted the regular patterns of English and can apply them systematically, even to words that happen to be irregular.</p>
+    <p>Children provide compelling evidence of language productivity. When young children say <q><foreign>goed</foreign></q> instead of <q><foreign>went</foreign></q> or <q><foreign>foots</foreign></q> instead of <q><foreign>feet</foreign></q>, they aren't making random errors—they're demonstrating that they've extracted the regular patterns of English and can apply them systematically, even to words that happen to be irregular.</p>
 
-    <p>These so-called &quot;errors&quot; actually reveal sophisticated rule-learning. A child who says &quot;I runned to the store&quot; has internalized the rule for forming English past tense (<em>add -ed</em>) and is applying it productively. The fact that <em>run</em> is irregular (requiring <em>ran</em>) is something that must be learned as an exception. Children typically go through three stages: first using the correct irregular form (having heard it), then over-applying the regular rule, and finally mastering the exception. This U-shaped development curve demonstrates that language acquisition isn't mere mimicry—children are pattern-learning machines who extract rules and apply them creatively.</p>
+    <p>These so-called &quot;errors&quot; actually reveal sophisticated rule-learning. A child who says <q><foreign>I runned to the store</foreign></q> has internalized the rule for forming English past tense (<em>add -ed</em>) and is applying it productively. The fact that <q><foreign>run</foreign></q> is irregular (requiring <q><foreign>ran</foreign></q>) is something that must be learned as an exception. Children typically go through three stages: first using the correct irregular form (having heard it), then over-applying the regular rule, and finally mastering the exception. This U-shaped development curve demonstrates that language acquisition isn't mere mimicry—children are pattern-learning machines who extract rules and apply them creatively.</p>
 
     <paragraphs>
       <title>Language Change as Productivity</title>
     </paragraphs>
 
-    <p>Language productivity also means that languages constantly change and evolve. New words enter the language (think of &quot;selfie,&quot; &quot;cryptocurrency,&quot; &quot;doomscrolling,&quot; or &quot;gaslighting&quot; in its new sense), existing words acquire new meanings, and grammatical patterns shift over time. This change is natural and inevitable, a consequence of the creative, generative nature of human language.</p>
+    <p>Language productivity also means that languages constantly change and evolve. New words enter the language (think of <foreign>selfie</foreign>, <foreign>cryptocurrency</foreign>, <foreign>doomscrolling</foreign>, or <foreign>gaslighting</foreign> in its new sense), existing words acquire new meanings, and grammatical patterns shift over time. This change is natural and inevitable, a consequence of the creative, generative nature of human language.</p>
 
-    <p>Every generation innovates. Shakespeare invented (or first recorded) words like &quot;assassination,&quot; &quot;eyeball,&quot; and &quot;lonely.&quot; More recently, technology has given us &quot;email,&quot; &quot;blog,&quot; and &quot;tweet.&quot; Slang continually refreshes: what was &quot;groovy&quot; became &quot;cool&quot; became &quot;sick&quot; became &quot;fire.&quot; These aren't corruptions of language—they're signs of its vitality.</p>
+    <p>Every generation innovates. Shakespeare invented (or first recorded) words like <q><foreign>assassination</foreign></q>, <q><foreign>eyeball</foreign></q>, and <q><foreign>lonely</foreign></q>. More recently, technology has given us (<foreign>email</foreign>, <foreign>blog</foreign>, <foreign>tweet</foreign>). Slang continually refreshes: what was <q><foreign>groovy</foreign></q> became <q><foreign>cool</foreign></q> became <q><foreign>sick</foreign></q> became <q><foreign>fire</foreign></q>. These aren't corruptions of language—they're signs of its vitality.</p>
 
-    <p>Change happens at all levels. Pronunciations shift (most Americans no longer distinguish &quot;cot&quot; from &quot;caught&quot;). Grammatical patterns evolve (singular &quot;they&quot; for indefinite reference, once stigmatized, is now widely accepted). Meanings drift (&quot;awful&quot; once meant &quot;awe-inspiring&quot;; &quot;nice&quot; once meant &quot;foolish&quot;). Fighting this change is fighting the nature of language itself.</p>
+    <p>Change happens at all levels. Pronunciations shift (most Americans no longer distinguish <q><foreign>cot</foreign></q> from <q><foreign>caught</foreign></q>). Grammatical patterns evolve (singular <q><foreign>they</foreign></q> for indefinite reference, once stigmatized, is now widely accepted). Meanings drift (<q><foreign>awful</foreign></q> once meant <q><foreign>awe-inspiring</foreign></q>; <q><foreign>nice</foreign></q> once meant <q><foreign>foolish</foreign></q>). Fighting this change is fighting the nature of language itself.</p>
 
   </section>
 
@@ -245,7 +245,7 @@
       <title>Making Implicit Knowledge Explicit</title>
     </paragraphs>
 
-    <p>First, studying grammar scientifically helps you understand what you already know. As a native speaker, you have already internalized thousands of complex grammatical rules—you just can't consciously articulate them. You know that &quot;the big red balloon&quot; sounds right while &quot;the red big balloon&quot; sounds wrong, but can you explain why? (It has to do with adjective ordering—we'll cover this in Chapter 9.) You know that &quot;Who did you see?&quot; is fine but &quot;*Who did you see him?&quot; isn't, but can you state the rule? (It involves a constraint on movement that leaves gaps.)</p>
+    <p>First, studying grammar scientifically helps you understand what you already know. As a native speaker, you have already internalized thousands of complex grammatical rules—you just can't consciously articulate them. You know that <q><foreign>the big red balloon</foreign></q> sounds right while <q><foreign>the red big balloon</foreign></q> sounds wrong, but can you explain why? (It has to do with adjective ordering—we'll cover this in Chapter 9.) You know that <q><foreign>Who did you see?</foreign></q> is fine but <q><foreign><delete>Who did you see him?</delete></foreign></q> isn't, but can you state the rule? (It involves a constraint on movement that leaves gaps.)</p>
 
     <p>When you learn to describe these rules explicitly, you develop a <em>metalanguage</em> for talking about language. This metalanguage is invaluable when you need to analyze your own writing, explain a grammatical concept to someone else, or understand why a sentence isn't working. Instead of vaguely feeling that something is &quot;off,&quot; you can diagnose the specific structural problem.</p>
 
@@ -255,7 +255,7 @@
 
     <p>Second, a descriptive understanding of grammar helps you make informed choices. Prescriptive rules often represent one option among several possibilities, each appropriate in different contexts. When you understand the difference between prescriptive conventions and the actual patterns of English, you can choose the right register for your purpose.</p>
 
-    <p>Consider the &quot;rule&quot; against ending sentences with prepositions. A descriptive linguist knows that preposition stranding is a native feature of English, used by excellent writers for centuries. An informed writer can then choose: &quot;The person to whom I spoke&quot; (more formal) or &quot;The person I spoke to&quot; (more natural). Neither is wrong; they're different tools for different contexts.</p>
+    <p>Consider the &quot;rule&quot; against ending sentences with prepositions. A descriptive linguist knows that preposition stranding is a native feature of English, used by excellent writers for centuries. An informed writer can then choose: <q><foreign>The person to whom I spoke</foreign></q> (more formal) or <q><foreign>The person I spoke to</foreign></q> (more natural). Neither is wrong; they're different tools for different contexts.</p>
 
     <p>This knowledge is empowering. You can write formally when formality is called for and informally when that's more effective—not because you don't know the rules, but because you understand when and why to follow them. You become a code-switcher by choice rather than by limitation.</p>
 
@@ -305,14 +305,14 @@
 
     <p><em>Question 1.</em> In your own words, explain what it means to say that linguistics is "descriptive" rather than "prescriptive." Why does this distinction matter? (1 paragraph)</p>
 
-    <p><em>Question 2.</em> The chapter argues that children who say "goed" instead of "went" are actually demonstrating sophisticated language learning. Explain why linguists see this as evidence of productivity rather than error. (1 paragraph)</p>
+    <p><em>Question 2.</em> The chapter argues that children who say <q><foreign>goed</foreign></q> instead of <q><foreign>went</foreign></q> are actually demonstrating sophisticated language learning. Explain why linguists see this as evidence of productivity rather than error. (1 paragraph)</p>
 
     <p><em>Question 3.</em> Consider the following brief exchange:</p>
 
     <blockquote>
-      <p><em>A:</em> "You going to the thing tonight?"</p>
-      <p><em>B:</em> "Bro, I'm exhausted."</p>
-      <p><em>A:</em> "Bet."</p>
+      <p><em>A:</em> <foreign>You going to the thing tonight?</foreign></p>
+      <p><em>B:</em> <foreign>Bro, I'm exhausted.</foreign></p>
+      <p><em>A:</em> <foreign>Bet.</foreign></p>
     </blockquote>
 
     <p>For each level of linguistic analysis below, describe <em>one observation or question</em> a linguist might raise about this exchange:</p>

@@ -1,25 +1,24 @@
 # Project State
 
-Task: 5
+Task: 7
 Last updated: 2026-02-12
 
 ## Overview
 "A Concise Guide to English Grammar" is an open educational resource (OER) college textbook on English grammar, authored in PreTeXt XML (21 chapters) and published as HTML via GitHub Pages and as an EPUB ebook.
 
 ## Active Threads
-- **Language example formatting standardization completed for Chapter 6 and STYLE_GUIDE.md** — User approved Chapter 6 formatting. Comprehensive rules now documented in STYLE_GUIDE.md:
-  1. `<foreign>` element: all language examples (sans-serif, 0.9em)
-  2. `<q><foreign>` for inline examples in paragraphs (quotation marks)
-  3. Parentheses only for grouped multiples: `(<example1>, <example2>, ...)`
-  4. No markers in lists/tables/block quotes (grey background via CSS sufficient)
-  5. `<delete>` for ungrammatical examples (strikethrough)
-  6. `<em>` retained only for emphasis, labels, technical terms
-  7. Quick reference table and CSS behavior documented for implementation
+- **Language example formatting rollout in progress** — Chapter 6 completed and approved. STYLE_GUIDE.md comprehensively documents the Language Example Formatting System. Rollout to remaining chapters (1-5, 7-21) now beginning with Chapter 1.
+  - Formatting rules: `<foreign>` for all language examples (sans-serif, 0.9em), `<q><foreign>` for inline examples, parentheses only for grouped multiples, `<delete>` for ungrammatical, `<em>` for emphasis only
+  - Quick reference table and CSS behavior in STYLE_GUIDE.md ready for implementation
+
+## Next Steps
+- Chapter 1 formatting review and application
+- Sequence remainder of chapters 2-5, then 7-21
+- Track completion status as rollout progresses
 
 ## Open Questions
 - Answer keys exist only for Chapters 4-15; Chapters 1-3 and 16-21 may still need them
-- The REVISION_AUDIT.md references an older 27-chapter structure; it has not been updated to reflect the current 21-chapter organization
-- Priority order for applying language formatting to remaining chapters (1-5, 7-21)?
+- The REVISION_AUDIT.md references an older 27-chapter structure; update needed to reflect current 21-chapter organization
 
 ## Notes
-Chapter 6 formatting approved. STYLE_GUIDE.md now contains comprehensive Language Example Formatting System with PreTeXt XML examples, quick reference table, and CSS behavior documentation. Ready for rollout to all remaining chapters.
+Chapter 6 formatting complete and approved. Style guide updated with comprehensive Language Example Formatting System. Ready to begin rollout phase with Chapter 1.
