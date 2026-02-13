@@ -50,12 +50,13 @@ Last updated: 2026-02-12
 4. **`<em>`** retained ONLY for emphasis, labels, and technical terms (NOT language examples)
 5. **`<em>` inside `<foreign>`** highlights specific words within examples (e.g., the target determiner)
 6. CSS `:has(.foreign)` selector gives broken-out lists/tables grey background (#f5f6f8) with left border
-7. Strikethrough `~~text~~` for ungrammatical examples remains as literal tildes — needs PreTeXt `<delete>` fix later
+7. **Strikethrough for ungrammatical examples:** Use PreTeXt `<delete>` element: `<delete><foreign>ungrammatical text</foreign></delete>` → renders as struck-through sans-serif text
 
 **Previously tried:**
 - Italics (`<em>`) for language examples — removed because it conflated emphasis with language mention
 - Considered `<c>` (code), `<alert>`, and custom elements — rejected because `<foreign>` already maps to `<i class="foreign">` which is cleanly targetable in CSS
+- Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element for proper HTML strikethrough
 
-**Context:** Chapter 6 is the test chapter (completed). Remaining chapters (1-5, 7-21) still need the same treatment. The approach requires a manual read-through of each chapter to distinguish language examples from genuine emphasis.
+**Context:** Chapter 6 is the test chapter. Font size for `.foreign` class reduced to 18px (from inherit, 19px). Remaining chapters (1-5, 7-21) still need the same treatment. The approach requires a manual read-through of each chapter to distinguish language examples from genuine emphasis.
 
 ## Archived
