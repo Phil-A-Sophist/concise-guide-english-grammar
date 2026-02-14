@@ -57,7 +57,19 @@ ch06_pp_mod_vp | [S [NP [PRON She]] [VP [V waited] [PP [PREP in] [NP [DET the] [
 ch06_pp_mod_adjp | [S [NP [PRON She]] [VP [V is] [ADJP [ADJ proud] [PP [PREP of] [NP [DET her] [N work]]]]]]
 ch06_pp_mod_sentence | [S [PP [PREP In] [NP [DET the] [N morning]]] [NP [PRON we]] [VP [MOD will] [V leave]]]
 
-# Chapter 7 - Verb Phrase Structures
+# Chapter 7 - Introduction to Sentence Diagramming
+ch07_snpvp_abstract | [S [NP] [VP]]
+ch07_thunder_rumbled | [S [NP [N Thunder]] [VP [V rumbled]]]
+ch07_dog_barked | [S [NP [DET The] [N dog]] [VP [V barked]]]
+ch07_cat_chased | [S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]
+ch07_old_man_sat | [S [NP [DET The] [ADJP [ADJ old]] [N man]] [VP [V sat] [ADVP [ADV quietly]]]]
+ch07_artist_painted | [S [NP [DET The] [ADJP [ADJ young]] [N artist] [PP [PREP from] [NP [N Paris]]]] [VP [V painted] [NP [ADJP [ADJ beautiful]] [N landscapes]]]]
+ch07_binoculars_vp | [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]
+ch07_binoculars_np | [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]
+ch07_elephant_vp | [S [NP [PRON I]] [VP [V shot] [NP [DET an] [N elephant]] [PP [PREP in] [NP [DET my] [N pajamas]]]]]
+ch07_elephant_np | [S [NP [PRON I]] [VP [V shot] [NP [DET an] [N elephant] [PP [PREP in] [NP [DET my] [N pajamas]]]]]]
+
+# Chapter 7 - Verb Phrase Structures (used by ch-10 and ch-11)
 ch07_simple_vp | [VP [V sleeps]]
 ch07_vp_complex | [VP [MOD should] [AUX have] [AUX been] [V studying]]
 ch07_vp_full_complex | [VP [MOD will] [AUX have] [AUX been] [AUX being] [V eaten]]
