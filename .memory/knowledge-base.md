@@ -1,6 +1,6 @@
 # Knowledge Base
 
-Last updated: 2026-02-13
+Last updated: 2026-02-14
 
 ## Source Format and Build Pipeline
 
@@ -31,9 +31,22 @@ Last updated: 2026-02-13
 
 ## Homework Delivery
 
-**Current approach:** Homework is authored in PreTeXt (rendered in HTML output) and also distributed as downloadable Word (.docx) files in `Homework/`. A script `generate_homework_from_pretext.py` assists with Word file generation. Answer keys exist for Chapters 4-15. Exercises are numbered sequentially across subsections within each chapter.
+**Current approach:** Homework is authored in PreTeXt (rendered in HTML output) and also distributed as downloadable Word (.docx) files in `Homework/`. Three files per chapter: Homework, Answer Key, Overhead Answer Key. The `generate_homework_from_pretext.py` script generates student homework .docx files. Answer keys and overheads are generated via chapter-specific scripts (e.g., `scripts/generate_ch07_answer_key.py`). Answer keys exist for Chapters 4-15.
 
-**Context:** Word files are needed so students can type answers digitally. The naming convention is "Chapter XX Homework.docx" and "Chapter XX Answer Key.docx".
+**Homework formatting requirements:**
+- Exercise numbering: `<em>Exercise N.</em>` (required for script regex match)
+- Section labels: `<paragraphs><title>Instructions</title></paragraphs>` block format
+- Language examples: bare `<foreign>` in exercises
+- Each exercise subsection: Instructions → Example (completed) → Exercises
+
+**File naming conventions:**
+- `Chapter XX Homework.docx` — student exercises
+- `Chapter XX Answer Key.docx` — solutions
+- `Homework XX Overhead.docx` — answer key for projection (22pt font)
+
+**Gotcha:** The homework generation script processes ALL chapters when run. Only stage the target chapter's .docx in the commit.
+
+**Context:** Word files are needed so students can type answers digitally. Difficulty should match ch4-7 model: 15-25 exercises, identification-heavy (60%), scaffolded examples before every set, 30-60 min total.
 
 ## Revision Priorities
 
@@ -43,7 +56,7 @@ Last updated: 2026-02-13
 
 ## Language Example Formatting
 
-**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, documented in STYLE_GUIDE.md for rollout across all chapters. Chapters 1-6 completed and committed. Chapter 7 formatting deferred in Task 16 due to major structural revision priority; rollout resumes with Chapter 8.
+**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, documented in STYLE_GUIDE.md for rollout across all chapters. Chapters 1-7 completed and committed. Chapter 8 is next. Full process documented in `.memory/chapter-improvement-process.md`.
 
 1. **`<foreign>` element (REQUIRED):** All language examples use `<foreign>` → renders as `<i class="foreign">` → CSS overrides to sans-serif, non-italic, 0.9em
 2. **`<q>` element (inline examples in paragraphs):** Automatically renders quotation marks: `<q><foreign>The dog barked.</foreign></q>` → "The dog barked."
@@ -67,7 +80,7 @@ Last updated: 2026-02-13
 - Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element
 - Font size at 0.95em — refined to 0.9em for better sans-serif rendering consistency
 
-**Context:** Chapters 1-6 formatting approved by user and fully documented. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
+**Context:** Chapters 1-7 formatting approved by user and fully documented. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
 
 ## Chapter 7 Major Revision (Task 16)
 
@@ -86,5 +99,13 @@ Last updated: 2026-02-13
 **Bracket notation approach:** 10 new entries added to `bracket_notations.txt` for ch07 diagrams. Old ch07 VP diagram entries preserved (not touched) because ch-05, ch-10, ch-11 reference them by ID.
 
 **Context:** This revision represents the first major structural overhaul since the pilot formatting work on ch-06. Priority was given to ch07 due to its foundational role in the textbook (chapter on diagramming introduces critical techniques). Diagram integration, pedagogical clarity (MVP framing, top-down/bottom-up analysis), and homework modernization (table-based exercises) all prioritized for student learning outcomes.
+
+## Systematic Chapter Improvement Process
+
+**Current approach:** Working through chapters sequentially (Ch7 done, Ch8 next). Each chapter receives four improvements: (1) diagram audit — replace old SVGs with SyntaxTreeHybrid PNGs, (2) style guide compliance — convert `<em>` language examples to `<foreign>`, (3) homework review — fix formatting and assess difficulty, (4) Word file generation — Homework, Answer Key, Overhead. Full process documented in `.memory/chapter-improvement-process.md`.
+
+**Key efficiency insight:** Don't over-explore before starting edits. For diagrams, a quick grep of `<image source=` in the chapter + listing `assets/diagrams/new/chXX_*` is sufficient. For `<foreign>` conversion, work section-by-section (tables → lists → paragraphs) rather than categorizing all instances upfront.
+
+**Context:** Established during Ch7 improvement (Task 17). The process takes roughly one session per chapter. Chapters 1-6 had only formatting applied (no homework/diagram work); Ch7 onward gets the full treatment.
 
 ## Archived
