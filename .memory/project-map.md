@@ -1,7 +1,7 @@
 # Project Map
 
 Last updated: 2026-02-14
-Task: 17
+Task: 19
 
 ## Root Directory
 
@@ -81,6 +81,7 @@ Task: 17
 - `scripts/generate_diagrams.py` — SVG diagram generation script
 - `scripts/generate_new_diagrams.py` — Updated/new diagram generation script
 - `scripts/generate_ch07_answer_key.py` — Generates Chapter 7 Answer Key and Overhead Answer Key .docx files (template for future chapters)
+- `scripts/generate_ch08_answer_key.py` — Generates Chapter 8 Answer Key and Overhead Answer Key .docx files
 
 ## reference_materials/
 

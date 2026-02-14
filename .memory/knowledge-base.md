@@ -80,7 +80,7 @@ Last updated: 2026-02-14
 - Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element
 - Font size at 0.95em — refined to 0.9em for better sans-serif rendering consistency
 
-**Context:** Chapters 1-7 formatting approved by user and fully documented. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
+**Context:** Chapters 1-8 formatting approved by user and fully documented. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
 
 ## Chapter 7 Major Revision (Task 16)
 
@@ -102,7 +102,7 @@ Last updated: 2026-02-14
 
 ## Systematic Chapter Improvement Process
 
-**Current approach:** Working through chapters sequentially (Ch7 done, Ch8 next). Each chapter receives four improvements: (1) diagram audit — replace old SVGs with SyntaxTreeHybrid PNGs, (2) style guide compliance — convert `<em>` language examples to `<foreign>`, (3) homework review — fix formatting and assess difficulty, (4) Word file generation — Homework, Answer Key, Overhead. Full process documented in `.memory/chapter-improvement-process.md`.
+**Current approach:** Working through chapters sequentially (Ch7-8 done, Ch9 next). Each chapter receives four improvements: (1) diagram audit — replace old SVGs with SyntaxTreeHybrid PNGs, (2) style guide compliance — convert `<em>` language examples to `<foreign>`, (3) homework review — fix formatting and assess difficulty, (4) Word file generation — Homework, Answer Key, Overhead. Full process documented in `.memory/chapter-improvement-process.md`.
 
 **Key efficiency insight:** Don't over-explore before starting edits. For diagrams, a quick grep of `<image source=` in the chapter + listing `assets/diagrams/new/chXX_*` is sufficient. For `<foreign>` conversion, work section-by-section (tables → lists → paragraphs) rather than categorizing all instances upfront.
 
