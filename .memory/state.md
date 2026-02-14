@@ -1,6 +1,6 @@
 # Project State
 
-Task: 22
+Task: 23
 Last updated: 2026-02-14
 
 ## Overview
@@ -8,14 +8,11 @@ Last updated: 2026-02-14
 
 ## Active Threads
 - **Systematic chapter improvement** — Working through chapters one at a time. Process documented in `.memory/chapter-improvement-process.md`. Each chapter gets: diagram audit, `<foreign>` formatting, homework review/fixes, Word file generation, build+push.
-- **Language example formatting rollout** — Chapters 1-10 completed. Chapter 11 is next.
-- **Homework difficulty calibration** — Ch8-10 assessed as appropriate (18-21 exercises each, 5 parts, scaffolded progression). Continue monitoring.
+- **Language example formatting rollout** — Chapters 1-11 completed. Chapter 12 is next.
+- **Homework difficulty calibration** — Ch8-11 assessed as appropriate (18-25 exercises each, 5 parts, scaffolded progression). Continue monitoring.
 
 ## Currently Working On
-- **Chapter 11 improvement** (Verbs Part Two: Voice and Modals) — Next chapter in queue. Steps: diagram audit, `<foreign>` conversion, homework review/fixes, Word file generation, build+push.
-
-## Completed in Task 21
-- Memory consolidation cycle (Task 22 is a continuation cycle — no substantive project work this exchange)
+- **Chapter 12 improvement** (Adverbials) — Next chapter in queue.
 
 ## Completed Chapters
 - Chapters 1-6: `<foreign>` formatting only
@@ -23,10 +20,11 @@ Last updated: 2026-02-14
 - Chapter 8: Full improvement (213 `<foreign>` instances — 426b103)
 - Chapter 9: Full improvement (113 `<foreign>` instances — 858a9b4)
 - Chapter 10: Full improvement (181 `<foreign>` instances — c57d00a)
+- Chapter 11: Full improvement (174 `<foreign>` instances — 7cc7b51)
 
 ## Next Steps
-- Complete Chapter 11 improvement
-- Continue with Chapter 12 after Chapter 11
+- Complete Chapter 12 improvement (Adverbials)
+- Continue with Chapters 13-21
 
 ## Notes
 - **Snapshot schedule:** `state-t20.md` exists. Next snapshot at Task 30.
