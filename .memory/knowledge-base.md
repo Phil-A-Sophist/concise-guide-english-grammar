@@ -1,6 +1,6 @@
 # Knowledge Base
 
-Last updated: 2026-02-12
+Last updated: 2026-02-13
 
 ## Source Format and Build Pipeline
 
@@ -43,7 +43,7 @@ Last updated: 2026-02-12
 
 ## Language Example Formatting
 
-**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, now documented in STYLE_GUIDE.md for rollout across all chapters:
+**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, documented in STYLE_GUIDE.md for rollout across all chapters. Chapters 1-6 completed and committed. Chapter 7 formatting deferred in Task 16 due to major structural revision priority; rollout resumes with Chapter 8.
 
 1. **`<foreign>` element (REQUIRED):** All language examples use `<foreign>` → renders as `<i class="foreign">` → CSS overrides to sans-serif, non-italic, 0.9em
 2. **`<q>` element (inline examples in paragraphs):** Automatically renders quotation marks: `<q><foreign>The dog barked.</foreign></q>` → "The dog barked."
@@ -67,6 +67,24 @@ Last updated: 2026-02-12
 - Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element
 - Font size at 0.95em — refined to 0.9em for better sans-serif rendering consistency
 
-**Context:** Chapter 6 formatting approved by user and now fully documented. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently; remaining chapters (1-5, 7-21) will follow this documented pattern.
+**Context:** Chapters 1-6 formatting approved by user and fully documented. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
+
+## Chapter 7 Major Revision (Task 16)
+
+**Current approach:** Complete structural overhaul integrating PNG diagrams and new pedagogical content:
+- Replaced all ASCII art diagrams with 10 SyntaxTreeHybrid-generated PNG images (ch07_*)
+- Standardized all diagram labels to ALL CAPS (DET, PRON, ADJ, ADV, PREP, CONJ, AUX, ADJP, ADVP) for consistency across entire textbook
+- Renamed "Complements" to "Objects and Complements" with revised text explaining both object and object-complement roles
+- Enhanced "Structural Ambiguity" subsection with pedagogical framing (garden-path sentences, joke examples)
+- Replaced "Diagramming Conventions" (section 7.6) with "Sentence Labeling Tables" introducing MVP (Minimum Viable Phrase) concept and Subject/Predicate roles; two worked examples included
+- Added "Step-by-Step Sentence Analysis" (new section 7.7) teaching top-down and bottom-up parsing approaches with worked examples
+- Homework Parts 3-5 rewritten: sentence labeling table exercises, diagram-plus-table exercises, structural ambiguity analysis (Marx Brothers joke: "Hanging Parsons" and garden-path sentence: "The horse raced past the barn fell")
+- Updated Diagram Examples section with ch07-specific PNG images and bracket notation
+- Expanded glossary with terminology from new sections
+- Revised learning objectives to reflect new content structure
+
+**Bracket notation approach:** 10 new entries added to `bracket_notations.txt` for ch07 diagrams. Old ch07 VP diagram entries preserved (not touched) because ch-05, ch-10, ch-11 reference them by ID.
+
+**Context:** This revision represents the first major structural overhaul since the pilot formatting work on ch-06. Priority was given to ch07 due to its foundational role in the textbook (chapter on diagramming introduces critical techniques). Diagram integration, pedagogical clarity (MVP framing, top-down/bottom-up analysis), and homework modernization (table-based exercises) all prioritized for student learning outcomes.
 
 ## Archived

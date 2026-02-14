@@ -1,7 +1,7 @@
 # Project Map
 
-Last updated: 2026-02-12
-Task: 3
+Last updated: 2026-02-13
+Task: 16
 
 ## Root Directory
 
@@ -59,7 +59,7 @@ Task: 3
 - 60+ SVG files for syntax tree diagrams organized by chapter (ch04-ch16)
 - Covers morpheme trees, phrase structures (NP, VP, AdjP, AdvP, PP), sentence patterns, and verb auxiliaries
 - `assets/diagrams/manifest.txt` — Manifest listing diagram files
-- `assets/diagrams/new/` — PNG diagram images (110+ files, ch05-ch16) with bracket notation reference
+- `assets/diagrams/new/` — PNG diagram images (120+ files, ch05-ch16, includes 10 new ch07 files added in Task 16) with bracket notation reference
 
 ## assets/images/diagrams/ — Extracted Source Images
 
@@ -94,6 +94,7 @@ Task: 3
 - `reference_materials/image_inventory_detailed.md` — Image-to-chapter mapping
 - `reference_materials/diagram_bracket_notation.md` — Bracket notation reference for diagrams
 - `reference_materials/diagram_examples_by_chapter.md` — Diagram examples organized by chapter
+- `reference_materials/bracket_notations.txt` — Bracket notation entries for all chapter diagrams (updated with ch07 entries in Task 16)
 - `reference_materials/PPTs/` — Instructor PowerPoint presentations (source material)
 - `reference_materials/Other Class Materials/` — Handouts and tests
 - `reference_materials/Grammar Textbooks/` — Reference textbook materials

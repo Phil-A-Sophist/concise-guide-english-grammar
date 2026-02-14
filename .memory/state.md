@@ -1,30 +1,28 @@
 # Project State
 
-Task: 15
-Last updated: 2026-02-13
+Task: 17
+Last updated: 2026-02-14
 
 ## Overview
 "A Concise Guide to English Grammar" is an open educational resource (OER) college textbook on English grammar, authored in PreTeXt XML (21 chapters) and published as HTML via GitHub Pages and as an EPUB ebook.
 
 ## Active Threads
-- **Language example formatting rollout in progress** — Chapters 1-5 completed and committed (most recent: ch-04, ch-05 formatting applied and pushed). Chapter 6 previously completed. Chapters 7-21 pending.
-  - Formatting rules: `<foreign>` for all language examples (sans-serif, 0.9em), `<q><foreign>` for inline examples, parentheses only for grouped multiples, `<delete>` for ungrammatical, `<em>` for emphasis only
-  - Comprehensive documentation in STYLE_GUIDE.md ready for implementation across remaining chapters
+- **Chapter 7 style guide compliance** — Applying `<foreign>` formatting to language examples throughout Chapter 7. This was deferred during Task 16's structural revision; now being addressed.
+- **Chapter 7 homework formatting and Word file generation** — Fixing homework formatting in PreTeXt and generating updated Word (.docx) files for student download.
+- **Language example formatting rollout** — Chapters 1-6 completed. Chapter 7 in progress (this task). Chapters 8-21 pending.
 
 ## Completed Recently
-- REVISION_AUDIT.md fully updated to 21-chapter structure (was referencing old 27-chapter organization)
-- Answer key status clarified: Ch 1-3 not needed (open-ended questions), Ch 4-15 exist, Ch 16-21 deferred
-- Untracked files resolved: `nul` deleted, `.claude/` added to .gitignore, Diagram Examples folder committed
-- Chapters 1-5 language example formatting applied, built, committed, and pushed (latest commits: 2cdb431, e6d7610, f5a5856)
-- Chapter 6 language example formatting completed (pilot chapter)
+- **Task 16: Chapter 7 major structural revision** — Complete overhaul with 10 PNG diagrams, new sections (Sentence Labeling Tables, Step-by-Step Sentence Analysis), updated homework Parts 3-5, expanded glossary, revised learning objectives. All committed and pushed.
+- **Tasks 8-15: Language example formatting** — Chapters 1-6 formatted with `<foreign>` element per STYLE_GUIDE.md. Committed and pushed.
+- **Bracket notation reference** — 10 new ch07 entries added; old ch07 VP entries preserved for cross-chapter references.
 
 ## Next Steps
-- Continue language example formatting rollout to Chapters 7-21
-- Build HTML/EPUB after each batch of chapter updates
-- Monitor REVISION_AUDIT.md for revision priorities
-- Eventually integrate diagram updates (PNG→SVG conversions) as needed per chapter
+- Complete Chapter 7 `<foreign>` formatting and homework fixes (this task)
+- Resume language example formatting: Chapter 8 onwards
+- Build HTML/EPUB after changes
+- Commit and push
+- Monitor diagram integration needs for remaining chapters
 
 ## Notes
-- Answer keys: Chapters 4-15 exist; Chapters 1-3 and 16-21 not applicable or deferred
-- .gitignore updated to exclude `.claude/` directory from version control
-- Working tree clean (1 untracked file: ~$it Two Sentence Labeling Handout.docx—a temp Word lock file, can be ignored)
+- **Snapshot reminder:** No snapshots exist yet (Task 10 was missed). Create `state-t20.md` at Task 20.
+- Temporary Word lock file (~$it Two Sentence Labeling Handout.docx) may remain untracked; can be ignored.
