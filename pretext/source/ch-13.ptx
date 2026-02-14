@@ -22,32 +22,31 @@
       <li><p>Predicative position</p></li>
       <li><p>Post-modifier</p></li>
       <li><p>Pre-modifier</p></li>
-      <li><p>--</p></li>
     </ul>
   </objectives>
 
   <section xml:id="ch-13-adjectivals-sec-131">
     <title>Adjectives vs. Adjectivals: Form vs. Function</title>
 
-    <p>Understanding the distinction between <em>adjectives</em> (a form/part of speech) and <em>adjectivals</em> (a function) is essential for accurate grammatical analysis.</p>
+    <p>Understanding the distinction between <term>adjectives</term> (a form/part of speech) and <term>adjectivals</term> (a function) is essential for accurate grammatical analysis.</p>
 
     <paragraphs>
       <title>Adjective as Form</title>
     </paragraphs>
 
-    <p>An <em>adjective</em> is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Adjectives can be graded, appear between determiners and nouns, follow linking verbs, and be modified by <em>very</em>.</p>
+    <p>An adjective is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Adjectives can be graded, appear between determiners and nouns, follow linking verbs, and be modified by <foreign>very</foreign>.</p>
 
     <ul>
-      <li><p>tall, beautiful, interesting, happy</p></li>
+      <li><p><foreign>tall, beautiful, interesting, happy</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Adjectival as Function</title>
     </paragraphs>
 
-    <p>An <em>adjectival</em> is any word, phrase, or clause that <em>functions</em> to modify a noun, answering questions like "which one?" or "what kind?"</p>
+    <p>An adjectival is any word, phrase, or clause that <em>functions</em> to modify a noun, answering questions like "which one?" or "what kind?"</p>
 
-    <p><em>Key insight</em>: All attributive adjectives are adjectivals, but not all adjectivals are adjectives.</p>
+    <p>Key insight: All attributive adjectives are adjectivals, but not all adjectivals are adjectives.</p>
 
   </section>
 
@@ -63,9 +62,9 @@
     <p>The prototypical adjectival is an adjective phrase:</p>
 
     <ul>
-      <li><p>the tall man</p></li>
-      <li><p>a very interesting book</p></li>
-      <li><p>someone happy about the news</p></li>
+      <li><p><foreign>the <em>tall</em> man</foreign></p></li>
+      <li><p><foreign>a <em>very interesting</em> book</foreign></p></li>
+      <li><p><foreign>someone <em>happy about the news</em></foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -75,10 +74,10 @@
     <p>Nouns can function adjectivally when they modify other nouns:</p>
 
     <ul>
-      <li><p>the coffee table</p></li>
-      <li><p>a government report</p></li>
-      <li><p>the history professor</p></li>
-      <li><p>car insurance</p></li>
+      <li><p><foreign>the <em>coffee</em> table</foreign></p></li>
+      <li><p><foreign>a <em>government</em> report</foreign></p></li>
+      <li><p><foreign>the <em>history</em> professor</foreign></p></li>
+      <li><p><foreign><em>car</em> insurance</foreign></p></li>
     </ul>
 
     <p>These are sometimes called "noun adjuncts" or "attributive nouns."</p>
@@ -90,10 +89,10 @@
     <p>Prepositional phrases commonly function as adjectivals (post-modifiers):</p>
 
     <ul>
-      <li><p>the man in the hat</p></li>
-      <li><p>a book about grammar</p></li>
-      <li><p>the house on the corner</p></li>
-      <li><p>a sense of accomplishment</p></li>
+      <li><p><foreign>the man <em>in the hat</em></foreign></p></li>
+      <li><p><foreign>a book <em>about grammar</em></foreign></p></li>
+      <li><p><foreign>the house <em>on the corner</em></foreign></p></li>
+      <li><p><foreign>a sense <em>of accomplishment</em></foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -103,10 +102,10 @@
     <p>Clauses introduced by relative pronouns/adverbs function as adjectivals:</p>
 
     <ul>
-      <li><p>the book that I read</p></li>
-      <li><p>the student who won the prize</p></li>
-      <li><p>the place where we met</p></li>
-      <li><p>the reason why she left</p></li>
+      <li><p><foreign>the book <em>that I read</em></foreign></p></li>
+      <li><p><foreign>the student <em>who won the prize</em></foreign></p></li>
+      <li><p><foreign>the place <em>where we met</em></foreign></p></li>
+      <li><p><foreign>the reason <em>why she left</em></foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -116,10 +115,10 @@
     <p>Present and past participial phrases function as adjectivals:</p>
 
     <ul>
-      <li><p>the running water</p></li>
-      <li><p>the broken window</p></li>
-      <li><p>the man standing by the door</p></li>
-      <li><p>the book written by Hemingway</p></li>
+      <li><p><foreign>the <em>running</em> water</foreign></p></li>
+      <li><p><foreign>the <em>broken</em> window</foreign></p></li>
+      <li><p><foreign>the man <em>standing by the door</em></foreign></p></li>
+      <li><p><foreign>the book <em>written by Hemingway</em></foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -129,10 +128,10 @@
     <p>Infinitive phrases can function adjectivally:</p>
 
     <ul>
-      <li><p>a book to read</p></li>
-      <li><p>the decision to leave</p></li>
-      <li><p>something to eat</p></li>
-      <li><p>the first person to arrive</p></li>
+      <li><p><foreign>a book <em>to read</em></foreign></p></li>
+      <li><p><foreign>the decision <em>to leave</em></foreign></p></li>
+      <li><p><foreign>something <em>to eat</em></foreign></p></li>
+      <li><p><foreign>the first person <em>to arrive</em></foreign></p></li>
     </ul>
 
   </section>
@@ -140,7 +139,7 @@
   <section xml:id="ch-13-adjectivals-sec-133">
     <title>Relative Clauses in Detail</title>
 
-    <p><em>Relative clauses</em> (also called adjective clauses) modify nouns, specifying which entity is meant.</p>
+    <p><term>Relative clauses</term> (also called adjective clauses) modify nouns, specifying which entity is meant.</p>
 
     <paragraphs>
       <title>Structure</title>
@@ -148,17 +147,11 @@
 
     <p>A relative clause consists of a relative word + clause content:</p>
 
-    <p>```</p>
-
-    <p>Relative Clause = Relative Word + Subject + Predicate</p>
-
-    <p>(or: Relative Word as Subject + Predicate)</p>
-
-    <p>```</p>
+    <p>Relative Clause = Relative Word + Subject + Predicate (or: Relative Word as Subject + Predicate)</p>
 
     <ul>
-      <li><p><em>the book <em>that</em> I read</em> (that = object of "read")</p></li>
-      <li><p><em>the student <em>who</em> won</em> (who = subject of "won")</p></li>
+      <li><p><foreign>the book <em>that</em> I read</foreign> (<foreign>that</foreign> = object of <foreign>read</foreign>)</p></li>
+      <li><p><foreign>the student <em>who</em> won</foreign> (<foreign>who</foreign> = subject of <foreign>won</foreign>)</p></li>
     </ul>
 
     <paragraphs>
@@ -172,29 +165,29 @@
         <cell>Example</cell>
       </row>
       <row>
-        <cell>who</cell>
+        <cell><foreign>who</foreign></cell>
         <cell>subject (people)</cell>
-        <cell><em>the man <em>who</em> arrived</em></cell>
+        <cell><foreign>the man <em>who</em> arrived</foreign></cell>
       </row>
       <row>
-        <cell>whom</cell>
+        <cell><foreign>whom</foreign></cell>
         <cell>object (people, formal)</cell>
-        <cell><em>the man <em>whom</em> I saw</em></cell>
+        <cell><foreign>the man <em>whom</em> I saw</foreign></cell>
       </row>
       <row>
-        <cell>whose</cell>
+        <cell><foreign>whose</foreign></cell>
         <cell>possessive (people/things)</cell>
-        <cell><em>the author <em>whose</em> book I read</em></cell>
+        <cell><foreign>the author <em>whose</em> book I read</foreign></cell>
       </row>
       <row>
-        <cell>which</cell>
+        <cell><foreign>which</foreign></cell>
         <cell>subject/object (things)</cell>
-        <cell><em>the book <em>which</em> I read</em></cell>
+        <cell><foreign>the book <em>which</em> I read</foreign></cell>
       </row>
       <row>
-        <cell>that</cell>
+        <cell><foreign>that</foreign></cell>
         <cell>subject/object (people/things)</cell>
-        <cell><em>the book <em>that</em> I read</em></cell>
+        <cell><foreign>the book <em>that</em> I read</foreign></cell>
       </row>
     </tabular>
 
@@ -209,19 +202,19 @@
         <cell>Example</cell>
       </row>
       <row>
-        <cell>where</cell>
+        <cell><foreign>where</foreign></cell>
         <cell>place</cell>
-        <cell><em>the city <em>where</em> I was born</em></cell>
+        <cell><foreign>the city <em>where</em> I was born</foreign></cell>
       </row>
       <row>
-        <cell>when</cell>
+        <cell><foreign>when</foreign></cell>
         <cell>time</cell>
-        <cell><em>the day <em>when</em> we met</em></cell>
+        <cell><foreign>the day <em>when</em> we met</foreign></cell>
       </row>
       <row>
-        <cell>why</cell>
+        <cell><foreign>why</foreign></cell>
         <cell>reason</cell>
-        <cell><em>the reason <em>why</em> she left</em></cell>
+        <cell><foreign>the reason <em>why</em> she left</foreign></cell>
       </row>
     </tabular>
 
@@ -232,13 +225,13 @@
     <p>In American English:</p>
 
     <ul>
-      <li><p><em>That</em> is preferred for restrictive clauses</p></li>
-      <li><p><em>Which</em> is preferred for non-restrictive clauses</p></li>
+      <li><p><foreign>That</foreign> is preferred for restrictive clauses</p></li>
+      <li><p><foreign>Which</foreign> is preferred for non-restrictive clauses</p></li>
     </ul>
 
     <ul>
-      <li><p>Restrictive: "The book <em>that</em> I recommended is excellent."</p></li>
-      <li><p>Non-restrictive: "This book, <em>which</em> I recommended, is excellent."</p></li>
+      <li><p>Restrictive: <foreign>The book <em>that</em> I recommended is excellent.</foreign></p></li>
+      <li><p>Non-restrictive: <foreign>This book, <em>which</em> I recommended, is excellent.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -248,15 +241,15 @@
     <p>When the relative pronoun is the object, it can be omitted:</p>
 
     <ul>
-      <li><p><em>the book <em>(that)</em> I read</em></p></li>
-      <li><p><em>the man <em>(whom)</em> I saw</em></p></li>
-      <li><p><em>the person <em>(that)</em> she called</em></p></li>
+      <li><p><foreign>the book <em>(that)</em> I read</foreign></p></li>
+      <li><p><foreign>the man <em>(whom)</em> I saw</foreign></p></li>
+      <li><p><foreign>the person <em>(that)</em> she called</foreign></p></li>
     </ul>
 
     <p>This cannot be done when the relative is the subject:</p>
 
     <ul>
-      <li><p><em>the man <em>who</em> arrived</em> (not ~~the man arrived~~)</p></li>
+      <li><p><foreign>the man <em>who</em> arrived</foreign> (not <foreign><delete>the man arrived</delete></foreign>)</p></li>
     </ul>
 
   </section>
@@ -270,42 +263,42 @@
       <title>Restrictive Modifiers</title>
     </paragraphs>
 
-    <p><em>Restrictive modifiers</em> (also called defining or identifying) limit the reference of the noun—they identify <em>which one</em> is meant. Without them, the sentence's meaning would be different.</p>
+    <p><term>Restrictive modifiers</term> (also called defining or identifying) limit the reference of the noun—they identify <em>which one</em> is meant. Without them, the sentence's meaning would be different.</p>
 
     <ul>
-      <li><p>"The students <em>who studied</em> passed." (only those who studied)</p></li>
-      <li><p>"The book <em>that she recommended</em> changed my life."</p></li>
-      <li><p>"Cars <em>with manual transmissions</em> are becoming rare."</p></li>
+      <li><p><foreign>The students <em>who studied</em> passed.</foreign> (only those who studied)</p></li>
+      <li><p><foreign>The book <em>that she recommended</em> changed my life.</foreign></p></li>
+      <li><p><foreign>Cars <em>with manual transmissions</em> are becoming rare.</foreign></p></li>
     </ul>
 
-    <p><em>Characteristics</em>:</p>
+    <p>Characteristics:</p>
 
     <ul>
       <li><p>No commas</p></li>
       <li><p>Essential for identifying the referent</p></li>
       <li><p>Removing them changes meaning significantly</p></li>
-      <li><p>Use <em>that</em> for clauses (preferred in American English)</p></li>
+      <li><p>Use <foreign>that</foreign> for clauses (preferred in American English)</p></li>
     </ul>
 
     <paragraphs>
       <title>Non-Restrictive Modifiers</title>
     </paragraphs>
 
-    <p><em>Non-restrictive modifiers</em> (also called non-defining or supplementary) add extra information about an already-identified referent. They could be removed without changing the basic identification.</p>
+    <p><term>Non-restrictive modifiers</term> (also called non-defining or supplementary) add extra information about an already-identified referent. They could be removed without changing the basic identification.</p>
 
     <ul>
-      <li><p>"My sister, <em>who lives in Boston</em>, visited last week." (I have one sister)</p></li>
-      <li><p>"The book, <em>which she recommended</em>, changed my life." (book already identified)</p></li>
-      <li><p>"Paris, <em>known for its cuisine</em>, attracts millions of tourists."</p></li>
+      <li><p><foreign>My sister, <em>who lives in Boston</em>, visited last week.</foreign> (I have one sister)</p></li>
+      <li><p><foreign>The book, <em>which she recommended</em>, changed my life.</foreign> (book already identified)</p></li>
+      <li><p><foreign>Paris, <em>known for its cuisine</em>, attracts millions of tourists.</foreign></p></li>
     </ul>
 
-    <p><em>Characteristics</em>:</p>
+    <p>Characteristics:</p>
 
     <ul>
       <li><p>Set off with commas</p></li>
       <li><p>Add supplementary information</p></li>
       <li><p>Can be removed without losing identification</p></li>
-      <li><p>Use <em>which</em> for clauses (not that)</p></li>
+      <li><p>Use <foreign>which</foreign> for clauses (not <foreign>that</foreign>)</p></li>
     </ul>
 
     <paragraphs>
@@ -315,14 +308,14 @@
     <p>Compare:</p>
 
     <ul>
-      <li><p><em>The students who studied passed.</em> (restrictive—only studying students)</p></li>
-      <li><p><em>The students, who studied, passed.</em> (non-restrictive—all students studied and passed)</p></li>
+      <li><p><foreign>The students who studied passed.</foreign> (restrictive—only studying students)</p></li>
+      <li><p><foreign>The students, who studied, passed.</foreign> (non-restrictive—all students studied and passed)</p></li>
     </ul>
 
     <p>With proper nouns, most modifiers are non-restrictive (since proper nouns are already uniquely identified):</p>
 
     <ul>
-      <li><p>"Shakespeare, <em>who wrote Hamlet</em>, lived in Stratford."</p></li>
+      <li><p><foreign>Shakespeare, <em>who wrote Hamlet</em>, lived in Stratford.</foreign></p></li>
     </ul>
 
   </section>
@@ -339,9 +332,9 @@
     <p>Express ongoing action or state:</p>
 
     <ul>
-      <li><p>the woman talking on the phone</p></li>
-      <li><p>students waiting in line</p></li>
-      <li><p>a child playing in the park</p></li>
+      <li><p><foreign>the woman <em>talking on the phone</em></foreign></p></li>
+      <li><p><foreign><em>students waiting in line</em></foreign></p></li>
+      <li><p><foreign>a child <em>playing in the park</em></foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -351,9 +344,9 @@
     <p>Express completed action or state, often passive in meaning:</p>
 
     <ul>
-      <li><p>the report written by the committee</p></li>
-      <li><p>a house built in 1920</p></li>
-      <li><p>the problem discussed earlier</p></li>
+      <li><p><foreign>the report <em>written by the committee</em></foreign></p></li>
+      <li><p><foreign>a house <em>built in 1920</em></foreign></p></li>
+      <li><p><foreign>the problem <em>discussed earlier</em></foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -363,8 +356,8 @@
     <p>Participial phrases can often be seen as reduced relative clauses:</p>
 
     <ul>
-      <li><p>the woman who is talking → the woman talking</p></li>
-      <li><p>the report that was written → the report written</p></li>
+      <li><p><foreign>the woman who is talking</foreign> → <foreign>the woman talking</foreign></p></li>
+      <li><p><foreign>the report that was written</foreign> → <foreign>the report written</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -374,26 +367,26 @@
     <p>Participial phrases typically follow the noun:</p>
 
     <ul>
-      <li><p>the man standing by the door</p></li>
-      <li><p>the book published last year</p></li>
+      <li><p><foreign>the man <em>standing by the door</em></foreign></p></li>
+      <li><p><foreign>the book <em>published last year</em></foreign></p></li>
     </ul>
 
     <p>But single-word participles often precede the noun:</p>
 
     <ul>
-      <li><p>the running water</p></li>
-      <li><p>the broken window</p></li>
+      <li><p><foreign>the <em>running</em> water</foreign></p></li>
+      <li><p><foreign>the <em>broken</em> window</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Dangling Participles</title>
     </paragraphs>
 
-    <p>Participial phrases must clearly modify the intended noun. <em>Dangling participles</em> occur when the modifier doesn't logically connect:</p>
+    <p>Participial phrases must clearly modify the intended noun. <term>Dangling participles</term> occur when the modifier doesn't logically connect:</p>
 
     <ul>
-      <li><p><em>~~<em>Walking down the street</em>, the trees were beautiful.~~</em> (trees weren't walking)</p></li>
-      <li><p>Correct: <em><em>Walking down the street</em>, I noticed the beautiful trees.</em></p></li>
+      <li><p><foreign><delete>Walking down the street, the trees were beautiful.</delete></foreign> (trees weren't walking)</p></li>
+      <li><p>Correct: <foreign><em>Walking down the street</em>, I noticed the beautiful trees.</foreign></p></li>
     </ul>
 
   </section>
@@ -410,10 +403,10 @@
     <p>Single adjectives and some phrases appear before the noun:</p>
 
     <ul>
-      <li><p>the tall man</p></li>
-      <li><p>a very interesting book</p></li>
-      <li><p>running water</p></li>
-      <li><p>the government report</p></li>
+      <li><p><foreign>the <em>tall</em> man</foreign></p></li>
+      <li><p><foreign>a <em>very interesting</em> book</foreign></p></li>
+      <li><p><foreign><em>running</em> water</foreign></p></li>
+      <li><p><foreign>the <em>government</em> report</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -423,10 +416,10 @@
     <p>Longer phrases and clauses follow the noun:</p>
 
     <ul>
-      <li><p>the man in the hat</p></li>
-      <li><p>a book about grammar</p></li>
-      <li><p>the student who won the prize</p></li>
-      <li><p>the report published yesterday</p></li>
+      <li><p><foreign>the man <em>in the hat</em></foreign></p></li>
+      <li><p><foreign>a book <em>about grammar</em></foreign></p></li>
+      <li><p><foreign>the student <em>who won the prize</em></foreign></p></li>
+      <li><p><foreign>the report <em>published yesterday</em></foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -436,12 +429,12 @@
     <p>Adjective phrases also appear as subject complements:</p>
 
     <ul>
-      <li><p>"The man is <em>tall</em>."</p></li>
-      <li><p>"The book seems <em>interesting</em>."</p></li>
-      <li><p>"She became <em>happy about the news</em>."</p></li>
+      <li><p><q><foreign>The man is <em>tall</em>.</foreign></q></p></li>
+      <li><p><q><foreign>The book seems <em>interesting</em>.</foreign></q></p></li>
+      <li><p><q><foreign>She became <em>happy about the news</em>.</foreign></q></p></li>
     </ul>
 
-    <p>Note: Some adjectives only work attributively (the main reason, not ~~the reason is main~~), while others only work predicatively (the child is asleep, not ~~the asleep child~~).</p>
+    <p>Note: Some adjectives only work attributively (<foreign>the main reason</foreign>, not <foreign><delete>the reason is main</delete></foreign>), while others only work predicatively (<foreign>the child is asleep</foreign>, not <foreign><delete>the asleep child</delete></foreign>).</p>
 
   </section>
 
@@ -457,20 +450,20 @@
     <p>When multiple adjectives precede a noun, they typically follow this order:</p>
 
     <ol>
-      <li><p>Determiner: <em>the, a, my</em></p></li>
-      <li><p>Opinion: <em>beautiful, interesting</em></p></li>
-      <li><p>Size: <em>big, small</em></p></li>
-      <li><p>Age: <em>old, new</em></p></li>
-      <li><p>Shape: <em>round, square</em></p></li>
-      <li><p>Color: <em>red, blue</em></p></li>
-      <li><p>Origin: <em>French, American</em></p></li>
-      <li><p>Material: <em>wooden, metal</em></p></li>
-      <li><p>Purpose: <em>cooking, reading</em></p></li>
+      <li><p>Determiner: <foreign>the, a, my</foreign></p></li>
+      <li><p>Opinion: <foreign>beautiful, interesting</foreign></p></li>
+      <li><p>Size: <foreign>big, small</foreign></p></li>
+      <li><p>Age: <foreign>old, new</foreign></p></li>
+      <li><p>Shape: <foreign>round, square</foreign></p></li>
+      <li><p>Color: <foreign>red, blue</foreign></p></li>
+      <li><p>Origin: <foreign>French, American</foreign></p></li>
+      <li><p>Material: <foreign>wooden, metal</foreign></p></li>
+      <li><p>Purpose: <foreign>cooking, reading</foreign></p></li>
       <li><p>NOUN</p></li>
     </ol>
 
     <ul>
-      <li><p>a beautiful large old round red French wooden cooking pot</p></li>
+      <li><p><foreign>a beautiful large old round red French wooden cooking pot</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -480,8 +473,8 @@
     <p>Post-modifiers can stack, but order matters for meaning:</p>
 
     <ul>
-      <li><p><em>the book <em>on the table</em> <em>that I mentioned</em></em></p></li>
-      <li><p><em>the man <em>in the hat</em> <em>standing by the door</em></em></p></li>
+      <li><p><foreign>the book <em>on the table</em> <em>that I mentioned</em></foreign></p></li>
+      <li><p><foreign>the man <em>in the hat</em> <em>standing by the door</em></foreign></p></li>
     </ul>
 
     <p>Each post-modifier attaches to the preceding NP.</p>
@@ -494,42 +487,51 @@
     <subsection>
       <title>Part 1: Identification and Classification (approx. 10 minutes)</title>
 
-      <p><em>Instructions:</em> For each sentence, identify the underlined adjectival and classify its form (adjective phrase, prepositional phrase, relative clause, participial phrase, infinitive phrase, or noun).</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence, identify the underlined adjectival and classify its form (adjective phrase, prepositional phrase, relative clause, participial phrase, infinitive phrase, or noun).</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> "The <em>extremely talented</em> musician performed last night."</p>
+      <p><foreign>The <em>extremely talented</em> musician performed last night.</foreign></p>
 
       <ul>
         <li><p>Form: adjective phrase</p></li>
-        <li><p>Function: modifies <em>musician</em></p></li>
+        <li><p>Function: modifies <foreign>musician</foreign></p></li>
       </ul>
 
-      <p><term>1.</term> "The book <em>on the top shelf</em> belongs to my professor."</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 1.</em> <foreign>The book <em>on the top shelf</em> belongs to my professor.</foreign></p>
 
       <p>Form:</p>
 
-      <p><term>2.</term> "The woman <em>who won the award</em> gave an inspiring speech."</p>
+      <p><em>Exercise 2.</em> <foreign>The woman <em>who won the award</em> gave an inspiring speech.</foreign></p>
 
       <p>Form:</p>
 
-      <p><term>3.</term> "The <em>broken</em> window needs to be repaired immediately."</p>
+      <p><em>Exercise 3.</em> <foreign>The <em>broken</em> window needs to be repaired immediately.</foreign></p>
 
       <p>Form:</p>
 
-      <p><term>4.</term> "I need something <em>to eat</em> before the meeting."</p>
+      <p><em>Exercise 4.</em> <foreign>I need something <em>to eat</em> before the meeting.</foreign></p>
 
       <p>Form:</p>
 
-      <p><term>5.</term> "The <em>government</em> report was released yesterday."</p>
+      <p><em>Exercise 5.</em> <foreign>The <em>government</em> report was released yesterday.</foreign></p>
 
       <p>Form:</p>
 
-      <p><term>6.</term> "The students <em>waiting in line</em> seemed impatient."</p>
+      <p><em>Exercise 6.</em> <foreign>The students <em>waiting in line</em> seemed impatient.</foreign></p>
 
       <p>Form:</p>
 
-      <p><term>7.</term> "We found a <em>very comfortable</em> chair at the antique store."</p>
+      <p><em>Exercise 7.</em> <foreign>We found a <em>very comfortable</em> chair at the antique store.</foreign></p>
 
       <p>Form:</p>
     </subsection>
@@ -537,33 +539,42 @@
     <subsection>
       <title>Part 2: Restrictive vs. Non-Restrictive (approx. 5 minutes)</title>
 
-      <p><em>Instructions:</em> For each sentence, indicate whether the underlined modifier is restrictive (R) or non-restrictive (NR). Explain your reasoning.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence, indicate whether the underlined modifier is restrictive (R) or non-restrictive (NR). Explain your reasoning.</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> <em>My sister, who lives in Portland, is visiting next week.</em></p>
+      <p><foreign>My sister, <em>who lives in Portland</em>, is visiting next week.</foreign></p>
 
       <ul>
         <li><p>Type: Non-restrictive (NR)</p></li>
         <li><p>Reasoning: The commas indicate this adds extra information; the speaker has only one sister, so the clause doesn't identify which sister.</p></li>
       </ul>
 
-      <p><term>8.</term> <em>The students who completed the extra assignment received bonus points.</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 8.</em> <foreign>The students who completed the extra assignment received bonus points.</foreign></p>
 
       <p>Type:</p>
       <p>Reasoning:</p>
 
-      <p><term>9.</term> <em>The Eiffel Tower, which was built in 1889, attracts millions of visitors.</em></p>
+      <p><em>Exercise 9.</em> <foreign>The Eiffel Tower, which was built in 1889, attracts millions of visitors.</foreign></p>
 
       <p>Type:</p>
       <p>Reasoning:</p>
 
-      <p><term>10.</term> <em>The car that I bought last year already needs repairs.</em></p>
+      <p><em>Exercise 10.</em> <foreign>The car that I bought last year already needs repairs.</foreign></p>
 
       <p>Type:</p>
       <p>Reasoning:</p>
 
-      <p><term>11.</term> <em>My neighbor's dog, a golden retriever, barks every morning.</em></p>
+      <p><em>Exercise 11.</em> <foreign>My neighbor's dog, a golden retriever, barks every morning.</foreign></p>
 
       <p>Type:</p>
       <p>Reasoning:</p>
@@ -572,89 +583,120 @@
     <subsection>
       <title>Part 3: Sentence Combining (approx. 8 minutes)</title>
 
-      <p><em>Instructions:</em> Combine each pair of sentences using a relative clause or participial phrase.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Combine each pair of sentences using a relative clause or participial phrase.</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><term>Sentences:</term> <em>I met a professor. She specializes in linguistics.</em></p>
+      <p>Sentences: <foreign>I met a professor. She specializes in linguistics.</foreign></p>
 
-      <p>Combined (relative clause): <em>I met a professor who specializes in linguistics.</em></p>
+      <p>Combined (relative clause): <foreign>I met a professor who specializes in linguistics.</foreign></p>
 
-      <p><term>12.</term> Combine with a relative clause: <em>This is the book. I told you about it.</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><term>13.</term> Combine with a relative clause: <em>The scientist won a Nobel Prize. Her research changed medicine.</em></p>
+      <p><em>Exercise 12.</em> Combine with a relative clause: <foreign>This is the book. I told you about it.</foreign></p>
 
-      <p><term>14.</term> Combine with a participial phrase: <em>The students were exhausted from the exam. They went home early.</em></p>
+      <p><em>Exercise 13.</em> Combine with a relative clause: <foreign>The scientist won a Nobel Prize. Her research changed medicine.</foreign></p>
 
-      <p><term>15.</term> Combine with a participial phrase: <em>The letter was written in 1945. The letter was found in the attic.</em></p>
+      <p><em>Exercise 14.</em> Combine with a participial phrase: <foreign>The students were exhausted from the exam. They went home early.</foreign></p>
+
+      <p><em>Exercise 15.</em> Combine with a participial phrase: <foreign>The letter was written in 1945. The letter was found in the attic.</foreign></p>
     </subsection>
 
     <subsection>
       <title>Part 4: Sentence Writing (approx. 7 minutes)</title>
 
-      <p><em>Instructions:</em> Write original sentences following each prompt.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Write original sentences following each prompt.</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><term>Write a sentence with a non-restrictive relative clause:</term></p>
+      <p>Write a sentence with a non-restrictive relative clause:</p>
 
-      <p><em>My grandmother, who turned ninety last month, still tends her garden every day.</em></p>
+      <p><foreign>My grandmother, who turned ninety last month, still tends her garden every day.</foreign></p>
 
-      <p><term>16.</term> Write a sentence with a restrictive relative clause using <em>that</em>:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><term>17.</term> Write a sentence with a present participial phrase modifying the subject:</p>
+      <p><em>Exercise 16.</em> Write a sentence with a restrictive relative clause using <foreign>that</foreign>:</p>
 
-      <p><term>18.</term> Write a sentence with a past participial phrase modifying a noun:</p>
+      <p><em>Exercise 17.</em> Write a sentence with a present participial phrase modifying the subject:</p>
 
-      <p><term>19.</term> Write a sentence with an infinitive phrase functioning as an adjectival:</p>
+      <p><em>Exercise 18.</em> Write a sentence with a past participial phrase modifying a noun:</p>
 
-      <p><term>20.</term> Write a sentence with multiple pre-modifying adjectives (at least three):</p>
+      <p><em>Exercise 19.</em> Write a sentence with an infinitive phrase functioning as an adjectival:</p>
+
+      <p><em>Exercise 20.</em> Write a sentence with multiple pre-modifying adjectives (at least three):</p>
     </subsection>
 
     <subsection>
       <title>Part 5: Error Correction and Analysis (approx. 10 minutes)</title>
 
-      <p><em>Instructions:</em> Read the sentences and answer the questions.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Read the sentences and answer the questions.</p>
 
-      <p><term>Dangling Participle Correction</term></p>
+      <paragraphs>
+        <title>Dangling Participle Correction</title>
+      </paragraphs>
 
-      <p><term>21.</term> Correct each dangling participle by rewriting the sentence:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>a) <em>Walking through the park, the flowers were beautiful.</em></p>
+      <p><em>Exercise 21.</em> Correct each dangling participle by rewriting the sentence:</p>
+
+      <p>a) <foreign>Walking through the park, the flowers were beautiful.</foreign></p>
 
       <p>Corrected:</p>
 
-      <p>b) <em>Having finished the report, the computer was shut down.</em></p>
+      <p>b) <foreign>Having finished the report, the computer was shut down.</foreign></p>
 
       <p>Corrected:</p>
 
-      <p>c) <em>Exhausted from the journey, the bed looked inviting.</em></p>
+      <p>c) <foreign>Exhausted from the journey, the bed looked inviting.</foreign></p>
 
       <p>Corrected:</p>
 
-      <p><term>Meaning Analysis</term></p>
+      <paragraphs>
+        <title>Meaning Analysis</title>
+      </paragraphs>
 
-      <p><term>22.</term> Explain the difference in meaning between these two sentences. What does each sentence imply about how many brothers the speaker has?</p>
+      <p><em>Exercise 22.</em> Explain the difference in meaning between these two sentences. What does each sentence imply about how many brothers the speaker has?</p>
 
-      <p>a) <em>My brother who lives in Chicago is a doctor.</em></p>
+      <p>a) <foreign>My brother who lives in Chicago is a doctor.</foreign></p>
 
-      <p>b) <em>My brother, who lives in Chicago, is a doctor.</em></p>
+      <p>b) <foreign>My brother, who lives in Chicago, is a doctor.</foreign></p>
 
       <p>Sentence (a) implies:</p>
 
       <p>Sentence (b) implies:</p>
 
-      <p><term>Multiple Adjectivals</term></p>
+      <paragraphs>
+        <title>Multiple Adjectivals</title>
+      </paragraphs>
 
-      <p><term>23.</term> The following noun phrase contains multiple adjectivals:</p>
+      <p><em>Exercise 23.</em> The following noun phrase contains multiple adjectivals:</p>
 
-      <p><em>The talented young American jazz musician from New Orleans who won the competition</em></p>
+      <p><foreign>The talented young American jazz musician from New Orleans who won the competition</foreign></p>
 
       <p>a) Identify each adjectival and its form:</p>
 
       <p>b) Explain the typical order for pre-modifiers in English noun phrases (what types come before others?):</p>
 
-      <p>c) Why do post-modifiers (like from New Orleans and who won the competition) follow the noun instead of preceding it?</p>
+      <p>c) Why do post-modifiers (like <foreign>from New Orleans</foreign> and <foreign>who won the competition</foreign>) follow the noun instead of preceding it?</p>
     </subsection>
 
     <p><em>Total estimated time: 40 minutes</em></p>
@@ -663,13 +705,13 @@
   <section xml:id="ch-13-diagram-examples">
     <title>Diagram Examples</title>
 
-    <p>This section provides reference diagrams for nominal structures (noun clauses) introduced in this chapter.</p>
+    <p>This section provides reference diagrams for complement clause structures introduced in this chapter.</p>
 
     <subsection xml:id="ch-13-diagrams-complement">
       <title>Complement Clauses</title>
 
       <paragraphs>
-        <title>13.8.1 A: That-clause in object position: <em>I know that you cry.</em></title>
+        <title>13.8.1 A: That-clause in object position: I know that you cry.</title>
       </paragraphs>
       <image source="diagrams/new/ch13_that_clause_object.png" width="55%">
         <description>Syntax tree for "I know that you cry" showing complement clause as object</description>
@@ -677,7 +719,7 @@
       <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]</c></p>
 
       <paragraphs>
-        <title>13.8.1 B: That-clause in subject position: <em>That you cry upsets me.</em></title>
+        <title>13.8.1 B: That-clause in subject position: That you cry upsets me.</title>
       </paragraphs>
       <image source="diagrams/new/ch13_that_clause_subject.png" width="55%">
         <description>Syntax tree for "That you cry upsets me" showing complement clause as subject</description>
@@ -685,7 +727,7 @@
       <p><c>[S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]</c></p>
 
       <paragraphs>
-        <title>13.8.1 C: If/whether-clause in object position: <em>I wonder if you cry.</em></title>
+        <title>13.8.1 C: If/whether-clause in object position: I wonder if you cry.</title>
       </paragraphs>
       <image source="diagrams/new/ch13_if_clause.png" width="55%">
         <description>Syntax tree for "I wonder if you cry" showing if-clause as object</description>
@@ -693,7 +735,7 @@
       <p><c>[S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]</c></p>
 
       <paragraphs>
-        <title>13.8.1 D: Missing complementizer: <em>I know you cry.</em></title>
+        <title>13.8.1 D: Missing complementizer: I know you cry.</title>
       </paragraphs>
       <image source="diagrams/new/ch13_missing_comp.png" width="55%">
         <description>Syntax tree for "I know you cry" showing omitted complementizer</description>
@@ -715,7 +757,7 @@
     </gi>
     <gi>
       <title>Attributive position</title>
-      <p>The position before a noun in the NP (the tall man).</p>
+      <p>The position before a noun in the NP (<foreign>the tall man</foreign>).</p>
     </gi>
     <gi>
       <title>Dangling participle</title>
@@ -739,7 +781,7 @@
     </gi>
     <gi>
       <title>Predicative position</title>
-      <p>The position after a linking verb (The man is tall).</p>
+      <p>The position after a linking verb (<foreign>The man is tall</foreign>).</p>
     </gi>
     <gi>
       <title>Relative clause</title>

@@ -1699,7 +1699,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.1",
   "title": "Adjectives vs. Adjectivals: Form vs. Function",
-  "body": " Adjectives vs. Adjectivals: Form vs. Function  Understanding the distinction between adjectives (a form\/part of speech) and adjectivals (a function) is essential for accurate grammatical analysis.   Adjective as Form   An adjective is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Adjectives can be graded, appear between determiners and nouns, follow linking verbs, and be modified by very .   tall, beautiful, interesting, happy    Adjectival as Function   An adjectival is any word, phrase, or clause that functions to modify a noun, answering questions like \"which one?\" or \"what kind?\"  Key insight : All attributive adjectives are adjectivals, but not all adjectivals are adjectives.  "
+  "body": " Adjectives vs. Adjectivals: Form vs. Function  Understanding the distinction between adjectives (a form\/part of speech) and adjectivals (a function) is essential for accurate grammatical analysis.   Adjective as Form   An adjective is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Adjectives can be graded, appear between determiners and nouns, follow linking verbs, and be modified by very .   tall, beautiful, interesting, happy    Adjectival as Function   An adjectival is any word, phrase, or clause that functions to modify a noun, answering questions like \"which one?\" or \"what kind?\"  Key insight: All attributive adjectives are adjectivals, but not all adjectivals are adjectives.  "
+},
+{
+  "id": "ch-13-adjectivals-sec-131-2",
+  "level": "2",
+  "url": "ch-13-adjectivals-sec-131.html#ch-13-adjectivals-sec-131-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "adjectives adjectivals "
 },
 {
   "id": "ch-13-adjectivals-sec-132",
@@ -1717,7 +1726,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.3",
   "title": "Relative Clauses in Detail",
-  "body": " Relative Clauses in Detail  Relative clauses (also called adjective clauses) modify nouns, specifying which entity is meant.   Structure   A relative clause consists of a relative word + clause content:  ```  Relative Clause = Relative Word + Subject + Predicate  (or: Relative Word as Subject + Predicate)  ```   the book that I read (that = object of \"read\")  the student who won (who = subject of \"won\")    Relative Pronouns     Pronoun  Use  Example    who  subject (people)  the man who arrived    whom  object (people, formal)  the man whom I saw    whose  possessive (people\/things)  the author whose book I read    which  subject\/object (things)  the book which I read    that  subject\/object (people\/things)  the book that I read     Relative Adverbs     Adverb  Use  Example    where  place  the city where I was born    when  time  the day when we met    why  reason  the reason why she left     That vs. Which   In American English:   That is preferred for restrictive clauses  Which is preferred for non-restrictive clauses    Restrictive: \"The book that I recommended is excellent.\"  Non-restrictive: \"This book, which I recommended, is excellent.\"    Zero Relative   When the relative pronoun is the object, it can be omitted:   the book (that) I read  the man (whom) I saw  the person (that) she called   This cannot be done when the relative is the subject:   the man who arrived (not ~~the man arrived~~)   "
+  "body": " Relative Clauses in Detail  Relative clauses (also called adjective clauses) modify nouns, specifying which entity is meant.   Structure   A relative clause consists of a relative word + clause content:  Relative Clause = Relative Word + Subject + Predicate (or: Relative Word as Subject + Predicate)   the book that I read ( that = object of read )  the student who won ( who = subject of won )    Relative Pronouns     Pronoun  Use  Example    who  subject (people)  the man who arrived    whom  object (people, formal)  the man whom I saw    whose  possessive (people\/things)  the author whose book I read    which  subject\/object (things)  the book which I read    that  subject\/object (people\/things)  the book that I read     Relative Adverbs     Adverb  Use  Example    where  place  the city where I was born    when  time  the day when we met    why  reason  the reason why she left     That vs. Which   In American English:   That is preferred for restrictive clauses  Which is preferred for non-restrictive clauses    Restrictive: The book that I recommended is excellent.  Non-restrictive: This book, which I recommended, is excellent.    Zero Relative   When the relative pronoun is the object, it can be omitted:   the book (that) I read  the man (whom) I saw  the person (that) she called   This cannot be done when the relative is the subject:   the man who arrived (not the man arrived )   "
+},
+{
+  "id": "ch-13-adjectivals-sec-133-2",
+  "level": "2",
+  "url": "ch-13-adjectivals-sec-133.html#ch-13-adjectivals-sec-133-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Relative clauses "
 },
 {
   "id": "ch-13-adjectivals-sec-134",
@@ -1726,7 +1744,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.4",
   "title": "Restrictive vs. Non-Restrictive Modifiers",
-  "body": " Restrictive vs. Non-Restrictive Modifiers  This distinction is crucial for meaning and punctuation.   Restrictive Modifiers   Restrictive modifiers (also called defining or identifying) limit the reference of the noun—they identify which one is meant. Without them, the sentence's meaning would be different.   \"The students who studied passed.\" (only those who studied)  \"The book that she recommended changed my life.\"  \"Cars with manual transmissions are becoming rare.\"   Characteristics :   No commas  Essential for identifying the referent  Removing them changes meaning significantly  Use that for clauses (preferred in American English)    Non-Restrictive Modifiers   Non-restrictive modifiers (also called non-defining or supplementary) add extra information about an already-identified referent. They could be removed without changing the basic identification.   \"My sister, who lives in Boston , visited last week.\" (I have one sister)  \"The book, which she recommended , changed my life.\" (book already identified)  \"Paris, known for its cuisine , attracts millions of tourists.\"   Characteristics :   Set off with commas  Add supplementary information  Can be removed without losing identification  Use which for clauses (not that)    The Meaning Difference   Compare:   The students who studied passed. (restrictive—only studying students)  The students, who studied, passed. (non-restrictive—all students studied and passed)   With proper nouns, most modifiers are non-restrictive (since proper nouns are already uniquely identified):   \"Shakespeare, who wrote Hamlet , lived in Stratford.\"   "
+  "body": " Restrictive vs. Non-Restrictive Modifiers  This distinction is crucial for meaning and punctuation.   Restrictive Modifiers   Restrictive modifiers (also called defining or identifying) limit the reference of the noun—they identify which one is meant. Without them, the sentence's meaning would be different.   The students who studied passed. (only those who studied)  The book that she recommended changed my life.  Cars with manual transmissions are becoming rare.   Characteristics:   No commas  Essential for identifying the referent  Removing them changes meaning significantly  Use that for clauses (preferred in American English)    Non-Restrictive Modifiers   Non-restrictive modifiers (also called non-defining or supplementary) add extra information about an already-identified referent. They could be removed without changing the basic identification.   My sister, who lives in Boston , visited last week. (I have one sister)  The book, which she recommended , changed my life. (book already identified)  Paris, known for its cuisine , attracts millions of tourists.   Characteristics:   Set off with commas  Add supplementary information  Can be removed without losing identification  Use which for clauses (not that )    The Meaning Difference   Compare:   The students who studied passed. (restrictive—only studying students)  The students, who studied, passed. (non-restrictive—all students studied and passed)   With proper nouns, most modifiers are non-restrictive (since proper nouns are already uniquely identified):   Shakespeare, who wrote Hamlet , lived in Stratford.   "
+},
+{
+  "id": "ch-13-adjectivals-sec-134-4",
+  "level": "2",
+  "url": "ch-13-adjectivals-sec-134.html#ch-13-adjectivals-sec-134-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Restrictive modifiers "
+},
+{
+  "id": "ch-13-adjectivals-sec-134-9",
+  "level": "2",
+  "url": "ch-13-adjectivals-sec-134.html#ch-13-adjectivals-sec-134-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Non-restrictive modifiers "
 },
 {
   "id": "ch-13-adjectivals-sec-135",
@@ -1735,7 +1771,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.5",
   "title": "Participial Phrases as Adjectivals",
-  "body": " Participial Phrases as Adjectivals  Participial phrases—built on present participles (-ing) or past participles (-ed\/-en)—function as adjectivals.   Present Participial Phrases   Express ongoing action or state:   the woman talking on the phone  students waiting in line  a child playing in the park    Past Participial Phrases   Express completed action or state, often passive in meaning:   the report written by the committee  a house built in 1920  the problem discussed earlier    Reduced Relative Clauses   Participial phrases can often be seen as reduced relative clauses:   the woman who is talking → the woman talking  the report that was written → the report written    Position   Participial phrases typically follow the noun:   the man standing by the door  the book published last year   But single-word participles often precede the noun:   the running water  the broken window    Dangling Participles   Participial phrases must clearly modify the intended noun. Dangling participles occur when the modifier doesn't logically connect:   ~~ Walking down the street , the trees were beautiful.~~ (trees weren't walking)  Correct: Walking down the street , I noticed the beautiful trees.   "
+  "body": " Participial Phrases as Adjectivals  Participial phrases—built on present participles (-ing) or past participles (-ed\/-en)—function as adjectivals.   Present Participial Phrases   Express ongoing action or state:   the woman talking on the phone  students waiting in line  a child playing in the park    Past Participial Phrases   Express completed action or state, often passive in meaning:   the report written by the committee  a house built in 1920  the problem discussed earlier    Reduced Relative Clauses   Participial phrases can often be seen as reduced relative clauses:   the woman who is talking → the woman talking  the report that was written → the report written    Position   Participial phrases typically follow the noun:   the man standing by the door  the book published last year   But single-word participles often precede the noun:   the running water  the broken window    Dangling Participles   Participial phrases must clearly modify the intended noun. Dangling participles occur when the modifier doesn't logically connect:   Walking down the street, the trees were beautiful. (trees weren't walking)  Correct: Walking down the street , I noticed the beautiful trees.   "
+},
+{
+  "id": "ch-13-adjectivals-sec-135-18",
+  "level": "2",
+  "url": "ch-13-adjectivals-sec-135.html#ch-13-adjectivals-sec-135-18",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Dangling participles "
 },
 {
   "id": "ch-13-adjectivals-sec-136",
@@ -1744,7 +1789,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.6",
   "title": "Adjectival Positions",
-  "body": " Adjectival Positions  Adjectivals can appear in different positions relative to the noun.   Pre-modification (Attributive Position Before Noun)   Single adjectives and some phrases appear before the noun:   the tall man  a very interesting book  running water  the government report    Post-modification (After Noun)   Longer phrases and clauses follow the noun:   the man in the hat  a book about grammar  the student who won the prize  the report published yesterday    Predicative Position (After Linking Verb)   Adjective phrases also appear as subject complements:   \"The man is tall .\"  \"The book seems interesting .\"  \"She became happy about the news .\"   Note: Some adjectives only work attributively (the main reason, not ~~the reason is main~~), while others only work predicatively (the child is asleep, not ~~the asleep child~~).  "
+  "body": " Adjectival Positions  Adjectivals can appear in different positions relative to the noun.   Pre-modification (Attributive Position Before Noun)   Single adjectives and some phrases appear before the noun:   the tall man  a very interesting book  running water  the government report    Post-modification (After Noun)   Longer phrases and clauses follow the noun:   the man in the hat  a book about grammar  the student who won the prize  the report published yesterday    Predicative Position (After Linking Verb)   Adjective phrases also appear as subject complements:   The man is tall .  The book seems interesting .  She became happy about the news .   Note: Some adjectives only work attributively ( the main reason , not the reason is main ), while others only work predicatively ( the child is asleep , not the asleep child ).  "
 },
 {
   "id": "ch-13-adjectivals-sec-137",
@@ -1762,295 +1807,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.8",
   "title": "Homework: Adjectivals",
-  "body": " Homework: Adjectivals   Part 1: Identification and Classification (approx. 10 minutes)  Instructions: For each sentence, identify the underlined adjectival and classify its form (adjective phrase, prepositional phrase, relative clause, participial phrase, infinitive phrase, or noun).  Example (completed):  Sentence: \"The extremely talented musician performed last night.\"   Form: adjective phrase  Function: modifies musician   1. \"The book on the top shelf belongs to my professor.\"  Form:  2. \"The woman who won the award gave an inspiring speech.\"  Form:  3. \"The broken window needs to be repaired immediately.\"  Form:  4. \"I need something to eat before the meeting.\"  Form:  5. \"The government report was released yesterday.\"  Form:  6. \"The students waiting in line seemed impatient.\"  Form:  7. \"We found a very comfortable chair at the antique store.\"  Form:    Part 2: Restrictive vs. Non-Restrictive (approx. 5 minutes)  Instructions: For each sentence, indicate whether the underlined modifier is restrictive (R) or non-restrictive (NR). Explain your reasoning.  Example (completed):  Sentence:  My sister, who lives in Portland, is visiting next week.   Type: Non-restrictive (NR)  Reasoning: The commas indicate this adds extra information; the speaker has only one sister, so the clause doesn't identify which sister.   8.  The students who completed the extra assignment received bonus points.  Type:  Reasoning:  9.  The Eiffel Tower, which was built in 1889, attracts millions of visitors.  Type:  Reasoning:  10.  The car that I bought last year already needs repairs.  Type:  Reasoning:  11.  My neighbor's dog, a golden retriever, barks every morning.  Type:  Reasoning:    Part 3: Sentence Combining (approx. 8 minutes)  Instructions: Combine each pair of sentences using a relative clause or participial phrase.  Example (completed):  Sentences:  I met a professor. She specializes in linguistics.  Combined (relative clause): I met a professor who specializes in linguistics.  12. Combine with a relative clause: This is the book. I told you about it.  13. Combine with a relative clause: The scientist won a Nobel Prize. Her research changed medicine.  14. Combine with a participial phrase: The students were exhausted from the exam. They went home early.  15. Combine with a participial phrase: The letter was written in 1945. The letter was found in the attic.    Part 4: Sentence Writing (approx. 7 minutes)  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence with a non-restrictive relative clause:  My grandmother, who turned ninety last month, still tends her garden every day.  16. Write a sentence with a restrictive relative clause using that :  17. Write a sentence with a present participial phrase modifying the subject:  18. Write a sentence with a past participial phrase modifying a noun:  19. Write a sentence with an infinitive phrase functioning as an adjectival:  20. Write a sentence with multiple pre-modifying adjectives (at least three):    Part 5: Error Correction and Analysis (approx. 10 minutes)  Instructions: Read the sentences and answer the questions.  Dangling Participle Correction  21. Correct each dangling participle by rewriting the sentence:  a) Walking through the park, the flowers were beautiful.  Corrected:  b) Having finished the report, the computer was shut down.  Corrected:  c) Exhausted from the journey, the bed looked inviting.  Corrected:  Meaning Analysis  22. Explain the difference in meaning between these two sentences. What does each sentence imply about how many brothers the speaker has?  a) My brother who lives in Chicago is a doctor.  b) My brother, who lives in Chicago, is a doctor.  Sentence (a) implies:  Sentence (b) implies:  Multiple Adjectivals  23. The following noun phrase contains multiple adjectivals:  The talented young American jazz musician from New Orleans who won the competition  a) Identify each adjectival and its form:  b) Explain the typical order for pre-modifiers in English noun phrases (what types come before others?):  c) Why do post-modifiers (like from New Orleans and who won the competition) follow the noun instead of preceding it?   Total estimated time: 40 minutes  "
-},
-{
-  "id": "ch-13-homework-2-3",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-13-homework-2-6",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-2-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-13-homework-2-8",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-2-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-13-homework-2-10",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-2-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-13-homework-2-12",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-2-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-13-homework-2-14",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-2-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-13-homework-2-16",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-2-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-13-homework-2-18",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-2-18",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-13-homework-3-3",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-13-homework-3-6",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-3-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-13-homework-3-9",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-3-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-13-homework-3-12",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-3-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-13-homework-3-15",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-3-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-13-homework-4-3",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-13-homework-4-4",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Sentences: "
-},
-{
-  "id": "ch-13-homework-4-6",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-13-homework-4-7",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-4-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-13-homework-4-8",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-4-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-13-homework-4-9",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-4-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-13-homework-5-3",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-13-homework-5-4",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Write a sentence with a non-restrictive relative clause: "
-},
-{
-  "id": "ch-13-homework-5-6",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-5-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "16. "
-},
-{
-  "id": "ch-13-homework-5-7",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-5-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "17. "
-},
-{
-  "id": "ch-13-homework-5-8",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-5-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "18. "
-},
-{
-  "id": "ch-13-homework-5-9",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-5-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "19. "
-},
-{
-  "id": "ch-13-homework-5-10",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-5-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "20. "
-},
-{
-  "id": "ch-13-homework-6-3",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Dangling Participle Correction "
-},
-{
-  "id": "ch-13-homework-6-4",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-6-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "21. "
-},
-{
-  "id": "ch-13-homework-6-11",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-6-11",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Meaning Analysis "
-},
-{
-  "id": "ch-13-homework-6-12",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-6-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "22. "
-},
-{
-  "id": "ch-13-homework-6-17",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-6-17",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Multiple Adjectivals "
-},
-{
-  "id": "ch-13-homework-6-18",
-  "level": "2",
-  "url": "ch-13-homework.html#ch-13-homework-6-18",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "23. "
+  "body": " Homework: Adjectivals   Part 1: Identification and Classification (approx. 10 minutes)   Instructions   For each sentence, identify the underlined adjectival and classify its form (adjective phrase, prepositional phrase, relative clause, participial phrase, infinitive phrase, or noun).   Example (completed)   The extremely talented musician performed last night.   Form: adjective phrase  Function: modifies musician    Exercises   Exercise 1.  The book on the top shelf belongs to my professor.  Form:  Exercise 2.  The woman who won the award gave an inspiring speech.  Form:  Exercise 3.  The broken window needs to be repaired immediately.  Form:  Exercise 4.  I need something to eat before the meeting.  Form:  Exercise 5.  The government report was released yesterday.  Form:  Exercise 6.  The students waiting in line seemed impatient.  Form:  Exercise 7.  We found a very comfortable chair at the antique store.  Form:    Part 2: Restrictive vs. Non-Restrictive (approx. 5 minutes)   Instructions   For each sentence, indicate whether the underlined modifier is restrictive (R) or non-restrictive (NR). Explain your reasoning.   Example (completed)   My sister, who lives in Portland , is visiting next week.   Type: Non-restrictive (NR)  Reasoning: The commas indicate this adds extra information; the speaker has only one sister, so the clause doesn't identify which sister.    Exercises   Exercise 8.  The students who completed the extra assignment received bonus points.  Type:  Reasoning:  Exercise 9.  The Eiffel Tower, which was built in 1889, attracts millions of visitors.  Type:  Reasoning:  Exercise 10.  The car that I bought last year already needs repairs.  Type:  Reasoning:  Exercise 11.  My neighbor's dog, a golden retriever, barks every morning.  Type:  Reasoning:    Part 3: Sentence Combining (approx. 8 minutes)   Instructions   Combine each pair of sentences using a relative clause or participial phrase.   Example (completed)   Sentences: I met a professor. She specializes in linguistics.  Combined (relative clause): I met a professor who specializes in linguistics.   Exercises   Exercise 12. Combine with a relative clause: This is the book. I told you about it.  Exercise 13. Combine with a relative clause: The scientist won a Nobel Prize. Her research changed medicine.  Exercise 14. Combine with a participial phrase: The students were exhausted from the exam. They went home early.  Exercise 15. Combine with a participial phrase: The letter was written in 1945. The letter was found in the attic.    Part 4: Sentence Writing (approx. 7 minutes)   Instructions   Write original sentences following each prompt.   Example (completed)   Write a sentence with a non-restrictive relative clause:  My grandmother, who turned ninety last month, still tends her garden every day.   Exercises   Exercise 16. Write a sentence with a restrictive relative clause using that :  Exercise 17. Write a sentence with a present participial phrase modifying the subject:  Exercise 18. Write a sentence with a past participial phrase modifying a noun:  Exercise 19. Write a sentence with an infinitive phrase functioning as an adjectival:  Exercise 20. Write a sentence with multiple pre-modifying adjectives (at least three):    Part 5: Error Correction and Analysis (approx. 10 minutes)   Instructions   Read the sentences and answer the questions.   Dangling Participle Correction    Exercises   Exercise 21. Correct each dangling participle by rewriting the sentence:  a) Walking through the park, the flowers were beautiful.  Corrected:  b) Having finished the report, the computer was shut down.  Corrected:  c) Exhausted from the journey, the bed looked inviting.  Corrected:   Meaning Analysis   Exercise 22. Explain the difference in meaning between these two sentences. What does each sentence imply about how many brothers the speaker has?  a) My brother who lives in Chicago is a doctor.  b) My brother, who lives in Chicago, is a doctor.  Sentence (a) implies:  Sentence (b) implies:   Multiple Adjectivals   Exercise 23. The following noun phrase contains multiple adjectivals:  The talented young American jazz musician from New Orleans who won the competition  a) Identify each adjectival and its form:  b) Explain the typical order for pre-modifiers in English noun phrases (what types come before others?):  c) Why do post-modifiers (like from New Orleans and who won the competition ) follow the noun instead of preceding it?   Total estimated time: 40 minutes  "
 },
 {
   "id": "ch-13-diagram-examples",
@@ -2059,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "13.9",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for nominal structures (noun clauses) introduced in this chapter.   Complement Clauses   13.8.1 A: That-clause in object position: I know that you cry.    Syntax tree for \"I know that you cry\" showing complement clause as object   [S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]   13.8.1 B: That-clause in subject position: That you cry upsets me.    Syntax tree for \"That you cry upsets me\" showing complement clause as subject   [S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]   13.8.1 C: If\/whether-clause in object position: I wonder if you cry.    Syntax tree for \"I wonder if you cry\" showing if-clause as object   [S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]   13.8.1 D: Missing complementizer: I know you cry.    Syntax tree for \"I know you cry\" showing omitted complementizer   [S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]   "
+  "body": " Diagram Examples  This section provides reference diagrams for complement clause structures introduced in this chapter.   Complement Clauses   13.8.1 A: That-clause in object position: I know that you cry.    Syntax tree for \"I know that you cry\" showing complement clause as object   [S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]   13.8.1 B: That-clause in subject position: That you cry upsets me.    Syntax tree for \"That you cry upsets me\" showing complement clause as subject   [S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]   13.8.1 C: If\/whether-clause in object position: I wonder if you cry.    Syntax tree for \"I wonder if you cry\" showing if-clause as object   [S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]   13.8.1 D: Missing complementizer: I know you cry.    Syntax tree for \"I know you cry\" showing omitted complementizer   [S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]   "
 },
 {
   "id": "ch-13-adjectivals-12",
@@ -2068,7 +1825,7 @@ var ptx_lunr_docs = [
   "type": "Glossary",
   "number": "13.10",
   "title": "Glossary",
-  "body": " Glossary   Adjectival  Any word, phrase, or clause functioning to modify a noun.    Adjective  A part of speech that typically modifies nouns and can be graded.    Attributive position  The position before a noun in the NP (the tall man).    Dangling participle  A participial phrase that doesn't clearly modify the intended noun.    Non-restrictive modifier  A modifier that adds supplementary information; set off with commas.    Participial phrase  A phrase built on a participle (present or past) functioning adjectivally.    Post-modifier  A modifier that follows the noun it modifies.    Pre-modifier  A modifier that precedes the noun it modifies.    Predicative position  The position after a linking verb (The man is tall).    Relative clause  A dependent clause introduced by a relative pronoun or adverb, modifying a noun.    Restrictive modifier  A modifier that identifies or limits the referent; no commas.   "
+  "body": " Glossary   Adjectival  Any word, phrase, or clause functioning to modify a noun.    Adjective  A part of speech that typically modifies nouns and can be graded.    Attributive position  The position before a noun in the NP ( the tall man ).    Dangling participle  A participial phrase that doesn't clearly modify the intended noun.    Non-restrictive modifier  A modifier that adds supplementary information; set off with commas.    Participial phrase  A phrase built on a participle (present or past) functioning adjectivally.    Post-modifier  A modifier that follows the noun it modifies.    Pre-modifier  A modifier that precedes the noun it modifies.    Predicative position  The position after a linking verb ( The man is tall ).    Relative clause  A dependent clause introduced by a relative pronoun or adverb, modifying a noun.    Restrictive modifier  A modifier that identifies or limits the referent; no commas.   "
 },
 {
   "id": "ch-14-nominals-sec-141",
