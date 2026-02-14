@@ -1,7 +1,7 @@
 # Project Map
 
 Last updated: 2026-02-14
-Task: 20
+Task: 22
 
 ## Root Directory
 
@@ -85,6 +85,7 @@ Task: 20
 - `scripts/generate_ch07_answer_key.py` — Generates Chapter 7 Answer Key and Overhead Answer Key .docx files (template for future chapters)
 - `scripts/generate_ch08_answer_key.py` — Generates Chapter 8 Answer Key and Overhead Answer Key .docx files
 - `scripts/generate_ch09_answer_key.py` — Generates Chapter 9 Answer Key and Overhead Answer Key .docx files
+- `scripts/generate_ch10_answer_key.py` — Generates Chapter 10 Answer Key and Overhead Answer Key .docx files
 
 ## reference_materials/
 

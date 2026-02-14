@@ -21,42 +21,41 @@
       <li><p>Epistemic modality</p></li>
       <li><p>Deontic modality</p></li>
       <li><p>Semi-modal</p></li>
-      <li><p>--</p></li>
     </ul>
   </objectives>
 
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-111">
     <title>Voice: Active and Passive</title>
 
-    <p><em>Voice</em> is a grammatical category that describes the relationship between the verb and its arguments—specifically, who does the action and who receives it.</p>
+    <p><term>Voice</term> is a grammatical category that describes the relationship between the verb and its arguments—specifically, who does the action and who receives it.</p>
 
     <paragraphs>
       <title>Active Voice</title>
     </paragraphs>
 
-    <p>In <em>active voice</em>, the subject performs the action:</p>
+    <p>In <term>active voice</term>, the subject performs the action:</p>
 
     <ul>
-      <li><p>"The dog <em>bit</em> the man." (subject = doer)</p></li>
-      <li><p>"Maria <em>wrote</em> the report." (subject = doer)</p></li>
-      <li><p>"Someone <em>stole</em> my bicycle." (subject = doer)</p></li>
+      <li><p><foreign>The dog <em>bit</em> the man.</foreign> (subject = doer)</p></li>
+      <li><p><foreign>Maria <em>wrote</em> the report.</foreign> (subject = doer)</p></li>
+      <li><p><foreign>Someone <em>stole</em> my bicycle.</foreign> (subject = doer)</p></li>
     </ul>
 
-    <p>Active voice follows the pattern: <em>Agent (doer) + Verb + Patient (receiver)</em></p>
+    <p>Active voice follows the pattern: Agent (doer) + Verb + Patient (receiver)</p>
 
     <paragraphs>
       <title>Passive Voice</title>
     </paragraphs>
 
-    <p>In <em>passive voice</em>, the subject receives the action:</p>
+    <p>In <term>passive voice</term>, the subject receives the action:</p>
 
     <ul>
-      <li><p>"The man <em>was bitten</em> by the dog." (subject = receiver)</p></li>
-      <li><p>"The report <em>was written</em> by Maria." (subject = receiver)</p></li>
-      <li><p>"My bicycle <em>was stolen</em>." (subject = receiver)</p></li>
+      <li><p><foreign>The man <em>was bitten</em> by the dog.</foreign> (subject = receiver)</p></li>
+      <li><p><foreign>The report <em>was written</em> by Maria.</foreign> (subject = receiver)</p></li>
+      <li><p><foreign>My bicycle <em>was stolen</em>.</foreign> (subject = receiver)</p></li>
     </ul>
 
-    <p>Passive voice follows the pattern: *<em>Patient (receiver) + </em>be<em> + past participle (+ </em>by agent)*</p>
+    <p>Passive voice follows the pattern: Patient (receiver) + <foreign>be</foreign> + past participle (+ <foreign>by</foreign> agent)</p>
 
     <paragraphs>
       <title>Forming the Passive</title>
@@ -77,20 +76,20 @@
         <cell>Passive</cell>
       </row>
       <row>
-        <cell>Maria wrote the report.</cell>
-        <cell>The report was written by Maria.</cell>
+        <cell><foreign>Maria wrote the report.</foreign></cell>
+        <cell><foreign>The report was written by Maria.</foreign></cell>
       </row>
       <row>
-        <cell>Someone stole my bike.</cell>
-        <cell>My bike was stolen.</cell>
+        <cell><foreign>Someone stole my bike.</foreign></cell>
+        <cell><foreign>My bike was stolen.</foreign></cell>
       </row>
       <row>
-        <cell>They are building a house.</cell>
-        <cell>A house is being built.</cell>
+        <cell><foreign>They are building a house.</foreign></cell>
+        <cell><foreign>A house is being built.</foreign></cell>
       </row>
       <row>
-        <cell>She has finished the work.</cell>
-        <cell>The work has been finished.</cell>
+        <cell><foreign>She has finished the work.</foreign></cell>
+        <cell><foreign>The work has been finished.</foreign></cell>
       </row>
     </tabular>
 
@@ -108,43 +107,43 @@
       </row>
       <row>
         <cell>Present simple</cell>
-        <cell>writes</cell>
-        <cell>is written</cell>
+        <cell><foreign>writes</foreign></cell>
+        <cell><foreign>is written</foreign></cell>
       </row>
       <row>
         <cell>Past simple</cell>
-        <cell>wrote</cell>
-        <cell>was written</cell>
+        <cell><foreign>wrote</foreign></cell>
+        <cell><foreign>was written</foreign></cell>
       </row>
       <row>
         <cell>Present progressive</cell>
-        <cell>is writing</cell>
-        <cell>is being written</cell>
+        <cell><foreign>is writing</foreign></cell>
+        <cell><foreign>is being written</foreign></cell>
       </row>
       <row>
         <cell>Past progressive</cell>
-        <cell>was writing</cell>
-        <cell>was being written</cell>
+        <cell><foreign>was writing</foreign></cell>
+        <cell><foreign>was being written</foreign></cell>
       </row>
       <row>
         <cell>Present perfect</cell>
-        <cell>has written</cell>
-        <cell>has been written</cell>
+        <cell><foreign>has written</foreign></cell>
+        <cell><foreign>has been written</foreign></cell>
       </row>
       <row>
         <cell>Past perfect</cell>
-        <cell>had written</cell>
-        <cell>had been written</cell>
+        <cell><foreign>had written</foreign></cell>
+        <cell><foreign>had been written</foreign></cell>
       </row>
       <row>
         <cell>Future</cell>
-        <cell>will write</cell>
-        <cell>will be written</cell>
+        <cell><foreign>will write</foreign></cell>
+        <cell><foreign>will be written</foreign></cell>
       </row>
       <row>
         <cell>Modal</cell>
-        <cell>can write</cell>
-        <cell>can be written</cell>
+        <cell><foreign>can write</foreign></cell>
+        <cell><foreign>can be written</foreign></cell>
       </row>
     </tabular>
 
@@ -162,59 +161,59 @@
     <p>1. Agent is unknown or irrelevant:</p>
 
     <ul>
-      <li><p><em>My car was stolen last night.</em> (who did it is unknown)</p></li>
-      <li><p>"The building <em>was constructed</em> in 1920." (builder not important)</p></li>
+      <li><p><foreign>My car <em>was stolen</em> last night.</foreign> (who did it is unknown)</p></li>
+      <li><p><foreign>The building <em>was constructed</em> in 1920.</foreign> (builder not important)</p></li>
     </ul>
 
-    <p><em>2. Focusing on the action or patient:</em></p>
+    <p>2. Focusing on the action or patient:</p>
 
     <ul>
-      <li><p>"The suspect <em>was arrested</em> at 3 a.m."</p></li>
-      <li><p>"Three errors <em>were discovered</em> in the code."</p></li>
+      <li><p><foreign>The suspect <em>was arrested</em> at 3 a.m.</foreign></p></li>
+      <li><p><foreign>Three errors <em>were discovered</em> in the code.</foreign></p></li>
     </ul>
 
-    <p><em>3. Scientific and academic writing</em> (for objectivity):</p>
+    <p>3. Scientific and academic writing (for objectivity):</p>
 
     <ul>
-      <li><p>"The samples <em>were analyzed</em> using spectroscopy."</p></li>
-      <li><p>"The data <em>were collected</em> over six months."</p></li>
+      <li><p><foreign>The samples <em>were analyzed</em> using spectroscopy.</foreign></p></li>
+      <li><p><foreign>The data <em>were collected</em> over six months.</foreign></p></li>
     </ul>
 
-    <p><em>4. Avoiding blame or responsibility:</em></p>
+    <p>4. Avoiding blame or responsibility:</p>
 
     <ul>
-      <li><p>"Mistakes <em>were made</em>." (who made them is obscured)</p></li>
+      <li><p><foreign>Mistakes <em>were made</em>.</foreign> (who made them is obscured)</p></li>
     </ul>
 
-    <p><em>5. Maintaining topic continuity:</em></p>
+    <p>5. Maintaining topic continuity:</p>
 
     <ul>
-      <li><p>"The report discussed several issues. These issues <em>were identified</em> by the committee."</p></li>
+      <li><p><foreign>The report discussed several issues. These issues <em>were identified</em> by the committee.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>When to Avoid Passive</title>
     </paragraphs>
 
-    <p><em>When agent is important:</em></p>
+    <p>When agent is important:</p>
 
     <ul>
-      <li><p>Weak: "The decision <em>was made</em>."</p></li>
-      <li><p>Stronger: "The CEO <em>made</em> the decision."</p></li>
+      <li><p>Weak: <foreign>The decision <em>was made</em>.</foreign></p></li>
+      <li><p>Stronger: <foreign>The CEO <em>made</em> the decision.</foreign></p></li>
     </ul>
 
-    <p><em>When it creates confusion:</em></p>
+    <p>When it creates confusion:</p>
 
     <ul>
-      <li><p>Confusing: <em>The proposal <em>was rejected</em> by the committee that <em>was formed</em> by the board.</em></p></li>
-      <li><p>Clearer: "The committee that the board formed <em>rejected</em> the proposal."</p></li>
+      <li><p>Confusing: <foreign>The proposal <em>was rejected</em> by the committee that <em>was formed</em> by the board.</foreign></p></li>
+      <li><p>Clearer: <foreign>The committee that the board formed <em>rejected</em> the proposal.</foreign></p></li>
     </ul>
 
-    <p><em>When active is more direct:</em></p>
+    <p>When active is more direct:</p>
 
     <ul>
-      <li><p>Passive: "The ball <em>was kicked</em> by the child."</p></li>
-      <li><p>Active: "The child <em>kicked</em> the ball."</p></li>
+      <li><p>Passive: <foreign>The ball <em>was kicked</em> by the child.</foreign></p></li>
+      <li><p>Active: <foreign>The child <em>kicked</em> the ball.</foreign></p></li>
     </ul>
 
   </section>
@@ -222,20 +221,20 @@
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-113">
     <title>Get-Passive</title>
 
-    <p>English has an alternative passive formed with <em>get</em> instead of <em>be</em>:</p>
+    <p>English has an alternative passive formed with <foreign>get</foreign> instead of <foreign>be</foreign>:</p>
 
     <ul>
-      <li><p>"He <em>got fired</em> last week."</p></li>
-      <li><p>"She <em>got promoted</em> to manager."</p></li>
-      <li><p>"They <em>got married</em> in June."</p></li>
+      <li><p><foreign>He <em>got fired</em> last week.</foreign></p></li>
+      <li><p><foreign>She <em>got promoted</em> to manager.</foreign></p></li>
+      <li><p><foreign>They <em>got married</em> in June.</foreign></p></li>
     </ul>
 
-    <p><em>Get-passive</em> is more informal and often implies:</p>
+    <p>The <term>get-passive</term> is more informal and often implies:</p>
 
     <ul>
-      <li><p>Sudden or unexpected events: <em>He got hit by a car.</em></p></li>
-      <li><p>Events that affect the subject significantly: <em>She got accepted to Harvard.</em></p></li>
-      <li><p>Change of state: <em>The window got broken.</em></p></li>
+      <li><p>Sudden or unexpected events: <foreign>He got hit by a car.</foreign></p></li>
+      <li><p>Events that affect the subject significantly: <foreign>She got accepted to Harvard.</foreign></p></li>
+      <li><p>Change of state: <foreign>The window got broken.</foreign></p></li>
     </ul>
 
   </section>
@@ -243,7 +242,7 @@
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-114">
     <title>Modal Auxiliaries</title>
 
-    <p><em>Modal auxiliaries</em> add meanings related to possibility, necessity, permission, ability, and prediction. Unlike primary auxiliaries, modals have distinct grammatical properties.</p>
+    <p><term>Modal auxiliaries</term> add meanings related to possibility, necessity, permission, ability, and prediction. Unlike primary auxiliaries, modals have distinct grammatical properties.</p>
 
     <paragraphs>
       <title>The Nine Modals</title>
@@ -255,39 +254,39 @@
         <cell>Basic Meaning</cell>
       </row>
       <row>
-        <cell>can</cell>
+        <cell><foreign>can</foreign></cell>
         <cell>ability, possibility, permission</cell>
       </row>
       <row>
-        <cell>could</cell>
+        <cell><foreign>could</foreign></cell>
         <cell>past ability, possibility, polite request</cell>
       </row>
       <row>
-        <cell>will</cell>
+        <cell><foreign>will</foreign></cell>
         <cell>future, willingness, prediction</cell>
       </row>
       <row>
-        <cell>would</cell>
+        <cell><foreign>would</foreign></cell>
         <cell>hypothetical, polite request, past habit</cell>
       </row>
       <row>
-        <cell>shall</cell>
+        <cell><foreign>shall</foreign></cell>
         <cell>future (formal), suggestion</cell>
       </row>
       <row>
-        <cell>should</cell>
+        <cell><foreign>should</foreign></cell>
         <cell>obligation, expectation, advice</cell>
       </row>
       <row>
-        <cell>may</cell>
+        <cell><foreign>may</foreign></cell>
         <cell>permission, possibility</cell>
       </row>
       <row>
-        <cell>might</cell>
-        <cell>possibility (weaker than may)</cell>
+        <cell><foreign>might</foreign></cell>
+        <cell>possibility (weaker than <foreign>may</foreign>)</cell>
       </row>
       <row>
-        <cell>must</cell>
+        <cell><foreign>must</foreign></cell>
         <cell>necessity, strong obligation, logical conclusion</cell>
       </row>
     </tabular>
@@ -297,12 +296,12 @@
     </paragraphs>
 
     <ol>
-      <li><p>*<em>No </em>-s<em> in third person</em><em>: </em>She <em>can</em> go.<em> (not </em>~~She cans go~~*)</p></li>
-      <li><p>*<em>No </em>to<em> infinitive</em><em>: </em>You <em>must</em> leave.<em> (not </em>~~You must to leave~~*)</p></li>
-      <li><p>*<em>No past participle or </em>-ing<em> form</em><em>: </em>~~musted~~<em>, </em>~~musting~~*</p></li>
-      <li><p>Cannot combine directly: <em>~~She can must go~~</em></p></li>
-      <li><p>Form questions by inversion: Can she go?</p></li>
-      <li><p>*<em>Form negatives with </em>not**<em>: </em>She <em>cannot</em> go.*</p></li>
+      <li><p>No <foreign>-s</foreign> in third person: <foreign>She <em>can</em> go.</foreign> (not <foreign><delete>She cans go.</delete></foreign>)</p></li>
+      <li><p>No <foreign>to</foreign> infinitive: <foreign>You <em>must</em> leave.</foreign> (not <foreign><delete>You must to leave.</delete></foreign>)</p></li>
+      <li><p>No past participle or <foreign>-ing</foreign> form: <foreign><delete>musted</delete></foreign>, <foreign><delete>musting</delete></foreign></p></li>
+      <li><p>Cannot combine directly: <foreign><delete>She can must go.</delete></foreign></p></li>
+      <li><p>Form questions by inversion: <foreign>Can she go?</foreign></p></li>
+      <li><p>Form negatives with <foreign>not</foreign>: <foreign>She <em>cannot</em> go.</foreign></p></li>
     </ol>
 
   </section>
@@ -311,124 +310,124 @@
     <title>Modal Meanings in Detail</title>
 
     <paragraphs>
-      <title>*Can* and *Could*</title>
+      <title>Can and Could</title>
     </paragraphs>
 
-    <p><em>Ability</em>:</p>
+    <p>Ability:</p>
 
     <ul>
-      <li><p>"She <em>can</em> speak French." (present ability)</p></li>
-      <li><p>"She <em>could</em> speak French when she was young." (past ability)</p></li>
+      <li><p><foreign>She <em>can</em> speak French.</foreign> (present ability)</p></li>
+      <li><p><foreign>She <em>could</em> speak French when she was young.</foreign> (past ability)</p></li>
     </ul>
 
-    <p><em>Possibility</em>:</p>
+    <p>Possibility:</p>
 
     <ul>
-      <li><p>"It <em>can</em> get cold here in winter." (general possibility)</p></li>
-      <li><p>"That <em>could</em> be true." (specific possibility)</p></li>
+      <li><p><foreign>It <em>can</em> get cold here in winter.</foreign> (general possibility)</p></li>
+      <li><p><foreign>That <em>could</em> be true.</foreign> (specific possibility)</p></li>
     </ul>
 
-    <p><em>Permission</em>:</p>
+    <p>Permission:</p>
 
     <ul>
-      <li><p>Can I leave early? (informal)</p></li>
-      <li><p>Could I borrow your pen? (polite)</p></li>
+      <li><p><foreign>Can I leave early?</foreign> (informal)</p></li>
+      <li><p><foreign>Could I borrow your pen?</foreign> (polite)</p></li>
     </ul>
 
     <paragraphs>
-      <title>*Will* and *Would*</title>
+      <title>Will and Would</title>
     </paragraphs>
 
-    <p><em>Future</em>:</p>
+    <p>Future:</p>
 
     <ul>
-      <li><p>"I <em>will</em> call you tomorrow."</p></li>
-      <li><p>"She <em>will</em> be at the meeting."</p></li>
+      <li><p><foreign>I <em>will</em> call you tomorrow.</foreign></p></li>
+      <li><p><foreign>She <em>will</em> be at the meeting.</foreign></p></li>
     </ul>
 
-    <p><em>Willingness</em>:</p>
+    <p>Willingness:</p>
 
     <ul>
-      <li><p>Will you help me?</p></li>
-      <li><p>"I <em>won't</em> tolerate that behavior."</p></li>
+      <li><p><foreign>Will you help me?</foreign></p></li>
+      <li><p><foreign>I <em>won't</em> tolerate that behavior.</foreign></p></li>
     </ul>
 
-    <p><em>Hypothetical/Conditional</em>:</p>
+    <p>Hypothetical/Conditional:</p>
 
     <ul>
-      <li><p>"I <em>would</em> go if I had time."</p></li>
-      <li><p>"What <em>would</em> you do?"</p></li>
+      <li><p><foreign>I <em>would</em> go if I had time.</foreign></p></li>
+      <li><p><foreign>What <em>would</em> you do?</foreign></p></li>
     </ul>
 
-    <p><em>Polite requests</em>:</p>
+    <p>Polite requests:</p>
 
     <ul>
-      <li><p>Would you close the door?</p></li>
+      <li><p><foreign>Would you close the door?</foreign></p></li>
     </ul>
 
-    <p><em>Past habit</em>:</p>
+    <p>Past habit:</p>
 
     <ul>
-      <li><p>"We <em>would</em> go fishing every summer."</p></li>
+      <li><p><foreign>We <em>would</em> go fishing every summer.</foreign></p></li>
     </ul>
 
     <paragraphs>
-      <title>*Shall* and *Should*</title>
+      <title>Shall and Should</title>
     </paragraphs>
 
-    <p><em>Shall</em> (formal, mostly British):</p>
+    <p><foreign>Shall</foreign> (formal, mostly British):</p>
 
     <ul>
-      <li><p>Shall I open the window? (offer)</p></li>
-      <li><p>"We <em>shall</em> overcome." (determination)</p></li>
+      <li><p><foreign>Shall I open the window?</foreign> (offer)</p></li>
+      <li><p><foreign>We <em>shall</em> overcome.</foreign> (determination)</p></li>
     </ul>
 
-    <p><em>Should</em> (obligation, expectation):</p>
+    <p><foreign>Should</foreign> (obligation, expectation):</p>
 
     <ul>
-      <li><p>"You <em>should</em> apologize." (advice/obligation)</p></li>
-      <li><p>"She <em>should</em> arrive soon." (expectation)</p></li>
-      <li><p>"If you <em>should</em> need help, call me." (hypothetical)</p></li>
+      <li><p><foreign>You <em>should</em> apologize.</foreign> (advice/obligation)</p></li>
+      <li><p><foreign>She <em>should</em> arrive soon.</foreign> (expectation)</p></li>
+      <li><p><foreign>If you <em>should</em> need help, call me.</foreign> (hypothetical)</p></li>
     </ul>
 
     <paragraphs>
-      <title>*May* and *Might*</title>
+      <title>May and Might</title>
     </paragraphs>
 
-    <p><em>Permission</em> (may):</p>
+    <p>Permission (<foreign>may</foreign>):</p>
 
     <ul>
-      <li><p>May I come in? (formal)</p></li>
-      <li><p>"You <em>may</em> leave when finished."</p></li>
+      <li><p><foreign>May I come in?</foreign> (formal)</p></li>
+      <li><p><foreign>You <em>may</em> leave when finished.</foreign></p></li>
     </ul>
 
-    <p><em>Possibility</em>:</p>
+    <p>Possibility:</p>
 
     <ul>
-      <li><p>"It <em>may</em> rain tomorrow." (possible)</p></li>
-      <li><p>"It <em>might</em> rain tomorrow." (less certain)</p></li>
-      <li><p>"She <em>may</em> have forgotten." (possible past)</p></li>
+      <li><p><foreign>It <em>may</em> rain tomorrow.</foreign> (possible)</p></li>
+      <li><p><foreign>It <em>might</em> rain tomorrow.</foreign> (less certain)</p></li>
+      <li><p><foreign>She <em>may</em> have forgotten.</foreign> (possible past)</p></li>
     </ul>
 
     <paragraphs>
-      <title>*Must*</title>
+      <title>Must</title>
     </paragraphs>
 
-    <p><em>Necessity/Obligation</em>:</p>
+    <p>Necessity/Obligation:</p>
 
     <ul>
-      <li><p>"You <em>must</em> submit the form by Friday."</p></li>
-      <li><p>"Visitors <em>must</em> sign in."</p></li>
+      <li><p><foreign>You <em>must</em> submit the form by Friday.</foreign></p></li>
+      <li><p><foreign>Visitors <em>must</em> sign in.</foreign></p></li>
     </ul>
 
-    <p><em>Logical conclusion</em>:</p>
+    <p>Logical conclusion:</p>
 
     <ul>
-      <li><p>"She's not answering—she <em>must</em> be asleep."</p></li>
-      <li><p>"He <em>must</em> have left already." (deduction about past)</p></li>
+      <li><p><foreign>She's not answering—she <em>must</em> be asleep.</foreign></p></li>
+      <li><p><foreign>He <em>must</em> have left already.</foreign> (deduction about past)</p></li>
     </ul>
 
-    <p><em>Note</em>: For negation, <em>must not</em> means prohibition (You must not enter), while <em>don't have to</em> means lack of necessity (You don't have to enter).</p>
+    <p>Note: For negation, <foreign>must not</foreign> means prohibition (<foreign>You must not enter</foreign>), while <foreign>don't have to</foreign> means lack of necessity (<foreign>You don't have to enter</foreign>).</p>
 
   </section>
 
@@ -441,31 +440,31 @@
       <title>Epistemic Modality</title>
     </paragraphs>
 
-    <p><em>Epistemic modality</em> concerns knowledge, belief, and certainty about whether something is true:</p>
+    <p><term>Epistemic modality</term> concerns knowledge, belief, and certainty about whether something is true:</p>
 
     <ul>
-      <li><p>"She <em>must</em> be home." (I conclude this)</p></li>
-      <li><p>"He <em>might</em> know the answer." (possibly)</p></li>
-      <li><p>"That <em>can't</em> be right." (impossibility)</p></li>
+      <li><p><foreign>She <em>must</em> be home.</foreign> (I conclude this)</p></li>
+      <li><p><foreign>He <em>might</em> know the answer.</foreign> (possibly)</p></li>
+      <li><p><foreign>That <em>can't</em> be right.</foreign> (impossibility)</p></li>
     </ul>
 
     <paragraphs>
       <title>Deontic Modality</title>
     </paragraphs>
 
-    <p><em>Deontic modality</em> concerns obligation, permission, and necessity for action:</p>
+    <p><term>Deontic modality</term> concerns obligation, permission, and necessity for action:</p>
 
     <ul>
-      <li><p>"You <em>must</em> leave now." (obligation)</p></li>
-      <li><p>"You <em>may</em> enter." (permission)</p></li>
-      <li><p>Can I go? (asking permission)</p></li>
+      <li><p><foreign>You <em>must</em> leave now.</foreign> (obligation)</p></li>
+      <li><p><foreign>You <em>may</em> enter.</foreign> (permission)</p></li>
+      <li><p><foreign>Can I go?</foreign> (asking permission)</p></li>
     </ul>
 
     <p>The same modal can have both meanings:</p>
 
     <ul>
-      <li><p>"You <em>must</em> be tired." (epistemic—I deduce you're tired)</p></li>
-      <li><p>"You <em>must</em> rest." (deontic—I'm telling you to rest)</p></li>
+      <li><p><foreign>You <em>must</em> be tired.</foreign> (epistemic—I deduce you're tired)</p></li>
+      <li><p><foreign>You <em>must</em> rest.</foreign> (deontic—I'm telling you to rest)</p></li>
     </ul>
 
   </section>
@@ -473,7 +472,7 @@
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-117">
     <title>Semi-Modals (Quasi-Modals)</title>
 
-    <p><em>Semi-modals</em> are multi-word expressions that function like modals but don't share all their grammatical properties.</p>
+    <p><term>Semi-modals</term> (quasi-modals) are multi-word expressions that function like modals but don't share all their grammatical properties.</p>
 
     <paragraphs>
       <title>Common Semi-Modals</title>
@@ -486,44 +485,44 @@
         <cell>Example</cell>
       </row>
       <row>
-        <cell>have to</cell>
+        <cell><foreign>have to</foreign></cell>
         <cell>necessity</cell>
-        <cell>"I have to leave."</cell>
+        <cell><foreign>I have to leave.</foreign></cell>
       </row>
       <row>
-        <cell>have got to</cell>
+        <cell><foreign>have got to</foreign></cell>
         <cell>necessity (informal)</cell>
-        <cell>"I've got to go."</cell>
+        <cell><foreign>I've got to go.</foreign></cell>
       </row>
       <row>
-        <cell>be able to</cell>
+        <cell><foreign>be able to</foreign></cell>
         <cell>ability</cell>
-        <cell>"She's able to help."</cell>
+        <cell><foreign>She's able to help.</foreign></cell>
       </row>
       <row>
-        <cell>be going to</cell>
+        <cell><foreign>be going to</foreign></cell>
         <cell>future intention</cell>
-        <cell>"I'm going to study."</cell>
+        <cell><foreign>I'm going to study.</foreign></cell>
       </row>
       <row>
-        <cell>be supposed to</cell>
+        <cell><foreign>be supposed to</foreign></cell>
         <cell>expectation/obligation</cell>
-        <cell>"You're supposed to wait."</cell>
+        <cell><foreign>You're supposed to wait.</foreign></cell>
       </row>
       <row>
-        <cell>be allowed to</cell>
+        <cell><foreign>be allowed to</foreign></cell>
         <cell>permission</cell>
-        <cell>"We're allowed to leave."</cell>
+        <cell><foreign>We're allowed to leave.</foreign></cell>
       </row>
       <row>
-        <cell>ought to</cell>
+        <cell><foreign>ought to</foreign></cell>
         <cell>obligation</cell>
-        <cell>"You ought to apologize."</cell>
+        <cell><foreign>You ought to apologize.</foreign></cell>
       </row>
       <row>
-        <cell>used to</cell>
+        <cell><foreign>used to</foreign></cell>
         <cell>past habit</cell>
-        <cell>"I used to live there."</cell>
+        <cell><foreign>I used to live there.</foreign></cell>
       </row>
     </tabular>
 
@@ -534,9 +533,9 @@
     <p>Unlike true modals, semi-modals:</p>
 
     <ul>
-      <li><p>Can be inflected: "She <em>has to</em> go." (third person -s)</p></li>
-      <li><p>Can follow other modals: "You <em>will have to</em> leave."</p></li>
-      <li><p>Can take <em>-ing</em> or infinitive forms: <em>Having to leave upset her.</em></p></li>
+      <li><p>Can be inflected: <foreign>She <em>has to</em> go.</foreign> (third person <foreign>-s</foreign>)</p></li>
+      <li><p>Can follow other modals: <foreign>You <em>will have to</em> leave.</foreign></p></li>
+      <li><p>Can take <foreign>-ing</foreign> or infinitive forms: <foreign>Having to leave upset her.</foreign></p></li>
     </ul>
 
   </section>
@@ -544,16 +543,16 @@
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-118">
     <title>Modal Perfect</title>
 
-    <p>Modals combine with <em>have</em> + past participle to refer to past time or to express degrees of certainty about the past:</p>
+    <p>Modals combine with <foreign>have</foreign> + past participle to refer to past time or to express degrees of certainty about the past:</p>
 
-    <p><em>Modal + have + past participle</em>:</p>
+    <p>Modal + <foreign>have</foreign> + past participle:</p>
 
     <ul>
-      <li><p>"She <em>must have left</em>." (I conclude she left)</p></li>
-      <li><p>"He <em>might have forgotten</em>." (possibly he forgot)</p></li>
-      <li><p>"You <em>should have called</em>." (but you didn't—criticism)</p></li>
-      <li><p>"I <em>would have helped</em> if I could." (hypothetical past)</p></li>
-      <li><p>"They <em>could have won</em>." (they had the ability but didn't)</p></li>
+      <li><p><foreign>She <em>must have left</em>.</foreign> (I conclude she left)</p></li>
+      <li><p><foreign>He <em>might have forgotten</em>.</foreign> (possibly he forgot)</p></li>
+      <li><p><foreign>You <em>should have called</em>.</foreign> (but you didn't—criticism)</p></li>
+      <li><p><foreign>I <em>would have helped</em> if I could.</foreign> (hypothetical past)</p></li>
+      <li><p><foreign>They <em>could have won</em>.</foreign> (they had the ability but didn't)</p></li>
     </ul>
 
     <paragraphs>
@@ -566,27 +565,27 @@
         <cell>Meaning</cell>
       </row>
       <row>
-        <cell>must have done</cell>
+        <cell><foreign>must have done</foreign></cell>
         <cell>logical conclusion about past</cell>
       </row>
       <row>
-        <cell>may/might have done</cell>
+        <cell><foreign>may/might have done</foreign></cell>
         <cell>possibility in the past</cell>
       </row>
       <row>
-        <cell>could have done</cell>
+        <cell><foreign>could have done</foreign></cell>
         <cell>past possibility or unrealized ability</cell>
       </row>
       <row>
-        <cell>should have done</cell>
+        <cell><foreign>should have done</foreign></cell>
         <cell>obligation not fulfilled (criticism)</cell>
       </row>
       <row>
-        <cell>would have done</cell>
+        <cell><foreign>would have done</foreign></cell>
         <cell>hypothetical past (unfulfilled)</cell>
       </row>
       <row>
-        <cell>can't have done</cell>
+        <cell><foreign>can't have done</foreign></cell>
         <cell>impossibility in the past</cell>
       </row>
     </tabular>
@@ -603,47 +602,54 @@
     <subsection xml:id="ch-11-homework-part-1">
       <title>Part 1: Voice Identification</title>
 
-      <p><em>Instructions:</em> For each sentence, identify whether it is in active or passive voice. If passive, identify the agent (if present) and the original active construction.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence, identify whether it is in active or passive voice. If passive, identify the agent (if present) and the original active construction.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> <em>The report was written by the committee.</em></p>
+      <p><foreign>The report was written by the committee.</foreign></p>
 
       <ul>
         <li><p>Voice: passive</p></li>
-        <li><p>Agent: the committee</p></li>
-        <li><p>Active version: <em>The committee wrote the report.</em></p></li>
+        <li><p>Agent: <foreign>the committee</foreign></p></li>
+        <li><p>Active version: <foreign>The committee wrote the report.</foreign></p></li>
       </ul>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><em>1.</em> <em>The researchers carefully analyzed the data.</em></p>
+      <p><em>Exercise 1.</em> <foreign>The researchers carefully analyzed the data.</foreign></p>
 
       <ul>
         <li><p>Voice: _____</p></li>
       </ul>
 
-      <p><em>2.</em> <em>Three errors were discovered in the code.</em></p>
-
-      <ul>
-        <li><p>Voice: _____</p></li>
-        <li><p>Agent (if present): _____</p></li>
-      </ul>
-
-      <p><em>3.</em> <em>The new policy will be announced tomorrow.</em></p>
+      <p><em>Exercise 2.</em> <foreign>Three errors were discovered in the code.</foreign></p>
 
       <ul>
         <li><p>Voice: _____</p></li>
         <li><p>Agent (if present): _____</p></li>
       </ul>
 
-      <p><em>4.</em> <em>Someone stole my bicycle last night.</em></p>
+      <p><em>Exercise 3.</em> <foreign>The new policy will be announced tomorrow.</foreign></p>
+
+      <ul>
+        <li><p>Voice: _____</p></li>
+        <li><p>Agent (if present): _____</p></li>
+      </ul>
+
+      <p><em>Exercise 4.</em> <foreign>Someone stole my bicycle last night.</foreign></p>
 
       <ul>
         <li><p>Voice: _____</p></li>
       </ul>
 
-      <p><em>5.</em> <em>The building was constructed in 1920.</em></p>
+      <p><em>Exercise 5.</em> <foreign>The building was constructed in 1920.</foreign></p>
 
       <ul>
         <li><p>Voice: _____</p></li>
@@ -655,41 +661,48 @@
     <subsection xml:id="ch-11-homework-part-2">
       <title>Part 2: Voice Transformation</title>
 
-      <p><em>Instructions:</em> Convert each sentence to the opposite voice (active to passive or passive to active). Maintain the same tense and aspect.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Convert each sentence to the opposite voice (active to passive or passive to active). Maintain the same tense and aspect.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Active to passive:</em> <em>The architect has designed the new building.</em></p>
+      <p>Active to passive: <foreign>The architect has designed the new building.</foreign></p>
 
-      <p>Answer: <em>The new building has been designed by the architect.</em></p>
+      <p>Answer: <foreign>The new building has been designed by the architect.</foreign></p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><em>6.</em> Active to passive: <em>The team is preparing the presentation.</em></p>
-
-      <ul>
-        <li><p>Answer: _____</p></li>
-      </ul>
-
-      <p><em>7.</em> Active to passive: <em>Someone had stolen the documents before the investigation began.</em></p>
-
-      <ul>
-        <li><p>Answer: _____</p></li>
-      </ul>
-
-      <p><em>8.</em> Passive to active: <em>The experiment was conducted by the research team.</em></p>
+      <p><em>Exercise 6.</em> Active to passive: <foreign>The team is preparing the presentation.</foreign></p>
 
       <ul>
         <li><p>Answer: _____</p></li>
       </ul>
 
-      <p><em>9.</em> Passive to active: <em>The proposal will be reviewed by the committee next week.</em></p>
+      <p><em>Exercise 7.</em> Active to passive: <foreign>Someone had stolen the documents before the investigation began.</foreign></p>
 
       <ul>
         <li><p>Answer: _____</p></li>
       </ul>
 
-      <p><em>10.</em> Active to passive: <em>The company will hire fifty new employees.</em></p>
+      <p><em>Exercise 8.</em> Passive to active: <foreign>The experiment was conducted by the research team.</foreign></p>
+
+      <ul>
+        <li><p>Answer: _____</p></li>
+      </ul>
+
+      <p><em>Exercise 9.</em> Passive to active: <foreign>The proposal will be reviewed by the committee next week.</foreign></p>
+
+      <ul>
+        <li><p>Answer: _____</p></li>
+      </ul>
+
+      <p><em>Exercise 10.</em> Active to passive: <foreign>The company will hire fifty new employees.</foreign></p>
 
       <ul>
         <li><p>Answer: _____</p></li>
@@ -700,66 +713,73 @@
     <subsection xml:id="ch-11-homework-part-3">
       <title>Part 3: Modal Meaning</title>
 
-      <p><em>Instructions:</em> For each sentence, identify the modal and classify its meaning using these categories: ability, possibility, permission, obligation/necessity, deduction, or advice.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence, identify the modal and classify its meaning using these categories: ability, possibility, permission, obligation/necessity, deduction, or advice.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> <em>You must submit the application by Friday.</em></p>
+      <p><foreign>You must submit the application by Friday.</foreign></p>
 
       <ul>
-        <li><p>Modal: must</p></li>
+        <li><p>Modal: <foreign>must</foreign></p></li>
         <li><p>Meaning: obligation/necessity</p></li>
       </ul>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><em>11.</em> <em>She can speak three languages fluently.</em></p>
-
-      <ul>
-        <li><p>Modal: _____</p></li>
-        <li><p>Meaning: _____</p></li>
-      </ul>
-
-      <p><em>12.</em> <em>That might be the correct answer, but I'm not certain.</em></p>
+      <p><em>Exercise 11.</em> <foreign>She can speak three languages fluently.</foreign></p>
 
       <ul>
         <li><p>Modal: _____</p></li>
         <li><p>Meaning: _____</p></li>
       </ul>
 
-      <p><em>13.</em> <em>You should apologize for your mistake.</em></p>
+      <p><em>Exercise 12.</em> <foreign>That might be the correct answer, but I'm not certain.</foreign></p>
 
       <ul>
         <li><p>Modal: _____</p></li>
         <li><p>Meaning: _____</p></li>
       </ul>
 
-      <p><em>14.</em> <em>He must be exhausted after running the marathon.</em></p>
+      <p><em>Exercise 13.</em> <foreign>You should apologize for your mistake.</foreign></p>
 
       <ul>
         <li><p>Modal: _____</p></li>
         <li><p>Meaning: _____</p></li>
       </ul>
 
-      <p><em>15.</em> <em>May I leave the room early?</em></p>
+      <p><em>Exercise 14.</em> <foreign>He must be exhausted after running the marathon.</foreign></p>
 
       <ul>
         <li><p>Modal: _____</p></li>
         <li><p>Meaning: _____</p></li>
       </ul>
 
-      <p><em>16.</em> <em>They could have won the game if they had practiced more.</em></p>
+      <p><em>Exercise 15.</em> <foreign>May I leave the room early?</foreign></p>
 
       <ul>
         <li><p>Modal: _____</p></li>
         <li><p>Meaning: _____</p></li>
       </ul>
 
-      <p><em>17.</em> Explain the difference between the two uses of <em>must</em>:</p>
+      <p><em>Exercise 16.</em> <foreign>They could have won the game if they had practiced more.</foreign></p>
 
       <ul>
-        <li><p>a) <em>You must wear a seatbelt.</em> (Meaning type: _____)</p></li>
-        <li><p>b) <em>She's not answering the phone. She must be asleep.</em> (Meaning type: _____)</p></li>
+        <li><p>Modal: _____</p></li>
+        <li><p>Meaning: _____</p></li>
+      </ul>
+
+      <p><em>Exercise 17.</em> Explain the difference between the two uses of <foreign>must</foreign>:</p>
+
+      <ul>
+        <li><p>a) <foreign>You must wear a seatbelt.</foreign> (Meaning type: _____)</p></li>
+        <li><p>b) <foreign>She's not answering the phone. She must be asleep.</foreign> (Meaning type: _____)</p></li>
       </ul>
 
     </subsection>
@@ -767,41 +787,48 @@
     <subsection xml:id="ch-11-homework-part-4">
       <title>Part 4: Sentence Writing</title>
 
-      <p><em>Instructions:</em> Write original sentences following each prompt.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Write original sentences following each prompt.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Write a sentence in passive voice where the agent is unknown:</em></p>
+      <p>Write a sentence in passive voice where the agent is unknown:</p>
 
-      <p><em>My car was broken into last night.</em></p>
+      <p><foreign>My car was broken into last night.</foreign></p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><em>18.</em> Write a sentence in passive voice appropriate for scientific writing (focusing on method, not researcher):</p>
-
-      <ul>
-        <li><p>Answer: _____</p></li>
-      </ul>
-
-      <p><em>19.</em> Write a sentence using <em>should have + past participle</em> to express criticism or regret about something that did not happen:</p>
-
-      <ul>
-        <li><p>Answer: _____</p></li>
-      </ul>
-
-      <p><em>20.</em> Write a sentence using <em>must</em> to express a logical deduction (not obligation):</p>
+      <p><em>Exercise 18.</em> Write a sentence in passive voice appropriate for scientific writing (focusing on method, not researcher):</p>
 
       <ul>
         <li><p>Answer: _____</p></li>
       </ul>
 
-      <p><em>21.</em> Write a sentence using <em>could</em> to express a past possibility that did not happen:</p>
+      <p><em>Exercise 19.</em> Write a sentence using <foreign>should have</foreign> + past participle to express criticism or regret about something that did not happen:</p>
 
       <ul>
         <li><p>Answer: _____</p></li>
       </ul>
 
-      <p><em>22.</em> Write a sentence using the get-passive to describe an unexpected event:</p>
+      <p><em>Exercise 20.</em> Write a sentence using <foreign>must</foreign> to express a logical deduction (not obligation):</p>
+
+      <ul>
+        <li><p>Answer: _____</p></li>
+      </ul>
+
+      <p><em>Exercise 21.</em> Write a sentence using <foreign>could</foreign> to express a past possibility that did not happen:</p>
+
+      <ul>
+        <li><p>Answer: _____</p></li>
+      </ul>
+
+      <p><em>Exercise 22.</em> Write a sentence using the get-passive to describe an unexpected event:</p>
 
       <ul>
         <li><p>Answer: _____</p></li>
@@ -812,15 +839,22 @@
     <subsection xml:id="ch-11-homework-part-5">
       <title>Part 5: Analysis and Application</title>
 
-      <p><em>Instructions:</em> Read the passage below and answer the questions.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Read the passage below and answer the questions.</p>
 
-      <p><em>Passage:</em></p>
+      <paragraphs>
+        <title>Passage</title>
+      </paragraphs>
 
-      <p><em>The new policy was announced yesterday by the CEO. All employees must submit their feedback by next Friday. According to management, the changes should improve workplace efficiency. Some workers believe the policy might create additional challenges. However, the final decision will be made after all responses have been reviewed.</em></p>
+      <p><foreign>The new policy was announced yesterday by the CEO. All employees must submit their feedback by next Friday. According to management, the changes should improve workplace efficiency. Some workers believe the policy might create additional challenges. However, the final decision will be made after all responses have been reviewed.</foreign></p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><em>23.</em> Identify all passive voice constructions in the passage. For each, explain why the writer might have chosen passive over active voice.</p>
+      <p><em>Exercise 23.</em> Identify all passive voice constructions in the passage. For each, explain why the writer might have chosen passive over active voice.</p>
 
       <ul>
         <li><p>Passive construction 1: _____</p></li>
@@ -829,7 +863,7 @@
         <li><p>Reason: _____</p></li>
       </ul>
 
-      <p><em>24.</em> Identify the modals in the passage and classify each as expressing epistemic modality (about certainty/possibility) or deontic modality (about obligation/permission):</p>
+      <p><em>Exercise 24.</em> Identify the modals in the passage and classify each as expressing epistemic modality (about certainty/possibility) or deontic modality (about obligation/permission):</p>
 
       <ul>
         <li><p>Modal 1: _____</p></li>
@@ -840,7 +874,7 @@
         <li><p>Type: _____</p></li>
       </ul>
 
-      <p><em>25.</em> Consider this active sentence: <em>The manager rejected the proposal.</em></p>
+      <p><em>Exercise 25.</em> Consider this active sentence: <foreign>The manager rejected the proposal.</foreign></p>
 
       <ul>
         <li><p>a) Rewrite it in passive voice: _____</p></li>
@@ -861,7 +895,7 @@
       <title>Modal Examples</title>
 
       <paragraphs>
-        <title>11.8.1 A: Modal + verb: <em>will eat</em></title>
+        <title>11.8.1 A: Modal + verb: will eat</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_modal.png" width="25%">
         <description>Syntax tree for "will eat" showing modal with verb</description>
@@ -869,7 +903,7 @@
       <p><c>[VP [MOD will] [V eat]]</c></p>
 
       <paragraphs>
-        <title>11.8.1 B: Modal + perfect: <em>will have eaten</em></title>
+        <title>11.8.1 B: Modal + perfect: will have eaten</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_modal_perfect.png" width="35%">
         <description>Syntax tree for "will have eaten" showing modal with perfect</description>
@@ -877,7 +911,7 @@
       <p><c>[VP [MOD will] [AUX have] [V eaten]]</c></p>
 
       <paragraphs>
-        <title>11.8.1 C: Complex VP (modal + perfect + progressive): <em>should have been studying</em></title>
+        <title>11.8.1 C: Complex VP (modal + perfect + progressive): should have been studying</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_complex.png" width="45%">
         <description>Syntax tree for "should have been studying"</description>
@@ -885,7 +919,7 @@
       <p><c>[VP [MOD should] [AUX have] [AUX been] [V studying]]</c></p>
 
       <paragraphs>
-        <title>11.8.1 D: Full complex VP: <em>will have been being eaten</em></title>
+        <title>11.8.1 D: Full complex VP: will have been being eaten</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_full_complex.png" width="55%">
         <description>Syntax tree for "will have been being eaten" showing all auxiliaries</description>
@@ -897,7 +931,7 @@
       <title>Passive Voice</title>
 
       <paragraphs>
-        <title>11.8.2 A: Passive with by-phrase: <em>was written by Maria</em></title>
+        <title>11.8.2 A: Passive with by-phrase: was written by Maria</title>
       </paragraphs>
       <image source="diagrams/new/ch16_passive_by.png" width="45%">
         <description>Syntax tree for "was written by Maria" showing passive with agent</description>
@@ -927,7 +961,7 @@
     </gi>
     <gi>
       <title>Modal auxiliary</title>
-      <p>An auxiliary verb expressing possibility, necessity, permission, etc.</p>
+      <p>An auxiliary verb expressing possibility, necessity, permission, etc. The nine modals are <foreign>can, could, will, would, shall, should, may, might, must</foreign>.</p>
     </gi>
     <gi>
       <title>Passive voice</title>
@@ -939,7 +973,7 @@
     </gi>
     <gi>
       <title>Semi-modal</title>
-      <p>A multi-word expression functioning like a modal (have to, be able to).</p>
+      <p>A multi-word expression functioning like a modal (<foreign>have to</foreign>, <foreign>be able to</foreign>).</p>
     </gi>
     <gi>
       <title>Voice</title>

@@ -80,7 +80,7 @@ Last updated: 2026-02-14
 - Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element
 - Font size at 0.95em — refined to 0.9em for better sans-serif rendering consistency
 
-**Context:** Chapters 1-9 formatting approved by user and fully documented. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
+**Context:** Chapters 1-10 formatting approved by user and fully documented. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
 
 ## Chapter 7 Major Revision (Task 16)
 

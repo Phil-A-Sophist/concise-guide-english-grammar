@@ -199,5 +199,5 @@ Verify:
 - [x] Chapter 7 (full improvement: formatting + homework + Word files, Task 17)
 - [x] Chapter 8 (full improvement: formatting + homework + Word files, Task 18)
 - [x] Chapter 9 (full improvement: formatting + homework + Word files, Task 19)
-- [ ] Chapter 10 (starting Task 20)
+- [x] Chapter 10 (full improvement: formatting + homework + Word files, Task 20)
 - [ ] Chapter 11-21
