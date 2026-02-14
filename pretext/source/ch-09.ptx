@@ -25,7 +25,6 @@
       <li><p>Relative clause</p></li>
       <li><p>Adverb clause</p></li>
       <li><p>Noun clause</p></li>
-      <li><p>--</p></li>
     </ul>
   </objectives>
 
@@ -43,22 +42,22 @@
       <row>
         <cell>Simple</cell>
         <cell>One independent clause</cell>
-        <cell>The dog barked.</cell>
+        <cell><foreign>The dog barked.</foreign></cell>
       </row>
       <row>
         <cell>Compound</cell>
         <cell>Two+ independent clauses</cell>
-        <cell>The dog barked, and the cat hid.</cell>
+        <cell><foreign>The dog barked, and the cat hid.</foreign></cell>
       </row>
       <row>
         <cell>Complex</cell>
         <cell>One independent + one+ dependent clause</cell>
-        <cell>The dog barked when the mail arrived.</cell>
+        <cell><foreign>The dog barked when the mail arrived.</foreign></cell>
       </row>
       <row>
         <cell>Compound-complex</cell>
         <cell>Two+ independent + one+ dependent clause</cell>
-        <cell>The dog barked when the mail arrived, and the cat hid under the bed.</cell>
+        <cell><foreign>The dog barked when the mail arrived, and the cat hid under the bed.</foreign></cell>
       </row>
     </tabular>
 
@@ -69,18 +68,18 @@
   <section xml:id="ch-09-compound-and-complex-sentences-sec-92">
     <title>Simple Sentences</title>
 
-    <p>A <em>simple sentence</em> contains one independent clause—a subject-predicate unit that expresses a complete thought.</p>
+    <p>A <term>simple sentence</term> contains one independent clause—a subject-predicate unit that expresses a complete thought.</p>
 
-    <p><em>The students studied.</em></p>
+    <p><q><foreign>The students studied.</foreign></q></p>
 
-    <p><em>My neighbor's talented daughter won the competition last week.</em></p>
+    <p><q><foreign>My neighbor's talented daughter won the competition last week.</foreign></q></p>
 
     <p>Simple sentences can be long if they have compound subjects, compound predicates, or extensive modification:</p>
 
     <ul>
-      <li><p>Compound subject: "Marcus <em>and</em> Elena traveled to Spain." (still simple—one predicate)</p></li>
-      <li><p>Compound predicate: <em>The dog <em>barked</em> and <em>chased</em> the squirrel.</em> (still simple—one subject)</p></li>
-      <li><p>Heavy modification: <em>The exhausted marathon runner from Kenya collapsed at the finish line.</em> (still simple—one clause)</p></li>
+      <li><p>Compound subject: <q><foreign>Marcus <em>and</em> Elena traveled to Spain.</foreign></q> (still simple—one predicate)</p></li>
+      <li><p>Compound predicate: <foreign>The dog <em>barked</em> and <em>chased</em> the squirrel.</foreign> (still simple—one subject)</p></li>
+      <li><p>Heavy modification: <foreign>The exhausted marathon runner from Kenya collapsed at the finish line.</foreign> (still simple—one clause)</p></li>
     </ul>
 
   </section>
@@ -88,7 +87,7 @@
   <section xml:id="ch-09-compound-and-complex-sentences-sec-93">
     <title>Compound Sentences</title>
 
-    <p>A <em>compound sentence</em> contains two or more <em>independent clauses</em> joined through coordination. Each clause could stand alone, but coordination shows the ideas are related.</p>
+    <p>A <term>compound sentence</term> contains two or more <em>independent clauses</em> joined through coordination. Each clause could stand alone, but coordination shows the ideas are related.</p>
 
     <paragraphs>
       <title>Creating Compound Sentences</title>
@@ -97,16 +96,16 @@
     <p>Independent clauses can be joined by:</p>
 
     <ol>
-      <li><p><em>Coordinating conjunction</em> (with comma): <em>The power went out, and we lit candles.</em></p></li>
-      <li><p>Semicolon: <em>The power went out; we lit candles.</em></p></li>
-      <li><p>Semicolon + conjunctive adverb: <em>The power went out; therefore, we lit candles.</em></p></li>
+      <li><p>Coordinating conjunction (with comma): <foreign>The power went out, and we lit candles.</foreign></p></li>
+      <li><p>Semicolon: <foreign>The power went out; we lit candles.</foreign></p></li>
+      <li><p>Semicolon + conjunctive adverb: <foreign>The power went out; therefore, we lit candles.</foreign></p></li>
     </ol>
 
     <paragraphs>
       <title>Coordinating Conjunctions (FANBOYS)</title>
     </paragraphs>
 
-    <p>The acronym <em>FANBOYS</em> helps you remember the seven coordinating conjunctions:</p>
+    <p>The acronym FANBOYS helps you remember the seven coordinating conjunctions:</p>
 
     <tabular>
       <row header="yes">
@@ -115,51 +114,51 @@
         <cell>Example</cell>
       </row>
       <row>
-        <cell>For</cell>
+        <cell><foreign>For</foreign></cell>
         <cell>reason/cause</cell>
-        <cell>"We hurried home, for a storm was approaching."</cell>
+        <cell><foreign>We hurried home, for a storm was approaching.</foreign></cell>
       </row>
       <row>
-        <cell>And</cell>
+        <cell><foreign>And</foreign></cell>
         <cell>addition</cell>
-        <cell>"She writes poetry, and he composes music."</cell>
+        <cell><foreign>She writes poetry, and he composes music.</foreign></cell>
       </row>
       <row>
-        <cell>Nor</cell>
+        <cell><foreign>Nor</foreign></cell>
         <cell>negative addition</cell>
-        <cell>"The store wasn't open, nor was anyone answering."</cell>
+        <cell><foreign>The store wasn't open, nor was anyone answering.</foreign></cell>
       </row>
       <row>
-        <cell>But</cell>
+        <cell><foreign>But</foreign></cell>
         <cell>contrast</cell>
-        <cell>"I finished the book, but I didn't understand it."</cell>
+        <cell><foreign>I finished the book, but I didn't understand it.</foreign></cell>
       </row>
       <row>
-        <cell>Or</cell>
+        <cell><foreign>Or</foreign></cell>
         <cell>alternative</cell>
-        <cell>"We can meet at noon, or we can reschedule."</cell>
+        <cell><foreign>We can meet at noon, or we can reschedule.</foreign></cell>
       </row>
       <row>
-        <cell>Yet</cell>
+        <cell><foreign>Yet</foreign></cell>
         <cell>contrast (surprising)</cell>
-        <cell>"The task seemed simple, yet it took hours."</cell>
+        <cell><foreign>The task seemed simple, yet it took hours.</foreign></cell>
       </row>
       <row>
-        <cell>So</cell>
+        <cell><foreign>So</foreign></cell>
         <cell>result/effect</cell>
-        <cell>"The restaurant was packed, so we ordered takeout."</cell>
+        <cell><foreign>The restaurant was packed, so we ordered takeout.</foreign></cell>
       </row>
     </tabular>
 
-    <p><em>Punctuation rule</em>: Place a <em>comma before</em> the conjunction when it joins two independent clauses:</p>
+    <p><em>Punctuation rule</em>: Place a comma before the conjunction when it joins two independent clauses:</p>
 
-    <p>"The lecture was fascinating<em>,</em> and I took detailed notes."</p>
+    <p><q><foreign>The lecture was fascinating<em>,</em> and I took detailed notes.</foreign></q></p>
 
     <paragraphs>
       <title>Conjunctive Adverbs</title>
     </paragraphs>
 
-    <p><em>Conjunctive adverbs</em> offer another way to connect independent clauses with more explicit relationships:</p>
+    <p><term>Conjunctive adverbs</term> offer another way to connect independent clauses with more explicit relationships:</p>
 
     <tabular>
       <row header="yes">
@@ -168,29 +167,29 @@
       </row>
       <row>
         <cell>Addition</cell>
-        <cell>moreover, furthermore, additionally, also</cell>
+        <cell><foreign>moreover, furthermore, additionally, also</foreign></cell>
       </row>
       <row>
         <cell>Contrast</cell>
-        <cell>however, nevertheless, nonetheless, instead</cell>
+        <cell><foreign>however, nevertheless, nonetheless, instead</foreign></cell>
       </row>
       <row>
         <cell>Result</cell>
-        <cell>therefore, thus, consequently, hence</cell>
+        <cell><foreign>therefore, thus, consequently, hence</foreign></cell>
       </row>
       <row>
         <cell>Time</cell>
-        <cell>meanwhile, subsequently, afterward, then</cell>
+        <cell><foreign>meanwhile, subsequently, afterward, then</foreign></cell>
       </row>
       <row>
         <cell>Example</cell>
-        <cell>for example, for instance, specifically</cell>
+        <cell><foreign>for example, for instance, specifically</foreign></cell>
       </row>
     </tabular>
 
-    <p><em>Punctuation</em>: Use a <em>semicolon before</em> and <em>comma after</em> the conjunctive adverb:</p>
+    <p><em>Punctuation</em>: Use a semicolon before and comma after the conjunctive adverb:</p>
 
-    <p><em>The experiment failed<em>;</em> however<em>,</em> we learned from the results.</em></p>
+    <p><q><foreign>The experiment failed<em>;</em> however<em>,</em> we learned from the results.</foreign></q></p>
 
     <paragraphs>
       <title>Compound vs. Compound Elements</title>
@@ -206,57 +205,58 @@
       </row>
       <row>
         <cell>Compound subject</cell>
-        <cell>"Marcus and Elena traveled."</cell>
+        <cell><foreign>Marcus and Elena traveled.</foreign></cell>
         <cell>Simple (one VP)</cell>
       </row>
       <row>
         <cell>Compound predicate</cell>
-        <cell>"The dog barked and chased the squirrel."</cell>
+        <cell><foreign>The dog barked and chased the squirrel.</foreign></cell>
         <cell>Simple (one subject)</cell>
       </row>
       <row>
         <cell>Compound sentence</cell>
-        <cell>"Marcus traveled, and Elena stayed."</cell>
+        <cell><foreign>Marcus traveled, and Elena stayed.</foreign></cell>
         <cell>Compound (two clauses)</cell>
       </row>
     </tabular>
 
     <p><em>Test</em>: Does each side of the conjunction have its own subject? If yes → compound sentence.</p>
 
+
   </section>
 
   <section xml:id="ch-09-compound-and-complex-sentences-sec-94">
     <title>Complex Sentences</title>
 
-    <p>A <em>complex sentence</em> contains one independent clause and at least one <em>dependent (subordinate) clause</em>. Unlike compound sentences, complex sentences create a hierarchy—one idea is primary, another is supporting.</p>
+    <p>A <term>complex sentence</term> contains one independent clause and at least one <term>dependent (subordinate) clause</term>. Unlike compound sentences, complex sentences create a hierarchy—one idea is primary, another is supporting.</p>
 
     <paragraphs>
       <title>Independent vs. Dependent Clauses</title>
     </paragraphs>
 
-    <p>An <em>independent clause</em> expresses a complete thought:</p>
+    <p>An <term>independent clause</term> expresses a complete thought:</p>
 
     <ul>
-      <li><p>The power flickered.</p></li>
-      <li><p>Everyone looked up.</p></li>
+      <li><p><foreign>The power flickered.</foreign></p></li>
+      <li><p><foreign>Everyone looked up.</foreign></p></li>
     </ul>
 
-    <p>A <em>dependent clause</em> has a subject and predicate but cannot stand alone:</p>
+    <p>A <term>dependent clause</term> has a subject and predicate but cannot stand alone:</p>
 
     <ul>
-      <li><p>When the power flickered (What happened?)</p></li>
-      <li><p>That everyone noticed (What about it?)</p></li>
+      <li><p><foreign>When the power flickered</foreign> (What happened?)</p></li>
+      <li><p><foreign>That everyone noticed</foreign> (What about it?)</p></li>
     </ul>
 
-    <p>The subordinating word (when, that, because, who) transforms an independent clause into a dependent one.</p>
+    <p>The subordinating word (<foreign>when, that, because, who</foreign>) transforms an independent clause into a dependent one.</p>
 
     <paragraphs>
       <title>Creating Complex Sentences</title>
     </paragraphs>
 
-    <p>"Everyone looked up <em>when the power flickered</em>."</p>
+    <p><q><foreign>Everyone looked up <em>when the power flickered</em>.</foreign></q></p>
 
-    <p>"The fact <em>that everyone noticed</em> surprised the speaker."</p>
+    <p><q><foreign>The fact <em>that everyone noticed</em> surprised the speaker.</foreign></q></p>
 
     <p>The dependent clause provides context, explanation, or specification for the main clause.</p>
 
@@ -281,53 +281,53 @@
       <title>Adverb Clauses (Adverbial Clauses)</title>
     </paragraphs>
 
-    <p><em>Adverb clauses</em> modify verbs, adjectives, or sentences, answering questions like when?, why?, under what conditions?</p>
+    <p><term>Adverb clauses</term> modify verbs, adjectives, or sentences, answering questions like when?, why?, under what conditions?</p>
 
     <p><em>Time</em>:</p>
 
     <ul>
-      <li><p>"We celebrated <em>when the results came in</em>."</p></li>
-      <li><p><em><em>After the concert ended</em>, the crowd dispersed.</em></p></li>
+      <li><p><foreign>We celebrated <em>when the results came in</em>.</foreign></p></li>
+      <li><p><foreign><em>After the concert ended</em>, the crowd dispersed.</foreign></p></li>
     </ul>
 
     <p><em>Reason</em>:</p>
 
     <ul>
-      <li><p>"She declined <em>because she had other plans</em>."</p></li>
-      <li><p><em><em>Since you asked</em>, I'll explain.</em></p></li>
+      <li><p><foreign>She declined <em>because she had other plans</em>.</foreign></p></li>
+      <li><p><foreign><em>Since you asked</em>, I'll explain.</foreign></p></li>
     </ul>
 
     <p><em>Contrast</em>:</p>
 
     <ul>
-      <li><p><em><em>Although the evidence was strong</em>, the jury was skeptical.</em></p></li>
-      <li><p>"The project succeeded <em>even though we faced obstacles</em>."</p></li>
+      <li><p><foreign><em>Although the evidence was strong</em>, the jury was skeptical.</foreign></p></li>
+      <li><p><foreign>The project succeeded <em>even though we faced obstacles</em>.</foreign></p></li>
     </ul>
 
     <p><em>Condition</em>:</p>
 
     <ul>
-      <li><p><em><em>If the weather improves</em>, we'll go hiking.</em></p></li>
-      <li><p>"I won't sign <em>unless you modify the contract</em>."</p></li>
+      <li><p><foreign><em>If the weather improves</em>, we'll go hiking.</foreign></p></li>
+      <li><p><foreign>I won't sign <em>unless you modify the contract</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Relative Clauses (Adjective Clauses)</title>
     </paragraphs>
 
-    <p><em>Relative clauses</em> modify nouns, specifying which person, thing, or place is meant. They're introduced by relative pronouns (who, whom, which, that, whose) or relative adverbs (where, when, why).</p>
+    <p><term>Relative clauses</term> modify nouns, specifying which person, thing, or place is meant. They're introduced by relative pronouns (<foreign>who, whom, which, that, whose</foreign>) or relative adverbs (<foreign>where, when, why</foreign>).</p>
 
     <ul>
-      <li><p>"The candidate <em>who impressed the committee</em> received the position."</p></li>
-      <li><p>"The novel <em>that won the award</em> explores identity."</p></li>
-      <li><p>"This is the park <em>where we first met</em>."</p></li>
+      <li><p><foreign>The candidate <em>who impressed the committee</em> received the position.</foreign></p></li>
+      <li><p><foreign>The novel <em>that won the award</em> explores identity.</foreign></p></li>
+      <li><p><foreign>This is the park <em>where we first met</em>.</foreign></p></li>
     </ul>
 
     <p><em>Restrictive vs. Non-restrictive</em>:</p>
 
     <ul>
-      <li><p><em>Restrictive</em> (essential): "The students <em>who studied</em> passed." (specifies which students)</p></li>
-      <li><p><em>Non-restrictive</em> (additional info): "My sister, <em>who lives in Boston</em>, visited." (adds information about the only sister)</p></li>
+      <li><p><em>Restrictive</em> (essential): <foreign>The students <em>who studied</em> passed.</foreign> (specifies which students)</p></li>
+      <li><p><em>Non-restrictive</em> (additional info): <foreign>My sister, <em>who lives in Boston</em>, visited.</foreign> (adds information about the only sister)</p></li>
     </ul>
 
     <p>Non-restrictive clauses are set off with commas.</p>
@@ -336,20 +336,20 @@
       <title>Noun Clauses</title>
     </paragraphs>
 
-    <p><em>Noun clauses</em> function as noun phrases—subjects, objects, or complements. They're introduced by that, whether, if, or wh-words.</p>
+    <p><term>Noun clauses</term> function as noun phrases—subjects, objects, or complements. They're introduced by <foreign>that</foreign>, <foreign>whether</foreign>, <foreign>if</foreign>, or wh-words.</p>
 
-    <p><em>As subject</em>: That she resigned shocked the board.</p>
+    <p><em>As subject</em>: <foreign><em>That she resigned</em> shocked the board.</foreign></p>
 
-    <p><em>As direct object</em>: "I understand <em>that you're frustrated</em>."</p>
+    <p><em>As direct object</em>: <foreign>I understand <em>that you're frustrated</em>.</foreign></p>
 
-    <p><em>As complement</em>: "The problem is <em>that we underestimated demand</em>."</p>
+    <p><em>As complement</em>: <foreign>The problem is <em>that we underestimated demand</em>.</foreign></p>
 
   </section>
 
   <section xml:id="ch-09-compound-and-complex-sentences-sec-96">
     <title>Subordinating Conjunctions</title>
 
-    <p><em>Subordinating conjunctions</em> introduce adverb clauses and specify relationships:</p>
+    <p><term>Subordinating conjunctions</term> introduce adverb clauses and specify relationships:</p>
 
     <tabular>
       <row header="yes">
@@ -358,27 +358,27 @@
       </row>
       <row>
         <cell>Time</cell>
-        <cell>when, while, before, after, until, since, as, once, whenever, as soon as</cell>
+        <cell><foreign>when, while, before, after, until, since, as, once, whenever, as soon as</foreign></cell>
       </row>
       <row>
         <cell>Cause/Reason</cell>
-        <cell>because, since, as, given that, now that</cell>
+        <cell><foreign>because, since, as, given that, now that</foreign></cell>
       </row>
       <row>
         <cell>Contrast</cell>
-        <cell>although, though, even though, while, whereas, even if</cell>
+        <cell><foreign>although, though, even though, while, whereas, even if</foreign></cell>
       </row>
       <row>
         <cell>Condition</cell>
-        <cell>if, unless, provided that, in case, assuming that, as long as</cell>
+        <cell><foreign>if, unless, provided that, in case, assuming that, as long as</foreign></cell>
       </row>
       <row>
         <cell>Purpose</cell>
-        <cell>so that, in order that</cell>
+        <cell><foreign>so that, in order that</foreign></cell>
       </row>
       <row>
         <cell>Manner</cell>
-        <cell>as, as if, as though</cell>
+        <cell><foreign>as, as if, as though</foreign></cell>
       </row>
     </tabular>
 
@@ -394,19 +394,19 @@
     <p><em>With coordinating conjunction</em>: comma before conjunction</p>
 
     <ul>
-      <li><p>"It rained, <em>and</em> we stayed inside."</p></li>
+      <li><p><foreign>It rained, <em>and</em> we stayed inside.</foreign></p></li>
     </ul>
 
     <p><em>With semicolon only</em>: no conjunction needed</p>
 
     <ul>
-      <li><p>It rained; we stayed inside.</p></li>
+      <li><p><foreign>It rained; we stayed inside.</foreign></p></li>
     </ul>
 
     <p><em>With conjunctive adverb</em>: semicolon before, comma after</p>
 
     <ul>
-      <li><p>"It rained; <em>therefore,</em> we stayed inside."</p></li>
+      <li><p><foreign>It rained; <em>therefore,</em> we stayed inside.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -416,25 +416,25 @@
     <p><em>Dependent clause first</em>: comma after the clause</p>
 
     <ul>
-      <li><p>When it rained, we stayed inside.</p></li>
+      <li><p><foreign><em>When it rained</em>, we stayed inside.</foreign></p></li>
     </ul>
 
     <p><em>Dependent clause last</em>: usually no comma</p>
 
     <ul>
-      <li><p>"We stayed inside <em>when it rained</em>."</p></li>
+      <li><p><foreign>We stayed inside <em>when it rained</em>.</foreign></p></li>
     </ul>
 
     <p><em>Non-restrictive relative clauses</em>: commas around</p>
 
     <ul>
-      <li><p>"My brother, <em>who lives in Seattle</em>, visited."</p></li>
+      <li><p><foreign>My brother, <em>who lives in Seattle</em>, visited.</foreign></p></li>
     </ul>
 
     <p><em>Restrictive relative clauses</em>: no commas</p>
 
     <ul>
-      <li><p>"The brother <em>who lives in Seattle</em> visited."</p></li>
+      <li><p><foreign>The brother <em>who lives in Seattle</em> visited.</foreign></p></li>
     </ul>
 
   </section>
@@ -446,26 +446,26 @@
       <title>Comma Splices</title>
     </paragraphs>
 
-    <p>A <em>comma splice</em> joins two independent clauses with only a comma (no conjunction):</p>
+    <p>A <term>comma splice</term> joins two independent clauses with only a comma (no conjunction):</p>
 
-    <p><em>~~The concert ended, the crowd cheered.~~</em> ✗</p>
+    <p><foreign><delete>The concert ended, the crowd cheered.</delete></foreign> ✗</p>
 
     <p><em>Fixes</em>:</p>
 
     <ul>
-      <li><p>Add conjunction: "The concert ended, <em>and</em> the crowd cheered."</p></li>
-      <li><p>Use semicolon: <em>The concert ended; the crowd cheered.</em></p></li>
-      <li><p>Make two sentences: <em>The concert ended. The crowd cheered.</em></p></li>
-      <li><p>Subordinate: When the concert ended, the crowd cheered.</p></li>
+      <li><p>Add conjunction: <foreign>The concert ended, <em>and</em> the crowd cheered.</foreign></p></li>
+      <li><p>Use semicolon: <foreign>The concert ended; the crowd cheered.</foreign></p></li>
+      <li><p>Make two sentences: <foreign>The concert ended. The crowd cheered.</foreign></p></li>
+      <li><p>Subordinate: <foreign>When the concert ended, the crowd cheered.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Run-On Sentences (Fused Sentences)</title>
     </paragraphs>
 
-    <p>A <em>run-on</em> joins independent clauses with no punctuation:</p>
+    <p>A <term>run-on sentence</term> joins independent clauses with no punctuation:</p>
 
-    <p><em>~~The concert ended the crowd cheered.~~</em> ✗</p>
+    <p><foreign><delete>The concert ended the crowd cheered.</delete></foreign> ✗</p>
 
     <p><em>Fixes</em>: Same as comma splices.</p>
 
@@ -481,9 +481,9 @@
     <p>Use compound sentences when ideas are:</p>
 
     <ul>
-      <li><p>Equally important: <em>She applied, and she got the job.</em></p></li>
-      <li><p>Contrasting equally: <em>It looked easy, but it was difficult.</em></p></li>
-      <li><p>Part of a sequence: <em>He entered, he looked around, and he left.</em></p></li>
+      <li><p>Equally important: <foreign>She applied, and she got the job.</foreign></p></li>
+      <li><p>Contrasting equally: <foreign>It looked easy, but it was difficult.</foreign></p></li>
+      <li><p>Part of a sequence: <foreign>He entered, he looked around, and he left.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -493,18 +493,18 @@
     <p>Use complex sentences when:</p>
 
     <ul>
-      <li><p>One idea supports another: "She got the job <em>because she prepared well</em>."</p></li>
-      <li><p>You want to emphasize the main clause: <em><em>Although it was difficult</em>, she succeeded.</em></p></li>
-      <li><p>Showing time, cause, or condition: "Call me <em>if you need help</em>."</p></li>
+      <li><p>One idea supports another: <foreign>She got the job <em>because she prepared well</em>.</foreign></p></li>
+      <li><p>You want to emphasize the main clause: <foreign><em>Although it was difficult</em>, she succeeded.</foreign></p></li>
+      <li><p>Showing time, cause, or condition: <foreign>Call me <em>if you need help</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Combining Both</title>
     </paragraphs>
 
-    <p><em>Compound-complex sentences</em> combine coordination and subordination:</p>
+    <p><term>Compound-complex sentences</term> combine coordination and subordination:</p>
 
-    <p><em>The dog barked <em>when the mail arrived</em>, <em>and</em> the cat hid under the bed.</em></p>
+    <p><q><foreign>The dog barked <em>when the mail arrived</em>, <em>and</em> the cat hid under the bed.</foreign></q></p>
 
     <p>This shows temporal relationships (complex) while presenting two reactions as equal (compound).</p>
 
@@ -516,56 +516,63 @@
     <subsection xml:id="ch-09-homework-part1">
       <title>Part 1: Sentence Type Identification</title>
 
-      <p><em>Instructions:</em> For each sentence, identify the sentence type (simple, compound, complex, or compound-complex) and identify all clauses. Label each clause as independent (IC) or dependent (DC).</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence, identify the sentence type (simple, compound, complex, or compound-complex) and identify all clauses. Label each clause as independent (IC) or dependent (DC).</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> <em>Although the weather was terrible, the athletes competed fiercely, and the crowd cheered enthusiastically.</em></p>
+      <p><em>Sentence:</em> <foreign>Although the weather was terrible, the athletes competed fiercely, and the crowd cheered enthusiastically.</foreign></p>
 
       <p>Sentence type: Compound-complex</p>
 
       <p>Clauses:</p>
       <ul>
-        <li><p>Although the weather was terrible — DC (adverb clause)</p></li>
-        <li><p>the athletes competed fiercely — IC</p></li>
-        <li><p>the crowd cheered enthusiastically — IC</p></li>
+        <li><p><foreign>Although the weather was terrible</foreign> — DC (adverb clause)</p></li>
+        <li><p><foreign>the athletes competed fiercely</foreign> — IC</p></li>
+        <li><p><foreign>the crowd cheered enthusiastically</foreign> — IC</p></li>
       </ul>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>1. <em>The professor who taught my linguistics class has retired, but she still occasionally gives guest lectures.</em></p>
+      <p><em>Exercise 1.</em> <foreign>The professor who taught my linguistics class has retired, but she still occasionally gives guest lectures.</foreign></p>
       <ul>
         <li><p>Sentence type: _______</p></li>
         <li><p>Clauses (identify each as IC or DC and classify any dependent clauses by type): _______</p></li>
       </ul>
 
-      <p>2. <em>Because the deadline was extended, I had time to revise my paper thoroughly.</em></p>
+      <p><em>Exercise 2.</em> <foreign>Because the deadline was extended, I had time to revise my paper thoroughly.</foreign></p>
       <ul>
         <li><p>Sentence type: _______</p></li>
         <li><p>Clauses: _______</p></li>
       </ul>
 
-      <p>3. <em>The exhausted marathon runner from Kenya and her experienced coach celebrated after the race.</em></p>
+      <p><em>Exercise 3.</em> <foreign>The exhausted marathon runner from Kenya and her experienced coach celebrated after the race.</foreign></p>
       <ul>
         <li><p>Sentence type: _______</p></li>
         <li><p>Clauses: _______</p></li>
       </ul>
 
-      <p>4. Identify the dependent clause in each sentence and classify it as an adverb clause, relative clause, or noun clause:</p>
+      <p><em>Exercise 4.</em> Identify the dependent clause in each sentence and classify it as an adverb clause, relative clause, or noun clause:</p>
 
-      <p>a) <em>The candidate who impressed the committee received the position.</em></p>
+      <p>a) <foreign>The candidate who impressed the committee received the position.</foreign></p>
       <ul>
         <li><p>Dependent clause: _______</p></li>
         <li><p>Type: _______</p></li>
       </ul>
 
-      <p>b) <em>I wonder whether she received my message.</em></p>
+      <p>b) <foreign>I wonder whether she received my message.</foreign></p>
       <ul>
         <li><p>Dependent clause: _______</p></li>
         <li><p>Type: _______</p></li>
       </ul>
 
-      <p>c) <em>We will leave when the meeting ends.</em></p>
+      <p>c) <foreign>We will leave when the meeting ends.</foreign></p>
       <ul>
         <li><p>Dependent clause: _______</p></li>
         <li><p>Type: _______</p></li>
@@ -576,28 +583,33 @@
     <subsection xml:id="ch-09-homework-part2">
       <title>Part 2: Sentence Completion</title>
 
-      <p><em>Instructions:</em> Complete each sentence with the requested element.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Complete each sentence with the requested element.</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>5. Add a coordinating conjunction (FANBOYS) to create a compound sentence:</p>
+      <p><em>Exercise 5.</em> Add a coordinating conjunction (FANBOYS) to create a compound sentence:</p>
       <ul>
-        <li><p>The evidence was compelling ________ the jury remained skeptical.</p></li>
+        <li><p><foreign>The evidence was compelling ________ the jury remained skeptical.</foreign></p></li>
       </ul>
 
-      <p>6. Add a subordinating conjunction to create a complex sentence:</p>
+      <p><em>Exercise 6.</em> Add a subordinating conjunction to create a complex sentence:</p>
       <ul>
-        <li><p>________ you finish your assignment, you may leave early.</p></li>
+        <li><p><foreign>________ you finish your assignment, you may leave early.</foreign></p></li>
       </ul>
 
-      <p>7. Add an appropriate conjunctive adverb with correct punctuation:</p>
+      <p><em>Exercise 7.</em> Add an appropriate conjunctive adverb with correct punctuation:</p>
       <ul>
-        <li><p>The experiment produced unexpected results ________ the team decided to repeat it.</p></li>
+        <li><p><foreign>The experiment produced unexpected results ________ the team decided to repeat it.</foreign></p></li>
       </ul>
 
-      <p>8. Add a dependent clause to complete this sentence:</p>
+      <p><em>Exercise 8.</em> Add a dependent clause to complete this sentence:</p>
       <ul>
-        <li><p>The professor praised the students ________.</p></li>
+        <li><p><foreign>The professor praised the students ________.</foreign></p></li>
       </ul>
 
     </subsection>
@@ -605,26 +617,31 @@
     <subsection xml:id="ch-09-homework-part3">
       <title>Part 3: Sentence Writing</title>
 
-      <p><em>Instructions:</em> Write original sentences following each prompt.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Write original sentences following each prompt.</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>9. Write a compound sentence using a semicolon and a conjunctive adverb (such as however, therefore, moreover, consequently):</p>
+      <p><em>Exercise 9.</em> Write a compound sentence using a semicolon and a conjunctive adverb (such as <foreign>however</foreign>, <foreign>therefore</foreign>, <foreign>moreover</foreign>, <foreign>consequently</foreign>):</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p>10. Write a complex sentence with an adverb clause showing cause or reason (use because, since, or as):</p>
+      <p><em>Exercise 10.</em> Write a complex sentence with an adverb clause showing cause or reason (use <foreign>because</foreign>, <foreign>since</foreign>, or <foreign>as</foreign>):</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p>11. Write a complex sentence containing a relative clause that modifies the subject:</p>
+      <p><em>Exercise 11.</em> Write a complex sentence containing a relative clause that modifies the subject:</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p>12. Write a compound-complex sentence (two independent clauses + at least one dependent clause):</p>
+      <p><em>Exercise 12.</em> Write a compound-complex sentence (two independent clauses + at least one dependent clause):</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
@@ -634,31 +651,38 @@
     <subsection xml:id="ch-09-homework-part4">
       <title>Part 4: Error Correction</title>
 
-      <p><em>Instructions:</em> Each sentence below contains a comma splice or run-on error. Provide two different corrections for each.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Each sentence below contains a comma splice or run-on error. Provide two different corrections for each.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Error:</em> <em>The lecture was fascinating, I took detailed notes.</em></p>
+      <p><em>Error:</em> <foreign><delete>The lecture was fascinating, I took detailed notes.</delete></foreign></p>
 
-      <p>Correction 1: <em>The lecture was fascinating, <term>and</term> I took detailed notes.</em> (added coordinating conjunction)</p>
+      <p>Correction 1: <foreign>The lecture was fascinating, <em>and</em> I took detailed notes.</foreign> (added coordinating conjunction)</p>
 
-      <p>Correction 2: <em>The lecture was fascinating<term>;</term> I took detailed notes.</em> (replaced comma with semicolon)</p>
+      <p>Correction 2: <foreign>The lecture was fascinating<em>;</em> I took detailed notes.</foreign> (replaced comma with semicolon)</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>13. <em>The assignment was challenging, many students struggled to finish it on time.</em></p>
+      <p><em>Exercise 13.</em> <foreign><delete>The assignment was challenging, many students struggled to finish it on time.</delete></foreign></p>
       <ul>
         <li><p>Correction 1: _______</p></li>
         <li><p>Correction 2: _______</p></li>
       </ul>
 
-      <p>14. <em>She enjoys hiking he prefers swimming.</em></p>
+      <p><em>Exercise 14.</em> <foreign><delete>She enjoys hiking he prefers swimming.</delete></foreign></p>
       <ul>
         <li><p>Correction 1: _______</p></li>
         <li><p>Correction 2: _______</p></li>
       </ul>
 
-      <p>15. <em>The restaurant was crowded, we decided to order takeout instead.</em></p>
+      <p><em>Exercise 15.</em> <foreign><delete>The restaurant was crowded, we decided to order takeout instead.</delete></foreign></p>
       <ul>
         <li><p>Correction 1: _______</p></li>
         <li><p>Correction 2: _______</p></li>
@@ -669,13 +693,18 @@
     <subsection xml:id="ch-09-homework-part5">
       <title>Part 5: Analysis and Reflection</title>
 
-      <p><em>Instructions:</em> Answer the following questions about coordination and subordination.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Answer the following questions about coordination and subordination.</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>16. The following sentence uses coordination:</p>
+      <p><em>Exercise 16.</em> The following sentence uses coordination:</p>
 
-      <p><em>The experiment failed, and the researchers were disappointed.</em></p>
+      <p><foreign>The experiment failed, and the researchers were disappointed.</foreign></p>
 
       <p>a) Rewrite this sentence using subordination to emphasize the researchers' disappointment:</p>
       <ul>
@@ -692,9 +721,9 @@
         <li><p>_______</p></li>
       </ul>
 
-      <p>17. Read the following passage and answer the questions:</p>
+      <p><em>Exercise 17.</em> Read the following passage and answer the questions:</p>
 
-      <p><em>When the storm began, the hikers sought shelter. They found a small cave, and they waited there for hours. Although they were cold and hungry, they remained calm because they had prepared for emergencies.</em></p>
+      <p><foreign>When the storm began, the hikers sought shelter. They found a small cave, and they waited there for hours. Although they were cold and hungry, they remained calm because they had prepared for emergencies.</foreign></p>
 
       <p>a) Identify all independent and dependent clauses in the passage:</p>
       <ul>
@@ -707,7 +736,7 @@
         <li><p>_______</p></li>
       </ul>
 
-      <p>18. In 3-4 sentences, explain when a writer should choose coordination over subordination (or vice versa). What effect does each choice have on emphasis and the relationship between ideas? Provide an example to illustrate your point.</p>
+      <p><em>Exercise 18.</em> In 3-4 sentences, explain when a writer should choose coordination over subordination (or vice versa). What effect does each choice have on emphasis and the relationship between ideas? Provide an example to illustrate your point.</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
@@ -725,7 +754,7 @@
       <title>Coordination</title>
 
       <paragraphs>
-        <title>9.8.1 A: Coordinated independent clauses: <em>I laugh and you cry.</em></title>
+        <title>9.8.1 A: Coordinated independent clauses: I laugh and you cry.</title>
       </paragraphs>
       <image source="diagrams/new/ch09_coordination.png" width="50%">
         <description>Syntax tree for "I laugh and you cry" showing two coordinated sentences</description>
@@ -737,7 +766,7 @@
       <title>Subordination</title>
 
       <paragraphs>
-        <title>9.8.2 A: Dependent clause second: <em>I laugh because you cry.</em></title>
+        <title>9.8.2 A: Dependent clause second: I laugh because you cry.</title>
       </paragraphs>
       <image source="diagrams/new/ch09_subord_dc_second.png" width="55%">
         <description>Syntax tree for "I laugh because you cry" with dependent clause following</description>
@@ -745,7 +774,7 @@
       <p><c>[S [IC [NP [PRON I]] [VP [V laugh]]] [DC [SUB because] [NP [PRON you]] [VP [V cry]]]]</c></p>
 
       <paragraphs>
-        <title>9.8.2 B: Dependent clause first: <em>Because you cry, I laugh.</em></title>
+        <title>9.8.2 B: Dependent clause first: Because you cry, I laugh.</title>
       </paragraphs>
       <image source="diagrams/new/ch09_subord_dc_first.png" width="55%">
         <description>Syntax tree for "Because you cry, I laugh" with dependent clause first</description>
@@ -753,7 +782,7 @@
       <p><c>[S [DC [SUB Because] [NP [PRON you]] [VP [V cry]]] [IC [NP [PRON I]] [VP [V laugh]]]]</c></p>
 
       <paragraphs>
-        <title>9.8.2 C: Adverbial clause: <em>When it rained, they stayed.</em></title>
+        <title>9.8.2 C: Adverbial clause: When it rained, they stayed.</title>
       </paragraphs>
       <image source="diagrams/new/ch10_adverbial_clause.png" width="55%">
         <description>Syntax tree for "When it rained, they stayed" with adverbial dependent clause</description>
@@ -783,11 +812,11 @@
     </gi>
     <gi>
       <title>Conjunctive adverb</title>
-      <p>An adverb that connects independent clauses (however, therefore).</p>
+      <p>An adverb that connects independent clauses (<foreign>however</foreign>, <foreign>therefore</foreign>).</p>
     </gi>
     <gi>
       <title>Coordinating conjunction</title>
-      <p>A word that joins equal elements (FANBOYS: for, and, nor, but, or, yet, so).</p>
+      <p>A word that joins equal elements (FANBOYS: <foreign>for, and, nor, but, or, yet, so</foreign>).</p>
     </gi>
     <gi>
       <title>Dependent clause</title>
