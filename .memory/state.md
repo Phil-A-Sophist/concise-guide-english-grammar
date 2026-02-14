@@ -1,6 +1,6 @@
 # Project State
 
-Task: 17
+Task: 18
 Last updated: 2026-02-14
 
 ## Overview
@@ -8,18 +8,17 @@ Last updated: 2026-02-14
 
 ## Active Threads
 - **Systematic chapter improvement** — Working through chapters one at a time. Process documented in `.memory/chapter-improvement-process.md`. Each chapter gets: diagram audit, `<foreign>` formatting, homework review/fixes, Word file generation, build+push.
+- **Chapter 8 improvement (IN PROGRESS)** — Beginning the full improvement process for Chapter 8 (Basic Sentence Elements and Sentence Patterns). Steps: diagram audit (ch08_* PNGs exist in assets/diagrams/new/), `<foreign>` conversion, homework review/fixes, Word file generation, build+push.
 - **Language example formatting rollout** — Chapters 1-7 completed. Chapter 8 is next.
 - **Homework difficulty calibration** — Chapters 8+ homework was flagged as too difficult. Model after ch4-7 patterns (15-25 exercises, identification-heavy, scaffolded examples).
 
 ## Completed in Task 17
-- **Chapter 7 `<foreign>` conversion** — All language examples converted from `<em>` to `<foreign>` with context-appropriate markers. ~100+ edits across body text and homework.
-- **Chapter 7 homework formatting** — Exercise numbering fixed to `<em>Exercise N.</em>`, labels converted to `<paragraphs><title>` block format. Homework content assessed as appropriate (15 exercises, 5 parts).
-- **Chapter 7 Word files** — Generated Chapter 07 Homework.docx, Answer Key.docx, and Homework 07 Overhead.docx. Created `scripts/generate_ch07_answer_key.py`.
-- **Process documentation** — Created `.memory/chapter-improvement-process.md` for future sessions.
+- Chapter 7 `<foreign>` conversion, homework formatting, Word files (Homework, Answer Key, Overhead)
+- Process documentation created: `.memory/chapter-improvement-process.md`
 
 ## Next Steps
-- Improve Chapter 8 (next in sequence)
-- For each chapter: diagram audit → `<foreign>` conversion → homework fixes → Word files → build+push
+- Complete Chapter 8 improvement (diagram audit, `<foreign>`, homework, Word files, build+push)
+- Continue to Chapter 9 after Chapter 8 is done
 
 ## Notes
 - **Snapshot reminder:** Create `state-t20.md` at Task 20. No snapshots exist yet.
