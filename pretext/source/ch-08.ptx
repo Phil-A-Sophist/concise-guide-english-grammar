@@ -44,17 +44,17 @@
     <p><em>Examples:</em></p>
 
     <ul>
-      <li><p>The tall man walked slowly.</p></li>
-      <li><p>Three ambitious students from Pueblo study hard.</p></li>
-      <li><p>Swimming is fun.</p></li>
-      <li><p>What she said surprised everyone.</p></li>
+      <li><p><foreign>The tall man walked slowly.</foreign></p></li>
+      <li><p><foreign>Three ambitious students from Pueblo study hard.</foreign></p></li>
+      <li><p><foreign>Swimming is fun.</foreign></p></li>
+      <li><p><foreign>What she said surprised everyone.</foreign></p></li>
     </ul>
 
     <p><em>Finding the subject:</em></p>
 
     <ul>
-      <li><p>Ask &quot;Who or what [verb]?&quot;</p></li>
-      <li><p><em>The tall man walked.</em> → Who walked? → <em>The tall man</em></p></li>
+      <li><p>Ask <q><foreign>Who or what [verb]?</foreign></q></p></li>
+      <li><p><foreign>The tall man walked.</foreign> → Who walked? → <foreign>The tall man</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -66,9 +66,9 @@
     <p><em>Examples:</em></p>
 
     <ul>
-      <li><p>"The tall man <em>walked slowly</em>."</p></li>
-      <li><p>"Three students <em>study in the library every evening</em>."</p></li>
-      <li><p>"She <em>is a talented musician from Argentina</em>."</p></li>
+      <li><p><foreign>The tall man <em>walked slowly</em>.</foreign></p></li>
+      <li><p><foreign>Three students <em>study in the library every evening</em>.</foreign></p></li>
+      <li><p><foreign>She <em>is a talented musician from Argentina</em>.</foreign></p></li>
     </ul>
 
     <p><em>The predicate includes:</em></p>
@@ -91,16 +91,16 @@
         <cell>Predicate</cell>
       </row>
       <row>
-        <cell>Dogs</cell>
-        <cell>bark.</cell>
+        <cell><foreign>Dogs</foreign></cell>
+        <cell><foreign>bark.</foreign></cell>
       </row>
       <row>
-        <cell>The young artist</cell>
-        <cell>painted beautiful landscapes.</cell>
+        <cell><foreign>The young artist</foreign></cell>
+        <cell><foreign>painted beautiful landscapes.</foreign></cell>
       </row>
       <row>
-        <cell>My neighbor's daughter from next door</cell>
-        <cell>won the competition last week.</cell>
+        <cell><foreign>My neighbor's daughter from next door</foreign></cell>
+        <cell><foreign>won the competition last week.</foreign></cell>
       </row>
     </tabular>
 
@@ -115,14 +115,14 @@
       <title>Direct Objects</title>
     </paragraphs>
 
-    <p>The <em>direct object</em> receives the action of the verb. It answers &quot;What?&quot; or &quot;Whom?&quot;</p>
+    <p>The <em>direct object</em> receives the action of the verb. It answers <q><foreign>What?</foreign></q> or <q><foreign>Whom?</foreign></q></p>
 
     <p><em>Examples:</em></p>
 
     <ul>
-      <li><p>"Weasels stalk <em>rabbits</em>." (stalk what? → rabbits)</p></li>
-      <li><p>"She read <em>the book</em>." (read what? → the book)</p></li>
-      <li><p>"I saw <em>him</em>." (saw whom? → him)</p></li>
+      <li><p><foreign>Weasels stalk <em>rabbits</em>.</foreign> (stalk what? → rabbits)</p></li>
+      <li><p><foreign>She read <em>the book</em>.</foreign> (read what? → the book)</p></li>
+      <li><p><foreign>I saw <em>him</em>.</foreign> (saw whom? → him)</p></li>
     </ul>
 
     <p>Direct objects are always noun phrases (or clauses functioning as NPs).</p>
@@ -131,14 +131,14 @@
       <title>Indirect Objects</title>
     </paragraphs>
 
-    <p>The <em>indirect object</em> indicates the recipient or beneficiary of the action. It answers &quot;To whom?&quot; or &quot;For whom?&quot;</p>
+    <p>The <em>indirect object</em> indicates the recipient or beneficiary of the action. It answers <q><foreign>To whom?</foreign></q> or <q><foreign>For whom?</foreign></q></p>
 
     <p><em>Examples:</em></p>
 
     <ul>
-      <li><p>"Marie sent <em>Ramon</em> a birthday gift." (sent to whom? → Ramon)</p></li>
-      <li><p>"She gave <em>me</em> the book." (gave to whom? → me)</p></li>
-      <li><p>"He told <em>the students</em> a story." (told to whom? → the students)</p></li>
+      <li><p><foreign>Marie sent <em>Ramon</em> a birthday gift.</foreign> (sent to whom? → Ramon)</p></li>
+      <li><p><foreign>She gave <em>me</em> the book.</foreign> (gave to whom? → me)</p></li>
+      <li><p><foreign>He told <em>the students</em> a story.</foreign> (told to whom? → the students)</p></li>
     </ul>
 
     <p>Indirect objects:</p>
@@ -146,7 +146,7 @@
     <ul>
       <li><p>Appear between the verb and direct object</p></li>
       <li><p>Are always noun phrases</p></li>
-      <li><p>Can be rephrased with <em>to</em> or <em>for</em>: "She gave the book <em>to me</em>."</p></li>
+      <li><p>Can be rephrased with <q><foreign>to</foreign></q> or <q><foreign>for</foreign></q>: <q><foreign>She gave the book <em>to me</em>.</foreign></q></p></li>
     </ul>
 
     <paragraphs>
@@ -158,17 +158,17 @@
     <p><em>Examples:</em></p>
 
     <ul>
-      <li><p>"I am <em>an optimist</em>." (NP—identifies subject)</p></li>
-      <li><p>"The writers are <em>very cold</em>." (AdjP—describes subject)</p></li>
-      <li><p>"He seems <em>in trouble</em>." (PP—describes subject)</p></li>
+      <li><p><foreign>I am <em>an optimist</em>.</foreign> (NP—identifies subject)</p></li>
+      <li><p><foreign>The writers are <em>very cold</em>.</foreign> (AdjP—describes subject)</p></li>
+      <li><p><foreign>He seems <em>in trouble</em>.</foreign> (PP—describes subject)</p></li>
     </ul>
 
     <p>Subject complements can be:</p>
 
     <ul>
-      <li><p>Noun phrases: "She is <em>a nurse</em>."</p></li>
-      <li><p>Adjective phrases: "The trail looked <em>steep</em>."</p></li>
-      <li><p>Prepositional phrases: "He seems <em>in good spirits</em>."</p></li>
+      <li><p>Noun phrases: <foreign>She is <em>a nurse</em>.</foreign></p></li>
+      <li><p>Adjective phrases: <foreign>The trail looked <em>steep</em>.</foreign></p></li>
+      <li><p>Prepositional phrases: <foreign>He seems <em>in good spirits</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -180,9 +180,9 @@
     <p><em>Examples:</em></p>
 
     <ul>
-      <li><p>"The director considered the performance <em>a success</em>." (NP—identifies DO)</p></li>
-      <li><p>"The critic called the acting <em>brilliant</em>." (AdjP—describes DO)</p></li>
-      <li><p>"They elected her <em>president</em>." (NP—identifies DO)</p></li>
+      <li><p><foreign>The director considered the performance <em>a success</em>.</foreign> (NP—identifies DO)</p></li>
+      <li><p><foreign>The critic called the acting <em>brilliant</em>.</foreign> (AdjP—describes DO)</p></li>
+      <li><p><foreign>They elected her <em>president</em>.</foreign> (NP—identifies DO)</p></li>
     </ul>
 
     <p>Object complements can be noun phrases or adjective phrases.</p>
@@ -210,12 +210,12 @@
 
     <p><em>Test:</em> If you remove an argument, the sentence becomes ungrammatical or changes meaning dramatically.</p>
 
-    <p><em>She put the book on the table.</em></p>
+    <p><q><foreign>She put the book on the table.</foreign></q></p>
 
     <ul>
-      <li><p>Remove <em>the book</em>: <em>~~She put on the table.~~</em> ✗</p></li>
-      <li><p>Remove <em>on the table</em>: <em>~~She put the book.~~</em> ✗</p></li>
-      <li><p>All three elements are arguments of <em>put</em>.</p></li>
+      <li><p>Remove <foreign>the book</foreign>: <foreign><delete>She put on the table.</delete></foreign> ✗</p></li>
+      <li><p>Remove <foreign>on the table</foreign>: <foreign><delete>She put the book.</delete></foreign> ✗</p></li>
+      <li><p>All three elements are arguments of <q><foreign>put</foreign></q>.</p></li>
     </ul>
 
     <paragraphs>
@@ -227,19 +227,19 @@
     <p><em>Examples:</em></p>
 
     <ul>
-      <li><p>"Accidents happen <em>on Mondays</em>." (when)</p></li>
-      <li><p>"She spoke <em>quietly</em>." (how)</p></li>
-      <li><p><em><em>Unfortunately</em>, we lost.</em> (attitude)</p></li>
-      <li><p><em>He works <em>at the hospital</em> <em>every day</em>.</em> (where, when)</p></li>
+      <li><p><foreign>Accidents happen <em>on Mondays</em>.</foreign> (when)</p></li>
+      <li><p><foreign>She spoke <em>quietly</em>.</foreign> (how)</p></li>
+      <li><p><foreign><em>Unfortunately</em>, we lost.</foreign> (attitude)</p></li>
+      <li><p><foreign>He works <em>at the hospital</em> <em>every day</em>.</foreign> (where, when)</p></li>
     </ul>
 
     <p><em>Test:</em> If you remove an adverbial, the sentence remains grammatical.</p>
 
-    <p><em>She spoke quietly in the library.</em></p>
+    <p><q><foreign>She spoke quietly in the library.</foreign></q></p>
 
     <ul>
-      <li><p>Remove <em>quietly</em>: <em>She spoke in the library.</em> ✓</p></li>
-      <li><p>Remove <em>in the library</em>: <em>She spoke quietly.</em> ✓</p></li>
+      <li><p>Remove <foreign>quietly</foreign>: <foreign>She spoke in the library.</foreign> ✓</p></li>
+      <li><p>Remove <foreign>in the library</foreign>: <foreign>She spoke quietly.</foreign> ✓</p></li>
       <li><p>Both are adverbials—optional modifiers.</p></li>
     </ul>
 
@@ -273,8 +273,8 @@
     <p><em>Compare:</em></p>
 
     <ul>
-      <li><p>"She put the book <em>on the table</em>." (argument—required by put)</p></li>
-      <li><p>"She read the book <em>on the table</em>." (adverbial—optional location)</p></li>
+      <li><p><foreign>She put the book <em>on the table</em>.</foreign> (argument—required by <foreign>put</foreign>)</p></li>
+      <li><p><foreign>She read the book <em>on the table</em>.</foreign> (adverbial—optional location)</p></li>
     </ul>
 
   </section>
@@ -291,9 +291,9 @@
     <p>The main verb determines what other elements must appear in the sentence. Think of the verb as an architect's blueprint—it specifies how many &quot;slots&quot; need to be filled and what types of elements fill them.</p>
 
     <ul>
-      <li><p><em>Sleep</em> requires only a subject (1 argument)</p></li>
-      <li><p><em>Read</em> typically requires a subject and object (2 arguments)</p></li>
-      <li><p><em>Give</em> requires a subject, indirect object, and direct object (3 arguments)</p></li>
+      <li><p><foreign>Sleep</foreign> requires only a subject (1 argument)</p></li>
+      <li><p><foreign>Read</foreign> typically requires a subject and object (2 arguments)</p></li>
+      <li><p><foreign>Give</foreign> requires a subject, indirect object, and direct object (3 arguments)</p></li>
     </ul>
 
     <paragraphs>
@@ -305,9 +305,9 @@
     <p>Require only a subject:</p>
 
     <ul>
-      <li><p>"Cameras <em>flashed</em>."</p></li>
-      <li><p>"The baby <em>slept</em>."</p></li>
-      <li><p>"Accidents <em>happen</em>."</p></li>
+      <li><p><foreign>Cameras <em>flashed</em>.</foreign></p></li>
+      <li><p><foreign>The baby <em>slept</em>.</foreign></p></li>
+      <li><p><foreign>Accidents <em>happen</em>.</foreign></p></li>
     </ul>
 
     <p><em>Transitive Verbs (Valency: 2)</em></p>
@@ -315,9 +315,9 @@
     <p>Require a subject and a direct object:</p>
 
     <ul>
-      <li><p>"Weasels <em>stalk</em> rabbits."</p></li>
-      <li><p>"She <em>read</em> the book."</p></li>
-      <li><p>"They <em>completed</em> the project."</p></li>
+      <li><p><foreign>Weasels <em>stalk</em> rabbits.</foreign></p></li>
+      <li><p><foreign>She <em>read</em> the book.</foreign></p></li>
+      <li><p><foreign>They <em>completed</em> the project.</foreign></p></li>
     </ul>
 
     <p><em>Ditransitive Verbs (Valency: 3)</em></p>
@@ -325,9 +325,9 @@
     <p>Require a subject, direct object, and indirect object (or object complement):</p>
 
     <ul>
-      <li><p>"Marie <em>sent</em> Ramon a gift." (S + IO + DO)</p></li>
-      <li><p>"She <em>gave</em> me the book." (S + IO + DO)</p></li>
-      <li><p>"The director <em>considered</em> the performance a success." (S + DO + OC)</p></li>
+      <li><p><foreign>Marie <em>sent</em> Ramon a gift.</foreign> (S + IO + DO)</p></li>
+      <li><p><foreign>She <em>gave</em> me the book.</foreign> (S + IO + DO)</p></li>
+      <li><p><foreign>The director <em>considered</em> the performance a success.</foreign> (S + DO + OC)</p></li>
     </ul>
 
     <p><em>Linking Verbs (Valency: 2)</em></p>
@@ -335,9 +335,9 @@
     <p>Require a subject and subject complement:</p>
 
     <ul>
-      <li><p>"She <em>is</em> a doctor." (S + SC)</p></li>
-      <li><p>"The trail <em>looked</em> steep." (S + SC)</p></li>
-      <li><p>"He <em>became</em> president." (S + SC)</p></li>
+      <li><p><foreign>She <em>is</em> a doctor.</foreign> (S + SC)</p></li>
+      <li><p><foreign>The trail <em>looked</em> steep.</foreign> (S + SC)</p></li>
+      <li><p><foreign>He <em>became</em> president.</foreign> (S + SC)</p></li>
     </ul>
 
     <paragraphs>
@@ -349,22 +349,22 @@
     <p><em>Eat:</em></p>
 
     <ul>
-      <li><p>Intransitive: <em>We ate.</em> (1 argument)</p></li>
-      <li><p>Transitive: <em>We ate dinner.</em> (2 arguments)</p></li>
+      <li><p>Intransitive: <foreign>We ate.</foreign> (1 argument)</p></li>
+      <li><p>Transitive: <foreign>We ate dinner.</foreign> (2 arguments)</p></li>
     </ul>
 
     <p><em>Give:</em></p>
 
     <ul>
-      <li><p>Ditransitive: <em>She gave me a book.</em> (3 arguments)</p></li>
-      <li><p>Transitive + PP: <em>She gave a book to me.</em> (2 arguments + PP adverbial)</p></li>
+      <li><p>Ditransitive: <foreign>She gave me a book.</foreign> (3 arguments)</p></li>
+      <li><p>Transitive + PP: <foreign>She gave a book to me.</foreign> (2 arguments + PP adverbial)</p></li>
     </ul>
 
     <p><em>Run:</em></p>
 
     <ul>
-      <li><p>Intransitive: <em>She runs.</em> (1 argument)</p></li>
-      <li><p>Transitive: <em>She runs a business.</em> (2 arguments)</p></li>
+      <li><p>Intransitive: <foreign>She runs.</foreign> (1 argument)</p></li>
+      <li><p>Transitive: <foreign>She runs a business.</foreign> (2 arguments)</p></li>
     </ul>
 
   </section>
@@ -388,20 +388,20 @@
         <cell>Verb</cell>
       </row>
       <row>
-        <cell>Thunder</cell>
-        <cell>rumbled</cell>
+        <cell><foreign>Thunder</foreign></cell>
+        <cell><foreign>rumbled</foreign></cell>
       </row>
       <row>
-        <cell>My grandmother</cell>
-        <cell>sneezed</cell>
+        <cell><foreign>My grandmother</foreign></cell>
+        <cell><foreign>sneezed</foreign></cell>
       </row>
       <row>
-        <cell>The toast</cell>
-        <cell>burned</cell>
+        <cell><foreign>The toast</foreign></cell>
+        <cell><foreign>burned</foreign></cell>
       </row>
       <row>
-        <cell>Her voice</cell>
-        <cell>trembled</cell>
+        <cell><foreign>Her voice</foreign></cell>
+        <cell><foreign>trembled</foreign></cell>
       </row>
     </tabular>
 
@@ -410,15 +410,15 @@
     <p>The verb alone completes the thought. Adverbials can be added but are not required:</p>
 
     <ul>
-      <li><p>"Thunder rumbled <em>across the valley</em>." (still intransitive)</p></li>
-      <li><p>"My grandmother sneezed <em>violently</em>." (still intransitive)</p></li>
+      <li><p><foreign>Thunder rumbled <em>across the valley</em>.</foreign> (still intransitive)</p></li>
+      <li><p><foreign>My grandmother sneezed <em>violently</em>.</foreign> (still intransitive)</p></li>
     </ul>
 
     <p><em>Exclusively intransitive verbs:</em></p>
 
-    <p>arrive, collapse, disappear, emerge, exist, fall, hesitate, occur, sneeze, vanish</p>
+    <p><foreign>arrive, collapse, disappear, emerge, exist, fall, hesitate, occur, sneeze, vanish</foreign></p>
 
-    <p>You cannot say <em>~~She arrived the station~~</em> or <em>~~The building collapsed the roof~~</em>.</p>
+    <p>You cannot say <foreign><delete>She arrived the station</delete></foreign> or <foreign><delete>The building collapsed the roof</delete></foreign>.</p>
 
     <paragraphs>
       <title>Pattern 2: Copular *Be* (S + *Be* + SC)</title>
@@ -436,27 +436,27 @@
         <cell>Type</cell>
       </row>
       <row>
-        <cell>She</cell>
-        <cell>is</cell>
-        <cell>a violinist</cell>
+        <cell><foreign>She</foreign></cell>
+        <cell><foreign>is</foreign></cell>
+        <cell><foreign>a violinist</foreign></cell>
         <cell>NP</cell>
       </row>
       <row>
-        <cell>The solution</cell>
-        <cell>was</cell>
-        <cell>surprisingly simple</cell>
+        <cell><foreign>The solution</foreign></cell>
+        <cell><foreign>was</foreign></cell>
+        <cell><foreign>surprisingly simple</foreign></cell>
         <cell>AdjP</cell>
       </row>
       <row>
-        <cell>My keys</cell>
-        <cell>are</cell>
-        <cell>under the cushion</cell>
+        <cell><foreign>My keys</foreign></cell>
+        <cell><foreign>are</foreign></cell>
+        <cell><foreign>under the cushion</foreign></cell>
         <cell>PP</cell>
       </row>
       <row>
-        <cell>Tomorrow</cell>
-        <cell>will be</cell>
-        <cell>Tuesday</cell>
+        <cell><foreign>Tomorrow</foreign></cell>
+        <cell><foreign>will be</foreign></cell>
+        <cell><foreign>Tuesday</foreign></cell>
         <cell>NP</cell>
       </row>
     </tabular>
@@ -465,17 +465,17 @@
 
     <ul>
       <li><p>Noun Phrase (NP): Identifies who/what the subject is</p></li>
-      <li><p>"Marcus <em>is a carpenter</em>."</p></li>
+      <li><p><foreign>Marcus <em>is a carpenter</em>.</foreign></p></li>
     </ul>
 
     <ul>
       <li><p>Adjective Phrase (AdjP): Describes a quality of the subject</p></li>
-      <li><p>"The water <em>is cold</em>."</p></li>
+      <li><p><foreign>The water <em>is cold</em>.</foreign></p></li>
     </ul>
 
     <ul>
       <li><p>Prepositional Phrase (PP): Locates or describes the subject</p></li>
-      <li><p>"The restaurant <em>is around the corner</em>."</p></li>
+      <li><p><foreign>The restaurant <em>is around the corner</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -494,27 +494,27 @@
         <cell>Type</cell>
       </row>
       <row>
-        <cell>The bread</cell>
-        <cell>smells</cell>
-        <cell>wonderful</cell>
+        <cell><foreign>The bread</foreign></cell>
+        <cell><foreign>smells</foreign></cell>
+        <cell><foreign>wonderful</foreign></cell>
         <cell>AdjP</cell>
       </row>
       <row>
-        <cell>Her excuse</cell>
-        <cell>sounded</cell>
-        <cell>plausible</cell>
+        <cell><foreign>Her excuse</foreign></cell>
+        <cell><foreign>sounded</foreign></cell>
+        <cell><foreign>plausible</foreign></cell>
         <cell>AdjP</cell>
       </row>
       <row>
-        <cell>That musician</cell>
-        <cell>became</cell>
-        <cell>famous</cell>
+        <cell><foreign>That musician</foreign></cell>
+        <cell><foreign>became</foreign></cell>
+        <cell><foreign>famous</foreign></cell>
         <cell>AdjP</cell>
       </row>
       <row>
-        <cell>The caterpillar</cell>
-        <cell>became</cell>
-        <cell>a butterfly</cell>
+        <cell><foreign>The caterpillar</foreign></cell>
+        <cell><foreign>became</foreign></cell>
+        <cell><foreign>a butterfly</foreign></cell>
         <cell>NP</cell>
       </row>
     </tabular>
@@ -524,19 +524,19 @@
     <p>If you can replace the verb with a form of <em>be</em> and the sentence still makes sense, the verb is linking:</p>
 
     <ul>
-      <li><p><em>The bread smells wonderful.</em> → "The bread <em>is</em> wonderful." ✓ (Linking)</p></li>
-      <li><p><em>The detective smells trouble.</em> → "The detective <em>is</em> trouble." ✗ (Not linking—transitive!)</p></li>
+      <li><p><foreign>The bread smells wonderful.</foreign> → <foreign>The bread <em>is</em> wonderful.</foreign> ✓ (Linking)</p></li>
+      <li><p><foreign>The detective smells trouble.</foreign> → <foreign>The detective <em>is</em> trouble.</foreign> ✗ (Not linking—transitive!)</p></li>
     </ul>
 
     <p><em>Common linking verbs:</em></p>
 
-    <p>appear, become, feel, get, grow, look, prove, remain, seem, smell, sound, stay, taste, turn</p>
+    <p><foreign>appear, become, feel, get, grow, look, prove, remain, seem, smell, sound, stay, taste, turn</foreign></p>
 
     <p><em>Warning</em>: Many of these verbs can also be transitive:</p>
 
     <ul>
-      <li><p>"She <em>felt</em> nervous." (linking—&quot;nervous&quot; describes &quot;she&quot;)</p></li>
-      <li><p>"She <em>felt</em> the fabric." (transitive—&quot;fabric&quot; is a direct object)</p></li>
+      <li><p><foreign>She <em>felt</em> nervous.</foreign> (linking—<q><foreign>nervous</foreign></q> describes <q><foreign>she</foreign></q>)</p></li>
+      <li><p><foreign>She <em>felt</em> the fabric.</foreign> (transitive—<q><foreign>fabric</foreign></q> is a direct object)</p></li>
     </ul>
 
     <paragraphs>
@@ -554,33 +554,33 @@
         <cell>Direct Object</cell>
       </row>
       <row>
-        <cell>Squirrels</cell>
-        <cell>gather</cell>
-        <cell>acorns</cell>
+        <cell><foreign>Squirrels</foreign></cell>
+        <cell><foreign>gather</foreign></cell>
+        <cell><foreign>acorns</foreign></cell>
       </row>
       <row>
-        <cell>The tornado</cell>
-        <cell>destroyed</cell>
-        <cell>the barn</cell>
+        <cell><foreign>The tornado</foreign></cell>
+        <cell><foreign>destroyed</foreign></cell>
+        <cell><foreign>the barn</foreign></cell>
       </row>
       <row>
-        <cell>Nobody</cell>
-        <cell>expected</cell>
-        <cell>this outcome</cell>
+        <cell><foreign>Nobody</foreign></cell>
+        <cell><foreign>expected</foreign></cell>
+        <cell><foreign>this outcome</foreign></cell>
       </row>
       <row>
-        <cell>Lightning</cell>
-        <cell>struck</cell>
-        <cell>the old oak</cell>
+        <cell><foreign>Lightning</foreign></cell>
+        <cell><foreign>struck</foreign></cell>
+        <cell><foreign>the old oak</foreign></cell>
       </row>
     </tabular>
 
     <p><em>Direct object tests:</em></p>
 
     <ol>
-      <li><p>Ask &quot;verb what?&quot; or &quot;verb whom?&quot;: "Squirrels gather <em>what</em>?" → <em>acorns</em></p></li>
-      <li><p>Pronoun replacement: <em>She finished her dissertation.</em> → "She finished <em>it</em>."</p></li>
-      <li><p>Passive transformation: Lightning struck the oak. → The oak was struck.</p></li>
+      <li><p>Ask <q><foreign>verb what?</foreign></q> or <q><foreign>verb whom?</foreign></q>: <foreign>Squirrels gather <em>what</em>?</foreign> → <foreign>acorns</foreign></p></li>
+      <li><p>Pronoun replacement: <foreign>She finished her dissertation.</foreign> → <foreign>She finished <em>it</em>.</foreign></p></li>
+      <li><p>Passive transformation: <foreign>Lightning struck the oak.</foreign> → <foreign>The oak was struck.</foreign></p></li>
     </ol>
 
     <paragraphs>
@@ -599,40 +599,40 @@
         <cell>Direct Object</cell>
       </row>
       <row>
-        <cell>The librarian</cell>
-        <cell>handed</cell>
-        <cell>me</cell>
-        <cell>a book</cell>
+        <cell><foreign>The librarian</foreign></cell>
+        <cell><foreign>handed</foreign></cell>
+        <cell><foreign>me</foreign></cell>
+        <cell><foreign>a book</foreign></cell>
       </row>
       <row>
-        <cell>She</cell>
-        <cell>told</cell>
-        <cell>the children</cell>
-        <cell>a story</cell>
+        <cell><foreign>She</foreign></cell>
+        <cell><foreign>told</foreign></cell>
+        <cell><foreign>the children</foreign></cell>
+        <cell><foreign>a story</foreign></cell>
       </row>
       <row>
-        <cell>The company</cell>
-        <cell>offered</cell>
-        <cell>employees</cell>
-        <cell>free parking</cell>
+        <cell><foreign>The company</foreign></cell>
+        <cell><foreign>offered</foreign></cell>
+        <cell><foreign>employees</foreign></cell>
+        <cell><foreign>free parking</foreign></cell>
       </row>
       <row>
-        <cell>The chef</cell>
-        <cell>made</cell>
-        <cell>us</cell>
-        <cell>a special dessert</cell>
+        <cell><foreign>The chef</foreign></cell>
+        <cell><foreign>made</foreign></cell>
+        <cell><foreign>us</foreign></cell>
+        <cell><foreign>a special dessert</foreign></cell>
       </row>
     </tabular>
 
     <p><em>Identifying indirect objects:</em></p>
 
     <ol>
-      <li><p>To/For paraphrase: You can rephrase with &quot;to&quot; or &quot;for&quot;:</p></li>
+      <li><p>To/For paraphrase: You can rephrase with <q><foreign>to</foreign></q> or <q><foreign>for</foreign></q>:</p></li>
     </ol>
 
     <ul>
-      <li><p><em>The librarian handed me a book.</em> → <em>...handed a book <em>to me</em>.</em></p></li>
-      <li><p><em>The chef made us a dessert.</em> → <em>...made a dessert <em>for us</em>.</em></p></li>
+      <li><p><foreign>The librarian handed me a book.</foreign> → <foreign>...handed a book <em>to me</em>.</foreign></p></li>
+      <li><p><foreign>The chef made us a dessert.</foreign> → <foreign>...made a dessert <em>for us</em>.</foreign></p></li>
     </ul>
 
     <ol>
@@ -641,7 +641,7 @@
 
     <p><em>Common ditransitive verbs:</em></p>
 
-    <p>award, bring, buy, cook, give, grant, hand, lend, make, offer, owe, pass, pay, promise, read, sell, send, show, teach, tell, throw, write</p>
+    <p><foreign>award, bring, buy, cook, give, grant, hand, lend, make, offer, owe, pass, pay, promise, read, sell, send, show, teach, tell, throw, write</foreign></p>
 
     <paragraphs>
       <title>Pattern 6: Ditransitive (S + V + DO + OC)</title>
@@ -660,31 +660,31 @@
         <cell>Type</cell>
       </row>
       <row>
-        <cell>The jury</cell>
-        <cell>found</cell>
-        <cell>her</cell>
-        <cell>guilty</cell>
+        <cell><foreign>The jury</foreign></cell>
+        <cell><foreign>found</foreign></cell>
+        <cell><foreign>her</foreign></cell>
+        <cell><foreign>guilty</foreign></cell>
         <cell>AdjP</cell>
       </row>
       <row>
-        <cell>Critics</cell>
-        <cell>called</cell>
-        <cell>the film</cell>
-        <cell>a masterpiece</cell>
+        <cell><foreign>Critics</foreign></cell>
+        <cell><foreign>called</foreign></cell>
+        <cell><foreign>the film</foreign></cell>
+        <cell><foreign>a masterpiece</foreign></cell>
         <cell>NP</cell>
       </row>
       <row>
-        <cell>The heat</cell>
-        <cell>made</cell>
-        <cell>everyone</cell>
-        <cell>irritable</cell>
+        <cell><foreign>The heat</foreign></cell>
+        <cell><foreign>made</foreign></cell>
+        <cell><foreign>everyone</foreign></cell>
+        <cell><foreign>irritable</foreign></cell>
         <cell>AdjP</cell>
       </row>
       <row>
-        <cell>They</cell>
-        <cell>elected</cell>
-        <cell>her</cell>
-        <cell>president</cell>
+        <cell><foreign>They</foreign></cell>
+        <cell><foreign>elected</foreign></cell>
+        <cell><foreign>her</foreign></cell>
+        <cell><foreign>president</foreign></cell>
         <cell>NP</cell>
       </row>
     </tabular>
@@ -693,17 +693,17 @@
 
     <ul>
       <li><p>Pattern 5 (IO + DO): The two NPs refer to <em>different</em> things:</p></li>
-      <li><p><em>She gave <em>Marcus</em> <em>a book</em>.</em> (Marcus ≠ book)</p></li>
+      <li><p><foreign>She gave <em>Marcus</em> <em>a book</em>.</foreign> (Marcus ≠ book)</p></li>
     </ul>
 
     <ul>
       <li><p>Pattern 6 (DO + OC): The complement describes or equals the DO:</p></li>
-      <li><p><em>They elected <em>her</em> <em>president</em>.</em> (her = president)</p></li>
+      <li><p><foreign>They elected <em>her</em> <em>president</em>.</foreign> (her = president)</p></li>
     </ul>
 
     <p><em>Common DO + OC verbs:</em></p>
 
-    <p>appoint, believe, call, consider, declare, deem, elect, find, keep, label, leave, make, name, paint, prove, render, think</p>
+    <p><foreign>appoint, believe, call, consider, declare, deem, elect, find, keep, label, leave, make, name, paint, prove, render, think</foreign></p>
 
   </section>
 
@@ -757,15 +757,15 @@
       <title>Worked Example</title>
     </paragraphs>
 
-    <p><em>Sentence</em>: <em>On Tuesday, the committee unanimously declared the proposal inadequate.</em></p>
+    <p><em>Sentence</em>: <q><foreign>On Tuesday, the committee unanimously declared the proposal inadequate.</foreign></q></p>
 
     <ol>
-      <li><p>Main verb: <em>declared</em></p></li>
-      <li><p>Subject: <em>the committee</em></p></li>
-      <li><p>Adverbials: <em>On Tuesday</em> (time), <em>unanimously</em> (manner)—set aside</p></li>
-      <li><p>Is it <em>be</em>? No</p></li>
-      <li><p><em>Be</em> substitution: Not applicable here</p></li>
-      <li><p>What follows verb: <em>the proposal</em> (NP) + <em>inadequate</em> (AdjP)</p></li>
+      <li><p>Main verb: <foreign>declared</foreign></p></li>
+      <li><p>Subject: <foreign>the committee</foreign></p></li>
+      <li><p>Adverbials: <foreign>On Tuesday</foreign> (time), <foreign>unanimously</foreign> (manner)—set aside</p></li>
+      <li><p>Is it <foreign>be</foreign>? No</p></li>
+      <li><p><foreign>Be</foreign> substitution: Not applicable here</p></li>
+      <li><p>What follows verb: <foreign>the proposal</foreign> (NP) + <foreign>inadequate</foreign> (AdjP)</p></li>
       <li><p>Same thing? Yes—the proposal is described as inadequate</p></li>
     </ol>
 
@@ -780,17 +780,17 @@
       <title>&quot;Adverbials change the pattern&quot;</title>
     </paragraphs>
 
-    <p><em>Wrong</em>: <em>The birds sang beautifully in the garden.</em> = Pattern 4?</p>
+    <p><em>Wrong</em>: <q><foreign>The birds sang beautifully in the garden.</foreign></q> = Pattern 4?</p>
 
-    <p><em>Right</em>: Adverbials don't affect pattern. Remove them: <em>The birds sang.</em> = Pattern 1 (Intransitive)</p>
+    <p><em>Right</em>: Adverbials don't affect pattern. Remove them: <q><foreign>The birds sang.</foreign></q> = Pattern 1 (Intransitive)</p>
 
     <paragraphs>
       <title>&quot;A PP after the verb means transitive&quot;</title>
     </paragraphs>
 
-    <p><em>Wrong</em>: <em>She walked to the store.</em> = Transitive with &quot;the store&quot; as object?</p>
+    <p><em>Wrong</em>: <q><foreign>She walked to the store.</foreign></q> = Transitive with <q><foreign>the store</foreign></q> as object?</p>
 
-    <p><em>Right</em>: &quot;To the store&quot; is a PP functioning as adverbial. Pattern 1 (Intransitive)</p>
+    <p><em>Right</em>: <q><foreign>To the store</foreign></q> is a PP functioning as adverbial. Pattern 1 (Intransitive)</p>
 
     <paragraphs>
       <title>&quot;Long sentences must be complex patterns&quot;</title>
@@ -798,19 +798,19 @@
 
     <p><em>Wrong</em>: A long sentence must be Pattern 5 or 6?</p>
 
-    <p><em>Right</em>: Length doesn't determine pattern. <em>The exhausted marathon runner from Kenya who had trained for years finally collapsed at the finish line</em> is still Pattern 1 (Intransitive).</p>
+    <p><em>Right</em>: Length doesn't determine pattern. <q><foreign>The exhausted marathon runner from Kenya who had trained for years finally collapsed at the finish line</foreign></q> is still Pattern 1 (Intransitive).</p>
 
     <paragraphs>
       <title>&quot;Linking verbs are always linking&quot;</title>
     </paragraphs>
 
-    <p><em>Wrong</em>: &quot;Feel&quot; is always linking?</p>
+    <p><em>Wrong</em>: <q><foreign>Feel</foreign></q> is always linking?</p>
 
     <p><em>Right</em>: Many verbs can be linking OR transitive:</p>
 
     <ul>
-      <li><p>"The silk <em>feels</em> smooth." (Pattern 3—linking)</p></li>
-      <li><p>"She <em>felt</em> the bump." (Pattern 4—transitive)</p></li>
+      <li><p><foreign>The silk <em>feels</em> smooth.</foreign> (Pattern 3—linking)</p></li>
+      <li><p><foreign>She <em>felt</em> the bump.</foreign> (Pattern 4—transitive)</p></li>
     </ul>
 
   </section>
@@ -819,25 +819,32 @@
     <title>Homework: Basic Sentence Elements and Sentence Patterns</title>
 
     <subsection xml:id="ch-08-homework-part1">
-      <title>Part 1: Sentence Element Identification</title>
+      <title>Sentence Element Identification</title>
 
-      <p><em>Instructions:</em> For each sentence, identify the requested elements.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence, identify the requested elements.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> <em>The talented chef from France prepared us an exquisite meal in the kitchen.</em></p>
+      <p><foreign>The talented chef from France prepared us an exquisite meal in the kitchen.</foreign></p>
 
       <ul>
-        <li><p>Subject NP: <em>The talented chef from France</em></p></li>
-        <li><p>Main verb: <em>prepared</em></p></li>
-        <li><p>Indirect object: <em>us</em></p></li>
-        <li><p>Direct object: <em>an exquisite meal</em></p></li>
-        <li><p>Adverbial: <em>in the kitchen</em></p></li>
+        <li><p>Subject NP: <foreign>The talented chef from France</foreign></p></li>
+        <li><p>Main verb: <foreign>prepared</foreign></p></li>
+        <li><p>Indirect object: <foreign>us</foreign></p></li>
+        <li><p>Direct object: <foreign>an exquisite meal</foreign></p></li>
+        <li><p>Adverbial: <foreign>in the kitchen</foreign></p></li>
       </ul>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>1. <em>The ambitious young researcher from the university laboratory discovered a remarkable solution.</em></p>
+      <p><em>Exercise 1.</em> <foreign>The ambitious young researcher from the university laboratory discovered a remarkable solution.</foreign></p>
 
       <ul>
         <li><p>Subject NP: _____</p></li>
@@ -846,47 +853,47 @@
         <li><p>Direct object: _____</p></li>
       </ul>
 
-      <p>2. Identify all complements (DO, IO, SC, OC) in each sentence:</p>
+      <p><em>Exercise 2.</em> Identify all complements (DO, IO, SC, OC) in each sentence:</p>
 
-      <p>a) <em>The committee awarded the outstanding student a prestigious scholarship.</em></p>
-
-      <ul>
-        <li><p>_____</p></li>
-      </ul>
-
-      <p>b) <em>The homemade soup tasted absolutely delicious.</em></p>
+      <p>a) <foreign>The committee awarded the outstanding student a prestigious scholarship.</foreign></p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
 
-      <p>c) <em>The judges declared the young contestant the winner.</em></p>
+      <p>b) <foreign>The homemade soup tasted absolutely delicious.</foreign></p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
 
-      <p>3. For each underlined element, indicate whether it is an argument (required by the verb) or an adverbial (optional modifier):</p>
-
-      <p>a) "She placed the documents <em>on the desk</em>."</p>
+      <p>c) <foreign>The judges declared the young contestant the winner.</foreign></p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
 
-      <p>b) "She found the documents <em>on the desk</em>."</p>
+      <p><em>Exercise 3.</em> For each highlighted element, indicate whether it is an argument (required by the verb) or an adverbial (optional modifier):</p>
+
+      <p>a) <foreign>She placed the documents <em>on the desk</em>.</foreign></p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
 
-      <p>c) "The professor is <em>extremely knowledgeable about linguistics</em>."</p>
+      <p>b) <foreign>She found the documents <em>on the desk</em>.</foreign></p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
 
-      <p>d) "The professor lectured <em>extremely knowledgeably about linguistics</em>."</p>
+      <p>c) <foreign>The professor is <em>extremely knowledgeable about linguistics</em>.</foreign></p>
+
+      <ul>
+        <li><p>_____</p></li>
+      </ul>
+
+      <p>d) <foreign>The professor lectured <em>extremely knowledgeably about linguistics</em>.</foreign></p>
 
       <ul>
         <li><p>_____</p></li>
@@ -895,86 +902,100 @@
     </subsection>
 
     <subsection xml:id="ch-08-homework-part2">
-      <title>Part 2: Sentence Completion</title>
+      <title>Sentence Completion</title>
 
-      <p><em>Instructions:</em> Complete each sentence by adding the requested element.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Complete each sentence by adding the requested element.</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>4. Add a direct object to create a transitive sentence:</p>
+      <p><em>Exercise 4.</em> Add a direct object to create a transitive sentence:</p>
 
-      <p><em>The dedicated students completed _____.</em></p>
+      <p><foreign>The dedicated students completed _____.</foreign></p>
 
-      <p>5. Add an indirect object AND a direct object to create a ditransitive sentence:</p>
+      <p><em>Exercise 5.</em> Add an indirect object AND a direct object to create a ditransitive sentence:</p>
 
-      <p><em>The generous donor gave _____.</em></p>
+      <p><foreign>The generous donor gave _____.</foreign></p>
 
-      <p>6. Add a subject complement to create a linking verb sentence:</p>
+      <p><em>Exercise 6.</em> Add a subject complement to create a linking verb sentence:</p>
 
-      <p><em>After the long hike, the exhausted climbers seemed _____.</em></p>
+      <p><foreign>After the long hike, the exhausted climbers seemed _____.</foreign></p>
 
-      <p>7. Add an object complement:</p>
+      <p><em>Exercise 7.</em> Add an object complement:</p>
 
-      <p><em>The board of directors elected her _____.</em></p>
+      <p><foreign>The board of directors elected her _____.</foreign></p>
 
     </subsection>
 
     <subsection xml:id="ch-08-homework-part3">
-      <title>Part 3: Sentence Pattern Identification</title>
+      <title>Sentence Pattern Identification</title>
 
-      <p><em>Instructions:</em> Identify the sentence pattern (1-6) for each sentence and explain your reasoning. Remember to set aside adverbials before determining the pattern.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Identify the sentence pattern (1-6) for each sentence and explain your reasoning. Remember to set aside adverbials before determining the pattern.</p>
 
-      <p><em>Sentence Patterns:</em></p>
+      <paragraphs>
+        <title>Sentence Patterns</title>
+      </paragraphs>
 
       <ul>
         <li><p>Pattern 1: Intransitive (S + V)</p></li>
-        <li><p>Pattern 2: Copular <em>be</em> (S + be + SC)</p></li>
+        <li><p>Pattern 2: Copular <foreign>be</foreign> (S + <foreign>be</foreign> + SC)</p></li>
         <li><p>Pattern 3: Linking verb (S + LV + SC)</p></li>
         <li><p>Pattern 4: Transitive (S + V + DO)</p></li>
         <li><p>Pattern 5: Ditransitive (S + V + IO + DO)</p></li>
         <li><p>Pattern 6: Ditransitive (S + V + DO + OC)</p></li>
       </ul>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> <em>The ancient lighthouse still stands on the rocky cliff.</em></p>
+      <p><foreign>The ancient lighthouse still stands on the rocky cliff.</foreign></p>
 
       <ul>
         <li><p>Pattern: Pattern 1 (Intransitive)</p></li>
-        <li><p>Explanation: The main verb is &quot;stands.&quot; &quot;On the rocky cliff&quot; is an adverbial (optional—answers &quot;where?&quot;). &quot;Still&quot; is also an adverbial. Without the adverbials, we have &quot;The ancient lighthouse stands&quot;—a complete sentence with just a subject and intransitive verb. &quot;Stands&quot; does not require an object or complement.</p></li>
+        <li><p>Explanation: The main verb is <q><foreign>stands</foreign></q>. <q><foreign>On the rocky cliff</foreign></q> is an adverbial (optional—answers <q><foreign>where?</foreign></q>). <q><foreign>Still</foreign></q> is also an adverbial. Without the adverbials, we have <q><foreign>The ancient lighthouse stands</foreign></q>—a complete sentence with just a subject and intransitive verb. <q><foreign>Stands</foreign></q> does not require an object or complement.</p></li>
       </ul>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>8. <em>The exhausted marathon runner collapsed at the finish line yesterday.</em></p>
+      <p><em>Exercise 8.</em> <foreign>The exhausted marathon runner collapsed at the finish line yesterday.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
         <li><p>Explanation: _____</p></li>
       </ul>
 
-      <p>9. <em>My grandmother's secret recipe remains a family treasure.</em></p>
+      <p><em>Exercise 9.</em> <foreign>My grandmother's secret recipe remains a family treasure.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
         <li><p>Explanation: _____</p></li>
       </ul>
 
-      <p>10. <em>The committee considered the proposal inadequate.</em></p>
+      <p><em>Exercise 10.</em> <foreign>The committee considered the proposal inadequate.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
         <li><p>Explanation: _____</p></li>
       </ul>
 
-      <p>11. <em>The chef prepared the guests an extraordinary seven-course meal.</em></p>
+      <p><em>Exercise 11.</em> <foreign>The chef prepared the guests an extraordinary seven-course meal.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
         <li><p>Explanation: _____</p></li>
       </ul>
 
-      <p>12. <em>The situation grew increasingly tense during the negotiations.</em></p>
+      <p><em>Exercise 12.</em> <foreign>The situation grew increasingly tense during the negotiations.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
@@ -984,25 +1005,30 @@
     </subsection>
 
     <subsection xml:id="ch-08-homework-part4">
-      <title>Part 4: Sentence Writing</title>
+      <title>Sentence Writing</title>
 
-      <p><em>Instructions:</em> Write original sentences following each pattern. Underline or label the key elements (S, V, DO, IO, SC, OC).</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Write original sentences following each pattern. Label the key elements (S, V, DO, IO, SC, OC).</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>13. Write a sentence following Pattern 4 (transitive: S + V + DO):</p>
+      <p><em>Exercise 13.</em> Write a sentence following Pattern 4 (transitive: S + V + DO):</p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
 
-      <p>14. Write a sentence following Pattern 5 (ditransitive with IO + DO: S + V + IO + DO):</p>
+      <p><em>Exercise 14.</em> Write a sentence following Pattern 5 (ditransitive with IO + DO: S + V + IO + DO):</p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
 
-      <p>15. Write a sentence following Pattern 6 (ditransitive with DO + OC: S + V + DO + OC):</p>
+      <p><em>Exercise 15.</em> Write a sentence following Pattern 6 (ditransitive with DO + OC: S + V + DO + OC):</p>
 
       <ul>
         <li><p>_____</p></li>
@@ -1011,32 +1037,37 @@
     </subsection>
 
     <subsection xml:id="ch-08-homework-part5">
-      <title>Part 5: Analysis and Reflection</title>
+      <title>Analysis and Reflection</title>
 
-      <p><em>Instructions:</em> Read the sentences below and answer the questions.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Read the sentences below and answer the questions.</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>16. The verb <em>put</em> is unusual because it requires TWO arguments beyond the subject. Analyze the following sentences:</p>
+      <p><em>Exercise 16.</em> The verb <q><foreign>put</foreign></q> is unusual because it requires TWO arguments beyond the subject. Analyze the following sentences:</p>
 
-      <p>a) <em>She put the book on the shelf.</em></p>
+      <p>a) <foreign>She put the book on the shelf.</foreign></p>
 
       <ul>
-        <li><p>What happens if you remove &quot;the book&quot;? _____</p></li>
-        <li><p>What happens if you remove &quot;on the shelf&quot;? _____</p></li>
-        <li><p>What does this tell you about the valency of <em>put</em>? _____</p></li>
+        <li><p>What happens if you remove <q><foreign>the book</foreign></q>? _____</p></li>
+        <li><p>What happens if you remove <q><foreign>on the shelf</foreign></q>? _____</p></li>
+        <li><p>What does this tell you about the valency of <q><foreign>put</foreign></q>? _____</p></li>
       </ul>
 
-      <p>17. Some verbs can be either linking or transitive depending on context. Analyze these pairs:</p>
+      <p><em>Exercise 17.</em> Some verbs can be either linking or transitive depending on context. Analyze these pairs:</p>
 
-      <p>a) <em>The milk smells sour.</em> vs. <em>The detective smells trouble.</em></p>
+      <p>a) <foreign>The milk smells sour.</foreign> vs. <foreign>The detective smells trouble.</foreign></p>
 
       <ul>
         <li><p>Which sentence has a linking verb? Which has a transitive verb? _____</p></li>
-        <li><p>How can you tell? (Hint: Apply the be substitution test.) _____</p></li>
+        <li><p>How can you tell? (Hint: Apply the <foreign>be</foreign> substitution test.) _____</p></li>
       </ul>
 
-      <p>18. In 3-4 sentences, explain how you distinguish between an argument and an adverbial when analyzing sentences. Why does this distinction matter for identifying sentence patterns? Give an example to illustrate.</p>
+      <p><em>Exercise 18.</em> In 3-4 sentences, explain how you distinguish between an argument and an adverbial when analyzing sentences. Why does this distinction matter for identifying sentence patterns? Give an example to illustrate.</p>
 
       <ul>
         <li><p>_____</p></li>
