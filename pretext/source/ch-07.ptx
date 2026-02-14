@@ -21,9 +21,9 @@
   <section xml:id="ch-07-introduction-to-sentence-diagramming-sec-71">
     <title>Why Diagram Sentences?</title>
 
-    <p>When you read a sentence like <em>The exhausted hiker from Colorado finally reached the summit</em>, you process it instantly. Your brain parses the words, groups them into meaningful units, and extracts the meaning—all in a fraction of a second, without conscious effort.</p>
+    <p>When you read a sentence like <q><foreign>The exhausted hiker from Colorado finally reached the summit</foreign></q>, you process it instantly. Your brain parses the words, groups them into meaningful units, and extracts the meaning—all in a fraction of a second, without conscious effort.</p>
 
-    <p>But can you explain <em>how</em> you understand it? Which words group together? What modifies what? Why does &quot;from Colorado&quot; describe &quot;hiker&quot; rather than &quot;exhausted&quot;? Why does &quot;finally&quot; modify &quot;reached&quot; and not &quot;summit&quot;?</p>
+    <p>But can you explain <em>how</em> you understand it? Which words group together? What modifies what? Why does <q><foreign>from Colorado</foreign></q> describe <q><foreign>hiker</foreign></q> rather than <q><foreign>exhausted</foreign></q>? Why does <q><foreign>finally</foreign></q> modify <q><foreign>reached</foreign></q> and not <q><foreign>summit</foreign></q>?</p>
 
     <p><em>Sentence diagrams</em> make visible what your brain does automatically. They transform the linear string of words on the page into a picture of grammatical relationships.</p>
 
@@ -31,7 +31,7 @@
       <title>Analytical Clarity</title>
     </paragraphs>
 
-    <p>Diagrams force you to make explicit decisions about every word's function. You cannot diagram a sentence without understanding it. If you are uncertain whether &quot;in the park&quot; modifies &quot;the man&quot; or &quot;saw,&quot; the diagram demands a choice—and making that choice reveals your interpretation.</p>
+    <p>Diagrams force you to make explicit decisions about every word's function. You cannot diagram a sentence without understanding it. If you are uncertain whether <q><foreign>in the park</foreign></q> modifies <q><foreign>the man</foreign></q> or <q><foreign>saw</foreign></q>, the diagram demands a choice—and making that choice reveals your interpretation.</p>
 
     <p>This explicitness is valuable for writing as well as analysis. When a sentence seems unclear or awkward, diagramming it can expose the structural problem.</p>
 
@@ -53,7 +53,7 @@
 
     <p>Most importantly, diagrams reveal that sentences have <em>hierarchical structure</em>—structure that is not obvious from the linear sequence of words. Consider:</p>
 
-    <p><em>Flying planes can be dangerous.</em></p>
+    <p><q><foreign>Flying planes can be dangerous.</foreign></q></p>
 
     <p>This sentence is ambiguous. It could mean:</p>
 
@@ -98,23 +98,23 @@
         <cell>Predicate VP</cell>
       </row>
       <row>
-        <cell>Dogs bark.</cell>
-        <cell>Dogs</cell>
-        <cell>bark</cell>
+        <cell><foreign>Dogs bark.</foreign></cell>
+        <cell><foreign>Dogs</foreign></cell>
+        <cell><foreign>bark</foreign></cell>
       </row>
       <row>
-        <cell>The old man sat quietly.</cell>
-        <cell>The old man</cell>
-        <cell>sat quietly</cell>
+        <cell><foreign>The old man sat quietly.</foreign></cell>
+        <cell><foreign>The old man</foreign></cell>
+        <cell><foreign>sat quietly</foreign></cell>
       </row>
       <row>
-        <cell>My brilliant sister from Ohio won the prize.</cell>
-        <cell>My brilliant sister from Ohio</cell>
-        <cell>won the prize</cell>
+        <cell><foreign>My brilliant sister from Ohio won the prize.</foreign></cell>
+        <cell><foreign>My brilliant sister from Ohio</foreign></cell>
+        <cell><foreign>won the prize</foreign></cell>
       </row>
     </tabular>
 
-    <p>No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate (The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before...) and the predicate can become equally elaborate (...suddenly found herself standing on the stage of Carnegie Hall). But the fundamental structure—subject NP plus predicate VP—persists.</p>
+    <p>No matter how complex the sentence becomes, this basic division remains. The subject can grow elaborate (<foreign>The extremely talented young musician from the small town in rural Pennsylvania who had never performed professionally before...</foreign>) and the predicate can become equally elaborate (<foreign>...suddenly found herself standing on the stage of Carnegie Hall</foreign>). But the fundamental structure—subject NP plus predicate VP—persists.</p>
 
     <paragraphs>
       <title>What's in the NP?</title>
@@ -123,17 +123,17 @@
     <p>A noun phrase is built around a noun (its head). The simplest NP is just a noun or pronoun:</p>
 
     <ul>
-      <li><p><em>Dogs</em> bark.</p></li>
-      <li><p><em>She</em> arrived.</p></li>
+      <li><p><foreign><em>Dogs</em> bark.</foreign></p></li>
+      <li><p><foreign><em>She</em> arrived.</foreign></p></li>
     </ul>
 
     <p>But NPs can include additional elements:</p>
 
     <ul>
-      <li><p>Determiners: <em>the</em> dog, <em>my</em> sister</p></li>
-      <li><p>Adjectives: the <em>old</em> dog, my <em>brilliant</em> sister</p></li>
-      <li><p>Prepositional phrases: the dog <em>on the porch</em>, my sister <em>from Ohio</em></p></li>
-      <li><p>Relative clauses: the dog <em>that barked</em>, my sister <em>who lives in Ohio</em></p></li>
+      <li><p>Determiners: <foreign><em>the</em> dog</foreign>, <foreign><em>my</em> sister</foreign></p></li>
+      <li><p>Adjectives: <foreign>the <em>old</em> dog</foreign>, <foreign>my <em>brilliant</em> sister</foreign></p></li>
+      <li><p>Prepositional phrases: <foreign>the dog <em>on the porch</em></foreign>, <foreign>my sister <em>from Ohio</em></foreign></p></li>
+      <li><p>Relative clauses: <foreign>the dog <em>that barked</em></foreign>, <foreign>my sister <em>who lives in Ohio</em></foreign></p></li>
     </ul>
 
     <p>All of these elements cluster around the head noun, forming a unit—the noun phrase.</p>
@@ -145,16 +145,16 @@
     <p>A verb phrase is built around a verb (its head). The simplest VP is just a verb:</p>
 
     <ul>
-      <li><p>Dogs <em>bark</em>.</p></li>
-      <li><p>She <em>arrived</em>.</p></li>
+      <li><p><foreign>Dogs <em>bark</em>.</foreign></p></li>
+      <li><p><foreign>She <em>arrived</em>.</foreign></p></li>
     </ul>
 
     <p>But VPs typically include additional elements:</p>
 
     <ul>
-      <li><p>Objects: She <em>read the book</em>.</p></li>
-      <li><p>Complements: He <em>is a doctor</em>. She <em>became famous</em>.</p></li>
-      <li><p>Adverbials: She <em>arrived yesterday</em>. He <em>spoke loudly</em>.</p></li>
+      <li><p>Objects: <foreign>She <em>read the book</em>.</foreign></p></li>
+      <li><p>Complements: <foreign>He <em>is a doctor</em>.</foreign> <foreign>She <em>became famous</em>.</foreign></p></li>
+      <li><p>Adverbials: <foreign>She <em>arrived yesterday</em>.</foreign> <foreign>He <em>spoke loudly</em>.</foreign></p></li>
     </ul>
 
     <p>The verb phrase contains everything in the predicate—the verb itself plus whatever follows it.</p>
@@ -194,72 +194,72 @@
       <row>
         <cell>NP</cell>
         <cell>Noun phrase</cell>
-        <cell>the dog, she, my old friend</cell>
+        <cell><foreign>the dog</foreign>, <foreign>she</foreign>, <foreign>my old friend</foreign></cell>
       </row>
       <row>
         <cell>VP</cell>
         <cell>Verb phrase</cell>
-        <cell>runs, ate the sandwich, is happy</cell>
+        <cell><foreign>runs</foreign>, <foreign>ate the sandwich</foreign>, <foreign>is happy</foreign></cell>
       </row>
       <row>
         <cell>PP</cell>
         <cell>Prepositional phrase</cell>
-        <cell>in the house, with enthusiasm</cell>
+        <cell><foreign>in the house</foreign>, <foreign>with enthusiasm</foreign></cell>
       </row>
       <row>
         <cell>ADJP</cell>
         <cell>Adjective phrase</cell>
-        <cell>very tall, happy</cell>
+        <cell><foreign>very tall</foreign>, <foreign>happy</foreign></cell>
       </row>
       <row>
         <cell>ADVP</cell>
         <cell>Adverb phrase</cell>
-        <cell>quickly, very slowly</cell>
+        <cell><foreign>quickly</foreign>, <foreign>very slowly</foreign></cell>
       </row>
       <row>
         <cell>N</cell>
         <cell>Noun</cell>
-        <cell>dog, happiness, Sarah</cell>
+        <cell><foreign>dog</foreign>, <foreign>happiness</foreign>, <foreign>Sarah</foreign></cell>
       </row>
       <row>
         <cell>V</cell>
         <cell>Verb</cell>
-        <cell>run, is, consider</cell>
+        <cell><foreign>run</foreign>, <foreign>is</foreign>, <foreign>consider</foreign></cell>
       </row>
       <row>
         <cell>ADJ</cell>
         <cell>Adjective</cell>
-        <cell>tall, blue, interesting</cell>
+        <cell><foreign>tall</foreign>, <foreign>blue</foreign>, <foreign>interesting</foreign></cell>
       </row>
       <row>
         <cell>ADV</cell>
         <cell>Adverb</cell>
-        <cell>quickly, never, there</cell>
+        <cell><foreign>quickly</foreign>, <foreign>never</foreign>, <foreign>there</foreign></cell>
       </row>
       <row>
         <cell>DET</cell>
         <cell>Determiner</cell>
-        <cell>the, a, my, this</cell>
+        <cell><foreign>the</foreign>, <foreign>a</foreign>, <foreign>my</foreign>, <foreign>this</foreign></cell>
       </row>
       <row>
         <cell>PRON</cell>
         <cell>Pronoun</cell>
-        <cell>she, it, they</cell>
+        <cell><foreign>she</foreign>, <foreign>it</foreign>, <foreign>they</foreign></cell>
       </row>
       <row>
         <cell>PREP</cell>
         <cell>Preposition</cell>
-        <cell>in, on, with, to</cell>
+        <cell><foreign>in</foreign>, <foreign>on</foreign>, <foreign>with</foreign>, <foreign>to</foreign></cell>
       </row>
       <row>
         <cell>CONJ</cell>
         <cell>Conjunction</cell>
-        <cell>and, but, or</cell>
+        <cell><foreign>and</foreign>, <foreign>but</foreign>, <foreign>or</foreign></cell>
       </row>
       <row>
         <cell>AUX</cell>
         <cell>Auxiliary</cell>
-        <cell>has, will, been, can</cell>
+        <cell><foreign>has</foreign>, <foreign>will</foreign>, <foreign>been</foreign>, <foreign>can</foreign></cell>
       </row>
     </tabular>
 
@@ -267,7 +267,7 @@
       <title>Reading a Simple Tree</title>
     </paragraphs>
 
-    <p><em>Example</em>: <em>The dog barked.</em></p>
+    <p><em>Example</em>: <q><foreign>The dog barked.</foreign></q></p>
 
     <image source="diagrams/new/ch07_dog_barked.png" width="35%">
       <description>Syntax tree for "The dog barked" showing NP with DET and N, and VP with V</description>
@@ -278,18 +278,18 @@
 
     <ol>
       <li><p>The S (sentence) divides into NP and VP</p></li>
-      <li><p>The NP contains DET (determiner) + N (noun): &quot;the dog&quot;</p></li>
-      <li><p>The VP contains just V (verb): &quot;barked&quot;</p></li>
+      <li><p>The NP contains DET (determiner) + N (noun): <q><foreign>the dog</foreign></q></p></li>
+      <li><p>The VP contains just V (verb): <q><foreign>barked</foreign></q></p></li>
       <li><p>The words themselves appear at the bottom</p></li>
     </ol>
 
-    <p>The tree shows that &quot;the&quot; and &quot;dog&quot; form a unit (the NP), and this unit is the subject of the verb &quot;barked.&quot;</p>
+    <p>The tree shows that <q><foreign>the</foreign></q> and <q><foreign>dog</foreign></q> form a unit (the NP), and this unit is the subject of the verb <q><foreign>barked</foreign></q>.</p>
 
     <paragraphs>
       <title>A More Complex Example</title>
     </paragraphs>
 
-    <p><em>Example</em>: <em>The young artist from Paris painted beautiful landscapes.</em></p>
+    <p><em>Example</em>: <q><foreign>The young artist from Paris painted beautiful landscapes.</foreign></q></p>
 
     <image source="diagrams/new/ch07_artist_painted.png" width="70%">
       <description>Syntax tree for "The young artist from Paris painted beautiful landscapes" showing complex NP with PP modifier and VP with object NP</description>
@@ -300,7 +300,7 @@
 
     <ul>
       <li><p>The subject NP contains: DET + ADJP + N + PP</p></li>
-      <li><p>The PP &quot;from Paris&quot; is <em>inside</em> the subject NP—it modifies &quot;artist&quot;</p></li>
+      <li><p>The PP <q><foreign>from Paris</foreign></q> is <em>inside</em> the subject NP—it modifies <q><foreign>artist</foreign></q></p></li>
       <li><p>The VP contains: V + object NP</p></li>
       <li><p>The object NP contains: ADJP + N</p></li>
     </ul>
@@ -309,18 +309,18 @@
       <title>Why Trees Show Hierarchy</title>
     </paragraphs>
 
-    <p>Notice that the tree is not just a flat list of words. It shows <em>grouping</em>. &quot;The young artist from Paris&quot; is a unit; &quot;beautiful landscapes&quot; is a unit. These units can be moved, replaced, and manipulated as wholes.</p>
+    <p>Notice that the tree is not just a flat list of words. It shows <em>grouping</em>. <q><foreign>The young artist from Paris</foreign></q> is a unit; <q><foreign>beautiful landscapes</foreign></q> is a unit. These units can be moved, replaced, and manipulated as wholes.</p>
 
     <p>For instance, you can replace the entire subject NP with a pronoun:</p>
 
     <ul>
-      <li><p><em>The young artist from Paris</em> painted... → <em>She</em> painted...</p></li>
+      <li><p><foreign><em>The young artist from Paris</em> painted...</foreign> → <foreign><em>She</em> painted...</foreign></p></li>
     </ul>
 
     <p>You can move the entire object NP to the front for emphasis:</p>
 
     <ul>
-      <li><p>Beautiful landscapes, the young artist from Paris painted.</p></li>
+      <li><p><foreign>Beautiful landscapes, the young artist from Paris painted.</foreign></p></li>
     </ul>
 
     <p>These operations work on <em>constituents</em>—groups that the tree identifies as units.</p>
@@ -344,9 +344,9 @@
       <li><p>Grammatical requirements: The head determines what complements are needed</p></li>
     </ul>
 
-    <p>In the noun phrase &quot;the tall man,&quot; the head is &quot;man.&quot; Without &quot;man,&quot; you don't have a noun phrase.</p>
+    <p>In the noun phrase <q><foreign>the tall man</foreign></q>, the head is <q><foreign>man</foreign></q>. Without <q><foreign>man</foreign></q>, you don't have a noun phrase.</p>
 
-    <p>In the verb phrase &quot;carefully read the instructions,&quot; the head is &quot;read.&quot; It determines the phrase's category and requires an object.</p>
+    <p>In the verb phrase <q><foreign>carefully read the instructions</foreign></q>, the head is <q><foreign>read</foreign></q>. It determines the phrase's category and requires an object.</p>
 
     <paragraphs>
       <title>Modifiers</title>
@@ -357,16 +357,16 @@
     <p><em>In noun phrases:</em></p>
 
     <ul>
-      <li><p>Adjectives: the tall man</p></li>
-      <li><p>Prepositional phrases: the man in the hat</p></li>
-      <li><p>Relative clauses: the man who arrived late</p></li>
+      <li><p>Adjectives: <foreign>the tall man</foreign></p></li>
+      <li><p>Prepositional phrases: <foreign>the man in the hat</foreign></p></li>
+      <li><p>Relative clauses: <foreign>the man who arrived late</foreign></p></li>
     </ul>
 
     <p><em>In verb phrases:</em></p>
 
     <ul>
-      <li><p>Adverbs: she spoke quietly</p></li>
-      <li><p>Prepositional phrases: she works at a hospital</p></li>
+      <li><p>Adverbs: <foreign>she spoke quietly</foreign></p></li>
+      <li><p>Prepositional phrases: <foreign>she works at a hospital</foreign></p></li>
     </ul>
 
     <p>Modifiers answer questions like &quot;which one?&quot; &quot;what kind?&quot; &quot;how?&quot; &quot;when?&quot; &quot;where?&quot;</p>
@@ -380,15 +380,15 @@
     <p><em>Objects</em> are noun phrases in the verb phrase that receive the action or are directly affected by the verb. Transitive verbs require an object to form a complete thought:</p>
 
     <ul>
-      <li><p>She read <em>the book</em>. (direct object—what she read)</p></li>
-      <li><p>The cat chased <em>the mouse</em>. (direct object—what it chased)</p></li>
+      <li><p><foreign>She read <em>the book</em>.</foreign> (direct object—what she read)</p></li>
+      <li><p><foreign>The cat chased <em>the mouse</em>.</foreign> (direct object—what it chased)</p></li>
     </ul>
 
     <p><em>Complements</em> in the broader sense are elements that complete the meaning of a linking verb by describing or renaming the subject:</p>
 
     <ul>
-      <li><p>He is <em>a doctor</em>. (subject complement—a noun phrase renaming the subject)</p></li>
-      <li><p>She became <em>famous</em>. (subject complement—an adjective phrase describing the subject)</p></li>
+      <li><p><foreign>He is <em>a doctor</em>.</foreign> (subject complement—a noun phrase renaming the subject)</p></li>
+      <li><p><foreign>She became <em>famous</em>.</foreign> (subject complement—an adjective phrase describing the subject)</p></li>
     </ul>
 
     <p>More complex complement patterns (such as verbs that take two objects) will be covered in Chapter 8.</p>
@@ -396,8 +396,8 @@
     <p>The key difference between objects/complements and modifiers is <em>obligatoriness</em>: if removing an element makes the sentence feel incomplete, it is likely an object or complement rather than a modifier.</p>
 
     <ul>
-      <li><p>She read the book carefully. → She read the book. (OK—&quot;carefully&quot; is a modifier)</p></li>
-      <li><p>She read the book carefully. → She read carefully. (Changed meaning—&quot;the book&quot; is an object)</p></li>
+      <li><p><foreign>She read the book carefully.</foreign> → <foreign>She read the book.</foreign> (OK—<q><foreign>carefully</foreign></q> is a modifier)</p></li>
+      <li><p><foreign>She read the book carefully.</foreign> → <foreign>She read carefully.</foreign> (Changed meaning—<q><foreign>the book</foreign></q> is an object)</p></li>
     </ul>
 
   </section>
@@ -413,7 +413,7 @@
 
     <p>When a sentence has two possible structures, it is <em>structurally ambiguous</em>.</p>
 
-    <p><em>Example</em>: <em>I saw the man with binoculars.</em></p>
+    <p><em>Example</em>: <q><foreign>I saw the man with binoculars.</foreign></q></p>
 
     <p>This sentence has two readings:</p>
 
@@ -422,36 +422,36 @@
       <li><p>I saw the man who had binoculars. (PP modifies NP)</p></li>
     </ol>
 
-    <p>A student encountering this sentence for the first time might instinctively begin diagramming by attaching &quot;with binoculars&quot; to the VP—after all, it seems natural to read it as describing the act of seeing. But look at what happens when we consider the alternative structure, where &quot;with binoculars&quot; attaches to the NP &quot;the man&quot; instead. The two trees below make the structural difference visible.</p>
+    <p>A student encountering this sentence for the first time might instinctively begin diagramming by attaching <q><foreign>with binoculars</foreign></q> to the VP—after all, it seems natural to read it as describing the act of seeing. But look at what happens when we consider the alternative structure, where <q><foreign>with binoculars</foreign></q> attaches to the NP <q><foreign>the man</foreign></q> instead. The two trees below make the structural difference visible.</p>
 
-    <p><em>Structure 1</em> (PP attaches to VP—&quot;with binoculars&quot; describes how I saw):</p>
+    <p><em>Structure 1</em> (PP attaches to VP—<q><foreign>with binoculars</foreign></q> describes how I saw):</p>
 
     <image source="diagrams/new/ch07_binoculars_vp.png" width="60%">
       <description>Syntax tree showing "with binoculars" as PP attached to VP, meaning I used binoculars to see the man</description>
     </image>
     <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man]] [PP [PREP with] [NP [N binoculars]]]]]</c></p>
 
-    <p><em>Structure 2</em> (PP attaches to NP—&quot;with binoculars&quot; describes which man):</p>
+    <p><em>Structure 2</em> (PP attaches to NP—<q><foreign>with binoculars</foreign></q> describes which man):</p>
 
     <image source="diagrams/new/ch07_binoculars_np.png" width="60%">
       <description>Syntax tree showing "with binoculars" as PP attached to NP "the man", meaning the man had binoculars</description>
     </image>
     <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N man] [PP [PREP with] [NP [N binoculars]]]]]]</c></p>
 
-    <p>The diagrams make the ambiguity explicit. In Structure 1, the PP &quot;with binoculars&quot; is a daughter of VP—it modifies the verb &quot;saw,&quot; telling us <em>how</em> I saw. In Structure 2, the PP is a daughter of the object NP—it modifies &quot;the man,&quot; telling us <em>which</em> man I saw. The words are identical, but the tree structures are different, and so are the meanings.</p>
+    <p>The diagrams make the ambiguity explicit. In Structure 1, the PP <q><foreign>with binoculars</foreign></q> is a daughter of VP—it modifies the verb <q><foreign>saw</foreign></q>, telling us <em>how</em> I saw. In Structure 2, the PP is a daughter of the object NP—it modifies <q><foreign>the man</foreign></q>, telling us <em>which</em> man I saw. The words are identical, but the tree structures are different, and so are the meanings.</p>
 
     <paragraphs>
       <title>More Examples of Structural Ambiguity</title>
     </paragraphs>
 
-    <p><em>Example</em>: <em>Flying planes can be dangerous.</em></p>
+    <p><em>Example</em>: <q><foreign>Flying planes can be dangerous.</foreign></q></p>
 
     <ul>
       <li><p>Reading 1: The activity of flying planes is dangerous.</p></li>
       <li><p>Reading 2: Planes that are flying can be dangerous.</p></li>
     </ul>
 
-    <p><em>Example</em>: <em>Old men and women gathered.</em></p>
+    <p><em>Example</em>: <q><foreign>Old men and women gathered.</foreign></q></p>
 
     <ul>
       <li><p>Reading 1: Old men, and women (of any age)</p></li>
@@ -517,16 +517,16 @@
     </ol>
 
     <paragraphs>
-      <title>Example 1: &quot;The dog barked.&quot;</title>
+      <title>Example 1: "The dog barked."</title>
     </paragraphs>
 
     <p>Let us walk through this simple intransitive sentence.</p>
 
-    <p><em>Step 1—Part of Speech</em>: &quot;The&quot; is a DET, &quot;dog&quot; is a N, &quot;barked&quot; is a V.</p>
+    <p><em>Step 1—Part of Speech</em>: <q><foreign>The</foreign></q> is a DET, <q><foreign>dog</foreign></q> is a N, <q><foreign>barked</foreign></q> is a V.</p>
 
-    <p><em>Step 2—Phrase</em>: &quot;The dog&quot; forms an NP. &quot;Barked&quot; is the MVP.</p>
+    <p><em>Step 2—Phrase</em>: <q><foreign>The dog</foreign></q> forms an NP. <q><foreign>Barked</foreign></q> is the MVP.</p>
 
-    <p><em>Step 3—Role</em>: The NP &quot;The dog&quot; is the Subject. The MVP &quot;barked&quot; is the Predicate.</p>
+    <p><em>Step 3—Role</em>: The NP <q><foreign>The dog</foreign></q> is the Subject. The MVP <q><foreign>barked</foreign></q> is the Predicate.</p>
 
     <p>The completed table:</p>
 
@@ -564,19 +564,19 @@
     </image>
     <p><c>[S [NP [DET The] [N dog]] [VP [V barked]]]</c></p>
 
-    <p>Notice that the tree shows &quot;The&quot; and &quot;dog&quot; are both <em>inside</em> the NP—the tree captures this containment relationship visually. The table lists them as separate columns sharing the NP label, but it cannot show the hierarchical nesting the way the tree does.</p>
+    <p>Notice that the tree shows <q><foreign>The</foreign></q> and <q><foreign>dog</foreign></q> are both <em>inside</em> the NP—the tree captures this containment relationship visually. The table lists them as separate columns sharing the NP label, but it cannot show the hierarchical nesting the way the tree does.</p>
 
     <paragraphs>
-      <title>Example 2: &quot;The cat chased the mouse.&quot;</title>
+      <title>Example 2: "The cat chased the mouse."</title>
     </paragraphs>
 
     <p>Now let us try a transitive sentence.</p>
 
-    <p><em>Step 1—Part of Speech</em>: &quot;The&quot; is a DET, &quot;cat&quot; is a N, &quot;chased&quot; is a V, &quot;the&quot; is a DET, &quot;mouse&quot; is a N.</p>
+    <p><em>Step 1—Part of Speech</em>: <q><foreign>The</foreign></q> is a DET, <q><foreign>cat</foreign></q> is a N, <q><foreign>chased</foreign></q> is a V, <q><foreign>the</foreign></q> is a DET, <q><foreign>mouse</foreign></q> is a N.</p>
 
-    <p><em>Step 2—Phrase</em>: &quot;The cat&quot; forms an NP. &quot;Chased&quot; is the MVP. &quot;The mouse&quot; forms another NP.</p>
+    <p><em>Step 2—Phrase</em>: <q><foreign>The cat</foreign></q> forms an NP. <q><foreign>Chased</foreign></q> is the MVP. <q><foreign>The mouse</foreign></q> forms another NP.</p>
 
-    <p><em>Step 3—Role</em>: The NP &quot;The cat&quot; is the Subject. The MVP &quot;chased&quot; is the Predicate. But what about &quot;the mouse&quot;? It is a noun phrase that receives the action—it is the <em>object</em> of the verb. However, we have not yet introduced the Direct Object role in our table system, so we leave the Role cell empty for now. The words still receive their POS and Phrase labels.</p>
+    <p><em>Step 3—Role</em>: The NP <q><foreign>The cat</foreign></q> is the Subject. The MVP <q><foreign>chased</foreign></q> is the Predicate. But what about <q><foreign>the mouse</foreign></q>? It is a noun phrase that receives the action—it is the <em>object</em> of the verb. However, we have not yet introduced the Direct Object role in our table system, so we leave the Role cell empty for now. The words still receive their POS and Phrase labels.</p>
 
     <tabular halign="center">
       <row header="yes">
@@ -620,7 +620,7 @@
     </image>
     <p><c>[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]</c></p>
 
-    <p>The tree makes clear what the table cannot easily show: the object NP &quot;the mouse&quot; is <em>inside</em> the VP, dominated by the VP node. In the table, &quot;the mouse&quot; simply appears as a separate NP to the right of the MVP—the containment relationship is invisible.</p>
+    <p>The tree makes clear what the table cannot easily show: the object NP <q><foreign>the mouse</foreign></q> is <em>inside</em> the VP, dominated by the VP node. In the table, <q><foreign>the mouse</foreign></q> simply appears as a separate NP to the right of the MVP—the containment relationship is invisible.</p>
 
     <paragraphs>
       <title>Tables and Trees Together</title>
@@ -649,17 +649,17 @@
       </ol>
 
       <paragraphs>
-        <title>Worked Example: &quot;The old man sat quietly.&quot;</title>
+        <title>Worked Example: "The old man sat quietly."</title>
       </paragraphs>
 
-      <p><em>Step 1—Divide S into NP + VP</em>: The subject is &quot;The old man&quot; (who sat?). The predicate is &quot;sat quietly&quot; (what did the man do?).</p>
+      <p><em>Step 1—Divide S into NP + VP</em>: The subject is <q><foreign>The old man</foreign></q> (who sat?). The predicate is <q><foreign>sat quietly</foreign></q> (what did the man do?).</p>
 
-      <p><em>Step 2—Find the heads</em>: The head noun of the NP is &quot;man.&quot; The head verb of the VP is &quot;sat.&quot;</p>
+      <p><em>Step 2—Find the heads</em>: The head noun of the NP is <q><foreign>man</foreign></q>. The head verb of the VP is <q><foreign>sat</foreign></q>.</p>
 
       <p><em>Step 3—Identify additional elements</em>:</p>
       <ul>
-        <li><p>In the NP: &quot;The&quot; is a DET modifying &quot;man.&quot; &quot;Old&quot; is an ADJ inside an ADJP, also modifying &quot;man.&quot;</p></li>
-        <li><p>In the VP: &quot;Quietly&quot; is an ADV inside an ADVP, modifying the verb &quot;sat.&quot;</p></li>
+        <li><p>In the NP: <q><foreign>The</foreign></q> is a DET modifying <q><foreign>man</foreign></q>. <q><foreign>Old</foreign></q> is an ADJ inside an ADJP, also modifying <q><foreign>man</foreign></q>.</p></li>
+        <li><p>In the VP: <q><foreign>Quietly</foreign></q> is an ADV inside an ADVP, modifying the verb <q><foreign>sat</foreign></q>.</p></li>
       </ul>
 
       <p><em>Step 4—Draw the tree</em>:</p>
@@ -722,21 +722,21 @@
       </ol>
 
       <paragraphs>
-        <title>Worked Example: &quot;The cat chased the mouse.&quot;</title>
+        <title>Worked Example: "The cat chased the mouse."</title>
       </paragraphs>
 
-      <p><em>Step 1—Label each word's POS</em>: The = DET, cat = N, chased = V, the = DET, mouse = N.</p>
+      <p><em>Step 1—Label each word's POS</em>: <foreign>The</foreign> = DET, <foreign>cat</foreign> = N, <foreign>chased</foreign> = V, <foreign>the</foreign> = DET, <foreign>mouse</foreign> = N.</p>
 
       <p><em>Step 2—Group words into phrases</em>:</p>
       <ul>
-        <li><p>&quot;The cat&quot; → NP (DET + N)</p></li>
-        <li><p>&quot;the mouse&quot; → NP (DET + N)</p></li>
-        <li><p>&quot;chased&quot; → V (the head of the VP)</p></li>
+        <li><p><q><foreign>The cat</foreign></q> → NP (DET + N)</p></li>
+        <li><p><q><foreign>the mouse</foreign></q> → NP (DET + N)</p></li>
+        <li><p><q><foreign>chased</foreign></q> → V (the head of the VP)</p></li>
       </ul>
 
-      <p><em>Step 3—Identify phrase relationships</em>: The V &quot;chased&quot; takes the NP &quot;the mouse&quot; as its object, so together they form the VP: &quot;chased the mouse.&quot;</p>
+      <p><em>Step 3—Identify phrase relationships</em>: The V <q><foreign>chased</foreign></q> takes the NP <q><foreign>the mouse</foreign></q> as its object, so together they form the VP: <q><foreign>chased the mouse</foreign></q>.</p>
 
-      <p><em>Step 4—Build up to S</em>: The subject NP &quot;The cat&quot; and the VP &quot;chased the mouse&quot; combine under S.</p>
+      <p><em>Step 4—Build up to S</em>: The subject NP <q><foreign>The cat</foreign></q> and the VP <q><foreign>chased the mouse</foreign></q> combine under S.</p>
 
       <image source="diagrams/new/ch07_cat_chased.png" width="50%">
         <description>Syntax tree for "The cat chased the mouse"</description>
@@ -798,31 +798,28 @@
     <subsection xml:id="ch-07-homework-part1">
       <title>Part 1: Subject and Predicate Identification</title>
 
-      <p><em>Instructions:</em> For each sentence, identify the complete subject NP and the complete predicate VP. Then identify the head of each.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence, identify the complete subject NP and the complete predicate VP. Then identify the head of each.</p>
 
-      <p><em>Example (completed):</em></p>
-
-      <p><em>Sentence:</em> <em>The exhausted marathon runner from Kenya finally collapsed at the finish line.</em></p>
-
-      <ul>
-        <li><p>Subject NP: <em>The exhausted marathon runner from Kenya</em></p></li>
-        <li><p>Head of subject NP: <em>runner</em></p></li>
-        <li><p>Predicate VP: <em>finally collapsed at the finish line</em></p></li>
-        <li><p>Head of predicate VP: <em>collapsed</em></p></li>
-      </ul>
-
-      <p><em>Exercises:</em></p>
-
-      <p><em>1.</em> <em>The curious students from the advanced chemistry class carefully examined the unusual compound.</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><em>Sentence:</em> <foreign>The exhausted marathon runner from Kenya finally collapsed at the finish line.</foreign></p>
 
       <ul>
-        <li><p>Subject NP: _____</p></li>
-        <li><p>Head of subject NP: _____</p></li>
-        <li><p>Predicate VP: _____</p></li>
-        <li><p>Head of predicate VP: _____</p></li>
+        <li><p>Subject NP: <foreign>The exhausted marathon runner from Kenya</foreign></p></li>
+        <li><p>Head of subject NP: <foreign>runner</foreign></p></li>
+        <li><p>Predicate VP: <foreign>finally collapsed at the finish line</foreign></p></li>
+        <li><p>Head of predicate VP: <foreign>collapsed</foreign></p></li>
       </ul>
 
-      <p><em>2.</em> <em>My extremely talented older sister from Portland won the national competition.</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 1.</em> <foreign>The curious students from the advanced chemistry class carefully examined the unusual compound.</foreign></p>
 
       <ul>
         <li><p>Subject NP: _____</p></li>
@@ -831,7 +828,16 @@
         <li><p>Head of predicate VP: _____</p></li>
       </ul>
 
-      <p><em>3.</em> <em>Several angry protesters outside the courthouse demanded immediate action.</em></p>
+      <p><em>Exercise 2.</em> <foreign>My extremely talented older sister from Portland won the national competition.</foreign></p>
+
+      <ul>
+        <li><p>Subject NP: _____</p></li>
+        <li><p>Head of subject NP: _____</p></li>
+        <li><p>Predicate VP: _____</p></li>
+        <li><p>Head of predicate VP: _____</p></li>
+      </ul>
+
+      <p><em>Exercise 3.</em> <foreign>Several angry protesters outside the courthouse demanded immediate action.</foreign></p>
 
       <ul>
         <li><p>Subject NP: _____</p></li>
@@ -845,42 +851,48 @@
     <subsection xml:id="ch-07-homework-part2">
       <title>Part 2: Heads and Modifiers</title>
 
-      <p><em>Instructions:</em> For each phrase, identify the head and list all modifiers. Classify each modifier by type (determiner, adjective, adverb, prepositional phrase, etc.).</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each phrase, identify the head and list all modifiers. Classify each modifier by type (determiner, adjective, adverb, prepositional phrase, etc.).</p>
 
-      <p><em>Example (completed):</em></p>
-
-      <p><em>Phrase:</em> <em>the very tall young basketball player from Chicago</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><em>Phrase:</em> <foreign>the very tall young basketball player from Chicago</foreign></p>
 
       <ul>
-        <li><p>Head: <em>player</em></p></li>
+        <li><p>Head: <foreign>player</foreign></p></li>
         <li><p>Modifiers:</p>
           <ul>
-            <li><p>the — determiner</p></li>
-            <li><p>very tall — adjective phrase (containing adverb "very" + adjective "tall")</p></li>
-            <li><p>young — adjective</p></li>
-            <li><p>basketball — noun (functioning adjectivally)</p></li>
-            <li><p>from Chicago — prepositional phrase</p></li>
+            <li><p><foreign>the</foreign> — determiner</p></li>
+            <li><p><foreign>very tall</foreign> — adjective phrase (containing adverb <q><foreign>very</foreign></q> + adjective <q><foreign>tall</foreign></q>)</p></li>
+            <li><p><foreign>young</foreign> — adjective</p></li>
+            <li><p><foreign>basketball</foreign> — noun (functioning adjectivally)</p></li>
+            <li><p><foreign>from Chicago</foreign> — prepositional phrase</p></li>
           </ul>
         </li>
       </ul>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><em>4.</em> <em>my grandmother's beautiful antique wooden jewelry box</em></p>
-
-      <ul>
-        <li><p>Head: _____</p></li>
-        <li><p>Modifiers: _____</p></li>
-      </ul>
-
-      <p><em>5.</em> <em>extremely carefully</em></p>
+      <p><em>Exercise 4.</em> <foreign>my grandmother's beautiful antique wooden jewelry box</foreign></p>
 
       <ul>
         <li><p>Head: _____</p></li>
         <li><p>Modifiers: _____</p></li>
       </ul>
 
-      <p><em>6.</em> <em>quite proud of her remarkable achievement</em></p>
+      <p><em>Exercise 5.</em> <foreign>extremely carefully</foreign></p>
+
+      <ul>
+        <li><p>Head: _____</p></li>
+        <li><p>Modifiers: _____</p></li>
+      </ul>
+
+      <p><em>Exercise 6.</em> <foreign>quite proud of her remarkable achievement</foreign></p>
 
       <ul>
         <li><p>Head: _____</p></li>
@@ -892,11 +904,15 @@
     <subsection xml:id="ch-07-homework-part3">
       <title>Part 3: Completing Sentence Tables</title>
 
-      <p><em>Instructions:</em> Each table below is partially completed. Fill in the missing rows. Remember to work from the bottom up: identify POS first, then Phrases, then Roles. For now, use only two roles: Subject and Predicate.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Each table below is partially completed. Fill in the missing rows. Remember to work from the bottom up: identify POS first, then Phrases, then Roles. For now, use only two roles: Subject and Predicate.</p>
 
-      <p><em>Example (completed):</em></p>
-
-      <p><em>Sentence:</em> <em>She arrived.</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><em>Sentence:</em> <foreign>She arrived.</foreign></p>
 
       <tabular halign="center">
         <row header="yes">
@@ -921,9 +937,11 @@
         </row>
       </tabular>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><em>7.</em> Complete the Phrase and Role rows for: <em>Thunder rumbled.</em></p>
+      <p><em>Exercise 7.</em> Complete the Phrase and Role rows for: <foreign>Thunder rumbled.</foreign></p>
 
       <tabular halign="center">
         <row header="yes">
@@ -948,7 +966,7 @@
         </row>
       </tabular>
 
-      <p><em>8.</em> Complete the POS, Phrase, and Role rows for: <em>The old man sat quietly.</em></p>
+      <p><em>Exercise 8.</em> Complete the POS, Phrase, and Role rows for: <foreign>The old man sat quietly.</foreign></p>
 
       <tabular halign="center">
         <row header="yes">
@@ -985,7 +1003,7 @@
         </row>
       </tabular>
 
-      <p><em>9.</em> Complete the Phrase and POS rows for: <em>The cat chased the mouse.</em></p>
+      <p><em>Exercise 9.</em> Complete the Phrase and POS rows for: <foreign>The cat chased the mouse.</foreign></p>
 
       <tabular halign="center">
         <row header="yes">
@@ -1027,11 +1045,15 @@
     <subsection xml:id="ch-07-homework-part4">
       <title>Part 4: Completing Diagrams and Tables</title>
 
-      <p><em>Instructions:</em> For each sentence below, (a) draw a tree diagram showing its hierarchical structure and (b) complete a sentence labeling table. Label all nodes using ALL CAPS labels (S, NP, VP, DET, N, V, ADJ, ADV, PREP, etc.). You may draw tree diagrams by hand and photograph them, use a digital tool, or describe the structure in bracket notation.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence below, (a) draw a tree diagram showing its hierarchical structure and (b) complete a sentence labeling table. Label all nodes using ALL CAPS labels (S, NP, VP, DET, N, V, ADJ, ADV, PREP, etc.). You may draw tree diagrams by hand and photograph them, use a digital tool, or describe the structure in bracket notation.</p>
 
-      <p><em>Example (completed):</em></p>
-
-      <p><em>Sentence:</em> <em>The cat slept.</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><em>Sentence:</em> <foreign>The cat slept.</foreign></p>
 
       <p>Bracket notation: <c>[S [NP [DET The] [N cat]] [VP [V slept]]]</c></p>
 
@@ -1062,23 +1084,25 @@
         </row>
       </tabular>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><em>10.</em> <em>The dog barked loudly.</em></p>
-
-      <ul>
-        <li><p>Your tree diagram or bracket notation: _____</p></li>
-        <li><p>Your sentence table: _____</p></li>
-      </ul>
-
-      <p><em>11.</em> <em>The talented student from Ohio won the award.</em></p>
+      <p><em>Exercise 10.</em> <foreign>The dog barked loudly.</foreign></p>
 
       <ul>
         <li><p>Your tree diagram or bracket notation: _____</p></li>
         <li><p>Your sentence table: _____</p></li>
       </ul>
 
-      <p><em>12.</em> <em>She carefully read the interesting book.</em></p>
+      <p><em>Exercise 11.</em> <foreign>The talented student from Ohio won the award.</foreign></p>
+
+      <ul>
+        <li><p>Your tree diagram or bracket notation: _____</p></li>
+        <li><p>Your sentence table: _____</p></li>
+      </ul>
+
+      <p><em>Exercise 12.</em> <foreign>She carefully read the interesting book.</foreign></p>
 
       <ul>
         <li><p>Your tree diagram or bracket notation: _____</p></li>
@@ -1090,11 +1114,16 @@
     <subsection xml:id="ch-07-homework-part5">
       <title>Part 5: Structural Ambiguity Analysis</title>
 
-      <p><em>Instructions:</em> The sentences below are structurally ambiguous—they can be understood in more than one way because of how their parts can be grouped. For each sentence, create tree diagrams to show the different possible structures and explain why the ambiguity arises.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>The sentences below are structurally ambiguous—they can be understood in more than one way because of how their parts can be grouped. For each sentence, create tree diagrams to show the different possible structures and explain why the ambiguity arises.</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><em>13.</em> The comedian Groucho Marx once joked: <em>I shot an elephant in my pajamas.</em></p>
+      <p><em>Exercise 13.</em> The comedian Groucho Marx once joked: <foreign>I shot an elephant in my pajamas.</foreign></p>
 
       <p>a) Describe the two possible meanings of this sentence:</p>
 
@@ -1103,7 +1132,7 @@
         <li><p>Meaning 2: _____</p></li>
       </ul>
 
-      <p>b) Draw a tree diagram for each reading. Pay close attention to where the PP &quot;in my pajamas&quot; attaches—does it attach to the VP or to the NP &quot;an elephant&quot;?</p>
+      <p>b) Draw a tree diagram for each reading. Pay close attention to where the PP <q><foreign>in my pajamas</foreign></q> attaches—does it attach to the VP or to the NP <q><foreign>an elephant</foreign></q>?</p>
 
       <ul>
         <li><p>Tree for Meaning 1: _____</p></li>
@@ -1116,17 +1145,17 @@
         <li><p>Your response: _____</p></li>
       </ul>
 
-      <p><em>14.</em> Read the following sentence carefully: <em>The horse raced past the barn fell.</em></p>
+      <p><em>Exercise 14.</em> Read the following sentence carefully: <foreign>The horse raced past the barn fell.</foreign></p>
 
-      <p>This is called a <em>garden-path sentence</em>—a sentence that leads the reader down one structural path before revealing that a different structure was intended. (Hint: try reading it as &quot;The horse <em>that was</em> raced past the barn fell.&quot;)</p>
+      <p>This is called a <em>garden-path sentence</em>—a sentence that leads the reader down one structural path before revealing that a different structure was intended. (Hint: try reading it as <q><foreign>The horse <em>that was</em> raced past the barn fell.</foreign></q>)</p>
 
-      <p>a) Describe the initial reading that most people attempt when they first encounter this sentence. Why does it seem to &quot;break&quot; at the word &quot;fell&quot;?</p>
+      <p>a) Describe the initial reading that most people attempt when they first encounter this sentence. Why does it seem to "break" at the word <q><foreign>fell</foreign></q>?</p>
 
       <ul>
         <li><p>Your response: _____</p></li>
       </ul>
 
-      <p>b) Now describe the correct reading of the sentence. What role does &quot;raced past the barn&quot; play in the sentence?</p>
+      <p>b) Now describe the correct reading of the sentence. What role does <q><foreign>raced past the barn</foreign></q> play in the sentence?</p>
 
       <ul>
         <li><p>Your response: _____</p></li>
@@ -1138,7 +1167,7 @@
         <li><p>Your response: _____</p></li>
       </ul>
 
-      <p><em>15.</em> In 3-4 sentences, explain why understanding hierarchical sentence structure (as shown in tree diagrams) matters for both reading comprehension and clear writing. Use a specific example to support your explanation.</p>
+      <p><em>Exercise 15.</em> In 3-4 sentences, explain why understanding hierarchical sentence structure (as shown in tree diagrams) matters for both reading comprehension and clear writing. Use a specific example to support your explanation.</p>
 
       <ul>
         <li><p>Your response: _____</p></li>
