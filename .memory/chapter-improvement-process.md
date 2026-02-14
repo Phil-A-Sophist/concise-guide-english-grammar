@@ -198,5 +198,6 @@ Verify:
 - [x] Chapter 6 (formatting only, Tasks 8-15)
 - [x] Chapter 7 (full improvement: formatting + homework + Word files, Task 17)
 - [x] Chapter 8 (full improvement: formatting + homework + Word files, Task 18)
-- [ ] Chapter 9
-- [ ] Chapter 10-21
+- [x] Chapter 9 (full improvement: formatting + homework + Word files, Task 19)
+- [ ] Chapter 10 (starting Task 20)
+- [ ] Chapter 11-21

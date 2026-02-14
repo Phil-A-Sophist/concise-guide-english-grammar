@@ -7,7 +7,7 @@
     <title>Learning Objectives</title>
     <ul>
       <li><p>Distinguish between primary auxiliaries and modal auxiliaries</p></li>
-      <li><p>Explain the functions of <em>be</em>, <em>have</em>, and <em>do</em> as auxiliaries</p></li>
+      <li><p>Explain the functions of <foreign>be</foreign>, <foreign>have</foreign>, and <foreign>do</foreign> as auxiliaries</p></li>
       <li><p>Define tense as a grammatical category distinct from time</p></li>
       <li><p>Identify and form present and past tense</p></li>
       <li><p>Understand the four aspects (simple, progressive, perfect, perfect progressive)</p></li>
@@ -23,14 +23,13 @@
       <li><p>Progressive aspect</p></li>
       <li><p>Perfect aspect</p></li>
       <li><p>Perfect progressive aspect</p></li>
-      <li><p>--</p></li>
     </ul>
   </objectives>
 
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-101">
     <title>Auxiliary Verbs</title>
 
-    <p><em>Auxiliary verbs</em> (also called helping verbs) combine with main verbs to create complex verb phrases. They add grammatical information about tense, aspect, voice, and modality.</p>
+    <p><term>Auxiliary verbs</term> (also called helping verbs) combine with main verbs to create complex verb phrases. They add grammatical information about tense, aspect, voice, and modality.</p>
 
     <paragraphs>
       <title>Auxiliary vs. Main Verb</title>
@@ -40,32 +39,32 @@
 
     <p><em>Auxiliary verb</em>: Adds grammatical information</p>
 
-    <p>"She <em>has eaten</em> dinner."</p>
+    <p><q><foreign>She <em>has eaten</em> dinner.</foreign></q></p>
 
     <ul>
-      <li><p>Auxiliary: <em>has</em> (adds perfect aspect)</p></li>
-      <li><p>Main verb: <em>eaten</em> (the action)</p></li>
+      <li><p>Auxiliary: <foreign>has</foreign> (adds perfect aspect)</p></li>
+      <li><p>Main verb: <foreign>eaten</foreign> (the action)</p></li>
     </ul>
 
-    <p>"The book <em>was written</em> by Maria."</p>
+    <p><q><foreign>The book <em>was written</em> by Maria.</foreign></q></p>
 
     <ul>
-      <li><p>Auxiliary: <em>was</em> (adds passive voice)</p></li>
-      <li><p>Main verb: <em>written</em> (the action)</p></li>
+      <li><p>Auxiliary: <foreign>was</foreign> (adds passive voice)</p></li>
+      <li><p>Main verb: <foreign>written</foreign> (the action)</p></li>
     </ul>
 
     <paragraphs>
       <title>Types of Auxiliaries</title>
     </paragraphs>
 
-    <p><em>Primary auxiliaries</em>: be, have, do</p>
+    <p><term>Primary auxiliaries</term>: <foreign>be, have, do</foreign></p>
 
     <ul>
       <li><p>Form progressive, perfect, and passive constructions</p></li>
       <li><p>Can also be main verbs</p></li>
     </ul>
 
-    <p><em>Modal auxiliaries</em>: can, could, will, would, shall, should, may, might, must</p>
+    <p><term>Modal auxiliaries</term>: <foreign>can, could, will, would, shall, should, may, might, must</foreign></p>
 
     <ul>
       <li><p>Add modality (possibility, necessity, permission, etc.)</p></li>
@@ -75,12 +74,12 @@
   </section>
 
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-102">
-    <title>Primary Auxiliary: *Be*</title>
+    <title>Primary Auxiliary: Be</title>
 
-    <p><em>Be</em> is the most versatile auxiliary, used for both progressive aspect and passive voice.</p>
+    <p><foreign>Be</foreign> is the most versatile auxiliary, used for both progressive aspect and passive voice.</p>
 
     <paragraphs>
-      <title>Forms of *Be*</title>
+      <title>Forms of Be</title>
     </paragraphs>
 
     <tabular>
@@ -90,59 +89,59 @@
         <cell>Participles</cell>
       </row>
       <row>
-        <cell>am, is, are</cell>
-        <cell>was, were</cell>
-        <cell>been, being</cell>
+        <cell><foreign>am, is, are</foreign></cell>
+        <cell><foreign>was, were</foreign></cell>
+        <cell><foreign>been, being</foreign></cell>
       </row>
     </tabular>
 
     <paragraphs>
-      <title>Functions of Auxiliary *Be*</title>
+      <title>Functions of Auxiliary Be</title>
     </paragraphs>
 
-    <p><em>Progressive aspect</em> (be + -ing):</p>
+    <p><em>Progressive aspect</em> (<foreign>be</foreign> + <foreign>-ing</foreign>):</p>
 
     <ul>
-      <li><p>"She <em>is reading</em>." (present progressive)</p></li>
-      <li><p>"They <em>were studying</em>." (past progressive)</p></li>
-      <li><p>"He <em>has been working</em>." (present perfect progressive)</p></li>
+      <li><p><foreign>She <em>is reading</em>.</foreign> (present progressive)</p></li>
+      <li><p><foreign>They <em>were studying</em>.</foreign> (past progressive)</p></li>
+      <li><p><foreign>He <em>has been working</em>.</foreign> (present perfect progressive)</p></li>
     </ul>
 
-    <p><em>Passive voice</em> (be + past participle):</p>
+    <p><em>Passive voice</em> (<foreign>be</foreign> + past participle):</p>
 
     <ul>
-      <li><p>"The book <em>was written</em> by Maria."</p></li>
-      <li><p>"The house <em>is being built</em>."</p></li>
-      <li><p>"The work <em>will be completed</em>."</p></li>
+      <li><p><foreign>The book <em>was written</em> by Maria.</foreign></p></li>
+      <li><p><foreign>The house <em>is being built</em>.</foreign></p></li>
+      <li><p><foreign>The work <em>will be completed</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
-      <title>*Be* as Main Verb vs. Auxiliary</title>
+      <title>Be as Main Verb vs. Auxiliary</title>
     </paragraphs>
 
-    <p><em>Be</em> can also be a main verb (copular/linking):</p>
+    <p><foreign>Be</foreign> can also be a main verb (copular/linking):</p>
 
     <ul>
-      <li><p>"She <em>is</em> a teacher." (main verb—links subject to complement)</p></li>
+      <li><p><foreign>She <em>is</em> a teacher.</foreign> (main verb—links subject to complement)</p></li>
     </ul>
 
     <p><em>Distinguishing</em>:</p>
 
     <ul>
-      <li><p>Followed by <em>-ing</em> form = auxiliary: "She <em>is reading</em>."</p></li>
-      <li><p>Followed by past participle = auxiliary (passive): "It <em>was done</em>."</p></li>
-      <li><p>Followed by NP, AdjP, PP = main verb: "She <em>is</em> happy."</p></li>
+      <li><p>Followed by <foreign>-ing</foreign> form = auxiliary: <foreign>She <em>is reading</em>.</foreign></p></li>
+      <li><p>Followed by past participle = auxiliary (passive): <foreign>It <em>was done</em>.</foreign></p></li>
+      <li><p>Followed by NP, AdjP, PP = main verb: <foreign>She <em>is</em> happy.</foreign></p></li>
     </ul>
 
   </section>
 
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-103">
-    <title>Primary Auxiliary: *Have*</title>
+    <title>Primary Auxiliary: Have</title>
 
-    <p><em>Have</em> forms the perfect aspect, indicating that an action is completed or has continuing relevance.</p>
+    <p><foreign>Have</foreign> forms the perfect aspect, indicating that an action is completed or has continuing relevance.</p>
 
     <paragraphs>
-      <title>Forms of *Have*</title>
+      <title>Forms of Have</title>
     </paragraphs>
 
     <tabular>
@@ -152,51 +151,51 @@
         <cell>Participle</cell>
       </row>
       <row>
-        <cell>have, has</cell>
-        <cell>had</cell>
-        <cell>had</cell>
+        <cell><foreign>have, has</foreign></cell>
+        <cell><foreign>had</foreign></cell>
+        <cell><foreign>had</foreign></cell>
       </row>
     </tabular>
 
     <paragraphs>
-      <title>Functions of Auxiliary *Have*</title>
+      <title>Functions of Auxiliary Have</title>
     </paragraphs>
 
-    <p><em>Perfect aspect</em> (have + past participle):</p>
+    <p><em>Perfect aspect</em> (<foreign>have</foreign> + past participle):</p>
 
     <ul>
-      <li><p>"She <em>has finished</em> the work." (present perfect)</p></li>
-      <li><p>"They <em>had left</em> before I arrived." (past perfect)</p></li>
-      <li><p>"By then, I <em>will have completed</em> it." (future perfect)</p></li>
+      <li><p><foreign>She <em>has finished</em> the work.</foreign> (present perfect)</p></li>
+      <li><p><foreign>They <em>had left</em> before I arrived.</foreign> (past perfect)</p></li>
+      <li><p><foreign>By then, I <em>will have completed</em> it.</foreign> (future perfect)</p></li>
     </ul>
 
     <paragraphs>
-      <title>*Have* as Main Verb vs. Auxiliary</title>
+      <title>Have as Main Verb vs. Auxiliary</title>
     </paragraphs>
 
-    <p><em>Have</em> is also a main verb meaning &quot;possess&quot;:</p>
+    <p><foreign>Have</foreign> is also a main verb meaning <q>possess</q>:</p>
 
     <ul>
-      <li><p>"I <em>have</em> a car." (main verb)</p></li>
-      <li><p>"I <em>have seen</em> that movie." (auxiliary)</p></li>
+      <li><p><foreign>I <em>have</em> a car.</foreign> (main verb)</p></li>
+      <li><p><foreign>I <em>have seen</em> that movie.</foreign> (auxiliary)</p></li>
     </ul>
 
-    <p><em>Test</em>: Can you add <em>got</em> after <em>have</em>?</p>
+    <p><em>Test</em>: Can you add <foreign>got</foreign> after <foreign>have</foreign>?</p>
 
     <ul>
-      <li><p><em>I have (got) a car.</em> ✓ (main verb)</p></li>
-      <li><p><em>~~I have got seen that movie.~~</em> ✗ (auxiliary)</p></li>
+      <li><p><foreign>I have (got) a car.</foreign> ✓ (main verb)</p></li>
+      <li><p><foreign><delete>I have got seen that movie.</delete></foreign> ✗ (auxiliary)</p></li>
     </ul>
 
   </section>
 
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-104">
-    <title>Primary Auxiliary: *Do*</title>
+    <title>Primary Auxiliary: Do</title>
 
-    <p><em>Do</em> is used for emphasis, questions, and negation when no other auxiliary is present.</p>
+    <p><foreign>Do</foreign> is used for emphasis, questions, and negation when no other auxiliary is present.</p>
 
     <paragraphs>
-      <title>Forms of *Do*</title>
+      <title>Forms of Do</title>
     </paragraphs>
 
     <tabular>
@@ -205,43 +204,43 @@
         <cell>Past</cell>
       </row>
       <row>
-        <cell>do, does</cell>
-        <cell>did</cell>
+        <cell><foreign>do, does</foreign></cell>
+        <cell><foreign>did</foreign></cell>
       </row>
     </tabular>
 
     <paragraphs>
-      <title>Functions of Auxiliary *Do*</title>
+      <title>Functions of Auxiliary Do</title>
     </paragraphs>
 
-    <p><em>Do-support</em>: When a sentence needs an auxiliary (for questions, negation) but has none, <em>do</em> is inserted:</p>
+    <p><term>Do-support</term>: When a sentence needs an auxiliary (for questions, negation) but has none, <foreign>do</foreign> is inserted:</p>
 
     <p><em>Questions</em>:</p>
 
     <ul>
-      <li><p>"She <em>works</em> here." → Does she work here?</p></li>
-      <li><p>"They <em>left</em> early." → Did they leave early?</p></li>
+      <li><p><foreign>She <em>works</em> here.</foreign> → <foreign><em>Does</em> she work here?</foreign></p></li>
+      <li><p><foreign>They <em>left</em> early.</foreign> → <foreign><em>Did</em> they leave early?</foreign></p></li>
     </ul>
 
     <p><em>Negation</em>:</p>
 
     <ul>
-      <li><p>"She <em>works</em> here." → "She <em>doesn't</em> work here."</p></li>
-      <li><p>"They <em>left</em> early." → "They <em>didn't</em> leave early."</p></li>
+      <li><p><foreign>She <em>works</em> here.</foreign> → <foreign>She <em>doesn't</em> work here.</foreign></p></li>
+      <li><p><foreign>They <em>left</em> early.</foreign> → <foreign>They <em>didn't</em> leave early.</foreign></p></li>
     </ul>
 
     <p><em>Emphasis</em>:</p>
 
     <ul>
-      <li><p>"I <em>do</em> understand your concern."</p></li>
-      <li><p>"She <em>did</em> finish the assignment."</p></li>
+      <li><p><foreign>I <em>do</em> understand your concern.</foreign></p></li>
+      <li><p><foreign>She <em>did</em> finish the assignment.</foreign></p></li>
     </ul>
 
-    <p><em>Note</em>: If another auxiliary is present, <em>do</em> is not used:</p>
+    <p><em>Note</em>: If another auxiliary is present, <foreign>do</foreign> is not used:</p>
 
     <ul>
-      <li><p>"She <em>is</em> working." → Is she working? (not ~~Does she is working?~~)</p></li>
-      <li><p>"He <em>has</em> left." → Has he left?</p></li>
+      <li><p><foreign>She <em>is</em> working.</foreign> → <foreign>Is she working?</foreign> (not <foreign><delete>Does she is working?</delete></foreign>)</p></li>
+      <li><p><foreign>He <em>has</em> left.</foreign> → <foreign>Has he left?</foreign></p></li>
     </ul>
 
   </section>
@@ -249,7 +248,7 @@
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-105">
     <title>Tense: Locating Events in Time</title>
 
-    <p><em>Tense</em> is a grammatical category that locates situations in time, typically marked by verb inflection.</p>
+    <p><term>Tense</term> is a grammatical category that locates situations in time, typically marked by verb inflection.</p>
 
     <paragraphs>
       <title>Tense vs. Time</title>
@@ -259,7 +258,7 @@
 
     <p><em>Time</em> is conceptual—when something actually happens.</p>
 
-    <p>English has only <em>two morphological tenses</em>: present and past. Future time is expressed through modals and aspect, not a distinct verb form.</p>
+    <p>English has only two morphological tenses: present and past. Future time is expressed through modals and aspect, not a distinct verb form.</p>
 
     <tabular>
       <row header="yes">
@@ -269,18 +268,18 @@
       </row>
       <row>
         <cell>Present</cell>
-        <cell>base form or -s</cell>
-        <cell>walk, walks</cell>
+        <cell>base form or <foreign>-s</foreign></cell>
+        <cell><foreign>walk, walks</foreign></cell>
       </row>
       <row>
         <cell>Past</cell>
-        <cell>-ed or irregular form</cell>
-        <cell>walked, went</cell>
+        <cell><foreign>-ed</foreign> or irregular form</cell>
+        <cell><foreign>walked, went</foreign></cell>
       </row>
       <row>
         <cell>Future</cell>
-        <cell>modal will (no inflection)</cell>
-        <cell>will walk</cell>
+        <cell>modal <foreign>will</foreign> (no inflection)</cell>
+        <cell><foreign>will walk</foreign></cell>
       </row>
     </tabular>
 
@@ -296,17 +295,17 @@
     <p><em>Regular verbs</em>:</p>
 
     <ul>
-      <li><p>Base form: <em>I/you/we/they walk</em></p></li>
-      <li><p>Third person <em>-s</em>: <em>she/he/it walks</em></p></li>
+      <li><p>Base form: <foreign>I/you/we/they walk</foreign></p></li>
+      <li><p>Third person <foreign>-s</foreign>: <foreign>she/he/it walks</foreign></p></li>
     </ul>
 
-    <p>*<em>Spelling rules for </em>-s***:</p>
+    <p><em>Spelling rules for</em> <foreign>-s</foreign>:</p>
 
     <ul>
-      <li><p>Most verbs: add <em>-s</em> (walks, runs)</p></li>
-      <li><p>Ending in <em>-s, -sh, -ch, -x, -z</em>: add <em>-es</em> (watches, fixes)</p></li>
-      <li><p>Consonant + <em>y</em>: change <em>y</em> to <em>-ies</em> (studies, carries)</p></li>
-      <li><p>Irregular: <em>has, does, goes</em></p></li>
+      <li><p>Most verbs: add <foreign>-s</foreign> (<foreign>walks, runs</foreign>)</p></li>
+      <li><p>Ending in <foreign>-s, -sh, -ch, -x, -z</foreign>: add <foreign>-es</foreign> (<foreign>watches, fixes</foreign>)</p></li>
+      <li><p>Consonant + <foreign>y</foreign>: change <foreign>y</foreign> to <foreign>-ies</foreign> (<foreign>studies, carries</foreign>)</p></li>
+      <li><p>Irregular: <foreign>has, does, goes</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -316,42 +315,42 @@
     <p><em>Habitual actions</em>:</p>
 
     <ul>
-      <li><p>"She <em>walks</em> to school every day."</p></li>
-      <li><p>"I <em>drink</em> coffee in the morning."</p></li>
+      <li><p><foreign>She <em>walks</em> to school every day.</foreign></p></li>
+      <li><p><foreign>I <em>drink</em> coffee in the morning.</foreign></p></li>
     </ul>
 
     <p><em>General truths</em>:</p>
 
     <ul>
-      <li><p>"Water <em>boils</em> at 100°C."</p></li>
-      <li><p>"The sun <em>rises</em> in the east."</p></li>
+      <li><p><foreign>Water <em>boils</em> at 100°C.</foreign></p></li>
+      <li><p><foreign>The sun <em>rises</em> in the east.</foreign></p></li>
     </ul>
 
     <p><em>States</em>:</p>
 
     <ul>
-      <li><p>"She <em>knows</em> the answer."</p></li>
-      <li><p>"I <em>love</em> this city."</p></li>
+      <li><p><foreign>She <em>knows</em> the answer.</foreign></p></li>
+      <li><p><foreign>I <em>love</em> this city.</foreign></p></li>
     </ul>
 
     <p><em>Scheduled future events</em>:</p>
 
     <ul>
-      <li><p>"The train <em>leaves</em> at noon."</p></li>
-      <li><p>"The semester <em>starts</em> next week."</p></li>
+      <li><p><foreign>The train <em>leaves</em> at noon.</foreign></p></li>
+      <li><p><foreign>The semester <em>starts</em> next week.</foreign></p></li>
     </ul>
 
     <p><em>Performatives</em> (doing by saying):</p>
 
     <ul>
-      <li><p>"I <em>apologize</em> for the delay."</p></li>
-      <li><p>"I <em>promise</em> to help."</p></li>
+      <li><p><foreign>I <em>apologize</em> for the delay.</foreign></p></li>
+      <li><p><foreign>I <em>promise</em> to help.</foreign></p></li>
     </ul>
 
     <p><em>Historical present</em> (in narratives):</p>
 
     <ul>
-      <li><p><em>So then he <em>walks</em> up and <em>says</em>...</em></p></li>
+      <li><p><foreign>So then he <em>walks</em> up and <em>says</em>...</foreign></p></li>
     </ul>
 
   </section>
@@ -363,30 +362,30 @@
       <title>Formation</title>
     </paragraphs>
 
-    <p><em>Regular verbs</em>: Add <em>-ed</em></p>
+    <p><em>Regular verbs</em>: Add <foreign>-ed</foreign></p>
 
     <ul>
-      <li><p>walk → walked</p></li>
-      <li><p>play → played</p></li>
-      <li><p>study → studied</p></li>
+      <li><p><foreign>walk</foreign> → <foreign>walked</foreign></p></li>
+      <li><p><foreign>play</foreign> → <foreign>played</foreign></p></li>
+      <li><p><foreign>study</foreign> → <foreign>studied</foreign></p></li>
     </ul>
 
-    <p>*<em>Spelling rules for </em>-ed***:</p>
+    <p><em>Spelling rules for</em> <foreign>-ed</foreign>:</p>
 
     <ul>
-      <li><p>Most verbs: add <em>-ed</em> (walked, played)</p></li>
-      <li><p>Ending in <em>-e</em>: add <em>-d</em> (hoped, loved)</p></li>
-      <li><p>Consonant + <em>y</em>: change <em>y</em> to <em>-ied</em> (studied, carried)</p></li>
-      <li><p>CVC ending (stressed): double final consonant (stopped, planned)</p></li>
+      <li><p>Most verbs: add <foreign>-ed</foreign> (<foreign>walked, played</foreign>)</p></li>
+      <li><p>Ending in <foreign>-e</foreign>: add <foreign>-d</foreign> (<foreign>hoped, loved</foreign>)</p></li>
+      <li><p>Consonant + <foreign>y</foreign>: change <foreign>y</foreign> to <foreign>-ied</foreign> (<foreign>studied, carried</foreign>)</p></li>
+      <li><p>CVC ending (stressed): double final consonant (<foreign>stopped, planned</foreign>)</p></li>
     </ul>
 
     <p><em>Irregular verbs</em>: Various patterns</p>
 
     <ul>
-      <li><p>Vowel change: <em>sing → sang</em>, <em>run → ran</em></p></li>
-      <li><p>Vowel change + consonant: <em>think → thought</em>, <em>bring → brought</em></p></li>
-      <li><p>No change: <em>cut → cut</em>, <em>put → put</em></p></li>
-      <li><p>Suppletive: <em>go → went</em>, <em>be → was/were</em></p></li>
+      <li><p>Vowel change: <foreign>sing</foreign> → <foreign>sang</foreign>, <foreign>run</foreign> → <foreign>ran</foreign></p></li>
+      <li><p>Vowel change + consonant: <foreign>think</foreign> → <foreign>thought</foreign>, <foreign>bring</foreign> → <foreign>brought</foreign></p></li>
+      <li><p>No change: <foreign>cut</foreign> → <foreign>cut</foreign>, <foreign>put</foreign> → <foreign>put</foreign></p></li>
+      <li><p>Suppletive: <foreign>go</foreign> → <foreign>went</foreign>, <foreign>be</foreign> → <foreign>was/were</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -396,29 +395,29 @@
     <p><em>Completed past events</em>:</p>
 
     <ul>
-      <li><p>"She <em>walked</em> to school yesterday."</p></li>
-      <li><p>"The meeting <em>ended</em> at noon."</p></li>
+      <li><p><foreign>She <em>walked</em> to school yesterday.</foreign></p></li>
+      <li><p><foreign>The meeting <em>ended</em> at noon.</foreign></p></li>
     </ul>
 
     <p><em>Past states</em>:</p>
 
     <ul>
-      <li><p>"I <em>knew</em> the answer then."</p></li>
-      <li><p>"She <em>was</em> happy."</p></li>
+      <li><p><foreign>I <em>knew</em> the answer then.</foreign></p></li>
+      <li><p><foreign>She <em>was</em> happy.</foreign></p></li>
     </ul>
 
     <p><em>Hypotheticals/Counterfactuals</em> (not about past time):</p>
 
     <ul>
-      <li><p>"If I <em>were</em> you, I would leave." (but I'm not you)</p></li>
-      <li><p>"I wish I <em>knew</em> the answer." (but I don't)</p></li>
+      <li><p><foreign>If I <em>were</em> you, I would leave.</foreign> (but I'm not you)</p></li>
+      <li><p><foreign>I wish I <em>knew</em> the answer.</foreign> (but I don't)</p></li>
     </ul>
 
     <p><em>Polite requests</em> (not about past time):</p>
 
     <ul>
-      <li><p>"I <em>wondered</em> if you could help."</p></li>
-      <li><p>Did you want to order?</p></li>
+      <li><p><foreign>I <em>wondered</em> if you could help.</foreign></p></li>
+      <li><p><foreign>Did you want to order?</foreign></p></li>
     </ul>
 
   </section>
@@ -426,92 +425,92 @@
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-108">
     <title>Aspect: The Shape of Events</title>
 
-    <p><em>Aspect</em> describes the internal temporal structure of events—whether they're completed, ongoing, repeated, or have current relevance. English has four aspects.</p>
+    <p><term>Aspect</term> describes the internal temporal structure of events—whether they're completed, ongoing, repeated, or have current relevance. English has four aspects.</p>
 
     <paragraphs>
       <title>Simple Aspect</title>
     </paragraphs>
 
-    <p>The <em>simple aspect</em> presents events as complete wholes, without internal structure:</p>
+    <p>The <term>simple aspect</term> presents events as complete wholes, without internal structure:</p>
 
     <ul>
-      <li><p>"She <em>works</em> at a bank." (present simple—habitual)</p></li>
-      <li><p>"She <em>worked</em> at a bank." (past simple—completed)</p></li>
-      <li><p>"She <em>will work</em> at a bank." (future simple—predicted)</p></li>
+      <li><p><foreign>She <em>works</em> at a bank.</foreign> (present simple—habitual)</p></li>
+      <li><p><foreign>She <em>worked</em> at a bank.</foreign> (past simple—completed)</p></li>
+      <li><p><foreign>She <em>will work</em> at a bank.</foreign> (future simple—predicted)</p></li>
     </ul>
 
     <paragraphs>
       <title>Progressive Aspect</title>
     </paragraphs>
 
-    <p>The <em>progressive aspect</em> (be + -ing) presents events as ongoing, in progress:</p>
+    <p>The <term>progressive aspect</term> (<foreign>be</foreign> + <foreign>-ing</foreign>) presents events as ongoing, in progress:</p>
 
     <ul>
-      <li><p>"She <em>is working</em> right now." (present progressive)</p></li>
-      <li><p>"She <em>was working</em> when I called." (past progressive)</p></li>
-      <li><p>"She <em>will be working</em> at noon." (future progressive)</p></li>
+      <li><p><foreign>She <em>is working</em> right now.</foreign> (present progressive)</p></li>
+      <li><p><foreign>She <em>was working</em> when I called.</foreign> (past progressive)</p></li>
+      <li><p><foreign>She <em>will be working</em> at noon.</foreign> (future progressive)</p></li>
     </ul>
 
     <p><em>Uses of progressive</em>:</p>
 
     <ul>
-      <li><p>Actions in progress: <em>I'm reading a book.</em></p></li>
-      <li><p>Temporary situations: <em>She's living in Boston this year.</em></p></li>
-      <li><p>Future arrangements: <em>We're meeting tomorrow.</em></p></li>
-      <li><p>Background to another event: <em>I was sleeping when the phone rang.</em></p></li>
+      <li><p>Actions in progress: <foreign>I'm reading a book.</foreign></p></li>
+      <li><p>Temporary situations: <foreign>She's living in Boston this year.</foreign></p></li>
+      <li><p>Future arrangements: <foreign>We're meeting tomorrow.</foreign></p></li>
+      <li><p>Background to another event: <foreign>I was sleeping when the phone rang.</foreign></p></li>
     </ul>
 
     <p><em>Stative verbs</em> typically resist progressive:</p>
 
     <ul>
-      <li><p>~~I am knowing the answer.~~ → I know the answer.</p></li>
-      <li><p>~~She is loving chocolate.~~ → She loves chocolate.</p></li>
+      <li><p><foreign><delete>I am knowing the answer.</delete></foreign> → <foreign>I know the answer.</foreign></p></li>
+      <li><p><foreign><delete>She is loving chocolate.</delete></foreign> → <foreign>She loves chocolate.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Perfect Aspect</title>
     </paragraphs>
 
-    <p>The <em>perfect aspect</em> (have + past participle) connects a past event to a later time (often the present):</p>
+    <p>The <term>perfect aspect</term> (<foreign>have</foreign> + past participle) connects a past event to a later time (often the present):</p>
 
     <ul>
-      <li><p>"She <em>has worked</em> here for ten years." (present perfect)</p></li>
-      <li><p>"She <em>had worked</em> there before moving." (past perfect)</p></li>
-      <li><p>"By then, she <em>will have worked</em> here a decade." (future perfect)</p></li>
+      <li><p><foreign>She <em>has worked</em> here for ten years.</foreign> (present perfect)</p></li>
+      <li><p><foreign>She <em>had worked</em> there before moving.</foreign> (past perfect)</p></li>
+      <li><p><foreign>By then, she <em>will have worked</em> here a decade.</foreign> (future perfect)</p></li>
     </ul>
 
     <p><em>Uses of present perfect</em>:</p>
 
     <ul>
-      <li><p>Past action with present relevance: <em>I've finished my work.</em> (so I'm free now)</p></li>
-      <li><p>Experience up to now: <em>She has visited Paris twice.</em></p></li>
-      <li><p>Continuing situation: <em>He has lived here since 2010.</em></p></li>
-      <li><p>Recent past: <em>They have just arrived.</em></p></li>
+      <li><p>Past action with present relevance: <foreign>I've finished my work.</foreign> (so I'm free now)</p></li>
+      <li><p>Experience up to now: <foreign>She has visited Paris twice.</foreign></p></li>
+      <li><p>Continuing situation: <foreign>He has lived here since 2010.</foreign></p></li>
+      <li><p>Recent past: <foreign>They have just arrived.</foreign></p></li>
     </ul>
 
     <p><em>Past perfect</em> positions events before another past reference point:</p>
 
     <ul>
-      <li><p>"When I arrived, she <em>had already left</em>."</p></li>
+      <li><p><foreign>When I arrived, she <em>had already left</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Perfect Progressive Aspect</title>
     </paragraphs>
 
-    <p>The <em>perfect progressive</em> (have + been + -ing) combines perfect and progressive meanings:</p>
+    <p>The <term>perfect progressive</term> (<foreign>have</foreign> + <foreign>been</foreign> + <foreign>-ing</foreign>) combines perfect and progressive meanings:</p>
 
     <ul>
-      <li><p>"She <em>has been working</em> all morning." (present perfect progressive)</p></li>
-      <li><p>"She <em>had been working</em> when I called." (past perfect progressive)</p></li>
-      <li><p>"By noon, she <em>will have been working</em> for six hours." (future perfect progressive)</p></li>
+      <li><p><foreign>She <em>has been working</em> all morning.</foreign> (present perfect progressive)</p></li>
+      <li><p><foreign>She <em>had been working</em> when I called.</foreign> (past perfect progressive)</p></li>
+      <li><p><foreign>By noon, she <em>will have been working</em> for six hours.</foreign> (future perfect progressive)</p></li>
     </ul>
 
     <p><em>Uses</em>:</p>
 
     <ul>
-      <li><p>Duration of ongoing activity: <em>I've been waiting for an hour.</em></p></li>
-      <li><p>Explanation for current state: <em>She's tired because she's been running.</em></p></li>
+      <li><p>Duration of ongoing activity: <foreign>I've been waiting for an hour.</foreign></p></li>
+      <li><p>Explanation for current state: <foreign>She's tired because she's been running.</foreign></p></li>
     </ul>
 
   </section>
@@ -531,24 +530,24 @@
       </row>
       <row>
         <cell>Present</cell>
-        <cell>walks</cell>
-        <cell>is walking</cell>
-        <cell>has walked</cell>
-        <cell>has been walking</cell>
+        <cell><foreign>walks</foreign></cell>
+        <cell><foreign>is walking</foreign></cell>
+        <cell><foreign>has walked</foreign></cell>
+        <cell><foreign>has been walking</foreign></cell>
       </row>
       <row>
         <cell>Past</cell>
-        <cell>walked</cell>
-        <cell>was walking</cell>
-        <cell>had walked</cell>
-        <cell>had been walking</cell>
+        <cell><foreign>walked</foreign></cell>
+        <cell><foreign>was walking</foreign></cell>
+        <cell><foreign>had walked</foreign></cell>
+        <cell><foreign>had been walking</foreign></cell>
       </row>
       <row>
         <cell>Future</cell>
-        <cell>will walk</cell>
-        <cell>will be walking</cell>
-        <cell>will have walked</cell>
-        <cell>will have been walking</cell>
+        <cell><foreign>will walk</foreign></cell>
+        <cell><foreign>will be walking</foreign></cell>
+        <cell><foreign>will have walked</foreign></cell>
+        <cell><foreign>will have been walking</foreign></cell>
       </row>
     </tabular>
 
@@ -556,7 +555,7 @@
       <title>Timeline Visualization</title>
     </paragraphs>
 
-    <p><em>Present simple</em> (She works): General truth, habit</p>
+    <p><em>Present simple</em> (<foreign>She works</foreign>): General truth, habit</p>
 
     <p>```</p>
 
@@ -566,7 +565,7 @@
 
     <p>```</p>
 
-    <p><em>Present progressive</em> (She is working): Now, in progress</p>
+    <p><em>Present progressive</em> (<foreign>She is working</foreign>): Now, in progress</p>
 
     <p>```</p>
 
@@ -576,7 +575,7 @@
 
     <p>```</p>
 
-    <p><em>Present perfect</em> (She has worked): Past connected to now</p>
+    <p><em>Present perfect</em> (<foreign>She has worked</foreign>): Past connected to now</p>
 
     <p>```</p>
 
@@ -586,7 +585,7 @@
 
     <p>```</p>
 
-    <p><em>Past simple</em> (She worked): Completed, disconnected from now</p>
+    <p><em>Past simple</em> (<foreign>She worked</foreign>): Completed, disconnected from now</p>
 
     <p>```</p>
 
@@ -604,31 +603,29 @@
     <subsection xml:id="ch-10-homework-part-1">
       <title>Part 1: Identification</title>
 
-      <p><em>Instructions:</em> For each sentence below, identify the auxiliary verb(s), main verb, tense, and aspect. Use the following labels for aspect: simple, progressive, perfect, or perfect progressive.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence below, identify the auxiliary verb(s), main verb, tense, and aspect. Use the following labels for aspect: simple, progressive, perfect, or perfect progressive.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>She has been waiting for an hour.</em></p>
+      <p><foreign>She has been waiting for an hour.</foreign></p>
 
       <ul>
-        <li><p>Auxiliary verb(s): has, been</p></li>
-        <li><p>Main verb: waiting</p></li>
+        <li><p>Auxiliary verb(s): <foreign>has, been</foreign></p></li>
+        <li><p>Main verb: <foreign>waiting</foreign></p></li>
         <li><p>Tense: present</p></li>
         <li><p>Aspect: perfect progressive</p></li>
       </ul>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>1. <em>The researchers have analyzed the experimental data.</em></p>
-
-      <ul>
-        <li><p>Auxiliary verb(s): ________</p></li>
-        <li><p>Main verb: ________</p></li>
-        <li><p>Tense: ________</p></li>
-        <li><p>Aspect: ________</p></li>
-      </ul>
-
-      <p>2. <em>Yesterday, she was working in the library when I called.</em></p>
+      <p><em>Exercise 1.</em> <foreign>The researchers have analyzed the experimental data.</foreign></p>
 
       <ul>
         <li><p>Auxiliary verb(s): ________</p></li>
@@ -637,7 +634,7 @@
         <li><p>Aspect: ________</p></li>
       </ul>
 
-      <p>3. <em>By next month, they will have completed the entire project.</em></p>
+      <p><em>Exercise 2.</em> <foreign>Yesterday, she was working in the library when I called.</foreign></p>
 
       <ul>
         <li><p>Auxiliary verb(s): ________</p></li>
@@ -646,7 +643,7 @@
         <li><p>Aspect: ________</p></li>
       </ul>
 
-      <p>4. <em>The professor teaches linguistics every semester.</em></p>
+      <p><em>Exercise 3.</em> <foreign>By next month, they will have completed the entire project.</foreign></p>
 
       <ul>
         <li><p>Auxiliary verb(s): ________</p></li>
@@ -655,7 +652,16 @@
         <li><p>Aspect: ________</p></li>
       </ul>
 
-      <p>5. <em>The students had been studying for three hours before the test began.</em></p>
+      <p><em>Exercise 4.</em> <foreign>The professor teaches linguistics every semester.</foreign></p>
+
+      <ul>
+        <li><p>Auxiliary verb(s): ________</p></li>
+        <li><p>Main verb: ________</p></li>
+        <li><p>Tense: ________</p></li>
+        <li><p>Aspect: ________</p></li>
+      </ul>
+
+      <p><em>Exercise 5.</em> <foreign>The students had been studying for three hours before the test began.</foreign></p>
 
       <ul>
         <li><p>Auxiliary verb(s): ________</p></li>
@@ -669,58 +675,72 @@
     <subsection xml:id="ch-10-homework-part-2">
       <title>Part 2: Sentence Completion</title>
 
-      <p><em>Instructions:</em> Complete each sentence with the correct form of the verb in parentheses to match the tense-aspect indicated.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Complete each sentence with the correct form of the verb in parentheses to match the tense-aspect indicated.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p>Present perfect: <em>She ________ (study) at this university since 2022.</em></p>
+      <p>Present perfect: <foreign>She ________ (study) at this university since 2022.</foreign></p>
 
-      <p>Answer: <em>has studied</em></p>
+      <p>Answer: <foreign>has studied</foreign></p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>6. Present progressive: <em>Right now, the children ________ (play) in the park.</em></p>
+      <p><em>Exercise 6.</em> Present progressive: <foreign>Right now, the children ________ (play) in the park.</foreign></p>
 
-      <p>7. Past perfect: <em>By the time I arrived, they ________ (already / leave).</em></p>
+      <p><em>Exercise 7.</em> Past perfect: <foreign>By the time I arrived, they ________ (already / leave).</foreign></p>
 
-      <p>8. Present perfect progressive: <em>She ________ (work) on this project for six months.</em></p>
+      <p><em>Exercise 8.</em> Present perfect progressive: <foreign>She ________ (work) on this project for six months.</foreign></p>
 
-      <p>9. Future progressive: <em>At noon tomorrow, I ________ (meet) with the committee.</em></p>
+      <p><em>Exercise 9.</em> Future progressive: <foreign>At noon tomorrow, I ________ (meet) with the committee.</foreign></p>
 
-      <p>10. Past simple: <em>The team ________ (finish) the assignment last night.</em></p>
+      <p><em>Exercise 10.</em> Past simple: <foreign>The team ________ (finish) the assignment last night.</foreign></p>
 
     </subsection>
 
     <subsection xml:id="ch-10-homework-part-3">
       <title>Part 3: Sentence Writing</title>
 
-      <p><em>Instructions:</em> Write original sentences using the indicated tense-aspect combination. Make sure your sentence clearly demonstrates the meaning of that combination.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Write original sentences using the indicated tense-aspect combination. Make sure your sentence clearly demonstrates the meaning of that combination.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
       <p>Present perfect (past action with present relevance):</p>
 
-      <p><em>I have already eaten breakfast, so I'm not hungry now.</em></p>
+      <p><foreign>I have already eaten breakfast, so I'm not hungry now.</foreign></p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>11. Write a sentence in present perfect that shows an experience up to now:</p>
-
-      <p>________________________________________________________________________</p>
-
-      <p>12. Write a sentence in past progressive that describes a background action interrupted by another event:</p>
+      <p><em>Exercise 11.</em> Write a sentence in present perfect that shows an experience up to now:</p>
 
       <p>________________________________________________________________________</p>
 
-      <p>13. Write a sentence in future perfect that describes an action completed before a future point:</p>
+      <p><em>Exercise 12.</em> Write a sentence in past progressive that describes a background action interrupted by another event:</p>
 
       <p>________________________________________________________________________</p>
 
-      <p>14. Write a sentence in present simple that expresses a general truth:</p>
+      <p><em>Exercise 13.</em> Write a sentence in future perfect that describes an action completed before a future point:</p>
 
       <p>________________________________________________________________________</p>
 
-      <p>15. Write a sentence in past perfect that positions one past event before another:</p>
+      <p><em>Exercise 14.</em> Write a sentence in present simple that expresses a general truth:</p>
+
+      <p>________________________________________________________________________</p>
+
+      <p><em>Exercise 15.</em> Write a sentence in past perfect that positions one past event before another:</p>
 
       <p>________________________________________________________________________</p>
 
@@ -729,39 +749,46 @@
     <subsection xml:id="ch-10-homework-part-4">
       <title>Part 4: Distinguishing Meaning</title>
 
-      <p><em>Instructions:</em> Explain the difference in meaning between each pair of sentences.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Explain the difference in meaning between each pair of sentences.</p>
 
-      <p><em>Example (completed):</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p>a) <em>I lived in Chicago for five years.</em></p>
+      <p>a) <foreign>I lived in Chicago for five years.</foreign></p>
 
-      <p>b) <em>I have lived in Chicago for five years.</em></p>
+      <p>b) <foreign>I have lived in Chicago for five years.</foreign></p>
 
       <p>Explanation: Sentence (a) uses past simple, indicating I no longer live there. Sentence (b) uses present perfect, indicating I still live there now.</p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>16. Explain the difference in meaning:</p>
+      <p><em>Exercise 16.</em> Explain the difference in meaning:</p>
 
-      <p>a) <em>She read the report.</em></p>
+      <p>a) <foreign>She read the report.</foreign></p>
 
-      <p>b) <em>She has read the report.</em></p>
-
-      <p>________________________________________________________________________</p>
-
-      <p>17. Explain the difference in meaning:</p>
-
-      <p>a) <em>When I arrived, they left.</em></p>
-
-      <p>b) <em>When I arrived, they had left.</em></p>
+      <p>b) <foreign>She has read the report.</foreign></p>
 
       <p>________________________________________________________________________</p>
 
-      <p>18. Explain the difference in meaning:</p>
+      <p><em>Exercise 17.</em> Explain the difference in meaning:</p>
 
-      <p>a) <em>He works at a bank.</em></p>
+      <p>a) <foreign>When I arrived, they left.</foreign></p>
 
-      <p>b) <em>He is working at a bank.</em></p>
+      <p>b) <foreign>When I arrived, they had left.</foreign></p>
+
+      <p>________________________________________________________________________</p>
+
+      <p><em>Exercise 18.</em> Explain the difference in meaning:</p>
+
+      <p>a) <foreign>He works at a bank.</foreign></p>
+
+      <p>b) <foreign>He is working at a bank.</foreign></p>
 
       <p>________________________________________________________________________</p>
 
@@ -770,35 +797,42 @@
     <subsection xml:id="ch-10-homework-part-5">
       <title>Part 5: Contextual Analysis</title>
 
-      <p><em>Instructions:</em> Read the passage below and answer the questions.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Read the passage below and answer the questions.</p>
 
-      <p><em>Passage:</em></p>
+      <paragraphs>
+        <title>Passage</title>
+      </paragraphs>
 
-      <p><em>Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years now. By next June, she will have finished the entire project. After that, she will be looking for a teaching position.</em></p>
+      <p><foreign>Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years now. By next June, she will have finished the entire project. After that, she will be looking for a teaching position.</foreign></p>
 
-      <p><em>Exercises:</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>19. Identify the tense-aspect of each verb phrase in the passage:</p>
+      <p><em>Exercise 19.</em> Identify the tense-aspect of each verb phrase in the passage:</p>
 
       <ul>
-        <li><p>moved: ________</p></li>
-        <li><p>has lived: ________</p></li>
-        <li><p>visited: ________</p></li>
-        <li><p>was working: ________</p></li>
-        <li><p>has been writing: ________</p></li>
-        <li><p>will have finished: ________</p></li>
-        <li><p>will be looking: ________</p></li>
+        <li><p><foreign>moved</foreign>: ________</p></li>
+        <li><p><foreign>has lived</foreign>: ________</p></li>
+        <li><p><foreign>visited</foreign>: ________</p></li>
+        <li><p><foreign>was working</foreign>: ________</p></li>
+        <li><p><foreign>has been writing</foreign>: ________</p></li>
+        <li><p><foreign>will have finished</foreign>: ________</p></li>
+        <li><p><foreign>will be looking</foreign>: ________</p></li>
       </ul>
 
-      <p>20. The passage uses both <em>moved</em> (past simple) and <em>has lived</em> (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.</p>
+      <p><em>Exercise 20.</em> The passage uses both <foreign>moved</foreign> (past simple) and <foreign>has lived</foreign> (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.</p>
 
       <p>________________________________________________________________________</p>
 
       <p>________________________________________________________________________</p>
 
-      <p>21. Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:</p>
+      <p><em>Exercise 21.</em> Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:</p>
 
-      <p>Original: <em>She studies linguistics.</em></p>
+      <p>Original: <foreign>She studies linguistics.</foreign></p>
 
       <p>a) Past progressive:</p>
 
@@ -837,7 +871,7 @@
       <title>Aspect Examples</title>
 
       <paragraphs>
-        <title>10.8.1 A: Progressive aspect (be + V-ing): <em>is eating</em></title>
+        <title>10.8.1 A: Progressive aspect (be + V-ing): is eating</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_progressive.png" width="25%">
         <description>Syntax tree for "is eating" showing progressive aspect</description>
@@ -845,7 +879,7 @@
       <p><c>[VP [AUX is] [V eating]]</c></p>
 
       <paragraphs>
-        <title>10.8.1 B: Perfect aspect (have + V-en): <em>has eaten</em></title>
+        <title>10.8.1 B: Perfect aspect (have + V-en): has eaten</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_perfect.png" width="25%">
         <description>Syntax tree for "has eaten" showing perfect aspect</description>
@@ -853,7 +887,7 @@
       <p><c>[VP [AUX has] [V eaten]]</c></p>
 
       <paragraphs>
-        <title>10.8.1 C: Perfect progressive (have + been + V-ing): <em>has been eating</em></title>
+        <title>10.8.1 C: Perfect progressive (have + been + V-ing): has been eating</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_perfect_progressive.png" width="35%">
         <description>Syntax tree for "has been eating" showing perfect progressive</description>
@@ -861,7 +895,7 @@
       <p><c>[VP [AUX has] [AUX been] [V eating]]</c></p>
 
       <paragraphs>
-        <title>10.8.1 D: Passive (be + V-en): <em>was eaten</em></title>
+        <title>10.8.1 D: Passive (be + V-en): was eaten</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_passive.png" width="25%">
         <description>Syntax tree for "was eaten" showing passive voice</description>
@@ -869,7 +903,7 @@
       <p><c>[VP [AUX was] [V eaten]]</c></p>
 
       <paragraphs>
-        <title>10.8.1 E: Progressive passive (be + being + V-en): <em>is being renovated</em></title>
+        <title>10.8.1 E: Progressive passive (be + being + V-en): is being renovated</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_progressive_passive.png" width="35%">
         <description>Syntax tree for "is being renovated" showing progressive passive</description>
@@ -891,23 +925,23 @@
     </gi>
     <gi>
       <title>Past tense</title>
-      <p>The tense marked by <em>-ed</em> or irregular forms, typically indicating past time.</p>
+      <p>The tense marked by <foreign>-ed</foreign> or irregular forms, typically indicating past time.</p>
     </gi>
     <gi>
       <title>Perfect aspect</title>
-      <p>Aspect formed with <em>have</em> + past participle, connecting a past event to a later time.</p>
+      <p>Aspect formed with <foreign>have</foreign> + past participle, connecting a past event to a later time.</p>
     </gi>
     <gi>
       <title>Present tense</title>
-      <p>The tense marked by base form or <em>-s</em>, used for habits, states, and general truths.</p>
+      <p>The tense marked by base form or <foreign>-s</foreign>, used for habits, states, and general truths.</p>
     </gi>
     <gi>
       <title>Primary auxiliary</title>
-      <p>The auxiliaries <em>be</em>, <em>have</em>, and <em>do</em>.</p>
+      <p>The auxiliaries <foreign>be</foreign>, <foreign>have</foreign>, and <foreign>do</foreign>.</p>
     </gi>
     <gi>
       <title>Progressive aspect</title>
-      <p>Aspect formed with <em>be</em> + <em>-ing</em>, presenting events as ongoing.</p>
+      <p>Aspect formed with <foreign>be</foreign> + <foreign>-ing</foreign>, presenting events as ongoing.</p>
     </gi>
     <gi>
       <title>Simple aspect</title>
