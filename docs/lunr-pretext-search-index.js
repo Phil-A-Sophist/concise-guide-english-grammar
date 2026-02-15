@@ -2224,6 +2224,15 @@ var ptx_lunr_docs = [
   "body": " Grammar and Style  Grammar isn't just about correctness—it's about choice. Every sentence offers multiple grammatically correct options, each with different stylistic effects.   Style Defined   Style refers to the characteristic way a writer or speaker uses language. It emerges from patterns of choices: sentence length, word selection, active vs. passive voice, coordination vs. subordination.  Understanding grammar gives you options. Mastering style means knowing which options to choose and when.  "
 },
 {
+  "id": "ch-17-stylistic-choices-sec-171-4",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-171.html#ch-17-stylistic-choices-sec-171-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Style "
+},
+{
   "id": "ch-17-stylistic-choices-sec-172",
   "level": "1",
   "url": "ch-17-stylistic-choices-sec-172.html",
@@ -2239,7 +2248,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "17.3",
   "title": "Active vs. Passive Voice",
-  "body": " Active vs. Passive Voice   Review   Active : The subject performs the action.   \"The committee approved the proposal.\"   Passive : The subject receives the action.   \"The proposal was approved by the committee.\"    Choosing Active Voice   Use active voice when:   The agent is important: The CEO announced the merger.  Directness is valued: We made a mistake. (not Mistakes were made.)  Energy is needed: Active voice tends to be more dynamic.    Choosing Passive Voice   Use passive voice when:   The agent is unknown or irrelevant: The building was constructed in 1920.  The patient is the topic: The proposal—which I discussed earlier—was approved.  Objectivity is expected: Scientific writing often uses passive.  Tact is needed: Your request has been denied. (softer than We denied your request.)    Avoiding Passive Overuse   Excessive passive creates weak, evasive prose:   ~~It was decided that changes would be made.~~  Better: The committee decided to make changes.   "
+  "body": " Active vs. Passive Voice   Review   Active : The subject performs the action.   The committee approved the proposal.   Passive : The subject receives the action.   The proposal was approved by the committee.    Choosing Active Voice   Use active voice when:   The agent is important: The CEO announced the merger.  Directness is valued: We made a mistake. (not Mistakes were made. )  Energy is needed: Active voice tends to be more dynamic.    Choosing Passive Voice   Use passive voice when:   The agent is unknown or irrelevant: The building was constructed in 1920.  The patient is the topic: The proposal—which I discussed earlier—was approved.  Objectivity is expected: Scientific writing often uses passive.  Tact is needed: Your request has been denied. (softer than We denied your request. )    Avoiding Passive Overuse   Excessive passive creates weak, evasive prose:   It was decided that changes would be made.  Better: The committee decided to make changes.   "
 },
 {
   "id": "ch-17-stylistic-choices-sec-174",
@@ -2248,7 +2257,52 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "17.4",
   "title": "Information Structure",
-  "body": " Information Structure  How you arrange information within a sentence affects clarity and emphasis.   Given vs. New Information   Given information : What the reader already knows  New information : What you're adding  Effective prose moves from given to new:   \"The proposal was controversial. This controversy led to lengthy debates.\"   The second sentence starts with the given information (This controversy) and ends with the new (lengthy debates).   End-Focus   English naturally emphasizes information at the end of sentences:   \"The winner was Maria .\" (emphasizes Maria)  Maria was the winner. (emphasizes being the winner)   Place your most important information at the end.   End-Weight   English prefers heavy (long, complex) elements at the end:   Awkward: That she would resign surprised everyone.  Better: \"It surprised everyone that she would resign .\"   This is why extraposition exists—to move heavy subjects to the end.  "
+  "body": " Information Structure  How you arrange information within a sentence affects clarity and emphasis.   Given vs. New Information   Given information : What the reader already knows.  New information : What you are adding.  Effective prose moves from given to new:   The proposal was controversial. This controversy led to lengthy debates.   The second sentence starts with the given information ( This controversy ) and ends with the new ( lengthy debates ).   End-Focus   English naturally emphasizes information at the end of sentences. This principle is called end-focus :   The winner was Maria . (emphasizes Maria)  Maria was the winner. (emphasizes being the winner)   Place your most important information at the end.   End-Weight   English prefers heavy (long, complex) elements at the end of a sentence. This principle is called end-weight :   Awkward: That she would resign surprised everyone.  Better: It surprised everyone that she would resign .   This is why extraposition exists—to move heavy subjects to the end.  "
+},
+{
+  "id": "ch-17-stylistic-choices-sec-174-4",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-174.html#ch-17-stylistic-choices-sec-174-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Given information "
+},
+{
+  "id": "ch-17-stylistic-choices-sec-174-5",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-174.html#ch-17-stylistic-choices-sec-174-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "New information "
+},
+{
+  "id": "ch-17-stylistic-choices-sec-174-10",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-174.html#ch-17-stylistic-choices-sec-174-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "end-focus "
+},
+{
+  "id": "ch-17-stylistic-choices-sec-174-14",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-174.html#ch-17-stylistic-choices-sec-174-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "end-weight "
+},
+{
+  "id": "ch-17-stylistic-choices-sec-174-16",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-174.html#ch-17-stylistic-choices-sec-174-16",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "extraposition "
 },
 {
   "id": "ch-17-stylistic-choices-sec-175",
@@ -2257,7 +2311,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "17.5",
   "title": "Emphasis Techniques",
-  "body": " Emphasis Techniques   Position   Sentence-initial position (topic position):   Sets up what the sentence is about  As for the budget, we need to discuss it.   Sentence-final position (focus position):   Receives natural stress  Place key information here    Cleft Sentences   Clefts highlight specific elements:   Normal: John broke the window.  Cleft: It was John who broke the window. (emphasizes John)  Pseudo-cleft: What John broke was the window. (emphasizes window)    Inversion   Reversing normal word order creates emphasis:   Normal: The results were more surprising.  Inverted: More surprising were the results.    Short Sentences for Punch   A short sentence after longer ones commands attention:  The committee debated for hours, examining every proposal, questioning every assumption, reconsidering every priority. Then they voted. The answer was no.  "
+  "body": " Emphasis Techniques   Position   Sentence-initial position (topic position):   Sets up what the sentence is about  As for the budget, we need to discuss it.   Sentence-final position (focus position):   Receives natural stress  Place key information here    Cleft Sentences   Cleft sentences highlight specific elements:   Normal: John broke the window.  Cleft: It was John who broke the window. (emphasizes John)  Pseudo-cleft: What John broke was the window . (emphasizes the window)    Inversion   Reversing normal word order creates emphasis:   Normal: The results were more surprising.  Inverted: More surprising were the results.    Short Sentences for Punch   A short sentence after longer ones commands attention:  The committee debated for hours, examining every proposal, questioning every assumption, reconsidering every priority. Then they voted. The answer was no.  "
+},
+{
+  "id": "ch-17-stylistic-choices-sec-175-8",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-175.html#ch-17-stylistic-choices-sec-175-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Cleft sentences "
 },
 {
   "id": "ch-17-stylistic-choices-sec-176",
@@ -2266,7 +2329,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "17.6",
   "title": "Coordination vs. Subordination",
-  "body": " Coordination vs. Subordination   When to Coordinate   Use coordination (and, but, or) when ideas are equally important:  \"She studied hard, and she passed the exam.\"  Coordination suggests balance and equal weight.   When to Subordinate   Use subordination (because, although, when) when one idea supports another:  Because she studied hard, she passed the exam.  Subordination highlights the main clause while providing context.   Choosing Between Them   Compare:   \"She was tired, but she continued.\" (equal weight—both facts matter)  Although she was tired, she continued. (emphasis on continuing)   The choice depends on what you want to emphasize.  "
+  "body": " Coordination vs. Subordination   When to Coordinate   Use coordination ( and, but, or ) when ideas are equally important:  She studied hard, and she passed the exam.  Coordination suggests balance and equal weight.   When to Subordinate   Use subordination ( because, although, when ) when one idea supports another:  Because she studied hard, she passed the exam.  Subordination highlights the main clause while providing context.   Choosing Between Them   Compare:   She was tired, but she continued. (equal weight—both facts matter)  Although she was tired, she continued. (emphasis on continuing)   The choice depends on what you want to emphasize.  "
 },
 {
   "id": "ch-17-stylistic-choices-sec-177",
@@ -2275,7 +2338,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "17.7",
   "title": "Rhetorical Sentence Patterns",
-  "body": " Rhetorical Sentence Patterns   Loose (Cumulative) Sentences   The main clause comes first, followed by modifying elements:  \"The ship sailed slowly, rocking gently, its sails catching the wind, the crew relaxing on deck .\"  Loose sentences feel natural and relaxed.   Periodic Sentences   Modifying elements come first, delaying the main clause:  Rocking gently, its sails catching the wind, the crew relaxing on deck , the ship sailed slowly.  Periodic sentences build suspense and create emphasis.   Balanced Sentences   Parallel structures create balance:  Ask not what your country can do for you; ask what you can do for your country.  "
+  "body": " Rhetorical Sentence Patterns   Loose (Cumulative) Sentences   In a loose sentence , the main clause comes first, followed by modifying elements:  The ship sailed slowly, rocking gently, its sails catching the wind, the crew relaxing on deck .  Loose sentences feel natural and relaxed.   Periodic Sentences   In a periodic sentence , modifying elements come first, delaying the main clause:  Rocking gently, its sails catching the wind, the crew relaxing on deck , the ship sailed slowly.  Periodic sentences build suspense and create emphasis.   Balanced Sentences   In a balanced sentence , parallel structures create balance:  Ask not what your country can do for you; ask what you can do for your country.  "
+},
+{
+  "id": "ch-17-stylistic-choices-sec-177-3",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-177.html#ch-17-stylistic-choices-sec-177-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "loose sentence "
+},
+{
+  "id": "ch-17-stylistic-choices-sec-177-7",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-177.html#ch-17-stylistic-choices-sec-177-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "periodic sentence "
+},
+{
+  "id": "ch-17-stylistic-choices-sec-177-11",
+  "level": "2",
+  "url": "ch-17-stylistic-choices-sec-177.html#ch-17-stylistic-choices-sec-177-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "balanced sentence "
 },
 {
   "id": "ch-17-homework",
@@ -2284,7 +2374,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "17.8",
   "title": "Homework: Stylistic Choices",
-  "body": " Homework: Stylistic Choices  Instructions: Revise each passage to improve sentence variety and flow.  Question 1. Revise this choppy passage by combining sentences and varying length:  The meeting started. The CEO spoke. She announced changes. Employees listened. Some were concerned. Others were relieved. The meeting ended.  Revised:  Question 2. Revise this passage by breaking up the long sentence and adding variation:  The committee, after reviewing all of the applications that had been submitted by the deadline, which was extended twice due to technical difficulties, finally announced their decision regarding the scholarship recipients, including three students from underrepresented backgrounds.  Revised:  Instructions: For each context, choose active or passive voice and explain your reasoning.  Question 3. Context: A lab report describing experimental procedures.  We heated the solution. OR The solution was heated.  Choice and reasoning:  Question 4. Context: A news article about corporate accountability.  The company made an error that cost millions. OR An error was made that cost millions.  Choice and reasoning:  Question 5. Context: A memo where the topic is the project, not the team.  The team completed the project ahead of schedule. OR The project was completed ahead of schedule.  Choice and reasoning:  Instructions: Revise each pair of sentences to improve flow by moving from given to new information.  Question 6.  A new policy was announced yesterday. This policy will affect all employees.  Revised:  Question 7.  Serious problems were discovered by the auditors. The company had been hiding these problems for years.  Revised:  Question 8. Use end-focus to emphasize \"Maria\" in this sentence:  The scholarship winner was Maria.  Revised (if needed, or explain why it already uses end-focus):  Instructions: Identify the sentence pattern and explain its effect.  Question 9.  The ship sailed slowly, rocking gently on the waves, its sails catching the afternoon light.  Pattern (loose or periodic):  Effect:  Question 10.  Despite the rain, despite the cold, despite everything working against them, they finished the race.  Pattern:  Effect:  Question 11. Find a paragraph from something you've written recently (an essay, email, or other document). Revise it by applying at least two techniques from this chapter:   Varying sentence length  Adjusting active\/passive voice  Improving given-to-new flow  Using end-focus for emphasis   Original paragraph:  Revised paragraph:  Techniques applied and why:  Question 12. The chapter argues that grammar is about choice , not just correctness. In 1-2 paragraphs, reflect: How does this perspective change how you think about your own writing? What stylistic choices have you been making unconsciously that you might now make more deliberately?   Grammar offers choices; style emerges from those choices.  Vary sentence length for rhythm and emphasis.  Choose active voice for directness; passive voice when the agent is less important.  Move from given to new information; place emphasis at sentence end.  Use coordination for equal ideas; subordination to highlight the main idea.  Strategic sentence patterns (loose, periodic, balanced) create rhetorical effects.   "
+  "body": " Homework: Stylistic Choices   Part 1: Sentence Variety   Instructions   Revise each passage to improve sentence variety and flow.   Example (completed)   Original:  The dog ran. The dog was fast. The dog caught the ball. The dog was happy.  Revised:  The dog ran fast, catching the ball with ease. Happy with its prize, it trotted back.  The revision combines short, repetitive sentences into varied structures with different lengths and opening patterns.   Exercises   Exercise 1. Revise this choppy passage by combining sentences and varying length:  The meeting started. The CEO spoke. She announced changes. Employees listened. Some were concerned. Others were relieved. The meeting ended.  Exercise 2. Revise this passage by breaking up the long sentence and adding variation:  The committee, after reviewing all of the applications that had been submitted by the deadline, which was extended twice due to technical difficulties, finally announced their decision regarding the scholarship recipients, including three students from underrepresented backgrounds.  Exercise 3. Read the following passage and explain the effect of the short final sentence:  The negotiations had gone on for weeks, with both sides presenting detailed proposals, offering compromises, and making concessions that seemed to bring agreement within reach. Then they collapsed.    Part 2: Active and Passive Voice   Instructions   For each context, choose active or passive voice and explain your reasoning.   Example (completed)   Context: An email informing a customer about a billing error.  Active:  We overcharged your account by $50.  Passive:  Your account was overcharged by $50.  Choice: Active voice is better here because it takes responsibility and sounds more direct and honest. The passive version sounds evasive.   Exercises   Exercise 4. Context: A lab report describing experimental procedures.  Active:  We heated the solution to 100°C.  Passive:  The solution was heated to 100°C.  Exercise 5. Context: A news article about corporate accountability.  Active:  The company made an error that cost millions.  Passive:  An error was made that cost millions.  Exercise 6. Context: A memo where the topic is the project, not the team.  Active:  The team completed the project ahead of schedule.  Passive:  The project was completed ahead of schedule.  Exercise 7. Revise the following passage to reduce excessive passive voice. Change at least three passive constructions to active voice:  The report was written by the committee. It was reviewed by the director. Changes were suggested by several department heads. The final version was approved by the board.    Part 3: Information Structure   Instructions   Revise each pair of sentences to improve flow by moving from given to new information.   Example (completed)   Original:  A record-breaking heatwave hit the region. This heatwave was caused by a shift in the jet stream.  Revised:  A record-breaking heatwave hit the region. The extreme temperatures were caused by a shift in the jet stream.  The revision starts the second sentence with given information ( The extreme temperatures , referring back to the heatwave) and ends with new information ( a shift in the jet stream ).   Exercises   Exercise 8.  A new policy was announced yesterday. This policy will affect all employees.  Exercise 9.  Serious problems were discovered by the auditors. The company had been hiding these problems for years.  Exercise 10. Revise the following sentence to use end-focus to emphasize Maria :  Maria won the scholarship.  Exercise 11. Use extraposition to improve this sentence with a heavy subject:  That the entire infrastructure needed to be rebuilt surprised no one.    Part 4: Emphasis and Rhetorical Patterns   Instructions   Identify the sentence pattern and explain its effect.   Example (completed)   Not until the final vote was counted did the candidate allow herself to celebrate.  Pattern: Periodic sentence (the main clause is delayed until the end).  Effect: Builds suspense and emphasizes the act of celebrating by making the reader wait for it.   Exercises   Exercise 12. Identify the pattern and explain its effect:  The ship sailed slowly, rocking gently on the waves, its sails catching the afternoon light.  Exercise 13. Identify the pattern and explain its effect:  Despite the rain, despite the cold, despite everything working against them, they finished the race.  Exercise 14. Rewrite the following sentence as a cleft sentence to emphasize the underlined element:  The treasurer discovered the discrepancy.  Exercise 15. Read the two versions and explain how the choice between coordination and subordination changes the emphasis:  A:  The budget was tight, and the team delivered on time.  B:  Although the budget was tight, the team delivered on time.    Part 5: Application   Instructions   Apply techniques from this chapter to analyze and revise real writing.   Exercises   Exercise 16. Find a paragraph from something you have written recently (an essay, email, or other document). Revise it by applying at least two techniques from this chapter:   Varying sentence length  Adjusting active\/passive voice  Improving given-to-new flow  Using end-focus for emphasis   Original paragraph:  Revised paragraph:  Techniques applied and why:  Exercise 17. This chapter argues that grammar is about choice , not just correctness. In one to two paragraphs, reflect: How does this perspective change how you think about your own writing? What stylistic choices have you been making unconsciously that you might now make more deliberately?   "
 },
 {
   "id": "ch-17-stylistic-choices-11",
@@ -2293,7 +2383,7 @@ var ptx_lunr_docs = [
   "type": "Glossary",
   "number": "17.9",
   "title": "Glossary",
-  "body": " Glossary   End-focus  The principle that sentence-final position receives emphasis.    Given information  Information the reader already knows.    Information structure  How information is arranged within a sentence.    Loose sentence  A sentence with the main clause first, followed by modifiers.    New information  Information being introduced to the reader.    Periodic sentence  A sentence with modifiers first, delaying the main clause.    Style  The characteristic way a writer uses language, emerging from patterns of choices.   "
+  "body": " Glossary   Balanced sentence  A sentence with parallel structures that create symmetry and rhetorical balance.    Cleft sentence  A sentence restructured to emphasize a particular element, typically using \"It was... who\/that...\" or \"What... was...\"    End-focus  The principle that sentence-final position receives emphasis.    End-weight  The principle that heavy (long, complex) elements are preferred at the end of a sentence.    Extraposition  Moving a heavy subject clause to the end of a sentence, replacing it with \"it\" as a placeholder subject.    Given information  Information the reader already knows from prior context.    Information structure  How information is arranged within a sentence.    Loose sentence  A sentence with the main clause first, followed by modifiers.    New information  Information being introduced to the reader for the first time.    Periodic sentence  A sentence with modifiers first, delaying the main clause for emphasis or suspense.    Style  The characteristic way a writer uses language, emerging from patterns of choices.   "
 },
 {
   "id": "ch-18-clarity-and-readability-sec-181",

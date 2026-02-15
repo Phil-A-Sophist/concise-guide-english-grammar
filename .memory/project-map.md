@@ -1,7 +1,7 @@
 # Project Map
 
 Last updated: 2026-02-15
-Task: 28
+Task: 31
 
 ## Root Directory
 
@@ -111,7 +111,8 @@ Task: 28
 - `.memory/project-map.md` — Index of project files and artifacts
 - `.memory/knowledge-base.md` — Decisions, solutions, and hard-won knowledge by topic
 - `.memory/chapter-improvement-process.md` — Step-by-step process for systematic chapter improvements (diagrams, formatting, homework, Word files)
-- `.memory/state-t20.md` — State snapshot at Task 20 (first snapshot)
+- `.memory/state-t20.md` — State snapshot at Task 20
+- `.memory/state-t30.md` — State snapshot at Task 30
 
 ## logs/
 

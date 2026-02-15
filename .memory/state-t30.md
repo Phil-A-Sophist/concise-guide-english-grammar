@@ -1,18 +1,18 @@
-# Project State
+# Project State — Snapshot at Task 30
 
-Task: 31
-Last updated: 2026-02-15
+Task: 30
+Snapshot date: 2026-02-15
 
 ## Overview
 "A Concise Guide to English Grammar" is an open educational resource (OER) college textbook on English grammar, authored in PreTeXt XML (21 chapters) and published as HTML via GitHub Pages and as an EPUB ebook.
 
 ## Active Threads
 - **Systematic chapter improvement** — Working through chapters one at a time. Process documented in `.memory/chapter-improvement-process.md`. Each chapter gets: diagram audit, `<foreign>` formatting, homework review/fixes, Word file generation, build+push.
-- **Language example formatting rollout** — Chapters 1-16 completed. Chapter 17 is actively being improved.
+- **Language example formatting rollout** — Chapters 1-16 completed. Chapter 17 is next.
 - **Homework difficulty calibration** — Ch8-16 assessed as appropriate (18-26 exercises each, 5 parts, scaffolded progression). Continue monitoring.
 
 ## Currently Working On
-- **Chapter 17 improvement** (Stylistic Choices) — Actively starting improvement process: diagram audit, `<foreign>` formatting, homework fixes, Word file generation.
+- **Chapter 17 improvement** (Stylistic Choices) — Next chapter in queue.
 
 ## Completed Chapters
 - Chapters 1-6: `<foreign>` formatting only
