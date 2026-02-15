@@ -204,4 +204,5 @@ Verify:
 - [x] Chapter 12 (full improvement: formatting + homework + Word files, Task 22)
 - [x] Chapter 13 (full improvement: formatting + homework + Word files, Task 25)
 - [x] Chapter 14 (full improvement: formatting + homework + Word files, Task 26)
-- [ ] Chapter 15-21
+- [x] Chapter 15 (full improvement: formatting + homework + Word files, Task 27)
+- [ ] Chapter 16-21

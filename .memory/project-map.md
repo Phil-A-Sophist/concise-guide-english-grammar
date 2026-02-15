@@ -1,7 +1,7 @@
 # Project Map
 
 Last updated: 2026-02-15
-Task: 26
+Task: 28
 
 ## Root Directory
 
