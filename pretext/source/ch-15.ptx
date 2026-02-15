@@ -20,7 +20,7 @@
       <li><p>Parentheses</p></li>
       <li><p>Quotation marks</p></li>
       <li><p>Terminal punctuation</p></li>
-      <li><p>--</p></li>
+      <li><p></p></li>
     </ul>
   </objectives>
 
@@ -32,8 +32,8 @@
     <p>Good punctuation makes prose easier to read and prevents misunderstanding:</p>
 
     <ul>
-      <li><p><em>Let's eat grandma.</em> (disturbing)</p></li>
-      <li><p><em>Let's eat, grandma.</em> (dinner invitation)</p></li>
+      <li><p><foreign>Let's eat grandma.</foreign> (disturbing)</p></li>
+      <li><p><foreign>Let's eat, grandma.</foreign> (dinner invitation)</p></li>
     </ul>
 
   </section>
@@ -48,8 +48,8 @@
     <p>Ends declarative sentences and mild imperatives:</p>
 
     <ul>
-      <li><p>The meeting is at noon.</p></li>
-      <li><p>Please close the door.</p></li>
+      <li><p><foreign>The meeting is at noon.</foreign></p></li>
+      <li><p><foreign>Please close the door.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -59,14 +59,14 @@
     <p>Ends direct questions:</p>
 
     <ul>
-      <li><p>What time is it?</p></li>
-      <li><p>Have you finished?</p></li>
+      <li><p><foreign>What time is it?</foreign></p></li>
+      <li><p><foreign>Have you finished?</foreign></p></li>
     </ul>
 
     <p><em>Note</em>: Indirect questions take periods:</p>
 
     <ul>
-      <li><p>She asked what time it was.</p></li>
+      <li><p><foreign>She asked what time it was.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -76,8 +76,8 @@
     <p>Indicates strong emotion or emphasis:</p>
 
     <ul>
-      <li><p>Watch out!</p></li>
-      <li><p>What a surprise!</p></li>
+      <li><p><foreign>Watch out!</foreign></p></li>
+      <li><p><foreign>What a surprise!</foreign></p></li>
     </ul>
 
     <p>Use sparingly in formal writing.</p>
@@ -96,8 +96,8 @@
     <p>Place a comma before a coordinating conjunction joining independent clauses:</p>
 
     <ul>
-      <li><p>"The sun set, <em>and</em> the stars appeared."</p></li>
-      <li><p>"She tried hard, <em>but</em> she didn't succeed."</p></li>
+      <li><p><foreign>The sun set, <em>and</em> the stars appeared.</foreign></p></li>
+      <li><p><foreign>She tried hard, <em>but</em> she didn't succeed.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -107,9 +107,9 @@
     <p>Use a comma after introductory phrases or clauses:</p>
 
     <ul>
-      <li><p>After the meeting, we went to lunch.</p></li>
-      <li><p>However, I disagree.</p></li>
-      <li><p>Running quickly, she caught the bus.</p></li>
+      <li><p><foreign>After the meeting, we went to lunch.</foreign></p></li>
+      <li><p><foreign>However, I disagree.</foreign></p></li>
+      <li><p><foreign>Running quickly, she caught the bus.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -119,14 +119,14 @@
     <p>Set off nonrestrictive (non-essential) modifiers with commas:</p>
 
     <ul>
-      <li><p>"My sister, <em>who lives in Boston</em>, is visiting."</p></li>
-      <li><p>"The report, <em>which I submitted yesterday</em>, was approved."</p></li>
+      <li><p><foreign>My sister, <em>who lives in Boston</em>, is visiting.</foreign></p></li>
+      <li><p><foreign>The report, <em>which I submitted yesterday</em>, was approved.</foreign></p></li>
     </ul>
 
     <p><em>Do not</em> use commas with restrictive (essential) modifiers:</p>
 
     <ul>
-      <li><p><em>The students who studied passed.</em> (no commas—specifies which students)</p></li>
+      <li><p><foreign>The students who studied passed.</foreign> (no commas—specifies which students)</p></li>
     </ul>
 
     <paragraphs>
@@ -136,14 +136,14 @@
     <p>Separate items in a list:</p>
 
     <ul>
-      <li><p>She bought apples, oranges, and bananas.</p></li>
+      <li><p><foreign>She bought apples, oranges, and bananas.</foreign></p></li>
     </ul>
 
-    <p>The comma before <em>and</em> (the Oxford comma) is optional but recommended for clarity:</p>
+    <p>The comma before <foreign>and</foreign> (the <term>Oxford comma</term>) is optional but recommended for clarity:</p>
 
     <ul>
-      <li><p><em>I admire my parents, Gandhi, and Mother Teresa.</em> (clear)</p></li>
-      <li><p><em>I admire my parents, Gandhi and Mother Teresa.</em> (ambiguous)</p></li>
+      <li><p><foreign>I admire my parents, Gandhi, and Mother Teresa.</foreign> (clear)</p></li>
+      <li><p><foreign>I admire my parents, Gandhi and Mother Teresa.</foreign> (ambiguous)</p></li>
     </ul>
 
     <paragraphs>
@@ -153,33 +153,33 @@
     <p>Separate adjectives that independently modify the noun:</p>
 
     <ul>
-      <li><p><em>a tall, elegant woman</em> (tall and elegant both modify woman)</p></li>
+      <li><p><foreign>a tall, elegant woman</foreign> (<foreign>tall</foreign> and <foreign>elegant</foreign> both modify <foreign>woman</foreign>)</p></li>
     </ul>
 
-    <p><em>Test</em>: If you can put <em>and</em> between them, use a comma.</p>
+    <p><em>Test</em>: If you can put <foreign>and</foreign> between them, use a comma.</p>
 
     <p><em>Don't</em> use commas between cumulative adjectives:</p>
 
     <ul>
-      <li><p><em>a big red barn</em> (not ~~big, red barn~~—big red modifies barn together)</p></li>
+      <li><p><foreign>a big red barn</foreign> (not <foreign><delete>big, red barn</delete></foreign>—<foreign>big red</foreign> modifies <foreign>barn</foreign> together)</p></li>
     </ul>
 
     <paragraphs>
       <title>Comma Misuse</title>
     </paragraphs>
 
-    <p><em>Comma splice</em>: Using only a comma between independent clauses:</p>
+    <p><term>Comma splice</term>: Using only a comma between independent clauses:</p>
 
     <ul>
-      <li><p>~~The rain stopped, we went outside.~~</p></li>
-      <li><p>Correct: <em>The rain stopped, and we went outside.</em></p></li>
+      <li><p><foreign><delete>The rain stopped, we went outside.</delete></foreign></p></li>
+      <li><p>Correct: <foreign>The rain stopped, and we went outside.</foreign></p></li>
     </ul>
 
     <p><em>Separating subject from verb</em>:</p>
 
     <ul>
-      <li><p>~~The man who arrived late, was my cousin.~~</p></li>
-      <li><p>Correct: <em>The man who arrived late was my cousin.</em></p></li>
+      <li><p><foreign><delete>The man who arrived late, was my cousin.</delete></foreign></p></li>
+      <li><p>Correct: <foreign>The man who arrived late was my cousin.</foreign></p></li>
     </ul>
 
   </section>
@@ -194,8 +194,8 @@
     <p>Joins related independent clauses without a conjunction:</p>
 
     <ul>
-      <li><p>The rain stopped; we went outside.</p></li>
-      <li><p>She's talented; however, she lacks experience.</p></li>
+      <li><p><foreign>The rain stopped; we went outside.</foreign></p></li>
+      <li><p><foreign>She's talented; however, she lacks experience.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -205,7 +205,7 @@
     <p>Separates items in a series when items contain commas:</p>
 
     <ul>
-      <li><p>The committee includes Dr. Smith, president; Mr. Jones, treasurer; and Ms. Lee, secretary.</p></li>
+      <li><p><foreign>The committee includes Dr. Smith, president; Mr. Jones, treasurer; and Ms. Lee, secretary.</foreign></p></li>
     </ul>
 
   </section>
@@ -220,14 +220,14 @@
     <p>Use a colon after a complete sentence to introduce a list:</p>
 
     <ul>
-      <li><p>Please bring the following items: a pen, a notebook, and a calculator.</p></li>
+      <li><p><foreign>Please bring the following items: a pen, a notebook, and a calculator.</foreign></p></li>
     </ul>
 
     <p><em>Don't</em> use a colon after an incomplete sentence:</p>
 
     <ul>
-      <li><p>~~Please bring: a pen, a notebook, and a calculator.~~</p></li>
-      <li><p>Correct: <em>Please bring a pen, a notebook, and a calculator.</em></p></li>
+      <li><p><foreign><delete>Please bring: a pen, a notebook, and a calculator.</delete></foreign></p></li>
+      <li><p>Correct: <foreign>Please bring a pen, a notebook, and a calculator.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -237,8 +237,8 @@
     <p>Use a colon to introduce an explanation or elaboration:</p>
 
     <ul>
-      <li><p>She had one goal: to finish her degree.</p></li>
-      <li><p>The answer was clear: we needed more data.</p></li>
+      <li><p><foreign>She had one goal: to finish her degree.</foreign></p></li>
+      <li><p><foreign>The answer was clear: we needed more data.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -248,13 +248,13 @@
     <p>Between titles and subtitles:</p>
 
     <ul>
-      <li><p>Grammar Matters: A Guide to Standard English</p></li>
+      <li><p><foreign>Grammar Matters: A Guide to Standard English</foreign></p></li>
     </ul>
 
     <p>After salutations in formal letters:</p>
 
     <ul>
-      <li><p>Dear Dr. Smith:</p></li>
+      <li><p><foreign>Dear Dr. Smith:</foreign></p></li>
     </ul>
 
   </section>
@@ -266,25 +266,25 @@
       <title>Possession</title>
     </paragraphs>
 
-    <p><em>Singular nouns</em>: Add <em>'s</em></p>
+    <p>Singular nouns: Add <foreign>'s</foreign></p>
 
     <ul>
-      <li><p>the dog's tail</p></li>
-      <li><p><em>James's book</em> (or James' book)</p></li>
+      <li><p><foreign>the dog's tail</foreign></p></li>
+      <li><p><foreign>James's book</foreign> (or <foreign>James' book</foreign>)</p></li>
     </ul>
 
-    <p>*<em>Plural nouns ending in </em>-s**<em>: Add </em>'*</p>
+    <p>Plural nouns ending in <foreign>-s</foreign>: Add <foreign>'</foreign></p>
 
     <ul>
-      <li><p>the dogs' tails</p></li>
-      <li><p>the students' grades</p></li>
+      <li><p><foreign>the dogs' tails</foreign></p></li>
+      <li><p><foreign>the students' grades</foreign></p></li>
     </ul>
 
-    <p>*<em>Plural nouns not ending in </em>-s**<em>: Add </em>'s*</p>
+    <p>Plural nouns not ending in <foreign>-s</foreign>: Add <foreign>'s</foreign></p>
 
     <ul>
-      <li><p>the children's toys</p></li>
-      <li><p>the women's team</p></li>
+      <li><p><foreign>the children's toys</foreign></p></li>
+      <li><p><foreign>the women's team</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -294,28 +294,28 @@
     <p>Apostrophes replace omitted letters:</p>
 
     <ul>
-      <li><p><em>don't</em> (do not)</p></li>
-      <li><p><em>it's</em> (it is)</p></li>
-      <li><p><em>they're</em> (they are)</p></li>
+      <li><p><foreign>don't</foreign> (<foreign>do not</foreign>)</p></li>
+      <li><p><foreign>it's</foreign> (<foreign>it is</foreign>)</p></li>
+      <li><p><foreign>they're</foreign> (<foreign>they are</foreign>)</p></li>
     </ul>
 
     <paragraphs>
       <title>Common Errors</title>
     </paragraphs>
 
-    <p><em>Its vs. It's</em>:</p>
+    <p><foreign>Its</foreign> vs. <foreign>It's</foreign>:</p>
 
     <ul>
-      <li><p><em>Its</em> = possessive (The dog wagged its tail.)</p></li>
-      <li><p><em>It's</em> = it is (It's raining.)</p></li>
+      <li><p><foreign>Its</foreign> = possessive (<foreign>The dog wagged its tail.</foreign>)</p></li>
+      <li><p><foreign>It's</foreign> = <foreign>it is</foreign> (<foreign>It's raining.</foreign>)</p></li>
     </ul>
 
-    <p><em>Their, There, They're</em>:</p>
+    <p><foreign>Their</foreign>, <foreign>There</foreign>, <foreign>They're</foreign>:</p>
 
     <ul>
-      <li><p><em>Their</em> = possessive (Their house)</p></li>
-      <li><p><em>There</em> = location (over there)</p></li>
-      <li><p><em>They're</em> = they are (They're coming)</p></li>
+      <li><p><foreign>Their</foreign> = possessive (<foreign>Their house</foreign>)</p></li>
+      <li><p><foreign>There</foreign> = location (<foreign>over there</foreign>)</p></li>
+      <li><p><foreign>They're</foreign> = <foreign>they are</foreign> (<foreign>They're coming</foreign>)</p></li>
     </ul>
 
   </section>
@@ -330,8 +330,8 @@
     <p>Sets off emphatic or interrupting material:</p>
 
     <ul>
-      <li><p>The answer—surprisingly—was yes.</p></li>
-      <li><p>She had one goal—and only one—to succeed.</p></li>
+      <li><p><foreign>The answer—surprisingly—was yes.</foreign></p></li>
+      <li><p><foreign>She had one goal—and only one—to succeed.</foreign></p></li>
     </ul>
 
     <p>Creates stronger emphasis than commas.</p>
@@ -343,8 +343,8 @@
     <p>Indicates ranges:</p>
 
     <ul>
-      <li><p>pages 10–20</p></li>
-      <li><p>the 2020–2021 academic year</p></li>
+      <li><p><foreign>pages 10–20</foreign></p></li>
+      <li><p><foreign>the 2020–2021 academic year</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -354,8 +354,8 @@
     <p>Enclose supplementary or explanatory material:</p>
 
     <ul>
-      <li><p>The results (see Table 3) were significant.</p></li>
-      <li><p>She graduated in 2010 (the same year I started).</p></li>
+      <li><p><foreign>The results (see Table 3) were significant.</foreign></p></li>
+      <li><p><foreign>She graduated in 2010 (the same year I started).</foreign></p></li>
     </ul>
 
     <p>Creates less emphasis than dashes.</p>
@@ -372,8 +372,8 @@
     <p>Enclose exact words:</p>
 
     <ul>
-      <li><p>She said, "I'll be there."</p></li>
-      <li><p>"I'll be there," she said.</p></li>
+      <li><p><foreign>She said, "I'll be there."</foreign></p></li>
+      <li><p><foreign>"I'll be there," she said.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -383,7 +383,7 @@
     <p>Use for shorter works (articles, chapters, poems, songs):</p>
 
     <ul>
-      <li><p>I read "The Road Not Taken."</p></li>
+      <li><p><foreign>I read "The Road Not Taken."</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -393,8 +393,8 @@
     <p><em>American convention</em>: Periods and commas inside quotation marks:</p>
 
     <ul>
-      <li><p>She said, "I agree."</p></li>
-      <li><p>He called it "amazing," but I disagreed.</p></li>
+      <li><p><foreign>She said, "I agree."</foreign></p></li>
+      <li><p><foreign>He called it "amazing," but I disagreed.</foreign></p></li>
     </ul>
 
     <p><em>British convention</em>: Periods and commas may go outside if not part of the quotation.</p>
@@ -402,8 +402,8 @@
     <p>Question marks and exclamation points depend on the quotation:</p>
 
     <ul>
-      <li><p><em>Did she say "yes"?</em> (question is mine)</p></li>
-      <li><p><em>She asked, "Are you coming?"</em> (question is hers)</p></li>
+      <li><p><foreign>Did she say "yes"?</foreign> (question is mine)</p></li>
+      <li><p><foreign>She asked, "Are you coming?"</foreign> (question is hers)</p></li>
     </ul>
 
   </section>
@@ -414,44 +414,53 @@
     <subsection>
       <title>Part 1: Comma Usage (approx. 10 minutes)</title>
 
-      <p><em>Instructions:</em> Add commas where needed in each sentence and briefly explain the function of each comma you add (compound sentence, introductory element, series, nonrestrictive modifier, coordinate adjectives, etc.).</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Add commas where needed in each sentence and briefly explain the function of each comma you add (compound sentence, introductory element, series, nonrestrictive modifier, coordinate adjectives, etc.).</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> <em>After the meeting ended we discussed the proposal.</em></p>
+      <p><foreign>After the meeting ended we discussed the proposal.</foreign></p>
 
-      <p>Corrected: <em>After the meeting ended, we discussed the proposal.</em></p>
+      <p>Corrected: <foreign>After the meeting ended, we discussed the proposal.</foreign></p>
 
       <p>Function: comma after introductory adverb clause</p>
 
-      <p><term>1.</term> <em>When the storm passed we surveyed the damage and began cleanup efforts.</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 1.</em> <foreign>When the storm passed we surveyed the damage and began cleanup efforts.</foreign></p>
 
       <p>Corrected:</p>
       <p>Function(s):</p>
 
-      <p><term>2.</term> <em>She is talented hardworking and creative.</em></p>
+      <p><em>Exercise 2.</em> <foreign>She is talented hardworking and creative.</foreign></p>
 
       <p>Corrected:</p>
       <p>Function(s):</p>
 
-      <p><term>3.</term> <em>My brother who lives in Seattle is visiting next week.</em></p>
+      <p><em>Exercise 3.</em> <foreign>My brother who lives in Seattle is visiting next week.</foreign></p>
 
       <p>Corrected:</p>
       <p>Function(s):</p>
 
-      <p><term>4.</term> <em>The meeting was productive but it ran overtime.</em></p>
+      <p><em>Exercise 4.</em> <foreign>The meeting was productive but it ran overtime.</foreign></p>
 
       <p>Corrected:</p>
       <p>Function(s):</p>
 
-      <p><term>5.</term> <em>The tall distinguished professor gave an inspiring lecture.</em></p>
+      <p><em>Exercise 5.</em> <foreign>The tall distinguished professor gave an inspiring lecture.</foreign></p>
 
       <p>Corrected:</p>
       <p>Function(s):</p>
 
-      <p><term>6.</term> Explain why the following sentence does NOT need a comma:</p>
+      <p><em>Exercise 6.</em> Explain why the following sentence does NOT need a comma:</p>
 
-      <p><em>The students who completed the assignment received extra credit.</em></p>
+      <p><foreign>The students who completed the assignment received extra credit.</foreign></p>
 
       <p>Explanation:</p>
     </subsection>
@@ -459,32 +468,41 @@
     <subsection>
       <title>Part 2: Semicolons and Colons (approx. 5 minutes)</title>
 
-      <p><em>Instructions:</em> Choose the correct punctuation mark (colon or semicolon) for each sentence and explain your reasoning.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Choose the correct punctuation mark (colon or semicolon) for each sentence and explain your reasoning.</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> <em>She had three goals ( : / ; ) to finish her degree, to find a job, and to buy a house.</em></p>
+      <p><foreign>She had three goals ( : / ; ) to finish her degree, to find a job, and to buy a house.</foreign></p>
 
       <p>Choice: colon</p>
 
       <p>Reasoning: A colon introduces a list after a complete sentence.</p>
 
-      <p><term>7.</term> <em>She had one goal ( : / ; ) to finish the project on time.</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 7.</em> <foreign>She had one goal ( : / ; ) to finish the project on time.</foreign></p>
 
       <p>Choice:</p>
       <p>Reasoning:</p>
 
-      <p><term>8.</term> <em>The rain stopped ( : / ; ) we went outside immediately.</em></p>
+      <p><em>Exercise 8.</em> <foreign>The rain stopped ( : / ; ) we went outside immediately.</foreign></p>
 
       <p>Choice:</p>
       <p>Reasoning:</p>
 
-      <p><term>9.</term> <em>The committee includes three officers ( : / ; ) Dr. Lee, president; Ms. Park, secretary; and Mr. Kim, treasurer.</em></p>
+      <p><em>Exercise 9.</em> <foreign>The committee includes three officers ( : / ; ) Dr. Lee, president; Ms. Park, secretary; and Mr. Kim, treasurer.</foreign></p>
 
       <p>Choice:</p>
       <p>Reasoning:</p>
 
-      <p><term>10.</term> <em>He was exhausted ( : / ; ) however, he continued working.</em></p>
+      <p><em>Exercise 10.</em> <foreign>He was exhausted ( : / ; ) however, he continued working.</foreign></p>
 
       <p>Choice:</p>
       <p>Reasoning:</p>
@@ -493,31 +511,40 @@
     <subsection>
       <title>Part 3: Apostrophes (approx. 5 minutes)</title>
 
-      <p><em>Instructions:</em> Correct any apostrophe errors in each sentence.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Correct any apostrophe errors in each sentence.</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> <em>The dogs tail was wagging.</em></p>
+      <p><foreign>The dogs tail was wagging.</foreign></p>
 
-      <p>Corrected: <em>The dog's tail was wagging.</em></p>
+      <p>Corrected: <foreign>The dog's tail was wagging.</foreign></p>
 
-      <p><term>11.</term> <em>Its important to understand its function in the sentence.</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>Corrected:</p>
-
-      <p><term>12.</term> <em>The students books were left in the classroom.</em></p>
-
-      <p>Corrected:</p>
-
-      <p><term>13.</term> <em>The Joneses car is parked in the driveway.</em></p>
-
-      <p>Corrected:</p>
-
-      <p><term>14.</term> <em>Theyre going to their house over there.</em></p>
+      <p><em>Exercise 11.</em> <foreign>Its important to understand its function in the sentence.</foreign></p>
 
       <p>Corrected:</p>
 
-      <p><term>15.</term> <em>The womens team won the championship.</em></p>
+      <p><em>Exercise 12.</em> <foreign>The students books were left in the classroom.</foreign></p>
+
+      <p>Corrected:</p>
+
+      <p><em>Exercise 13.</em> <foreign>The Joneses car is parked in the driveway.</foreign></p>
+
+      <p>Corrected:</p>
+
+      <p><em>Exercise 14.</em> <foreign>Theyre going to their house over there.</foreign></p>
+
+      <p>Corrected:</p>
+
+      <p><em>Exercise 15.</em> <foreign>The womens team won the championship.</foreign></p>
 
       <p>Corrected:</p>
     </subsection>
@@ -525,23 +552,32 @@
     <subsection>
       <title>Part 4: Comprehensive Punctuation (approx. 10 minutes)</title>
 
-      <p><em>Instructions:</em> Add all necessary punctuation to the following passages.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Add all necessary punctuation to the following passages.</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><term>Unpunctuated:</term> <em>When she arrived the meeting had already started however no one seemed to mind</em></p>
+      <p>Unpunctuated: <foreign>When she arrived the meeting had already started however no one seemed to mind</foreign></p>
 
-      <p>Punctuated: <em>When she arrived, the meeting had already started; however, no one seemed to mind.</em></p>
+      <p>Punctuated: <foreign>When she arrived, the meeting had already started; however, no one seemed to mind.</foreign></p>
 
-      <p><term>16.</term> <em>When the meeting ended the participants left quickly however several stayed behind to discuss the proposal the main question was this should they proceed</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 16.</em> <foreign>When the meeting ended the participants left quickly however several stayed behind to discuss the proposal the main question was this should they proceed</foreign></p>
 
       <p>Punctuated:</p>
 
-      <p><term>17.</term> <em>The report which took three months to complete contained the following recommendations reduce costs improve efficiency and increase employee training however the board rejected all three proposals</em></p>
+      <p><em>Exercise 17.</em> <foreign>The report which took three months to complete contained the following recommendations reduce costs improve efficiency and increase employee training however the board rejected all three proposals</foreign></p>
 
       <p>Punctuated:</p>
 
-      <p><term>18.</term> <em>Dr Smith who has been teaching for twenty years said I believe that students learn best when theyre engaged in meaningful activities</em></p>
+      <p><em>Exercise 18.</em> <foreign>Dr Smith who has been teaching for twenty years said I believe that students learn best when theyre engaged in meaningful activities</foreign></p>
 
       <p>Punctuated:</p>
     </subsection>
@@ -549,15 +585,24 @@
     <subsection>
       <title>Part 5: Analysis and Application (approx. 10 minutes)</title>
 
-      <p><em>Instructions:</em> Answer the following questions about punctuation.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Answer the following questions about punctuation.</p>
 
-      <p><term>Meaning and Punctuation</term></p>
+      <paragraphs>
+        <title>Meaning and Punctuation</title>
+      </paragraphs>
 
-      <p><term>19.</term> The following sentences are punctuated differently. Explain how the meaning changes:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>a) <em>The students who studied passed the exam.</em></p>
+      <p><em>Exercise 19.</em> The following sentences are punctuated differently. Explain how the meaning changes:</p>
 
-      <p>b) <em>The students, who studied, passed the exam.</em></p>
+      <p>a) <foreign>The students who studied passed the exam.</foreign></p>
+
+      <p>b) <foreign>The students, who studied, passed the exam.</foreign></p>
 
       <p>Explanation of (a):</p>
 
@@ -565,9 +610,11 @@
 
       <p>How does punctuation change the meaning?</p>
 
-      <p><term>Real-World Application</term></p>
+      <paragraphs>
+        <title>Real-World Application</title>
+      </paragraphs>
 
-      <p><term>20.</term> Find or create a paragraph of 3-4 sentences. Identify at least four different punctuation marks and explain the grammatical reason for each.</p>
+      <p><em>Exercise 20.</em> Find or create a paragraph of 3-4 sentences. Identify at least four different punctuation marks and explain the grammatical reason for each.</p>
 
       <p>Paragraph:</p>
 
@@ -583,9 +630,11 @@
       <p>Punctuation mark 4:</p>
       <p>Reason:</p>
 
-      <p><term>Reflection</term></p>
+      <paragraphs>
+        <title>Reflection</title>
+      </paragraphs>
 
-      <p><term>21.</term> Answer the following questions:</p>
+      <p><em>Exercise 21.</em> Answer the following questions:</p>
 
       <p>a) What punctuation rule do you find most confusing or difficult to apply consistently?</p>
 
@@ -609,7 +658,7 @@
     </gi>
     <gi>
       <title>Oxford comma</title>
-      <p>The comma before <em>and</em> in a series.</p>
+      <p>The comma before <foreign>and</foreign> in a series.</p>
     </gi>
     <gi>
       <title>Restrictive element</title>
