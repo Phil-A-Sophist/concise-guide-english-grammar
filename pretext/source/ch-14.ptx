@@ -23,30 +23,30 @@
       <li><p>Subject position</p></li>
       <li><p>Object position</p></li>
       <li><p>Complement position</p></li>
-      <li><p>--</p></li>
+      <li><p></p></li>
     </ul>
   </objectives>
 
   <section xml:id="ch-14-nominals-sec-141">
     <title>Nouns vs. Nominals: Form vs. Function</title>
 
-    <p>Understanding the distinction between <em>nouns</em> (a form/part of speech) and <em>nominals</em> (a function) is essential for accurate grammatical analysis.</p>
+    <p>Understanding the distinction between <term>nouns</term> (a form/part of speech) and <term>nominals</term> (a function) is essential for accurate grammatical analysis.</p>
 
     <paragraphs>
       <title>Noun as Form</title>
     </paragraphs>
 
-    <p>A <em>noun</em> is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Nouns can be pluralized, possess, follow determiners, and serve as subjects/objects.</p>
+    <p>A noun is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Nouns can be pluralized, possess, follow determiners, and serve as subjects/objects.</p>
 
     <ul>
-      <li><p>book, happiness, Maria, government</p></li>
+      <li><p><foreign>book, happiness, Maria, government</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Nominal as Function</title>
     </paragraphs>
 
-    <p>A <em>nominal</em> is any word, phrase, or clause that <em>functions</em> in a position typically occupied by a noun phrase—as subject, object, or complement.</p>
+    <p>A nominal is any word, phrase, or clause that <em>functions</em> in a position typically occupied by a noun phrase—as subject, object, or complement.</p>
 
     <p><em>Key insight</em>: All nouns functioning as subjects/objects are nominals, but not all nominals are nouns.</p>
 
@@ -64,9 +64,9 @@
     <p>The prototypical nominal is a noun phrase:</p>
 
     <ul>
-      <li><p>The book is on the table. (subject)</p></li>
-      <li><p>"I read <em>the interesting book</em>." (object)</p></li>
-      <li><p>"This is <em>my sister</em>." (subject complement)</p></li>
+      <li><p><foreign><em>The book</em> is on the table.</foreign> (subject)</p></li>
+      <li><p><foreign>I read <em>the interesting book</em>.</foreign> (object)</p></li>
+      <li><p><foreign>This is <em>my sister</em>.</foreign> (subject complement)</p></li>
     </ul>
 
     <paragraphs>
@@ -76,21 +76,21 @@
     <p>Pronouns replace entire noun phrases:</p>
 
     <ul>
-      <li><p>She arrived early. (subject)</p></li>
-      <li><p>"I saw <em>them</em>." (object)</p></li>
-      <li><p>"The winner is <em>he</em>." (complement, formal)</p></li>
+      <li><p><foreign><em>She</em> arrived early.</foreign> (subject)</p></li>
+      <li><p><foreign>I saw <em>them</em>.</foreign> (object)</p></li>
+      <li><p><foreign>The winner is <em>he</em>.</foreign> (complement, formal)</p></li>
     </ul>
 
     <paragraphs>
       <title>3. Noun Clauses (That-clauses)</title>
     </paragraphs>
 
-    <p>Clauses introduced by <em>that</em> function as nominals:</p>
+    <p>Clauses introduced by <foreign>that</foreign> function as nominals:</p>
 
     <ul>
-      <li><p>That she resigned surprised everyone. (subject)</p></li>
-      <li><p>"I believe <em>that she is honest</em>." (object)</p></li>
-      <li><p>"The problem is <em>that we're out of time</em>." (complement)</p></li>
+      <li><p><foreign><em>That she resigned</em> surprised everyone.</foreign> (subject)</p></li>
+      <li><p><foreign>I believe <em>that she is honest</em>.</foreign> (object)</p></li>
+      <li><p><foreign>The problem is <em>that we're out of time</em>.</foreign> (complement)</p></li>
     </ul>
 
     <paragraphs>
@@ -100,33 +100,33 @@
     <p>Clauses introduced by wh-words function as nominals:</p>
 
     <ul>
-      <li><p>What she said was important. (subject)</p></li>
-      <li><p>"I don't know <em>where he went</em>." (object)</p></li>
-      <li><p>"The question is <em>who will lead</em>." (complement)</p></li>
+      <li><p><foreign><em>What she said</em> was important.</foreign> (subject)</p></li>
+      <li><p><foreign>I don't know <em>where he went</em>.</foreign> (object)</p></li>
+      <li><p><foreign>The question is <em>who will lead</em>.</foreign> (complement)</p></li>
     </ul>
 
     <paragraphs>
       <title>5. Gerund Phrases</title>
     </paragraphs>
 
-    <p><em>-ing</em> forms of verbs (gerunds) head phrases that function as nominals:</p>
+    <p><foreign>-ing</foreign> forms of verbs (gerunds) head phrases that function as nominals:</p>
 
     <ul>
-      <li><p>Swimming is good exercise. (subject)</p></li>
-      <li><p>"She enjoys <em>reading novels</em>." (object)</p></li>
-      <li><p>"His hobby is <em>collecting stamps</em>." (complement)</p></li>
+      <li><p><foreign><em>Swimming</em> is good exercise.</foreign> (subject)</p></li>
+      <li><p><foreign>She enjoys <em>reading novels</em>.</foreign> (object)</p></li>
+      <li><p><foreign>His hobby is <em>collecting stamps</em>.</foreign> (complement)</p></li>
     </ul>
 
     <paragraphs>
       <title>6. Infinitive Phrases (Nominal)</title>
     </paragraphs>
 
-    <p>Infinitive phrases (to + verb) can function as nominals:</p>
+    <p>Infinitive phrases (<foreign>to</foreign> + verb) can function as nominals:</p>
 
     <ul>
-      <li><p>To err is human. (subject)</p></li>
-      <li><p>"She wants <em>to succeed</em>." (object)</p></li>
-      <li><p>"The goal is <em>to finish on time</em>." (complement)</p></li>
+      <li><p><foreign><em>To err</em> is human.</foreign> (subject)</p></li>
+      <li><p><foreign>She wants <em>to succeed</em>.</foreign> (object)</p></li>
+      <li><p><foreign>The goal is <em>to finish on time</em>.</foreign> (complement)</p></li>
     </ul>
 
     <paragraphs>
@@ -136,9 +136,9 @@
     <p>Some adjectives, with a determiner, function nominally (referring to a group):</p>
 
     <ul>
-      <li><p>The poor need assistance.</p></li>
-      <li><p>The rich have advantages.</p></li>
-      <li><p>The accused denied the charges.</p></li>
+      <li><p><foreign><em>The poor</em> need assistance.</foreign></p></li>
+      <li><p><foreign><em>The rich</em> have advantages.</foreign></p></li>
+      <li><p><foreign><em>The accused</em> denied the charges.</foreign></p></li>
     </ul>
 
   </section>
@@ -146,69 +146,69 @@
   <section xml:id="ch-14-nominals-sec-143">
     <title>Noun Clauses in Detail</title>
 
-    <p><em>Noun clauses</em> are dependent clauses that function as nominals—as subjects, objects, or complements.</p>
+    <p><term>Noun clauses</term> are dependent clauses that function as nominals—as subjects, objects, or complements.</p>
 
     <paragraphs>
       <title>That-clauses</title>
     </paragraphs>
 
-    <p>Introduced by <em>that</em> (which may be omitted in some positions):</p>
+    <p>Introduced by <foreign>that</foreign> (which may be omitted in some positions):</p>
 
     <p><em>As subject</em>:</p>
 
     <ul>
-      <li><p>That she won surprised no one.</p></li>
-      <li><p>That the earth is round is well established.</p></li>
+      <li><p><foreign><em>That she won</em> surprised no one.</foreign></p></li>
+      <li><p><foreign><em>That the earth is round</em> is well established.</foreign></p></li>
     </ul>
 
-    <p><em>As object</em> (that often omitted):</p>
+    <p><em>As object</em> (<foreign>that</foreign> often omitted):</p>
 
     <ul>
-      <li><p>"I believe <em>(that)</em> she's honest."</p></li>
-      <li><p>"He knows <em>(that)</em> we're coming."</p></li>
+      <li><p><foreign>I believe <em>(that)</em> she's honest.</foreign></p></li>
+      <li><p><foreign>He knows <em>(that)</em> we're coming.</foreign></p></li>
     </ul>
 
     <p><em>As complement</em>:</p>
 
     <ul>
-      <li><p>"The truth is <em>that we need more time</em>."</p></li>
-      <li><p>"My hope is <em>that things will improve</em>."</p></li>
+      <li><p><foreign>The truth is <em>that we need more time</em>.</foreign></p></li>
+      <li><p><foreign>My hope is <em>that things will improve</em>.</foreign></p></li>
     </ul>
 
     <p><em>After adjectives</em>:</p>
 
     <ul>
-      <li><p>"I'm glad <em>that you came</em>."</p></li>
-      <li><p>"She was certain <em>that he was wrong</em>."</p></li>
+      <li><p><foreign>I'm glad <em>that you came</em>.</foreign></p></li>
+      <li><p><foreign>She was certain <em>that he was wrong</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Wh-clauses (Interrogative Content Clauses)</title>
     </paragraphs>
 
-    <p>Introduced by wh-words (what, who, which, where, when, why, how, whether, if):</p>
+    <p>Introduced by wh-words (<foreign>what, who, which, where, when, why, how, whether, if</foreign>):</p>
 
     <p><em>As subject</em>:</p>
 
     <ul>
-      <li><p>What she discovered changed everything.</p></li>
-      <li><p>Where they went remains a mystery.</p></li>
-      <li><p>Whether he'll accept is uncertain.</p></li>
+      <li><p><foreign><em>What she discovered</em> changed everything.</foreign></p></li>
+      <li><p><foreign><em>Where they went</em> remains a mystery.</foreign></p></li>
+      <li><p><foreign><em>Whether he'll accept</em> is uncertain.</foreign></p></li>
     </ul>
 
     <p><em>As object</em>:</p>
 
     <ul>
-      <li><p>"I don't know <em>what happened</em>."</p></li>
-      <li><p>"She asked <em>whether I was coming</em>."</p></li>
-      <li><p>"Tell me <em>how you did it</em>."</p></li>
+      <li><p><foreign>I don't know <em>what happened</em>.</foreign></p></li>
+      <li><p><foreign>She asked <em>whether I was coming</em>.</foreign></p></li>
+      <li><p><foreign>Tell me <em>how you did it</em>.</foreign></p></li>
     </ul>
 
     <p><em>As complement</em>:</p>
 
     <ul>
-      <li><p>"The issue is <em>how we proceed</em>."</p></li>
-      <li><p>"The question is <em>whether to accept</em>."</p></li>
+      <li><p><foreign>The issue is <em>how we proceed</em>.</foreign></p></li>
+      <li><p><foreign>The question is <em>whether to accept</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -218,15 +218,15 @@
     <p>Both introduce yes/no noun clauses, but:</p>
 
     <ul>
-      <li><p><em>Whether</em> can be a subject; <em>if</em> typically cannot:</p></li>
-      <li><p>Whether he comes remains to be seen. ✓</p></li>
-      <li><p><em>~~<em>If</em> he comes remains to be seen.~~</em> ✗ (awkward)</p></li>
+      <li><p><foreign>Whether</foreign> can be a subject; <foreign>if</foreign> typically cannot:</p></li>
+      <li><p><foreign>Whether he comes remains to be seen.</foreign> ✓</p></li>
+      <li><p><foreign><delete>If he comes remains to be seen.</delete></foreign> ✗ (awkward)</p></li>
     </ul>
 
     <ul>
-      <li><p><em>Whether</em> allows <em>or not</em> immediately after; <em>if</em> does not:</p></li>
-      <li><p>"I don't know <em>whether or not</em> she's coming." ✓</p></li>
-      <li><p><em>~~I don't know <em>if or not</em> she's coming.~~</em> ✗</p></li>
+      <li><p><foreign>Whether</foreign> allows <foreign>or not</foreign> immediately after; <foreign>if</foreign> does not:</p></li>
+      <li><p><foreign>I don't know <em>whether or not</em> she's coming.</foreign> ✓</p></li>
+      <li><p><foreign><delete>I don't know if or not she's coming.</delete></foreign> ✗</p></li>
     </ul>
 
   </section>
@@ -234,23 +234,19 @@
   <section xml:id="ch-14-nominals-sec-144">
     <title>Gerund Phrases as Nominals</title>
 
-    <p>A <em>gerund</em> is the <em>-ing</em> form of a verb functioning nominally. A <em>gerund phrase</em> includes the gerund and its complements/modifiers.</p>
+    <p>A <term>gerund</term> is the <foreign>-ing</foreign> form of a verb functioning nominally. A <term>gerund phrase</term> includes the gerund and its complements/modifiers.</p>
 
     <paragraphs>
       <title>Gerund Structure</title>
     </paragraphs>
 
-    <p>```</p>
-
     <p>Gerund Phrase = (Possessive) + Gerund + (Complements/Modifiers)</p>
 
-    <p>```</p>
-
     <ul>
-      <li><p>Swimming is fun. (simple gerund)</p></li>
-      <li><p>Swimming laps is good exercise. (gerund + object)</p></li>
-      <li><p>His swimming improved. (possessive + gerund)</p></li>
-      <li><p>Their constantly complaining annoys everyone. (possessive + modifier + gerund)</p></li>
+      <li><p><foreign><em>Swimming</em> is fun.</foreign> (simple gerund)</p></li>
+      <li><p><foreign><em>Swimming laps</em> is good exercise.</foreign> (gerund + object)</p></li>
+      <li><p><foreign><em>His swimming</em> improved.</foreign> (possessive + gerund)</p></li>
+      <li><p><foreign><em>Their constantly complaining</em> annoys everyone.</foreign> (possessive + modifier + gerund)</p></li>
     </ul>
 
     <paragraphs>
@@ -260,29 +256,29 @@
     <p><em>As subject</em>:</p>
 
     <ul>
-      <li><p>Running marathons requires dedication.</p></li>
-      <li><p>Finishing on time seemed impossible.</p></li>
+      <li><p><foreign><em>Running marathons</em> requires dedication.</foreign></p></li>
+      <li><p><foreign><em>Finishing on time</em> seemed impossible.</foreign></p></li>
     </ul>
 
     <p><em>As object</em>:</p>
 
     <ul>
-      <li><p>"She enjoys <em>cooking elaborate meals</em>."</p></li>
-      <li><p>"He avoided <em>making promises</em>."</p></li>
+      <li><p><foreign>She enjoys <em>cooking elaborate meals</em>.</foreign></p></li>
+      <li><p><foreign>He avoided <em>making promises</em>.</foreign></p></li>
     </ul>
 
     <p><em>As object of preposition</em>:</p>
 
     <ul>
-      <li><p>"She succeeded by <em>working hard</em>."</p></li>
-      <li><p>"He's interested in <em>learning languages</em>."</p></li>
+      <li><p><foreign>She succeeded by <em>working hard</em>.</foreign></p></li>
+      <li><p><foreign>He's interested in <em>learning languages</em>.</foreign></p></li>
     </ul>
 
     <p><em>As complement</em>:</p>
 
     <ul>
-      <li><p>"His favorite activity is <em>reading</em>."</p></li>
-      <li><p>"The challenge was <em>convincing the board</em>."</p></li>
+      <li><p><foreign>His favorite activity is <em>reading</em>.</foreign></p></li>
+      <li><p><foreign>The challenge was <em>convincing the board</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -292,8 +288,8 @@
     <p>Formal usage prefers possessive forms before gerunds:</p>
 
     <ul>
-      <li><p>"I appreciated <em>his helping</em> us." (formal)</p></li>
-      <li><p>"I appreciated <em>him helping</em> us." (informal)</p></li>
+      <li><p><foreign>I appreciated <em>his helping</em> us.</foreign> (formal)</p></li>
+      <li><p><foreign>I appreciated <em>him helping</em> us.</foreign> (informal)</p></li>
     </ul>
 
     <p>Both are acceptable in modern English, though the possessive is preferred in formal writing.</p>
@@ -309,16 +305,12 @@
       <title>Infinitive Structure</title>
     </paragraphs>
 
-    <p>```</p>
-
-    <p>Infinitive Phrase = to + Verb + (Complements/Modifiers)</p>
-
-    <p>```</p>
+    <p>Infinitive Phrase = <foreign>to</foreign> + Verb + (Complements/Modifiers)</p>
 
     <ul>
-      <li><p>To swim is fun. (simple infinitive)</p></li>
-      <li><p>To finish on time seemed impossible. (infinitive + modifier)</p></li>
-      <li><p>To convince the board of our plan took hours. (infinitive + complex complement)</p></li>
+      <li><p><foreign><em>To swim</em> is fun.</foreign> (simple infinitive)</p></li>
+      <li><p><foreign><em>To finish on time</em> seemed impossible.</foreign> (infinitive + modifier)</p></li>
+      <li><p><foreign><em>To convince the board of our plan</em> took hours.</foreign> (infinitive + complex complement)</p></li>
     </ul>
 
     <paragraphs>
@@ -328,34 +320,34 @@
     <p><em>As subject</em> (often with extraposition):</p>
 
     <ul>
-      <li><p>To err is human.</p></li>
-      <li><p>"It is difficult <em>to learn a new language</em>." (extraposed)</p></li>
+      <li><p><foreign><em>To err</em> is human.</foreign></p></li>
+      <li><p><foreign><em>It</em> is difficult <em>to learn a new language</em>.</foreign> (extraposed)</p></li>
     </ul>
 
     <p><em>As object</em>:</p>
 
     <ul>
-      <li><p>"She wants <em>to succeed</em>."</p></li>
-      <li><p>"They decided <em>to leave early</em>."</p></li>
-      <li><p>"He hopes <em>to be promoted</em>."</p></li>
+      <li><p><foreign>She wants <em>to succeed</em>.</foreign></p></li>
+      <li><p><foreign>They decided <em>to leave early</em>.</foreign></p></li>
+      <li><p><foreign>He hopes <em>to be promoted</em>.</foreign></p></li>
     </ul>
 
     <p><em>As complement</em>:</p>
 
     <ul>
-      <li><p>"The goal is <em>to finish on time</em>."</p></li>
-      <li><p>"Her dream is <em>to travel the world</em>."</p></li>
+      <li><p><foreign>The goal is <em>to finish on time</em>.</foreign></p></li>
+      <li><p><foreign>Her dream is <em>to travel the world</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Extraposition</title>
     </paragraphs>
 
-    <p>When infinitive subjects are long, English often "extraposits" them, using <em>it</em> as a placeholder subject:</p>
+    <p>When infinitive subjects are long, English often "extraposits" them, using <foreign>it</foreign> as a placeholder subject:</p>
 
     <ul>
-      <li><p>To explain all the details would take too long. (full subject)</p></li>
-      <li><p><em><em>It</em> would take too long <em>to explain all the details</em>.</em> (extraposed)</p></li>
+      <li><p><foreign>To explain all the details would take too long.</foreign> (full subject)</p></li>
+      <li><p><foreign><em>It</em> would take too long <em>to explain all the details</em>.</foreign> (extraposed)</p></li>
     </ul>
 
   </section>
@@ -372,34 +364,34 @@
     <p>Many verbs take either gerund or infinitive objects with little difference:</p>
 
     <ul>
-      <li><p>"I like <em>swimming</em>." / "I like <em>to swim</em>."</p></li>
-      <li><p>"She started <em>working</em>." / "She started <em>to work</em>."</p></li>
+      <li><p><foreign>I like <em>swimming</em>.</foreign> / <foreign>I like <em>to swim</em>.</foreign></p></li>
+      <li><p><foreign>She started <em>working</em>.</foreign> / <foreign>She started <em>to work</em>.</foreign></p></li>
     </ul>
 
     <p>But some verbs show clear differences:</p>
 
-    <p><em>Gerund only</em>: enjoy, avoid, finish, deny, consider</p>
+    <p><em>Gerund only</em>: <foreign>enjoy, avoid, finish, deny, consider</foreign></p>
 
     <ul>
-      <li><p>"She enjoys <em>swimming</em>." (not ~~to swim~~)</p></li>
+      <li><p><foreign>She enjoys <em>swimming</em>.</foreign> (not <foreign><delete>to swim</delete></foreign>)</p></li>
     </ul>
 
-    <p><em>Infinitive only</em>: want, hope, decide, agree, refuse</p>
+    <p><em>Infinitive only</em>: <foreign>want, hope, decide, agree, refuse</foreign></p>
 
     <ul>
-      <li><p>"She wants <em>to swim</em>." (not ~~swimming~~)</p></li>
+      <li><p><foreign>She wants <em>to swim</em>.</foreign> (not <foreign><delete>swimming</delete></foreign>)</p></li>
     </ul>
 
     <p><em>Different meanings</em>:</p>
 
     <ul>
-      <li><p>"I stopped <em>smoking</em>." (quit the habit)</p></li>
-      <li><p>"I stopped <em>to smoke</em>." (paused in order to smoke)</p></li>
+      <li><p><foreign>I stopped <em>smoking</em>.</foreign> (quit the habit)</p></li>
+      <li><p><foreign>I stopped <em>to smoke</em>.</foreign> (paused in order to smoke)</p></li>
     </ul>
 
     <ul>
-      <li><p>"I remember <em>locking</em> the door." (I recall doing it)</p></li>
-      <li><p>"I remember <em>to lock</em> the door." (I don't forget to do it)</p></li>
+      <li><p><foreign>I remember <em>locking</em> the door.</foreign> (I recall doing it)</p></li>
+      <li><p><foreign>I remember <em>to lock</em> the door.</foreign> (I don't forget to do it)</p></li>
     </ul>
 
     <paragraphs>
@@ -409,8 +401,8 @@
     <p>Some verbs allow both:</p>
 
     <ul>
-      <li><p>"I believe <em>that she's honest</em>."</p></li>
-      <li><p>"I believe <em>her to be honest</em>."</p></li>
+      <li><p><foreign>I believe <em>that she's honest</em>.</foreign></p></li>
+      <li><p><foreign>I believe <em>her to be honest</em>.</foreign></p></li>
     </ul>
 
     <p>The infinitive construction may sound more formal.</p>
@@ -422,8 +414,8 @@
     <p>Some verbs take either:</p>
 
     <ul>
-      <li><p>"He admitted <em>that he was wrong</em>."</p></li>
-      <li><p>"He admitted <em>being wrong</em>."</p></li>
+      <li><p><foreign>He admitted <em>that he was wrong</em>.</foreign></p></li>
+      <li><p><foreign>He admitted <em>being wrong</em>.</foreign></p></li>
     </ul>
 
     <p>The gerund is often more concise.</p>
@@ -442,9 +434,9 @@
     <p>Before the main verb:</p>
 
     <ul>
-      <li><p>The students studied.</p></li>
-      <li><p>That he won surprised us.</p></li>
-      <li><p>Swimming is fun.</p></li>
+      <li><p><foreign><em>The students</em> studied.</foreign></p></li>
+      <li><p><foreign><em>That he won</em> surprised us.</foreign></p></li>
+      <li><p><foreign><em>Swimming</em> is fun.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -454,9 +446,9 @@
     <p>After a transitive verb:</p>
 
     <ul>
-      <li><p>"She read <em>the book</em>."</p></li>
-      <li><p>"I know <em>that she's coming</em>."</p></li>
-      <li><p>"He enjoys <em>playing chess</em>."</p></li>
+      <li><p><foreign>She read <em>the book</em>.</foreign></p></li>
+      <li><p><foreign>I know <em>that she's coming</em>.</foreign></p></li>
+      <li><p><foreign>He enjoys <em>playing chess</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -466,8 +458,8 @@
     <p>Before the direct object:</p>
 
     <ul>
-      <li><p>"She gave <em>me</em> a book."</p></li>
-      <li><p>"Tell <em>whoever asks</em> the truth."</p></li>
+      <li><p><foreign>She gave <em>me</em> a book.</foreign></p></li>
+      <li><p><foreign>Tell <em>whoever asks</em> the truth.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -477,9 +469,9 @@
     <p>After a preposition:</p>
 
     <ul>
-      <li><p>"We talked about <em>the problem</em>."</p></li>
-      <li><p>"I'm interested in <em>what you said</em>."</p></li>
-      <li><p>"She succeeded by <em>working hard</em>."</p></li>
+      <li><p><foreign>We talked about <em>the problem</em>.</foreign></p></li>
+      <li><p><foreign>I'm interested in <em>what you said</em>.</foreign></p></li>
+      <li><p><foreign>She succeeded by <em>working hard</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -489,9 +481,9 @@
     <p>After a linking verb:</p>
 
     <ul>
-      <li><p>"She is <em>a doctor</em>."</p></li>
-      <li><p>"The problem is <em>that we're late</em>."</p></li>
-      <li><p>"His hobby is <em>collecting coins</em>."</p></li>
+      <li><p><foreign>She is <em>a doctor</em>.</foreign></p></li>
+      <li><p><foreign>The problem is <em>that we're late</em>.</foreign></p></li>
+      <li><p><foreign>His hobby is <em>collecting coins</em>.</foreign></p></li>
     </ul>
 
   </section>
@@ -502,48 +494,57 @@
     <subsection>
       <title>Part 1: Identification and Classification (approx. 10 minutes)</title>
 
-      <p><em>Instructions:</em> For each sentence, identify the underlined nominal and classify its form (noun phrase, that-clause, wh-clause, gerund phrase, or infinitive phrase).</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence, identify the underlined nominal and classify its form (noun phrase, that-clause, wh-clause, gerund phrase, or infinitive phrase).</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> Swimming every morning has improved my health.</p>
+      <p><foreign><em>Swimming every morning</em> has improved my health.</foreign></p>
 
       <ul>
         <li><p>Form: gerund phrase</p></li>
         <li><p>Function: subject</p></li>
       </ul>
 
-      <p><term>1.</term> "I don't know <em>whether she received my message</em>."</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 1.</em> <foreign>I don't know <em>whether she received my message</em>.</foreign></p>
 
       <p>Form:</p>
       <p>Function:</p>
 
-      <p><term>2.</term> "The problem is <em>that we lack sufficient funding</em>."</p>
+      <p><em>Exercise 2.</em> <foreign>The problem is <em>that we lack sufficient funding</em>.</foreign></p>
 
       <p>Form:</p>
       <p>Function:</p>
 
-      <p><term>3.</term> To learn a new language requires dedication and practice.</p>
+      <p><em>Exercise 3.</em> <foreign><em>To learn a new language</em> requires dedication and practice.</foreign></p>
 
       <p>Form:</p>
       <p>Function:</p>
 
-      <p><term>4.</term> What the scientist discovered changed the field of biology.</p>
+      <p><em>Exercise 4.</em> <foreign><em>What the scientist discovered</em> changed the field of biology.</foreign></p>
 
       <p>Form:</p>
       <p>Function:</p>
 
-      <p><term>5.</term> "She enjoys <em>reading mystery novels on rainy afternoons</em>."</p>
+      <p><em>Exercise 5.</em> <foreign>She enjoys <em>reading mystery novels on rainy afternoons</em>.</foreign></p>
 
       <p>Form:</p>
       <p>Function:</p>
 
-      <p><term>6.</term> "He asked <em>who would be attending the conference</em>."</p>
+      <p><em>Exercise 6.</em> <foreign>He asked <em>who would be attending the conference</em>.</foreign></p>
 
       <p>Form:</p>
       <p>Function:</p>
 
-      <p><term>7.</term> "Her greatest fear is <em>making a mistake in public</em>."</p>
+      <p><em>Exercise 7.</em> <foreign>Her greatest fear is <em>making a mistake in public</em>.</foreign></p>
 
       <p>Form:</p>
       <p>Function:</p>
@@ -552,31 +553,40 @@
     <subsection>
       <title>Part 2: Functional Analysis (approx. 5 minutes)</title>
 
-      <p><em>Instructions:</em> Identify the function of each underlined nominal (subject, direct object, object of preposition, or subject complement).</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Identify the function of each underlined nominal (subject, direct object, object of preposition, or subject complement).</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><em>Sentence:</em> "She believes <em>that honesty is important</em>."</p>
+      <p><foreign>She believes <em>that honesty is important</em>.</foreign></p>
 
-      <p>Function: direct object (of the verb believes)</p>
+      <p>Function: direct object (of the verb <foreign>believes</foreign>)</p>
 
-      <p><term>8.</term> That the project failed disappointed everyone.</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>Function:</p>
-
-      <p><term>9.</term> "The committee discussed <em>how they would proceed</em>."</p>
-
-      <p>Function:</p>
-
-      <p><term>10.</term> "She's interested in <em>learning more about linguistics</em>."</p>
-
-      <p>Function:</p>
-
-      <p><term>11.</term> "The main issue is <em>whether we should continue</em>."</p>
+      <p><em>Exercise 8.</em> <foreign><em>That the project failed</em> disappointed everyone.</foreign></p>
 
       <p>Function:</p>
 
-      <p><term>12.</term> "I appreciate <em>your helping us with the move</em>."</p>
+      <p><em>Exercise 9.</em> <foreign>The committee discussed <em>how they would proceed</em>.</foreign></p>
+
+      <p>Function:</p>
+
+      <p><em>Exercise 10.</em> <foreign>She's interested in <em>learning more about linguistics</em>.</foreign></p>
+
+      <p>Function:</p>
+
+      <p><em>Exercise 11.</em> <foreign>The main issue is <em>whether we should continue</em>.</foreign></p>
+
+      <p>Function:</p>
+
+      <p><em>Exercise 12.</em> <foreign>I appreciate <em>your helping us with the move</em>.</foreign></p>
 
       <p>Function:</p>
     </subsection>
@@ -584,89 +594,118 @@
     <subsection>
       <title>Part 3: Sentence Completion (approx. 5 minutes)</title>
 
-      <p><em>Instructions:</em> Complete each sentence with the requested nominal structure.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Complete each sentence with the requested nominal structure.</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><term>Add a that-clause as direct object:</term> <em>The scientists discovered __________.</em></p>
+      <p>Add a that-clause as direct object: <foreign>The scientists discovered __________.</foreign></p>
 
-      <p>Answer: <em>The scientists discovered that the cells could regenerate.</em></p>
+      <p>Answer: <foreign>The scientists discovered that the cells could regenerate.</foreign></p>
 
-      <p><term>13.</term> Add a gerund phrase as subject: <em>__________ can be challenging for new employees.</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><term>14.</term> Add a wh-clause as direct object: <em>The detective investigated __________.</em></p>
+      <p><em>Exercise 13.</em> Add a gerund phrase as subject: <foreign>__________ can be challenging for new employees.</foreign></p>
 
-      <p><term>15.</term> Add an infinitive phrase as subject complement: <em>Her goal this year is __________.</em></p>
+      <p><em>Exercise 14.</em> Add a wh-clause as direct object: <foreign>The detective investigated __________.</foreign></p>
 
-      <p><term>16.</term> Add a that-clause as subject: <em>__________ surprised everyone at the meeting.</em></p>
+      <p><em>Exercise 15.</em> Add an infinitive phrase as subject complement: <foreign>Her goal this year is __________.</foreign></p>
 
-      <p><term>17.</term> Add a gerund phrase as object of a preposition: <em>She succeeded by __________.</em></p>
+      <p><em>Exercise 16.</em> Add a that-clause as subject: <foreign>__________ surprised everyone at the meeting.</foreign></p>
+
+      <p><em>Exercise 17.</em> Add a gerund phrase as object of a preposition: <foreign>She succeeded by __________.</foreign></p>
     </subsection>
 
     <subsection>
       <title>Part 4: Sentence Writing (approx. 10 minutes)</title>
 
-      <p><em>Instructions:</em> Write original sentences following each prompt.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Write original sentences following each prompt.</p>
 
-      <p><term>Example (completed):</term></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
 
-      <p><term>Write a sentence with a that-clause functioning as subject:</term></p>
+      <p>Write a sentence with a that-clause functioning as subject:</p>
 
-      <p><em>That she won the scholarship made her parents proud.</em></p>
+      <p><foreign>That she won the scholarship made her parents proud.</foreign></p>
 
-      <p><term>18.</term> Write a sentence with a wh-clause functioning as direct object:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p><term>19.</term> Write a sentence with a gerund phrase functioning as object of a preposition:</p>
+      <p><em>Exercise 18.</em> Write a sentence with a wh-clause functioning as direct object:</p>
 
-      <p><term>20.</term> Write a sentence with an infinitive phrase functioning as subject complement:</p>
+      <p><em>Exercise 19.</em> Write a sentence with a gerund phrase functioning as object of a preposition:</p>
 
-      <p><term>21.</term> Write a sentence with a that-clause functioning as subject complement:</p>
+      <p><em>Exercise 20.</em> Write a sentence with an infinitive phrase functioning as subject complement:</p>
 
-      <p><term>22.</term> Write a sentence with an extraposed subject (using It as placeholder with a that-clause or infinitive at the end):</p>
+      <p><em>Exercise 21.</em> Write a sentence with a that-clause functioning as subject complement:</p>
+
+      <p><em>Exercise 22.</em> Write a sentence with an extraposed subject (using <foreign>It</foreign> as placeholder with a that-clause or infinitive at the end):</p>
     </subsection>
 
     <subsection>
       <title>Part 5: Analysis and Application (approx. 10 minutes)</title>
 
-      <p><em>Instructions:</em> Read the sentences and answer the questions.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Read the sentences and answer the questions.</p>
 
-      <p><term>Gerund vs. Infinitive</term></p>
+      <paragraphs>
+        <title>Gerund vs. Infinitive</title>
+      </paragraphs>
 
-      <p><term>23.</term> Consider the verb <em>stop</em> in these two sentences:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-      <p>a) <em>She stopped smoking.</em></p>
+      <p><em>Exercise 23.</em> Consider the verb <foreign>stop</foreign> in these two sentences:</p>
 
-      <p>b) <em>She stopped to smoke.</em></p>
+      <p>a) <foreign>She stopped smoking.</foreign></p>
 
-      <p>Explain the grammatical difference (what form follows stop in each?) and the meaning difference:</p>
+      <p>b) <foreign>She stopped to smoke.</foreign></p>
+
+      <p>Explain the grammatical difference (what form follows <foreign>stop</foreign> in each?) and the meaning difference:</p>
 
       <p>Grammatical difference:</p>
 
       <p>Meaning difference:</p>
 
-      <p><term>24.</term> Consider the verb <em>remember</em> in these two sentences:</p>
+      <p><em>Exercise 24.</em> Consider the verb <foreign>remember</foreign> in these two sentences:</p>
 
-      <p>a) <em>I remember locking the door.</em></p>
+      <p>a) <foreign>I remember locking the door.</foreign></p>
 
-      <p>b) <em>I remember to lock the door.</em></p>
+      <p>b) <foreign>I remember to lock the door.</foreign></p>
 
       <p>Explain the meaning difference:</p>
 
-      <p><term>Transformation and Style</term></p>
+      <paragraphs>
+        <title>Transformation and Style</title>
+      </paragraphs>
 
-      <p><term>25.</term> Transform the following statement into four different nominal structures:</p>
+      <p><em>Exercise 25.</em> Transform the following statement into four different nominal structures:</p>
 
-      <p><term>Statement:</term> <em>The experiment succeeded.</em></p>
+      <p>Statement: <foreign>The experiment succeeded.</foreign></p>
 
       <p>a) As a that-clause functioning as subject:</p>
 
       <p>b) As a gerund phrase functioning as subject:</p>
 
-      <p>c) As a wh-clause (embedded question) functioning as direct object (use a verb like wonder or ask):</p>
+      <p>c) As a wh-clause (embedded question) functioning as direct object (use a verb like <foreign>wonder</foreign> or <foreign>ask</foreign>):</p>
 
-      <p>d) As an infinitive phrase after the verb <em>seem</em>:</p>
+      <p>d) As an infinitive phrase after the verb <foreign>seem</foreign>:</p>
 
-      <p><term>26.</term> In formal writing, sentences like <em>That she resigned surprised everyone</em> are sometimes revised to <em>It surprised everyone that she resigned</em> (extraposition).</p>
+      <p><em>Exercise 26.</em> In formal writing, sentences like <q><foreign>That she resigned surprised everyone</foreign></q> are sometimes revised to <q><foreign>It surprised everyone that she resigned</foreign></q> (extraposition).</p>
 
       <p>a) What is extraposition?</p>
 
@@ -681,13 +720,13 @@
   <section xml:id="ch-14-diagram-examples">
     <title>Diagram Examples</title>
 
-    <p>This section provides reference diagrams for adjectival structures introduced in this chapter.</p>
+    <p>This section provides reference diagrams for structures discussed in this chapter.</p>
 
     <subsection xml:id="ch-14-diagrams-position">
       <title>Adjective Positions</title>
 
       <paragraphs>
-        <title>14.8.1 A: Attributive position: <em>the tall man</em></title>
+        <title>14.8.1 A: Attributive position: the tall man</title>
       </paragraphs>
       <image source="diagrams/new/ch09_np_attributive.png" width="35%">
         <description>Syntax tree for "the tall man" showing adjective in attributive position</description>
@@ -695,7 +734,7 @@
       <p><c>[NP [DET the] [ADJ tall] [N man]]</c></p>
 
       <paragraphs>
-        <title>14.8.1 B: Predicative position: <em>She is happy.</em></title>
+        <title>14.8.1 B: Predicative position: She is happy.</title>
       </paragraphs>
       <image source="diagrams/new/ch09_predicative.png" width="35%">
         <description>Syntax tree for "She is happy" showing adjective in predicative position</description>
@@ -707,7 +746,7 @@
       <title>PP as Adjectival</title>
 
       <paragraphs>
-        <title>14.8.2 A: PP modifying noun: <em>the man in the hat</em></title>
+        <title>14.8.2 A: PP modifying noun: the man in the hat</title>
       </paragraphs>
       <image source="diagrams/new/ch11_adjectival_pp.png" width="50%">
         <description>Syntax tree for "the man in the hat" showing PP as adjectival</description>
@@ -719,7 +758,7 @@
       <title>Participial Phrases as Adjectivals</title>
 
       <paragraphs>
-        <title>14.8.3 A: Present participle as adjectival: <em>the running dog barks</em></title>
+        <title>14.8.3 A: Present participle as adjectival: the running dog barks</title>
       </paragraphs>
       <image source="diagrams/new/ch14_participle_present.png" width="50%">
         <description>Syntax tree for "the running dog barks" showing present participle modifying noun</description>
@@ -727,7 +766,7 @@
       <p><c>[S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]</c></p>
 
       <paragraphs>
-        <title>14.8.3 B: Past participle as adjectival: <em>the frightened dog barks</em></title>
+        <title>14.8.3 B: Past participle as adjectival: the frightened dog barks</title>
       </paragraphs>
       <image source="diagrams/new/ch14_participle_past.png" width="50%">
         <description>Syntax tree for "the frightened dog barks" showing past participle modifying noun</description>
@@ -739,7 +778,7 @@
       <title>Relative Clauses</title>
 
       <paragraphs>
-        <title>14.8.4 A: Relative clause (who as subject): <em>the dog who barks sleeps</em></title>
+        <title>14.8.4 A: Relative clause (who as subject): the dog who barks sleeps</title>
       </paragraphs>
       <image source="diagrams/new/ch14_relcl_who_subject.png" width="55%">
         <description>Syntax tree for "the dog who barks sleeps" showing relative clause with who as subject</description>
@@ -747,7 +786,7 @@
       <p><c>[S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]</c></p>
 
       <paragraphs>
-        <title>14.8.4 B: Relative clause (that + subject): <em>the dog that I saw sleeps</em></title>
+        <title>14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps</title>
       </paragraphs>
       <image source="diagrams/new/ch14_relcl_that_object.png" width="60%">
         <description>Syntax tree for "the dog that I saw sleeps" showing relative clause with that as relativizer</description>
@@ -755,7 +794,7 @@
       <p><c>[S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]</c></p>
 
       <paragraphs>
-        <title>14.8.4 C: Relative clause (where): <em>I saw the place where you live.</em></title>
+        <title>14.8.4 C: Relative clause (where): I saw the place where you live.</title>
       </paragraphs>
       <image source="diagrams/new/ch14_relcl_where.png" width="65%">
         <description>Syntax tree for "I saw the place where you live" showing relative clause with relative adverb</description>
@@ -763,7 +802,7 @@
       <p><c>[S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]</c></p>
 
       <paragraphs>
-        <title>14.8.4 D: Empty relativizer: <em>the dog I saw sleeps</em></title>
+        <title>14.8.4 D: Empty relativizer: the dog I saw sleeps</title>
       </paragraphs>
       <image source="diagrams/new/ch14_relcl_empty.png" width="60%">
         <description>Syntax tree for "the dog I saw sleeps" showing relative clause with empty relativizer</description>
@@ -777,7 +816,7 @@
     <title>Glossary</title>
     <gi>
       <title>Gerund</title>
-      <p>The <em>-ing</em> form of a verb functioning nominally.</p>
+      <p>The <foreign>-ing</foreign> form of a verb functioning nominally.</p>
     </gi>
     <gi>
       <title>Gerund phrase</title>
@@ -785,7 +824,7 @@
     </gi>
     <gi>
       <title>Infinitive phrase (nominal)</title>
-      <p>A <em>to</em> + verb phrase functioning as a subject, object, or complement.</p>
+      <p>A <foreign>to</foreign> + verb phrase functioning as a subject, object, or complement.</p>
     </gi>
     <gi>
       <title>Nominal</title>
@@ -793,7 +832,7 @@
     </gi>
     <gi>
       <title>Nominalized adjective</title>
-      <p>An adjective with a determiner functioning as a noun (the poor).</p>
+      <p>An adjective with a determiner functioning as a noun (<foreign>the poor</foreign>).</p>
     </gi>
     <gi>
       <title>Noun</title>
@@ -805,11 +844,11 @@
     </gi>
     <gi>
       <title>That-clause</title>
-      <p>A noun clause introduced by <em>that</em>.</p>
+      <p>A noun clause introduced by <foreign>that</foreign>.</p>
     </gi>
     <gi>
       <title>Wh-clause</title>
-      <p>A noun clause introduced by a wh-word (what, where, whether, etc.).</p>
+      <p>A noun clause introduced by a wh-word (<foreign>what, where, whether</foreign>, etc.).</p>
     </gi>
   </glossary>
 

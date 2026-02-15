@@ -1837,13 +1837,22 @@ var ptx_lunr_docs = [
   "body": " Nouns vs. Nominals: Form vs. Function  Understanding the distinction between nouns (a form\/part of speech) and nominals (a function) is essential for accurate grammatical analysis.   Noun as Form   A noun is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Nouns can be pluralized, possess, follow determiners, and serve as subjects\/objects.   book, happiness, Maria, government    Nominal as Function   A nominal is any word, phrase, or clause that functions in a position typically occupied by a noun phrase—as subject, object, or complement.  Key insight : All nouns functioning as subjects\/objects are nominals, but not all nominals are nouns.  "
 },
 {
+  "id": "ch-14-nominals-sec-141-2",
+  "level": "2",
+  "url": "ch-14-nominals-sec-141.html#ch-14-nominals-sec-141-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "nouns nominals "
+},
+{
   "id": "ch-14-nominals-sec-142",
   "level": "1",
   "url": "ch-14-nominals-sec-142.html",
   "type": "Section",
   "number": "14.2",
   "title": "Structures That Function as Nominals",
-  "body": " Structures That Function as Nominals  Many different structures can serve the nominal function.   1. Noun Phrases   The prototypical nominal is a noun phrase:   The book is on the table. (subject)  \"I read the interesting book .\" (object)  \"This is my sister .\" (subject complement)    2. Pronouns   Pronouns replace entire noun phrases:   She arrived early. (subject)  \"I saw them .\" (object)  \"The winner is he .\" (complement, formal)    3. Noun Clauses (That-clauses)   Clauses introduced by that function as nominals:   That she resigned surprised everyone. (subject)  \"I believe that she is honest .\" (object)  \"The problem is that we're out of time .\" (complement)    4. Noun Clauses (Wh-clauses)   Clauses introduced by wh-words function as nominals:   What she said was important. (subject)  \"I don't know where he went .\" (object)  \"The question is who will lead .\" (complement)    5. Gerund Phrases   -ing forms of verbs (gerunds) head phrases that function as nominals:   Swimming is good exercise. (subject)  \"She enjoys reading novels .\" (object)  \"His hobby is collecting stamps .\" (complement)    6. Infinitive Phrases (Nominal)   Infinitive phrases (to + verb) can function as nominals:   To err is human. (subject)  \"She wants to succeed .\" (object)  \"The goal is to finish on time .\" (complement)    7. Nominalized Adjectives   Some adjectives, with a determiner, function nominally (referring to a group):   The poor need assistance.  The rich have advantages.  The accused denied the charges.   "
+  "body": " Structures That Function as Nominals  Many different structures can serve the nominal function.   1. Noun Phrases   The prototypical nominal is a noun phrase:   The book is on the table. (subject)  I read the interesting book . (object)  This is my sister . (subject complement)    2. Pronouns   Pronouns replace entire noun phrases:   She arrived early. (subject)  I saw them . (object)  The winner is he . (complement, formal)    3. Noun Clauses (That-clauses)   Clauses introduced by that function as nominals:   That she resigned surprised everyone. (subject)  I believe that she is honest . (object)  The problem is that we're out of time . (complement)    4. Noun Clauses (Wh-clauses)   Clauses introduced by wh-words function as nominals:   What she said was important. (subject)  I don't know where he went . (object)  The question is who will lead . (complement)    5. Gerund Phrases   -ing forms of verbs (gerunds) head phrases that function as nominals:   Swimming is good exercise. (subject)  She enjoys reading novels . (object)  His hobby is collecting stamps . (complement)    6. Infinitive Phrases (Nominal)   Infinitive phrases ( to + verb) can function as nominals:   To err is human. (subject)  She wants to succeed . (object)  The goal is to finish on time . (complement)    7. Nominalized Adjectives   Some adjectives, with a determiner, function nominally (referring to a group):   The poor need assistance.  The rich have advantages.  The accused denied the charges.   "
 },
 {
   "id": "ch-14-nominals-sec-143",
@@ -1852,7 +1861,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.3",
   "title": "Noun Clauses in Detail",
-  "body": " Noun Clauses in Detail  Noun clauses are dependent clauses that function as nominals—as subjects, objects, or complements.   That-clauses   Introduced by that (which may be omitted in some positions):  As subject :   That she won surprised no one.  That the earth is round is well established.   As object (that often omitted):   \"I believe (that) she's honest.\"  \"He knows (that) we're coming.\"   As complement :   \"The truth is that we need more time .\"  \"My hope is that things will improve .\"   After adjectives :   \"I'm glad that you came .\"  \"She was certain that he was wrong .\"    Wh-clauses (Interrogative Content Clauses)   Introduced by wh-words (what, who, which, where, when, why, how, whether, if):  As subject :   What she discovered changed everything.  Where they went remains a mystery.  Whether he'll accept is uncertain.   As object :   \"I don't know what happened .\"  \"She asked whether I was coming .\"  \"Tell me how you did it .\"   As complement :   \"The issue is how we proceed .\"  \"The question is whether to accept .\"    If vs. Whether   Both introduce yes\/no noun clauses, but:   Whether can be a subject; if typically cannot:  Whether he comes remains to be seen. ✓  ~~ If he comes remains to be seen.~~ ✗ (awkward)    Whether allows or not immediately after; if does not:  \"I don't know whether or not she's coming.\" ✓  ~~I don't know if or not she's coming.~~ ✗   "
+  "body": " Noun Clauses in Detail  Noun clauses are dependent clauses that function as nominals—as subjects, objects, or complements.   That-clauses   Introduced by that (which may be omitted in some positions):  As subject :   That she won surprised no one.  That the earth is round is well established.   As object ( that often omitted):   I believe (that) she's honest.  He knows (that) we're coming.   As complement :   The truth is that we need more time .  My hope is that things will improve .   After adjectives :   I'm glad that you came .  She was certain that he was wrong .    Wh-clauses (Interrogative Content Clauses)   Introduced by wh-words ( what, who, which, where, when, why, how, whether, if ):  As subject :   What she discovered changed everything.  Where they went remains a mystery.  Whether he'll accept is uncertain.   As object :   I don't know what happened .  She asked whether I was coming .  Tell me how you did it .   As complement :   The issue is how we proceed .  The question is whether to accept .    If vs. Whether   Both introduce yes\/no noun clauses, but:   Whether can be a subject; if typically cannot:  Whether he comes remains to be seen. ✓  If he comes remains to be seen. ✗ (awkward)    Whether allows or not immediately after; if does not:  I don't know whether or not she's coming. ✓  I don't know if or not she's coming. ✗   "
+},
+{
+  "id": "ch-14-nominals-sec-143-2",
+  "level": "2",
+  "url": "ch-14-nominals-sec-143.html#ch-14-nominals-sec-143-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Noun clauses "
 },
 {
   "id": "ch-14-nominals-sec-144",
@@ -1861,7 +1879,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.4",
   "title": "Gerund Phrases as Nominals",
-  "body": " Gerund Phrases as Nominals  A gerund is the -ing form of a verb functioning nominally. A gerund phrase includes the gerund and its complements\/modifiers.   Gerund Structure   ```  Gerund Phrase = (Possessive) + Gerund + (Complements\/Modifiers)  ```   Swimming is fun. (simple gerund)  Swimming laps is good exercise. (gerund + object)  His swimming improved. (possessive + gerund)  Their constantly complaining annoys everyone. (possessive + modifier + gerund)    Gerund Functions   As subject :   Running marathons requires dedication.  Finishing on time seemed impossible.   As object :   \"She enjoys cooking elaborate meals .\"  \"He avoided making promises .\"   As object of preposition :   \"She succeeded by working hard .\"  \"He's interested in learning languages .\"   As complement :   \"His favorite activity is reading .\"  \"The challenge was convincing the board .\"    Possessive with Gerunds   Formal usage prefers possessive forms before gerunds:   \"I appreciated his helping us.\" (formal)  \"I appreciated him helping us.\" (informal)   Both are acceptable in modern English, though the possessive is preferred in formal writing.  "
+  "body": " Gerund Phrases as Nominals  A gerund is the -ing form of a verb functioning nominally. A gerund phrase includes the gerund and its complements\/modifiers.   Gerund Structure   Gerund Phrase = (Possessive) + Gerund + (Complements\/Modifiers)   Swimming is fun. (simple gerund)  Swimming laps is good exercise. (gerund + object)  His swimming improved. (possessive + gerund)  Their constantly complaining annoys everyone. (possessive + modifier + gerund)    Gerund Functions   As subject :   Running marathons requires dedication.  Finishing on time seemed impossible.   As object :   She enjoys cooking elaborate meals .  He avoided making promises .   As object of preposition :   She succeeded by working hard .  He's interested in learning languages .   As complement :   His favorite activity is reading .  The challenge was convincing the board .    Possessive with Gerunds   Formal usage prefers possessive forms before gerunds:   I appreciated his helping us. (formal)  I appreciated him helping us. (informal)   Both are acceptable in modern English, though the possessive is preferred in formal writing.  "
+},
+{
+  "id": "ch-14-nominals-sec-144-2",
+  "level": "2",
+  "url": "ch-14-nominals-sec-144.html#ch-14-nominals-sec-144-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "gerund gerund phrase "
 },
 {
   "id": "ch-14-nominals-sec-145",
@@ -1870,7 +1897,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.5",
   "title": "Infinitive Phrases as Nominals",
-  "body": " Infinitive Phrases as Nominals  Infinitive phrases (to + base verb) can function nominally in certain positions.   Infinitive Structure   ```  Infinitive Phrase = to + Verb + (Complements\/Modifiers)  ```   To swim is fun. (simple infinitive)  To finish on time seemed impossible. (infinitive + modifier)  To convince the board of our plan took hours. (infinitive + complex complement)    Infinitive Functions   As subject (often with extraposition):   To err is human.  \"It is difficult to learn a new language .\" (extraposed)   As object :   \"She wants to succeed .\"  \"They decided to leave early .\"  \"He hopes to be promoted .\"   As complement :   \"The goal is to finish on time .\"  \"Her dream is to travel the world .\"    Extraposition   When infinitive subjects are long, English often \"extraposits\" them, using it as a placeholder subject:   To explain all the details would take too long. (full subject)  It would take too long to explain all the details . (extraposed)   "
+  "body": " Infinitive Phrases as Nominals  Infinitive phrases (to + base verb) can function nominally in certain positions.   Infinitive Structure   Infinitive Phrase = to + Verb + (Complements\/Modifiers)   To swim is fun. (simple infinitive)  To finish on time seemed impossible. (infinitive + modifier)  To convince the board of our plan took hours. (infinitive + complex complement)    Infinitive Functions   As subject (often with extraposition):   To err is human.  It is difficult to learn a new language . (extraposed)   As object :   She wants to succeed .  They decided to leave early .  He hopes to be promoted .   As complement :   The goal is to finish on time .  Her dream is to travel the world .    Extraposition   When infinitive subjects are long, English often \"extraposits\" them, using it as a placeholder subject:   To explain all the details would take too long. (full subject)  It would take too long to explain all the details . (extraposed)   "
 },
 {
   "id": "ch-14-nominals-sec-146",
@@ -1879,7 +1906,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.6",
   "title": "Comparing Nominal Structures",
-  "body": " Comparing Nominal Structures  Different nominal structures may seem interchangeable but often carry subtle differences in meaning or style.   Gerund vs. Infinitive   Many verbs take either gerund or infinitive objects with little difference:   \"I like swimming .\" \/ \"I like to swim .\"  \"She started working .\" \/ \"She started to work .\"   But some verbs show clear differences:  Gerund only : enjoy, avoid, finish, deny, consider   \"She enjoys swimming .\" (not ~~to swim~~)   Infinitive only : want, hope, decide, agree, refuse   \"She wants to swim .\" (not ~~swimming~~)   Different meanings :   \"I stopped smoking .\" (quit the habit)  \"I stopped to smoke .\" (paused in order to smoke)    \"I remember locking the door.\" (I recall doing it)  \"I remember to lock the door.\" (I don't forget to do it)    That-clause vs. Infinitive   Some verbs allow both:   \"I believe that she's honest .\"  \"I believe her to be honest .\"   The infinitive construction may sound more formal.   That-clause vs. Gerund   Some verbs take either:   \"He admitted that he was wrong .\"  \"He admitted being wrong .\"   The gerund is often more concise.  "
+  "body": " Comparing Nominal Structures  Different nominal structures may seem interchangeable but often carry subtle differences in meaning or style.   Gerund vs. Infinitive   Many verbs take either gerund or infinitive objects with little difference:   I like swimming . \/ I like to swim .  She started working . \/ She started to work .   But some verbs show clear differences:  Gerund only : enjoy, avoid, finish, deny, consider   She enjoys swimming . (not to swim )   Infinitive only : want, hope, decide, agree, refuse   She wants to swim . (not swimming )   Different meanings :   I stopped smoking . (quit the habit)  I stopped to smoke . (paused in order to smoke)    I remember locking the door. (I recall doing it)  I remember to lock the door. (I don't forget to do it)    That-clause vs. Infinitive   Some verbs allow both:   I believe that she's honest .  I believe her to be honest .   The infinitive construction may sound more formal.   That-clause vs. Gerund   Some verbs take either:   He admitted that he was wrong .  He admitted being wrong .   The gerund is often more concise.  "
 },
 {
   "id": "ch-14-nominals-sec-147",
@@ -1888,7 +1915,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.7",
   "title": "Nominal Positions in Sentences",
-  "body": " Nominal Positions in Sentences  Nominals occupy specific syntactic positions.   Subject Position   Before the main verb:   The students studied.  That he won surprised us.  Swimming is fun.    Direct Object Position   After a transitive verb:   \"She read the book .\"  \"I know that she's coming .\"  \"He enjoys playing chess .\"    Indirect Object Position   Before the direct object:   \"She gave me a book.\"  \"Tell whoever asks the truth.\"    Object of Preposition   After a preposition:   \"We talked about the problem .\"  \"I'm interested in what you said .\"  \"She succeeded by working hard .\"    Subject Complement Position   After a linking verb:   \"She is a doctor .\"  \"The problem is that we're late .\"  \"His hobby is collecting coins .\"   "
+  "body": " Nominal Positions in Sentences  Nominals occupy specific syntactic positions.   Subject Position   Before the main verb:   The students studied.  That he won surprised us.  Swimming is fun.    Direct Object Position   After a transitive verb:   She read the book .  I know that she's coming .  He enjoys playing chess .    Indirect Object Position   Before the direct object:   She gave me a book.  Tell whoever asks the truth.    Object of Preposition   After a preposition:   We talked about the problem .  I'm interested in what you said .  She succeeded by working hard .    Subject Complement Position   After a linking verb:   She is a doctor .  The problem is that we're late .  His hobby is collecting coins .   "
 },
 {
   "id": "ch-14-homework",
@@ -1897,322 +1924,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.8",
   "title": "Homework: Nominals",
-  "body": " Homework: Nominals   Part 1: Identification and Classification (approx. 10 minutes)  Instructions: For each sentence, identify the underlined nominal and classify its form (noun phrase, that-clause, wh-clause, gerund phrase, or infinitive phrase).  Example (completed):  Sentence: Swimming every morning has improved my health.   Form: gerund phrase  Function: subject   1. \"I don't know whether she received my message .\"  Form:  Function:  2. \"The problem is that we lack sufficient funding .\"  Form:  Function:  3. To learn a new language requires dedication and practice.  Form:  Function:  4. What the scientist discovered changed the field of biology.  Form:  Function:  5. \"She enjoys reading mystery novels on rainy afternoons .\"  Form:  Function:  6. \"He asked who would be attending the conference .\"  Form:  Function:  7. \"Her greatest fear is making a mistake in public .\"  Form:  Function:    Part 2: Functional Analysis (approx. 5 minutes)  Instructions: Identify the function of each underlined nominal (subject, direct object, object of preposition, or subject complement).  Example (completed):  Sentence: \"She believes that honesty is important .\"  Function: direct object (of the verb believes)  8. That the project failed disappointed everyone.  Function:  9. \"The committee discussed how they would proceed .\"  Function:  10. \"She's interested in learning more about linguistics .\"  Function:  11. \"The main issue is whether we should continue .\"  Function:  12. \"I appreciate your helping us with the move .\"  Function:    Part 3: Sentence Completion (approx. 5 minutes)  Instructions: Complete each sentence with the requested nominal structure.  Example (completed):  Add a that-clause as direct object:  The scientists discovered __________.  Answer: The scientists discovered that the cells could regenerate.  13. Add a gerund phrase as subject: __________ can be challenging for new employees.  14. Add a wh-clause as direct object: The detective investigated __________.  15. Add an infinitive phrase as subject complement: Her goal this year is __________.  16. Add a that-clause as subject: __________ surprised everyone at the meeting.  17. Add a gerund phrase as object of a preposition: She succeeded by __________.    Part 4: Sentence Writing (approx. 10 minutes)  Instructions: Write original sentences following each prompt.  Example (completed):  Write a sentence with a that-clause functioning as subject:  That she won the scholarship made her parents proud.  18. Write a sentence with a wh-clause functioning as direct object:  19. Write a sentence with a gerund phrase functioning as object of a preposition:  20. Write a sentence with an infinitive phrase functioning as subject complement:  21. Write a sentence with a that-clause functioning as subject complement:  22. Write a sentence with an extraposed subject (using It as placeholder with a that-clause or infinitive at the end):    Part 5: Analysis and Application (approx. 10 minutes)  Instructions: Read the sentences and answer the questions.  Gerund vs. Infinitive  23. Consider the verb stop in these two sentences:  a) She stopped smoking.  b) She stopped to smoke.  Explain the grammatical difference (what form follows stop in each?) and the meaning difference:  Grammatical difference:  Meaning difference:  24. Consider the verb remember in these two sentences:  a) I remember locking the door.  b) I remember to lock the door.  Explain the meaning difference:  Transformation and Style  25. Transform the following statement into four different nominal structures:  Statement:  The experiment succeeded.  a) As a that-clause functioning as subject:  b) As a gerund phrase functioning as subject:  c) As a wh-clause (embedded question) functioning as direct object (use a verb like wonder or ask):  d) As an infinitive phrase after the verb seem :  26. In formal writing, sentences like That she resigned surprised everyone are sometimes revised to It surprised everyone that she resigned (extraposition).  a) What is extraposition?  b) When might a writer prefer the extraposed version?  c) When might a writer prefer the non-extraposed version (with the clause in subject position)?   Total estimated time: 40 minutes  "
-},
-{
-  "id": "ch-14-homework-2-3",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-14-homework-2-6",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-2-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "1. "
-},
-{
-  "id": "ch-14-homework-2-9",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-2-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "2. "
-},
-{
-  "id": "ch-14-homework-2-12",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-2-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "3. "
-},
-{
-  "id": "ch-14-homework-2-15",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-2-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "4. "
-},
-{
-  "id": "ch-14-homework-2-18",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-2-18",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "5. "
-},
-{
-  "id": "ch-14-homework-2-21",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-2-21",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "6. "
-},
-{
-  "id": "ch-14-homework-2-24",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-2-24",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "7. "
-},
-{
-  "id": "ch-14-homework-3-3",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-3-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-14-homework-3-6",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-3-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "8. "
-},
-{
-  "id": "ch-14-homework-3-8",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-3-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "9. "
-},
-{
-  "id": "ch-14-homework-3-10",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-3-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "10. "
-},
-{
-  "id": "ch-14-homework-3-12",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-3-12",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "11. "
-},
-{
-  "id": "ch-14-homework-3-14",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-3-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "12. "
-},
-{
-  "id": "ch-14-homework-4-3",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-4-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-14-homework-4-4",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-4-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Add a that-clause as direct object: "
-},
-{
-  "id": "ch-14-homework-4-6",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-4-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "13. "
-},
-{
-  "id": "ch-14-homework-4-7",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-4-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "14. "
-},
-{
-  "id": "ch-14-homework-4-8",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-4-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "15. "
-},
-{
-  "id": "ch-14-homework-4-9",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-4-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "16. "
-},
-{
-  "id": "ch-14-homework-4-10",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-4-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "17. "
-},
-{
-  "id": "ch-14-homework-5-3",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-5-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Example (completed): "
-},
-{
-  "id": "ch-14-homework-5-4",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-5-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Write a sentence with a that-clause functioning as subject: "
-},
-{
-  "id": "ch-14-homework-5-6",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-5-6",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "18. "
-},
-{
-  "id": "ch-14-homework-5-7",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-5-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "19. "
-},
-{
-  "id": "ch-14-homework-5-8",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-5-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "20. "
-},
-{
-  "id": "ch-14-homework-5-9",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-5-9",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "21. "
-},
-{
-  "id": "ch-14-homework-5-10",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-5-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "22. "
-},
-{
-  "id": "ch-14-homework-6-3",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-6-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Gerund vs. Infinitive "
-},
-{
-  "id": "ch-14-homework-6-4",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-6-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "23. "
-},
-{
-  "id": "ch-14-homework-6-10",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-6-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "24. "
-},
-{
-  "id": "ch-14-homework-6-14",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-6-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Transformation and Style "
-},
-{
-  "id": "ch-14-homework-6-15",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-6-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "25. "
-},
-{
-  "id": "ch-14-homework-6-16",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-6-16",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Statement: "
-},
-{
-  "id": "ch-14-homework-6-21",
-  "level": "2",
-  "url": "ch-14-homework.html#ch-14-homework-6-21",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "26. "
+  "body": " Homework: Nominals   Part 1: Identification and Classification (approx. 10 minutes)   Instructions   For each sentence, identify the underlined nominal and classify its form (noun phrase, that-clause, wh-clause, gerund phrase, or infinitive phrase).   Example (completed)   Swimming every morning has improved my health.   Form: gerund phrase  Function: subject    Exercises   Exercise 1.  I don't know whether she received my message .  Form:  Function:  Exercise 2.  The problem is that we lack sufficient funding .  Form:  Function:  Exercise 3.  To learn a new language requires dedication and practice.  Form:  Function:  Exercise 4.  What the scientist discovered changed the field of biology.  Form:  Function:  Exercise 5.  She enjoys reading mystery novels on rainy afternoons .  Form:  Function:  Exercise 6.  He asked who would be attending the conference .  Form:  Function:  Exercise 7.  Her greatest fear is making a mistake in public .  Form:  Function:    Part 2: Functional Analysis (approx. 5 minutes)   Instructions   Identify the function of each underlined nominal (subject, direct object, object of preposition, or subject complement).   Example (completed)   She believes that honesty is important .  Function: direct object (of the verb believes )   Exercises   Exercise 8.  That the project failed disappointed everyone.  Function:  Exercise 9.  The committee discussed how they would proceed .  Function:  Exercise 10.  She's interested in learning more about linguistics .  Function:  Exercise 11.  The main issue is whether we should continue .  Function:  Exercise 12.  I appreciate your helping us with the move .  Function:    Part 3: Sentence Completion (approx. 5 minutes)   Instructions   Complete each sentence with the requested nominal structure.   Example (completed)   Add a that-clause as direct object: The scientists discovered __________.  Answer: The scientists discovered that the cells could regenerate.   Exercises   Exercise 13. Add a gerund phrase as subject: __________ can be challenging for new employees.  Exercise 14. Add a wh-clause as direct object: The detective investigated __________.  Exercise 15. Add an infinitive phrase as subject complement: Her goal this year is __________.  Exercise 16. Add a that-clause as subject: __________ surprised everyone at the meeting.  Exercise 17. Add a gerund phrase as object of a preposition: She succeeded by __________.    Part 4: Sentence Writing (approx. 10 minutes)   Instructions   Write original sentences following each prompt.   Example (completed)   Write a sentence with a that-clause functioning as subject:  That she won the scholarship made her parents proud.   Exercises   Exercise 18. Write a sentence with a wh-clause functioning as direct object:  Exercise 19. Write a sentence with a gerund phrase functioning as object of a preposition:  Exercise 20. Write a sentence with an infinitive phrase functioning as subject complement:  Exercise 21. Write a sentence with a that-clause functioning as subject complement:  Exercise 22. Write a sentence with an extraposed subject (using It as placeholder with a that-clause or infinitive at the end):    Part 5: Analysis and Application (approx. 10 minutes)   Instructions   Read the sentences and answer the questions.   Gerund vs. Infinitive    Exercises   Exercise 23. Consider the verb stop in these two sentences:  a) She stopped smoking.  b) She stopped to smoke.  Explain the grammatical difference (what form follows stop in each?) and the meaning difference:  Grammatical difference:  Meaning difference:  Exercise 24. Consider the verb remember in these two sentences:  a) I remember locking the door.  b) I remember to lock the door.  Explain the meaning difference:   Transformation and Style   Exercise 25. Transform the following statement into four different nominal structures:  Statement: The experiment succeeded.  a) As a that-clause functioning as subject:  b) As a gerund phrase functioning as subject:  c) As a wh-clause (embedded question) functioning as direct object (use a verb like wonder or ask ):  d) As an infinitive phrase after the verb seem :  Exercise 26. In formal writing, sentences like That she resigned surprised everyone are sometimes revised to It surprised everyone that she resigned (extraposition).  a) What is extraposition?  b) When might a writer prefer the extraposed version?  c) When might a writer prefer the non-extraposed version (with the clause in subject position)?   Total estimated time: 40 minutes  "
 },
 {
   "id": "ch-14-diagram-examples",
@@ -2221,7 +1933,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "14.9",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for adjectival structures introduced in this chapter.   Adjective Positions   14.8.1 A: Attributive position: the tall man    Syntax tree for \"the tall man\" showing adjective in attributive position   [NP [DET the] [ADJ tall] [N man]]   14.8.1 B: Predicative position: She is happy.    Syntax tree for \"She is happy\" showing adjective in predicative position   [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]    PP as Adjectival   14.8.2 A: PP modifying noun: the man in the hat    Syntax tree for \"the man in the hat\" showing PP as adjectival   [NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]    Participial Phrases as Adjectivals   14.8.3 A: Present participle as adjectival: the running dog barks    Syntax tree for \"the running dog barks\" showing present participle modifying noun   [S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]   14.8.3 B: Past participle as adjectival: the frightened dog barks    Syntax tree for \"the frightened dog barks\" showing past participle modifying noun   [S [NP [DET the] [VP [V frightened]] [N dog]] [VP [V barks]]]    Relative Clauses   14.8.4 A: Relative clause (who as subject): the dog who barks sleeps    Syntax tree for \"the dog who barks sleeps\" showing relative clause with who as subject   [S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]   14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps    Syntax tree for \"the dog that I saw sleeps\" showing relative clause with that as relativizer   [S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   14.8.4 C: Relative clause (where): I saw the place where you live.    Syntax tree for \"I saw the place where you live\" showing relative clause with relative adverb   [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]   14.8.4 D: Empty relativizer: the dog I saw sleeps    Syntax tree for \"the dog I saw sleeps\" showing relative clause with empty relativizer   [S [NP [DET the] [N dog] [RC [REL _] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   "
+  "body": " Diagram Examples  This section provides reference diagrams for structures discussed in this chapter.   Adjective Positions   14.8.1 A: Attributive position: the tall man    Syntax tree for \"the tall man\" showing adjective in attributive position   [NP [DET the] [ADJ tall] [N man]]   14.8.1 B: Predicative position: She is happy.    Syntax tree for \"She is happy\" showing adjective in predicative position   [S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]    PP as Adjectival   14.8.2 A: PP modifying noun: the man in the hat    Syntax tree for \"the man in the hat\" showing PP as adjectival   [NP [DET the] [N man] [PP [PREP in] [NP [DET the] [N hat]]]]    Participial Phrases as Adjectivals   14.8.3 A: Present participle as adjectival: the running dog barks    Syntax tree for \"the running dog barks\" showing present participle modifying noun   [S [NP [DET the] [VP [V running]] [N dog]] [VP [V barks]]]   14.8.3 B: Past participle as adjectival: the frightened dog barks    Syntax tree for \"the frightened dog barks\" showing past participle modifying noun   [S [NP [DET the] [VP [V frightened]] [N dog]] [VP [V barks]]]    Relative Clauses   14.8.4 A: Relative clause (who as subject): the dog who barks sleeps    Syntax tree for \"the dog who barks sleeps\" showing relative clause with who as subject   [S [NP [DET the] [N dog] [RC [REL who] [VP [V barks]]]] [VP [V sleeps]]]   14.8.4 B: Relative clause (that + subject): the dog that I saw sleeps    Syntax tree for \"the dog that I saw sleeps\" showing relative clause with that as relativizer   [S [NP [DET the] [N dog] [RC [REL that] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   14.8.4 C: Relative clause (where): I saw the place where you live.    Syntax tree for \"I saw the place where you live\" showing relative clause with relative adverb   [S [NP [PRON I]] [VP [V saw] [NP [DET the] [N place] [RC [REL where] [NP [PRON you]] [VP [V live]]]]]]   14.8.4 D: Empty relativizer: the dog I saw sleeps    Syntax tree for \"the dog I saw sleeps\" showing relative clause with empty relativizer   [S [NP [DET the] [N dog] [RC [REL _] [NP [PRON I]] [VP [V saw]]]] [VP [V sleeps]]]   "
 },
 {
   "id": "ch-14-nominals-12",
@@ -2230,7 +1942,7 @@ var ptx_lunr_docs = [
   "type": "Glossary",
   "number": "14.10",
   "title": "Glossary",
-  "body": " Glossary   Gerund  The -ing form of a verb functioning nominally.    Gerund phrase  A gerund with its complements and modifiers, functioning as a nominal.    Infinitive phrase (nominal)  A to + verb phrase functioning as a subject, object, or complement.    Nominal  Any word, phrase, or clause functioning in a position typically occupied by a noun phrase.    Nominalized adjective  An adjective with a determiner functioning as a noun (the poor).    Noun  A part of speech naming people, places, things, or ideas.    Noun clause  A dependent clause functioning as a nominal.    That-clause  A noun clause introduced by that .    Wh-clause  A noun clause introduced by a wh-word (what, where, whether, etc.).   "
+  "body": " Glossary   Gerund  The -ing form of a verb functioning nominally.    Gerund phrase  A gerund with its complements and modifiers, functioning as a nominal.    Infinitive phrase (nominal)  A to + verb phrase functioning as a subject, object, or complement.    Nominal  Any word, phrase, or clause functioning in a position typically occupied by a noun phrase.    Nominalized adjective  An adjective with a determiner functioning as a noun ( the poor ).    Noun  A part of speech naming people, places, things, or ideas.    Noun clause  A dependent clause functioning as a nominal.    That-clause  A noun clause introduced by that .    Wh-clause  A noun clause introduced by a wh-word ( what, where, whether , etc.).   "
 },
 {
   "id": "ch-15-punctuation-sec-151",
