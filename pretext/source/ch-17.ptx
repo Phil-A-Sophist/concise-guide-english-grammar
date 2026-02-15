@@ -5,21 +5,16 @@
 
   <objectives>
     <title>Learning Objectives</title>
+    <introduction>
+      <p><em>Key Terms: style, sentence variety, information structure, given vs. new information, end-focus, end-weight, extraposition, cleft sentence, loose sentence, periodic sentence, balanced sentence</em></p>
+    </introduction>
     <ul>
       <li><p>Understand how grammatical choices affect style and meaning</p></li>
       <li><p>Make informed decisions about sentence structure and length</p></li>
       <li><p>Use active and passive voice strategically</p></li>
       <li><p>Control emphasis through word order and sentence structure</p></li>
       <li><p>Vary sentence types for rhetorical effect</p></li>
-      <li><p>Style</p></li>
-      <li><p>Register</p></li>
-      <li><p>Sentence variety</p></li>
-      <li><p>Emphasis</p></li>
-      <li><p>Information structure</p></li>
-      <li><p>Given vs. new information</p></li>
-      <li><p>End-focus</p></li>
-      <li><p>Front-weight</p></li>
-      <li><p>--</p></li>
+      <li><p>Recognize and use rhetorical sentence patterns</p></li>
     </ul>
   </objectives>
 
@@ -32,7 +27,7 @@
       <title>Style Defined</title>
     </paragraphs>
 
-    <p><em>Style</em> refers to the characteristic way a writer or speaker uses language. It emerges from patterns of choices: sentence length, word selection, active vs. passive voice, coordination vs. subordination.</p>
+    <p><term>Style</term> refers to the characteristic way a writer or speaker uses language. It emerges from patterns of choices: sentence length, word selection, active vs. passive voice, coordination vs. subordination.</p>
 
     <p>Understanding grammar gives you options. Mastering style means knowing which options to choose and when.</p>
 
@@ -49,11 +44,11 @@
 
     <p><em>Monotonous (all similar length)</em>:</p>
 
-    <p><em>The storm arrived. It brought heavy rain. The roads flooded. Traffic stopped. People were stranded.</em></p>
+    <p><foreign>The storm arrived. It brought heavy rain. The roads flooded. Traffic stopped. People were stranded.</foreign></p>
 
     <p><em>Varied</em>:</p>
 
-    <p><em>The storm arrived with heavy rain, flooding the roads and bringing traffic to a halt. People were stranded.</em></p>
+    <p><foreign>The storm arrived with heavy rain, flooding the roads and bringing traffic to a halt. People were stranded.</foreign></p>
 
     <paragraphs>
       <title>When to Use Short Sentences</title>
@@ -62,7 +57,7 @@
     <p>Short sentences create:</p>
 
     <ul>
-      <li><p>Impact: <em>She refused.</em></p></li>
+      <li><p>Impact: <foreign>She refused.</foreign></p></li>
       <li><p>Clarity: Complex information benefits from simpler structures</p></li>
       <li><p>Pace: Action scenes often use short, punchy sentences</p></li>
     </ul>
@@ -97,13 +92,13 @@
     <p><em>Active</em>: The subject performs the action.</p>
 
     <ul>
-      <li><p>"The committee <em>approved</em> the proposal."</p></li>
+      <li><p><foreign>The committee <em>approved</em> the proposal.</foreign></p></li>
     </ul>
 
     <p><em>Passive</em>: The subject receives the action.</p>
 
     <ul>
-      <li><p>"The proposal <em>was approved</em> by the committee."</p></li>
+      <li><p><foreign>The proposal <em>was approved</em> by the committee.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -113,8 +108,8 @@
     <p>Use active voice when:</p>
 
     <ol>
-      <li><p>The agent is important: <em>The CEO announced the merger.</em></p></li>
-      <li><p>Directness is valued: <em>We made a mistake.</em> (not Mistakes were made.)</p></li>
+      <li><p>The agent is important: <foreign>The CEO announced the merger.</foreign></p></li>
+      <li><p>Directness is valued: <foreign>We made a mistake.</foreign> (not <foreign>Mistakes were made.</foreign>)</p></li>
       <li><p>Energy is needed: Active voice tends to be more dynamic.</p></li>
     </ol>
 
@@ -125,10 +120,10 @@
     <p>Use passive voice when:</p>
 
     <ol>
-      <li><p>The agent is unknown or irrelevant: <em>The building was constructed in 1920.</em></p></li>
-      <li><p>The patient is the topic: <em>The proposal—which I discussed earlier—was approved.</em></p></li>
+      <li><p>The agent is unknown or irrelevant: <foreign>The building was constructed in 1920.</foreign></p></li>
+      <li><p>The patient is the topic: <foreign>The proposal—which I discussed earlier—was approved.</foreign></p></li>
       <li><p>Objectivity is expected: Scientific writing often uses passive.</p></li>
-      <li><p>Tact is needed: <em>Your request has been denied.</em> (softer than We denied your request.)</p></li>
+      <li><p>Tact is needed: <foreign>Your request has been denied.</foreign> (softer than <foreign>We denied your request.</foreign>)</p></li>
     </ol>
 
     <paragraphs>
@@ -138,8 +133,8 @@
     <p>Excessive passive creates weak, evasive prose:</p>
 
     <ul>
-      <li><p>~~It was decided that changes would be made.~~</p></li>
-      <li><p>Better: <em>The committee decided to make changes.</em></p></li>
+      <li><p><foreign><delete>It was decided that changes would be made.</delete></foreign></p></li>
+      <li><p>Better: <foreign>The committee decided to make changes.</foreign></p></li>
     </ul>
 
   </section>
@@ -153,27 +148,27 @@
       <title>Given vs. New Information</title>
     </paragraphs>
 
-    <p><em>Given information</em>: What the reader already knows</p>
+    <p><term>Given information</term>: What the reader already knows.</p>
 
-    <p><em>New information</em>: What you're adding</p>
+    <p><term>New information</term>: What you are adding.</p>
 
     <p>Effective prose moves from given to new:</p>
 
     <ul>
-      <li><p>"The proposal was controversial. <em>This controversy</em> led to lengthy debates."</p></li>
+      <li><p><foreign>The proposal was controversial. <em>This controversy</em> led to lengthy debates.</foreign></p></li>
     </ul>
 
-    <p>The second sentence starts with the given information (This controversy) and ends with the new (lengthy debates).</p>
+    <p>The second sentence starts with the given information (<foreign>This controversy</foreign>) and ends with the new (<foreign>lengthy debates</foreign>).</p>
 
     <paragraphs>
       <title>End-Focus</title>
     </paragraphs>
 
-    <p>English naturally emphasizes information at the <em>end</em> of sentences:</p>
+    <p>English naturally emphasizes information at the end of sentences. This principle is called <term>end-focus</term>:</p>
 
     <ul>
-      <li><p>"The winner was <em>Maria</em>." (emphasizes Maria)</p></li>
-      <li><p>Maria was the winner. (emphasizes being the winner)</p></li>
+      <li><p><foreign>The winner was <em>Maria</em>.</foreign> (emphasizes Maria)</p></li>
+      <li><p><foreign>Maria was the winner.</foreign> (emphasizes being the winner)</p></li>
     </ul>
 
     <p>Place your most important information at the end.</p>
@@ -182,14 +177,14 @@
       <title>End-Weight</title>
     </paragraphs>
 
-    <p>English prefers <em>heavy</em> (long, complex) elements at the end:</p>
+    <p>English prefers heavy (long, complex) elements at the end of a sentence. This principle is called <term>end-weight</term>:</p>
 
     <ul>
-      <li><p>Awkward: That she would resign surprised everyone.</p></li>
-      <li><p>Better: "It surprised everyone <em>that she would resign</em>."</p></li>
+      <li><p>Awkward: <foreign>That she would resign surprised everyone.</foreign></p></li>
+      <li><p>Better: <foreign>It surprised everyone <em>that she would resign</em>.</foreign></p></li>
     </ul>
 
-    <p>This is why extraposition exists—to move heavy subjects to the end.</p>
+    <p>This is why <term>extraposition</term> exists—to move heavy subjects to the end.</p>
 
   </section>
 
@@ -204,7 +199,7 @@
 
     <ul>
       <li><p>Sets up what the sentence is about</p></li>
-      <li><p>As for the budget, we need to discuss it.</p></li>
+      <li><p><foreign>As for the budget, we need to discuss it.</foreign></p></li>
     </ul>
 
     <p><em>Sentence-final position</em> (focus position):</p>
@@ -218,12 +213,12 @@
       <title>Cleft Sentences</title>
     </paragraphs>
 
-    <p>Clefts highlight specific elements:</p>
+    <p><term>Cleft sentences</term> highlight specific elements:</p>
 
     <ul>
-      <li><p>Normal: <em>John broke the window.</em></p></li>
-      <li><p>Cleft: It was John who broke the window. (emphasizes John)</p></li>
-      <li><p>Pseudo-cleft: What John broke was the window. (emphasizes window)</p></li>
+      <li><p>Normal: <foreign>John broke the window.</foreign></p></li>
+      <li><p>Cleft: <foreign>It was <em>John</em> who broke the window.</foreign> (emphasizes John)</p></li>
+      <li><p>Pseudo-cleft: <foreign>What John broke was <em>the window</em>.</foreign> (emphasizes the window)</p></li>
     </ul>
 
     <paragraphs>
@@ -233,8 +228,8 @@
     <p>Reversing normal word order creates emphasis:</p>
 
     <ul>
-      <li><p>Normal: <em>The results were more surprising.</em></p></li>
-      <li><p>Inverted: More surprising were the results.</p></li>
+      <li><p>Normal: <foreign>The results were more surprising.</foreign></p></li>
+      <li><p>Inverted: <foreign>More surprising were the results.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -243,7 +238,7 @@
 
     <p>A short sentence after longer ones commands attention:</p>
 
-    <p><em>The committee debated for hours, examining every proposal, questioning every assumption, reconsidering every priority. Then they voted. The answer was no.</em></p>
+    <p><foreign>The committee debated for hours, examining every proposal, questioning every assumption, reconsidering every priority. Then they voted. The answer was no.</foreign></p>
 
   </section>
 
@@ -254,9 +249,9 @@
       <title>When to Coordinate</title>
     </paragraphs>
 
-    <p>Use coordination (and, but, or) when ideas are equally important:</p>
+    <p>Use coordination (<foreign>and, but, or</foreign>) when ideas are equally important:</p>
 
-    <p>"She studied hard, <em>and</em> she passed the exam."</p>
+    <p><foreign>She studied hard, <em>and</em> she passed the exam.</foreign></p>
 
     <p>Coordination suggests balance and equal weight.</p>
 
@@ -264,9 +259,9 @@
       <title>When to Subordinate</title>
     </paragraphs>
 
-    <p>Use subordination (because, although, when) when one idea supports another:</p>
+    <p>Use subordination (<foreign>because, although, when</foreign>) when one idea supports another:</p>
 
-    <p>Because she studied hard, she passed the exam.</p>
+    <p><foreign>Because she studied hard, she passed the exam.</foreign></p>
 
     <p>Subordination highlights the main clause while providing context.</p>
 
@@ -277,8 +272,8 @@
     <p>Compare:</p>
 
     <ul>
-      <li><p>"She was tired, <em>but</em> she continued." (equal weight—both facts matter)</p></li>
-      <li><p>Although she was tired, she continued. (emphasis on continuing)</p></li>
+      <li><p><foreign>She was tired, <em>but</em> she continued.</foreign> (equal weight—both facts matter)</p></li>
+      <li><p><foreign>Although she was tired, she continued.</foreign> (emphasis on continuing)</p></li>
     </ul>
 
     <p>The choice depends on what you want to emphasize.</p>
@@ -292,9 +287,9 @@
       <title>Loose (Cumulative) Sentences</title>
     </paragraphs>
 
-    <p>The main clause comes first, followed by modifying elements:</p>
+    <p>In a <term>loose sentence</term>, the main clause comes first, followed by modifying elements:</p>
 
-    <p>"The ship sailed slowly, <em>rocking gently, its sails catching the wind, the crew relaxing on deck</em>."</p>
+    <p><foreign>The ship sailed slowly, <em>rocking gently, its sails catching the wind, the crew relaxing on deck</em>.</foreign></p>
 
     <p>Loose sentences feel natural and relaxed.</p>
 
@@ -302,9 +297,9 @@
       <title>Periodic Sentences</title>
     </paragraphs>
 
-    <p>Modifying elements come first, delaying the main clause:</p>
+    <p>In a <term>periodic sentence</term>, modifying elements come first, delaying the main clause:</p>
 
-    <p><em><em>Rocking gently, its sails catching the wind, the crew relaxing on deck</em>, the ship sailed slowly.</em></p>
+    <p><foreign><em>Rocking gently, its sails catching the wind, the crew relaxing on deck</em>, the ship sailed slowly.</foreign></p>
 
     <p>Periodic sentences build suspense and create emphasis.</p>
 
@@ -312,114 +307,195 @@
       <title>Balanced Sentences</title>
     </paragraphs>
 
-    <p>Parallel structures create balance:</p>
+    <p>In a <term>balanced sentence</term>, parallel structures create balance:</p>
 
-    <p><em>Ask not what your country can do for you; ask what you can do for your country.</em></p>
+    <p><foreign>Ask not what your country can do for you; ask what you can do for your country.</foreign></p>
 
   </section>
 
-    <section xml:id="ch-17-homework">
+  <section xml:id="ch-17-homework">
     <title>Homework: Stylistic Choices</title>
 
-    <p><em>Instructions:</em> Revise each passage to improve sentence variety and flow.</p>
+    <subsection xml:id="ch-17-homework-part1">
+      <title>Part 1: Sentence Variety</title>
 
-    <p><em>Question 1.</em> Revise this choppy passage by combining sentences and varying length:</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Revise each passage to improve sentence variety and flow.</p>
 
-    <p><em>The meeting started. The CEO spoke. She announced changes. Employees listened. Some were concerned. Others were relieved. The meeting ended.</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><em>Original:</em> <foreign>The dog ran. The dog was fast. The dog caught the ball. The dog was happy.</foreign></p>
+      <p><em>Revised:</em> <foreign>The dog ran fast, catching the ball with ease. Happy with its prize, it trotted back.</foreign></p>
+      <p>The revision combines short, repetitive sentences into varied structures with different lengths and opening patterns.</p>
 
-    <p>Revised:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p><em>Question 2.</em> Revise this passage by breaking up the long sentence and adding variation:</p>
+      <p><em>Exercise 1.</em> Revise this choppy passage by combining sentences and varying length:</p>
+      <p><foreign>The meeting started. The CEO spoke. She announced changes. Employees listened. Some were concerned. Others were relieved. The meeting ended.</foreign></p>
 
-    <p><em>The committee, after reviewing all of the applications that had been submitted by the deadline, which was extended twice due to technical difficulties, finally announced their decision regarding the scholarship recipients, including three students from underrepresented backgrounds.</em></p>
+      <p><em>Exercise 2.</em> Revise this passage by breaking up the long sentence and adding variation:</p>
+      <p><foreign>The committee, after reviewing all of the applications that had been submitted by the deadline, which was extended twice due to technical difficulties, finally announced their decision regarding the scholarship recipients, including three students from underrepresented backgrounds.</foreign></p>
 
-    <p>Revised:</p>
+      <p><em>Exercise 3.</em> Read the following passage and explain the effect of the short final sentence:</p>
+      <p><foreign>The negotiations had gone on for weeks, with both sides presenting detailed proposals, offering compromises, and making concessions that seemed to bring agreement within reach. Then they collapsed.</foreign></p>
+    </subsection>
 
-    <p><em>Instructions:</em> For each context, choose active or passive voice and explain your reasoning.</p>
+    <subsection xml:id="ch-17-homework-part2">
+      <title>Part 2: Active and Passive Voice</title>
 
-    <p><em>Question 3.</em> Context: A lab report describing experimental procedures.</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each context, choose active or passive voice and explain your reasoning.</p>
 
-    <p><em>We heated the solution.</em> OR <em>The solution was heated.</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><em>Context:</em> An email informing a customer about a billing error.</p>
+      <p><em>Active:</em> <foreign>We overcharged your account by $50.</foreign></p>
+      <p><em>Passive:</em> <foreign>Your account was overcharged by $50.</foreign></p>
+      <p><em>Choice:</em> Active voice is better here because it takes responsibility and sounds more direct and honest. The passive version sounds evasive.</p>
 
-    <p>Choice and reasoning:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p><em>Question 4.</em> Context: A news article about corporate accountability.</p>
+      <p><em>Exercise 4.</em> Context: A lab report describing experimental procedures.</p>
+      <p><em>Active:</em> <foreign>We heated the solution to 100°C.</foreign></p>
+      <p><em>Passive:</em> <foreign>The solution was heated to 100°C.</foreign></p>
 
-    <p><em>The company made an error that cost millions.</em> OR <em>An error was made that cost millions.</em></p>
+      <p><em>Exercise 5.</em> Context: A news article about corporate accountability.</p>
+      <p><em>Active:</em> <foreign>The company made an error that cost millions.</foreign></p>
+      <p><em>Passive:</em> <foreign>An error was made that cost millions.</foreign></p>
 
-    <p>Choice and reasoning:</p>
+      <p><em>Exercise 6.</em> Context: A memo where the topic is the project, not the team.</p>
+      <p><em>Active:</em> <foreign>The team completed the project ahead of schedule.</foreign></p>
+      <p><em>Passive:</em> <foreign>The project was completed ahead of schedule.</foreign></p>
 
-    <p><em>Question 5.</em> Context: A memo where the topic is the project, not the team.</p>
+      <p><em>Exercise 7.</em> Revise the following passage to reduce excessive passive voice. Change at least three passive constructions to active voice:</p>
+      <p><foreign>The report was written by the committee. It was reviewed by the director. Changes were suggested by several department heads. The final version was approved by the board.</foreign></p>
+    </subsection>
 
-    <p><em>The team completed the project ahead of schedule.</em> OR <em>The project was completed ahead of schedule.</em></p>
+    <subsection xml:id="ch-17-homework-part3">
+      <title>Part 3: Information Structure</title>
 
-    <p>Choice and reasoning:</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Revise each pair of sentences to improve flow by moving from given to new information.</p>
 
-    <p><em>Instructions:</em> Revise each pair of sentences to improve flow by moving from given to new information.</p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><em>Original:</em> <foreign>A record-breaking heatwave hit the region. This heatwave was caused by a shift in the jet stream.</foreign></p>
+      <p><em>Revised:</em> <foreign>A record-breaking heatwave hit the region. The extreme temperatures were caused by a shift in the jet stream.</foreign></p>
+      <p>The revision starts the second sentence with given information (<foreign>The extreme temperatures</foreign>, referring back to the heatwave) and ends with new information (<foreign>a shift in the jet stream</foreign>).</p>
 
-    <p><em>Question 6.</em> <em>A new policy was announced yesterday. This policy will affect all employees.</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p>Revised:</p>
+      <p><em>Exercise 8.</em> <foreign>A new policy was announced yesterday. This policy will affect all employees.</foreign></p>
 
-    <p><em>Question 7.</em> <em>Serious problems were discovered by the auditors. The company had been hiding these problems for years.</em></p>
+      <p><em>Exercise 9.</em> <foreign>Serious problems were discovered by the auditors. The company had been hiding these problems for years.</foreign></p>
 
-    <p>Revised:</p>
+      <p><em>Exercise 10.</em> Revise the following sentence to use end-focus to emphasize <foreign>Maria</foreign>:</p>
+      <p><foreign>Maria won the scholarship.</foreign></p>
 
-    <p><em>Question 8.</em> Use end-focus to emphasize "Maria" in this sentence:</p>
+      <p><em>Exercise 11.</em> Use extraposition to improve this sentence with a heavy subject:</p>
+      <p><foreign>That the entire infrastructure needed to be rebuilt surprised no one.</foreign></p>
+    </subsection>
 
-    <p><em>The scholarship winner was Maria.</em></p>
+    <subsection xml:id="ch-17-homework-part4">
+      <title>Part 4: Emphasis and Rhetorical Patterns</title>
 
-    <p>Revised (if needed, or explain why it already uses end-focus):</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Identify the sentence pattern and explain its effect.</p>
 
-    <p><em>Instructions:</em> Identify the sentence pattern and explain its effect.</p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><foreign>Not until the final vote was counted did the candidate allow herself to celebrate.</foreign></p>
+      <p><em>Pattern:</em> Periodic sentence (the main clause is delayed until the end).</p>
+      <p><em>Effect:</em> Builds suspense and emphasizes the act of celebrating by making the reader wait for it.</p>
 
-    <p><em>Question 9.</em> <em>The ship sailed slowly, rocking gently on the waves, its sails catching the afternoon light.</em></p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p>Pattern (loose or periodic):</p>
+      <p><em>Exercise 12.</em> Identify the pattern and explain its effect:</p>
+      <p><foreign>The ship sailed slowly, rocking gently on the waves, its sails catching the afternoon light.</foreign></p>
 
-    <p>Effect:</p>
+      <p><em>Exercise 13.</em> Identify the pattern and explain its effect:</p>
+      <p><foreign>Despite the rain, despite the cold, despite everything working against them, they finished the race.</foreign></p>
 
-    <p><em>Question 10.</em> <em>Despite the rain, despite the cold, despite everything working against them, they finished the race.</em></p>
+      <p><em>Exercise 14.</em> Rewrite the following sentence as a cleft sentence to emphasize the underlined element:</p>
+      <p><foreign><em>The treasurer</em> discovered the discrepancy.</foreign></p>
 
-    <p>Pattern:</p>
+      <p><em>Exercise 15.</em> Read the two versions and explain how the choice between coordination and subordination changes the emphasis:</p>
+      <p><em>A:</em> <foreign>The budget was tight, and the team delivered on time.</foreign></p>
+      <p><em>B:</em> <foreign>Although the budget was tight, the team delivered on time.</foreign></p>
+    </subsection>
 
-    <p>Effect:</p>
+    <subsection xml:id="ch-17-homework-part5">
+      <title>Part 5: Application</title>
 
-    <p><em>Question 11.</em> Find a paragraph from something you've written recently (an essay, email, or other document). Revise it by applying at least two techniques from this chapter:</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Apply techniques from this chapter to analyze and revise real writing.</p>
 
-    <ul>
-      <li><p>Varying sentence length</p></li>
-      <li><p>Adjusting active/passive voice</p></li>
-      <li><p>Improving given-to-new flow</p></li>
-      <li><p>Using end-focus for emphasis</p></li>
-    </ul>
-    <p>Original paragraph:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p>Revised paragraph:</p>
+      <p><em>Exercise 16.</em> Find a paragraph from something you have written recently (an essay, email, or other document). Revise it by applying at least two techniques from this chapter:</p>
+      <ul>
+        <li><p>Varying sentence length</p></li>
+        <li><p>Adjusting active/passive voice</p></li>
+        <li><p>Improving given-to-new flow</p></li>
+        <li><p>Using end-focus for emphasis</p></li>
+      </ul>
+      <p>Original paragraph:</p>
+      <p>Revised paragraph:</p>
+      <p>Techniques applied and why:</p>
 
-    <p>Techniques applied and why:</p>
-
-    <p><em>Question 12.</em> The chapter argues that grammar is about <em>choice</em>, not just correctness. In 1-2 paragraphs, reflect: How does this perspective change how you think about your own writing? What stylistic choices have you been making unconsciously that you might now make more deliberately?</p>
-
-    <ul>
-      <li><p>Grammar offers choices; style emerges from those choices.</p></li>
-      <li><p><em>Vary sentence length</em> for rhythm and emphasis.</p></li>
-      <li><p>Choose <em>active voice</em> for directness; <em>passive voice</em> when the agent is less important.</p></li>
-      <li><p>Move from <em>given to new</em> information; place emphasis at sentence end.</p></li>
-      <li><p>Use <em>coordination</em> for equal ideas; <em>subordination</em> to highlight the main idea.</p></li>
-      <li><p>Strategic sentence patterns (loose, periodic, balanced) create rhetorical effects.</p></li>
-    </ul>
+      <p><em>Exercise 17.</em> This chapter argues that grammar is about <em>choice</em>, not just correctness. In one to two paragraphs, reflect: How does this perspective change how you think about your own writing? What stylistic choices have you been making unconsciously that you might now make more deliberately?</p>
+    </subsection>
   </section>
 
   <glossary>
     <title>Glossary</title>
     <gi>
+      <title>Balanced sentence</title>
+      <p>A sentence with parallel structures that create symmetry and rhetorical balance.</p>
+    </gi>
+    <gi>
+      <title>Cleft sentence</title>
+      <p>A sentence restructured to emphasize a particular element, typically using "It was... who/that..." or "What... was..."</p>
+    </gi>
+    <gi>
       <title>End-focus</title>
       <p>The principle that sentence-final position receives emphasis.</p>
     </gi>
     <gi>
+      <title>End-weight</title>
+      <p>The principle that heavy (long, complex) elements are preferred at the end of a sentence.</p>
+    </gi>
+    <gi>
+      <title>Extraposition</title>
+      <p>Moving a heavy subject clause to the end of a sentence, replacing it with "it" as a placeholder subject.</p>
+    </gi>
+    <gi>
       <title>Given information</title>
-      <p>Information the reader already knows.</p>
+      <p>Information the reader already knows from prior context.</p>
     </gi>
     <gi>
       <title>Information structure</title>
@@ -431,11 +507,11 @@
     </gi>
     <gi>
       <title>New information</title>
-      <p>Information being introduced to the reader.</p>
+      <p>Information being introduced to the reader for the first time.</p>
     </gi>
     <gi>
       <title>Periodic sentence</title>
-      <p>A sentence with modifiers first, delaying the main clause.</p>
+      <p>A sentence with modifiers first, delaying the main clause for emphasis or suspense.</p>
     </gi>
     <gi>
       <title>Style</title>
