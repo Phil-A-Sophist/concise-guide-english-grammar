@@ -1,7 +1,7 @@
 # Project Map
 
-Last updated: 2026-02-14
-Task: 24
+Last updated: 2026-02-15
+Task: 26
 
 ## Root Directory
 
@@ -30,8 +30,8 @@ Task: 24
 - `pretext/source/ch-10.ptx` — Chapter 10: Verbs Part One: Tense and Aspect
 - `pretext/source/ch-11.ptx` — Chapter 11: Verbs Part Two: Voice and Modals
 - `pretext/source/ch-12.ptx` — Chapter 12: Adverbials
-- `pretext/source/ch-13.ptx` — Chapter 13: Nominals
-- `pretext/source/ch-14.ptx` — Chapter 14: Adjectivals
+- `pretext/source/ch-13.ptx` — Chapter 13: Adjectivals
+- `pretext/source/ch-14.ptx` — Chapter 14: Nominals
 - `pretext/source/ch-15.ptx` — Chapter 15: Punctuation
 - `pretext/source/ch-16.ptx` — Chapter 16: Other Grammatical Forms
 - `pretext/source/ch-17.ptx` — Chapter 17: Stylistic Choices
