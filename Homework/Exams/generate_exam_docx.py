@@ -118,6 +118,15 @@ def compute_spans(labels):
     return spans
 
 
+def blank_labels(labels):
+    """Convert answer labels to blank labels preserving span structure for pre-merging.
+
+    Non-empty labels become a space (visually blank but truthy for compute_spans),
+    empty strings stay empty to continue the previous span.
+    """
+    return ["" if label == "" else " " for label in labels]
+
+
 def add_labeling_table(doc, words, pos_labels=None, phrase_labels=None, role_labels=None, font_size=10):
     """Add a sentence labeling table with merged cells for Role and Phrase rows.
 
@@ -818,6 +827,8 @@ def create_document(is_answer_key=False):
             add_labeling_table(
                 doc,
                 q["words"],
+                phrase_labels=blank_labels(q["phrases"]),
+                role_labels=blank_labels(q["roles"]),
                 font_size=10,
             )
 

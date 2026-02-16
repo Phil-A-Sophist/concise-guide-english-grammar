@@ -236,12 +236,12 @@ Bracket notation: `[S [NP [DET The] [ADJP [ADJ old]] [N man]] [VP [V sat] [ADVP 
 
 **Question 14:** *The dog barked.*
 
-| | | | |
-|---|---|---|---|
-| **Role** | | | |
-| **Phrase** | | | |
-| **Word** | The | dog | barked |
-| **POS** | | | |
+<table>
+<tr><th>Role</th><td colspan="2"></td><td></td></tr>
+<tr><th>Phrase</th><td colspan="2"></td><td></td></tr>
+<tr><th>Word</th><td>The</td><td>dog</td><td>barked</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -249,12 +249,12 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Question 15:** *The happy children played quietly in the park.*
 
-| | | | | | | | | |
-|---|---|---|---|---|---|---|---|---|
-| **Role** | | | | | | | | |
-| **Phrase** | | | | | | | | |
-| **Word** | The | happy | children | played | quietly | in | the | park |
-| **POS** | | | | | | | | |
+<table>
+<tr><th>Role</th><td colspan="3"></td><td colspan="5"></td></tr>
+<tr><th>Phrase</th><td colspan="3"></td><td></td><td></td><td colspan="3"></td></tr>
+<tr><th>Word</th><td>The</td><td>happy</td><td>children</td><td>played</td><td>quietly</td><td>in</td><td>the</td><td>park</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -262,12 +262,12 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Question 16:** *The teacher from Texas arrived early.*
 
-| | | | | | | |
-|---|---|---|---|---|---|---|
-| **Role** | | | | | | |
-| **Phrase** | | | | | | |
-| **Word** | The | teacher | from | Texas | arrived | early |
-| **POS** | | | | | | |
+<table>
+<tr><th>Role</th><td colspan="4"></td><td colspan="2"></td></tr>
+<tr><th>Phrase</th><td colspan="2"></td><td colspan="2"></td><td></td><td></td></tr>
+<tr><th>Word</th><td>The</td><td>teacher</td><td>from</td><td>Texas</td><td>arrived</td><td>early</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -275,12 +275,12 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Question 17:** *Many talented musicians performed brilliantly during the annual festival.*
 
-| | | | | | | | | | |
-|---|---|---|---|---|---|---|---|---|---|
-| **Role** | | | | | | | | | |
-| **Phrase** | | | | | | | | | |
-| **Word** | Many | talented | musicians | performed | brilliantly | during | the | annual | festival |
-| **POS** | | | | | | | | | |
+<table>
+<tr><th>Role</th><td colspan="3"></td><td colspan="6"></td></tr>
+<tr><th>Phrase</th><td colspan="3"></td><td></td><td></td><td colspan="4"></td></tr>
+<tr><th>Word</th><td>Many</td><td>talented</td><td>musicians</td><td>performed</td><td>brilliantly</td><td>during</td><td>the</td><td>annual</td><td>festival</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -288,12 +288,12 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Question 18:** *The young artist with curly hair painted quite skillfully.*
 
-| | | | | | | | | | |
-|---|---|---|---|---|---|---|---|---|---|
-| **Role** | | | | | | | | | |
-| **Phrase** | | | | | | | | | |
-| **Word** | The | young | artist | with | curly | hair | painted | quite | skillfully |
-| **POS** | | | | | | | | | |
+<table>
+<tr><th>Role</th><td colspan="6"></td><td colspan="3"></td></tr>
+<tr><th>Phrase</th><td colspan="3"></td><td colspan="3"></td><td></td><td colspan="2"></td></tr>
+<tr><th>Word</th><td>The</td><td>young</td><td>artist</td><td>with</td><td>curly</td><td>hair</td><td>painted</td><td>quite</td><td>skillfully</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 

@@ -339,7 +339,7 @@ def create_answer_key(output_path, font_size=12):
     add_answer_table(doc,
         ['Role', 'Subject', 'Predicate'],
         [
-            ['Phrase', 'NP', 'MVP'],
+            ['Phrase', 'NP', 'VP'],
             ['Word', 'Thunder', 'rumbled'],
             ['POS', 'N', 'V'],
         ],
@@ -359,7 +359,7 @@ def create_answer_key(output_path, font_size=12):
     add_answer_table(doc,
         ['Role', 'Subject', '', '', 'Predicate', ''],
         [
-            ['Phrase', 'NP', '', '', 'MVP', 'ADVP'],
+            ['Phrase', 'NP', '', '', 'VP', 'ADVP'],
             ['Word', 'The', 'old', 'man', 'sat', 'quietly'],
             ['POS', 'DET', 'ADJ', 'N', 'V', 'ADV'],
         ],
@@ -379,7 +379,7 @@ def create_answer_key(output_path, font_size=12):
     add_answer_table(doc,
         ['Role', 'Subject', '', 'Predicate', '', ''],
         [
-            ['Phrase', 'NP', '', 'MVP', 'NP', ''],
+            ['Phrase', 'NP', '', 'VP', 'NP', ''],
             ['Word', 'The', 'cat', 'chased', 'the', 'mouse'],
             ['POS', 'DET', 'N', 'V', 'DET', 'N'],
         ],
@@ -417,7 +417,7 @@ def create_answer_key(output_path, font_size=12):
     add_answer_table(doc,
         ['Role', 'Subject', '', 'Predicate', ''],
         [
-            ['Phrase', 'NP', '', 'MVP', 'ADVP'],
+            ['Phrase', 'NP', '', 'VP', 'ADVP'],
             ['Word', 'The', 'dog', 'barked', 'loudly'],
             ['POS', 'DET', 'N', 'V', 'ADV'],
         ],
@@ -447,7 +447,7 @@ def create_answer_key(output_path, font_size=12):
     add_answer_table(doc,
         ['Role', 'Subject', '', '', '', '', 'Predicate', '', ''],
         [
-            ['Phrase', 'NP', '', '', 'PP', '', 'MVP', 'NP', ''],
+            ['Phrase', 'NP', '', '', 'PP', '', 'VP', 'NP', ''],
             ['Word', 'The', 'talented', 'student', 'from', 'Ohio', 'won', 'the', 'award'],
             ['POS', 'DET', 'ADJ', 'N', 'PREP', 'N', 'V', 'DET', 'N'],
         ],
@@ -477,7 +477,7 @@ def create_answer_key(output_path, font_size=12):
     add_answer_table(doc,
         ['Role', 'Subject', 'Predicate', '', '', '', ''],
         [
-            ['Phrase', 'NP', 'ADVP', 'MVP', 'NP', '', ''],
+            ['Phrase', 'NP', 'ADVP', 'VP', 'NP', '', ''],
             ['Word', 'She', 'carefully', 'read', 'the', 'interesting', 'book'],
             ['POS', 'PRON', 'ADV', 'V', 'DET', 'ADJ', 'N'],
         ],

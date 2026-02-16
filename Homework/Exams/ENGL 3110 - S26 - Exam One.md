@@ -389,12 +389,12 @@ Bracket notation: `[S [NP [DET The] [ADJP [ADJ old]] [N man]] [VP [V sat] [ADVP 
 
 **Question 26:** (10 pts) *The cat slept.*
 
-| | | | |
-|---|---|---|---|
-| **Role** | | | |
-| **Phrase** | | | |
-| **Word** | The | cat | slept |
-| **POS** | | | |
+<table>
+<tr><th>Role</th><td colspan="2"></td><td></td></tr>
+<tr><th>Phrase</th><td colspan="2"></td><td></td></tr>
+<tr><th>Word</th><td>The</td><td>cat</td><td>slept</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -402,12 +402,12 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Question 27:** (10 pts) *The cheerful birds sang beautifully in the garden.*
 
-| | | | | | | | | |
-|---|---|---|---|---|---|---|---|---|
-| **Role** | | | | | | | | |
-| **Phrase** | | | | | | | | |
-| **Word** | The | cheerful | birds | sang | beautifully | in | the | garden |
-| **POS** | | | | | | | | |
+<table>
+<tr><th>Role</th><td colspan="3"></td><td colspan="5"></td></tr>
+<tr><th>Phrase</th><td colspan="3"></td><td></td><td></td><td colspan="3"></td></tr>
+<tr><th>Word</th><td>The</td><td>cheerful</td><td>birds</td><td>sang</td><td>beautifully</td><td>in</td><td>the</td><td>garden</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -415,12 +415,12 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Question 28:** (10 pts) *The students from Ohio studied carefully.*
 
-| | | | | | | |
-|---|---|---|---|---|---|---|
-| **Role** | | | | | | |
-| **Phrase** | | | | | | |
-| **Word** | The | students | from | Ohio | studied | carefully |
-| **POS** | | | | | | |
+<table>
+<tr><th>Role</th><td colspan="4"></td><td colspan="2"></td></tr>
+<tr><th>Phrase</th><td colspan="2"></td><td colspan="2"></td><td></td><td></td></tr>
+<tr><th>Word</th><td>The</td><td>students</td><td>from</td><td>Ohio</td><td>studied</td><td>carefully</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -428,12 +428,12 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Question 29:** (10 pts) *Several brave firefighters worked tirelessly during the dangerous storm.*
 
-| | | | | | | | | | |
-|---|---|---|---|---|---|---|---|---|---|
-| **Role** | | | | | | | | | |
-| **Phrase** | | | | | | | | | |
-| **Word** | Several | brave | firefighters | worked | tirelessly | during | the | dangerous | storm |
-| **POS** | | | | | | | | | |
+<table>
+<tr><th>Role</th><td colspan="3"></td><td colspan="6"></td></tr>
+<tr><th>Phrase</th><td colspan="3"></td><td></td><td></td><td colspan="4"></td></tr>
+<tr><th>Word</th><td>Several</td><td>brave</td><td>firefighters</td><td>worked</td><td>tirelessly</td><td>during</td><td>the</td><td>dangerous</td><td>storm</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -441,12 +441,12 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Question 30:** (10 pts) *The tall professor with gray hair spoke very eloquently.*
 
-| | | | | | | | | | |
-|---|---|---|---|---|---|---|---|---|---|
-| **Role** | | | | | | | | | |
-| **Phrase** | | | | | | | | | |
-| **Word** | The | tall | professor | with | gray | hair | spoke | very | eloquently |
-| **POS** | | | | | | | | | |
+<table>
+<tr><th>Role</th><td colspan="6"></td><td colspan="3"></td></tr>
+<tr><th>Phrase</th><td colspan="3"></td><td colspan="3"></td><td></td><td colspan="2"></td></tr>
+<tr><th>Word</th><td>The</td><td>tall</td><td>professor</td><td>with</td><td>gray</td><td>hair</td><td>spoke</td><td>very</td><td>eloquently</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
 
 Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
