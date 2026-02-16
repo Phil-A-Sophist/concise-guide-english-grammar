@@ -5,20 +5,16 @@
 
   <objectives>
     <title>Learning Objectives</title>
+    <introduction>
+      <p><em>Key Terms: ambiguity, pronoun reference, antecedent, dangling modifier, misplaced modifier, squinting modifier, readability, parallel structure, structural ambiguity, faulty parallelism</em></p>
+    </introduction>
     <ul>
       <li><p>Identify and eliminate sources of ambiguity in sentences</p></li>
       <li><p>Use pronouns clearly with identifiable antecedents</p></li>
       <li><p>Control sentence complexity for readability</p></li>
       <li><p>Avoid dangling and misplaced modifiers</p></li>
       <li><p>Choose words precisely for clear communication</p></li>
-      <li><p>Ambiguity</p></li>
-      <li><p>Pronoun reference</p></li>
-      <li><p>Antecedent</p></li>
-      <li><p>Dangling modifier</p></li>
-      <li><p>Misplaced modifier</p></li>
-      <li><p>Readability</p></li>
-      <li><p>Parallel structure</p></li>
-      <li><p>--</p></li>
+      <li><p>Recognize and correct faulty parallelism</p></li>
     </ul>
   </objectives>
 
@@ -41,9 +37,9 @@
     <p>When a pronoun could refer to more than one noun:</p>
 
     <ul>
-      <li><p><em>~~John told Mark that <em>he</em> was promoted.~~</em> (Who was promoted?)</p></li>
-      <li><p>Clear: <em>John told Mark, &quot;I was promoted.&quot;</em></p></li>
-      <li><p>Clear: "John congratulated Mark on <em>Mark's</em> promotion."</p></li>
+      <li><p><foreign><delete>John told Mark that <em>he</em> was promoted.</delete></foreign> (Who was promoted?)</p></li>
+      <li><p>Clear: <foreign>John told Mark, <q>I was promoted.</q></foreign></p></li>
+      <li><p>Clear: <foreign>John congratulated Mark on <em>Mark's</em> promotion.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -53,27 +49,27 @@
     <p>When the pronoun has no clear antecedent:</p>
 
     <ul>
-      <li><p><em>~~<em>They</em> say it will rain.~~</em> (Who are &quot;they&quot;?)</p></li>
-      <li><p>Clear: <em>Weather forecasters predict rain.</em></p></li>
+      <li><p><foreign><delete><em>They</em> say it will rain.</delete></foreign> (Who are <q><foreign>they</foreign></q>?)</p></li>
+      <li><p>Clear: <foreign>Weather forecasters predict rain.</foreign></p></li>
     </ul>
 
     <ul>
-      <li><p><em>~~<em>It</em> says in the article that...~~</em></p></li>
-      <li><p>Clear: <em>The article states that...</em></p></li>
+      <li><p><foreign><delete><em>It</em> says in the article that...</delete></foreign></p></li>
+      <li><p>Clear: <foreign>The article states that...</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Broad Reference</title>
     </paragraphs>
 
-    <p>When this, that, which, or <em>it</em> refers to a whole clause rather than a specific noun:</p>
+    <p>When <foreign>this</foreign>, <foreign>that</foreign>, <foreign>which</foreign>, or <foreign>it</foreign> refers to a whole clause rather than a specific noun:</p>
 
     <ul>
-      <li><p><em>~~She arrived late, which upset everyone.~~</em> (What does &quot;which&quot; refer to?)</p></li>
-      <li><p>Clear: <em>Her late arrival upset everyone.</em></p></li>
+      <li><p><foreign><delete>She arrived late, which upset everyone.</delete></foreign> (What does <q><foreign>which</foreign></q> refer to?)</p></li>
+      <li><p>Clear: <foreign>Her late arrival upset everyone.</foreign></p></li>
     </ul>
 
-    <p><em>Tip</em>: After writing <em>this</em> or <em>which</em>, ask: &quot;This/which <em>what</em>?&quot;</p>
+    <p><em>Tip:</em> After writing <foreign>this</foreign> or <foreign>which</foreign>, ask: <q>This/which <em>what</em>?</q></p>
 
   </section>
 
@@ -86,63 +82,63 @@
       <title>Misplaced Modifiers</title>
     </paragraphs>
 
-    <p>A modifier in the wrong position can create confusion or unintended meanings:</p>
+    <p>A <term>misplaced modifier</term> is in the wrong position, creating confusion or unintended meanings:</p>
 
     <ul>
-      <li><p><em>~~She almost drove <em>her car</em> into every pothole.~~</em> (Did she almost drive, or almost every pothole?)</p></li>
-      <li><p>Clear: "She drove her car into <em>almost every</em> pothole."</p></li>
+      <li><p><foreign><delete>She almost drove her car into every pothole.</delete></foreign> (Did she almost drive, or almost every pothole?)</p></li>
+      <li><p>Clear: <foreign>She drove her car into <em>almost every</em> pothole.</foreign></p></li>
     </ul>
 
     <ul>
-      <li><p><em>~~I only eat <em>vegetables</em>.~~</em> (Only I eat them? I do nothing but eat them?)</p></li>
-      <li><p>Clear: "I eat <em>only vegetables</em>."</p></li>
+      <li><p><foreign><delete>I only eat vegetables.</delete></foreign> (Only I eat them? I do nothing but eat them?)</p></li>
+      <li><p>Clear: <foreign>I eat <em>only vegetables</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Squinting Modifiers</title>
     </paragraphs>
 
-    <p>A modifier positioned ambiguously between two elements:</p>
+    <p>A <term>squinting modifier</term> is positioned ambiguously between two elements:</p>
 
     <ul>
-      <li><p><em>~~Students who study <em>often</em> succeed.~~</em> (Do they study often, or often succeed?)</p></li>
-      <li><p>Clear: "Students who <em>often study</em> succeed."</p></li>
-      <li><p>Clear: "Students who study succeed <em>often</em>."</p></li>
+      <li><p><foreign><delete>Students who study <em>often</em> succeed.</delete></foreign> (Do they study often, or often succeed?)</p></li>
+      <li><p>Clear: <foreign>Students who <em>often study</em> succeed.</foreign></p></li>
+      <li><p>Clear: <foreign>Students who study succeed <em>often</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Dangling Modifiers</title>
     </paragraphs>
 
-    <p>A modifier that doesn't logically connect to any element in the sentence:</p>
+    <p>A <term>dangling modifier</term> doesn't logically connect to any element in the sentence:</p>
 
     <ul>
-      <li><p><em>~~<em>Walking down the street</em>, the trees were beautiful.~~</em> (Trees weren't walking)</p></li>
-      <li><p>Clear: <em><em>Walking down the street</em>, I noticed the beautiful trees.</em></p></li>
+      <li><p><foreign><delete><em>Walking down the street</em>, the trees were beautiful.</delete></foreign> (Trees weren't walking)</p></li>
+      <li><p>Clear: <foreign><em>Walking down the street</em>, I noticed the beautiful trees.</foreign></p></li>
     </ul>
 
     <ul>
-      <li><p><em>~~<em>To improve results</em>, the experiment was redesigned.~~</em> (Experiment didn't improve results)</p></li>
-      <li><p>Clear: <em><em>To improve results</em>, researchers redesigned the experiment.</em></p></li>
+      <li><p><foreign><delete><em>To improve results</em>, the experiment was redesigned.</delete></foreign> (Experiment didn't improve results)</p></li>
+      <li><p>Clear: <foreign><em>To improve results</em>, researchers redesigned the experiment.</foreign></p></li>
     </ul>
 
-    <p><em>The fix</em>: Ensure the modifier's implied subject matches the sentence's actual subject.</p>
+    <p><em>The fix:</em> Ensure the modifier's implied subject matches the sentence's actual subject.</p>
 
   </section>
 
   <section xml:id="ch-18-clarity-and-readability-sec-184">
     <title>Structural Ambiguity</title>
 
-    <p>Some sentences are grammatically correct but structurally ambiguous.</p>
+    <p>Some sentences are grammatically correct but structurally ambiguous. <term>Structural ambiguity</term> occurs when a sentence can be parsed in more than one way.</p>
 
     <paragraphs>
       <title>PP Attachment</title>
     </paragraphs>
 
     <ul>
-      <li><p><em>I saw the man with binoculars.</em> (Who had the binoculars?)</p></li>
-      <li><p>Clear: <em>Using binoculars, I saw the man.</em></p></li>
-      <li><p>Clear: <em>I saw the man who had binoculars.</em></p></li>
+      <li><p><foreign>I saw the man with binoculars.</foreign> (Who had the binoculars?)</p></li>
+      <li><p>Clear: <foreign>Using binoculars, I saw the man.</foreign></p></li>
+      <li><p>Clear: <foreign>I saw the man who had binoculars.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -150,9 +146,9 @@
     </paragraphs>
 
     <ul>
-      <li><p><em>Old men and women gathered.</em> (Are the women old too?)</p></li>
-      <li><p>Clear: <em>Old men and old women gathered.</em></p></li>
-      <li><p>Clear: <em>Women and old men gathered.</em></p></li>
+      <li><p><foreign>Old men and women gathered.</foreign> (Are the women old too?)</p></li>
+      <li><p>Clear: <foreign>Old men and old women gathered.</foreign></p></li>
+      <li><p>Clear: <foreign>Women and old men gathered.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -160,9 +156,9 @@
     </paragraphs>
 
     <ul>
-      <li><p><em>The senator's daughter who was at the party left early.</em> (Was the senator or the daughter at the party?)</p></li>
-      <li><p>Clear: <em>The senator's daughter, who was at the party, left early.</em> (daughter at party)</p></li>
-      <li><p>Clear: <em>The daughter of the senator who was at the party left early.</em> (senator at party)</p></li>
+      <li><p><foreign>The senator's daughter who was at the party left early.</foreign> (Was the senator or the daughter at the party?)</p></li>
+      <li><p>Clear: <foreign>The senator's daughter, who was at the party, left early.</foreign> (daughter at party)</p></li>
+      <li><p>Clear: <foreign>The daughter of the senator who was at the party left early.</foreign> (senator at party)</p></li>
     </ul>
 
   </section>
@@ -170,7 +166,7 @@
   <section xml:id="ch-18-clarity-and-readability-sec-185">
     <title>Sentence Complexity</title>
 
-    <p>Overly complex sentences impair readability.</p>
+    <p>Overly complex sentences impair <term>readability</term>.</p>
 
     <paragraphs>
       <title>Sentence Length</title>
@@ -179,11 +175,11 @@
     <p>Very long sentences strain working memory. When sentences exceed 25-30 words, consider dividing them:</p>
 
     <ul>
-      <li><p>~~The committee, which was established by the board last year to investigate the issues raised by employees concerning workplace conditions, submitted its final report, which contained numerous recommendations for improvement, yesterday.~~</p></li>
+      <li><p><foreign><delete>The committee, which was established by the board last year to investigate the issues raised by employees concerning workplace conditions, submitted its final report, which contained numerous recommendations for improvement, yesterday.</delete></foreign></p></li>
     </ul>
 
     <ul>
-      <li><p>Clear: <em>The committee submitted its final report yesterday. The board had established the committee last year to investigate employee concerns about workplace conditions. The report contained numerous recommendations for improvement.</em></p></li>
+      <li><p>Clear: <foreign>The committee submitted its final report yesterday. The board had established the committee last year to investigate employee concerns about workplace conditions. The report contained numerous recommendations for improvement.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -193,11 +189,11 @@
     <p>Multiple embeddings create difficulty:</p>
 
     <ul>
-      <li><p>~~The book that the professor who teaches the course that I'm taking recommended was unavailable.~~</p></li>
+      <li><p><foreign><delete>The book that the professor who teaches the course that I'm taking recommended was unavailable.</delete></foreign></p></li>
     </ul>
 
     <ul>
-      <li><p>Clear: <em>I'm taking a course. The professor who teaches it recommended a book, but the book was unavailable.</em></p></li>
+      <li><p>Clear: <foreign>I'm taking a course. The professor who teaches it recommended a book, but the book was unavailable.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -211,36 +207,36 @@
   <section xml:id="ch-18-clarity-and-readability-sec-186">
     <title>Parallel Structure</title>
 
-    <p>Coordinated elements should be grammatically parallel.</p>
+    <p>Coordinated elements should be grammatically parallel. <term>Faulty parallelism</term> occurs when coordinated items are not in the same grammatical form.</p>
 
     <paragraphs>
       <title>Faulty Parallelism</title>
     </paragraphs>
 
     <ul>
-      <li><p><em>~~She likes <em>swimming</em>, <em>hiking</em>, and <em>to ride bikes</em>.~~</em></p></li>
-      <li><p>Clear: <em>She likes <em>swimming</em>, <em>hiking</em>, and <em>biking</em>.</em></p></li>
+      <li><p><foreign><delete>She likes <em>swimming</em>, <em>hiking</em>, and <em>to ride bikes</em>.</delete></foreign></p></li>
+      <li><p>Clear: <foreign>She likes <em>swimming</em>, <em>hiking</em>, and <em>biking</em>.</foreign></p></li>
     </ul>
 
     <ul>
-      <li><p><em>~~The proposal is <em>interesting</em>, <em>innovative</em>, and <em>has potential</em>.~~</em></p></li>
-      <li><p>Clear: <em>The proposal is <em>interesting</em>, <em>innovative</em>, and <em>promising</em>.</em></p></li>
+      <li><p><foreign><delete>The proposal is <em>interesting</em>, <em>innovative</em>, and <em>has potential</em>.</delete></foreign></p></li>
+      <li><p>Clear: <foreign>The proposal is <em>interesting</em>, <em>innovative</em>, and <em>promising</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>With Correlative Conjunctions</title>
     </paragraphs>
 
-    <p>Parallelism is especially important with correlative conjunctions (both...and, either...or, not only...but also):</p>
+    <p><term>Parallel structure</term> is especially important with correlative conjunctions (<foreign>both...and</foreign>, <foreign>either...or</foreign>, <foreign>not only...but also</foreign>):</p>
 
     <ul>
-      <li><p><em>~~She <em>not only</em> plays piano <em>but also</em> she sings.~~</em></p></li>
-      <li><p>Clear: <em>She <em>not only</em> plays piano <em>but also</em> sings.</em></p></li>
+      <li><p><foreign><delete>She <em>not only</em> plays piano <em>but also</em> she sings.</delete></foreign></p></li>
+      <li><p>Clear: <foreign>She <em>not only</em> plays piano <em>but also</em> sings.</foreign></p></li>
     </ul>
 
     <ul>
-      <li><p><em>~~<em>Either</em> you leave now <em>or</em> staying late.~~</em></p></li>
-      <li><p>Clear: <em><em>Either</em> you leave now <em>or</em> you stay late.</em></p></li>
+      <li><p><foreign><delete><em>Either</em> you leave now <em>or</em> staying late.</delete></foreign></p></li>
+      <li><p>Clear: <foreign><em>Either</em> you leave now <em>or</em> you stay late.</foreign></p></li>
     </ul>
 
   </section>
@@ -255,8 +251,8 @@
     <p>Choose words that say exactly what you mean:</p>
 
     <ul>
-      <li><p>Vague: "The results were <em>interesting</em>."</p></li>
-      <li><p>Precise: <em>The results were <em>surprising</em> / <em>encouraging</em> / <em>contradictory</em>.</em></p></li>
+      <li><p>Vague: <foreign>The results were <em>interesting</em>.</foreign></p></li>
+      <li><p>Precise: <foreign>The results were <em>surprising</em> / <em>encouraging</em> / <em>contradictory</em>.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -266,8 +262,8 @@
     <p>Technical terms are appropriate for technical audiences. For general audiences, use plain language:</p>
 
     <ul>
-      <li><p>Jargon: <em>The initiative was <em>impacted</em> by <em>bandwidth</em> constraints.</em></p></li>
-      <li><p>Plain: <em>The project was delayed because staff were too busy.</em></p></li>
+      <li><p>Jargon: <foreign>The initiative was <em>impacted</em> by <em>bandwidth</em> constraints.</foreign></p></li>
+      <li><p>Plain: <foreign>The project was delayed because staff were too busy.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -277,142 +273,162 @@
     <p>Concrete language is clearer than abstract language:</p>
 
     <ul>
-      <li><p>Abstract: <em>Improvements were made in the area of employee satisfaction.</em></p></li>
-      <li><p>Concrete: <em>More employees reported being satisfied with their jobs.</em></p></li>
+      <li><p>Abstract: <foreign>Improvements were made in the area of employee satisfaction.</foreign></p></li>
+      <li><p>Concrete: <foreign>More employees reported being satisfied with their jobs.</foreign></p></li>
     </ul>
 
   </section>
 
-    <section xml:id="ch-18-homework">
+  <section xml:id="ch-18-homework">
     <title>Homework: Clarity and Readability</title>
 
-    <p><em>Instructions:</em> Revise each sentence to clarify pronoun reference. Explain what was unclear in the original.</p>
+    <subsection xml:id="ch-18-homework-part1">
+      <title>Pronoun Reference</title>
 
-    <p><em>Question 1.</em> <em>When John met Mark, he was surprised.</em></p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Each sentence has a pronoun reference problem (ambiguous, vague, or broad). Identify the problem and revise the sentence for clarity.</p>
 
-    <p>Problem:</p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><foreign>Maria told Sofia that she had won the award.</foreign></p>
+      <p><em>Problem:</em> Ambiguous reference — <foreign>she</foreign> could refer to either Maria or Sofia.</p>
+      <p><em>Revised:</em> <foreign>Maria told Sofia, <q>You won the award.</q></foreign></p>
 
-    <p>Revised:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p><em>Question 2.</em> <em>They say the economy is improving.</em></p>
+      <p><em>Exercise 1.</em> <foreign>When John met Mark, he was surprised.</foreign></p>
 
-    <p>Problem:</p>
+      <p><em>Exercise 2.</em> <foreign>They say the economy is improving.</foreign></p>
 
-    <p>Revised:</p>
+      <p><em>Exercise 3.</em> <foreign>She failed the test, which disappointed her parents.</foreign></p>
 
-    <p><em>Question 3.</em> <em>She failed the test, which disappointed her parents.</em></p>
+      <p><em>Exercise 4.</em> <foreign>The committee reviewed the proposal and rejected it. This caused problems.</foreign></p>
 
-    <p>Problem:</p>
+      <p><em>Exercise 5.</em> <foreign>The teacher told the student that her presentation needed work.</foreign></p>
+    </subsection>
 
-    <p>Revised:</p>
+    <subsection xml:id="ch-18-homework-part2">
+      <title>Modifier Placement</title>
 
-    <p><em>Question 4.</em> <em>The committee reviewed the proposal and rejected it. This caused problems.</em></p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Each sentence has a modifier error. Identify the error type (dangling, misplaced, or squinting) and revise the sentence.</p>
 
-    <p>Problem:</p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><foreign>Running through the park, the rain started.</foreign></p>
+      <p><em>Error type:</em> Dangling modifier — the rain was not running through the park.</p>
+      <p><em>Revised:</em> <foreign>Running through the park, I got caught in the rain.</foreign></p>
 
-    <p>Revised:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p><em>Instructions:</em> Identify the modifier error (dangling, misplaced, or squinting) and revise the sentence.</p>
+      <p><em>Exercise 6.</em> <foreign>Having finished dinner, the movie was started.</foreign></p>
 
-    <p><em>Question 5.</em> <em>Having finished dinner, the movie was started.</em></p>
+      <p><em>Exercise 7.</em> <foreign>She almost failed every exam.</foreign></p>
 
-    <p>Error type:</p>
+      <p><em>Exercise 8.</em> <foreign>Students who cheat often get caught.</foreign> (This is a squinting modifier. Revise to clarify both possible meanings.)</p>
 
-    <p>Revised:</p>
+      <p><em>Exercise 9.</em> <foreign>To earn a good grade, the assignment must be completed carefully.</foreign></p>
 
-    <p><em>Question 6.</em> <em>She almost failed every exam.</em></p>
+      <p><em>Exercise 10.</em> <foreign>He only eats organic food on weekdays.</foreign></p>
+    </subsection>
 
-    <p>Error type:</p>
+    <subsection xml:id="ch-18-homework-part3">
+      <title>Structural Ambiguity</title>
 
-    <p>Revised:</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Each sentence is structurally ambiguous. Explain both possible meanings and rewrite the sentence two ways to show each meaning clearly.</p>
 
-    <p><em>Question 7.</em> <em>Students who cheat often get caught.</em></p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><foreign>I saw the man with binoculars.</foreign></p>
+      <p><em>Meaning 1:</em> I used binoculars to see the man. (PP <foreign>with binoculars</foreign> modifies VP)</p>
+      <p><em>Revised:</em> <foreign>Using binoculars, I saw the man.</foreign></p>
+      <p><em>Meaning 2:</em> The man had binoculars. (PP <foreign>with binoculars</foreign> modifies NP)</p>
+      <p><em>Revised:</em> <foreign>I saw the man who had binoculars.</foreign></p>
 
-    <p>Error type:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p>Revised (to clarify both possible meanings):</p>
+      <p><em>Exercise 11.</em> <foreign>I photographed the elephant with a camera.</foreign></p>
 
-    <p>a) Meaning 1:</p>
+      <p><em>Exercise 12.</em> <foreign>Bright students and teachers attended the workshop.</foreign></p>
 
-    <p>b) Meaning 2:</p>
+      <p><em>Exercise 13.</em> <foreign>The professor's assistant who was sick left early.</foreign></p>
 
-    <p><em>Instructions:</em> Each sentence is ambiguous. Rewrite it two ways to show both possible meanings.</p>
+      <p><em>Exercise 14.</em> <foreign>She watched the children playing in the park.</foreign></p>
+    </subsection>
 
-    <p><em>Question 8.</em> <em>I photographed the elephant with a camera.</em></p>
+    <subsection xml:id="ch-18-homework-part4">
+      <title>Parallel Structure and Sentence Complexity</title>
 
-    <p>Meaning 1:</p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For Exercises 15–17, correct the parallelism error. For Exercises 18–19, simplify the overly complex sentence into two or more clear sentences.</p>
 
-    <p>Revised:</p>
+      <paragraphs>
+        <title>Example (completed)</title>
+      </paragraphs>
+      <p><em>Parallelism:</em> <foreign><delete>The plan is simple, effective, and it costs little.</delete></foreign></p>
+      <p><em>Revised:</em> <foreign>The plan is simple, effective, and inexpensive.</foreign></p>
+      <p>The coordinated adjectives (<foreign>simple</foreign>, <foreign>effective</foreign>, <foreign>inexpensive</foreign>) are now all the same form.</p>
 
-    <p>Meaning 2:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p>Revised:</p>
+      <p><em>Exercise 15.</em> Correct the parallelism error: <foreign>She enjoys reading, writing, and to paint.</foreign></p>
 
-    <p><em>Question 9.</em> <em>Bright students and teachers attended the workshop.</em></p>
+      <p><em>Exercise 16.</em> Correct the parallelism error: <foreign>The job requires experience, dedication, and being creative.</foreign></p>
 
-    <p>Meaning 1:</p>
+      <p><em>Exercise 17.</em> Correct the parallelism error: <foreign>He not only finished the report but also he proofread the entire document.</foreign></p>
 
-    <p>Revised:</p>
+      <p><em>Exercise 18.</em> Simplify: <foreign>The report, which was commissioned by the board that was established last year to oversee operations, contains recommendations that, if implemented, would significantly improve efficiency.</foreign></p>
 
-    <p>Meaning 2:</p>
+      <p><em>Exercise 19.</em> Simplify: <foreign>The student, who had already completed the assignment that the professor assigned last week during the lecture that was held in the auditorium, submitted it early.</foreign></p>
+    </subsection>
 
-    <p>Revised:</p>
+    <subsection xml:id="ch-18-homework-part5">
+      <title>Comprehensive Revision</title>
 
-    <p><em>Question 10.</em> <em>The professor's assistant who was sick left early.</em></p>
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>The following paragraph has multiple clarity problems. Revise it for clarity and list at least four specific issues you fixed (pronoun reference, modifier placement, structural ambiguity, parallel structure, or excessive complexity).</p>
 
-    <p>Meaning 1:</p>
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
 
-    <p>Revised:</p>
+      <p><em>Exercise 20.</em> Revise the following paragraph and list four issues you fixed:</p>
+      <p><foreign>Walking into the meeting, the tension was immediately apparent. The manager told the employees that they needed to improve. This led to frustration. The proposal was not only expensive but also it would take years to implement. Having reviewed all options carefully, the decision was made to wait. They say that patience is a virtue, which everyone understood.</foreign></p>
+    </subsection>
+  </section>
 
-    <p>Meaning 2:</p>
-
-    <p>Revised:</p>
-
-    <p><em>Instructions:</em> Correct each sentence.</p>
-
-    <p><em>Question 11.</em> Correct the parallelism error:</p>
-
-    <p><em>The plan is simple, effective, and it costs little.</em></p>
-
-    <p>Revised:</p>
-
-    <p><em>Question 12.</em> Correct the parallelism error:</p>
-
-    <p><em>She enjoys reading, writing, and to paint.</em></p>
-
-    <p>Revised:</p>
-
-    <p><em>Question 13.</em> Simplify this overly complex sentence:</p>
-
-    <p><em>The report, which was commissioned by the board that was established last year to oversee operations, contains recommendations that, if implemented, would significantly improve efficiency.</em></p>
-
-    <p>Revised:</p>
-
-    <p><em>Instructions:</em> The following paragraph has multiple clarity problems. Identify and fix at least four issues (pronoun reference, modifier placement, structural ambiguity, parallel structure, or excessive complexity).</p>
-
-    <p><em>14.</em></p>
-
-    <p><em>Walking into the meeting, the tension was immediately apparent. The manager told the employees that they needed to improve. This led to frustration. The proposal was not only expensive but also it would take years to implement. Having reviewed all options carefully, the decision was made to wait. They say that patience is a virtue, which everyone understood.</em></p>
-
-    <p>Revised paragraph:</p>
-
-    <p>List the four issues you fixed:</p>
-
-    <p>1.</p>
-
-    <p>2.</p>
-
-    <p>3.</p>
-
-    <p>4.</p>
+  <section xml:id="ch-18-summary">
+    <title>Chapter Summary</title>
 
     <ul>
-      <li><p>Clear writing requires <em>clear pronoun reference</em> with identifiable antecedents.</p></li>
-      <li><p><em>Modifier placement</em> affects meaning; misplaced and dangling modifiers create confusion.</p></li>
-      <li><p><em>Structural ambiguity</em> arises from multiple possible interpretations; revise for clarity.</p></li>
-      <li><p><em>Sentence complexity</em> should match content and audience.</p></li>
-      <li><p><em>Parallel structure</em> in coordinated elements aids comprehension.</p></li>
-      <li><p><em>Precise word choice</em> communicates meaning effectively.</p></li>
+      <li><p>Clear writing requires <term>clear pronoun reference</term> with identifiable antecedents.</p></li>
+      <li><p><term>Modifier placement</term> affects meaning; misplaced and dangling modifiers create confusion.</p></li>
+      <li><p><term>Structural ambiguity</term> arises from multiple possible interpretations; revise for clarity.</p></li>
+      <li><p><term>Sentence complexity</term> should match content and audience.</p></li>
+      <li><p><term>Parallel structure</term> in coordinated elements aids comprehension.</p></li>
+      <li><p><term>Precise word choice</term> communicates meaning effectively.</p></li>
     </ul>
   </section>
 
@@ -429,6 +445,10 @@
     <gi>
       <title>Dangling modifier</title>
       <p>A modifier that doesn't logically connect to any element in the sentence.</p>
+    </gi>
+    <gi>
+      <title>Faulty parallelism</title>
+      <p>A coordination error where joined elements are not in the same grammatical form.</p>
     </gi>
     <gi>
       <title>Misplaced modifier</title>
@@ -448,7 +468,11 @@
     </gi>
     <gi>
       <title>Squinting modifier</title>
-      <p>A modifier ambiguously positioned between two elements.</p>
+      <p>A modifier ambiguously positioned between two elements it could modify.</p>
+    </gi>
+    <gi>
+      <title>Structural ambiguity</title>
+      <p>When a sentence's grammatical structure allows more than one interpretation.</p>
     </gi>
   </glossary>
 
