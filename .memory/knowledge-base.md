@@ -127,4 +127,44 @@ Last updated: 2026-02-15 (Task 35)
 
 **Context:** The .docx generation scripts contain all question data inline (not read from Markdown) so they can be run independently. Diagram widths are tuned per sentence complexity (3.5-6.0 inches).
 
+## MVP Removal (Completed)
+
+**Status:** DONE (commits b819566, 6397474).
+
+MVP (Main Verb Phrase) terminology was removed from all sources:
+- `ch-07.ptx`: Key terms, section title, definition paragraph, step instructions, worked examples, all table cells (MVP→VP), glossary entry
+- `ch-08.ptx`: No MVP references found
+- 6 Homework/Exams files: abbreviation key tables, notes text, HTML table cells, Python data arrays
+- `generate_ch07_answer_key.py`: All table data MVP→VP
+
+## Sentence Labeling Table Styling
+
+**Current approach:** All sentence labeling tables use visible borders and left-aligned first column (row headers), center-aligned data columns.
+
+**PreTeXt pattern:**
+```xml
+<tabular top="minor" left="minor">
+  <col halign="left" right="minor"/>
+  <col halign="center" right="minor"/>
+  <!-- ...one <col> per column... -->
+  <row header="yes" bottom="minor">...</row>
+  <row bottom="minor">...</row>
+</tabular>
+```
+
+**Word docs:** `Table Grid` style provides borders. First-column cells use `WD_ALIGN_PARAGRAPH.LEFT`, rest use `CENTER`.
+
+**Pre-merging student tables:** Student homework/exam tables have Role and Phrase rows pre-merged with `colspan` to match the expected answer structure, even though the cells are blank. This shows students the grouping without giving away the labels. In Python generators, `blank_labels()` converts answer arrays like `["Subject", "", "Predicate"]` → `[" ", "", " "]` preserving span structure for `compute_spans()`.
+
+## Ch7 Homework Structure (14 Exercises)
+
+**Current structure (after Exercise 15 removal):**
+- Part 1 (Ex 1-3): Subject and Predicate Identification
+- Part 2 (Ex 4-6): Heads and Modifiers
+- Part 3 (Ex 7-9): Completing Sentence Tables (pre-merged blanks)
+- Part 4 (Ex 10-12): Completing Diagrams and Tables (free-form)
+- Part 5 (Ex 13-14): Structural Ambiguity Analysis
+  - Ex 13: Groucho Marx joke (full joke with punchline; diagrams for first sentence only)
+  - Ex 14: Garden-path sentence with two diagram prompts (garden-path reading + correct reading); no "reduced relative clause" language — uses "VP modifying horse" instead
+
 ## Archived
