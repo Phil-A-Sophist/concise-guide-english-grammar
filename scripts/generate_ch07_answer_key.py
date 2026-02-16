@@ -647,8 +647,8 @@ def create_answer_key(output_path, font_size=12):
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.7)
     run = p.add_run(
-        'In the correct reading, "raced past the barn" is a reduced relative clause inside the '
-        'subject NP (modifying "horse"), and "fell" is the main verb of the sentence.'
+        'In the correct reading, "raced past the barn" is a VP inside the '
+        'subject NP (modifying "horse"), and "fell" is the main verb in the predicate.'
     )
     run.font.size = Pt(font_size)
 
