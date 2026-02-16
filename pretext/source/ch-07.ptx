@@ -16,7 +16,7 @@
     </ul>
   </objectives>
 
-  <p><em>Key Terms: tree diagram, node, constituent, head, modifier, object, complement, dominance, structural ambiguity, sentence labeling table, Subject, Predicate, MVP (Main Verb Phrase), S → NP + VP, top-down analysis, bottom-up analysis</em></p>
+  <p><em>Key Terms: tree diagram, node, constituent, head, modifier, object, complement, dominance, structural ambiguity, sentence labeling table, Subject, Predicate, S → NP + VP, top-down analysis, bottom-up analysis</em></p>
 
   <section xml:id="ch-07-introduction-to-sentence-diagramming-sec-71">
     <title>Why Diagram Sentences?</title>
@@ -487,7 +487,7 @@
 
     <ol>
       <li><p><em>Role</em> (top row): The grammatical function of a word or group of words in the sentence.</p></li>
-      <li><p><em>Phrase</em>: The phrase type that the word belongs to (NP, MVP, PP, ADJP, ADVP).</p></li>
+      <li><p><em>Phrase</em>: The phrase type that the word belongs to (NP, VP, PP, ADJP, ADVP).</p></li>
       <li><p><em>Word</em>: The actual words of the sentence, one per column.</p></li>
       <li><p><em>Part of Speech</em> (bottom row): The word-level category (N, V, DET, ADJ, ADV, PREP, etc.).</p></li>
     </ol>
@@ -495,14 +495,12 @@
     <p>Each column represents one word. When a role or phrase spans multiple words, the label appears in the first column of that group, and the remaining columns in the group are left empty.</p>
 
     <paragraphs>
-      <title>Introducing Roles and the MVP</title>
+      <title>Introducing Roles</title>
     </paragraphs>
 
     <p>For now, we introduce only two roles: <em>Subject</em> and <em>Predicate</em>. The Subject is the NP daughter of S—the noun phrase that tells us who or what the sentence is about. The Predicate is the verb phrase that tells us what the subject does or is.</p>
 
-    <p>In the Phrase row, we use a special label for the predicate: <em>MVP</em> (Main Verb Phrase). The MVP consists of only the main verb (and, in later chapters, any auxiliaries or modals). It does <em>not</em> include objects, complements, or adverbials—even though the full VP in a tree diagram does. Think of the MVP as the core of the predicate.</p>
-
-    <p>Later chapters will introduce additional roles such as Direct Object, Indirect Object, Subject Complement, and Adverbial.</p>
+    <p>In the Phrase row, the verb that anchors the predicate is labeled <em>VP</em>. In the table, the VP label applies to just the main verb itself—it does not span objects, complements, or adverbials the way the VP node does in a tree diagram. Later chapters will introduce additional roles such as Direct Object, Indirect Object, Subject Complement, and Adverbial.</p>
 
     <paragraphs>
       <title>How to Complete a Table</title>
@@ -512,7 +510,7 @@
 
     <ol>
       <li><p><em>Step 1—Part of Speech</em>: Identify the part of speech for each word (N, V, DET, ADJ, ADV, PREP, etc.).</p></li>
-      <li><p><em>Step 2—Phrase</em>: Group words into phrases and label each phrase type (NP, MVP, PP, ADJP, ADVP).</p></li>
+      <li><p><em>Step 2—Phrase</em>: Group words into phrases and label each phrase type (NP, VP, PP, ADJP, ADVP).</p></li>
       <li><p><em>Step 3—Role</em>: Assign grammatical roles to the phrases (Subject, Predicate).</p></li>
     </ol>
 
@@ -524,30 +522,34 @@
 
     <p><em>Step 1—Part of Speech</em>: <q><foreign>The</foreign></q> is a DET, <q><foreign>dog</foreign></q> is a N, <q><foreign>barked</foreign></q> is a V.</p>
 
-    <p><em>Step 2—Phrase</em>: <q><foreign>The dog</foreign></q> forms an NP. <q><foreign>Barked</foreign></q> is the MVP.</p>
+    <p><em>Step 2—Phrase</em>: <q><foreign>The dog</foreign></q> forms an NP. <q><foreign>Barked</foreign></q> is the VP.</p>
 
-    <p><em>Step 3—Role</em>: The NP <q><foreign>The dog</foreign></q> is the Subject. The MVP <q><foreign>barked</foreign></q> is the Predicate.</p>
+    <p><em>Step 3—Role</em>: The NP <q><foreign>The dog</foreign></q> is the Subject. The VP <q><foreign>barked</foreign></q> is the Predicate.</p>
 
     <p>The completed table:</p>
 
-    <tabular halign="center">
-      <row header="yes">
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row header="yes" bottom="minor">
         <cell>Role</cell>
         <cell colspan="2">Subject</cell>
         <cell>Predicate</cell>
       </row>
-      <row>
+      <row bottom="minor">
         <cell>Phrase</cell>
         <cell colspan="2">NP</cell>
-        <cell>MVP</cell>
+        <cell>VP</cell>
       </row>
-      <row>
+      <row bottom="minor">
         <cell>Word</cell>
         <cell>The</cell>
         <cell>dog</cell>
         <cell>barked</cell>
       </row>
-      <row>
+      <row bottom="minor">
         <cell>POS</cell>
         <cell>DET</cell>
         <cell>N</cell>
@@ -572,23 +574,29 @@
 
     <p><em>Step 1—Part of Speech</em>: <q><foreign>The</foreign></q> is a DET, <q><foreign>cat</foreign></q> is a N, <q><foreign>chased</foreign></q> is a V, <q><foreign>the</foreign></q> is a DET, <q><foreign>mouse</foreign></q> is a N.</p>
 
-    <p><em>Step 2—Phrase</em>: <q><foreign>The cat</foreign></q> forms an NP. <q><foreign>Chased</foreign></q> is the MVP. <q><foreign>The mouse</foreign></q> forms another NP.</p>
+    <p><em>Step 2—Phrase</em>: <q><foreign>The cat</foreign></q> forms an NP. <q><foreign>Chased</foreign></q> is the VP. <q><foreign>The mouse</foreign></q> forms another NP.</p>
 
-    <p><em>Step 3—Role</em>: The NP <q><foreign>The cat</foreign></q> is the Subject. The MVP <q><foreign>chased</foreign></q> is the Predicate. But what about <q><foreign>the mouse</foreign></q>? It is a noun phrase that receives the action—it is the <em>object</em> of the verb. However, we have not yet introduced the Direct Object role in our table system, so we leave the Role cell empty for now. The words still receive their POS and Phrase labels.</p>
+    <p><em>Step 3—Role</em>: The NP <q><foreign>The cat</foreign></q> is the Subject. The VP <q><foreign>chased</foreign></q> is the Predicate. But what about <q><foreign>the mouse</foreign></q>? It is a noun phrase that receives the action—it is the <em>object</em> of the verb. However, we have not yet introduced the Direct Object role in our table system, so we leave the Role cell empty for now. The words still receive their POS and Phrase labels.</p>
 
-    <tabular halign="center">
-      <row header="yes">
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row header="yes" bottom="minor">
         <cell>Role</cell>
         <cell colspan="2">Subject</cell>
         <cell colspan="3">Predicate</cell>
       </row>
-      <row>
+      <row bottom="minor">
         <cell>Phrase</cell>
         <cell colspan="2">NP</cell>
-        <cell>MVP</cell>
+        <cell>VP</cell>
         <cell colspan="2">NP</cell>
       </row>
-      <row>
+      <row bottom="minor">
         <cell>Word</cell>
         <cell>The</cell>
         <cell>cat</cell>
@@ -596,7 +604,7 @@
         <cell>the</cell>
         <cell>mouse</cell>
       </row>
-      <row>
+      <row bottom="minor">
         <cell>POS</cell>
         <cell>DET</cell>
         <cell>N</cell>
@@ -613,7 +621,7 @@
     </image>
     <p><c>[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]</c></p>
 
-    <p>The tree makes clear what the table cannot easily show: the object NP <q><foreign>the mouse</foreign></q> is <em>inside</em> the VP, dominated by the VP node. In the table, <q><foreign>the mouse</foreign></q> simply appears as a separate NP to the right of the MVP—the containment relationship is invisible.</p>
+    <p>The tree makes clear what the table cannot easily show: the object NP <q><foreign>the mouse</foreign></q> is <em>inside</em> the VP, dominated by the VP node. In the table, <q><foreign>the mouse</foreign></q> simply appears as a separate NP to the right of the verb—the containment relationship is invisible.</p>
 
     <paragraphs>
       <title>Tables and Trees Together</title>
@@ -664,19 +672,25 @@
 
       <p><em>Step 5—Complete the sentence table</em>:</p>
 
-      <tabular halign="center">
-        <row header="yes">
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row header="yes" bottom="minor">
           <cell>Role</cell>
           <cell colspan="3">Subject</cell>
           <cell colspan="2">Predicate</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Phrase</cell>
           <cell colspan="3">NP</cell>
-          <cell>MVP</cell>
+          <cell>VP</cell>
           <cell>ADVP</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Word</cell>
           <cell>The</cell>
           <cell>old</cell>
@@ -684,7 +698,7 @@
           <cell>sat</cell>
           <cell>quietly</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>POS</cell>
           <cell>DET</cell>
           <cell>ADJ</cell>
@@ -733,19 +747,25 @@
 
       <p><em>Step 5—Complete the sentence table</em>:</p>
 
-      <tabular halign="center">
-        <row header="yes">
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row header="yes" bottom="minor">
           <cell>Role</cell>
           <cell colspan="2">Subject</cell>
           <cell colspan="3">Predicate</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Phrase</cell>
           <cell colspan="2">NP</cell>
-          <cell>MVP</cell>
+          <cell>VP</cell>
           <cell colspan="2">NP</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Word</cell>
           <cell>The</cell>
           <cell>cat</cell>
@@ -753,7 +773,7 @@
           <cell>the</cell>
           <cell>mouse</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>POS</cell>
           <cell>DET</cell>
           <cell>N</cell>
@@ -897,23 +917,26 @@
       </paragraphs>
       <p><em>Sentence:</em> <foreign>She arrived.</foreign></p>
 
-      <tabular halign="center">
-        <row header="yes">
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row header="yes" bottom="minor">
           <cell>Role</cell>
           <cell>Subject</cell>
           <cell>Predicate</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Phrase</cell>
           <cell>NP</cell>
-          <cell>MVP</cell>
+          <cell>VP</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Word</cell>
           <cell>She</cell>
           <cell>arrived</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>POS</cell>
           <cell>PRON</cell>
           <cell>V</cell>
@@ -926,23 +949,26 @@
 
       <p><em>Exercise 7.</em> Complete the Phrase and Role rows for: <foreign>Thunder rumbled.</foreign></p>
 
-      <tabular halign="center">
-        <row header="yes">
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row header="yes" bottom="minor">
           <cell>Role</cell>
           <cell>_____</cell>
           <cell>_____</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Phrase</cell>
           <cell>_____</cell>
           <cell>_____</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Word</cell>
           <cell>Thunder</cell>
           <cell>rumbled</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>POS</cell>
           <cell>N</cell>
           <cell>V</cell>
@@ -951,8 +977,14 @@
 
       <p><em>Exercise 8.</em> Complete the POS, Phrase, and Role rows for: <foreign>The old man sat quietly.</foreign></p>
 
-      <tabular halign="center">
-        <row header="yes">
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row header="yes" bottom="minor">
           <cell>Role</cell>
           <cell>_____</cell>
           <cell>_____</cell>
@@ -960,7 +992,7 @@
           <cell>_____</cell>
           <cell>_____</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Phrase</cell>
           <cell>_____</cell>
           <cell>_____</cell>
@@ -968,7 +1000,7 @@
           <cell>_____</cell>
           <cell>_____</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Word</cell>
           <cell>The</cell>
           <cell>old</cell>
@@ -976,7 +1008,7 @@
           <cell>sat</cell>
           <cell>quietly</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>POS</cell>
           <cell>_____</cell>
           <cell>_____</cell>
@@ -988,13 +1020,19 @@
 
       <p><em>Exercise 9.</em> Complete the Phrase and POS rows for: <foreign>The cat chased the mouse.</foreign></p>
 
-      <tabular halign="center">
-        <row header="yes">
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row header="yes" bottom="minor">
           <cell>Role</cell>
           <cell colspan="2">Subject</cell>
           <cell colspan="3">Predicate</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Phrase</cell>
           <cell>_____</cell>
           <cell>_____</cell>
@@ -1002,7 +1040,7 @@
           <cell>_____</cell>
           <cell>_____</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Word</cell>
           <cell>The</cell>
           <cell>cat</cell>
@@ -1010,7 +1048,7 @@
           <cell>the</cell>
           <cell>mouse</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>POS</cell>
           <cell>_____</cell>
           <cell>_____</cell>
@@ -1037,24 +1075,28 @@
 
       <p>Bracket notation: <c>[S [NP [DET The] [N cat]] [VP [V slept]]]</c></p>
 
-      <tabular halign="center">
-        <row header="yes">
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row header="yes" bottom="minor">
           <cell>Role</cell>
           <cell colspan="2">Subject</cell>
           <cell>Predicate</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Phrase</cell>
           <cell colspan="2">NP</cell>
-          <cell>MVP</cell>
+          <cell>VP</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>Word</cell>
           <cell>The</cell>
           <cell>cat</cell>
           <cell>slept</cell>
         </row>
-        <row>
+        <row bottom="minor">
           <cell>POS</cell>
           <cell>DET</cell>
           <cell>N</cell>
@@ -1267,10 +1309,6 @@
     <gi>
       <title>Modifier</title>
       <p>An optional element that adds information about a head.</p>
-    </gi>
-    <gi>
-      <title>MVP (Main Verb Phrase)</title>
-      <p>The main verb (and any auxiliaries or modals) functioning as the predicate; used as a label in sentence labeling tables.</p>
     </gi>
     <gi>
       <title>Node</title>
