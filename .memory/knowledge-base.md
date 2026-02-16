@@ -1,10 +1,10 @@
 # Knowledge Base
 
-Last updated: 2026-02-15 (Task 32)
+Last updated: 2026-02-15 (Task 35)
 
 ## Source Format and Build Pipeline
 
-**Current approach:** PreTeXt XML is the single source of truth. All content lives in `pretext/source/*.ptx` files. The build pipeline uses `python build.py` which runs `pretext build web` for HTML, copies output to `docs/` for GitHub Pages, injects custom CSS inline into each HTML file, and optionally generates EPUB via Pandoc.
+**Current approach:** PreTeXt XML is the single source of truth. All content lives in `pretext/source/*.ptx` files. The build pipeline uses `python build.py` which runs `pretext build web` for HTML, copies output to `docs/` for GitHub Pages, injects custom CSS inline into each HTML file, and optionally generates EPUB via Pandoc. Published at `https://phil-a-sophist.github.io/concise-guide-english-grammar/`.
 
 **Previously tried:**
 - Markdown source files — abandoned in favor of PreTeXt XML for richer semantic markup and multi-format output
@@ -31,7 +31,7 @@ Last updated: 2026-02-15 (Task 32)
 
 ## Homework Delivery
 
-**Current approach:** Homework is authored in PreTeXt (rendered in HTML output) and also distributed as downloadable Word (.docx) files in `Homework/`. Three files per chapter: Homework, Answer Key, Overhead Answer Key. The `generate_homework_from_pretext.py` script generates student homework .docx files. Answer keys and overheads are generated via chapter-specific scripts (e.g., `scripts/generate_ch07_answer_key.py`). Answer keys exist for Chapters 4-15.
+**Current approach:** Homework is authored in PreTeXt (rendered in HTML output) and also distributed as downloadable Word (.docx) files in `Homework/`. Three files per chapter: Homework, Answer Key, Overhead Answer Key. The `generate_homework_from_pretext.py` script generates student homework .docx files. Answer keys and overheads are generated via chapter-specific scripts (e.g., `scripts/generate_ch07_answer_key.py`). Answer keys exist for Chapters 4-16 and 18 (Ch17 gap -- no answer key yet).
 
 **Homework formatting requirements:**
 - Exercise numbering: `<em>Exercise N.</em>` (required for script regex match)
@@ -56,7 +56,7 @@ Last updated: 2026-02-15 (Task 32)
 
 ## Language Example Formatting
 
-**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, documented in STYLE_GUIDE.md for rollout across all chapters. Chapters 1-17 completed and committed. Chapter 18 is next. Full process documented in `.memory/chapter-improvement-process.md`.
+**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, documented in STYLE_GUIDE.md for rollout across all chapters. Chapters 1-18 completed and committed. Chapter 19 is next. Full process documented in `.memory/chapter-improvement-process.md`.
 
 1. **`<foreign>` element (REQUIRED):** All language examples use `<foreign>` → renders as `<i class="foreign">` → CSS overrides to sans-serif, non-italic, 0.9em
 2. **`<q>` element (inline examples in paragraphs):** Automatically renders quotation marks: `<q><foreign>The dog barked.</foreign></q>` → "The dog barked."
@@ -80,7 +80,7 @@ Last updated: 2026-02-15 (Task 32)
 - Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element
 - Font size at 0.95em — refined to 0.9em for better sans-serif rendering consistency
 
-**Context:** Chapters 1-18 formatting completed and committed. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
+**Context:** Chapters 1-18 formatting completed and committed (through 9e56a92). The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
 
 ## Chapter 7 Major Revision (Task 16)
 
@@ -102,7 +102,7 @@ Last updated: 2026-02-15 (Task 32)
 
 ## Systematic Chapter Improvement Process
 
-**Current approach:** Working through chapters sequentially (Ch7-17 done, Ch18 next). Each chapter receives four improvements: (1) diagram audit — replace old SVGs with SyntaxTreeHybrid PNGs, (2) style guide compliance — convert `<em>` language examples to `<foreign>`, (3) homework review — fix formatting and assess difficulty, (4) Word file generation — Homework, Answer Key, Overhead. Full process documented in `.memory/chapter-improvement-process.md`.
+**Current approach:** Working through chapters sequentially (Ch7-18 done, Ch19 next). Each chapter receives four improvements: (1) diagram audit — replace old SVGs with SyntaxTreeHybrid PNGs, (2) style guide compliance — convert `<em>` language examples to `<foreign>`, (3) homework review — fix formatting and assess difficulty, (4) Word file generation — Homework, Answer Key, Overhead. Full process documented in `.memory/chapter-improvement-process.md`.
 
 **Key efficiency insight:** Don't over-explore before starting edits. For diagrams, a quick grep of `<image source=` in the chapter + listing `assets/diagrams/new/chXX_*` is sufficient. For `<foreign>` conversion, work section-by-section (tables → lists → paragraphs) rather than categorizing all instances upfront.
 
@@ -121,6 +121,10 @@ Last updated: 2026-02-15 (Task 32)
 
 **Exam One structure (Spring 2026):** Covers Chapters 4-7. 100 points + 10 bonus. Section A: 25 multiple choice (50 pts, 3 subsections). Section B: 5 sentence labeling/diagramming (50 pts, with labeling tables + bracket notation). Bonus: 5 open-ended questions (10 pts). Time: 70 minutes. Resources: anything except human help or AI.
 
-**Context:** The .docx generation script contains all question data inline (not read from Markdown) so it can be run independently. Diagram widths are tuned per sentence complexity (3.5-6.0 inches).
+**Exam One Study Guide:** Companion study guide with practice questions mirroring exam format. Includes its own answer key with SyntaxTreeHybrid-generated diagrams (5 diagrams: sg_q14 through sg_q18). Study guide and answer key have both .md and .docx versions. Sentence labeling tables use HTML `<table>` with `colspan` for merged Role/Phrase cells.
+
+**Study Guide .docx generation:** `generate_study_guide_diagrams.py` generates PNGs via Playwright, `generate_study_guide_docx.py` generates both study guide and answer key .docx files.
+
+**Context:** The .docx generation scripts contain all question data inline (not read from Markdown) so they can be run independently. Diagram widths are tuned per sentence complexity (3.5-6.0 inches).
 
 ## Archived
