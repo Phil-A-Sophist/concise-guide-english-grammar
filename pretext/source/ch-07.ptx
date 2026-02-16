@@ -533,14 +533,12 @@
     <tabular halign="center">
       <row header="yes">
         <cell>Role</cell>
-        <cell>Subject</cell>
-        <cell></cell>
+        <cell colspan="2">Subject</cell>
         <cell>Predicate</cell>
       </row>
       <row>
         <cell>Phrase</cell>
-        <cell>NP</cell>
-        <cell></cell>
+        <cell colspan="2">NP</cell>
         <cell>MVP</cell>
       </row>
       <row>
@@ -581,19 +579,14 @@
     <tabular halign="center">
       <row header="yes">
         <cell>Role</cell>
-        <cell>Subject</cell>
-        <cell></cell>
-        <cell>Predicate</cell>
-        <cell></cell>
-        <cell></cell>
+        <cell colspan="2">Subject</cell>
+        <cell colspan="3">Predicate</cell>
       </row>
       <row>
         <cell>Phrase</cell>
-        <cell>NP</cell>
-        <cell></cell>
+        <cell colspan="2">NP</cell>
         <cell>MVP</cell>
-        <cell>NP</cell>
-        <cell></cell>
+        <cell colspan="2">NP</cell>
       </row>
       <row>
         <cell>Word</cell>
@@ -674,17 +667,12 @@
       <tabular halign="center">
         <row header="yes">
           <cell>Role</cell>
-          <cell>Subject</cell>
-          <cell></cell>
-          <cell></cell>
-          <cell>Predicate</cell>
-          <cell></cell>
+          <cell colspan="3">Subject</cell>
+          <cell colspan="2">Predicate</cell>
         </row>
         <row>
           <cell>Phrase</cell>
-          <cell>NP</cell>
-          <cell></cell>
-          <cell></cell>
+          <cell colspan="3">NP</cell>
           <cell>MVP</cell>
           <cell>ADVP</cell>
         </row>
@@ -748,19 +736,14 @@
       <tabular halign="center">
         <row header="yes">
           <cell>Role</cell>
-          <cell>Subject</cell>
-          <cell></cell>
-          <cell>Predicate</cell>
-          <cell></cell>
-          <cell></cell>
+          <cell colspan="2">Subject</cell>
+          <cell colspan="3">Predicate</cell>
         </row>
         <row>
           <cell>Phrase</cell>
-          <cell>NP</cell>
-          <cell></cell>
+          <cell colspan="2">NP</cell>
           <cell>MVP</cell>
-          <cell>NP</cell>
-          <cell></cell>
+          <cell colspan="2">NP</cell>
         </row>
         <row>
           <cell>Word</cell>
@@ -1008,11 +991,8 @@
       <tabular halign="center">
         <row header="yes">
           <cell>Role</cell>
-          <cell>Subject</cell>
-          <cell></cell>
-          <cell>Predicate</cell>
-          <cell></cell>
-          <cell></cell>
+          <cell colspan="2">Subject</cell>
+          <cell colspan="3">Predicate</cell>
         </row>
         <row>
           <cell>Phrase</cell>
@@ -1060,14 +1040,12 @@
       <tabular halign="center">
         <row header="yes">
           <cell>Role</cell>
-          <cell>Subject</cell>
-          <cell></cell>
+          <cell colspan="2">Subject</cell>
           <cell>Predicate</cell>
         </row>
         <row>
           <cell>Phrase</cell>
-          <cell>NP</cell>
-          <cell></cell>
+          <cell colspan="2">NP</cell>
           <cell>MVP</cell>
         </row>
         <row>

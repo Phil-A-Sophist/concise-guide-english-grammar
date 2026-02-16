@@ -98,8 +98,33 @@ def add_section_header(doc, text, level=2, font_size=14):
     return h
 
 
+def compute_spans(labels):
+    """Convert flat label list to (label, span_count, start_index) tuples.
+
+    Non-empty labels start a new span; consecutive empty strings extend it.
+    """
+    spans = []
+    i = 0
+    while i < len(labels):
+        label = labels[i]
+        if label:
+            span = 1
+            while i + span < len(labels) and labels[i + span] == "":
+                span += 1
+            spans.append((label, span, i))
+            i += span
+        else:
+            i += 1
+    return spans
+
+
 def add_labeling_table(doc, words, pos_labels=None, phrase_labels=None, role_labels=None, font_size=10):
-    """Add a sentence labeling table. If labels are None, cells are blank (student version)."""
+    """Add a sentence labeling table with merged cells for Role and Phrase rows.
+
+    When labels are provided for Role/Phrase rows, cells are merged to show
+    how words group into phrases and roles. When labels are None (student
+    version), cells are left unmerged so students can write in each cell.
+    """
     num_cols = len(words) + 1  # +1 for row headers
     table = doc.add_table(rows=4, cols=num_cols)
     table.style = 'Table Grid'
@@ -117,17 +142,35 @@ def add_labeling_table(doc, words, pos_labels=None, phrase_labels=None, role_lab
         add_run(p, header, bold=True, font_size=font_size)
         set_cell_shading(cell, "E8E8E8")
 
-        # Data cells
-        for j, val in enumerate(data if data else [""] * len(words)):
-            cell = table.rows[i].cells[j + 1]
-            cell.text = ""
-            p = cell.paragraphs[0]
-            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            if i == 2:  # Word row always filled
-                add_run(p, val, font_size=font_size)
-            elif data:
-                add_run(p, val, font_size=font_size)
-            # else leave blank for student version
+        if i <= 1 and data:
+            # Role or Phrase row with data — merge cells to show groupings
+            spans = compute_spans(data)
+            for label, span, start_idx in spans:
+                col_start = start_idx + 1  # +1 for row header column
+                col_end = col_start + span - 1
+                if span > 1:
+                    table.rows[i].cells[col_start].merge(table.rows[i].cells[col_end])
+                merged_cell = table.rows[i].cells[col_start]
+                # Clear residual paragraphs from merge
+                for paragraph in merged_cell.paragraphs:
+                    for run in paragraph.runs:
+                        run.text = ""
+                p = merged_cell.paragraphs[0]
+                p.text = ""
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                add_run(p, label, font_size=font_size)
+        else:
+            # Normal unmerged row (Word, POS, or blank student rows)
+            for j, val in enumerate(data if data else [""] * len(words)):
+                cell = table.rows[i].cells[j + 1]
+                cell.text = ""
+                p = cell.paragraphs[0]
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                if i == 2:  # Word row always filled
+                    add_run(p, val, font_size=font_size)
+                elif data:
+                    add_run(p, val, font_size=font_size)
+                # else leave blank for student version
 
     return table
 

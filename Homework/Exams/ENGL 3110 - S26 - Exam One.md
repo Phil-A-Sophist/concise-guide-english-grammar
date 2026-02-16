@@ -374,12 +374,12 @@
 
 **Example:** *The old man sat quietly.*
 
-| | | | | | |
-|---|---|---|---|---|---|
-| **Role** | Subject | | | Predicate | |
-| **Phrase** | NP | | | MVP | ADVP |
-| **Word** | The | old | man | sat | quietly |
-| **POS** | DET | ADJ | N | V | ADV |
+<table>
+<tr><th>Role</th><td colspan="3">Subject</td><td colspan="2">Predicate</td></tr>
+<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="1">MVP</td><td colspan="1">ADVP</td></tr>
+<tr><th>Word</th><td>The</td><td>old</td><td>man</td><td>sat</td><td>quietly</td></tr>
+<tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td></tr>
+</table>
 
 Bracket notation: `[S [NP [DET The] [ADJP [ADJ old]] [N man]] [VP [V sat] [ADVP [ADV quietly]]]]`
 

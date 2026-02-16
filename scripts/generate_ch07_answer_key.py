@@ -21,31 +21,74 @@ def set_paragraph_spacing(paragraph, space_before=0, space_after=0):
     pPr.append(spacing)
 
 
+def compute_spans(labels):
+    """Convert flat label list to (label, span_count, start_index) tuples.
+
+    Non-empty labels start a new span; consecutive empty strings extend it.
+    """
+    spans = []
+    i = 0
+    while i < len(labels):
+        label = labels[i]
+        if label:
+            span = 1
+            while i + span < len(labels) and labels[i + span] == "":
+                span += 1
+            spans.append((label, span, i))
+            i += span
+        else:
+            i += 1
+    return spans
+
+
 def add_answer_table(doc, headers, rows, font_size=11):
-    """Add a formatted table to the document."""
+    """Add a formatted table with merged cells for Role and Phrase rows."""
     num_cols = len(headers)
     table = doc.add_table(rows=1 + len(rows), cols=num_cols)
     table.style = 'Table Grid'
 
-    # Header row
-    for j, header in enumerate(headers):
-        cell = table.rows[0].cells[j]
-        cell.text = header
+    # Header row (Role row) — merge cells to show groupings
+    # First cell is the row label ("Role"), rest are data
+    spans = compute_spans(headers)
+    for label, span, start_idx in spans:
+        if span > 1:
+            table.rows[0].cells[start_idx].merge(table.rows[0].cells[start_idx + span - 1])
+        cell = table.rows[0].cells[start_idx]
         for paragraph in cell.paragraphs:
-            paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            for run in paragraph.runs:
-                run.bold = True
-                run.font.size = Pt(font_size)
+            paragraph.text = ""
+        p = cell.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        run = p.add_run(label)
+        run.bold = True
+        run.font.size = Pt(font_size)
 
     # Data rows
     for i, row_data in enumerate(rows):
-        for j, cell_text in enumerate(row_data):
-            cell = table.rows[i + 1].cells[j]
-            cell.text = cell_text
-            for paragraph in cell.paragraphs:
-                paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                for run in paragraph.runs:
-                    run.font.size = Pt(font_size)
+        row_label = row_data[0] if row_data else ""
+        is_mergeable = row_label in ("Phrase",)  # Phrase row gets merged
+
+        if is_mergeable:
+            spans = compute_spans(row_data)
+            for label, span, start_idx in spans:
+                if span > 1:
+                    table.rows[i + 1].cells[start_idx].merge(
+                        table.rows[i + 1].cells[start_idx + span - 1]
+                    )
+                cell = table.rows[i + 1].cells[start_idx]
+                for paragraph in cell.paragraphs:
+                    paragraph.text = ""
+                p = cell.paragraphs[0]
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                run = p.add_run(label)
+                run.font.size = Pt(font_size)
+        else:
+            for j, cell_text in enumerate(row_data):
+                cell = table.rows[i + 1].cells[j]
+                cell.text = cell_text
+                for paragraph in cell.paragraphs:
+                    paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    for run in paragraph.runs:
+                        run.font.size = Pt(font_size)
 
 
 def create_answer_key(output_path, font_size=12):

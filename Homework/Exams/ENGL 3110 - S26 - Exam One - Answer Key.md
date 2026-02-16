@@ -334,12 +334,12 @@
 
 **Question 26:** (10 pts) *The cat slept.*
 
-| | | | |
-|---|---|---|---|
-| **Role** | Subject | | Predicate |
-| **Phrase** | NP | | MVP |
-| **Word** | The | cat | slept |
-| **POS** | DET | N | V |
+<table>
+<tr><th>Role</th><td colspan="2">Subject</td><td colspan="1">Predicate</td></tr>
+<tr><th>Phrase</th><td colspan="2">NP</td><td colspan="1">MVP</td></tr>
+<tr><th>Word</th><td>The</td><td>cat</td><td>slept</td></tr>
+<tr><th>POS</th><td>DET</td><td>N</td><td>V</td></tr>
+</table>
 
 Bracket notation: `[S [NP [DET The] [N cat]] [VP [V slept]]]`
 
@@ -349,12 +349,12 @@ Bracket notation: `[S [NP [DET The] [N cat]] [VP [V slept]]]`
 
 **Question 27:** (10 pts) *The cheerful birds sang beautifully in the garden.*
 
-| | | | | | | | | |
-|---|---|---|---|---|---|---|---|---|
-| **Role** | Subject | | | Predicate | | | | |
-| **Phrase** | NP | | | MVP | ADVP | PP | | |
-| **Word** | The | cheerful | birds | sang | beautifully | in | the | garden |
-| **POS** | DET | ADJ | N | V | ADV | PREP | DET | N |
+<table>
+<tr><th>Role</th><td colspan="3">Subject</td><td colspan="5">Predicate</td></tr>
+<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="1">MVP</td><td colspan="1">ADVP</td><td colspan="3">PP</td></tr>
+<tr><th>Word</th><td>The</td><td>cheerful</td><td>birds</td><td>sang</td><td>beautifully</td><td>in</td><td>the</td><td>garden</td></tr>
+<tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td><td>PREP</td><td>DET</td><td>N</td></tr>
+</table>
 
 Bracket notation: `[S [NP [DET The] [ADJP [ADJ cheerful]] [N birds]] [VP [V sang] [ADVP [ADV beautifully]] [PP [PREP in] [NP [DET the] [N garden]]]]]`
 
@@ -364,12 +364,12 @@ Bracket notation: `[S [NP [DET The] [ADJP [ADJ cheerful]] [N birds]] [VP [V sang
 
 **Question 28:** (10 pts) *The students from Ohio studied carefully.*
 
-| | | | | | | |
-|---|---|---|---|---|---|---|
-| **Role** | Subject | | | | Predicate | |
-| **Phrase** | NP | | PP | | MVP | ADVP |
-| **Word** | The | students | from | Ohio | studied | carefully |
-| **POS** | DET | N | PREP | N | V | ADV |
+<table>
+<tr><th>Role</th><td colspan="4">Subject</td><td colspan="2">Predicate</td></tr>
+<tr><th>Phrase</th><td colspan="2">NP</td><td colspan="2">PP</td><td colspan="1">MVP</td><td colspan="1">ADVP</td></tr>
+<tr><th>Word</th><td>The</td><td>students</td><td>from</td><td>Ohio</td><td>studied</td><td>carefully</td></tr>
+<tr><th>POS</th><td>DET</td><td>N</td><td>PREP</td><td>N</td><td>V</td><td>ADV</td></tr>
+</table>
 
 Bracket notation: `[S [NP [DET The] [N students] [PP [PREP from] [NP [N Ohio]]]] [VP [V studied] [ADVP [ADV carefully]]]]`
 
@@ -379,12 +379,12 @@ Bracket notation: `[S [NP [DET The] [N students] [PP [PREP from] [NP [N Ohio]]]]
 
 **Question 29:** (10 pts) *Several brave firefighters worked tirelessly during the dangerous storm.*
 
-| | | | | | | | | | |
-|---|---|---|---|---|---|---|---|---|---|
-| **Role** | Subject | | | Predicate | | | | | |
-| **Phrase** | NP | | | MVP | ADVP | PP | | | |
-| **Word** | Several | brave | firefighters | worked | tirelessly | during | the | dangerous | storm |
-| **POS** | DET | ADJ | N | V | ADV | PREP | DET | ADJ | N |
+<table>
+<tr><th>Role</th><td colspan="3">Subject</td><td colspan="6">Predicate</td></tr>
+<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="1">MVP</td><td colspan="1">ADVP</td><td colspan="4">PP</td></tr>
+<tr><th>Word</th><td>Several</td><td>brave</td><td>firefighters</td><td>worked</td><td>tirelessly</td><td>during</td><td>the</td><td>dangerous</td><td>storm</td></tr>
+<tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td><td>PREP</td><td>DET</td><td>ADJ</td><td>N</td></tr>
+</table>
 
 Bracket notation: `[S [NP [DET Several] [ADJP [ADJ brave]] [N firefighters]] [VP [V worked] [ADVP [ADV tirelessly]] [PP [PREP during] [NP [DET the] [ADJP [ADJ dangerous]] [N storm]]]]]`
 
@@ -394,12 +394,12 @@ Bracket notation: `[S [NP [DET Several] [ADJP [ADJ brave]] [N firefighters]] [VP
 
 **Question 30:** (10 pts) *The tall professor with gray hair spoke very eloquently.*
 
-| | | | | | | | | | |
-|---|---|---|---|---|---|---|---|---|---|
-| **Role** | Subject | | | | | | Predicate | | |
-| **Phrase** | NP | | | PP | | | MVP | ADVP | |
-| **Word** | The | tall | professor | with | gray | hair | spoke | very | eloquently |
-| **POS** | DET | ADJ | N | PREP | ADJ | N | V | ADV | ADV |
+<table>
+<tr><th>Role</th><td colspan="6">Subject</td><td colspan="3">Predicate</td></tr>
+<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="3">PP</td><td colspan="1">MVP</td><td colspan="2">ADVP</td></tr>
+<tr><th>Word</th><td>The</td><td>tall</td><td>professor</td><td>with</td><td>gray</td><td>hair</td><td>spoke</td><td>very</td><td>eloquently</td></tr>
+<tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>PREP</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td><td>ADV</td></tr>
+</table>
 
 Bracket notation: `[S [NP [DET The] [ADJP [ADJ tall]] [N professor] [PP [PREP with] [NP [ADJP [ADJ gray]] [N hair]]]] [VP [V spoke] [ADVP [ADVP [ADV very]] [ADV eloquently]]]]`
 

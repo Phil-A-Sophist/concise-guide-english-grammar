@@ -365,6 +365,58 @@ Use standard markdown tables with alignment:
 - Keep tables readable in both wide (HTML) and narrow (EPUB) formats
 - Avoid overly wide tables with many columns
 
+### Sentence Labeling Tables
+
+Sentence labeling tables have four rows: **Role**, **Phrase**, **Word**, and **POS**. The Word and POS rows always have one cell per word. The Role and Phrase rows use **merged cells** (colspan) to show how words group into phrases and roles.
+
+**Merge rules:**
+- **Completed tables** (examples, answer keys): Merge cells in Role and Phrase rows to span the words they cover.
+- **Student exercise tables** (blanks for students to fill): Keep one cell per word so students have individual cells to write in.
+- **Partially completed tables**: Merge only the rows that are already filled in; leave blank rows unmerged.
+
+**Example (merged):** For "The old man sat quietly":
+- Role: "Subject" spans 3 columns (The, old, man); "Predicate" spans 2 (sat, quietly)
+- Phrase: "NP" spans 3 columns (The, old, man); "MVP" spans 1 (sat); "ADVP" spans 1 (quietly)
+
+**PreTeXt format:**
+```xml
+<tabular halign="center">
+  <row header="yes">
+    <cell>Role</cell>
+    <cell colspan="3">Subject</cell>
+    <cell colspan="2">Predicate</cell>
+  </row>
+  <row>
+    <cell>Phrase</cell>
+    <cell colspan="3">NP</cell>
+    <cell>MVP</cell>
+    <cell>ADVP</cell>
+  </row>
+  <row>
+    <cell>Word</cell>
+    <cell>The</cell>
+    <cell>old</cell>
+    <cell>man</cell>
+    <cell>sat</cell>
+    <cell>quietly</cell>
+  </row>
+  <row>
+    <cell>POS</cell>
+    <cell>DET</cell>
+    <cell>ADJ</cell>
+    <cell>N</cell>
+    <cell>V</cell>
+    <cell>ADV</cell>
+  </row>
+</tabular>
+```
+
+**Word (.docx) format:** Use `cell.merge(other_cell)` in python-docx to merge cells in the Role and Phrase rows.
+
+**Markdown format:** Standard Markdown does not support colspan. Use raw HTML `<table>` elements with `colspan` attributes when labeling tables appear in `.md` files.
+
+**HTML format:** Use `<td colspan="N">` in `<table>` elements (generated automatically by PreTeXt from the XML above).
+
 ---
 
 ## Diagrams

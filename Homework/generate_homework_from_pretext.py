@@ -449,14 +449,17 @@ def process_subsection_with_numbering(doc, subsection, section_num):
 
 
 def add_table(doc, tabular_elem):
-    """Add a table to the document."""
+    """Add a table to the document, supporting colspan for merged cells."""
     rows = tabular_elem.findall('.//{*}row')
     if not rows:
         return
 
-    first_row = rows[0]
-    cells = first_row.findall('.//{*}cell')
-    num_cols = len(cells)
+    # Calculate actual number of columns by finding the max column span sum
+    num_cols = 0
+    for row in rows:
+        cells = row.findall('.//{*}cell')
+        row_cols = sum(int(cell.get('colspan', '1')) for cell in cells)
+        num_cols = max(num_cols, row_cols)
 
     if num_cols == 0:
         return
@@ -466,15 +469,31 @@ def add_table(doc, tabular_elem):
 
     for i, row in enumerate(rows):
         cells = row.findall('.//{*}cell')
-        for j, cell in enumerate(cells):
-            if j < num_cols:
-                cell_text = extract_text_from_element(cell)
-                table.rows[i].cells[j].text = cell_text
+        col_idx = 0
+        for cell in cells:
+            if col_idx >= num_cols:
+                break
+            colspan = int(cell.get('colspan', '1'))
+            cell_text = extract_text_from_element(cell)
 
-                if row.get('header') == 'yes' or i == 0:
-                    for paragraph in table.rows[i].cells[j].paragraphs:
-                        for run in paragraph.runs:
-                            run.bold = True
+            # Merge cells if colspan > 1
+            if colspan > 1 and col_idx + colspan - 1 < num_cols:
+                table.rows[i].cells[col_idx].merge(
+                    table.rows[i].cells[col_idx + colspan - 1]
+                )
+
+            merged_cell = table.rows[i].cells[col_idx]
+            # Clear any residual text from merge
+            for paragraph in merged_cell.paragraphs:
+                paragraph.text = ""
+            merged_cell.paragraphs[0].text = cell_text
+
+            if row.get('header') == 'yes' or i == 0:
+                for paragraph in merged_cell.paragraphs:
+                    for run in paragraph.runs:
+                        run.bold = True
+
+            col_idx += colspan
 
 
 def extract_homework_from_ptx(ptx_path):
