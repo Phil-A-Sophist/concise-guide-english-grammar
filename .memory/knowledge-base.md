@@ -1,6 +1,6 @@
 # Knowledge Base
 
-Last updated: 2026-02-15
+Last updated: 2026-02-15 (Task 32)
 
 ## Source Format and Build Pipeline
 
@@ -56,7 +56,7 @@ Last updated: 2026-02-15
 
 ## Language Example Formatting
 
-**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, documented in STYLE_GUIDE.md for rollout across all chapters. Chapters 1-16 completed and committed. Chapter 17 is next. Full process documented in `.memory/chapter-improvement-process.md`.
+**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, documented in STYLE_GUIDE.md for rollout across all chapters. Chapters 1-17 completed and committed. Chapter 18 is next. Full process documented in `.memory/chapter-improvement-process.md`.
 
 1. **`<foreign>` element (REQUIRED):** All language examples use `<foreign>` → renders as `<i class="foreign">` → CSS overrides to sans-serif, non-italic, 0.9em
 2. **`<q>` element (inline examples in paragraphs):** Automatically renders quotation marks: `<q><foreign>The dog barked.</foreign></q>` → "The dog barked."
@@ -80,7 +80,7 @@ Last updated: 2026-02-15
 - Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element
 - Font size at 0.95em — refined to 0.9em for better sans-serif rendering consistency
 
-**Context:** Chapters 1-16 formatting completed and committed. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
+**Context:** Chapters 1-18 formatting completed and committed. The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
 
 ## Chapter 7 Major Revision (Task 16)
 
@@ -102,10 +102,25 @@ Last updated: 2026-02-15
 
 ## Systematic Chapter Improvement Process
 
-**Current approach:** Working through chapters sequentially (Ch7-16 done, Ch17 next). Each chapter receives four improvements: (1) diagram audit — replace old SVGs with SyntaxTreeHybrid PNGs, (2) style guide compliance — convert `<em>` language examples to `<foreign>`, (3) homework review — fix formatting and assess difficulty, (4) Word file generation — Homework, Answer Key, Overhead. Full process documented in `.memory/chapter-improvement-process.md`.
+**Current approach:** Working through chapters sequentially (Ch7-17 done, Ch18 next). Each chapter receives four improvements: (1) diagram audit — replace old SVGs with SyntaxTreeHybrid PNGs, (2) style guide compliance — convert `<em>` language examples to `<foreign>`, (3) homework review — fix formatting and assess difficulty, (4) Word file generation — Homework, Answer Key, Overhead. Full process documented in `.memory/chapter-improvement-process.md`.
 
 **Key efficiency insight:** Don't over-explore before starting edits. For diagrams, a quick grep of `<image source=` in the chapter + listing `assets/diagrams/new/chXX_*` is sufficient. For `<foreign>` conversion, work section-by-section (tables → lists → paragraphs) rather than categorizing all instances upfront.
 
 **Context:** Established during Ch7 improvement (Task 17). The process takes roughly one session per chapter. Chapters 1-6 had only formatting applied (no homework/diagram work); Ch7 onward gets the full treatment.
+
+## Exam Creation Workflow
+
+**Current approach:** Exams are authored in Markdown (.md) for version control and readability, then generated as .docx files via a Python script using python-docx. Tree diagrams are generated as PNG images using SyntaxTreeHybrid via Playwright automation, then embedded into both the Markdown (as image references) and the .docx (as inline images).
+
+**Workflow:**
+1. Draft exam content in Markdown (student version + answer key)
+2. Write bracket notations for all Section B sentences
+3. Run `generate_exam_diagrams.py` to create PNG tree diagrams via SyntaxTreeHybrid + Playwright
+4. Add diagram image references to Markdown files
+5. Run `generate_exam_docx.py` to create both .docx files with embedded diagrams
+
+**Exam One structure (Spring 2026):** Covers Chapters 4-7. 100 points + 10 bonus. Section A: 25 multiple choice (50 pts, 3 subsections). Section B: 5 sentence labeling/diagramming (50 pts, with labeling tables + bracket notation). Bonus: 5 open-ended questions (10 pts). Time: 70 minutes. Resources: anything except human help or AI.
+
+**Context:** The .docx generation script contains all question data inline (not read from Markdown) so it can be run independently. Diagram widths are tuned per sentence complexity (3.5-6.0 inches).
 
 ## Archived

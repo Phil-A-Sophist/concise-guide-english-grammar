@@ -2401,7 +2401,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "18.2",
   "title": "Pronoun Reference",
-  "body": " Pronoun Reference  Pronouns must clearly refer to identifiable antecedents.   Ambiguous Reference   When a pronoun could refer to more than one noun:   ~~John told Mark that he was promoted.~~ (Who was promoted?)  Clear: John told Mark, \"I was promoted.\"  Clear: \"John congratulated Mark on Mark's promotion.\"    Vague Reference   When the pronoun has no clear antecedent:   ~~ They say it will rain.~~ (Who are \"they\"?)  Clear: Weather forecasters predict rain.    ~~ It says in the article that...~~  Clear: The article states that...    Broad Reference   When this, that, which, or it refers to a whole clause rather than a specific noun:   ~~She arrived late, which upset everyone.~~ (What does \"which\" refer to?)  Clear: Her late arrival upset everyone.   Tip : After writing this or which , ask: \"This\/which what ?\"  "
+  "body": " Pronoun Reference  Pronouns must clearly refer to identifiable antecedents.   Ambiguous Reference   When a pronoun could refer to more than one noun:   John told Mark that he was promoted. (Who was promoted?)  Clear: John told Mark, I was promoted.  Clear: John congratulated Mark on Mark's promotion.    Vague Reference   When the pronoun has no clear antecedent:   They say it will rain. (Who are they ?)  Clear: Weather forecasters predict rain.    It says in the article that...  Clear: The article states that...    Broad Reference   When this , that , which , or it refers to a whole clause rather than a specific noun:   She arrived late, which upset everyone. (What does which refer to?)  Clear: Her late arrival upset everyone.   Tip: After writing this or which , ask: This\/which what ?  "
 },
 {
   "id": "ch-18-clarity-and-readability-sec-183",
@@ -2410,7 +2410,34 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "18.3",
   "title": "Modifier Placement",
-  "body": " Modifier Placement  Modifiers should be placed close to what they modify.   Misplaced Modifiers   A modifier in the wrong position can create confusion or unintended meanings:   ~~She almost drove her car into every pothole.~~ (Did she almost drive, or almost every pothole?)  Clear: \"She drove her car into almost every pothole.\"    ~~I only eat vegetables .~~ (Only I eat them? I do nothing but eat them?)  Clear: \"I eat only vegetables .\"    Squinting Modifiers   A modifier positioned ambiguously between two elements:   ~~Students who study often succeed.~~ (Do they study often, or often succeed?)  Clear: \"Students who often study succeed.\"  Clear: \"Students who study succeed often .\"    Dangling Modifiers   A modifier that doesn't logically connect to any element in the sentence:   ~~ Walking down the street , the trees were beautiful.~~ (Trees weren't walking)  Clear: Walking down the street , I noticed the beautiful trees.    ~~ To improve results , the experiment was redesigned.~~ (Experiment didn't improve results)  Clear: To improve results , researchers redesigned the experiment.   The fix : Ensure the modifier's implied subject matches the sentence's actual subject.  "
+  "body": " Modifier Placement  Modifiers should be placed close to what they modify.   Misplaced Modifiers   A misplaced modifier is in the wrong position, creating confusion or unintended meanings:   She almost drove her car into every pothole. (Did she almost drive, or almost every pothole?)  Clear: She drove her car into almost every pothole.    I only eat vegetables. (Only I eat them? I do nothing but eat them?)  Clear: I eat only vegetables .    Squinting Modifiers   A squinting modifier is positioned ambiguously between two elements:   Students who study often succeed. (Do they study often, or often succeed?)  Clear: Students who often study succeed.  Clear: Students who study succeed often .    Dangling Modifiers   A dangling modifier doesn't logically connect to any element in the sentence:   Walking down the street , the trees were beautiful. (Trees weren't walking)  Clear: Walking down the street , I noticed the beautiful trees.    To improve results , the experiment was redesigned. (Experiment didn't improve results)  Clear: To improve results , researchers redesigned the experiment.   The fix: Ensure the modifier's implied subject matches the sentence's actual subject.  "
+},
+{
+  "id": "ch-18-clarity-and-readability-sec-183-4",
+  "level": "2",
+  "url": "ch-18-clarity-and-readability-sec-183.html#ch-18-clarity-and-readability-sec-183-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "misplaced modifier "
+},
+{
+  "id": "ch-18-clarity-and-readability-sec-183-8",
+  "level": "2",
+  "url": "ch-18-clarity-and-readability-sec-183.html#ch-18-clarity-and-readability-sec-183-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "squinting modifier "
+},
+{
+  "id": "ch-18-clarity-and-readability-sec-183-11",
+  "level": "2",
+  "url": "ch-18-clarity-and-readability-sec-183.html#ch-18-clarity-and-readability-sec-183-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "dangling modifier "
 },
 {
   "id": "ch-18-clarity-and-readability-sec-184",
@@ -2419,7 +2446,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "18.4",
   "title": "Structural Ambiguity",
-  "body": " Structural Ambiguity  Some sentences are grammatically correct but structurally ambiguous.   PP Attachment    I saw the man with binoculars. (Who had the binoculars?)  Clear: Using binoculars, I saw the man.  Clear: I saw the man who had binoculars.    Coordination Scope    Old men and women gathered. (Are the women old too?)  Clear: Old men and old women gathered.  Clear: Women and old men gathered.    Relative Clause Attachment    The senator's daughter who was at the party left early. (Was the senator or the daughter at the party?)  Clear: The senator's daughter, who was at the party, left early. (daughter at party)  Clear: The daughter of the senator who was at the party left early. (senator at party)   "
+  "body": " Structural Ambiguity  Some sentences are grammatically correct but structurally ambiguous. Structural ambiguity occurs when a sentence can be parsed in more than one way.   PP Attachment    I saw the man with binoculars. (Who had the binoculars?)  Clear: Using binoculars, I saw the man.  Clear: I saw the man who had binoculars.    Coordination Scope    Old men and women gathered. (Are the women old too?)  Clear: Old men and old women gathered.  Clear: Women and old men gathered.    Relative Clause Attachment    The senator's daughter who was at the party left early. (Was the senator or the daughter at the party?)  Clear: The senator's daughter, who was at the party, left early. (daughter at party)  Clear: The daughter of the senator who was at the party left early. (senator at party)   "
+},
+{
+  "id": "ch-18-clarity-and-readability-sec-184-2",
+  "level": "2",
+  "url": "ch-18-clarity-and-readability-sec-184.html#ch-18-clarity-and-readability-sec-184-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Structural ambiguity "
 },
 {
   "id": "ch-18-clarity-and-readability-sec-185",
@@ -2428,7 +2464,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "18.5",
   "title": "Sentence Complexity",
-  "body": " Sentence Complexity  Overly complex sentences impair readability.   Sentence Length   Very long sentences strain working memory. When sentences exceed 25-30 words, consider dividing them:   ~~The committee, which was established by the board last year to investigate the issues raised by employees concerning workplace conditions, submitted its final report, which contained numerous recommendations for improvement, yesterday.~~    Clear: The committee submitted its final report yesterday. The board had established the committee last year to investigate employee concerns about workplace conditions. The report contained numerous recommendations for improvement.    Nested Structures   Multiple embeddings create difficulty:   ~~The book that the professor who teaches the course that I'm taking recommended was unavailable.~~    Clear: I'm taking a course. The professor who teaches it recommended a book, but the book was unavailable.    The Right Level of Complexity   Some complexity is necessary for sophisticated ideas. The goal isn't simplistic prose but appropriate complexity—complex enough for your content, simple enough for your audience.  "
+  "body": " Sentence Complexity  Overly complex sentences impair readability .   Sentence Length   Very long sentences strain working memory. When sentences exceed 25-30 words, consider dividing them:   The committee, which was established by the board last year to investigate the issues raised by employees concerning workplace conditions, submitted its final report, which contained numerous recommendations for improvement, yesterday.    Clear: The committee submitted its final report yesterday. The board had established the committee last year to investigate employee concerns about workplace conditions. The report contained numerous recommendations for improvement.    Nested Structures   Multiple embeddings create difficulty:   The book that the professor who teaches the course that I'm taking recommended was unavailable.    Clear: I'm taking a course. The professor who teaches it recommended a book, but the book was unavailable.    The Right Level of Complexity   Some complexity is necessary for sophisticated ideas. The goal isn't simplistic prose but appropriate complexity—complex enough for your content, simple enough for your audience.  "
+},
+{
+  "id": "ch-18-clarity-and-readability-sec-185-2",
+  "level": "2",
+  "url": "ch-18-clarity-and-readability-sec-185.html#ch-18-clarity-and-readability-sec-185-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "readability "
 },
 {
   "id": "ch-18-clarity-and-readability-sec-186",
@@ -2437,7 +2482,25 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "18.6",
   "title": "Parallel Structure",
-  "body": " Parallel Structure  Coordinated elements should be grammatically parallel.   Faulty Parallelism    ~~She likes swimming , hiking , and to ride bikes .~~  Clear: She likes swimming , hiking , and biking .    ~~The proposal is interesting , innovative , and has potential .~~  Clear: The proposal is interesting , innovative , and promising .    With Correlative Conjunctions   Parallelism is especially important with correlative conjunctions (both...and, either...or, not only...but also):   ~~She not only plays piano but also she sings.~~  Clear: She not only plays piano but also sings.    ~~ Either you leave now or staying late.~~  Clear: Either you leave now or you stay late.   "
+  "body": " Parallel Structure  Coordinated elements should be grammatically parallel. Faulty parallelism occurs when coordinated items are not in the same grammatical form.   Faulty Parallelism    She likes swimming , hiking , and to ride bikes .  Clear: She likes swimming , hiking , and biking .    The proposal is interesting , innovative , and has potential .  Clear: The proposal is interesting , innovative , and promising .    With Correlative Conjunctions   Parallel structure is especially important with correlative conjunctions ( both...and , either...or , not only...but also ):   She not only plays piano but also she sings.  Clear: She not only plays piano but also sings.    Either you leave now or staying late.  Clear: Either you leave now or you stay late.   "
+},
+{
+  "id": "ch-18-clarity-and-readability-sec-186-2",
+  "level": "2",
+  "url": "ch-18-clarity-and-readability-sec-186.html#ch-18-clarity-and-readability-sec-186-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Faulty parallelism "
+},
+{
+  "id": "ch-18-clarity-and-readability-sec-186-7",
+  "level": "2",
+  "url": "ch-18-clarity-and-readability-sec-186.html#ch-18-clarity-and-readability-sec-186-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Parallel structure "
 },
 {
   "id": "ch-18-clarity-and-readability-sec-187",
@@ -2446,7 +2509,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "18.7",
   "title": "Word Choice for Clarity",
-  "body": " Word Choice for Clarity   Precision   Choose words that say exactly what you mean:   Vague: \"The results were interesting .\"  Precise: The results were surprising \/ encouraging \/ contradictory .    Avoiding Jargon   Technical terms are appropriate for technical audiences. For general audiences, use plain language:   Jargon: The initiative was impacted by bandwidth constraints.  Plain: The project was delayed because staff were too busy.    Concrete vs. Abstract   Concrete language is clearer than abstract language:   Abstract: Improvements were made in the area of employee satisfaction.  Concrete: More employees reported being satisfied with their jobs.   "
+  "body": " Word Choice for Clarity   Precision   Choose words that say exactly what you mean:   Vague: The results were interesting .  Precise: The results were surprising \/ encouraging \/ contradictory .    Avoiding Jargon   Technical terms are appropriate for technical audiences. For general audiences, use plain language:   Jargon: The initiative was impacted by bandwidth constraints.  Plain: The project was delayed because staff were too busy.    Concrete vs. Abstract   Concrete language is clearer than abstract language:   Abstract: Improvements were made in the area of employee satisfaction.  Concrete: More employees reported being satisfied with their jobs.   "
 },
 {
   "id": "ch-18-homework",
@@ -2455,16 +2518,79 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "18.8",
   "title": "Homework: Clarity and Readability",
-  "body": " Homework: Clarity and Readability  Instructions: Revise each sentence to clarify pronoun reference. Explain what was unclear in the original.  Question 1.  When John met Mark, he was surprised.  Problem:  Revised:  Question 2.  They say the economy is improving.  Problem:  Revised:  Question 3.  She failed the test, which disappointed her parents.  Problem:  Revised:  Question 4.  The committee reviewed the proposal and rejected it. This caused problems.  Problem:  Revised:  Instructions: Identify the modifier error (dangling, misplaced, or squinting) and revise the sentence.  Question 5.  Having finished dinner, the movie was started.  Error type:  Revised:  Question 6.  She almost failed every exam.  Error type:  Revised:  Question 7.  Students who cheat often get caught.  Error type:  Revised (to clarify both possible meanings):  a) Meaning 1:  b) Meaning 2:  Instructions: Each sentence is ambiguous. Rewrite it two ways to show both possible meanings.  Question 8.  I photographed the elephant with a camera.  Meaning 1:  Revised:  Meaning 2:  Revised:  Question 9.  Bright students and teachers attended the workshop.  Meaning 1:  Revised:  Meaning 2:  Revised:  Question 10.  The professor's assistant who was sick left early.  Meaning 1:  Revised:  Meaning 2:  Revised:  Instructions: Correct each sentence.  Question 11. Correct the parallelism error:  The plan is simple, effective, and it costs little.  Revised:  Question 12. Correct the parallelism error:  She enjoys reading, writing, and to paint.  Revised:  Question 13. Simplify this overly complex sentence:  The report, which was commissioned by the board that was established last year to oversee operations, contains recommendations that, if implemented, would significantly improve efficiency.  Revised:  Instructions: The following paragraph has multiple clarity problems. Identify and fix at least four issues (pronoun reference, modifier placement, structural ambiguity, parallel structure, or excessive complexity).  14.  Walking into the meeting, the tension was immediately apparent. The manager told the employees that they needed to improve. This led to frustration. The proposal was not only expensive but also it would take years to implement. Having reviewed all options carefully, the decision was made to wait. They say that patience is a virtue, which everyone understood.  Revised paragraph:  List the four issues you fixed:  1.  2.  3.  4.   Clear writing requires clear pronoun reference with identifiable antecedents.  Modifier placement affects meaning; misplaced and dangling modifiers create confusion.  Structural ambiguity arises from multiple possible interpretations; revise for clarity.  Sentence complexity should match content and audience.  Parallel structure in coordinated elements aids comprehension.  Precise word choice communicates meaning effectively.   "
+  "body": " Homework: Clarity and Readability   Pronoun Reference   Instructions   Each sentence has a pronoun reference problem (ambiguous, vague, or broad). Identify the problem and revise the sentence for clarity.   Example (completed)   Maria told Sofia that she had won the award.  Problem: Ambiguous reference — she could refer to either Maria or Sofia.  Revised:  Maria told Sofia, You won the award.   Exercises   Exercise 1.  When John met Mark, he was surprised.  Exercise 2.  They say the economy is improving.  Exercise 3.  She failed the test, which disappointed her parents.  Exercise 4.  The committee reviewed the proposal and rejected it. This caused problems.  Exercise 5.  The teacher told the student that her presentation needed work.    Modifier Placement   Instructions   Each sentence has a modifier error. Identify the error type (dangling, misplaced, or squinting) and revise the sentence.   Example (completed)   Running through the park, the rain started.  Error type: Dangling modifier — the rain was not running through the park.  Revised:  Running through the park, I got caught in the rain.   Exercises   Exercise 6.  Having finished dinner, the movie was started.  Exercise 7.  She almost failed every exam.  Exercise 8.  Students who cheat often get caught. (This is a squinting modifier. Revise to clarify both possible meanings.)  Exercise 9.  To earn a good grade, the assignment must be completed carefully.  Exercise 10.  He only eats organic food on weekdays.    Structural Ambiguity   Instructions   Each sentence is structurally ambiguous. Explain both possible meanings and rewrite the sentence two ways to show each meaning clearly.   Example (completed)   I saw the man with binoculars.  Meaning 1: I used binoculars to see the man. (PP with binoculars modifies VP)  Revised:  Using binoculars, I saw the man.  Meaning 2: The man had binoculars. (PP with binoculars modifies NP)  Revised:  I saw the man who had binoculars.   Exercises   Exercise 11.  I photographed the elephant with a camera.  Exercise 12.  Bright students and teachers attended the workshop.  Exercise 13.  The professor's assistant who was sick left early.  Exercise 14.  She watched the children playing in the park.    Parallel Structure and Sentence Complexity   Instructions   For Exercises 15–17, correct the parallelism error. For Exercises 18–19, simplify the overly complex sentence into two or more clear sentences.   Example (completed)   Parallelism:  The plan is simple, effective, and it costs little.  Revised:  The plan is simple, effective, and inexpensive.  The coordinated adjectives ( simple , effective , inexpensive ) are now all the same form.   Exercises   Exercise 15. Correct the parallelism error: She enjoys reading, writing, and to paint.  Exercise 16. Correct the parallelism error: The job requires experience, dedication, and being creative.  Exercise 17. Correct the parallelism error: He not only finished the report but also he proofread the entire document.  Exercise 18. Simplify: The report, which was commissioned by the board that was established last year to oversee operations, contains recommendations that, if implemented, would significantly improve efficiency.  Exercise 19. Simplify: The student, who had already completed the assignment that the professor assigned last week during the lecture that was held in the auditorium, submitted it early.    Comprehensive Revision   Instructions   The following paragraph has multiple clarity problems. Revise it for clarity and list at least four specific issues you fixed (pronoun reference, modifier placement, structural ambiguity, parallel structure, or excessive complexity).   Exercises   Exercise 20. Revise the following paragraph and list four issues you fixed:  Walking into the meeting, the tension was immediately apparent. The manager told the employees that they needed to improve. This led to frustration. The proposal was not only expensive but also it would take years to implement. Having reviewed all options carefully, the decision was made to wait. They say that patience is a virtue, which everyone understood.   "
 },
 {
-  "id": "ch-18-clarity-and-readability-11",
+  "id": "ch-18-summary",
   "level": "1",
-  "url": "ch-18-clarity-and-readability-11.html",
-  "type": "Glossary",
+  "url": "ch-18-summary.html",
+  "type": "Section",
   "number": "18.9",
+  "title": "Chapter Summary",
+  "body": " Chapter Summary   Clear writing requires clear pronoun reference with identifiable antecedents.  Modifier placement affects meaning; misplaced and dangling modifiers create confusion.  Structural ambiguity arises from multiple possible interpretations; revise for clarity.  Sentence complexity should match content and audience.  Parallel structure in coordinated elements aids comprehension.  Precise word choice communicates meaning effectively.   "
+},
+{
+  "id": "ch-18-summary-2-1-1",
+  "level": "2",
+  "url": "ch-18-summary.html#ch-18-summary-2-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "clear pronoun reference "
+},
+{
+  "id": "ch-18-summary-2-2-1",
+  "level": "2",
+  "url": "ch-18-summary.html#ch-18-summary-2-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Modifier placement "
+},
+{
+  "id": "ch-18-summary-2-3-1",
+  "level": "2",
+  "url": "ch-18-summary.html#ch-18-summary-2-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Structural ambiguity "
+},
+{
+  "id": "ch-18-summary-2-4-1",
+  "level": "2",
+  "url": "ch-18-summary.html#ch-18-summary-2-4-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Sentence complexity "
+},
+{
+  "id": "ch-18-summary-2-5-1",
+  "level": "2",
+  "url": "ch-18-summary.html#ch-18-summary-2-5-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Parallel structure "
+},
+{
+  "id": "ch-18-summary-2-6-1",
+  "level": "2",
+  "url": "ch-18-summary.html#ch-18-summary-2-6-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Precise word choice "
+},
+{
+  "id": "ch-18-clarity-and-readability-12",
+  "level": "1",
+  "url": "ch-18-clarity-and-readability-12.html",
+  "type": "Glossary",
+  "number": "18.10",
   "title": "Glossary",
-  "body": " Glossary   Ambiguity  When a sentence has more than one possible interpretation.    Antecedent  The noun that a pronoun refers to.    Dangling modifier  A modifier that doesn't logically connect to any element in the sentence.    Misplaced modifier  A modifier positioned away from what it modifies, creating confusion.    Parallel structure  Grammatical similarity among coordinated elements.    Pronoun reference  The relationship between a pronoun and its antecedent.    Readability  The ease with which text can be read and understood.    Squinting modifier  A modifier ambiguously positioned between two elements.   "
+  "body": " Glossary   Ambiguity  When a sentence has more than one possible interpretation.    Antecedent  The noun that a pronoun refers to.    Dangling modifier  A modifier that doesn't logically connect to any element in the sentence.    Faulty parallelism  A coordination error where joined elements are not in the same grammatical form.    Misplaced modifier  A modifier positioned away from what it modifies, creating confusion.    Parallel structure  Grammatical similarity among coordinated elements.    Pronoun reference  The relationship between a pronoun and its antecedent.    Readability  The ease with which text can be read and understood.    Squinting modifier  A modifier ambiguously positioned between two elements it could modify.    Structural ambiguity  When a sentence's grammatical structure allows more than one interpretation.   "
 },
 {
   "id": "ch-19-organization-and-concision-sec-191",

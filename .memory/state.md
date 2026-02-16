@@ -1,6 +1,6 @@
 # Project State
 
-Task: 31
+Task: 34
 Last updated: 2026-02-15
 
 ## Overview
@@ -8,11 +8,12 @@ Last updated: 2026-02-15
 
 ## Active Threads
 - **Systematic chapter improvement** — Working through chapters one at a time. Process documented in `.memory/chapter-improvement-process.md`. Each chapter gets: diagram audit, `<foreign>` formatting, homework review/fixes, Word file generation, build+push.
-- **Language example formatting rollout** — Chapters 1-16 completed. Chapter 17 is actively being improved.
-- **Homework difficulty calibration** — Ch8-16 assessed as appropriate (18-26 exercises each, 5 parts, scaffolded progression). Continue monitoring.
+- **Language example formatting rollout** — Chapters 1-18 completed. Chapter 19 is next.
+- **Homework difficulty calibration** — Ch8-18 assessed as appropriate (18-26 exercises each, 5 parts, scaffolded progression). Continue monitoring.
+- **Exam One creation** — Exam One (Spring 2026, Chapters 4-7) completed: student exam, answer key with diagrams, .docx generation script. All SyntaxTreeHybrid diagrams generated and embedded.
 
 ## Currently Working On
-- **Chapter 17 improvement** (Stylistic Choices) — Actively starting improvement process: diagram audit, `<foreign>` formatting, homework fixes, Word file generation.
+- **Chapter 18 improvement** (Clarity and Readability) — Completed. Awaiting commit.
 
 ## Completed Chapters
 - Chapters 1-6: `<foreign>` formatting only
@@ -26,10 +27,13 @@ Last updated: 2026-02-15
 - Chapter 14: Full improvement (147 `<foreign>` instances — 395ae45)
 - Chapter 15: Full improvement (98 `<foreign>` instances — 89f308d)
 - Chapter 16: Full improvement (126 `<foreign>` instances — b6f048e)
+- Chapter 17: Full improvement (Stylistic Choices — 1899dee)
+- Chapter 18: Full improvement (83 `<foreign>` instances, 20 exercises)
 
 ## Next Steps
-- Complete Chapter 17 improvement (Stylistic Choices)
-- Continue with Chapters 18-21
+- Commit and push Chapter 18
+- Improve Chapter 19 (Organization and Concision)
+- Continue with Chapters 20-21
 
 ## Notes
 - **Snapshot schedule:** `state-t20.md` and `state-t30.md` exist. Next snapshot at Task 40.
@@ -37,5 +41,7 @@ Last updated: 2026-02-15
 - **Ch8 unused NP diagrams:** 8 ch08_np_* PNGs exist but are not in the Diagram Examples section. Could add later.
 - **Ch13 note:** Chapter is titled "Adjectivals" (not "Nominals" as listed in some references). Diagram Examples section had misleading "nominal structures" description — corrected to "complement clause structures."
 - **Ch14 note:** Chapter titled "Nominals." Diagram Examples section actually contains adjectival structure diagrams — mismatch but left as-is for now.
-- **Ch15 note:** No diagrams. Fixed severely malformed apostrophe section headings (lines 276, 283 had `*<em>` asterisk markdown artifacts). Fixed `~~` ungrammatical examples with `<delete>`.
-- **Ch16 note:** No diagrams (2 ch16_* PNGs exist but not referenced in chapter). Removed empty objective list item. Homework restructured from flat format (14 Questions, no subsections) to 5-part format (21 Exercises). Added `<term>` for key grammatical terms. Fixed nested `<em><em>` patterns. Converted `~~` parallelism errors to `<delete>`.
+- **Ch15 note:** No diagrams. Fixed severely malformed apostrophe section headings. Fixed `~~` ungrammatical examples with `<delete>`.
+- **Ch16 note:** No diagrams. Homework restructured from flat format to 5-part format.
+- **Ch18 note:** No diagrams. Fixed learning objectives (separated Key Terms from objectives, removed `--` placeholder). Added `<term>` for key terms (misplaced modifier, squinting modifier, dangling modifier, structural ambiguity, readability, faulty parallelism, parallel structure). Converted all `~~` to `<foreign><delete>`. Fixed `<delete><foreign>` nesting to `<foreign><delete>`. Homework restructured from flat 14-question format to 5-part format (20 exercises). Added Chapter Summary section.
+- **Exam One:** Covers Chapters 4-7. 100 pts + 10 bonus. .docx generation script at `Homework/Exams/generate_exam_docx.py`.
