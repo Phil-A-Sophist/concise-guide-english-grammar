@@ -489,7 +489,7 @@
       <li><p><em>Role</em> (top row): The grammatical function of a word or group of words in the sentence.</p></li>
       <li><p><em>Phrase</em>: The phrase type that the word belongs to (NP, VP, PP, ADJP, ADVP).</p></li>
       <li><p><em>Word</em>: The actual words of the sentence, one per column.</p></li>
-      <li><p><em>Part of Speech</em> (bottom row): The word-level category (N, V, DET, ADJ, ADV, PREP, etc.).</p></li>
+      <li><p><em>Part of Speech</em>, abbreviated <em>POS</em> (bottom row): The word-level category (N, V, DET, ADJ, ADV, PREP, etc.).</p></li>
     </ol>
 
     <p>Each column represents one word. When a role or phrase spans multiple words, the label appears in the first column of that group, and the remaining columns in the group are left empty.</p>
@@ -986,17 +986,12 @@
         <col halign="center" right="minor"/>
         <row header="yes" bottom="minor">
           <cell>Role</cell>
-          <cell>_____</cell>
-          <cell>_____</cell>
-          <cell>_____</cell>
-          <cell>_____</cell>
-          <cell>_____</cell>
+          <cell colspan="3">_____</cell>
+          <cell colspan="2">_____</cell>
         </row>
         <row bottom="minor">
           <cell>Phrase</cell>
-          <cell>_____</cell>
-          <cell>_____</cell>
-          <cell>_____</cell>
+          <cell colspan="3">_____</cell>
           <cell>_____</cell>
           <cell>_____</cell>
         </row>
@@ -1034,11 +1029,9 @@
         </row>
         <row bottom="minor">
           <cell>Phrase</cell>
+          <cell colspan="2">_____</cell>
           <cell>_____</cell>
-          <cell>_____</cell>
-          <cell>_____</cell>
-          <cell>_____</cell>
-          <cell>_____</cell>
+          <cell colspan="2">_____</cell>
         </row>
         <row bottom="minor">
           <cell>Word</cell>
