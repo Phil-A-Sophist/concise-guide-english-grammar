@@ -497,7 +497,7 @@ def create_answer_key(output_path, font_size=12):
     run = p.add_run('Exercise 13. ')
     run.bold = True
     run.font.size = Pt(font_size)
-    run = p.add_run('I shot an elephant in my pajamas.')
+    run = p.add_run('I shot an elephant in my pajamas. How he got in my pajamas, I will never know.')
     run.italic = True
     run.font.size = Pt(font_size)
     set_paragraph_spacing(p, space_before=6, space_after=3)
@@ -612,7 +612,49 @@ def create_answer_key(output_path, font_size=12):
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('c) Model response:')
+    run = p.add_run('c) Bracket notation for each reading:')
+    run.bold = True
+    run.font.size = Pt(font_size)
+    set_paragraph_spacing(p, space_before=3, space_after=2)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.7)
+    run = p.add_run('Diagram 1 — Garden-path (incorrect) reading: ')
+    run.bold = True
+    run.font.size = Pt(font_size)
+    run = p.add_run('[S [NP [DET The] [N horse]] [VP [V raced] [PP [PREP past] [NP [DET the] [N barn]]]]] + fell ???')
+    run.font.name = 'Consolas'
+    run.font.size = Pt(font_size - 1)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.7)
+    run = p.add_run(
+        'In the garden-path reading, "raced" is parsed as the main verb with "past the barn" '
+        'as a PP inside the VP. This leaves "fell" with no grammatical role, which is why the '
+        'sentence seems to break.'
+    )
+    run.font.size = Pt(font_size)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.7)
+    run = p.add_run('Diagram 2 — Correct reading: ')
+    run.bold = True
+    run.font.size = Pt(font_size)
+    run = p.add_run('[S [NP [DET The] [N horse] [VP [V raced] [PP [PREP past] [NP [DET the] [N barn]]]]] [VP [V fell]]]')
+    run.font.name = 'Consolas'
+    run.font.size = Pt(font_size - 1)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.7)
+    run = p.add_run(
+        'In the correct reading, "raced past the barn" is a reduced relative clause inside the '
+        'subject NP (modifying "horse"), and "fell" is the main verb of the sentence.'
+    )
+    run.font.size = Pt(font_size)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.35)
+    run = p.add_run('d) Model response:')
     run.bold = True
     run.font.size = Pt(font_size)
     set_paragraph_spacing(p, space_before=3, space_after=2)
@@ -628,32 +670,6 @@ def create_answer_key(output_path, font_size=12):
         'feels confusing. Garden-path sentences demonstrate that sentence comprehension is not just '
         'about knowing the words — it requires actively building and sometimes revising hierarchical '
         'structure in real time.'
-    )
-    run.font.size = Pt(font_size)
-
-    # Exercise 15
-    p = doc.add_paragraph()
-    run = p.add_run('Exercise 15. ')
-    run.bold = True
-    run.font.size = Pt(font_size)
-    set_paragraph_spacing(p, space_before=6, space_after=3)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('Model response:')
-    run.bold = True
-    run.font.size = Pt(font_size)
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.7)
-    run = p.add_run(
-        'Understanding hierarchical sentence structure matters because meaning depends on how words '
-        'are grouped, not just on the words themselves. For example, the sentence "I saw the man with '
-        'binoculars" is ambiguous: it could mean I used binoculars to see the man, or I saw a man '
-        'who had binoculars. A tree diagram reveals these two structures by showing different PP '
-        'attachment points. For writing, this awareness helps us construct sentences whose structure '
-        'guides readers to the intended meaning, avoiding accidental ambiguity.'
     )
     run.font.size = Pt(font_size)
 
