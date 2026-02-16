@@ -190,7 +190,7 @@
 
 <table>
 <tr><th>Role</th><td colspan="2">Subject</td><td colspan="1">Predicate</td></tr>
-<tr><th>Phrase</th><td colspan="2">NP</td><td colspan="1">MVP</td></tr>
+<tr><th>Phrase</th><td colspan="2">NP</td><td colspan="1">VP</td></tr>
 <tr><th>Word</th><td>The</td><td>dog</td><td>barked</td></tr>
 <tr><th>POS</th><td>DET</td><td>N</td><td>V</td></tr>
 </table>
@@ -205,7 +205,7 @@ Bracket notation: `[S [NP [DET The] [N dog]] [VP [V barked]]]`
 
 <table>
 <tr><th>Role</th><td colspan="3">Subject</td><td colspan="5">Predicate</td></tr>
-<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="1">MVP</td><td colspan="1">ADVP</td><td colspan="3">PP</td></tr>
+<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="1">VP</td><td colspan="1">ADVP</td><td colspan="3">PP</td></tr>
 <tr><th>Word</th><td>The</td><td>happy</td><td>children</td><td>played</td><td>quietly</td><td>in</td><td>the</td><td>park</td></tr>
 <tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td><td>PREP</td><td>DET</td><td>N</td></tr>
 </table>
@@ -220,7 +220,7 @@ Bracket notation: `[S [NP [DET The] [ADJP [ADJ happy]] [N children]] [VP [V play
 
 <table>
 <tr><th>Role</th><td colspan="4">Subject</td><td colspan="2">Predicate</td></tr>
-<tr><th>Phrase</th><td colspan="2">NP</td><td colspan="2">PP</td><td colspan="1">MVP</td><td colspan="1">ADVP</td></tr>
+<tr><th>Phrase</th><td colspan="2">NP</td><td colspan="2">PP</td><td colspan="1">VP</td><td colspan="1">ADVP</td></tr>
 <tr><th>Word</th><td>The</td><td>teacher</td><td>from</td><td>Texas</td><td>arrived</td><td>early</td></tr>
 <tr><th>POS</th><td>DET</td><td>N</td><td>PREP</td><td>N</td><td>V</td><td>ADV</td></tr>
 </table>
@@ -235,7 +235,7 @@ Bracket notation: `[S [NP [DET The] [N teacher] [PP [PREP from] [NP [N Texas]]]]
 
 <table>
 <tr><th>Role</th><td colspan="3">Subject</td><td colspan="6">Predicate</td></tr>
-<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="1">MVP</td><td colspan="1">ADVP</td><td colspan="4">PP</td></tr>
+<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="1">VP</td><td colspan="1">ADVP</td><td colspan="4">PP</td></tr>
 <tr><th>Word</th><td>Many</td><td>talented</td><td>musicians</td><td>performed</td><td>brilliantly</td><td>during</td><td>the</td><td>annual</td><td>festival</td></tr>
 <tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td><td>PREP</td><td>DET</td><td>ADJ</td><td>N</td></tr>
 </table>
@@ -250,7 +250,7 @@ Bracket notation: `[S [NP [DET Many] [ADJP [ADJ talented]] [N musicians]] [VP [V
 
 <table>
 <tr><th>Role</th><td colspan="6">Subject</td><td colspan="3">Predicate</td></tr>
-<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="3">PP</td><td colspan="1">MVP</td><td colspan="2">ADVP</td></tr>
+<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="3">PP</td><td colspan="1">VP</td><td colspan="2">ADVP</td></tr>
 <tr><th>Word</th><td>The</td><td>young</td><td>artist</td><td>with</td><td>curly</td><td>hair</td><td>painted</td><td>quite</td><td>skillfully</td></tr>
 <tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>PREP</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td><td>ADV</td></tr>
 </table>

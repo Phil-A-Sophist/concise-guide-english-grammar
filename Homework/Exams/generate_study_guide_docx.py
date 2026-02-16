@@ -139,7 +139,7 @@ def add_labeling_table(doc, words, pos_labels=None, phrase_labels=None, role_lab
         cell = table.rows[i].cells[0]
         cell.text = ""
         p = cell.paragraphs[0]
-        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p.alignment = WD_ALIGN_PARAGRAPH.LEFT
         add_run(p, header, bold=True, font_size=font_size)
         set_cell_shading(cell, "E8E8E8")
 
@@ -366,7 +366,7 @@ SECTION_B = [
         "sentence": "The dog barked.",
         "words": ["The", "dog", "barked"],
         "pos": ["DET", "N", "V"],
-        "phrases": ["NP", "", "MVP"],
+        "phrases": ["NP", "", "VP"],
         "roles": ["Subject", "", "Predicate"],
         "bracket": "[S [NP [DET The] [N dog]] [VP [V barked]]]",
         "diagram": "sg_q14_dog_barked",
@@ -377,7 +377,7 @@ SECTION_B = [
         "sentence": "The happy children played quietly in the park.",
         "words": ["The", "happy", "children", "played", "quietly", "in", "the", "park"],
         "pos": ["DET", "ADJ", "N", "V", "ADV", "PREP", "DET", "N"],
-        "phrases": ["NP", "", "", "MVP", "ADVP", "PP", "", ""],
+        "phrases": ["NP", "", "", "VP", "ADVP", "PP", "", ""],
         "roles": ["Subject", "", "", "Predicate", "", "", "", ""],
         "bracket": "[S [NP [DET The] [ADJP [ADJ happy]] [N children]] [VP [V played] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N park]]]]]",
         "diagram": "sg_q15_children_played",
@@ -388,7 +388,7 @@ SECTION_B = [
         "sentence": "The teacher from Texas arrived early.",
         "words": ["The", "teacher", "from", "Texas", "arrived", "early"],
         "pos": ["DET", "N", "PREP", "N", "V", "ADV"],
-        "phrases": ["NP", "", "PP", "", "MVP", "ADVP"],
+        "phrases": ["NP", "", "PP", "", "VP", "ADVP"],
         "roles": ["Subject", "", "", "", "Predicate", ""],
         "bracket": "[S [NP [DET The] [N teacher] [PP [PREP from] [NP [N Texas]]]] [VP [V arrived] [ADVP [ADV early]]]]",
         "diagram": "sg_q16_teacher_arrived",
@@ -399,7 +399,7 @@ SECTION_B = [
         "sentence": "Many talented musicians performed brilliantly during the annual festival.",
         "words": ["Many", "talented", "musicians", "performed", "brilliantly", "during", "the", "annual", "festival"],
         "pos": ["DET", "ADJ", "N", "V", "ADV", "PREP", "DET", "ADJ", "N"],
-        "phrases": ["NP", "", "", "MVP", "ADVP", "PP", "", "", ""],
+        "phrases": ["NP", "", "", "VP", "ADVP", "PP", "", "", ""],
         "roles": ["Subject", "", "", "Predicate", "", "", "", "", ""],
         "bracket": "[S [NP [DET Many] [ADJP [ADJ talented]] [N musicians]] [VP [V performed] [ADVP [ADV brilliantly]] [PP [PREP during] [NP [DET the] [ADJP [ADJ annual]] [N festival]]]]]",
         "diagram": "sg_q17_musicians_performed",
@@ -410,7 +410,7 @@ SECTION_B = [
         "sentence": "The young artist with curly hair painted quite skillfully.",
         "words": ["The", "young", "artist", "with", "curly", "hair", "painted", "quite", "skillfully"],
         "pos": ["DET", "ADJ", "N", "PREP", "ADJ", "N", "V", "ADV", "ADV"],
-        "phrases": ["NP", "", "", "PP", "", "", "MVP", "ADVP", ""],
+        "phrases": ["NP", "", "", "PP", "", "", "VP", "ADVP", ""],
         "roles": ["Subject", "", "", "", "", "", "Predicate", "", ""],
         "bracket": "[S [NP [DET The] [ADJP [ADJ young]] [N artist] [PP [PREP with] [NP [ADJP [ADJ curly]] [N hair]]]] [VP [V painted] [ADVP [ADVP [ADV quite]] [ADV skillfully]]]]",
         "diagram": "sg_q18_artist_painted",
@@ -422,7 +422,7 @@ EXAMPLE_SENTENCE = {
     "sentence": "The old man sat quietly.",
     "words": ["The", "old", "man", "sat", "quietly"],
     "pos": ["DET", "ADJ", "N", "V", "ADV"],
-    "phrases": ["NP", "", "", "MVP", "ADVP"],
+    "phrases": ["NP", "", "", "VP", "ADVP"],
     "roles": ["Subject", "", "", "Predicate", ""],
     "bracket": "[S [NP [DET The] [ADJP [ADJ old]] [N man]] [VP [V sat] [ADVP [ADV quietly]]]]",
     "diagram": "example_old_man_sat",
@@ -570,7 +570,7 @@ def create_document(is_answer_key=False):
     abbrev_data = [
         ["Noun = N", "Noun Phrase = NP", "Subject = Subj"],
         ["Verb = V", "Verb Phrase = VP", "Predicate = Pred"],
-        ["Adjective = ADJ", "Main Verb Phrase = MVP", ""],
+        ["Adjective = ADJ", "", ""],
         ["Adverb = ADV", "Adjective Phrase = ADJP", ""],
         ["Determiner = DET", "Adverb Phrase = ADVP", ""],
         ["Preposition = PREP", "Prepositional Phrase = PP", ""],
@@ -593,7 +593,7 @@ def create_document(is_answer_key=False):
     p = doc.add_paragraph()
     add_run(p, "Notes:", bold=True, font_size=10)
     for note in [
-        "In the Phrase row, label the main verb as MVP (Main Verb Phrase). The MVP includes only the main verb itself.",
+        "In the Phrase row, label the main verb as VP (Verb Phrase). The VP label in the table applies to just the main verb itself.",
         "In the Role row, label the subject noun phrase as Subject and the verb phrase as Predicate. Leave other role cells empty.",
         "Always include a phrase level for nouns, verbs, adjectives, adverbs, and prepositions."
     ]:

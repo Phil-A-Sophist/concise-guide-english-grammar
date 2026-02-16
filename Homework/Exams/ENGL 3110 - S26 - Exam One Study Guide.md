@@ -205,7 +205,7 @@
 |---|---|---|
 | Noun = N | Noun Phrase = NP | Subject = Subj |
 | Verb = V | Verb Phrase = VP | Predicate = Pred |
-| Adjective = ADJ | Main Verb Phrase = MVP | |
+| Adjective = ADJ | | |
 | Adverb = ADV | Adjective Phrase = ADJP | |
 | Determiner = DET | Adverb Phrase = ADVP | |
 | Preposition = PREP | Prepositional Phrase = PP | |
@@ -213,7 +213,7 @@
 
 **Notes:**
 
-1. In the Phrase row, label the main verb as **MVP** (Main Verb Phrase). The MVP includes only the main verb itself.
+1. In the Phrase row, label the main verb as **VP** (Verb Phrase). The VP label in the table applies to just the main verb itself.
 2. In the Role row, label the subject noun phrase as **Subject** and the verb phrase as **Predicate**. Leave other role cells empty.
 3. Always include a phrase level for nouns, verbs, adjectives, adverbs, and prepositions.
 
@@ -223,7 +223,7 @@
 
 <table>
 <tr><th>Role</th><td colspan="3">Subject</td><td colspan="2">Predicate</td></tr>
-<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="1">MVP</td><td colspan="1">ADVP</td></tr>
+<tr><th>Phrase</th><td colspan="3">NP</td><td colspan="1">VP</td><td colspan="1">ADVP</td></tr>
 <tr><th>Word</th><td>The</td><td>old</td><td>man</td><td>sat</td><td>quietly</td></tr>
 <tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td></tr>
 </table>

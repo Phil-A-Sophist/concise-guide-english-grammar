@@ -57,7 +57,7 @@ def add_answer_table(doc, headers, rows, font_size=11):
         for paragraph in cell.paragraphs:
             paragraph.text = ""
         p = cell.paragraphs[0]
-        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p.alignment = WD_ALIGN_PARAGRAPH.LEFT if start_idx == 0 else WD_ALIGN_PARAGRAPH.CENTER
         run = p.add_run(label)
         run.bold = True
         run.font.size = Pt(font_size)
@@ -78,7 +78,7 @@ def add_answer_table(doc, headers, rows, font_size=11):
                 for paragraph in cell.paragraphs:
                     paragraph.text = ""
                 p = cell.paragraphs[0]
-                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p.alignment = WD_ALIGN_PARAGRAPH.LEFT if start_idx == 0 else WD_ALIGN_PARAGRAPH.CENTER
                 run = p.add_run(label)
                 run.font.size = Pt(font_size)
         else:
@@ -86,7 +86,7 @@ def add_answer_table(doc, headers, rows, font_size=11):
                 cell = table.rows[i + 1].cells[j]
                 cell.text = cell_text
                 for paragraph in cell.paragraphs:
-                    paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT if j == 0 else WD_ALIGN_PARAGRAPH.CENTER
                     for run in paragraph.runs:
                         run.font.size = Pt(font_size)
 
