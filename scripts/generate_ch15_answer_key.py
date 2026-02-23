@@ -19,35 +19,63 @@ def set_paragraph_spacing(paragraph, space_before=0, space_after=0):
     pPr.append(spacing)
 
 
-def add_exercise(doc, number, sentence, font_size):
+def add_spacer_row(doc):
+    """Add a blank spacer paragraph in Times New Roman 20 (no text, for instructor notes)."""
+    p = doc.add_paragraph()
+    run = p.add_run()
+    run.font.name = 'Times New Roman'
+    run.font.size = Pt(20)
+    pPr = p._p.get_or_add_pPr()
+    rPr = OxmlElement('w:rPr')
+    rFonts = OxmlElement('w:rFonts')
+    rFonts.set(qn('w:ascii'), 'Times New Roman')
+    rFonts.set(qn('w:hAnsi'), 'Times New Roman')
+    rPr.append(rFonts)
+    sz = OxmlElement('w:sz')
+    sz.set(qn('w:val'), '40')  # 20pt = 40 half-points
+    rPr.append(sz)
+    pPr.append(rPr)
+    set_paragraph_spacing(p, space_before=0, space_after=0)
+    return p
+
+
+def add_exercise(doc, number, sentence, font_size, font_name=None):
     """Add an exercise header with sentence."""
     p = doc.add_paragraph()
     run = p.add_run(f'Exercise {number}. ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     if sentence:
         run = p.add_run(sentence)
         run.italic = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     set_paragraph_spacing(p, space_before=6, space_after=3)
     return p
 
 
-def add_answer_line(doc, label, answer, font_size, indent=0.35):
+def add_answer_line(doc, label, answer, font_size, indent=0.35, font_name=None):
     """Add a label: answer line."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
     run = p.add_run(f'{label} ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     run = p.add_run(answer)
     run.italic = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
+def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None, font_name=None):
     """Add a plain text line with optional bold prefix."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
@@ -55,86 +83,122 @@ def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
         run = p.add_run(bold_prefix)
         run.bold = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     run = p.add_run(text)
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def create_answer_key(output_path, font_size=12):
+def create_answer_key(output_path, font_size=12, overhead=False):
     """Create the Chapter 15 Answer Key document."""
+    if overhead:
+        body_font = 'Arial Narrow'
+        body_size = 18
+        heading1_size = 22
+        heading2_size = 20
+        heading3_size = 16
+        table_size = 16
+        bracket_size = 15
+    else:
+        body_font = 'Garamond'
+        body_size = font_size
+        heading1_size = 16
+        heading2_size = 14
+        heading3_size = 12
+        table_size = font_size - 1
+        bracket_size = font_size - 1
+
     doc = Document()
 
     style = doc.styles['Normal']
-    style.font.name = 'Garamond'
-    style.font.size = Pt(font_size)
+    style.font.name = body_font
+    style.font.size = Pt(body_size)
 
     for i in range(1, 4):
         heading_style = doc.styles[f'Heading {i}']
-        heading_style.font.name = 'Open Sans'
+        heading_style.font.name = 'Open Sans' if not overhead else 'Arial Narrow'
         heading_style.font.bold = True
 
     # Title
     title = doc.add_heading('Chapter 15: Punctuation', level=1)
-    title.runs[0].font.size = Pt(16 if font_size == 12 else 22)
+    title.runs[0].font.size = Pt(heading1_size)
     set_paragraph_spacing(title, space_before=0, space_after=6)
 
     subtitle = doc.add_heading('Answer Key', level=2)
-    subtitle.runs[0].font.size = Pt(14 if font_size == 12 else 20)
+    subtitle.runs[0].font.size = Pt(heading2_size)
     set_paragraph_spacing(subtitle, space_before=0, space_after=12)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 1: Comma Usage
     # =============================================
+    doc.add_page_break()
     part = doc.add_heading('Part 1: Comma Usage', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 1
-    add_exercise(doc, 1, 'When the storm passed we surveyed the damage and began cleanup efforts.', font_size)
-    add_answer_line(doc, 'Corrected:', 'When the storm passed, we surveyed the damage and began cleanup efforts.', font_size)
-    add_plain_line(doc, 'Function: comma after introductory adverb clause', font_size)
+    add_exercise(doc, 1, 'When the storm passed we surveyed the damage and began cleanup efforts.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Corrected:', 'When the storm passed, we surveyed the damage and began cleanup efforts.', body_size, font_name=body_font)
+    add_plain_line(doc, 'Function: comma after introductory adverb clause', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 2
-    add_exercise(doc, 2, 'She is talented hardworking and creative.', font_size)
-    add_answer_line(doc, 'Corrected:', 'She is talented, hardworking, and creative.', font_size)
-    add_plain_line(doc, 'Function: commas separating items in a series (Oxford comma before "and")', font_size)
+    add_exercise(doc, 2, 'She is talented hardworking and creative.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Corrected:', 'She is talented, hardworking, and creative.', body_size, font_name=body_font)
+    add_plain_line(doc, 'Function: commas separating items in a series (Oxford comma before "and")', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 3
-    add_exercise(doc, 3, 'My brother who lives in Seattle is visiting next week.', font_size)
-    add_answer_line(doc, 'Corrected:', 'My brother, who lives in Seattle, is visiting next week.', font_size)
+    add_exercise(doc, 3, 'My brother who lives in Seattle is visiting next week.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Corrected:', 'My brother, who lives in Seattle, is visiting next week.', body_size, font_name=body_font)
     add_plain_line(doc,
         'Function: commas setting off nonrestrictive relative clause (assumes the speaker has only one brother; '
         'if the speaker has multiple brothers, no commas would be needed \u2014 the clause would be restrictive)',
-        font_size)
+        body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 4
-    add_exercise(doc, 4, 'The meeting was productive but it ran overtime.', font_size)
-    add_answer_line(doc, 'Corrected:', 'The meeting was productive, but it ran overtime.', font_size)
-    add_plain_line(doc, 'Function: comma before coordinating conjunction joining two independent clauses', font_size)
+    add_exercise(doc, 4, 'The meeting was productive but it ran overtime.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Corrected:', 'The meeting was productive, but it ran overtime.', body_size, font_name=body_font)
+    add_plain_line(doc, 'Function: comma before coordinating conjunction joining two independent clauses', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 5
-    add_exercise(doc, 5, 'The tall distinguished professor gave an inspiring lecture.', font_size)
-    add_answer_line(doc, 'Corrected:', 'The tall, distinguished professor gave an inspiring lecture.', font_size)
+    add_exercise(doc, 5, 'The tall distinguished professor gave an inspiring lecture.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Corrected:', 'The tall, distinguished professor gave an inspiring lecture.', body_size, font_name=body_font)
     add_plain_line(doc,
         'Function: comma between coordinate adjectives (you can say "tall and distinguished," '
         'so a comma is appropriate)',
-        font_size)
+        body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 6
-    add_exercise(doc, 6, 'The students who completed the assignment received extra credit.', font_size)
+    add_exercise(doc, 6, 'The students who completed the assignment received extra credit.', body_size, font_name=body_font)
     add_plain_line(doc,
         'No comma is needed because "who completed the assignment" is a restrictive relative clause \u2014 '
         'it identifies which students received extra credit (only those who completed the assignment, '
         'not all students). Removing the clause would change the meaning.',
-        font_size)
+        body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 2: Semicolons and Colons
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 2: Semicolons and Colons', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     punctuation = [
         (7, 'She had one goal ( : / ; ) to finish the project on time.',
@@ -152,17 +216,18 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, sentence, choice, reasoning in punctuation:
-        add_exercise(doc, num, sentence, font_size)
-        add_answer_line(doc, 'Choice:', choice, font_size)
-        add_plain_line(doc, reasoning, font_size)
+        add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        add_answer_line(doc, 'Choice:', choice, body_size, font_name=body_font)
+        add_plain_line(doc, reasoning, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 3: Apostrophes
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 3: Apostrophes', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     apostrophes = [
         (11, 'Its important to understand its function in the sentence.',
@@ -184,88 +249,100 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, original, corrected, explanation in apostrophes:
-        add_exercise(doc, num, original, font_size)
-        add_answer_line(doc, 'Corrected:', corrected, font_size)
-        add_plain_line(doc, explanation, font_size)
+        add_exercise(doc, num, original, body_size, font_name=body_font)
+        add_answer_line(doc, 'Corrected:', corrected, body_size, font_name=body_font)
+        add_plain_line(doc, explanation, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 4: Comprehensive Punctuation
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 4: Comprehensive Punctuation', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 16
-    add_exercise(doc, 16, None, font_size)
+    add_exercise(doc, 16, None, body_size, font_name=body_font)
     add_plain_line(doc,
         'When the meeting ended, the participants left quickly; however, several stayed behind '
         'to discuss the proposal. The main question was this: should they proceed?',
-        font_size)
+        body_size, font_name=body_font)
     add_plain_line(doc,
         'Comma after introductory clause; semicolon before "however"; comma after "however"; '
         'period after "proposal"; colon before elaboration; question mark for direct question.',
-        font_size)
+        body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 17
-    add_exercise(doc, 17, None, font_size)
+    add_exercise(doc, 17, None, body_size, font_name=body_font)
     add_plain_line(doc,
         'The report, which took three months to complete, contained the following recommendations: '
         'reduce costs, improve efficiency, and increase employee training. However, the board '
         'rejected all three proposals.',
-        font_size)
+        body_size, font_name=body_font)
     add_plain_line(doc,
         'Commas around nonrestrictive clause; colon before list; commas in series (Oxford comma); '
         'period; comma after "However."',
-        font_size)
+        body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 18
-    add_exercise(doc, 18, None, font_size)
+    add_exercise(doc, 18, None, body_size, font_name=body_font)
     add_plain_line(doc,
         'Dr. Smith, who has been teaching for twenty years, said, "I believe that students '
         'learn best when they\u2019re engaged in meaningful activities."',
-        font_size)
+        body_size, font_name=body_font)
     add_plain_line(doc,
         'Period after "Dr"; commas around nonrestrictive clause; comma before quotation; '
         'quotation marks around direct speech; apostrophe in "they\u2019re"; period inside quotation marks.',
-        font_size)
+        body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 5: Analysis and Application
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 5: Analysis and Application', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 19
-    add_exercise(doc, 19, None, font_size)
+    add_exercise(doc, 19, None, body_size, font_name=body_font)
     add_plain_line(doc,
         '(a) "The students who studied passed the exam." \u2014 Restrictive: only those students '
         'who studied passed. Implies some students didn\u2019t study and didn\u2019t pass.',
-        font_size)
+        body_size, font_name=body_font)
     add_plain_line(doc,
         '(b) "The students, who studied, passed the exam." \u2014 Non-restrictive: all the students '
         'studied, and all of them passed. The clause adds extra information about what the students did.',
-        font_size)
+        body_size, font_name=body_font)
     add_plain_line(doc,
         'The commas change the meaning from identifying a subset (restrictive) to describing the '
         'whole group (non-restrictive). This is a key example of how punctuation affects meaning.',
-        font_size)
+        body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 20
-    add_exercise(doc, 20, None, font_size)
+    add_exercise(doc, 20, None, body_size, font_name=body_font)
     add_plain_line(doc,
         'Open-ended. Accept any paragraph that correctly identifies at least four punctuation marks '
         'with accurate grammatical explanations for each.',
-        font_size)
+        body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 21
-    add_exercise(doc, 21, None, font_size)
+    add_exercise(doc, 21, None, body_size, font_name=body_font)
     add_plain_line(doc,
         'Open-ended reflection. Accept thoughtful answers that demonstrate awareness of '
         'punctuation rules and self-assessment of challenges.',
-        font_size)
+        body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     doc.save(str(output_path))
     print(f"Created: {output_path}")
@@ -282,7 +359,7 @@ def main():
 
     create_answer_key(
         homework_dir / 'Homework 15 Overhead.docx',
-        font_size=22
+        overhead=True
     )
 
 

@@ -19,35 +19,63 @@ def set_paragraph_spacing(paragraph, space_before=0, space_after=0):
     pPr.append(spacing)
 
 
-def add_exercise(doc, number, sentence, font_size):
+def add_spacer_row(doc):
+    """Add a blank spacer paragraph in Times New Roman 20 (no text, for instructor notes)."""
+    p = doc.add_paragraph()
+    run = p.add_run()
+    run.font.name = 'Times New Roman'
+    run.font.size = Pt(20)
+    pPr = p._p.get_or_add_pPr()
+    rPr = OxmlElement('w:rPr')
+    rFonts = OxmlElement('w:rFonts')
+    rFonts.set(qn('w:ascii'), 'Times New Roman')
+    rFonts.set(qn('w:hAnsi'), 'Times New Roman')
+    rPr.append(rFonts)
+    sz = OxmlElement('w:sz')
+    sz.set(qn('w:val'), '40')  # 20pt = 40 half-points
+    rPr.append(sz)
+    pPr.append(rPr)
+    set_paragraph_spacing(p, space_before=0, space_after=0)
+    return p
+
+
+def add_exercise(doc, number, sentence, font_size, font_name=None):
     """Add an exercise header with sentence."""
     p = doc.add_paragraph()
     run = p.add_run(f'Exercise {number}. ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     if sentence:
         run = p.add_run(sentence)
         run.italic = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     set_paragraph_spacing(p, space_before=6, space_after=3)
     return p
 
 
-def add_answer_line(doc, label, answer, font_size, indent=0.35):
+def add_answer_line(doc, label, answer, font_size, indent=0.35, font_name=None):
     """Add a label: answer line."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
     run = p.add_run(f'{label} ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     run = p.add_run(answer)
     run.italic = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
+def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None, font_name=None):
     """Add a plain text line with optional bold prefix."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
@@ -55,73 +83,107 @@ def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
         run = p.add_run(bold_prefix)
         run.bold = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     run = p.add_run(text)
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def create_answer_key(output_path, font_size=12):
+def create_answer_key(output_path, font_size=12, overhead=False):
     """Create the Chapter 11 Answer Key document."""
+    if overhead:
+        body_font = 'Arial Narrow'
+        body_size = 18
+        heading1_size = 22
+        heading2_size = 20
+        heading3_size = 16
+        table_size = 16
+        bracket_size = 15
+    else:
+        body_font = 'Garamond'
+        body_size = font_size
+        heading1_size = 16
+        heading2_size = 14
+        heading3_size = 12
+        table_size = font_size - 1
+        bracket_size = font_size - 1
+
     doc = Document()
 
     style = doc.styles['Normal']
-    style.font.name = 'Garamond'
-    style.font.size = Pt(font_size)
+    style.font.name = body_font
+    style.font.size = Pt(body_size)
 
     for i in range(1, 4):
         heading_style = doc.styles[f'Heading {i}']
-        heading_style.font.name = 'Open Sans'
+        heading_style.font.name = 'Open Sans' if not overhead else 'Arial Narrow'
         heading_style.font.bold = True
 
     # Title
     title = doc.add_heading('Chapter 11: Verbs Part Two \u2014 Voice and Modals', level=1)
-    title.runs[0].font.size = Pt(16 if font_size == 12 else 22)
+    title.runs[0].font.size = Pt(heading1_size)
     set_paragraph_spacing(title, space_before=0, space_after=6)
 
     subtitle = doc.add_heading('Answer Key', level=2)
-    subtitle.runs[0].font.size = Pt(14 if font_size == 12 else 20)
+    subtitle.runs[0].font.size = Pt(heading2_size)
     set_paragraph_spacing(subtitle, space_before=0, space_after=12)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 1: Voice Identification
     # =============================================
+    doc.add_page_break()
     part = doc.add_heading('Part 1: Voice Identification', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 1
-    add_exercise(doc, 1, 'The researchers carefully analyzed the data.', font_size)
-    add_answer_line(doc, 'Voice:', 'active', font_size)
+    add_exercise(doc, 1, 'The researchers carefully analyzed the data.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Voice:', 'active', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 2
-    add_exercise(doc, 2, 'Three errors were discovered in the code.', font_size)
-    add_answer_line(doc, 'Voice:', 'passive', font_size)
-    add_answer_line(doc, 'Agent:', 'none stated', font_size)
-    add_plain_line(doc, 'Active version: "Someone discovered three errors in the code."', font_size)
+    add_exercise(doc, 2, 'Three errors were discovered in the code.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Voice:', 'passive', body_size, font_name=body_font)
+    add_answer_line(doc, 'Agent:', 'none stated', body_size, font_name=body_font)
+    add_plain_line(doc, 'Active version: "Someone discovered three errors in the code."', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 3
-    add_exercise(doc, 3, 'The new policy will be announced tomorrow.', font_size)
-    add_answer_line(doc, 'Voice:', 'passive', font_size)
-    add_answer_line(doc, 'Agent:', 'none stated', font_size)
-    add_plain_line(doc, 'Active version: "Someone/They will announce the new policy tomorrow."', font_size)
+    add_exercise(doc, 3, 'The new policy will be announced tomorrow.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Voice:', 'passive', body_size, font_name=body_font)
+    add_answer_line(doc, 'Agent:', 'none stated', body_size, font_name=body_font)
+    add_plain_line(doc, 'Active version: "Someone/They will announce the new policy tomorrow."', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 4
-    add_exercise(doc, 4, 'Someone stole my bicycle last night.', font_size)
-    add_answer_line(doc, 'Voice:', 'active', font_size)
+    add_exercise(doc, 4, 'Someone stole my bicycle last night.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Voice:', 'active', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 5
-    add_exercise(doc, 5, 'The building was constructed in 1920.', font_size)
-    add_answer_line(doc, 'Voice:', 'passive', font_size)
-    add_answer_line(doc, 'Agent:', 'none stated', font_size)
-    add_plain_line(doc, 'Active version: "Someone/They constructed the building in 1920."', font_size)
+    add_exercise(doc, 5, 'The building was constructed in 1920.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Voice:', 'passive', body_size, font_name=body_font)
+    add_answer_line(doc, 'Agent:', 'none stated', body_size, font_name=body_font)
+    add_plain_line(doc, 'Active version: "Someone/They constructed the building in 1920."', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 2: Voice Transformation
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 2: Voice Transformation', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     transformations = [
         (6, 'Active to passive: The team is preparing the presentation.',
@@ -137,16 +199,17 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, prompt, answer in transformations:
-        add_exercise(doc, num, prompt, font_size)
-        add_answer_line(doc, 'Answer:', answer, font_size)
+        add_exercise(doc, num, prompt, body_size, font_name=body_font)
+        add_answer_line(doc, 'Answer:', answer, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 3: Modal Meaning
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 3: Modal Meaning', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     modals = [
         (11, 'She can speak three languages fluently.',
@@ -164,55 +227,64 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, sentence, answers in modals:
-        add_exercise(doc, num, sentence, font_size)
+        add_exercise(doc, num, sentence, body_size, font_name=body_font)
         for label, answer in answers:
-            add_answer_line(doc, label, answer, font_size)
+            add_answer_line(doc, label, answer, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # Exercise 17
-    add_exercise(doc, 17, None, font_size)
-    add_plain_line(doc, 'Explain the difference between the two uses of must:', font_size)
+    add_exercise(doc, 17, None, body_size, font_name=body_font)
+    add_plain_line(doc, 'Explain the difference between the two uses of must:', body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('a) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('You must wear a seatbelt.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
     add_plain_line(doc,
         'Meaning type: deontic (obligation). The speaker is stating a rule or requirement '
         'that the listener is obligated to follow.',
-        font_size, indent=0.7)
+        body_size, indent=0.7, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('b) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('She\u2019s not answering the phone. She must be asleep.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
     add_plain_line(doc,
         'Meaning type: epistemic (deduction). The speaker is drawing a logical conclusion '
         'based on evidence (she\u2019s not answering), not imposing an obligation.',
-        font_size, indent=0.7)
+        body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 4: Sentence Writing
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 4: Sentence Writing', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     p = doc.add_paragraph()
     run = p.add_run('Exercises 18\u201322 are open-ended. Accept any grammatically correct sentence that meets the stated criteria.')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
     writing = [
@@ -229,21 +301,22 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, structure, sample in writing:
-        add_exercise(doc, num, None, font_size)
-        add_plain_line(doc, f'{structure}:', font_size, bold_prefix='Prompt: ')
-        add_plain_line(doc, f'Sample: {sample}', font_size)
+        add_exercise(doc, num, None, body_size, font_name=body_font)
+        add_plain_line(doc, f'{structure}:', body_size, bold_prefix='Prompt: ', font_name=body_font)
+        add_plain_line(doc, f'Sample: {sample}', body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 5: Analysis and Application
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 5: Analysis and Application', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 23
-    add_exercise(doc, 23, None, font_size)
-    add_plain_line(doc, 'Identify passive voice constructions in the passage:', font_size)
+    add_exercise(doc, 23, None, body_size, font_name=body_font)
+    add_plain_line(doc, 'Identify passive voice constructions in the passage:', body_size, font_name=body_font)
 
     passives = [
         ('was announced (yesterday by the CEO)',
@@ -258,12 +331,15 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for i, (construction, reason) in enumerate(passives, 1):
-        add_plain_line(doc, f'Passive {i}: "{construction}"', font_size, indent=0.35)
-        add_plain_line(doc, f'Reason: {reason}', font_size, indent=0.7)
+        add_plain_line(doc, f'Passive {i}: "{construction}"', body_size, indent=0.35, font_name=body_font)
+        add_plain_line(doc, f'Reason: {reason}', body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 24
-    add_exercise(doc, 24, None, font_size)
-    add_plain_line(doc, 'Identify modals and classify as epistemic or deontic:', font_size)
+    add_exercise(doc, 24, None, body_size, font_name=body_font)
+    add_plain_line(doc, 'Identify modals and classify as epistemic or deontic:', body_size, font_name=body_font)
 
     modal_analysis = [
         ('must (submit)', 'deontic \u2014 obligation (employees are required to submit feedback)'),
@@ -273,10 +349,13 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for modal, classification in modal_analysis:
-        add_answer_line(doc, f'{modal}:', classification, font_size, indent=0.35)
+        add_answer_line(doc, f'{modal}:', classification, body_size, indent=0.35, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 25
-    add_exercise(doc, 25, 'The manager rejected the proposal.', font_size)
+    add_exercise(doc, 25, 'The manager rejected the proposal.', body_size, font_name=body_font)
 
     for sub, answer in [
         ('a) Passive rewrite:',
@@ -294,10 +373,11 @@ def create_answer_key(output_path, font_size=12):
         p.paragraph_format.left_indent = Inches(0.35)
         run = p.add_run(sub)
         run.bold = True
-        run.font.size = Pt(font_size)
+        run.font.size = Pt(body_size)
+        run.font.name = body_font
         set_paragraph_spacing(p, space_before=3, space_after=2)
 
-        add_plain_line(doc, answer, font_size, indent=0.7)
+        add_plain_line(doc, answer, body_size, indent=0.7, font_name=body_font)
 
     doc.save(str(output_path))
     print(f"Created: {output_path}")
@@ -314,7 +394,7 @@ def main():
 
     create_answer_key(
         homework_dir / 'Homework 11 Overhead.docx',
-        font_size=22
+        overhead=True
     )
 
 

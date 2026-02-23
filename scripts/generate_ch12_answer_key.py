@@ -19,35 +19,63 @@ def set_paragraph_spacing(paragraph, space_before=0, space_after=0):
     pPr.append(spacing)
 
 
-def add_exercise(doc, number, sentence, font_size):
+def add_spacer_row(doc):
+    """Add a blank spacer paragraph in Times New Roman 20 (no text, for instructor notes)."""
+    p = doc.add_paragraph()
+    run = p.add_run()
+    run.font.name = 'Times New Roman'
+    run.font.size = Pt(20)
+    pPr = p._p.get_or_add_pPr()
+    rPr = OxmlElement('w:rPr')
+    rFonts = OxmlElement('w:rFonts')
+    rFonts.set(qn('w:ascii'), 'Times New Roman')
+    rFonts.set(qn('w:hAnsi'), 'Times New Roman')
+    rPr.append(rFonts)
+    sz = OxmlElement('w:sz')
+    sz.set(qn('w:val'), '40')  # 20pt = 40 half-points
+    rPr.append(sz)
+    pPr.append(rPr)
+    set_paragraph_spacing(p, space_before=0, space_after=0)
+    return p
+
+
+def add_exercise(doc, number, sentence, font_size, font_name=None):
     """Add an exercise header with sentence."""
     p = doc.add_paragraph()
     run = p.add_run(f'Exercise {number}. ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     if sentence:
         run = p.add_run(sentence)
         run.italic = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     set_paragraph_spacing(p, space_before=6, space_after=3)
     return p
 
 
-def add_answer_line(doc, label, answer, font_size, indent=0.35):
+def add_answer_line(doc, label, answer, font_size, indent=0.35, font_name=None):
     """Add a label: answer line."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
     run = p.add_run(f'{label} ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     run = p.add_run(answer)
     run.italic = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
+def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None, font_name=None):
     """Add a plain text line with optional bold prefix."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
@@ -55,63 +83,93 @@ def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
         run = p.add_run(bold_prefix)
         run.bold = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     run = p.add_run(text)
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def create_answer_key(output_path, font_size=12):
+def create_answer_key(output_path, font_size=12, overhead=False):
     """Create the Chapter 12 Answer Key document."""
+    if overhead:
+        body_font = 'Arial Narrow'
+        body_size = 18
+        heading1_size = 22
+        heading2_size = 20
+        heading3_size = 16
+        table_size = 16
+        bracket_size = 15
+    else:
+        body_font = 'Garamond'
+        body_size = font_size
+        heading1_size = 16
+        heading2_size = 14
+        heading3_size = 12
+        table_size = font_size - 1
+        bracket_size = font_size - 1
+
     doc = Document()
 
     style = doc.styles['Normal']
-    style.font.name = 'Garamond'
-    style.font.size = Pt(font_size)
+    style.font.name = body_font
+    style.font.size = Pt(body_size)
 
     for i in range(1, 4):
         heading_style = doc.styles[f'Heading {i}']
-        heading_style.font.name = 'Open Sans'
+        heading_style.font.name = 'Open Sans' if not overhead else 'Arial Narrow'
         heading_style.font.bold = True
 
     # Title
     title = doc.add_heading('Chapter 12: Adverbials', level=1)
-    title.runs[0].font.size = Pt(16 if font_size == 12 else 22)
+    title.runs[0].font.size = Pt(heading1_size)
     set_paragraph_spacing(title, space_before=0, space_after=6)
 
     subtitle = doc.add_heading('Answer Key', level=2)
-    subtitle.runs[0].font.size = Pt(14 if font_size == 12 else 20)
+    subtitle.runs[0].font.size = Pt(heading2_size)
     set_paragraph_spacing(subtitle, space_before=0, space_after=12)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 1: Identification and Classification
     # =============================================
+    doc.add_page_break()
     part = doc.add_heading('Part 1: Identification and Classification', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 1
-    add_exercise(doc, 1, 'Last week, the students studied diligently in the library.', font_size)
-    add_answer_line(doc, 'Adverbial 1:', 'Last week \u2014 NP \u2014 time', font_size)
-    add_answer_line(doc, 'Adverbial 2:', 'diligently \u2014 AdvP \u2014 manner', font_size)
-    add_answer_line(doc, 'Adverbial 3:', 'in the library \u2014 PP \u2014 place', font_size)
+    add_exercise(doc, 1, 'Last week, the students studied diligently in the library.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Adverbial 1:', 'Last week \u2014 NP \u2014 time', body_size, font_name=body_font)
+    add_answer_line(doc, 'Adverbial 2:', 'diligently \u2014 AdvP \u2014 manner', body_size, font_name=body_font)
+    add_answer_line(doc, 'Adverbial 3:', 'in the library \u2014 PP \u2014 place', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 2
-    add_exercise(doc, 2, 'If you need assistance, please call the help desk immediately.', font_size)
-    add_answer_line(doc, 'Adverbial 1:', 'If you need assistance \u2014 adverb clause \u2014 condition', font_size)
-    add_answer_line(doc, 'Adverbial 2:', 'immediately \u2014 AdvP \u2014 time', font_size)
+    add_exercise(doc, 2, 'If you need assistance, please call the help desk immediately.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Adverbial 1:', 'If you need assistance \u2014 adverb clause \u2014 condition', body_size, font_name=body_font)
+    add_answer_line(doc, 'Adverbial 2:', 'immediately \u2014 AdvP \u2014 time', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 3
-    add_exercise(doc, 3, 'She left early to catch her flight.', font_size)
-    add_answer_line(doc, 'Adverbial 1:', 'early \u2014 AdvP \u2014 time', font_size)
-    add_answer_line(doc, 'Adverbial 2:', 'to catch her flight \u2014 infinitive phrase \u2014 purpose', font_size)
+    add_exercise(doc, 3, 'She left early to catch her flight.', body_size, font_name=body_font)
+    add_answer_line(doc, 'Adverbial 1:', 'early \u2014 AdvP \u2014 time', body_size, font_name=body_font)
+    add_answer_line(doc, 'Adverbial 2:', 'to catch her flight \u2014 infinitive phrase \u2014 purpose', body_size, font_name=body_font)
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 2: Adjunct, Disjunct, or Conjunct
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 2: Adjunct, Disjunct, or Conjunct', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     classifications = [
         (4, 'She answered the questions honestly.',
@@ -134,21 +192,23 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, sentence, classification, explanation in classifications:
-        add_exercise(doc, num, sentence, font_size)
-        add_answer_line(doc, 'Classification:', classification, font_size)
-        add_plain_line(doc, explanation, font_size)
+        add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        add_answer_line(doc, 'Classification:', classification, body_size, font_name=body_font)
+        add_plain_line(doc, explanation, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 3: Sentence Completion
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 3: Sentence Completion', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     p = doc.add_paragraph()
     run = p.add_run('Exercises 9\u201313 are open-ended. Accept any grammatically correct adverbial of the requested type.')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
     completions = [
@@ -165,21 +225,23 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, prompt, sample in completions:
-        add_exercise(doc, num, None, font_size)
-        add_plain_line(doc, prompt, font_size, bold_prefix='Prompt: ')
-        add_plain_line(doc, f'Sample: {sample}', font_size)
+        add_exercise(doc, num, None, body_size, font_name=body_font)
+        add_plain_line(doc, prompt, body_size, bold_prefix='Prompt: ', font_name=body_font)
+        add_plain_line(doc, f'Sample: {sample}', body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 4: Sentence Writing
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 4: Sentence Writing', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     p = doc.add_paragraph()
     run = p.add_run('Exercises 14\u201318 are open-ended. Accept any grammatically correct sentence that demonstrates the requested structure.')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
     writing = [
@@ -196,21 +258,22 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, structure, sample in writing:
-        add_exercise(doc, num, None, font_size)
-        add_plain_line(doc, f'{structure}:', font_size, bold_prefix='Structure: ')
-        add_plain_line(doc, f'Sample: {sample}', font_size)
+        add_exercise(doc, num, None, body_size, font_name=body_font)
+        add_plain_line(doc, f'{structure}:', body_size, bold_prefix='Structure: ', font_name=body_font)
+        add_plain_line(doc, f'Sample: {sample}', body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 5: Analysis and Application
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 5: Analysis and Application', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 19
-    add_exercise(doc, 19, None, font_size)
-    add_plain_line(doc, 'Identify five adverbials in the passage:', font_size)
+    add_exercise(doc, 19, None, body_size, font_name=body_font)
+    add_plain_line(doc, 'Identify five adverbials in the passage:', body_size, font_name=body_font)
 
     adverbials = [
         ('Yesterday', 'NP', 'time'),
@@ -226,28 +289,34 @@ def create_answer_key(output_path, font_size=12):
         ('in a new laboratory', 'PP', 'place'),
     ]
 
-    add_plain_line(doc, 'Any five of the following are acceptable:', font_size)
+    add_plain_line(doc, 'Any five of the following are acceptable:', body_size, font_name=body_font)
 
     for adv, form, role in adverbials:
-        add_plain_line(doc, f'"{adv}" \u2014 {form} \u2014 {role}', font_size, indent=0.7)
+        add_plain_line(doc, f'"{adv}" \u2014 {form} \u2014 {role}', body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 20
-    add_exercise(doc, 20, None, font_size)
+    add_exercise(doc, 20, None, body_size, font_name=body_font)
     add_plain_line(doc,
         '"Surprisingly" is a disjunct because it comments on the entire sentence from the '
         'speaker\u2019s perspective \u2014 it expresses the speaker\u2019s surprise at the '
         'results. It is not part of the proposition: you cannot ask "Did the results '
         'surprisingly contradict the findings?" in the same way.',
-        font_size)
+        body_size, font_name=body_font)
     add_plain_line(doc,
         '"Diligently" is an adjunct because it modifies the verb "worked," telling how '
         'they worked. It is integrated into the clause structure: you can question it '
         '("Did they work diligently?") and negate it ("They didn\u2019t work diligently").',
-        font_size)
+        body_size, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 21
-    add_exercise(doc, 21, None, font_size)
-    add_plain_line(doc, 'Rewrite with "yesterday" in three positions:', font_size)
+    add_exercise(doc, 21, None, body_size, font_name=body_font)
+    add_plain_line(doc, 'Rewrite with "yesterday" in three positions:', body_size, font_name=body_font)
 
     positions = [
         ('Initial:', '"Yesterday, the researchers finally completed their groundbreaking study."',
@@ -263,11 +332,12 @@ def create_answer_key(output_path, font_size=12):
         p.paragraph_format.left_indent = Inches(0.35)
         run = p.add_run(label)
         run.bold = True
-        run.font.size = Pt(font_size)
+        run.font.size = Pt(body_size)
+        run.font.name = body_font
         set_paragraph_spacing(p, space_before=3, space_after=2)
 
-        add_plain_line(doc, rewrite, font_size, indent=0.7)
-        add_plain_line(doc, f'Effect: {effect}', font_size, indent=0.7)
+        add_plain_line(doc, rewrite, body_size, indent=0.7, font_name=body_font)
+        add_plain_line(doc, f'Effect: {effect}', body_size, indent=0.7, font_name=body_font)
 
     doc.save(str(output_path))
     print(f"Created: {output_path}")
@@ -284,7 +354,7 @@ def main():
 
     create_answer_key(
         homework_dir / 'Homework 12 Overhead.docx',
-        font_size=22
+        overhead=True
     )
 
 
