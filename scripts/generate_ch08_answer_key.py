@@ -21,35 +21,63 @@ def set_paragraph_spacing(paragraph, space_before=0, space_after=0):
     pPr.append(spacing)
 
 
-def add_exercise(doc, number, sentence, font_size):
+def add_spacer_row(doc):
+    """Add a blank spacer paragraph in Times New Roman 20 (no text, for instructor notes)."""
+    p = doc.add_paragraph()
+    run = p.add_run()
+    run.font.name = 'Times New Roman'
+    run.font.size = Pt(20)
+    pPr = p._p.get_or_add_pPr()
+    rPr = OxmlElement('w:rPr')
+    rFonts = OxmlElement('w:rFonts')
+    rFonts.set(qn('w:ascii'), 'Times New Roman')
+    rFonts.set(qn('w:hAnsi'), 'Times New Roman')
+    rPr.append(rFonts)
+    sz = OxmlElement('w:sz')
+    sz.set(qn('w:val'), '40')  # 20pt = 40 half-points
+    rPr.append(sz)
+    pPr.append(rPr)
+    set_paragraph_spacing(p, space_before=0, space_after=0)
+    return p
+
+
+def add_exercise(doc, number, sentence, font_size, font_name=None):
     """Add an exercise header with sentence."""
     p = doc.add_paragraph()
     run = p.add_run(f'Exercise {number}. ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     if sentence:
         run = p.add_run(sentence)
         run.italic = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     set_paragraph_spacing(p, space_before=6, space_after=3)
     return p
 
 
-def add_answer_line(doc, label, answer, font_size, indent=0.35):
+def add_answer_line(doc, label, answer, font_size, indent=0.35, font_name=None):
     """Add a label: answer line."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
     run = p.add_run(f'{label} ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     run = p.add_run(answer)
     run.italic = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
+def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None, font_name=None):
     """Add a plain text line with optional bold prefix."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
@@ -57,45 +85,70 @@ def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
         run = p.add_run(bold_prefix)
         run.bold = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     run = p.add_run(text)
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def create_answer_key(output_path, font_size=12):
+def create_answer_key(output_path, font_size=12, overhead=False):
     """Create the Chapter 8 Answer Key document."""
+    if overhead:
+        body_font = 'Arial Narrow'
+        body_size = 18
+        heading1_size = 22
+        heading2_size = 20
+        heading3_size = 16
+        table_size = 16
+        bracket_size = 15
+    else:
+        body_font = 'Garamond'
+        body_size = font_size
+        heading1_size = 16
+        heading2_size = 14
+        heading3_size = 12
+        table_size = font_size - 1
+        bracket_size = font_size - 1
+
     doc = Document()
 
     # Set up styles
     style = doc.styles['Normal']
-    style.font.name = 'Garamond'
-    style.font.size = Pt(font_size)
+    style.font.name = body_font
+    style.font.size = Pt(body_size)
 
     for i in range(1, 4):
         heading_style = doc.styles[f'Heading {i}']
-        heading_style.font.name = 'Open Sans'
+        heading_style.font.name = 'Open Sans' if not overhead else 'Arial Narrow'
         heading_style.font.bold = True
 
     # Title
     title = doc.add_heading('Chapter 8: Basic Sentence Elements and Sentence Patterns', level=1)
-    title.runs[0].font.size = Pt(16 if font_size == 12 else 22)
+    title.runs[0].font.size = Pt(heading1_size)
     set_paragraph_spacing(title, space_before=0, space_after=6)
 
     subtitle = doc.add_heading('Answer Key', level=2)
-    subtitle.runs[0].font.size = Pt(14 if font_size == 12 else 20)
+    subtitle.runs[0].font.size = Pt(heading2_size)
     set_paragraph_spacing(subtitle, space_before=0, space_after=12)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 1: Sentence Element Identification
     # =============================================
+    doc.add_page_break()
     part = doc.add_heading('Part 1: Sentence Element Identification', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 1
     add_exercise(doc, 1,
         'The ambitious young researcher from the university laboratory discovered a remarkable solution.',
-        font_size)
+        body_size, font_name=body_font)
 
     for label, answer in [
         ('Subject NP:', 'The ambitious young researcher from the university laboratory'),
@@ -103,88 +156,105 @@ def create_answer_key(output_path, font_size=12):
         ('Main verb:', 'discovered'),
         ('Direct object:', 'a remarkable solution'),
     ]:
-        add_answer_line(doc, label, answer, font_size)
+        add_answer_line(doc, label, answer, body_size, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 2
-    add_exercise(doc, 2, None, font_size)
+    add_exercise(doc, 2, None, body_size, font_name=body_font)
 
     # 2a
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('a) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('The committee awarded the outstanding student a prestigious scholarship.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
-    add_answer_line(doc, 'IO:', 'the outstanding student', font_size, indent=0.7)
-    add_answer_line(doc, 'DO:', 'a prestigious scholarship', font_size, indent=0.7)
+    add_answer_line(doc, 'IO:', 'the outstanding student', body_size, indent=0.7, font_name=body_font)
+    add_answer_line(doc, 'DO:', 'a prestigious scholarship', body_size, indent=0.7, font_name=body_font)
 
     # 2b
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('b) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('The homemade soup tasted absolutely delicious.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
-    add_answer_line(doc, 'SC:', 'absolutely delicious (AdjP)', font_size, indent=0.7)
+    add_answer_line(doc, 'SC:', 'absolutely delicious (AdjP)', body_size, indent=0.7, font_name=body_font)
 
     # 2c
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('c) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('The judges declared the young contestant the winner.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
-    add_answer_line(doc, 'DO:', 'the young contestant', font_size, indent=0.7)
-    add_answer_line(doc, 'OC:', 'the winner (NP)', font_size, indent=0.7)
+    add_answer_line(doc, 'DO:', 'the young contestant', body_size, indent=0.7, font_name=body_font)
+    add_answer_line(doc, 'OC:', 'the winner (NP)', body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 3
-    add_exercise(doc, 3, None, font_size)
+    add_exercise(doc, 3, None, body_size, font_name=body_font)
 
     for sub, sentence, answer in [
         ('a)', 'She placed the documents on the desk.',
-         'Argument — required by "placed." Remove it: *She placed the documents. \u2717 (incomplete without location)'),
+         'Argument \u2014 required by "placed." Remove it: *She placed the documents. \u2717 (incomplete without location)'),
         ('b)', 'She found the documents on the desk.',
-         'Adverbial — optional location modifier. Remove it: She found the documents. \u2713 (still grammatical)'),
+         'Adverbial \u2014 optional location modifier. Remove it: She found the documents. \u2713 (still grammatical)'),
         ('c)', 'The professor is extremely knowledgeable about linguistics.',
-         'Argument — subject complement required by "is." Remove it: *The professor is. \u2717 (incomplete)'),
+         'Argument \u2014 subject complement required by "is." Remove it: *The professor is. \u2717 (incomplete)'),
         ('d)', 'The professor lectured extremely knowledgeably about linguistics.',
-         'Adverbial — optional manner/topic modifier. Remove it: The professor lectured. \u2713 (still grammatical)'),
+         'Adverbial \u2014 optional manner/topic modifier. Remove it: The professor lectured. \u2713 (still grammatical)'),
     ]:
         p = doc.add_paragraph()
         p.paragraph_format.left_indent = Inches(0.35)
         run = p.add_run(f'{sub} ')
         run.bold = True
-        run.font.size = Pt(font_size)
+        run.font.size = Pt(body_size)
+        run.font.name = body_font
         run = p.add_run(sentence)
         run.italic = True
-        run.font.size = Pt(font_size)
+        run.font.size = Pt(body_size)
+        run.font.name = body_font
         set_paragraph_spacing(p, space_before=3, space_after=2)
 
-        add_plain_line(doc, answer, font_size, indent=0.7)
+        add_plain_line(doc, answer, body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 2: Sentence Completion
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 2: Sentence Completion', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     p = doc.add_paragraph()
     run = p.add_run('Exercises 4\u20137 are open-ended. Accept any grammatically correct completion that matches the requested element type.')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
     for num, prompt, sample in [
@@ -193,16 +263,17 @@ def create_answer_key(output_path, font_size=12):
         (6, 'After the long hike, the exhausted climbers seemed _____.', 'Sample: "completely exhausted" (AdjP as subject complement)'),
         (7, 'The board of directors elected her _____.', 'Sample: "chairperson" (NP as object complement)'),
     ]:
-        add_exercise(doc, num, prompt, font_size)
-        add_plain_line(doc, sample, font_size)
+        add_exercise(doc, num, prompt, body_size, font_name=body_font)
+        add_plain_line(doc, sample, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 3: Sentence Pattern Identification
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 3: Sentence Pattern Identification', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     patterns = [
         (8, 'The exhausted marathon runner collapsed at the finish line yesterday.',
@@ -234,29 +305,34 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, sentence, pattern, explanation in patterns:
-        add_exercise(doc, num, sentence, font_size)
-        add_answer_line(doc, 'Pattern:', pattern, font_size)
+        add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        add_answer_line(doc, 'Pattern:', pattern, body_size, font_name=body_font)
 
         p = doc.add_paragraph()
         p.paragraph_format.left_indent = Inches(0.35)
         run = p.add_run('Explanation: ')
         run.bold = True
-        run.font.size = Pt(font_size)
+        run.font.size = Pt(body_size)
+        run.font.name = body_font
         run = p.add_run(explanation)
-        run.font.size = Pt(font_size)
+        run.font.size = Pt(body_size)
+        run.font.name = body_font
         set_paragraph_spacing(p, space_before=0, space_after=2)
+
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 4: Sentence Writing
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 4: Sentence Writing', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     p = doc.add_paragraph()
     run = p.add_run('Exercises 13\u201315 are open-ended. Accept any grammatically correct sentence that follows the requested pattern with elements correctly labeled.')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
     for num, pattern, sample in [
@@ -267,20 +343,21 @@ def create_answer_key(output_path, font_size=12):
         (15, 'Pattern 6 (S + V + DO + OC)',
          'Sample: "[The class]_S [elected]_V [Maria]_DO [president]_OC."'),
     ]:
-        add_exercise(doc, num, None, font_size)
-        add_plain_line(doc, f'{pattern}:', font_size, bold_prefix='Pattern: ')
-        add_plain_line(doc, sample, font_size)
+        add_exercise(doc, num, None, body_size, font_name=body_font)
+        add_plain_line(doc, f'{pattern}:', body_size, bold_prefix='Pattern: ', font_name=body_font)
+        add_plain_line(doc, sample, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 5: Analysis and Reflection
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 5: Analysis and Reflection', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 16
-    add_exercise(doc, 16, 'She put the book on the shelf.', font_size)
+    add_exercise(doc, 16, 'She put the book on the shelf.', body_size, font_name=body_font)
 
     for sub, answer in [
         ('What happens if you remove "the book"?',
@@ -295,48 +372,60 @@ def create_answer_key(output_path, font_size=12):
         p.paragraph_format.left_indent = Inches(0.35)
         run = p.add_run(sub)
         run.bold = True
-        run.font.size = Pt(font_size)
+        run.font.size = Pt(body_size)
+        run.font.name = body_font
         set_paragraph_spacing(p, space_before=3, space_after=2)
 
-        add_plain_line(doc, answer, font_size, indent=0.7)
+        add_plain_line(doc, answer, body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 17
-    add_exercise(doc, 17, None, font_size)
+    add_exercise(doc, 17, None, body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('a) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('The milk smells sour.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run(' vs. ')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('The detective smells trouble.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
     add_plain_line(doc,
         '"The milk smells sour" \u2014 linking verb (Pattern 3). "Sour" is a subject complement describing the milk.',
-        font_size, indent=0.7)
+        body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc,
         '"The detective smells trouble" \u2014 transitive verb (Pattern 4). "Trouble" is a direct object.',
-        font_size, indent=0.7)
+        body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc,
         'Be substitution test: "The milk is sour" \u2713 (makes sense \u2192 linking). '
         '"The detective is trouble" \u2717 (doesn\'t make sense \u2192 not linking, therefore transitive).',
-        font_size, indent=0.7)
+        body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 18
-    add_exercise(doc, 18, None, font_size)
+    add_exercise(doc, 18, None, body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('Model response: ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run(
         'Arguments are elements required by the verb to form a grammatical sentence; '
         'removing them makes the sentence ungrammatical or changes its meaning dramatically. '
@@ -348,7 +437,8 @@ def create_answer_key(output_path, font_size=12):
         '"on the table" is an adverbial (removing it yields She read the book, which is fine). '
         'The first sentence requires a locative argument; the second does not.'
     )
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=0, space_after=2)
 
     doc.save(str(output_path))
@@ -365,10 +455,10 @@ def main():
         font_size=12
     )
 
-    # Create Overhead Answer Key (large font for projection)
+    # Create Overhead Answer Key
     create_answer_key(
         homework_dir / 'Homework 08 Overhead.docx',
-        font_size=22
+        overhead=True
     )
 
 

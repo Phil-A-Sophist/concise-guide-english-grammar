@@ -19,35 +19,63 @@ def set_paragraph_spacing(paragraph, space_before=0, space_after=0):
     pPr.append(spacing)
 
 
-def add_exercise(doc, number, sentence, font_size):
+def add_spacer_row(doc):
+    """Add a blank spacer paragraph in Times New Roman 20 (no text, for instructor notes)."""
+    p = doc.add_paragraph()
+    run = p.add_run()
+    run.font.name = 'Times New Roman'
+    run.font.size = Pt(20)
+    pPr = p._p.get_or_add_pPr()
+    rPr = OxmlElement('w:rPr')
+    rFonts = OxmlElement('w:rFonts')
+    rFonts.set(qn('w:ascii'), 'Times New Roman')
+    rFonts.set(qn('w:hAnsi'), 'Times New Roman')
+    rPr.append(rFonts)
+    sz = OxmlElement('w:sz')
+    sz.set(qn('w:val'), '40')  # 20pt = 40 half-points
+    rPr.append(sz)
+    pPr.append(rPr)
+    set_paragraph_spacing(p, space_before=0, space_after=0)
+    return p
+
+
+def add_exercise(doc, number, sentence, font_size, font_name=None):
     """Add an exercise header with sentence."""
     p = doc.add_paragraph()
     run = p.add_run(f'Exercise {number}. ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     if sentence:
         run = p.add_run(sentence)
         run.italic = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     set_paragraph_spacing(p, space_before=6, space_after=3)
     return p
 
 
-def add_answer_line(doc, label, answer, font_size, indent=0.35):
+def add_answer_line(doc, label, answer, font_size, indent=0.35, font_name=None):
     """Add a label: answer line."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
     run = p.add_run(f'{label} ')
     run.bold = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     run = p.add_run(answer)
     run.italic = True
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
+def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None, font_name=None):
     """Add a plain text line with optional bold prefix."""
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(indent)
@@ -55,39 +83,64 @@ def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None):
         run = p.add_run(bold_prefix)
         run.bold = True
         run.font.size = Pt(font_size)
+        if font_name:
+            run.font.name = font_name
     run = p.add_run(text)
     run.font.size = Pt(font_size)
+    if font_name:
+        run.font.name = font_name
     set_paragraph_spacing(p, space_before=0, space_after=2)
     return p
 
 
-def create_answer_key(output_path, font_size=12):
+def create_answer_key(output_path, font_size=12, overhead=False):
     """Create the Chapter 10 Answer Key document."""
+    if overhead:
+        body_font = 'Arial Narrow'
+        body_size = 18
+        heading1_size = 22
+        heading2_size = 20
+        heading3_size = 16
+        table_size = 16
+        bracket_size = 15
+    else:
+        body_font = 'Garamond'
+        body_size = font_size
+        heading1_size = 16
+        heading2_size = 14
+        heading3_size = 12
+        table_size = font_size - 1
+        bracket_size = font_size - 1
+
     doc = Document()
 
     style = doc.styles['Normal']
-    style.font.name = 'Garamond'
-    style.font.size = Pt(font_size)
+    style.font.name = body_font
+    style.font.size = Pt(body_size)
 
     for i in range(1, 4):
         heading_style = doc.styles[f'Heading {i}']
-        heading_style.font.name = 'Open Sans'
+        heading_style.font.name = 'Open Sans' if not overhead else 'Arial Narrow'
         heading_style.font.bold = True
 
     # Title
     title = doc.add_heading('Chapter 10: Verbs Part One \u2014 Tense and Aspect', level=1)
-    title.runs[0].font.size = Pt(16 if font_size == 12 else 22)
+    title.runs[0].font.size = Pt(heading1_size)
     set_paragraph_spacing(title, space_before=0, space_after=6)
 
     subtitle = doc.add_heading('Answer Key', level=2)
-    subtitle.runs[0].font.size = Pt(14 if font_size == 12 else 20)
+    subtitle.runs[0].font.size = Pt(heading2_size)
     set_paragraph_spacing(subtitle, space_before=0, space_after=12)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 1: Identification
     # =============================================
+    doc.add_page_break()
     part = doc.add_heading('Part 1: Identification', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     exercises_p1 = [
         (1, 'The researchers have analyzed the experimental data.',
@@ -118,17 +171,18 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, sentence, answers in exercises_p1:
-        add_exercise(doc, num, sentence, font_size)
+        add_exercise(doc, num, sentence, body_size, font_name=body_font)
         for label, answer in answers:
-            add_answer_line(doc, label, answer, font_size)
+            add_answer_line(doc, label, answer, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 2: Sentence Completion
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 2: Sentence Completion', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     completions = [
         (6, 'Present progressive: Right now, the children ________ (play) in the park.',
@@ -144,20 +198,22 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, prompt, answer in completions:
-        add_exercise(doc, num, prompt, font_size)
-        add_answer_line(doc, 'Answer:', answer, font_size)
+        add_exercise(doc, num, prompt, body_size, font_name=body_font)
+        add_answer_line(doc, 'Answer:', answer, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 3: Sentence Writing
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 3: Sentence Writing', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     p = doc.add_paragraph()
     run = p.add_run('Exercises 11\u201315 are open-ended. Accept any grammatically correct sentence that demonstrates the requested tense-aspect combination.')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
     writing = [
@@ -174,121 +230,147 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for num, structure, sample in writing:
-        add_exercise(doc, num, None, font_size)
-        add_plain_line(doc, f'{structure}:', font_size, bold_prefix='Structure: ')
-        add_plain_line(doc, f'Sample: {sample}', font_size)
+        add_exercise(doc, num, None, body_size, font_name=body_font)
+        add_plain_line(doc, f'{structure}:', body_size, bold_prefix='Structure: ', font_name=body_font)
+        add_plain_line(doc, f'Sample: {sample}', body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 4: Distinguishing Meaning
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 4: Distinguishing Meaning', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 16
-    add_exercise(doc, 16, None, font_size)
+    add_exercise(doc, 16, None, body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('a) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('She read the report.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('  vs.  ')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('b) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('She has read the report.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
     add_plain_line(doc,
         '(a) Past simple \u2014 states a completed past event with no connection to now. '
         '(b) Present perfect \u2014 implies present relevance: she has read it, so she knows its contents now.',
-        font_size, indent=0.7)
+        body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 17
-    add_exercise(doc, 17, None, font_size)
+    add_exercise(doc, 17, None, body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('a) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('When I arrived, they left.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('  vs.  ')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('b) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('When I arrived, they had left.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
     add_plain_line(doc,
         '(a) Past simple for both verbs \u2014 the events happened in sequence: I arrived, '
         'then they left (my arrival may have caused their departure). '
         '(b) Past perfect "had left" \u2014 they left BEFORE I arrived; they were already gone when I got there.',
-        font_size, indent=0.7)
+        body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 18
-    add_exercise(doc, 18, None, font_size)
+    add_exercise(doc, 18, None, body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('a) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('He works at a bank.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('  vs.  ')
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('b) ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run('He is working at a bank.')
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
     add_plain_line(doc,
         '(a) Present simple \u2014 permanent or habitual situation: this is his regular job. '
         '(b) Present progressive \u2014 temporary situation: he is working there right now but it may not be permanent '
         '(e.g., a summer job or temporary assignment).',
-        font_size, indent=0.7)
+        body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # =============================================
     # Part 5: Contextual Analysis
     # =============================================
-    if font_size > 12:
-        doc.add_page_break()
+    doc.add_page_break()
     part = doc.add_heading('Part 5: Contextual Analysis', level=3)
-    part.runs[0].font.size = Pt(12 if font_size == 12 else 18)
+    part.runs[0].font.size = Pt(heading3_size)
 
     # Exercise 19
-    add_exercise(doc, 19, None, font_size)
+    add_exercise(doc, 19, None, body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
     run = p.add_run('Passage: ')
     run.bold = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     run = p.add_run(
         'Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, '
         'she was working on her dissertation. She has been writing it for two years now. By next June, '
         'she will have finished the entire project. After that, she will be looking for a teaching position.'
     )
     run.italic = True
-    run.font.size = Pt(font_size)
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=4)
 
     verb_phrases = [
@@ -302,20 +384,26 @@ def create_answer_key(output_path, font_size=12):
     ]
 
     for verb, tense_aspect in verb_phrases:
-        add_answer_line(doc, verb, tense_aspect, font_size, indent=0.7)
+        add_answer_line(doc, verb, tense_aspect, body_size, indent=0.7, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 20
-    add_exercise(doc, 20, None, font_size)
+    add_exercise(doc, 20, None, body_size, font_name=body_font)
 
     add_plain_line(doc,
         '"Moved" (past simple) presents the action as a completed event in the past \u2014 the move happened '
         'and is over. "Has lived" (present perfect) connects the past event to the present \u2014 she moved '
         'in 2018 and STILL lives there now. The writer uses past simple for the completed action of moving '
         'and present perfect for the ongoing state of living there, because the living continues into the present.',
-        font_size)
+        body_size, font_name=body_font)
+
+    if overhead:
+        add_spacer_row(doc)
 
     # Exercise 21
-    add_exercise(doc, 21, 'She studies linguistics.', font_size)
+    add_exercise(doc, 21, 'She studies linguistics.', body_size, font_name=body_font)
 
     for sub, rewrite, explanation in [
         ('a) Past progressive:',
@@ -332,11 +420,12 @@ def create_answer_key(output_path, font_size=12):
         p.paragraph_format.left_indent = Inches(0.35)
         run = p.add_run(sub)
         run.bold = True
-        run.font.size = Pt(font_size)
+        run.font.size = Pt(body_size)
+        run.font.name = body_font
         set_paragraph_spacing(p, space_before=3, space_after=2)
 
-        add_plain_line(doc, f'Rewrite: {rewrite}', font_size, indent=0.7)
-        add_plain_line(doc, f'Meaning change: {explanation}', font_size, indent=0.7)
+        add_plain_line(doc, f'Rewrite: {rewrite}', body_size, indent=0.7, font_name=body_font)
+        add_plain_line(doc, f'Meaning change: {explanation}', body_size, indent=0.7, font_name=body_font)
 
     doc.save(str(output_path))
     print(f"Created: {output_path}")
@@ -351,9 +440,10 @@ def main():
         font_size=12
     )
 
+    # Create Overhead Answer Key
     create_answer_key(
         homework_dir / 'Homework 10 Overhead.docx',
-        font_size=22
+        overhead=True
     )
 
 
