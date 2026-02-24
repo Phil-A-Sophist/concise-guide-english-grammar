@@ -110,3 +110,4 @@ codechat_config.yaml
 .github/workflows/test-build.yml
 
 *.bak
+.claude/settings.local.json
