@@ -8,8 +8,7 @@ Overhead reflects user-edited formatting:
   - Expanded Ex 3.1 ambiguity note
   - Page break after each Ex 1 sub-exercise and between Ex 3.2 / 3.3
   - Spacers between PP items in Ex 3.3
-  - Bracket notation + tree diagrams in Ex 4
-  - Tree diagram in Ex 3.2
+  - Bracket notation + tree diagrams in Ex 3 (all three) and Ex 4
 """
 
 from pathlib import Path
@@ -214,7 +213,7 @@ PRACTICE = [
         'words':   ['Bears', 'seldomly', 'attack', 'without', 'a',   'very', 'good', 'reason'],
         'phrases': ['NP',    'VP',       'VP',     'PP',      'PP',  'PP',   'PP',   'PP'],
         'pos':     ['N',     'Adv',      'V',      'Prep',    'Det', 'Adv',  'Adj',  'N'],
-        'brackets': '[NP Bears] [VP seldomly attack [PP without [NP a very good reason]]]',
+        'brackets': '[NP Bears] [VP [ADVP seldomly] attack [PP without [NP a [ADJP [ADVP very] good] reason]]]',
         'image':   'ch01_rg_p1_bears',
         'width':    6.0,
     },
@@ -224,7 +223,7 @@ PRACTICE = [
         'words':   ['Stephen', 'usually', 'sits', 'alone', 'at',   'home'],
         'phrases': ['NP',      'VP',      'VP',   'VP',    'PP',   'PP'],
         'pos':     ['N',       'Adv',     'V',    'Adv',   'Prep', 'N'],
-        'brackets': '[NP Stephen] [VP usually sits alone [PP at [NP home]]]',
+        'brackets': '[NP Stephen] [VP [ADVP usually] sits [ADVP alone] [PP at [NP home]]]',
         'image':   'ch01_rg_p2_stephen',
         'width':    4.5,
     },
@@ -244,7 +243,7 @@ PRACTICE = [
         'words':   ['The', 'painfully', 'long', 'discussion', 'continued', 'incessantly', 'until', 'noon'],
         'phrases': ['NP',  'NP',        'NP',   'NP',         'VP',        'VP',          'PP',    'PP'],
         'pos':     ['Det', 'Adv',       'Adj',  'N',          'V',         'Adv',         'Prep',  'N'],
-        'brackets': '[NP The painfully long discussion] [VP continued incessantly [PP until [NP noon]]]',
+        'brackets': '[NP The [ADJP [ADVP painfully] long] discussion] [VP continued [ADVP incessantly] [PP until [NP noon]]]',
         'image':   'ch01_rg_p4_discussion',
         'width':    5.5,
     },
@@ -254,7 +253,7 @@ PRACTICE = [
         'words':   ['All', 'my',  'dearest', 'friends', 'from', 'highschool', 'suddenly', 'left'],
         'phrases': ['NP',  'NP',  'NP',      'NP',      'PP',   'PP',         'VP',       'VP'],
         'pos':     ['Det', 'Det', 'Adj',     'N',       'Prep', 'N',          'Adv',      'V'],
-        'brackets': '[NP All my dearest friends [PP from [NP highschool]]] [VP suddenly left]',
+        'brackets': '[NP All my dearest friends [PP from [NP highschool]]] [VP [ADVP suddenly] left]',
         'image':   'ch01_rg_p5_friends',
         'width':    5.5,
     },
@@ -361,12 +360,17 @@ def build(output_path, overhead=False):
         plain_line(doc, 'Maybe \u201ccommon\u201d (adjective)', body_font, body_size)
         plain_line(doc, 'Maybe \u201care\u201d (verb)', body_font, body_size)
         plain_line(doc, 'Maybe the whole sentence', body_font, body_size)
-        spacer(doc, body_font, body_size)
     else:
         labeled_line(doc, 'Function:', 'Adverbial \u2014 modifies \u201care common,\u201d '
                      'indicating context/location (the exact attachment is somewhat ambiguous: '
                      'it could modify \u201ccommon,\u201d \u201care,\u201d or the whole clause)',
                      body_font, body_size)
+    add_brackets(doc, '[NP Birthday cakes] [VP are [ADJP common] [PP in [NP many Western cultures]]]',
+                 mono_size, body_font, body_size)
+    add_diagram(doc, 'ch01_rg_ex31_birthday', body_font, body_size, width_inches=5.0)
+    if overhead:
+        spacer(doc, body_font, body_size)
+        doc.add_page_break()  # page break after 3.1 (overhead)
 
     # 3.2
     exercise_line(doc, '3.2', 'Cupcakes are a popular alternative to birthday cakes.',
@@ -374,7 +378,8 @@ def build(output_path, overhead=False):
     labeled_line(doc, 'PP:', '\u201cto birthday cakes\u201d', body_font, body_size)
     labeled_line(doc, 'Function:', 'Adjectival \u2014 modifies the noun \u201calternative\u201d',
                  body_font, body_size)
-    # Diagram for 3.2 (both files)
+    add_brackets(doc, '[NP Cupcakes] [VP are [NP a popular alternative [PP to [NP birthday cakes]]]]',
+                 mono_size, body_font, body_size)
     add_diagram(doc, 'ch01_rg_ex32_cupcakes', body_font, body_size, width_inches=5.0)
     if overhead:
         spacer(doc, body_font, body_size)
@@ -396,6 +401,11 @@ def build(output_path, overhead=False):
     labeled_line(doc, 'PP 3:', '\u201cto Morocco\u201d', body_font, body_size)
     labeled_line(doc, 'Function:', 'Adjectival \u2014 modifies the noun \u201cvacation\u201d',
                  body_font, body_size)
+    add_brackets(doc,
+                 '[NP The man [PP in [NP the big red hat]]] '
+                 '[VP spoke [ADVP eloquently] [PP about [NP his vacation [PP to [NP Morocco]]]]]',
+                 mono_size, body_font, body_size)
+    add_diagram(doc, 'ch01_rg_ex33_man', body_font, body_size, width_inches=5.5)
     if overhead:
         spacer(doc, body_font, body_size)
         doc.add_page_break()
