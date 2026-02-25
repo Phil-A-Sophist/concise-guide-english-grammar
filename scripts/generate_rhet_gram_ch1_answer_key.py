@@ -15,8 +15,11 @@ Overhead reflects user-edited formatting:
 from pathlib import Path
 from docx import Document
 from docx.shared import Pt, Inches, RGBColor
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
+
+DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch01_rg'
 
 
 # ─── helpers ────────────────────────────────────────────────────────────────
@@ -100,7 +103,7 @@ def plain_line(doc, text, font_name, size, indent=0, bold=False):
 
 
 def mono_line(doc, text, mono_size, indent=0.35, before=0, after=0):
-    """Single Courier New line (for bracket notation or tree lines)."""
+    """Single Courier New line (for bracket notation)."""
     p = doc.add_paragraph()
     if indent:
         p.paragraph_format.left_indent = Inches(indent)
@@ -110,19 +113,22 @@ def mono_line(doc, text, mono_size, indent=0.35, before=0, after=0):
     return p
 
 
-def add_tree(doc, lines, mono_size, before_label=True, font_name=None, body_size=None):
-    """Add a bold 'Tree diagram:' label then the tree in Courier New."""
-    if before_label and font_name and body_size:
-        p = doc.add_paragraph()
-        p.paragraph_format.left_indent = Inches(0.35)
-        r = p.add_run('Tree diagram:')
-        r.bold = True; r.font.name = font_name; r.font.size = Pt(body_size)
-        set_spacing(p, 4, 2)
-    for line in lines:
-        mono_line(doc, line, mono_size, indent=0.5, before=0, after=0)
-    # small gap after tree
-    p_gap = doc.add_paragraph()
-    set_spacing(p_gap, 0, 4)
+def add_diagram(doc, image_name, font_name, body_size, width_inches=5.5):
+    """Add a bold 'Tree diagram:' label then the PNG image, centred."""
+    lbl = doc.add_paragraph()
+    lbl.paragraph_format.left_indent = Inches(0.35)
+    r = lbl.add_run('Tree diagram:')
+    r.bold = True; r.font.name = font_name; r.font.size = Pt(body_size)
+    set_spacing(lbl, 4, 2)
+
+    img_path = DIAGRAM_DIR / f"{image_name}.png"
+    p = doc.add_paragraph()
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    if img_path.exists():
+        p.add_run().add_picture(str(img_path), width=Inches(width_inches))
+    else:
+        p.add_run(f'[Diagram not found: {image_name}.png]')
+    set_spacing(p, 2, 6)
 
 
 def add_brackets(doc, text, mono_size, font_name, body_size):
@@ -201,24 +207,6 @@ EX1 = [
     },
 ]
 
-# Tree for Ex 3.2 (shown in both files for clarity)
-EX32_TREE = [
-    'S',
-    '\u251c\u2500\u2500 NP',
-    '\u2502   \u2514\u2500\u2500 N: Cupcakes',
-    '\u2514\u2500\u2500 VP',
-    '    \u251c\u2500\u2500 V: are',
-    '    \u2514\u2500\u2500 NP',
-    '        \u251c\u2500\u2500 Det: a',
-    '        \u251c\u2500\u2500 Adj: popular',
-    '        \u251c\u2500\u2500 N: alternative',
-    '        \u2514\u2500\u2500 PP  \u2190 adjectival: modifies \u201calternative\u201d',
-    '            \u251c\u2500\u2500 Prep: to',
-    '            \u2514\u2500\u2500 NP',
-    '                \u251c\u2500\u2500 N: birthday',
-    '                \u2514\u2500\u2500 N: cakes',
-]
-
 PRACTICE = [
     {
         'label': 'Practice One',
@@ -227,21 +215,8 @@ PRACTICE = [
         'phrases': ['NP',    'VP',       'VP',     'PP',      'PP',  'PP',   'PP',   'PP'],
         'pos':     ['N',     'Adv',      'V',      'Prep',    'Det', 'Adv',  'Adj',  'N'],
         'brackets': '[NP Bears] [VP seldomly attack [PP without [NP a very good reason]]]',
-        'tree': [
-            'S',
-            '\u251c\u2500\u2500 NP',
-            '\u2502   \u2514\u2500\u2500 N: Bears',
-            '\u2514\u2500\u2500 VP',
-            '    \u251c\u2500\u2500 Adv: seldomly',
-            '    \u251c\u2500\u2500 V: attack',
-            '    \u2514\u2500\u2500 PP',
-            '        \u251c\u2500\u2500 Prep: without',
-            '        \u2514\u2500\u2500 NP',
-            '            \u251c\u2500\u2500 Det: a',
-            '            \u251c\u2500\u2500 Adv: very',
-            '            \u251c\u2500\u2500 Adj: good',
-            '            \u2514\u2500\u2500 N: reason',
-        ],
+        'image':   'ch01_rg_p1_bears',
+        'width':    6.0,
     },
     {
         'label': 'Practice Two',
@@ -250,19 +225,8 @@ PRACTICE = [
         'phrases': ['NP',      'VP',      'VP',   'VP',    'PP',   'PP'],
         'pos':     ['N',       'Adv',     'V',    'Adv',   'Prep', 'N'],
         'brackets': '[NP Stephen] [VP usually sits alone [PP at [NP home]]]',
-        'tree': [
-            'S',
-            '\u251c\u2500\u2500 NP',
-            '\u2502   \u2514\u2500\u2500 N: Stephen',
-            '\u2514\u2500\u2500 VP',
-            '    \u251c\u2500\u2500 Adv: usually',
-            '    \u251c\u2500\u2500 V: sits',
-            '    \u251c\u2500\u2500 Adv: alone',
-            '    \u2514\u2500\u2500 PP',
-            '        \u251c\u2500\u2500 Prep: at',
-            '        \u2514\u2500\u2500 NP',
-            '            \u2514\u2500\u2500 N: home',
-        ],
+        'image':   'ch01_rg_p2_stephen',
+        'width':    4.5,
     },
     {
         'label': 'Practice Three',
@@ -271,20 +235,8 @@ PRACTICE = [
         'phrases': ['NP',  'NP',      'NP',      'VP',    'PP',   'PP',  'PP'],
         'pos':     ['Det', 'Adj',     'N',       'V',     'Prep', 'Det', 'N'],
         'brackets': '[NP My younger brother] [VP works [PP for [NP the city]]]',
-        'tree': [
-            'S',
-            '\u251c\u2500\u2500 NP',
-            '\u2502   \u251c\u2500\u2500 Det: My',
-            '\u2502   \u251c\u2500\u2500 Adj: younger',
-            '\u2502   \u2514\u2500\u2500 N: brother',
-            '\u2514\u2500\u2500 VP',
-            '    \u251c\u2500\u2500 V: works',
-            '    \u2514\u2500\u2500 PP',
-            '        \u251c\u2500\u2500 Prep: for',
-            '        \u2514\u2500\u2500 NP',
-            '            \u251c\u2500\u2500 Det: the',
-            '            \u2514\u2500\u2500 N: city',
-        ],
+        'image':   'ch01_rg_p3_brother',
+        'width':    5.0,
     },
     {
         'label': 'Practice Four',
@@ -293,21 +245,8 @@ PRACTICE = [
         'phrases': ['NP',  'NP',        'NP',   'NP',         'VP',        'VP',          'PP',    'PP'],
         'pos':     ['Det', 'Adv',       'Adj',  'N',          'V',         'Adv',         'Prep',  'N'],
         'brackets': '[NP The painfully long discussion] [VP continued incessantly [PP until [NP noon]]]',
-        'tree': [
-            'S',
-            '\u251c\u2500\u2500 NP',
-            '\u2502   \u251c\u2500\u2500 Det: The',
-            '\u2502   \u251c\u2500\u2500 Adv: painfully',
-            '\u2502   \u251c\u2500\u2500 Adj: long',
-            '\u2502   \u2514\u2500\u2500 N: discussion',
-            '\u2514\u2500\u2500 VP',
-            '    \u251c\u2500\u2500 V: continued',
-            '    \u251c\u2500\u2500 Adv: incessantly',
-            '    \u2514\u2500\u2500 PP',
-            '        \u251c\u2500\u2500 Prep: until',
-            '        \u2514\u2500\u2500 NP',
-            '            \u2514\u2500\u2500 N: noon',
-        ],
+        'image':   'ch01_rg_p4_discussion',
+        'width':    5.5,
     },
     {
         'label': 'Example Five',
@@ -316,21 +255,8 @@ PRACTICE = [
         'phrases': ['NP',  'NP',  'NP',      'NP',      'PP',   'PP',         'VP',       'VP'],
         'pos':     ['Det', 'Det', 'Adj',     'N',       'Prep', 'N',          'Adv',      'V'],
         'brackets': '[NP All my dearest friends [PP from [NP highschool]]] [VP suddenly left]',
-        'tree': [
-            'S',
-            '\u251c\u2500\u2500 NP',
-            '\u2502   \u251c\u2500\u2500 Det: All',
-            '\u2502   \u251c\u2500\u2500 Det: my',
-            '\u2502   \u251c\u2500\u2500 Adj: dearest',
-            '\u2502   \u251c\u2500\u2500 N: friends',
-            '\u2502   \u2514\u2500\u2500 PP  \u2190 adjectival: modifies \u201cfriends\u201d',
-            '\u2502       \u251c\u2500\u2500 Prep: from',
-            '\u2502       \u2514\u2500\u2500 NP',
-            '\u2502           \u2514\u2500\u2500 N: highschool',
-            '\u2514\u2500\u2500 VP',
-            '    \u251c\u2500\u2500 Adv: suddenly',
-            '    \u2514\u2500\u2500 V: left',
-        ],
+        'image':   'ch01_rg_p5_friends',
+        'width':    5.5,
     },
 ]
 
@@ -449,8 +375,7 @@ def build(output_path, overhead=False):
     labeled_line(doc, 'Function:', 'Adjectival \u2014 modifies the noun \u201calternative\u201d',
                  body_font, body_size)
     # Diagram for 3.2 (both files)
-    add_tree(doc, EX32_TREE, mono_size,
-             before_label=True, font_name=body_font, body_size=body_size)
+    add_diagram(doc, 'ch01_rg_ex32_cupcakes', body_font, body_size, width_inches=5.0)
     if overhead:
         spacer(doc, body_font, body_size)
         doc.add_page_break()  # page break between 3.2 and 3.3 (overhead)
@@ -505,8 +430,7 @@ def build(output_path, overhead=False):
         add_brackets(doc, item['brackets'], mono_size, body_font, body_size)
 
         # Tree diagram
-        add_tree(doc, item['tree'], mono_size,
-                 before_label=True, font_name=body_font, body_size=body_size)
+        add_diagram(doc, item['image'], body_font, body_size, width_inches=item['width'])
 
         if overhead:
             spacer(doc, body_font, body_size)
