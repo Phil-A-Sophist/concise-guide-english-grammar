@@ -29,17 +29,25 @@ OUTPUT_DIR = Path(r"C:\Users\irphy\Documents\concise-guide-english-grammar\Homew
 EXPORT_MULTIPLIER = 5
 
 DIAGRAMS = {
+    # Exercise 3.1: "Birthday cakes are common in many Western cultures."
+    "ch01_rg_ex31_birthday":
+        "[S [NP [N Birthday] [N cakes]] [VP [V are] [ADJP [ADJ common]] [PP [PREP in] [NP [DET many] [ADJP [ADJ Western]] [N cultures]]]]]",
+
     # Exercise 3.2: "Cupcakes are a popular alternative to birthday cakes."
     "ch01_rg_ex32_cupcakes":
         "[S [NP [N Cupcakes]] [VP [V are] [NP [DET a] [ADJP [ADJ popular]] [N alternative] [PP [PREP to] [NP [N birthday] [N cakes]]]]]]",
 
+    # Exercise 3.3: "The man in the big red hat spoke eloquently about his vacation to Morocco."
+    "ch01_rg_ex33_man":
+        "[S [NP [DET The] [N man] [PP [PREP in] [NP [DET the] [ADJP [ADJ big]] [ADJP [ADJ red]] [N hat]]]] [VP [V spoke] [ADVP [ADV eloquently]] [PP [PREP about] [NP [DET his] [N vacation] [PP [PREP to] [NP [N Morocco]]]]]]]",
+
     # Practice One: "Bears seldomly attack without a very good reason."
     "ch01_rg_p1_bears":
-        "[S [NP [N Bears]] [VP [ADV seldomly] [V attack] [PP [PREP without] [NP [DET a] [ADJP [ADV very] [ADJ good]] [N reason]]]]]",
+        "[S [NP [N Bears]] [VP [ADVP [ADV seldomly]] [V attack] [PP [PREP without] [NP [DET a] [ADJP [ADVP [ADV very]] [ADJ good]] [N reason]]]]]",
 
     # Practice Two: "Stephen usually sits alone at home."
     "ch01_rg_p2_stephen":
-        "[S [NP [N Stephen]] [VP [ADV usually] [V sits] [ADV alone] [PP [PREP at] [NP [N home]]]]]",
+        "[S [NP [N Stephen]] [VP [ADVP [ADV usually]] [V sits] [ADVP [ADV alone]] [PP [PREP at] [NP [N home]]]]]",
 
     # Practice Three: "My younger brother works for the city."
     "ch01_rg_p3_brother":
@@ -47,11 +55,11 @@ DIAGRAMS = {
 
     # Practice Four: "The painfully long discussion continued incessantly until noon."
     "ch01_rg_p4_discussion":
-        "[S [NP [DET The] [ADJP [ADV painfully] [ADJ long]] [N discussion]] [VP [V continued] [ADV incessantly] [PP [PREP until] [NP [N noon]]]]]",
+        "[S [NP [DET The] [ADJP [ADVP [ADV painfully]] [ADJ long]] [N discussion]] [VP [V continued] [ADVP [ADV incessantly]] [PP [PREP until] [NP [N noon]]]]]",
 
     # Example Five: "All my dearest friends from highschool suddenly left."
     "ch01_rg_p5_friends":
-        "[S [NP [DET All] [DET my] [ADJP [ADJ dearest]] [N friends] [PP [PREP from] [NP [N highschool]]]] [VP [ADV suddenly] [V left]]]",
+        "[S [NP [DET All] [DET my] [ADJP [ADJ dearest]] [N friends] [PP [PREP from] [NP [N highschool]]]] [VP [ADVP [ADV suddenly]] [V left]]]",
 }
 
 
