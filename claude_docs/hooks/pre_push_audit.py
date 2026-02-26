@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """
 Claude Code Pre-Push Audit
 ===========================
@@ -353,7 +353,7 @@ def check_config_sync(project_dir):
 
     # --- Minimal placeholder translator for comparison ---
     home_fwd = str(Path.home()).replace("\\", "/")
-    python_cmd = "python" if platform.system() == "Windows" else "python3"
+    python_cmd = "python"
 
     def _trans(obj):
         """Replace {{HOME}} and {{PYTHON}} in strings (enough for permission comparison)."""

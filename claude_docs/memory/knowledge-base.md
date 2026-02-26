@@ -1,0 +1,170 @@
+# Knowledge Base
+
+Last updated: 2026-02-15 (Task 35)
+
+## Source Format and Build Pipeline
+
+**Current approach:** PreTeXt XML is the single source of truth. All content lives in `pretext/source/*.ptx` files. The build pipeline uses `python build.py` which runs `pretext build web` for HTML, copies output to `docs/` for GitHub Pages, injects custom CSS inline into each HTML file, and optionally generates EPUB via Pandoc. Published at `https://phil-a-sophist.github.io/concise-guide-english-grammar/`.
+
+**Previously tried:**
+- Markdown source files — abandoned in favor of PreTeXt XML for richer semantic markup and multi-format output
+
+**Context:** PreTeXt was chosen because it supports structured textbook features (exercises, figures, cross-references) and generates both HTML and EPUB from a single source. The project uses PreTeXt 2.36.0.
+
+## Custom CSS Strategy
+
+**Current approach:** Custom CSS is injected directly into each HTML file's `<head>` as an inline `<style>` tag by `build.py`. This overrides PreTeXt defaults regardless of cascade order. Key customizations: Garamond body text with Open Sans headings, wider content area (900px vs 696px default), left-aligned tables, diagram styling, and hidden page footer.
+
+**Context:** Inline injection was chosen over external stylesheets to guarantee override priority. The `CUSTOM_CSS` constant in `build.py` is the single place to modify styles.
+
+## Chapter Reorganization (27 to 21 Chapters)
+
+**Current approach:** The textbook was consolidated from 27 chapters to 21 chapters organized in 6 thematic sections: Foundations (1-4), Core Grammar (5-9), The Verb System (10-11), Form and Function (12-15), Writing and Style (16-19), and Applied Grammar (20-21).
+
+**Context:** The REVISION_AUDIT.md still references the original 27-chapter structure. The current 21-chapter structure is the active one reflected in PreTeXt source files and CLAUDE.md.
+
+## Diagram Workflow
+
+**Current approach:** Tree diagrams are generated as SVGs using Python scripts (`scripts/generate_diagrams.py`, `scripts/generate_new_diagrams.py`) and stored in `assets/diagrams/`. PNG versions for newer diagrams live in `assets/diagrams/new/`. Original source images were extracted from instructor PowerPoint slides and stored in `assets/images/diagrams/`. Diagrams are referenced in PreTeXt using `<image source="diagrams/filename.svg">` syntax.
+
+**Context:** The project uses a specific visual style: blue (#0000FF) for category labels (S, NP, VP), green (#008000) for terminal words. Standard abbreviations: S, NP, VP, PP, AdjP, AdvP, N, V, Adj, Adv, Det, Pro, Aux, Modal. Each diagram in dedicated sections uses a `<paragraphs><title>` label, the image, and bracket notation in `<c>` tags.
+
+## Homework Delivery
+
+**Current approach:** Homework is authored in PreTeXt (rendered in HTML output) and also distributed as downloadable Word (.docx) files in `Homework/`. Three files per chapter: Homework, Answer Key, Overhead Answer Key. The `generate_homework_from_pretext.py` script generates student homework .docx files. Answer keys and overheads are generated via chapter-specific scripts (e.g., `scripts/generate_ch07_answer_key.py`). Answer keys exist for Chapters 4-16 and 18 (Ch17 gap -- no answer key yet).
+
+**Homework formatting requirements:**
+- Exercise numbering: `<em>Exercise N.</em>` (required for script regex match)
+- Section labels: `<paragraphs><title>Instructions</title></paragraphs>` block format
+- Language examples: bare `<foreign>` in exercises
+- Each exercise subsection: Instructions → Example (completed) → Exercises
+
+**File naming conventions:**
+- `Chapter XX Homework.docx` — student exercises
+- `Chapter XX Answer Key.docx` — solutions
+- `Homework XX Overhead.docx` — answer key for projection (22pt font)
+
+**Gotcha:** The homework generation script processes ALL chapters when run. Only stage the target chapter's .docx in the commit.
+
+**Context:** Word files are needed so students can type answers digitally. Difficulty should match ch4-7 model: 15-25 exercises, identification-heavy (60%), scaffolded examples before every set, 30-60 min total.
+
+## Revision Priorities
+
+**Current approach:** The REVISION_AUDIT.md identifies revision priorities. Note that it references the old 27-chapter structure, but the analysis of content quality per topic area remains relevant. Key findings: foundation chapters (1-3) are well-developed; core grammar chapters need diagram integration and example freshness review; verb system and advanced structure chapters need significant expansion.
+
+**Context:** The audit flags specific examples in the sentence patterns chapter that may need originality review. ASCII diagrams throughout need replacement with SVG/PNG tree diagrams.
+
+## Language Example Formatting
+
+**Current approach:** Comprehensive multi-pronged formatting system using `<foreign>` PreTeXt element, documented in STYLE_GUIDE.md for rollout across all chapters. Chapters 1-18 completed and committed. Chapter 19 is next. Full process documented in `.memory/chapter-improvement-process.md`.
+
+1. **`<foreign>` element (REQUIRED):** All language examples use `<foreign>` → renders as `<i class="foreign">` → CSS overrides to sans-serif, non-italic, 0.9em
+2. **`<q>` element (inline examples in paragraphs):** Automatically renders quotation marks: `<q><foreign>The dog barked.</foreign></q>` → "The dog barked."
+3. **Parenthetical grouping:** Use parentheses only for grouped multiple examples: `<foreign>(some, many, every, three)</foreign>` (NOT individual examples)
+4. **No markers in lists/tables/block quotes:** Font styling + grey background (#f5f6f8) with left border (CSS `:has(.foreign)`) provides sufficient distinction
+5. **Highlighting within examples:** Use `<em>` inside `<foreign>`: `<foreign><em>The</em> dog barked.</foreign>`
+6. **Ungrammatical examples:** Use `<delete>` inside `<foreign>`: `<foreign><delete>ungrammatical text</delete></foreign>` (renders as strikethrough)
+7. **`<em>` element (emphasis ONLY):** Retain exclusively for emphasis, labels, and technical terms (NOT language examples)
+
+**Documentation:** STYLE_GUIDE.md now contains:
+- Core markup elements section
+- Detailed marking rules by context (paragraphs, lists, tables, block quotes, grouped examples)
+- Formatting examples showing correct and incorrect usage
+- Quick reference table for all contexts
+- CSS behavior reference
+- PreTeXt XML template updates for Examples and Analyses section
+
+**Previously tried:**
+- Italics (`<em>`) for language examples — removed because it conflated emphasis with language mention
+- `<c>` (code), `<alert>`, custom elements — rejected because `<foreign>` already maps to cleanly targetable CSS
+- Literal tildes `~~text~~` for ungrammatical examples — abandoned in favor of semantic `<delete>` element
+- Font size at 0.95em — refined to 0.9em for better sans-serif rendering consistency
+
+**Context:** Chapters 1-18 formatting completed and committed (through 9e56a92). The approach balances visual clarity (sans-serif, reduced size, context-specific markers) with semantic correctness (proper PreTeXt XML elements, minimal over-marking). Manual chapter-by-chapter review required to apply rules consistently.
+
+## Chapter 7 Major Revision (Task 16)
+
+**Current approach:** Complete structural overhaul integrating PNG diagrams and new pedagogical content:
+- Replaced all ASCII art diagrams with 10 SyntaxTreeHybrid-generated PNG images (ch07_*)
+- Standardized all diagram labels to ALL CAPS (DET, PRON, ADJ, ADV, PREP, CONJ, AUX, ADJP, ADVP) for consistency across entire textbook
+- Renamed "Complements" to "Objects and Complements" with revised text explaining both object and object-complement roles
+- Enhanced "Structural Ambiguity" subsection with pedagogical framing (garden-path sentences, joke examples)
+- Replaced "Diagramming Conventions" (section 7.6) with "Sentence Labeling Tables" introducing MVP (Minimum Viable Phrase) concept and Subject/Predicate roles; two worked examples included
+- Added "Step-by-Step Sentence Analysis" (new section 7.7) teaching top-down and bottom-up parsing approaches with worked examples
+- Homework Parts 3-5 rewritten: sentence labeling table exercises, diagram-plus-table exercises, structural ambiguity analysis (Marx Brothers joke: "Hanging Parsons" and garden-path sentence: "The horse raced past the barn fell")
+- Updated Diagram Examples section with ch07-specific PNG images and bracket notation
+- Expanded glossary with terminology from new sections
+- Revised learning objectives to reflect new content structure
+
+**Bracket notation approach:** 10 new entries added to `bracket_notations.txt` for ch07 diagrams. Old ch07 VP diagram entries preserved (not touched) because ch-05, ch-10, ch-11 reference them by ID.
+
+**Context:** This revision represents the first major structural overhaul since the pilot formatting work on ch-06. Priority was given to ch07 due to its foundational role in the textbook (chapter on diagramming introduces critical techniques). Diagram integration, pedagogical clarity (MVP framing, top-down/bottom-up analysis), and homework modernization (table-based exercises) all prioritized for student learning outcomes.
+
+## Systematic Chapter Improvement Process
+
+**Current approach:** Working through chapters sequentially (Ch7-18 done, Ch19 next). Each chapter receives four improvements: (1) diagram audit — replace old SVGs with SyntaxTreeHybrid PNGs, (2) style guide compliance — convert `<em>` language examples to `<foreign>`, (3) homework review — fix formatting and assess difficulty, (4) Word file generation — Homework, Answer Key, Overhead. Full process documented in `.memory/chapter-improvement-process.md`.
+
+**Key efficiency insight:** Don't over-explore before starting edits. For diagrams, a quick grep of `<image source=` in the chapter + listing `assets/diagrams/new/chXX_*` is sufficient. For `<foreign>` conversion, work section-by-section (tables → lists → paragraphs) rather than categorizing all instances upfront.
+
+**Context:** Established during Ch7 improvement (Task 17). The process takes roughly one session per chapter. Chapters 1-6 had only formatting applied (no homework/diagram work); Ch7 onward gets the full treatment.
+
+## Exam Creation Workflow
+
+**Current approach:** Exams are authored in Markdown (.md) for version control and readability, then generated as .docx files via a Python script using python-docx. Tree diagrams are generated as PNG images using SyntaxTreeHybrid via Playwright automation, then embedded into both the Markdown (as image references) and the .docx (as inline images).
+
+**Workflow:**
+1. Draft exam content in Markdown (student version + answer key)
+2. Write bracket notations for all Section B sentences
+3. Run `generate_exam_diagrams.py` to create PNG tree diagrams via SyntaxTreeHybrid + Playwright
+4. Add diagram image references to Markdown files
+5. Run `generate_exam_docx.py` to create both .docx files with embedded diagrams
+
+**Exam One structure (Spring 2026):** Covers Chapters 4-7. 100 points + 10 bonus. Section A: 25 multiple choice (50 pts, 3 subsections). Section B: 5 sentence labeling/diagramming (50 pts, with labeling tables + bracket notation). Bonus: 5 open-ended questions (10 pts). Time: 70 minutes. Resources: anything except human help or AI.
+
+**Exam One Study Guide:** Companion study guide with practice questions mirroring exam format. Includes its own answer key with SyntaxTreeHybrid-generated diagrams (5 diagrams: sg_q14 through sg_q18). Study guide and answer key have both .md and .docx versions. Sentence labeling tables use HTML `<table>` with `colspan` for merged Role/Phrase cells.
+
+**Study Guide .docx generation:** `generate_study_guide_diagrams.py` generates PNGs via Playwright, `generate_study_guide_docx.py` generates both study guide and answer key .docx files.
+
+**Context:** The .docx generation scripts contain all question data inline (not read from Markdown) so they can be run independently. Diagram widths are tuned per sentence complexity (3.5-6.0 inches).
+
+## MVP Removal (Completed)
+
+**Status:** DONE (commits b819566, 6397474).
+
+MVP (Main Verb Phrase) terminology was removed from all sources:
+- `ch-07.ptx`: Key terms, section title, definition paragraph, step instructions, worked examples, all table cells (MVP→VP), glossary entry
+- `ch-08.ptx`: No MVP references found
+- 6 Homework/Exams files: abbreviation key tables, notes text, HTML table cells, Python data arrays
+- `generate_ch07_answer_key.py`: All table data MVP→VP
+
+## Sentence Labeling Table Styling
+
+**Current approach:** All sentence labeling tables use visible borders and left-aligned first column (row headers), center-aligned data columns.
+
+**PreTeXt pattern:**
+```xml
+<tabular top="minor" left="minor">
+  <col halign="left" right="minor"/>
+  <col halign="center" right="minor"/>
+  <!-- ...one <col> per column... -->
+  <row header="yes" bottom="minor">...</row>
+  <row bottom="minor">...</row>
+</tabular>
+```
+
+**Word docs:** `Table Grid` style provides borders. First-column cells use `WD_ALIGN_PARAGRAPH.LEFT`, rest use `CENTER`.
+
+**Pre-merging student tables:** Student homework/exam tables have Role and Phrase rows pre-merged with `colspan` to match the expected answer structure, even though the cells are blank. This shows students the grouping without giving away the labels. In Python generators, `blank_labels()` converts answer arrays like `["Subject", "", "Predicate"]` → `[" ", "", " "]` preserving span structure for `compute_spans()`.
+
+## Ch7 Homework Structure (14 Exercises)
+
+**Current structure (after Exercise 15 removal):**
+- Part 1 (Ex 1-3): Subject and Predicate Identification
+- Part 2 (Ex 4-6): Heads and Modifiers
+- Part 3 (Ex 7-9): Completing Sentence Tables (pre-merged blanks)
+- Part 4 (Ex 10-12): Completing Diagrams and Tables (free-form)
+- Part 5 (Ex 13-14): Structural Ambiguity Analysis
+  - Ex 13: Groucho Marx joke (full joke with punchline; diagrams for first sentence only)
+  - Ex 14: Garden-path sentence with two diagram prompts (garden-path reading + correct reading); no "reduced relative clause" language — uses "VP modifying horse" instead
+
+## Archived
