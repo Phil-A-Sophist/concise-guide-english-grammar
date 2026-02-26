@@ -111,3 +111,7 @@ codechat_config.yaml
 
 *.bak
 .claude/settings.local.json
+
+# Python bytecode
+__pycache__/
+*.pyc
