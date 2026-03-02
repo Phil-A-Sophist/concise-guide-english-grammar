@@ -2,6 +2,7 @@
 """
 Generate Morphology Bonus Assignment .docx files (student version and answer key).
 No diagrams — students divide 20 words into morphemes and label each free or bound.
+Answer format: one morpheme per line, e.g. "play — free" / "-ful — bound"
 """
 
 from pathlib import Path
@@ -58,22 +59,30 @@ def add_section_header(doc, text, level=2, font_size=14):
     return h
 
 
-def set_col_width(table, col_idx, width_inches):
-    """Set a column width via XML (python-docx doesn't expose this directly)."""
-    for row in table.rows:
-        cell = row.cells[col_idx]
-        tc = cell._tc
-        tcPr = tc.get_or_add_tcPr()
-        tcW = OxmlElement('w:tcW')
-        tcW.set(qn('w:w'), str(int(width_inches * 1440)))
-        tcW.set(qn('w:type'), 'dxa')
-        tcPr.append(tcW)
+def fill_answer_cell(cell, morphemes, labels, font_size=10):
+    """Fill a table cell with one morpheme-label line per morpheme."""
+    for j, (morph, label) in enumerate(zip(morphemes, labels)):
+        p = cell.paragraphs[0] if j == 0 else cell.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        add_run(p, morph, bold=True, font_size=font_size)
+        add_run(p, f"  \u2014  {label}", font_size=font_size)
+
+
+def fill_blank_answer_cell(cell):
+    """Leave a tall blank area for student to type their answer."""
+    p = cell.paragraphs[0]
+    p.text = ""
+    set_paragraph_spacing(p, space_before=0, space_after=0)
+    # Extra blank lines give visual height so the cell isn't cramped
+    for _ in range(3):
+        ep = cell.add_paragraph()
+        set_paragraph_spacing(ep, space_before=0, space_after=0)
 
 
 # =============================================================================
 # WORD DATA
 # Each entry: word, breakdown (list of morphemes), labels (list of free/bound)
-# breakdown uses - prefix for prefixes, suffix for suffixes, bare for free roots
+# Prefixes shown with trailing hyphen: "un-"; suffixes with leading hyphen: "-ness"
 # =============================================================================
 
 WORDS = [
@@ -199,10 +208,58 @@ WORDS = [
     },
 ]
 
+EXAMPLE = {
+    "word": "unhelpful",
+    "morphemes": ["un-", "help", "-ful"],
+    "labels":    ["bound", "free", "bound"],
+    "note": "",
+}
+
 
 # =============================================================================
 # DOCUMENT BUILDER
 # =============================================================================
+
+def build_example_table(doc, is_answer_key, font_size=10):
+    """Add a small completed-example table showing the expected answer format."""
+    num_cols = 4 if is_answer_key else 3
+    table = doc.add_table(rows=2, cols=num_cols)
+    table.style = 'Table Grid'
+    table.alignment = WD_TABLE_ALIGNMENT.LEFT
+
+    headers = (["#", "Word", "Answer", "Notes"] if is_answer_key
+               else ["#", "Word", "Answer"])
+    for j, h in enumerate(headers):
+        cell = table.rows[0].cells[j]
+        cell.text = ""
+        p = cell.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j == 0 else WD_ALIGN_PARAGRAPH.LEFT
+        add_run(p, h, bold=True, font_size=font_size)
+        set_cell_shading(cell, "E8E8E8")
+
+    row = table.rows[1]
+
+    # Col 0: placeholder number
+    cell = row.cells[0]
+    cell.text = ""
+    p = cell.paragraphs[0]
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    add_run(p, "\u2014", font_size=font_size)
+
+    # Col 1: word
+    cell = row.cells[1]
+    cell.text = ""
+    p = cell.paragraphs[0]
+    add_run(p, EXAMPLE["word"], bold=True, font_size=font_size)
+
+    # Col 2: answer (always filled in — it's the example)
+    fill_answer_cell(row.cells[2], EXAMPLE["morphemes"], EXAMPLE["labels"], font_size)
+
+    # Col 3: notes (answer key only)
+    if is_answer_key:
+        cell = row.cells[3]
+        cell.text = ""
+
 
 def create_document(is_answer_key=False):
     doc = Document()
@@ -245,113 +302,79 @@ def create_document(is_answer_key=False):
     add_section_header(doc, "Instructions", level=2, font_size=13)
 
     p = doc.add_paragraph()
-    add_run(p, "For each word in the table below, complete two columns:", font_size=11)
-
-    for item in [
-        ("1. ", "Morpheme Breakdown: ", "Divide the word into its individual morphemes. Use + to separate them. Mark prefixes with a leading hyphen (un-) and suffixes with a trailing hyphen (-ness)."),
-        ("2. ", "Free or Bound: ", "Label each morpheme as either free (can stand alone as a word) or bound (must attach to another morpheme). List labels in the same order as your breakdown."),
-    ]:
-        p = doc.add_paragraph()
-        add_run(p, item[0], bold=True, font_size=11)
-        add_run(p, item[1], bold=True, font_size=11)
-        add_run(p, item[2], font_size=11)
+    add_run(p, "For each word below, divide it into its component morphemes and label each morpheme as ", font_size=11)
+    add_run(p, "free", bold=True, font_size=11)
+    add_run(p, " (can stand alone as a word) or ", font_size=11)
+    add_run(p, "bound", bold=True, font_size=11)
+    add_run(p, " (must attach to another morpheme).", font_size=11)
 
     p = doc.add_paragraph()
-    add_run(p, "Example: ", bold=True, font_size=10)
+    add_run(p, "List one morpheme per line in the Answer column. Mark prefixes with a trailing hyphen (", font_size=11)
+    add_run(p, "un-", italic=True, font_size=11)
+    add_run(p, ") and suffixes with a leading hyphen (", font_size=11)
+    add_run(p, "-ness", italic=True, font_size=11)
+    add_run(p, ").", font_size=11)
+    set_paragraph_spacing(p, space_before=0, space_after=6)
+
+    # Completed example
+    p = doc.add_paragraph()
+    add_run(p, "Example (completed):", bold=True, font_size=11)
     set_paragraph_spacing(p, space_before=4, space_after=2)
 
-    # Example table
-    ex_table = doc.add_table(rows=2, cols=3)
-    ex_table.style = 'Table Grid'
-    ex_table.alignment = WD_TABLE_ALIGNMENT.LEFT
-
-    headers = ["Word", "Morpheme Breakdown", "Free or Bound?"]
-    for j, h in enumerate(headers):
-        cell = ex_table.rows[0].cells[j]
-        cell.text = ""
-        p2 = cell.paragraphs[0]
-        add_run(p2, h, bold=True, font_size=10)
-        set_cell_shading(cell, "E8E8E8")
-
-    ex_data = ["unhelpful", "un- + help + -ful", "bound, free, bound"]
-    for j, val in enumerate(ex_data):
-        cell = ex_table.rows[1].cells[j]
-        cell.text = ""
-        p2 = cell.paragraphs[0]
-        add_run(p2, val, font_size=10, italic=(j == 0))
+    build_example_table(doc, is_answer_key, font_size=10)
 
     p = doc.add_paragraph()
-    set_paragraph_spacing(p, space_before=4, space_after=4)
-
-    if is_answer_key:
-        p = doc.add_paragraph()
-        add_run(p, "Note: ", bold=True, font_size=10)
-        add_run(p, "Italicized text in the Notes column explains any non-obvious analyses.", italic=True, font_size=10)
-        set_paragraph_spacing(p, space_before=0, space_after=6)
+    set_paragraph_spacing(p, space_before=6, space_after=4)
 
     # -------------------------------------------------------------------------
     # MAIN TABLE
     # -------------------------------------------------------------------------
-    num_cols = 5 if is_answer_key else 4
-    num_rows = len(WORDS) + 1  # +1 for header row
-
-    table = doc.add_table(rows=num_rows, cols=num_cols)
+    num_cols = 4 if is_answer_key else 3
+    table = doc.add_table(rows=len(WORDS) + 1, cols=num_cols)
     table.style = 'Table Grid'
     table.alignment = WD_TABLE_ALIGNMENT.LEFT
 
-    # Header row
-    col_headers = ["#", "Word", "Morpheme Breakdown", "Free or Bound?", "Notes"]
-    for j, h in enumerate(col_headers[:num_cols]):
+    headers = (["#", "Word", "Answer", "Notes"] if is_answer_key
+               else ["#", "Word", "Answer"])
+    for j, h in enumerate(headers):
         cell = table.rows[0].cells[j]
         cell.text = ""
-        p2 = cell.paragraphs[0]
-        p2.alignment = WD_ALIGN_PARAGRAPH.CENTER if j == 0 else WD_ALIGN_PARAGRAPH.LEFT
-        add_run(p2, h, bold=True, font_size=10)
+        p = cell.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER if j == 0 else WD_ALIGN_PARAGRAPH.LEFT
+        add_run(p, h, bold=True, font_size=10)
         set_cell_shading(cell, "E8E8E8")
 
-    # Data rows
     for i, entry in enumerate(WORDS):
         row = table.rows[i + 1]
 
-        # Column 0: number
+        # Col 0: number
         cell = row.cells[0]
         cell.text = ""
-        p2 = cell.paragraphs[0]
-        p2.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        add_run(p2, str(i + 1), font_size=10)
+        p = cell.paragraphs[0]
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        add_run(p, str(i + 1), font_size=10)
 
-        # Column 1: word
+        # Col 1: word
         cell = row.cells[1]
         cell.text = ""
-        p2 = cell.paragraphs[0]
-        add_run(p2, entry["word"], font_size=10, bold=True)
+        p = cell.paragraphs[0]
+        add_run(p, entry["word"], bold=True, font_size=10)
 
-        # Column 2: morpheme breakdown
-        cell = row.cells[2]
-        cell.text = ""
-        p2 = cell.paragraphs[0]
+        # Col 2: answer
         if is_answer_key:
-            breakdown = " + ".join(entry["morphemes"])
-            add_run(p2, breakdown, font_size=10)
+            fill_answer_cell(row.cells[2], entry["morphemes"], entry["labels"], font_size=10)
+        else:
+            fill_blank_answer_cell(row.cells[2])
 
-        # Column 3: labels
-        cell = row.cells[3]
-        cell.text = ""
-        p2 = cell.paragraphs[0]
+        # Col 3: notes (answer key only)
         if is_answer_key:
-            label_str = ", ".join(entry["labels"])
-            add_run(p2, label_str, font_size=10)
-
-        # Column 4 (answer key only): notes
-        if is_answer_key:
-            cell = row.cells[4]
+            cell = row.cells[3]
             cell.text = ""
-            p2 = cell.paragraphs[0]
+            p = cell.paragraphs[0]
             if entry["note"]:
-                add_run(p2, entry["note"], font_size=9, italic=True)
+                add_run(p, entry["note"], font_size=9, italic=True)
 
-    # Shade alternating rows lightly for readability
-    for i in range(len(WORDS)):
+        # Alternating row shading
         if (i + 1) % 2 == 0:
             for j in range(num_cols):
                 set_cell_shading(table.rows[i + 1].cells[j], "F5F5F5")
