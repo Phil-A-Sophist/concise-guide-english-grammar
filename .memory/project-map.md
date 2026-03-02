@@ -103,6 +103,11 @@ Task: 40 (consolidation pass)
 - `Homework/Exams/generate_study_guide_docx.py` — Generates study guide and study guide answer key .docx files
 - `Homework/Exams/generate_bonus_diagrams.py` — Generates 10 SyntaxTreeHybrid diagram PNGs for bonus assignment via Playwright
 - `Homework/Exams/generate_bonus_docx.py` — Generates bonus assignment student version and answer key .docx files
+- `Homework/Exams/generate_morphology_bonus_docx.py` — Generates morphology bonus assignment student version and answer key .docx files (20-word morpheme analysis, no diagrams)
+- `Homework/Exams/ENGL 3110 - S26 - Morphology Bonus Assignment.md` — Morphology bonus assignment (Markdown source)
+- `Homework/Exams/ENGL 3110 - S26 - Morphology Bonus Assignment.docx` — Morphology bonus assignment (Word format)
+- `Homework/Exams/ENGL 3110 - S26 - Morphology Bonus Assignment - Answer Key.md` — Morphology bonus answer key (Markdown source)
+- `Homework/Exams/ENGL 3110 - S26 - Morphology Bonus Assignment - Answer Key.docx` — Morphology bonus answer key (Word format)
 - `Homework/Exams/ENGL 3110 - S26 - Bonus Assignment.md` — Bonus assignment (Markdown source)
 - `Homework/Exams/ENGL 3110 - S26 - Bonus Assignment.docx` — Bonus assignment (Word format)
 - `Homework/Exams/ENGL 3110 - S26 - Bonus Assignment - Answer Key.md` — Bonus assignment answer key (Markdown source)
