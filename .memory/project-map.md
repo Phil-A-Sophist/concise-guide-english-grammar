@@ -1,7 +1,7 @@
 # Project Map
 
-Last updated: 2026-02-15
-Task: 37
+Last updated: 2026-02-24
+Task: 40 (consolidation pass)
 
 ## Root Directory
 
@@ -69,14 +69,16 @@ Task: 37
 
 ## Homework/
 
+- `Homework/Homework Rhet Gram Ch 1 - S26.docx` — External reference material (untracked; not part of project workflow)
 - `Homework/Chapter 01 Homework.docx` through `Chapter 21 Homework.docx` — Student homework files (Word format)
 - `Homework/Chapter 04 Answer Key.docx` through `Chapter 16 Answer Key.docx` — Answer keys (Chapters 4-16)
 - `Homework/Chapter 18 Answer Key.docx` — Answer key (Chapter 18; no Ch17 answer key yet)
 - `Homework/Homework 04 Overhead.docx`, `Homework/Homework 05 Overhead.docx` — Classroom overheads (Chapters 4-5)
+- `Homework/Homework 06 Overhead.docx` — Classroom overhead for Chapter 6
 - `Homework/Homework 07 Overhead.docx` through `Homework/Homework 16 Overhead.docx` — Classroom overheads (Chapters 7-16, 22pt projection format)
-- `Homework/Homework 18 Overhead.docx` — Classroom overhead for Chapter 18 (no Ch06, Ch17 overheads yet)
+- `Homework/Homework 18 Overhead.docx` — Classroom overhead for Chapter 18 (no Ch17 overhead yet)
+- `Homework/README.md` — Notes or instructions for the Homework directory
 - `Homework/generate_homework_from_pretext.py` — Script to generate Word homework files from PreTeXt source
-- `Homework/generate_hw_diagrams.py` — Generates SyntaxTreeHybrid diagram PNGs for practice assignments via Playwright
 - `Homework/diagrams/` — Generated diagram PNGs for SyntaxTreeHybrid practice assignment
 - `Homework/SyntaxTreeHybrid Instructions.md` — Student instructions for using SyntaxTreeHybrid tool
 - `Homework/SyntaxTreeHybrid Instructions.docx` — Word version of SyntaxTreeHybrid instructions
@@ -99,16 +101,27 @@ Task: 37
 - `Homework/Exams/generate_exam_docx.py` — Generates both exam and answer key .docx files with embedded diagrams
 - `Homework/Exams/generate_study_guide_diagrams.py` — Generates SyntaxTreeHybrid diagram PNGs for study guide via Playwright
 - `Homework/Exams/generate_study_guide_docx.py` — Generates study guide and study guide answer key .docx files
-- `Homework/Exams/diagrams/` — 11 generated diagram PNGs (1 exam example + 5 exam answer key diagrams + 5 study guide answer key diagrams: sg_q14-sg_q18)
+- `Homework/Exams/generate_bonus_diagrams.py` — Generates 10 SyntaxTreeHybrid diagram PNGs for bonus assignment via Playwright
+- `Homework/Exams/generate_bonus_docx.py` — Generates bonus assignment student version and answer key .docx files
+- `Homework/Exams/ENGL 3110 - S26 - Bonus Assignment.md` — Bonus assignment (Markdown source)
+- `Homework/Exams/ENGL 3110 - S26 - Bonus Assignment.docx` — Bonus assignment (Word format)
+- `Homework/Exams/ENGL 3110 - S26 - Bonus Assignment - Answer Key.md` — Bonus assignment answer key (Markdown source)
+- `Homework/Exams/ENGL 3110 - S26 - Bonus Assignment - Answer Key.docx` — Bonus assignment answer key (Word format, with embedded diagrams)
+- `Homework/Exams/diagrams/` — 21 generated diagram PNGs (1 exam example + 5 exam answer key diagrams + 5 study guide answer key diagrams + 10 bonus assignment diagrams: bonus_q01-bonus_q10)
 
 ## scripts/
 
 - `scripts/generate_diagrams.py` — SVG diagram generation script
 - `scripts/generate_new_diagrams.py` — Updated/new diagram generation script
-- `scripts/generate_ch07_answer_key.py` through `scripts/generate_ch16_answer_key.py` — Answer key and overhead .docx generators (Chapters 7-16)
+- `scripts/generate_ch06_homework.py` — Generates Chapter 6 homework .docx
+- `scripts/generate_ch07_answer_key.py` — Answer key and overhead .docx generator for Chapter 7
+- `scripts/generate_ch07_hw_diagrams.py` — Generates SyntaxTreeHybrid diagram PNGs for Ch7 homework via Playwright
+- `scripts/generate_ch08_answer_key.py` through `scripts/generate_ch16_answer_key.py` — Answer key and overhead .docx generators (Chapters 8-16)
 - `scripts/generate_ch18_answer_key.py` — Answer key and overhead .docx generator (Chapter 18; no Ch17 script yet)
 - `scripts/fix_nested_em.py` — Utility script to fix nested `<em><em>` patterns in PreTeXt source
 - `scripts/process_chapters.py` — Batch chapter processing utility
+- `scripts/reformat_ch05_answer_key.py` — Reformats Chapter 5 answer key .docx
+- `scripts/reformat_ch05_overhead.py` — Reformats Chapter 5 overhead .docx
 - `scripts/remove_example_italics.py` — Script to remove italics from language examples (v1)
 - `scripts/remove_example_italics_v2.py` — Updated script to remove italics from language examples (v2)
 
@@ -137,11 +150,13 @@ Task: 37
 ## .memory/
 
 - `.memory/state.md` — Current compressed project state (rewritten every cycle)
+- `.memory/instructions.md` — Memory consolidation subagent instructions (created Task 40)
 - `.memory/project-map.md` — Index of project files and artifacts
 - `.memory/knowledge-base.md` — Decisions, solutions, and hard-won knowledge by topic
 - `.memory/chapter-improvement-process.md` — Step-by-step process for systematic chapter improvements (diagrams, formatting, homework, Word files)
 - `.memory/state-t20.md` — State snapshot at Task 20
 - `.memory/state-t30.md` — State snapshot at Task 30
+- `.memory/state-t40.md` — State snapshot at Task 40
 - `.memory/reference/project-context.md` — Project context extracted from CLAUDE.md during v3 deployment
 
 ## logs/
