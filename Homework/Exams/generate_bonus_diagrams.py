@@ -25,37 +25,47 @@ SYNTAX_TREE_DIR = Path(r"C:\Users\irphy\Documents\SyntaxTreeHybrid")
 OUTPUT_DIR = Path(r"C:\Users\irphy\Documents\concise-guide-english-grammar\Homework\Exams\diagrams")
 EXPORT_MULTIPLIER = 5
 
-# 10 bonus assignment sentences (all intransitive, ~8 words each)
+# 10 bonus assignment sentences — more complex structures, PP in every position
 DIAGRAMS = {
-    # Q1: "The tall student slept quietly in the library."
-    "bonus_q01_student_slept": "[S [NP [DET The] [ADJP [ADJ tall]] [N student]] [VP [V slept] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N library]]]]]",
+    # Q1: PP modifying N (subject head); long NP with two pre-nominal ADJs
+    # "The tall energetic student near the door arrived late."
+    "bonus_q01_student_arrived": "[S [NP [DET The] [ADJP [ADJ tall]] [ADJP [ADJ energetic]] [N student] [PP [PREP near] [NP [DET the] [N door]]]] [VP [V arrived] [ADVP [ADV late]]]]",
 
-    # Q2: "The young children played happily in the yard."
-    "bonus_q02_children_played": "[S [NP [DET The] [ADJP [ADJ young]] [N children]] [VP [V played] [ADVP [ADV happily]] [PP [PREP in] [NP [DET the] [N yard]]]]]",
+    # Q2: PP modifying N (subject head); very long NP (2 ADJs + post-nominal PP with ADJ)
+    # "The brilliant young professor from the northern campus spoke clearly."
+    "bonus_q02_professor_spoke": "[S [NP [DET The] [ADJP [ADJ brilliant]] [ADJP [ADJ young]] [N professor] [PP [PREP from] [NP [DET the] [ADJP [ADJ northern]] [N campus]]]] [VP [V spoke] [ADVP [ADV clearly]]]]",
 
-    # Q3: "She ran very quickly through the dark forest."
-    "bonus_q03_she_ran": "[S [NP [PRO She]] [VP [V ran] [ADVP [ADV very] [ADV quickly]] [PP [PREP through] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]",
+    # Q3: PP modifying ADJ (PP inside post-nominal ADJP)
+    # "The student afraid of failure studied very diligently."
+    "bonus_q03_student_studied": "[S [NP [DET The] [N student] [ADJP [ADJ afraid] [PP [PREP of] [NP [N failure]]]]] [VP [V studied] [ADVP [ADV very] [ADV diligently]]]]",
 
-    # Q4: "The old dog rested near the warm fireplace."
-    "bonus_q04_dog_rested": "[S [NP [DET The] [ADJP [ADJ old]] [N dog]] [VP [V rested] [PP [PREP near] [NP [DET the] [ADJP [ADJ warm]] [N fireplace]]]]]",
+    # Q4: PP modifying ADV ("far" modified by "from the noisy old city")
+    # "They lived quite far from the noisy old city."
+    "bonus_q04_they_lived": "[S [NP [PRO They]] [VP [V lived] [ADVP [ADV quite] [ADV far] [PP [PREP from] [NP [DET the] [ADJP [ADJ noisy]] [ADJP [ADJ old]] [N city]]]]]]",
 
-    # Q5: "The bright stars shone above the quiet town."
-    "bonus_q05_stars_shone": "[S [NP [DET The] [ADJP [ADJ bright]] [N stars]] [VP [V shone] [PP [PREP above] [NP [DET the] [ADJP [ADJ quiet]] [N town]]]]]",
+    # Q5: Nested PP — PP modifying N as object of preposition
+    # "He waited quietly at the bench near the old fountain."
+    "bonus_q05_he_waited": "[S [NP [PRO He]] [VP [V waited] [ADVP [ADV quietly]] [PP [PREP at] [NP [DET the] [N bench] [PP [PREP near] [NP [DET the] [ADJP [ADJ old]] [N fountain]]]]]]]",
 
-    # Q6: "They walked very slowly along the narrow path."
-    "bonus_q06_they_walked": "[S [NP [PRO They]] [VP [V walked] [ADVP [ADV very] [ADV slowly]] [PP [PREP along] [NP [DET the] [ADJP [ADJ narrow]] [N path]]]]]",
+    # Q6: Very long VP — V + ADVP + PP + PP (two adverbial PPs)
+    # "She sat quite peacefully near the tall fountain in the old courtyard."
+    "bonus_q06_she_sat": "[S [NP [PRO She]] [VP [V sat] [ADVP [ADV quite] [ADV peacefully]] [PP [PREP near] [NP [DET the] [ADJP [ADJ tall]] [N fountain]]] [PP [PREP in] [NP [DET the] [ADJP [ADJ old]] [N courtyard]]]]]",
 
-    # Q7: "The nervous professor spoke clearly at the podium."
-    "bonus_q07_professor_spoke": "[S [NP [DET The] [ADJP [ADJ nervous]] [N professor]] [VP [V spoke] [ADVP [ADV clearly]] [PP [PREP at] [NP [DET the] [N podium]]]]]",
+    # Q7: Long NP (DET+ADJ+ADJ+N+PP) AND long VP (V+ADVP+PP)
+    # "The tired old dog from the farm slept quietly near the fire."
+    "bonus_q07_dog_slept": "[S [NP [DET The] [ADJP [ADJ tired]] [ADJP [ADJ old]] [N dog] [PP [PREP from] [NP [DET the] [N farm]]]] [VP [V slept] [ADVP [ADV quietly]] [PP [PREP near] [NP [DET the] [N fire]]]]]",
 
-    # Q8: "Small birds sang loudly near the old oak."
-    "bonus_q08_birds_sang": "[S [NP [ADJP [ADJ Small]] [N birds]] [VP [V sang] [ADVP [ADV loudly]] [PP [PREP near] [NP [DET the] [ADJP [ADJ old]] [N oak]]]]]",
+    # Q8: PP modifying V; PP object NP contains two ADJs
+    # "The nervous boy sat rigidly in the hard narrow chair."
+    "bonus_q08_boy_sat": "[S [NP [DET The] [ADJP [ADJ nervous]] [N boy]] [VP [V sat] [ADVP [ADV rigidly]] [PP [PREP in] [NP [DET the] [ADJP [ADJ hard]] [ADJP [ADJ narrow]] [N chair]]]]]",
 
-    # Q9: "He waited very patiently outside the large building."
-    "bonus_q09_he_waited": "[S [NP [PRO He]] [VP [V waited] [ADVP [ADV very] [ADV patiently]] [PP [PREP outside] [NP [DET the] [ADJP [ADJ large]] [N building]]]]]",
+    # Q9: PP modifying ADV — "deep" modified by "in the dark forest" (second ADVP in VP)
+    # "The small birds sang very loudly deep in the dark forest."
+    "bonus_q09_birds_sang": "[S [NP [DET The] [ADJP [ADJ small]] [N birds]] [VP [V sang] [ADVP [ADV very] [ADV loudly]] [ADVP [ADV deep] [PP [PREP in] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]]",
 
-    # Q10: "The tired runner collapsed suddenly at the barrier."
-    "bonus_q10_runner_collapsed": "[S [NP [DET The] [ADJP [ADJ tired]] [N runner]] [VP [V collapsed] [ADVP [ADV suddenly]] [PP [PREP at] [NP [DET the] [N barrier]]]]]",
+    # Q10: Very long NP — post-nominal ADJP whose head ADJ has a PP complement (PP → ADJ)
+    # "The old woman confident in her skills spoke quite passionately."
+    "bonus_q10_woman_spoke": "[S [NP [DET The] [ADJP [ADJ old]] [N woman] [ADJP [ADJ confident] [PP [PREP in] [NP [DET her] [N skills]]]]] [VP [V spoke] [ADVP [ADV quite] [ADV passionately]]]]",
 }
 
 

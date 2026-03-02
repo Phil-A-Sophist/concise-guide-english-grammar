@@ -163,115 +163,157 @@ def add_diagram_box(doc):
 # =============================================================================
 
 SENTENCES = [
+    # --- Sentence 1 ---
+    # Long NP (DET+ADJ+ADJ+N) with post-nominal PP modifying the subject noun.
+    # Shows: PP → N (subject head)
     {
         "num": 1,
-        "sentence": "The tall student slept quietly in the library.",
-        "words": ["The", "tall", "student", "slept", "quietly", "in", "the", "library"],
-        "pos":     ["DET", "ADJ", "N",       "V",      "ADV",     "PREP", "DET", "N"],
-        "phrases": ["NP",  "",    "",         "VP",     "ADVP",    "PP",   "",    ""],
-        "roles":   ["Subject", "", "", "Predicate", "", "", "", ""],
-        "bracket": "[S [NP [DET The] [ADJP [ADJ tall]] [N student]] [VP [V slept] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N library]]]]]",
-        "diagram": "bonus_q01_student_slept",
-        "width": 5.0,
+        "sentence": "The tall energetic student near the door arrived late.",
+        "words":   ["The", "tall", "energetic", "student", "near", "the", "door", "arrived", "late"],
+        "pos":     ["DET", "ADJ", "ADJ",        "N",       "PREP", "DET", "N",    "V",       "ADV"],
+        "phrases": ["NP",  "",    "",            "",        "PP",   "",    "",     "VP",      "ADVP"],
+        # NP spans cols 1-4 (DET+ADJ+ADJ+N), PP spans cols 5-7 (post-nominal, inside NP)
+        "roles":   ["Subject", "", "", "", "", "", "", "Predicate", ""],
+        "bracket": "[S [NP [DET The] [ADJP [ADJ tall]] [ADJP [ADJ energetic]] [N student] [PP [PREP near] [NP [DET the] [N door]]]] [VP [V arrived] [ADVP [ADV late]]]]",
+        "diagram": "bonus_q01_student_arrived",
+        "width": 5.5,
     },
+    # --- Sentence 2 ---
+    # Very long NP (DET+ADJ+ADJ+N+PP) where the PP object itself contains an ADJ.
+    # Shows: PP → N (subject head); long NP
     {
         "num": 2,
-        "sentence": "The young children played happily in the yard.",
-        "words": ["The", "young", "children", "played", "happily", "in", "the", "yard"],
-        "pos":     ["DET", "ADJ",   "N",        "V",      "ADV",     "PREP", "DET", "N"],
-        "phrases": ["NP",  "",      "",          "VP",     "ADVP",    "PP",   "",    ""],
-        "roles":   ["Subject", "", "", "Predicate", "", "", "", ""],
-        "bracket": "[S [NP [DET The] [ADJP [ADJ young]] [N children]] [VP [V played] [ADVP [ADV happily]] [PP [PREP in] [NP [DET the] [N yard]]]]]",
-        "diagram": "bonus_q02_children_played",
-        "width": 5.0,
+        "sentence": "The brilliant young professor from the northern campus spoke clearly.",
+        "words":   ["The", "brilliant", "young", "professor", "from", "the", "northern", "campus", "spoke",  "clearly"],
+        "pos":     ["DET", "ADJ",       "ADJ",   "N",         "PREP", "DET", "ADJ",      "N",      "V",      "ADV"],
+        "phrases": ["NP",  "",          "",      "",           "PP",   "",    "",          "",      "VP",     "ADVP"],
+        # NP spans cols 1-4, PP spans cols 5-8 (post-nominal inside NP)
+        "roles":   ["Subject", "", "", "", "", "", "", "", "Predicate", ""],
+        "bracket": "[S [NP [DET The] [ADJP [ADJ brilliant]] [ADJP [ADJ young]] [N professor] [PP [PREP from] [NP [DET the] [ADJP [ADJ northern]] [N campus]]]] [VP [V spoke] [ADVP [ADV clearly]]]]",
+        "diagram": "bonus_q02_professor_spoke",
+        "width": 6.0,
     },
+    # --- Sentence 3 ---
+    # Post-nominal ADJP with a PP complement modifying the adjective.
+    # Shows: PP → ADJ
     {
         "num": 3,
-        "sentence": "She ran very quickly through the dark forest.",
-        "words": ["She", "ran", "very",  "quickly", "through", "the", "dark", "forest"],
-        "pos":     ["PRO", "V",  "ADV",  "ADV",     "PREP",    "DET", "ADJ",  "N"],
-        "phrases": ["NP",  "VP", "ADVP", "",        "PP",      "",    "",     ""],
-        "roles":   ["Subject", "Predicate", "", "", "", "", "", ""],
-        "bracket": "[S [NP [PRO She]] [VP [V ran] [ADVP [ADV very] [ADV quickly]] [PP [PREP through] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]",
-        "diagram": "bonus_q03_she_ran",
+        "sentence": "The student afraid of failure studied very diligently.",
+        "words":   ["The", "student", "afraid", "of",   "failure", "studied", "very", "diligently"],
+        "pos":     ["DET", "N",       "ADJ",    "PREP", "N",       "V",       "ADV",  "ADV"],
+        "phrases": ["NP",  "",        "ADJP",   "",     "",        "VP",      "ADVP", ""],
+        # NP spans cols 1-2; ADJP spans cols 3-5 (post-nominal, inside NP; PP inside ADJP in bracket)
+        "roles":   ["Subject", "", "", "", "", "Predicate", "", ""],
+        "bracket": "[S [NP [DET The] [N student] [ADJP [ADJ afraid] [PP [PREP of] [NP [N failure]]]]] [VP [V studied] [ADVP [ADV very] [ADV diligently]]]]",
+        "diagram": "bonus_q03_student_studied",
         "width": 5.5,
     },
+    # --- Sentence 4 ---
+    # ADVP whose head adverb "far" is modified by the following PP.
+    # Shows: PP → ADV
     {
         "num": 4,
-        "sentence": "The old dog rested near the warm fireplace.",
-        "words": ["The", "old", "dog", "rested", "near", "the", "warm",  "fireplace"],
-        "pos":     ["DET", "ADJ", "N",  "V",      "PREP", "DET", "ADJ",  "N"],
-        "phrases": ["NP",  "",    "",   "VP",     "PP",   "",    "",     ""],
-        "roles":   ["Subject", "", "", "Predicate", "", "", "", ""],
-        "bracket": "[S [NP [DET The] [ADJP [ADJ old]] [N dog]] [VP [V rested] [PP [PREP near] [NP [DET the] [ADJP [ADJ warm]] [N fireplace]]]]]",
-        "diagram": "bonus_q04_dog_rested",
-        "width": 5.0,
+        "sentence": "They lived quite far from the noisy old city.",
+        "words":   ["They", "lived", "quite", "far", "from", "the", "noisy", "old", "city"],
+        "pos":     ["PRO",  "V",     "ADV",   "ADV", "PREP", "DET", "ADJ",   "ADJ", "N"],
+        "phrases": ["NP",   "VP",    "ADVP",  "",    "",     "",    "",      "",    ""],
+        # ADVP spans cols 3-9; the PP "from the noisy old city" is inside it, modifying "far"
+        "roles":   ["Subject", "Predicate", "", "", "", "", "", "", ""],
+        "bracket": "[S [NP [PRO They]] [VP [V lived] [ADVP [ADV quite] [ADV far] [PP [PREP from] [NP [DET the] [ADJP [ADJ noisy]] [ADJP [ADJ old]] [N city]]]]]]",
+        "diagram": "bonus_q04_they_lived",
+        "width": 6.0,
     },
+    # --- Sentence 5 ---
+    # Nested PP: the outer PP's NP object contains its own post-nominal PP.
+    # Shows: PP → N (as object of a preposition)
     {
         "num": 5,
-        "sentence": "The bright stars shone above the quiet town.",
-        "words": ["The", "bright", "stars", "shone", "above", "the", "quiet", "town"],
-        "pos":     ["DET", "ADJ",   "N",     "V",     "PREP",  "DET", "ADJ",   "N"],
-        "phrases": ["NP",  "",      "",      "VP",    "PP",    "",    "",      ""],
-        "roles":   ["Subject", "", "", "Predicate", "", "", "", ""],
-        "bracket": "[S [NP [DET The] [ADJP [ADJ bright]] [N stars]] [VP [V shone] [PP [PREP above] [NP [DET the] [ADJP [ADJ quiet]] [N town]]]]]",
-        "diagram": "bonus_q05_stars_shone",
-        "width": 5.0,
+        "sentence": "He waited quietly at the bench near the old fountain.",
+        "words":   ["He",  "waited", "quietly", "at",   "the", "bench", "near", "the", "old", "fountain"],
+        "pos":     ["PRO", "V",      "ADV",     "PREP", "DET", "N",     "PREP", "DET", "ADJ", "N"],
+        "phrases": ["NP",  "VP",     "ADVP",    "PP",   "",    "",      "PP",   "",    "",    ""],
+        # PP1 spans cols 4-6 (head of outer PP: "at the bench")
+        # PP2 spans cols 7-10 (inner PP modifying "bench", inside the NP object of "at")
+        "roles":   ["Subject", "Predicate", "", "", "", "", "", "", "", ""],
+        "bracket": "[S [NP [PRO He]] [VP [V waited] [ADVP [ADV quietly]] [PP [PREP at] [NP [DET the] [N bench] [PP [PREP near] [NP [DET the] [ADJP [ADJ old]] [N fountain]]]]]]]",
+        "diagram": "bonus_q05_he_waited",
+        "width": 6.0,
     },
+    # --- Sentence 6 ---
+    # Very long VP: main verb + ADVP + two adverbial PPs.
+    # Shows: PP → V (adverbial, two instances); long VP
     {
         "num": 6,
-        "sentence": "They walked very slowly along the narrow path.",
-        "words": ["They", "walked", "very",  "slowly", "along", "the", "narrow", "path"],
-        "pos":     ["PRO",  "V",     "ADV",  "ADV",    "PREP",  "DET", "ADJ",    "N"],
-        "phrases": ["NP",   "VP",    "ADVP", "",       "PP",    "",    "",       ""],
-        "roles":   ["Subject", "Predicate", "", "", "", "", "", ""],
-        "bracket": "[S [NP [PRO They]] [VP [V walked] [ADVP [ADV very] [ADV slowly]] [PP [PREP along] [NP [DET the] [ADJP [ADJ narrow]] [N path]]]]]",
-        "diagram": "bonus_q06_they_walked",
-        "width": 5.5,
+        "sentence": "She sat quite peacefully near the tall fountain in the old courtyard.",
+        "words":   ["She", "sat", "quite", "peacefully", "near", "the", "tall",  "fountain", "in",   "the", "old", "courtyard"],
+        "pos":     ["PRO", "V",   "ADV",   "ADV",        "PREP", "DET", "ADJ",   "N",        "PREP", "DET", "ADJ", "N"],
+        "phrases": ["NP",  "VP",  "ADVP",  "",           "PP",   "",    "",      "",         "PP",   "",    "",    ""],
+        # ADVP spans cols 3-4; PP1 spans cols 5-8; PP2 spans cols 9-12
+        "roles":   ["Subject", "Predicate", "", "", "", "", "", "", "", "", "", ""],
+        "bracket": "[S [NP [PRO She]] [VP [V sat] [ADVP [ADV quite] [ADV peacefully]] [PP [PREP near] [NP [DET the] [ADJP [ADJ tall]] [N fountain]]] [PP [PREP in] [NP [DET the] [ADJP [ADJ old]] [N courtyard]]]]]",
+        "diagram": "bonus_q06_she_sat",
+        "width": 6.5,
     },
+    # --- Sentence 7 ---
+    # Long NP (DET+ADJ+ADJ+N+PP) AND long VP (V+ADVP+PP).
+    # Shows: PP → N (subject head) and PP → V (adverbial); both NP and VP are complex
     {
         "num": 7,
-        "sentence": "The nervous professor spoke clearly at the podium.",
-        "words": ["The", "nervous",  "professor", "spoke", "clearly", "at",   "the", "podium"],
-        "pos":     ["DET", "ADJ",    "N",          "V",     "ADV",    "PREP", "DET", "N"],
-        "phrases": ["NP",  "",       "",            "VP",    "ADVP",   "PP",   "",    ""],
-        "roles":   ["Subject", "", "", "Predicate", "", "", "", ""],
-        "bracket": "[S [NP [DET The] [ADJP [ADJ nervous]] [N professor]] [VP [V spoke] [ADVP [ADV clearly]] [PP [PREP at] [NP [DET the] [N podium]]]]]",
-        "diagram": "bonus_q07_professor_spoke",
-        "width": 5.0,
+        "sentence": "The tired old dog from the farm slept quietly near the fire.",
+        "words":   ["The", "tired", "old", "dog", "from", "the", "farm", "slept",  "quietly", "near", "the", "fire"],
+        "pos":     ["DET", "ADJ",   "ADJ", "N",   "PREP", "DET", "N",    "V",      "ADV",     "PREP", "DET", "N"],
+        "phrases": ["NP",  "",      "",    "",     "PP",   "",    "",     "VP",     "ADVP",    "PP",   "",    ""],
+        # NP spans cols 1-4; PP1 (subject-NP post-nominal) cols 5-7;
+        # VP col 8; ADVP col 9; PP2 (adverbial) cols 10-12
+        "roles":   ["Subject", "", "", "", "", "", "", "Predicate", "", "", "", ""],
+        "bracket": "[S [NP [DET The] [ADJP [ADJ tired]] [ADJP [ADJ old]] [N dog] [PP [PREP from] [NP [DET the] [N farm]]]] [VP [V slept] [ADVP [ADV quietly]] [PP [PREP near] [NP [DET the] [N fire]]]]]",
+        "diagram": "bonus_q07_dog_slept",
+        "width": 6.5,
     },
+    # --- Sentence 8 ---
+    # Simple NP; VP has ADVP + PP where the PP object NP contains two ADJs.
+    # Shows: PP → V (adverbial); long PP object
     {
         "num": 8,
-        "sentence": "Small birds sang loudly near the old oak.",
-        "words": ["Small", "birds", "sang", "loudly", "near", "the", "old", "oak"],
-        "pos":     ["ADJ",   "N",    "V",    "ADV",    "PREP", "DET", "ADJ", "N"],
-        "phrases": ["NP",    "",     "VP",   "ADVP",   "PP",   "",    "",    ""],
-        "roles":   ["Subject", "", "Predicate", "", "", "", "", ""],
-        "bracket": "[S [NP [ADJP [ADJ Small]] [N birds]] [VP [V sang] [ADVP [ADV loudly]] [PP [PREP near] [NP [DET the] [ADJP [ADJ old]] [N oak]]]]]",
-        "diagram": "bonus_q08_birds_sang",
-        "width": 5.0,
-    },
-    {
-        "num": 9,
-        "sentence": "He waited very patiently outside the large building.",
-        "words": ["He",  "waited", "very",  "patiently", "outside", "the", "large", "building"],
-        "pos":     ["PRO", "V",    "ADV",  "ADV",       "PREP",    "DET", "ADJ",   "N"],
-        "phrases": ["NP",  "VP",   "ADVP", "",          "PP",      "",    "",      ""],
-        "roles":   ["Subject", "Predicate", "", "", "", "", "", ""],
-        "bracket": "[S [NP [PRO He]] [VP [V waited] [ADVP [ADV very] [ADV patiently]] [PP [PREP outside] [NP [DET the] [ADJP [ADJ large]] [N building]]]]]",
-        "diagram": "bonus_q09_he_waited",
+        "sentence": "The nervous boy sat rigidly in the hard narrow chair.",
+        "words":   ["The", "nervous", "boy", "sat", "rigidly", "in",   "the", "hard", "narrow", "chair"],
+        "pos":     ["DET", "ADJ",     "N",   "V",   "ADV",     "PREP", "DET", "ADJ",  "ADJ",    "N"],
+        "phrases": ["NP",  "",        "",    "VP",  "ADVP",    "PP",   "",    "",     "",       ""],
+        "roles":   ["Subject", "", "", "Predicate", "", "", "", "", "", ""],
+        "bracket": "[S [NP [DET The] [ADJP [ADJ nervous]] [N boy]] [VP [V sat] [ADVP [ADV rigidly]] [PP [PREP in] [NP [DET the] [ADJP [ADJ hard]] [ADJP [ADJ narrow]] [N chair]]]]]",
+        "diagram": "bonus_q08_boy_sat",
         "width": 5.5,
     },
+    # --- Sentence 9 ---
+    # VP with two AVPs: the second ADVP has "deep" as its head with a PP complement.
+    # Shows: PP → ADV (a second example); long VP
+    {
+        "num": 9,
+        "sentence": "The small birds sang very loudly deep in the dark forest.",
+        "words":   ["The", "small", "birds", "sang", "very", "loudly", "deep", "in",   "the", "dark", "forest"],
+        "pos":     ["DET", "ADJ",   "N",     "V",    "ADV",  "ADV",    "ADV",  "PREP", "DET", "ADJ",  "N"],
+        "phrases": ["NP",  "",      "",      "VP",   "ADVP", "",       "ADVP", "",     "",    "",     ""],
+        # ADVP1 spans cols 5-6 ("very loudly"); ADVP2 spans cols 7-11 ("deep in the dark forest")
+        "roles":   ["Subject", "", "", "Predicate", "", "", "", "", "", "", ""],
+        "bracket": "[S [NP [DET The] [ADJP [ADJ small]] [N birds]] [VP [V sang] [ADVP [ADV very] [ADV loudly]] [ADVP [ADV deep] [PP [PREP in] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]]",
+        "diagram": "bonus_q09_birds_sang",
+        "width": 6.0,
+    },
+    # --- Sentence 10 ---
+    # Very long NP: pre-nominal ADJ + N + post-nominal ADJP, where the ADJP has a PP complement.
+    # Shows: PP → ADJ (a second example); very long NP
     {
         "num": 10,
-        "sentence": "The tired runner collapsed suddenly at the barrier.",
-        "words": ["The", "tired", "runner", "collapsed", "suddenly", "at",   "the", "barrier"],
-        "pos":     ["DET", "ADJ",  "N",      "V",         "ADV",     "PREP", "DET", "N"],
-        "phrases": ["NP",  "",     "",       "VP",        "ADVP",    "PP",   "",    ""],
-        "roles":   ["Subject", "", "", "Predicate", "", "", "", ""],
-        "bracket": "[S [NP [DET The] [ADJP [ADJ tired]] [N runner]] [VP [V collapsed] [ADVP [ADV suddenly]] [PP [PREP at] [NP [DET the] [N barrier]]]]]",
-        "diagram": "bonus_q10_runner_collapsed",
-        "width": 5.0,
+        "sentence": "The old woman confident in her skills spoke quite passionately.",
+        "words":   ["The", "old", "woman", "confident", "in",   "her", "skills", "spoke", "quite", "passionately"],
+        "pos":     ["DET", "ADJ", "N",     "ADJ",       "PREP", "DET", "N",      "V",     "ADV",   "ADV"],
+        "phrases": ["NP",  "",    "",      "ADJP",      "",     "",    "",       "VP",    "ADVP",  ""],
+        # NP spans cols 1-3 (DET+ADJ+N); ADJP spans cols 4-7 (post-nominal, inside NP;
+        # PP "in her skills" is inside the ADJP in bracket notation)
+        "roles":   ["Subject", "", "", "", "", "", "", "Predicate", "", ""],
+        "bracket": "[S [NP [DET The] [ADJP [ADJ old]] [N woman] [ADJP [ADJ confident] [PP [PREP in] [NP [DET her] [N skills]]]]] [VP [V spoke] [ADVP [ADV quite] [ADV passionately]]]]",
+        "diagram": "bonus_q10_woman_spoke",
+        "width": 6.0,
     },
 ]
 
