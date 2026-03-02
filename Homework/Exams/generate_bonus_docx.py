@@ -147,7 +147,7 @@ def add_diagram_box(doc):
     """Add a bordered blank area for students to paste their diagram."""
     p = doc.add_paragraph()
     add_run(p, "Diagram: ", bold=True, font_size=10)
-    add_run(p, "Use SyntaxTreeHybrid to create your tree diagram. Paste or attach your PNG image below.", font_size=10, italic=True)
+    add_run(p, "Please paste your diagram below.", font_size=10, italic=True)
     set_paragraph_spacing(p, space_before=4, space_after=2)
 
     # Blank space (4 empty paragraphs)
@@ -204,7 +204,7 @@ SENTENCES = [
         "phrases": ["NP",  "",        "ADJP",   "",     "",        "VP",      "ADVP", ""],
         # NP spans cols 1-2; ADJP spans cols 3-5 (post-nominal, inside NP; PP inside ADJP in bracket)
         "roles":   ["Subject", "", "", "", "", "Predicate", "", ""],
-        "bracket": "[S [NP [DET The] [N student] [ADJP [ADJ afraid] [PP [PREP of] [NP [N failure]]]]] [VP [V studied] [ADVP [ADV very] [ADV diligently]]]]",
+        "bracket": "[S [NP [DET The] [N student] [ADJP [ADJ afraid] [PP [PREP of] [NP [N failure]]]]] [VP [V studied] [ADVP [ADVP [ADV very]] [ADV diligently]]]]",
         "diagram": "bonus_q03_student_studied",
         "width": 5.5,
     },
@@ -219,7 +219,7 @@ SENTENCES = [
         "phrases": ["NP",   "VP",    "ADVP",  "",    "",     "",    "",      "",    ""],
         # ADVP spans cols 3-9; the PP "from the noisy old city" is inside it, modifying "far"
         "roles":   ["Subject", "Predicate", "", "", "", "", "", "", ""],
-        "bracket": "[S [NP [PRO They]] [VP [V lived] [ADVP [ADV quite] [ADV far] [PP [PREP from] [NP [DET the] [ADJP [ADJ noisy]] [ADJP [ADJ old]] [N city]]]]]]",
+        "bracket": "[S [NP [PRO They]] [VP [V lived] [ADVP [ADVP [ADV quite]] [ADV far] [PP [PREP from] [NP [DET the] [ADJP [ADJ noisy]] [ADJP [ADJ old]] [N city]]]]]]",
         "diagram": "bonus_q04_they_lived",
         "width": 6.0,
     },
@@ -250,7 +250,7 @@ SENTENCES = [
         "phrases": ["NP",  "VP",  "ADVP",  "",           "PP",   "",    "",      "",         "PP",   "",    "",    ""],
         # ADVP spans cols 3-4; PP1 spans cols 5-8; PP2 spans cols 9-12
         "roles":   ["Subject", "Predicate", "", "", "", "", "", "", "", "", "", ""],
-        "bracket": "[S [NP [PRO She]] [VP [V sat] [ADVP [ADV quite] [ADV peacefully]] [PP [PREP near] [NP [DET the] [ADJP [ADJ tall]] [N fountain]]] [PP [PREP in] [NP [DET the] [ADJP [ADJ old]] [N courtyard]]]]]",
+        "bracket": "[S [NP [PRO She]] [VP [V sat] [ADVP [ADVP [ADV quite]] [ADV peacefully]] [PP [PREP near] [NP [DET the] [ADJP [ADJ tall]] [N fountain]]] [PP [PREP in] [NP [DET the] [ADJP [ADJ old]] [N courtyard]]]]]",
         "diagram": "bonus_q06_she_sat",
         "width": 6.5,
     },
@@ -295,7 +295,7 @@ SENTENCES = [
         "phrases": ["NP",  "",      "",      "VP",   "ADVP", "",       "ADVP", "",     "",    "",     ""],
         # ADVP1 spans cols 5-6 ("very loudly"); ADVP2 spans cols 7-11 ("deep in the dark forest")
         "roles":   ["Subject", "", "", "Predicate", "", "", "", "", "", "", ""],
-        "bracket": "[S [NP [DET The] [ADJP [ADJ small]] [N birds]] [VP [V sang] [ADVP [ADV very] [ADV loudly]] [ADVP [ADV deep] [PP [PREP in] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]]",
+        "bracket": "[S [NP [DET The] [ADJP [ADJ small]] [N birds]] [VP [V sang] [ADVP [ADVP [ADV very]] [ADV loudly]] [ADVP [ADV deep] [PP [PREP in] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]]",
         "diagram": "bonus_q09_birds_sang",
         "width": 6.0,
     },
@@ -311,7 +311,7 @@ SENTENCES = [
         # NP spans cols 1-3 (DET+ADJ+N); ADJP spans cols 4-7 (post-nominal, inside NP;
         # PP "in her skills" is inside the ADJP in bracket notation)
         "roles":   ["Subject", "", "", "", "", "", "", "Predicate", "", ""],
-        "bracket": "[S [NP [DET The] [ADJP [ADJ old]] [N woman] [ADJP [ADJ confident] [PP [PREP in] [NP [DET her] [N skills]]]]] [VP [V spoke] [ADVP [ADV quite] [ADV passionately]]]]",
+        "bracket": "[S [NP [DET The] [ADJP [ADJ old]] [N woman] [ADJP [ADJ confident] [PP [PREP in] [NP [DET her] [N skills]]]]] [VP [V spoke] [ADVP [ADVP [ADV quite]] [ADV passionately]]]]",
         "diagram": "bonus_q10_woman_spoke",
         "width": 6.0,
     },
@@ -419,7 +419,7 @@ def create_document(is_answer_key=False):
 
     for item in [
         ("1. ", "Complete the labeling table ", "by filling in the Role, Phrase, and Part of Speech (POS) rows."),
-        ("2. ", "Create a syntax tree diagram ", "using SyntaxTreeHybrid. In the student version, paste or attach your diagram in the space provided. In the answer key, the completed diagram is shown."),
+        ("2. ", "Create a syntax tree diagram ", "and paste your diagram below."),
     ]:
         p = doc.add_paragraph()
         add_run(p, item[0], bold=True, font_size=11)
@@ -473,7 +473,6 @@ def create_document(is_answer_key=False):
             add_run(p, q["bracket"], font_size=9, font_name="Consolas")
         else:
             add_run(p, "Bracket notation: ", bold=True, font_size=10)
-            add_run(p, "_" * 70, font_size=10)
         set_paragraph_spacing(p, space_before=4, space_after=2)
 
         # Diagram

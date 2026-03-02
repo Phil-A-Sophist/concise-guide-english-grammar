@@ -59,7 +59,7 @@
 
 **Bracket notation:**
 ```
-[S [NP [DET The] [N student] [ADJP [ADJ afraid] [PP [PREP of] [NP [N failure]]]]] [VP [V studied] [ADVP [ADV very] [ADV diligently]]]]
+[S [NP [DET The] [N student] [ADJP [ADJ afraid] [PP [PREP of] [NP [N failure]]]]] [VP [V studied] [ADVP [ADVP [ADV very]] [ADV diligently]]]]
 ```
 **Diagram:** ![bonus_q03](diagrams/bonus_q03_student_studied.png)
 
@@ -78,7 +78,7 @@
 
 **Bracket notation:**
 ```
-[S [NP [PRO They]] [VP [V lived] [ADVP [ADV quite] [ADV far] [PP [PREP from] [NP [DET the] [ADJP [ADJ noisy]] [ADJP [ADJ old]] [N city]]]]]]
+[S [NP [PRO They]] [VP [V lived] [ADVP [ADVP [ADV quite]] [ADV far] [PP [PREP from] [NP [DET the] [ADJP [ADJ noisy]] [ADJP [ADJ old]] [N city]]]]]]
 ```
 **Diagram:** ![bonus_q04](diagrams/bonus_q04_they_lived.png)
 
@@ -114,7 +114,7 @@
 
 **Bracket notation:**
 ```
-[S [NP [PRO She]] [VP [V sat] [ADVP [ADV quite] [ADV peacefully]] [PP [PREP near] [NP [DET the] [ADJP [ADJ tall]] [N fountain]]] [PP [PREP in] [NP [DET the] [ADJP [ADJ old]] [N courtyard]]]]]
+[S [NP [PRO She]] [VP [V sat] [ADVP [ADVP [ADV quite]] [ADV peacefully]] [PP [PREP near] [NP [DET the] [ADJP [ADJ tall]] [N fountain]]] [PP [PREP in] [NP [DET the] [ADJP [ADJ old]] [N courtyard]]]]]
 ```
 **Diagram:** ![bonus_q06](diagrams/bonus_q06_she_sat.png)
 
@@ -167,7 +167,7 @@
 
 **Bracket notation:**
 ```
-[S [NP [DET The] [ADJP [ADJ small]] [N birds]] [VP [V sang] [ADVP [ADV very] [ADV loudly]] [ADVP [ADV deep] [PP [PREP in] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]]
+[S [NP [DET The] [ADJP [ADJ small]] [N birds]] [VP [V sang] [ADVP [ADVP [ADV very]] [ADV loudly]] [ADVP [ADV deep] [PP [PREP in] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]]
 ```
 **Diagram:** ![bonus_q09](diagrams/bonus_q09_birds_sang.png)
 
@@ -186,6 +186,6 @@
 
 **Bracket notation:**
 ```
-[S [NP [DET The] [ADJP [ADJ old]] [N woman] [ADJP [ADJ confident] [PP [PREP in] [NP [DET her] [N skills]]]]] [VP [V spoke] [ADVP [ADV quite] [ADV passionately]]]]
+[S [NP [DET The] [ADJP [ADJ old]] [N woman] [ADJP [ADJ confident] [PP [PREP in] [NP [DET her] [N skills]]]]] [VP [V spoke] [ADVP [ADVP [ADV quite]] [ADV passionately]]]]
 ```
 **Diagram:** ![bonus_q10](diagrams/bonus_q10_woman_spoke.png)

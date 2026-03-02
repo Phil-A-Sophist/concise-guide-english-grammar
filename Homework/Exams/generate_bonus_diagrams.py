@@ -37,11 +37,11 @@ DIAGRAMS = {
 
     # Q3: PP modifying ADJ (PP inside post-nominal ADJP)
     # "The student afraid of failure studied very diligently."
-    "bonus_q03_student_studied": "[S [NP [DET The] [N student] [ADJP [ADJ afraid] [PP [PREP of] [NP [N failure]]]]] [VP [V studied] [ADVP [ADV very] [ADV diligently]]]]",
+    "bonus_q03_student_studied": "[S [NP [DET The] [N student] [ADJP [ADJ afraid] [PP [PREP of] [NP [N failure]]]]] [VP [V studied] [ADVP [ADVP [ADV very]] [ADV diligently]]]]",
 
     # Q4: PP modifying ADV ("far" modified by "from the noisy old city")
     # "They lived quite far from the noisy old city."
-    "bonus_q04_they_lived": "[S [NP [PRO They]] [VP [V lived] [ADVP [ADV quite] [ADV far] [PP [PREP from] [NP [DET the] [ADJP [ADJ noisy]] [ADJP [ADJ old]] [N city]]]]]]",
+    "bonus_q04_they_lived": "[S [NP [PRO They]] [VP [V lived] [ADVP [ADVP [ADV quite]] [ADV far] [PP [PREP from] [NP [DET the] [ADJP [ADJ noisy]] [ADJP [ADJ old]] [N city]]]]]]",
 
     # Q5: Nested PP — PP modifying N as object of preposition
     # "He waited quietly at the bench near the old fountain."
@@ -49,7 +49,7 @@ DIAGRAMS = {
 
     # Q6: Very long VP — V + ADVP + PP + PP (two adverbial PPs)
     # "She sat quite peacefully near the tall fountain in the old courtyard."
-    "bonus_q06_she_sat": "[S [NP [PRO She]] [VP [V sat] [ADVP [ADV quite] [ADV peacefully]] [PP [PREP near] [NP [DET the] [ADJP [ADJ tall]] [N fountain]]] [PP [PREP in] [NP [DET the] [ADJP [ADJ old]] [N courtyard]]]]]",
+    "bonus_q06_she_sat": "[S [NP [PRO She]] [VP [V sat] [ADVP [ADVP [ADV quite]] [ADV peacefully]] [PP [PREP near] [NP [DET the] [ADJP [ADJ tall]] [N fountain]]] [PP [PREP in] [NP [DET the] [ADJP [ADJ old]] [N courtyard]]]]]",
 
     # Q7: Long NP (DET+ADJ+ADJ+N+PP) AND long VP (V+ADVP+PP)
     # "The tired old dog from the farm slept quietly near the fire."
@@ -61,11 +61,11 @@ DIAGRAMS = {
 
     # Q9: PP modifying ADV — "deep" modified by "in the dark forest" (second ADVP in VP)
     # "The small birds sang very loudly deep in the dark forest."
-    "bonus_q09_birds_sang": "[S [NP [DET The] [ADJP [ADJ small]] [N birds]] [VP [V sang] [ADVP [ADV very] [ADV loudly]] [ADVP [ADV deep] [PP [PREP in] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]]",
+    "bonus_q09_birds_sang": "[S [NP [DET The] [ADJP [ADJ small]] [N birds]] [VP [V sang] [ADVP [ADVP [ADV very]] [ADV loudly]] [ADVP [ADV deep] [PP [PREP in] [NP [DET the] [ADJP [ADJ dark]] [N forest]]]]]]",
 
     # Q10: Very long NP — post-nominal ADJP whose head ADJ has a PP complement (PP → ADJ)
     # "The old woman confident in her skills spoke quite passionately."
-    "bonus_q10_woman_spoke": "[S [NP [DET The] [ADJP [ADJ old]] [N woman] [ADJP [ADJ confident] [PP [PREP in] [NP [DET her] [N skills]]]]] [VP [V spoke] [ADVP [ADV quite] [ADV passionately]]]]",
+    "bonus_q10_woman_spoke": "[S [NP [DET The] [ADJP [ADJ old]] [N woman] [ADJP [ADJ confident] [PP [PREP in] [NP [DET her] [N skills]]]]] [VP [V spoke] [ADVP [ADVP [ADV quite]] [ADV passionately]]]]",
 }
 
 

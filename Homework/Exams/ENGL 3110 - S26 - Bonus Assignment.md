@@ -9,7 +9,7 @@
 For each sentence below, complete two tasks:
 
 1. **Complete the labeling table** by filling in the Role, Phrase, and Part of Speech (POS) rows.
-2. **Create a syntax tree diagram** using SyntaxTreeHybrid. Paste or attach your PNG image in the space provided.
+2. **Create a syntax tree diagram** and paste your diagram below.
 
 **Scoring (per sentence):** 1 point for a correct labeling table  ·  1 point for a correct diagram
 
@@ -47,9 +47,9 @@ For each sentence below, complete two tasks:
 | Word   | The | tall | energetic | student | near | the | door | arrived | late |
 | POS    |  |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
 
 ---
 
@@ -61,9 +61,9 @@ Diagram: [paste SyntaxTreeHybrid PNG here]
 | Word   | The | brilliant | young | professor | from | the | northern | campus | spoke | clearly |
 | POS    |  |  |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
 
 ---
 
@@ -75,9 +75,9 @@ Diagram: [paste SyntaxTreeHybrid PNG here]
 | Word   | The | student | afraid | of | failure | studied | very | diligently |
 | POS    |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
 
 ---
 
@@ -89,9 +89,9 @@ Diagram: [paste SyntaxTreeHybrid PNG here]
 | Word   | They | lived | quite | far | from | the | noisy | old | city |
 | POS    |  |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
 
 ---
 
@@ -103,9 +103,9 @@ Diagram: [paste SyntaxTreeHybrid PNG here]
 | Word   | He | waited | quietly | at | the | bench | near | the | old | fountain |
 | POS    |  |  |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
 
 ---
 
@@ -117,9 +117,9 @@ Diagram: [paste SyntaxTreeHybrid PNG here]
 | Word   | She | sat | quite | peacefully | near | the | tall | fountain | in | the | old | courtyard |
 | POS    |  |  |  |  |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
 
 ---
 
@@ -131,9 +131,9 @@ Diagram: [paste SyntaxTreeHybrid PNG here]
 | Word   | The | tired | old | dog | from | the | farm | slept | quietly | near | the | fire |
 | POS    |  |  |  |  |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
 
 ---
 
@@ -145,9 +145,9 @@ Diagram: [paste SyntaxTreeHybrid PNG here]
 | Word   | The | nervous | boy | sat | rigidly | in | the | hard | narrow | chair |
 | POS    |  |  |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
 
 ---
 
@@ -159,9 +159,9 @@ Diagram: [paste SyntaxTreeHybrid PNG here]
 | Word   | The | small | birds | sang | very | loudly | deep | in | the | dark | forest |
 | POS    |  |  |  |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
 
 ---
 
@@ -173,6 +173,6 @@ Diagram: [paste SyntaxTreeHybrid PNG here]
 | Word   | The | old | woman | confident | in | her | skills | spoke | quite | passionately |
 | POS    |  |  |  |  |  |  |  |  |  |  |
 
-Bracket notation: _______________________________________________
+Bracket notation:
 
-Diagram: [paste SyntaxTreeHybrid PNG here]
+Diagram: [paste your diagram here]
