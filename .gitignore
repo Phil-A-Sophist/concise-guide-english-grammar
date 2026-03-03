@@ -115,3 +115,18 @@ codechat_config.yaml
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Meta-agent code (pulled from Supabase on boot — not project-specific)
+code/
+
+# Temporary scripts
+tmp_*.py
+
+# data/ is intentionally NOT gitignored — it is git-tracked as a memory backup
+# (unlike other Supabase projects where data/ is Supabase-only)
+
+# Homework files — large binaries, accessed locally and via LMS
+Homework/
+
+# Reference textbooks — large PDFs, not needed in repo
+reference_materials/Grammar Textbooks/
