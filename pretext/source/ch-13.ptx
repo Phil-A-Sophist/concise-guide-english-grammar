@@ -25,8 +25,14 @@
     </ul>
   </objectives>
 
+  <p>In the previous chapter you saw how the adverbial function can be filled by many different forms—adverb phrases, prepositional phrases, noun phrases, even entire clauses. The same principle applies here, but now the function is different: instead of modifying a verb or a whole clause, these structures modify a noun. You already know that adjectives modify nouns. But consider the noun phrase <foreign>the student who won the prize</foreign>: the modifier there is not an adjective—it is an entire relative clause. Or consider <foreign>the report published last year</foreign>: that modifier is a past participial phrase. And <foreign>a book about grammar</foreign> uses a prepositional phrase. All of these structures are doing the same job—narrowing down or adding information about a noun—and that job is called the <em>adjectival</em> function.</p>
+
+  <p>The key insight of this chapter is that <em>adjectival</em> is a functional label, not a form label. An adjective is a part of speech; an adjectival is anything that does the work of modifying a noun, regardless of its form. This chapter surveys the range of structures that can serve that function, gives special attention to relative clauses (the most syntactically rich type of adjectival), and explores how position and the restrictive/non-restrictive distinction change the meaning of noun modifiers in subtle but important ways.</p>
+
   <section xml:id="ch-13-adjectivals-sec-131">
     <title>Adjectives vs. Adjectivals: Form vs. Function</title>
+
+    <p>When you describe a noun, what tools do you have? The most obvious is the adjective: <foreign>the red door</foreign>, <foreign>a difficult problem</foreign>, <foreign>an interesting idea</foreign>. But natural language gives you far more options than that. What is the difference, in practice, between an adjective and any other structure that happens to modify a noun? The answer lies in the form-vs-function distinction introduced in Chapter 5. The word <em>adjective</em> names a form—a class of words with recognizable properties. The word <em>adjectival</em> names a function—the role of modifying a noun—which many different forms can fill.</p>
 
     <p>Understanding the distinction between <term>adjectives</term> (a form/part of speech) and <term>adjectivals</term> (a function) is essential for accurate grammatical analysis.</p>
 
@@ -52,6 +58,8 @@
 
   <section xml:id="ch-13-adjectivals-sec-132">
     <title>Structures That Function as Adjectivals</title>
+
+    <p>Think about how many ways English has to say something about a noun. You can say <foreign>the sleeping dog</foreign> (participial phrase), <foreign>the dog in the yard</foreign> (prepositional phrase), <foreign>the dog that bit me</foreign> (relative clause), <foreign>the dog to avoid</foreign> (infinitive phrase), or <foreign>the guard dog</foreign> (attributive noun). Each of those noun phrases means something different, but in every case a modifier is doing the work of characterizing or identifying the noun <foreign>dog</foreign>. That is the adjectival function, and English fills it with at least six distinct structural forms. Learning to recognize all six will sharpen your ability to analyze noun phrases and to understand why some modifiers must follow the noun rather than precede it.</p>
 
     <p>Many different structures can serve the adjectival function.</p>
 
@@ -138,6 +146,8 @@
 
   <section xml:id="ch-13-adjectivals-sec-133">
     <title>Relative Clauses in Detail</title>
+
+    <p>Of all the structures that can serve the adjectival function, relative clauses are the most structurally complex and the most flexible. A relative clause contains its own subject and predicate—it is a full clause—but it is embedded inside a noun phrase to modify the head noun. The element that connects the clause to the noun it modifies is a relative pronoun (like <foreign>who</foreign>, <foreign>which</foreign>, or <foreign>that</foreign>) or a relative adverb (like <foreign>where</foreign> or <foreign>when</foreign>). That connecting word is doing double duty: it simultaneously introduces the clause and plays a grammatical role within it—as subject, object, or possessive. The tables below give you a systematic reference for choosing the right relative word based on the noun's referent (person or thing) and the relative word's function within the clause.</p>
 
     <p><term>Relative clauses</term> (also called adjective clauses) modify nouns, specifying which entity is meant.</p>
 
@@ -257,6 +267,8 @@
   <section xml:id="ch-13-adjectivals-sec-134">
     <title>Restrictive vs. Non-Restrictive Modifiers</title>
 
+    <p>Consider these two sentences: <foreign>My sister who lives in Boston visited me</foreign> and <foreign>My sister, who lives in Boston, visited me</foreign>. The difference looks like nothing more than a pair of commas—but the two sentences actually make different claims about the world. The first implies that the speaker has more than one sister, and the clause <foreign>who lives in Boston</foreign> identifies which one. The second implies that the speaker has exactly one sister, and the clause simply adds information about her. That difference in meaning—between a modifier that identifies and a modifier that merely supplements—is the restrictive/non-restrictive distinction. It is signaled in writing by commas, but it is a semantic and grammatical distinction, not just a punctuation preference.</p>
+
     <p>This distinction is crucial for meaning and punctuation.</p>
 
     <paragraphs>
@@ -323,7 +335,9 @@
   <section xml:id="ch-13-adjectivals-sec-135">
     <title>Participial Phrases as Adjectivals</title>
 
-    <p>Participial phrases—built on present participles (-ing) or past participles (-ed/-en)—function as adjectivals.</p>
+    <p>Relative clauses are powerful but sometimes more than a sentence needs. When the modifier is simple enough, English offers a more compact option: the participial phrase. Compare <foreign>the woman who was talking on the phone</foreign> with <foreign>the woman talking on the phone</foreign>. The second version drops the relative pronoun and the auxiliary verb, keeping only the participle and what follows it. This compression is one reason participial phrases appear so frequently in edited academic prose—they pack modification efficiently without the overhead of a full relative clause. As you will see, the form of the participle (present <foreign>-ing</foreign> versus past <foreign>-ed/-en</foreign>) carries information about aspect and voice, and the position of the phrase relative to the noun it modifies follows predictable rules.</p>
+
+    <p>Participial phrases—built on present participles (<foreign>-ing</foreign>) or past participles (<foreign>-ed/-en</foreign>)—function as adjectivals.</p>
 
     <paragraphs>
       <title>Present Participial Phrases</title>
@@ -394,6 +408,8 @@
   <section xml:id="ch-13-adjectivals-sec-136">
     <title>Adjectival Positions</title>
 
+    <p>You may have noticed in the previous sections that single adjectives tend to appear before the noun (<foreign>the tall man</foreign>), while longer phrases and clauses tend to appear after it (<foreign>the man in the hat</foreign>, <foreign>the man who arrived late</foreign>). This is not arbitrary: English has a strong preference for keeping modifiers close to the nouns they modify without disrupting the noun's core structure. A single word can slip in before the noun easily, but a relative clause or a long prepositional phrase would be awkward and confusing in that position. Understanding the three positional slots available to adjectivals—pre-modification, post-modification, and predicative—helps explain both why modifiers appear where they do and what options a writer has when constructing complex noun phrases.</p>
+
     <p>Adjectivals can appear in different positions relative to the noun.</p>
 
     <paragraphs>
@@ -440,6 +456,8 @@
 
   <section xml:id="ch-13-adjectivals-sec-137">
     <title>Stacking Adjectivals</title>
+
+    <p>A noun phrase can carry more than one modifier at once. In fact, some of the most information-dense noun phrases in academic and legal writing stack several adjectivals—pre-modifiers, post-modifiers, and even relative clauses—onto a single head noun. Consider: <foreign>the talented young American jazz musician from New Orleans who won the competition</foreign>. Every element from <foreign>talented</foreign> to <foreign>who won the competition</foreign> is modifying <foreign>musician</foreign>. Pre-modifiers line up before the noun in a conventional sequence that English speakers follow intuitively (opinion before size, size before color, and so on), and post-modifiers queue up after the noun in the order they are added. Understanding how stacking works—and what constraints govern the order of pre-modifiers in particular—lets you both analyze complex noun phrases and construct them deliberately.</p>
 
     <p>Multiple adjectivals can modify the same noun.</p>
 

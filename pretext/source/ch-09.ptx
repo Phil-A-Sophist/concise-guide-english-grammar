@@ -31,7 +31,9 @@
   <section xml:id="ch-09-compound-and-complex-sentences-sec-91">
     <title>Sentence Types Overview</title>
 
-    <p>English sentences can be classified by structure:</p>
+    <p>Chapter 8 introduced the basic elements of a single clause: subject, verb, and the various objects and complements that fill out the predicate. But real writing rarely consists of one isolated clause strung after another. Ideas connect. Some carry equal weight; others depend on a central thought. A writer who controls sentence structure can make those relationships explicit—signaling when one event caused another, when one idea qualifies a second, when two points deserve parallel emphasis.</p>
+
+    <p>The foundation of that control is understanding how clauses combine. English sentences fall into four structural types based on how many clauses they contain and whether those clauses can stand on their own:</p>
 
     <tabular>
       <row header="yes">
@@ -61,7 +63,7 @@
       </row>
     </tabular>
 
-    <p>Understanding these structures allows you to vary your prose and convey relationships between ideas effectively.</p>
+    <p>These types are not just grammatical categories—they are rhetorical tools. The simple sentence is the baseline: one complete thought. The compound sentence brings two thoughts into a relationship of equal weight. The complex sentence creates a hierarchy, pushing one idea to the foreground and placing another in support. The compound-complex does both at once. Learning to recognize and use these structures gives you precise control over how your ideas come across to a reader.</p>
 
   </section>
 
@@ -69,6 +71,10 @@
     <title>Simple Sentences</title>
 
     <p>A <term>simple sentence</term> contains one independent clause—a subject-predicate unit that expresses a complete thought.</p>
+
+    <p>The key word is <em>independent</em>. An independent clause can stand alone as a grammatically complete sentence: it has a subject, a predicate, and it does not begin with a subordinating word that would make it lean on something else for completion. Compare <foreign>The students studied</foreign> (independent—complete on its own) with <foreign>when the students studied</foreign> (dependent—waiting for a main clause to complete it). That small grammatical change—adding <foreign>when</foreign>—removes the clause's independence entirely. The distinction between independent and dependent clauses is the organizing principle of this chapter; every sentence type we examine is defined by how many of each it contains.</p>
+
+    <p>A simple sentence, then, is defined not by its length but by its clause count: exactly one independent clause, no matter how elaborate that clause might be.</p>
 
     <p><q><foreign>The students studied.</foreign></q></p>
 
@@ -93,7 +99,7 @@
       <title>Creating Compound Sentences</title>
     </paragraphs>
 
-    <p>Independent clauses can be joined by:</p>
+    <p>Coordination treats two ideas as grammatically equal—neither is made to depend on the other. This is appropriate when the ideas are parallel in importance and when you want the structure of the sentence to reflect that equality. There are three main ways to join independent clauses into a compound sentence, and each produces a slightly different effect even when the content is the same:</p>
 
     <ol>
       <li><p>Coordinating conjunction (with comma): <foreign>The power went out, and we lit candles.</foreign></p></li>
@@ -153,6 +159,8 @@
     <p><em>Punctuation rule</em>: Place a comma before the conjunction when it joins two independent clauses:</p>
 
     <p><q><foreign>The lecture was fascinating<em>,</em> and I took detailed notes.</foreign></q></p>
+
+    <p>The choice of conjunction shapes meaning. <foreign>And</foreign> simply adds one idea to another. <foreign>But</foreign> and <foreign>yet</foreign> introduce contrast or surprise. <foreign>So</foreign> announces a result; <foreign>for</foreign> signals a reason. <foreign>Or</foreign> presents an alternative; <foreign>nor</foreign> negates both options. Selecting a conjunction is not just a grammar decision—it is a decision about how the two ideas relate, and readers will interpret the relationship based on which word you choose.</p>
 
     <paragraphs>
       <title>Conjunctive Adverbs</title>
@@ -264,18 +272,18 @@
       <title>Why Use Complex Sentences?</title>
     </paragraphs>
 
-    <ul>
-      <li><p>Show relationships: Causal, temporal, and conditional connections become explicit</p></li>
-      <li><p>Emphasize main ideas: Subordinating less important information guides readers</p></li>
-      <li><p>Create sophisticated prose: Varied structures make writing more engaging</p></li>
-    </ul>
+    <p>Complex sentences are particularly powerful when you want to signal exactly how two events or ideas relate. The subordinating conjunction does that work: <foreign>because</foreign> signals cause, <foreign>although</foreign> signals concession, <foreign>when</foreign> signals timing. A compound sentence with <foreign>and</foreign> leaves the relationship implicit—the reader infers it. A complex sentence with <foreign>because</foreign> makes it explicit.</p>
+
+    <p>Subordination also guides emphasis. When you place an idea in a dependent clause, you push it into the background; the independent clause stays in the foreground. This is how skilled writers keep readers focused on what matters: background information—context, conditions, causes—goes into subordinate clauses, while the main point stands on its own. A series of compound sentences gives every idea equal grammatical weight, which can make all ideas feel equally important, diluting the emphasis you want. Subordination lets you make the hierarchy of your ideas visible in the grammar of your sentences.</p>
 
   </section>
 
   <section xml:id="ch-09-compound-and-complex-sentences-sec-95">
     <title>Types of Dependent Clauses</title>
 
-    <p>Dependent clauses are classified by their grammatical function.</p>
+    <p>Not all dependent clauses do the same thing. Just as a single word can function as a noun, a verb, or a modifier depending on its position in a sentence (as you saw in Chapters 5 and 6), a dependent clause can perform different grammatical functions depending on how it is attached to the rest of the sentence. Some dependent clauses modify verbs, behaving like adverbs. Others modify nouns, behaving like adjectives. Still others fill an argument slot in the clause entirely—serving as subjects, objects, or complements—and behave like noun phrases.</p>
+
+    <p>These functional differences matter because they determine where the clause can appear, what punctuation it takes, and how you analyze it in a diagram. Dependent clauses are classified by their grammatical function:</p>
 
     <paragraphs>
       <title>Adverb Clauses (Adverbial Clauses)</title>
@@ -349,7 +357,11 @@
   <section xml:id="ch-09-compound-and-complex-sentences-sec-96">
     <title>Subordinating Conjunctions</title>
 
-    <p><term>Subordinating conjunctions</term> introduce adverb clauses and specify relationships:</p>
+    <p><term>Subordinating conjunctions</term> are the words that transform an independent clause into a dependent one. They attach to the beginning of a clause and make it unable to stand alone—it now needs a main clause to complete it. But they do more than create grammatical dependence: they also specify the relationship between the dependent clause and the main clause.</p>
+
+    <p>That relationship is entirely a function of which conjunction is used. <foreign>Because she practiced</foreign> expresses cause. <foreign>Although she practiced</foreign> expresses concession. <foreign>When she practiced</foreign> expresses timing. The grammar is identical in all three cases—a subject and a predicate preceded by a subordinating word—but the meaning shifts dramatically. Choosing a subordinating conjunction is choosing how to frame the relationship between your ideas.</p>
+
+    <p>Common subordinating conjunctions, grouped by the relationship they signal:</p>
 
     <tabular>
       <row header="yes">

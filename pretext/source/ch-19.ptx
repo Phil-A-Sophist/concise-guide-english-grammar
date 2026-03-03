@@ -22,6 +22,10 @@
     </ul>
   </objectives>
 
+  <p>Chapter 18 showed you how grammatical problems—unclear pronoun reference, misplaced modifiers, structural ambiguity—make sentences harder to understand. This chapter extends that work in two directions. The first is organization: not just whether your sentences are grammatically correct, but whether the information inside them is arranged so that readers can follow it. The second is concision: not just what you say, but how many words you use to say it.</p>
+
+  <p>These are not matters of style preference. They are grounded in how readers process language. Readers expect given information before new, emphasis at the end, and words that earn their place. When sentences violate these expectations, readers slow down, re-read, or lose the thread entirely. This chapter gives you the tools to recognize and revise sentences that create that kind of friction.</p>
+
   <section xml:id="ch-19-organization-and-concision-sec-191">
     <title>Organizing Information</title>
 
@@ -79,6 +83,10 @@
   <section xml:id="ch-19-organization-and-concision-sec-192">
     <title>End-Focus and End-Weight</title>
 
+    <p>Consider two ways of ending a sentence about the same event: <foreign>Maria won</foreign> versus <foreign>The winner was Maria</foreign>. Both are grammatical, both convey the same fact—but they feel different. In the first, the emphasis falls on <em>won</em>; in the second, it falls on <em>Maria</em>. That difference is not accidental. English is an end-focused language, which means sentence-final position carries natural stress and emphasis. Readers arrive at the end of a sentence expecting to find the most important piece of information, and writers who understand this can use position deliberately to control what readers remember.</p>
+
+    <p>End-weight is a related but distinct principle: not about emphasis, but about rhythm. Heavy elements—long noun phrases, embedded clauses, complex modifiers—are easier to process when they come at the end of a sentence rather than at the beginning. Sentences that front-load their heaviest material feel effortful to read. Sentences that save that material for the end feel balanced. Both principles point in the same direction: the end of your sentence is valuable real estate.</p>
+
     <paragraphs>
       <title>End-Focus</title>
     </paragraphs>
@@ -108,6 +116,10 @@
   <section xml:id="ch-19-organization-and-concision-sec-193">
     <title>Cohesion and Coherence</title>
 
+    <p>The given-new principle described in Section 19.1 explains how individual sentences connect to each other. But connecting sentences is only part of what makes a paragraph feel unified. You have probably encountered writing that moves logically from sentence to sentence yet still feels hard to follow—the ideas are there, but something is missing. Conversely, you have probably encountered writing where the ideas are complex but the prose feels smooth and navigable. The difference often comes down to two related properties: cohesion and coherence.</p>
+
+    <p>These terms are sometimes used interchangeably, but they describe different things. Understanding the distinction helps you diagnose different kinds of problems in your own prose.</p>
+
     <paragraphs>
       <title>Cohesion</title>
     </paragraphs>
@@ -134,13 +146,17 @@
   <section xml:id="ch-19-organization-and-concision-sec-194">
     <title>Concision: Eliminating Wordiness</title>
 
+    <p>Concise writing is not short writing. It is writing that says exactly what needs to be said and no more. The distinction matters because concision is not about cutting ideas—it is about cutting words that are not doing any work. Every unnecessary word costs the reader something: attention, time, the sense that the writing respects them. When a sentence uses ten words to say what five words could say just as clearly, the extra five are a burden.</p>
+
+    <p>Wordiness tends to cluster in predictable patterns. Once you learn to recognize these patterns, you can revise efficiently rather than agonizing over every word.</p>
+
     <p>Concise writing says what needs to be said without unnecessary words.</p>
 
     <paragraphs>
       <title>Redundant Pairs</title>
     </paragraphs>
 
-    <p>Eliminate words that repeat meaning:</p>
+    <p>Some word pairs appear so often that they have come to feel natural, but both words mean the same thing. You only need one.</p>
 
     <tabular>
       <row header="yes">
@@ -177,6 +193,8 @@
       <title>Meaningless Modifiers</title>
     </paragraphs>
 
+    <p>Intensifiers like <foreign>very</foreign>, <foreign>really</foreign>, and <foreign>quite</foreign> often signal that the base word was not strong enough rather than that it needs amplification. Similarly, some adjectives are already absolute in meaning—<foreign>unique</foreign> means one of a kind, not almost one of a kind, so <foreign>very unique</foreign> is not just redundant but logically confused. When you find yourself reaching for an intensifier, consider whether a more precise word would serve better.</p>
+
     <p>Remove words that add nothing:</p>
 
     <tabular>
@@ -205,6 +223,8 @@
     <paragraphs>
       <title>Wordy Phrases</title>
     </paragraphs>
+
+    <p>Many common phrases in formal and academic writing use five or six words where one would do. These phrases often feel more official, which is why writers reach for them—but they add length without adding precision or authority.</p>
 
     <p>Replace phrases with single words:</p>
 
@@ -255,6 +275,8 @@
       <title>Empty Sentence Starters</title>
     </paragraphs>
 
+    <p>Sentences that begin with <foreign>It is important to note that</foreign> or <foreign>There are many people who</foreign> delay the actual claim. The real subject and verb are buried later in the sentence, and the opening phrase does nothing but stall. These constructions often appear when a writer is warming up to a point rather than making it directly. Cut the warm-up and start with the point.</p>
+
     <p>Avoid weak openings:</p>
 
     <tabular>
@@ -284,6 +306,10 @@
 
   <section xml:id="ch-19-organization-and-concision-sec-195">
     <title>Nominalization and Verb Strength</title>
+
+    <p>English allows verbs to be converted into nouns through a process called <term>nominalization</term>: <foreign>decide</foreign> becomes <foreign>decision</foreign>, <foreign>investigate</foreign> becomes <foreign>investigation</foreign>, <foreign>conclude</foreign> becomes <foreign>conclusion</foreign>. These noun forms are grammatically valid and sometimes genuinely useful—you will see when below. But when nominalization is used habitually rather than purposefully, the action drains out of the sentence. The verb—the word that actually expresses what is happening—gets buried inside a noun phrase, leaving the sentence to lean on a weak verb like <foreign>make</foreign>, <foreign>give</foreign>, <foreign>conduct</foreign>, or <foreign>perform</foreign> to carry the grammatical load. The result is prose that feels sluggish and indirect, even if every sentence is technically correct.</p>
+
+    <p>The fix is usually straightforward: identify the hidden verb inside the noun, restore it to verb form, and let it do its job. <foreign>Make an examination of</foreign> becomes <foreign>examine</foreign>. <foreign>Reach a conclusion</foreign> becomes <foreign>conclude</foreign>. The sentence gets shorter and the action becomes visible.</p>
 
     <p><em>Nominalization</em> is turning a verb into a noun. While sometimes useful, excessive nominalization creates wordy, weak prose.</p>
 
@@ -336,6 +362,10 @@
   <section xml:id="ch-19-organization-and-concision-sec-196">
     <title>Active vs. Passive for Concision</title>
 
+    <p>You have already encountered the active-passive distinction in earlier chapters, where the focus was on how passive constructions are formed and what they do grammatically. Here the question is different: when should you choose one over the other, and why? Part of the answer involves concision. Passive constructions typically require more words than their active equivalents, because the agent—the doer of the action—is either pushed into a prepositional phrase or left out entirely. In many cases, restoring the agent to subject position and using active voice produces a shorter, more direct sentence.</p>
+
+    <p>But concision is not the only consideration. Sometimes the passive is the right choice, and shorter is not always better.</p>
+
     <p>Active voice is often more concise than passive:</p>
 
     <ul>
@@ -356,6 +386,10 @@
 
   <section xml:id="ch-19-organization-and-concision-sec-197">
     <title>Revision Strategies</title>
+
+    <p>The principles in this chapter—given-new, end-focus, cohesion, concision, nominalization—are most useful when they become part of how you revise. Applying them while you draft is possible, but it tends to slow writing down. It is more practical to write a full draft, then return to it with specific questions: Where is new information arriving before given? Where does emphasis fall in the wrong place? Where are there nominalizations I could convert? What can be cut?</p>
+
+    <p>The following strategies give you systematic ways to apply that analytical lens during revision.</p>
 
     <paragraphs>
       <title>The Shrink Test</title>

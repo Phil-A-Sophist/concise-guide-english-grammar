@@ -8,7 +8,7 @@
     <ul>
       <li><p>Identify subjects and predicates in sentences</p></li>
       <li><p>Recognize the six fundamental sentence patterns in English</p></li>
-      <li><p>Distinguish between different types of complements (objects and subject complements)</p></li>
+      <li><p>Distinguish between objects (direct and indirect) and complements (subject and object complements) as types of verb arguments</p></li>
       <li><p>Understand the concept of verb valency and how it determines sentence structure</p></li>
       <li><p>Analyze sentences in terms of their core arguments and optional adverbials</p></li>
       <li><p>Apply a systematic method for determining which pattern a sentence follows</p></li>
@@ -30,8 +30,14 @@
     </ul>
   </objectives>
 
+  <p>You have spent several chapters learning to identify parts of speech and understand how they form phrases—noun phrases, verb phrases, prepositional phrases, and more. Now the question changes: how do those phrases fit together into a sentence? What makes a sentence a sentence rather than just a string of words? And why do some combinations of phrases feel complete while others leave you waiting for something more?</p>
+
+  <p>The answer lies in the verb. Every sentence is organized around a main verb, and that verb determines what other elements must appear and in what roles. This chapter introduces the core elements of sentence structure—subject, predicate, objects, and complements—and shows how they combine into six fundamental patterns. By the end of the chapter, you will have a precise vocabulary for analyzing the structure of any sentence you encounter.</p>
+
   <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-81">
     <title>The Two Core Parts: Subject and Predicate</title>
+
+    <p>Most of us recognize a complete sentence when we hear one, even if we cannot always explain why. <foreign>The dog.</foreign> Something is missing. <foreign>Barked loudly.</foreign> Still not quite right. <foreign>The dog barked loudly.</foreign> Now it's complete. What happened? Two things came together: something to talk about and something said about it. That two-part structure—the subject and the predicate—is the foundation that every sentence is built on.</p>
 
     <p>Every complete sentence has two fundamental parts: a <em>subject</em> and a <em>predicate</em>.</p>
 
@@ -104,12 +110,114 @@
       </row>
     </tabular>
 
+    <p>Notice that the subject can be as short as a single word or as long as a full noun phrase with modifiers—what matters is its grammatical role, not its size. The same is true of the predicate: it can be a single verb or an elaborate structure with objects, complements, and adverbials. That range is part of what makes the subject/predicate distinction so useful. Once you can reliably identify these two parts, you can go further—asking what is inside the predicate, what role each element plays, and which of the six fundamental patterns a sentence follows. That is the work of the sections ahead.</p>
+
   </section>
 
   <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-82">
-    <title>Complements: Objects and Subject Complements</title>
+    <title>Arguments vs. Adverbials</title>
 
-    <p><em>Complements</em> are elements required by the verb to complete the sentence's meaning. They differ from adverbials, which are optional.</p>
+    <p>Understanding the difference between <em>arguments</em> (the core elements belonging to a verb's structure) and <em>adverbials</em> (optional modifiers) is crucial for sentence analysis.</p>
+
+    <paragraphs>
+      <title>Arguments</title>
+    </paragraphs>
+
+    <p><em>Arguments</em> are the elements that fill the positions a verb opens up in a sentence—its subject, objects, and complements. Together they form the core structure that gives the sentence its basic meaning. The arguments present in any given sentence depend on which verb is used and how it is being used.</p>
+
+    <ul>
+      <li><p>Subject (present in all finite sentences)</p></li>
+      <li><p>Direct object (for transitive verbs)</p></li>
+      <li><p>Indirect object (for ditransitive verbs)</p></li>
+      <li><p>Subject complement (for linking verbs)</p></li>
+      <li><p>Object complement (for some transitive verbs)</p></li>
+    </ul>
+
+    <p>It is tempting to say that arguments are <q>required by the verb,</q> and this is often true—but it needs some care. Not every verb demands multiple arguments. What varies is the set of argument positions a verb can fill:</p>
+
+    <ul>
+      <li><p><em>Always intransitive verbs</em> take only a subject and open no further argument positions. <foreign>Sneeze</foreign>, <foreign>arrive</foreign>, and <foreign>collapse</foreign> are examples: <foreign><delete>She arrived the station</delete></foreign> is ungrammatical because <foreign>arrive</foreign> simply has no slot for a direct object.</p></li>
+      <li><p><em>Always transitive verbs</em> require both a subject and a direct object. <foreign>Devour</foreign> and <foreign>resemble</foreign> are always transitive: <foreign><delete>He devoured</delete></foreign> is incomplete on its own.</p></li>
+      <li><p><em>Flexible verbs</em> can appear with or without certain arguments. <foreign>Eat</foreign> is intransitive in <foreign>We ate</foreign> and transitive in <foreign>We ate dinner</foreign>. <foreign>Give</foreign> can be ditransitive (<foreign>She gave Marcus a book</foreign>) or transitive (<foreign>She gave a donation</foreign>).</p></li>
+    </ul>
+
+    <p>The key point is this: when an argument <em>is</em> present, removing it leaves the sentence incomplete or fundamentally changes its meaning. That is what distinguishes arguments from adverbials.</p>
+
+    <p><em>Test:</em> If you remove an argument, the sentence becomes ungrammatical or changes meaning dramatically.</p>
+
+    <p><q><foreign>She put the book on the table.</foreign></q></p>
+
+    <ul>
+      <li><p>Remove <foreign>the book</foreign>: <foreign><delete>She put on the table.</delete></foreign> ✗</p></li>
+      <li><p>Remove <foreign>on the table</foreign>: <foreign><delete>She put the book.</delete></foreign> ✗</p></li>
+      <li><p>All three elements are arguments of <q><foreign>put</foreign></q>.</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Adverbials</title>
+    </paragraphs>
+
+    <p><em>Adverbials</em> provide additional information about time, place, manner, reason, etc. They are optional—the sentence is grammatical without them.</p>
+
+    <p><em>Examples:</em></p>
+
+    <ul>
+      <li><p><foreign>Accidents happen <em>on Mondays</em>.</foreign> (when)</p></li>
+      <li><p><foreign>She spoke <em>quietly</em>.</foreign> (how)</p></li>
+      <li><p><foreign><em>Unfortunately</em>, we lost.</foreign> (attitude)</p></li>
+      <li><p><foreign>He works <em>at the hospital</em> <em>every day</em>.</foreign> (where, when)</p></li>
+    </ul>
+
+    <p><em>Test:</em> If you remove an adverbial, the sentence remains grammatical.</p>
+
+    <p><q><foreign>She spoke quietly in the library.</foreign></q></p>
+
+    <ul>
+      <li><p>Remove <foreign>quietly</foreign>: <foreign>She spoke in the library.</foreign> ✓</p></li>
+      <li><p>Remove <foreign>in the library</foreign>: <foreign>She spoke quietly.</foreign> ✓</p></li>
+      <li><p>Both are adverbials—optional modifiers.</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Distinguishing Arguments from Adverbials</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Arguments</cell>
+        <cell>Adverbials</cell>
+      </row>
+      <row>
+        <cell>Part of the verb's argument structure</cell>
+        <cell>Optional</cell>
+      </row>
+      <row>
+        <cell>Limited in number per verb</cell>
+        <cell>Unlimited</cell>
+      </row>
+      <row>
+        <cell>Cannot be moved as freely</cell>
+        <cell>Often movable</cell>
+      </row>
+      <row>
+        <cell>Removal changes grammaticality</cell>
+        <cell>Removal leaves grammatical sentence</cell>
+      </row>
+    </tabular>
+
+    <p><em>Compare:</em></p>
+
+    <ul>
+      <li><p><foreign>She put the book <em>on the table</em>.</foreign> (argument—required by <foreign>put</foreign>)</p></li>
+      <li><p><foreign>She read the book <em>on the table</em>.</foreign> (adverbial—optional location)</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-83">
+    <title>Objects and Complements</title>
+
+    <p>Among a verb's arguments are two main types: <em>objects</em> (direct and indirect objects) and <em>complements</em> (subject and object complements).</p>
 
     <paragraphs>
       <title>Direct Objects</title>
@@ -189,96 +297,6 @@
 
   </section>
 
-  <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-83">
-    <title>Arguments vs. Adverbials</title>
-
-    <p>Understanding the difference between <em>arguments</em> (required elements) and <em>adverbials</em> (optional elements) is crucial for sentence analysis.</p>
-
-    <paragraphs>
-      <title>Arguments</title>
-    </paragraphs>
-
-    <p><em>Arguments</em> are the elements that a verb requires to form a complete, grammatical sentence. They include:</p>
-
-    <ul>
-      <li><p>Subject (required for all sentences)</p></li>
-      <li><p>Direct object (for transitive verbs)</p></li>
-      <li><p>Indirect object (for ditransitive verbs)</p></li>
-      <li><p>Subject complement (for linking verbs)</p></li>
-      <li><p>Object complement (for some transitive verbs)</p></li>
-    </ul>
-
-    <p><em>Test:</em> If you remove an argument, the sentence becomes ungrammatical or changes meaning dramatically.</p>
-
-    <p><q><foreign>She put the book on the table.</foreign></q></p>
-
-    <ul>
-      <li><p>Remove <foreign>the book</foreign>: <foreign><delete>She put on the table.</delete></foreign> ✗</p></li>
-      <li><p>Remove <foreign>on the table</foreign>: <foreign><delete>She put the book.</delete></foreign> ✗</p></li>
-      <li><p>All three elements are arguments of <q><foreign>put</foreign></q>.</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Adverbials</title>
-    </paragraphs>
-
-    <p><em>Adverbials</em> provide additional information about time, place, manner, reason, etc. They are optional—the sentence is grammatical without them.</p>
-
-    <p><em>Examples:</em></p>
-
-    <ul>
-      <li><p><foreign>Accidents happen <em>on Mondays</em>.</foreign> (when)</p></li>
-      <li><p><foreign>She spoke <em>quietly</em>.</foreign> (how)</p></li>
-      <li><p><foreign><em>Unfortunately</em>, we lost.</foreign> (attitude)</p></li>
-      <li><p><foreign>He works <em>at the hospital</em> <em>every day</em>.</foreign> (where, when)</p></li>
-    </ul>
-
-    <p><em>Test:</em> If you remove an adverbial, the sentence remains grammatical.</p>
-
-    <p><q><foreign>She spoke quietly in the library.</foreign></q></p>
-
-    <ul>
-      <li><p>Remove <foreign>quietly</foreign>: <foreign>She spoke in the library.</foreign> ✓</p></li>
-      <li><p>Remove <foreign>in the library</foreign>: <foreign>She spoke quietly.</foreign> ✓</p></li>
-      <li><p>Both are adverbials—optional modifiers.</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Distinguishing Arguments from Adverbials</title>
-    </paragraphs>
-
-    <tabular>
-      <row header="yes">
-        <cell>Arguments</cell>
-        <cell>Adverbials</cell>
-      </row>
-      <row>
-        <cell>Required by verb</cell>
-        <cell>Optional</cell>
-      </row>
-      <row>
-        <cell>Limited in number per verb</cell>
-        <cell>Unlimited</cell>
-      </row>
-      <row>
-        <cell>Cannot be moved as freely</cell>
-        <cell>Often movable</cell>
-      </row>
-      <row>
-        <cell>Removal changes grammaticality</cell>
-        <cell>Removal leaves grammatical sentence</cell>
-      </row>
-    </tabular>
-
-    <p><em>Compare:</em></p>
-
-    <ul>
-      <li><p><foreign>She put the book <em>on the table</em>.</foreign> (argument—required by <foreign>put</foreign>)</p></li>
-      <li><p><foreign>She read the book <em>on the table</em>.</foreign> (adverbial—optional location)</p></li>
-    </ul>
-
-  </section>
-
   <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-84">
     <title>Verb Valency</title>
 
@@ -293,7 +311,7 @@
     <ul>
       <li><p><foreign>Sleep</foreign> requires only a subject (1 argument)</p></li>
       <li><p><foreign>Read</foreign> typically requires a subject and object (2 arguments)</p></li>
-      <li><p><foreign>Give</foreign> requires a subject, indirect object, and direct object (3 arguments)</p></li>
+      <li><p><foreign>Give</foreign> often has a subject, indirect object, and direct object (3 arguments)</p></li>
     </ul>
 
     <paragraphs>
@@ -707,6 +725,256 @@
 
   </section>
 
+  <section xml:id="ch-08-copular-linking">
+    <title>Copular and Linking Verbs: A Closer Look</title>
+
+    <p>Patterns 2 and 3 share a common feature: instead of a direct object, the verb is followed by a <em>subject complement</em>—a word or phrase that loops back to describe or identify the subject. The difference between the two patterns lies in which verb connects them.</p>
+
+    <paragraphs>
+      <title>Pattern 2: Copular <em>Be</em></title>
+    </paragraphs>
+
+    <p>The verb <em>be</em> (and its forms: <foreign>am, is, are, was, were, been, being</foreign>) functions as a pure grammatical connector. It carries almost no independent meaning—its job is simply to link the subject to what is said about it. The element after <em>be</em> is always a subject complement, which can be a noun phrase, an adjective phrase, or a prepositional phrase.</p>
+
+    <p><em>Pattern 2 with NP subject complement:</em></p>
+
+    <p><foreign>I am <em>an optimist</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>I am an optimist</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch12_copular_be.png" width="40%">
+      <description>Syntax tree for "I am an optimist" with NP as subject complement</description>
+    </image>
+    <p><c>[S [NP [PRON I]] [VP [V am] [NP [DET an] [N optimist]]]]</c></p>
+
+    <p>The NP <em>an optimist</em> follows <em>be</em> and refers to the same entity as the subject. Notice that this NP does not receive any action—it identifies the subject. This is the defining property of a subject complement.</p>
+
+    <p><em>Pattern 2 with AdjP subject complement:</em></p>
+
+    <p><foreign>She is <em>happy</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>She is happy</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch06_linking.png" width="35%">
+      <description>Syntax tree for "She is happy" with AdjP as subject complement</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V is] [ADJP [ADJ happy]]]]</c></p>
+
+    <p>Here the AdjP <em>happy</em> describes the subject. Notice that <em>be</em> cannot be removed: <foreign><delete>She happy</delete></foreign> is ungrammatical. The verb must be present even though it contributes no action—it is purely structural.</p>
+
+    <p>A subject complement after <em>be</em> can also be a PP, which typically locates or situates the subject:</p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>Phillip is over the moon</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch08_copular_pp.png" width="50%">
+      <description>Syntax tree for "Phillip is over the moon" with PP as subject complement</description>
+    </image>
+    <p><c>[S [NP [N Phillip]] [VP [V is] [PP [PREP over] [NP [DET the] [N moon]]]]]</c></p>
+
+    <paragraphs>
+      <title>Pattern 3: Linking Verbs</title>
+    </paragraphs>
+
+    <p>Linking verbs behave structurally like <em>be</em>—they connect the subject to a subject complement—but unlike <em>be</em>, they carry their own semantic content. They typically express sensory perception, appearance, or change of state.</p>
+
+    <p><em>Common linking verbs:</em> <foreign>appear, become, feel, get, grow, look, prove, remain, seem, smell, sound, stay, taste, turn</foreign></p>
+
+    <p>The subject complement after a linking verb functions the same way as after <em>be</em>: it describes or identifies the subject, not an object of the verb's action. Both AdjP and NP subject complements are possible.</p>
+
+    <p><em>Pattern 3 with AdjP subject complement:</em></p>
+
+    <p><foreign>Phillip became <em>famous</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>Phillip became famous</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch08_linking_adjp.png" width="40%">
+      <description>Syntax tree for "Phillip became famous" with linking verb and AdjP subject complement</description>
+    </image>
+    <p><c>[S [NP [N Phillip]] [VP [V became] [ADJP [ADJ famous]]]]</c></p>
+
+    <p><em>Pattern 3 with NP subject complement:</em></p>
+
+    <p><foreign>Phillip became <em>a doctor</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>Phillip became a doctor</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch08_linking_np.png" width="45%">
+      <description>Syntax tree for "Phillip became a doctor" with linking verb and NP subject complement</description>
+    </image>
+    <p><c>[S [NP [N Phillip]] [VP [V became] [NP [DET a] [N doctor]]]]</c></p>
+
+    <p>In both diagrams the subject complement sits inside the VP alongside the verb. It is part of the predicate, but it points back to the subject rather than forward to an object.</p>
+
+    <paragraphs>
+      <title>The <em>Be</em> Substitution Test</title>
+    </paragraphs>
+
+    <p>To confirm that a verb is linking (Pattern 3 rather than transitive), replace the verb with a form of <em>be</em>. If the sentence still makes sense, the verb is linking:</p>
+
+    <ul>
+      <li><p><foreign>The bread smells wonderful.</foreign> → <foreign>The bread <em>is</em> wonderful.</foreign> ✓ Linking</p></li>
+      <li><p><foreign>The detective smells trouble.</foreign> → <foreign>The detective <em>is</em> trouble.</foreign> ✗ Not linking—transitive</p></li>
+    </ul>
+
+    <p>Many verbs in the list above can function as either linking or transitive depending on context. The substitution test is the most reliable way to distinguish them.</p>
+
+  </section>
+
+  <section xml:id="ch-08-transitive">
+    <title>Transitive Sentences: A Closer Look</title>
+
+    <p>Pattern 4 — the transitive sentence — is the most common sentence type in English. A transitive verb extends its action outward to a <em>direct object</em>: some entity that receives, undergoes, or results from the action.</p>
+
+    <paragraphs>
+      <title>The Direct Object</title>
+    </paragraphs>
+
+    <p>The direct object is always a noun phrase (or a clause functioning as an NP). It answers the question <q><foreign>verb what?</foreign></q> or <q><foreign>verb whom?</foreign></q> and sits inside the VP, immediately after the verb.</p>
+
+    <p><foreign>Weasels stalk <em>rabbits</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>Weasels stalk rabbits</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch12_basic_transitive.png" width="40%">
+      <description>Syntax tree for "Weasels stalk rabbits" showing basic transitive structure</description>
+    </image>
+    <p><c>[S [NP [N Weasels]] [VP [V stalk] [NP [N rabbits]]]]</c></p>
+
+    <p>The direct object NP sits inside the VP. This is consistent with all transitive structures: the object is part of the predicate. The subject NP sits outside the VP, before it.</p>
+
+    <p>In more complex sentences the NPs involved may carry determiners and other modifiers, but the underlying structure is identical:</p>
+
+    <p><foreign>The cat chased <em>the mouse</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>The cat chased the mouse</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch06_transitive.png" width="50%">
+      <description>Syntax tree for "The cat chased the mouse" showing determiners in both subject and object NPs</description>
+    </image>
+    <p><c>[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]</c></p>
+
+    <p>Both the subject and the direct object are full NPs with determiners. Their positions reveal their roles: the subject NP is outside the VP; the object NP is inside it, governed by the verb.</p>
+
+    <paragraphs>
+      <title>Three Tests for Direct Objects</title>
+    </paragraphs>
+
+    <p>When you are unsure whether an element is a direct object or something else (such as an adverbial), apply these tests:</p>
+
+    <ol>
+      <li><p><em>The what/whom question.</em> Ask the verb plus <q><foreign>what?</foreign></q> or <q><foreign>whom?</foreign></q>: <foreign>Weasels stalk what?</foreign> → <foreign>rabbits</foreign>. If an answer exists and it names the element in question, it is the direct object.</p></li>
+      <li><p><em>Pronoun replacement.</em> A direct object can be replaced with a pronoun: <foreign>She finished her dissertation.</foreign> → <foreign>She finished <em>it</em>.</foreign></p></li>
+      <li><p><em>Passive transformation.</em> The direct object can become the subject of a passive sentence: <foreign>Lightning struck the old oak.</foreign> → <foreign>The old oak was struck.</foreign></p></li>
+    </ol>
+
+    <paragraphs>
+      <title>Adverbials vs. Direct Objects</title>
+    </paragraphs>
+
+    <p>A common error is to mistake a prepositional phrase for a direct object. Direct objects are always NPs (or NP-clauses), not PPs. Compare:</p>
+
+    <ul>
+      <li><p><foreign>She read the book.</foreign> — <em>the book</em> is a direct object: NP, passes all three tests</p></li>
+      <li><p><foreign>She read in the library.</foreign> — <em>in the library</em> is an adverbial: PP, cannot be pronoun-replaced as a DO, cannot passivize</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-08-ditransitive">
+    <title>Ditransitive Sentences: A Closer Look</title>
+
+    <p>Patterns 5 and 6 are both called <em>ditransitive</em> because the verb takes two arguments beyond the subject. In Pattern 5 those are an indirect object and a direct object; in Pattern 6 they are a direct object and an object complement. Both patterns place two elements inside the VP after the verb, which makes them easy to confuse—but the relationship between those two elements is fundamentally different.</p>
+
+    <paragraphs>
+      <title>Pattern 5: Indirect Object + Direct Object</title>
+    </paragraphs>
+
+    <p>In Pattern 5, the verb describes a transfer of something (the direct object) to someone (the indirect object). The indirect object is the recipient or beneficiary; the direct object is the thing transferred. The indirect object always appears immediately after the verb, before the direct object.</p>
+
+    <p><foreign>Marie sent <em>Ramon</em> <em>a gift</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>Marie sent Ramon a gift</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch12_ditransitive_io_do.png" width="50%">
+      <description>Syntax tree for "Marie sent Ramon a gift" with indirect object and direct object</description>
+    </image>
+    <p><c>[S [NP [N Marie]] [VP [V sent] [NP [N Ramon]] [NP [DET a] [N gift]]]]</c></p>
+
+    <p>Both objects appear inside the VP. The two NPs refer to <em>different</em> things: Ramon and a gift are distinct entities. Ramon receives the gift; he does not become or equal it.</p>
+
+    <p><foreign>She gave <em>me</em> <em>a book</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>She gave me a book</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch06_ditransitive.png" width="50%">
+      <description>Syntax tree for "She gave me a book" with indirect object pronoun and direct object</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V gave] [NP [PRON me]] [NP [DET a] [N book]]]]</c></p>
+
+    <p>The indirect object can be a full NP or a pronoun. Confirm it with the <em>to/for paraphrase test</em>: if the sentence can be rephrased using <q><foreign>to</foreign></q> or <q><foreign>for</foreign></q> before the recipient, the first post-verb NP is an indirect object:</p>
+
+    <ul>
+      <li><p><foreign>She gave me a book.</foreign> → <foreign>She gave a book <em>to me</em>.</foreign> ✓</p></li>
+      <li><p><foreign>The chef made us dinner.</foreign> → <foreign>The chef made dinner <em>for us</em>.</foreign> ✓</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Pattern 6: Direct Object + Object Complement</title>
+    </paragraphs>
+
+    <p>In Pattern 6, the verb takes a direct object followed by an <em>object complement</em> that describes or identifies the direct object. The relationship is similar to a subject complement after a linking verb—but here it describes the object, not the subject.</p>
+
+    <p><foreign>The jury found <em>him</em> <em>guilty</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>The jury found him guilty</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch06_complex_trans_adj.png" width="50%">
+      <description>Syntax tree for "The jury found him guilty" with direct object and AdjP object complement</description>
+    </image>
+    <p><c>[S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]</c></p>
+
+    <p><foreign>They elected <em>her</em> <em>president</em>.</foreign></p>
+
+    <paragraphs>
+      <title>Diagram: <foreign>They elected her president</foreign></title>
+    </paragraphs>
+    <image source="diagrams/new/ch06_complex_trans_np.png" width="45%">
+      <description>Syntax tree for "They elected her president" with direct object and NP object complement</description>
+    </image>
+    <p><c>[S [NP [PRON They]] [VP [V elected] [NP [PRON her]] [NP [N president]]]]</c></p>
+
+    <p>The object complement can be an AdjP (describing a quality of the DO, as in <em>guilty</em>) or an NP (identifying what the DO becomes or is called, as in <em>president</em>). In both cases the object complement describes the same entity as the direct object.</p>
+
+    <paragraphs>
+      <title>Distinguishing Pattern 5 from Pattern 6</title>
+    </paragraphs>
+
+    <p>The key is the relationship between the two post-verb elements:</p>
+
+    <ul>
+      <li><p><em>Pattern 5 (IO + DO)</em>: the two NPs refer to different entities. <foreign>She gave <em>Marcus</em> <em>a book</em>.</foreign> — Marcus ≠ book.</p></li>
+      <li><p><em>Pattern 6 (DO + OC)</em>: the complement describes or equals the direct object. <foreign>They elected <em>her</em> <em>president</em>.</foreign> — she = president.</p></li>
+    </ul>
+
+    <p>A reliable test: insert an implied <em>be</em> between the two post-verb elements. If it makes sense, the second element is an object complement (Pattern 6):</p>
+
+    <ul>
+      <li><p><foreign>They elected her <em>[to be]</em> president.</foreign> ✓ → Pattern 6</p></li>
+      <li><p><foreign>She gave Marcus <em>[to be]</em> a book.</foreign> ✗ → Pattern 5</p></li>
+    </ul>
+
+  </section>
+
   <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-86">
     <title>A Systematic Approach to Pattern Identification</title>
 
@@ -853,7 +1121,7 @@
         <li><p>Direct object: _____</p></li>
       </ul>
 
-      <p><em>Exercise 2.</em> Identify all complements (DO, IO, SC, OC) in each sentence:</p>
+      <p><em>Exercise 2.</em> Identify all objects and complements (DO, IO, SC, OC) in each sentence:</p>
 
       <p>a) <foreign>The committee awarded the outstanding student a prestigious scholarship.</foreign></p>
 
@@ -1248,7 +1516,7 @@
     </gi>
     <gi>
       <title>Predicate</title>
-      <p>Everything said about the subject; includes the verb and its complements/adverbials.</p>
+      <p>Everything said about the subject; includes the verb and its arguments and adverbials.</p>
     </gi>
     <gi>
       <title>Subject</title>

@@ -27,10 +27,16 @@
     </ul>
   </objectives>
 
+  <p>Chapter 12 introduced adverbials—structures that modify verbs, adding information about time, place, manner, and reason. Chapter 13 introduced adjectivals—structures that modify nouns, describing or restricting what those nouns refer to. With this chapter, the triad is complete. <term>Nominals</term> are structures that fill the argument slots of a sentence: the subject, the direct object, the indirect object, the object of a preposition, and the subject complement. Together, these three functional categories—adverbial, adjectival, nominal—account for nearly every role a phrase or clause can play in English.</p>
+
+  <p>What makes nominals surprising is the range of forms that can fill a position you might expect only a noun to occupy. Consider the subject slot: in <foreign>Happiness is rare</foreign>, a single noun fills it. But in <foreign>That she persisted surprised everyone</foreign>, an entire clause with its own subject and verb fills the same slot. In <foreign>Swimming every morning changed his life</foreign>, a phrase built on a verb form does the same. This chapter explains how noun clauses, gerund phrases, and infinitive phrases can each step into the noun's shoes—and why recognizing them matters for both analysis and writing.</p>
+
   <section xml:id="ch-14-nominals-sec-141">
     <title>Nouns vs. Nominals: Form vs. Function</title>
 
     <p>Understanding the distinction between <term>nouns</term> (a form/part of speech) and <term>nominals</term> (a function) is essential for accurate grammatical analysis.</p>
+
+    <p>You have already encountered this form-vs.-function distinction twice: in Chapter 12, where you saw that adverbs, prepositional phrases, noun phrases, and clauses can all serve the adverbial function; and in Chapter 13, where you saw that adjectives, nouns, participial phrases, and relative clauses can all serve the adjectival function. Here the same logic applies to the nominal function. The form of a word tells you its part of speech; the function tells you the role it plays in a sentence. A word or phrase that fills a noun-phrase slot—regardless of its internal structure—is functioning nominally.</p>
 
     <paragraphs>
       <title>Noun as Form</title>
@@ -56,6 +62,8 @@
     <title>Structures That Function as Nominals</title>
 
     <p>Many different structures can serve the nominal function.</p>
+
+    <p>The simplest nominal is what you would expect: a noun phrase with a determiner, perhaps some modifiers, and a noun at its head. But the nominal function is not restricted to noun phrases. Pronouns, noun clauses, gerund phrases, infinitive phrases, and even some adjectives can all occupy the same syntactic slots. The catalog below moves from the most typical to the more structurally complex, so you can see the full range of what English treats as equivalent to a noun phrase.</p>
 
     <paragraphs>
       <title>1. Noun Phrases</title>
@@ -148,6 +156,8 @@
 
     <p><term>Noun clauses</term> are dependent clauses that function as nominals—as subjects, objects, or complements.</p>
 
+    <p>What makes noun clauses striking is that they are full clauses—complete with their own subject and predicate—yet the entire clause functions as a single argument of the main verb. Think of it this way: in <foreign>I know the answer</foreign>, the noun phrase <foreign>the answer</foreign> is the direct object. Replace it with <foreign>I know that she resigned</foreign>, and a clause with its own internal structure—<foreign>she resigned</foreign>—now fills exactly the same slot. English has two main families of noun clauses: <term>that-clauses</term>, which report statements or propositions, and <term>wh-clauses</term>, which embed questions. Understanding these two families will help you both identify noun clauses in sentences you read and construct them with confidence in sentences you write.</p>
+
     <paragraphs>
       <title>That-clauses</title>
     </paragraphs>
@@ -215,6 +225,8 @@
       <title>If vs. Whether</title>
     </paragraphs>
 
+    <p>One distinction that trips up many writers is the choice between <foreign>if</foreign> and <foreign>whether</foreign> when embedding a yes/no question. Both words can introduce a noun clause, but they are not always interchangeable, and the differences follow from their grammatical behavior.</p>
+
     <p>Both introduce yes/no noun clauses, but:</p>
 
     <ul>
@@ -235,6 +247,8 @@
     <title>Gerund Phrases as Nominals</title>
 
     <p>A <term>gerund</term> is the <foreign>-ing</foreign> form of a verb functioning nominally. A <term>gerund phrase</term> includes the gerund and its complements/modifiers.</p>
+
+    <p>Gerunds present one of the clearest examples of the form-vs.-function distinction at work. Morphologically, <foreign>swimming</foreign> looks exactly like a present participle—the same <foreign>-ing</foreign> ending, the same verbal form. The difference is purely functional: when it modifies a noun (as in <foreign>the swimming dog</foreign>), it is a participle functioning adjectivally; when it fills a noun-phrase slot (as in <foreign>Swimming is good exercise</foreign>), it is a gerund functioning nominally. Because gerunds retain their verbal character, they can also take their own objects and modifiers, which means a gerund phrase can be quite long even though it fills a single argument slot.</p>
 
     <paragraphs>
       <title>Gerund Structure</title>
@@ -301,6 +315,8 @@
 
     <p>Infinitive phrases (to + base verb) can function nominally in certain positions.</p>
 
+    <p>Like gerund phrases, infinitive phrases are built on a verbal base, and they can take their own objects and modifiers. Unlike gerunds, however, infinitives have a narrower distribution as nominals: they appear frequently as subjects and subject complements, but they are restricted as objects—only certain verbs allow an infinitive complement, while others require a gerund. They also have a special relationship with English word order: when an infinitive subject is long or complex, speakers often prefer to move it to the end of the sentence and place the pronoun <foreign>it</foreign> at the front. This pattern, called <term>extraposition</term>, is one of the most productive nominal constructions in the language.</p>
+
     <paragraphs>
       <title>Infinitive Structure</title>
     </paragraphs>
@@ -356,6 +372,8 @@
     <title>Comparing Nominal Structures</title>
 
     <p>Different nominal structures may seem interchangeable but often carry subtle differences in meaning or style.</p>
+
+    <p>If you can say <foreign>I like swimming</foreign> and also <foreign>I like to swim</foreign>, you might wonder whether the choice of gerund versus infinitive ever matters. The answer is: sometimes no, sometimes yes, and sometimes the choice changes the meaning of the sentence entirely. The same is true for that-clauses versus infinitives and that-clauses versus gerunds. This section gives you the tools to choose among nominal structures deliberately rather than by habit, and to recognize when the choice is meaningful.</p>
 
     <paragraphs>
       <title>Gerund vs. Infinitive</title>
@@ -426,6 +444,8 @@
     <title>Nominal Positions in Sentences</title>
 
     <p>Nominals occupy specific syntactic positions.</p>
+
+    <p>One of the most useful things about the nominal function is that it gives you a systematic way to identify what role any noun-like structure is playing in a sentence. Rather than asking <q>Is this a noun?</q>—a question about form—you ask <q>What slot does it fill?</q>—a question about function. The answer is one of five positions: subject, direct object, indirect object, object of a preposition, or subject complement. Each position has a characteristic location in the sentence, and recognizing the position tells you immediately how the nominal relates to the verb and the rest of the clause.</p>
 
     <paragraphs>
       <title>Subject Position</title>

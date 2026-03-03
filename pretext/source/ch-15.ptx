@@ -24,6 +24,10 @@
     </ul>
   </objectives>
 
+  <p>Every chapter in this book has been about structure: the internal structure of words, the structure of phrases, the structure of clauses, the structure of sentences. This chapter asks a different question—not how grammatical structure works, but how it is represented on the page. Punctuation is the visual system that encodes grammatical relationships in writing. Every mark you place corresponds to something real in the grammar: a boundary between clauses, a distinction between restrictive and nonrestrictive modifiers, a relationship between a proposition and an elaboration. Students who understand grammar have a foundation for understanding punctuation that rule-memorizers do not: they can reason from structure rather than guess from habit.</p>
+
+  <p>The marks covered here range from the universal (periods end sentences) to the nuanced (commas with nonrestrictive modifiers reflect the grammar of modification). As you work through this chapter, notice how often a punctuation rule is really a grammar rule in disguise. The rule about comma splices, for instance, is just the observation that two independent clauses are two independent clauses—and joining them requires more than a comma. The rule about commas with nonrestrictive relative clauses follows directly from the restrictive/nonrestrictive distinction you studied in Chapter 13. Punctuation and grammar are not separate subjects; they are the same subject viewed from two angles.</p>
+
   <section xml:id="ch-15-punctuation-sec-151">
     <title>The Purpose of Punctuation</title>
 
@@ -40,6 +44,8 @@
 
   <section xml:id="ch-15-punctuation-sec-152">
     <title>Terminal Punctuation</title>
+
+    <p>Every sentence in written English ends with one of three marks, and the choice among them is not arbitrary—it reflects the grammatical type of the sentence. You have already studied sentence types in Chapter 8: declarative sentences make statements, interrogative sentences ask questions, and exclamatory sentences express strong emotion or emphasis. Terminal punctuation encodes exactly these distinctions. The period, question mark, and exclamation point are, in that sense, the written counterparts of the sentence-type distinctions your grammar already recognizes.</p>
 
     <paragraphs>
       <title>Period (.)</title>
@@ -89,6 +95,8 @@
 
     <p>The comma is the most frequently used—and misused—punctuation mark.</p>
 
+    <p>Most comma errors come from treating the comma as a breathing mark—a place to pause—rather than as a grammatical signal. The truth is that every major comma rule corresponds to a structural boundary you can identify. A comma before a coordinating conjunction signals that two independent clauses are being joined. A comma after an introductory element signals that an adverbial or other fronted constituent has ended and the main clause is beginning. Commas around a relative clause signal that it is nonrestrictive—adding extra information rather than restricting reference. Once you can see these grammatical boundaries, comma placement becomes a matter of analysis rather than intuition. The rules below are organized by the structural context they respond to.</p>
+
     <paragraphs>
       <title>Comma in Compound Sentences</title>
     </paragraphs>
@@ -115,6 +123,8 @@
     <paragraphs>
       <title>Commas with Nonrestrictive Elements</title>
     </paragraphs>
+
+    <p>In Chapter 13 you learned the distinction between restrictive and nonrestrictive modifiers. That distinction does real grammatical work, and commas are how writing marks it. A restrictive modifier identifies which member of a group the noun phrase refers to—removing it would change the meaning of the sentence. A nonrestrictive modifier adds supplementary information about a noun phrase whose reference is already established—removing it leaves the core meaning intact. Commas signal to the reader: <em>what follows is extra information, not identification</em>.</p>
 
     <p>Set off nonrestrictive (non-essential) modifiers with commas:</p>
 
@@ -187,6 +197,8 @@
   <section xml:id="ch-15-punctuation-sec-154">
     <title>The Semicolon</title>
 
+    <p>The semicolon occupies an interesting position in the punctuation system: it is stronger than a comma but weaker than a period. Grammatically, it signals that two independent clauses are closely related in meaning—so related that the writer wants to present them as a single unit rather than two separate sentences—but without the explicit logical connector that a coordinating conjunction like <foreign>and</foreign> or <foreign>but</foreign> would provide. Think of it as the written equivalent of a very short pause between two complete thoughts that belong together. Understanding what an independent clause is, which you studied in Chapter 8, is the key to using semicolons correctly.</p>
+
     <paragraphs>
       <title>Between Independent Clauses</title>
     </paragraphs>
@@ -212,6 +224,8 @@
 
   <section xml:id="ch-15-punctuation-sec-155">
     <title>The Colon</title>
+
+    <p>Where the semicolon connects two independent clauses of roughly equal weight, the colon establishes a directional relationship: what comes before it is a complete sentence that anticipates something, and what comes after it delivers that something—a list, an explanation, a restatement, or a clarification. The grammatical rule that governs the colon follows from this directional logic: the material before the colon must be a complete independent clause. If the clause is incomplete, the colon breaks the flow of a construction that should be uninterrupted.</p>
 
     <paragraphs>
       <title>Introducing Lists</title>
@@ -261,6 +275,8 @@
 
   <section xml:id="ch-15-punctuation-sec-156">
     <title>The Apostrophe</title>
+
+    <p>The apostrophe has two grammatically distinct jobs, and keeping them separate is the key to using it correctly. Its first job is to mark <em>possession</em>—the genitive relationship between a noun and whatever follows it. Recall from Chapter 5 that English has two ways to express this relationship: a prepositional phrase (<foreign>the tail of the dog</foreign>) and the Saxon genitive, which uses an apostrophe-s inflection (<foreign>the dog's tail</foreign>). The apostrophe in that construction is not decorative; it marks a real morphological operation. The apostrophe's second job is to signal <em>contraction</em>—the omission of one or more letters when two words are reduced to one. These two uses are unrelated to each other, but they share the same punctuation mark, which is why apostrophe errors are so common.</p>
 
     <paragraphs>
       <title>Possession</title>
@@ -323,6 +339,8 @@
   <section xml:id="ch-15-punctuation-sec-157">
     <title>Dashes and Parentheses</title>
 
+    <p>Both dashes and parentheses allow a writer to insert supplementary material into a sentence without making it a separate sentence. Grammatically, they solve the same problem: how do you include information that is relevant but not central to the main clause? The difference between them is one of emphasis and tone. Dashes are loud—they signal an interruption, an aside delivered with energy. Parentheses are quiet; they whisper supplementary information to the reader while the main clause continues on its way. Commas can serve the same function with nonrestrictive elements, so the choice among commas, dashes, and parentheses is partly stylistic, but the grammatical function is consistent across all three.</p>
+
     <paragraphs>
       <title>Em Dash (—)</title>
     </paragraphs>
@@ -364,6 +382,8 @@
 
   <section xml:id="ch-15-punctuation-sec-158">
     <title>Quotation Marks</title>
+
+    <p>Quotation marks flag a special relationship between a piece of language and the text that contains it. When you quote someone directly, you are reporting their exact words rather than paraphrasing them—the quotation marks signal that the words inside belong to another speaker or writer, not to you. This is grammatically significant: you saw in Chapter 14 that English can embed speech both as a that-clause (<foreign>She said that she would come</foreign>, an indirect quotation with no quotation marks) and as a direct quotation (<foreign>She said, "I will come"</foreign>, where the original words are preserved). The choice between direct and indirect quotation changes the grammar of the sentence, and quotation marks are the written marker of the direct form.</p>
 
     <paragraphs>
       <title>Direct Quotations</title>

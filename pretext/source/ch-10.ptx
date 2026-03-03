@@ -26,8 +26,14 @@
     </ul>
   </objectives>
 
+  <p>You have spent the last several chapters analyzing how sentences are structured—how subjects and predicates are arranged, how clauses combine, and how complex sentences create relationships between ideas. Throughout that work, verbs have been central, but you have been treating them largely as single units. Now it is time to look inside the verb phrase itself. What is it actually made of? How does English pack so much meaning—timing, duration, completion, habit—into those few words?</p>
+
+  <p>This chapter examines two interlocking systems: <em>auxiliary verbs</em>, which are the grammatical machinery that builds complex verb phrases, and <em>tense and aspect</em>, which are the categories that locate events in time and describe their internal shape. You probably know tense as a simple past/present/future distinction, but the grammar is more nuanced than that intuition suggests. English actually has only two morphological tenses, and the rich variety of time meanings you can express—<foreign>she worked</foreign>, <foreign>she has been working</foreign>, <foreign>she had worked</foreign>—comes from combining those two tenses with four different aspects. By the end of this chapter, you will be able to name and analyze any tense-aspect combination in English.</p>
+
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-101">
     <title>Auxiliary Verbs</title>
+
+    <p>Consider the difference between <foreign>She eats</foreign> and <foreign>She has been eating</foreign>. Both sentences have the same main verb, but the second tells you something the first does not: that the eating started in the past and is still ongoing. The words doing that extra work—<foreign>has</foreign> and <foreign>been</foreign>—are auxiliary verbs. You cannot understand how English verb phrases are built without understanding how auxiliaries function, because they are the building blocks that tense, aspect, voice, and modality all depend on.</p>
 
     <p><term>Auxiliary verbs</term> (also called helping verbs) combine with main verbs to create complex verb phrases. They add grammatical information about tense, aspect, voice, and modality.</p>
 
@@ -76,7 +82,7 @@
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-102">
     <title>Primary Auxiliary: Be</title>
 
-    <p><foreign>Be</foreign> is the most versatile auxiliary, used for both progressive aspect and passive voice.</p>
+    <p><foreign>Be</foreign> is the most versatile auxiliary, used for both progressive aspect and passive voice. It is also, arguably, the most irregular verb in English—its forms (<foreign>am, is, are, was, were, been, being</foreign>) look nothing like one another, a remnant of the verb's descent from three different Old English roots that merged over centuries. Despite that surface irregularity, the grammatical work <foreign>be</foreign> does as an auxiliary is entirely predictable: combine it with an <foreign>-ing</foreign> form to get progressive meaning, combine it with a past participle to get passive meaning.</p>
 
     <paragraphs>
       <title>Forms of Be</title>
@@ -138,6 +144,8 @@
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-103">
     <title>Primary Auxiliary: Have</title>
 
+    <p>Of the three primary auxiliaries, <foreign>have</foreign> is the one that creates the most subtle and often misunderstood category in English grammar: the perfect aspect. The difference between <foreign>She finished the report</foreign> and <foreign>She has finished the report</foreign> seems small on the surface, but it is meaningful. The first presents the event as completed and disconnected from the present; the second connects the completed event to right now—it signals that the finishing is relevant to the current moment. That connection to the present is what the perfect aspect is fundamentally about, and <foreign>have</foreign> is the auxiliary that creates it.</p>
+
     <p><foreign>Have</foreign> forms the perfect aspect, indicating that an action is completed or has continuing relevance.</p>
 
     <paragraphs>
@@ -191,6 +199,8 @@
 
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-104">
     <title>Primary Auxiliary: Do</title>
+
+    <p>Of the three primary auxiliaries, <foreign>do</foreign> is the odd one out. Unlike <foreign>be</foreign> and <foreign>have</foreign>, it does not add aspect or voice; it is essentially a grammatical placeholder. English requires an auxiliary verb in certain positions—for forming questions by inversion, for placing <foreign>not</foreign> after an auxiliary—but many sentences have no auxiliary at all. When that need arises, English inserts <foreign>do</foreign> to fill the slot. Linguists call this <em>do-support</em>, and understanding it helps explain a construction that seems arbitrary but is actually quite systematic.</p>
 
     <p><foreign>Do</foreign> is used for emphasis, questions, and negation when no other auxiliary is present.</p>
 
@@ -248,6 +258,8 @@
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-105">
     <title>Tense: Locating Events in Time</title>
 
+    <p>Ask most people how many tenses English has and they will say three: past, present, and future. That intuition makes sense—we can certainly talk about past, present, and future events—but it reflects an understanding of <em>time</em>, not of <em>tense</em>. Tense and time are related but not the same thing, and getting this distinction right is one of the most important conceptual moves in this chapter.</p>
+
     <p><term>Tense</term> is a grammatical category that locates situations in time, typically marked by verb inflection.</p>
 
     <paragraphs>
@@ -259,6 +271,8 @@
     <p><em>Time</em> is conceptual—when something actually happens.</p>
 
     <p>English has only two morphological tenses: present and past. Future time is expressed through modals and aspect, not a distinct verb form.</p>
+
+    <p>The table below shows what is actually marked on English verbs. Notice that "future" requires a modal—there is no future inflection the way there is a past <foreign>-ed</foreign>:</p>
 
     <tabular>
       <row header="yes">
@@ -287,6 +301,8 @@
 
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-106">
     <title>Present Tense</title>
+
+    <p>The name "present tense" is somewhat misleading. You might expect it to mean "what is happening right now," but in fact the present tense is used for a surprising range of meanings, most of which have nothing to do with the immediate moment. When someone says <foreign>Water boils at 100°C</foreign>, they are using present tense to state a timeless truth. When a storyteller says <foreign>So then he walks up and says...</foreign>, they are using present tense to describe past events. The present tense is really the <em>unmarked</em> tense—the default, the one English reaches for when no specific temporal meaning needs to be imposed.</p>
 
     <paragraphs>
       <title>Formation</title>
@@ -358,6 +374,8 @@
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-107">
     <title>Past Tense</title>
 
+    <p>The past tense is more complex than it first appears, for two reasons. First, the formation itself is irregular in a large number of common verbs—the verbs you use most often in English tend to be the ones that do not follow the predictable <foreign>-ed</foreign> pattern. Second, and more surprisingly, the past tense is not always about past time. As you will see below, the same past tense form that describes yesterday's events can also signal hypothetical or counterfactual meaning (<foreign>If I were you...</foreign>) and can even soften a request to make it more polite (<foreign>I wondered if you could help</foreign>). Tense, in other words, encodes more than just time.</p>
+
     <paragraphs>
       <title>Formation</title>
     </paragraphs>
@@ -424,6 +442,8 @@
 
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-108">
     <title>Aspect: The Shape of Events</title>
+
+    <p>If tense tells you <em>when</em> an event happens, aspect tells you something different: it tells you how the event is shaped in time. Think of tense as placing a dot on a timeline, and aspect as describing the dot itself—is it a single point, a stretch, a stretch that reaches up to the present, or a stretch that is still ongoing? Two sentences can share the same tense but have completely different aspects: <foreign>She worked</foreign> (past simple) presents a completed event as a whole, while <foreign>She was working</foreign> (past progressive) zooms in on the action as it unfolds. The event may be identical in real-world terms; the aspect shapes how the speaker presents it.</p>
 
     <p><term>Aspect</term> describes the internal temporal structure of events—whether they're completed, ongoing, repeated, or have current relevance. English has four aspects.</p>
 
@@ -517,6 +537,8 @@
 
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-109">
     <title>Combining Tense and Aspect</title>
+
+    <p>You now have all the pieces: two tenses (present and past), four aspects (simple, progressive, perfect, perfect progressive), and a modal-based future. The real power of English verb phrase grammar is that these categories combine systematically, giving you a full grid of tense-aspect combinations. Each cell in that grid is a distinct construction with its own meaning and its own form. Rather than memorizing them as isolated items, notice how they are built: tense is always marked on the first auxiliary (or the main verb if there is no auxiliary), and the aspect categories stack in a fixed order—progressive always uses <foreign>be + -ing</foreign>, perfect always uses <foreign>have + past participle</foreign>.</p>
 
     <p>Tense and aspect combine systematically:</p>
 

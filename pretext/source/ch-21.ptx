@@ -25,8 +25,14 @@
     </ul>
   </objectives>
 
+  <p>You have spent a semester doing something most people never do: taking apart the English language and examining how it works. You can describe noun phrases and verb phrases, identify clause types and syntactic patterns, distinguish morphemes and analyze word formation. What do you do with all of that? One answer is that you use it in your own writing and reading. But for many students in this course, another answer is equally important: you may one day teach it. And teaching grammar turns out to be a surprisingly complex problem.</p>
+
+  <p>The difficulty is not just explaining rules. It is knowing <em>which</em> rules to explain, to <em>whom</em>, at <em>what point</em> in their learning, using <em>what methods</em>, and with <em>what kind of feedback</em> when they get something wrong. Researchers and teachers have debated these questions for over a century, and there are no settled answers that work for every learner in every context. This chapter introduces the major frameworks for thinking about grammar instruction—for native speakers and for language learners—so that you can bring both your grammatical knowledge and your critical thinking to bear on those questions.</p>
+
   <section xml:id="ch-21-teaching-grammar-sec-211">
     <title>Why Teach Grammar?</title>
+
+    <p>The question sounds almost absurd—of course you teach grammar. But the history of language education includes serious, sustained arguments on both sides. In the mid-twentieth century, some researchers concluded that explicit grammar instruction had no measurable effect on language acquisition and that students would do better with more time reading and writing. Others argued that grammar knowledge is foundational to everything else. Today the consensus is more nuanced: grammar instruction matters, but its effects depend heavily on <em>what</em> is being taught, <em>to whom</em>, and <em>how</em>.</p>
 
     <p>Grammar instruction has been debated for centuries. Understanding the purposes of grammar teaching helps us teach it effectively.</p>
 
@@ -63,6 +69,8 @@
   <section xml:id="ch-21-teaching-grammar-sec-212">
     <title>L1 Grammar Instruction</title>
 
+    <p>When grammar instruction is discussed in American K-12 education, this is usually what people mean: teaching native speakers of English about their own language. The challenge is that native speakers already know English in the most fundamental sense—they acquired it as children, and they can produce and understand grammatical sentences without any instruction at all. So what, exactly, is the teacher adding? The answer turns out to be less about teaching the language and more about developing a particular kind of <em>conscious relationship</em> with it: the ability to analyze, describe, and revise it deliberately.</p>
+
     <paragraphs>
       <title>The Context</title>
     </paragraphs>
@@ -86,6 +94,8 @@
     <paragraphs>
       <title>Common L1 Challenges</title>
     </paragraphs>
+
+    <p>Certain grammar points recur predictably as problem areas for native-speaking students. The table below lists common challenges and suggests approaches—notice that in each case the goal is not mechanical rule-following but developing awareness that helps writers make better choices during revision.</p>
 
     <tabular>
       <row header="yes">
@@ -118,6 +128,8 @@
 
   <section xml:id="ch-21-teaching-grammar-sec-213">
     <title>L2 Grammar Instruction</title>
+
+    <p>Teaching grammar to language learners raises a different set of questions than teaching it to native speakers. An L2 learner does not already have English wired into their intuitions—they are in the process of building a new linguistic system, and that process has its own trajectory, its own resistances, and its own logic. Crucially, learners bring their first language with them into that process: patterns from their L1 shape what they notice in English, what they find easy, and what they find baffling. Understanding those dynamics is at the heart of effective L2 grammar instruction.</p>
 
     <paragraphs>
       <title>The Context</title>
@@ -159,6 +171,8 @@
 
   <section xml:id="ch-21-teaching-grammar-sec-214">
     <title>Approaches to Teaching Grammar</title>
+
+    <p>If you have ever sat through a grammar lesson, you have probably experienced at least one of two approaches: either the teacher stated the rule and then you practiced it, or the teacher showed you examples and asked you to figure out the pattern. These two approaches have formal names—<term>deductive</term> and <term>inductive</term> teaching—and their difference goes deeper than sequence. They reflect different assumptions about how people learn: whether understanding a rule before you practice it leads to better learning, or whether discovering the rule yourself leads to deeper retention. Decades of classroom research have produced a nuanced answer: both can work, and neither works in all situations.</p>
 
     <paragraphs>
       <title>Deductive Teaching</title>
@@ -210,6 +224,8 @@
   <section xml:id="ch-21-teaching-grammar-sec-215">
     <title>Error Correction</title>
 
+    <p>Error correction is one of the most studied—and most debated—topics in language teaching. Everyone agrees that learners make errors and that teachers respond to them. But how teachers respond, when they respond, and how much their responses help are questions without simple answers. Correcting every error in a learner's speech can be demoralizing and may interrupt communicative flow; ignoring errors entirely may allow incorrect forms to fossilize. The research suggests that strategic, well-timed feedback is more effective than either extreme—but what "strategic" means depends on the learner, the error, and the context of the lesson.</p>
+
     <paragraphs>
       <title>Types of Errors</title>
     </paragraphs>
@@ -221,6 +237,8 @@
     <paragraphs>
       <title>Corrective Feedback Options</title>
     </paragraphs>
+
+    <p>Teachers have a range of feedback strategies available, each with different properties. Some are explicit and direct; others are indirect, leaving the correction to the learner. The table below illustrates the main types and suggests when each tends to be most useful.</p>
 
     <tabular>
       <row header="yes">
@@ -272,6 +290,8 @@
 
   <section xml:id="ch-21-teaching-grammar-sec-216">
     <title>Common L2 Challenges by L1 Background</title>
+
+    <p>One of the most useful things a grammar teacher can know is which features of English are likely to cause problems for speakers of particular languages. This is not about stereotyping learners—individual variation is real, and a learner's first language is only one factor among many. But <term>language transfer</term>, the influence of the L1 on the developing L2 system, is well-documented, and certain patterns repeat predictably across learners who share the same first language. A speaker whose L1 has no article system will face different challenges than a speaker whose L1 marks aspect differently than English does. Anticipating those challenges allows a teacher to design instruction and feedback that targets the specific points of difficulty, rather than treating all learners as if they were starting from the same place.</p>
 
     <paragraphs>
       <title>Article Usage</title>
@@ -330,6 +350,8 @@
   <section xml:id="ch-21-teaching-grammar-sec-217">
     <title>Designing Grammar Activities</title>
 
+    <p>Knowing the principles of grammar instruction is one thing; translating them into actual classroom activities is another. The traditional grammar exercise—fill in the blank with the correct verb form—has its place, but decades of research have shown that learners who can do well on such exercises do not automatically transfer that accuracy to real communication. Effective grammar activities move learners through a progression: from noticing a form in input, to understanding how it works, to practicing it in a controlled way, to using it in genuine communicative situations. That progression does not happen by accident—it has to be designed.</p>
+
     <paragraphs>
       <title>Principles</title>
     </paragraphs>
@@ -371,6 +393,8 @@
 
   <section xml:id="ch-21-teaching-grammar-sec-218">
     <title>Assessing Grammar</title>
+
+    <p>Assessment might seem like a straightforward question at the end of instruction—you taught the structure, now you test whether learners know it. But grammar assessment is more complicated than that, because knowing a grammar rule and being able to use it correctly in real communication are not the same thing. A learner might score perfectly on a multiple-choice test about the present perfect and still say <foreign>I have seen her yesterday</foreign> in conversation. Conversely, a learner might use the present perfect correctly in speech without being able to state the rule at all. Effective assessment tries to capture what learners can actually do with grammar, not just what they know about it in the abstract.</p>
 
     <paragraphs>
       <title>Assessment Types</title>

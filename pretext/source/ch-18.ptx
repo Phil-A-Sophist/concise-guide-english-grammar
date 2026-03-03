@@ -18,6 +18,10 @@
     </ul>
   </objectives>
 
+  <p>You have spent the last several chapters learning how grammar works: how words combine into phrases, how phrases combine into clauses, how sentences are built and classified. That knowledge is not just theoretical. It is a diagnostic toolkit. When writing is unclear, it is almost always unclear for a grammatical reason—a pronoun without a clear referent, a modifier attached to the wrong element, a structure that can be read two ways. Knowing the grammar means you can locate the problem precisely and fix it.</p>
+
+  <p>This chapter applies that knowledge directly to the task of revision. Each section identifies a specific source of unclarity, explains what is happening grammatically, and shows how to resolve it. The goal is not to simplify your writing, but to make it do exactly what you intend.</p>
+
   <section xml:id="ch-18-clarity-and-readability-sec-181">
     <title>Sources of Unclear Writing</title>
 
@@ -27,6 +31,8 @@
 
   <section xml:id="ch-18-clarity-and-readability-sec-182">
     <title>Pronoun Reference</title>
+
+    <p>Pronouns are one of the most efficient tools in the language—a single word standing in for an entire noun phrase. But that efficiency depends entirely on the reader knowing which noun the pronoun refers to. When the connection is unclear, the sentence asks the reader to do interpretive work that the writer should have done instead.</p>
 
     <p>Pronouns must clearly refer to identifiable antecedents.</p>
 
@@ -75,6 +81,8 @@
 
   <section xml:id="ch-18-clarity-and-readability-sec-183">
     <title>Modifier Placement</title>
+
+    <p>You have already seen how modifiers work structurally: adjectives and adjective phrases modify nouns, adverbs modify verbs and adjectives, participial phrases modify noun phrases, and so on. In all of these cases, position is meaning. A modifier attaches to whatever it is closest to—or at least, that is how readers interpret it. When a modifier lands in the wrong position, readers assign it to the wrong element and the sentence says something other than what the writer intended.</p>
 
     <p>Modifiers should be placed close to what they modify.</p>
 
@@ -129,6 +137,8 @@
   <section xml:id="ch-18-clarity-and-readability-sec-184">
     <title>Structural Ambiguity</title>
 
+    <p>Pronoun reference and modifier placement are problems of attachment—the reader cannot tell what a word or phrase is connected to. Structural ambiguity is a deeper version of the same problem: the sentence as a whole can be parsed in more than one way, producing two different meanings from the same string of words. What makes structural ambiguity interesting is that neither reading is wrong. Both are grammatically valid. The sentence is not broken; it is genuinely ambiguous, and only the writer knows which meaning was intended.</p>
+
     <p>Some sentences are grammatically correct but structurally ambiguous. <term>Structural ambiguity</term> occurs when a sentence can be parsed in more than one way.</p>
 
     <paragraphs>
@@ -165,6 +175,8 @@
 
   <section xml:id="ch-18-clarity-and-readability-sec-185">
     <title>Sentence Complexity</title>
+
+    <p>There is nothing wrong with a complex sentence. The chapters on clauses showed how subordination, embedding, and modification allow you to pack precise relationships into a single structure. The problem arises not from complexity itself but from complexity that exceeds what a reader can hold in working memory. When a sentence requires readers to track too many embedded elements at once, they lose the thread before reaching the main point—and the ideas you worked hard to express are lost in the structure you built to express them.</p>
 
     <p>Overly complex sentences impair <term>readability</term>.</p>
 
@@ -207,6 +219,8 @@
   <section xml:id="ch-18-clarity-and-readability-sec-186">
     <title>Parallel Structure</title>
 
+    <p>Coordination is one of the basic operations in grammar: joining elements at the same level with conjunctions like <foreign>and</foreign>, <foreign>but</foreign>, and <foreign>or</foreign>. The key word is <em>same level</em>. Coordination works because both elements belong to the same grammatical category—noun with noun, verb with verb, clause with clause. When you coordinate elements that are not the same category, the structure breaks, and the reader feels the mismatch even without being able to name it.</p>
+
     <p>Coordinated elements should be grammatically parallel. <term>Faulty parallelism</term> occurs when coordinated items are not in the same grammatical form.</p>
 
     <paragraphs>
@@ -243,6 +257,8 @@
 
   <section xml:id="ch-18-clarity-and-readability-sec-187">
     <title>Word Choice for Clarity</title>
+
+    <p>The preceding sections have focused on how sentence structure creates or destroys clarity. But structure is only part of the picture. Even a perfectly constructed sentence can mislead readers if the words themselves are vague, overly technical, or unnecessarily abstract. Word choice operates at the level of individual lexical items, and the questions are simple: Does this word say exactly what you mean? Will your reader understand it? Does it point to something concrete, or does it gesture vaguely at a category?</p>
 
     <paragraphs>
       <title>Precision</title>

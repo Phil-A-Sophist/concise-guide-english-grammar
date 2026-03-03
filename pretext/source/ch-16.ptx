@@ -24,14 +24,22 @@
     </ul>
   </objectives>
 
+  <p>You have now built up a substantial framework for analyzing English: you can identify parts of speech, describe phrase structure, recognize clause types, and map sentences onto their core patterns. With that foundation in place, you are ready to look at the fuller range of grammatical structures that English actually uses. Many of the most common features of written and spoken English—the infinitive phrase in a title, the gerund at the start of a recipe, the cleft sentence in a news headline—sit just outside the basic clause patterns you have analyzed so far.</p>
+
+  <p>This chapter collects the structures that extend beyond the core: nonfinite verb forms, complement clauses, special constructions for highlighting information, coordination, and ellipsis. These are not exceptions or irregularities—they are integral to how English works. By the end of this chapter, you will have names and analytical tools for constructions you have been using your entire life.</p>
+
   <section xml:id="ch-16-other-grammatical-forms-sec-161">
     <title>Nonfinite Verb Forms</title>
+
+    <p>Consider these three phrases: <foreign>to write</foreign>, <foreign>writing</foreign>, <foreign>written</foreign>. You have used all three countless times, in sentences like <foreign>She loves to write</foreign>, <foreign>Writing is her passion</foreign>, and <foreign>a well-written essay</foreign>. But what kind of verb forms are these? They do not carry tense. They do not agree with a subject. They cannot stand alone as the main verb of a sentence. They are <em>nonfinite</em>—and understanding why that label matters will sharpen your ability to analyze any sentence you encounter.</p>
 
     <p>Verbs can be <term>finite</term> or <term>nonfinite</term>. Finite verbs are marked for tense and agree with their subjects. Nonfinite verbs lack tense marking and cannot serve as the main verb of an independent clause.</p>
 
     <paragraphs>
       <title>Three Types of Nonfinite Forms</title>
     </paragraphs>
+
+    <p>The three nonfinite forms—infinitive, gerund/present participle, and past participle—differ in shape and function. The table below summarizes them; the subsections that follow explain how each one works.</p>
 
     <tabular>
       <row header="yes">
@@ -131,6 +139,8 @@
   <section xml:id="ch-16-other-grammatical-forms-sec-162">
     <title>Complement Clauses</title>
 
+    <p>You know from Chapter 13 that clauses can function as modifiers—relative clauses and adverb clauses attach to nouns and main clauses to add information. But clauses can also fill argument slots: they can be the object of a verb, the complement of an adjective, or the content of a noun. When a clause does that work, it is called a <term>complement clause</term>. Sentences like <foreign>I believe that she is honest</foreign> or <foreign>She wants to leave</foreign> or <foreign>He denied stealing the money</foreign> all contain embedded clauses that are not modifying anything—they are completing the meaning of a verb that demands them.</p>
+
     <p><term>Complement clauses</term> complete the meaning of verbs, adjectives, or nouns. They differ from relative clauses (which modify) and adverb clauses (which provide circumstantial information).</p>
 
     <paragraphs>
@@ -216,6 +226,8 @@
   <section xml:id="ch-16-other-grammatical-forms-sec-163">
     <title>Special Constructions</title>
 
+    <p>Why would anyone say <foreign>It was John who ate the cake</foreign> instead of just <foreign>John ate the cake</foreign>? Both sentences report the same event, but they do not mean the same thing in context. The cleft version singles out John—it implies that the identity of the eater was in question and is now being answered. English provides several special constructions that work this way: they rearrange the material of a basic sentence to spotlight particular information, to introduce entities smoothly into discourse, or to shift heavy material away from the front of a sentence where it creates processing difficulty.</p>
+
     <p>English has several special sentence constructions that manipulate information structure.</p>
 
     <paragraphs>
@@ -295,6 +307,8 @@
   <section xml:id="ch-16-other-grammatical-forms-sec-164">
     <title>Coordination</title>
 
+    <p>One of the most powerful tools in any writer's toolkit is deceptively simple: the ability to join grammatical units of the same type—words with words, phrases with phrases, clauses with clauses. This joining operation is <em>coordination</em>, and it is far more constrained than it first appears. You cannot coordinate just any two elements; they must be grammatically parallel, and the conjunction you choose—<foreign>and</foreign>, <foreign>but</foreign>, <foreign>or</foreign>, and the rest—determines the logical relationship the reader infers. Understanding coordination precisely also sets up Chapter 17's discussion of when to coordinate and when to subordinate instead.</p>
+
     <p><term>Coordination</term> joins elements of equal status using coordinating conjunctions.</p>
 
     <paragraphs>
@@ -365,6 +379,10 @@
   <section xml:id="ch-16-other-grammatical-forms-sec-165">
     <title>Ellipsis</title>
 
+    <p>Here is something counterintuitive: some of the most grammatically interesting sentences are the ones with words missing. When someone says <foreign>She can swim, and he can too</foreign>, the second clause has no verb phrase—yet everyone understands that he can swim. The missing material is not random; it follows strict grammatical rules about what can be omitted and what must remain. Linguists call this <term>ellipsis</term>, and it is the grammar of what is <em>not</em> said.</p>
+
+    <p>Ellipsis is everywhere in natural speech and writing, where it creates concision and avoids cumbersome repetition. Understanding it also reveals something important about grammar: the sentence you see or hear is not always the full grammatical representation. The absent material is still there, structurally, even when it is phonologically silent.</p>
+
     <p><term>Ellipsis</term> is the omission of words recoverable from context, avoiding redundancy.</p>
 
     <paragraphs>
@@ -416,6 +434,8 @@
 
   <section xml:id="ch-16-other-grammatical-forms-sec-166">
     <title>Other Notable Structures</title>
+
+    <p>Three additional structures deserve attention before you move on: comparatives, questions, and negation. You use all three constantly, yet each involves grammatical machinery that is more intricate than it appears on the surface. Comparatives deploy special words like <foreign>than</foreign> and <foreign>as</foreign> in ways that often involve ellipsis. Questions require subject-auxiliary inversion—a departure from the default subject-verb order that defines English declaratives. Negation inserts <foreign>not</foreign> and, when no auxiliary is present, generates the auxiliary <foreign>do</foreign> to carry it. These structures round out the grammatical inventory you have been building throughout this course.</p>
 
     <paragraphs>
       <title>Comparative Constructions</title>
