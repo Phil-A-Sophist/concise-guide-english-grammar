@@ -72,6 +72,11 @@
 
     <p>A <term>simple sentence</term> contains one independent clause—a subject-predicate unit that expresses a complete thought.</p>
 
+    <image source="diagrams/new/ch09_simple_sentence.png" width="35%">
+      <description>Syntax tree for "The students studied" showing a single independent clause</description>
+    </image>
+    <p><c>[S [NP [DET The] [N students]] [VP [V studied]]]</c></p>
+
     <p>The key word is <em>independent</em>. An independent clause can stand alone as a grammatically complete sentence: it has a subject, a predicate, and it does not begin with a subordinating word that would make it lean on something else for completion. Compare <foreign>The students studied</foreign> (independent—complete on its own) with <foreign>when the students studied</foreign> (dependent—waiting for a main clause to complete it). That small grammatical change—adding <foreign>when</foreign>—removes the clause's independence entirely. The distinction between independent and dependent clauses is the organizing principle of this chapter; every sentence type we examine is defined by how many of each it contains.</p>
 
     <p>A simple sentence, then, is defined not by its length but by its clause count: exactly one independent clause, no matter how elaborate that clause might be.</p>
@@ -230,6 +235,15 @@
 
     <p><em>Test</em>: Does each side of the conjunction have its own subject? If yes → compound sentence.</p>
 
+    <image source="diagrams/new/ch09_compound_subj_only.png" width="40%">
+      <description>Syntax tree for "Marcus and Elena traveled" showing compound subject inside a single NP — a simple sentence, not compound</description>
+    </image>
+    <p><c>[S [NP [NP [N Marcus]] [CONJ and] [NP [N Elena]]] [VP [V traveled]]]</c></p>
+
+    <image source="diagrams/new/ch09_compound_and.png" width="60%">
+      <description>Syntax tree for "She writes poetry, and he composes music" showing two coordinated independent clauses</description>
+    </image>
+    <p><c>[S [IC [NP [PRON She]] [VP [V writes] [NP [N poetry]]]] [CONJ and] [IC [NP [PRON he]] [VP [V composes] [NP [N music]]]]]</c></p>
 
   </section>
 
@@ -267,6 +281,16 @@
     <p><q><foreign>The fact <em>that everyone noticed</em> surprised the speaker.</foreign></q></p>
 
     <p>The dependent clause provides context, explanation, or specification for the main clause.</p>
+
+    <image source="diagrams/new/ch09_complex_because.png" width="60%">
+      <description>Syntax tree for "She declined because she had other plans" showing independent and dependent clause structure</description>
+    </image>
+    <p><c>[S [IC [NP [PRON She]] [VP [V declined]]] [DC [SUB because] [NP [PRON she]] [VP [AUX had] [NP [ADJ other] [N plans]]]]]</c></p>
+
+    <image source="diagrams/new/ch09_complex_when_first.png" width="60%">
+      <description>Syntax tree for "When the power flickered, everyone looked up" showing the dependent clause placed before the independent clause</description>
+    </image>
+    <p><c>[S [DC [SUB When] [NP [DET the] [N power]] [VP [V flickered]]] [IC [NP [PRON Everyone]] [VP [V looked] [ADVP [ADV up]]]]]</c></p>
 
     <paragraphs>
       <title>Why Use Complex Sentences?</title>
@@ -331,6 +355,11 @@
       <li><p><foreign>This is the park <em>where we first met</em>.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch09_relative_clause.png" width="65%">
+      <description>Syntax tree for "The candidate who impressed the committee received the position" showing a relative clause modifying the subject NP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N candidate] [RC [REL who] [VP [V impressed] [NP [DET the] [N committee]]]]] [VP [V received] [NP [DET the] [N position]]]]</c></p>
+
     <p><em>Restrictive vs. Non-restrictive</em>:</p>
 
     <ul>
@@ -348,7 +377,17 @@
 
     <p><em>As subject</em>: <foreign><em>That she resigned</em> shocked the board.</foreign></p>
 
+    <image source="diagrams/new/ch09_noun_clause_subj.png" width="55%">
+      <description>Syntax tree for "That she resigned shocked the board" showing the noun clause functioning as the sentence subject</description>
+    </image>
+    <p><c>[S [NC [COMP That] [NP [PRON she]] [VP [V resigned]]] [VP [V shocked] [NP [DET the] [N board]]]]</c></p>
+
     <p><em>As direct object</em>: <foreign>I understand <em>that you're frustrated</em>.</foreign></p>
+
+    <image source="diagrams/new/ch09_noun_clause_obj.png" width="60%">
+      <description>Syntax tree for "I understand that you are frustrated" showing the noun clause as direct object</description>
+    </image>
+    <p><c>[S [NP [PRON I]] [VP [V understand] [NC [COMP that] [NP [PRON you]] [VP [V are] [ADJP [ADJ frustrated]]]]]]</c></p>
 
     <p><em>As complement</em>: <foreign>The problem is <em>that we underestimated demand</em>.</foreign></p>
 

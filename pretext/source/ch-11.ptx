@@ -49,6 +49,11 @@
 
     <p>Active voice follows the pattern: Agent (doer) + Verb + Patient (receiver)</p>
 
+    <image source="diagrams/new/ch11_active_sentence.png" width="40%">
+      <description>Syntax tree for "The dog bit the man" showing the agent subject and patient direct object in active voice</description>
+    </image>
+    <p><c>[S [NP [DET The] [N dog]] [VP [V bit] [NP [DET the] [N man]]]]</c></p>
+
     <paragraphs>
       <title>Passive Voice</title>
     </paragraphs>
@@ -62,6 +67,16 @@
     </ul>
 
     <p>Passive voice follows the pattern: Patient (receiver) + <foreign>be</foreign> + past participle (+ <foreign>by</foreign> agent)</p>
+
+    <image source="diagrams/new/ch11_passive_by.png" width="55%">
+      <description>Syntax tree for "The man was bitten by the dog" showing passive voice with the patient promoted to subject and agent in a by-phrase</description>
+    </image>
+    <p><c>[S [NP [DET The] [N man]] [VP [AUX was] [V bitten] [PP [PREP by] [NP [DET the] [N dog]]]]]</c></p>
+
+    <image source="diagrams/new/ch11_passive_agentless.png" width="35%">
+      <description>Syntax tree for "The window was broken" showing agentless passive where no by-phrase appears</description>
+    </image>
+    <p><c>[S [NP [DET The] [N window]] [VP [AUX was] [V broken]]]</c></p>
 
     <paragraphs>
       <title>Forming the Passive</title>
@@ -247,6 +262,11 @@
       <li><p>Change of state: <foreign>The window got broken.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch11_get_passive_body.png" width="30%">
+      <description>Syntax tree for "She got promoted" showing the get-passive construction</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V got] [V promoted]]]</c></p>
+
   </section>
 
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-114">
@@ -335,6 +355,11 @@
       <li><p><foreign>She <em>can</em> speak French.</foreign> (present ability)</p></li>
       <li><p><foreign>She <em>could</em> speak French when she was young.</foreign> (past ability)</p></li>
     </ul>
+
+    <image source="diagrams/new/ch11_modal_can_ability.png" width="25%">
+      <description>Syntax tree for "She can swim" showing the modal auxiliary can preceding the bare infinitive main verb</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [MOD can] [V swim]]]</c></p>
 
     <p>Possibility:</p>
 
@@ -436,6 +461,11 @@
       <li><p><foreign>Visitors <em>must</em> sign in.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch11_modal_must_oblig.png" width="35%">
+      <description>Syntax tree for "You must stop here" showing deontic must expressing obligation</description>
+    </image>
+    <p><c>[S [NP [PRON You]] [VP [MOD must] [V stop] [ADVP [ADV here]]]]</c></p>
+
     <p>Logical conclusion:</p>
 
     <ul>
@@ -465,6 +495,11 @@
       <li><p><foreign>He <em>might</em> know the answer.</foreign> (possibly)</p></li>
       <li><p><foreign>That <em>can't</em> be right.</foreign> (impossibility)</p></li>
     </ul>
+
+    <image source="diagrams/new/ch11_modal_must_epist.png" width="35%">
+      <description>Syntax tree for "She must be tired" showing epistemic must used for deduction, with a predicative adjective as complement</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [MOD must] [V be] [ADJP [ADJ tired]]]]</c></p>
 
     <paragraphs>
       <title>Deontic Modality</title>
@@ -576,6 +611,11 @@
       <li><p><foreign>I <em>would have helped</em> if I could.</foreign> (hypothetical past)</p></li>
       <li><p><foreign>They <em>could have won</em>.</foreign> (they had the ability but didn't)</p></li>
     </ul>
+
+    <image source="diagrams/new/ch11_modal_should_perf.png" width="40%">
+      <description>Syntax tree for "You should have called" showing the modal perfect construction: modal + have + past participle</description>
+    </image>
+    <p><c>[S [NP [PRON You]] [VP [MOD should] [AUX have] [V called]]]</c></p>
 
     <paragraphs>
       <title>Meanings of Modal Perfect</title>

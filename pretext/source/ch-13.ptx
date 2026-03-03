@@ -103,6 +103,11 @@
       <li><p><foreign>a sense <em>of accomplishment</em></foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_pp_adjectival.png" width="50%">
+      <description>Syntax tree for "The book on the shelf is mine" showing a PP post-modifier inside the subject NP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N book] [PP [PREP on] [NP [DET the] [N shelf]]]] [VP [V is] [PRON mine]]]</c></p>
+
     <paragraphs>
       <title>4. Relative Clauses</title>
     </paragraphs>
@@ -141,6 +146,11 @@
       <li><p><foreign>something <em>to eat</em></foreign></p></li>
       <li><p><foreign>the first person <em>to arrive</em></foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch13_inf_adjectival.png" width="45%">
+      <description>Syntax tree for "He has time to spare" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
+    </image>
+    <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [PREP to] [V spare]]]]]</c></p>
 
   </section>
 
@@ -283,6 +293,11 @@
       <li><p><foreign>Cars <em>with manual transmissions</em> are becoming rare.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_rel_clause_restr.png" width="45%">
+      <description>Syntax tree for "The students who studied passed" showing a restrictive relative clause embedded inside the subject NP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N students] [RC [REL who] [VP [V studied]]]] [VP [V passed]]]</c></p>
+
     <p>Characteristics:</p>
 
     <ul>
@@ -312,6 +327,11 @@
       <li><p>Can be removed without losing identification</p></li>
       <li><p>Use <foreign>which</foreign> for clauses (not <foreign>that</foreign>)</p></li>
     </ul>
+
+    <image source="diagrams/new/ch13_rel_clause_non_restr.png" width="60%">
+      <description>Syntax tree for "My sister who lives in Boston called" showing a non-restrictive relative clause modifying the NP "My sister"</description>
+    </image>
+    <p><c>[S [NP [NP [PRON My] [N sister]] [RC [REL who] [VP [V lives] [PP [PREP in] [NP [N Boston]]]]]] [VP [V called]]]</c></p>
 
     <paragraphs>
       <title>The Meaning Difference</title>
@@ -351,6 +371,11 @@
       <li><p><foreign>a child <em>playing in the park</em></foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_pres_part_phrase.png" width="60%">
+      <description>Syntax tree for "The woman singing on stage left" showing a present participial phrase modifying "woman"</description>
+    </image>
+    <p><c>[S [NP [DET The] [N woman] [VP [V singing] [PP [PREP on] [NP [N stage]]]]] [VP [V left]]]</c></p>
+
     <paragraphs>
       <title>Past Participial Phrases</title>
     </paragraphs>
@@ -362,6 +387,11 @@
       <li><p><foreign>a house <em>built in 1920</em></foreign></p></li>
       <li><p><foreign>the problem <em>discussed earlier</em></foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch13_past_part_phrase.png" width="65%">
+      <description>Syntax tree for "The report written by the team was thorough" showing a past participial phrase modifying "report"</description>
+    </image>
+    <p><c>[S [NP [DET The] [N report] [VP [V written] [PP [PREP by] [NP [DET the] [N team]]]]] [VP [V was] [ADJP [ADJ thorough]]]]</c></p>
 
     <paragraphs>
       <title>Reduced Relative Clauses</title>
@@ -425,6 +455,11 @@
       <li><p><foreign>the <em>government</em> report</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_adj_prenominal.png" width="35%">
+      <description>Syntax tree for "The red car stopped" showing a prenominal adjective modifying "car"</description>
+    </image>
+    <p><c>[S [NP [DET The] [ADJ red] [N car]] [VP [V stopped]]]</c></p>
+
     <paragraphs>
       <title>Post-modification (After Noun)</title>
     </paragraphs>
@@ -449,6 +484,11 @@
       <li><p><q><foreign>The book seems <em>interesting</em>.</foreign></q></p></li>
       <li><p><q><foreign>She became <em>happy about the news</em>.</foreign></q></p></li>
     </ul>
+
+    <image source="diagrams/new/ch13_adj_predicative.png" width="40%">
+      <description>Syntax tree for "The car is red" showing an adjective in predicative position as a subject complement</description>
+    </image>
+    <p><c>[S [NP [DET The] [N car]] [VP [V is] [ADJP [ADJ red]]]]</c></p>
 
     <p>Note: Some adjectives only work attributively (<foreign>the main reason</foreign>, not <foreign><delete>the reason is main</delete></foreign>), while others only work predicatively (<foreign>the child is asleep</foreign>, not <foreign><delete>the asleep child</delete></foreign>).</p>
 
