@@ -113,6 +113,11 @@
       <li><p><foreign>He <em>has been working</em>.</foreign> (present perfect progressive)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch10_be_progressive.png" width="30%">
+      <description>Syntax tree for "She is reading" showing auxiliary be followed by the -ing main verb form</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [AUX is] [V reading]]]</c></p>
+
     <p><em>Passive voice</em> (<foreign>be</foreign> + past participle):</p>
 
     <ul>
@@ -120,6 +125,11 @@
       <li><p><foreign>The house <em>is being built</em>.</foreign></p></li>
       <li><p><foreign>The work <em>will be completed</em>.</foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch10_be_passive_aux.png" width="50%">
+      <description>Syntax tree for "The book was written by Maria" showing auxiliary be followed by past participle with an agent by-phrase</description>
+    </image>
+    <p><c>[S [NP [DET The] [N book]] [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]]</c></p>
 
     <paragraphs>
       <title>Be as Main Verb vs. Auxiliary</title>
@@ -177,6 +187,16 @@
       <li><p><foreign>By then, I <em>will have completed</em> it.</foreign> (future perfect)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch10_have_perfect.png" width="45%">
+      <description>Syntax tree for "She has finished the work" showing auxiliary have followed by past participle with a direct object</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [AUX has] [V finished] [NP [DET the] [N work]]]]</c></p>
+
+    <image source="diagrams/new/ch10_have_perfect_past.png" width="55%">
+      <description>Syntax tree for "They had left before I arrived" showing past perfect with an adverbial dependent clause</description>
+    </image>
+    <p><c>[S [NP [PRON They]] [VP [AUX had] [V left]] [DC [SUB before] [NP [PRON I]] [VP [V arrived]]]]</c></p>
+
     <paragraphs>
       <title>Have as Main Verb vs. Auxiliary</title>
     </paragraphs>
@@ -232,12 +252,22 @@
       <li><p><foreign>They <em>left</em> early.</foreign> → <foreign><em>Did</em> they leave early?</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch10_do_question.png" width="40%">
+      <description>Syntax tree for "Does she work here?" showing do-support in question formation with the auxiliary fronted before the subject</description>
+    </image>
+    <p><c>[S [AUX Does] [NP [PRON she]] [VP [V work] [ADVP [ADV here]]]]</c></p>
+
     <p><em>Negation</em>:</p>
 
     <ul>
       <li><p><foreign>She <em>works</em> here.</foreign> → <foreign>She <em>doesn't</em> work here.</foreign></p></li>
       <li><p><foreign>They <em>left</em> early.</foreign> → <foreign>They <em>didn't</em> leave early.</foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch10_do_negation.png" width="45%">
+      <description>Syntax tree for "She does not work here" showing do-support carrying the negation marker in a declarative sentence</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [AUX does] [NEG not] [V work] [ADVP [ADV here]]]]</c></p>
 
     <p><em>Emphasis</em>:</p>
 
@@ -334,6 +364,11 @@
       <li><p><foreign>She <em>walks</em> to school every day.</foreign></p></li>
       <li><p><foreign>I <em>drink</em> coffee in the morning.</foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch10_simple_present.png" width="55%">
+      <description>Syntax tree for "She walks to school every day" showing simple present tense with a PP and NP as adverbials</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V walks] [PP [PREP to] [NP [N school]]] [NP [DET every] [N day]]]]</c></p>
 
     <p><em>General truths</em>:</p>
 
@@ -525,6 +560,11 @@
       <li><p><foreign>She <em>had been working</em> when I called.</foreign> (past perfect progressive)</p></li>
       <li><p><foreign>By noon, she <em>will have been working</em> for six hours.</foreign> (future perfect progressive)</p></li>
     </ul>
+
+    <image source="diagrams/new/ch10_perfect_progressive_pres.png" width="35%">
+      <description>Syntax tree for "She has been waiting" showing the stacking of perfect auxiliary have and progressive auxiliary been before the -ing main verb</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [AUX has] [AUX been] [V waiting]]]</c></p>
 
     <p><em>Uses</em>:</p>
 

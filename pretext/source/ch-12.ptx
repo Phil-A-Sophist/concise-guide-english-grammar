@@ -73,6 +73,11 @@
       <li><p><foreign>They finished <em>remarkably quickly</em>.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_advp_adverbial.png" width="35%">
+      <description>Syntax tree for "She ran quickly" showing an AdvP adverbial attached to the VP</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V ran] [ADVP [ADV quickly]]]]</c></p>
+
     <paragraphs>
       <title>2. Prepositional Phrases</title>
     </paragraphs>
@@ -85,6 +90,16 @@
       <li><p><foreign>They spoke <em>with enthusiasm</em>.</foreign> (manner)</p></li>
       <li><p><foreign>We left <em>because of the weather</em>.</foreign> (reason)</p></li>
     </ul>
+
+    <image source="diagrams/new/ch12_pp_place_adverbial.png" width="45%">
+      <description>Syntax tree for "He works in the city" showing a PP place adverbial inside the VP</description>
+    </image>
+    <p><c>[S [NP [PRON He]] [VP [V works] [PP [PREP in] [NP [DET the] [N city]]]]]</c></p>
+
+    <image source="diagrams/new/ch12_pp_time_adverbial.png" width="40%">
+      <description>Syntax tree for "She arrived at noon" showing a PP time adverbial inside the VP</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V arrived] [PP [PREP at] [NP [N noon]]]]]</c></p>
 
     <paragraphs>
       <title>3. Noun Phrases (Temporal/Spatial)</title>
@@ -199,6 +214,11 @@
       <li><p><foreign><em>Being tired</em>, she went home.</foreign> (participial)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_adv_clause_because.png" width="55%">
+      <description>Syntax tree for "She left because she was tired" showing an adverb clause of reason following the main clause</description>
+    </image>
+    <p><c>[S [IC [NP [PRON She]] [VP [V left]]] [DC [SUB because] [NP [PRON she]] [VP [V was] [ADJP [ADJ tired]]]]]</c></p>
+
     <paragraphs>
       <title>Purpose Adverbials</title>
     </paragraphs>
@@ -211,6 +231,11 @@
       <li><p><foreign>She spoke quietly <em>so that no one would hear</em>.</foreign> (clause)</p></li>
       <li><p><foreign><em>In order to succeed</em>, you must practice.</foreign> (infinitive)</p></li>
     </ul>
+
+    <image source="diagrams/new/ch12_inf_purpose_adverb.png" width="55%">
+      <description>Syntax tree for "He saved money to buy a car" showing an infinitive phrase functioning as a purpose adverbial</description>
+    </image>
+    <p><c>[S [NP [PRON He]] [VP [V saved] [NP [N money]] [VP [PREP to] [V buy] [NP [DET a] [N car]]]]]</c></p>
 
     <paragraphs>
       <title>Condition Adverbials</title>
@@ -294,6 +319,11 @@
       <li><p><foreign><em>Honestly</em>, I have no idea.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_sentence_adverb_disj.png" width="35%">
+      <description>Syntax tree for "Fortunately, she passed" showing a sentence-level disjunct adverb external to the main clause</description>
+    </image>
+    <p><c>[S [ADVP [ADV Fortunately]] [NP [PRON she]] [VP [V passed]]]</c></p>
+
     <p>Truth/Domain disjuncts:</p>
 
     <ul>
@@ -345,6 +375,11 @@
       <li><p><foreign><em>Because</em> [the roads were icy], we drove slowly.</foreign></p></li>
       <li><p><foreign><em>Although</em> [it was expensive], he bought it.</foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch12_adv_clause_when.png" width="55%">
+      <description>Syntax tree for "When the class ended, students left" showing an adverb clause of time in initial position before the main clause</description>
+    </image>
+    <p><c>[S [DC [SUB When] [NP [DET the] [N class]] [VP [V ended]]] [IC [NP [N students]] [VP [V left]]]]</c></p>
 
     <paragraphs>
       <title>Common Subordinating Conjunctions</title>
@@ -467,6 +502,11 @@
       <li><p><foreign><em>In the library</em>, she spoke quietly.</foreign> (library emphasized)</p></li>
       <li><p><foreign>She spoke <em>in the library</em> quietly.</foreign> (quietness emphasized)</p></li>
     </ul>
+
+    <image source="diagrams/new/ch12_multiple_adverbials.png" width="50%">
+      <description>Syntax tree for "She worked hard all day" showing two adverbials — an AdvP and a temporal NP — both attached to the VP</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V worked] [ADVP [ADV hard]] [NP [DET all] [N day]]]]</c></p>
 
   </section>
 

@@ -63,6 +63,11 @@
       <li><p><foreign>The tall man walked.</foreign> → Who walked? → <foreign>The tall man</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch08_subj_pred_example.png" width="40%">
+      <description>Syntax tree for "The young artist arrived" showing NP subject and VP predicate</description>
+    </image>
+    <p><c>[S [NP [DET The] [ADJ young] [N artist]] [VP [V arrived]]]</c></p>
+
     <paragraphs>
       <title>The Predicate</title>
     </paragraphs>
@@ -110,6 +115,11 @@
       </row>
     </tabular>
 
+    <image source="diagrams/new/ch08_s_np_vp.png" width="25%">
+      <description>Syntax tree for "Dogs bark" showing the basic S → NP + VP sentence structure</description>
+    </image>
+    <p><c>[S [NP [N Dogs]] [VP [V bark]]]</c></p>
+
     <p>Notice that the subject can be as short as a single word or as long as a full noun phrase with modifiers—what matters is its grammatical role, not its size. The same is true of the predicate: it can be a single verb or an elaborate structure with objects, complements, and adverbials. That range is part of what makes the subject/predicate distinction so useful. Once you can reliably identify these two parts, you can go further—asking what is inside the predicate, what role each element plays, and which of the six fundamental patterns a sentence follows. That is the work of the sections ahead.</p>
 
   </section>
@@ -153,6 +163,11 @@
       <li><p>All three elements are arguments of <q><foreign>put</foreign></q>.</p></li>
     </ul>
 
+    <image source="diagrams/new/ch08_argument_put.png" width="55%">
+      <description>Syntax tree for "She put the book on the table" showing all three arguments of the verb put</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V put] [NP [DET the] [N book]] [PP [PREP on] [NP [DET the] [N table]]]]]</c></p>
+
     <paragraphs>
       <title>Adverbials</title>
     </paragraphs>
@@ -177,6 +192,11 @@
       <li><p>Remove <foreign>in the library</foreign>: <foreign>She spoke quietly.</foreign> ✓</p></li>
       <li><p>Both are adverbials—optional modifiers.</p></li>
     </ul>
+
+    <image source="diagrams/new/ch08_adverbial_spoke.png" width="55%">
+      <description>Syntax tree for "She spoke quietly in the library" showing two optional adverbials hanging from the VP</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N library]]]]]</c></p>
 
     <paragraphs>
       <title>Distinguishing Arguments from Adverbials</title>
@@ -235,6 +255,11 @@
 
     <p>Direct objects are always noun phrases (or clauses functioning as NPs).</p>
 
+    <image source="diagrams/new/ch08_direct_obj_basic.png" width="45%">
+      <description>Syntax tree for "The cat chased the mouse" showing the direct object NP inside the VP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]</c></p>
+
     <paragraphs>
       <title>Indirect Objects</title>
     </paragraphs>
@@ -279,6 +304,11 @@
       <li><p>Prepositional phrases: <foreign>He seems <em>in good spirits</em>.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch08_subj_complement_adj.png" width="35%">
+      <description>Syntax tree for "She seems happy" showing the AdjP subject complement following the linking verb</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V seems] [ADJP [ADJ happy]]]]</c></p>
+
     <paragraphs>
       <title>Object Complements</title>
     </paragraphs>
@@ -294,6 +324,11 @@
     </ul>
 
     <p>Object complements can be noun phrases or adjective phrases.</p>
+
+    <image source="diagrams/new/ch08_obj_complement_adj.png" width="50%">
+      <description>Syntax tree for "The jury found him guilty" showing the AdjP object complement following the direct object</description>
+    </image>
+    <p><c>[S [NP [DET The] [N jury]] [VP [V found] [NP [PRON him]] [ADJP [ADJ guilty]]]]</c></p>
 
   </section>
 
@@ -327,6 +362,11 @@
       <li><p><foreign>The baby <em>slept</em>.</foreign></p></li>
       <li><p><foreign>Accidents <em>happen</em>.</foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch08_valency_intrans.png" width="25%">
+      <description>Syntax tree for "Birds sing" showing minimal intransitive structure with subject and verb only</description>
+    </image>
+    <p><c>[S [NP [N Birds]] [VP [V sing]]]</c></p>
 
     <p><em>Transitive Verbs (Valency: 2)</em></p>
 
