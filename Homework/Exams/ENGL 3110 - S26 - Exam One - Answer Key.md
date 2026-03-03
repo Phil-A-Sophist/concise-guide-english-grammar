@@ -304,17 +304,17 @@
 >
 > d. Noun
 
-**Question 24:** In the sentence "The professor from the university in Boston retired last spring," what word does the prepositional phrase "in Boston" modify? (2 pts)
+**Question 24:** In the sentence "The teacher from the school for wizards retired last spring," what word does the prepositional phrase "for wizards" modify? (2 pts)
 
 > **Answer: c**
 >
-> a. professor — Incorrect. "professor" is the head of the outer NP, modified by the entire PP "from the university in Boston."
+> a. teacher — Incorrect. "teacher" is the head of the outer NP, modified by the entire PP "from the school for wizards."
 >
-> b. spring — Incorrect. "spring" is a noun in a separate time expression.
+> b. retired — Incorrect. "retired" is the verb; prepositional phrases that modify nouns are nested inside NPs.
 >
-> **c. university** — Correct. "in Boston" is nested inside the PP "from the university in Boston," where it modifies "university" — the head noun of the NP that is the object of "from."
+> **c. school** — Correct. "for wizards" is nested inside the PP "from the school for wizards," where it modifies "school" — the head noun of the NP that is the object of "from."
 >
-> d. retired — Incorrect. "retired" is the verb; the PP "in Boston" is modifying a noun, not the verb.
+> d. spring — Incorrect. "spring" is a noun in a separate time expression.
 
 **Question 25:** In the sentence "The remarkably patient nurse explained the procedure slowly," what word does the adverb "remarkably" modify? (2 pts)
 

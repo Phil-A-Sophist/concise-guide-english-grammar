@@ -312,17 +312,17 @@
 >
 > d. Noun
 
-**Question 24:** In the sentence "The professor from the university in Boston retired last spring," what word does the prepositional phrase "in Boston" modify? (2 pts)
+**Question 24:** In the sentence "The teacher from the school for wizards retired last spring," what word does the prepositional phrase "for wizards" modify? (2 pts)
 
 > Answer: \_\_\_\_\_
 >
-> a. professor
+> a. teacher
 >
-> b. spring
+> b. retired
 >
-> c. university
+> c. school
 >
-> d. retired
+> d. spring
 
 **Question 25:** In the sentence "The remarkably patient nurse explained the procedure slowly," what word does the adverb "remarkably" modify? (2 pts)
 

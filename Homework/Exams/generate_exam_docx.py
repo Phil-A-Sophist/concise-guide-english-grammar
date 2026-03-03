@@ -484,14 +484,14 @@ MC_QUESTIONS = {
             },
             {
                 "num": 24,
-                "text": 'In the sentence \u201cThe professor from the university in Boston retired last spring,\u201d what word does the prepositional phrase \u201cin Boston\u201d modify?',
-                "options": ["professor", "spring", "university", "retired"],
+                "text": 'In the sentence \u201cThe teacher from the school for wizards retired last spring,\u201d what word does the prepositional phrase \u201cfor wizards\u201d modify?',
+                "options": ["teacher", "retired", "school", "spring"],
                 "answer": "c",
                 "explanations": {
-                    "a": 'Incorrect. "professor" is the head of the outer NP, modified by the entire PP "from the university in Boston."',
-                    "b": 'Incorrect. "spring" is a noun in a separate time expression.',
-                    "c": 'Correct. "in Boston" modifies "university" \u2014 the head noun of the NP inside the PP "from the university."',
-                    "d": 'Incorrect. "retired" is the verb; the PP "in Boston" modifies a noun, not the verb.'
+                    "a": 'Incorrect. "teacher" is the head of the outer NP, modified by the entire PP "from the school for wizards."',
+                    "b": 'Incorrect. "retired" is the verb; prepositional phrases that modify nouns are nested inside NPs.',
+                    "c": 'Correct. "for wizards" modifies "school" \u2014 the head noun of the NP inside the PP "from the school for wizards."',
+                    "d": 'Incorrect. "spring" is a noun in a separate time expression.'
                 }
             },
             {
