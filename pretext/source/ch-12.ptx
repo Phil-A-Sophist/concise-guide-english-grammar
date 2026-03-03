@@ -23,8 +23,14 @@
     </ul>
   </objectives>
 
+  <p>You have spent the last several chapters building a vocabulary for grammatical form: nouns, verbs, adjectives, adverbs, phrases, and clauses. You have also learned to distinguish form from function—the idea that a noun phrase can serve as a subject, an object, or a complement depending on where it appears in a sentence. Now it is time to apply that distinction to a specific function. Chapter 8 identified adverbials as the optional modifiers in a clause, the elements that add information about time, place, manner, reason, and more. The question this chapter asks is: what forms can fill that role?</p>
+
+  <p>The answer is more varied than most students expect. The word <em>adverb</em> names a part of speech—a form class. The word <em>adverbial</em> names a function—a role that many different forms can play. A single adverb like <foreign>quickly</foreign> is an adverbial, but so is a prepositional phrase like <foreign>with great care</foreign>, a noun phrase like <foreign>last Tuesday</foreign>, an infinitive like <foreign>to pass the exam</foreign>, and even an entire clause like <foreign>because the roads were icy</foreign>. This chapter maps all of those structures onto the adverbial function, classifies adverbials by the type of information they contribute, and shows how their position in the sentence shapes emphasis and meaning.</p>
+
   <section xml:id="ch-12-adverbials-sec-121">
     <title>Adverbs vs. Adverbials: Form vs. Function</title>
+
+    <p>If someone asks you to find the adverbials in a sentence, you might instinctively look for words ending in <foreign>-ly</foreign>. That is a reasonable first instinct—but it conflates two different things. An adverb is a type of word. An adverbial is a role that a phrase or clause can play. Keeping these two ideas separate is the foundation of everything in this chapter.</p>
 
     <p>Understanding the distinction between <term>adverbs</term> (a form/part of speech) and <term>adverbials</term> (a function) is crucial for accurate grammatical analysis.</p>
 
@@ -50,6 +56,8 @@
 
   <section xml:id="ch-12-adverbials-sec-122">
     <title>Structures That Function as Adverbials</title>
+
+    <p>One of the most important insights of the form-vs-function framework is that a single grammatical role can be filled by many different structural forms. The adverbial function is a prime example. Consider three sentences: <foreign>She arrived quickly.</foreign> <foreign>She arrived at noon.</foreign> <foreign>She arrived when the bell rang.</foreign> In all three, the italicized element answers the same question—how or when she arrived—and all three occupy the adverbial slot in the clause. But their forms are completely different: an adverb phrase, a prepositional phrase, and a dependent clause. The six structures listed below are all legitimate adverbials in English, each with its own characteristic form and range of semantic roles.</p>
 
     <p>Many different structures can serve the adverbial function.</p>
 
@@ -132,6 +140,8 @@
 
   <section xml:id="ch-12-adverbials-sec-123">
     <title>Semantic Roles of Adverbials</title>
+
+    <p>Knowing the form of an adverbial—whether it is a prepositional phrase, a noun phrase, or a clause—tells you what it is structurally. But adverbials are also classified by what they mean: the type of information they contribute to the clause. Does the adverbial say <em>when</em> something happened, <em>where</em>, <em>how</em>, or <em>why</em>? These semantic roles cut across form: a reason adverbial can be a prepositional phrase (<foreign>because of the noise</foreign>), a clause (<foreign>because she was tired</foreign>), or even a participial phrase (<foreign>being tired</foreign>). Learning to identify semantic roles gives you a second axis for analyzing adverbials alongside form.</p>
 
     <p>Adverbials are classified by the type of information they provide.</p>
 
@@ -245,6 +255,8 @@
   <section xml:id="ch-12-adverbials-sec-124">
     <title>Types of Adverbials: Adjuncts, Disjuncts, and Conjuncts</title>
 
+    <p>So far you have looked at what adverbials say—their semantic roles. But there is another important dimension: how they relate to the rest of the clause. Consider the word <foreign>honestly</foreign> in two contexts. In <foreign>She answered honestly</foreign>, the word describes how she answered—it is part of the event itself. In <foreign>Honestly, I have no idea</foreign>, the word no longer describes any action; it expresses the speaker's stance toward the statement. That difference is not just a matter of meaning—it has grammatical consequences. Linguists divide adverbials into three types based on how they attach to clause content: adjuncts, disjuncts, and conjuncts. Understanding these types helps explain why some adverbials can be questioned or negated while others cannot, and why some adverbials glue sentences together rather than modify a single clause.</p>
+
     <p>Linguists distinguish three functional types of adverbials.</p>
 
     <paragraphs>
@@ -317,6 +329,8 @@
 
   <section xml:id="ch-12-adverbials-sec-125">
     <title>Adverb Clause Structure</title>
+
+    <p>The most structurally complex adverbials are entire clauses. An adverb clause contains its own subject and predicate—it is a full clause—but it is introduced by a subordinating conjunction that makes it dependent on a main clause. The choice of subordinating conjunction determines the semantic role: <foreign>because</foreign> signals reason, <foreign>although</foreign> signals concession, <foreign>if</foreign> signals condition, and so on. Recognizing these conjunctions and the meanings they impose is the key to analyzing adverb clauses. The table below gives you a systematic reference organized by semantic role.</p>
 
     <p><term>Adverb clauses</term> are dependent clauses that function as adverbials, introduced by subordinating conjunctions.</p>
 
@@ -395,6 +409,8 @@
 
   <section xml:id="ch-12-adverbials-sec-126">
     <title>Adverbial Position</title>
+
+    <p>Unlike subjects and objects, which occupy fixed positions in the English clause, adverbials are mobile. You can say <foreign>Yesterday, she arrived</foreign> or <foreign>She arrived yesterday</foreign> or even, in some cases, <foreign>She yesterday arrived</foreign>—and in all three the basic meaning is the same. That mobility is one of the defining features of adverbials. But position is not grammatically meaningless: where you place an adverbial signals what is new information, what is the focus, and what serves as scene-setting background. Writers and speakers exploit adverbial position to control the flow of information and to place emphasis on what matters most. Understanding the three main positions—initial, medial, and final—gives you a tool for analyzing both how sentences are constructed and why particular arrangements feel more natural than others.</p>
 
     <p>Adverbials can appear in different positions, affecting emphasis and information flow.</p>
 

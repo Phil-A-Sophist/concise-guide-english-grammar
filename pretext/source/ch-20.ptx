@@ -23,8 +23,14 @@
     </ul>
   </objectives>
 
+  <p>You have spent this semester learning to identify and describe the structures of English—its morphemes, its word classes, its phrases, its clauses, its sentences. All of that knowledge describes how English works. This chapter asks a different question: how does it work <em>for whom</em>, and <em>in what situations</em>? Language does not have a single fixed form that applies everywhere. The same person who writes <foreign>The committee has determined that the proposed modifications are unacceptable</foreign> might text a friend <foreign>they shot it down lol</foreign> an hour later—and both choices are correct for their context.</p>
+
+  <p>That shift is not accidental, and it is not simply a matter of being polite or sloppy. It reflects a deep competence that every fluent speaker develops: the ability to read a situation and select the language that fits it. Linguists describe this competence using two interlocking concepts—<term>genre</term> and <term>register</term>. Understanding them gives you both a vocabulary for analyzing language variation and a framework for making better choices in your own writing.</p>
+
   <section xml:id="ch-20-genre-and-register-sec-201">
     <title>What Are Genre and Register?</title>
+
+    <p>Think about the last several texts you sent, the last email you wrote, and the last academic paper you turned in. The vocabulary was different, the sentence length was different, the tone was different—and yet you navigated all of those shifts without consulting a rulebook. You already know, intuitively, that different situations call for different kinds of language. What you may not yet have is a precise vocabulary for describing <em>why</em> those differences exist and what patterns they follow.</p>
 
     <p>Language use varies systematically depending on context. Two key concepts describe this variation: <em>genre</em> and <em>register</em>.</p>
 
@@ -62,6 +68,8 @@
 
   <section xml:id="ch-20-genre-and-register-sec-202">
     <title>Formal vs. Informal Register</title>
+
+    <p>Of all the register distinctions English speakers navigate, the most consequential for academic and professional life is the contrast between formal and informal register. These are not simply two points on a dial—they differ systematically across vocabulary, grammar, and style. Knowing what those differences are, and why they exist, helps you move between contexts deliberately rather than by accident.</p>
 
     <paragraphs>
       <title>Formal Register</title>
@@ -138,6 +146,8 @@
   <section xml:id="ch-20-genre-and-register-sec-203">
     <title>Academic Writing</title>
 
+    <p>Academic writing sometimes gets described as simply "formal writing," but that misses what makes it distinctive. The features of academic register are not arbitrary conventions invented to make writing harder. They reflect genuine purposes: precision about what is claimed, accountability to evidence, and clarity of argument for a reader who will evaluate your reasoning critically. When an academic writer says <foreign>the data suggest</foreign> rather than <foreign>the data prove</foreign>, that hedging is not timidity—it is an accurate representation of what evidence can and cannot establish.</p>
+
     <p>Academic writing has distinctive features that serve its purposes.</p>
 
     <paragraphs>
@@ -203,6 +213,8 @@
   <section xml:id="ch-20-genre-and-register-sec-204">
     <title>Professional Writing</title>
 
+    <p>Professional writing occupies a middle territory that is easy to misjudge. It is not as formal as academic writing—professional readers do not expect nominalization, hedging, or impersonal constructions—but it is not casual either. A business email that opens <foreign>Hey!</foreign> or a report that uses slang signals a misreading of the situation just as badly as a job cover letter peppered with fragments and contractions. Different professional subfields also have their own conventions: what works in a business email will not work in a legal contract, and what works in a legal contract would be baffling in a set of technical instructions.</p>
+
     <p>Professional contexts have their own register expectations.</p>
 
     <paragraphs>
@@ -264,6 +276,8 @@
   <section xml:id="ch-20-genre-and-register-sec-205">
     <title>Adapting to Context</title>
 
+    <p>Knowing the features of formal and informal register is one thing; knowing when and how to apply them is another. Skilled writers do not simply pick a register and stay there mechanically. They read the situation—audience, purpose, medium, relationship—and make conscious choices. A company announcement written in the same register as a legal brief will seem cold and alienating; the same announcement written in casual register will seem unprofessional. The goal is not to follow a formula but to develop the analytical habit of asking: <em>what does this situation call for?</em></p>
+
     <paragraphs>
       <title>Analyzing the Rhetorical Situation</title>
     </paragraphs>
@@ -279,6 +293,8 @@
     <paragraphs>
       <title>Making Grammatical Adjustments</title>
     </paragraphs>
+
+    <p>Once you have analyzed the rhetorical situation, you translate that analysis into specific grammatical choices. The table below summarizes the most common adjustments writers make as they move between formal and informal register. Notice that these are not absolute rules but tendencies—context can always override them.</p>
 
     <tabular halign="left">
       <row header="yes" bottom="minor">
@@ -334,6 +350,8 @@
 
   <section xml:id="ch-20-genre-and-register-sec-206">
     <title>Digital Communication</title>
+
+    <p>Digital communication has not replaced the formal/informal distinction—it has multiplied it. A single person might, within an hour, send a carefully crafted professional email, post a brief update to a work Slack channel, reply to a friend's text with a two-word response, and leave a comment on a public social media thread. Each of these involves a different genre, a different audience, and a different register. What makes digital contexts interesting from a linguistic standpoint is that the genres are relatively new, the conventions are still evolving, and the cost of a register mismatch can be high—a message that reads as too casual can damage a professional relationship, while one that is strangely formal in an informal channel can seem cold or even suspicious.</p>
 
     <p>Digital contexts have created new genre conventions.</p>
 

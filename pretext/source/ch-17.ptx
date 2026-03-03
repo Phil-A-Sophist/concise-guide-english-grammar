@@ -18,6 +18,10 @@
     </ul>
   </objectives>
 
+  <p>Every chapter so far has asked the same question: how does English work? You have analyzed morphemes, identified parts of speech, traced phrase structure, and mapped clause patterns. All of that was descriptive grammar—a systematic account of the rules and structures that make English sentences grammatical. This chapter asks a different question: given that a sentence is grammatical, which version should you choose?</p>
+
+  <p>The key insight is that grammar is not a single track but a system of options. For almost any idea you want to express, there are multiple grammatically correct ways to express it, and those options are not interchangeable—they differ in emphasis, rhythm, clarity, and rhetorical effect. A writer who understands grammar at the structural level you have reached can begin to make those choices deliberately, rather than by instinct alone. That shift, from passive user to conscious stylist, is what this chapter is about.</p>
+
   <section xml:id="ch-17-stylistic-choices-sec-171">
     <title>Grammar and Style</title>
 
@@ -35,6 +39,10 @@
 
   <section xml:id="ch-17-stylistic-choices-sec-172">
     <title>Sentence Length and Complexity</title>
+
+    <p>Read any passage of skilled prose and you will notice something: the sentences do not all feel the same. Some are long and winding, accumulating detail and qualification; others are short, blunt, final. That variation is not accidental. Writers control sentence length the way a musician controls tempo—as a deliberate tool for shaping a reader's experience. A short sentence after a long one stops the reader cold. A series of long sentences builds a gathering momentum. Neither effect is possible without the contrast.</p>
+
+    <p>This section gives you a framework for thinking about sentence length as a stylistic resource. The goal is not to memorize rules about how long sentences should be, but to develop awareness of what different lengths accomplish—and to use that awareness in your own writing.</p>
 
     <paragraphs>
       <title>Varying Sentence Length</title>
@@ -84,6 +92,8 @@
 
   <section xml:id="ch-17-stylistic-choices-sec-173">
     <title>Active vs. Passive Voice</title>
+
+    <p>You have seen passive voice analyzed structurally in earlier chapters—the auxiliary <foreign>be</foreign> plus a past participle, with the logical object promoted to subject position. But the passive is more than a grammatical curiosity. It is one of the most consequential stylistic choices a writer makes, and it is frequently misunderstood. Writing instructors often say "avoid the passive," and sometimes that advice is sound. But passive voice exists for good reasons, and skilled writers in every field use it deliberately. The real question is not whether to use it, but when and why.</p>
 
     <paragraphs>
       <title>Review</title>
@@ -142,6 +152,8 @@
   <section xml:id="ch-17-stylistic-choices-sec-174">
     <title>Information Structure</title>
 
+    <p>Consider two sentences reporting the same fact: <foreign>The proposal was controversial</foreign> followed by <foreign>Lengthy debates resulted from this controversy</foreign>—versus the same pair written as <foreign>The proposal was controversial. This controversy led to lengthy debates.</foreign> The second version flows more smoothly, and understanding why reveals something fundamental about how readers process prose. Sentences do not exist in isolation; they are part of a discourse, and the reader is always working to connect each new sentence to what came before. The way you arrange information within a sentence—what you put first, what you save for last—determines how easily the reader makes those connections.</p>
+
     <p>How you arrange information within a sentence affects clarity and emphasis.</p>
 
     <paragraphs>
@@ -190,6 +202,8 @@
 
   <section xml:id="ch-17-stylistic-choices-sec-175">
     <title>Emphasis Techniques</title>
+
+    <p>Every sentence has a point—something you most want the reader to notice. But in ordinary declarative word order, that point may land in the middle of the sentence, buried between other information. English provides several structural mechanisms for controlling emphasis: where you place information in the sentence, whether you use a cleft construction to isolate a focal element, and whether you invert normal word order for rhetorical effect. These are not tricks—they are grammatical tools whose effects you have already felt as a reader, even if you have not yet named them.</p>
 
     <paragraphs>
       <title>Position</title>
@@ -245,6 +259,8 @@
   <section xml:id="ch-17-stylistic-choices-sec-176">
     <title>Coordination vs. Subordination</title>
 
+    <p>When you have two ideas to express, you have at least three options: keep them in separate sentences, join them with a coordinating conjunction like <foreign>and</foreign> or <foreign>but</foreign>, or embed one inside the other with a subordinating conjunction like <foreign>because</foreign> or <foreign>although</foreign>. These choices are not equivalent. Coordination tells the reader that two ideas have equal weight; subordination tells the reader that one idea is the main point and the other is context. That signal shapes how a reader interprets the relationship between the ideas—and making it accidentally is one of the most common sources of unclear writing.</p>
+
     <paragraphs>
       <title>When to Coordinate</title>
     </paragraphs>
@@ -282,6 +298,8 @@
 
   <section xml:id="ch-17-stylistic-choices-sec-177">
     <title>Rhetorical Sentence Patterns</title>
+
+    <p>Classical rhetoric gave names to patterns of sentence construction that achieve recognizable effects—patterns that skilled writers have used deliberately for centuries and that you already respond to as a reader. Where does the main clause fall? Does the sentence release its meaning early and then elaborate, or does it withhold the main point, building through qualification and detail until the final clause delivers what the reader has been waiting for? Does it mirror one half of itself against the other, creating the kind of balance that sounds inevitable in quotation? These are not ornamental options reserved for formal speeches. They are tools available in any writing context, and naming them makes them easier to use with intention.</p>
 
     <paragraphs>
       <title>Loose (Cumulative) Sentences</title>

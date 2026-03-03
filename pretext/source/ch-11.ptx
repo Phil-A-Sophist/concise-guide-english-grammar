@@ -24,8 +24,14 @@
     </ul>
   </objectives>
 
+  <p>Chapter 10 showed you how English packs temporal meaning into verb phrases through tense and aspect. This chapter covers two more systems that operate on the verb phrase: <em>voice</em> and <em>modality</em>. Both involve a kind of perspective-taking—voice determines who or what occupies the subject position and how the action is framed; modality layers in the speaker's attitude toward the event, signaling whether it is possible, necessary, permitted, or certain.</p>
+
+  <p>You have probably been told at some point to "avoid passive voice." That advice, taken as an absolute rule, misses the point. Passive voice exists because it does something active voice cannot: it moves the patient of an action into the subject position, which lets you control emphasis, manage information flow, and omit agents when they are unknown or irrelevant. Understanding when passive is the right choice—and when it is not—requires understanding what voice actually does. Similarly, a single modal like <foreign>can</foreign> or <foreign>must</foreign> carries a surprising range of meanings depending on context, and this chapter gives you the vocabulary to distinguish them precisely.</p>
+
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-111">
     <title>Voice: Active and Passive</title>
+
+    <p>Every transitive verb involves at least two participants: someone who performs the action and someone or something that receives it. In earlier chapters you learned to call these the subject and the direct object, but those are grammatical roles, not semantic ones. The same participants can be arranged differently. <foreign>The dog bit the man</foreign> puts the doer first. <foreign>The man was bitten by the dog</foreign> rearranges things so the receiver comes first. The event is identical; the framing is not. That rearrangement is what <term>voice</term> describes, and it turns out to be one of the most rhetorically significant choices a writer makes.</p>
 
     <p><term>Voice</term> is a grammatical category that describes the relationship between the verb and its arguments—specifically, who does the action and who receives it.</p>
 
@@ -152,6 +158,8 @@
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-112">
     <title>When to Use Passive Voice</title>
 
+    <p>The instruction to "avoid passive voice" is one of the most repeated—and most misapplied—pieces of writing advice in English. Passive voice is not inherently weak or evasive; it is a grammatical tool, and like any tool it has appropriate and inappropriate uses. The question is not whether to use it, but when it genuinely serves the reader better than the active alternative.</p>
+
     <p>Passive voice is often criticized, but it serves important functions.</p>
 
     <paragraphs>
@@ -221,6 +229,8 @@
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-113">
     <title>Get-Passive</title>
 
+    <p>The <foreign>be</foreign>-passive is not the only passive construction in English. There is a second one, formed with <foreign>get</foreign>, that is common in spoken and informal written language. The two constructions overlap in meaning but carry a different feel: the <foreign>get</foreign>-passive tends to suggest that something happened suddenly, unexpectedly, or with significant consequence for the subject. Compare <foreign>She was promoted</foreign> (neutral report) with <foreign>She got promoted</foreign> (something happened to her, with a sense of event or change). This subtle difference in connotation makes the <foreign>get</foreign>-passive worth recognizing as a distinct construction.</p>
+
     <p>English has an alternative passive formed with <foreign>get</foreign> instead of <foreign>be</foreign>:</p>
 
     <ul>
@@ -242,11 +252,15 @@
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-114">
     <title>Modal Auxiliaries</title>
 
+    <p>Consider how much meaning rides on a single word in sentences like these: <foreign>You can leave</foreign>, <foreign>You may leave</foreign>, <foreign>You must leave</foreign>, <foreign>You should leave</foreign>, <foreign>You will leave</foreign>. The main verb is identical each time; what changes is the modal, and with it the entire relationship between the speaker, the listener, and the action. Can signals ability or permission. Must signals necessity or a logical conclusion. Should signals obligation or advice. These small words carry enormous pragmatic weight, and distinguishing them from each other—and from the primary auxiliaries—requires careful attention to both grammar and meaning.</p>
+
     <p><term>Modal auxiliaries</term> add meanings related to possibility, necessity, permission, ability, and prediction. Unlike primary auxiliaries, modals have distinct grammatical properties.</p>
 
     <paragraphs>
       <title>The Nine Modals</title>
     </paragraphs>
+
+    <p>English has exactly nine modal auxiliaries. Their basic meanings are summarized in the table below, though as you will see in the following sections, each one can carry multiple readings depending on context:</p>
 
     <tabular halign="left">
       <row header="yes" bottom="minor">
@@ -308,6 +322,8 @@
 
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-115">
     <title>Modal Meanings in Detail</title>
+
+    <p>The table in the previous section gave you a starting point, but modal meaning is genuinely more complex than any single-gloss summary can capture. Most modals are polysemous—they carry multiple distinct but related meanings, and context determines which reading applies. This section works through each modal pair in detail. As you read, notice that the meanings within each pair often shade into each other: ability and possibility are closely related concepts, as are permission and possibility. The challenge—and the interest—of modal grammar is in distinguishing these readings precisely.</p>
 
     <paragraphs>
       <title>Can and Could</title>
@@ -434,6 +450,8 @@
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-116">
     <title>Epistemic vs. Deontic Modality</title>
 
+    <p>You have now seen that a single modal like <foreign>must</foreign> can mean two very different things: <foreign>You must be tired</foreign> (I conclude that you are tired) versus <foreign>You must rest</foreign> (I am telling you to rest). These two readings are not just different senses of the same word—they belong to fundamentally different categories of modal meaning. Linguists draw this distinction using two technical terms that are worth learning, because they organize the entire landscape of modal meaning.</p>
+
     <p>Modals express two main types of meaning:</p>
 
     <paragraphs>
@@ -471,6 +489,8 @@
 
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-117">
     <title>Semi-Modals (Quasi-Modals)</title>
+
+    <p>The nine modal auxiliaries have a strict set of grammatical properties: no <foreign>-s</foreign> ending, no infinitive with <foreign>to</foreign>, no <foreign>-ing</foreign> or past participle forms. But English also has a set of expressions that carry similar meanings through different grammatical machinery. <foreign>Have to</foreign> means roughly the same thing as <foreign>must</foreign>, but unlike <foreign>must</foreign> it inflects: <foreign>She has to leave</foreign>. <foreign>Be going to</foreign> expresses future intention like <foreign>will</foreign>, but it uses the progressive construction. These expressions—called <term>semi-modals</term> or quasi-modals—fill gaps that the true modals leave. Because they behave more like ordinary verbs, they can appear in tenses and forms that true modals cannot.</p>
 
     <p><term>Semi-modals</term> (quasi-modals) are multi-word expressions that function like modals but don't share all their grammatical properties.</p>
 
@@ -542,6 +562,8 @@
 
   <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-118">
     <title>Modal Perfect</title>
+
+    <p>One of the most expressive constructions in English sits at the intersection of two systems you have now studied: modals and the perfect aspect. When a modal combines with <foreign>have</foreign> + past participle, the result reaches back into the past—but unlike simple past tense, it carries the speaker's modal attitude along with it. <foreign>She left</foreign> is a neutral report. <foreign>She must have left</foreign> is a deduction. <foreign>She should have left</foreign> implies she did not, and the speaker thinks that was a mistake. <foreign>She could have left</foreign> suggests an unrealized possibility. The same past event is viewed through different modal lenses, each one shaping how the speaker relates to what happened.</p>
 
     <p>Modals combine with <foreign>have</foreign> + past participle to refer to past time or to express degrees of certainty about the past:</p>
 

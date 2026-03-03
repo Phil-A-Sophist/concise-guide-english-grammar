@@ -91,3 +91,7 @@ Last updated: 2026-03-03
 
 - `data/static/knowledge-base-archive-2026.md` — Archived KB topics (pre-2026-03-03)
 - `data/static/state-t20.md`, `state-t30.md`, `state-t40.md` — State snapshots
+
+## Recently Captured (description pending)
+- `Homework/Exams/generate_exam_docx.py` — [captured this session — update description]
+- `Homework/Exams/generate_exam_diagrams.py` — [captured this session — update description]
