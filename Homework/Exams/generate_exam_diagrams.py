@@ -30,8 +30,8 @@ DIAGRAMS = {
     # Worked example: "The old man sat quietly."
     "example_old_man_sat": "[S [NP [DET The] [ADJP [ADJ old]] [N man]] [VP [V sat] [ADVP [ADV quietly]]]]",
 
-    # Q26: "The cat slept."
-    "q26_cat_slept": "[S [NP [DET The] [N cat]] [VP [V slept]]]",
+    # Q26: "The cat slept on her comfy bed."
+    "q26_cat_slept": "[S [NP [DET The] [N cat]] [VP [V slept] [PP [PREP on] [NP [DET her] [ADJP [ADJ comfy]] [N bed]]]]]",
 
     # Q27: "The cheerful birds sang beautifully in the garden."
     "q27_birds_sang": "[S [NP [DET The] [ADJP [ADJ cheerful]] [N birds]] [VP [V sang] [ADVP [ADV beautifully]] [PP [PREP in] [NP [DET the] [N garden]]]]]",

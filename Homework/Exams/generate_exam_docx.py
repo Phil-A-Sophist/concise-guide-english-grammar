@@ -231,14 +231,19 @@ MC_QUESTIONS = {
             },
             {
                 "num": 3,
-                "text": "Which of the following is a bound morpheme?",
-                "options": ["book", "happy", "-ness", "walk"],
-                "answer": "c",
+                "text": "Which test reliably distinguishes adjectives from determiners?",
+                "options": [
+                    "Adjectives can be pluralized",
+                    'Adjectives can be \u201cgradeable\u201d \u2014 they have comparative and superlative forms (e.g., taller/tallest or more challenging/most challenging)',
+                    "Adjectives always appear after the noun",
+                    "Adjectives cannot appear before nouns"
+                ],
+                "answer": "b",
                 "explanations": {
-                    "a": "free morpheme (can stand alone)",
-                    "b": "free morpheme (can stand alone)",
-                    "c": "bound morpheme (cannot stand alone; must attach to another morpheme)",
-                    "d": "free morpheme (can stand alone)"
+                    "a": "Incorrect. Nouns are pluralized, not adjectives.",
+                    "b": 'Correct. Determiners do not have comparative or superlative forms: you cannot say "taller the" or "more the."',
+                    "c": "Incorrect. Adjectives typically appear before the noun in attributive position.",
+                    "d": "Incorrect. Adjectives routinely appear before nouns (the tall man)."
                 }
             },
             {
@@ -290,14 +295,17 @@ MC_QUESTIONS = {
             },
             {
                 "num": 8,
-                "text": "Which word best demonstrates morphological productivity \u2014 the active use of existing morpheme patterns to create new words?",
-                "options": ["receive", "podcaster", "understand", "carpet"],
-                "answer": "b",
+                "text": "According to the basic structure of English sentences, every sentence (S) divides into which two parts?",
+                "options": [
+                    "Determiner + Sentence",
+                    "Noun + Verb",
+                    "Subject NP + Predicate VP",
+                    "Adjective Phrase + Verb Phrase"
+                ],
+                "answer": "c",
                 "explanations": {
-                    "a": "Borrowed as a whole word from Latin.",
-                    "b": 'A recent creation using the productive -er suffix added to podcast.',
-                    "c": "A single morpheme; no productive process visible.",
-                    "d": "A single morpheme; no productive process visible."
+                    "b": "Too narrow; subjects and predicates are phrases, not just single words.",
+                    "c": "Correct. S \u2192 NP + VP is the fundamental structure of every English sentence."
                 }
             },
         ]
@@ -417,7 +425,7 @@ MC_QUESTIONS = {
             },
             {
                 "num": 18,
-                "text": "Which word in the sentence above is an adverb?",
+                "text": 'In the sentence \u201cSeveral enthusiastic students quietly studied the challenging material,\u201d which word is an adverb?',
                 "options": ["Several", "enthusiastic", "quietly", "material"],
                 "answer": "c",
                 "explanations": {
@@ -476,34 +484,26 @@ MC_QUESTIONS = {
             },
             {
                 "num": 24,
-                "text": "Which test reliably distinguishes adjectives from determiners?",
-                "options": [
-                    "Adjectives can be pluralized",
-                    'Adjectives can be modified by "very"',
-                    "Adjectives always appear after the noun",
-                    "Adjectives cannot appear before nouns"
-                ],
-                "answer": "b",
+                "text": 'In the sentence \u201cThe professor from the university in Boston retired last spring,\u201d what word does the prepositional phrase \u201cin Boston\u201d modify?',
+                "options": ["professor", "spring", "university", "retired"],
+                "answer": "c",
                 "explanations": {
-                    "a": "Incorrect. Nouns are pluralized, not adjectives.",
-                    "b": 'Correct. "Very tall" but not "very the" or "very my."',
-                    "c": "Incorrect. Adjectives typically appear before the noun.",
-                    "d": "Incorrect. Adjectives routinely appear before nouns."
+                    "a": 'Incorrect. "professor" is the head of the outer NP, modified by the entire PP "from the university in Boston."',
+                    "b": 'Incorrect. "spring" is a noun in a separate time expression.',
+                    "c": 'Correct. "in Boston" modifies "university" \u2014 the head noun of the NP inside the PP "from the university."',
+                    "d": 'Incorrect. "retired" is the verb; the PP "in Boston" modifies a noun, not the verb.'
                 }
             },
             {
                 "num": 25,
-                "text": "Every sentence (S) divides into which two parts?",
-                "options": [
-                    "Determiner + Sentence",
-                    "Noun + Verb",
-                    "Subject NP + Predicate VP",
-                    "Adjective Phrase + Verb Phrase"
-                ],
-                "answer": "c",
+                "text": 'In the sentence \u201cThe remarkably patient nurse explained the procedure slowly,\u201d what word does the adverb \u201cremarkably\u201d modify?',
+                "options": ["nurse", "explained", "slowly", "patient"],
+                "answer": "d",
                 "explanations": {
-                    "b": "Too narrow; subjects and predicates are phrases.",
-                    "c": "Correct. S \u2192 NP + VP is the fundamental structure."
+                    "a": 'Incorrect. "nurse" is a noun; adverbs do not modify nouns.',
+                    "b": 'Incorrect. "explained" is the verb; "slowly" modifies the verb, not "remarkably."',
+                    "c": 'Incorrect. "slowly" is itself an adverb modifying the verb "explained."',
+                    "d": 'Correct. "remarkably" is an adverb modifying the adjective "patient," indicating degree.'
                 }
             },
         ]
@@ -514,14 +514,14 @@ MC_QUESTIONS = {
 SECTION_B = [
     {
         "num": 26,
-        "sentence": "The cat slept.",
-        "words": ["The", "cat", "slept"],
-        "pos": ["DET", "N", "V"],
-        "phrases": ["NP", "", "VP"],
-        "roles": ["Subject", "", "Predicate"],
-        "bracket": "[S [NP [DET The] [N cat]] [VP [V slept]]]",
+        "sentence": "The cat slept on her comfy bed.",
+        "words": ["The", "cat", "slept", "on", "her", "comfy", "bed"],
+        "pos": ["DET", "N", "V", "PREP", "DET", "ADJ", "N"],
+        "phrases": ["NP", "", "VP", "PP", "", "", ""],
+        "roles": ["Subject", "", "Predicate", "", "", "", ""],
+        "bracket": "[S [NP [DET The] [N cat]] [VP [V slept] [PP [PREP on] [NP [DET her] [ADJP [ADJ comfy]] [N bed]]]]]",
         "diagram": "q26_cat_slept",
-        "width": 3.5,
+        "width": 5.0,
     },
     {
         "num": 27,
@@ -583,21 +583,21 @@ EXAMPLE_SENTENCE = {
 BONUS_QUESTIONS = [
     {
         "num": 1,
-        "text": "Write a sentence containing a compound word (a word formed from two free morphemes). Underline or circle the compound word.",
-        "example": 'I placed the flowers on the bookshelf.',
-        "rubric": "Award 1 pt for a valid sentence and 1 pt for correctly identifying a compound word (book + shelf)."
+        "text": "Write a sentence containing a compound word (a word formed from two free morphemes). Underline or circle the compound word and identify its two free morphemes.",
+        "example": 'I placed the flowers on the bookshelf.  Free morphemes: book + shelf',
+        "rubric": "Award 1 pt for a valid sentence with the compound word identified, and 1 pt for correctly naming both free morphemes."
     },
     {
         "num": 2,
-        "text": "Write a sentence containing a prepositional phrase that modifies a noun. Underline or circle the prepositional phrase.",
-        "example": 'The student from Colorado passed the exam.',
-        "rubric": "Award 1 pt for a valid sentence and 1 pt for correctly identifying a PP that modifies a noun (not a verb)."
+        "text": "Write a sentence containing a prepositional phrase that modifies the verb phrase (not a noun). Underline or circle the prepositional phrase.",
+        "example": 'She ran in the park.  (The PP \u201cin the park\u201d modifies the verb \u201cran,\u201d telling us where the action happened.)',
+        "rubric": "Award 1 pt for a valid sentence and 1 pt for correctly identifying a PP that modifies the VP (not a noun)."
     },
     {
         "num": 3,
         "text": "Write a word that contains at least three morphemes. List each morpheme and label it as free or bound.",
         "example": '"unhappiness" \u2014 un- (bound) + happy (free) + -ness (bound) = 3 morphemes',
-        "rubric": "Award 1 pt for a valid word with 3+ morphemes and 1 pt for correct labeling."
+        "rubric": "Award 1 pt for a valid word with 3+ morphemes and 1 pt for correct labeling of each morpheme."
     },
     {
         "num": 4,
@@ -607,9 +607,9 @@ BONUS_QUESTIONS = [
     },
     {
         "num": 5,
-        "text": "Write a sentence that is structurally ambiguous (has two possible meanings due to different possible structures). Briefly explain the two meanings.",
-        "example": '"I saw the man with binoculars."\nMeaning 1: I used binoculars to see the man. (PP modifies VP)\nMeaning 2: I saw the man who had binoculars. (PP modifies NP)',
-        "rubric": "Award 1 pt for a genuinely ambiguous sentence and 1 pt for correctly explaining both structural readings."
+        "text": "Write a sentence in which an adverb modifies an adjective (not a verb). Underline or circle the adverb and identify the adjective it modifies.",
+        "example": '"The incredibly fast runner won the race."  (incredibly modifies the adjective fast)',
+        "rubric": "Award 1 pt for a sentence where an adverb modifies an adjective and 1 pt for correctly identifying both the adverb and the adjective."
     },
 ]
 
@@ -724,8 +724,8 @@ def create_document(is_answer_key=False):
 
     p = doc.add_paragraph()
     add_run(p, "2. ", bold=True, font_size=11)
-    add_run(p, "Write the bracket notation ", bold=True, font_size=11)
-    add_run(p, "for the sentence's tree diagram.", font_size=11)
+    add_run(p, "Create a tree diagram ", bold=True, font_size=11)
+    add_run(p, "of the sentence. You may use any diagramming tool of your choice: SyntaxTreeHybrid, by hand on paper, or by hand on a tablet.", font_size=11)
 
     # Scoring
     p = doc.add_paragraph()
@@ -734,7 +734,7 @@ def create_document(is_answer_key=False):
         "4 points \u2014 Correct Parts of Speech",
         "3 points \u2014 Correct Phrase labels",
         "1 point \u2014 Correct Role labels (Subject, Predicate)",
-        "2 points \u2014 Correct bracket notation"
+        "2 points \u2014 Correct tree diagram"
     ]:
         bp = doc.add_paragraph(style='List Bullet')
         bp.text = ""
@@ -745,17 +745,16 @@ def create_document(is_answer_key=False):
     add_run(p, "Abbreviation Key", bold=True, font_size=11)
     set_paragraph_spacing(p, space_before=6, space_after=2)
 
-    abbrev_table = doc.add_table(rows=8, cols=3)
+    abbrev_table = doc.add_table(rows=7, cols=3)
     abbrev_table.style = 'Table Grid'
     headers = ["Parts of Speech", "Phrase Types", "Roles"]
     abbrev_data = [
         ["Noun = N", "Noun Phrase = NP", "Subject = Subj"],
         ["Verb = V", "Verb Phrase = VP", "Predicate = Pred"],
-        ["Adjective = ADJ", "", ""],
-        ["Adverb = ADV", "Adjective Phrase = ADJP", ""],
-        ["Determiner = DET", "Adverb Phrase = ADVP", ""],
-        ["Preposition = PREP", "Prepositional Phrase = PP", ""],
-        ["", "Sentence = S", ""],
+        ["Adjective = ADJ", "Adjective Phrase = ADJP", ""],
+        ["Adverb = ADV", "Adverb Phrase = ADVP", ""],
+        ["Determiner = DET", "Prepositional Phrase = PP", ""],
+        ["Preposition = PREP", "Sentence = S", ""],
     ]
     for j, h in enumerate(headers):
         cell = abbrev_table.rows[0].cells[j]
@@ -797,10 +796,11 @@ def create_document(is_answer_key=False):
         font_size=10,
     )
 
-    p = doc.add_paragraph()
-    add_run(p, "Bracket notation: ", bold=True, font_size=10)
-    add_run(p, EXAMPLE_SENTENCE["bracket"], font_size=9, font_name="Consolas")
-    set_paragraph_spacing(p, space_before=4, space_after=2)
+    if is_answer_key:
+        p = doc.add_paragraph()
+        add_run(p, "Bracket notation: ", bold=True, font_size=10)
+        add_run(p, EXAMPLE_SENTENCE["bracket"], font_size=9, font_name="Consolas")
+        set_paragraph_spacing(p, space_before=4, space_after=2)
 
     add_diagram_image(doc, EXAMPLE_SENTENCE["diagram"], width_inches=EXAMPLE_SENTENCE["width"])
 
@@ -832,17 +832,17 @@ def create_document(is_answer_key=False):
                 font_size=10,
             )
 
-        p = doc.add_paragraph()
         if is_answer_key:
-            add_run(p, "Bracket notation: ", bold=True, font_size=10)
+            p = doc.add_paragraph()
+            add_run(p, "Bracket notation (instructor reference): ", bold=True, font_size=10)
             add_run(p, q["bracket"], font_size=9, font_name="Consolas")
-        else:
-            add_run(p, "Bracket notation: ", bold=True, font_size=10)
-            add_run(p, "_" * 70, font_size=10)
-        set_paragraph_spacing(p, space_before=4, space_after=2)
-
-        if is_answer_key:
+            set_paragraph_spacing(p, space_before=4, space_after=2)
             add_diagram_image(doc, q["diagram"], width_inches=q["width"])
+        else:
+            p = doc.add_paragraph()
+            add_run(p, "Diagram: ", bold=True, font_size=10)
+            add_run(p, "[Create below (by hand) or attach (digital)]", italic=True, font_size=10)
+            set_paragraph_spacing(p, space_before=4, space_after=4)
 
     # =========================================================================
     # BONUS
@@ -874,7 +874,16 @@ def create_document(is_answer_key=False):
             p.paragraph_format.left_indent = Inches(0.3)
             add_run(p, bq["rubric"], font_size=10)
         else:
-            if bq["num"] == 3:
+            if bq["num"] == 1:
+                # Sentence + free morphemes fields
+                p = doc.add_paragraph()
+                add_run(p, "_" * 75, font_size=11)
+                p = doc.add_paragraph()
+                add_run(p, "Free morphemes: ", font_size=11)
+                add_run(p, "_" * 20, font_size=11)
+                add_run(p, "  +  ", font_size=11)
+                add_run(p, "_" * 20, font_size=11)
+            elif bq["num"] == 3:
                 # Word + morphemes fields
                 p = doc.add_paragraph()
                 add_run(p, "Word: ", font_size=11)
@@ -883,16 +892,15 @@ def create_document(is_answer_key=False):
                 add_run(p, "Morphemes: ", font_size=11)
                 add_run(p, "_" * 60, font_size=11)
             elif bq["num"] == 5:
-                # Sentence + two meanings
+                # Sentence + adverb/adjective identification
                 p = doc.add_paragraph()
                 add_run(p, "Sentence: ", font_size=11)
                 add_run(p, "_" * 60, font_size=11)
                 p = doc.add_paragraph()
-                add_run(p, "Meaning 1: ", font_size=11)
-                add_run(p, "_" * 55, font_size=11)
-                p = doc.add_paragraph()
-                add_run(p, "Meaning 2: ", font_size=11)
-                add_run(p, "_" * 55, font_size=11)
+                add_run(p, "Adverb: ", font_size=11)
+                add_run(p, "_" * 20, font_size=11)
+                add_run(p, "  modifies adjective: ", font_size=11)
+                add_run(p, "_" * 20, font_size=11)
             else:
                 p = doc.add_paragraph()
                 add_run(p, "_" * 75, font_size=11)
@@ -905,10 +913,10 @@ def create_document(is_answer_key=False):
         add_section_header(doc, "Quick Answer Reference", level=3, font_size=12)
 
         answers = {
-            1: "d", 2: "b", 3: "c", 4: "c", 5: "c", 6: "c", 7: "a",
-            8: "b", 9: "c", 10: "c", 11: "c", 12: "c", 13: "b",
+            1: "d", 2: "b", 3: "b", 4: "c", 5: "c", 6: "c", 7: "a",
+            8: "c", 9: "c", 10: "c", 11: "c", 12: "c", 13: "b",
             14: "b", 15: "c", 16: "c", 17: "b", 18: "c", 19: "c",
-            20: "d", 21: "b", 22: "d", 23: "b", 24: "b", 25: "c"
+            20: "d", 21: "b", 22: "d", 23: "b", 24: "c", 25: "d"
         }
 
         ref_table = doc.add_table(rows=14, cols=4)

@@ -40,17 +40,17 @@
 >
 > d. misplace — 2 morphemes: *mis-* + *place*
 
-**Question 3:** Which of the following is a bound morpheme? (2 pts)
+**Question 3:** Which test reliably distinguishes adjectives from determiners? (2 pts)
 
-> **Answer: c**
+> **Answer: b**
 >
-> a. book — free morpheme (can stand alone)
+> a. Adjectives can be pluralized — Incorrect. Nouns are pluralized, not adjectives.
 >
-> b. happy — free morpheme (can stand alone)
+> **b. Adjectives can be "gradeable" — they have comparative and superlative forms (e.g., *taller*/*tallest* or *more challenging*/*most challenging*)** — Correct. Determiners do not have comparative or superlative forms: you cannot say *"taller the"* or *"more the."*
 >
-> **c. -ness** — bound morpheme (cannot stand alone; must attach to another morpheme)
+> c. Adjectives always appear after the noun — Incorrect. Adjectives typically appear before the noun in English (attributive position).
 >
-> d. walk — free morpheme (can stand alone)
+> d. Adjectives cannot appear before nouns — Incorrect. Adjectives routinely appear before nouns (*the tall man*).
 
 **Question 4:** The suffix *-tion* typically creates which word class? (2 pts)
 
@@ -100,17 +100,17 @@
 >
 > d. *re-* (bound) + *building* (free) — Incorrect. *Building* should be divided into *build* + *-ing*.
 
-**Question 8:** Which word best demonstrates the concept of morphological productivity — the active use of existing morpheme patterns to create new words? (2 pts)
+**Question 8:** According to the basic structure of English sentences, every sentence (S) divides into which two parts? (2 pts)
 
-> **Answer: b**
+> **Answer: c**
 >
-> a. receive — Borrowed as a whole word from Latin, not productively formed in English.
+> a. Determiner + Sentence
 >
-> **b. podcaster** — A recent creation using the productive *-er* suffix (meaning "one who") added to *podcast*. Demonstrates the same pattern as *teacher* and *writer*.
+> b. Noun + Verb — Too narrow; subjects and predicates are phrases, not just single words.
 >
-> c. understand — A single morpheme; no productive morphological process visible.
+> **c. Subject NP + Predicate VP** — Correct. S → NP + VP is the fundamental structure of every English sentence.
 >
-> d. carpet — A single morpheme; no productive morphological process visible.
+> d. Adjective Phrase + Verb Phrase
 
 ---
 
@@ -230,6 +230,8 @@
 >
 > d. challenging — adjective
 
+*Several enthusiastic students quietly studied the challenging material.*
+
 **Question 18:** Which word in the sentence above is an adverb? (2 pts)
 
 > **Answer: c**
@@ -302,29 +304,29 @@
 >
 > d. Noun
 
-**Question 24:** Which test reliably distinguishes adjectives from determiners? (2 pts)
-
-> **Answer: b**
->
-> a. Adjectives can be pluralized — Incorrect. Nouns are pluralized, not adjectives.
->
-> **b. Adjectives can be modified by "very"** — Correct. You can say "very tall" but not "very the" or "very my." This gradability test reliably identifies adjectives.
->
-> c. Adjectives always appear after the noun — Incorrect. Adjectives typically appear before the noun in English (attributive position).
->
-> d. Adjectives cannot appear before nouns — Incorrect. Adjectives routinely appear before nouns (*the tall man*).
-
-**Question 25:** According to the basic structure of English sentences, every sentence (S) divides into which two parts? (2 pts)
+**Question 24:** In the sentence "The professor from the university in Boston retired last spring," what word does the prepositional phrase "in Boston" modify? (2 pts)
 
 > **Answer: c**
 >
-> a. Determiner + Sentence
+> a. professor — Incorrect. "professor" is the head of the outer NP, modified by the entire PP "from the university in Boston."
 >
-> b. Noun + Verb — Too narrow; subjects and predicates are phrases, not just single words.
+> b. spring — Incorrect. "spring" is a noun in a separate time expression.
 >
-> **c. Subject NP + Predicate VP** — Correct. S → NP + VP is the fundamental structure of every English sentence.
+> **c. university** — Correct. "in Boston" is nested inside the PP "from the university in Boston," where it modifies "university" — the head noun of the NP that is the object of "from."
 >
-> d. Adjective Phrase + Verb Phrase
+> d. retired — Incorrect. "retired" is the verb; the PP "in Boston" is modifying a noun, not the verb.
+
+**Question 25:** In the sentence "The remarkably patient nurse explained the procedure slowly," what word does the adverb "remarkably" modify? (2 pts)
+
+> **Answer: d**
+>
+> a. nurse — Incorrect. "nurse" is a noun; adverbs do not modify nouns.
+>
+> b. explained — Incorrect. "explained" is the verb; "slowly" modifies the verb, not "remarkably."
+>
+> c. slowly — Incorrect. "slowly" is itself an adverb modifying the verb "explained."
+>
+> **d. patient** — Correct. "remarkably" is an adverb modifying the adjective "patient," indicating degree. Adverbs can modify adjectives.
 
 ---
 
@@ -332,18 +334,18 @@
 
 ---
 
-**Question 26:** (10 pts) *The cat slept.*
+**Question 26:** (10 pts) *The cat slept on her comfy bed.*
 
 <table>
-<tr><th>Role</th><td colspan="2">Subject</td><td colspan="1">Predicate</td></tr>
-<tr><th>Phrase</th><td colspan="2">NP</td><td colspan="1">VP</td></tr>
-<tr><th>Word</th><td>The</td><td>cat</td><td>slept</td></tr>
-<tr><th>POS</th><td>DET</td><td>N</td><td>V</td></tr>
+<tr><th>Role</th><td colspan="2">Subject</td><td colspan="5">Predicate</td></tr>
+<tr><th>Phrase</th><td colspan="2">NP</td><td colspan="1">VP</td><td colspan="4">PP</td></tr>
+<tr><th>Word</th><td>The</td><td>cat</td><td>slept</td><td>on</td><td>her</td><td>comfy</td><td>bed</td></tr>
+<tr><th>POS</th><td>DET</td><td>N</td><td>V</td><td>PREP</td><td>DET</td><td>ADJ</td><td>N</td></tr>
 </table>
 
-Bracket notation: `[S [NP [DET The] [N cat]] [VP [V slept]]]`
+Bracket notation (instructor reference): `[S [NP [DET The] [N cat]] [VP [V slept] [PP [PREP on] [NP [DET her] [ADJP [ADJ comfy]] [N bed]]]]]`
 
-![Tree diagram for "The cat slept."](diagrams/q26_cat_slept.png)
+![Tree diagram for "The cat slept on her comfy bed."](diagrams/q26_cat_slept.png)
 
 ---
 
@@ -356,7 +358,7 @@ Bracket notation: `[S [NP [DET The] [N cat]] [VP [V slept]]]`
 <tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td><td>PREP</td><td>DET</td><td>N</td></tr>
 </table>
 
-Bracket notation: `[S [NP [DET The] [ADJP [ADJ cheerful]] [N birds]] [VP [V sang] [ADVP [ADV beautifully]] [PP [PREP in] [NP [DET the] [N garden]]]]]`
+Bracket notation (instructor reference): `[S [NP [DET The] [ADJP [ADJ cheerful]] [N birds]] [VP [V sang] [ADVP [ADV beautifully]] [PP [PREP in] [NP [DET the] [N garden]]]]]`
 
 ![Tree diagram for "The cheerful birds sang beautifully in the garden."](diagrams/q27_birds_sang.png)
 
@@ -371,7 +373,7 @@ Bracket notation: `[S [NP [DET The] [ADJP [ADJ cheerful]] [N birds]] [VP [V sang
 <tr><th>POS</th><td>DET</td><td>N</td><td>PREP</td><td>N</td><td>V</td><td>ADV</td></tr>
 </table>
 
-Bracket notation: `[S [NP [DET The] [N students] [PP [PREP from] [NP [N Ohio]]]] [VP [V studied] [ADVP [ADV carefully]]]]`
+Bracket notation (instructor reference): `[S [NP [DET The] [N students] [PP [PREP from] [NP [N Ohio]]]] [VP [V studied] [ADVP [ADV carefully]]]]`
 
 ![Tree diagram for "The students from Ohio studied carefully."](diagrams/q28_students_studied.png)
 
@@ -386,7 +388,7 @@ Bracket notation: `[S [NP [DET The] [N students] [PP [PREP from] [NP [N Ohio]]]]
 <tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td><td>PREP</td><td>DET</td><td>ADJ</td><td>N</td></tr>
 </table>
 
-Bracket notation: `[S [NP [DET Several] [ADJP [ADJ brave]] [N firefighters]] [VP [V worked] [ADVP [ADV tirelessly]] [PP [PREP during] [NP [DET the] [ADJP [ADJ dangerous]] [N storm]]]]]`
+Bracket notation (instructor reference): `[S [NP [DET Several] [ADJP [ADJ brave]] [N firefighters]] [VP [V worked] [ADVP [ADV tirelessly]] [PP [PREP during] [NP [DET the] [ADJP [ADJ dangerous]] [N storm]]]]]`
 
 ![Tree diagram for "Several brave firefighters worked tirelessly during the dangerous storm."](diagrams/q29_firefighters_worked.png)
 
@@ -401,7 +403,7 @@ Bracket notation: `[S [NP [DET Several] [ADJP [ADJ brave]] [N firefighters]] [VP
 <tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>PREP</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td><td>ADV</td></tr>
 </table>
 
-Bracket notation: `[S [NP [DET The] [ADJP [ADJ tall]] [N professor] [PP [PREP with] [NP [ADJP [ADJ gray]] [N hair]]]] [VP [V spoke] [ADVP [ADVP [ADV very]] [ADV eloquently]]]]`
+Bracket notation (instructor reference): `[S [NP [DET The] [ADJP [ADJ tall]] [N professor] [PP [PREP with] [NP [ADJP [ADJ gray]] [N hair]]]] [VP [V spoke] [ADVP [ADVP [ADV very]] [ADV eloquently]]]]`
 
 ![Tree diagram for "The tall professor with gray hair spoke very eloquently."](diagrams/q30_professor_spoke.png)
 
@@ -411,23 +413,23 @@ Bracket notation: `[S [NP [DET The] [ADJP [ADJ tall]] [N professor] [PP [PREP wi
 
 *Answers will vary. Accept any response that correctly demonstrates the required feature.*
 
-**Bonus 1:** Write a sentence containing a compound word (two free morphemes). (2 pts)
+**Bonus 1:** Write a sentence containing a compound word (two free morphemes). Underline or circle the compound word and identify its two free morphemes. (2 pts)
 
-> Example: "I placed the flowers on the *bookshelf*."
+> Example: "I placed the flowers on the *bookshelf*." Free morphemes: *book* + *shelf*
 >
-> Award 1 pt for a valid sentence and 1 pt for correctly identifying a compound word (*book* + *shelf*).
+> Award 1 pt for a valid sentence with the compound word identified, and 1 pt for correctly naming both free morphemes.
 
-**Bonus 2:** Write a sentence containing a prepositional phrase that modifies a noun. (2 pts)
+**Bonus 2:** Write a sentence containing a prepositional phrase that modifies the verb phrase (not a noun). Underline or circle the prepositional phrase. (2 pts)
 
-> Example: "The student *from Colorado* passed the exam."
+> Example: "She ran *in the park*." The PP "in the park" tells us where she ran — it modifies the verb "ran."
 >
-> Award 1 pt for a valid sentence and 1 pt for correctly identifying a PP that modifies a noun (not a verb).
+> Award 1 pt for a valid sentence and 1 pt for correctly identifying a PP that modifies the VP (not a noun). Note: a PP after the verb phrase (adverbial PP) is what we want here — not a PP tucked inside an NP.
 
 **Bonus 3:** Write a word that contains at least three morphemes. List each morpheme and label it as free or bound. (2 pts)
 
 > Example: "unhappiness" — *un-* (bound) + *happy* (free) + *-ness* (bound) = 3 morphemes
 >
-> Award 1 pt for a valid word with 3+ morphemes and 1 pt for correct labeling.
+> Award 1 pt for a valid word with 3+ morphemes and 1 pt for correct labeling of each morpheme.
 
 **Bonus 4:** Write a noun phrase that contains a determiner, an adjective, and a noun. (2 pts)
 
@@ -435,15 +437,11 @@ Bracket notation: `[S [NP [DET The] [ADJP [ADJ tall]] [N professor] [PP [PREP wi
 >
 > Award 1 pt for including all three elements and 1 pt for correct word class identification (DET + ADJ + N).
 
-**Bonus 5:** Write a structurally ambiguous sentence and explain both meanings. (2 pts)
+**Bonus 5:** Write a sentence in which an adverb modifies an adjective (not a verb). Underline or circle the adverb and identify the adjective it modifies. (2 pts)
 
-> Example: "I saw the man with binoculars."
+> Example: "The *incredibly* fast runner won the race." (*incredibly* modifies the adjective *fast*)
 >
-> Meaning 1: I used binoculars to see the man. (PP modifies VP)
->
-> Meaning 2: I saw the man who had binoculars. (PP modifies NP)
->
-> Award 1 pt for a genuinely ambiguous sentence and 1 pt for correctly explaining both structural readings.
+> Award 1 pt for a sentence where an adverb modifies an adjective and 1 pt for correctly identifying both the adverb and the adjective it modifies.
 
 ---
 
@@ -453,14 +451,14 @@ Bracket notation: `[S [NP [DET The] [ADJP [ADJ tall]] [N professor] [PP [PREP wi
 |---|---|---|---|
 | 1 | d | 14 | b |
 | 2 | b | 15 | c |
-| 3 | c | 16 | c |
+| 3 | b | 16 | c |
 | 4 | c | 17 | b |
 | 5 | c | 18 | c |
 | 6 | c | 19 | c |
 | 7 | a | 20 | d |
-| 8 | b | 21 | b |
+| 8 | c | 21 | b |
 | 9 | c | 22 | d |
 | 10 | c | 23 | b |
-| 11 | c | 24 | b |
-| 12 | c | 25 | c |
+| 11 | c | 24 | c |
+| 12 | c | 25 | d |
 | 13 | b | | |

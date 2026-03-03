@@ -46,17 +46,17 @@
 >
 > d. misplace
 
-**Question 3:** Which of the following is a bound morpheme? (2 pts)
+**Question 3:** Which test reliably distinguishes adjectives from determiners? (2 pts)
 
 > Answer: \_\_\_\_\_
 >
-> a. book
+> a. Adjectives can be pluralized
 >
-> b. happy
+> b. Adjectives can be "gradeable" — they have comparative and superlative forms (e.g., *taller*/*tallest* or *more challenging*/*most challenging*)
 >
-> c. -ness
+> c. Adjectives always appear after the noun
 >
-> d. walk
+> d. Adjectives cannot appear before nouns
 
 **Question 4:** The suffix *-tion* typically creates which word class? (2 pts)
 
@@ -106,17 +106,17 @@
 >
 > d. *re-* (bound) + *building* (free)
 
-**Question 8:** Which word best demonstrates the concept of morphological productivity — the active use of existing morpheme patterns to create new words? (2 pts)
+**Question 8:** According to the basic structure of English sentences, every sentence (S) divides into which two parts? (2 pts)
 
 > Answer: \_\_\_\_\_
 >
-> a. receive
+> a. Determiner + Sentence
 >
-> b. podcaster
+> b. Noun + Verb
 >
-> c. understand
+> c. Subject NP + Predicate VP
 >
-> d. carpet
+> d. Adjective Phrase + Verb Phrase
 
 ---
 
@@ -238,6 +238,8 @@
 >
 > d. challenging
 
+***Several enthusiastic students quietly studied the challenging material.***
+
 **Question 18:** Which word in the sentence above is an adverb? (2 pts)
 
 > Answer: \_\_\_\_\_
@@ -310,29 +312,29 @@
 >
 > d. Noun
 
-**Question 24:** Which test reliably distinguishes adjectives from determiners? (2 pts)
+**Question 24:** In the sentence "The professor from the university in Boston retired last spring," what word does the prepositional phrase "in Boston" modify? (2 pts)
 
 > Answer: \_\_\_\_\_
 >
-> a. Adjectives can be pluralized
+> a. professor
 >
-> b. Adjectives can be modified by "very"
+> b. spring
 >
-> c. Adjectives always appear after the noun
+> c. university
 >
-> d. Adjectives cannot appear before nouns
+> d. retired
 
-**Question 25:** According to the basic structure of English sentences, every sentence (S) divides into which two parts? (2 pts)
+**Question 25:** In the sentence "The remarkably patient nurse explained the procedure slowly," what word does the adverb "remarkably" modify? (2 pts)
 
 > Answer: \_\_\_\_\_
 >
-> a. Determiner + Sentence
+> a. nurse
 >
-> b. Noun + Verb
+> b. explained
 >
-> c. Subject NP + Predicate VP
+> c. slowly
 >
-> d. Adjective Phrase + Verb Phrase
+> d. patient
 
 ---
 
@@ -341,14 +343,14 @@
 **Instructions:** For each sentence below, take two steps.
 
 1. **Complete the labeling table** by filling in the Role, Phrase, and Part of Speech (POS) rows.
-2. **Write the bracket notation** for the sentence's tree diagram.
+2. **Create a tree diagram** of the sentence. You may use any diagramming tool of your choice: SyntaxTreeHybrid, by hand on paper, or by hand on a tablet.
 
 **Scoring (per sentence):**
 
 - 4 points — Correct Parts of Speech
 - 3 points — Correct Phrase labels
 - 1 point — Correct Role labels (Subject, Predicate)
-- 2 points — Correct bracket notation
+- 2 points — Correct tree diagram
 
 ---
 
@@ -358,11 +360,10 @@
 |---|---|---|
 | Noun = N | Noun Phrase = NP | Subject = Subj |
 | Verb = V | Verb Phrase = VP | Predicate = Pred |
-| Adjective = ADJ | | |
-| Adverb = ADV | Adjective Phrase = ADJP | |
-| Determiner = DET | Adverb Phrase = ADVP | |
-| Preposition = PREP | Prepositional Phrase = PP | |
-| | Sentence = S | |
+| Adjective = ADJ | Adjective Phrase = ADJP | |
+| Adverb = ADV | Adverb Phrase = ADVP | |
+| Determiner = DET | Prepositional Phrase = PP | |
+| Preposition = PREP | Sentence = S | |
 
 **Notes:**
 
@@ -381,22 +382,20 @@
 <tr><th>POS</th><td>DET</td><td>ADJ</td><td>N</td><td>V</td><td>ADV</td></tr>
 </table>
 
-Bracket notation: `[S [NP [DET The] [ADJP [ADJ old]] [N man]] [VP [V sat] [ADVP [ADV quietly]]]]`
-
 ![Example tree diagram](diagrams/example_old_man_sat.png)
 
 ---
 
-**Question 26:** (10 pts) *The cat slept.*
+**Question 26:** (10 pts) *The cat slept on her comfy bed.*
 
 <table>
-<tr><th>Role</th><td colspan="2"></td><td></td></tr>
-<tr><th>Phrase</th><td colspan="2"></td><td></td></tr>
-<tr><th>Word</th><td>The</td><td>cat</td><td>slept</td></tr>
-<tr><th>POS</th><td></td><td></td><td></td></tr>
+<tr><th>Role</th><td colspan="2"></td><td colspan="5"></td></tr>
+<tr><th>Phrase</th><td colspan="2"></td><td colspan="1"></td><td colspan="4"></td></tr>
+<tr><th>Word</th><td>The</td><td>cat</td><td>slept</td><td>on</td><td>her</td><td>comfy</td><td>bed</td></tr>
+<tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
-Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Diagram: [Create below (by hand) or attach (digital)]
 
 ---
 
@@ -409,7 +408,7 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 <tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
-Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Diagram: [Create below (by hand) or attach (digital)]
 
 ---
 
@@ -422,7 +421,7 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 <tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
-Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Diagram: [Create below (by hand) or attach (digital)]
 
 ---
 
@@ -435,7 +434,7 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 <tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
-Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Diagram: [Create below (by hand) or attach (digital)]
 
 ---
 
@@ -448,7 +447,7 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 <tr><th>POS</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
-Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Diagram: [Create below (by hand) or attach (digital)]
 
 ---
 
@@ -456,11 +455,13 @@ Bracket notation: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Instructions:** Write original sentences or phrases meeting each requirement below.
 
-**Bonus 1:** Write a sentence containing a compound word (a word formed from two free morphemes). Underline or circle the compound word. (2 pts)
+**Bonus 1:** Write a sentence containing a compound word (a word formed from two free morphemes). Underline or circle the compound word and identify its two free morphemes. (2 pts)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Bonus 2:** Write a sentence containing a prepositional phrase that modifies a noun. Underline or circle the prepositional phrase. (2 pts)
+Free morphemes: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ + \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Bonus 2:** Write a sentence containing a prepositional phrase that modifies the verb phrase (not a noun). Underline or circle the prepositional phrase. (2 pts)
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -474,10 +475,8 @@ Morphemes: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Bonus 5:** Write a sentence that is structurally ambiguous (has two possible meanings due to different possible structures). Briefly explain the two meanings. (2 pts)
+**Bonus 5:** Write a sentence in which an adverb modifies an adjective (not a verb). Underline or circle the adverb and identify the adjective it modifies. (2 pts)
 
 Sentence: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Meaning 1: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-Meaning 2: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Adverb: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ modifies adjective: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
