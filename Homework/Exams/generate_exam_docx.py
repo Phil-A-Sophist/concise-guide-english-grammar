@@ -206,7 +206,7 @@ def add_diagram_image(doc, image_name, width_inches=5.5):
 
 MC_QUESTIONS = {
     "A1": {
-        "title": "Section A1: Morphology and Word Structure (Questions 1\u20138, 16 points)",
+        "title": "Section A1: Morphology and Word Structure (Questions 1\u20136, 12 points)",
         "questions": [
             {
                 "num": 1,
@@ -231,23 +231,6 @@ MC_QUESTIONS = {
             },
             {
                 "num": 3,
-                "text": "Which test reliably distinguishes adjectives from determiners?",
-                "options": [
-                    "Adjectives can be pluralized",
-                    'Adjectives can be \u201cgradeable\u201d \u2014 they have comparative and superlative forms (e.g., taller/tallest or more challenging/most challenging)',
-                    "Adjectives always appear after the noun",
-                    "Adjectives cannot appear before nouns"
-                ],
-                "answer": "b",
-                "explanations": {
-                    "a": "Incorrect. Nouns are pluralized, not adjectives.",
-                    "b": 'Correct. Determiners do not have comparative or superlative forms: you cannot say "taller the" or "more the."',
-                    "c": "Incorrect. Adjectives typically appear before the noun in attributive position.",
-                    "d": "Incorrect. Adjectives routinely appear before nouns (the tall man)."
-                }
-            },
-            {
-                "num": 4,
                 "text": "The suffix -tion typically creates which word class?",
                 "options": ["Verb", "Adjective", "Noun", "Adverb"],
                 "answer": "c",
@@ -256,7 +239,7 @@ MC_QUESTIONS = {
                 }
             },
             {
-                "num": 5,
+                "num": 4,
                 "text": "Which word is an example of a compound (formed from two free morphemes)?",
                 "options": ["understand", "carpet", "bookcase", "receive"],
                 "answer": "c",
@@ -268,7 +251,7 @@ MC_QUESTIONS = {
                 }
             },
             {
-                "num": 6,
+                "num": 5,
                 "text": 'The word "unhelpful" contains how many morphemes?',
                 "options": ["1", "2", "3", "4"],
                 "answer": "c",
@@ -277,7 +260,7 @@ MC_QUESTIONS = {
                 }
             },
             {
-                "num": 7,
+                "num": 6,
                 "text": 'Which of the following correctly identifies the morphemes in "rebuilding"?',
                 "options": [
                     "re- (bound) + build (free) + -ing (bound)",
@@ -291,6 +274,28 @@ MC_QUESTIONS = {
                     "b": "Incorrect. re- is bound, not free.",
                     "c": "Incorrect. rebuild can be further divided.",
                     "d": "Incorrect. building should be divided into build + -ing."
+                }
+            },
+        ]
+    },
+    "A2": {
+        "title": "Section A2: Open and Closed Classes (Questions 7\u201316, 20 points)",
+        "questions": [
+            {
+                "num": 7,
+                "text": "Which test reliably distinguishes adjectives from determiners?",
+                "options": [
+                    "Adjectives can be pluralized",
+                    'Adjectives can be \u201cgradeable\u201d \u2014 they have comparative and superlative forms (e.g., taller/tallest or more challenging/most challenging)',
+                    "Adjectives always appear after the noun",
+                    "Adjectives cannot appear before nouns"
+                ],
+                "answer": "b",
+                "explanations": {
+                    "a": "Incorrect. Nouns are pluralized, not adjectives.",
+                    "b": 'Correct. Determiners do not have comparative or superlative forms: you cannot say "taller the" or "more the."',
+                    "c": "Incorrect. Adjectives typically appear before the noun in attributive position.",
+                    "d": "Incorrect. Adjectives routinely appear before nouns (the tall man)."
                 }
             },
             {
@@ -308,11 +313,6 @@ MC_QUESTIONS = {
                     "c": "Correct. S \u2192 NP + VP is the fundamental structure of every English sentence."
                 }
             },
-        ]
-    },
-    "A2": {
-        "title": "Section A2: Open and Closed Classes (Questions 9\u201316, 16 points)",
-        "questions": [
             {
                 "num": 9,
                 "text": "Which of the following word classes is an open class?",
@@ -913,8 +913,8 @@ def create_document(is_answer_key=False):
         add_section_header(doc, "Quick Answer Reference", level=3, font_size=12)
 
         answers = {
-            1: "d", 2: "b", 3: "b", 4: "c", 5: "c", 6: "c", 7: "a",
-            8: "c", 9: "c", 10: "c", 11: "c", 12: "c", 13: "b",
+            1: "d", 2: "b", 3: "c", 4: "c", 5: "c", 6: "a",
+            7: "b", 8: "c", 9: "c", 10: "c", 11: "c", 12: "c", 13: "b",
             14: "b", 15: "c", 16: "c", 17: "b", 18: "c", 19: "c",
             20: "d", 21: "b", 22: "d", 23: "b", 24: "c", 25: "d"
         }

@@ -14,7 +14,7 @@
 
 ## Section A: Multiple Choice (50 points)
 
-### Section A1: Morphology and Word Structure (Questions 1–8, 16 points)
+### Section A1: Morphology and Word Structure (Questions 1–6, 12 points)
 
 **Question 1:** How many morphemes does the word "disagreements" contain? (2 pts)
 
@@ -40,19 +40,7 @@
 >
 > d. misplace — 2 morphemes: *mis-* + *place*
 
-**Question 3:** Which test reliably distinguishes adjectives from determiners? (2 pts)
-
-> **Answer: b**
->
-> a. Adjectives can be pluralized — Incorrect. Nouns are pluralized, not adjectives.
->
-> **b. Adjectives can be "gradeable" — they have comparative and superlative forms (e.g., *taller*/*tallest* or *more challenging*/*most challenging*)** — Correct. Determiners do not have comparative or superlative forms: you cannot say *"taller the"* or *"more the."*
->
-> c. Adjectives always appear after the noun — Incorrect. Adjectives typically appear before the noun in English (attributive position).
->
-> d. Adjectives cannot appear before nouns — Incorrect. Adjectives routinely appear before nouns (*the tall man*).
-
-**Question 4:** The suffix *-tion* typically creates which word class? (2 pts)
+**Question 3:** The suffix *-tion* typically creates which word class? (2 pts)
 
 > **Answer: c**
 >
@@ -64,7 +52,7 @@
 >
 > d. Adverb
 
-**Question 5:** Which word is an example of a compound (formed from two free morphemes)? (2 pts)
+**Question 4:** Which word is an example of a compound (formed from two free morphemes)? (2 pts)
 
 > **Answer: c**
 >
@@ -76,7 +64,7 @@
 >
 > d. receive — 1 morpheme. "Ceive" is not a word in modern English.
 
-**Question 6:** The word "unhelpful" contains how many morphemes? (2 pts)
+**Question 5:** The word "unhelpful" contains how many morphemes? (2 pts)
 
 > **Answer: c**
 >
@@ -88,7 +76,7 @@
 >
 > d. 4
 
-**Question 7:** Which of the following correctly identifies the morphemes in "rebuilding"? (2 pts)
+**Question 6:** Which of the following correctly identifies the morphemes in "rebuilding"? (2 pts)
 
 > **Answer: a**
 >
@@ -99,6 +87,22 @@
 > c. *rebuild* (free) + *-ing* (bound) — Incorrect. *Rebuild* can be further divided into *re-* + *build*.
 >
 > d. *re-* (bound) + *building* (free) — Incorrect. *Building* should be divided into *build* + *-ing*.
+
+---
+
+### Section A2: Open and Closed Classes (Questions 7–16, 20 points)
+
+**Question 7:** Which test reliably distinguishes adjectives from determiners? (2 pts)
+
+> **Answer: b**
+>
+> a. Adjectives can be pluralized — Incorrect. Nouns are pluralized, not adjectives.
+>
+> **b. Adjectives can be "gradeable" — they have comparative and superlative forms (e.g., *taller*/*tallest* or *more challenging*/*most challenging*)** — Correct. Determiners do not have comparative or superlative forms: you cannot say *"taller the"* or *"more the."*
+>
+> c. Adjectives always appear after the noun — Incorrect. Adjectives typically appear before the noun in English (attributive position).
+>
+> d. Adjectives cannot appear before nouns — Incorrect. Adjectives routinely appear before nouns (*the tall man*).
 
 **Question 8:** According to the basic structure of English sentences, every sentence (S) divides into which two parts? (2 pts)
 
@@ -111,10 +115,6 @@
 > **c. Subject NP + Predicate VP** — Correct. S → NP + VP is the fundamental structure of every English sentence.
 >
 > d. Adjective Phrase + Verb Phrase
-
----
-
-### Section A2: Open and Closed Classes (Questions 9–16, 16 points)
 
 **Question 9:** Which of the following word classes is an open class? (2 pts)
 
@@ -451,11 +451,11 @@ Bracket notation (instructor reference): `[S [NP [DET The] [ADJP [ADJ tall]] [N 
 |---|---|---|---|
 | 1 | d | 14 | b |
 | 2 | b | 15 | c |
-| 3 | b | 16 | c |
+| 3 | c | 16 | c |
 | 4 | c | 17 | b |
 | 5 | c | 18 | c |
-| 6 | c | 19 | c |
-| 7 | a | 20 | d |
+| 6 | a | 19 | c |
+| 7 | b | 20 | d |
 | 8 | c | 21 | b |
 | 9 | c | 22 | d |
 | 10 | c | 23 | b |

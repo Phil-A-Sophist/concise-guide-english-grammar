@@ -20,7 +20,7 @@
 
 ---
 
-### Section A1: Morphology and Word Structure (Questions 1–8, 16 points)
+### Section A1: Morphology and Word Structure (Questions 1–6, 12 points)
 
 **Question 1:** How many morphemes does the word "disagreements" contain? (2 pts)
 
@@ -46,19 +46,7 @@
 >
 > d. misplace
 
-**Question 3:** Which test reliably distinguishes adjectives from determiners? (2 pts)
-
-> Answer: \_\_\_\_\_
->
-> a. Adjectives can be pluralized
->
-> b. Adjectives can be "gradeable" — they have comparative and superlative forms (e.g., *taller*/*tallest* or *more challenging*/*most challenging*)
->
-> c. Adjectives always appear after the noun
->
-> d. Adjectives cannot appear before nouns
-
-**Question 4:** The suffix *-tion* typically creates which word class? (2 pts)
+**Question 3:** The suffix *-tion* typically creates which word class? (2 pts)
 
 > Answer: \_\_\_\_\_
 >
@@ -70,7 +58,7 @@
 >
 > d. Adverb
 
-**Question 5:** Which word is an example of a compound (formed from two free morphemes)? (2 pts)
+**Question 4:** Which word is an example of a compound (formed from two free morphemes)? (2 pts)
 
 > Answer: \_\_\_\_\_
 >
@@ -82,7 +70,7 @@
 >
 > d. receive
 
-**Question 6:** The word "unhelpful" contains how many morphemes? (2 pts)
+**Question 5:** The word "unhelpful" contains how many morphemes? (2 pts)
 
 > Answer: \_\_\_\_\_
 >
@@ -94,7 +82,7 @@
 >
 > d. 4
 
-**Question 7:** Which of the following correctly identifies the morphemes in "rebuilding"? (2 pts)
+**Question 6:** Which of the following correctly identifies the morphemes in "rebuilding"? (2 pts)
 
 > Answer: \_\_\_\_\_
 >
@@ -105,6 +93,22 @@
 > c. *rebuild* (free) + *-ing* (bound)
 >
 > d. *re-* (bound) + *building* (free)
+
+---
+
+### Section A2: Open and Closed Classes (Questions 7–16, 20 points)
+
+**Question 7:** Which test reliably distinguishes adjectives from determiners? (2 pts)
+
+> Answer: \_\_\_\_\_
+>
+> a. Adjectives can be pluralized
+>
+> b. Adjectives can be "gradeable" — they have comparative and superlative forms (e.g., *taller*/*tallest* or *more challenging*/*most challenging*)
+>
+> c. Adjectives always appear after the noun
+>
+> d. Adjectives cannot appear before nouns
 
 **Question 8:** According to the basic structure of English sentences, every sentence (S) divides into which two parts? (2 pts)
 
@@ -117,10 +121,6 @@
 > c. Subject NP + Predicate VP
 >
 > d. Adjective Phrase + Verb Phrase
-
----
-
-### Section A2: Open and Closed Classes (Questions 9–16, 16 points)
 
 **Question 9:** Which of the following word classes is an open class? (2 pts)
 
