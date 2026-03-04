@@ -21,9 +21,10 @@ Ch8-18: Full improvement (see data/static/knowledge-base-archive-2026.md for ind
 
 ## Notes
 - **Snapshots:** state-t20/t30/t40 in data/static/. Next snapshot at Task 50.
-- **Inline diagrams added:** Ch8-13 each have 8 new inline syntax tree diagrams (48 total). Script: scripts/generate_ch08_13_diagrams.py.
+- **Unstaged:** PNG diagrams (ch08-ch16) and .docx homework files remain unstaged. Commit per-chapter only.
 - **Ch13:** Titled "Adjectivals." Diagram section says "complement clause structures" (not nominals).
 - **Ch14:** Titled "Nominals" but has adjectival diagrams — mismatch left as-is.
 - **Memory system:** Migrated to Supabase architecture (2026-03-03). data/ is git-tracked backup.
 - **Homework/:** Gitignored. Files stay local for LMS upload — not tracked in GitHub.
-<!-- session-end: 2026-03-03 -->
+<!-- session-end: 2026-03-03 16:33 -->
+<!-- review: stop 52 — nothing captured -->

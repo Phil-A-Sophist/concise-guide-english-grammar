@@ -34,6 +34,8 @@
 
   <p>The answer lies in the verb. Every sentence is organized around a main verb, and that verb determines what other elements must appear and in what roles. This chapter introduces the core elements of sentence structure—subject, predicate, objects, and complements—and shows how they combine into six fundamental patterns. By the end of the chapter, you will have a precise vocabulary for analyzing the structure of any sentence you encounter.</p>
 
+  <p>This chapter also introduces a vocabulary that will carry through the rest of the book. Terms like <em>subject complement</em>, <em>direct object</em>, and <em>valency</em> are not just labels to memorize—they are analytical tools. Once you can name exactly what role a phrase plays in a sentence, you can explain why two sentences with similar words feel structurally different, why some verbs cannot appear without an object, and why removing one element makes the sentence grammatically incomplete. Building that precision now will pay off in every chapter that follows.</p>
+
   <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-81">
     <title>The Two Core Parts: Subject and Predicate</title>
 
@@ -126,6 +128,8 @@
 
   <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-82">
     <title>Arguments vs. Adverbials</title>
+
+    <p>One of the most important distinctions in sentence grammar is between elements that are required by the verb and elements that are optional add-ons. Not everything inside a predicate holds the same structural status. Some phrases are essential to the verb's meaning; others simply provide extra context. Knowing the difference prevents a common analytical error: mistaking an optional modifier for a core argument, or overlooking an argument because it looks like a modifier.</p>
 
     <p>Understanding the difference between <em>arguments</em> (the core elements belonging to a verb's structure) and <em>adverbials</em> (optional modifiers) is crucial for sentence analysis.</p>
 
@@ -239,6 +243,8 @@
 
     <p>Among a verb's arguments are two main types: <em>objects</em> (direct and indirect objects) and <em>complements</em> (subject and object complements).</p>
 
+    <p>These two categories behave differently from each other in important ways. Objects are always noun phrases (or clauses functioning as NPs), and they receive or are affected by the verb's action. Complements, by contrast, do not receive action—they describe or identify either the subject or the direct object. A subject complement after <foreign>is</foreign> characterizes the subject; an object complement after <foreign>found</foreign> characterizes the direct object. Confusing the two is a frequent source of analysis errors, so learning to distinguish them by their grammatical behavior—not just by intuition—is essential.</p>
+
     <paragraphs>
       <title>Direct Objects</title>
     </paragraphs>
@@ -337,6 +343,8 @@
 
     <p><em>Valency</em> refers to the number and types of arguments a verb requires. Different verbs have different valencies, and this determines sentence structure.</p>
 
+    <p>The term comes from chemistry, where valence describes the bonding capacity of an atom. The analogy is apt: just as carbon always forms four bonds and hydrogen always forms one, a verb like <foreign>arrive</foreign> always takes exactly one argument (a subject) and a verb like <foreign>give</foreign> typically takes three. This is not a rule imposed from outside—it is part of what each verb means. You cannot say <foreign><delete>She arrived the station</delete></foreign>, because arriving is not a kind of action that can be directed toward an object. The concept of valency captures this fact: the verb's meaning itself determines how many argument slots must be filled around it.</p>
+
     <paragraphs>
       <title>The Verb as the Sentence's Architect</title>
     </paragraphs>
@@ -431,6 +439,8 @@
     <title>The Six Sentence Patterns</title>
 
     <p>Every complete sentence in English follows one of six basic structural patterns. These patterns are determined by verb type and required elements.</p>
+
+    <p>Think of these patterns as the grammar's underlying skeletons. Individual sentences may vary enormously in length, vocabulary, and complexity, but the core structure—stripped of all adverbials and modifiers—will always be one of these six. Identifying a pattern means asking: once I remove everything optional, what is the minimum grammatical core that remains? That core, defined by the verb and its required arguments, is the pattern. Practice with this approach until it becomes automatic; the ability to see through surface complexity to the underlying structure is what makes sentence analysis reliable and consistent.</p>
 
     <paragraphs>
       <title>Pattern 1: Intransitive (S + V)</title>
@@ -770,6 +780,8 @@
 
     <p>Patterns 2 and 3 share a common feature: instead of a direct object, the verb is followed by a <em>subject complement</em>—a word or phrase that loops back to describe or identify the subject. The difference between the two patterns lies in which verb connects them.</p>
 
+    <p>This section examines Patterns 2 and 3 in more detail, with diagrams that make the structural parallel explicit. The key takeaway is this: in both patterns, the element after the verb is not an object—it is a complement. It does not receive the verb's action; it characterizes the subject. That single observation separates these patterns from all transitive patterns, where an object is present and refers to an entity distinct from the subject.</p>
+
     <paragraphs>
       <title>Pattern 2: Copular <em>Be</em></title>
     </paragraphs>
@@ -870,6 +882,8 @@
 
     <p>Pattern 4 — the transitive sentence — is the most common sentence type in English. A transitive verb extends its action outward to a <em>direct object</em>: some entity that receives, undergoes, or results from the action.</p>
 
+    <p>Because transitive verbs are so prevalent, understanding them precisely matters for both analysis and writing. The subject acts; the direct object is acted upon. But that direction of action is not always as straightforward as it sounds. In <foreign>She received a letter</foreign>, the subject is on the receiving end rather than doing something to the object. In <foreign>She resembles her mother</foreign>, there is no physical action at all. Yet both are transitive: both have a direct object, both pass the what/whom question test, and both can be made passive. The label <em>transitive</em> describes grammatical structure—the presence of a direct object inside the VP—not necessarily physical causation.</p>
+
     <paragraphs>
       <title>The Direct Object</title>
     </paragraphs>
@@ -931,6 +945,8 @@
     <title>Ditransitive Sentences: A Closer Look</title>
 
     <p>Patterns 5 and 6 are both called <em>ditransitive</em> because the verb takes two arguments beyond the subject. In Pattern 5 those are an indirect object and a direct object; in Pattern 6 they are a direct object and an object complement. Both patterns place two elements inside the VP after the verb, which makes them easy to confuse—but the relationship between those two elements is fundamentally different.</p>
+
+    <p>The clearest way to approach the distinction is to think about what the two post-verb elements have to do with each other. In Pattern 5, the two NPs are separate entities—a recipient and a thing transferred; they do not refer to the same thing. In Pattern 6, the second element is not a new entity at all; it characterizes the first. Inserting an implied <foreign>to be</foreign> between the two post-verb elements is a reliable test: if the result makes sense, you have an object complement (Pattern 6); if it does not, you have an indirect object followed by a direct object (Pattern 5).</p>
 
     <paragraphs>
       <title>Pattern 5: Indirect Object + Direct Object</title>
@@ -1018,6 +1034,8 @@
   <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-86">
     <title>A Systematic Approach to Pattern Identification</title>
 
+    <p>Identifying a sentence pattern reliably requires a consistent procedure. Students who skip steps or try to match patterns from memory often make the same mistakes: mistaking adverbials for arguments, confusing linking and transitive uses of the same verb, or misreading Pattern 5 as Pattern 6. The seven-step process below eliminates these errors by working through the sentence methodically, from the verb outward. Apply it to every practice sentence until the steps become automatic.</p>
+
     <paragraphs>
       <title>Step-by-Step Process</title>
     </paragraphs>
@@ -1083,6 +1101,8 @@
 
   <section xml:id="ch-08-basic-sentence-elements-and-sentence-patterns-sec-87">
     <title>Common Misconceptions</title>
+
+    <p>Even after learning the six patterns, a handful of recurring errors continue to appear. They are predictable enough that addressing them directly will save considerable confusion. In each case the error comes from applying a rule too broadly, or from failing to apply the removal tests that distinguish core arguments from optional modifiers. The four misconceptions below are the ones students most commonly encounter.</p>
 
     <paragraphs>
       <title>&quot;Adverbials change the pattern&quot;</title>
