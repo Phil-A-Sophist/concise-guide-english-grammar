@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-09-compound-and-complex-sentences" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Compound and Complex Sentences</title>
+  <title>Conjunctions and Clauses</title>
 
   <objectives>
     <title>Learning Objectives</title>
     <ul>
+      <li><p>Distinguish clauses from phrases</p></li>
+      <li><p>Recognize conjoined phrases (compound NP and compound VP) and how they differ from compound sentences</p></li>
       <li><p>Define compound sentences and use coordinating conjunctions correctly</p></li>
-      <li><p>Define complex sentences and identify types of dependent clauses</p></li>
-      <li><p>Distinguish between independent and dependent clauses</p></li>
+      <li><p>Apply the flip test to identify complex sentences</p></li>
       <li><p>Use subordinating conjunctions to express various relationships</p></li>
       <li><p>Identify and correct comma splices and run-on sentences</p></li>
-      <li><p>Apply appropriate punctuation to compound and complex structures</p></li>
-      <li><p>Choose effectively between coordination and subordination</p></li>
+      <li><p>Apply appropriate punctuation to compound, complex, and compound-complex structures</p></li>
+      <li><p>Manage clause density, end-weight, and emphasis in writing</p></li>
+      <li><p>Clause</p></li>
+      <li><p>Phrase</p></li>
       <li><p>Simple sentence</p></li>
       <li><p>Compound sentence</p></li>
       <li><p>Complex sentence</p></li>
       <li><p>Compound-complex sentence</p></li>
       <li><p>Independent clause</p></li>
-      <li><p>Dependent clause (subordinate clause)</p></li>
+      <li><p>Dependent clause</p></li>
       <li><p>Coordinating conjunction</p></li>
       <li><p>Subordinating conjunction</p></li>
       <li><p>Conjunctive adverb</p></li>
-      <li><p>Relative clause</p></li>
-      <li><p>Adverb clause</p></li>
-      <li><p>Noun clause</p></li>
     </ul>
   </objectives>
 
@@ -94,6 +94,111 @@
       <li><p>Compound predicate: <foreign>The dog <em>barked</em> and <em>chased</em> the squirrel.</foreign> (still simple—one subject)</p></li>
       <li><p>Heavy modification: <foreign>The exhausted marathon runner from Kenya collapsed at the finish line.</foreign> (still simple—one clause)</p></li>
     </ul>
+
+  </section>
+
+  <section xml:id="ch-09-clauses-and-phrases">
+    <title>Clauses and Phrases</title>
+
+    <p>Before examining how sentences are built from multiple clauses, it helps to draw a clear line between two fundamental building blocks: <term>clauses</term> and <term>phrases</term>. You have been working with both since Chapter 5, but the difference becomes especially important now that we are studying how clauses combine.</p>
+
+    <p>A <term>phrase</term> is a word or group of words that functions as a grammatical unit but lacks a subject-predicate pair. Phrases are the components of clauses—they fill slots in the sentence, but they cannot express a complete thought on their own. You have already worked extensively with noun phrases (NP), verb phrases (VP), prepositional phrases (PP), adjective phrases (AdjP), and adverb phrases (AdvP).</p>
+
+    <p>A <term>clause</term>, by contrast, contains both a subject and a predicate. A clause can be independent (capable of standing alone as a sentence) or dependent (grammatically incomplete without a main clause to support it).</p>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <row bottom="minor" header="yes">
+        <cell>Unit</cell>
+        <cell>Has subject + predicate?</cell>
+        <cell>Example</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Phrase</cell>
+        <cell>No</cell>
+        <cell><foreign>the dog</foreign>, <foreign>ran quickly</foreign>, <foreign>in the park</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Independent clause</cell>
+        <cell>Yes — stands alone</cell>
+        <cell><foreign>The dog barked.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Dependent clause</cell>
+        <cell>Yes — cannot stand alone</cell>
+        <cell><foreign>when the dog barked</foreign></cell>
+      </row>
+    </tabular>
+
+    <p>The key test: does the unit have both a subject and a finite verb? If yes, it is a clause. If it can stand alone as a sentence, it is an independent clause. If it begins with a subordinating word that makes it lean on another clause for completion, it is a dependent clause.</p>
+
+    <p>Phrases are <em>parts</em> of clauses—an NP fills the subject slot, a VP fills the predicate slot, a PP attaches as a modifier. The rest of this chapter is about what happens when full clauses combine. Understanding the phrase/clause distinction prevents a common confusion: a sentence with two verb phrases or two noun phrases is not automatically a compound sentence. Only when there are two full clauses—each with its own subject and predicate—does compounding apply.</p>
+
+  </section>
+
+  <section xml:id="ch-09-conjoined-phrases">
+    <title>Conjoined Phrases</title>
+
+    <p>Conjunctions do not only connect full clauses. They can also join two phrases of the same type, producing a larger phrase. This is called coordination at the phrase level, and it is important to distinguish it from compound sentences, which join clauses.</p>
+
+    <p>When a conjunction joins two noun phrases, the result is a larger NP—not a compound sentence. Similarly, two verb phrases joined by a conjunction produce a larger VP, not a compound sentence. The key grammatical difference is that conjoined phrases share a single subject or predicate; compound sentences each have their own.</p>
+
+    <paragraphs>
+      <title>Compound NP (Conjoined Noun Phrases)</title>
+    </paragraphs>
+
+    <p>In <foreign>Marcus and Elena traveled to Spain</foreign>, the conjunction <foreign>and</foreign> joins two noun phrases—<foreign>Marcus</foreign> and <foreign>Elena</foreign>—into a single compound NP that serves as the subject. There is only one predicate. This is a simple sentence with a compound subject, not a compound sentence.</p>
+
+    <image source="diagrams/new/ch09_compound_subj_only.png" width="40%">
+      <description>Syntax tree for "Marcus and Elena traveled" showing compound NP subject — each name has its own NP node inside a larger NP</description>
+    </image>
+    <p><c>[S [NP [NP [N Marcus]] [CONJ and] [NP [N Elena]]] [VP [V traveled]]]</c></p>
+
+    <p>Notice that each conjunct—<foreign>Marcus</foreign> and <foreign>Elena</foreign>—keeps its own NP node inside the larger NP. The conjunction holds them together at the phrase level. There is no second predicate, so no second clause.</p>
+
+    <paragraphs>
+      <title>Compound VP (Conjoined Verb Phrases)</title>
+    </paragraphs>
+
+    <p>In <foreign>The dog barked and chased the squirrel</foreign>, the conjunction joins two verb phrases—<foreign>barked</foreign> and <foreign>chased the squirrel</foreign>—into a single compound VP. There is only one subject. This is again a simple sentence, this time with a compound predicate.</p>
+
+    <p><c>[S [NP [DET The] [N dog]] [VP [VP [V barked]] [CONJ and] [VP [V chased] [NP [DET the] [N squirrel]]]]]</c></p>
+
+    <p>Each conjunct VP keeps its own VP node inside the larger compound VP.</p>
+
+    <paragraphs>
+      <title>Phrase vs. Clause Conjunction: The Test</title>
+    </paragraphs>
+
+    <p>The practical test: does each side of the conjunction have its own subject <em>and</em> predicate? If so, you have a compound sentence (two independent clauses). If they share a subject or a predicate, you have a conjoined phrase inside a simple sentence.</p>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor" header="yes">
+        <cell>Example</cell>
+        <cell>Structure</cell>
+        <cell>Sentence type</cell>
+      </row>
+      <row bottom="minor">
+        <cell><foreign>Marcus and Elena traveled.</foreign></cell>
+        <cell>Compound NP subject, one VP</cell>
+        <cell>Simple</cell>
+      </row>
+      <row bottom="minor">
+        <cell><foreign>The dog barked and chased.</foreign></cell>
+        <cell>One NP subject, compound VP</cell>
+        <cell>Simple</cell>
+      </row>
+      <row bottom="minor">
+        <cell><foreign>Marcus traveled, and Elena stayed.</foreign></cell>
+        <cell>Two full ICs (each with subject + predicate)</cell>
+        <cell>Compound</cell>
+      </row>
+    </tabular>
 
   </section>
 
@@ -202,11 +307,15 @@
       </row>
     </tabular>
 
-    <p><em>Punctuation</em>: Use a semicolon before and comma after the conjunctive adverb:</p>
+    <p><em>Punctuation</em>: The default method is to write two separate sentences, with the conjunctive adverb beginning the second sentence followed by a comma:</p>
+
+    <p><q><foreign>The experiment failed. However<em>,</em> we learned from the results.</foreign></q></p>
+
+    <p>A semicolon before the conjunctive adverb is also acceptable, particularly when the two ideas are closely connected and you want to keep them in a single sentence:</p>
 
     <p><q><foreign>The experiment failed<em>;</em> however<em>,</em> we learned from the results.</foreign></q></p>
 
-    <p>Notice that conjunctive adverbs are more precise than coordinating conjunctions in some ways—they offer a wider vocabulary for specifying logical relationships. Where <foreign>but</foreign> signals contrast broadly, you can choose between <foreign>however</foreign>, <foreign>nevertheless</foreign>, <foreign>nonetheless</foreign>, or <foreign>instead</foreign> depending on the nuance you want. That precision comes with a punctuation obligation: the semicolon before the conjunctive adverb is required because the two clauses are still independent, and the comma after sets the adverb apart from the rest of the second clause. Omitting either mark creates a comma splice or a run-on.</p>
+    <p>Notice that conjunctive adverbs are more precise than coordinating conjunctions in some ways—they offer a wider vocabulary for specifying logical relationships. Where <foreign>but</foreign> signals contrast broadly, you can choose between <foreign>however</foreign>, <foreign>nevertheless</foreign>, <foreign>nonetheless</foreign>, or <foreign>instead</foreign> depending on the nuance you want. In either form—period or semicolon—a comma always follows the conjunctive adverb to set it apart from the rest of the second clause. Omitting that comma (or using only a plain comma between the clauses) creates a comma splice or a run-on.</p>
 
     <paragraphs>
       <title>Compound vs. Compound Elements</title>
@@ -271,10 +380,10 @@
 
     <ul>
       <li><p><foreign>When the power flickered</foreign> (What happened?)</p></li>
-      <li><p><foreign>That everyone noticed</foreign> (What about it?)</p></li>
+      <li><p><foreign>Because she had other plans</foreign> (Why?)</p></li>
     </ul>
 
-    <p>The subordinating word (<foreign>when, that, because, who</foreign>) transforms an independent clause into a dependent one.</p>
+    <p>The subordinating word (<foreign>when, because, although, if, since</foreign>) transforms an independent clause into a dependent one, making it lean on a main clause for completion.</p>
 
     <paragraphs>
       <title>Creating Complex Sentences</title>
@@ -282,9 +391,9 @@
 
     <p><q><foreign>Everyone looked up <em>when the power flickered</em>.</foreign></q></p>
 
-    <p><q><foreign>The fact <em>that everyone noticed</em> surprised the speaker.</foreign></q></p>
+    <p><q><foreign>She declined <em>because she had other plans</em>.</foreign></q></p>
 
-    <p>The dependent clause provides context, explanation, or specification for the main clause.</p>
+    <p>The dependent clause provides context, explanation, condition, or timing for the main clause.</p>
 
     <image source="diagrams/new/ch09_complex_because.png" width="60%">
       <description>Syntax tree for "She declined because she had other plans" showing independent and dependent clause structure</description>
@@ -304,113 +413,37 @@
 
     <p>Subordination also guides emphasis. When you place an idea in a dependent clause, you push it into the background; the independent clause stays in the foreground. This is how skilled writers keep readers focused on what matters: background information—context, conditions, causes—goes into subordinate clauses, while the main point stands on its own. A series of compound sentences gives every idea equal grammatical weight, which can make all ideas feel equally important, diluting the emphasis you want. Subordination lets you make the hierarchy of your ideas visible in the grammar of your sentences.</p>
 
-  </section>
-
-  <section xml:id="ch-09-compound-and-complex-sentences-sec-95">
-    <title>Types of Dependent Clauses</title>
-
-    <p>Not all dependent clauses do the same thing. Just as a single word can function as a noun, a verb, or a modifier depending on its position in a sentence (as you saw in Chapters 5 and 6), a dependent clause can perform different grammatical functions depending on how it is attached to the rest of the sentence. Some dependent clauses modify verbs, behaving like adverbs. Others modify nouns, behaving like adjectives. Still others fill an argument slot in the clause entirely—serving as subjects, objects, or complements—and behave like noun phrases.</p>
-
-    <p>These functional differences matter because they determine where the clause can appear, what punctuation it takes, and how you analyze it in a diagram. Dependent clauses are classified by their grammatical function:</p>
-
     <paragraphs>
-      <title>Adverb Clauses (Adverbial Clauses)</title>
+      <title>The Flip Test</title>
     </paragraphs>
 
-    <p><term>Adverb clauses</term> modify verbs, adjectives, or sentences, answering questions like when?, why?, under what conditions?</p>
+    <p>One of the most reliable ways to identify a complex sentence—and to confirm that a clause is dependent—is the <term>flip test</term>: move the dependent clause to the front of the sentence. If the result is grammatical and requires a comma, you have a complex sentence with a movable dependent clause.</p>
 
-    <p>Like single-word adverbs, adverb clauses are generally mobile: they can appear at the beginning, middle, or end of a sentence, though placement affects punctuation. When an adverb clause comes first, it takes a comma; when it follows the main clause, no comma is typically needed. Recognizing them is a matter of identifying the subordinating conjunction at the front and asking what question the clause answers relative to the main verb.</p>
+    <p>Start with: <q><foreign>She declined because she had other plans.</foreign></q></p>
 
-    <p><em>Time</em>:</p>
+    <p>Flip it: <q><foreign>Because she had other plans, she declined.</foreign></q> ✓</p>
 
-    <ul>
-      <li><p><foreign>We celebrated <em>when the results came in</em>.</foreign></p></li>
-      <li><p><foreign><em>After the concert ended</em>, the crowd dispersed.</foreign></p></li>
-    </ul>
+    <p>The flipped version is grammatical and takes a comma after the dependent clause. This confirms that <foreign>because she had other plans</foreign> is a dependent clause and the sentence is complex.</p>
 
-    <p><em>Reason</em>:</p>
+    <p>Try it with a compound sentence:</p>
 
-    <ul>
-      <li><p><foreign>She declined <em>because she had other plans</em>.</foreign></p></li>
-      <li><p><foreign><em>Since you asked</em>, I'll explain.</foreign></p></li>
-    </ul>
+    <p>Start with: <q><foreign>She declined, and he went alone.</foreign></q></p>
 
-    <p><em>Contrast</em>:</p>
+    <p>Flip: <q><foreign><delete>And he went alone, she declined.</delete></foreign></q> ✗</p>
 
-    <ul>
-      <li><p><foreign><em>Although the evidence was strong</em>, the jury was skeptical.</foreign></p></li>
-      <li><p><foreign>The project succeeded <em>even though we faced obstacles</em>.</foreign></p></li>
-    </ul>
+    <p>Moving a coordinating conjunction to the front produces an ungrammatical result—confirming that there is no subordinate clause to flip.</p>
 
-    <p><em>Condition</em>:</p>
-
-    <ul>
-      <li><p><foreign><em>If the weather improves</em>, we'll go hiking.</foreign></p></li>
-      <li><p><foreign>I won't sign <em>unless you modify the contract</em>.</foreign></p></li>
-    </ul>
+    <p>The flip test is a practical diagnostic tool. When you are unsure whether a sentence is compound or complex, try flipping what comes after the conjunction. If it can move to the front and remain grammatical, it is a dependent clause and the sentence is complex.</p>
 
     <paragraphs>
-      <title>Relative Clauses (Adjective Clauses)</title>
+      <title>Subordinating Conjunctions</title>
     </paragraphs>
-
-    <p><term>Relative clauses</term> modify nouns, specifying which person, thing, or place is meant. They're introduced by relative pronouns (<foreign>who, whom, which, that, whose</foreign>) or relative adverbs (<foreign>where, when, why</foreign>).</p>
-
-    <p>The relative pronoun does double duty: it connects the clause to the noun it modifies, and it fills a grammatical role inside the clause itself. In <foreign>the candidate who impressed the committee</foreign>, <foreign>who</foreign> is both the link to <foreign>candidate</foreign> and the subject of <foreign>impressed</foreign>. In <foreign>the book that I read</foreign>, <foreign>that</foreign> is the link and also the direct object of <foreign>read</foreign>. This dual function is what makes relative clauses particularly interesting structurally: they are embedded clauses with a gap where the relative pronoun has been raised to the front.</p>
-
-    <ul>
-      <li><p><foreign>The candidate <em>who impressed the committee</em> received the position.</foreign></p></li>
-      <li><p><foreign>The novel <em>that won the award</em> explores identity.</foreign></p></li>
-      <li><p><foreign>This is the park <em>where we first met</em>.</foreign></p></li>
-    </ul>
-
-    <image source="diagrams/new/ch09_relative_clause.png" width="65%">
-      <description>Syntax tree for "The candidate who impressed the committee received the position" showing a relative clause modifying the subject NP</description>
-    </image>
-    <p><c>[S [NP [DET The] [N candidate] [RC [REL who] [VP [V impressed] [NP [DET the] [N committee]]]]] [VP [V received] [NP [DET the] [N position]]]]</c></p>
-
-    <p><em>Restrictive vs. Non-restrictive</em>:</p>
-
-    <ul>
-      <li><p><em>Restrictive</em> (essential): <foreign>The students <em>who studied</em> passed.</foreign> (specifies which students)</p></li>
-      <li><p><em>Non-restrictive</em> (additional info): <foreign>My sister, <em>who lives in Boston</em>, visited.</foreign> (adds information about the only sister)</p></li>
-    </ul>
-
-    <p>Non-restrictive clauses are set off with commas.</p>
-
-    <paragraphs>
-      <title>Noun Clauses</title>
-    </paragraphs>
-
-    <p><term>Noun clauses</term> function as noun phrases—subjects, objects, or complements. They're introduced by <foreign>that</foreign>, <foreign>whether</foreign>, <foreign>if</foreign>, or wh-words.</p>
-
-    <p><em>As subject</em>: <foreign><em>That she resigned</em> shocked the board.</foreign></p>
-
-    <image source="diagrams/new/ch09_noun_clause_subj.png" width="55%">
-      <description>Syntax tree for "That she resigned shocked the board" showing the noun clause functioning as the sentence subject</description>
-    </image>
-    <p><c>[S [NC [COMP That] [NP [PRON she]] [VP [V resigned]]] [VP [V shocked] [NP [DET the] [N board]]]]</c></p>
-
-    <p><em>As direct object</em>: <foreign>I understand <em>that you're frustrated</em>.</foreign></p>
-
-    <image source="diagrams/new/ch09_noun_clause_obj.png" width="60%">
-      <description>Syntax tree for "I understand that you are frustrated" showing the noun clause as direct object</description>
-    </image>
-    <p><c>[S [NP [PRON I]] [VP [V understand] [NC [COMP that] [NP [PRON you]] [VP [V are] [ADJP [ADJ frustrated]]]]]]</c></p>
-
-    <p><em>As complement</em>: <foreign>The problem is <em>that we underestimated demand</em>.</foreign></p>
-
-  </section>
-
-  <section xml:id="ch-09-compound-and-complex-sentences-sec-96">
-    <title>Subordinating Conjunctions</title>
 
     <p><term>Subordinating conjunctions</term> are the words that transform an independent clause into a dependent one. They attach to the beginning of a clause and make it unable to stand alone—it now needs a main clause to complete it. But they do more than create grammatical dependence: they also specify the relationship between the dependent clause and the main clause.</p>
 
     <p>That relationship is entirely a function of which conjunction is used. <foreign>Because she practiced</foreign> expresses cause. <foreign>Although she practiced</foreign> expresses concession. <foreign>When she practiced</foreign> expresses timing. The grammar is identical in all three cases—a subject and a predicate preceded by a subordinating word—but the meaning shifts dramatically. Choosing a subordinating conjunction is choosing how to frame the relationship between your ideas.</p>
 
     <p>Common subordinating conjunctions, grouped by the relationship they signal:</p>
-
-    <p>A few items in the table deserve special attention. The word <foreign>since</foreign> appears in both the time row and the cause/reason row, because it can signal either relationship depending on context: <foreign>Since the storm, the streets have flooded</foreign> (time) versus <foreign>Since you've already eaten, skip dessert</foreign> (cause). Similarly, <foreign>as</foreign> and <foreign>while</foreign> each appear in multiple categories. When you encounter these ambiguous words, use the surrounding context to determine which relationship is intended. A reliable check is to substitute an unambiguous conjunction—<foreign>because</foreign> for cause, <foreign>when</foreign> for time—and see whether the meaning holds.</p>
 
     <tabular>
       <row header="yes">
@@ -443,7 +476,10 @@
       </row>
     </tabular>
 
+    <p>A few items in the table deserve special attention. The word <foreign>since</foreign> appears in both the time row and the cause/reason row, because it can signal either relationship depending on context: <foreign>Since the storm, the streets have flooded</foreign> (time) versus <foreign>Since you've already eaten, skip dessert</foreign> (cause). Similarly, <foreign>as</foreign> and <foreign>while</foreign> each appear in multiple categories. When you encounter these ambiguous words, use the surrounding context to determine which relationship is intended. A reliable check is to substitute an unambiguous conjunction—<foreign>because</foreign> for cause, <foreign>when</foreign> for time—and see whether the meaning holds.</p>
+
   </section>
+
 
   <section xml:id="ch-09-compound-and-complex-sentences-sec-97">
     <title>Punctuation in Compound and Complex Sentences</title>
@@ -466,10 +502,16 @@
       <li><p><foreign>It rained; we stayed inside.</foreign></p></li>
     </ul>
 
-    <p><em>With conjunctive adverb</em>: semicolon before, comma after</p>
+    <p><em>With conjunctive adverb (period, default)</em>: period ending first sentence; conjunctive adverb begins second sentence with comma after</p>
 
     <ul>
-      <li><p><foreign>It rained; <em>therefore,</em> we stayed inside.</foreign></p></li>
+      <li><p><foreign>It rained. Therefore<em>,</em> we stayed inside.</foreign></p></li>
+    </ul>
+
+    <p><em>With conjunctive adverb (semicolon, additional option)</em>: semicolon before, comma after</p>
+
+    <ul>
+      <li><p><foreign>It rained<em>;</em> therefore<em>,</em> we stayed inside.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -488,17 +530,34 @@
       <li><p><foreign>We stayed inside <em>when it rained</em>.</foreign></p></li>
     </ul>
 
-    <p><em>Non-restrictive relative clauses</em>: commas around</p>
+    <paragraphs>
+      <title>Compound-Complex Sentences</title>
+    </paragraphs>
+
+    <p>A <term>compound-complex sentence</term> contains at least two independent clauses <em>and</em> at least one dependent clause. It combines both types of connection at once: coordination joins the independent clauses, while a subordinating conjunction introduces the dependent clause. Punctuation follows both sets of rules simultaneously.</p>
+
+    <p>Apply the rules together:</p>
 
     <ul>
-      <li><p><foreign>My brother, <em>who lives in Seattle</em>, visited.</foreign></p></li>
+      <li><p>Comma before a coordinating conjunction joining two independent clauses</p></li>
+      <li><p>Comma after an initial dependent clause</p></li>
     </ul>
 
-    <p><em>Restrictive relative clauses</em>: no commas</p>
+    <p><em>Dependent clause first</em>:</p>
 
     <ul>
-      <li><p><foreign>The brother <em>who lives in Seattle</em> visited.</foreign></p></li>
+      <li><p><foreign><em>When the storm began</em>, the hikers sought shelter<em>, and</em> they waited for hours.</foreign></p></li>
     </ul>
+
+    <p><em>Dependent clause in the middle</em>:</p>
+
+    <ul>
+      <li><p><foreign>The evidence was strong<em>,</em> but she declined <em>because she had other plans</em>.</foreign></p></li>
+    </ul>
+
+    <p>The comma before <foreign>but</foreign> joins the two independent clauses. No comma is needed before the dependent clause <foreign>because she had other plans</foreign> because it follows its main clause.</p>
+
+    <p>Compound-complex sentences are natural and common in well-developed prose. They allow a writer to present parallel developments (through coordination) while precisely specifying cause, time, or condition (through subordination) all within one sentence. Used deliberately, they give writing both accuracy and variety.</p>
 
   </section>
 
@@ -537,50 +596,68 @@
   </section>
 
   <section xml:id="ch-09-compound-and-complex-sentences-sec-99">
-    <title>Choosing Between Coordination and Subordination</title>
+    <title>Writing with Clauses: Emphasis, End-Weight, and Clarity</title>
 
-    <p>Coordination and subordination are not interchangeable tools that produce equivalent sentences with different punctuation. Each structures the relationship between ideas differently, and skilled writers choose deliberately between them. The choice affects both meaning and emphasis: coordination presents ideas as equals, while subordination ranks them—placing one in the foreground and pushing another into a supporting role. The following guidelines describe when each structure works best, though the final decision always depends on what you want the reader to notice.</p>
+    <p>Grammar is not just a system of rules—it is a set of choices that shape how readers experience your writing. The same events or ideas can be expressed as a compound sentence, a complex sentence, or several simple sentences. Each choice creates a different emphasis, a different rhythm, and a different sense of which ideas matter most. Understanding how clause structure shapes meaning lets you make those choices deliberately.</p>
 
     <paragraphs>
-      <title>When to Coordinate</title>
+      <title>Emphasis and the Main Clause</title>
     </paragraphs>
 
-    <p>Use compound sentences when ideas are:</p>
+    <p>In a complex sentence, the <em>independent clause carries the main emphasis</em>. Whatever idea you place in the main clause will feel like the point. Whatever you subordinate will feel like background.</p>
+
+    <p>Compare:</p>
 
     <ul>
-      <li><p>Equally important: <foreign>She applied, and she got the job.</foreign></p></li>
-      <li><p>Contrasting equally: <foreign>It looked easy, but it was difficult.</foreign></p></li>
-      <li><p>Part of a sequence: <foreign>He entered, he looked around, and he left.</foreign></p></li>
+      <li><p><foreign><em>Although she worked hard</em>, she did not pass.</foreign> (emphasis: she did not pass)</p></li>
+      <li><p><foreign><em>Although she did not pass</em>, she worked hard.</foreign> (emphasis: she worked hard)</p></li>
     </ul>
 
+    <p>The facts are the same. The emphasis is entirely different. A writer who wants the reader to notice the failure uses the first version; a writer who wants the reader to notice the effort uses the second. The grammar carries the message.</p>
+
     <paragraphs>
-      <title>When to Subordinate</title>
+      <title>End-Weight</title>
     </paragraphs>
 
-    <p>Use complex sentences when:</p>
+    <p>English sentences naturally build toward their ending. Readers hold information in working memory as they read, and they expect the most important or most complex content to arrive at the end of the sentence. When heavy or complex elements appear too early, the sentence feels front-loaded and harder to process. <term>End-weight</term> is the principle of placing the longer, heavier, or more important element toward the end.</p>
+
+    <p>Compare:</p>
 
     <ul>
-      <li><p>One idea supports another: <foreign>She got the job <em>because she prepared well</em>.</foreign></p></li>
-      <li><p>You want to emphasize the main clause: <foreign><em>Although it was difficult</em>, she succeeded.</foreign></p></li>
-      <li><p>Showing time, cause, or condition: <foreign>Call me <em>if you need help</em>.</foreign></p></li>
+      <li><p>Front-loaded: <foreign>That the committee rejected the proposal without explanation surprised everyone.</foreign></p></li>
+      <li><p>End-weighted: <foreign>Everyone was surprised that the committee rejected the proposal without explanation.</foreign></p></li>
     </ul>
 
+    <p>The second version is easier to read because the complex noun clause—the heavy element—arrives at the end, where the reader is prepared for it. Similarly, when you have a choice between placing a dependent clause before or after the main clause, consider which placement feels more natural and which places the important content at the end.</p>
+
     <paragraphs>
-      <title>Combining Both</title>
+      <title>Avoiding Clause Overload</title>
     </paragraphs>
 
-    <p><term>Compound-complex sentences</term> combine coordination and subordination:</p>
+    <p>A sentence can carry multiple clauses, but too many clauses in a single sentence obscures the relationships between ideas and exhausts the reader. A common trap is stringing ideas together with <foreign>and</foreign> or <foreign>so</foreign> indefinitely:</p>
 
-    <p><q><foreign>The dog barked <em>when the mail arrived</em>, <em>and</em> the cat hid under the bed.</foreign></q></p>
+    <p><foreign><delete>The lecture was long and the material was difficult and students were confused and they asked many questions.</delete></foreign></p>
 
-    <p>This shows temporal relationships (complex) while presenting two reactions as equal (compound).</p>
+    <p>This passage uses only coordination, giving every clause equal grammatical weight. It reads like a list of equally important events rather than a coherent argument. Subordination can clarify the relationships:</p>
 
-    <p>Compound-complex sentences are natural and common in well-developed prose. Avoid them when they become so long that clause boundaries are hard to track, but in general they are a sign that a writer is managing multiple ideas with precision—using subordination to show cause, time, or condition while using coordination to present parallel developments. Used deliberately, they give writing both accuracy and variety.</p>
+    <p><foreign>Because the lecture was long and the material was difficult, students were confused and asked many questions.</foreign></p>
+
+    <p>Now the cause-effect relationship is explicit. The two causes are subordinated; the results stand in the main clause. The revision is shorter and clearer.</p>
+
+    <p>A useful revision strategy: when you find a sentence with three or more coordinated clauses, ask which ideas are causes and which are results, which are background and which are foreground. Use subordination to show those relationships, and reserve coordination for ideas that are genuinely parallel and equally important.</p>
+
+    <paragraphs>
+      <title>Clause Order and Reader Expectations</title>
+    </paragraphs>
+
+    <p>Clause order also affects continuity. Placing a dependent clause at the beginning of a sentence—<foreign>Because she studied, she passed</foreign>—announces the context before the main point. This works well when the context is new information the reader needs before they can make sense of the main clause. Placing the dependent clause at the end—<foreign>She passed because she studied</foreign>—first states the main point and then explains it. This works well when the main clause can stand on its own and the dependent clause adds explanation.</p>
+
+    <p>There is no universal rule for which order to choose. The choice depends on what information the reader already has, what you want to emphasize, and whether the sentence sounds natural in context. The flip test gives you both options quickly: write the sentence with the dependent clause at the end, then flip it to the front, and choose the version that sounds better and places the emphasis where you want it.</p>
 
   </section>
 
   <section xml:id="ch-09-homework">
-    <title>Homework: Compound and Complex Sentences</title>
+    <title>Homework: Conjunctions and Clauses</title>
 
     <subsection xml:id="ch-09-homework-part1">
       <title>Part 1: Sentence Type Identification</title>
@@ -600,7 +677,7 @@
 
       <p>Clauses:</p>
       <ul>
-        <li><p><foreign>Although the weather was terrible</foreign> — DC (adverb clause)</p></li>
+        <li><p><foreign>Although the weather was terrible</foreign> — DC</p></li>
         <li><p><foreign>the athletes competed fiercely</foreign> — IC</p></li>
         <li><p><foreign>the crowd cheered enthusiastically</foreign> — IC</p></li>
       </ul>
@@ -612,7 +689,7 @@
       <p><em>Exercise 1.</em> <foreign>The professor who taught my linguistics class has retired, but she still occasionally gives guest lectures.</foreign></p>
       <ul>
         <li><p>Sentence type: _______</p></li>
-        <li><p>Clauses (identify each as IC or DC and classify any dependent clauses by type): _______</p></li>
+        <li><p>Clauses (identify each as IC or DC): _______</p></li>
       </ul>
 
       <p><em>Exercise 2.</em> <foreign>Because the deadline was extended, I had time to revise my paper thoroughly.</foreign></p>
@@ -627,64 +704,10 @@
         <li><p>Clauses: _______</p></li>
       </ul>
 
-      <p><em>Exercise 4.</em> Identify the dependent clause in each sentence and classify it as an adverb clause, relative clause, or noun clause:</p>
-
-      <p>a) <foreign>The candidate who impressed the committee received the position.</foreign></p>
-      <ul>
-        <li><p>Dependent clause: _______</p></li>
-        <li><p>Type: _______</p></li>
-      </ul>
-
-      <p>b) <foreign>I wonder whether she received my message.</foreign></p>
-      <ul>
-        <li><p>Dependent clause: _______</p></li>
-        <li><p>Type: _______</p></li>
-      </ul>
-
-      <p>c) <foreign>We will leave when the meeting ends.</foreign></p>
-      <ul>
-        <li><p>Dependent clause: _______</p></li>
-        <li><p>Type: _______</p></li>
-      </ul>
-
     </subsection>
 
     <subsection xml:id="ch-09-homework-part2">
-      <title>Part 2: Sentence Completion</title>
-
-      <paragraphs>
-        <title>Instructions</title>
-      </paragraphs>
-      <p>Complete each sentence with the requested element.</p>
-
-      <paragraphs>
-        <title>Exercises</title>
-      </paragraphs>
-
-      <p><em>Exercise 5.</em> Add a coordinating conjunction (FANBOYS) to create a compound sentence:</p>
-      <ul>
-        <li><p><foreign>The evidence was compelling ________ the jury remained skeptical.</foreign></p></li>
-      </ul>
-
-      <p><em>Exercise 6.</em> Add a subordinating conjunction to create a complex sentence:</p>
-      <ul>
-        <li><p><foreign>________ you finish your assignment, you may leave early.</foreign></p></li>
-      </ul>
-
-      <p><em>Exercise 7.</em> Add an appropriate conjunctive adverb with correct punctuation:</p>
-      <ul>
-        <li><p><foreign>The experiment produced unexpected results ________ the team decided to repeat it.</foreign></p></li>
-      </ul>
-
-      <p><em>Exercise 8.</em> Add a dependent clause to complete this sentence:</p>
-      <ul>
-        <li><p><foreign>The professor praised the students ________.</foreign></p></li>
-      </ul>
-
-    </subsection>
-
-    <subsection xml:id="ch-09-homework-part3">
-      <title>Part 3: Sentence Writing</title>
+      <title>Part 2: Sentence Writing</title>
 
       <paragraphs>
         <title>Instructions</title>
@@ -695,30 +718,32 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 9.</em> Write a compound sentence using a semicolon and a conjunctive adverb (such as <foreign>however</foreign>, <foreign>therefore</foreign>, <foreign>moreover</foreign>, <foreign>consequently</foreign>):</p>
+      <p><em>Exercise 4.</em> Write a compound sentence using a semicolon and a conjunctive adverb (such as <foreign>however</foreign>, <foreign>therefore</foreign>, <foreign>moreover</foreign>, <foreign>consequently</foreign>):</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p><em>Exercise 10.</em> Write a complex sentence with an adverb clause showing cause or reason (use <foreign>because</foreign>, <foreign>since</foreign>, or <foreign>as</foreign>):</p>
+      <p><em>Exercise 5.</em> Write a complex sentence with a dependent clause showing cause or reason (use <foreign>because</foreign>, <foreign>since</foreign>, or <foreign>as</foreign>):</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p><em>Exercise 11.</em> Write a complex sentence containing a relative clause that modifies the subject:</p>
+      <p><em>Exercise 6.</em> Write a compound-complex sentence. Use a coordinating conjunction (FANBOYS) to join two independent clauses, and add at least one dependent clause using a subordinating conjunction:</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p><em>Exercise 12.</em> Write a compound-complex sentence (two independent clauses + at least one dependent clause):</p>
+      <p><em>Exercise 7.</em> Write a complex sentence that begins with a dependent clause. Then rewrite the same sentence with the dependent clause moved to the end. Which version places more emphasis on the main clause? Explain briefly.</p>
       <ul>
-        <li><p>_______</p></li>
+        <li><p>Version 1 (DC first): _______</p></li>
+        <li><p>Version 2 (DC last): _______</p></li>
+        <li><p>Which places more emphasis on the main clause? _______</p></li>
       </ul>
 
     </subsection>
 
-    <subsection xml:id="ch-09-homework-part4">
-      <title>Part 4: Error Correction</title>
+    <subsection xml:id="ch-09-homework-part3">
+      <title>Part 3: Error Correction</title>
 
       <paragraphs>
         <title>Instructions</title>
@@ -739,19 +764,19 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 13.</em> <foreign><delete>The assignment was challenging, many students struggled to finish it on time.</delete></foreign></p>
+      <p><em>Exercise 8.</em> <foreign><delete>The assignment was challenging, many students struggled to finish it on time.</delete></foreign></p>
       <ul>
         <li><p>Correction 1: _______</p></li>
         <li><p>Correction 2: _______</p></li>
       </ul>
 
-      <p><em>Exercise 14.</em> <foreign><delete>She enjoys hiking he prefers swimming.</delete></foreign></p>
+      <p><em>Exercise 9.</em> <foreign><delete>She enjoys hiking he prefers swimming.</delete></foreign></p>
       <ul>
         <li><p>Correction 1: _______</p></li>
         <li><p>Correction 2: _______</p></li>
       </ul>
 
-      <p><em>Exercise 15.</em> <foreign><delete>The restaurant was crowded, we decided to order takeout instead.</delete></foreign></p>
+      <p><em>Exercise 10.</em> <foreign><delete>The restaurant was crowded, we decided to order takeout instead.</delete></foreign></p>
       <ul>
         <li><p>Correction 1: _______</p></li>
         <li><p>Correction 2: _______</p></li>
@@ -759,55 +784,170 @@
 
     </subsection>
 
-    <subsection xml:id="ch-09-homework-part5">
-      <title>Part 5: Analysis and Reflection</title>
+    <subsection xml:id="ch-09-homework-part4">
+      <title>Part 4: Sentence Tables and Diagrams</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Answer the following questions about coordination and subordination.</p>
+      <p>For each sentence below, complete the phrase/clause label table and draw a tree diagram.</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 16.</em> The following sentence uses coordination:</p>
+      <p><em>Exercise 11.</em> Complete the table and draw a tree diagram for each sentence.</p>
+
+      <p>a) Compound noun phrase (simple sentence): <foreign>Marcus and Elena traveled.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Phrase</em></cell>
+          <cell><foreign>Marcus</foreign></cell>
+          <cell><foreign>and Elena</foreign></cell>
+          <cell><foreign>traveled</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Overall NP label</em></cell>
+          <cell colspan="3">___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
+      <p>[Draw tree here]</p>
+
+      <p>b) Compound verb phrase (simple sentence): <foreign>The dog barked and chased the squirrel.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Phrase</em></cell>
+          <cell><foreign>The dog</foreign></cell>
+          <cell><foreign>barked</foreign></cell>
+          <cell><foreign>chased the squirrel</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Overall VP label</em></cell>
+          <cell colspan="3">___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
+      <p>[Draw tree here]</p>
+
+      <p>c) Compound sentence: <foreign>She writes poetry, and he composes music.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Clause</em></cell>
+          <cell><foreign>She writes poetry</foreign></cell>
+          <cell><foreign>and</foreign></cell>
+          <cell><foreign>he composes music</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label (IC or DC)</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
+      <p>[Draw tree here]</p>
+
+      <p>d) Complex sentence: <foreign>When it rained, we stayed inside.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Clause</em></cell>
+          <cell><foreign>When it rained</foreign></cell>
+          <cell><foreign>we stayed inside</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label (IC or DC)</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Subordinating conjunction</em></cell>
+          <cell colspan="2">___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
+      <p>[Draw tree here]</p>
+
+    </subsection>
+
+    <subsection xml:id="ch-09-homework-part5">
+      <title>Part 5: Emphasis, End-Weight, and Clause Revision</title>
+
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>Apply what you have learned about emphasis, end-weight, and clause management to revise and analyze sentences.</p>
+
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 12.</em> The following sentence uses coordination:</p>
 
       <p><foreign>The experiment failed, and the researchers were disappointed.</foreign></p>
 
-      <p>a) Rewrite this sentence using subordination to emphasize the researchers' disappointment:</p>
+      <p>a) Rewrite using subordination to place emphasis on the researchers' disappointment (make "the researchers were disappointed" the main clause):</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p>b) Rewrite it using subordination to emphasize that the experiment failed:</p>
+      <p>b) Rewrite using subordination to place emphasis on the experiment's failure (make "the experiment failed" the main clause):</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p>c) Which version (coordination or subordination) would you choose if you wanted to present both ideas as equally important? Explain.</p>
+      <p>c) Which version—a, b, or the original coordination—would you use if you wanted both ideas to feel equally important? Explain.</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p><em>Exercise 17.</em> Read the following passage and answer the questions:</p>
+      <p><em>Exercise 13.</em> The following sentence is front-loaded—the heavy element appears too early:</p>
 
-      <p><foreign>When the storm began, the hikers sought shelter. They found a small cave, and they waited there for hours. Although they were cold and hungry, they remained calm because they had prepared for emergencies.</foreign></p>
+      <p><foreign>That the committee rejected the proposal without reading it completely surprised the students.</foreign></p>
 
-      <p>a) Identify all independent and dependent clauses in the passage:</p>
-      <ul>
-        <li><p>Independent clauses: _______</p></li>
-        <li><p>Dependent clauses (and their types): _______</p></li>
-      </ul>
-
-      <p>b) How many sentences are in this passage, and what type is each?</p>
+      <p>a) Rewrite the sentence to apply end-weight (move the heavy clause toward the end):</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
 
-      <p><em>Exercise 18.</em> In 3-4 sentences, explain when a writer should choose coordination over subordination (or vice versa). What effect does each choice have on emphasis and the relationship between ideas? Provide an example to illustrate your point.</p>
+      <p>b) Why is the revised version easier to read? Refer to end-weight in your answer.</p>
       <ul>
         <li><p>_______</p></li>
+      </ul>
+
+      <p><em>Exercise 14.</em> The following passage uses only coordination. Rewrite it using a mix of subordination and coordination to make the relationships between ideas clear. Then briefly explain one revision you made and why.</p>
+
+      <p><foreign>The lecture was long and the material was difficult and students were confused and they asked many questions and the professor stayed late to help.</foreign></p>
+      <ul>
+        <li><p>Revised passage: _______</p></li>
+        <li><p>Explanation of one revision: _______</p></li>
       </ul>
 
     </subsection>
@@ -864,8 +1004,8 @@
   <glossary>
     <title>Glossary</title>
     <gi>
-      <title>Adverb clause</title>
-      <p>A dependent clause that modifies a verb, adjective, or sentence.</p>
+      <title>Clause</title>
+      <p>A grammatical unit containing a subject and a predicate. Clauses may be independent (able to stand alone) or dependent (requiring a main clause to complete them).</p>
     </gi>
     <gi>
       <title>Comma splice</title>
@@ -880,6 +1020,10 @@
       <p>A sentence with two or more independent clauses joined by coordination.</p>
     </gi>
     <gi>
+      <title>Compound-complex sentence</title>
+      <p>A sentence containing at least two independent clauses and at least one dependent clause.</p>
+    </gi>
+    <gi>
       <title>Conjunctive adverb</title>
       <p>An adverb that connects independent clauses (<foreign>however</foreign>, <foreign>therefore</foreign>).</p>
     </gi>
@@ -889,19 +1033,19 @@
     </gi>
     <gi>
       <title>Dependent clause</title>
-      <p>A clause that cannot stand alone; also called subordinate clause.</p>
+      <p>A clause that cannot stand alone; also called a subordinate clause. It begins with a subordinating word that makes it grammatically incomplete without a main clause.</p>
+    </gi>
+    <gi>
+      <title>End-weight</title>
+      <p>The principle that longer, heavier, or more complex elements should be placed toward the end of a sentence, where readers are best prepared to receive them.</p>
     </gi>
     <gi>
       <title>Independent clause</title>
       <p>A clause that can stand alone as a complete sentence.</p>
     </gi>
     <gi>
-      <title>Noun clause</title>
-      <p>A dependent clause functioning as a noun phrase.</p>
-    </gi>
-    <gi>
-      <title>Relative clause</title>
-      <p>A dependent clause that modifies a noun; introduced by relative pronouns.</p>
+      <title>Phrase</title>
+      <p>A word or group of words that functions as a grammatical unit but lacks a subject-predicate pair. Phrases are components of clauses.</p>
     </gi>
     <gi>
       <title>Run-on sentence</title>
