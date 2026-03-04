@@ -1042,42 +1042,26 @@
 
     <ol>
       <li><p><em>Find the main verb</em> (not auxiliaries like has, will, been)</p></li>
-    </ol>
-
-    <ol>
       <li><p><em>Identify the subject</em> (the NP before the verb)</p></li>
-    </ol>
-
-    <ol>
       <li><p><em>Set aside adverbials</em> (time, place, manner, reason phrases)</p></li>
+      <li><p><em>Check for <foreign>be</foreign> first</em> → If yes, Pattern 2 (Copular Be)</p></li>
+      <li><p><em>Apply the <foreign>be</foreign> substitution test</em> → If it works, Pattern 3 (Linking)</p></li>
+      <li>
+        <p>Examine what follows the verb:</p>
+        <ul>
+          <li><p>Nothing → Pattern 1 (Intransitive)</p></li>
+          <li><p>One NP → Pattern 4 (Transitive)</p></li>
+          <li><p>Two NPs or NP + AdjP → Continue to step 7</p></li>
+        </ul>
+      </li>
+      <li>
+        <p>For two elements after the verb, ask: Do they refer to the same thing?</p>
+        <ul>
+          <li><p>Same thing → Pattern 6 (DO + OC)</p></li>
+          <li><p>Different things → Pattern 5 (IO + DO)</p></li>
+        </ul>
+      </li>
     </ol>
-
-    <ol>
-      <li><p>*<em>Check for </em>be<em> first</em>* → If yes, Pattern 2 (Copular Be)</p></li>
-    </ol>
-
-    <ol>
-      <li><p>*<em>Apply the </em>be<em> substitution test</em>* → If it works, Pattern 3 (Linking)</p></li>
-    </ol>
-
-    <ol>
-      <li><p>Examine what follows the verb:</p></li>
-    </ol>
-
-    <ul>
-      <li><p>Nothing → Pattern 1 (Intransitive)</p></li>
-      <li><p>One NP → Pattern 4 (Transitive)</p></li>
-      <li><p>Two NPs or NP + AdjP → Continue to step 7</p></li>
-    </ul>
-
-    <ol>
-      <li><p>For two elements after the verb, ask: Do they refer to the same thing?</p></li>
-    </ol>
-
-    <ul>
-      <li><p>Same thing → Pattern 6 (DO + OC)</p></li>
-      <li><p>Different things → Pattern 5 (IO + DO)</p></li>
-    </ul>
 
     <paragraphs>
       <title>Worked Example</title>
