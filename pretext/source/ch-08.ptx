@@ -1156,16 +1156,7 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 1.</em> <foreign>The ambitious young researcher from the university laboratory discovered a remarkable solution.</foreign></p>
-
-      <ul>
-        <li><p>Subject NP: _____</p></li>
-        <li><p>Predicate: _____</p></li>
-        <li><p>Main verb: _____</p></li>
-        <li><p>Direct object: _____</p></li>
-      </ul>
-
-      <p><em>Exercise 2.</em> Identify all objects and complements (DO, IO, SC, OC) in each sentence:</p>
+      <p><em>Exercise 1.</em> Identify all objects and complements in each sentence. Label each as Direct Object (DO), Indirect Object (IO), Subject Complement (SC), or Object Complement (OC):</p>
 
       <p>a) <foreign>The committee awarded the outstanding student a prestigious scholarship.</foreign></p>
 
@@ -1185,7 +1176,7 @@
         <li><p>_____</p></li>
       </ul>
 
-      <p><em>Exercise 3.</em> For each highlighted element, indicate whether it is an argument (required by the verb) or an adverbial (optional modifier):</p>
+      <p><em>Exercise 2.</em> For each highlighted element, indicate whether it is an argument (required by the verb) or an adverbial (optional modifier):</p>
 
       <p>a) <foreign>She placed the documents <em>on the desk</em>.</foreign></p>
 
@@ -1214,36 +1205,6 @@
     </subsection>
 
     <subsection xml:id="ch-08-homework-part2">
-      <title>Sentence Completion</title>
-
-      <paragraphs>
-        <title>Instructions</title>
-      </paragraphs>
-      <p>Complete each sentence by adding the requested element.</p>
-
-      <paragraphs>
-        <title>Exercises</title>
-      </paragraphs>
-
-      <p><em>Exercise 4.</em> Add a direct object to create a transitive sentence:</p>
-
-      <p><foreign>The dedicated students completed _____.</foreign></p>
-
-      <p><em>Exercise 5.</em> Add an indirect object AND a direct object to create a ditransitive sentence:</p>
-
-      <p><foreign>The generous donor gave _____.</foreign></p>
-
-      <p><em>Exercise 6.</em> Add a subject complement to create a linking verb sentence:</p>
-
-      <p><foreign>After the long hike, the exhausted climbers seemed _____.</foreign></p>
-
-      <p><em>Exercise 7.</em> Add an object complement:</p>
-
-      <p><foreign>The board of directors elected her _____.</foreign></p>
-
-    </subsection>
-
-    <subsection xml:id="ch-08-homework-part3">
       <title>Sentence Pattern Identification</title>
 
       <paragraphs>
@@ -1279,35 +1240,35 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 8.</em> <foreign>The exhausted marathon runner collapsed at the finish line yesterday.</foreign></p>
+      <p><em>Exercise 3.</em> <foreign>The exhausted marathon runner collapsed at the finish line yesterday.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
         <li><p>Explanation: _____</p></li>
       </ul>
 
-      <p><em>Exercise 9.</em> <foreign>My grandmother's secret recipe remains a family treasure.</foreign></p>
+      <p><em>Exercise 4.</em> <foreign>My grandmother's secret recipe remains a family treasure.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
         <li><p>Explanation: _____</p></li>
       </ul>
 
-      <p><em>Exercise 10.</em> <foreign>The committee considered the proposal inadequate.</foreign></p>
+      <p><em>Exercise 5.</em> <foreign>The committee considered the proposal inadequate.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
         <li><p>Explanation: _____</p></li>
       </ul>
 
-      <p><em>Exercise 11.</em> <foreign>The chef prepared the guests an extraordinary seven-course meal.</foreign></p>
+      <p><em>Exercise 6.</em> <foreign>The chef prepared the guests an extraordinary seven-course meal.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
         <li><p>Explanation: _____</p></li>
       </ul>
 
-      <p><em>Exercise 12.</em> <foreign>The situation grew increasingly tense during the negotiations.</foreign></p>
+      <p><em>Exercise 7.</em> <foreign>The situation grew increasingly tense during the negotiations.</foreign></p>
 
       <ul>
         <li><p>Pattern: _____</p></li>
@@ -1316,35 +1277,180 @@
 
     </subsection>
 
-    <subsection xml:id="ch-08-homework-part4">
+    <subsection xml:id="ch-08-homework-part3">
       <title>Sentence Writing</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Write original sentences following each pattern. Label the key elements (S, V, DO, IO, SC, OC).</p>
+      <p>Write original sentences following each pattern. Label the key elements (Subject, Verb, Direct Object, Indirect Object, Subject Complement, Object Complement).</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 13.</em> Write a sentence following Pattern 4 (transitive: S + V + DO):</p>
+      <p><em>Exercise 8.</em> Write a sentence following Pattern 4 (transitive: S + V + DO):</p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
 
-      <p><em>Exercise 14.</em> Write a sentence following Pattern 5 (ditransitive with IO + DO: S + V + IO + DO):</p>
+      <p><em>Exercise 9.</em> Write a sentence following Pattern 5 (ditransitive with IO + DO: S + V + IO + DO):</p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
 
-      <p><em>Exercise 15.</em> Write a sentence following Pattern 6 (ditransitive with DO + OC: S + V + DO + OC):</p>
+      <p><em>Exercise 10.</em> Write a sentence following Pattern 6 (ditransitive with DO + OC: S + V + DO + OC):</p>
 
       <ul>
         <li><p>_____</p></li>
       </ul>
+
+    </subsection>
+
+    <subsection xml:id="ch-08-homework-part4">
+      <title>Sentence Tables and Diagrams</title>
+
+      <paragraphs>
+        <title>Instructions</title>
+      </paragraphs>
+      <p>For each sentence below, complete the table by writing the grammatical label for each phrase—Subject (S), Verb (V), Direct Object (DO), Indirect Object (IO), Subject Complement (SC), or Object Complement (OC). Then draw a syntax tree diagram for the sentence.</p>
+
+      <paragraphs>
+        <title>Exercises</title>
+      </paragraphs>
+
+      <p><em>Exercise 11.</em> Complete each table and draw a tree diagram.</p>
+
+      <p>a) Pattern 1 (Intransitive): <foreign>Birds sing.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Phrase</em></cell>
+          <cell><foreign>Birds</foreign></cell>
+          <cell><foreign>sing</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
+
+      <p>b) Pattern 2 (Copular <em>Be</em>): <foreign>The solution was simple.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Phrase</em></cell>
+          <cell><foreign>The solution</foreign></cell>
+          <cell><foreign>was</foreign></cell>
+          <cell><foreign>simple</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
+
+      <p>c) Pattern 3 (Linking Verb): <foreign>The music sounded beautiful.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Phrase</em></cell>
+          <cell><foreign>The music</foreign></cell>
+          <cell><foreign>sounded</foreign></cell>
+          <cell><foreign>beautiful</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
+
+      <p>d) Pattern 4 (Transitive): <foreign>The student finished the report.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Phrase</em></cell>
+          <cell><foreign>The student</foreign></cell>
+          <cell><foreign>finished</foreign></cell>
+          <cell><foreign>the report</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
+
+      <p>e) Pattern 5 (Ditransitive, IO + DO): <foreign>The professor gave the class a deadline.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Phrase</em></cell>
+          <cell><foreign>The professor</foreign></cell>
+          <cell><foreign>gave</foreign></cell>
+          <cell><foreign>the class</foreign></cell>
+          <cell><foreign>a deadline</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
+
+      <p>f) Pattern 6 (Ditransitive, DO + OC): <foreign>The board declared the plan inadequate.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell><em>Phrase</em></cell>
+          <cell><foreign>The board</foreign></cell>
+          <cell><foreign>declared</foreign></cell>
+          <cell><foreign>the plan</foreign></cell>
+          <cell><foreign>inadequate</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell><em>Label</em></cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+          <cell>___________</cell>
+        </row>
+      </tabular>
+      <p><em>Diagram:</em></p>
 
     </subsection>
 
@@ -1360,7 +1466,7 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 16.</em> The verb <q><foreign>put</foreign></q> is unusual because it requires TWO arguments beyond the subject. Analyze the following sentences:</p>
+      <p><em>Exercise 12.</em> The verb <q><foreign>put</foreign></q> is unusual because it requires TWO arguments beyond the subject. Analyze the following sentences:</p>
 
       <p>a) <foreign>She put the book on the shelf.</foreign></p>
 
@@ -1370,7 +1476,7 @@
         <li><p>What does this tell you about the valency of <q><foreign>put</foreign></q>? _____</p></li>
       </ul>
 
-      <p><em>Exercise 17.</em> Some verbs can be either linking or transitive depending on context. Analyze these pairs:</p>
+      <p><em>Exercise 13.</em> Some verbs can be either linking or transitive depending on context. Analyze these pairs:</p>
 
       <p>a) <foreign>The milk smells sour.</foreign> vs. <foreign>The detective smells trouble.</foreign></p>
 
@@ -1379,7 +1485,7 @@
         <li><p>How can you tell? (Hint: Apply the <foreign>be</foreign> substitution test.) _____</p></li>
       </ul>
 
-      <p><em>Exercise 18.</em> In 3-4 sentences, explain how you distinguish between an argument and an adverbial when analyzing sentences. Why does this distinction matter for identifying sentence patterns? Give an example to illustrate.</p>
+      <p><em>Exercise 14.</em> In 3-4 sentences, explain how you distinguish between an argument and an adverbial when analyzing sentences. Why does this distinction matter for identifying sentence patterns? Give an example to illustrate.</p>
 
       <ul>
         <li><p>_____</p></li>
@@ -1406,12 +1512,12 @@
       <p><c>[S [NP [N Cameras]] [VP [V flashed]]]</c></p>
 
       <paragraphs>
-        <title>8.8.1 B: Intransitive with conjoined subjects</title>
+        <title>8.8.1 B: Intransitive with adverbials</title>
       </paragraphs>
-      <image source="diagrams/new/ch08_intrans_conj_subj.png" width="45%">
-        <description>Syntax tree for "Frodo and Sam travel" with coordinated subject NP</description>
+      <image source="diagrams/new/ch08_adverbial_spoke.png" width="55%">
+        <description>Syntax tree for "She spoke quietly in the library" showing an intransitive verb with two optional adverbials</description>
       </image>
-      <p><c>[S [NP [NP [N Frodo]] [CONJ and] [NP [N Sam]]] [VP [V travel]]]</c></p>
+      <p><c>[S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]] [PP [PREP in] [NP [DET the] [N library]]]]]</c></p>
 
       <paragraphs>
         <title>8.8.1 C: Intransitive with conjoined verbs</title>
