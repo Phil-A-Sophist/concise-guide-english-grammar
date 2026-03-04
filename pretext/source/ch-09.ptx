@@ -72,6 +72,8 @@
 
     <p>A <term>simple sentence</term> contains one independent clause—a subject-predicate unit that expresses a complete thought.</p>
 
+    <p>The simple sentence is the grammatical baseline. Before learning how clauses combine, it helps to understand what exactly makes a clause <q>independent.</q> An independent clause contains a subject and a finite verb and does not begin with any word that would subordinate it to another clause. It stands on its own. Everything in this chapter involves either joining two independent clauses (compounding) or embedding a dependent clause within or beside an independent one (subordination). The simple sentence is the starting point for all of it.</p>
+
     <image source="diagrams/new/ch09_simple_sentence.png" width="35%">
       <description>Syntax tree for "The students studied" showing a single independent clause</description>
     </image>
@@ -204,6 +206,8 @@
 
     <p><q><foreign>The experiment failed<em>;</em> however<em>,</em> we learned from the results.</foreign></q></p>
 
+    <p>Notice that conjunctive adverbs are more precise than coordinating conjunctions in some ways—they offer a wider vocabulary for specifying logical relationships. Where <foreign>but</foreign> signals contrast broadly, you can choose between <foreign>however</foreign>, <foreign>nevertheless</foreign>, <foreign>nonetheless</foreign>, or <foreign>instead</foreign> depending on the nuance you want. That precision comes with a punctuation obligation: the semicolon before the conjunctive adverb is required because the two clauses are still independent, and the comma after sets the adverb apart from the rest of the second clause. Omitting either mark creates a comma splice or a run-on.</p>
+
     <paragraphs>
       <title>Compound vs. Compound Elements</title>
     </paragraphs>
@@ -315,6 +319,8 @@
 
     <p><term>Adverb clauses</term> modify verbs, adjectives, or sentences, answering questions like when?, why?, under what conditions?</p>
 
+    <p>Like single-word adverbs, adverb clauses are generally mobile: they can appear at the beginning, middle, or end of a sentence, though placement affects punctuation. When an adverb clause comes first, it takes a comma; when it follows the main clause, no comma is typically needed. Recognizing them is a matter of identifying the subordinating conjunction at the front and asking what question the clause answers relative to the main verb.</p>
+
     <p><em>Time</em>:</p>
 
     <ul>
@@ -348,6 +354,8 @@
     </paragraphs>
 
     <p><term>Relative clauses</term> modify nouns, specifying which person, thing, or place is meant. They're introduced by relative pronouns (<foreign>who, whom, which, that, whose</foreign>) or relative adverbs (<foreign>where, when, why</foreign>).</p>
+
+    <p>The relative pronoun does double duty: it connects the clause to the noun it modifies, and it fills a grammatical role inside the clause itself. In <foreign>the candidate who impressed the committee</foreign>, <foreign>who</foreign> is both the link to <foreign>candidate</foreign> and the subject of <foreign>impressed</foreign>. In <foreign>the book that I read</foreign>, <foreign>that</foreign> is the link and also the direct object of <foreign>read</foreign>. This dual function is what makes relative clauses particularly interesting structurally: they are embedded clauses with a gap where the relative pronoun has been raised to the front.</p>
 
     <ul>
       <li><p><foreign>The candidate <em>who impressed the committee</em> received the position.</foreign></p></li>
@@ -402,6 +410,8 @@
 
     <p>Common subordinating conjunctions, grouped by the relationship they signal:</p>
 
+    <p>A few items in the table deserve special attention. The word <foreign>since</foreign> appears in both the time row and the cause/reason row, because it can signal either relationship depending on context: <foreign>Since the storm, the streets have flooded</foreign> (time) versus <foreign>Since you've already eaten, skip dessert</foreign> (cause). Similarly, <foreign>as</foreign> and <foreign>while</foreign> each appear in multiple categories. When you encounter these ambiguous words, use the surrounding context to determine which relationship is intended. A reliable check is to substitute an unambiguous conjunction—<foreign>because</foreign> for cause, <foreign>when</foreign> for time—and see whether the meaning holds.</p>
+
     <tabular>
       <row header="yes">
         <cell>Relationship</cell>
@@ -437,6 +447,8 @@
 
   <section xml:id="ch-09-compound-and-complex-sentences-sec-97">
     <title>Punctuation in Compound and Complex Sentences</title>
+
+    <p>Getting punctuation right in compound and complex sentences is not a matter of following arbitrary rules. Each rule reflects the grammatical relationship between the clauses involved. Independent clauses are complete thoughts; they require more than a comma to connect them, which is why comma splices are errors. Dependent clauses, by contrast, announce their incompleteness through subordinating words, and punctuation follows predictably from their position. Understanding why the rules exist makes them far easier to apply correctly and consistently.</p>
 
     <paragraphs>
       <title>Compound Sentences</title>
@@ -493,6 +505,8 @@
   <section xml:id="ch-09-compound-and-complex-sentences-sec-98">
     <title>Common Errors: Comma Splices and Run-Ons</title>
 
+    <p>Two of the most common sentence-level errors in academic writing both involve connecting independent clauses without sufficient punctuation. These errors are not just minor style issues—they mislead readers about clause boundaries and can obscure the logical relationship between ideas. A comma splice and a run-on sentence are easy to produce and easy to fix once you understand what they are and why they violate the grammar of compound sentences.</p>
+
     <paragraphs>
       <title>Comma Splices</title>
     </paragraphs>
@@ -524,6 +538,8 @@
 
   <section xml:id="ch-09-compound-and-complex-sentences-sec-99">
     <title>Choosing Between Coordination and Subordination</title>
+
+    <p>Coordination and subordination are not interchangeable tools that produce equivalent sentences with different punctuation. Each structures the relationship between ideas differently, and skilled writers choose deliberately between them. The choice affects both meaning and emphasis: coordination presents ideas as equals, while subordination ranks them—placing one in the foreground and pushing another into a supporting role. The following guidelines describe when each structure works best, though the final decision always depends on what you want the reader to notice.</p>
 
     <paragraphs>
       <title>When to Coordinate</title>
@@ -558,6 +574,8 @@
     <p><q><foreign>The dog barked <em>when the mail arrived</em>, <em>and</em> the cat hid under the bed.</foreign></q></p>
 
     <p>This shows temporal relationships (complex) while presenting two reactions as equal (compound).</p>
+
+    <p>Compound-complex sentences are natural and common in well-developed prose. Avoid them when they become so long that clause boundaries are hard to track, but in general they are a sign that a writer is managing multiple ideas with precision—using subordination to show cause, time, or condition while using coordination to present parallel developments. Used deliberately, they give writing both accuracy and variety.</p>
 
   </section>
 
