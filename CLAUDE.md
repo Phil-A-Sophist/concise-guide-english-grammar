@@ -28,14 +28,8 @@ concise-guide-english-grammar/
 ├── .supabase_fetch.py     <- Permanent local — first boot, pulls everything else
 ├── .gitignore
 ├── .claude/               <- Pulled from Supabase on boot (settings, commands, hooks) — gitignored
-│   ├── settings.json      <- Permissions only (no hooks — hooks are in global settings)
-│   └── settings.local.json  <- Machine-specific, never Supabase, gitignored
 ├── code/                  <- Pulled from Supabase on boot (meta-agent) — gitignored
 ├── data/                  <- Supabase primary AND local + git-tracked (memory backup)
-│   ├── memory/            <- state.md, project-map.md, knowledge-base, logs
-│   ├── personality/       <- personality.md, project-personality.md
-│   ├── living/            <- chapter-improvement-process, project-context, etc.
-│   └── static/            <- archived snapshots, frozen docs
 └── pretext/               <- PreTeXt XML source (single source of truth for book content)
 ```
 
