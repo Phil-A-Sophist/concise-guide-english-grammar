@@ -9,22 +9,22 @@ What it does:
   1. Reads SUPABASE_URL and SUPABASE_KEY from environment
   2. Derives project name from this file's parent directory name
   3. Looks up the project in Supabase
-  4. Queries all files where pull_to_disk = true
-  5. Writes each file to disk at its file_path, creating dirs as needed
-  6. Creates .claude/settings.local.json if missing (first-run setup)
-  7. Verifies code/meta-agent/agent.py is present
-  8. Exits 0 on success, exits 1 loudly on any failure
+  4. Fetches metadata (file_path, updated_at) for all pull_to_disk=true files
+  5. Compares against .sync_manifest.json — skips files that are up to date
+  6. Pulls content only for missing or stale files
+  7. Creates .claude/settings.local.json if missing (first-run setup)
+  8. Verifies code/meta-agent/agent.py is present
+  9. Exits 0 on success, exits 1 loudly on any failure
 
 Files written:
-  - code/meta-agent/         (Python agents — need to run)
-  - .claude/settings.json    (hooks + permissions)
-  - .claude/hooks/           (pre_tool_gate, etc.)
-  - .claude/commands/        (slash commands)
+  Dirty pull_to_disk=true files: data/, code/meta-agent/, .claude/ (settings, hooks, commands)
 """
 
+import hashlib
 import json
 import os
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -90,9 +90,10 @@ def get_project_id(url, key):
     return data[0]['id']
 
 
-def get_pull_to_disk_files(url, key, project_id):
+def get_file_metadata(url, key, project_id):
+    """Fetch file_path + updated_at for all pull_to_disk files — no content."""
     data = rest_get(url, key, 'claude_files', {
-        'select': 'file_path,content',
+        'select': 'file_path,updated_at',
         'project_id': f'eq.{project_id}',
         'pull_to_disk': 'eq.true',
     })
@@ -101,6 +102,48 @@ def get_pull_to_disk_files(url, key, project_id):
         print("Fix: Run 'python code/scripts/seed_supabase.py' to seed this project.", file=sys.stderr)
         sys.exit(1)
     return data
+
+
+def load_manifest(project_root):
+    """Load existing .sync_manifest.json. Returns file_path -> entry dict."""
+    manifest_path = project_root / '.sync_manifest.json'
+    if not manifest_path.exists():
+        return {}
+    try:
+        data = json.loads(manifest_path.read_text(encoding='utf-8'))
+        return data.get('files', {})
+    except Exception:
+        return {}
+
+
+def get_dirty_paths(metadata, manifest, project_root):
+    """Return file_paths that need pulling: local missing or Supabase updated_at changed."""
+    dirty = []
+    for row in metadata:
+        file_path = row['file_path']
+        supabase_updated_at = row.get('updated_at', '')
+        local_file = project_root / file_path
+        manifest_entry = manifest.get(file_path, {})
+
+        if not local_file.exists():
+            dirty.append(file_path)
+        elif manifest_entry.get('supabase_updated_at', '') != supabase_updated_at:
+            dirty.append(file_path)
+
+    return dirty
+
+
+def fetch_content_for_paths(url, key, project_id, file_paths):
+    """Fetch file_path + content for a specific set of paths using IN filter."""
+    if not file_paths:
+        return []
+    paths_str = ','.join(f'"{p}"' for p in file_paths)
+    data = rest_get(url, key, 'claude_files', {
+        'select': 'file_path,content,updated_at',
+        'project_id': f'eq.{project_id}',
+        'file_path': f'in.({paths_str})',
+    })
+    return data or []
 
 
 def write_files(files):
@@ -143,7 +186,49 @@ def verify_structure(project_root):
     if agent.exists():
         print("[OK] Structure verified")
     else:
-        print("[!!] code/meta-agent/agent.py missing — fetch may have failed", file=sys.stderr)
+        print("[!!] code/meta-agent/agent.py missing -- fetch may have failed", file=sys.stderr)
+
+
+def build_manifest(project_id, project_root, metadata, written, existing_manifest):
+    """Rebuild manifest: carry over clean entries, compute fresh SHA256 for written files."""
+    updated_at_map = {row['file_path']: row.get('updated_at', '') for row in metadata}
+    written_set = set(written)
+
+    manifest = {
+        'generated_at': datetime.now(timezone.utc).isoformat(),
+        'project_id': project_id,
+        'files': {},
+    }
+
+    # Carry over entries for files that were not re-pulled
+    for file_path, entry in existing_manifest.items():
+        if file_path not in written_set and file_path in updated_at_map:
+            manifest['files'][file_path] = {
+                'sha256': entry['sha256'],
+                'supabase_updated_at': updated_at_map[file_path],
+                'size_bytes': entry.get('size_bytes', 0),
+            }
+
+    # Compute fresh SHA256 for newly written files
+    for file_path in written:
+        dest = project_root / file_path
+        try:
+            content_bytes = dest.read_bytes()
+            sha256 = hashlib.sha256(content_bytes).hexdigest()
+            manifest['files'][file_path] = {
+                'sha256': sha256,
+                'supabase_updated_at': updated_at_map.get(file_path, ''),
+                'size_bytes': len(content_bytes),
+            }
+        except Exception:
+            pass
+
+    manifest_path = project_root / '.sync_manifest.json'
+    try:
+        manifest_path.write_text(json.dumps(manifest, indent=2), encoding='utf-8')
+        print(f"[MANIFEST] {len(manifest['files'])} file(s) hashed -> .sync_manifest.json")
+    except Exception as e:
+        print(f"[WARN] Could not write manifest: {e}", file=sys.stderr)
 
 
 def main():
@@ -151,21 +236,35 @@ def main():
 
     url, key = get_env()
     project_id = get_project_id(url, key)
-    files = get_pull_to_disk_files(url, key, project_id)
-    written, failed = write_files(files)
 
-    print(f"[FETCH] {len(written)} file(s) pulled from Supabase")
+    # Phase 1: metadata only — no content downloaded yet
+    metadata = get_file_metadata(url, key, project_id)
+    existing_manifest = load_manifest(PROJECT_ROOT)
+    dirty_paths = get_dirty_paths(metadata, existing_manifest, PROJECT_ROOT)
+
+    total = len(metadata)
+    skipped = total - len(dirty_paths)
+
+    # Phase 2: fetch content only for dirty files
+    if dirty_paths:
+        files_to_write = fetch_content_for_paths(url, key, project_id, dirty_paths)
+        written, failed = write_files(files_to_write)
+    else:
+        written, failed = [], []
+
+    print(f"[FETCH] {len(written)} file(s) pulled, {skipped} skipped (up to date)")
 
     if failed:
         for f in failed:
             print(f"[WARN] Failed to write: {f}", file=sys.stderr)
 
-    if not written:
+    if not written and not skipped:
         print("ERROR [fetch]: No files were written to disk.", file=sys.stderr)
         sys.exit(1)
 
     ensure_local_settings(PROJECT_ROOT)
     verify_structure(PROJECT_ROOT)
+    build_manifest(project_id, PROJECT_ROOT, metadata, written, existing_manifest)
 
     print("FETCH COMPLETE.")
 

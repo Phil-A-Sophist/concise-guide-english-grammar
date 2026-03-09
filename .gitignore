@@ -116,14 +116,18 @@ codechat_config.yaml
 __pycache__/
 *.pyc
 
-# Meta-agent code (pulled from Supabase on boot — not project-specific)
-code/
+# Meta-agent infrastructure stubs (pulled from Supabase on boot — shared with MemoryBot)
+memorybot_core/
 
 # Temporary scripts
 tmp_*.py
 
-# data/ is intentionally NOT gitignored — it is git-tracked as a memory backup
-# (unlike other Supabase projects where data/ is Supabase-only)
+# data/ and memorybot-local/ are intentionally NOT gitignored — both are git-tracked as memory backup
+# (unique to this project — all other Supabase projects only use local+Supabase without git tracking)
+
+# Local-generated sync files (never commit)
+.sync_manifest.json
+tracker.json
 
 # Homework files — large binaries, accessed locally and via LMS
 Homework/
