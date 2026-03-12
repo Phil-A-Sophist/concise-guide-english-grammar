@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<appendix xml:id="appendix-full-diagram-list" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Full Diagram List</title>
+
+  <introduction>
+    <p>This appendix organizes every syntax tree diagram in the book by grammatical structure. Within each section, diagrams progress from simple to complex, showing how each structure builds. Use these as a reference when studying or reviewing for exams.</p>
+  </introduction>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 1: Noun Phrases (NP)                                       -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-np">
+    <title>Noun Phrases (NP)</title>
+
+    <p>This section shows how noun phrases grow from a bare noun to a fully modified structure. The examples build around <foreign>the student</foreign> and variations, adding modifiers one at a time.</p>
+
+    <figure xml:id="fig-app-np-01-bare">
+      <caption>Bare Noun as NP: <foreign>students</foreign></caption>
+      <image source="diagrams/new/ch08_simple_np.png" width="15%">
+        <description>Syntax tree showing the bare noun "students" as a complete NP</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-02-det">
+      <caption>NP with Determiner: <foreign>the dog</foreign></caption>
+      <image source="diagrams/new/ch08_np_det.png" width="20%">
+        <description>Syntax tree showing NP with determiner "the" and noun "dog"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-03-det-adj">
+      <caption>NP with Determiner and Adjective: <foreign>the old dog</foreign></caption>
+      <image source="diagrams/new/ch08_np_det_adj.png" width="25%">
+        <description>Syntax tree showing NP with determiner "the", adjective "old", and noun "dog"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-04-multiple-adj">
+      <caption>NP with Determiner and Multiple Adjectives: <foreign>the big brown dog</foreign></caption>
+      <image source="diagrams/new/ch08_np_multiple_adj.png" width="30%">
+        <description>Syntax tree showing NP with determiner "the", adjectives "big" and "brown", and noun "dog"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-05-pp">
+      <caption>NP with PP Post-Modifier: <foreign>the student from Ohio</foreign></caption>
+      <image source="diagrams/new/ch05_np_with_pp.png" width="40%">
+        <description>Syntax tree showing NP with a prepositional phrase post-modifier "from Ohio"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-06-adj-pp">
+      <caption>NP with Adjective and PP: <foreign>the old house on the corner</foreign></caption>
+      <image source="diagrams/new/ch09_np_adjectivals.png" width="40%">
+        <description>Syntax tree showing NP with adjective "old" and PP post-modifier "on the corner"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-07-relcl">
+      <caption>NP with Relative Clause: <foreign>the dog that I saw</foreign></caption>
+      <image source="diagrams/new/ch08_np_with_relcl.png" width="35%">
+        <description>Syntax tree showing NP with a relative clause "that I saw"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-08-all-slots">
+      <caption>NP with All Modifier Slots: <foreign>the brilliant young student from Ohio who studies linguistics</foreign></caption>
+      <image source="diagrams/new/app_np_08_all_slots.png" width="65%">
+        <description>Syntax tree showing NP with determiner, two adjectives, head noun, PP post-modifier, and relative clause</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-09-possessive">
+      <caption>NP with Possessive Determiner: <foreign>her book</foreign></caption>
+      <image source="diagrams/new/ch06_possessive_det.png" width="20%">
+        <description>Syntax tree showing NP with possessive determiner "her" and noun "book"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-10-demonstrative">
+      <caption>NP with Demonstrative Determiner: <foreign>this book</foreign></caption>
+      <image source="diagrams/new/ch06_dem_det.png" width="20%">
+        <description>Syntax tree showing NP with demonstrative determiner "this" and noun "book"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-11-quantifier">
+      <caption>NP with Quantifier: <foreign>every student</foreign></caption>
+      <image source="diagrams/new/ch06_quant_det.png" width="20%">
+        <description>Syntax tree showing NP with quantifier "every" and noun "student"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-12-two-det">
+      <caption>NP with Two Determiners: <foreign>all the students</foreign></caption>
+      <image source="diagrams/new/ch06_two_determiners.png" width="25%">
+        <description>Syntax tree showing NP with predeterminer "all", determiner "the", and noun "students"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-13-pronoun">
+      <caption>Pronoun as Complete NP: <foreign>she</foreign></caption>
+      <image source="diagrams/new/ch06_pronoun_subject.png" width="20%">
+        <description>Syntax tree showing pronoun "she" functioning as a complete NP in subject position</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-14-pronoun-it">
+      <caption>Pronoun Replacing a Complex NP: <foreign>it</foreign></caption>
+      <image source="diagrams/new/ch06_np_pronoun_it.png" width="15%">
+        <description>Syntax tree showing the pronoun "it" as a complete NP</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-np-15-coordination">
+      <caption>Coordinated NPs: <foreign>cats and dogs</foreign></caption>
+      <image source="diagrams/new/ch06_np_coordination.png" width="25%">
+        <description>Syntax tree showing two coordinated NPs joined by "and"</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 2: Verb Phrases — Tense, Aspect, Voice, and Modality       -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-vp">
+    <title>Verb Phrases: Tense, Aspect, Voice, and Modality</title>
+
+    <p>This section follows <foreign>the chef cooks dinner</foreign> through every configuration of the English auxiliary system. Each diagram adds or changes one element, building from a simple verb to the full auxiliary stack.</p>
+
+    <figure xml:id="fig-app-vp-01-simple-present">
+      <caption>Simple Present (No Auxiliary): <foreign>The chef cooks dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_01_simple_present.png" width="35%">
+        <description>Syntax tree showing simple present tense with no auxiliary verb</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-02-simple-past">
+      <caption>Simple Past: <foreign>The chef cooked dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_02_simple_past.png" width="35%">
+        <description>Syntax tree showing simple past tense with no auxiliary verb</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-03-progressive">
+      <caption>Progressive Aspect (BE + -ing): <foreign>The chef is cooking dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_03_progressive.png" width="40%">
+        <description>Syntax tree showing progressive aspect with auxiliary "is" and present participle "cooking"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-04-past-progressive">
+      <caption>Past Progressive: <foreign>The chef was cooking dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_04_past_progressive.png" width="40%">
+        <description>Syntax tree showing past progressive with auxiliary "was" and present participle "cooking"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-05-perfect">
+      <caption>Perfect Aspect (HAVE + past participle): <foreign>The chef has cooked dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_05_perfect.png" width="40%">
+        <description>Syntax tree showing perfect aspect with auxiliary "has" and past participle "cooked"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-06-past-perfect">
+      <caption>Past Perfect: <foreign>The chef had cooked dinner before the guests arrived</foreign></caption>
+      <image source="diagrams/new/app_vp_06_past_perfect.png" width="55%">
+        <description>Syntax tree showing past perfect with auxiliary "had" and a subordinate clause</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-07-perfect-progressive">
+      <caption>Perfect Progressive: <foreign>The chef has been cooking dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_07_perfect_progressive.png" width="45%">
+        <description>Syntax tree showing perfect progressive with auxiliaries "has" and "been"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-08-past-perfect-prog">
+      <caption>Past Perfect Progressive: <foreign>The chef had been cooking dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_08_past_perfect_prog.png" width="45%">
+        <description>Syntax tree showing past perfect progressive with auxiliaries "had" and "been"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-09-passive">
+      <caption>Passive Voice: <foreign>Dinner was cooked by the chef</foreign></caption>
+      <image source="diagrams/new/app_vp_09_passive.png" width="45%">
+        <description>Syntax tree showing passive voice with auxiliary "was" and agent by-phrase</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-10-passive-agentless">
+      <caption>Passive without Agent: <foreign>Dinner was cooked</foreign></caption>
+      <image source="diagrams/new/app_vp_10_passive_agentless.png" width="25%">
+        <description>Syntax tree showing agentless passive with auxiliary "was"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-11-progressive-passive">
+      <caption>Progressive Passive: <foreign>Dinner is being cooked by the chef</foreign></caption>
+      <image source="diagrams/new/app_vp_11_progressive_passive.png" width="50%">
+        <description>Syntax tree showing progressive passive with auxiliaries "is" and "being"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-12-get-passive">
+      <caption>Get-Passive: <foreign>Dinner got burned</foreign></caption>
+      <image source="diagrams/new/app_vp_12_get_passive.png" width="25%">
+        <description>Syntax tree showing get-passive with "got" as passive auxiliary</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-13-modal-ability">
+      <caption>Modal <mdash/> Ability: <foreign>The chef can cook dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_13_modal_ability.png" width="40%">
+        <description>Syntax tree showing modal "can" expressing ability</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-14-modal-obligation">
+      <caption>Modal <mdash/> Obligation: <foreign>The chef must cook dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_14_modal_obligation.png" width="40%">
+        <description>Syntax tree showing modal "must" expressing obligation</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-15-modal-epistemic">
+      <caption>Modal <mdash/> Epistemic: <foreign>The chef must be cooking dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_15_modal_epistemic.png" width="45%">
+        <description>Syntax tree showing modal "must" with epistemic meaning and progressive aspect</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-16-modal-perfect">
+      <caption>Modal + Perfect: <foreign>The chef should have cooked dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_16_modal_perfect.png" width="45%">
+        <description>Syntax tree showing modal "should" combined with perfect auxiliary "have"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-17-modal-perf-prog">
+      <caption>Modal + Perfect Progressive: <foreign>The chef should have been cooking dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_17_modal_perf_prog.png" width="50%">
+        <description>Syntax tree showing modal with perfect progressive auxiliaries</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-18-full-aux-stack">
+      <caption>Full Auxiliary Stack: <foreign>Dinner should have been being cooked</foreign></caption>
+      <image source="diagrams/new/app_vp_18_full_aux_stack.png" width="45%">
+        <description>Syntax tree showing all auxiliary slots filled: modal, perfect, progressive, and passive</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-19-do-question">
+      <caption>DO-Support in Questions: <foreign>Does the chef cook dinner?</foreign></caption>
+      <image source="diagrams/new/app_vp_19_do_question.png" width="40%">
+        <description>Syntax tree showing DO-support auxiliary inverted for question formation</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-vp-20-do-negation">
+      <caption>DO-Support in Negation: <foreign>The chef does not cook dinner</foreign></caption>
+      <image source="diagrams/new/app_vp_20_do_negation.png" width="45%">
+        <description>Syntax tree showing DO-support with negation "not"</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 3: Adjective Phrases (AdjP)                                -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-adjp">
+    <title>Adjective Phrases (AdjP)</title>
+
+    <p>This section builds adjective phrases from a bare adjective to complex structures with degree modifiers and complements. The examples center on <foreign>proud</foreign> and related adjectives.</p>
+
+    <figure xml:id="fig-app-adjp-01-simple">
+      <caption>Simple AdjP: <foreign>proud</foreign></caption>
+      <image source="diagrams/new/ch09_simple_adjp.png" width="15%">
+        <description>Syntax tree showing a bare adjective "proud" as a complete AdjP</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjp-02-degree">
+      <caption>AdjP with Degree Modifier: <foreign>very happy</foreign></caption>
+      <image source="diagrams/new/ch05_adjp_degree.png" width="20%">
+        <description>Syntax tree showing AdjP with degree modifier "very" and adjective "happy"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjp-03-pp">
+      <caption>AdjP with PP Complement: <foreign>afraid of spiders</foreign></caption>
+      <image source="diagrams/new/ch09_adjp_pp_complement.png" width="25%">
+        <description>Syntax tree showing AdjP with PP complement "of spiders"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjp-04-infinitive">
+      <caption>AdjP with Infinitive Complement: <foreign>eager to leave</foreign></caption>
+      <image source="diagrams/new/ch09_adjp_infinitive.png" width="25%">
+        <description>Syntax tree showing AdjP with infinitive complement "to leave"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjp-05-complex">
+      <caption>Complex AdjP <mdash/> Degree + PP: <foreign>very proud of her work</foreign></caption>
+      <image source="diagrams/new/ch05_adjp_complex.png" width="35%">
+        <description>Syntax tree showing AdjP with both degree modifier and PP complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjp-06-attributive">
+      <caption>AdjP in Attributive Position (inside NP): <foreign>the tall man</foreign></caption>
+      <image source="diagrams/new/ch09_np_attributive.png" width="25%">
+        <description>Syntax tree showing AdjP in attributive position before the head noun</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjp-07-predicative">
+      <caption>AdjP in Predicative Position (after copula): <foreign>She is happy</foreign></caption>
+      <image source="diagrams/new/ch09_predicative.png" width="25%">
+        <description>Syntax tree showing AdjP in predicative position after copular verb</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 4: Adverb Phrases (AdvP)                                   -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-advp">
+    <title>Adverb Phrases (AdvP)</title>
+
+    <p>This section shows adverb phrase structures from a single adverb to modified forms, illustrating what AdvPs can modify.</p>
+
+    <figure xml:id="fig-app-advp-01-simple">
+      <caption>Simple AdvP: <foreign>quickly</foreign></caption>
+      <image source="diagrams/new/ch05_advp_simple.png" width="15%">
+        <description>Syntax tree showing a bare adverb "quickly" as a complete AdvP</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-advp-02-degree">
+      <caption>AdvP with Degree Modifier: <foreign>very quickly</foreign></caption>
+      <image source="diagrams/new/ch05_advp_degree.png" width="20%">
+        <description>Syntax tree showing AdvP with degree modifier "very" and adverb "quickly"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-advp-03-mod-verb">
+      <caption>AdvP Modifying a Verb: <foreign>She spoke quietly</foreign></caption>
+      <image source="diagrams/new/ch10_adv_modifying_verb.png" width="30%">
+        <description>Syntax tree showing AdvP modifying the verb "spoke"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-advp-04-mod-adj">
+      <caption>AdvP Modifying an Adjective: <foreign>extremely proud</foreign></caption>
+      <image source="diagrams/new/app_advp_04_mod_adj.png" width="20%">
+        <description>Syntax tree showing AdvP "extremely" modifying the adjective "proud"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-advp-05-disjunct">
+      <caption>Sentence-Level Adverb (Disjunct): <foreign>Unfortunately, she lost</foreign></caption>
+      <image source="diagrams/new/ch10_sentence_adverb.png" width="30%">
+        <description>Syntax tree showing sentence-level adverb "Unfortunately" modifying the entire sentence</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 5: Prepositional Phrases (PP)                              -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-pp">
+    <title>Prepositional Phrases (PP)</title>
+
+    <p>This section shows PPs with different types of objects, then demonstrates PP attachment at every position in the sentence: inside NPs, VPs, AdjPs, and at the sentence level. The final pair illustrates structural ambiguity in PP attachment.</p>
+
+    <figure xml:id="fig-app-pp-01-basic">
+      <caption>Basic PP: <foreign>on the table</foreign></caption>
+      <image source="diagrams/new/ch06_pp_on_table.png" width="20%">
+        <description>Syntax tree showing PP with preposition "on" and NP object "the table"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-pp-02-pronoun">
+      <caption>PP with Pronoun Object: <foreign>with her</foreign></caption>
+      <image source="diagrams/new/ch06_pp_with_her.png" width="20%">
+        <description>Syntax tree showing PP with preposition "with" and pronoun object "her"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-pp-03-bare-noun">
+      <caption>PP with Bare Noun Object: <foreign>before noon</foreign></caption>
+      <image source="diagrams/new/ch06_pp_before_noon.png" width="20%">
+        <description>Syntax tree showing PP with preposition "before" and bare noun "noon"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-pp-04-mod-np">
+      <caption>PP Modifying a Noun (inside NP): <foreign>the man in the hat</foreign></caption>
+      <image source="diagrams/new/ch06_pp_mod_np.png" width="30%">
+        <description>Syntax tree showing PP "in the hat" as a post-modifier inside the NP</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-pp-05-mod-vp">
+      <caption>PP Modifying a Verb (inside VP): <foreign>She waited in the lobby</foreign></caption>
+      <image source="diagrams/new/ch06_pp_mod_vp.png" width="35%">
+        <description>Syntax tree showing PP "in the lobby" as a modifier inside the VP</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-pp-06-mod-adjp">
+      <caption>PP Complementing an Adjective (inside AdjP): <foreign>proud of her work</foreign></caption>
+      <image source="diagrams/new/ch06_pp_mod_adjp.png" width="35%">
+        <description>Syntax tree showing PP "of her work" as complement of the adjective "proud"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-pp-07-mod-sentence">
+      <caption>PP Modifying a Sentence: <foreign>In the morning, we will leave</foreign></caption>
+      <image source="diagrams/new/ch06_pp_mod_sentence.png" width="40%">
+        <description>Syntax tree showing PP "In the morning" modifying the entire sentence</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-pp-08-ambig-np">
+      <caption>PP Attachment Ambiguity <mdash/> NP Reading: <foreign>I saw the man with binoculars</foreign> (the man has binoculars)</caption>
+      <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="45%">
+        <description>Syntax tree showing PP "with binoculars" attached inside the NP, modifying "man"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-pp-09-ambig-vp">
+      <caption>PP Attachment Ambiguity <mdash/> VP Reading: <foreign>I saw the man with binoculars</foreign> (I used binoculars)</caption>
+      <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="45%">
+        <description>Syntax tree showing PP "with binoculars" attached inside the VP, modifying "saw"</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 6: Sentence Patterns                                       -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-sentence">
+    <title>Sentence Patterns</title>
+
+    <p>This section shows every major sentence pattern in English: intransitive, transitive, ditransitive, three-argument verbs, copular and linking verbs, and complex transitive constructions.</p>
+
+    <figure xml:id="fig-app-sent-01-abstract">
+      <caption>Abstract Sentence Template: S <m>\to</m> NP + VP</caption>
+      <image source="diagrams/new/ch07_snpvp_abstract.png" width="15%">
+        <description>Abstract syntax tree showing S branching to NP and VP</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-02-intransitive">
+      <caption>Intransitive: <foreign>Dogs bark</foreign></caption>
+      <image source="diagrams/new/ch08_s_np_vp.png" width="20%">
+        <description>Syntax tree showing intransitive sentence with bare noun subject</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-03-intrans-mod">
+      <caption>Intransitive with Modifiers: <foreign>The old dog barked loudly</foreign></caption>
+      <image source="diagrams/new/ch07_old_man_sat.png" width="35%">
+        <description>Syntax tree showing intransitive sentence with adjective and adverb modifiers</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-04-transitive">
+      <caption>Transitive: <foreign>The cat chased the mouse</foreign></caption>
+      <image source="diagrams/new/ch06_transitive.png" width="35%">
+        <description>Syntax tree showing transitive sentence with subject, verb, and direct object</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-05-trans-mod">
+      <caption>Transitive with Modifiers: <foreign>The young artist from Paris painted beautiful landscapes</foreign></caption>
+      <image source="diagrams/new/ch07_artist_painted.png" width="55%">
+        <description>Syntax tree showing transitive sentence with modified subject and object NPs</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-06-ditransitive">
+      <caption>Ditransitive: <foreign>Marie sent Ramon a gift</foreign></caption>
+      <image source="diagrams/new/ch12_ditransitive_io_do.png" width="40%">
+        <description>Syntax tree showing ditransitive sentence with indirect and direct objects</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-07-three-arg">
+      <caption>Three-Argument Verb: <foreign>She put the book on the table</foreign></caption>
+      <image source="diagrams/new/ch08_argument_put.png" width="45%">
+        <description>Syntax tree showing three-argument verb "put" requiring subject, object, and locative</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-08-copular-np">
+      <caption>Copular BE + NP: <foreign>I am an optimist</foreign></caption>
+      <image source="diagrams/new/ch12_copular_be.png" width="30%">
+        <description>Syntax tree showing copular BE with NP complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-09-copular-adjp">
+      <caption>Copular BE + AdjP: <foreign>She is happy</foreign></caption>
+      <image source="diagrams/new/ch06_linking.png" width="25%">
+        <description>Syntax tree showing copular BE with AdjP complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-10-copular-pp">
+      <caption>Copular BE + PP: <foreign>Phillip is over the moon</foreign></caption>
+      <image source="diagrams/new/ch08_copular_pp.png" width="35%">
+        <description>Syntax tree showing copular BE with PP complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-11-copular-advp">
+      <caption>Copular BE + AdvP: <foreign>Phillip is here</foreign></caption>
+      <image source="diagrams/new/ch08_copular_advp.png" width="25%">
+        <description>Syntax tree showing copular BE with AdvP complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-12-linking-np">
+      <caption>Linking Verb + NP: <foreign>Phillip became a doctor</foreign></caption>
+      <image source="diagrams/new/ch08_linking_np.png" width="30%">
+        <description>Syntax tree showing linking verb "became" with NP complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-13-linking-adjp">
+      <caption>Linking Verb + AdjP: <foreign>Phillip became famous</foreign></caption>
+      <image source="diagrams/new/ch08_linking_adjp.png" width="25%">
+        <description>Syntax tree showing linking verb "became" with AdjP complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-14-complex-trans-adjp">
+      <caption>Complex Transitive + AdjP Object Complement: <foreign>The jury found him guilty</foreign></caption>
+      <image source="diagrams/new/ch06_complex_trans_adj.png" width="40%">
+        <description>Syntax tree showing complex transitive with direct object and AdjP object complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-15-complex-trans-np">
+      <caption>Complex Transitive + NP Object Complement: <foreign>They elected her president</foreign></caption>
+      <image source="diagrams/new/ch06_complex_trans_np.png" width="35%">
+        <description>Syntax tree showing complex transitive with direct object and NP object complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-sent-16-coord-vps">
+      <caption>Intransitive with Coordinated VPs: <foreign>The dog barked and ran</foreign></caption>
+      <image source="diagrams/new/app_sent_16_coord_vps.png" width="35%">
+        <description>Syntax tree showing a sentence with two coordinated verb phrases</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 7: Compound and Complex Sentences                          -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-compound-complex">
+    <title>Compound and Complex Sentences</title>
+
+    <p>This section starts from a simple sentence and progressively shows how clauses combine through coordination and subordination.</p>
+
+    <figure xml:id="fig-app-cc-01-simple">
+      <caption>Simple Sentence Baseline: <foreign>The students studied</foreign></caption>
+      <image source="diagrams/new/ch09_simple_sentence.png" width="30%">
+        <description>Syntax tree showing a simple sentence as baseline for comparison</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-cc-02-compound-subj">
+      <caption>Compound Subject (Not a Compound Sentence): <foreign>Marcus and Elena traveled</foreign></caption>
+      <image source="diagrams/new/ch09_compound_subj_only.png" width="35%">
+        <description>Syntax tree showing coordinated NP subject, not a compound sentence</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-cc-03-compound-and">
+      <caption>Compound Sentence with <foreign>and</foreign>: <foreign>She writes poetry, and he composes music</foreign></caption>
+      <image source="diagrams/new/ch09_compound_and.png" width="50%">
+        <description>Syntax tree showing compound sentence with two independent clauses joined by "and"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-cc-04-compound-but">
+      <caption>Compound Sentence with <foreign>but</foreign>: <foreign>She studied hard, but she failed the exam</foreign></caption>
+      <image source="diagrams/new/app_cc_04_compound_but.png" width="55%">
+        <description>Syntax tree showing compound sentence with two independent clauses joined by "but"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-cc-05-complex-dc-second">
+      <caption>Complex Sentence <mdash/> Dependent Clause Second: <foreign>She declined because she had other plans</foreign></caption>
+      <image source="diagrams/new/ch09_complex_because.png" width="55%">
+        <description>Syntax tree showing complex sentence with dependent clause following independent clause</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-cc-06-complex-dc-first">
+      <caption>Complex Sentence <mdash/> Dependent Clause First: <foreign>When the power flickered, everyone looked up</foreign></caption>
+      <image source="diagrams/new/ch09_complex_when_first.png" width="50%">
+        <description>Syntax tree showing complex sentence with dependent clause preceding independent clause</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-cc-07-subord-following">
+      <caption>Subordination <mdash/> DC Following: <foreign>I laugh because you cry</foreign></caption>
+      <image source="diagrams/new/ch09_subord_dc_second.png" width="40%">
+        <description>Syntax tree showing subordination with dependent clause in final position</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-cc-08-subord-fronted">
+      <caption>Subordination <mdash/> DC Fronted: <foreign>Because you cry, I laugh</foreign></caption>
+      <image source="diagrams/new/ch09_subord_dc_first.png" width="40%">
+        <description>Syntax tree showing subordination with dependent clause fronted</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 8: Adverbials                                              -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-adverbials">
+    <title>Adverbials</title>
+
+    <p>This section shows every form an adverbial can take, building from single-word adverbs to adverbial clauses and participial phrases.</p>
+
+    <figure xml:id="fig-app-adverbl-01-advp">
+      <caption>AdvP as Adverbial: <foreign>She ran quickly</foreign></caption>
+      <image source="diagrams/new/ch12_advp_adverbial.png" width="30%">
+        <description>Syntax tree showing AdvP functioning as adverbial modifier of the verb</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adverbl-02-pp-place">
+      <caption>PP as Place Adverbial: <foreign>He works in the city</foreign></caption>
+      <image source="diagrams/new/ch12_pp_place_adverbial.png" width="35%">
+        <description>Syntax tree showing PP functioning as adverbial of place</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adverbl-03-pp-time">
+      <caption>PP as Time Adverbial: <foreign>She arrived at noon</foreign></caption>
+      <image source="diagrams/new/ch12_pp_time_adverbial.png" width="30%">
+        <description>Syntax tree showing PP functioning as adverbial of time</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adverbl-04-np">
+      <caption>NP as Adverbial: <foreign>I sleep every day</foreign></caption>
+      <image source="diagrams/new/ch12_noun_as_adverbial.png" width="30%">
+        <description>Syntax tree showing NP "every day" functioning as adverbial</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adverbl-05-clause-reason">
+      <caption>Adverbial Clause <mdash/> Reason: <foreign>She left because she was tired</foreign></caption>
+      <image source="diagrams/new/ch12_adv_clause_because.png" width="45%">
+        <description>Syntax tree showing adverbial clause of reason introduced by "because"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adverbl-06-clause-time">
+      <caption>Adverbial Clause <mdash/> Time (Fronted): <foreign>When the class ended, students left</foreign></caption>
+      <image source="diagrams/new/ch12_adv_clause_when.png" width="45%">
+        <description>Syntax tree showing fronted adverbial clause of time introduced by "When"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adverbl-07-infinitive">
+      <caption>Infinitive as Purpose Adverbial: <foreign>He saved money to buy a car</foreign></caption>
+      <image source="diagrams/new/ch12_inf_purpose_adverb.png" width="45%">
+        <description>Syntax tree showing infinitive clause functioning as adverbial of purpose</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adverbl-08-participial">
+      <caption>Participial Adverbial: <foreign>Walking home, she noticed the sunset</foreign></caption>
+      <image source="diagrams/new/app_adverbl_08_participial.png" width="45%">
+        <description>Syntax tree showing participial phrase functioning as adverbial</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adverbl-09-disjunct">
+      <caption>Sentence Adverb (Disjunct): <foreign>Fortunately, she passed</foreign></caption>
+      <image source="diagrams/new/ch12_sentence_adverb_disj.png" width="30%">
+        <description>Syntax tree showing sentence-level adverb "Fortunately" as disjunct</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adverbl-10-multiple">
+      <caption>Multiple Adverbials: <foreign>She worked hard all day in the library</foreign></caption>
+      <image source="diagrams/new/app_adverbl_10_multiple.png" width="50%">
+        <description>Syntax tree showing multiple adverbials of different types in one sentence</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 9: Adjectival Modifiers                                    -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-adjectivals">
+    <title>Adjectival Modifiers</title>
+
+    <p>This section shows every way to modify a noun, from simple prenominal adjectives to post-modifying participial phrases and relative clauses.</p>
+
+    <figure xml:id="fig-app-adjectl-01-prenominal">
+      <caption>Prenominal Adjective: <foreign>The red car stopped</foreign></caption>
+      <image source="diagrams/new/ch13_adj_prenominal.png" width="30%">
+        <description>Syntax tree showing adjective "red" in prenominal position before the noun</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjectl-02-predicative">
+      <caption>Predicative Adjective: <foreign>The car is red</foreign></caption>
+      <image source="diagrams/new/ch13_adj_predicative.png" width="30%">
+        <description>Syntax tree showing adjective "red" in predicative position after copular verb</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjectl-03-pp">
+      <caption>PP as Post-Modifier: <foreign>The book on the shelf is mine</foreign></caption>
+      <image source="diagrams/new/ch13_pp_adjectival.png" width="40%">
+        <description>Syntax tree showing PP "on the shelf" as adjectival post-modifier of noun</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjectl-04-infinitive">
+      <caption>Infinitive as Post-Modifier: <foreign>He has time to spare</foreign></caption>
+      <image source="diagrams/new/ch13_inf_adjectival.png" width="35%">
+        <description>Syntax tree showing infinitive "to spare" as adjectival post-modifier</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjectl-05-pres-part">
+      <caption>Present Participial Phrase: <foreign>The woman singing on stage waved</foreign></caption>
+      <image source="diagrams/new/ch13_pres_part_phrase.png" width="45%">
+        <description>Syntax tree showing present participial phrase as adjectival modifier</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjectl-06-past-part">
+      <caption>Past Participial Phrase: <foreign>The report written by the team was thorough</foreign></caption>
+      <image source="diagrams/new/ch13_past_part_phrase.png" width="50%">
+        <description>Syntax tree showing past participial phrase as adjectival modifier</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjectl-07-relcl-restr">
+      <caption>Restrictive Relative Clause: <foreign>The students who studied passed</foreign></caption>
+      <image source="diagrams/new/ch13_rel_clause_restr.png" width="40%">
+        <description>Syntax tree showing restrictive relative clause modifying the noun</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-adjectl-08-relcl-nonrestr">
+      <caption>Non-Restrictive Relative Clause: <foreign>My sister, who lives in Boston, called</foreign></caption>
+      <image source="diagrams/new/ch13_rel_clause_non_restr.png" width="45%">
+        <description>Syntax tree showing non-restrictive relative clause modifying the noun</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 10: Relative Clauses                                       -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-relcl">
+    <title>Relative Clauses</title>
+
+    <p>This section takes <foreign>the student</foreign> through every relative clause type, from subject relatives to reduced participial forms.</p>
+
+    <figure xml:id="fig-app-relcl-01-who">
+      <caption>Subject Relative with <foreign>who</foreign>: <foreign>the student who studies hard</foreign></caption>
+      <image source="diagrams/new/ch14_relcl_who_subject.png" width="40%">
+        <description>Syntax tree showing subject relative clause with relativizer "who"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-relcl-02-that">
+      <caption>Object Relative with <foreign>that</foreign>: <foreign>the student that I met</foreign></caption>
+      <image source="diagrams/new/ch14_relcl_that_object.png" width="40%">
+        <description>Syntax tree showing object relative clause with relativizer "that"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-relcl-03-whom">
+      <caption>Object Relative with <foreign>whom</foreign>: <foreign>the student whom I met</foreign></caption>
+      <image source="diagrams/new/app_relcl_03_whom.png" width="35%">
+        <description>Syntax tree showing object relative clause with formal relativizer "whom"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-relcl-04-whose">
+      <caption>Possessive Relative with <foreign>whose</foreign>: <foreign>the student whose book I borrowed</foreign></caption>
+      <image source="diagrams/new/app_relcl_04_whose.png" width="40%">
+        <description>Syntax tree showing possessive relative clause with "whose"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-relcl-05-where">
+      <caption>Relative Adverb <foreign>where</foreign>: <foreign>the library where she studies</foreign></caption>
+      <image source="diagrams/new/ch14_relcl_where.png" width="40%">
+        <description>Syntax tree showing relative clause with relative adverb "where"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-relcl-06-when">
+      <caption>Relative Adverb <foreign>when</foreign>: <foreign>the day when she graduated</foreign></caption>
+      <image source="diagrams/new/app_relcl_06_when.png" width="30%">
+        <description>Syntax tree showing relative clause with relative adverb "when"</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-relcl-07-zero">
+      <caption>Zero Relative (No Relativizer): <foreign>the student I met</foreign></caption>
+      <image source="diagrams/new/ch14_relcl_empty.png" width="40%">
+        <description>Syntax tree showing relative clause with empty relativizer position</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-relcl-08-reduced-pres">
+      <caption>Reduced Relative <mdash/> Present Participle: <foreign>the student studying in the library</foreign></caption>
+      <image source="diagrams/new/ch14_participle_present.png" width="35%">
+        <description>Syntax tree showing reduced relative clause with present participle</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-relcl-09-reduced-past">
+      <caption>Reduced Relative <mdash/> Past Participle: <foreign>the book written by the professor</foreign></caption>
+      <image source="diagrams/new/ch14_participle_past.png" width="35%">
+        <description>Syntax tree showing reduced relative clause with past participle</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 11: Complement Clauses                                     -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-complement">
+    <title>Complement Clauses</title>
+
+    <p>This section shows noun clauses (complement clauses) in subject and object positions, including that-clauses, if/whether clauses, and infinitive complements.</p>
+
+    <figure xml:id="fig-app-compcl-01-that-obj">
+      <caption>That-Clause as Object: <foreign>I know that she is brilliant</foreign></caption>
+      <image source="diagrams/new/ch13_that_clause_object.png" width="40%">
+        <description>Syntax tree showing that-clause functioning as object complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-compcl-02-that-subj">
+      <caption>That-Clause as Subject: <foreign>That she passed surprised everyone</foreign></caption>
+      <image source="diagrams/new/ch13_that_clause_subject.png" width="40%">
+        <description>Syntax tree showing that-clause functioning as subject</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-compcl-03-if">
+      <caption>If/Whether Clause as Object: <foreign>I wonder if she left</foreign></caption>
+      <image source="diagrams/new/ch13_if_clause.png" width="35%">
+        <description>Syntax tree showing if-clause functioning as object complement</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-compcl-04-omitted">
+      <caption>Omitted Complementizer: <foreign>I know she is brilliant</foreign></caption>
+      <image source="diagrams/new/ch13_missing_comp.png" width="35%">
+        <description>Syntax tree showing complement clause with omitted "that" complementizer</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-compcl-05-infinitive">
+      <caption>Infinitive Complement: <foreign>She wants to leave</foreign></caption>
+      <image source="diagrams/new/app_compcl_05_infinitive.png" width="25%">
+        <description>Syntax tree showing infinitive clause as verb complement</description>
+      </image>
+    </figure>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <!-- SECTION 12: Structural Ambiguity                                   -->
+  <!-- ════════════════════════════════════════════════════════════════════ -->
+  <section xml:id="app-diagrams-ambiguity">
+    <title>Structural Ambiguity</title>
+
+    <p>This section presents paired diagrams showing how the same sentence can have two different structural analyses, leading to two different meanings. Each pair shares the same words but differs in how phrases attach.</p>
+
+    <figure xml:id="fig-app-ambig-01-pp-np">
+      <caption>PP Attaches to NP: <foreign>I saw the man with binoculars</foreign> (the man has binoculars)</caption>
+      <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="45%">
+        <description>Syntax tree showing PP "with binoculars" attached to NP, meaning the man possesses binoculars</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-ambig-02-pp-vp">
+      <caption>PP Attaches to VP: <foreign>I saw the man with binoculars</foreign> (I used binoculars)</caption>
+      <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="45%">
+        <description>Syntax tree showing PP "with binoculars" attached to VP, meaning the speaker used binoculars</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-ambig-03-scope-1">
+      <caption>Adjective Scope <mdash/> Reading 1: <foreign>old men and women</foreign> (only men are old)</caption>
+      <image source="diagrams/new/ch06_ambig_old_men_1.png" width="40%">
+        <description>Syntax tree showing "old" modifying only "men" in the coordinated NP</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-ambig-04-scope-2">
+      <caption>Adjective Scope <mdash/> Reading 2: <foreign>old men and women</foreign> (both are old)</caption>
+      <image source="diagrams/new/ch06_ambig_old_men_2.png" width="40%">
+        <description>Syntax tree showing "old" modifying both "men and women" in the coordinated NP</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-ambig-05-adjunct-vp">
+      <caption>Adjunct PP Modifies VP: <foreign>She talked about the problem on the phone</foreign> (she used the phone to talk)</caption>
+      <image source="diagrams/new/app_ambig_05_adjunct_vp.png" width="50%">
+        <description>Syntax tree showing "on the phone" as VP adjunct, meaning the phone was used for talking</description>
+      </image>
+    </figure>
+
+    <figure xml:id="fig-app-ambig-06-adjunct-np">
+      <caption>PP Modifies NP: <foreign>She talked about the problem on the phone</foreign> (the problem is on the phone)</caption>
+      <image source="diagrams/new/app_ambig_06_adjunct_np.png" width="50%">
+        <description>Syntax tree showing "on the phone" modifying NP "the problem", meaning the problem exists on the phone</description>
+      </image>
+    </figure>
+  </section>
+
+</appendix>

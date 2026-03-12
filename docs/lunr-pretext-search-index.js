@@ -2962,9 +2962,1179 @@ var ptx_lunr_docs = [
   "body": " Glossary   Deductive teaching  Teaching that moves from explicit rule presentation to practice.    Error  A systematic mistake reflecting incomplete acquisition.    Explicit knowledge  Conscious, verbalizable knowledge about language rules.    Focus on form  Brief attention to linguistic features during communicative activities.    Implicit knowledge  Unconscious, automatic knowledge that underlies fluent language use.    Inductive teaching  Teaching that moves from examples to rule discovery.    L1  First language; native language.    L2  Second language; additional language.    Metalinguistic awareness  Conscious knowledge about language structure.    Recast  Corrective feedback that rephrases the learner's utterance correctly.   "
 },
 {
-  "id": "backmatter-1",
+  "id": "app-diagrams-np",
   "level": "1",
-  "url": "backmatter-1.html",
+  "url": "app-diagrams-np.html",
+  "type": "Section",
+  "number": "A.1",
+  "title": "Noun Phrases (NP)",
+  "body": " Noun Phrases (NP)  This section shows how noun phrases grow from a bare noun to a fully modified structure. The examples build around the student and variations, adding modifiers one at a time.   Bare Noun as NP: students   Syntax tree showing the bare noun \"students\" as a complete NP     NP with Determiner: the dog   Syntax tree showing NP with determiner \"the\" and noun \"dog\"     NP with Determiner and Adjective: the old dog   Syntax tree showing NP with determiner \"the\", adjective \"old\", and noun \"dog\"     NP with Determiner and Multiple Adjectives: the big brown dog   Syntax tree showing NP with determiner \"the\", adjectives \"big\" and \"brown\", and noun \"dog\"     NP with PP Post-Modifier: the student from Ohio   Syntax tree showing NP with a prepositional phrase post-modifier \"from Ohio\"     NP with Adjective and PP: the old house on the corner   Syntax tree showing NP with adjective \"old\" and PP post-modifier \"on the corner\"     NP with Relative Clause: the dog that I saw   Syntax tree showing NP with a relative clause \"that I saw\"     NP with All Modifier Slots: the brilliant young student from Ohio who studies linguistics   Syntax tree showing NP with determiner, two adjectives, head noun, PP post-modifier, and relative clause     NP with Possessive Determiner: her book   Syntax tree showing NP with possessive determiner \"her\" and noun \"book\"     NP with Demonstrative Determiner: this book   Syntax tree showing NP with demonstrative determiner \"this\" and noun \"book\"     NP with Quantifier: every student   Syntax tree showing NP with quantifier \"every\" and noun \"student\"     NP with Two Determiners: all the students   Syntax tree showing NP with predeterminer \"all\", determiner \"the\", and noun \"students\"     Pronoun as Complete NP: she   Syntax tree showing pronoun \"she\" functioning as a complete NP in subject position     Pronoun Replacing a Complex NP: it   Syntax tree showing the pronoun \"it\" as a complete NP     Coordinated NPs: cats and dogs   Syntax tree showing two coordinated NPs joined by \"and\"    "
+},
+{
+  "id": "fig-app-np-01-bare",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-01-bare",
+  "type": "Figure",
+  "number": "A.1.1",
+  "title": "",
+  "body": " Bare Noun as NP: students   Syntax tree showing the bare noun \"students\" as a complete NP   "
+},
+{
+  "id": "fig-app-np-02-det",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-02-det",
+  "type": "Figure",
+  "number": "A.1.2",
+  "title": "",
+  "body": " NP with Determiner: the dog   Syntax tree showing NP with determiner \"the\" and noun \"dog\"   "
+},
+{
+  "id": "fig-app-np-03-det-adj",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-03-det-adj",
+  "type": "Figure",
+  "number": "A.1.3",
+  "title": "",
+  "body": " NP with Determiner and Adjective: the old dog   Syntax tree showing NP with determiner \"the\", adjective \"old\", and noun \"dog\"   "
+},
+{
+  "id": "fig-app-np-04-multiple-adj",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-04-multiple-adj",
+  "type": "Figure",
+  "number": "A.1.4",
+  "title": "",
+  "body": " NP with Determiner and Multiple Adjectives: the big brown dog   Syntax tree showing NP with determiner \"the\", adjectives \"big\" and \"brown\", and noun \"dog\"   "
+},
+{
+  "id": "fig-app-np-05-pp",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-05-pp",
+  "type": "Figure",
+  "number": "A.1.5",
+  "title": "",
+  "body": " NP with PP Post-Modifier: the student from Ohio   Syntax tree showing NP with a prepositional phrase post-modifier \"from Ohio\"   "
+},
+{
+  "id": "fig-app-np-06-adj-pp",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-06-adj-pp",
+  "type": "Figure",
+  "number": "A.1.6",
+  "title": "",
+  "body": " NP with Adjective and PP: the old house on the corner   Syntax tree showing NP with adjective \"old\" and PP post-modifier \"on the corner\"   "
+},
+{
+  "id": "fig-app-np-07-relcl",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-07-relcl",
+  "type": "Figure",
+  "number": "A.1.7",
+  "title": "",
+  "body": " NP with Relative Clause: the dog that I saw   Syntax tree showing NP with a relative clause \"that I saw\"   "
+},
+{
+  "id": "fig-app-np-08-all-slots",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-08-all-slots",
+  "type": "Figure",
+  "number": "A.1.8",
+  "title": "",
+  "body": " NP with All Modifier Slots: the brilliant young student from Ohio who studies linguistics   Syntax tree showing NP with determiner, two adjectives, head noun, PP post-modifier, and relative clause   "
+},
+{
+  "id": "fig-app-np-09-possessive",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-09-possessive",
+  "type": "Figure",
+  "number": "A.1.9",
+  "title": "",
+  "body": " NP with Possessive Determiner: her book   Syntax tree showing NP with possessive determiner \"her\" and noun \"book\"   "
+},
+{
+  "id": "fig-app-np-10-demonstrative",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-10-demonstrative",
+  "type": "Figure",
+  "number": "A.1.10",
+  "title": "",
+  "body": " NP with Demonstrative Determiner: this book   Syntax tree showing NP with demonstrative determiner \"this\" and noun \"book\"   "
+},
+{
+  "id": "fig-app-np-11-quantifier",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-11-quantifier",
+  "type": "Figure",
+  "number": "A.1.11",
+  "title": "",
+  "body": " NP with Quantifier: every student   Syntax tree showing NP with quantifier \"every\" and noun \"student\"   "
+},
+{
+  "id": "fig-app-np-12-two-det",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-12-two-det",
+  "type": "Figure",
+  "number": "A.1.12",
+  "title": "",
+  "body": " NP with Two Determiners: all the students   Syntax tree showing NP with predeterminer \"all\", determiner \"the\", and noun \"students\"   "
+},
+{
+  "id": "fig-app-np-13-pronoun",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-13-pronoun",
+  "type": "Figure",
+  "number": "A.1.13",
+  "title": "",
+  "body": " Pronoun as Complete NP: she   Syntax tree showing pronoun \"she\" functioning as a complete NP in subject position   "
+},
+{
+  "id": "fig-app-np-14-pronoun-it",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-14-pronoun-it",
+  "type": "Figure",
+  "number": "A.1.14",
+  "title": "",
+  "body": " Pronoun Replacing a Complex NP: it   Syntax tree showing the pronoun \"it\" as a complete NP   "
+},
+{
+  "id": "fig-app-np-15-coordination",
+  "level": "2",
+  "url": "app-diagrams-np.html#fig-app-np-15-coordination",
+  "type": "Figure",
+  "number": "A.1.15",
+  "title": "",
+  "body": " Coordinated NPs: cats and dogs   Syntax tree showing two coordinated NPs joined by \"and\"   "
+},
+{
+  "id": "app-diagrams-vp",
+  "level": "1",
+  "url": "app-diagrams-vp.html",
+  "type": "Section",
+  "number": "A.2",
+  "title": "Verb Phrases: Tense, Aspect, Voice, and Modality",
+  "body": " Verb Phrases: Tense, Aspect, Voice, and Modality  This section follows the chef cooks dinner through every configuration of the English auxiliary system. Each diagram adds or changes one element, building from a simple verb to the full auxiliary stack.   Simple Present (No Auxiliary): The chef cooks dinner   Syntax tree showing simple present tense with no auxiliary verb     Simple Past: The chef cooked dinner   Syntax tree showing simple past tense with no auxiliary verb     Progressive Aspect (BE + -ing): The chef is cooking dinner   Syntax tree showing progressive aspect with auxiliary \"is\" and present participle \"cooking\"     Past Progressive: The chef was cooking dinner   Syntax tree showing past progressive with auxiliary \"was\" and present participle \"cooking\"     Perfect Aspect (HAVE + past participle): The chef has cooked dinner   Syntax tree showing perfect aspect with auxiliary \"has\" and past participle \"cooked\"     Past Perfect: The chef had cooked dinner before the guests arrived   Syntax tree showing past perfect with auxiliary \"had\" and a subordinate clause     Perfect Progressive: The chef has been cooking dinner   Syntax tree showing perfect progressive with auxiliaries \"has\" and \"been\"     Past Perfect Progressive: The chef had been cooking dinner   Syntax tree showing past perfect progressive with auxiliaries \"had\" and \"been\"     Passive Voice: Dinner was cooked by the chef   Syntax tree showing passive voice with auxiliary \"was\" and agent by-phrase     Passive without Agent: Dinner was cooked   Syntax tree showing agentless passive with auxiliary \"was\"     Progressive Passive: Dinner is being cooked by the chef   Syntax tree showing progressive passive with auxiliaries \"is\" and \"being\"     Get-Passive: Dinner got burned   Syntax tree showing get-passive with \"got\" as passive auxiliary     Modal Ability: The chef can cook dinner   Syntax tree showing modal \"can\" expressing ability     Modal Obligation: The chef must cook dinner   Syntax tree showing modal \"must\" expressing obligation     Modal Epistemic: The chef must be cooking dinner   Syntax tree showing modal \"must\" with epistemic meaning and progressive aspect     Modal + Perfect: The chef should have cooked dinner   Syntax tree showing modal \"should\" combined with perfect auxiliary \"have\"     Modal + Perfect Progressive: The chef should have been cooking dinner   Syntax tree showing modal with perfect progressive auxiliaries     Full Auxiliary Stack: Dinner should have been being cooked   Syntax tree showing all auxiliary slots filled: modal, perfect, progressive, and passive     DO-Support in Questions: Does the chef cook dinner?   Syntax tree showing DO-support auxiliary inverted for question formation     DO-Support in Negation: The chef does not cook dinner   Syntax tree showing DO-support with negation \"not\"    "
+},
+{
+  "id": "fig-app-vp-01-simple-present",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-01-simple-present",
+  "type": "Figure",
+  "number": "A.2.1",
+  "title": "",
+  "body": " Simple Present (No Auxiliary): The chef cooks dinner   Syntax tree showing simple present tense with no auxiliary verb   "
+},
+{
+  "id": "fig-app-vp-02-simple-past",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-02-simple-past",
+  "type": "Figure",
+  "number": "A.2.2",
+  "title": "",
+  "body": " Simple Past: The chef cooked dinner   Syntax tree showing simple past tense with no auxiliary verb   "
+},
+{
+  "id": "fig-app-vp-03-progressive",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-03-progressive",
+  "type": "Figure",
+  "number": "A.2.3",
+  "title": "",
+  "body": " Progressive Aspect (BE + -ing): The chef is cooking dinner   Syntax tree showing progressive aspect with auxiliary \"is\" and present participle \"cooking\"   "
+},
+{
+  "id": "fig-app-vp-04-past-progressive",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-04-past-progressive",
+  "type": "Figure",
+  "number": "A.2.4",
+  "title": "",
+  "body": " Past Progressive: The chef was cooking dinner   Syntax tree showing past progressive with auxiliary \"was\" and present participle \"cooking\"   "
+},
+{
+  "id": "fig-app-vp-05-perfect",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-05-perfect",
+  "type": "Figure",
+  "number": "A.2.5",
+  "title": "",
+  "body": " Perfect Aspect (HAVE + past participle): The chef has cooked dinner   Syntax tree showing perfect aspect with auxiliary \"has\" and past participle \"cooked\"   "
+},
+{
+  "id": "fig-app-vp-06-past-perfect",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-06-past-perfect",
+  "type": "Figure",
+  "number": "A.2.6",
+  "title": "",
+  "body": " Past Perfect: The chef had cooked dinner before the guests arrived   Syntax tree showing past perfect with auxiliary \"had\" and a subordinate clause   "
+},
+{
+  "id": "fig-app-vp-07-perfect-progressive",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-07-perfect-progressive",
+  "type": "Figure",
+  "number": "A.2.7",
+  "title": "",
+  "body": " Perfect Progressive: The chef has been cooking dinner   Syntax tree showing perfect progressive with auxiliaries \"has\" and \"been\"   "
+},
+{
+  "id": "fig-app-vp-08-past-perfect-prog",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-08-past-perfect-prog",
+  "type": "Figure",
+  "number": "A.2.8",
+  "title": "",
+  "body": " Past Perfect Progressive: The chef had been cooking dinner   Syntax tree showing past perfect progressive with auxiliaries \"had\" and \"been\"   "
+},
+{
+  "id": "fig-app-vp-09-passive",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-09-passive",
+  "type": "Figure",
+  "number": "A.2.9",
+  "title": "",
+  "body": " Passive Voice: Dinner was cooked by the chef   Syntax tree showing passive voice with auxiliary \"was\" and agent by-phrase   "
+},
+{
+  "id": "fig-app-vp-10-passive-agentless",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-10-passive-agentless",
+  "type": "Figure",
+  "number": "A.2.10",
+  "title": "",
+  "body": " Passive without Agent: Dinner was cooked   Syntax tree showing agentless passive with auxiliary \"was\"   "
+},
+{
+  "id": "fig-app-vp-11-progressive-passive",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-11-progressive-passive",
+  "type": "Figure",
+  "number": "A.2.11",
+  "title": "",
+  "body": " Progressive Passive: Dinner is being cooked by the chef   Syntax tree showing progressive passive with auxiliaries \"is\" and \"being\"   "
+},
+{
+  "id": "fig-app-vp-12-get-passive",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-12-get-passive",
+  "type": "Figure",
+  "number": "A.2.12",
+  "title": "",
+  "body": " Get-Passive: Dinner got burned   Syntax tree showing get-passive with \"got\" as passive auxiliary   "
+},
+{
+  "id": "fig-app-vp-13-modal-ability",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-13-modal-ability",
+  "type": "Figure",
+  "number": "A.2.13",
+  "title": "",
+  "body": " Modal Ability: The chef can cook dinner   Syntax tree showing modal \"can\" expressing ability   "
+},
+{
+  "id": "fig-app-vp-14-modal-obligation",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-14-modal-obligation",
+  "type": "Figure",
+  "number": "A.2.14",
+  "title": "",
+  "body": " Modal Obligation: The chef must cook dinner   Syntax tree showing modal \"must\" expressing obligation   "
+},
+{
+  "id": "fig-app-vp-15-modal-epistemic",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-15-modal-epistemic",
+  "type": "Figure",
+  "number": "A.2.15",
+  "title": "",
+  "body": " Modal Epistemic: The chef must be cooking dinner   Syntax tree showing modal \"must\" with epistemic meaning and progressive aspect   "
+},
+{
+  "id": "fig-app-vp-16-modal-perfect",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-16-modal-perfect",
+  "type": "Figure",
+  "number": "A.2.16",
+  "title": "",
+  "body": " Modal + Perfect: The chef should have cooked dinner   Syntax tree showing modal \"should\" combined with perfect auxiliary \"have\"   "
+},
+{
+  "id": "fig-app-vp-17-modal-perf-prog",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-17-modal-perf-prog",
+  "type": "Figure",
+  "number": "A.2.17",
+  "title": "",
+  "body": " Modal + Perfect Progressive: The chef should have been cooking dinner   Syntax tree showing modal with perfect progressive auxiliaries   "
+},
+{
+  "id": "fig-app-vp-18-full-aux-stack",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-18-full-aux-stack",
+  "type": "Figure",
+  "number": "A.2.18",
+  "title": "",
+  "body": " Full Auxiliary Stack: Dinner should have been being cooked   Syntax tree showing all auxiliary slots filled: modal, perfect, progressive, and passive   "
+},
+{
+  "id": "fig-app-vp-19-do-question",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-19-do-question",
+  "type": "Figure",
+  "number": "A.2.19",
+  "title": "",
+  "body": " DO-Support in Questions: Does the chef cook dinner?   Syntax tree showing DO-support auxiliary inverted for question formation   "
+},
+{
+  "id": "fig-app-vp-20-do-negation",
+  "level": "2",
+  "url": "app-diagrams-vp.html#fig-app-vp-20-do-negation",
+  "type": "Figure",
+  "number": "A.2.20",
+  "title": "",
+  "body": " DO-Support in Negation: The chef does not cook dinner   Syntax tree showing DO-support with negation \"not\"   "
+},
+{
+  "id": "app-diagrams-adjp",
+  "level": "1",
+  "url": "app-diagrams-adjp.html",
+  "type": "Section",
+  "number": "A.3",
+  "title": "Adjective Phrases (AdjP)",
+  "body": " Adjective Phrases (AdjP)  This section builds adjective phrases from a bare adjective to complex structures with degree modifiers and complements. The examples center on proud and related adjectives.   Simple AdjP: proud   Syntax tree showing a bare adjective \"proud\" as a complete AdjP     AdjP with Degree Modifier: very happy   Syntax tree showing AdjP with degree modifier \"very\" and adjective \"happy\"     AdjP with PP Complement: afraid of spiders   Syntax tree showing AdjP with PP complement \"of spiders\"     AdjP with Infinitive Complement: eager to leave   Syntax tree showing AdjP with infinitive complement \"to leave\"     Complex AdjP Degree + PP: very proud of her work   Syntax tree showing AdjP with both degree modifier and PP complement     AdjP in Attributive Position (inside NP): the tall man   Syntax tree showing AdjP in attributive position before the head noun     AdjP in Predicative Position (after copula): She is happy   Syntax tree showing AdjP in predicative position after copular verb    "
+},
+{
+  "id": "fig-app-adjp-01-simple",
+  "level": "2",
+  "url": "app-diagrams-adjp.html#fig-app-adjp-01-simple",
+  "type": "Figure",
+  "number": "A.3.1",
+  "title": "",
+  "body": " Simple AdjP: proud   Syntax tree showing a bare adjective \"proud\" as a complete AdjP   "
+},
+{
+  "id": "fig-app-adjp-02-degree",
+  "level": "2",
+  "url": "app-diagrams-adjp.html#fig-app-adjp-02-degree",
+  "type": "Figure",
+  "number": "A.3.2",
+  "title": "",
+  "body": " AdjP with Degree Modifier: very happy   Syntax tree showing AdjP with degree modifier \"very\" and adjective \"happy\"   "
+},
+{
+  "id": "fig-app-adjp-03-pp",
+  "level": "2",
+  "url": "app-diagrams-adjp.html#fig-app-adjp-03-pp",
+  "type": "Figure",
+  "number": "A.3.3",
+  "title": "",
+  "body": " AdjP with PP Complement: afraid of spiders   Syntax tree showing AdjP with PP complement \"of spiders\"   "
+},
+{
+  "id": "fig-app-adjp-04-infinitive",
+  "level": "2",
+  "url": "app-diagrams-adjp.html#fig-app-adjp-04-infinitive",
+  "type": "Figure",
+  "number": "A.3.4",
+  "title": "",
+  "body": " AdjP with Infinitive Complement: eager to leave   Syntax tree showing AdjP with infinitive complement \"to leave\"   "
+},
+{
+  "id": "fig-app-adjp-05-complex",
+  "level": "2",
+  "url": "app-diagrams-adjp.html#fig-app-adjp-05-complex",
+  "type": "Figure",
+  "number": "A.3.5",
+  "title": "",
+  "body": " Complex AdjP Degree + PP: very proud of her work   Syntax tree showing AdjP with both degree modifier and PP complement   "
+},
+{
+  "id": "fig-app-adjp-06-attributive",
+  "level": "2",
+  "url": "app-diagrams-adjp.html#fig-app-adjp-06-attributive",
+  "type": "Figure",
+  "number": "A.3.6",
+  "title": "",
+  "body": " AdjP in Attributive Position (inside NP): the tall man   Syntax tree showing AdjP in attributive position before the head noun   "
+},
+{
+  "id": "fig-app-adjp-07-predicative",
+  "level": "2",
+  "url": "app-diagrams-adjp.html#fig-app-adjp-07-predicative",
+  "type": "Figure",
+  "number": "A.3.7",
+  "title": "",
+  "body": " AdjP in Predicative Position (after copula): She is happy   Syntax tree showing AdjP in predicative position after copular verb   "
+},
+{
+  "id": "app-diagrams-advp",
+  "level": "1",
+  "url": "app-diagrams-advp.html",
+  "type": "Section",
+  "number": "A.4",
+  "title": "Adverb Phrases (AdvP)",
+  "body": " Adverb Phrases (AdvP)  This section shows adverb phrase structures from a single adverb to modified forms, illustrating what AdvPs can modify.   Simple AdvP: quickly   Syntax tree showing a bare adverb \"quickly\" as a complete AdvP     AdvP with Degree Modifier: very quickly   Syntax tree showing AdvP with degree modifier \"very\" and adverb \"quickly\"     AdvP Modifying a Verb: She spoke quietly   Syntax tree showing AdvP modifying the verb \"spoke\"     AdvP Modifying an Adjective: extremely proud   Syntax tree showing AdvP \"extremely\" modifying the adjective \"proud\"     Sentence-Level Adverb (Disjunct): Unfortunately, she lost   Syntax tree showing sentence-level adverb \"Unfortunately\" modifying the entire sentence    "
+},
+{
+  "id": "fig-app-advp-01-simple",
+  "level": "2",
+  "url": "app-diagrams-advp.html#fig-app-advp-01-simple",
+  "type": "Figure",
+  "number": "A.4.1",
+  "title": "",
+  "body": " Simple AdvP: quickly   Syntax tree showing a bare adverb \"quickly\" as a complete AdvP   "
+},
+{
+  "id": "fig-app-advp-02-degree",
+  "level": "2",
+  "url": "app-diagrams-advp.html#fig-app-advp-02-degree",
+  "type": "Figure",
+  "number": "A.4.2",
+  "title": "",
+  "body": " AdvP with Degree Modifier: very quickly   Syntax tree showing AdvP with degree modifier \"very\" and adverb \"quickly\"   "
+},
+{
+  "id": "fig-app-advp-03-mod-verb",
+  "level": "2",
+  "url": "app-diagrams-advp.html#fig-app-advp-03-mod-verb",
+  "type": "Figure",
+  "number": "A.4.3",
+  "title": "",
+  "body": " AdvP Modifying a Verb: She spoke quietly   Syntax tree showing AdvP modifying the verb \"spoke\"   "
+},
+{
+  "id": "fig-app-advp-04-mod-adj",
+  "level": "2",
+  "url": "app-diagrams-advp.html#fig-app-advp-04-mod-adj",
+  "type": "Figure",
+  "number": "A.4.4",
+  "title": "",
+  "body": " AdvP Modifying an Adjective: extremely proud   Syntax tree showing AdvP \"extremely\" modifying the adjective \"proud\"   "
+},
+{
+  "id": "fig-app-advp-05-disjunct",
+  "level": "2",
+  "url": "app-diagrams-advp.html#fig-app-advp-05-disjunct",
+  "type": "Figure",
+  "number": "A.4.5",
+  "title": "",
+  "body": " Sentence-Level Adverb (Disjunct): Unfortunately, she lost   Syntax tree showing sentence-level adverb \"Unfortunately\" modifying the entire sentence   "
+},
+{
+  "id": "app-diagrams-pp",
+  "level": "1",
+  "url": "app-diagrams-pp.html",
+  "type": "Section",
+  "number": "A.5",
+  "title": "Prepositional Phrases (PP)",
+  "body": " Prepositional Phrases (PP)  This section shows PPs with different types of objects, then demonstrates PP attachment at every position in the sentence: inside NPs, VPs, AdjPs, and at the sentence level. The final pair illustrates structural ambiguity in PP attachment.   Basic PP: on the table   Syntax tree showing PP with preposition \"on\" and NP object \"the table\"     PP with Pronoun Object: with her   Syntax tree showing PP with preposition \"with\" and pronoun object \"her\"     PP with Bare Noun Object: before noon   Syntax tree showing PP with preposition \"before\" and bare noun \"noon\"     PP Modifying a Noun (inside NP): the man in the hat   Syntax tree showing PP \"in the hat\" as a post-modifier inside the NP     PP Modifying a Verb (inside VP): She waited in the lobby   Syntax tree showing PP \"in the lobby\" as a modifier inside the VP     PP Complementing an Adjective (inside AdjP): proud of her work   Syntax tree showing PP \"of her work\" as complement of the adjective \"proud\"     PP Modifying a Sentence: In the morning, we will leave   Syntax tree showing PP \"In the morning\" modifying the entire sentence     PP Attachment Ambiguity NP Reading: I saw the man with binoculars (the man has binoculars)   Syntax tree showing PP \"with binoculars\" attached inside the NP, modifying \"man\"     PP Attachment Ambiguity VP Reading: I saw the man with binoculars (I used binoculars)   Syntax tree showing PP \"with binoculars\" attached inside the VP, modifying \"saw\"    "
+},
+{
+  "id": "fig-app-pp-01-basic",
+  "level": "2",
+  "url": "app-diagrams-pp.html#fig-app-pp-01-basic",
+  "type": "Figure",
+  "number": "A.5.1",
+  "title": "",
+  "body": " Basic PP: on the table   Syntax tree showing PP with preposition \"on\" and NP object \"the table\"   "
+},
+{
+  "id": "fig-app-pp-02-pronoun",
+  "level": "2",
+  "url": "app-diagrams-pp.html#fig-app-pp-02-pronoun",
+  "type": "Figure",
+  "number": "A.5.2",
+  "title": "",
+  "body": " PP with Pronoun Object: with her   Syntax tree showing PP with preposition \"with\" and pronoun object \"her\"   "
+},
+{
+  "id": "fig-app-pp-03-bare-noun",
+  "level": "2",
+  "url": "app-diagrams-pp.html#fig-app-pp-03-bare-noun",
+  "type": "Figure",
+  "number": "A.5.3",
+  "title": "",
+  "body": " PP with Bare Noun Object: before noon   Syntax tree showing PP with preposition \"before\" and bare noun \"noon\"   "
+},
+{
+  "id": "fig-app-pp-04-mod-np",
+  "level": "2",
+  "url": "app-diagrams-pp.html#fig-app-pp-04-mod-np",
+  "type": "Figure",
+  "number": "A.5.4",
+  "title": "",
+  "body": " PP Modifying a Noun (inside NP): the man in the hat   Syntax tree showing PP \"in the hat\" as a post-modifier inside the NP   "
+},
+{
+  "id": "fig-app-pp-05-mod-vp",
+  "level": "2",
+  "url": "app-diagrams-pp.html#fig-app-pp-05-mod-vp",
+  "type": "Figure",
+  "number": "A.5.5",
+  "title": "",
+  "body": " PP Modifying a Verb (inside VP): She waited in the lobby   Syntax tree showing PP \"in the lobby\" as a modifier inside the VP   "
+},
+{
+  "id": "fig-app-pp-06-mod-adjp",
+  "level": "2",
+  "url": "app-diagrams-pp.html#fig-app-pp-06-mod-adjp",
+  "type": "Figure",
+  "number": "A.5.6",
+  "title": "",
+  "body": " PP Complementing an Adjective (inside AdjP): proud of her work   Syntax tree showing PP \"of her work\" as complement of the adjective \"proud\"   "
+},
+{
+  "id": "fig-app-pp-07-mod-sentence",
+  "level": "2",
+  "url": "app-diagrams-pp.html#fig-app-pp-07-mod-sentence",
+  "type": "Figure",
+  "number": "A.5.7",
+  "title": "",
+  "body": " PP Modifying a Sentence: In the morning, we will leave   Syntax tree showing PP \"In the morning\" modifying the entire sentence   "
+},
+{
+  "id": "fig-app-pp-08-ambig-np",
+  "level": "2",
+  "url": "app-diagrams-pp.html#fig-app-pp-08-ambig-np",
+  "type": "Figure",
+  "number": "A.5.8",
+  "title": "",
+  "body": " PP Attachment Ambiguity NP Reading: I saw the man with binoculars (the man has binoculars)   Syntax tree showing PP \"with binoculars\" attached inside the NP, modifying \"man\"   "
+},
+{
+  "id": "fig-app-pp-09-ambig-vp",
+  "level": "2",
+  "url": "app-diagrams-pp.html#fig-app-pp-09-ambig-vp",
+  "type": "Figure",
+  "number": "A.5.9",
+  "title": "",
+  "body": " PP Attachment Ambiguity VP Reading: I saw the man with binoculars (I used binoculars)   Syntax tree showing PP \"with binoculars\" attached inside the VP, modifying \"saw\"   "
+},
+{
+  "id": "app-diagrams-sentence",
+  "level": "1",
+  "url": "app-diagrams-sentence.html",
+  "type": "Section",
+  "number": "A.6",
+  "title": "Sentence Patterns",
+  "body": " Sentence Patterns  This section shows every major sentence pattern in English: intransitive, transitive, ditransitive, three-argument verbs, copular and linking verbs, and complex transitive constructions.   Abstract Sentence Template: S NP + VP   Abstract syntax tree showing S branching to NP and VP     Intransitive: Dogs bark   Syntax tree showing intransitive sentence with bare noun subject     Intransitive with Modifiers: The old dog barked loudly   Syntax tree showing intransitive sentence with adjective and adverb modifiers     Transitive: The cat chased the mouse   Syntax tree showing transitive sentence with subject, verb, and direct object     Transitive with Modifiers: The young artist from Paris painted beautiful landscapes   Syntax tree showing transitive sentence with modified subject and object NPs     Ditransitive: Marie sent Ramon a gift   Syntax tree showing ditransitive sentence with indirect and direct objects     Three-Argument Verb: She put the book on the table   Syntax tree showing three-argument verb \"put\" requiring subject, object, and locative     Copular BE + NP: I am an optimist   Syntax tree showing copular BE with NP complement     Copular BE + AdjP: She is happy   Syntax tree showing copular BE with AdjP complement     Copular BE + PP: Phillip is over the moon   Syntax tree showing copular BE with PP complement     Copular BE + AdvP: Phillip is here   Syntax tree showing copular BE with AdvP complement     Linking Verb + NP: Phillip became a doctor   Syntax tree showing linking verb \"became\" with NP complement     Linking Verb + AdjP: Phillip became famous   Syntax tree showing linking verb \"became\" with AdjP complement     Complex Transitive + AdjP Object Complement: The jury found him guilty   Syntax tree showing complex transitive with direct object and AdjP object complement     Complex Transitive + NP Object Complement: They elected her president   Syntax tree showing complex transitive with direct object and NP object complement     Intransitive with Coordinated VPs: The dog barked and ran   Syntax tree showing a sentence with two coordinated verb phrases    "
+},
+{
+  "id": "fig-app-sent-01-abstract",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-01-abstract",
+  "type": "Figure",
+  "number": "A.6.1",
+  "title": "",
+  "body": " Abstract Sentence Template: S NP + VP   Abstract syntax tree showing S branching to NP and VP   "
+},
+{
+  "id": "fig-app-sent-02-intransitive",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-02-intransitive",
+  "type": "Figure",
+  "number": "A.6.2",
+  "title": "",
+  "body": " Intransitive: Dogs bark   Syntax tree showing intransitive sentence with bare noun subject   "
+},
+{
+  "id": "fig-app-sent-03-intrans-mod",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-03-intrans-mod",
+  "type": "Figure",
+  "number": "A.6.3",
+  "title": "",
+  "body": " Intransitive with Modifiers: The old dog barked loudly   Syntax tree showing intransitive sentence with adjective and adverb modifiers   "
+},
+{
+  "id": "fig-app-sent-04-transitive",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-04-transitive",
+  "type": "Figure",
+  "number": "A.6.4",
+  "title": "",
+  "body": " Transitive: The cat chased the mouse   Syntax tree showing transitive sentence with subject, verb, and direct object   "
+},
+{
+  "id": "fig-app-sent-05-trans-mod",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-05-trans-mod",
+  "type": "Figure",
+  "number": "A.6.5",
+  "title": "",
+  "body": " Transitive with Modifiers: The young artist from Paris painted beautiful landscapes   Syntax tree showing transitive sentence with modified subject and object NPs   "
+},
+{
+  "id": "fig-app-sent-06-ditransitive",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-06-ditransitive",
+  "type": "Figure",
+  "number": "A.6.6",
+  "title": "",
+  "body": " Ditransitive: Marie sent Ramon a gift   Syntax tree showing ditransitive sentence with indirect and direct objects   "
+},
+{
+  "id": "fig-app-sent-07-three-arg",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-07-three-arg",
+  "type": "Figure",
+  "number": "A.6.7",
+  "title": "",
+  "body": " Three-Argument Verb: She put the book on the table   Syntax tree showing three-argument verb \"put\" requiring subject, object, and locative   "
+},
+{
+  "id": "fig-app-sent-08-copular-np",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-08-copular-np",
+  "type": "Figure",
+  "number": "A.6.8",
+  "title": "",
+  "body": " Copular BE + NP: I am an optimist   Syntax tree showing copular BE with NP complement   "
+},
+{
+  "id": "fig-app-sent-09-copular-adjp",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-09-copular-adjp",
+  "type": "Figure",
+  "number": "A.6.9",
+  "title": "",
+  "body": " Copular BE + AdjP: She is happy   Syntax tree showing copular BE with AdjP complement   "
+},
+{
+  "id": "fig-app-sent-10-copular-pp",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-10-copular-pp",
+  "type": "Figure",
+  "number": "A.6.10",
+  "title": "",
+  "body": " Copular BE + PP: Phillip is over the moon   Syntax tree showing copular BE with PP complement   "
+},
+{
+  "id": "fig-app-sent-11-copular-advp",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-11-copular-advp",
+  "type": "Figure",
+  "number": "A.6.11",
+  "title": "",
+  "body": " Copular BE + AdvP: Phillip is here   Syntax tree showing copular BE with AdvP complement   "
+},
+{
+  "id": "fig-app-sent-12-linking-np",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-12-linking-np",
+  "type": "Figure",
+  "number": "A.6.12",
+  "title": "",
+  "body": " Linking Verb + NP: Phillip became a doctor   Syntax tree showing linking verb \"became\" with NP complement   "
+},
+{
+  "id": "fig-app-sent-13-linking-adjp",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-13-linking-adjp",
+  "type": "Figure",
+  "number": "A.6.13",
+  "title": "",
+  "body": " Linking Verb + AdjP: Phillip became famous   Syntax tree showing linking verb \"became\" with AdjP complement   "
+},
+{
+  "id": "fig-app-sent-14-complex-trans-adjp",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-14-complex-trans-adjp",
+  "type": "Figure",
+  "number": "A.6.14",
+  "title": "",
+  "body": " Complex Transitive + AdjP Object Complement: The jury found him guilty   Syntax tree showing complex transitive with direct object and AdjP object complement   "
+},
+{
+  "id": "fig-app-sent-15-complex-trans-np",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-15-complex-trans-np",
+  "type": "Figure",
+  "number": "A.6.15",
+  "title": "",
+  "body": " Complex Transitive + NP Object Complement: They elected her president   Syntax tree showing complex transitive with direct object and NP object complement   "
+},
+{
+  "id": "fig-app-sent-16-coord-vps",
+  "level": "2",
+  "url": "app-diagrams-sentence.html#fig-app-sent-16-coord-vps",
+  "type": "Figure",
+  "number": "A.6.16",
+  "title": "",
+  "body": " Intransitive with Coordinated VPs: The dog barked and ran   Syntax tree showing a sentence with two coordinated verb phrases   "
+},
+{
+  "id": "app-diagrams-compound-complex",
+  "level": "1",
+  "url": "app-diagrams-compound-complex.html",
+  "type": "Section",
+  "number": "A.7",
+  "title": "Compound and Complex Sentences",
+  "body": " Compound and Complex Sentences  This section starts from a simple sentence and progressively shows how clauses combine through coordination and subordination.   Simple Sentence Baseline: The students studied   Syntax tree showing a simple sentence as baseline for comparison     Compound Subject (Not a Compound Sentence): Marcus and Elena traveled   Syntax tree showing coordinated NP subject, not a compound sentence     Compound Sentence with and : She writes poetry, and he composes music   Syntax tree showing compound sentence with two independent clauses joined by \"and\"     Compound Sentence with but : She studied hard, but she failed the exam   Syntax tree showing compound sentence with two independent clauses joined by \"but\"     Complex Sentence Dependent Clause Second: She declined because she had other plans   Syntax tree showing complex sentence with dependent clause following independent clause     Complex Sentence Dependent Clause First: When the power flickered, everyone looked up   Syntax tree showing complex sentence with dependent clause preceding independent clause     Subordination DC Following: I laugh because you cry   Syntax tree showing subordination with dependent clause in final position     Subordination DC Fronted: Because you cry, I laugh   Syntax tree showing subordination with dependent clause fronted    "
+},
+{
+  "id": "fig-app-cc-01-simple",
+  "level": "2",
+  "url": "app-diagrams-compound-complex.html#fig-app-cc-01-simple",
+  "type": "Figure",
+  "number": "A.7.1",
+  "title": "",
+  "body": " Simple Sentence Baseline: The students studied   Syntax tree showing a simple sentence as baseline for comparison   "
+},
+{
+  "id": "fig-app-cc-02-compound-subj",
+  "level": "2",
+  "url": "app-diagrams-compound-complex.html#fig-app-cc-02-compound-subj",
+  "type": "Figure",
+  "number": "A.7.2",
+  "title": "",
+  "body": " Compound Subject (Not a Compound Sentence): Marcus and Elena traveled   Syntax tree showing coordinated NP subject, not a compound sentence   "
+},
+{
+  "id": "fig-app-cc-03-compound-and",
+  "level": "2",
+  "url": "app-diagrams-compound-complex.html#fig-app-cc-03-compound-and",
+  "type": "Figure",
+  "number": "A.7.3",
+  "title": "",
+  "body": " Compound Sentence with and : She writes poetry, and he composes music   Syntax tree showing compound sentence with two independent clauses joined by \"and\"   "
+},
+{
+  "id": "fig-app-cc-04-compound-but",
+  "level": "2",
+  "url": "app-diagrams-compound-complex.html#fig-app-cc-04-compound-but",
+  "type": "Figure",
+  "number": "A.7.4",
+  "title": "",
+  "body": " Compound Sentence with but : She studied hard, but she failed the exam   Syntax tree showing compound sentence with two independent clauses joined by \"but\"   "
+},
+{
+  "id": "fig-app-cc-05-complex-dc-second",
+  "level": "2",
+  "url": "app-diagrams-compound-complex.html#fig-app-cc-05-complex-dc-second",
+  "type": "Figure",
+  "number": "A.7.5",
+  "title": "",
+  "body": " Complex Sentence Dependent Clause Second: She declined because she had other plans   Syntax tree showing complex sentence with dependent clause following independent clause   "
+},
+{
+  "id": "fig-app-cc-06-complex-dc-first",
+  "level": "2",
+  "url": "app-diagrams-compound-complex.html#fig-app-cc-06-complex-dc-first",
+  "type": "Figure",
+  "number": "A.7.6",
+  "title": "",
+  "body": " Complex Sentence Dependent Clause First: When the power flickered, everyone looked up   Syntax tree showing complex sentence with dependent clause preceding independent clause   "
+},
+{
+  "id": "fig-app-cc-07-subord-following",
+  "level": "2",
+  "url": "app-diagrams-compound-complex.html#fig-app-cc-07-subord-following",
+  "type": "Figure",
+  "number": "A.7.7",
+  "title": "",
+  "body": " Subordination DC Following: I laugh because you cry   Syntax tree showing subordination with dependent clause in final position   "
+},
+{
+  "id": "fig-app-cc-08-subord-fronted",
+  "level": "2",
+  "url": "app-diagrams-compound-complex.html#fig-app-cc-08-subord-fronted",
+  "type": "Figure",
+  "number": "A.7.8",
+  "title": "",
+  "body": " Subordination DC Fronted: Because you cry, I laugh   Syntax tree showing subordination with dependent clause fronted   "
+},
+{
+  "id": "app-diagrams-adverbials",
+  "level": "1",
+  "url": "app-diagrams-adverbials.html",
+  "type": "Section",
+  "number": "A.8",
+  "title": "Adverbials",
+  "body": " Adverbials  This section shows every form an adverbial can take, building from single-word adverbs to adverbial clauses and participial phrases.   AdvP as Adverbial: She ran quickly   Syntax tree showing AdvP functioning as adverbial modifier of the verb     PP as Place Adverbial: He works in the city   Syntax tree showing PP functioning as adverbial of place     PP as Time Adverbial: She arrived at noon   Syntax tree showing PP functioning as adverbial of time     NP as Adverbial: I sleep every day   Syntax tree showing NP \"every day\" functioning as adverbial     Adverbial Clause Reason: She left because she was tired   Syntax tree showing adverbial clause of reason introduced by \"because\"     Adverbial Clause Time (Fronted): When the class ended, students left   Syntax tree showing fronted adverbial clause of time introduced by \"When\"     Infinitive as Purpose Adverbial: He saved money to buy a car   Syntax tree showing infinitive clause functioning as adverbial of purpose     Participial Adverbial: Walking home, she noticed the sunset   Syntax tree showing participial phrase functioning as adverbial     Sentence Adverb (Disjunct): Fortunately, she passed   Syntax tree showing sentence-level adverb \"Fortunately\" as disjunct     Multiple Adverbials: She worked hard all day in the library   Syntax tree showing multiple adverbials of different types in one sentence    "
+},
+{
+  "id": "fig-app-adverbl-01-advp",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-01-advp",
+  "type": "Figure",
+  "number": "A.8.1",
+  "title": "",
+  "body": " AdvP as Adverbial: She ran quickly   Syntax tree showing AdvP functioning as adverbial modifier of the verb   "
+},
+{
+  "id": "fig-app-adverbl-02-pp-place",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-02-pp-place",
+  "type": "Figure",
+  "number": "A.8.2",
+  "title": "",
+  "body": " PP as Place Adverbial: He works in the city   Syntax tree showing PP functioning as adverbial of place   "
+},
+{
+  "id": "fig-app-adverbl-03-pp-time",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-03-pp-time",
+  "type": "Figure",
+  "number": "A.8.3",
+  "title": "",
+  "body": " PP as Time Adverbial: She arrived at noon   Syntax tree showing PP functioning as adverbial of time   "
+},
+{
+  "id": "fig-app-adverbl-04-np",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-04-np",
+  "type": "Figure",
+  "number": "A.8.4",
+  "title": "",
+  "body": " NP as Adverbial: I sleep every day   Syntax tree showing NP \"every day\" functioning as adverbial   "
+},
+{
+  "id": "fig-app-adverbl-05-clause-reason",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-05-clause-reason",
+  "type": "Figure",
+  "number": "A.8.5",
+  "title": "",
+  "body": " Adverbial Clause Reason: She left because she was tired   Syntax tree showing adverbial clause of reason introduced by \"because\"   "
+},
+{
+  "id": "fig-app-adverbl-06-clause-time",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-06-clause-time",
+  "type": "Figure",
+  "number": "A.8.6",
+  "title": "",
+  "body": " Adverbial Clause Time (Fronted): When the class ended, students left   Syntax tree showing fronted adverbial clause of time introduced by \"When\"   "
+},
+{
+  "id": "fig-app-adverbl-07-infinitive",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-07-infinitive",
+  "type": "Figure",
+  "number": "A.8.7",
+  "title": "",
+  "body": " Infinitive as Purpose Adverbial: He saved money to buy a car   Syntax tree showing infinitive clause functioning as adverbial of purpose   "
+},
+{
+  "id": "fig-app-adverbl-08-participial",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-08-participial",
+  "type": "Figure",
+  "number": "A.8.8",
+  "title": "",
+  "body": " Participial Adverbial: Walking home, she noticed the sunset   Syntax tree showing participial phrase functioning as adverbial   "
+},
+{
+  "id": "fig-app-adverbl-09-disjunct",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-09-disjunct",
+  "type": "Figure",
+  "number": "A.8.9",
+  "title": "",
+  "body": " Sentence Adverb (Disjunct): Fortunately, she passed   Syntax tree showing sentence-level adverb \"Fortunately\" as disjunct   "
+},
+{
+  "id": "fig-app-adverbl-10-multiple",
+  "level": "2",
+  "url": "app-diagrams-adverbials.html#fig-app-adverbl-10-multiple",
+  "type": "Figure",
+  "number": "A.8.10",
+  "title": "",
+  "body": " Multiple Adverbials: She worked hard all day in the library   Syntax tree showing multiple adverbials of different types in one sentence   "
+},
+{
+  "id": "app-diagrams-adjectivals",
+  "level": "1",
+  "url": "app-diagrams-adjectivals.html",
+  "type": "Section",
+  "number": "A.9",
+  "title": "Adjectival Modifiers",
+  "body": " Adjectival Modifiers  This section shows every way to modify a noun, from simple prenominal adjectives to post-modifying participial phrases and relative clauses.   Prenominal Adjective: The red car stopped   Syntax tree showing adjective \"red\" in prenominal position before the noun     Predicative Adjective: The car is red   Syntax tree showing adjective \"red\" in predicative position after copular verb     PP as Post-Modifier: The book on the shelf is mine   Syntax tree showing PP \"on the shelf\" as adjectival post-modifier of noun     Infinitive as Post-Modifier: He has time to spare   Syntax tree showing infinitive \"to spare\" as adjectival post-modifier     Present Participial Phrase: The woman singing on stage waved   Syntax tree showing present participial phrase as adjectival modifier     Past Participial Phrase: The report written by the team was thorough   Syntax tree showing past participial phrase as adjectival modifier     Restrictive Relative Clause: The students who studied passed   Syntax tree showing restrictive relative clause modifying the noun     Non-Restrictive Relative Clause: My sister, who lives in Boston, called   Syntax tree showing non-restrictive relative clause modifying the noun    "
+},
+{
+  "id": "fig-app-adjectl-01-prenominal",
+  "level": "2",
+  "url": "app-diagrams-adjectivals.html#fig-app-adjectl-01-prenominal",
+  "type": "Figure",
+  "number": "A.9.1",
+  "title": "",
+  "body": " Prenominal Adjective: The red car stopped   Syntax tree showing adjective \"red\" in prenominal position before the noun   "
+},
+{
+  "id": "fig-app-adjectl-02-predicative",
+  "level": "2",
+  "url": "app-diagrams-adjectivals.html#fig-app-adjectl-02-predicative",
+  "type": "Figure",
+  "number": "A.9.2",
+  "title": "",
+  "body": " Predicative Adjective: The car is red   Syntax tree showing adjective \"red\" in predicative position after copular verb   "
+},
+{
+  "id": "fig-app-adjectl-03-pp",
+  "level": "2",
+  "url": "app-diagrams-adjectivals.html#fig-app-adjectl-03-pp",
+  "type": "Figure",
+  "number": "A.9.3",
+  "title": "",
+  "body": " PP as Post-Modifier: The book on the shelf is mine   Syntax tree showing PP \"on the shelf\" as adjectival post-modifier of noun   "
+},
+{
+  "id": "fig-app-adjectl-04-infinitive",
+  "level": "2",
+  "url": "app-diagrams-adjectivals.html#fig-app-adjectl-04-infinitive",
+  "type": "Figure",
+  "number": "A.9.4",
+  "title": "",
+  "body": " Infinitive as Post-Modifier: He has time to spare   Syntax tree showing infinitive \"to spare\" as adjectival post-modifier   "
+},
+{
+  "id": "fig-app-adjectl-05-pres-part",
+  "level": "2",
+  "url": "app-diagrams-adjectivals.html#fig-app-adjectl-05-pres-part",
+  "type": "Figure",
+  "number": "A.9.5",
+  "title": "",
+  "body": " Present Participial Phrase: The woman singing on stage waved   Syntax tree showing present participial phrase as adjectival modifier   "
+},
+{
+  "id": "fig-app-adjectl-06-past-part",
+  "level": "2",
+  "url": "app-diagrams-adjectivals.html#fig-app-adjectl-06-past-part",
+  "type": "Figure",
+  "number": "A.9.6",
+  "title": "",
+  "body": " Past Participial Phrase: The report written by the team was thorough   Syntax tree showing past participial phrase as adjectival modifier   "
+},
+{
+  "id": "fig-app-adjectl-07-relcl-restr",
+  "level": "2",
+  "url": "app-diagrams-adjectivals.html#fig-app-adjectl-07-relcl-restr",
+  "type": "Figure",
+  "number": "A.9.7",
+  "title": "",
+  "body": " Restrictive Relative Clause: The students who studied passed   Syntax tree showing restrictive relative clause modifying the noun   "
+},
+{
+  "id": "fig-app-adjectl-08-relcl-nonrestr",
+  "level": "2",
+  "url": "app-diagrams-adjectivals.html#fig-app-adjectl-08-relcl-nonrestr",
+  "type": "Figure",
+  "number": "A.9.8",
+  "title": "",
+  "body": " Non-Restrictive Relative Clause: My sister, who lives in Boston, called   Syntax tree showing non-restrictive relative clause modifying the noun   "
+},
+{
+  "id": "app-diagrams-relcl",
+  "level": "1",
+  "url": "app-diagrams-relcl.html",
+  "type": "Section",
+  "number": "A.10",
+  "title": "Relative Clauses",
+  "body": " Relative Clauses  This section takes the student through every relative clause type, from subject relatives to reduced participial forms.   Subject Relative with who : the student who studies hard   Syntax tree showing subject relative clause with relativizer \"who\"     Object Relative with that : the student that I met   Syntax tree showing object relative clause with relativizer \"that\"     Object Relative with whom : the student whom I met   Syntax tree showing object relative clause with formal relativizer \"whom\"     Possessive Relative with whose : the student whose book I borrowed   Syntax tree showing possessive relative clause with \"whose\"     Relative Adverb where : the library where she studies   Syntax tree showing relative clause with relative adverb \"where\"     Relative Adverb when : the day when she graduated   Syntax tree showing relative clause with relative adverb \"when\"     Zero Relative (No Relativizer): the student I met   Syntax tree showing relative clause with empty relativizer position     Reduced Relative Present Participle: the student studying in the library   Syntax tree showing reduced relative clause with present participle     Reduced Relative Past Participle: the book written by the professor   Syntax tree showing reduced relative clause with past participle    "
+},
+{
+  "id": "fig-app-relcl-01-who",
+  "level": "2",
+  "url": "app-diagrams-relcl.html#fig-app-relcl-01-who",
+  "type": "Figure",
+  "number": "A.10.1",
+  "title": "",
+  "body": " Subject Relative with who : the student who studies hard   Syntax tree showing subject relative clause with relativizer \"who\"   "
+},
+{
+  "id": "fig-app-relcl-02-that",
+  "level": "2",
+  "url": "app-diagrams-relcl.html#fig-app-relcl-02-that",
+  "type": "Figure",
+  "number": "A.10.2",
+  "title": "",
+  "body": " Object Relative with that : the student that I met   Syntax tree showing object relative clause with relativizer \"that\"   "
+},
+{
+  "id": "fig-app-relcl-03-whom",
+  "level": "2",
+  "url": "app-diagrams-relcl.html#fig-app-relcl-03-whom",
+  "type": "Figure",
+  "number": "A.10.3",
+  "title": "",
+  "body": " Object Relative with whom : the student whom I met   Syntax tree showing object relative clause with formal relativizer \"whom\"   "
+},
+{
+  "id": "fig-app-relcl-04-whose",
+  "level": "2",
+  "url": "app-diagrams-relcl.html#fig-app-relcl-04-whose",
+  "type": "Figure",
+  "number": "A.10.4",
+  "title": "",
+  "body": " Possessive Relative with whose : the student whose book I borrowed   Syntax tree showing possessive relative clause with \"whose\"   "
+},
+{
+  "id": "fig-app-relcl-05-where",
+  "level": "2",
+  "url": "app-diagrams-relcl.html#fig-app-relcl-05-where",
+  "type": "Figure",
+  "number": "A.10.5",
+  "title": "",
+  "body": " Relative Adverb where : the library where she studies   Syntax tree showing relative clause with relative adverb \"where\"   "
+},
+{
+  "id": "fig-app-relcl-06-when",
+  "level": "2",
+  "url": "app-diagrams-relcl.html#fig-app-relcl-06-when",
+  "type": "Figure",
+  "number": "A.10.6",
+  "title": "",
+  "body": " Relative Adverb when : the day when she graduated   Syntax tree showing relative clause with relative adverb \"when\"   "
+},
+{
+  "id": "fig-app-relcl-07-zero",
+  "level": "2",
+  "url": "app-diagrams-relcl.html#fig-app-relcl-07-zero",
+  "type": "Figure",
+  "number": "A.10.7",
+  "title": "",
+  "body": " Zero Relative (No Relativizer): the student I met   Syntax tree showing relative clause with empty relativizer position   "
+},
+{
+  "id": "fig-app-relcl-08-reduced-pres",
+  "level": "2",
+  "url": "app-diagrams-relcl.html#fig-app-relcl-08-reduced-pres",
+  "type": "Figure",
+  "number": "A.10.8",
+  "title": "",
+  "body": " Reduced Relative Present Participle: the student studying in the library   Syntax tree showing reduced relative clause with present participle   "
+},
+{
+  "id": "fig-app-relcl-09-reduced-past",
+  "level": "2",
+  "url": "app-diagrams-relcl.html#fig-app-relcl-09-reduced-past",
+  "type": "Figure",
+  "number": "A.10.9",
+  "title": "",
+  "body": " Reduced Relative Past Participle: the book written by the professor   Syntax tree showing reduced relative clause with past participle   "
+},
+{
+  "id": "app-diagrams-complement",
+  "level": "1",
+  "url": "app-diagrams-complement.html",
+  "type": "Section",
+  "number": "A.11",
+  "title": "Complement Clauses",
+  "body": " Complement Clauses  This section shows noun clauses (complement clauses) in subject and object positions, including that-clauses, if\/whether clauses, and infinitive complements.   That-Clause as Object: I know that she is brilliant   Syntax tree showing that-clause functioning as object complement     That-Clause as Subject: That she passed surprised everyone   Syntax tree showing that-clause functioning as subject     If\/Whether Clause as Object: I wonder if she left   Syntax tree showing if-clause functioning as object complement     Omitted Complementizer: I know she is brilliant   Syntax tree showing complement clause with omitted \"that\" complementizer     Infinitive Complement: She wants to leave   Syntax tree showing infinitive clause as verb complement    "
+},
+{
+  "id": "fig-app-compcl-01-that-obj",
+  "level": "2",
+  "url": "app-diagrams-complement.html#fig-app-compcl-01-that-obj",
+  "type": "Figure",
+  "number": "A.11.1",
+  "title": "",
+  "body": " That-Clause as Object: I know that she is brilliant   Syntax tree showing that-clause functioning as object complement   "
+},
+{
+  "id": "fig-app-compcl-02-that-subj",
+  "level": "2",
+  "url": "app-diagrams-complement.html#fig-app-compcl-02-that-subj",
+  "type": "Figure",
+  "number": "A.11.2",
+  "title": "",
+  "body": " That-Clause as Subject: That she passed surprised everyone   Syntax tree showing that-clause functioning as subject   "
+},
+{
+  "id": "fig-app-compcl-03-if",
+  "level": "2",
+  "url": "app-diagrams-complement.html#fig-app-compcl-03-if",
+  "type": "Figure",
+  "number": "A.11.3",
+  "title": "",
+  "body": " If\/Whether Clause as Object: I wonder if she left   Syntax tree showing if-clause functioning as object complement   "
+},
+{
+  "id": "fig-app-compcl-04-omitted",
+  "level": "2",
+  "url": "app-diagrams-complement.html#fig-app-compcl-04-omitted",
+  "type": "Figure",
+  "number": "A.11.4",
+  "title": "",
+  "body": " Omitted Complementizer: I know she is brilliant   Syntax tree showing complement clause with omitted \"that\" complementizer   "
+},
+{
+  "id": "fig-app-compcl-05-infinitive",
+  "level": "2",
+  "url": "app-diagrams-complement.html#fig-app-compcl-05-infinitive",
+  "type": "Figure",
+  "number": "A.11.5",
+  "title": "",
+  "body": " Infinitive Complement: She wants to leave   Syntax tree showing infinitive clause as verb complement   "
+},
+{
+  "id": "app-diagrams-ambiguity",
+  "level": "1",
+  "url": "app-diagrams-ambiguity.html",
+  "type": "Section",
+  "number": "A.12",
+  "title": "Structural Ambiguity",
+  "body": " Structural Ambiguity  This section presents paired diagrams showing how the same sentence can have two different structural analyses, leading to two different meanings. Each pair shares the same words but differs in how phrases attach.   PP Attaches to NP: I saw the man with binoculars (the man has binoculars)   Syntax tree showing PP \"with binoculars\" attached to NP, meaning the man possesses binoculars     PP Attaches to VP: I saw the man with binoculars (I used binoculars)   Syntax tree showing PP \"with binoculars\" attached to VP, meaning the speaker used binoculars     Adjective Scope Reading 1: old men and women (only men are old)   Syntax tree showing \"old\" modifying only \"men\" in the coordinated NP     Adjective Scope Reading 2: old men and women (both are old)   Syntax tree showing \"old\" modifying both \"men and women\" in the coordinated NP     Adjunct PP Modifies VP: She talked about the problem on the phone (she used the phone to talk)   Syntax tree showing \"on the phone\" as VP adjunct, meaning the phone was used for talking     PP Modifies NP: She talked about the problem on the phone (the problem is on the phone)   Syntax tree showing \"on the phone\" modifying NP \"the problem\", meaning the problem exists on the phone    "
+},
+{
+  "id": "fig-app-ambig-01-pp-np",
+  "level": "2",
+  "url": "app-diagrams-ambiguity.html#fig-app-ambig-01-pp-np",
+  "type": "Figure",
+  "number": "A.12.1",
+  "title": "",
+  "body": " PP Attaches to NP: I saw the man with binoculars (the man has binoculars)   Syntax tree showing PP \"with binoculars\" attached to NP, meaning the man possesses binoculars   "
+},
+{
+  "id": "fig-app-ambig-02-pp-vp",
+  "level": "2",
+  "url": "app-diagrams-ambiguity.html#fig-app-ambig-02-pp-vp",
+  "type": "Figure",
+  "number": "A.12.2",
+  "title": "",
+  "body": " PP Attaches to VP: I saw the man with binoculars (I used binoculars)   Syntax tree showing PP \"with binoculars\" attached to VP, meaning the speaker used binoculars   "
+},
+{
+  "id": "fig-app-ambig-03-scope-1",
+  "level": "2",
+  "url": "app-diagrams-ambiguity.html#fig-app-ambig-03-scope-1",
+  "type": "Figure",
+  "number": "A.12.3",
+  "title": "",
+  "body": " Adjective Scope Reading 1: old men and women (only men are old)   Syntax tree showing \"old\" modifying only \"men\" in the coordinated NP   "
+},
+{
+  "id": "fig-app-ambig-04-scope-2",
+  "level": "2",
+  "url": "app-diagrams-ambiguity.html#fig-app-ambig-04-scope-2",
+  "type": "Figure",
+  "number": "A.12.4",
+  "title": "",
+  "body": " Adjective Scope Reading 2: old men and women (both are old)   Syntax tree showing \"old\" modifying both \"men and women\" in the coordinated NP   "
+},
+{
+  "id": "fig-app-ambig-05-adjunct-vp",
+  "level": "2",
+  "url": "app-diagrams-ambiguity.html#fig-app-ambig-05-adjunct-vp",
+  "type": "Figure",
+  "number": "A.12.5",
+  "title": "",
+  "body": " Adjunct PP Modifies VP: She talked about the problem on the phone (she used the phone to talk)   Syntax tree showing \"on the phone\" as VP adjunct, meaning the phone was used for talking   "
+},
+{
+  "id": "fig-app-ambig-06-adjunct-np",
+  "level": "2",
+  "url": "app-diagrams-ambiguity.html#fig-app-ambig-06-adjunct-np",
+  "type": "Figure",
+  "number": "A.12.6",
+  "title": "",
+  "body": " PP Modifies NP: She talked about the problem on the phone (the problem is on the phone)   Syntax tree showing \"on the phone\" modifying NP \"the problem\", meaning the problem exists on the phone   "
+},
+{
+  "id": "backmatter-2",
+  "level": "1",
+  "url": "backmatter-2.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
