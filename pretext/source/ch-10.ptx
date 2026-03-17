@@ -30,261 +30,6 @@
 
   <p>This chapter examines two interlocking systems: <em>auxiliary verbs</em>, which are the grammatical machinery that builds complex verb phrases, and <em>tense and aspect</em>, which are the categories that locate events in time and describe their internal shape. You probably know tense as a simple past/present/future distinction, but the grammar is more nuanced than that intuition suggests. English actually has only two morphological tenses, and the rich variety of time meanings you can express—<foreign>she worked</foreign>, <foreign>she has been working</foreign>, <foreign>she had worked</foreign>—comes from combining those two tenses with four different aspects. By the end of this chapter, you will be able to name and analyze any tense-aspect combination in English.</p>
 
-  <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-101">
-    <title>Auxiliary Verbs</title>
-
-    <p>Consider the difference between <foreign>She eats</foreign> and <foreign>She has been eating</foreign>. Both sentences have the same main verb, but the second tells you something the first does not: that the eating started in the past and is still ongoing. The words doing that extra work—<foreign>has</foreign> and <foreign>been</foreign>—are auxiliary verbs. You cannot understand how English verb phrases are built without understanding how auxiliaries function, because they are the building blocks that tense, aspect, voice, and modality all depend on.</p>
-
-    <p><term>Auxiliary verbs</term> (also called helping verbs) combine with main verbs to create complex verb phrases. They add grammatical information about tense, aspect, voice, and modality.</p>
-
-    <paragraphs>
-      <title>Auxiliary vs. Main Verb</title>
-    </paragraphs>
-
-    <p><em>Main verb</em> (lexical verb): Carries the primary meaning</p>
-
-    <p><em>Auxiliary verb</em>: Adds grammatical information</p>
-
-    <p><q><foreign>She <em>has eaten</em> dinner.</foreign></q></p>
-
-    <ul>
-      <li><p>Auxiliary: <foreign>has</foreign> (adds perfect aspect)</p></li>
-      <li><p>Main verb: <foreign>eaten</foreign> (the action)</p></li>
-    </ul>
-
-    <p><q><foreign>The book <em>was written</em> by Maria.</foreign></q></p>
-
-    <ul>
-      <li><p>Auxiliary: <foreign>was</foreign> (adds passive voice)</p></li>
-      <li><p>Main verb: <foreign>written</foreign> (the action)</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Types of Auxiliaries</title>
-    </paragraphs>
-
-    <p><term>Primary auxiliaries</term>: <foreign>be, have, do</foreign></p>
-
-    <ul>
-      <li><p>Form progressive, perfect, and passive constructions</p></li>
-      <li><p>Can also be main verbs</p></li>
-    </ul>
-
-    <p><term>Modal auxiliaries</term>: <foreign>can, could, will, would, shall, should, may, might, must</foreign></p>
-
-    <ul>
-      <li><p>Add modality (possibility, necessity, permission, etc.)</p></li>
-      <li><p>Covered in Chapter 11</p></li>
-    </ul>
-
-  </section>
-
-  <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-102">
-    <title>Primary Auxiliary: Be</title>
-
-    <p><foreign>Be</foreign> is the most versatile auxiliary, used for both progressive aspect and passive voice. It is also, arguably, the most irregular verb in English—its forms (<foreign>am, is, are, was, were, been, being</foreign>) look nothing like one another, a remnant of the verb's descent from three different Old English roots that merged over centuries. Despite that surface irregularity, the grammatical work <foreign>be</foreign> does as an auxiliary is entirely predictable: combine it with an <foreign>-ing</foreign> form to get progressive meaning, combine it with a past participle to get passive meaning.</p>
-
-    <paragraphs>
-      <title>Forms of Be</title>
-    </paragraphs>
-
-    <tabular>
-      <row header="yes">
-        <cell>Present</cell>
-        <cell>Past</cell>
-        <cell>Participles</cell>
-      </row>
-      <row>
-        <cell><foreign>am, is, are</foreign></cell>
-        <cell><foreign>was, were</foreign></cell>
-        <cell><foreign>been, being</foreign></cell>
-      </row>
-    </tabular>
-
-    <paragraphs>
-      <title>Functions of Auxiliary Be</title>
-    </paragraphs>
-
-    <p><em>Progressive aspect</em> (<foreign>be</foreign> + <foreign>-ing</foreign>):</p>
-
-    <ul>
-      <li><p><foreign>She <em>is reading</em>.</foreign> (present progressive)</p></li>
-      <li><p><foreign>They <em>were studying</em>.</foreign> (past progressive)</p></li>
-      <li><p><foreign>He <em>has been working</em>.</foreign> (present perfect progressive)</p></li>
-    </ul>
-
-    <image source="diagrams/new/ch10_be_progressive.png" width="30%">
-      <description>Syntax tree for "She is reading" showing auxiliary be followed by the -ing main verb form</description>
-    </image>
-    <p><c>[S [NP [PRON She]] [VP [AUX is] [V reading]]]</c></p>
-
-    <p><em>Passive voice</em> (<foreign>be</foreign> + past participle):</p>
-
-    <ul>
-      <li><p><foreign>The book <em>was written</em> by Maria.</foreign></p></li>
-      <li><p><foreign>The house <em>is being built</em>.</foreign></p></li>
-      <li><p><foreign>The work <em>will be completed</em>.</foreign></p></li>
-    </ul>
-
-    <image source="diagrams/new/ch10_be_passive_aux.png" width="50%">
-      <description>Syntax tree for "The book was written by Maria" showing auxiliary be followed by past participle with an agent by-phrase</description>
-    </image>
-    <p><c>[S [NP [DET The] [N book]] [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]]</c></p>
-
-    <paragraphs>
-      <title>Be as Main Verb vs. Auxiliary</title>
-    </paragraphs>
-
-    <p><foreign>Be</foreign> can also be a main verb (copular/linking):</p>
-
-    <ul>
-      <li><p><foreign>She <em>is</em> a teacher.</foreign> (main verb—links subject to complement)</p></li>
-    </ul>
-
-    <p><em>Distinguishing</em>:</p>
-
-    <ul>
-      <li><p>Followed by <foreign>-ing</foreign> form = auxiliary: <foreign>She <em>is reading</em>.</foreign></p></li>
-      <li><p>Followed by past participle = auxiliary (passive): <foreign>It <em>was done</em>.</foreign></p></li>
-      <li><p>Followed by NP, AdjP, PP = main verb: <foreign>She <em>is</em> happy.</foreign></p></li>
-    </ul>
-
-  </section>
-
-  <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-103">
-    <title>Primary Auxiliary: Have</title>
-
-    <p>Of the three primary auxiliaries, <foreign>have</foreign> is the one that creates the most subtle and often misunderstood category in English grammar: the perfect aspect. The difference between <foreign>She finished the report</foreign> and <foreign>She has finished the report</foreign> seems small on the surface, but it is meaningful. The first presents the event as completed and disconnected from the present; the second connects the completed event to right now—it signals that the finishing is relevant to the current moment. That connection to the present is what the perfect aspect is fundamentally about, and <foreign>have</foreign> is the auxiliary that creates it.</p>
-
-    <p><foreign>Have</foreign> forms the perfect aspect, indicating that an action is completed or has continuing relevance.</p>
-
-    <paragraphs>
-      <title>Forms of Have</title>
-    </paragraphs>
-
-    <tabular>
-      <row header="yes">
-        <cell>Present</cell>
-        <cell>Past</cell>
-        <cell>Participle</cell>
-      </row>
-      <row>
-        <cell><foreign>have, has</foreign></cell>
-        <cell><foreign>had</foreign></cell>
-        <cell><foreign>had</foreign></cell>
-      </row>
-    </tabular>
-
-    <paragraphs>
-      <title>Functions of Auxiliary Have</title>
-    </paragraphs>
-
-    <p><em>Perfect aspect</em> (<foreign>have</foreign> + past participle):</p>
-
-    <ul>
-      <li><p><foreign>She <em>has finished</em> the work.</foreign> (present perfect)</p></li>
-      <li><p><foreign>They <em>had left</em> before I arrived.</foreign> (past perfect)</p></li>
-      <li><p><foreign>By then, I <em>will have completed</em> it.</foreign> (future perfect)</p></li>
-    </ul>
-
-    <image source="diagrams/new/ch10_have_perfect.png" width="45%">
-      <description>Syntax tree for "She has finished the work" showing auxiliary have followed by past participle with a direct object</description>
-    </image>
-    <p><c>[S [NP [PRON She]] [VP [AUX has] [V finished] [NP [DET the] [N work]]]]</c></p>
-
-    <image source="diagrams/new/ch10_have_perfect_past.png" width="55%">
-      <description>Syntax tree for "They had left before I arrived" showing past perfect with an adverbial dependent clause</description>
-    </image>
-    <p><c>[S [NP [PRON They]] [VP [AUX had] [V left]] [DC [SUB before] [NP [PRON I]] [VP [V arrived]]]]</c></p>
-
-    <paragraphs>
-      <title>Have as Main Verb vs. Auxiliary</title>
-    </paragraphs>
-
-    <p><foreign>Have</foreign> is also a main verb meaning <q>possess</q>:</p>
-
-    <ul>
-      <li><p><foreign>I <em>have</em> a car.</foreign> (main verb)</p></li>
-      <li><p><foreign>I <em>have seen</em> that movie.</foreign> (auxiliary)</p></li>
-    </ul>
-
-    <p><em>Test</em>: Can you add <foreign>got</foreign> after <foreign>have</foreign>?</p>
-
-    <ul>
-      <li><p><foreign>I have (got) a car.</foreign> ✓ (main verb)</p></li>
-      <li><p><foreign><delete>I have got seen that movie.</delete></foreign> ✗ (auxiliary)</p></li>
-    </ul>
-
-  </section>
-
-  <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-104">
-    <title>Primary Auxiliary: Do</title>
-
-    <p>Of the three primary auxiliaries, <foreign>do</foreign> is the odd one out. Unlike <foreign>be</foreign> and <foreign>have</foreign>, it does not add aspect or voice; it is essentially a grammatical placeholder. English requires an auxiliary verb in certain positions—for forming questions by inversion, for placing <foreign>not</foreign> after an auxiliary—but many sentences have no auxiliary at all. When that need arises, English inserts <foreign>do</foreign> to fill the slot. Linguists call this <em>do-support</em>, and understanding it helps explain a construction that seems arbitrary but is actually quite systematic.</p>
-
-    <p><foreign>Do</foreign> is used for emphasis, questions, and negation when no other auxiliary is present.</p>
-
-    <paragraphs>
-      <title>Forms of Do</title>
-    </paragraphs>
-
-    <tabular>
-      <row header="yes">
-        <cell>Present</cell>
-        <cell>Past</cell>
-      </row>
-      <row>
-        <cell><foreign>do, does</foreign></cell>
-        <cell><foreign>did</foreign></cell>
-      </row>
-    </tabular>
-
-    <paragraphs>
-      <title>Functions of Auxiliary Do</title>
-    </paragraphs>
-
-    <p><term>Do-support</term>: When a sentence needs an auxiliary (for questions, negation) but has none, <foreign>do</foreign> is inserted:</p>
-
-    <p><em>Questions</em>:</p>
-
-    <ul>
-      <li><p><foreign>She <em>works</em> here.</foreign> → <foreign><em>Does</em> she work here?</foreign></p></li>
-      <li><p><foreign>They <em>left</em> early.</foreign> → <foreign><em>Did</em> they leave early?</foreign></p></li>
-    </ul>
-
-    <image source="diagrams/new/ch10_do_question.png" width="40%">
-      <description>Syntax tree for "Does she work here?" showing do-support in question formation with the auxiliary fronted before the subject</description>
-    </image>
-    <p><c>[S [AUX Does] [NP [PRON she]] [VP [V work] [ADVP [ADV here]]]]</c></p>
-
-    <p><em>Negation</em>:</p>
-
-    <ul>
-      <li><p><foreign>She <em>works</em> here.</foreign> → <foreign>She <em>doesn't</em> work here.</foreign></p></li>
-      <li><p><foreign>They <em>left</em> early.</foreign> → <foreign>They <em>didn't</em> leave early.</foreign></p></li>
-    </ul>
-
-    <image source="diagrams/new/ch10_do_negation.png" width="45%">
-      <description>Syntax tree for "She does not work here" showing do-support carrying the negation marker in a declarative sentence</description>
-    </image>
-    <p><c>[S [NP [PRON She]] [VP [AUX does] [NEG not] [V work] [ADVP [ADV here]]]]</c></p>
-
-    <p><em>Emphasis</em>:</p>
-
-    <ul>
-      <li><p><foreign>I <em>do</em> understand your concern.</foreign></p></li>
-      <li><p><foreign>She <em>did</em> finish the assignment.</foreign></p></li>
-    </ul>
-
-    <p><em>Note</em>: If another auxiliary is present, <foreign>do</foreign> is not used:</p>
-
-    <ul>
-      <li><p><foreign>She <em>is</em> working.</foreign> → <foreign>Is she working?</foreign> (not <foreign><delete>Does she is working?</delete></foreign>)</p></li>
-      <li><p><foreign>He <em>has</em> left.</foreign> → <foreign>Has he left?</foreign></p></li>
-    </ul>
-
-  </section>
-
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-105">
     <title>Tense: Locating Events in Time</title>
 
@@ -491,7 +236,6 @@
     <ul>
       <li><p><foreign>She <em>works</em> at a bank.</foreign> (present simple—habitual)</p></li>
       <li><p><foreign>She <em>worked</em> at a bank.</foreign> (past simple—completed)</p></li>
-      <li><p><foreign>She <em>will work</em> at a bank.</foreign> (future simple—predicted)</p></li>
     </ul>
 
     <paragraphs>
@@ -503,7 +247,6 @@
     <ul>
       <li><p><foreign>She <em>is working</em> right now.</foreign> (present progressive)</p></li>
       <li><p><foreign>She <em>was working</em> when I called.</foreign> (past progressive)</p></li>
-      <li><p><foreign>She <em>will be working</em> at noon.</foreign> (future progressive)</p></li>
     </ul>
 
     <p><em>Uses of progressive</em>:</p>
@@ -511,7 +254,6 @@
     <ul>
       <li><p>Actions in progress: <foreign>I'm reading a book.</foreign></p></li>
       <li><p>Temporary situations: <foreign>She's living in Boston this year.</foreign></p></li>
-      <li><p>Future arrangements: <foreign>We're meeting tomorrow.</foreign></p></li>
       <li><p>Background to another event: <foreign>I was sleeping when the phone rang.</foreign></p></li>
     </ul>
 
@@ -531,7 +273,6 @@
     <ul>
       <li><p><foreign>She <em>has worked</em> here for ten years.</foreign> (present perfect)</p></li>
       <li><p><foreign>She <em>had worked</em> there before moving.</foreign> (past perfect)</p></li>
-      <li><p><foreign>By then, she <em>will have worked</em> here a decade.</foreign> (future perfect)</p></li>
     </ul>
 
     <p><em>Uses of present perfect</em>:</p>
@@ -558,7 +299,6 @@
     <ul>
       <li><p><foreign>She <em>has been working</em> all morning.</foreign> (present perfect progressive)</p></li>
       <li><p><foreign>She <em>had been working</em> when I called.</foreign> (past perfect progressive)</p></li>
-      <li><p><foreign>By noon, she <em>will have been working</em> for six hours.</foreign> (future perfect progressive)</p></li>
     </ul>
 
     <image source="diagrams/new/ch10_perfect_progressive_pres.png" width="35%">
@@ -578,7 +318,7 @@
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-109">
     <title>Combining Tense and Aspect</title>
 
-    <p>You now have all the pieces: two tenses (present and past), four aspects (simple, progressive, perfect, perfect progressive), and a modal-based future. The real power of English verb phrase grammar is that these categories combine systematically, giving you a full grid of tense-aspect combinations. Each cell in that grid is a distinct construction with its own meaning and its own form. Rather than memorizing them as isolated items, notice how they are built: tense is always marked on the first auxiliary (or the main verb if there is no auxiliary), and the aspect categories stack in a fixed order—progressive always uses <foreign>be + -ing</foreign>, perfect always uses <foreign>have + past participle</foreign>.</p>
+    <p>You now have all the pieces: two tenses (present and past) and four aspects (simple, progressive, perfect, perfect progressive). The real power of English verb phrase grammar is that these categories combine systematically, giving you a full grid of tense-aspect combinations. Each cell in that grid is a distinct construction with its own meaning and its own form. Rather than memorizing them as isolated items, notice how they are built: tense is always marked on the first auxiliary (or the main verb if there is no auxiliary), and the aspect categories stack in a fixed order—progressive always uses <foreign>be + -ing</foreign>, perfect always uses <foreign>have + past participle</foreign>.</p>
 
     <p>Tense and aspect combine systematically:</p>
 
@@ -604,60 +344,299 @@
         <cell><foreign>had walked</foreign></cell>
         <cell><foreign>had been walking</foreign></cell>
       </row>
+    </tabular>
+
+    <paragraphs>
+      <title>How Each Combination Works</title>
+    </paragraphs>
+
+    <p><em>Present simple</em> (<foreign>She works</foreign>): Presents a habit, routine, or general truth. The action is not tied to a specific moment—it is simply what happens.</p>
+
+    <p><q><foreign>The library opens at nine.</foreign></q></p>
+
+    <p><em>Past simple</em> (<foreign>She worked</foreign>): Presents a completed event as a finished whole, disconnected from the present.</p>
+
+    <p><q><foreign>The library closed early yesterday.</foreign></q></p>
+
+    <p><em>Present progressive</em> (<foreign>She is working</foreign>): Zooms in on an action happening right now or around now. The event is in progress and not yet complete.</p>
+
+    <p><q><foreign>She is reading in the library right now.</foreign></q></p>
+
+    <p><em>Past progressive</em> (<foreign>She was working</foreign>): Zooms in on an action that was in progress at a specific moment in the past, often as a background to another event.</p>
+
+    <p><q><foreign>She was reading when the fire alarm went off.</foreign></q></p>
+
+    <p><em>Present perfect</em> (<foreign>She has worked</foreign>): Connects a past event to the present—the event happened before now, but its relevance, result, or continuation matters now.</p>
+
+    <p><q><foreign>She has read every book on the shelf.</foreign></q> (experience up to now)</p>
+
+    <p><em>Past perfect</em> (<foreign>She had worked</foreign>): Positions one past event before another past reference point. It is the "past of the past."</p>
+
+    <p><q><foreign>She had already left when I arrived.</foreign></q></p>
+
+    <p><em>Present perfect progressive</em> (<foreign>She has been working</foreign>): Emphasizes the duration of an ongoing activity that started in the past and continues to the present.</p>
+
+    <p><q><foreign>She has been studying for three hours.</foreign></q></p>
+
+    <p><em>Past perfect progressive</em> (<foreign>She had been working</foreign>): Emphasizes the duration of an activity that was ongoing before another past event.</p>
+
+    <p><q><foreign>She had been waiting for an hour before the bus finally came.</foreign></q></p>
+
+  </section>
+
+  <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-101">
+    <title>Auxiliary Verbs</title>
+
+    <p>Consider the difference between <foreign>She eats</foreign> and <foreign>She has been eating</foreign>. Both sentences have the same main verb, but the second tells you something the first does not: that the eating started in the past and is still ongoing. The words doing that extra work—<foreign>has</foreign> and <foreign>been</foreign>—are auxiliary verbs. You cannot understand how English verb phrases are built without understanding how auxiliaries function, because they are the building blocks that tense, aspect, voice, and modality all depend on.</p>
+
+    <p><term>Auxiliary verbs</term> (also called helping verbs) combine with main verbs to create complex verb phrases. They add grammatical information about tense, aspect, voice, and modality.</p>
+
+    <paragraphs>
+      <title>Auxiliary vs. Main Verb</title>
+    </paragraphs>
+
+    <p><em>Main verb</em> (lexical verb): Carries the primary meaning</p>
+
+    <p><em>Auxiliary verb</em>: Adds grammatical information</p>
+
+    <p><q><foreign>She <em>has eaten</em> dinner.</foreign></q></p>
+
+    <ul>
+      <li><p>Auxiliary: <foreign>has</foreign> (adds perfect aspect)</p></li>
+      <li><p>Main verb: <foreign>eaten</foreign> (the action)</p></li>
+    </ul>
+
+    <p><q><foreign>The book <em>was written</em> by Maria.</foreign></q></p>
+
+    <ul>
+      <li><p>Auxiliary: <foreign>was</foreign> (adds passive voice)</p></li>
+      <li><p>Main verb: <foreign>written</foreign> (the action)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Types of Auxiliaries</title>
+    </paragraphs>
+
+    <p><term>Primary auxiliaries</term>: <foreign>be, have, do</foreign></p>
+
+    <ul>
+      <li><p>Form progressive, perfect, and passive constructions</p></li>
+      <li><p>Can also be main verbs</p></li>
+    </ul>
+
+    <p><term>Modal auxiliaries</term>: <foreign>can, could, will, would, shall, should, may, might, must</foreign></p>
+
+    <ul>
+      <li><p>Add modality (possibility, necessity, permission, etc.)</p></li>
+      <li><p>Covered in Chapter 11</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-102">
+    <title>Primary Auxiliary: Be</title>
+
+    <p><foreign>Be</foreign> is the most versatile auxiliary, used for both progressive aspect and passive voice. It is also, arguably, the most irregular verb in English—its forms (<foreign>am, is, are, was, were, been, being</foreign>) look nothing like one another, a remnant of the verb's descent from three different Old English roots that merged over centuries. Despite that surface irregularity, the grammatical work <foreign>be</foreign> does as an auxiliary is entirely predictable: combine it with an <foreign>-ing</foreign> form to get progressive meaning, combine it with a past participle to get passive meaning.</p>
+
+    <paragraphs>
+      <title>Forms of Be</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Present</cell>
+        <cell>Past</cell>
+        <cell>Participles</cell>
+      </row>
       <row>
-        <cell>Future</cell>
-        <cell><foreign>will walk</foreign></cell>
-        <cell><foreign>will be walking</foreign></cell>
-        <cell><foreign>will have walked</foreign></cell>
-        <cell><foreign>will have been walking</foreign></cell>
+        <cell><foreign>am, is, are</foreign></cell>
+        <cell><foreign>was, were</foreign></cell>
+        <cell><foreign>been, being</foreign></cell>
       </row>
     </tabular>
 
     <paragraphs>
-      <title>Timeline Visualization</title>
+      <title>Functions of Auxiliary Be</title>
     </paragraphs>
 
-    <p><em>Present simple</em> (<foreign>She works</foreign>): General truth, habit</p>
+    <p><em>Progressive aspect</em> (<foreign>be</foreign> + <foreign>-ing</foreign>):</p>
 
-    <p>```</p>
+    <ul>
+      <li><p><foreign>She <em>is reading</em>.</foreign> (present progressive)</p></li>
+      <li><p><foreign>They <em>were studying</em>.</foreign> (past progressive)</p></li>
+      <li><p><foreign>He <em>has been working</em>.</foreign> (present perfect progressive)</p></li>
+    </ul>
 
-    <p>Past -------|-------- Future</p>
+    <image source="diagrams/new/ch10_be_progressive.png" width="30%">
+      <description>Syntax tree for "She is reading" showing auxiliary be followed by the -ing main verb form</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [AUX is] [V reading]]]</c></p>
 
-    <p>NOW (habit/state)</p>
+    <p><em>Passive voice</em> (<foreign>be</foreign> + past participle):</p>
 
-    <p>```</p>
+    <ul>
+      <li><p><foreign>The book <em>was written</em> by Maria.</foreign></p></li>
+      <li><p><foreign>The house <em>is being built</em>.</foreign></p></li>
+    </ul>
 
-    <p><em>Present progressive</em> (<foreign>She is working</foreign>): Now, in progress</p>
+    <image source="diagrams/new/ch10_be_passive_aux.png" width="50%">
+      <description>Syntax tree for "The book was written by Maria" showing auxiliary be followed by past participle with an agent by-phrase</description>
+    </image>
+    <p><c>[S [NP [DET The] [N book]] [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]]</c></p>
 
-    <p>```</p>
+    <paragraphs>
+      <title>Be as Main Verb vs. Auxiliary</title>
+    </paragraphs>
 
-    <p>Past -------|======|- Future</p>
+    <p><foreign>Be</foreign> can also be a main verb (copular/linking):</p>
 
-    <p>NOW (ongoing)</p>
+    <ul>
+      <li><p><foreign>She <em>is</em> a teacher.</foreign> (main verb—links subject to complement)</p></li>
+    </ul>
 
-    <p>```</p>
+    <p><em>Distinguishing</em>:</p>
 
-    <p><em>Present perfect</em> (<foreign>She has worked</foreign>): Past connected to now</p>
-
-    <p>```</p>
-
-    <p>Past ===[event]==|-------- Future</p>
-
-    <p>NOW (relevance)</p>
-
-    <p>```</p>
-
-    <p><em>Past simple</em> (<foreign>She worked</foreign>): Completed, disconnected from now</p>
-
-    <p>```</p>
-
-    <p>Past --[event]--|-------- Future</p>
-
-    <p>NOW</p>
-
-    <p>```</p>
+    <ul>
+      <li><p>Followed by <foreign>-ing</foreign> form = auxiliary: <foreign>She <em>is reading</em>.</foreign></p></li>
+      <li><p>Followed by past participle = auxiliary (passive): <foreign>It <em>was done</em>.</foreign></p></li>
+      <li><p>Followed by NP, AdjP, PP = main verb: <foreign>She <em>is</em> happy.</foreign></p></li>
+    </ul>
 
   </section>
+
+  <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-103">
+    <title>Primary Auxiliary: Have</title>
+
+    <p>Of the three primary auxiliaries, <foreign>have</foreign> is the one that creates the most subtle and often misunderstood category in English grammar: the perfect aspect. The difference between <foreign>She finished the report</foreign> and <foreign>She has finished the report</foreign> seems small on the surface, but it is meaningful. The first presents the event as completed and disconnected from the present; the second connects the completed event to right now—it signals that the finishing is relevant to the current moment. That connection to the present is what the perfect aspect is fundamentally about, and <foreign>have</foreign> is the auxiliary that creates it.</p>
+
+    <p><foreign>Have</foreign> forms the perfect aspect, indicating that an action is completed or has continuing relevance.</p>
+
+    <paragraphs>
+      <title>Forms of Have</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Present</cell>
+        <cell>Past</cell>
+        <cell>Participle</cell>
+      </row>
+      <row>
+        <cell><foreign>have, has</foreign></cell>
+        <cell><foreign>had</foreign></cell>
+        <cell><foreign>had</foreign></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Functions of Auxiliary Have</title>
+    </paragraphs>
+
+    <p><em>Perfect aspect</em> (<foreign>have</foreign> + past participle):</p>
+
+    <ul>
+      <li><p><foreign>She <em>has finished</em> the work.</foreign> (present perfect)</p></li>
+      <li><p><foreign>They <em>had left</em> before I arrived.</foreign> (past perfect)</p></li>
+    </ul>
+
+    <image source="diagrams/new/ch10_have_perfect.png" width="45%">
+      <description>Syntax tree for "She has finished the work" showing auxiliary have followed by past participle with a direct object</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [AUX has] [V finished] [NP [DET the] [N work]]]]</c></p>
+
+    <image source="diagrams/new/ch10_have_perfect_past.png" width="55%">
+      <description>Syntax tree for "They had left before I arrived" showing past perfect with an adverbial dependent clause</description>
+    </image>
+    <p><c>[S [NP [PRON They]] [VP [AUX had] [V left]] [DC [SUB before] [NP [PRON I]] [VP [V arrived]]]]</c></p>
+
+    <paragraphs>
+      <title>Have as Main Verb vs. Auxiliary</title>
+    </paragraphs>
+
+    <p><foreign>Have</foreign> is also a main verb meaning <q>possess</q>:</p>
+
+    <ul>
+      <li><p><foreign>I <em>have</em> a car.</foreign> (main verb)</p></li>
+      <li><p><foreign>I <em>have seen</em> that movie.</foreign> (auxiliary)</p></li>
+    </ul>
+
+    <p><em>Test</em>: Can you add <foreign>got</foreign> after <foreign>have</foreign>?</p>
+
+    <ul>
+      <li><p><foreign>I have (got) a car.</foreign> ✓ (main verb)</p></li>
+      <li><p><foreign><delete>I have got seen that movie.</delete></foreign> ✗ (auxiliary)</p></li>
+    </ul>
+
+  </section>
+
+  <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-104">
+    <title>Primary Auxiliary: Do</title>
+
+    <p>Of the three primary auxiliaries, <foreign>do</foreign> is the odd one out. Unlike <foreign>be</foreign> and <foreign>have</foreign>, it does not add aspect or voice; it is essentially a grammatical placeholder. English requires an auxiliary verb in certain positions—for forming questions by inversion, for placing <foreign>not</foreign> after an auxiliary—but many sentences have no auxiliary at all. When that need arises, English inserts <foreign>do</foreign> to fill the slot. Linguists call this <em>do-support</em>, and understanding it helps explain a construction that seems arbitrary but is actually quite systematic.</p>
+
+    <p><foreign>Do</foreign> is used for emphasis, questions, and negation when no other auxiliary is present.</p>
+
+    <paragraphs>
+      <title>Forms of Do</title>
+    </paragraphs>
+
+    <tabular>
+      <row header="yes">
+        <cell>Present</cell>
+        <cell>Past</cell>
+      </row>
+      <row>
+        <cell><foreign>do, does</foreign></cell>
+        <cell><foreign>did</foreign></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>Functions of Auxiliary Do</title>
+    </paragraphs>
+
+    <p><term>Do-support</term>: When a sentence needs an auxiliary (for questions, negation) but has none, <foreign>do</foreign> is inserted:</p>
+
+    <p><em>Questions</em>:</p>
+
+    <ul>
+      <li><p><foreign>She <em>works</em> here.</foreign> → <foreign><em>Does</em> she work here?</foreign></p></li>
+      <li><p><foreign>They <em>left</em> early.</foreign> → <foreign><em>Did</em> they leave early?</foreign></p></li>
+    </ul>
+
+    <image source="diagrams/new/ch10_do_question.png" width="40%">
+      <description>Syntax tree for "Does she work here?" showing do-support in question formation with the auxiliary fronted before the subject</description>
+    </image>
+    <p><c>[S [AUX Does] [NP [PRON she]] [VP [V work] [ADVP [ADV here]]]]</c></p>
+
+    <p><em>Negation</em>:</p>
+
+    <ul>
+      <li><p><foreign>She <em>works</em> here.</foreign> → <foreign>She <em>doesn't</em> work here.</foreign></p></li>
+      <li><p><foreign>They <em>left</em> early.</foreign> → <foreign>They <em>didn't</em> leave early.</foreign></p></li>
+    </ul>
+
+    <image source="diagrams/new/ch10_do_negation.png" width="45%">
+      <description>Syntax tree for "She does not work here" showing do-support carrying the negation marker in a declarative sentence</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [AUX does] [NEG not] [V work] [ADVP [ADV here]]]]</c></p>
+
+    <p><em>Emphasis</em>:</p>
+
+    <ul>
+      <li><p><foreign>I <em>do</em> understand your concern.</foreign></p></li>
+      <li><p><foreign>She <em>did</em> finish the assignment.</foreign></p></li>
+    </ul>
+
+    <p><em>Note</em>: If another auxiliary is present, <foreign>do</foreign> is not used:</p>
+
+    <ul>
+      <li><p><foreign>She <em>is</em> working.</foreign> → <foreign>Is she working?</foreign> (not <foreign><delete>Does she is working?</delete></foreign>)</p></li>
+      <li><p><foreign>He <em>has</em> left.</foreign> → <foreign>Has he left?</foreign></p></li>
+    </ul>
+
+  </section>
+
 
   <section xml:id="ch-10-homework">
     <title>Homework: Tense and Aspect</title>
@@ -705,7 +684,7 @@
         <li><p>Aspect: ________</p></li>
       </ul>
 
-      <p><em>Exercise 3.</em> <foreign>By next month, they will have completed the entire project.</foreign></p>
+      <p><em>Exercise 3.</em> <foreign>By the time we arrived, the crew had been repairing the road for three hours.</foreign></p>
 
       <ul>
         <li><p>Auxiliary verb(s): ________</p></li>
@@ -760,7 +739,7 @@
 
       <p><em>Exercise 8.</em> Present perfect progressive: <foreign>She ________ (work) on this project for six months.</foreign></p>
 
-      <p><em>Exercise 9.</em> Future progressive: <foreign>At noon tomorrow, I ________ (meet) with the committee.</foreign></p>
+      <p><em>Exercise 9.</em> Past progressive: <foreign>At noon yesterday, I ________ (meet) with the committee.</foreign></p>
 
       <p><em>Exercise 10.</em> Past simple: <foreign>The team ________ (finish) the assignment last night.</foreign></p>
 
@@ -794,7 +773,7 @@
 
       <p>________________________________________________________________________</p>
 
-      <p><em>Exercise 13.</em> Write a sentence in future perfect that describes an action completed before a future point:</p>
+      <p><em>Exercise 13.</em> Write a sentence in past perfect progressive that describes a long-running activity before another past event:</p>
 
       <p>________________________________________________________________________</p>
 
@@ -868,7 +847,7 @@
         <title>Passage</title>
       </paragraphs>
 
-      <p><foreign>Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years now. By next June, she will have finished the entire project. After that, she will be looking for a teaching position.</foreign></p>
+      <p><foreign>Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years now. Before starting the dissertation, she had completed two years of coursework.</foreign></p>
 
       <paragraphs>
         <title>Exercises</title>
@@ -882,8 +861,7 @@
         <li><p><foreign>visited</foreign>: ________</p></li>
         <li><p><foreign>was working</foreign>: ________</p></li>
         <li><p><foreign>has been writing</foreign>: ________</p></li>
-        <li><p><foreign>will have finished</foreign>: ________</p></li>
-        <li><p><foreign>will be looking</foreign>: ________</p></li>
+        <li><p><foreign>had completed</foreign>: ________</p></li>
       </ul>
 
       <p><em>Exercise 20.</em> The passage uses both <foreign>moved</foreign> (past simple) and <foreign>has lived</foreign> (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.</p>
@@ -912,7 +890,7 @@
 
       <p>________________________________________________________________________</p>
 
-      <p>c) Future perfect:</p>
+      <p>c) Past progressive:</p>
 
       <p>________________________________________________________________________</p>
 
