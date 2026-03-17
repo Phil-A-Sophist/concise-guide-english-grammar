@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
 """
 Generate Chapter 10 Answer Key and Overhead Answer Key .docx files.
+Updated to match revised homework: Part 4 is now Diagramming Verb Phrases,
+Part 5 exercises renumbered 21-23.
 """
 
 from pathlib import Path
 from docx import Document
 from docx.shared import Pt, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
+
+
+DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch10'
 
 
 def set_paragraph_spacing(paragraph, space_before=0, space_after=0):
@@ -93,6 +99,33 @@ def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None, font_nam
     return p
 
 
+def add_diagram_image(doc, image_name, width_inches=5.5):
+    """Add a diagram PNG image to the document."""
+    img_path = DIAGRAM_DIR / f"{image_name}.png"
+    if img_path.exists():
+        p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        run = p.add_run()
+        run.add_picture(str(img_path), width=Inches(width_inches))
+        set_paragraph_spacing(p, space_before=4, space_after=4)
+        return p
+    else:
+        p = doc.add_paragraph(f"[Diagram not found: {image_name}.png]")
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        return p
+
+
+def add_bracket_line(doc, bracket, font_size, indent=0.35, font_name=None):
+    """Add a bracket notation line in monospace."""
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(indent)
+    run = p.add_run(bracket)
+    run.font.name = 'Consolas'
+    run.font.size = Pt(font_size - 1)
+    set_paragraph_spacing(p, space_before=0, space_after=2)
+    return p
+
+
 def create_answer_key(output_path, font_size=12, overhead=False):
     """Create the Chapter 10 Answer Key document."""
     if overhead:
@@ -101,16 +134,16 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         heading1_size = 22
         heading2_size = 20
         heading3_size = 16
-        table_size = 16
         bracket_size = 15
+        diagram_width = 6.5
     else:
         body_font = 'Garamond'
         body_size = font_size
         heading1_size = 16
         heading2_size = 14
         heading3_size = 12
-        table_size = font_size - 1
         bracket_size = font_size - 1
+        diagram_width = 5.5
 
     doc = Document()
 
@@ -237,115 +270,43 @@ def create_answer_key(output_path, font_size=12, overhead=False):
             add_spacer_row(doc)
 
     # =============================================
-    # Part 4: Distinguishing Meaning
+    # Part 4: Diagramming Verb Phrases
     # =============================================
     doc.add_page_break()
-    part = doc.add_heading('Part 4: Distinguishing Meaning', level=3)
+    part = doc.add_heading('Part 4: Diagramming Verb Phrases', level=3)
     part.runs[0].font.size = Pt(heading3_size)
 
-    # Exercise 16
-    add_exercise(doc, 16, None, body_size, font_name=body_font)
+    diagram_exercises = [
+        (16, 'The students are studying for the exam.',
+         '[S [NP [DET The] [N students]] [VP [AUX are] [V studying] [PP [PREP for] [NP [DET the] [N exam]]]]]',
+         'present', 'progressive',
+         'ch10_hw_ex16_students_studying'),
+        (17, 'He had finished the assignment before class.',
+         '[S [NP [PRON He]] [VP [AUX had] [V finished] [NP [DET the] [N assignment]] [PP [PREP before] [NP [N class]]]]]',
+         'past', 'perfect',
+         'ch10_hw_ex17_had_finished'),
+        (18, 'Does the professor teach on Fridays?',
+         '[S [AUX Does] [NP [DET the] [N professor]] [VP [V teach] [PP [PREP on] [NP [N Fridays]]]]]',
+         'present', 'simple (do-support)',
+         'ch10_hw_ex18_does_teach'),
+        (19, 'The report was written by the committee.',
+         '[S [NP [DET The] [N report]] [VP [AUX was] [V written] [PP [PREP by] [NP [DET the] [N committee]]]]]',
+         'past', 'passive voice',
+         'ch10_hw_ex19_was_written'),
+        (20, 'They have been waiting at the station for an hour.',
+         '[S [NP [PRON They]] [VP [AUX have] [AUX been] [V waiting] [PP [PREP at] [NP [DET the] [N station]]] [PP [PREP for] [NP [DET an] [N hour]]]]]',
+         'present', 'perfect progressive',
+         'ch10_hw_ex20_have_been_waiting'),
+    ]
 
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('a) ')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('She read the report.')
-    run.italic = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('  vs.  ')
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('b) ')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('She has read the report.')
-    run.italic = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-
-    add_plain_line(doc,
-        '(a) Past simple \u2014 states a completed past event with no connection to now. '
-        '(b) Present perfect \u2014 implies present relevance: she has read it, so she knows its contents now.',
-        body_size, indent=0.7, font_name=body_font)
-
-    if overhead:
-        add_spacer_row(doc)
-
-    # Exercise 17
-    add_exercise(doc, 17, None, body_size, font_name=body_font)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('a) ')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('When I arrived, they left.')
-    run.italic = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('  vs.  ')
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('b) ')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('When I arrived, they had left.')
-    run.italic = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-
-    add_plain_line(doc,
-        '(a) Past simple for both verbs \u2014 the events happened in sequence: I arrived, '
-        'then they left (my arrival may have caused their departure). '
-        '(b) Past perfect "had left" \u2014 they left BEFORE I arrived; they were already gone when I got there.',
-        body_size, indent=0.7, font_name=body_font)
-
-    if overhead:
-        add_spacer_row(doc)
-
-    # Exercise 18
-    add_exercise(doc, 18, None, body_size, font_name=body_font)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('a) ')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('He works at a bank.')
-    run.italic = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('  vs.  ')
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('b) ')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('He is working at a bank.')
-    run.italic = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-
-    add_plain_line(doc,
-        '(a) Present simple \u2014 permanent or habitual situation: this is his regular job. '
-        '(b) Present progressive \u2014 temporary situation: he is working there right now but it may not be permanent '
-        '(e.g., a summer job or temporary assignment).',
-        body_size, indent=0.7, font_name=body_font)
-
-    if overhead:
-        add_spacer_row(doc)
+    for num, sentence, bracket, tense, aspect, diagram_name in diagram_exercises:
+        add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        add_bracket_line(doc, bracket, bracket_size)
+        add_diagram_image(doc, diagram_name, width_inches=diagram_width)
+        add_answer_line(doc, 'Tense:', tense, body_size, font_name=body_font)
+        add_answer_line(doc, 'Aspect:', aspect, body_size, font_name=body_font)
+        if overhead:
+            add_spacer_row(doc)
 
     # =============================================
     # Part 5: Contextual Analysis
@@ -354,8 +315,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     part = doc.add_heading('Part 5: Contextual Analysis', level=3)
     part.runs[0].font.size = Pt(heading3_size)
 
-    # Exercise 19
-    add_exercise(doc, 19, None, body_size, font_name=body_font)
+    # Exercise 21
+    add_exercise(doc, 21, None, body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
@@ -389,8 +350,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     if overhead:
         add_spacer_row(doc)
 
-    # Exercise 20
-    add_exercise(doc, 20, None, body_size, font_name=body_font)
+    # Exercise 22
+    add_exercise(doc, 22, None, body_size, font_name=body_font)
 
     add_plain_line(doc,
         '"Moved" (past simple) presents the action as a completed event in the past \u2014 the move happened '
@@ -402,8 +363,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     if overhead:
         add_spacer_row(doc)
 
-    # Exercise 21
-    add_exercise(doc, 21, 'She studies linguistics.', body_size, font_name=body_font)
+    # Exercise 23
+    add_exercise(doc, 23, 'She studies linguistics.', body_size, font_name=body_font)
 
     for sub, rewrite, explanation in [
         ('a) Past progressive:',
@@ -436,13 +397,13 @@ def main():
     homework_dir = script_dir.parent / 'Homework'
 
     create_answer_key(
-        homework_dir / 'Chapter 10 Answer Key.docx',
+        homework_dir / 'Answer Keys' / 'Chapter 10 Answer Key.docx',
         font_size=12
     )
 
     # Create Overhead Answer Key
     create_answer_key(
-        homework_dir / 'Homework 10 Overhead.docx',
+        homework_dir / 'Overheads' / 'Homework 10 Overhead.docx',
         overhead=True
     )
 

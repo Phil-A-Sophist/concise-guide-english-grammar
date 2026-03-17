@@ -126,6 +126,8 @@
       <li><p><foreign>The work <em>will be completed</em>.</foreign></p></li>
     </ul>
 
+    <p><em>Note</em>: Passive voice is a rich topic with its own set of patterns and uses. We will examine it in detail in Chapter 11.</p>
+
     <image source="diagrams/new/ch10_be_passive_aux.png" width="50%">
       <description>Syntax tree for "The book was written by Maria" showing auxiliary be followed by past participle with an agent by-phrase</description>
     </image>
@@ -475,12 +477,150 @@
 
   </section>
 
+  <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-participles">
+    <title>Participles</title>
+
+    <p>Before moving on to aspect, it helps to understand the verb forms that aspect constructions depend on. Throughout the auxiliary sections above, you encountered terms like <q>past participle</q> and <q><foreign>-ing</foreign> form</q> without a formal explanation. These forms are called <em>participles</em>, and English has two of them. Every aspect combination in the next section is built from a tense marker plus one or both participle forms, so getting comfortable with them now will make the rest of the chapter much easier.</p>
+
+    <p><term>Participles</term> are verb forms that combine with auxiliaries to build complex verb phrases. English has two: the <em>present participle</em> and the <em>past participle</em>.</p>
+
+    <paragraphs>
+      <title>Present Participle</title>
+    </paragraphs>
+
+    <p>The <term>present participle</term> is formed by adding <foreign>-ing</foreign> to the base form of the verb. It is used with <foreign>be</foreign> to form progressive aspect.</p>
+
+    <ul>
+      <li><p><foreign>walk</foreign> → <foreign>walking</foreign></p></li>
+      <li><p><foreign>run</foreign> → <foreign>running</foreign></p></li>
+      <li><p><foreign>write</foreign> → <foreign>writing</foreign></p></li>
+      <li><p><foreign>study</foreign> → <foreign>studying</foreign></p></li>
+    </ul>
+
+    <p><em>Spelling rules for</em> <foreign>-ing</foreign>:</p>
+
+    <ul>
+      <li><p>Most verbs: add <foreign>-ing</foreign> (<foreign>walking, eating</foreign>)</p></li>
+      <li><p>Ending in silent <foreign>-e</foreign>: drop the <foreign>e</foreign>, add <foreign>-ing</foreign> (<foreign>write</foreign> → <foreign>writing</foreign>, <foreign>hope</foreign> → <foreign>hoping</foreign>)</p></li>
+      <li><p>CVC ending (stressed): double the final consonant (<foreign>run</foreign> → <foreign>running</foreign>, <foreign>stop</foreign> → <foreign>stopping</foreign>)</p></li>
+      <li><p>Ending in <foreign>-ie</foreign>: change to <foreign>-ying</foreign> (<foreign>die</foreign> → <foreign>dying</foreign>, <foreign>lie</foreign> → <foreign>lying</foreign>)</p></li>
+    </ul>
+
+    <p>The present participle is always regular—every English verb forms it the same way.</p>
+
+    <paragraphs>
+      <title>Past Participle</title>
+    </paragraphs>
+
+    <p>The <term>past participle</term> is used with <foreign>have</foreign> to form perfect aspect and with <foreign>be</foreign> to form passive voice. For regular verbs, it looks identical to the past tense (<foreign>-ed</foreign>). For irregular verbs, it often takes a different form.</p>
+
+    <p><em>Regular verbs</em> (past participle = past tense):</p>
+
+    <ul>
+      <li><p><foreign>walk</foreign> → <foreign>walked</foreign> → <foreign>walked</foreign></p></li>
+      <li><p><foreign>play</foreign> → <foreign>played</foreign> → <foreign>played</foreign></p></li>
+      <li><p><foreign>study</foreign> → <foreign>studied</foreign> → <foreign>studied</foreign></p></li>
+    </ul>
+
+    <p><em>Irregular verbs</em> (past participle differs from past tense):</p>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <row header="yes" bottom="minor">
+        <cell>Base Form</cell>
+        <cell>Past Tense</cell>
+        <cell>Past Participle</cell>
+      </row>
+      <row bottom="minor">
+        <cell><foreign>write</foreign></cell>
+        <cell><foreign>wrote</foreign></cell>
+        <cell><foreign>written</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell><foreign>sing</foreign></cell>
+        <cell><foreign>sang</foreign></cell>
+        <cell><foreign>sung</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell><foreign>go</foreign></cell>
+        <cell><foreign>went</foreign></cell>
+        <cell><foreign>gone</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell><foreign>eat</foreign></cell>
+        <cell><foreign>ate</foreign></cell>
+        <cell><foreign>eaten</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell><foreign>see</foreign></cell>
+        <cell><foreign>saw</foreign></cell>
+        <cell><foreign>seen</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell><foreign>break</foreign></cell>
+        <cell><foreign>broke</foreign></cell>
+        <cell><foreign>broken</foreign></cell>
+      </row>
+    </tabular>
+
+    <paragraphs>
+      <title>How Participles Combine with Auxiliaries</title>
+    </paragraphs>
+
+    <p>Each participle pairs with a specific auxiliary to create a specific meaning:</p>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <row header="yes" bottom="minor">
+        <cell>Participle</cell>
+        <cell>Auxiliary</cell>
+        <cell>Construction</cell>
+        <cell>Example</cell>
+      </row>
+      <row bottom="minor">
+        <cell>Present (<foreign>-ing</foreign>)</cell>
+        <cell><foreign>be</foreign></cell>
+        <cell>Progressive aspect</cell>
+        <cell><foreign>She is writing.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Past (<foreign>-ed</foreign>/irregular)</cell>
+        <cell><foreign>have</foreign></cell>
+        <cell>Perfect aspect</cell>
+        <cell><foreign>She has written.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Past (<foreign>-ed</foreign>/irregular)</cell>
+        <cell><foreign>be</foreign></cell>
+        <cell>Passive voice</cell>
+        <cell><foreign>The letter was written.</foreign></cell>
+      </row>
+    </tabular>
+
+    <p>Notice that the past participle does double duty: it works with <foreign>have</foreign> for perfect aspect and with <foreign>be</foreign> for passive voice. The auxiliary is what tells you which construction you are looking at.</p>
+
+  </section>
+
   <section xml:id="ch-10-verbs-part-one-tense-and-aspect-sec-108">
     <title>Aspect: The Shape of Events</title>
 
     <p>If tense tells you <em>when</em> an event happens, aspect tells you something different: it tells you how the event is shaped in time. Think of tense as placing a dot on a timeline, and aspect as describing the dot itself—is it a single point, a stretch, a stretch that reaches up to the present, or a stretch that is still ongoing? Two sentences can share the same tense but have completely different aspects: <foreign>She worked</foreign> (past simple) presents a completed event as a whole, while <foreign>She was working</foreign> (past progressive) zooms in on the action as it unfolds. The event may be identical in real-world terms; the aspect shapes how the speaker presents it.</p>
 
     <p><term>Aspect</term> describes the internal temporal structure of events—whether they're completed, ongoing, repeated, or have current relevance. English has four aspects.</p>
+
+    <p>Here is a quick overview before we examine each in detail:</p>
+
+    <ul>
+      <li><p><em>Simple</em>: presents events as complete wholes. <foreign>The train arrives at noon.</foreign> <foreign>He walked to the store.</foreign></p></li>
+      <li><p><em>Progressive</em>: presents events as ongoing. <foreign>The children are playing outside.</foreign> <foreign>She was reading when the lights went out.</foreign></p></li>
+      <li><p><em>Perfect</em>: connects a past event to a later time. <foreign>We have finished the project.</foreign> <foreign>By June, she had saved enough money.</foreign></p></li>
+      <li><p><em>Perfect progressive</em>: combines duration with connection to a later time. <foreign>They have been practicing all week.</foreign> <foreign>He had been driving for hours before he stopped.</foreign></p></li>
+    </ul>
 
     <paragraphs>
       <title>Simple Aspect</title>
@@ -580,82 +720,196 @@
 
     <p>You now have all the pieces: two tenses (present and past), four aspects (simple, progressive, perfect, perfect progressive), and a modal-based future. The real power of English verb phrase grammar is that these categories combine systematically, giving you a full grid of tense-aspect combinations. Each cell in that grid is a distinct construction with its own meaning and its own form. Rather than memorizing them as isolated items, notice how they are built: tense is always marked on the first auxiliary (or the main verb if there is no auxiliary), and the aspect categories stack in a fixed order—progressive always uses <foreign>be + -ing</foreign>, perfect always uses <foreign>have + past participle</foreign>.</p>
 
-    <p>Tense and aspect combine systematically:</p>
+    <p>Tense and aspect combine systematically. The following table names each combination and breaks it into its component parts:</p>
 
-    <tabular>
-      <row header="yes">
-        <cell></cell>
-        <cell>Simple</cell>
-        <cell>Progressive</cell>
-        <cell>Perfect</cell>
-        <cell>Perfect Progressive</cell>
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <col halign="left" right="minor"/>
+      <row header="yes" bottom="minor">
+        <cell>Combination</cell>
+        <cell>Tense</cell>
+        <cell>Aspect</cell>
+        <cell>Example</cell>
       </row>
-      <row>
+      <row bottom="minor">
+        <cell>Present Simple</cell>
         <cell>Present</cell>
-        <cell><foreign>walks</foreign></cell>
-        <cell><foreign>is walking</foreign></cell>
-        <cell><foreign>has walked</foreign></cell>
-        <cell><foreign>has been walking</foreign></cell>
+        <cell>Simple</cell>
+        <cell><foreign>She walks to work.</foreign></cell>
       </row>
-      <row>
+      <row bottom="minor">
+        <cell>Present Progressive</cell>
+        <cell>Present</cell>
+        <cell>Progressive</cell>
+        <cell><foreign>She is walking to work.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Present Perfect</cell>
+        <cell>Present</cell>
+        <cell>Perfect</cell>
+        <cell><foreign>She has walked to work.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Present Perfect Progressive</cell>
+        <cell>Present</cell>
+        <cell>Perfect Progressive</cell>
+        <cell><foreign>She has been walking to work.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Past Simple</cell>
         <cell>Past</cell>
-        <cell><foreign>walked</foreign></cell>
-        <cell><foreign>was walking</foreign></cell>
-        <cell><foreign>had walked</foreign></cell>
-        <cell><foreign>had been walking</foreign></cell>
+        <cell>Simple</cell>
+        <cell><foreign>She walked to work.</foreign></cell>
       </row>
-      <row>
-        <cell>Future</cell>
-        <cell><foreign>will walk</foreign></cell>
-        <cell><foreign>will be walking</foreign></cell>
-        <cell><foreign>will have walked</foreign></cell>
-        <cell><foreign>will have been walking</foreign></cell>
+      <row bottom="minor">
+        <cell>Past Progressive</cell>
+        <cell>Past</cell>
+        <cell>Progressive</cell>
+        <cell><foreign>She was walking to work.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Past Perfect</cell>
+        <cell>Past</cell>
+        <cell>Perfect</cell>
+        <cell><foreign>She had walked to work.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Past Perfect Progressive</cell>
+        <cell>Past</cell>
+        <cell>Perfect Progressive</cell>
+        <cell><foreign>She had been walking to work.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Future Simple</cell>
+        <cell>Future (modal)</cell>
+        <cell>Simple</cell>
+        <cell><foreign>She will walk to work.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Future Progressive</cell>
+        <cell>Future (modal)</cell>
+        <cell>Progressive</cell>
+        <cell><foreign>She will be walking to work.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Future Perfect</cell>
+        <cell>Future (modal)</cell>
+        <cell>Perfect</cell>
+        <cell><foreign>She will have walked to work.</foreign></cell>
+      </row>
+      <row bottom="minor">
+        <cell>Future Perfect Progressive</cell>
+        <cell>Future (modal)</cell>
+        <cell>Perfect Progressive</cell>
+        <cell><foreign>She will have been walking to work.</foreign></cell>
       </row>
     </tabular>
 
+  </section>
+
+  <section xml:id="ch-10-diagramming-verb-phrases">
+    <title>Diagramming Verb Phrases</title>
+
+    <p>You have seen tree diagrams in earlier chapters for subjects, predicates, and clause structure. Now that you understand auxiliaries, tense, and aspect, you can diagram the internal structure of the verb phrase itself. The key convention is simple: auxiliary verbs are labeled <em>AUX</em>, and the main verb is labeled <em>V</em>. When a verb phrase contains multiple auxiliaries, each one gets its own AUX node.</p>
+
     <paragraphs>
-      <title>Timeline Visualization</title>
+      <title>Simple Verb Phrases</title>
     </paragraphs>
 
-    <p><em>Present simple</em> (<foreign>She works</foreign>): General truth, habit</p>
+    <p>When a sentence has no auxiliary, the verb phrase contains only the main verb:</p>
 
-    <p>```</p>
+    <p><foreign>She walks.</foreign></p>
 
-    <p>Past -------|-------- Future</p>
+    <p><c>[S [NP [PRON She]] [VP [V walks]]]</c></p>
 
-    <p>NOW (habit/state)</p>
+    <p>The verb carries the tense marking directly. There is no AUX node because there is no auxiliary.</p>
 
-    <p>```</p>
+    <paragraphs>
+      <title>One Auxiliary</title>
+    </paragraphs>
 
-    <p><em>Present progressive</em> (<foreign>She is working</foreign>): Now, in progress</p>
+    <p>Progressive and perfect constructions add one auxiliary before the main verb:</p>
 
-    <p>```</p>
+    <p><em>Progressive</em> (<foreign>be</foreign> + present participle):</p>
 
-    <p>Past -------|======|- Future</p>
+    <p><foreign>She is walking.</foreign></p>
 
-    <p>NOW (ongoing)</p>
+    <p><c>[S [NP [PRON She]] [VP [AUX is] [V walking]]]</c></p>
 
-    <p>```</p>
+    <p><em>Perfect</em> (<foreign>have</foreign> + past participle):</p>
 
-    <p><em>Present perfect</em> (<foreign>She has worked</foreign>): Past connected to now</p>
+    <p><foreign>She has walked.</foreign></p>
 
-    <p>```</p>
+    <p><c>[S [NP [PRON She]] [VP [AUX has] [V walked]]]</c></p>
 
-    <p>Past ===[event]==|-------- Future</p>
+    <p>In each case, tense is marked on the auxiliary (the first element in the verb phrase), not on the main verb. The main verb carries the participle form that signals the aspect.</p>
 
-    <p>NOW (relevance)</p>
+    <paragraphs>
+      <title>Two Auxiliaries</title>
+    </paragraphs>
 
-    <p>```</p>
+    <p>Perfect progressive stacks two auxiliaries before the main verb:</p>
 
-    <p><em>Past simple</em> (<foreign>She worked</foreign>): Completed, disconnected from now</p>
+    <p><foreign>She has been walking.</foreign></p>
 
-    <p>```</p>
+    <p><c>[S [NP [PRON She]] [VP [AUX has] [AUX been] [V walking]]]</c></p>
 
-    <p>Past --[event]--|-------- Future</p>
+    <p>Notice the order: <foreign>has</foreign> (perfect auxiliary, carries tense) → <foreign>been</foreign> (progressive auxiliary, past participle form) → <foreign>walking</foreign> (main verb, present participle form). Each auxiliary is labeled AUX.</p>
 
-    <p>NOW</p>
+    <paragraphs>
+      <title>Full Sentences with Complex Verb Phrases</title>
+    </paragraphs>
 
-    <p>```</p>
+    <p>The examples above isolate the verb phrase pattern. In real sentences, the VP also contains objects, adverbials, and prepositional phrases. The auxiliaries sit at the front of the VP, and everything else follows the main verb just as in earlier chapters. Here are three full-sentence diagrams, one for each aspect:</p>
+
+    <p><em>Progressive</em>: <foreign>The children are playing a game in the backyard.</foreign></p>
+
+    <p><c>[S [NP [DET The] [N children]] [VP [AUX are] [V playing] [NP [DET a] [N game]] [PP [PREP in] [NP [DET the] [N backyard]]]]]</c></p>
+
+    <p>The progressive auxiliary <foreign>are</foreign> carries present tense. The main verb <foreign>playing</foreign> is followed by a direct object NP and a prepositional phrase.</p>
+
+    <p><em>Perfect</em>: <foreign>The professor has assigned three chapters for next week.</foreign></p>
+
+    <p><c>[S [NP [DET The] [N professor]] [VP [AUX has] [V assigned] [NP [ADJ three] [N chapters]] [PP [PREP for] [NP [ADJ next] [N week]]]]]</c></p>
+
+    <p>The perfect auxiliary <foreign>has</foreign> carries present tense. The past participle <foreign>assigned</foreign> is followed by a direct object NP and a prepositional phrase of time.</p>
+
+    <p><em>Perfect progressive</em>: <foreign>The students had been studying grammar in the library all afternoon.</foreign></p>
+
+    <p><c>[S [NP [DET The] [N students]] [VP [AUX had] [AUX been] [V studying] [NP [N grammar]] [PP [PREP in] [NP [DET the] [N library]]] [NP [DET all] [N afternoon]]]]</c></p>
+
+    <p>Two auxiliaries stack at the front: <foreign>had</foreign> (perfect, carries past tense) and <foreign>been</foreign> (progressive). The main verb <foreign>studying</foreign> is followed by a direct object, a prepositional phrase of place, and an adverbial NP of time.</p>
+
+    <paragraphs>
+      <title>Do-Support in Diagrams</title>
+    </paragraphs>
+
+    <p>When <foreign>do</foreign> is inserted for questions or negation, it is also labeled AUX:</p>
+
+    <p><foreign>Does she walk?</foreign></p>
+
+    <p><c>[S [AUX Does] [NP [PRON she]] [VP [V walk]]]</c></p>
+
+    <p><foreign>She does not walk.</foreign></p>
+
+    <p><c>[S [NP [PRON She]] [VP [AUX does] [NEG not] [V walk]]]</c></p>
+
+    <p>In questions, the auxiliary moves to the front of the sentence, before the subject NP. In negation, <foreign>not</foreign> appears between the auxiliary and the main verb.</p>
+
+    <paragraphs>
+      <title>Summary</title>
+    </paragraphs>
+
+    <p>The diagramming rules for verb phrases are straightforward:</p>
+
+    <ul>
+      <li><p>Label every auxiliary verb <em>AUX</em> and every main verb <em>V</em>.</p></li>
+      <li><p>Tense is always on the first element in the verb phrase (the first AUX, or V if there is no auxiliary).</p></li>
+      <li><p>Auxiliaries stack in a fixed order: perfect (<foreign>have</foreign>) before progressive (<foreign>be</foreign>).</p></li>
+      <li><p>Objects, complements, and modifiers follow the main verb, just as in earlier chapters.</p></li>
+    </ul>
 
   </section>
 
@@ -809,50 +1063,56 @@
     </subsection>
 
     <subsection xml:id="ch-10-homework-part-4">
-      <title>Part 4: Distinguishing Meaning</title>
+      <title>Part 4: Diagramming Verb Phrases</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Explain the difference in meaning between each pair of sentences.</p>
+      <p>For each sentence below, write a bracket notation diagram of the full sentence. Label auxiliary verbs as AUX and main verbs as V. Identify the tense and aspect of each verb phrase.</p>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p>a) <foreign>I lived in Chicago for five years.</foreign></p>
+      <p><foreign>She has been reading the book.</foreign></p>
 
-      <p>b) <foreign>I have lived in Chicago for five years.</foreign></p>
+      <p>Diagram: <c>[S [NP [PRON She]] [VP [AUX has] [AUX been] [V reading] [NP [DET the] [N book]]]]</c></p>
 
-      <p>Explanation: Sentence (a) uses past simple, indicating I no longer live there. Sentence (b) uses present perfect, indicating I still live there now.</p>
+      <p>Tense: present. Aspect: perfect progressive.</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 16.</em> Explain the difference in meaning:</p>
+      <p><em>Exercise 16.</em> <foreign>The students are studying for the exam.</foreign></p>
 
-      <p>a) <foreign>She read the report.</foreign></p>
+      <p>Diagram: ________________________________________________________________________</p>
 
-      <p>b) <foreign>She has read the report.</foreign></p>
+      <p>Tense: ________ Aspect: ________</p>
 
-      <p>________________________________________________________________________</p>
+      <p><em>Exercise 17.</em> <foreign>He had finished the assignment before class.</foreign></p>
 
-      <p><em>Exercise 17.</em> Explain the difference in meaning:</p>
+      <p>Diagram: ________________________________________________________________________</p>
 
-      <p>a) <foreign>When I arrived, they left.</foreign></p>
+      <p>Tense: ________ Aspect: ________</p>
 
-      <p>b) <foreign>When I arrived, they had left.</foreign></p>
+      <p><em>Exercise 18.</em> <foreign>Does the professor teach on Fridays?</foreign></p>
 
-      <p>________________________________________________________________________</p>
+      <p>Diagram: ________________________________________________________________________</p>
 
-      <p><em>Exercise 18.</em> Explain the difference in meaning:</p>
+      <p>Tense: ________ Aspect: ________</p>
 
-      <p>a) <foreign>He works at a bank.</foreign></p>
+      <p><em>Exercise 19.</em> <foreign>The report was written by the committee.</foreign></p>
 
-      <p>b) <foreign>He is working at a bank.</foreign></p>
+      <p>Diagram: ________________________________________________________________________</p>
 
-      <p>________________________________________________________________________</p>
+      <p>Tense: ________ Aspect/Voice: ________</p>
+
+      <p><em>Exercise 20.</em> <foreign>They have been waiting at the station for an hour.</foreign></p>
+
+      <p>Diagram: ________________________________________________________________________</p>
+
+      <p>Tense: ________ Aspect: ________</p>
 
     </subsection>
 
@@ -874,7 +1134,7 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 19.</em> Identify the tense-aspect of each verb phrase in the passage:</p>
+      <p><em>Exercise 21.</em> Identify the tense-aspect of each verb phrase in the passage:</p>
 
       <ul>
         <li><p><foreign>moved</foreign>: ________</p></li>
@@ -886,13 +1146,13 @@
         <li><p><foreign>will be looking</foreign>: ________</p></li>
       </ul>
 
-      <p><em>Exercise 20.</em> The passage uses both <foreign>moved</foreign> (past simple) and <foreign>has lived</foreign> (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.</p>
+      <p><em>Exercise 22.</em> The passage uses both <foreign>moved</foreign> (past simple) and <foreign>has lived</foreign> (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.</p>
 
       <p>________________________________________________________________________</p>
 
       <p>________________________________________________________________________</p>
 
-      <p><em>Exercise 21.</em> Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:</p>
+      <p><em>Exercise 23.</em> Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:</p>
 
       <p>Original: <foreign>She studies linguistics.</foreign></p>
 
@@ -920,57 +1180,6 @@
 
       <p>________________________________________________________________________</p>
 
-    </subsection>
-
-  </section>
-
-  <section xml:id="ch-10-diagram-examples">
-    <title>Diagram Examples</title>
-
-    <p>This section provides reference diagrams for verb phrase structures with tense and aspect.</p>
-
-    <subsection xml:id="ch-10-diagrams-aspect">
-      <title>Aspect Examples</title>
-
-      <paragraphs>
-        <title>10.8.1 A: Progressive aspect (be + V-ing): is eating</title>
-      </paragraphs>
-      <image source="diagrams/new/ch07_vp_progressive.png" width="25%">
-        <description>Syntax tree for "is eating" showing progressive aspect</description>
-      </image>
-      <p><c>[VP [AUX is] [V eating]]</c></p>
-
-      <paragraphs>
-        <title>10.8.1 B: Perfect aspect (have + V-en): has eaten</title>
-      </paragraphs>
-      <image source="diagrams/new/ch07_vp_perfect.png" width="25%">
-        <description>Syntax tree for "has eaten" showing perfect aspect</description>
-      </image>
-      <p><c>[VP [AUX has] [V eaten]]</c></p>
-
-      <paragraphs>
-        <title>10.8.1 C: Perfect progressive (have + been + V-ing): has been eating</title>
-      </paragraphs>
-      <image source="diagrams/new/ch07_vp_perfect_progressive.png" width="35%">
-        <description>Syntax tree for "has been eating" showing perfect progressive</description>
-      </image>
-      <p><c>[VP [AUX has] [AUX been] [V eating]]</c></p>
-
-      <paragraphs>
-        <title>10.8.1 D: Passive (be + V-en): was eaten</title>
-      </paragraphs>
-      <image source="diagrams/new/ch07_vp_passive.png" width="25%">
-        <description>Syntax tree for "was eaten" showing passive voice</description>
-      </image>
-      <p><c>[VP [AUX was] [V eaten]]</c></p>
-
-      <paragraphs>
-        <title>10.8.1 E: Progressive passive (be + being + V-en): is being renovated</title>
-      </paragraphs>
-      <image source="diagrams/new/ch07_vp_progressive_passive.png" width="35%">
-        <description>Syntax tree for "is being renovated" showing progressive passive</description>
-      </image>
-      <p><c>[VP [AUX is] [AUX being] [V renovated]]</c></p>
     </subsection>
 
   </section>
