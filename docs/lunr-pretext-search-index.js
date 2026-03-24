@@ -1243,110 +1243,11 @@ var ptx_lunr_docs = [
   "body": " Glossary   Clause  A grammatical unit containing a subject and a predicate. Clauses may be independent (able to stand alone) or dependent (requiring a main clause to complete them).    Comma splice  The error of joining two independent clauses with only a comma.    Complex sentence  A sentence with one independent clause and at least one dependent clause.    Compound sentence  A sentence with two or more independent clauses joined by coordination.    Compound-complex sentence  A sentence containing at least two independent clauses and at least one dependent clause.    Conjunctive adverb  An adverb that connects independent clauses ( however , therefore ).    Coordinating conjunction  A word that joins equal elements (FANBOYS: for, and, nor, but, or, yet, so ).    Dependent clause  A clause that cannot stand alone; also called a subordinate clause. It begins with a subordinating word that makes it grammatically incomplete without a main clause.    End-weight  The principle that longer, heavier, or more complex elements should be placed toward the end of a sentence, where readers are best prepared to receive them.    Independent clause  A clause that can stand alone as a complete sentence.    Phrase  A word or group of words that functions as a grammatical unit but lacks a subject-predicate pair. Phrases are components of clauses.    Run-on sentence  The error of joining independent clauses without punctuation.    Simple sentence  A sentence with one independent clause.    Subordinating conjunction  A word that introduces a dependent clause and shows its relationship to the main clause.   "
 },
 {
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-105",
-  "level": "1",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-105.html",
-  "type": "Section",
-  "number": "10.1",
-  "title": "Tense: Locating Events in Time",
-  "body": " Tense: Locating Events in Time  Ask most people how many tenses English has and they will say three: past, present, and future. That intuition makes sense—we can certainly talk about past, present, and future events—but it reflects an understanding of time , not of tense . Tense and time are related but not the same thing, and getting this distinction right is one of the most important conceptual moves in this chapter.  Tense is a grammatical category that locates situations in time, typically marked by verb inflection.   Tense vs. Time   Tense is grammatical—a form of the verb.  Time is conceptual—when something actually happens.  English has only two morphological tenses: present and past. Future time is expressed through modals and aspect, not a distinct verb form.  The table below shows what is actually marked on English verbs. Notice that \"future\" requires a modal—there is no future inflection the way there is a past -ed :    Tense  Marked by  Example    Present  base form or -s  walk, walks    Past  -ed or irregular form  walked, went    Future  modal will (no inflection)  will walk    "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-105-3",
-  "level": "2",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-105.html#ch-10-verbs-part-one-tense-and-aspect-sec-105-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Tense "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-106",
-  "level": "1",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-106.html",
-  "type": "Section",
-  "number": "10.2",
-  "title": "Present Tense",
-  "body": " Present Tense  The name \"present tense\" is somewhat misleading. You might expect it to mean \"what is happening right now,\" but in fact the present tense is used for a surprising range of meanings, most of which have nothing to do with the immediate moment. When someone says Water boils at 100°C , they are using present tense to state a timeless truth. When a storyteller says So then he walks up and says... , they are using present tense to describe past events. The present tense is really the unmarked tense—the default, the one English reaches for when no specific temporal meaning needs to be imposed.   Formation   Regular verbs :   Base form: I\/you\/we\/they walk  Third person -s : she\/he\/it walks   Spelling rules for  -s :   Most verbs: add -s ( walks, runs )  Ending in -s, -sh, -ch, -x, -z : add -es ( watches, fixes )  Consonant + y : change y to -ies ( studies, carries )  Irregular: has, does, goes    Uses of Present Tense   Habitual actions :   She walks to school every day.  I drink coffee in the morning.    Syntax tree for \"She walks to school every day\" showing simple present tense with a PP and NP as adverbials   [S [NP [PRON She]] [VP [V walks] [PP [PREP to] [NP [N school]]] [NP [DET every] [N day]]]]  General truths :   Water boils at 100°C.  The sun rises in the east.   States :   She knows the answer.  I love this city.   Scheduled future events :   The train leaves at noon.  The semester starts next week.   Performatives (doing by saying):   I apologize for the delay.  I promise to help.   Historical present (in narratives):   So then he walks up and says ...   "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-107",
-  "level": "1",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-107.html",
-  "type": "Section",
-  "number": "10.3",
-  "title": "Past Tense",
-  "body": " Past Tense  The past tense is more complex than it first appears, for two reasons. First, the formation itself is irregular in a large number of common verbs—the verbs you use most often in English tend to be the ones that do not follow the predictable -ed pattern. Second, and more surprisingly, the past tense is not always about past time. As you will see below, the same past tense form that describes yesterday's events can also signal hypothetical or counterfactual meaning ( If I were you... ) and can even soften a request to make it more polite ( I wondered if you could help ). Tense, in other words, encodes more than just time.   Formation   Regular verbs : Add -ed   walk → walked  play → played  study → studied   Spelling rules for  -ed :   Most verbs: add -ed ( walked, played )  Ending in -e : add -d ( hoped, loved )  Consonant + y : change y to -ied ( studied, carried )  CVC ending (stressed): double final consonant ( stopped, planned )   Irregular verbs : Various patterns   Vowel change: sing → sang , run → ran  Vowel change + consonant: think → thought , bring → brought  No change: cut → cut , put → put  Suppletive: go → went , be → was\/were    Uses of Past Tense   Completed past events :   She walked to school yesterday.  The meeting ended at noon.   Past states :   I knew the answer then.  She was happy.   Hypotheticals\/Counterfactuals (not about past time):   If I were you, I would leave. (but I'm not you)  I wish I knew the answer. (but I don't)   Polite requests (not about past time):   I wondered if you could help.  Did you want to order?   "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108",
-  "level": "1",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html",
-  "type": "Section",
-  "number": "10.4",
-  "title": "Aspect: The Shape of Events",
-  "body": " Aspect: The Shape of Events  If tense tells you when an event happens, aspect tells you something different: it tells you how the event is shaped in time. Think of tense as placing a dot on a timeline, and aspect as describing the dot itself—is it a single point, a stretch, a stretch that reaches up to the present, or a stretch that is still ongoing? Two sentences can share the same tense but have completely different aspects: She worked (past simple) presents a completed event as a whole, while She was working (past progressive) zooms in on the action as it unfolds. The event may be identical in real-world terms; the aspect shapes how the speaker presents it.  Aspect describes the internal temporal structure of events—whether they're completed, ongoing, repeated, or have current relevance. English has four aspects.   Simple Aspect   The simple aspect presents events as complete wholes, without internal structure:   She works at a bank. (present simple—habitual)  She worked at a bank. (past simple—completed)    Progressive Aspect   The progressive aspect ( be + -ing ) presents events as ongoing, in progress:   She is working right now. (present progressive)  She was working when I called. (past progressive)   Uses of progressive :   Actions in progress: I'm reading a book.  Temporary situations: She's living in Boston this year.  Background to another event: I was sleeping when the phone rang.   Stative verbs typically resist progressive:   I am knowing the answer. → I know the answer.  She is loving chocolate. → She loves chocolate.    Perfect Aspect   The perfect aspect ( have + past participle) connects a past event to a later time (often the present):   She has worked here for ten years. (present perfect)  She had worked there before moving. (past perfect)   Uses of present perfect :   Past action with present relevance: I've finished my work. (so I'm free now)  Experience up to now: She has visited Paris twice.  Continuing situation: He has lived here since 2010.  Recent past: They have just arrived.   Past perfect positions events before another past reference point:   When I arrived, she had already left .    Perfect Progressive Aspect   The perfect progressive ( have + been + -ing ) combines perfect and progressive meanings:   She has been working all morning. (present perfect progressive)  She had been working when I called. (past perfect progressive)    Syntax tree for \"She has been waiting\" showing the stacking of perfect auxiliary have and progressive auxiliary been before the -ing main verb   [S [NP [PRON She]] [VP [AUX has] [AUX been] [V waiting]]]  Uses :   Duration of ongoing activity: I've been waiting for an hour.  Explanation for current state: She's tired because she's been running.   "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-3",
-  "level": "2",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Aspect "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-5",
-  "level": "2",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "simple aspect "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-8",
-  "level": "2",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-8",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "progressive aspect "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-15",
-  "level": "2",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "perfect aspect "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-22",
-  "level": "2",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-22",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "perfect progressive "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-109",
-  "level": "1",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-109.html",
-  "type": "Section",
-  "number": "10.5",
-  "title": "Combining Tense and Aspect",
-  "body": " Combining Tense and Aspect  You now have all the pieces: two tenses (present and past) and four aspects (simple, progressive, perfect, perfect progressive). The real power of English verb phrase grammar is that these categories combine systematically, giving you a full grid of tense-aspect combinations. Each cell in that grid is a distinct construction with its own meaning and its own form. Rather than memorizing them as isolated items, notice how they are built: tense is always marked on the first auxiliary (or the main verb if there is no auxiliary), and the aspect categories stack in a fixed order—progressive always uses be + -ing , perfect always uses have + past participle .  Tense and aspect combine systematically:     Simple  Progressive  Perfect  Perfect Progressive    Present  walks  is walking  has walked  has been walking    Past  walked  was walking  had walked  had been walking     How Each Combination Works   Present simple ( She works ): Presents a habit, routine, or general truth. The action is not tied to a specific moment—it is simply what happens.  The library opens at nine.  Past simple ( She worked ): Presents a completed event as a finished whole, disconnected from the present.  The library closed early yesterday.  Present progressive ( She is working ): Zooms in on an action happening right now or around now. The event is in progress and not yet complete.  She is reading in the library right now.  Past progressive ( She was working ): Zooms in on an action that was in progress at a specific moment in the past, often as a background to another event.  She was reading when the fire alarm went off.  Present perfect ( She has worked ): Connects a past event to the present—the event happened before now, but its relevance, result, or continuation matters now.  She has read every book on the shelf. (experience up to now)  Past perfect ( She had worked ): Positions one past event before another past reference point. It is the \"past of the past.\"  She had already left when I arrived.  Present perfect progressive ( She has been working ): Emphasizes the duration of an ongoing activity that started in the past and continues to the present.  She has been studying for three hours.  Past perfect progressive ( She had been working ): Emphasizes the duration of an activity that was ongoing before another past event.  She had been waiting for an hour before the bus finally came.  "
-},
-{
   "id": "ch-10-verbs-part-one-tense-and-aspect-sec-101",
   "level": "1",
   "url": "ch-10-verbs-part-one-tense-and-aspect-sec-101.html",
   "type": "Section",
-  "number": "10.6",
+  "number": "10.1",
   "title": "Auxiliary Verbs",
   "body": " Auxiliary Verbs  Consider the difference between She eats and She has been eating . Both sentences have the same main verb, but the second tells you something the first does not: that the eating started in the past and is still ongoing. The words doing that extra work— has and been —are auxiliary verbs. You cannot understand how English verb phrases are built without understanding how auxiliaries function, because they are the building blocks that tense, aspect, voice, and modality all depend on.  Auxiliary verbs (also called helping verbs) combine with main verbs to create complex verb phrases. They add grammatical information about tense, aspect, voice, and modality.   Auxiliary vs. Main Verb   Main verb (lexical verb): Carries the primary meaning  Auxiliary verb : Adds grammatical information  She has eaten dinner.   Auxiliary: has (adds perfect aspect)  Main verb: eaten (the action)   The book was written by Maria.   Auxiliary: was (adds passive voice)  Main verb: written (the action)    Types of Auxiliaries   Primary auxiliaries : be, have, do   Form progressive, perfect, and passive constructions  Can also be main verbs   Modal auxiliaries : can, could, will, would, shall, should, may, might, must   Add modality (possibility, necessity, permission, etc.)  Covered in Chapter 11   "
 },
@@ -1382,25 +1283,25 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ch-10-verbs-part-one-tense-and-aspect-sec-102.html",
   "type": "Section",
-  "number": "10.7",
+  "number": "10.2",
   "title": "Primary Auxiliary: Be",
-  "body": " Primary Auxiliary: Be  Be is the most versatile auxiliary, used for both progressive aspect and passive voice. It is also, arguably, the most irregular verb in English—its forms ( am, is, are, was, were, been, being ) look nothing like one another, a remnant of the verb's descent from three different Old English roots that merged over centuries. Despite that surface irregularity, the grammatical work be does as an auxiliary is entirely predictable: combine it with an -ing form to get progressive meaning, combine it with a past participle to get passive meaning.   Forms of Be     Present  Past  Participles    am, is, are  was, were  been, being     Functions of Auxiliary Be   Progressive aspect ( be + -ing ):   She is reading . (present progressive)  They were studying . (past progressive)  He has been working . (present perfect progressive)    Syntax tree for \"She is reading\" showing auxiliary be followed by the -ing main verb form   [S [NP [PRON She]] [VP [AUX is] [V reading]]]  Passive voice ( be + past participle):   The book was written by Maria.  The house is being built .    Syntax tree for \"The book was written by Maria\" showing auxiliary be followed by past participle with an agent by-phrase   [S [NP [DET The] [N book]] [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]]   Be as Main Verb vs. Auxiliary   Be can also be a main verb (copular\/linking):   She is a teacher. (main verb—links subject to complement)   Distinguishing :   Followed by -ing form = auxiliary: She is reading .  Followed by past participle = auxiliary (passive): It was done .  Followed by NP, AdjP, PP = main verb: She is happy.   "
+  "body": " Primary Auxiliary: Be  Be is the most versatile auxiliary, used for both progressive aspect and passive voice. It is also, arguably, the most irregular verb in English—its forms ( am, is, are, was, were, been, being ) look nothing like one another, a remnant of the verb's descent from three different Old English roots that merged over centuries. Despite that surface irregularity, the grammatical work be does as an auxiliary is entirely predictable: combine it with an -ing form to get progressive meaning, combine it with a past participle to get passive meaning.   Forms of Be     Present  Past  Participles    am, is, are  was, were  been, being     Functions of Auxiliary Be   Progressive aspect ( be + -ing ):   She is reading . (present progressive)  They were studying . (past progressive)  He has been working . (present perfect progressive)    Syntax tree for \"She is reading\" showing auxiliary be followed by the -ing main verb form   [S [NP [PRON She]] [VP [AUX is] [V reading]]]  Passive voice ( be + past participle):   The book was written by Maria.  The house is being built .  The work will be completed .   Note : Passive voice is a rich topic with its own set of patterns and uses. We will examine it in detail in Chapter 11.   Syntax tree for \"The book was written by Maria\" showing auxiliary be followed by past participle with an agent by-phrase   [S [NP [DET The] [N book]] [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]]   Be as Main Verb vs. Auxiliary   Be can also be a main verb (copular\/linking):   She is a teacher. (main verb—links subject to complement)   Distinguishing :   Followed by -ing form = auxiliary: She is reading .  Followed by past participle = auxiliary (passive): It was done .  Followed by NP, AdjP, PP = main verb: She is happy.   "
 },
 {
   "id": "ch-10-verbs-part-one-tense-and-aspect-sec-103",
   "level": "1",
   "url": "ch-10-verbs-part-one-tense-and-aspect-sec-103.html",
   "type": "Section",
-  "number": "10.8",
+  "number": "10.3",
   "title": "Primary Auxiliary: Have",
-  "body": " Primary Auxiliary: Have  Of the three primary auxiliaries, have is the one that creates the most subtle and often misunderstood category in English grammar: the perfect aspect. The difference between She finished the report and She has finished the report seems small on the surface, but it is meaningful. The first presents the event as completed and disconnected from the present; the second connects the completed event to right now—it signals that the finishing is relevant to the current moment. That connection to the present is what the perfect aspect is fundamentally about, and have is the auxiliary that creates it.  Have forms the perfect aspect, indicating that an action is completed or has continuing relevance.   Forms of Have     Present  Past  Participle    have, has  had  had     Functions of Auxiliary Have   Perfect aspect ( have + past participle):   She has finished the work. (present perfect)  They had left before I arrived. (past perfect)    Syntax tree for \"She has finished the work\" showing auxiliary have followed by past participle with a direct object   [S [NP [PRON She]] [VP [AUX has] [V finished] [NP [DET the] [N work]]]]   Syntax tree for \"They had left before I arrived\" showing past perfect with an adverbial dependent clause   [S [NP [PRON They]] [VP [AUX had] [V left]] [DC [SUB before] [NP [PRON I]] [VP [V arrived]]]]   Have as Main Verb vs. Auxiliary   Have is also a main verb meaning possess :   I have a car. (main verb)  I have seen that movie. (auxiliary)   Test : Can you add got after have ?   I have (got) a car. ✓ (main verb)  I have got seen that movie. ✗ (auxiliary)   "
+  "body": " Primary Auxiliary: Have  Of the three primary auxiliaries, have is the one that creates the most subtle and often misunderstood category in English grammar: the perfect aspect. The difference between She finished the report and She has finished the report seems small on the surface, but it is meaningful. The first presents the event as completed and disconnected from the present; the second connects the completed event to right now—it signals that the finishing is relevant to the current moment. That connection to the present is what the perfect aspect is fundamentally about, and have is the auxiliary that creates it.  Have forms the perfect aspect, indicating that an action is completed or has continuing relevance.   Forms of Have     Present  Past  Participle    have, has  had  had     Functions of Auxiliary Have   Perfect aspect ( have + past participle):   She has finished the work. (present perfect)  They had left before I arrived. (past perfect)  By then, I will have completed it. (future perfect)    Syntax tree for \"She has finished the work\" showing auxiliary have followed by past participle with a direct object   [S [NP [PRON She]] [VP [AUX has] [V finished] [NP [DET the] [N work]]]]   Syntax tree for \"They had left before I arrived\" showing past perfect with an adverbial dependent clause   [S [NP [PRON They]] [VP [AUX had] [V left]] [DC [SUB before] [NP [PRON I]] [VP [V arrived]]]]   Have as Main Verb vs. Auxiliary   Have is also a main verb meaning possess :   I have a car. (main verb)  I have seen that movie. (auxiliary)   Test : Can you add got after have ?   I have (got) a car. ✓ (main verb)  I have got seen that movie. ✗ (auxiliary)   "
 },
 {
   "id": "ch-10-verbs-part-one-tense-and-aspect-sec-104",
   "level": "1",
   "url": "ch-10-verbs-part-one-tense-and-aspect-sec-104.html",
   "type": "Section",
-  "number": "10.9",
+  "number": "10.4",
   "title": "Primary Auxiliary: Do",
   "body": " Primary Auxiliary: Do  Of the three primary auxiliaries, do is the odd one out. Unlike be and have , it does not add aspect or voice; it is essentially a grammatical placeholder. English requires an auxiliary verb in certain positions—for forming questions by inversion, for placing not after an auxiliary—but many sentences have no auxiliary at all. When that need arises, English inserts do to fill the slot. Linguists call this do-support , and understanding it helps explain a construction that seems arbitrary but is actually quite systematic.  Do is used for emphasis, questions, and negation when no other auxiliary is present.   Forms of Do     Present  Past    do, does  did     Functions of Auxiliary Do   Do-support : When a sentence needs an auxiliary (for questions, negation) but has none, do is inserted:  Questions :   She works here. → Does she work here?  They left early. → Did they leave early?    Syntax tree for \"Does she work here?\" showing do-support in question formation with the auxiliary fronted before the subject   [S [AUX Does] [NP [PRON she]] [VP [V work] [ADVP [ADV here]]]]  Negation :   She works here. → She doesn't work here.  They left early. → They didn't leave early.    Syntax tree for \"She does not work here\" showing do-support carrying the negation marker in a declarative sentence   [S [NP [PRON She]] [VP [AUX does] [NEG not] [V work] [ADVP [ADV here]]]]  Emphasis :   I do understand your concern.  She did finish the assignment.   Note : If another auxiliary is present, do is not used:   She is working. → Is she working? (not Does she is working? )  He has left. → Has he left?   "
 },
@@ -1414,193 +1315,310 @@ var ptx_lunr_docs = [
   "body": "Do-support "
 },
 {
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-105",
+  "level": "1",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-105.html",
+  "type": "Section",
+  "number": "10.5",
+  "title": "Tense: Locating Events in Time",
+  "body": " Tense: Locating Events in Time  Ask most people how many tenses English has and they will say three: past, present, and future. That intuition makes sense—we can certainly talk about past, present, and future events—but it reflects an understanding of time , not of tense . Tense and time are related but not the same thing, and getting this distinction right is one of the most important conceptual moves in this chapter.  Tense is a grammatical category that locates situations in time, typically marked by verb inflection.   Tense vs. Time   Tense is grammatical—a form of the verb.  Time is conceptual—when something actually happens.  English has only two morphological tenses: present and past. Future time is expressed through modals and aspect, not a distinct verb form.  The table below shows what is actually marked on English verbs. Notice that \"future\" requires a modal—there is no future inflection the way there is a past -ed :    Tense  Marked by  Example    Present  base form or -s  walk, walks    Past  -ed or irregular form  walked, went    Future  modal will (no inflection)  will walk    "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-105-3",
+  "level": "2",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-105.html#ch-10-verbs-part-one-tense-and-aspect-sec-105-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Tense "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-106",
+  "level": "1",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-106.html",
+  "type": "Section",
+  "number": "10.6",
+  "title": "Present Tense",
+  "body": " Present Tense  The name \"present tense\" is somewhat misleading. You might expect it to mean \"what is happening right now,\" but in fact the present tense is used for a surprising range of meanings, most of which have nothing to do with the immediate moment. When someone says Water boils at 100°C , they are using present tense to state a timeless truth. When a storyteller says So then he walks up and says... , they are using present tense to describe past events. The present tense is really the unmarked tense—the default, the one English reaches for when no specific temporal meaning needs to be imposed.   Formation   Regular verbs :   Base form: I\/you\/we\/they walk  Third person -s : she\/he\/it walks   Spelling rules for  -s :   Most verbs: add -s ( walks, runs )  Ending in -s, -sh, -ch, -x, -z : add -es ( watches, fixes )  Consonant + y : change y to -ies ( studies, carries )  Irregular: has, does, goes    Uses of Present Tense   Habitual actions :   She walks to school every day.  I drink coffee in the morning.    Syntax tree for \"She walks to school every day\" showing simple present tense with a PP and NP as adverbials   [S [NP [PRON She]] [VP [V walks] [PP [PREP to] [NP [N school]]] [NP [DET every] [N day]]]]  General truths :   Water boils at 100°C.  The sun rises in the east.   States :   She knows the answer.  I love this city.   Scheduled future events :   The train leaves at noon.  The semester starts next week.   Performatives (doing by saying):   I apologize for the delay.  I promise to help.   Historical present (in narratives):   So then he walks up and says ...   "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-107",
+  "level": "1",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-107.html",
+  "type": "Section",
+  "number": "10.7",
+  "title": "Past Tense",
+  "body": " Past Tense  The past tense is more complex than it first appears, for two reasons. First, the formation itself is irregular in a large number of common verbs—the verbs you use most often in English tend to be the ones that do not follow the predictable -ed pattern. Second, and more surprisingly, the past tense is not always about past time. As you will see below, the same past tense form that describes yesterday's events can also signal hypothetical or counterfactual meaning ( If I were you... ) and can even soften a request to make it more polite ( I wondered if you could help ). Tense, in other words, encodes more than just time.   Formation   Regular verbs : Add -ed   walk → walked  play → played  study → studied   Spelling rules for  -ed :   Most verbs: add -ed ( walked, played )  Ending in -e : add -d ( hoped, loved )  Consonant + y : change y to -ied ( studied, carried )  CVC ending (stressed): double final consonant ( stopped, planned )   Irregular verbs : Various patterns   Vowel change: sing → sang , run → ran  Vowel change + consonant: think → thought , bring → brought  No change: cut → cut , put → put  Suppletive: go → went , be → was\/were    Uses of Past Tense   Completed past events :   She walked to school yesterday.  The meeting ended at noon.   Past states :   I knew the answer then.  She was happy.   Hypotheticals\/Counterfactuals (not about past time):   If I were you, I would leave. (but I'm not you)  I wish I knew the answer. (but I don't)   Polite requests (not about past time):   I wondered if you could help.  Did you want to order?   "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-participles",
+  "level": "1",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-participles.html",
+  "type": "Section",
+  "number": "10.8",
+  "title": "Participles",
+  "body": " Participles  Before moving on to aspect, it helps to understand the verb forms that aspect constructions depend on. Throughout the auxiliary sections above, you encountered terms like past participle and -ing form without a formal explanation. These forms are called participles , and English has two of them. Every aspect combination in the next section is built from a tense marker plus one or both participle forms, so getting comfortable with them now will make the rest of the chapter much easier.  Participles are verb forms that combine with auxiliaries to build complex verb phrases. English has two: the present participle and the past participle .   Present Participle   The present participle is formed by adding -ing to the base form of the verb. It is used with be to form progressive aspect.   walk → walking  run → running  write → writing  study → studying   Spelling rules for  -ing :   Most verbs: add -ing ( walking, eating )  Ending in silent -e : drop the e , add -ing ( write → writing , hope → hoping )  CVC ending (stressed): double the final consonant ( run → running , stop → stopping )  Ending in -ie : change to -ying ( die → dying , lie → lying )   The present participle is always regular—every English verb forms it the same way.   Past Participle   The past participle is used with have to form perfect aspect and with be to form passive voice. For regular verbs, it looks identical to the past tense ( -ed ). For irregular verbs, it often takes a different form.  Regular verbs (past participle = past tense):   walk → walked → walked  play → played → played  study → studied → studied   Irregular verbs (past participle differs from past tense):       Base Form  Past Tense  Past Participle    write  wrote  written    sing  sang  sung    go  went  gone    eat  ate  eaten    see  saw  seen    break  broke  broken     How Participles Combine with Auxiliaries   Each participle pairs with a specific auxiliary to create a specific meaning:        Participle  Auxiliary  Construction  Example    Present ( -ing )  be  Progressive aspect  She is writing.    Past ( -ed \/irregular)  have  Perfect aspect  She has written.    Past ( -ed \/irregular)  be  Passive voice  The letter was written.    Notice that the past participle does double duty: it works with have for perfect aspect and with be for passive voice. The auxiliary is what tells you which construction you are looking at.  "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-participles-3",
+  "level": "2",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-participles.html#ch-10-verbs-part-one-tense-and-aspect-sec-participles-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Participles "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-participles-5",
+  "level": "2",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-participles.html#ch-10-verbs-part-one-tense-and-aspect-sec-participles-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "present participle "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-participles-11",
+  "level": "2",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-participles.html#ch-10-verbs-part-one-tense-and-aspect-sec-participles-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "past participle "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108",
+  "level": "1",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html",
+  "type": "Section",
+  "number": "10.9",
+  "title": "Aspect: The Shape of Events",
+  "body": " Aspect: The Shape of Events  If tense tells you when an event happens, aspect tells you something different: it tells you how the event is shaped in time. Think of tense as placing a dot on a timeline, and aspect as describing the dot itself—is it a single point, a stretch, a stretch that reaches up to the present, or a stretch that is still ongoing? Two sentences can share the same tense but have completely different aspects: She worked (past simple) presents a completed event as a whole, while She was working (past progressive) zooms in on the action as it unfolds. The event may be identical in real-world terms; the aspect shapes how the speaker presents it.  Aspect describes the internal temporal structure of events—whether they're completed, ongoing, repeated, or have current relevance. English has four aspects.  Here is a quick overview before we examine each in detail:   Simple : presents events as complete wholes. The train arrives at noon.  He walked to the store.  Progressive : presents events as ongoing. The children are playing outside.  She was reading when the lights went out.  Perfect : connects a past event to a later time. We have finished the project.  By June, she had saved enough money.  Perfect progressive : combines duration with connection to a later time. They have been practicing all week.  He had been driving for hours before he stopped.    Simple Aspect   The simple aspect presents events as complete wholes, without internal structure:   She works at a bank. (present simple—habitual)  She worked at a bank. (past simple—completed)  She will work at a bank. (future simple—predicted)    Progressive Aspect   The progressive aspect ( be + -ing ) presents events as ongoing, in progress:   She is working right now. (present progressive)  She was working when I called. (past progressive)  She will be working at noon. (future progressive)   Uses of progressive :   Actions in progress: I'm reading a book.  Temporary situations: She's living in Boston this year.  Future arrangements: We're meeting tomorrow.  Background to another event: I was sleeping when the phone rang.   Stative verbs typically resist progressive:   I am knowing the answer. → I know the answer.  She is loving chocolate. → She loves chocolate.    Perfect Aspect   The perfect aspect ( have + past participle) connects a past event to a later time (often the present):   She has worked here for ten years. (present perfect)  She had worked there before moving. (past perfect)  By then, she will have worked here a decade. (future perfect)   Uses of present perfect :   Past action with present relevance: I've finished my work. (so I'm free now)  Experience up to now: She has visited Paris twice.  Continuing situation: He has lived here since 2010.  Recent past: They have just arrived.   Past perfect positions events before another past reference point:   When I arrived, she had already left .    Perfect Progressive Aspect   The perfect progressive ( have + been + -ing ) combines perfect and progressive meanings:   She has been working all morning. (present perfect progressive)  She had been working when I called. (past perfect progressive)  By noon, she will have been working for six hours. (future perfect progressive)    Syntax tree for \"She has been waiting\" showing the stacking of perfect auxiliary have and progressive auxiliary been before the -ing main verb   [S [NP [PRON She]] [VP [AUX has] [AUX been] [V waiting]]]  Uses :   Duration of ongoing activity: I've been waiting for an hour.  Explanation for current state: She's tired because she's been running.   "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-3",
+  "level": "2",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Aspect "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-7",
+  "level": "2",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-7",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "simple aspect "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-10",
+  "level": "2",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "progressive aspect "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-17",
+  "level": "2",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "perfect aspect "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-108-24",
+  "level": "2",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-108.html#ch-10-verbs-part-one-tense-and-aspect-sec-108-24",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "perfect progressive "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-sec-109",
+  "level": "1",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-sec-109.html",
+  "type": "Section",
+  "number": "10.10",
+  "title": "Combining Tense and Aspect",
+  "body": " Combining Tense and Aspect  You now have all the pieces: two tenses (present and past), four aspects (simple, progressive, perfect, perfect progressive), and a modal-based future. The real power of English verb phrase grammar is that these categories combine systematically, giving you a full grid of tense-aspect combinations. Each cell in that grid is a distinct construction with its own meaning and its own form. Rather than memorizing them as isolated items, notice how they are built: tense is always marked on the first auxiliary (or the main verb if there is no auxiliary), and the aspect categories stack in a fixed order—progressive always uses be + -ing , perfect always uses have + past participle .  Tense and aspect combine systematically. The following table names each combination and breaks it into its component parts:        Combination  Tense  Aspect  Example    Present Simple  Present  Simple  She walks to work.    Present Progressive  Present  Progressive  She is walking to work.    Present Perfect  Present  Perfect  She has walked to work.    Present Perfect Progressive  Present  Perfect Progressive  She has been walking to work.    Past Simple  Past  Simple  She walked to work.    Past Progressive  Past  Progressive  She was walking to work.    Past Perfect  Past  Perfect  She had walked to work.    Past Perfect Progressive  Past  Perfect Progressive  She had been walking to work.    Future Simple  Future (modal)  Simple  She will walk to work.    Future Progressive  Future (modal)  Progressive  She will be walking to work.    Future Perfect  Future (modal)  Perfect  She will have walked to work.    Future Perfect Progressive  Future (modal)  Perfect Progressive  She will have been walking to work.    "
+},
+{
+  "id": "ch-10-diagramming-verb-phrases",
+  "level": "1",
+  "url": "ch-10-diagramming-verb-phrases.html",
+  "type": "Section",
+  "number": "10.11",
+  "title": "Diagramming Verb Phrases",
+  "body": " Diagramming Verb Phrases  You have seen tree diagrams in earlier chapters for subjects, predicates, and clause structure. Now that you understand auxiliaries, tense, and aspect, you can diagram the internal structure of the verb phrase itself. The key convention is simple: auxiliary verbs are labeled AUX , and the main verb is labeled V . When a verb phrase contains multiple auxiliaries, each one gets its own AUX node.   Simple Verb Phrases   When a sentence has no auxiliary, the verb phrase contains only the main verb:  She walks.  [S [NP [PRON She]] [VP [V walks]]]  The verb carries the tense marking directly. There is no AUX node because there is no auxiliary.   One Auxiliary   Progressive and perfect constructions add one auxiliary before the main verb:  Progressive ( be + present participle):  She is walking.  [S [NP [PRON She]] [VP [AUX is] [V walking]]]  Perfect ( have + past participle):  She has walked.  [S [NP [PRON She]] [VP [AUX has] [V walked]]]  In each case, tense is marked on the auxiliary (the first element in the verb phrase), not on the main verb. The main verb carries the participle form that signals the aspect.   Two Auxiliaries   Perfect progressive stacks two auxiliaries before the main verb:  She has been walking.  [S [NP [PRON She]] [VP [AUX has] [AUX been] [V walking]]]  Notice the order: has (perfect auxiliary, carries tense) → been (progressive auxiliary, past participle form) → walking (main verb, present participle form). Each auxiliary is labeled AUX.   Full Sentences with Complex Verb Phrases   The examples above isolate the verb phrase pattern. In real sentences, the VP also contains objects, adverbials, and prepositional phrases. The auxiliaries sit at the front of the VP, and everything else follows the main verb just as in earlier chapters. Here are three full-sentence diagrams, one for each aspect:  Progressive : The children are playing a game in the backyard.  [S [NP [DET The] [N children]] [VP [AUX are] [V playing] [NP [DET a] [N game]] [PP [PREP in] [NP [DET the] [N backyard]]]]]  The progressive auxiliary are carries present tense. The main verb playing is followed by a direct object NP and a prepositional phrase.  Perfect : The professor has assigned three chapters for next week.  [S [NP [DET The] [N professor]] [VP [AUX has] [V assigned] [NP [ADJ three] [N chapters]] [PP [PREP for] [NP [ADJ next] [N week]]]]]  The perfect auxiliary has carries present tense. The past participle assigned is followed by a direct object NP and a prepositional phrase of time.  Perfect progressive : The students had been studying grammar in the library all afternoon.  [S [NP [DET The] [N students]] [VP [AUX had] [AUX been] [V studying] [NP [N grammar]] [PP [PREP in] [NP [DET the] [N library]]] [NP [DET all] [N afternoon]]]]  Two auxiliaries stack at the front: had (perfect, carries past tense) and been (progressive). The main verb studying is followed by a direct object, a prepositional phrase of place, and an adverbial NP of time.   Do-Support in Diagrams   When do is inserted for questions or negation, it is also labeled AUX:  Does she walk?  [S [AUX Does] [NP [PRON she]] [VP [V walk]]]  She does not walk.  [S [NP [PRON She]] [VP [AUX does] [NEG not] [V walk]]]  In questions, the auxiliary moves to the front of the sentence, before the subject NP. In negation, not appears between the auxiliary and the main verb.   Summary   The diagramming rules for verb phrases are straightforward:   Label every auxiliary verb AUX and every main verb V .  Tense is always on the first element in the verb phrase (the first AUX, or V if there is no auxiliary).  Auxiliaries stack in a fixed order: perfect ( have ) before progressive ( be ).  Objects, complements, and modifiers follow the main verb, just as in earlier chapters.   "
+},
+{
   "id": "ch-10-homework",
   "level": "1",
   "url": "ch-10-homework.html",
   "type": "Section",
-  "number": "10.10",
-  "title": "Homework: Tense and Aspect",
-  "body": " Homework: Tense and Aspect   Part 1: Identification   Instructions   For each sentence below, identify the auxiliary verb(s), main verb, tense, and aspect. Use the following labels for aspect: simple, progressive, perfect, or perfect progressive.   Example (completed)   She has been waiting for an hour.   Auxiliary verb(s): has, been  Main verb: waiting  Tense: present  Aspect: perfect progressive    Exercises   Exercise 1.  The researchers have analyzed the experimental data.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________   Exercise 2.  Yesterday, she was working in the library when I called.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________   Exercise 3.  By the time we arrived, the crew had been repairing the road for three hours.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________   Exercise 4.  The professor teaches linguistics every semester.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________   Exercise 5.  The students had been studying for three hours before the test began.   Auxiliary verb(s): ________  Main verb: ________  Tense: ________  Aspect: ________     Part 2: Sentence Completion   Instructions   Complete each sentence with the correct form of the verb in parentheses to match the tense-aspect indicated.   Example (completed)   Present perfect: She ________ (study) at this university since 2022.  Answer: has studied   Exercises   Exercise 6. Present progressive: Right now, the children ________ (play) in the park.  Exercise 7. Past perfect: By the time I arrived, they ________ (already \/ leave).  Exercise 8. Present perfect progressive: She ________ (work) on this project for six months.  Exercise 9. Past progressive: At noon yesterday, I ________ (meet) with the committee.  Exercise 10. Past simple: The team ________ (finish) the assignment last night.    Part 3: Sentence Writing   Instructions   Write original sentences using the indicated tense-aspect combination. Make sure your sentence clearly demonstrates the meaning of that combination.   Example (completed)   Present perfect (past action with present relevance):  I have already eaten breakfast, so I'm not hungry now.   Exercises   Exercise 11. Write a sentence in present perfect that shows an experience up to now:  ________________________________________________________________________  Exercise 12. Write a sentence in past progressive that describes a background action interrupted by another event:  ________________________________________________________________________  Exercise 13. Write a sentence in past perfect progressive that describes a long-running activity before another past event:  ________________________________________________________________________  Exercise 14. Write a sentence in present simple that expresses a general truth:  ________________________________________________________________________  Exercise 15. Write a sentence in past perfect that positions one past event before another:  ________________________________________________________________________    Part 4: Distinguishing Meaning   Instructions   Explain the difference in meaning between each pair of sentences.   Example (completed)   a) I lived in Chicago for five years.  b) I have lived in Chicago for five years.  Explanation: Sentence (a) uses past simple, indicating I no longer live there. Sentence (b) uses present perfect, indicating I still live there now.   Exercises   Exercise 16. Explain the difference in meaning:  a) She read the report.  b) She has read the report.  ________________________________________________________________________  Exercise 17. Explain the difference in meaning:  a) When I arrived, they left.  b) When I arrived, they had left.  ________________________________________________________________________  Exercise 18. Explain the difference in meaning:  a) He works at a bank.  b) He is working at a bank.  ________________________________________________________________________    Part 5: Contextual Analysis   Instructions   Read the passage below and answer the questions.   Passage   Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years now. Before starting the dissertation, she had completed two years of coursework.   Exercises   Exercise 19. Identify the tense-aspect of each verb phrase in the passage:   moved : ________  has lived : ________  visited : ________  was working : ________  has been writing : ________  had completed : ________   Exercise 20. The passage uses both moved (past simple) and has lived (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.  ________________________________________________________________________  ________________________________________________________________________  Exercise 21. Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:  Original: She studies linguistics.  a) Past progressive:  ________________________________________________________________________  Meaning change:  ________________________________________________________________________  b) Present perfect:  ________________________________________________________________________  Meaning change:  ________________________________________________________________________  c) Past progressive:  ________________________________________________________________________  Meaning change:  ________________________________________________________________________   "
-},
-{
-  "id": "ch-10-diagram-examples",
-  "level": "1",
-  "url": "ch-10-diagram-examples.html",
-  "type": "Section",
-  "number": "10.11",
-  "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for verb phrase structures with tense and aspect.   Aspect Examples   10.8.1 A: Progressive aspect (be + V-ing): is eating    Syntax tree for \"is eating\" showing progressive aspect   [VP [AUX is] [V eating]]   10.8.1 B: Perfect aspect (have + V-en): has eaten    Syntax tree for \"has eaten\" showing perfect aspect   [VP [AUX has] [V eaten]]   10.8.1 C: Perfect progressive (have + been + V-ing): has been eating    Syntax tree for \"has been eating\" showing perfect progressive   [VP [AUX has] [AUX been] [V eating]]   10.8.1 D: Passive (be + V-en): was eaten    Syntax tree for \"was eaten\" showing passive voice   [VP [AUX was] [V eaten]]   10.8.1 E: Progressive passive (be + being + V-en): is being renovated    Syntax tree for \"is being renovated\" showing progressive passive   [VP [AUX is] [AUX being] [V renovated]]   "
-},
-{
-  "id": "ch-10-verbs-part-one-tense-and-aspect-16",
-  "level": "1",
-  "url": "ch-10-verbs-part-one-tense-and-aspect-16.html",
-  "type": "Glossary",
   "number": "10.12",
+  "title": "Homework: Tense and Aspect",
+  "body": " Homework: Tense and Aspect   Part 1: Identification   Instructions   For each sentence below, identify the auxiliary verb(s), main verb, tense, and aspect. Use the following labels for aspect: simple, progressive, perfect, or perfect progressive.   Example (completed)   She has been waiting for an hour.   Auxiliary verb(s): has, been  Main verb: waiting  Tense: present  Aspect: perfect progressive    Exercises   Exercise 1.  The researchers have analyzed the experimental data.   Auxiliary verb(s):  Main verb:  Tense:  Aspect:   Exercise 2.  Yesterday, she was working in the library when I called.   Auxiliary verb(s):  Main verb:  Tense:  Aspect:   Exercise 3.  By next month, they will have completed the entire project.   Auxiliary verb(s):  Main verb:  Tense:  Aspect:   Exercise 4.  The professor teaches linguistics every semester.   Auxiliary verb(s):  Main verb:  Tense:  Aspect:   Exercise 5.  The students had been studying for three hours before the test began.   Auxiliary verb(s):  Main verb:  Tense:  Aspect:     Part 2: Sentence Completion   Instructions   Complete each sentence with the correct form of the verb in parentheses to match the tense-aspect indicated.   Example (completed)   Present perfect: She ________ (study) at this university since 2022.  Answer: has studied   Exercises   Exercise 6. Present progressive: Right now, the children ________ (play) in the park.  Exercise 7. Past perfect: By the time I arrived, they ________ (already \/ leave).  Exercise 8. Present perfect progressive: She ________ (work) on this project for six months.  Exercise 9. Future progressive: At noon tomorrow, I ________ (meet) with the committee.  Exercise 10. Past simple: The team ________ (finish) the assignment last night.    Part 3: Sentence Writing   Instructions   Write original sentences using the indicated tense-aspect combination. Make sure your sentence clearly demonstrates the meaning of that combination.   Example (completed)   Present perfect (past action with present relevance):  I have already eaten breakfast, so I'm not hungry now.   Exercises   Exercise 11. Write a sentence in present perfect that shows an experience up to now:  Exercise 12. Write a sentence in past progressive that describes a background action interrupted by another event:  Exercise 13. Write a sentence in future perfect that describes an action completed before a future point:  Exercise 14. Write a sentence in present simple that expresses a general truth:  Exercise 15. Write a sentence in past perfect that positions one past event before another:    Part 4: Diagramming Verb Phrases   Instructions   For each sentence below, (a) draw a tree diagram showing the full sentence structure and (b) identify the tense and aspect of the verb phrase. Label all nodes using ALL CAPS labels: S, NP, VP, DET, N, V, PRON, PREP, PP, etc. Label auxiliary verbs as AUX and main verbs as V . You may draw tree diagrams by hand and photograph them, use a digital tool, or describe the structure in bracket notation.   Example (completed)   Sentence:  She has been reading the book.  Bracket notation: [S [NP [PRON She]] [VP [AUX has] [AUX been] [V reading] [NP [DET the] [N book]]]]   Syntax tree for \"She has been reading the book\" showing two stacked auxiliaries (has, been) labeled AUX before the main verb reading labeled V, followed by the direct object NP   Tense: present. Aspect: perfect progressive.   Exercises   Exercise 16.  The students are studying for the exam.  Diagram:  Tense: Aspect:  Exercise 17.  He had finished the assignment before class.  Diagram:  Tense: Aspect:  Exercise 18.  Does the professor teach on Fridays?  Diagram:  Tense: Aspect:  Exercise 19.  The report was written by the committee.  Diagram:  Tense: Aspect\/Voice:  Exercise 20.  They have been waiting at the station for an hour.  Diagram:  Tense: Aspect:    Part 5: Contextual Analysis   Instructions   Read the passage below and answer the questions.   Passage   Maria moved to Boston in 2018. She has lived there ever since. When I visited her last summer, she was working on her dissertation. She has been writing it for two years now. By next June, she will have finished the entire project. After that, she will be looking for a teaching position.   Exercises   Exercise 21. Identify the tense-aspect of each verb phrase in the passage:   moved :  has lived :  visited :  was working :  has been writing :  will have finished :  will be looking :   Exercise 22. The passage uses both moved (past simple) and has lived (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.  Exercise 23. Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:  Original: She studies linguistics.  a) Past progressive:  Meaning change:  b) Present perfect:  Meaning change:  c) Future perfect:  Meaning change:   "
+},
+{
+  "id": "ch-10-verbs-part-one-tense-and-aspect-17",
+  "level": "1",
+  "url": "ch-10-verbs-part-one-tense-and-aspect-17.html",
+  "type": "Glossary",
+  "number": "10.13",
   "title": "Glossary",
   "body": " Glossary   Aspect  A grammatical category describing the internal temporal structure of events.    Auxiliary verb  A verb that combines with a main verb to add grammatical information.    Past tense  The tense marked by -ed or irregular forms, typically indicating past time.    Perfect aspect  Aspect formed with have + past participle, connecting a past event to a later time.    Present tense  The tense marked by base form or -s , used for habits, states, and general truths.    Primary auxiliary  The auxiliaries be , have , and do .    Progressive aspect  Aspect formed with be + -ing , presenting events as ongoing.    Simple aspect  Aspect presenting events as complete wholes without internal structure.    Tense  A grammatical category locating events in time through verb inflection.    Time  The conceptual domain of when events occur (past, present, future).   "
 },
 {
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-111",
+  "id": "ch-11-sec-overview",
   "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-111.html",
+  "url": "ch-11-sec-overview.html",
   "type": "Section",
   "number": "11.1",
-  "title": "Voice: Active and Passive",
-  "body": " Voice: Active and Passive  Every transitive verb involves at least two participants: someone who performs the action and someone or something that receives it. In earlier chapters you learned to call these the subject and the direct object, but those are grammatical roles, not semantic ones. The same participants can be arranged differently. The dog bit the man puts the doer first. The man was bitten by the dog rearranges things so the receiver comes first. The event is identical; the framing is not. That rearrangement is what voice describes, and it turns out to be one of the most rhetorically significant choices a writer makes.  Voice is a grammatical category that describes the relationship between the verb and its arguments—specifically, who does the action and who receives it.   Active Voice   In active voice , the subject performs the action:   The dog bit the man. (subject = doer)  Maria wrote the report. (subject = doer)  Someone stole my bicycle. (subject = doer)   Active voice follows the pattern: Agent (doer) + Verb + Patient (receiver)   Syntax tree for \"The dog bit the man\" showing the agent subject and patient direct object in active voice   [S [NP [DET The] [N dog]] [VP [V bit] [NP [DET the] [N man]]]]   Passive Voice   In passive voice , the subject receives the action:   The man was bitten by the dog. (subject = receiver)  The report was written by Maria. (subject = receiver)  My bicycle was stolen . (subject = receiver)   Passive voice follows the pattern: Patient (receiver) + be + past participle (+ by agent)   Syntax tree for \"The man was bitten by the dog\" showing passive voice with the patient promoted to subject and agent in a by-phrase   [S [NP [DET The] [N man]] [VP [AUX was] [V bitten] [PP [PREP by] [NP [DET the] [N dog]]]]]   Syntax tree for \"The window was broken\" showing agentless passive where no by-phrase appears   [S [NP [DET The] [N window]] [VP [AUX was] [V broken]]]   Forming the Passive   Active → Passive transformation:   The active object becomes the passive subject  Add appropriate form of be  Change the main verb to past participle  The active subject becomes optional by-phrase     Active  Passive    Maria wrote the report.  The report was written by Maria.    Someone stole my bike.  My bike was stolen.    They are building a house.  A house is being built.    She has finished the work.  The work has been finished.     Passive with Tense and Aspect   Passive combines with all tenses and aspects:    Tense-Aspect  Active  Passive    Present simple  writes  is written    Past simple  wrote  was written    Present progressive  is writing  is being written    Past progressive  was writing  was being written    Present perfect  has written  has been written    Past perfect  had written  had been written    Future  will write  will be written    Modal  can write  can be written    "
+  "title": "Overview: Beyond Tense and Aspect",
+  "body": " Overview: Beyond Tense and Aspect  Chapter 10 introduced tense and aspect—the systems that locate events in time and describe their internal structure (completed, ongoing, habitual). But time is not the only thing speakers need to express about events. Consider a sentence like She wrote the report. This tells you what happened and when. Now compare: She might write the report , She must write the report , The report was written by her. Each version adds a different layer of meaning to the same basic event. The first signals possibility; the second signals obligation; the third rearranges who appears as the subject. These are the two systems this chapter explores: modality (the speaker's attitude toward the event) and voice (how the participants of the event are mapped onto grammatical positions).  Not every language handles these functions the way English does. English expresses modality primarily through a small set of auxiliary verbs— can , must , should , and so on—that appear before the main verb. Many other languages use entirely different mechanisms. Spanish, for example, has a dedicated future tense conjugation ( hablaré means I will speak ) built directly into the verb's ending, where English must use the modal auxiliary will as a separate word. Spanish also uses a verb mood called the subjunctive ( Es posible que hable , It's possible that he speak ) to express doubt, possibility, and desire—meanings that English conveys through modals like might or could . Where English says She might come , Spanish shifts the verb itself into a different conjugation pattern. The result is the same kind of meaning expressed through fundamentally different grammatical machinery.  Voice works differently across languages, too. English marks the passive with a form of be plus a past participle: The letter was written. But not every language builds a passive this way, and some barely use one at all. Mandarin Chinese, for instance, has no verb morphology for passive—verbs do not change form. Mandarin can use the particle bèi (被) to mark a passive-like construction ( Xìn bèi xiě le , roughly The letter BEI written ), but this construction historically carried a connotation of adversity—something bad happening to the subject—and speakers often prefer to simply rearrange word order or leave the agent unspecified rather than use a passive marker at all. The fact that English has a fully productive passive voice—applicable to virtually any transitive verb, in any tense—is a distinctive feature, not a universal one.  "
 },
 {
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-111-2",
-  "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-111.html#ch-11-verbs-part-two-voice-and-modals-sec-111-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "voice "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-111-3",
-  "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-111.html#ch-11-verbs-part-two-voice-and-modals-sec-111-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Voice "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-111-5",
-  "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-111.html#ch-11-verbs-part-two-voice-and-modals-sec-111-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "active voice "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-111-11",
-  "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-111.html#ch-11-verbs-part-two-voice-and-modals-sec-111-11",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "passive voice "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-112",
+  "id": "ch-11-sec-modal-auxiliaries",
   "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-112.html",
+  "url": "ch-11-sec-modal-auxiliaries.html",
   "type": "Section",
   "number": "11.2",
-  "title": "When to Use Passive Voice",
-  "body": " When to Use Passive Voice  The instruction to \"avoid passive voice\" is one of the most repeated—and most misapplied—pieces of writing advice in English. Passive voice is not inherently weak or evasive; it is a grammatical tool, and like any tool it has appropriate and inappropriate uses. The question is not whether to use it, but when it genuinely serves the reader better than the active alternative.  Passive voice is often criticized, but it serves important functions.   Appropriate Uses of Passive   1. Agent is unknown or irrelevant:   My car was stolen last night. (who did it is unknown)  The building was constructed in 1920. (builder not important)   2. Focusing on the action or patient:   The suspect was arrested at 3 a.m.  Three errors were discovered in the code.   3. Scientific and academic writing (for objectivity):   The samples were analyzed using spectroscopy.  The data were collected over six months.   4. Avoiding blame or responsibility:   Mistakes were made . (who made them is obscured)   5. Maintaining topic continuity:   The report discussed several issues. These issues were identified by the committee.    When to Avoid Passive   When agent is important:   Weak: The decision was made .  Stronger: The CEO made the decision.   When it creates confusion:   Confusing: The proposal was rejected by the committee that was formed by the board.  Clearer: The committee that the board formed rejected the proposal.   When active is more direct:   Passive: The ball was kicked by the child.  Active: The child kicked the ball.   "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-113",
-  "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-113.html",
-  "type": "Section",
-  "number": "11.3",
-  "title": "Get-Passive",
-  "body": " Get-Passive  The be -passive is not the only passive construction in English. There is a second one, formed with get , that is common in spoken and informal written language. The two constructions overlap in meaning but carry a different feel: the get -passive tends to suggest that something happened suddenly, unexpectedly, or with significant consequence for the subject. Compare She was promoted (neutral report) with She got promoted (something happened to her, with a sense of event or change). This subtle difference in connotation makes the get -passive worth recognizing as a distinct construction.  English has an alternative passive formed with get instead of be :   He got fired last week.  She got promoted to manager.  They got married in June.   The get-passive is more informal and often implies:   Sudden or unexpected events: He got hit by a car.  Events that affect the subject significantly: She got accepted to Harvard.  Change of state: The window got broken.    Syntax tree for \"She got promoted\" showing the get-passive construction   [S [NP [PRON She]] [VP [V got] [V promoted]]]  "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-113-5",
-  "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-113.html#ch-11-verbs-part-two-voice-and-modals-sec-113-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "get-passive "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-114",
-  "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-114.html",
-  "type": "Section",
-  "number": "11.4",
   "title": "Modal Auxiliaries",
-  "body": " Modal Auxiliaries  Consider how much meaning rides on a single word in sentences like these: You can leave , You may leave , You must leave , You should leave , You will leave . The main verb is identical each time; what changes is the modal, and with it the entire relationship between the speaker, the listener, and the action. Can signals ability or permission. Must signals necessity or a logical conclusion. Should signals obligation or advice. These small words carry enormous pragmatic weight, and distinguishing them from each other—and from the primary auxiliaries—requires careful attention to both grammar and meaning.  Modal auxiliaries add meanings related to possibility, necessity, permission, ability, and prediction. Unlike primary auxiliaries, modals have distinct grammatical properties.   The Nine Modals   English has exactly nine modal auxiliaries. Their basic meanings are summarized in the table below, though as you will see in the following sections, each one can carry multiple readings depending on context:    Modal  Basic Meaning    can  ability, possibility, permission    could  past ability, possibility, polite request    will  future, willingness, prediction    would  hypothetical, polite request, past habit    shall  future (formal), suggestion    should  obligation, expectation, advice    may  permission, possibility    might  possibility (weaker than may )    must  necessity, strong obligation, logical conclusion     Properties of Modals    No -s in third person: She can go. (not She cans go. )  No to infinitive: You must leave. (not You must to leave. )  No past participle or -ing form: musted , musting  Cannot combine directly: She can must go.  Form questions by inversion: Can she go?  Form negatives with not : She cannot go.   "
+  "body": " Modal Auxiliaries  Consider how much meaning rides on a single word in sentences like these: You can leave , You may leave , You must leave , You should leave , You will leave . The main verb is identical each time; what changes is the modal, and with it the entire relationship between the speaker, the listener, and the action. Can signals ability or permission. Must signals necessity or a logical conclusion. Should signals obligation or advice. These small words carry enormous pragmatic weight, and distinguishing them from each other—and from the primary auxiliaries you studied in Chapter 10—requires careful attention to both grammar and meaning.  Modal auxiliaries add meanings related to possibility, necessity, permission, ability, and prediction. Unlike primary auxiliaries ( be , have , do ), modals have distinct grammatical properties that set them apart from every other verb class in English.   The Nine Modals   English has exactly nine modal auxiliaries. Their basic meanings are summarized in the table below, though as you will see in the following sections, each one can carry multiple readings depending on context:    Modal  Basic Meaning    can  ability, possibility, permission    could  past ability, possibility, polite request    will  future, willingness, prediction    would  hypothetical, polite request, past habit    shall  future (formal), suggestion    should  obligation, expectation, advice    may  permission, possibility    might  possibility (weaker than may )    must  necessity, strong obligation, logical conclusion     Properties of Modals   What makes modals a distinct class is not just their meaning but their grammar. All nine share these properties, and no other English verbs behave this way:   No -s in third person: She can go. (not She cans go. )  No to infinitive: You must leave. (not You must to leave. )  No past participle or -ing form: musted , musting  Cannot combine directly: She can must go.  Form questions by inversion: Can she go?  Form negatives with not : She cannot go.   These six properties are what linguists call the NICE properties (Negation, Inversion, Code, Emphasis)—they define the auxiliary verb class in English. Modals share these with primary auxiliaries like be , have , and do , but properties 1–4 are unique to modals.   Syntax tree for \"She can swim\" showing the modal auxiliary can preceding the bare infinitive main verb   [S [NP [PRON She]] [VP [MOD can] [V swim]]]  "
 },
 {
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-114-3",
+  "id": "ch-11-sec-modal-auxiliaries-3",
   "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-114.html#ch-11-verbs-part-two-voice-and-modals-sec-114-3",
+  "url": "ch-11-sec-modal-auxiliaries.html#ch-11-sec-modal-auxiliaries-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Modal auxiliaries "
 },
 {
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-115",
+  "id": "ch-11-sec-modal-meanings",
   "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-115.html",
+  "url": "ch-11-sec-modal-meanings.html",
   "type": "Section",
-  "number": "11.5",
+  "number": "11.3",
   "title": "Modal Meanings in Detail",
-  "body": " Modal Meanings in Detail  The table in the previous section gave you a starting point, but modal meaning is genuinely more complex than any single-gloss summary can capture. Most modals are polysemous—they carry multiple distinct but related meanings, and context determines which reading applies. This section works through each modal pair in detail. As you read, notice that the meanings within each pair often shade into each other: ability and possibility are closely related concepts, as are permission and possibility. The challenge—and the interest—of modal grammar is in distinguishing these readings precisely.   Can and Could   Ability:   She can speak French. (present ability)  She could speak French when she was young. (past ability)    Syntax tree for \"She can swim\" showing the modal auxiliary can preceding the bare infinitive main verb   [S [NP [PRON She]] [VP [MOD can] [V swim]]]  Possibility:   It can get cold here in winter. (general possibility)  That could be true. (specific possibility)   Permission:   Can I leave early? (informal)  Could I borrow your pen? (polite)    Will and Would   Future:   I will call you tomorrow.  She will be at the meeting.   Willingness:   Will you help me?  I won't tolerate that behavior.   Hypothetical\/Conditional:   I would go if I had time.  What would you do?   Polite requests:   Would you close the door?   Past habit:   We would go fishing every summer.    Shall and Should   Shall (formal, mostly British):   Shall I open the window? (offer)  We shall overcome. (determination)   Should (obligation, expectation):   You should apologize. (advice\/obligation)  She should arrive soon. (expectation)  If you should need help, call me. (hypothetical)    May and Might   Permission ( may ):   May I come in? (formal)  You may leave when finished.   Possibility:   It may rain tomorrow. (possible)  It might rain tomorrow. (less certain)  She may have forgotten. (possible past)    Must   Necessity\/Obligation:   You must submit the form by Friday.  Visitors must sign in.    Syntax tree for \"You must stop here\" showing deontic must expressing obligation   [S [NP [PRON You]] [VP [MOD must] [V stop] [ADVP [ADV here]]]]  Logical conclusion:   She's not answering—she must be asleep.  He must have left already. (deduction about past)   Note: For negation, must not means prohibition ( You must not enter ), while don't have to means lack of necessity ( You don't have to enter ).  "
+  "body": " Modal Meanings in Detail  The table in the previous section gave you a starting point, but modal meaning is genuinely more complex than any single-gloss summary can capture. Most modals are polysemous—they carry multiple distinct but related meanings, and context determines which reading applies. This section works through each modal pair in detail. As you read, notice that the meanings within each pair often shade into each other: ability and possibility are closely related concepts, as are permission and possibility. The challenge—and the interest—of modal grammar is in distinguishing these readings precisely.   Can and Could   Ability:   She can speak French. (present ability)  She could speak French when she was young. (past ability)   Possibility:   It can get cold here in winter. (general possibility)  That could be true. (specific possibility)   Permission:   Can I leave early? (informal)  Could I borrow your pen? (polite)    Will and Would   Future:   I will call you tomorrow.  She will be at the meeting.   Willingness:   Will you help me?  I won't tolerate that behavior.   Hypothetical\/Conditional:   I would go if I had time.  What would you do?   Polite requests:   Would you close the door?   Past habit:   We would go fishing every summer.    Shall and Should   Shall (formal, mostly British):   Shall I open the window? (offer)  We shall overcome. (determination)   Should (obligation, expectation):   You should apologize. (advice\/obligation)  She should arrive soon. (expectation)  If you should need help, call me. (hypothetical)    May and Might   Permission ( may ):   May I come in? (formal)  You may leave when finished.   Possibility:   It may rain tomorrow. (possible)  It might rain tomorrow. (less certain)  She may have forgotten. (possible past)    Must   Necessity\/Obligation:   You must submit the form by Friday.  Visitors must sign in.    Syntax tree for \"You must stop here\" showing must expressing obligation   [S [NP [PRON You]] [VP [MOD must] [V stop] [ADVP [ADV here]]]]  Logical conclusion:   She's not answering—she must be asleep.  He must have left already. (deduction about past)    Syntax tree for \"She must be tired\" showing must used for deduction, with a predicative adjective as complement   [S [NP [PRON She]] [VP [MOD must] [V be] [ADJP [ADJ tired]]]]  Notice that the same modal can express two very different things: You must rest (I am telling you to rest—obligation) versus You must be tired (I conclude that you are tired—deduction). Context always determines which reading applies. When must is followed by an action verb, it usually signals obligation. When it is followed by be or a stative expression, it usually signals a logical conclusion.  Note: For negation, must not means prohibition ( You must not enter ), while don't have to means lack of necessity ( You don't have to enter ).  "
 },
 {
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-116",
+  "id": "ch-11-sec-semi-modals",
   "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-116.html",
+  "url": "ch-11-sec-semi-modals.html",
   "type": "Section",
-  "number": "11.6",
-  "title": "Epistemic vs. Deontic Modality",
-  "body": " Epistemic vs. Deontic Modality  You have now seen that a single modal like must can mean two very different things: You must be tired (I conclude that you are tired) versus You must rest (I am telling you to rest). These two readings are not just different senses of the same word—they belong to fundamentally different categories of modal meaning. Linguists draw this distinction using two technical terms that are worth learning, because they organize the entire landscape of modal meaning.  Modals express two main types of meaning:   Epistemic Modality   Epistemic modality concerns knowledge, belief, and certainty about whether something is true:   She must be home. (I conclude this)  He might know the answer. (possibly)  That can't be right. (impossibility)    Syntax tree for \"She must be tired\" showing epistemic must used for deduction, with a predicative adjective as complement   [S [NP [PRON She]] [VP [MOD must] [V be] [ADJP [ADJ tired]]]]   Deontic Modality   Deontic modality concerns obligation, permission, and necessity for action:   You must leave now. (obligation)  You may enter. (permission)  Can I go? (asking permission)   The same modal can have both meanings:   You must be tired. (epistemic—I deduce you're tired)  You must rest. (deontic—I'm telling you to rest)   "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-116-5",
-  "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-116.html#ch-11-verbs-part-two-voice-and-modals-sec-116-5",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Epistemic modality "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-116-10",
-  "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-116.html#ch-11-verbs-part-two-voice-and-modals-sec-116-10",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Deontic modality "
-},
-{
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-117",
-  "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-117.html",
-  "type": "Section",
-  "number": "11.7",
+  "number": "11.4",
   "title": "Semi-Modals (Quasi-Modals)",
-  "body": " Semi-Modals (Quasi-Modals)  The nine modal auxiliaries have a strict set of grammatical properties: no -s ending, no infinitive with to , no -ing or past participle forms. But English also has a set of expressions that carry similar meanings through different grammatical machinery. Have to means roughly the same thing as must , but unlike must it inflects: She has to leave . Be going to expresses future intention like will , but it uses the progressive construction. These expressions—called semi-modals or quasi-modals—fill gaps that the true modals leave. Because they behave more like ordinary verbs, they can appear in tenses and forms that true modals cannot.  Semi-modals (quasi-modals) are multi-word expressions that function like modals but don't share all their grammatical properties.   Common Semi-Modals     Semi-modal  Meaning  Example    have to  necessity  I have to leave.    have got to  necessity (informal)  I've got to go.    be able to  ability  She's able to help.    be going to  future intention  I'm going to study.    be supposed to  expectation\/obligation  You're supposed to wait.    be allowed to  permission  We're allowed to leave.    ought to  obligation  You ought to apologize.    used to  past habit  I used to live there.     Semi-modals vs. True Modals   Unlike true modals, semi-modals:   Can be inflected: She has to go. (third person -s )  Can follow other modals: You will have to leave.  Can take -ing or infinitive forms: Having to leave upset her.   "
+  "body": " Semi-Modals (Quasi-Modals)  The nine modal auxiliaries have a strict set of grammatical properties: no -s ending, no infinitive with to , no -ing or past participle forms. But English also has a set of expressions that carry similar meanings through different grammatical machinery. Have to means roughly the same thing as must , but unlike must it inflects: She has to leave . Be going to expresses future intention like will , but it uses the progressive construction. These expressions—called semi-modals or quasi-modals—fill gaps that the true modals leave. Because they behave more like ordinary verbs, they can appear in tenses and forms that true modals cannot.   Common Semi-Modals     Semi-modal  Meaning  Example    have to  necessity  I have to leave.    have got to  necessity (informal)  I've got to go.    be able to  ability  She's able to help.    be going to  future intention  I'm going to study.    be supposed to  expectation\/obligation  You're supposed to wait.    be allowed to  permission  We're allowed to leave.    ought to  obligation  You ought to apologize.    used to  past habit  I used to live there.     Semi-modals vs. True Modals   Unlike true modals, semi-modals:   Can be inflected: She has to go. (third person -s )  Can follow other modals: You will have to leave.  Can take -ing or infinitive forms: Having to leave upset her.   This flexibility is precisely what makes semi-modals useful. Because true modals cannot be inflected or combined, English needs semi-modals to express modal meanings in certain grammatical contexts. You cannot say I can must leave , but you can say I might have to leave —the semi-modal have to fills the gap.  "
 },
 {
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-117-2",
+  "id": "ch-11-sec-semi-modals-2",
   "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-117.html#ch-11-verbs-part-two-voice-and-modals-sec-117-2",
+  "url": "ch-11-sec-semi-modals.html#ch-11-sec-semi-modals-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "semi-modals "
 },
 {
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-117-3",
+  "id": "ch-11-sec-combining",
+  "level": "1",
+  "url": "ch-11-sec-combining.html",
+  "type": "Section",
+  "number": "11.5",
+  "title": "Combining Modals with Tense and Aspect",
+  "body": " Combining Modals with Tense and Aspect  In Chapter 10 you learned how tense and aspect combine within the verb phrase: present or past tense, simple or progressive aspect, perfect or non-perfect. Modals add another layer to this system. Because modals always appear first in the verb phrase—before any auxiliaries and before the main verb—they can combine with every tense-aspect pattern you already know. The result is a rich set of verb phrase structures that let speakers simultaneously express time, aspect, attitude, and voice.   Modal + Simple Verb   The simplest combination places a modal directly before the base form of the main verb:   She can write . (ability)  You must leave . (obligation)  It might rain . (possibility)    Modal + Progressive   Adding progressive aspect (modal + be + -ing ) presents the action as ongoing at the time the modal applies to:   She must be sleeping . (I conclude she is sleeping right now)  They could be waiting for us. (it is possible they are waiting)  He should be studying . (he has an obligation to be studying)    Modal + Perfect   Adding perfect aspect (modal + have + past participle) reaches back into the past while carrying the modal's attitude:   She must have left . (I conclude she left)  He might have forgotten . (possibly he forgot)  You should have called . (but you didn't—criticism)  I would have helped if I could. (hypothetical past)  They could have won . (they had the ability but didn't)    Syntax tree for \"You should have called\" showing the modal perfect construction: modal + have + past participle   [S [NP [PRON You]] [VP [MOD should] [AUX have] [V called]]]   Modal + Passive   Modals also combine with passive voice (modal + be + past participle). You will learn more about passive voice in the sections that follow, but notice the pattern here:   The report can be written by anyone.  Mistakes will be corrected .  The decision should be made carefully.    Complex Combinations   All of these can combine further. Modal + perfect + progressive, modal + perfect + passive—English verb phrases can stack multiple layers:   She must have been sleeping . (modal + perfect + progressive)  The report should have been written . (modal + perfect + passive)  He could have been being interviewed . (modal + perfect + progressive + passive—grammatical but rare)   The following table summarizes the main combinations:    Combination  Pattern  Example    Modal + simple  modal + base verb  can write    Modal + progressive  modal + be + -ing  must be writing    Modal + perfect  modal + have + past participle  should have written    Modal + passive  modal + be + past participle  can be written    Modal + perfect + progressive  modal + have been + -ing  must have been writing    Modal + perfect + passive  modal + have been + past participle  must have been written    The key principle is that the order is always fixed: modal comes first, then perfect have (if present), then progressive or passive be (if present), then the main verb. You cannot rearrange these elements. This fixed ordering is what makes the English verb phrase systematic rather than chaotic—once you know the slots, you can build any combination.  "
+},
+{
+  "id": "ch-11-sec-defining-voice",
+  "level": "1",
+  "url": "ch-11-sec-defining-voice.html",
+  "type": "Section",
+  "number": "11.6",
+  "title": "Defining and Identifying Voice",
+  "body": " Defining and Identifying Voice  Every transitive verb involves at least two participants: someone who performs the action and someone or something that receives it. In earlier chapters you learned to call these the subject and the direct object, but those are grammatical roles—labels for positions in a sentence. The same participants can be arranged differently. The dog bit the man puts the doer first. The man was bitten by the dog rearranges things so the receiver comes first. The event is identical; the framing is not. That rearrangement is what voice describes.   Semantic Roles: Agent and Patient   To talk about voice precisely, you need two terms that describe participants by what they do in the event, not by where they appear in the sentence:   The agent is the entity that performs or initiates the action.  The patient is the entity that is affected by or undergoes the action.   In The dog bit the man , the dog is the agent (it does the biting) and the man is the patient (he receives the bite). These semantic roles stay the same regardless of how the sentence is structured. What changes between active and passive voice is which semantic role fills the grammatical subject position.   Active Voice   In active voice , the agent occupies the subject position. This is the default, unmarked voice in English—the one speakers use unless they have a reason to do otherwise:   The dog bit the man. (agent = subject)  Maria wrote the report. (agent = subject)  Someone stole my bicycle. (agent = subject)  The committee reviewed the proposal. (agent = subject)  Lightning struck the old oak tree. (agent = subject)   The pattern is straightforward: agent (doer) appears as the subject, the verb follows, and the patient (receiver) appears as the direct object.   Syntax tree for \"The dog bit the man\" showing the agent subject and patient direct object in active voice   [S [NP [DET The] [N dog]] [VP [V bit] [NP [DET the] [N man]]]]   Passive Voice   In passive voice , the patient occupies the subject position. The agent may appear in a by -phrase after the verb, or it may be omitted entirely:   The man was bitten by the dog. (patient = subject, agent in by -phrase)  The report was written by Maria. (patient = subject, agent in by -phrase)  My bicycle was stolen . (patient = subject, agent omitted)  The proposal was reviewed by the committee. (patient = subject, agent in by -phrase)  The old oak tree was struck by lightning. (patient = subject, agent in by -phrase)    Syntax tree for \"The man was bitten by the dog\" showing passive voice with the patient promoted to subject and agent in a by-phrase   [S [NP [DET The] [N man]] [VP [AUX was] [V bitten] [PP [PREP by] [NP [DET the] [N dog]]]]]  When the agent is omitted, the passive is called an agentless passive or short passive . This is actually the more common form—most passive sentences in English do not include a by -phrase:   Syntax tree for \"The window was broken\" showing agentless passive where no by-phrase appears   [S [NP [DET The] [N window]] [VP [AUX was] [V broken]]]   Identifying Passive Voice   The reliable test for passive voice is structural: look for a form of be ( am , is , are , was , were , been , being ) followed by a past participle. Both elements must be present:   The letter was sent . — was (form of be ) + sent (past participle) = passive  The results are being analyzed . — are being (form of be ) + analyzed (past participle) = passive  The cake has been eaten . — been (form of be ) + eaten (past participle) = passive    Common Misidentifications   Not every sentence with be + a word that looks like a past participle is passive. Watch out for these:   The door is broken . — This could be passive ( someone broke it ) or a stative description ( it is in a broken state ). Test: can you add by someone ? If The door is broken by the children every week sounds natural, it is passive. If the sentence simply describes the door's current condition, it is a predicative adjective.  She is interested in music. — Despite the form, interested here functions as an adjective, not a passive verb. You would not say She is interested in music by someone.  He was gone . — Gone looks like a past participle, but go is intransitive. This is not a passive construction; it describes a state.    What Cannot Be Passivized   Only transitive verbs—verbs that take a direct object—can form true passives, because the passive promotes the object to subject position. If there is no object, there is nothing to promote:   The baby slept. — Sleep is intransitive; no passive is possible. ( The baby was slept. )  She arrived late. — Arrive is intransitive. ( Late was arrived by her. )  The vase fell. — Fall is intransitive. ( The vase was fallen. )   Some transitive verbs also resist passivization, particularly stative verbs that describe relationships rather than actions: This shirt fits me but not I am fitted by this shirt (in this sense); She resembles her mother but not Her mother is resembled by her.  "
+},
+{
+  "id": "ch-11-sec-defining-voice-2",
   "level": "2",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-117.html#ch-11-verbs-part-two-voice-and-modals-sec-117-3",
+  "url": "ch-11-sec-defining-voice.html#ch-11-sec-defining-voice-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Semi-modals "
+  "body": "voice "
 },
 {
-  "id": "ch-11-verbs-part-two-voice-and-modals-sec-118",
+  "id": "ch-11-sec-defining-voice-5-1-1",
+  "level": "2",
+  "url": "ch-11-sec-defining-voice.html#ch-11-sec-defining-voice-5-1-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "agent "
+},
+{
+  "id": "ch-11-sec-defining-voice-5-2-1",
+  "level": "2",
+  "url": "ch-11-sec-defining-voice.html#ch-11-sec-defining-voice-5-2-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "patient "
+},
+{
+  "id": "ch-11-sec-defining-voice-8",
+  "level": "2",
+  "url": "ch-11-sec-defining-voice.html#ch-11-sec-defining-voice-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "active voice "
+},
+{
+  "id": "ch-11-sec-defining-voice-14",
+  "level": "2",
+  "url": "ch-11-sec-defining-voice.html#ch-11-sec-defining-voice-14",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "passive voice "
+},
+{
+  "id": "ch-11-sec-forming-voice",
   "level": "1",
-  "url": "ch-11-verbs-part-two-voice-and-modals-sec-118.html",
+  "url": "ch-11-sec-forming-voice.html",
+  "type": "Section",
+  "number": "11.7",
+  "title": "Forming and Transforming Voice",
+  "body": " Forming and Transforming Voice  Now that you can identify active and passive constructions, this section shows you how to form passives and how to convert between the two voices. The transformation is mechanical—there is a fixed set of steps—but it interacts with tense and aspect in ways that require attention.   Active to Passive: Step by Step   To convert an active sentence to passive:   Move the active direct object into the subject position.  Add the appropriate form of be (matching the original tense and aspect).  Change the main verb to its past participle form.  Optionally place the original subject in a by -phrase after the verb.   Example: Maria wrote the report.   Object → subject: The report...  Add be (past tense to match wrote ): The report was...  Past participle: The report was written...  By -phrase: The report was written by Maria.    Passive to Active   The reverse process is also straightforward:   Identify the agent (in the by -phrase, or supply one if omitted).  Make the agent the new subject.  Remove be and restore the main verb to its active form (matching tense and aspect).  Move the passive subject to the direct object position.   Example: The report was written by Maria. → Maria wrote the report.  When the agent is missing (agentless passive), you must supply a subject. Common choices include a generic subject like someone , people , or they : My bicycle was stolen. → Someone stole my bicycle.   Passive across Tense and Aspect   Passive voice combines with all the tense-aspect patterns you learned in Chapter 10. The form of be changes to match, but the main verb always appears as a past participle:    Tense-Aspect  Active  Passive    Present simple  writes  is written    Past simple  wrote  was written    Present progressive  is writing  is being written    Past progressive  was writing  was being written    Present perfect  has written  has been written    Past perfect  had written  had been written    Future (modal)  will write  will be written    Modal  can write  can be written    Notice the pattern: the passive always inserts a form of be before the past participle. In the progressive passive ( is being written ), there are two forms of be —one for the progressive ( is ) and one for the passive ( being ). In the perfect passive ( has been written ), been is the past participle of be , which is itself part of the passive construction.   Ditransitive Verbs: Which Object Promotes?   Some verbs take two objects—an indirect object and a direct object. When you passivize these, either object can become the subject, though the result may sound more or less natural:   Active: The teacher gave the students a quiz.  Passive (indirect object promoted): The students were given a quiz. (natural)  Passive (direct object promoted): A quiz was given to the students. (also grammatical)   In most cases, promoting the indirect object (the person) sounds more natural in English than promoting the direct object (the thing).   The Get-Passive   The be -passive is not the only passive construction in English. There is a second one, formed with get , that is common in spoken and informal written language. The two constructions overlap in meaning but carry a different feel: the get-passive tends to suggest that something happened suddenly, unexpectedly, or with significant consequence for the subject.   He got fired last week. (sudden, consequential)  She got promoted to manager. (noteworthy change)  They got married in June. (change of state)   Compare the neutral be -passive with the more vivid get -passive:   She was promoted. — neutral report  She got promoted. — something happened to her, with a sense of event  He was hit by a car. — factual  He got hit by a car. — sudden, dramatic    Syntax tree for \"She got promoted\" showing the get-passive construction   [S [NP [PRON She]] [VP [V got] [V promoted]]]  The get -passive is more informal than the be -passive and is generally avoided in academic and formal writing. However, it is extremely common in everyday speech and has been gaining ground in written English for decades.  "
+},
+{
+  "id": "ch-11-sec-forming-voice-22",
+  "level": "2",
+  "url": "ch-11-sec-forming-voice.html#ch-11-sec-forming-voice-22",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "get-passive "
+},
+{
+  "id": "ch-11-sec-rhetorical-impact",
+  "level": "1",
+  "url": "ch-11-sec-rhetorical-impact.html",
   "type": "Section",
   "number": "11.8",
-  "title": "Modal Perfect",
-  "body": " Modal Perfect  One of the most expressive constructions in English sits at the intersection of two systems you have now studied: modals and the perfect aspect. When a modal combines with have + past participle, the result reaches back into the past—but unlike simple past tense, it carries the speaker's modal attitude along with it. She left is a neutral report. She must have left is a deduction. She should have left implies she did not, and the speaker thinks that was a mistake. She could have left suggests an unrealized possibility. The same past event is viewed through different modal lenses, each one shaping how the speaker relates to what happened.  Modals combine with have + past participle to refer to past time or to express degrees of certainty about the past:  Modal + have + past participle:   She must have left . (I conclude she left)  He might have forgotten . (possibly he forgot)  You should have called . (but you didn't—criticism)  I would have helped if I could. (hypothetical past)  They could have won . (they had the ability but didn't)    Syntax tree for \"You should have called\" showing the modal perfect construction: modal + have + past participle   [S [NP [PRON You]] [VP [MOD should] [AUX have] [V called]]]   Meanings of Modal Perfect     Form  Meaning    must have done  logical conclusion about past    may\/might have done  possibility in the past    could have done  past possibility or unrealized ability    should have done  obligation not fulfilled (criticism)    would have done  hypothetical past (unfulfilled)    can't have done  impossibility in the past    "
+  "title": "Voice and Rhetorical Impact",
+  "body": " Voice and Rhetorical Impact  You have probably been told at some point to avoid passive voice. That advice, taken as an absolute rule, misses the point. Passive voice exists because it does something active voice cannot: it moves the patient into the subject position, which lets you control emphasis, manage information flow, and omit agents when they are unknown or irrelevant. The question is never whether passive is good or bad —it is whether a particular passive sentence serves the reader better than its active alternative.   When Passive Serves the Reader   1. The agent is unknown or irrelevant. When who performed the action does not matter or is not known, passive lets you avoid an awkward or vague subject:   My car was stolen last night. (who did it is unknown)  The building was constructed in 1920. (the builder is not important)  English is spoken in over sixty countries. (by whom is self-evident)   2. The patient is the topic. When the sentence is about what happened to something rather than who did it, passive keeps the topic in subject position, where readers expect to find it:   The suspect was arrested at 3 a.m. (the story is about the suspect)  Three errors were discovered in the code. (the story is about the errors)   3. Scientific and academic conventions. Many disciplines prefer passive voice because it emphasizes the method and results rather than the researcher, creating an impression of objectivity:   The samples were analyzed using spectroscopy.  The data were collected over six months.  Participants were randomly assigned to one of three conditions.   4. Maintaining information flow. Good writing connects each sentence to the one before it. Passive lets you place familiar, old information in the subject position and new information at the end, which is where readers naturally look for it:   The report discussed several issues. These issues were identified by the committee during its annual review.   Here, these issues in the second sentence links back to several issues in the first. Active voice ( The committee identified these issues... ) would break that connection by putting new information ( the committee ) first.  5. Deliberate agent omission. Sometimes the agent is known but the writer chooses to obscure responsibility. This can be a legitimate rhetorical choice—or a manipulative one:   Mistakes were made . (who made them is obscured)  The funds were misallocated . (by whom?)   Recognizing this pattern is important for critical reading. When you see an agentless passive in political or corporate language, ask yourself: Who is being left out, and why?   When Active Voice Is Stronger   When the agent is the point. If the identity of the doer matters, burying it in a by -phrase weakens the sentence:   Weak: The decision was made by the CEO.  Stronger: The CEO made the decision.   When passive creates confusion. Stacking passives or embedding them in complex sentences can make it hard to tell who is doing what:   Confusing: The proposal was rejected by the committee that was formed by the board.  Clearer: The committee that the board formed rejected the proposal.   When active is simply more direct. If there is no rhetorical reason for passive, active is almost always more concise and vigorous:   Passive: The ball was kicked by the child.  Active: The child kicked the ball.    Genre Conventions   Different genres have different expectations for voice. Knowing these conventions helps you make choices appropriate to your audience:   Scientific writing: Heavy passive use is traditional ( The solution was heated... ), though many journals now accept or prefer active voice.  Legal writing: Passive is common for stating rules and obligations ( Payment shall be made within thirty days ).  Journalism: Active voice dominates because it is more direct and vivid, but passive appears when the patient is the story ( Three people were injured... ).  Business writing: Style guides generally recommend active voice for clarity, but passive appears frequently in policy documents.  Academic writing: Varies by discipline. Sciences lean passive; humanities lean active.    The Myth of \"Always Use Active Voice\"   The advice to avoid passive voice appears in nearly every writing handbook, often stated as an absolute. But the best writers in every genre use passive voice regularly—they just use it for reasons, not by accident. The goal is not to eliminate passive but to choose it deliberately. A paragraph full of passive sentences will feel flat and evasive. A paragraph full of active sentences will feel monotonous and may obscure important information flow. The skilled writer alternates, using each voice where it serves the reader best.  When you revise your own writing, do not ask Is this passive? Ask instead: Is the subject of this sentence the most important participant for the reader right now? If yes, the voice is doing its job—whether active or passive.  "
 },
 {
   "id": "ch-11-homework",
@@ -1609,7 +1627,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.9",
   "title": "Homework: Voice and Modals",
-  "body": " Homework: Voice and Modals   Total estimated time: 45 minutes    Part 1: Voice Identification   Instructions   For each sentence, identify whether it is in active or passive voice. If passive, identify the agent (if present) and the original active construction.   Example (completed)   The report was written by the committee.   Voice: passive  Agent: the committee  Active version: The committee wrote the report.    Exercises   Exercise 1.  The researchers carefully analyzed the data.   Voice: _____   Exercise 2.  Three errors were discovered in the code.   Voice: _____  Agent (if present): _____   Exercise 3.  The new policy will be announced tomorrow.   Voice: _____  Agent (if present): _____   Exercise 4.  Someone stole my bicycle last night.   Voice: _____   Exercise 5.  The building was constructed in 1920.   Voice: _____  Agent (if present): _____     Part 2: Voice Transformation   Instructions   Convert each sentence to the opposite voice (active to passive or passive to active). Maintain the same tense and aspect.   Example (completed)   Active to passive: The architect has designed the new building.  Answer: The new building has been designed by the architect.   Exercises   Exercise 6. Active to passive: The team is preparing the presentation.   Answer: _____   Exercise 7. Active to passive: Someone had stolen the documents before the investigation began.   Answer: _____   Exercise 8. Passive to active: The experiment was conducted by the research team.   Answer: _____   Exercise 9. Passive to active: The proposal will be reviewed by the committee next week.   Answer: _____   Exercise 10. Active to passive: The company will hire fifty new employees.   Answer: _____     Part 3: Modal Meaning   Instructions   For each sentence, identify the modal and classify its meaning using these categories: ability, possibility, permission, obligation\/necessity, deduction, or advice.   Example (completed)   You must submit the application by Friday.   Modal: must  Meaning: obligation\/necessity    Exercises   Exercise 11.  She can speak three languages fluently.   Modal: _____  Meaning: _____   Exercise 12.  That might be the correct answer, but I'm not certain.   Modal: _____  Meaning: _____   Exercise 13.  You should apologize for your mistake.   Modal: _____  Meaning: _____   Exercise 14.  He must be exhausted after running the marathon.   Modal: _____  Meaning: _____   Exercise 15.  May I leave the room early?   Modal: _____  Meaning: _____   Exercise 16.  They could have won the game if they had practiced more.   Modal: _____  Meaning: _____   Exercise 17. Explain the difference between the two uses of must :   a) You must wear a seatbelt. (Meaning type: _____)  b) She's not answering the phone. She must be asleep. (Meaning type: _____)     Part 4: Sentence Writing   Instructions   Write original sentences following each prompt.   Example (completed)   Write a sentence in passive voice where the agent is unknown:  My car was broken into last night.   Exercises   Exercise 18. Write a sentence in passive voice appropriate for scientific writing (focusing on method, not researcher):   Answer: _____   Exercise 19. Write a sentence using should have + past participle to express criticism or regret about something that did not happen:   Answer: _____   Exercise 20. Write a sentence using must to express a logical deduction (not obligation):   Answer: _____   Exercise 21. Write a sentence using could to express a past possibility that did not happen:   Answer: _____   Exercise 22. Write a sentence using the get-passive to describe an unexpected event:   Answer: _____     Part 5: Analysis and Application   Instructions   Read the passage below and answer the questions.   Passage   The new policy was announced yesterday by the CEO. All employees must submit their feedback by next Friday. According to management, the changes should improve workplace efficiency. Some workers believe the policy might create additional challenges. However, the final decision will be made after all responses have been reviewed.   Exercises   Exercise 23. Identify all passive voice constructions in the passage. For each, explain why the writer might have chosen passive over active voice.   Passive construction 1: _____  Reason: _____  Passive construction 2: _____  Reason: _____   Exercise 24. Identify the modals in the passage and classify each as expressing epistemic modality (about certainty\/possibility) or deontic modality (about obligation\/permission):   Modal 1: _____  Type: _____  Modal 2: _____  Type: _____  Modal 3: _____  Type: _____   Exercise 25. Consider this active sentence: The manager rejected the proposal.   a) Rewrite it in passive voice: _____  b) Describe a situation where the passive version would be more appropriate than the active: _____  c) When might a writer prefer the active version? _____    "
+  "body": " Homework: Voice and Modals   Total estimated time: 45 minutes    Part 1: Voice Identification   Instructions   For each sentence, identify whether it is in active or passive voice. If passive, identify the agent (if present) and the original active construction.   Example (completed)   The report was written by the committee.   Voice: passive  Agent: the committee  Active version: The committee wrote the report.    Exercises   Exercise 1.  The researchers carefully analyzed the data.   Voice: _____   Exercise 2.  Three errors were discovered in the code.   Voice: _____  Agent (if present): _____   Exercise 3.  The new policy will be announced tomorrow.   Voice: _____  Agent (if present): _____   Exercise 4.  Someone stole my bicycle last night.   Voice: _____   Exercise 5.  The building was constructed in 1920.   Voice: _____  Agent (if present): _____     Part 2: Voice Transformation   Instructions   Convert each sentence to the opposite voice (active to passive or passive to active). Maintain the same tense and aspect.   Example (completed)   Active to passive: The architect has designed the new building.  Answer: The new building has been designed by the architect.   Exercises   Exercise 6. Active to passive: The team is preparing the presentation.   Answer: _____   Exercise 7. Active to passive: Someone had stolen the documents before the investigation began.   Answer: _____   Exercise 8. Passive to active: The experiment was conducted by the research team.   Answer: _____   Exercise 9. Passive to active: The proposal will be reviewed by the committee next week.   Answer: _____   Exercise 10. Active to passive: The company will hire fifty new employees.   Answer: _____     Part 3: Modal Meaning   Instructions   For each sentence, identify the modal and classify its meaning using these categories: ability, possibility, permission, obligation\/necessity, deduction, or advice.   Example (completed)   You must submit the application by Friday.   Modal: must  Meaning: obligation\/necessity    Exercises   Exercise 11.  She can speak three languages fluently.   Modal: _____  Meaning: _____   Exercise 12.  That might be the correct answer, but I'm not certain.   Modal: _____  Meaning: _____   Exercise 13.  You should apologize for your mistake.   Modal: _____  Meaning: _____   Exercise 14.  He must be exhausted after running the marathon.   Modal: _____  Meaning: _____   Exercise 15.  May I leave the room early?   Modal: _____  Meaning: _____   Exercise 16.  They could have won the game if they had practiced more.   Modal: _____  Meaning: _____   Exercise 17. Explain the difference between the two uses of must :   a) You must wear a seatbelt. (Meaning type: _____)  b) She's not answering the phone. She must be asleep. (Meaning type: _____)     Part 4: Sentence Writing   Instructions   Write original sentences following each prompt.   Example (completed)   Write a sentence in passive voice where the agent is unknown:  My car was broken into last night.   Exercises   Exercise 18. Write a sentence in passive voice appropriate for scientific writing (focusing on method, not researcher):   Answer: _____   Exercise 19. Write a sentence using should have + past participle to express criticism or regret about something that did not happen:   Answer: _____   Exercise 20. Write a sentence using must to express a logical deduction (not obligation):   Answer: _____   Exercise 21. Write a sentence using could to express a past possibility that did not happen:   Answer: _____   Exercise 22. Write a sentence using the get-passive to describe an unexpected event:   Answer: _____     Part 5: Analysis and Application   Instructions   Read the passage below and answer the questions.   Passage   The new policy was announced yesterday by the CEO. All employees must submit their feedback by next Friday. According to management, the changes should improve workplace efficiency. Some workers believe the policy might create additional challenges. However, the final decision will be made after all responses have been reviewed.   Exercises   Exercise 23. Identify all passive voice constructions in the passage. For each, explain why the writer might have chosen passive over active voice.   Passive construction 1: _____  Reason: _____  Passive construction 2: _____  Reason: _____   Exercise 24. Identify the modals in the passage and classify each as expressing certainty\/possibility or obligation\/permission:   Modal 1: _____ — Type: _____  Modal 2: _____ — Type: _____  Modal 3: _____ — Type: _____   Exercise 25. Consider this active sentence: The manager rejected the proposal.   a) Rewrite it in passive voice: _____  b) Describe a situation where the passive version would be more appropriate than the active: _____  c) When might a writer prefer the active version? _____    "
 },
 {
   "id": "ch-11-diagram-examples",
@@ -1618,7 +1636,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.10",
   "title": "Diagram Examples",
-  "body": " Diagram Examples  This section provides reference diagrams for verb phrase structures with voice and modals.   Modal Examples   11.8.1 A: Modal + verb: will eat    Syntax tree for \"will eat\" showing modal with verb   [VP [MOD will] [V eat]]   11.8.1 B: Modal + perfect: will have eaten    Syntax tree for \"will have eaten\" showing modal with perfect   [VP [MOD will] [AUX have] [V eaten]]   11.8.1 C: Complex VP (modal + perfect + progressive): should have been studying    Syntax tree for \"should have been studying\"   [VP [MOD should] [AUX have] [AUX been] [V studying]]   11.8.1 D: Full complex VP: will have been being eaten    Syntax tree for \"will have been being eaten\" showing all auxiliaries   [VP [MOD will] [AUX have] [AUX been] [AUX being] [V eaten]]    Passive Voice   11.8.2 A: Passive with by-phrase: was written by Maria    Syntax tree for \"was written by Maria\" showing passive with agent   [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]   "
+  "body": " Diagram Examples  This section provides reference diagrams for verb phrase structures with modals, tense-aspect combinations, and voice.   Modal Combinations with Tense and Aspect   11.10.1 A: Modal + simple verb: will eat    Syntax tree for \"will eat\" showing modal with verb   [VP [MOD will] [V eat]]   11.10.1 B: Modal + perfect: will have eaten    Syntax tree for \"will have eaten\" showing modal with perfect   [VP [MOD will] [AUX have] [V eaten]]   11.10.1 C: Modal + perfect + progressive: should have been studying    Syntax tree for \"should have been studying\"   [VP [MOD should] [AUX have] [AUX been] [V studying]]   11.10.1 D: Full complex VP: will have been being eaten    Syntax tree for \"will have been being eaten\" showing all auxiliaries   [VP [MOD will] [AUX have] [AUX been] [AUX being] [V eaten]]    Passive Voice   11.10.2 A: Passive with by-phrase: was written by Maria    Syntax tree for \"was written by Maria\" showing passive with agent   [VP [AUX was] [V written] [PP [PREP by] [NP [N Maria]]]]   "
 },
 {
   "id": "ch-11-verbs-part-two-voice-and-modals-15",
@@ -1627,7 +1645,7 @@ var ptx_lunr_docs = [
   "type": "Glossary",
   "number": "11.11",
   "title": "Glossary",
-  "body": " Glossary   Active voice  The grammatical voice where the subject performs the action.    Agent  The entity performing an action.    Deontic modality  Modal meaning concerning obligation, permission, and necessity.    Epistemic modality  Modal meaning concerning knowledge and certainty.    Modal auxiliary  An auxiliary verb expressing possibility, necessity, permission, etc. The nine modals are can, could, will, would, shall, should, may, might, must .    Passive voice  The grammatical voice where the subject receives the action.    Patient  The entity affected by an action.    Semi-modal  A multi-word expression functioning like a modal ( have to , be able to ).    Voice  A grammatical category describing the relationship between verb and arguments.   "
+  "body": " Glossary   Active voice  The grammatical voice where the agent (doer) occupies the subject position.    Agent  The entity performing an action. A semantic role, not a grammatical position.    Get-passive  An alternative passive construction formed with get instead of be ( She got promoted ). More informal, often implies sudden or consequential events.    Modal auxiliary  An auxiliary verb expressing possibility, necessity, permission, ability, or prediction. The nine modals are can, could, will, would, shall, should, may, might, must .    Passive voice  The grammatical voice where the patient (receiver) occupies the subject position. Formed with be + past participle.    Patient  The entity affected by an action. A semantic role, not a grammatical position.    Semi-modal  A multi-word expression functioning like a modal but with regular verb properties ( have to , be able to , be going to ).    Voice  A grammatical category describing which participant (agent or patient) occupies the subject position in a clause.   "
 },
 {
   "id": "ch-12-adverbials-sec-121",

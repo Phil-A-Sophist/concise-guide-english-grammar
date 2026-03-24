@@ -6,275 +6,45 @@
   <objectives>
     <title>Learning Objectives</title>
     <ul>
-      <li><p>Distinguish between active and passive voice</p></li>
-      <li><p>Form passive constructions correctly</p></li>
-      <li><p>Understand when to use passive voice effectively</p></li>
       <li><p>Identify the nine modal auxiliaries and their meanings</p></li>
       <li><p>Use modals to express possibility, necessity, permission, and other meanings</p></li>
       <li><p>Recognize semi-modals and their functions</p></li>
-      <li><p>Voice</p></li>
-      <li><p>Active voice</p></li>
-      <li><p>Passive voice</p></li>
-      <li><p>Agent</p></li>
-      <li><p>Patient</p></li>
-      <li><p>Modal auxiliary</p></li>
-      <li><p>Epistemic modality</p></li>
-      <li><p>Deontic modality</p></li>
-      <li><p>Semi-modal</p></li>
+      <li><p>Combine modals with tense, aspect, and voice</p></li>
+      <li><p>Distinguish between active and passive voice</p></li>
+      <li><p>Form passive constructions correctly across tenses and aspects</p></li>
+      <li><p>Analyze the rhetorical effects of voice choices in writing</p></li>
     </ul>
   </objectives>
 
-  <p>Chapter 10 showed you how English packs temporal meaning into verb phrases through tense and aspect. This chapter covers two more systems that operate on the verb phrase: <em>voice</em> and <em>modality</em>. Both involve a kind of perspective-taking—voice determines who or what occupies the subject position and how the action is framed; modality layers in the speaker's attitude toward the event, signaling whether it is possible, necessary, permitted, or certain.</p>
+  <p>Chapter 10 showed you how English packs temporal meaning into verb phrases through tense and aspect. This chapter covers two more systems that operate on the verb phrase: <em>modality</em> and <em>voice</em>. Both involve a kind of perspective-taking—modals layer in the speaker's attitude toward an event, signaling whether it is possible, necessary, permitted, or certain; voice determines who or what occupies the subject position and how the action is framed.</p>
 
-  <p>You have probably been told at some point to "avoid passive voice." That advice, taken as an absolute rule, misses the point. Passive voice exists because it does something active voice cannot: it moves the patient of an action into the subject position, which lets you control emphasis, manage information flow, and omit agents when they are unknown or irrelevant. Understanding when passive is the right choice—and when it is not—requires understanding what voice actually does. Similarly, a single modal like <foreign>can</foreign> or <foreign>must</foreign> carries a surprising range of meanings depending on context, and this chapter gives you the vocabulary to distinguish them precisely.</p>
+  <p>Modals come first in this chapter because they are structurally simpler: they are individual words that slot into a fixed position before the main verb. Once you understand modals, you will be better equipped for voice, which involves rearranging entire clause structures—moving participants between subject and object positions, adding auxiliary verbs, and sometimes deleting participants altogether.</p>
 
-  <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-111">
-    <title>Voice: Active and Passive</title>
+  <!-- ============================================================ -->
+  <!-- 11.1  OVERVIEW: BEYOND TENSE AND ASPECT                      -->
+  <!-- ============================================================ -->
 
-    <p>Every transitive verb involves at least two participants: someone who performs the action and someone or something that receives it. In earlier chapters you learned to call these the subject and the direct object, but those are grammatical roles, not semantic ones. The same participants can be arranged differently. <foreign>The dog bit the man</foreign> puts the doer first. <foreign>The man was bitten by the dog</foreign> rearranges things so the receiver comes first. The event is identical; the framing is not. That rearrangement is what <term>voice</term> describes, and it turns out to be one of the most rhetorically significant choices a writer makes.</p>
+  <section xml:id="ch-11-sec-overview">
+    <title>Overview: Beyond Tense and Aspect</title>
 
-    <p><term>Voice</term> is a grammatical category that describes the relationship between the verb and its arguments—specifically, who does the action and who receives it.</p>
+    <p>Chapter 10 introduced tense and aspect—the systems that locate events in time and describe their internal structure (completed, ongoing, habitual). But time is not the only thing speakers need to express about events. Consider a sentence like <foreign>She wrote the report.</foreign> This tells you what happened and when. Now compare: <foreign>She might write the report</foreign>, <foreign>She must write the report</foreign>, <foreign>The report was written by her.</foreign> Each version adds a different layer of meaning to the same basic event. The first signals possibility; the second signals obligation; the third rearranges who appears as the subject. These are the two systems this chapter explores: <em>modality</em> (the speaker's attitude toward the event) and <em>voice</em> (how the participants of the event are mapped onto grammatical positions).</p>
 
-    <paragraphs>
-      <title>Active Voice</title>
-    </paragraphs>
+    <p>Not every language handles these functions the way English does. English expresses modality primarily through a small set of auxiliary verbs—<foreign>can</foreign>, <foreign>must</foreign>, <foreign>should</foreign>, and so on—that appear before the main verb. Many other languages use entirely different mechanisms. Spanish, for example, has a dedicated future tense conjugation (<foreign>hablaré</foreign> means <q>I will speak</q>) built directly into the verb's ending, where English must use the modal auxiliary <foreign>will</foreign> as a separate word. Spanish also uses a verb mood called the subjunctive (<foreign>Es posible que hable</foreign>, <q>It's possible that he speak</q>) to express doubt, possibility, and desire—meanings that English conveys through modals like <foreign>might</foreign> or <foreign>could</foreign>. Where English says <foreign>She might come</foreign>, Spanish shifts the verb itself into a different conjugation pattern. The result is the same kind of meaning expressed through fundamentally different grammatical machinery.</p>
 
-    <p>In <term>active voice</term>, the subject performs the action:</p>
-
-    <ul>
-      <li><p><foreign>The dog <em>bit</em> the man.</foreign> (subject = doer)</p></li>
-      <li><p><foreign>Maria <em>wrote</em> the report.</foreign> (subject = doer)</p></li>
-      <li><p><foreign>Someone <em>stole</em> my bicycle.</foreign> (subject = doer)</p></li>
-    </ul>
-
-    <p>Active voice follows the pattern: Agent (doer) + Verb + Patient (receiver)</p>
-
-    <image source="diagrams/new/ch11_active_sentence.png" width="40%">
-      <description>Syntax tree for "The dog bit the man" showing the agent subject and patient direct object in active voice</description>
-    </image>
-    <p><c>[S [NP [DET The] [N dog]] [VP [V bit] [NP [DET the] [N man]]]]</c></p>
-
-    <paragraphs>
-      <title>Passive Voice</title>
-    </paragraphs>
-
-    <p>In <term>passive voice</term>, the subject receives the action:</p>
-
-    <ul>
-      <li><p><foreign>The man <em>was bitten</em> by the dog.</foreign> (subject = receiver)</p></li>
-      <li><p><foreign>The report <em>was written</em> by Maria.</foreign> (subject = receiver)</p></li>
-      <li><p><foreign>My bicycle <em>was stolen</em>.</foreign> (subject = receiver)</p></li>
-    </ul>
-
-    <p>Passive voice follows the pattern: Patient (receiver) + <foreign>be</foreign> + past participle (+ <foreign>by</foreign> agent)</p>
-
-    <image source="diagrams/new/ch11_passive_by.png" width="55%">
-      <description>Syntax tree for "The man was bitten by the dog" showing passive voice with the patient promoted to subject and agent in a by-phrase</description>
-    </image>
-    <p><c>[S [NP [DET The] [N man]] [VP [AUX was] [V bitten] [PP [PREP by] [NP [DET the] [N dog]]]]]</c></p>
-
-    <image source="diagrams/new/ch11_passive_agentless.png" width="35%">
-      <description>Syntax tree for "The window was broken" showing agentless passive where no by-phrase appears</description>
-    </image>
-    <p><c>[S [NP [DET The] [N window]] [VP [AUX was] [V broken]]]</c></p>
-
-    <paragraphs>
-      <title>Forming the Passive</title>
-    </paragraphs>
-
-    <p>Active → Passive transformation:</p>
-
-    <ol>
-      <li><p>The active object becomes the passive subject</p></li>
-      <li><p>Add appropriate form of be</p></li>
-      <li><p>Change the main verb to past participle</p></li>
-      <li><p>The active subject becomes optional by-phrase</p></li>
-    </ol>
-
-    <tabular halign="left">
-      <row header="yes" bottom="minor">
-        <cell>Active</cell>
-        <cell>Passive</cell>
-      </row>
-      <row>
-        <cell><foreign>Maria wrote the report.</foreign></cell>
-        <cell><foreign>The report was written by Maria.</foreign></cell>
-      </row>
-      <row>
-        <cell><foreign>Someone stole my bike.</foreign></cell>
-        <cell><foreign>My bike was stolen.</foreign></cell>
-      </row>
-      <row>
-        <cell><foreign>They are building a house.</foreign></cell>
-        <cell><foreign>A house is being built.</foreign></cell>
-      </row>
-      <row>
-        <cell><foreign>She has finished the work.</foreign></cell>
-        <cell><foreign>The work has been finished.</foreign></cell>
-      </row>
-    </tabular>
-
-    <paragraphs>
-      <title>Passive with Tense and Aspect</title>
-    </paragraphs>
-
-    <p>Passive combines with all tenses and aspects:</p>
-
-    <tabular halign="left">
-      <row header="yes" bottom="minor">
-        <cell>Tense-Aspect</cell>
-        <cell>Active</cell>
-        <cell>Passive</cell>
-      </row>
-      <row>
-        <cell>Present simple</cell>
-        <cell><foreign>writes</foreign></cell>
-        <cell><foreign>is written</foreign></cell>
-      </row>
-      <row>
-        <cell>Past simple</cell>
-        <cell><foreign>wrote</foreign></cell>
-        <cell><foreign>was written</foreign></cell>
-      </row>
-      <row>
-        <cell>Present progressive</cell>
-        <cell><foreign>is writing</foreign></cell>
-        <cell><foreign>is being written</foreign></cell>
-      </row>
-      <row>
-        <cell>Past progressive</cell>
-        <cell><foreign>was writing</foreign></cell>
-        <cell><foreign>was being written</foreign></cell>
-      </row>
-      <row>
-        <cell>Present perfect</cell>
-        <cell><foreign>has written</foreign></cell>
-        <cell><foreign>has been written</foreign></cell>
-      </row>
-      <row>
-        <cell>Past perfect</cell>
-        <cell><foreign>had written</foreign></cell>
-        <cell><foreign>had been written</foreign></cell>
-      </row>
-      <row>
-        <cell>Future</cell>
-        <cell><foreign>will write</foreign></cell>
-        <cell><foreign>will be written</foreign></cell>
-      </row>
-      <row>
-        <cell>Modal</cell>
-        <cell><foreign>can write</foreign></cell>
-        <cell><foreign>can be written</foreign></cell>
-      </row>
-    </tabular>
+    <p>Voice works differently across languages, too. English marks the passive with a form of <foreign>be</foreign> plus a past participle: <foreign>The letter was written.</foreign> But not every language builds a passive this way, and some barely use one at all. Mandarin Chinese, for instance, has no verb morphology for passive—verbs do not change form. Mandarin can use the particle <foreign>bèi</foreign> (被) to mark a passive-like construction (<foreign>Xìn bèi xiě le</foreign>, roughly <q>The letter BEI written</q>), but this construction historically carried a connotation of adversity—something bad happening to the subject—and speakers often prefer to simply rearrange word order or leave the agent unspecified rather than use a passive marker at all. The fact that English has a fully productive passive voice—applicable to virtually any transitive verb, in any tense—is a distinctive feature, not a universal one.</p>
 
   </section>
 
-  <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-112">
-    <title>When to Use Passive Voice</title>
+  <!-- ============================================================ -->
+  <!-- 11.2  MODAL AUXILIARIES                                       -->
+  <!-- ============================================================ -->
 
-    <p>The instruction to "avoid passive voice" is one of the most repeated—and most misapplied—pieces of writing advice in English. Passive voice is not inherently weak or evasive; it is a grammatical tool, and like any tool it has appropriate and inappropriate uses. The question is not whether to use it, but when it genuinely serves the reader better than the active alternative.</p>
-
-    <p>Passive voice is often criticized, but it serves important functions.</p>
-
-    <paragraphs>
-      <title>Appropriate Uses of Passive</title>
-    </paragraphs>
-
-    <p>1. Agent is unknown or irrelevant:</p>
-
-    <ul>
-      <li><p><foreign>My car <em>was stolen</em> last night.</foreign> (who did it is unknown)</p></li>
-      <li><p><foreign>The building <em>was constructed</em> in 1920.</foreign> (builder not important)</p></li>
-    </ul>
-
-    <p>2. Focusing on the action or patient:</p>
-
-    <ul>
-      <li><p><foreign>The suspect <em>was arrested</em> at 3 a.m.</foreign></p></li>
-      <li><p><foreign>Three errors <em>were discovered</em> in the code.</foreign></p></li>
-    </ul>
-
-    <p>3. Scientific and academic writing (for objectivity):</p>
-
-    <ul>
-      <li><p><foreign>The samples <em>were analyzed</em> using spectroscopy.</foreign></p></li>
-      <li><p><foreign>The data <em>were collected</em> over six months.</foreign></p></li>
-    </ul>
-
-    <p>4. Avoiding blame or responsibility:</p>
-
-    <ul>
-      <li><p><foreign>Mistakes <em>were made</em>.</foreign> (who made them is obscured)</p></li>
-    </ul>
-
-    <p>5. Maintaining topic continuity:</p>
-
-    <ul>
-      <li><p><foreign>The report discussed several issues. These issues <em>were identified</em> by the committee.</foreign></p></li>
-    </ul>
-
-    <paragraphs>
-      <title>When to Avoid Passive</title>
-    </paragraphs>
-
-    <p>When agent is important:</p>
-
-    <ul>
-      <li><p>Weak: <foreign>The decision <em>was made</em>.</foreign></p></li>
-      <li><p>Stronger: <foreign>The CEO <em>made</em> the decision.</foreign></p></li>
-    </ul>
-
-    <p>When it creates confusion:</p>
-
-    <ul>
-      <li><p>Confusing: <foreign>The proposal <em>was rejected</em> by the committee that <em>was formed</em> by the board.</foreign></p></li>
-      <li><p>Clearer: <foreign>The committee that the board formed <em>rejected</em> the proposal.</foreign></p></li>
-    </ul>
-
-    <p>When active is more direct:</p>
-
-    <ul>
-      <li><p>Passive: <foreign>The ball <em>was kicked</em> by the child.</foreign></p></li>
-      <li><p>Active: <foreign>The child <em>kicked</em> the ball.</foreign></p></li>
-    </ul>
-
-  </section>
-
-  <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-113">
-    <title>Get-Passive</title>
-
-    <p>The <foreign>be</foreign>-passive is not the only passive construction in English. There is a second one, formed with <foreign>get</foreign>, that is common in spoken and informal written language. The two constructions overlap in meaning but carry a different feel: the <foreign>get</foreign>-passive tends to suggest that something happened suddenly, unexpectedly, or with significant consequence for the subject. Compare <foreign>She was promoted</foreign> (neutral report) with <foreign>She got promoted</foreign> (something happened to her, with a sense of event or change). This subtle difference in connotation makes the <foreign>get</foreign>-passive worth recognizing as a distinct construction.</p>
-
-    <p>English has an alternative passive formed with <foreign>get</foreign> instead of <foreign>be</foreign>:</p>
-
-    <ul>
-      <li><p><foreign>He <em>got fired</em> last week.</foreign></p></li>
-      <li><p><foreign>She <em>got promoted</em> to manager.</foreign></p></li>
-      <li><p><foreign>They <em>got married</em> in June.</foreign></p></li>
-    </ul>
-
-    <p>The <term>get-passive</term> is more informal and often implies:</p>
-
-    <ul>
-      <li><p>Sudden or unexpected events: <foreign>He got hit by a car.</foreign></p></li>
-      <li><p>Events that affect the subject significantly: <foreign>She got accepted to Harvard.</foreign></p></li>
-      <li><p>Change of state: <foreign>The window got broken.</foreign></p></li>
-    </ul>
-
-    <image source="diagrams/new/ch11_get_passive_body.png" width="30%">
-      <description>Syntax tree for "She got promoted" showing the get-passive construction</description>
-    </image>
-    <p><c>[S [NP [PRON She]] [VP [V got] [V promoted]]]</c></p>
-
-  </section>
-
-  <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-114">
+  <section xml:id="ch-11-sec-modal-auxiliaries">
     <title>Modal Auxiliaries</title>
 
-    <p>Consider how much meaning rides on a single word in sentences like these: <foreign>You can leave</foreign>, <foreign>You may leave</foreign>, <foreign>You must leave</foreign>, <foreign>You should leave</foreign>, <foreign>You will leave</foreign>. The main verb is identical each time; what changes is the modal, and with it the entire relationship between the speaker, the listener, and the action. Can signals ability or permission. Must signals necessity or a logical conclusion. Should signals obligation or advice. These small words carry enormous pragmatic weight, and distinguishing them from each other—and from the primary auxiliaries—requires careful attention to both grammar and meaning.</p>
+    <p>Consider how much meaning rides on a single word in sentences like these: <foreign>You can leave</foreign>, <foreign>You may leave</foreign>, <foreign>You must leave</foreign>, <foreign>You should leave</foreign>, <foreign>You will leave</foreign>. The main verb is identical each time; what changes is the modal, and with it the entire relationship between the speaker, the listener, and the action. <foreign>Can</foreign> signals ability or permission. <foreign>Must</foreign> signals necessity or a logical conclusion. <foreign>Should</foreign> signals obligation or advice. These small words carry enormous pragmatic weight, and distinguishing them from each other—and from the primary auxiliaries you studied in Chapter 10—requires careful attention to both grammar and meaning.</p>
 
-    <p><term>Modal auxiliaries</term> add meanings related to possibility, necessity, permission, ability, and prediction. Unlike primary auxiliaries, modals have distinct grammatical properties.</p>
+    <p><term>Modal auxiliaries</term> add meanings related to possibility, necessity, permission, ability, and prediction. Unlike primary auxiliaries (<foreign>be</foreign>, <foreign>have</foreign>, <foreign>do</foreign>), modals have distinct grammatical properties that set them apart from every other verb class in English.</p>
 
     <paragraphs>
       <title>The Nine Modals</title>
@@ -329,6 +99,8 @@
       <title>Properties of Modals</title>
     </paragraphs>
 
+    <p>What makes modals a distinct class is not just their meaning but their grammar. All nine share these properties, and no other English verbs behave this way:</p>
+
     <ol>
       <li><p>No <foreign>-s</foreign> in third person: <foreign>She <em>can</em> go.</foreign> (not <foreign><delete>She cans go.</delete></foreign>)</p></li>
       <li><p>No <foreign>to</foreign> infinitive: <foreign>You <em>must</em> leave.</foreign> (not <foreign><delete>You must to leave.</delete></foreign>)</p></li>
@@ -338,9 +110,20 @@
       <li><p>Form negatives with <foreign>not</foreign>: <foreign>She <em>cannot</em> go.</foreign></p></li>
     </ol>
 
+    <p>These six properties are what linguists call the NICE properties (Negation, Inversion, Code, Emphasis)—they define the auxiliary verb class in English. Modals share these with primary auxiliaries like <foreign>be</foreign>, <foreign>have</foreign>, and <foreign>do</foreign>, but properties 1–4 are unique to modals.</p>
+
+    <image source="diagrams/new/ch11_modal_can_ability.png" width="25%">
+      <description>Syntax tree for "She can swim" showing the modal auxiliary can preceding the bare infinitive main verb</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [MOD can] [V swim]]]</c></p>
+
   </section>
 
-  <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-115">
+  <!-- ============================================================ -->
+  <!-- 11.3  MODAL MEANINGS IN DETAIL                                -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-11-sec-modal-meanings">
     <title>Modal Meanings in Detail</title>
 
     <p>The table in the previous section gave you a starting point, but modal meaning is genuinely more complex than any single-gloss summary can capture. Most modals are polysemous—they carry multiple distinct but related meanings, and context determines which reading applies. This section works through each modal pair in detail. As you read, notice that the meanings within each pair often shade into each other: ability and possibility are closely related concepts, as are permission and possibility. The challenge—and the interest—of modal grammar is in distinguishing these readings precisely.</p>
@@ -355,11 +138,6 @@
       <li><p><foreign>She <em>can</em> speak French.</foreign> (present ability)</p></li>
       <li><p><foreign>She <em>could</em> speak French when she was young.</foreign> (past ability)</p></li>
     </ul>
-
-    <image source="diagrams/new/ch11_modal_can_ability.png" width="25%">
-      <description>Syntax tree for "She can swim" showing the modal auxiliary can preceding the bare infinitive main verb</description>
-    </image>
-    <p><c>[S [NP [PRON She]] [VP [MOD can] [V swim]]]</c></p>
 
     <p>Possibility:</p>
 
@@ -462,7 +240,7 @@
     </ul>
 
     <image source="diagrams/new/ch11_modal_must_oblig.png" width="35%">
-      <description>Syntax tree for "You must stop here" showing deontic must expressing obligation</description>
+      <description>Syntax tree for "You must stop here" showing must expressing obligation</description>
     </image>
     <p><c>[S [NP [PRON You]] [VP [MOD must] [V stop] [ADVP [ADV here]]]]</c></p>
 
@@ -473,61 +251,25 @@
       <li><p><foreign>He <em>must</em> have left already.</foreign> (deduction about past)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch11_modal_must_epist.png" width="35%">
+      <description>Syntax tree for "She must be tired" showing must used for deduction, with a predicative adjective as complement</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [MOD must] [V be] [ADJP [ADJ tired]]]]</c></p>
+
+    <p>Notice that the same modal can express two very different things: <foreign>You must rest</foreign> (I am telling you to rest—obligation) versus <foreign>You must be tired</foreign> (I conclude that you are tired—deduction). Context always determines which reading applies. When <foreign>must</foreign> is followed by an action verb, it usually signals obligation. When it is followed by <foreign>be</foreign> or a stative expression, it usually signals a logical conclusion.</p>
+
     <p>Note: For negation, <foreign>must not</foreign> means prohibition (<foreign>You must not enter</foreign>), while <foreign>don't have to</foreign> means lack of necessity (<foreign>You don't have to enter</foreign>).</p>
 
   </section>
 
-  <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-116">
-    <title>Epistemic vs. Deontic Modality</title>
+  <!-- ============================================================ -->
+  <!-- 11.4  SEMI-MODALS                                             -->
+  <!-- ============================================================ -->
 
-    <p>You have now seen that a single modal like <foreign>must</foreign> can mean two very different things: <foreign>You must be tired</foreign> (I conclude that you are tired) versus <foreign>You must rest</foreign> (I am telling you to rest). These two readings are not just different senses of the same word—they belong to fundamentally different categories of modal meaning. Linguists draw this distinction using two technical terms that are worth learning, because they organize the entire landscape of modal meaning.</p>
-
-    <p>Modals express two main types of meaning:</p>
-
-    <paragraphs>
-      <title>Epistemic Modality</title>
-    </paragraphs>
-
-    <p><term>Epistemic modality</term> concerns knowledge, belief, and certainty about whether something is true:</p>
-
-    <ul>
-      <li><p><foreign>She <em>must</em> be home.</foreign> (I conclude this)</p></li>
-      <li><p><foreign>He <em>might</em> know the answer.</foreign> (possibly)</p></li>
-      <li><p><foreign>That <em>can't</em> be right.</foreign> (impossibility)</p></li>
-    </ul>
-
-    <image source="diagrams/new/ch11_modal_must_epist.png" width="35%">
-      <description>Syntax tree for "She must be tired" showing epistemic must used for deduction, with a predicative adjective as complement</description>
-    </image>
-    <p><c>[S [NP [PRON She]] [VP [MOD must] [V be] [ADJP [ADJ tired]]]]</c></p>
-
-    <paragraphs>
-      <title>Deontic Modality</title>
-    </paragraphs>
-
-    <p><term>Deontic modality</term> concerns obligation, permission, and necessity for action:</p>
-
-    <ul>
-      <li><p><foreign>You <em>must</em> leave now.</foreign> (obligation)</p></li>
-      <li><p><foreign>You <em>may</em> enter.</foreign> (permission)</p></li>
-      <li><p><foreign>Can I go?</foreign> (asking permission)</p></li>
-    </ul>
-
-    <p>The same modal can have both meanings:</p>
-
-    <ul>
-      <li><p><foreign>You <em>must</em> be tired.</foreign> (epistemic—I deduce you're tired)</p></li>
-      <li><p><foreign>You <em>must</em> rest.</foreign> (deontic—I'm telling you to rest)</p></li>
-    </ul>
-
-  </section>
-
-  <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-117">
+  <section xml:id="ch-11-sec-semi-modals">
     <title>Semi-Modals (Quasi-Modals)</title>
 
     <p>The nine modal auxiliaries have a strict set of grammatical properties: no <foreign>-s</foreign> ending, no infinitive with <foreign>to</foreign>, no <foreign>-ing</foreign> or past participle forms. But English also has a set of expressions that carry similar meanings through different grammatical machinery. <foreign>Have to</foreign> means roughly the same thing as <foreign>must</foreign>, but unlike <foreign>must</foreign> it inflects: <foreign>She has to leave</foreign>. <foreign>Be going to</foreign> expresses future intention like <foreign>will</foreign>, but it uses the progressive construction. These expressions—called <term>semi-modals</term> or quasi-modals—fill gaps that the true modals leave. Because they behave more like ordinary verbs, they can appear in tenses and forms that true modals cannot.</p>
-
-    <p><term>Semi-modals</term> (quasi-modals) are multi-word expressions that function like modals but don't share all their grammatical properties.</p>
 
     <paragraphs>
       <title>Common Semi-Modals</title>
@@ -593,16 +335,48 @@
       <li><p>Can take <foreign>-ing</foreign> or infinitive forms: <foreign>Having to leave upset her.</foreign></p></li>
     </ul>
 
+    <p>This flexibility is precisely what makes semi-modals useful. Because true modals cannot be inflected or combined, English needs semi-modals to express modal meanings in certain grammatical contexts. You cannot say <foreign><delete>I can must leave</delete></foreign>, but you can say <foreign>I might have to leave</foreign>—the semi-modal <foreign>have to</foreign> fills the gap.</p>
+
   </section>
 
-  <section xml:id="ch-11-verbs-part-two-voice-and-modals-sec-118">
-    <title>Modal Perfect</title>
+  <!-- ============================================================ -->
+  <!-- 11.5  COMBINING MODALS WITH TENSE AND ASPECT                 -->
+  <!-- ============================================================ -->
 
-    <p>One of the most expressive constructions in English sits at the intersection of two systems you have now studied: modals and the perfect aspect. When a modal combines with <foreign>have</foreign> + past participle, the result reaches back into the past—but unlike simple past tense, it carries the speaker's modal attitude along with it. <foreign>She left</foreign> is a neutral report. <foreign>She must have left</foreign> is a deduction. <foreign>She should have left</foreign> implies she did not, and the speaker thinks that was a mistake. <foreign>She could have left</foreign> suggests an unrealized possibility. The same past event is viewed through different modal lenses, each one shaping how the speaker relates to what happened.</p>
+  <section xml:id="ch-11-sec-combining">
+    <title>Combining Modals with Tense and Aspect</title>
 
-    <p>Modals combine with <foreign>have</foreign> + past participle to refer to past time or to express degrees of certainty about the past:</p>
+    <p>In Chapter 10 you learned how tense and aspect combine within the verb phrase: present or past tense, simple or progressive aspect, perfect or non-perfect. Modals add another layer to this system. Because modals always appear first in the verb phrase—before any auxiliaries and before the main verb—they can combine with every tense-aspect pattern you already know. The result is a rich set of verb phrase structures that let speakers simultaneously express time, aspect, attitude, and voice.</p>
 
-    <p>Modal + <foreign>have</foreign> + past participle:</p>
+    <paragraphs>
+      <title>Modal + Simple Verb</title>
+    </paragraphs>
+
+    <p>The simplest combination places a modal directly before the base form of the main verb:</p>
+
+    <ul>
+      <li><p><foreign>She <em>can write</em>.</foreign> (ability)</p></li>
+      <li><p><foreign>You <em>must leave</em>.</foreign> (obligation)</p></li>
+      <li><p><foreign>It <em>might rain</em>.</foreign> (possibility)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Modal + Progressive</title>
+    </paragraphs>
+
+    <p>Adding progressive aspect (modal + <foreign>be</foreign> + <foreign>-ing</foreign>) presents the action as ongoing at the time the modal applies to:</p>
+
+    <ul>
+      <li><p><foreign>She <em>must be sleeping</em>.</foreign> (I conclude she is sleeping right now)</p></li>
+      <li><p><foreign>They <em>could be waiting</em> for us.</foreign> (it is possible they are waiting)</p></li>
+      <li><p><foreign>He <em>should be studying</em>.</foreign> (he has an obligation to be studying)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Modal + Perfect</title>
+    </paragraphs>
+
+    <p>Adding perfect aspect (modal + <foreign>have</foreign> + past participle) reaches back into the past while carrying the modal's attitude:</p>
 
     <ul>
       <li><p><foreign>She <em>must have left</em>.</foreign> (I conclude she left)</p></li>
@@ -618,41 +392,435 @@
     <p><c>[S [NP [PRON You]] [VP [MOD should] [AUX have] [V called]]]</c></p>
 
     <paragraphs>
-      <title>Meanings of Modal Perfect</title>
+      <title>Modal + Passive</title>
     </paragraphs>
+
+    <p>Modals also combine with passive voice (modal + <foreign>be</foreign> + past participle). You will learn more about passive voice in the sections that follow, but notice the pattern here:</p>
+
+    <ul>
+      <li><p><foreign>The report <em>can be written</em> by anyone.</foreign></p></li>
+      <li><p><foreign>Mistakes <em>will be corrected</em>.</foreign></p></li>
+      <li><p><foreign>The decision <em>should be made</em> carefully.</foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Complex Combinations</title>
+    </paragraphs>
+
+    <p>All of these can combine further. Modal + perfect + progressive, modal + perfect + passive—English verb phrases can stack multiple layers:</p>
+
+    <ul>
+      <li><p><foreign>She <em>must have been sleeping</em>.</foreign> (modal + perfect + progressive)</p></li>
+      <li><p><foreign>The report <em>should have been written</em>.</foreign> (modal + perfect + passive)</p></li>
+      <li><p><foreign>He <em>could have been being interviewed</em>.</foreign> (modal + perfect + progressive + passive—grammatical but rare)</p></li>
+    </ul>
+
+    <p>The following table summarizes the main combinations:</p>
 
     <tabular halign="left">
       <row header="yes" bottom="minor">
-        <cell>Form</cell>
-        <cell>Meaning</cell>
+        <cell>Combination</cell>
+        <cell>Pattern</cell>
+        <cell>Example</cell>
       </row>
       <row>
-        <cell><foreign>must have done</foreign></cell>
-        <cell>logical conclusion about past</cell>
+        <cell>Modal + simple</cell>
+        <cell>modal + base verb</cell>
+        <cell><foreign>can write</foreign></cell>
       </row>
       <row>
-        <cell><foreign>may/might have done</foreign></cell>
-        <cell>possibility in the past</cell>
+        <cell>Modal + progressive</cell>
+        <cell>modal + <foreign>be</foreign> + <foreign>-ing</foreign></cell>
+        <cell><foreign>must be writing</foreign></cell>
       </row>
       <row>
-        <cell><foreign>could have done</foreign></cell>
-        <cell>past possibility or unrealized ability</cell>
+        <cell>Modal + perfect</cell>
+        <cell>modal + <foreign>have</foreign> + past participle</cell>
+        <cell><foreign>should have written</foreign></cell>
       </row>
       <row>
-        <cell><foreign>should have done</foreign></cell>
-        <cell>obligation not fulfilled (criticism)</cell>
+        <cell>Modal + passive</cell>
+        <cell>modal + <foreign>be</foreign> + past participle</cell>
+        <cell><foreign>can be written</foreign></cell>
       </row>
       <row>
-        <cell><foreign>would have done</foreign></cell>
-        <cell>hypothetical past (unfulfilled)</cell>
+        <cell>Modal + perfect + progressive</cell>
+        <cell>modal + <foreign>have been</foreign> + <foreign>-ing</foreign></cell>
+        <cell><foreign>must have been writing</foreign></cell>
       </row>
       <row>
-        <cell><foreign>can't have done</foreign></cell>
-        <cell>impossibility in the past</cell>
+        <cell>Modal + perfect + passive</cell>
+        <cell>modal + <foreign>have been</foreign> + past participle</cell>
+        <cell><foreign>must have been written</foreign></cell>
       </row>
     </tabular>
 
+    <p>The key principle is that the order is always fixed: modal comes first, then perfect <foreign>have</foreign> (if present), then progressive or passive <foreign>be</foreign> (if present), then the main verb. You cannot rearrange these elements. This fixed ordering is what makes the English verb phrase systematic rather than chaotic—once you know the slots, you can build any combination.</p>
+
   </section>
+
+  <!-- ============================================================ -->
+  <!-- 11.6  DEFINING AND IDENTIFYING VOICE                          -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-11-sec-defining-voice">
+    <title>Defining and Identifying Voice</title>
+
+    <p>Every transitive verb involves at least two participants: someone who performs the action and someone or something that receives it. In earlier chapters you learned to call these the subject and the direct object, but those are grammatical roles—labels for positions in a sentence. The same participants can be arranged differently. <foreign>The dog bit the man</foreign> puts the doer first. <foreign>The man was bitten by the dog</foreign> rearranges things so the receiver comes first. The event is identical; the framing is not. That rearrangement is what <term>voice</term> describes.</p>
+
+    <paragraphs>
+      <title>Semantic Roles: Agent and Patient</title>
+    </paragraphs>
+
+    <p>To talk about voice precisely, you need two terms that describe participants by what they do in the event, not by where they appear in the sentence:</p>
+
+    <ul>
+      <li><p>The <term>agent</term> is the entity that performs or initiates the action.</p></li>
+      <li><p>The <term>patient</term> is the entity that is affected by or undergoes the action.</p></li>
+    </ul>
+
+    <p>In <foreign>The dog bit the man</foreign>, <foreign>the dog</foreign> is the agent (it does the biting) and <foreign>the man</foreign> is the patient (he receives the bite). These semantic roles stay the same regardless of how the sentence is structured. What changes between active and passive voice is which semantic role fills the grammatical subject position.</p>
+
+    <paragraphs>
+      <title>Active Voice</title>
+    </paragraphs>
+
+    <p>In <term>active voice</term>, the agent occupies the subject position. This is the default, unmarked voice in English—the one speakers use unless they have a reason to do otherwise:</p>
+
+    <ul>
+      <li><p><foreign>The dog <em>bit</em> the man.</foreign> (agent = subject)</p></li>
+      <li><p><foreign>Maria <em>wrote</em> the report.</foreign> (agent = subject)</p></li>
+      <li><p><foreign>Someone <em>stole</em> my bicycle.</foreign> (agent = subject)</p></li>
+      <li><p><foreign>The committee <em>reviewed</em> the proposal.</foreign> (agent = subject)</p></li>
+      <li><p><foreign>Lightning <em>struck</em> the old oak tree.</foreign> (agent = subject)</p></li>
+    </ul>
+
+    <p>The pattern is straightforward: agent (doer) appears as the subject, the verb follows, and the patient (receiver) appears as the direct object.</p>
+
+    <image source="diagrams/new/ch11_active_sentence.png" width="40%">
+      <description>Syntax tree for "The dog bit the man" showing the agent subject and patient direct object in active voice</description>
+    </image>
+    <p><c>[S [NP [DET The] [N dog]] [VP [V bit] [NP [DET the] [N man]]]]</c></p>
+
+    <paragraphs>
+      <title>Passive Voice</title>
+    </paragraphs>
+
+    <p>In <term>passive voice</term>, the patient occupies the subject position. The agent may appear in a <foreign>by</foreign>-phrase after the verb, or it may be omitted entirely:</p>
+
+    <ul>
+      <li><p><foreign>The man <em>was bitten</em> by the dog.</foreign> (patient = subject, agent in <foreign>by</foreign>-phrase)</p></li>
+      <li><p><foreign>The report <em>was written</em> by Maria.</foreign> (patient = subject, agent in <foreign>by</foreign>-phrase)</p></li>
+      <li><p><foreign>My bicycle <em>was stolen</em>.</foreign> (patient = subject, agent omitted)</p></li>
+      <li><p><foreign>The proposal <em>was reviewed</em> by the committee.</foreign> (patient = subject, agent in <foreign>by</foreign>-phrase)</p></li>
+      <li><p><foreign>The old oak tree <em>was struck</em> by lightning.</foreign> (patient = subject, agent in <foreign>by</foreign>-phrase)</p></li>
+    </ul>
+
+    <image source="diagrams/new/ch11_passive_by.png" width="55%">
+      <description>Syntax tree for "The man was bitten by the dog" showing passive voice with the patient promoted to subject and agent in a by-phrase</description>
+    </image>
+    <p><c>[S [NP [DET The] [N man]] [VP [AUX was] [V bitten] [PP [PREP by] [NP [DET the] [N dog]]]]]</c></p>
+
+    <p>When the agent is omitted, the passive is called an <em>agentless passive</em> or <em>short passive</em>. This is actually the more common form—most passive sentences in English do not include a <foreign>by</foreign>-phrase:</p>
+
+    <image source="diagrams/new/ch11_passive_agentless.png" width="35%">
+      <description>Syntax tree for "The window was broken" showing agentless passive where no by-phrase appears</description>
+    </image>
+    <p><c>[S [NP [DET The] [N window]] [VP [AUX was] [V broken]]]</c></p>
+
+    <paragraphs>
+      <title>Identifying Passive Voice</title>
+    </paragraphs>
+
+    <p>The reliable test for passive voice is structural: look for a form of <foreign>be</foreign> (<foreign>am</foreign>, <foreign>is</foreign>, <foreign>are</foreign>, <foreign>was</foreign>, <foreign>were</foreign>, <foreign>been</foreign>, <foreign>being</foreign>) followed by a past participle. Both elements must be present:</p>
+
+    <ul>
+      <li><p><foreign>The letter <em>was sent</em>.</foreign> — <foreign>was</foreign> (form of <foreign>be</foreign>) + <foreign>sent</foreign> (past participle) = passive</p></li>
+      <li><p><foreign>The results <em>are being analyzed</em>.</foreign> — <foreign>are being</foreign> (form of <foreign>be</foreign>) + <foreign>analyzed</foreign> (past participle) = passive</p></li>
+      <li><p><foreign>The cake <em>has been eaten</em>.</foreign> — <foreign>been</foreign> (form of <foreign>be</foreign>) + <foreign>eaten</foreign> (past participle) = passive</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Common Misidentifications</title>
+    </paragraphs>
+
+    <p>Not every sentence with <foreign>be</foreign> + a word that looks like a past participle is passive. Watch out for these:</p>
+
+    <ul>
+      <li><p><foreign>The door <em>is broken</em>.</foreign> — This could be passive (<q>someone broke it</q>) or a stative description (<q>it is in a broken state</q>). Test: can you add <foreign>by someone</foreign>? If <foreign>The door is broken by the children every week</foreign> sounds natural, it is passive. If the sentence simply describes the door's current condition, it is a predicative adjective.</p></li>
+      <li><p><foreign>She <em>is interested</em> in music.</foreign> — Despite the form, <foreign>interested</foreign> here functions as an adjective, not a passive verb. You would not say <foreign><delete>She is interested in music by someone.</delete></foreign></p></li>
+      <li><p><foreign>He <em>was gone</em>.</foreign> — <foreign>Gone</foreign> looks like a past participle, but <foreign>go</foreign> is intransitive. This is not a passive construction; it describes a state.</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>What Cannot Be Passivized</title>
+    </paragraphs>
+
+    <p>Only transitive verbs—verbs that take a direct object—can form true passives, because the passive promotes the object to subject position. If there is no object, there is nothing to promote:</p>
+
+    <ul>
+      <li><p><foreign>The baby slept.</foreign> — <foreign>Sleep</foreign> is intransitive; no passive is possible. (<foreign><delete>The baby was slept.</delete></foreign>)</p></li>
+      <li><p><foreign>She arrived late.</foreign> — <foreign>Arrive</foreign> is intransitive. (<foreign><delete>Late was arrived by her.</delete></foreign>)</p></li>
+      <li><p><foreign>The vase fell.</foreign> — <foreign>Fall</foreign> is intransitive. (<foreign><delete>The vase was fallen.</delete></foreign>)</p></li>
+    </ul>
+
+    <p>Some transitive verbs also resist passivization, particularly stative verbs that describe relationships rather than actions: <foreign>This shirt fits me</foreign> but not <foreign><delete>I am fitted by this shirt</delete></foreign> (in this sense); <foreign>She resembles her mother</foreign> but not <foreign><delete>Her mother is resembled by her.</delete></foreign></p>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 11.7  FORMING AND TRANSFORMING VOICE                          -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-11-sec-forming-voice">
+    <title>Forming and Transforming Voice</title>
+
+    <p>Now that you can identify active and passive constructions, this section shows you how to form passives and how to convert between the two voices. The transformation is mechanical—there is a fixed set of steps—but it interacts with tense and aspect in ways that require attention.</p>
+
+    <paragraphs>
+      <title>Active to Passive: Step by Step</title>
+    </paragraphs>
+
+    <p>To convert an active sentence to passive:</p>
+
+    <ol>
+      <li><p>Move the active direct object into the subject position.</p></li>
+      <li><p>Add the appropriate form of <foreign>be</foreign> (matching the original tense and aspect).</p></li>
+      <li><p>Change the main verb to its past participle form.</p></li>
+      <li><p>Optionally place the original subject in a <foreign>by</foreign>-phrase after the verb.</p></li>
+    </ol>
+
+    <p>Example: <foreign>Maria wrote the report.</foreign></p>
+
+    <ol>
+      <li><p>Object → subject: <foreign>The report...</foreign></p></li>
+      <li><p>Add <foreign>be</foreign> (past tense to match <foreign>wrote</foreign>): <foreign>The report was...</foreign></p></li>
+      <li><p>Past participle: <foreign>The report was written...</foreign></p></li>
+      <li><p><foreign>By</foreign>-phrase: <foreign>The report was written by Maria.</foreign></p></li>
+    </ol>
+
+    <paragraphs>
+      <title>Passive to Active</title>
+    </paragraphs>
+
+    <p>The reverse process is also straightforward:</p>
+
+    <ol>
+      <li><p>Identify the agent (in the <foreign>by</foreign>-phrase, or supply one if omitted).</p></li>
+      <li><p>Make the agent the new subject.</p></li>
+      <li><p>Remove <foreign>be</foreign> and restore the main verb to its active form (matching tense and aspect).</p></li>
+      <li><p>Move the passive subject to the direct object position.</p></li>
+    </ol>
+
+    <p>Example: <foreign>The report was written by Maria.</foreign> → <foreign>Maria wrote the report.</foreign></p>
+
+    <p>When the agent is missing (agentless passive), you must supply a subject. Common choices include a generic subject like <foreign>someone</foreign>, <foreign>people</foreign>, or <foreign>they</foreign>: <foreign>My bicycle was stolen.</foreign> → <foreign>Someone stole my bicycle.</foreign></p>
+
+    <paragraphs>
+      <title>Passive across Tense and Aspect</title>
+    </paragraphs>
+
+    <p>Passive voice combines with all the tense-aspect patterns you learned in Chapter 10. The form of <foreign>be</foreign> changes to match, but the main verb always appears as a past participle:</p>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell>Tense-Aspect</cell>
+        <cell>Active</cell>
+        <cell>Passive</cell>
+      </row>
+      <row>
+        <cell>Present simple</cell>
+        <cell><foreign>writes</foreign></cell>
+        <cell><foreign>is written</foreign></cell>
+      </row>
+      <row>
+        <cell>Past simple</cell>
+        <cell><foreign>wrote</foreign></cell>
+        <cell><foreign>was written</foreign></cell>
+      </row>
+      <row>
+        <cell>Present progressive</cell>
+        <cell><foreign>is writing</foreign></cell>
+        <cell><foreign>is being written</foreign></cell>
+      </row>
+      <row>
+        <cell>Past progressive</cell>
+        <cell><foreign>was writing</foreign></cell>
+        <cell><foreign>was being written</foreign></cell>
+      </row>
+      <row>
+        <cell>Present perfect</cell>
+        <cell><foreign>has written</foreign></cell>
+        <cell><foreign>has been written</foreign></cell>
+      </row>
+      <row>
+        <cell>Past perfect</cell>
+        <cell><foreign>had written</foreign></cell>
+        <cell><foreign>had been written</foreign></cell>
+      </row>
+      <row>
+        <cell>Future (modal)</cell>
+        <cell><foreign>will write</foreign></cell>
+        <cell><foreign>will be written</foreign></cell>
+      </row>
+      <row>
+        <cell>Modal</cell>
+        <cell><foreign>can write</foreign></cell>
+        <cell><foreign>can be written</foreign></cell>
+      </row>
+    </tabular>
+
+    <p>Notice the pattern: the passive always inserts a form of <foreign>be</foreign> before the past participle. In the progressive passive (<foreign>is being written</foreign>), there are two forms of <foreign>be</foreign>—one for the progressive (<foreign>is</foreign>) and one for the passive (<foreign>being</foreign>). In the perfect passive (<foreign>has been written</foreign>), <foreign>been</foreign> is the past participle of <foreign>be</foreign>, which is itself part of the passive construction.</p>
+
+    <paragraphs>
+      <title>Ditransitive Verbs: Which Object Promotes?</title>
+    </paragraphs>
+
+    <p>Some verbs take two objects—an indirect object and a direct object. When you passivize these, either object can become the subject, though the result may sound more or less natural:</p>
+
+    <ul>
+      <li><p>Active: <foreign>The teacher gave the students a quiz.</foreign></p></li>
+      <li><p>Passive (indirect object promoted): <foreign>The students were given a quiz.</foreign> (natural)</p></li>
+      <li><p>Passive (direct object promoted): <foreign>A quiz was given to the students.</foreign> (also grammatical)</p></li>
+    </ul>
+
+    <p>In most cases, promoting the indirect object (the person) sounds more natural in English than promoting the direct object (the thing).</p>
+
+    <paragraphs>
+      <title>The Get-Passive</title>
+    </paragraphs>
+
+    <p>The <foreign>be</foreign>-passive is not the only passive construction in English. There is a second one, formed with <foreign>get</foreign>, that is common in spoken and informal written language. The two constructions overlap in meaning but carry a different feel: the <term>get-passive</term> tends to suggest that something happened suddenly, unexpectedly, or with significant consequence for the subject.</p>
+
+    <ul>
+      <li><p><foreign>He <em>got fired</em> last week.</foreign> (sudden, consequential)</p></li>
+      <li><p><foreign>She <em>got promoted</em> to manager.</foreign> (noteworthy change)</p></li>
+      <li><p><foreign>They <em>got married</em> in June.</foreign> (change of state)</p></li>
+    </ul>
+
+    <p>Compare the neutral <foreign>be</foreign>-passive with the more vivid <foreign>get</foreign>-passive:</p>
+
+    <ul>
+      <li><p><foreign>She was promoted.</foreign> — neutral report</p></li>
+      <li><p><foreign>She got promoted.</foreign> — something happened to her, with a sense of event</p></li>
+      <li><p><foreign>He was hit by a car.</foreign> — factual</p></li>
+      <li><p><foreign>He got hit by a car.</foreign> — sudden, dramatic</p></li>
+    </ul>
+
+    <image source="diagrams/new/ch11_get_passive_body.png" width="30%">
+      <description>Syntax tree for "She got promoted" showing the get-passive construction</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V got] [V promoted]]]</c></p>
+
+    <p>The <foreign>get</foreign>-passive is more informal than the <foreign>be</foreign>-passive and is generally avoided in academic and formal writing. However, it is extremely common in everyday speech and has been gaining ground in written English for decades.</p>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 11.8  VOICE AND RHETORICAL IMPACT                             -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-11-sec-rhetorical-impact">
+    <title>Voice and Rhetorical Impact</title>
+
+    <p>You have probably been told at some point to <q>avoid passive voice.</q> That advice, taken as an absolute rule, misses the point. Passive voice exists because it does something active voice cannot: it moves the patient into the subject position, which lets you control emphasis, manage information flow, and omit agents when they are unknown or irrelevant. The question is never whether passive is <q>good</q> or <q>bad</q>—it is whether a particular passive sentence serves the reader better than its active alternative.</p>
+
+    <paragraphs>
+      <title>When Passive Serves the Reader</title>
+    </paragraphs>
+
+    <p><em>1. The agent is unknown or irrelevant.</em> When who performed the action does not matter or is not known, passive lets you avoid an awkward or vague subject:</p>
+
+    <ul>
+      <li><p><foreign>My car <em>was stolen</em> last night.</foreign> (who did it is unknown)</p></li>
+      <li><p><foreign>The building <em>was constructed</em> in 1920.</foreign> (the builder is not important)</p></li>
+      <li><p><foreign>English <em>is spoken</em> in over sixty countries.</foreign> (by whom is self-evident)</p></li>
+    </ul>
+
+    <p><em>2. The patient is the topic.</em> When the sentence is about what happened to something rather than who did it, passive keeps the topic in subject position, where readers expect to find it:</p>
+
+    <ul>
+      <li><p><foreign>The suspect <em>was arrested</em> at 3 a.m.</foreign> (the story is about the suspect)</p></li>
+      <li><p><foreign>Three errors <em>were discovered</em> in the code.</foreign> (the story is about the errors)</p></li>
+    </ul>
+
+    <p><em>3. Scientific and academic conventions.</em> Many disciplines prefer passive voice because it emphasizes the method and results rather than the researcher, creating an impression of objectivity:</p>
+
+    <ul>
+      <li><p><foreign>The samples <em>were analyzed</em> using spectroscopy.</foreign></p></li>
+      <li><p><foreign>The data <em>were collected</em> over six months.</foreign></p></li>
+      <li><p><foreign>Participants <em>were randomly assigned</em> to one of three conditions.</foreign></p></li>
+    </ul>
+
+    <p><em>4. Maintaining information flow.</em> Good writing connects each sentence to the one before it. Passive lets you place familiar, old information in the subject position and new information at the end, which is where readers naturally look for it:</p>
+
+    <ul>
+      <li><p><foreign>The report discussed several issues. These issues <em>were identified</em> by the committee during its annual review.</foreign></p></li>
+    </ul>
+
+    <p>Here, <foreign>these issues</foreign> in the second sentence links back to <foreign>several issues</foreign> in the first. Active voice (<foreign>The committee identified these issues...</foreign>) would break that connection by putting new information (<foreign>the committee</foreign>) first.</p>
+
+    <p><em>5. Deliberate agent omission.</em> Sometimes the agent is known but the writer chooses to obscure responsibility. This can be a legitimate rhetorical choice—or a manipulative one:</p>
+
+    <ul>
+      <li><p><foreign>Mistakes <em>were made</em>.</foreign> (who made them is obscured)</p></li>
+      <li><p><foreign>The funds <em>were misallocated</em>.</foreign> (by whom?)</p></li>
+    </ul>
+
+    <p>Recognizing this pattern is important for critical reading. When you see an agentless passive in political or corporate language, ask yourself: <em>Who is being left out, and why?</em></p>
+
+    <paragraphs>
+      <title>When Active Voice Is Stronger</title>
+    </paragraphs>
+
+    <p><em>When the agent is the point.</em> If the identity of the doer matters, burying it in a <foreign>by</foreign>-phrase weakens the sentence:</p>
+
+    <ul>
+      <li><p>Weak: <foreign>The decision <em>was made</em> by the CEO.</foreign></p></li>
+      <li><p>Stronger: <foreign>The CEO <em>made</em> the decision.</foreign></p></li>
+    </ul>
+
+    <p><em>When passive creates confusion.</em> Stacking passives or embedding them in complex sentences can make it hard to tell who is doing what:</p>
+
+    <ul>
+      <li><p>Confusing: <foreign>The proposal <em>was rejected</em> by the committee that <em>was formed</em> by the board.</foreign></p></li>
+      <li><p>Clearer: <foreign>The committee that the board formed <em>rejected</em> the proposal.</foreign></p></li>
+    </ul>
+
+    <p><em>When active is simply more direct.</em> If there is no rhetorical reason for passive, active is almost always more concise and vigorous:</p>
+
+    <ul>
+      <li><p>Passive: <foreign>The ball <em>was kicked</em> by the child.</foreign></p></li>
+      <li><p>Active: <foreign>The child <em>kicked</em> the ball.</foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Genre Conventions</title>
+    </paragraphs>
+
+    <p>Different genres have different expectations for voice. Knowing these conventions helps you make choices appropriate to your audience:</p>
+
+    <ul>
+      <li><p><em>Scientific writing:</em> Heavy passive use is traditional (<foreign>The solution was heated...</foreign>), though many journals now accept or prefer active voice.</p></li>
+      <li><p><em>Legal writing:</em> Passive is common for stating rules and obligations (<foreign>Payment shall be made within thirty days</foreign>).</p></li>
+      <li><p><em>Journalism:</em> Active voice dominates because it is more direct and vivid, but passive appears when the patient is the story (<foreign>Three people were injured...</foreign>).</p></li>
+      <li><p><em>Business writing:</em> Style guides generally recommend active voice for clarity, but passive appears frequently in policy documents.</p></li>
+      <li><p><em>Academic writing:</em> Varies by discipline. Sciences lean passive; humanities lean active.</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>The Myth of "Always Use Active Voice"</title>
+    </paragraphs>
+
+    <p>The advice to avoid passive voice appears in nearly every writing handbook, often stated as an absolute. But the best writers in every genre use passive voice regularly—they just use it for reasons, not by accident. The goal is not to eliminate passive but to choose it deliberately. A paragraph full of passive sentences will feel flat and evasive. A paragraph full of active sentences will feel monotonous and may obscure important information flow. The skilled writer alternates, using each voice where it serves the reader best.</p>
+
+    <p>When you revise your own writing, do not ask <q>Is this passive?</q> Ask instead: <q>Is the subject of this sentence the most important participant for the reader right now?</q> If yes, the voice is doing its job—whether active or passive.</p>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 11.9  HOMEWORK                                                -->
+  <!-- ============================================================ -->
 
   <section xml:id="ch-11-homework">
     <title>Homework: Voice and Modals</title>
@@ -925,15 +1093,12 @@
         <li><p>Reason: _____</p></li>
       </ul>
 
-      <p><em>Exercise 24.</em> Identify the modals in the passage and classify each as expressing epistemic modality (about certainty/possibility) or deontic modality (about obligation/permission):</p>
+      <p><em>Exercise 24.</em> Identify the modals in the passage and classify each as expressing certainty/possibility or obligation/permission:</p>
 
       <ul>
-        <li><p>Modal 1: _____</p></li>
-        <li><p>Type: _____</p></li>
-        <li><p>Modal 2: _____</p></li>
-        <li><p>Type: _____</p></li>
-        <li><p>Modal 3: _____</p></li>
-        <li><p>Type: _____</p></li>
+        <li><p>Modal 1: _____ — Type: _____</p></li>
+        <li><p>Modal 2: _____ — Type: _____</p></li>
+        <li><p>Modal 3: _____ — Type: _____</p></li>
       </ul>
 
       <p><em>Exercise 25.</em> Consider this active sentence: <foreign>The manager rejected the proposal.</foreign></p>
@@ -948,16 +1113,20 @@
 
   </section>
 
+  <!-- ============================================================ -->
+  <!-- 11.10  DIAGRAM EXAMPLES                                       -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-11-diagram-examples">
     <title>Diagram Examples</title>
 
-    <p>This section provides reference diagrams for verb phrase structures with voice and modals.</p>
+    <p>This section provides reference diagrams for verb phrase structures with modals, tense-aspect combinations, and voice.</p>
 
-    <subsection xml:id="ch-11-diagrams-modals">
-      <title>Modal Examples</title>
+    <subsection xml:id="ch-11-diagrams-modal-combinations">
+      <title>Modal Combinations with Tense and Aspect</title>
 
       <paragraphs>
-        <title>11.8.1 A: Modal + verb: will eat</title>
+        <title>11.10.1 A: Modal + simple verb: will eat</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_modal.png" width="25%">
         <description>Syntax tree for "will eat" showing modal with verb</description>
@@ -965,7 +1134,7 @@
       <p><c>[VP [MOD will] [V eat]]</c></p>
 
       <paragraphs>
-        <title>11.8.1 B: Modal + perfect: will have eaten</title>
+        <title>11.10.1 B: Modal + perfect: will have eaten</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_modal_perfect.png" width="35%">
         <description>Syntax tree for "will have eaten" showing modal with perfect</description>
@@ -973,7 +1142,7 @@
       <p><c>[VP [MOD will] [AUX have] [V eaten]]</c></p>
 
       <paragraphs>
-        <title>11.8.1 C: Complex VP (modal + perfect + progressive): should have been studying</title>
+        <title>11.10.1 C: Modal + perfect + progressive: should have been studying</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_complex.png" width="45%">
         <description>Syntax tree for "should have been studying"</description>
@@ -981,7 +1150,7 @@
       <p><c>[VP [MOD should] [AUX have] [AUX been] [V studying]]</c></p>
 
       <paragraphs>
-        <title>11.8.1 D: Full complex VP: will have been being eaten</title>
+        <title>11.10.1 D: Full complex VP: will have been being eaten</title>
       </paragraphs>
       <image source="diagrams/new/ch07_vp_full_complex.png" width="55%">
         <description>Syntax tree for "will have been being eaten" showing all auxiliaries</description>
@@ -993,7 +1162,7 @@
       <title>Passive Voice</title>
 
       <paragraphs>
-        <title>11.8.2 A: Passive with by-phrase: was written by Maria</title>
+        <title>11.10.2 A: Passive with by-phrase: was written by Maria</title>
       </paragraphs>
       <image source="diagrams/new/ch16_passive_by.png" width="45%">
         <description>Syntax tree for "was written by Maria" showing passive with agent</description>
@@ -1003,43 +1172,43 @@
 
   </section>
 
+  <!-- ============================================================ -->
+  <!-- GLOSSARY                                                      -->
+  <!-- ============================================================ -->
+
   <glossary>
     <title>Glossary</title>
     <gi>
       <title>Active voice</title>
-      <p>The grammatical voice where the subject performs the action.</p>
+      <p>The grammatical voice where the agent (doer) occupies the subject position.</p>
     </gi>
     <gi>
       <title>Agent</title>
-      <p>The entity performing an action.</p>
+      <p>The entity performing an action. A semantic role, not a grammatical position.</p>
     </gi>
     <gi>
-      <title>Deontic modality</title>
-      <p>Modal meaning concerning obligation, permission, and necessity.</p>
-    </gi>
-    <gi>
-      <title>Epistemic modality</title>
-      <p>Modal meaning concerning knowledge and certainty.</p>
+      <title>Get-passive</title>
+      <p>An alternative passive construction formed with <foreign>get</foreign> instead of <foreign>be</foreign> (<foreign>She got promoted</foreign>). More informal, often implies sudden or consequential events.</p>
     </gi>
     <gi>
       <title>Modal auxiliary</title>
-      <p>An auxiliary verb expressing possibility, necessity, permission, etc. The nine modals are <foreign>can, could, will, would, shall, should, may, might, must</foreign>.</p>
+      <p>An auxiliary verb expressing possibility, necessity, permission, ability, or prediction. The nine modals are <foreign>can, could, will, would, shall, should, may, might, must</foreign>.</p>
     </gi>
     <gi>
       <title>Passive voice</title>
-      <p>The grammatical voice where the subject receives the action.</p>
+      <p>The grammatical voice where the patient (receiver) occupies the subject position. Formed with <foreign>be</foreign> + past participle.</p>
     </gi>
     <gi>
       <title>Patient</title>
-      <p>The entity affected by an action.</p>
+      <p>The entity affected by an action. A semantic role, not a grammatical position.</p>
     </gi>
     <gi>
       <title>Semi-modal</title>
-      <p>A multi-word expression functioning like a modal (<foreign>have to</foreign>, <foreign>be able to</foreign>).</p>
+      <p>A multi-word expression functioning like a modal but with regular verb properties (<foreign>have to</foreign>, <foreign>be able to</foreign>, <foreign>be going to</foreign>).</p>
     </gi>
     <gi>
       <title>Voice</title>
-      <p>A grammatical category describing the relationship between verb and arguments.</p>
+      <p>A grammatical category describing which participant (agent or patient) occupies the subject position in a clause.</p>
     </gi>
   </glossary>
 
