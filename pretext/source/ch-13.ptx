@@ -204,7 +204,7 @@
     <image source="diagrams/new/ch13_inf_adjectival.png" width="45%">
       <description>Syntax tree for "He has time to spare" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
     </image>
-    <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [PREP to] [V spare]]]]]</c></p>
+    <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [PART to] [V spare]]]]]</c></p>
 
   </section>
 
@@ -938,7 +938,7 @@
       <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell>Pred</cell><cell>DO</cell><cell></cell><cell>Adjvl</cell></row>
       <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell>VP</cell><cell>NP</cell><cell></cell><cell>VP</cell></row>
       <row bottom="minor"><cell>Word</cell><cell><foreign>He</foreign></cell><cell><foreign>has</foreign></cell><cell><foreign>time</foreign></cell><cell><foreign>to</foreign></cell><cell><foreign>spare</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>N</cell><cell>PREP</cell><cell>V</cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>N</cell><cell>PART</cell><cell>V</cell></row>
     </tabular>
 
     <p>The infinitive phrase <foreign>to spare</foreign> modifies the noun <foreign>time</foreign>—it tells us <em>which kind of time</em>, not <em>why</em> he has it.</p>
@@ -1323,7 +1323,7 @@
       <image source="diagrams/new/ch13_inf_adjectival.png" width="45%">
         <description>Syntax tree for "He has time to spare" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
       </image>
-      <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [PREP to] [V spare]]]]]</c></p>
+      <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [PART to] [V spare]]]]]</c></p>
     </subsection>
 
   </section>

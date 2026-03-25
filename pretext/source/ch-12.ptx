@@ -171,7 +171,7 @@
     <image source="diagrams/new/ch12_infinitive_adverbial.png" width="40%">
       <description>Syntax tree for "I went to run" showing infinitive as adverbial</description>
     </image>
-    <p><c>[S [NP [PRON I]] [VP [V went] [VP [PREP to] [V run]]]]</c></p>
+    <p><c>[S [NP [PRON I]] [VP [V went] [VP [PART to] [V run]]]]</c></p>
 
     <paragraphs>
       <title>5. Participial Phrases</title>
@@ -761,9 +761,9 @@
       <col halign="center" right="minor"/>
       <col halign="center" right="minor"/>
       <row bottom="minor"><cell>Role</cell><cell>DC</cell><cell></cell><cell></cell><cell>IC</cell><cell></cell><cell></cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>COMP</cell><cell>NP</cell><cell>VP</cell><cell>NP</cell><cell>VP</cell><cell></cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell></cell><cell>NP</cell><cell>VP</cell><cell>NP</cell><cell>VP</cell><cell></cell></row>
       <row bottom="minor"><cell>Word</cell><cell><foreign>When</foreign></cell><cell><foreign>she</foreign></cell><cell><foreign>arrived</foreign></cell><cell><foreign>we</foreign></cell><cell><foreign>started</foreign></cell><cell><foreign>working</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>COMP</cell><cell>PRON</cell><cell>V</cell><cell>PRON</cell><cell>V</cell><cell>V</cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>SUB</cell><cell>PRON</cell><cell>V</cell><cell>PRON</cell><cell>V</cell><cell>V</cell></row>
     </tabular>
 
   </section>
@@ -1117,7 +1117,7 @@
       <image source="diagrams/new/ch12_infinitive_adverbial.png" width="40%">
         <description>Syntax tree for "I went to run" showing infinitive as adverbial</description>
       </image>
-      <p><c>[S [NP [PRON I]] [VP [V went] [VP [PREP to] [V run]]]]</c></p>
+      <p><c>[S [NP [PRON I]] [VP [V went] [VP [PART to] [V run]]]]</c></p>
 
       <paragraphs>
         <title>12.10.3 D: Multiple adverbials: She spoke quietly in the library.</title>

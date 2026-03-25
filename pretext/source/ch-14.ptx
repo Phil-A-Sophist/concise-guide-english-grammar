@@ -532,7 +532,7 @@
       <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell></cell><cell></cell><cell>Pred</cell><cell>SC</cell><cell></cell><cell></cell></row>
       <row bottom="minor"><cell>Phrase</cell><cell>VP</cell><cell></cell><cell>NP</cell><cell></cell><cell>VP</cell><cell>NP</cell><cell></cell><cell></cell></row>
       <row bottom="minor"><cell>Word</cell><cell><foreign>To</foreign></cell><cell><foreign>win</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>race</foreign></cell><cell><foreign>was</foreign></cell><cell><foreign>her</foreign></cell><cell><foreign>only</foreign></cell><cell><foreign>goal</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>PREP</cell><cell>V</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>PRON</cell><cell>ADJ</cell><cell>N</cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>PART</cell><cell>V</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>PRON</cell><cell>ADJ</cell><cell>N</cell></row>
     </tabular>
 
     <p>The infinitive phrase <foreign>To win the race</foreign> fills the subject position.</p>
