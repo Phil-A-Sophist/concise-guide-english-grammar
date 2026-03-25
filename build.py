@@ -82,6 +82,9 @@ def build_html():
     # Add custom CSS overrides
     apply_custom_css()
 
+    # Warn about untracked HTML files that need to be staged
+    check_untracked_html()
+
     print("HTML build complete!")
     return True
 
@@ -246,6 +249,27 @@ section .tabular-box {
     font-size: 0.9em !important;
 }
 """
+
+
+def check_untracked_html():
+    """Warn if there are new (untracked) HTML files in docs/ that need staging."""
+    try:
+        result = subprocess.run(
+            ["git", "ls-files", "--others", "--exclude-standard", "docs/"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            new_files = [f for f in result.stdout.strip().split("\n") if f.endswith(".html")]
+            if new_files:
+                print(f"\n*** WARNING: {len(new_files)} NEW HTML file(s) detected in docs/ ***")
+                print("These must be staged with 'git add' before committing:")
+                for f in new_files:
+                    print(f"  {f}")
+                print()
+    except FileNotFoundError:
+        pass  # git not available, skip check
 
 
 def apply_custom_css():
