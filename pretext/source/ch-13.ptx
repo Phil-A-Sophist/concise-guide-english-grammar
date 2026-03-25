@@ -6,22 +6,12 @@
   <objectives>
     <title>Learning Objectives</title>
     <ul>
-      <li><p>Distinguish between adjectives (form) and adjectivals (function)</p></li>
+      <li><p>Distinguish between adjectives (form) and adjectivals (function/role in a sentence)</p></li>
       <li><p>Identify the various structures that can function as adjectivals</p></li>
-      <li><p>Analyze relative clauses and their structure</p></li>
+      <li><p>Understand how adjectival position affects meaning and emphasis</p></li>
       <li><p>Distinguish between restrictive and non-restrictive modifiers</p></li>
-      <li><p>Understand participial phrases as adjectivals</p></li>
-      <li><p>Use various adjectival structures effectively to modify nouns</p></li>
-      <li><p>Adjective (form)</p></li>
-      <li><p>Adjectival (function)</p></li>
-      <li><p>Relative clause</p></li>
-      <li><p>Restrictive modifier</p></li>
-      <li><p>Non-restrictive modifier</p></li>
-      <li><p>Participial phrase</p></li>
-      <li><p>Attributive position</p></li>
-      <li><p>Predicative position</p></li>
-      <li><p>Post-modifier</p></li>
-      <li><p>Pre-modifier</p></li>
+      <li><p>Analyze each structural form of adjectival: adjective phrases, noun adjuncts, prepositional phrases, relative clauses, participial phrases, and infinitive phrases</p></li>
+      <li><p>Key terms: Adjective (form), Adjectival (function), Restrictive modifier, Non-restrictive modifier, Relative clause, Participial phrase, Noun adjunct, Attributive position, Predicative position, Pre-modifier, Post-modifier</p></li>
     </ul>
   </objectives>
 
@@ -29,51 +19,110 @@
 
   <p>The key insight of this chapter is that <em>adjectival</em> is a functional label, not a form label. An adjective is a part of speech; an adjectival is anything that does the work of modifying a noun, regardless of its form. This chapter surveys the range of structures that can serve that function, gives special attention to relative clauses (the most syntactically rich type of adjectival), and explores how position and the restrictive/non-restrictive distinction change the meaning of noun modifiers in subtle but important ways.</p>
 
+  <!-- ============================================================ -->
+  <!-- 13.1  ADJECTIVES VS. ADJECTIVALS                             -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-13-adjectivals-sec-131">
     <title>Adjectives vs. Adjectivals: Form vs. Function</title>
 
-    <p>When you describe a noun, what tools do you have? The most obvious is the adjective: <foreign>the red door</foreign>, <foreign>a difficult problem</foreign>, <foreign>an interesting idea</foreign>. But natural language gives you far more options than that. What is the difference, in practice, between an adjective and any other structure that happens to modify a noun? The answer lies in the form-vs-function distinction introduced in Chapter 5. The word <em>adjective</em> names a form—a class of words with recognizable properties. The word <em>adjectival</em> names a function—the role of modifying a noun—which many different forms can fill.</p>
-
-    <p>Understanding the distinction between <term>adjectives</term> (a form/part of speech) and <term>adjectivals</term> (a function) is essential for accurate grammatical analysis.</p>
+    <p>If someone asks you to find the adjectivals in a sentence, you might instinctively look for adjectives—words like <foreign>tall</foreign>, <foreign>red</foreign>, or <foreign>interesting</foreign>. That is a reasonable first instinct, but it conflates two different things. An <term>adjective</term> names a form—a class of words with recognizable properties (Chapter 5). The word <term>adjectival</term> names a function—a role in a sentence—which many different forms can fill. Keeping these two ideas separate is the foundation of everything in this chapter.</p>
 
     <paragraphs>
       <title>Adjective as Form</title>
     </paragraphs>
 
-    <p>An adjective is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Adjectives can be graded, appear between determiners and nouns, follow linking verbs, and be modified by <foreign>very</foreign>.</p>
-
-    <ul>
-      <li><p><foreign>tall, beautiful, interesting, happy</foreign></p></li>
-    </ul>
+    <p>An adjective is a part of speech—a word class with particular morphological and syntactic characteristics. Adjectives can be graded (<foreign>tall, taller, tallest</foreign>), appear between determiners and nouns (<foreign>the tall man</foreign>), follow linking verbs (<foreign>The man is tall</foreign>), and be modified by <foreign>very</foreign> (<foreign>very tall</foreign>). Examples: <foreign>tall, beautiful, interesting, happy, red</foreign>.</p>
 
     <paragraphs>
-      <title>Adjectival as Function</title>
+      <title>Adjectival as Function (Role in a Sentence)</title>
     </paragraphs>
 
-    <p>An adjectival is any word, phrase, or clause that <em>functions</em> to modify a noun, answering questions like "which one?" or "what kind?"</p>
+    <p>An adjectival is any word, phrase, or clause that <em>functions</em> to modify a noun, answering questions like <em>which one?</em> or <em>what kind?</em> The key insight: all attributive adjectives are adjectivals, but not all adjectivals are adjectives.</p>
 
-    <p>Key insight: All attributive adjectives are adjectivals, but not all adjectivals are adjectives.</p>
+    <p>Consider an adjective phrase filling the adjectival role:</p>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell>Pred</cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>ADJP</cell><cell>VP</cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>tall</foreign></cell><cell><foreign>man</foreign></cell><cell><foreign>arrived</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>ADJ</cell><cell>N</cell><cell>V</cell></row>
+    </tabular>
+
+    <p>Now compare a prepositional phrase filling the same adjectival role:</p>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell></cell><cell>Pred</cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>PP</cell><cell>NP</cell><cell></cell><cell>VP</cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>man</foreign></cell><cell><foreign>in</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>hat</foreign></cell><cell><foreign>arrived</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>PREP</cell><cell>DET</cell><cell>N</cell><cell>V</cell></row>
+    </tabular>
+
+    <p>Both <foreign>tall</foreign> and <foreign>in the hat</foreign> answer the question <em>which man?</em> and both modify the noun <foreign>man</foreign>. Their forms are different—an adjective phrase and a prepositional phrase—but their function is the same.</p>
+
+    <paragraphs>
+      <title>Semantic Roles</title>
+    </paragraphs>
+
+    <p>In addition to their structural form, adjectivals are classified by the type of information they provide about the noun. Chapter 5 introduced adjective categories; the same semantic roles apply to all adjectival structures:</p>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell>Semantic Role</cell>
+        <cell>Question Answered</cell>
+        <cell>Example</cell>
+      </row>
+      <row><cell>Quality/Opinion</cell><cell>What kind?</cell><cell><foreign>a <em>beautiful</em> painting</foreign></cell></row>
+      <row><cell>Size</cell><cell>How big?</cell><cell><foreign>a <em>large</em> building</foreign></cell></row>
+      <row><cell>Age</cell><cell>How old?</cell><cell><foreign>an <em>ancient</em> ruin</foreign></cell></row>
+      <row><cell>Color/Shape</cell><cell>What color/shape?</cell><cell><foreign>a <em>round red</em> ball</foreign></cell></row>
+      <row><cell>Origin/Material</cell><cell>Where from? Made of?</cell><cell><foreign>a <em>French wooden</em> chair</foreign></cell></row>
+      <row><cell>Classification</cell><cell>What type?</cell><cell><foreign>a <em>government</em> report</foreign></cell></row>
+      <row><cell>Identification</cell><cell>Which one?</cell><cell><foreign>the book <em>that I mentioned</em></foreign></cell></row>
+      <row><cell>Description</cell><cell>What is it like?</cell><cell><foreign>the report <em>published last year</em></foreign></cell></row>
+    </tabular>
+
+    <p>See Chapter 5 for a fuller treatment of adjective categories. The rest of this chapter focuses on the structural forms that fill the adjectival role and how their position and restrictiveness affect meaning.</p>
 
   </section>
+
+  <!-- ============================================================ -->
+  <!-- 13.2  STRUCTURES THAT FUNCTION AS ADJECTIVALS                 -->
+  <!-- ============================================================ -->
 
   <section xml:id="ch-13-adjectivals-sec-132">
     <title>Structures That Function as Adjectivals</title>
 
     <p>Think about how many ways English has to say something about a noun. You can say <foreign>the sleeping dog</foreign> (participial phrase), <foreign>the dog in the yard</foreign> (prepositional phrase), <foreign>the dog that bit me</foreign> (relative clause), <foreign>the dog to avoid</foreign> (infinitive phrase), or <foreign>the guard dog</foreign> (attributive noun). Each of those noun phrases means something different, but in every case a modifier is doing the work of characterizing or identifying the noun <foreign>dog</foreign>. That is the adjectival function, and English fills it with at least six distinct structural forms. Learning to recognize all six will sharpen your ability to analyze noun phrases and to understand why some modifiers must follow the noun rather than precede it.</p>
 
-    <p>Many different structures can serve the adjectival function.</p>
-
     <paragraphs>
       <title>1. Adjective Phrases</title>
     </paragraphs>
 
-    <p>The prototypical adjectival is an adjective phrase:</p>
+    <p>The prototypical adjectival is an adjective phrase—a single adjective or an adjective with modifiers:</p>
 
     <ul>
       <li><p><foreign>the <em>tall</em> man</foreign></p></li>
       <li><p><foreign>a <em>very interesting</em> book</foreign></p></li>
       <li><p><foreign>someone <em>happy about the news</em></foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch13_adj_prenominal.png" width="35%">
+      <description>Syntax tree for "The red car stopped" showing a prenominal adjective modifying "car"</description>
+    </image>
+    <p><c>[S [NP [DET The] [ADJ red] [N car]] [VP [V stopped]]]</c></p>
 
     <paragraphs>
       <title>2. Nouns (Attributive)</title>
@@ -85,21 +134,19 @@
       <li><p><foreign>the <em>coffee</em> table</foreign></p></li>
       <li><p><foreign>a <em>government</em> report</foreign></p></li>
       <li><p><foreign>the <em>history</em> professor</foreign></p></li>
-      <li><p><foreign><em>car</em> insurance</foreign></p></li>
     </ul>
 
-    <p>These are sometimes called "noun adjuncts" or "attributive nouns."</p>
+    <p>These are sometimes called "noun adjuncts" or "attributive nouns." They always precede the head noun.</p>
 
     <paragraphs>
       <title>3. Prepositional Phrases</title>
     </paragraphs>
 
-    <p>Prepositional phrases commonly function as adjectivals (post-modifiers):</p>
+    <p>Prepositional phrases commonly function as adjectivals, appearing as post-modifiers inside the NP:</p>
 
     <ul>
       <li><p><foreign>the man <em>in the hat</em></foreign></p></li>
       <li><p><foreign>a book <em>about grammar</em></foreign></p></li>
-      <li><p><foreign>the house <em>on the corner</em></foreign></p></li>
       <li><p><foreign>a sense <em>of accomplishment</em></foreign></p></li>
     </ul>
 
@@ -112,14 +159,18 @@
       <title>4. Relative Clauses</title>
     </paragraphs>
 
-    <p>Clauses introduced by relative pronouns/adverbs function as adjectivals:</p>
+    <p>Clauses introduced by relative pronouns or adverbs function as adjectivals. They are the most structurally complex adjectival form and are covered in detail in Section 13.8:</p>
 
     <ul>
       <li><p><foreign>the book <em>that I read</em></foreign></p></li>
       <li><p><foreign>the student <em>who won the prize</em></foreign></p></li>
       <li><p><foreign>the place <em>where we met</em></foreign></p></li>
-      <li><p><foreign>the reason <em>why she left</em></foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch13_rel_clause_restr.png" width="45%">
+      <description>Syntax tree for "The students who studied passed" showing a restrictive relative clause embedded inside the subject NP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N students] [RC [REL who] [VP [V studied]]]] [VP [V passed]]]</c></p>
 
     <paragraphs>
       <title>5. Participial Phrases</title>
@@ -129,21 +180,24 @@
 
     <ul>
       <li><p><foreign>the <em>running</em> water</foreign></p></li>
-      <li><p><foreign>the <em>broken</em> window</foreign></p></li>
       <li><p><foreign>the man <em>standing by the door</em></foreign></p></li>
       <li><p><foreign>the book <em>written by Hemingway</em></foreign></p></li>
     </ul>
+
+    <image source="diagrams/new/ch13_pres_part_phrase.png" width="60%">
+      <description>Syntax tree for "The woman singing on stage left" showing a present participial phrase modifying "woman"</description>
+    </image>
+    <p><c>[S [NP [DET The] [N woman] [VP [V singing] [PP [PREP on] [NP [N stage]]]]] [VP [V left]]]</c></p>
 
     <paragraphs>
       <title>6. Infinitive Phrases</title>
     </paragraphs>
 
-    <p>Infinitive phrases can function adjectivally:</p>
+    <p>Infinitive phrases can function adjectivally, typically as post-modifiers:</p>
 
     <ul>
       <li><p><foreign>a book <em>to read</em></foreign></p></li>
       <li><p><foreign>the decision <em>to leave</em></foreign></p></li>
-      <li><p><foreign>something <em>to eat</em></foreign></p></li>
       <li><p><foreign>the first person <em>to arrive</em></foreign></p></li>
     </ul>
 
@@ -154,18 +208,407 @@
 
   </section>
 
+  <!-- ============================================================ -->
+  <!-- 13.3  ADJECTIVAL POSITION                                     -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-13-adjectivals-sec-133">
-    <title>Relative Clauses in Detail</title>
+    <title>Adjectival Position</title>
 
-    <p>Of all the structures that can serve the adjectival function, relative clauses are the most structurally complex and the most flexible. A relative clause contains its own subject and predicate—it is a full clause—but it is embedded inside a noun phrase to modify the head noun. The element that connects the clause to the noun it modifies is a relative pronoun (like <foreign>who</foreign>, <foreign>which</foreign>, or <foreign>that</foreign>) or a relative adverb (like <foreign>where</foreign> or <foreign>when</foreign>). That connecting word is doing double duty: it simultaneously introduces the clause and plays a grammatical role within it—as subject, object, or possessive. The tables below give you a systematic reference for choosing the right relative word based on the noun's referent (person or thing) and the relative word's function within the clause.</p>
-
-    <p><term>Relative clauses</term> (also called adjective clauses) modify nouns, specifying which entity is meant.</p>
+    <p>You may have noticed in the previous section that single adjectives tend to appear before the noun (<foreign>the tall man</foreign>), while longer phrases and clauses tend to appear after it (<foreign>the man in the hat</foreign>, <foreign>the man who arrived late</foreign>). This is not arbitrary: English has a strong preference for keeping modifiers close to the nouns they modify without disrupting the noun's core structure. A single word can slip in before the noun easily, but a relative clause or a long prepositional phrase would be awkward and confusing in that position. Understanding the three positional slots available to adjectivals—pre-modification, post-modification, and predicative—helps explain both why modifiers appear where they do and what options a writer has when constructing complex noun phrases.</p>
 
     <paragraphs>
-      <title>Structure</title>
+      <title>Pre-modification (Before the Noun)</title>
     </paragraphs>
 
-    <p>A relative clause consists of a relative word + clause content:</p>
+    <p>Single adjectives, single-word participles, and attributive nouns appear before the head noun in the <term>attributive position</term>:</p>
+
+    <ul>
+      <li><p><foreign>the <em>tall</em> man</foreign> (adjective)</p></li>
+      <li><p><foreign>a <em>very interesting</em> book</foreign> (adjective phrase)</p></li>
+      <li><p><foreign><em>running</em> water</foreign> (present participle)</p></li>
+      <li><p><foreign>the <em>broken</em> window</foreign> (past participle)</p></li>
+      <li><p><foreign>the <em>government</em> report</foreign> (noun adjunct)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Post-modification (After the Noun)</title>
+    </paragraphs>
+
+    <p>Longer phrases and clauses follow the noun as <term>post-modifiers</term>:</p>
+
+    <ul>
+      <li><p><foreign>the man <em>in the hat</em></foreign> (PP)</p></li>
+      <li><p><foreign>the student <em>who won the prize</em></foreign> (relative clause)</p></li>
+      <li><p><foreign>the report <em>published yesterday</em></foreign> (participial phrase)</p></li>
+      <li><p><foreign>a book <em>to read</em></foreign> (infinitive phrase)</p></li>
+      <li><p><foreign>someone <em>happy about the results</em></foreign> (adjective phrase with complement)</p></li>
+    </ul>
+
+    <p>Note that adjective phrases with complements move to post-position: you can say <foreign>a happy person</foreign> but not <foreign><delete>a happy about the results person</delete></foreign>.</p>
+
+    <paragraphs>
+      <title>Predicative Position (After a Linking Verb)</title>
+    </paragraphs>
+
+    <p>Adjective phrases also appear as subject complements after linking verbs in the <term>predicative position</term>:</p>
+
+    <ul>
+      <li><p><q><foreign>The man is <em>tall</em>.</foreign></q></p></li>
+      <li><p><q><foreign>The book seems <em>interesting</em>.</foreign></q></p></li>
+      <li><p><q><foreign>She became <em>happy about the news</em>.</foreign></q></p></li>
+    </ul>
+
+    <image source="diagrams/new/ch13_adj_predicative.png" width="40%">
+      <description>Syntax tree for "The car is red" showing an adjective in predicative position as a subject complement</description>
+    </image>
+    <p><c>[S [NP [DET The] [N car]] [VP [V is] [ADJP [ADJ red]]]]</c></p>
+
+    <paragraphs>
+      <title>Attributive-Only and Predicative-Only Adjectives</title>
+    </paragraphs>
+
+    <p>Some adjectives are restricted to one position:</p>
+
+    <ul>
+      <li><p><em>Attributive only:</em> <foreign>the <em>main</em> reason</foreign> (not <foreign><delete>the reason is main</delete></foreign>); <foreign>an <em>utter</em> disaster</foreign>; <foreign>the <em>former</em> president</foreign></p></li>
+      <li><p><em>Predicative only:</em> <foreign>the child is <em>asleep</em></foreign> (not <foreign><delete>the asleep child</delete></foreign>); <foreign>she felt <em>afraid</em></foreign>; <foreign>he is <em>alone</em></foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Stacking Adjectivals</title>
+    </paragraphs>
+
+    <p>A noun phrase can carry more than one modifier at once. Consider: <foreign>the talented young American jazz musician from New Orleans who won the competition</foreign>. Every element from <foreign>talented</foreign> to <foreign>who won the competition</foreign> is modifying <foreign>musician</foreign>.</p>
+
+    <p>When multiple adjectives precede a noun, they typically follow this order:</p>
+
+    <ol>
+      <li><p>Determiner: <foreign>the, a, my</foreign></p></li>
+      <li><p>Opinion: <foreign>beautiful, interesting</foreign></p></li>
+      <li><p>Size: <foreign>big, small</foreign></p></li>
+      <li><p>Age: <foreign>old, new</foreign></p></li>
+      <li><p>Shape: <foreign>round, square</foreign></p></li>
+      <li><p>Color: <foreign>red, blue</foreign></p></li>
+      <li><p>Origin: <foreign>French, American</foreign></p></li>
+      <li><p>Material: <foreign>wooden, metal</foreign></p></li>
+      <li><p>Purpose/Type: <foreign>cooking, reading</foreign></p></li>
+      <li><p>NOUN</p></li>
+    </ol>
+
+    <ul>
+      <li><p><foreign>a beautiful large old round red French wooden cooking pot</foreign></p></li>
+    </ul>
+
+    <p>Post-modifiers stack in the order they are added, and each attaches to the preceding NP:</p>
+
+    <ul>
+      <li><p><foreign>the book <em>on the table</em> <em>that I mentioned</em></foreign></p></li>
+      <li><p><foreign>the man <em>in the hat</em> <em>standing by the door</em></foreign></p></li>
+    </ul>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 13.4  RESTRICTIVE VS. NON-RESTRICTIVE MODIFIERS               -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-13-adjectivals-sec-134">
+    <title>Restrictive vs. Non-Restrictive Modifiers</title>
+
+    <p>Consider these two sentences: <foreign>My sister who lives in Boston visited me</foreign> and <foreign>My sister, who lives in Boston, visited me</foreign>. The difference looks like nothing more than a pair of commas—but the two sentences actually make different claims about the world. The first implies that the speaker has more than one sister, and the clause <foreign>who lives in Boston</foreign> identifies which one. The second implies that the speaker has exactly one sister, and the clause simply adds information about her. That difference in meaning—between a modifier that identifies and a modifier that merely supplements—is the restrictive/non-restrictive distinction. It is signaled in writing by commas, but it is a semantic and grammatical distinction, not just a punctuation preference.</p>
+
+    <paragraphs>
+      <title>Restrictive Modifiers</title>
+    </paragraphs>
+
+    <p><term>Restrictive modifiers</term> (also called defining or identifying modifiers) limit the reference of the noun—they identify <em>which one</em> is meant. Without them, the sentence's meaning would be different:</p>
+
+    <ul>
+      <li><p><foreign>The students <em>who studied</em> passed.</foreign> (only those who studied)</p></li>
+      <li><p><foreign>The book <em>that she recommended</em> changed my life.</foreign></p></li>
+      <li><p><foreign>Cars <em>with manual transmissions</em> are becoming rare.</foreign></p></li>
+    </ul>
+
+    <p>Characteristics of restrictive modifiers:</p>
+
+    <ul>
+      <li><p>No commas</p></li>
+      <li><p>Essential for identifying the referent</p></li>
+      <li><p>Removing them changes meaning significantly</p></li>
+      <li><p>Use <foreign>that</foreign> for clauses (preferred in American English)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Non-Restrictive Modifiers</title>
+    </paragraphs>
+
+    <p><term>Non-restrictive modifiers</term> (also called non-defining or supplementary modifiers) add extra information about an already-identified referent. They could be removed without changing the basic identification:</p>
+
+    <ul>
+      <li><p><foreign>My sister, <em>who lives in Boston</em>, visited last week.</foreign> (I have one sister)</p></li>
+      <li><p><foreign>The book, <em>which she recommended</em>, changed my life.</foreign> (book already identified)</p></li>
+      <li><p><foreign>Paris, <em>known for its cuisine</em>, attracts millions of tourists.</foreign></p></li>
+    </ul>
+
+    <p>Characteristics of non-restrictive modifiers:</p>
+
+    <ul>
+      <li><p>Set off with commas</p></li>
+      <li><p>Add supplementary information</p></li>
+      <li><p>Can be removed without losing identification</p></li>
+      <li><p>Use <foreign>which</foreign> for clauses (not <foreign>that</foreign>)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>The Meaning Difference</title>
+    </paragraphs>
+
+    <p>Compare:</p>
+
+    <ul>
+      <li><p><foreign>The students who studied passed.</foreign> (restrictive—only studying students)</p></li>
+      <li><p><foreign>The students, who studied, passed.</foreign> (non-restrictive—all students studied and passed)</p></li>
+    </ul>
+
+    <p>With proper nouns, most modifiers are non-restrictive, since proper nouns are already uniquely identified:</p>
+
+    <ul>
+      <li><p><foreign>Shakespeare, <em>who wrote Hamlet</em>, lived in Stratford.</foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Beyond Relative Clauses</title>
+    </paragraphs>
+
+    <p>The restrictive/non-restrictive distinction applies to all adjectival types, not just relative clauses:</p>
+
+    <ul>
+      <li><p>PP: <foreign>The students <em>in the front row</em> answered.</foreign> (restrictive) vs. <foreign>The students, <em>in the front row as usual</em>, answered.</foreign> (non-restrictive)</p></li>
+      <li><p>Participial: <foreign>The man <em>wearing the hat</em> is my uncle.</foreign> (restrictive) vs. <foreign>My uncle, <em>wearing his favorite hat</em>, arrived late.</foreign> (non-restrictive)</p></li>
+    </ul>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 13.5  ADJECTIVE PHRASE ADJECTIVALS                            -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-13-adjectivals-sec-135">
+    <title>Adjective Phrase Adjectivals</title>
+
+    <p>The adjective phrase is the prototypical adjectival—the first structure most people think of when they hear "noun modifier." An adjective phrase can be as simple as a single adjective (<foreign>tall</foreign>) or as elaborate as an adjective with degree modifiers and complements (<foreign>very happy about the news</foreign>). Because adjective phrases are so central to the adjectival function, this section examines them in detail: how they are formed, how grading and degree modification work, and what positions they occupy.</p>
+
+    <paragraphs>
+      <title>Formation</title>
+    </paragraphs>
+
+    <p>An adjective phrase consists of a head adjective with optional modifiers:</p>
+
+    <ul>
+      <li><p><em>Simple:</em> <foreign>the <em>tall</em> man</foreign></p></li>
+      <li><p><em>With degree modifier:</em> <foreign>a <em>very tall</em> man</foreign></p></li>
+      <li><p><em>With complement:</em> <foreign>someone <em>proud of her work</em></foreign></p></li>
+      <li><p><em>With both:</em> <foreign>a student <em>extremely eager to learn</em></foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Grading and Degree Modification</title>
+    </paragraphs>
+
+    <p>Most adjectives can be <em>graded</em>—they express degrees of a quality:</p>
+
+    <ul>
+      <li><p><em>Comparative:</em> <foreign>a <em>taller</em> building</foreign>, <foreign>a <em>more interesting</em> book</foreign></p></li>
+      <li><p><em>Superlative:</em> <foreign>the <em>tallest</em> building</foreign>, <foreign>the <em>most interesting</em> book</foreign></p></li>
+      <li><p><em>Degree adverbs:</em> <foreign>a <em>very</em> tall building</foreign>, <foreign>an <em>extremely</em> interesting book</foreign>, <foreign>a <em>somewhat</em> difficult problem</foreign></p></li>
+    </ul>
+
+    <p>Some adjectives cannot be graded because they name absolute states: <foreign>unique, dead, pregnant, perfect</foreign>. You can say <foreign>a unique opportunity</foreign> but not <foreign><delete>a very unique opportunity</delete></foreign> (in formal usage).</p>
+
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell>Pred</cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>ADJP</cell><cell></cell><cell>VP</cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>extremely</foreign></cell><cell><foreign>tall</foreign></cell><cell><foreign>building</foreign></cell><cell><foreign>collapsed</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>ADV</cell><cell>ADJ</cell><cell>N</cell><cell>V</cell></row>
+    </tabular>
+
+    <p>The adverb <foreign>extremely</foreign> modifies the adjective <foreign>tall</foreign>, forming an adjective phrase that functions adjectivally to modify <foreign>building</foreign>.</p>
+
+    <paragraphs>
+      <title>Key Points</title>
+    </paragraphs>
+
+    <ul>
+      <li><p>Simple adjective phrases appear in attributive position (before the noun) or predicative position (after a linking verb).</p></li>
+      <li><p>Adjective phrases with complements move to post-nominal position: <foreign>someone proud of her work</foreign> (not <foreign><delete>a proud of her work student</delete></foreign>).</p></li>
+      <li><p>In diagrams, label the adjective phrase node as ADJP regardless of position.</p></li>
+    </ul>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 13.6  NOUN ADJUNCTS                                           -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-13-adjectivals-sec-136">
+    <title>Noun Adjuncts</title>
+
+    <p>When one noun modifies another noun, the modifying noun is called a <term>noun adjunct</term> (also known as an attributive noun). In <foreign>coffee table</foreign>, the noun <foreign>coffee</foreign> modifies <foreign>table</foreign>, specifying what <em>kind</em> of table it is. This is a productive pattern in English—speakers create new noun-noun compounds freely. Noun adjuncts differ from adjectives in important ways: they cannot be graded (<foreign><delete>a very coffee table</delete></foreign>), they cannot appear in predicative position (<foreign><delete>the table is coffee</delete></foreign>), and they always precede the head noun.</p>
+
+    <paragraphs>
+      <title>Formation</title>
+    </paragraphs>
+
+    <p>A noun adjunct is simply a noun placed before another noun to modify it. The first noun classifies, categorizes, or identifies the type of the second noun:</p>
+
+    <ul>
+      <li><p><foreign>the <em>coffee</em> table</foreign> (material/purpose)</p></li>
+      <li><p><foreign>a <em>government</em> report</foreign> (source)</p></li>
+      <li><p><foreign>the <em>history</em> professor</foreign> (field)</p></li>
+      <li><p><foreign><em>car</em> insurance</foreign> (object insured)</p></li>
+      <li><p><foreign>a <em>chicken</em> sandwich</foreign> (content)</p></li>
+      <li><p><foreign>the <em>morning</em> commute</foreign> (time)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Noun Adjunct vs. Adjective</title>
+    </paragraphs>
+
+    <p>How do you know whether a pre-modifier is a noun adjunct or an adjective? Apply the adjective tests from Chapter 5:</p>
+
+    <ul>
+      <li><p>Can it be graded? <foreign><delete>a very government report</delete></foreign> — No. It is a noun adjunct.</p></li>
+      <li><p>Can it appear predicatively? <foreign><delete>The report is government.</delete></foreign> — No. It is a noun adjunct.</p></li>
+      <li><p>Compare: <foreign>a beautiful report</foreign> → <foreign>a very beautiful report</foreign> → <foreign>The report is beautiful.</foreign> — Yes to both. <foreign>Beautiful</foreign> is an adjective.</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell>Pred</cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>NP</cell><cell>VP</cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>government</foreign></cell><cell><foreign>report</foreign></cell><cell><foreign>arrived</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>N</cell><cell>V</cell></row>
+    </tabular>
+
+    <p>Note that the POS for the noun adjunct is N (noun), not ADJ—it retains its form as a noun even though it fills the adjectival function.</p>
+
+    <paragraphs>
+      <title>Key Points</title>
+    </paragraphs>
+
+    <ul>
+      <li><p>Noun adjuncts always precede the head noun—they never appear in post-position or predicative position.</p></li>
+      <li><p>Multiple noun adjuncts can stack: <foreign>the university research ethics committee</foreign>.</p></li>
+      <li><p>In the pre-modifier order (Section 13.3), noun adjuncts come last, just before the head noun: <foreign>a beautiful old French <em>cooking</em> pot</foreign>.</p></li>
+      <li><p>In diagrams, label noun adjuncts as N, not ADJ. Their form is noun; their function is adjectival.</p></li>
+    </ul>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 13.7  PREPOSITIONAL PHRASE ADJECTIVALS                        -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-13-adjectivals-sec-137">
+    <title>Prepositional Phrase Adjectivals</title>
+
+    <p>In Chapter 12 you saw prepositional phrases functioning as adverbials—modifying verbs and clauses. But prepositional phrases are equally important as adjectivals: a PP inside a noun phrase modifies the head noun rather than the verb. Compare <foreign>She put the book <em>on the shelf</em></foreign> (adverbial—modifies <foreign>put</foreign>) with <foreign>The book <em>on the shelf</em> fell</foreign> (adjectival—modifies <foreign>book</foreign>). The same PP form fills two entirely different functions depending on where it appears in the sentence. PP adjectivals are the most common post-modifier in English and appear in virtually every type of writing.</p>
+
+    <paragraphs>
+      <title>Formation</title>
+    </paragraphs>
+
+    <p>A PP adjectival takes the same form as any PP—a preposition followed by a noun phrase—but it appears inside a noun phrase rather than a verb phrase. Common prepositions in adjectival PPs include <foreign>of, in, on, with, for, about, from, at</foreign>:</p>
+
+    <ul>
+      <li><p><foreign>the man <em>in the hat</em></foreign></p></li>
+      <li><p><foreign>a book <em>about grammar</em></foreign></p></li>
+      <li><p><foreign>the house <em>on the corner</em></foreign></p></li>
+      <li><p><foreign>a sense <em>of accomplishment</em></foreign></p></li>
+      <li><p><foreign>the woman <em>with the red scarf</em></foreign></p></li>
+      <li><p><foreign>a plan <em>for improvement</em></foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>PP Adjectival vs. PP Adverbial</title>
+    </paragraphs>
+
+    <p>The same PP form can be adjectival or adverbial depending on what it modifies. The test: does the PP modify a noun (adjectival) or a verb/clause (adverbial)?</p>
+
+    <ul>
+      <li><p><foreign>The book <em>on the shelf</em> fell.</foreign> — <em>on the shelf</em> modifies <foreign>book</foreign> (which book?) → adjectival</p></li>
+      <li><p><foreign>She put the book <em>on the shelf</em>.</foreign> — <em>on the shelf</em> modifies <foreign>put</foreign> (put where?) → adverbial</p></li>
+      <li><p><foreign>The woman <em>in the office</em> called.</foreign> — <em>in the office</em> modifies <foreign>woman</foreign> → adjectival</p></li>
+      <li><p><foreign>She works <em>in the office</em>.</foreign> — <em>in the office</em> modifies <foreign>works</foreign> → adverbial</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell></cell><cell>Pred</cell><cell></cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>PP</cell><cell>NP</cell><cell></cell><cell>VP</cell><cell></cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>book</foreign></cell><cell><foreign>on</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>shelf</foreign></cell><cell><foreign>is</foreign></cell><cell><foreign>mine</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>PREP</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>PRON</cell></row>
+    </tabular>
+
+    <p>The PP <foreign>on the shelf</foreign> sits inside the subject NP and modifies <foreign>book</foreign>—it is an adjectival, not an adverbial.</p>
+
+    <paragraphs>
+      <title>Key Points</title>
+    </paragraphs>
+
+    <ul>
+      <li><p>PP adjectivals always follow the noun (post-modification). English does not allow <foreign><delete>the on the shelf book</delete></foreign>.</p></li>
+      <li><p>Multiple PP adjectivals can stack: <foreign>the book <em>on the shelf</em> <em>in the corner</em></foreign>.</p></li>
+      <li><p>The preposition <foreign>of</foreign> is the most common in adjectival PPs: <foreign>a sense of humor</foreign>, <foreign>the top of the mountain</foreign>, <foreign>the end of the chapter</foreign>.</p></li>
+      <li><p>In diagrams, a PP adjectival nests inside the NP it modifies, whereas a PP adverbial attaches to the VP.</p></li>
+    </ul>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 13.8  RELATIVE CLAUSES                                        -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-13-adjectivals-sec-138">
+    <title>Relative Clauses</title>
+
+    <p>Of all the structures that can serve the adjectival function, relative clauses are the most structurally complex and the most flexible. A relative clause contains its own subject and predicate—it is a full clause—but it is embedded inside a noun phrase to modify the head noun. The element that connects the clause to the noun it modifies is a relative pronoun (like <foreign>who</foreign>, <foreign>which</foreign>, or <foreign>that</foreign>) or a relative adverb (like <foreign>where</foreign> or <foreign>when</foreign>). That connecting word does double duty: it simultaneously introduces the clause and plays a grammatical role within it—as subject, object, or possessive.</p>
+
+    <paragraphs>
+      <title>Formation</title>
+    </paragraphs>
+
+    <p>A relative clause consists of a relative word followed by clause content:</p>
 
     <p>Relative Clause = Relative Word + Subject + Predicate (or: Relative Word as Subject + Predicate)</p>
 
@@ -255,10 +698,10 @@
     </ul>
 
     <paragraphs>
-      <title>Zero Relative</title>
+      <title>Zero Relative (Contact Clauses)</title>
     </paragraphs>
 
-    <p>When the relative pronoun is the object, it can be omitted:</p>
+    <p>When the relative pronoun is the object, it can be omitted entirely. The resulting clause is sometimes called a contact clause:</p>
 
     <ul>
       <li><p><foreign>the book <em>(that)</em> I read</foreign></p></li>
@@ -272,102 +715,69 @@
       <li><p><foreign>the man <em>who</em> arrived</foreign> (not <foreign><delete>the man arrived</delete></foreign>)</p></li>
     </ul>
 
-  </section>
-
-  <section xml:id="ch-13-adjectivals-sec-134">
-    <title>Restrictive vs. Non-Restrictive Modifiers</title>
-
-    <p>Consider these two sentences: <foreign>My sister who lives in Boston visited me</foreign> and <foreign>My sister, who lives in Boston, visited me</foreign>. The difference looks like nothing more than a pair of commas—but the two sentences actually make different claims about the world. The first implies that the speaker has more than one sister, and the clause <foreign>who lives in Boston</foreign> identifies which one. The second implies that the speaker has exactly one sister, and the clause simply adds information about her. That difference in meaning—between a modifier that identifies and a modifier that merely supplements—is the restrictive/non-restrictive distinction. It is signaled in writing by commas, but it is a semantic and grammatical distinction, not just a punctuation preference.</p>
-
-    <p>This distinction is crucial for meaning and punctuation.</p>
-
     <paragraphs>
-      <title>Restrictive Modifiers</title>
+      <title>Labeling Table</title>
     </paragraphs>
 
-    <p><term>Restrictive modifiers</term> (also called defining or identifying) limit the reference of the noun—they identify <em>which one</em> is meant. Without them, the sentence's meaning would be different.</p>
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell></cell><cell></cell><cell>Pred</cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>RC</cell><cell></cell><cell></cell><cell></cell><cell>VP</cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>student</foreign></cell><cell><foreign>who</foreign></cell><cell><foreign>won</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>award</foreign></cell><cell><foreign>celebrated</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>REL</cell><cell>V</cell><cell>DET</cell><cell>N</cell><cell>V</cell></row>
+    </tabular>
 
-    <ul>
-      <li><p><foreign>The students <em>who studied</em> passed.</foreign> (only those who studied)</p></li>
-      <li><p><foreign>The book <em>that she recommended</em> changed my life.</foreign></p></li>
-      <li><p><foreign>Cars <em>with manual transmissions</em> are becoming rare.</foreign></p></li>
-    </ul>
-
-    <image source="diagrams/new/ch13_rel_clause_restr.png" width="45%">
-      <description>Syntax tree for "The students who studied passed" showing a restrictive relative clause embedded inside the subject NP</description>
-    </image>
-    <p><c>[S [NP [DET The] [N students] [RC [REL who] [VP [V studied]]]] [VP [V passed]]]</c></p>
-
-    <p>Characteristics:</p>
-
-    <ul>
-      <li><p>No commas</p></li>
-      <li><p>Essential for identifying the referent</p></li>
-      <li><p>Removing them changes meaning significantly</p></li>
-      <li><p>Use <foreign>that</foreign> for clauses (preferred in American English)</p></li>
-    </ul>
+    <p>The relative clause <foreign>who won the award</foreign> sits inside the subject NP and modifies <foreign>student</foreign>.</p>
 
     <paragraphs>
-      <title>Non-Restrictive Modifiers</title>
+      <title>Key Points</title>
     </paragraphs>
 
-    <p><term>Non-restrictive modifiers</term> (also called non-defining or supplementary) add extra information about an already-identified referent. They could be removed without changing the basic identification.</p>
-
     <ul>
-      <li><p><foreign>My sister, <em>who lives in Boston</em>, visited last week.</foreign> (I have one sister)</p></li>
-      <li><p><foreign>The book, <em>which she recommended</em>, changed my life.</foreign> (book already identified)</p></li>
-      <li><p><foreign>Paris, <em>known for its cuisine</em>, attracts millions of tourists.</foreign></p></li>
-    </ul>
-
-    <p>Characteristics:</p>
-
-    <ul>
-      <li><p>Set off with commas</p></li>
-      <li><p>Add supplementary information</p></li>
-      <li><p>Can be removed without losing identification</p></li>
-      <li><p>Use <foreign>which</foreign> for clauses (not <foreign>that</foreign>)</p></li>
-    </ul>
-
-    <image source="diagrams/new/ch13_rel_clause_non_restr.png" width="60%">
-      <description>Syntax tree for "My sister who lives in Boston called" showing a non-restrictive relative clause modifying the NP "My sister"</description>
-    </image>
-    <p><c>[S [NP [NP [PRON My] [N sister]] [RC [REL who] [VP [V lives] [PP [PREP in] [NP [N Boston]]]]]] [VP [V called]]]</c></p>
-
-    <paragraphs>
-      <title>The Meaning Difference</title>
-    </paragraphs>
-
-    <p>Compare:</p>
-
-    <ul>
-      <li><p><foreign>The students who studied passed.</foreign> (restrictive—only studying students)</p></li>
-      <li><p><foreign>The students, who studied, passed.</foreign> (non-restrictive—all students studied and passed)</p></li>
-    </ul>
-
-    <p>With proper nouns, most modifiers are non-restrictive (since proper nouns are already uniquely identified):</p>
-
-    <ul>
-      <li><p><foreign>Shakespeare, <em>who wrote Hamlet</em>, lived in Stratford.</foreign></p></li>
+      <li><p>Relative clauses always follow the noun they modify (post-modification).</p></li>
+      <li><p>The relative pronoun simultaneously connects the clause and fills a role within it (subject, object, or possessive).</p></li>
+      <li><p>Restrictive relative clauses use <foreign>that</foreign>; non-restrictive use <foreign>which</foreign> (American English convention).</p></li>
+      <li><p>Object relative pronouns can be omitted (zero relative), but subject relative pronouns cannot.</p></li>
     </ul>
 
   </section>
 
-  <section xml:id="ch-13-adjectivals-sec-135">
-    <title>Participial Phrases as Adjectivals</title>
+  <!-- ============================================================ -->
+  <!-- 13.9  PARTICIPIAL PHRASE ADJECTIVALS                          -->
+  <!-- ============================================================ -->
 
-    <p>Relative clauses are powerful but sometimes more than a sentence needs. When the modifier is simple enough, English offers a more compact option: the participial phrase. Compare <foreign>the woman who was talking on the phone</foreign> with <foreign>the woman talking on the phone</foreign>. The second version drops the relative pronoun and the auxiliary verb, keeping only the participle and what follows it. This compression is one reason participial phrases appear so frequently in edited academic prose—they pack modification efficiently without the overhead of a full relative clause. As you will see, the form of the participle (present <foreign>-ing</foreign> versus past <foreign>-ed/-en</foreign>) carries information about aspect and voice, and the position of the phrase relative to the noun it modifies follows predictable rules.</p>
+  <section xml:id="ch-13-adjectivals-sec-139">
+    <title>Participial Phrase Adjectivals</title>
 
-    <p>Participial phrases—built on present participles (<foreign>-ing</foreign>) or past participles (<foreign>-ed/-en</foreign>)—function as adjectivals.</p>
+    <p>Relative clauses are powerful but sometimes more than a sentence needs. When the modifier is simple enough, English offers a more compact option: the participial phrase. Compare <foreign>the woman who was talking on the phone</foreign> with <foreign>the woman talking on the phone</foreign>. The second version drops the relative pronoun and the auxiliary verb, keeping only the participle and what follows it. This compression is one reason participial phrases appear so frequently in edited academic prose—they pack modification efficiently without the overhead of a full relative clause.</p>
+
+    <paragraphs>
+      <title>Formation</title>
+    </paragraphs>
+
+    <p>A participial phrase is built on a present participle (<foreign>-ing</foreign>) or past participle (<foreign>-ed/-en</foreign>) plus any complements or modifiers:</p>
+
+    <ul>
+      <li><p><em>Present participial:</em> <foreign>the woman <em>talking on the phone</em></foreign></p></li>
+      <li><p><em>Past participial:</em> <foreign>the report <em>written by the committee</em></foreign></p></li>
+    </ul>
 
     <paragraphs>
       <title>Present Participial Phrases</title>
     </paragraphs>
 
-    <p>Express ongoing action or state:</p>
+    <p>These express ongoing action or state. The present participle form (<foreign>-ing</foreign>) suggests active voice and simultaneous or habitual action:</p>
 
     <ul>
       <li><p><foreign>the woman <em>talking on the phone</em></foreign></p></li>
-      <li><p><foreign><em>students waiting in line</em></foreign></p></li>
+      <li><p><foreign>students <em>waiting in line</em></foreign></p></li>
       <li><p><foreign>a child <em>playing in the park</em></foreign></p></li>
     </ul>
 
@@ -380,7 +790,7 @@
       <title>Past Participial Phrases</title>
     </paragraphs>
 
-    <p>Express completed action or state, often passive in meaning:</p>
+    <p>These express completed action or state, often passive in meaning:</p>
 
     <ul>
       <li><p><foreign>the report <em>written by the committee</em></foreign></p></li>
@@ -397,7 +807,7 @@
       <title>Reduced Relative Clauses</title>
     </paragraphs>
 
-    <p>Participial phrases can often be seen as reduced relative clauses:</p>
+    <p>Participial phrases can often be understood as reduced relative clauses—relative clauses with the relative pronoun and auxiliary verb deleted:</p>
 
     <ul>
       <li><p><foreign>the woman who is talking</foreign> → <foreign>the woman talking</foreign></p></li>
@@ -408,7 +818,7 @@
       <title>Position</title>
     </paragraphs>
 
-    <p>Participial phrases typically follow the noun:</p>
+    <p>Participial phrases typically follow the noun they modify:</p>
 
     <ul>
       <li><p><foreign>the man <em>standing by the door</em></foreign></p></li>
@@ -426,120 +836,131 @@
       <title>Dangling Participles</title>
     </paragraphs>
 
-    <p>Participial phrases must clearly modify the intended noun. <term>Dangling participles</term> occur when the modifier doesn't logically connect:</p>
+    <p>A <term>dangling participle</term> occurs when a participial phrase does not logically connect to the noun it appears to modify:</p>
 
     <ul>
       <li><p><foreign><delete>Walking down the street, the trees were beautiful.</delete></foreign> (trees weren't walking)</p></li>
       <li><p>Correct: <foreign><em>Walking down the street</em>, I noticed the beautiful trees.</foreign></p></li>
     </ul>
 
-  </section>
-
-  <section xml:id="ch-13-adjectivals-sec-136">
-    <title>Adjectival Positions</title>
-
-    <p>You may have noticed in the previous sections that single adjectives tend to appear before the noun (<foreign>the tall man</foreign>), while longer phrases and clauses tend to appear after it (<foreign>the man in the hat</foreign>, <foreign>the man who arrived late</foreign>). This is not arbitrary: English has a strong preference for keeping modifiers close to the nouns they modify without disrupting the noun's core structure. A single word can slip in before the noun easily, but a relative clause or a long prepositional phrase would be awkward and confusing in that position. Understanding the three positional slots available to adjectivals—pre-modification, post-modification, and predicative—helps explain both why modifiers appear where they do and what options a writer has when constructing complex noun phrases.</p>
-
-    <p>Adjectivals can appear in different positions relative to the noun.</p>
+    <p>The fix: make sure the subject of the main clause is the one performing the action of the participle.</p>
 
     <paragraphs>
-      <title>Pre-modification (Attributive Position Before Noun)</title>
+      <title>Labeling Table</title>
     </paragraphs>
 
-    <p>Single adjectives and some phrases appear before the noun:</p>
-
-    <ul>
-      <li><p><foreign>the <em>tall</em> man</foreign></p></li>
-      <li><p><foreign>a <em>very interesting</em> book</foreign></p></li>
-      <li><p><foreign><em>running</em> water</foreign></p></li>
-      <li><p><foreign>the <em>government</em> report</foreign></p></li>
-    </ul>
-
-    <image source="diagrams/new/ch13_adj_prenominal.png" width="35%">
-      <description>Syntax tree for "The red car stopped" showing a prenominal adjective modifying "car"</description>
-    </image>
-    <p><c>[S [NP [DET The] [ADJ red] [N car]] [VP [V stopped]]]</c></p>
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell></cell><cell></cell><cell>Pred</cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>VP</cell><cell></cell><cell>NP</cell><cell></cell><cell>VP</cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>woman</foreign></cell><cell><foreign>wearing</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>red</foreign></cell><cell><foreign>coat</foreign></cell><cell><foreign>smiled</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>DET</cell><cell>ADJ</cell><cell>N</cell><cell>V</cell></row>
+    </tabular>
 
     <paragraphs>
-      <title>Post-modification (After Noun)</title>
+      <title>Key Points</title>
     </paragraphs>
 
-    <p>Longer phrases and clauses follow the noun:</p>
-
     <ul>
-      <li><p><foreign>the man <em>in the hat</em></foreign></p></li>
-      <li><p><foreign>a book <em>about grammar</em></foreign></p></li>
-      <li><p><foreign>the student <em>who won the prize</em></foreign></p></li>
-      <li><p><foreign>the report <em>published yesterday</em></foreign></p></li>
+      <li><p>Present participles (<foreign>-ing</foreign>) suggest active, ongoing action; past participles (<foreign>-ed/-en</foreign>) suggest completed, often passive action.</p></li>
+      <li><p>Multi-word participial phrases follow the noun; single-word participles can precede it.</p></li>
+      <li><p>Always check that the participle logically modifies the intended noun to avoid dangling participles.</p></li>
+      <li><p>Participial phrases are structurally more compact than the relative clauses they reduce.</p></li>
     </ul>
-
-    <paragraphs>
-      <title>Predicative Position (After Linking Verb)</title>
-    </paragraphs>
-
-    <p>Adjective phrases also appear as subject complements:</p>
-
-    <ul>
-      <li><p><q><foreign>The man is <em>tall</em>.</foreign></q></p></li>
-      <li><p><q><foreign>The book seems <em>interesting</em>.</foreign></q></p></li>
-      <li><p><q><foreign>She became <em>happy about the news</em>.</foreign></q></p></li>
-    </ul>
-
-    <image source="diagrams/new/ch13_adj_predicative.png" width="40%">
-      <description>Syntax tree for "The car is red" showing an adjective in predicative position as a subject complement</description>
-    </image>
-    <p><c>[S [NP [DET The] [N car]] [VP [V is] [ADJP [ADJ red]]]]</c></p>
-
-    <p>Note: Some adjectives only work attributively (<foreign>the main reason</foreign>, not <foreign><delete>the reason is main</delete></foreign>), while others only work predicatively (<foreign>the child is asleep</foreign>, not <foreign><delete>the asleep child</delete></foreign>).</p>
 
   </section>
 
-  <section xml:id="ch-13-adjectivals-sec-137">
-    <title>Stacking Adjectivals</title>
+  <!-- ============================================================ -->
+  <!-- 13.10  INFINITIVE PHRASE ADJECTIVALS                          -->
+  <!-- ============================================================ -->
 
-    <p>A noun phrase can carry more than one modifier at once. In fact, some of the most information-dense noun phrases in academic and legal writing stack several adjectivals—pre-modifiers, post-modifiers, and even relative clauses—onto a single head noun. Consider: <foreign>the talented young American jazz musician from New Orleans who won the competition</foreign>. Every element from <foreign>talented</foreign> to <foreign>who won the competition</foreign> is modifying <foreign>musician</foreign>. Pre-modifiers line up before the noun in a conventional sequence that English speakers follow intuitively (opinion before size, size before color, and so on), and post-modifiers queue up after the noun in the order they are added. Understanding how stacking works—and what constraints govern the order of pre-modifiers in particular—lets you both analyze complex noun phrases and construct them deliberately.</p>
+  <section xml:id="ch-13-adjectivals-sec-1310">
+    <title>Infinitive Phrase Adjectivals</title>
 
-    <p>Multiple adjectivals can modify the same noun.</p>
+    <p>In Chapter 12 you saw infinitive phrases functioning as adverbials of purpose (<foreign>She came to help</foreign>). In Chapter 14 you will see them as nominals (subjects and objects). Here the focus is on their adjectival use. When an infinitive phrase appears after a noun and modifies it—answering the question <em>which one?</em> or <em>what kind?</em>—it is functioning as an adjectival. This is a common pattern, especially with abstract nouns and indefinite pronouns.</p>
 
     <paragraphs>
-      <title>Order of Pre-modifiers</title>
+      <title>Formation</title>
     </paragraphs>
 
-    <p>When multiple adjectives precede a noun, they typically follow this order:</p>
-
-    <ol>
-      <li><p>Determiner: <foreign>the, a, my</foreign></p></li>
-      <li><p>Opinion: <foreign>beautiful, interesting</foreign></p></li>
-      <li><p>Size: <foreign>big, small</foreign></p></li>
-      <li><p>Age: <foreign>old, new</foreign></p></li>
-      <li><p>Shape: <foreign>round, square</foreign></p></li>
-      <li><p>Color: <foreign>red, blue</foreign></p></li>
-      <li><p>Origin: <foreign>French, American</foreign></p></li>
-      <li><p>Material: <foreign>wooden, metal</foreign></p></li>
-      <li><p>Purpose: <foreign>cooking, reading</foreign></p></li>
-      <li><p>NOUN</p></li>
-    </ol>
+    <p>Adjectival infinitive phrase = <em>to</em> + base verb + (complements/modifiers). The infinitive phrase follows the noun it modifies:</p>
 
     <ul>
-      <li><p><foreign>a beautiful large old round red French wooden cooking pot</foreign></p></li>
+      <li><p><foreign>a book <em>to read</em></foreign> (which book?)</p></li>
+      <li><p><foreign>the decision <em>to leave</em></foreign> (which decision?)</p></li>
+      <li><p><foreign>something <em>to eat</em></foreign> (which thing?)</p></li>
+      <li><p><foreign>the first person <em>to arrive</em></foreign> (which person?)</p></li>
+      <li><p><foreign>a place <em>to stay</em></foreign> (which place?)</p></li>
+      <li><p><foreign>the ability <em>to learn</em></foreign> (which ability?)</p></li>
     </ul>
 
     <paragraphs>
-      <title>Multiple Post-modifiers</title>
+      <title>Common Patterns</title>
     </paragraphs>
 
-    <p>Post-modifiers can stack, but order matters for meaning:</p>
+    <p>Adjectival infinitives appear most often with:</p>
 
     <ul>
-      <li><p><foreign>the book <em>on the table</em> <em>that I mentioned</em></foreign></p></li>
-      <li><p><foreign>the man <em>in the hat</em> <em>standing by the door</em></foreign></p></li>
+      <li><p><em>Abstract nouns:</em> <foreign>the decision <em>to resign</em></foreign>, <foreign>the need <em>to act</em></foreign>, <foreign>the right <em>to vote</em></foreign>, <foreign>the ability <em>to adapt</em></foreign></p></li>
+      <li><p><em>Indefinite pronouns:</em> <foreign>something <em>to eat</em></foreign>, <foreign>nothing <em>to fear</em></foreign>, <foreign>someone <em>to trust</em></foreign></p></li>
+      <li><p><em>Ordinals and superlatives:</em> <foreign>the first person <em>to arrive</em></foreign>, <foreign>the best way <em>to learn</em></foreign></p></li>
     </ul>
 
-    <p>Each post-modifier attaches to the preceding NP.</p>
+    <paragraphs>
+      <title>Adjectival vs. Adverbial Infinitives</title>
+    </paragraphs>
+
+    <p>How do you tell an adjectival infinitive from an adverbial one? The test is the same as for PPs: does it modify a noun or a verb?</p>
+
+    <ul>
+      <li><p><foreign>She has a book <em>to read</em>.</foreign> — <em>to read</em> modifies <foreign>book</foreign> (which book?) → adjectival</p></li>
+      <li><p><foreign>She came <em>to read</em>.</foreign> — <em>to read</em> modifies <foreign>came</foreign> (why did she come?) → adverbial</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell>Pred</cell><cell>DO</cell><cell></cell><cell>Adjvl</cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell>VP</cell><cell>NP</cell><cell></cell><cell>VP</cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>He</foreign></cell><cell><foreign>has</foreign></cell><cell><foreign>time</foreign></cell><cell><foreign>to</foreign></cell><cell><foreign>spare</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>N</cell><cell>PREP</cell><cell>V</cell></row>
+    </tabular>
+
+    <p>The infinitive phrase <foreign>to spare</foreign> modifies the noun <foreign>time</foreign>—it tells us <em>which kind of time</em>, not <em>why</em> he has it.</p>
+
+    <paragraphs>
+      <title>Key Points</title>
+    </paragraphs>
+
+    <ul>
+      <li><p>Adjectival infinitives always follow the noun they modify (post-modification).</p></li>
+      <li><p>They are especially common with abstract nouns, indefinite pronouns, and ordinals/superlatives.</p></li>
+      <li><p>The same infinitive form can be adjectival, adverbial, or nominal depending on context—always check what it modifies.</p></li>
+      <li><p>In diagrams, the infinitive phrase nests inside the NP it modifies.</p></li>
+    </ul>
 
   </section>
 
-    <section xml:id="ch-13-homework">
+  <!-- ============================================================ -->
+  <!-- HOMEWORK                                                      -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-13-homework">
     <title>Homework: Adjectivals</title>
 
     <subsection>
@@ -668,34 +1089,98 @@
     </subsection>
 
     <subsection>
-      <title>Part 4: Sentence Writing (approx. 7 minutes)</title>
+      <title>Part 4: Diagramming Adjectivals</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Write original sentences following each prompt.</p>
-
-      <paragraphs>
-        <title>Example (completed)</title>
-      </paragraphs>
-
-      <p>Write a sentence with a non-restrictive relative clause:</p>
-
-      <p><foreign>My grandmother, who turned ninety last month, still tends her garden every day.</foreign></p>
+      <p>For each sentence, complete the labeling table (Role, Phrase, Word, POS), write the bracket notation, and draw a tree diagram. Pay special attention to adjectival elements: relative clauses (RC), adjective phrases (ADJP), and prepositional phrases (PP) modifying nouns.</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 16.</em> Write a sentence with a restrictive relative clause using <foreign>that</foreign>:</p>
+      <p><em>Exercise 16.</em> <foreign>The student who won the award celebrated.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>student</foreign></cell><cell><foreign>who</foreign></cell><cell><foreign>won</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>award</foreign></cell><cell><foreign>celebrated</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 17.</em> Write a sentence with a present participial phrase modifying the subject:</p>
+      <p><em>Exercise 17.</em> <foreign>The extremely tall building collapsed.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>extremely</foreign></cell><cell><foreign>tall</foreign></cell><cell><foreign>building</foreign></cell><cell><foreign>collapsed</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 18.</em> Write a sentence with a past participial phrase modifying a noun:</p>
+      <p><em>Exercise 18.</em> <foreign>The book on the table is mine.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>book</foreign></cell><cell><foreign>on</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>table</foreign></cell><cell><foreign>is</foreign></cell><cell><foreign>mine</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 19.</em> Write a sentence with an infinitive phrase functioning as an adjectival:</p>
+      <p><em>Exercise 19.</em> <foreign>Running water flowed through the pipe.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>Running</foreign></cell><cell><foreign>water</foreign></cell><cell><foreign>flowed</foreign></cell><cell><foreign>through</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>pipe</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 20.</em> Write a sentence with multiple pre-modifying adjectives (at least three):</p>
+      <p><em>Exercise 20.</em> <foreign>The woman wearing the red coat smiled.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>woman</foreign></cell><cell><foreign>wearing</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>red</foreign></cell><cell><foreign>coat</foreign></cell><cell><foreign>smiled</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
     </subsection>
 
     <subsection>
@@ -760,45 +1245,85 @@
     <p><em>Total estimated time: 40 minutes</em></p>
   </section>
 
+  <!-- ============================================================ -->
+  <!-- DIAGRAM EXAMPLES                                              -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-13-diagram-examples">
     <title>Diagram Examples</title>
 
-    <p>This section provides reference diagrams for complement clause structures introduced in this chapter.</p>
+    <p>This section provides reference diagrams for adjectival structures introduced in this chapter.</p>
 
-    <subsection xml:id="ch-13-diagrams-complement">
-      <title>Complement Clauses</title>
-
-      <paragraphs>
-        <title>13.8.1 A: That-clause in object position: I know that you cry.</title>
-      </paragraphs>
-      <image source="diagrams/new/ch13_that_clause_object.png" width="55%">
-        <description>Syntax tree for "I know that you cry" showing complement clause as object</description>
-      </image>
-      <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]</c></p>
+    <subsection xml:id="ch-13-diagrams-adjectival">
+      <title>Adjectival Positions</title>
 
       <paragraphs>
-        <title>13.8.1 B: That-clause in subject position: That you cry upsets me.</title>
+        <title>13.11.1 A: Prenominal adjective: The red car stopped.</title>
       </paragraphs>
-      <image source="diagrams/new/ch13_that_clause_subject.png" width="55%">
-        <description>Syntax tree for "That you cry upsets me" showing complement clause as subject</description>
+      <image source="diagrams/new/ch13_adj_prenominal.png" width="35%">
+        <description>Syntax tree for "The red car stopped" showing a prenominal adjective modifying "car"</description>
       </image>
-      <p><c>[S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]</c></p>
+      <p><c>[S [NP [DET The] [ADJ red] [N car]] [VP [V stopped]]]</c></p>
 
       <paragraphs>
-        <title>13.8.1 C: If/whether-clause in object position: I wonder if you cry.</title>
+        <title>13.11.1 B: Predicative adjective: The car is red.</title>
       </paragraphs>
-      <image source="diagrams/new/ch13_if_clause.png" width="55%">
-        <description>Syntax tree for "I wonder if you cry" showing if-clause as object</description>
+      <image source="diagrams/new/ch13_adj_predicative.png" width="40%">
+        <description>Syntax tree for "The car is red" showing an adjective in predicative position as a subject complement</description>
       </image>
-      <p><c>[S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]</c></p>
+      <p><c>[S [NP [DET The] [N car]] [VP [V is] [ADJP [ADJ red]]]]</c></p>
 
       <paragraphs>
-        <title>13.8.1 D: Missing complementizer: I know you cry.</title>
+        <title>13.11.1 C: PP adjectival: The book on the shelf is mine.</title>
       </paragraphs>
-      <image source="diagrams/new/ch13_missing_comp.png" width="55%">
-        <description>Syntax tree for "I know you cry" showing omitted complementizer</description>
+      <image source="diagrams/new/ch13_pp_adjectival.png" width="50%">
+        <description>Syntax tree for "The book on the shelf is mine" showing a PP post-modifier inside the subject NP</description>
       </image>
-      <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]</c></p>
+      <p><c>[S [NP [DET The] [N book] [PP [PREP on] [NP [DET the] [N shelf]]]] [VP [V is] [PRON mine]]]</c></p>
+    </subsection>
+
+    <subsection xml:id="ch-13-diagrams-clausal">
+      <title>Relative Clauses and Participial Phrases</title>
+
+      <paragraphs>
+        <title>13.11.2 A: Restrictive relative clause: The students who studied passed.</title>
+      </paragraphs>
+      <image source="diagrams/new/ch13_rel_clause_restr.png" width="45%">
+        <description>Syntax tree for "The students who studied passed" showing a restrictive relative clause embedded inside the subject NP</description>
+      </image>
+      <p><c>[S [NP [DET The] [N students] [RC [REL who] [VP [V studied]]]] [VP [V passed]]]</c></p>
+
+      <paragraphs>
+        <title>13.11.2 B: Non-restrictive relative clause: My sister who lives in Boston called.</title>
+      </paragraphs>
+      <image source="diagrams/new/ch13_rel_clause_non_restr.png" width="60%">
+        <description>Syntax tree for "My sister who lives in Boston called" showing a non-restrictive relative clause modifying the NP "My sister"</description>
+      </image>
+      <p><c>[S [NP [NP [PRON My] [N sister]] [RC [REL who] [VP [V lives] [PP [PREP in] [NP [N Boston]]]]]] [VP [V called]]]</c></p>
+
+      <paragraphs>
+        <title>13.11.2 C: Present participial phrase: The woman singing on stage left.</title>
+      </paragraphs>
+      <image source="diagrams/new/ch13_pres_part_phrase.png" width="60%">
+        <description>Syntax tree for "The woman singing on stage left" showing a present participial phrase modifying "woman"</description>
+      </image>
+      <p><c>[S [NP [DET The] [N woman] [VP [V singing] [PP [PREP on] [NP [N stage]]]]] [VP [V left]]]</c></p>
+
+      <paragraphs>
+        <title>13.11.2 D: Past participial phrase: The report written by the team was thorough.</title>
+      </paragraphs>
+      <image source="diagrams/new/ch13_past_part_phrase.png" width="65%">
+        <description>Syntax tree for "The report written by the team was thorough" showing a past participial phrase modifying "report"</description>
+      </image>
+      <p><c>[S [NP [DET The] [N report] [VP [V written] [PP [PREP by] [NP [DET the] [N team]]]]] [VP [V was] [ADJP [ADJ thorough]]]]</c></p>
+
+      <paragraphs>
+        <title>13.11.2 E: Infinitive adjectival: He has time to spare.</title>
+      </paragraphs>
+      <image source="diagrams/new/ch13_inf_adjectival.png" width="45%">
+        <description>Syntax tree for "He has time to spare" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
+      </image>
+      <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [PREP to] [V spare]]]]]</c></p>
     </subsection>
 
   </section>
@@ -807,7 +1332,7 @@
     <title>Glossary</title>
     <gi>
       <title>Adjectival</title>
-      <p>Any word, phrase, or clause functioning to modify a noun.</p>
+      <p>Any word, phrase, or clause functioning to modify a noun (a role in a sentence).</p>
     </gi>
     <gi>
       <title>Adjective</title>
@@ -818,12 +1343,20 @@
       <p>The position before a noun in the NP (<foreign>the tall man</foreign>).</p>
     </gi>
     <gi>
+      <title>Contact clause</title>
+      <p>A relative clause with the relative pronoun omitted (<foreign>the book I read</foreign>).</p>
+    </gi>
+    <gi>
       <title>Dangling participle</title>
       <p>A participial phrase that doesn't clearly modify the intended noun.</p>
     </gi>
     <gi>
       <title>Non-restrictive modifier</title>
-      <p>A modifier that adds supplementary information; set off with commas.</p>
+      <p>A modifier that adds supplementary information about an already-identified referent; set off with commas.</p>
+    </gi>
+    <gi>
+      <title>Noun adjunct</title>
+      <p>A noun that modifies another noun in attributive position (<foreign>coffee table</foreign>, <foreign>government report</foreign>).</p>
     </gi>
     <gi>
       <title>Participial phrase</title>
