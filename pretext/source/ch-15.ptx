@@ -6,21 +6,14 @@
   <objectives>
     <title>Learning Objectives</title>
     <ul>
-      <li><p>Use commas correctly in compound and complex sentences</p></li>
+      <li><p>Understand punctuation as a system that encodes grammatical structure in writing</p></li>
+      <li><p>Choose between periods, semicolons, commas with conjunctions, and colons for connecting sentences</p></li>
+      <li><p>Use commas correctly with introductory elements, series, coordinate adjectives, and nonrestrictive modifiers</p></li>
       <li><p>Apply semicolons and colons appropriately</p></li>
       <li><p>Use apostrophes for possession and contractions</p></li>
-      <li><p>Employ dashes and parentheses for emphasis and supplementary information</p></li>
-      <li><p>Understand quotation mark conventions</p></li>
-      <li><p>Apply punctuation rules consistently</p></li>
-      <li><p>Comma</p></li>
-      <li><p>Semicolon</p></li>
-      <li><p>Colon</p></li>
-      <li><p>Apostrophe</p></li>
-      <li><p>Dash</p></li>
-      <li><p>Parentheses</p></li>
-      <li><p>Quotation marks</p></li>
-      <li><p>Terminal punctuation</p></li>
-      <li><p></p></li>
+      <li><p>Choose among commas, dashes, and parentheses for parenthetical information</p></li>
+      <li><p>Integrate quotations grammatically into sentences</p></li>
+      <li><p>Key terms: Comma splice, Nonrestrictive element, Restrictive element, Oxford comma, Terminal punctuation, Open punctuation, Close punctuation, Parenthetical, Extraposition</p></li>
     </ul>
   </objectives>
 
@@ -28,24 +21,72 @@
 
   <p>The marks covered here range from the universal (periods end sentences) to the nuanced (commas with nonrestrictive modifiers reflect the grammar of modification). As you work through this chapter, notice how often a punctuation rule is really a grammar rule in disguise. The rule about comma splices, for instance, is just the observation that two independent clauses are two independent clauses—and joining them requires more than a comma. The rule about commas with nonrestrictive relative clauses follows directly from the restrictive/nonrestrictive distinction you studied in Chapter 13. Punctuation and grammar are not separate subjects; they are the same subject viewed from two angles.</p>
 
+  <!-- ============================================================ -->
+  <!-- 15.1  THE PURPOSE OF PUNCTUATION                              -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-15-punctuation-sec-151">
     <title>The Purpose of Punctuation</title>
 
-    <p>Punctuation marks are visual signals that clarify meaning and guide readers through text. They indicate pauses, separate elements, and show relationships between parts of sentences.</p>
+    <p>Punctuation marks are visual signals that clarify meaning and guide readers through text. They indicate pauses, separate elements, and show relationships between parts of sentences. Without them, written English would be a continuous stream of words with no way to distinguish where one idea ends and another begins.</p>
 
-    <p>Good punctuation makes prose easier to read and prevents misunderstanding:</p>
+    <p>Good punctuation prevents misunderstanding:</p>
 
     <ul>
       <li><p><foreign>Let's eat grandma.</foreign> (disturbing)</p></li>
       <li><p><foreign>Let's eat, grandma.</foreign> (dinner invitation)</p></li>
     </ul>
 
+    <paragraphs>
+      <title>Two Approaches to Punctuation</title>
+    </paragraphs>
+
+    <p>Writers and editors generally follow one of two philosophies:</p>
+
+    <ul>
+      <li><p><em>Syntactic punctuation</em> treats marks as grammatical signals. A comma appears because the grammar requires it—between independent clauses joined by a conjunction, after introductory elements, around nonrestrictive modifiers. This approach is systematic: learn the structures, and the punctuation follows.</p></li>
+      <li><p><em>Rhetorical punctuation</em> treats marks as guides to reading rhythm. A comma appears where the writer wants a pause or a shift in emphasis—even if no grammatical rule demands one. This approach is flexible but less predictable.</p></li>
+    </ul>
+
+    <p>This textbook follows the syntactic approach, because grammar provides a consistent foundation. However, both approaches overlap in practice: most syntactic boundaries also correspond to natural pauses.</p>
+
+    <paragraphs>
+      <title>Open vs. Close Punctuation</title>
+    </paragraphs>
+
+    <p>Another distinction is the density of punctuation a writer uses:</p>
+
+    <ul>
+      <li><p><term>Close punctuation</term> uses marks wherever the rules allow—commas after every introductory element, the Oxford comma in every series, semicolons between independent clauses. Academic and legal writing tends toward close punctuation.</p></li>
+      <li><p><term>Open punctuation</term> uses the minimum marks needed for clarity—omitting commas after short introductory elements, dropping the Oxford comma when no ambiguity results. Journalism and informal writing tend toward open punctuation.</p></li>
+    </ul>
+
+    <p>Neither style is wrong. The key is consistency within a piece of writing and awareness of your audience's expectations. Academic writing, which this textbook prepares you for, generally favors close punctuation.</p>
+
+    <paragraphs>
+      <title>Punctuation and Genre</title>
+    </paragraphs>
+
+    <p>Different genres and registers have different punctuation conventions:</p>
+
+    <ul>
+      <li><p><em>Academic writing:</em> Close punctuation, formal comma usage, semicolons and colons for complex sentence structures</p></li>
+      <li><p><em>Journalism:</em> Open punctuation, short sentences, minimal semicolons</p></li>
+      <li><p><em>Creative writing:</em> Flexible—dashes and fragments for effect, unconventional spacing for emphasis</p></li>
+      <li><p><em>Legal writing:</em> Very close punctuation with minimal ambiguity; every comma is deliberate</p></li>
+      <li><p><em>Digital/informal:</em> Minimal punctuation, ellipses for trailing thoughts, periods sometimes perceived as abrupt</p></li>
+    </ul>
+
   </section>
+
+  <!-- ============================================================ -->
+  <!-- 15.2  TERMINAL PUNCTUATION                                    -->
+  <!-- ============================================================ -->
 
   <section xml:id="ch-15-punctuation-sec-152">
     <title>Terminal Punctuation</title>
 
-    <p>Every sentence in written English ends with one of three marks, and the choice among them is not arbitrary—it reflects the grammatical type of the sentence. You have already studied sentence types in Chapter 8: declarative sentences make statements, interrogative sentences ask questions, and exclamatory sentences express strong emotion or emphasis. Terminal punctuation encodes exactly these distinctions. The period, question mark, and exclamation point are, in that sense, the written counterparts of the sentence-type distinctions your grammar already recognizes.</p>
+    <p>Every sentence in written English ends with one of three marks, and the choice among them reflects the grammatical type of the sentence. You studied sentence types in Chapter 8: declarative sentences make statements, interrogative sentences ask questions, and exclamatory sentences express strong emotion. <term>Terminal punctuation</term> encodes exactly these distinctions.</p>
 
     <paragraphs>
       <title>Period (.)</title>
@@ -69,7 +110,7 @@
       <li><p><foreign>Have you finished?</foreign></p></li>
     </ul>
 
-    <p><em>Note</em>: Indirect questions take periods:</p>
+    <p><em>Note:</em> Indirect questions take periods, not question marks:</p>
 
     <ul>
       <li><p><foreign>She asked what time it was.</foreign></p></li>
@@ -86,118 +127,125 @@
       <li><p><foreign>What a surprise!</foreign></p></li>
     </ul>
 
-    <p>Use sparingly in formal writing.</p>
+    <p>Use sparingly in formal writing. Multiple exclamation points (<foreign>!!!</foreign>) are inappropriate in academic prose.</p>
 
   </section>
 
+  <!-- ============================================================ -->
+  <!-- 15.3  SENTENCE BOUNDARIES                                     -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-15-punctuation-sec-153">
-    <title>The Comma</title>
+    <title>Sentence Boundaries</title>
 
-    <p>The comma is the most frequently used—and misused—punctuation mark.</p>
-
-    <p>Most comma errors come from treating the comma as a breathing mark—a place to pause—rather than as a grammatical signal. The truth is that every major comma rule corresponds to a structural boundary you can identify. A comma before a coordinating conjunction signals that two independent clauses are being joined. A comma after an introductory element signals that an adverbial or other fronted constituent has ended and the main clause is beginning. Commas around a relative clause signal that it is nonrestrictive—adding extra information rather than restricting reference. Once you can see these grammatical boundaries, comma placement becomes a matter of analysis rather than intuition. The rules below are organized by the structural context they respond to.</p>
+    <p>One of the most important punctuation decisions a writer makes is how to handle the boundary between two independent clauses. English provides four options, each signaling a different relationship between the ideas. Choosing among them is partly grammatical and partly rhetorical: the grammar determines what is <em>legal</em>, and the writer's judgment determines what is <em>effective</em>.</p>
 
     <paragraphs>
-      <title>Comma in Compound Sentences</title>
+      <title>1. Period: Full Separation</title>
     </paragraphs>
 
-    <p>Place a comma before a coordinating conjunction joining independent clauses:</p>
+    <p>A period creates the strongest boundary—two separate sentences, two separate ideas:</p>
+
+    <ul>
+      <li><p><foreign>The rain stopped. We went outside.</foreign></p></li>
+    </ul>
+
+    <p>Use a period when the two ideas are related but do not need to be presented as a single thought.</p>
+
+    <paragraphs>
+      <title>2. Comma + Coordinating Conjunction: Compound Sentence</title>
+    </paragraphs>
+
+    <p>A comma before a coordinating conjunction (<foreign>and, but, or, nor, for, so, yet</foreign>) joins two independent clauses into a compound sentence. The conjunction makes the logical relationship explicit:</p>
 
     <ul>
       <li><p><foreign>The sun set, <em>and</em> the stars appeared.</foreign></p></li>
       <li><p><foreign>She tried hard, <em>but</em> she didn't succeed.</foreign></p></li>
+      <li><p><foreign>He must study, <em>or</em> he will fail.</foreign></p></li>
+    </ul>
+
+    <p><em>Important:</em> The comma goes <em>before</em> the conjunction, not after. And the comma is required only when both sides are independent clauses. When a conjunction joins two phrases (not clauses), no comma is needed:</p>
+
+    <ul>
+      <li><p><foreign>She is talented and creative.</foreign> (no comma—<foreign>and</foreign> joins two adjectives)</p></li>
     </ul>
 
     <paragraphs>
-      <title>Comma After Introductory Elements</title>
+      <title>3. Semicolon: Close Relationship</title>
     </paragraphs>
 
-    <p>Use a comma after introductory phrases or clauses:</p>
+    <p>A semicolon signals that two independent clauses are closely related—so closely that the writer wants to present them as a single unit. It provides a boundary weaker than a period but stronger than a comma:</p>
 
     <ul>
-      <li><p><foreign>After the meeting, we went to lunch.</foreign></p></li>
-      <li><p><foreign>However, I disagree.</foreign></p></li>
-      <li><p><foreign>Running quickly, she caught the bus.</foreign></p></li>
+      <li><p><foreign>The rain stopped; we went outside.</foreign></p></li>
+      <li><p><foreign>She's talented; however, she lacks experience.</foreign></p></li>
+    </ul>
+
+    <p>Note the second example: when a conjunctive adverb (<foreign>however, therefore, nevertheless, moreover</foreign>) connects two independent clauses, use a semicolon before it and a comma after:</p>
+
+    <ul>
+      <li><p><foreign>He was exhausted; however, he continued working.</foreign></p></li>
+      <li><p><foreign>The evidence is strong; therefore, we should proceed.</foreign></p></li>
     </ul>
 
     <paragraphs>
-      <title>Commas with Nonrestrictive Elements</title>
+      <title>4. Colon: Anticipation</title>
     </paragraphs>
 
-    <p>In Chapter 13 you learned the distinction between restrictive and nonrestrictive modifiers. That distinction does real grammatical work, and commas are how writing marks it. A restrictive modifier identifies which member of a group the noun phrase refers to—removing it would change the meaning of the sentence. A nonrestrictive modifier adds supplementary information about a noun phrase whose reference is already established—removing it leaves the core meaning intact. Commas signal to the reader: <em>what follows is extra information, not identification</em>.</p>
-
-    <p>Set off nonrestrictive (non-essential) modifiers with commas:</p>
+    <p>A colon signals that what follows explains, illustrates, or completes what came before. The first clause sets up an expectation, and what follows the colon fulfills it:</p>
 
     <ul>
-      <li><p><foreign>My sister, <em>who lives in Boston</em>, is visiting.</foreign></p></li>
-      <li><p><foreign>The report, <em>which I submitted yesterday</em>, was approved.</foreign></p></li>
-    </ul>
-
-    <p><em>Do not</em> use commas with restrictive (essential) modifiers:</p>
-
-    <ul>
-      <li><p><foreign>The students who studied passed.</foreign> (no commas—specifies which students)</p></li>
+      <li><p><foreign>She had one goal: to finish her degree.</foreign></p></li>
+      <li><p><foreign>The answer was clear: we needed more data.</foreign></p></li>
     </ul>
 
     <paragraphs>
-      <title>Commas in Series</title>
+      <title>The Comma Splice: What NOT to Do</title>
     </paragraphs>
 
-    <p>Separate items in a list:</p>
-
-    <ul>
-      <li><p><foreign>She bought apples, oranges, and bananas.</foreign></p></li>
-    </ul>
-
-    <p>The comma before <foreign>and</foreign> (the <term>Oxford comma</term>) is optional but recommended for clarity:</p>
-
-    <ul>
-      <li><p><foreign>I admire my parents, Gandhi, and Mother Teresa.</foreign> (clear)</p></li>
-      <li><p><foreign>I admire my parents, Gandhi and Mother Teresa.</foreign> (ambiguous)</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Commas with Coordinate Adjectives</title>
-    </paragraphs>
-
-    <p>Separate adjectives that independently modify the noun:</p>
-
-    <ul>
-      <li><p><foreign>a tall, elegant woman</foreign> (<foreign>tall</foreign> and <foreign>elegant</foreign> both modify <foreign>woman</foreign>)</p></li>
-    </ul>
-
-    <p><em>Test</em>: If you can put <foreign>and</foreign> between them, use a comma.</p>
-
-    <p><em>Don't</em> use commas between cumulative adjectives:</p>
-
-    <ul>
-      <li><p><foreign>a big red barn</foreign> (not <foreign><delete>big, red barn</delete></foreign>—<foreign>big red</foreign> modifies <foreign>barn</foreign> together)</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Comma Misuse</title>
-    </paragraphs>
-
-    <p><term>Comma splice</term>: Using only a comma between independent clauses:</p>
+    <p>A <term>comma splice</term> occurs when two independent clauses are joined with only a comma—no conjunction, no semicolon:</p>
 
     <ul>
       <li><p><foreign><delete>The rain stopped, we went outside.</delete></foreign></p></li>
-      <li><p>Correct: <foreign>The rain stopped, and we went outside.</foreign></p></li>
     </ul>
 
-    <p><em>Separating subject from verb</em>:</p>
+    <p>This is an error in standard written English. Fix it by using one of the four options above:</p>
 
     <ul>
-      <li><p><foreign><delete>The man who arrived late, was my cousin.</delete></foreign></p></li>
-      <li><p>Correct: <foreign>The man who arrived late was my cousin.</foreign></p></li>
+      <li><p><foreign>The rain stopped. We went outside.</foreign> (period)</p></li>
+      <li><p><foreign>The rain stopped, and we went outside.</foreign> (comma + conjunction)</p></li>
+      <li><p><foreign>The rain stopped; we went outside.</foreign> (semicolon)</p></li>
+      <li><p><foreign>The rain stopped: the clouds parted and the sun appeared.</foreign> (colon, if anticipatory)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Comma After Introductory Adverbial Clauses</title>
+    </paragraphs>
+
+    <p>When a dependent clause precedes the main clause, use a comma at the boundary:</p>
+
+    <ul>
+      <li><p><foreign><em>When the bell rang</em>, students left.</foreign></p></li>
+      <li><p><foreign><em>Because the roads were icy</em>, we drove slowly.</foreign></p></li>
+      <li><p><foreign><em>Although she was tired</em>, she finished the report.</foreign></p></li>
+    </ul>
+
+    <p>When the dependent clause follows the main clause, the comma is usually omitted:</p>
+
+    <ul>
+      <li><p><foreign>Students left <em>when the bell rang</em>.</foreign> (no comma)</p></li>
     </ul>
 
   </section>
 
+  <!-- ============================================================ -->
+  <!-- 15.4  THE SEMICOLON                                           -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-15-punctuation-sec-154">
     <title>The Semicolon</title>
 
-    <p>The semicolon occupies an interesting position in the punctuation system: it is stronger than a comma but weaker than a period. Grammatically, it signals that two independent clauses are closely related in meaning—so related that the writer wants to present them as a single unit rather than two separate sentences—but without the explicit logical connector that a coordinating conjunction like <foreign>and</foreign> or <foreign>but</foreign> would provide. Think of it as the written equivalent of a very short pause between two complete thoughts that belong together. Understanding what an independent clause is, which you studied in Chapter 8, is the key to using semicolons correctly.</p>
+    <p>Section 15.3 introduced the semicolon's primary role: joining closely related independent clauses. This section covers its other main use and summarizes the rules.</p>
 
     <paragraphs>
       <title>Between Independent Clauses</title>
@@ -214,18 +262,32 @@
       <title>In Complex Series</title>
     </paragraphs>
 
-    <p>Separates items in a series when items contain commas:</p>
+    <p>When items in a series already contain commas, semicolons prevent confusion by marking the boundaries between items:</p>
 
     <ul>
       <li><p><foreign>The committee includes Dr. Smith, president; Mr. Jones, treasurer; and Ms. Lee, secretary.</foreign></p></li>
+      <li><p><foreign>We visited Paris, France; Rome, Italy; and Berlin, Germany.</foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Common Errors</title>
+    </paragraphs>
+
+    <ul>
+      <li><p>Do not use a semicolon between an independent clause and a dependent clause: <foreign><delete>She left; because she was tired.</delete></foreign></p></li>
+      <li><p>Do not use a semicolon to introduce a list (use a colon): <foreign><delete>She bought three things; apples, bread, and milk.</delete></foreign></p></li>
     </ul>
 
   </section>
 
+  <!-- ============================================================ -->
+  <!-- 15.5  THE COLON                                               -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-15-punctuation-sec-155">
     <title>The Colon</title>
 
-    <p>Where the semicolon connects two independent clauses of roughly equal weight, the colon establishes a directional relationship: what comes before it is a complete sentence that anticipates something, and what comes after it delivers that something—a list, an explanation, a restatement, or a clarification. The grammatical rule that governs the colon follows from this directional logic: the material before the colon must be a complete independent clause. If the clause is incomplete, the colon breaks the flow of a construction that should be uninterrupted.</p>
+    <p>The colon establishes a directional relationship: what comes before it is a complete sentence that anticipates something, and what comes after it delivers that something—a list, an explanation, a restatement, or a clarification. The grammatical rule: the material before the colon must be a complete independent clause.</p>
 
     <paragraphs>
       <title>Introducing Lists</title>
@@ -237,7 +299,7 @@
       <li><p><foreign>Please bring the following items: a pen, a notebook, and a calculator.</foreign></p></li>
     </ul>
 
-    <p><em>Don't</em> use a colon after an incomplete sentence:</p>
+    <p><em>Do not</em> use a colon after an incomplete sentence:</p>
 
     <ul>
       <li><p><foreign><delete>Please bring: a pen, a notebook, and a calculator.</delete></foreign></p></li>
@@ -253,6 +315,23 @@
     <ul>
       <li><p><foreign>She had one goal: to finish her degree.</foreign></p></li>
       <li><p><foreign>The answer was clear: we needed more data.</foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Introducing Quotations</title>
+    </paragraphs>
+
+    <p>When a full sentence introduces a quotation, a colon is appropriate:</p>
+
+    <ul>
+      <li><p><foreign>The professor made her position clear: "We will not accept late submissions."</foreign></p></li>
+    </ul>
+
+    <p>When the quotation flows as part of the sentence, use a comma or no mark:</p>
+
+    <ul>
+      <li><p><foreign>She said, "I'll be there."</foreign> (comma—flows into the quote)</p></li>
+      <li><p><foreign>He called it "a masterpiece."</foreign> (no mark—integrated into the sentence)</p></li>
     </ul>
 
     <paragraphs>
@@ -273,30 +352,123 @@
 
   </section>
 
+  <!-- ============================================================ -->
+  <!-- 15.6  THE COMMA                                               -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-15-punctuation-sec-156">
+    <title>The Comma</title>
+
+    <p>The comma is the most frequently used—and misused—punctuation mark. Section 15.3 covered commas at sentence boundaries (compound sentences, introductory clauses). This section covers the remaining comma rules, all of which operate <em>within</em> a single clause rather than between clauses.</p>
+
+    <paragraphs>
+      <title>After Introductory Elements</title>
+    </paragraphs>
+
+    <p>Use a comma after introductory words, phrases, or short modifiers that precede the main clause:</p>
+
+    <ul>
+      <li><p><foreign><em>However</em>, I disagree.</foreign> (conjunctive adverb)</p></li>
+      <li><p><foreign><em>After the meeting</em>, we went to lunch.</foreign> (prepositional phrase)</p></li>
+      <li><p><foreign><em>Running quickly</em>, she caught the bus.</foreign> (participial phrase)</p></li>
+      <li><p><foreign><em>Frankly</em>, I'm not interested.</foreign> (disjunct)</p></li>
+    </ul>
+
+    <p>Very short introductory elements (one or two words) may omit the comma in open-punctuation styles: <foreign>Today we leave.</foreign> But in close punctuation and academic writing, the comma is preferred: <foreign>Today, we leave.</foreign></p>
+
+    <paragraphs>
+      <title>Commas with Nonrestrictive Elements</title>
+    </paragraphs>
+
+    <p>In Chapter 13 you learned the distinction between restrictive and nonrestrictive modifiers. Commas signal to the reader that a modifier is nonrestrictive—adding extra information rather than identifying which one:</p>
+
+    <ul>
+      <li><p><foreign>My sister, <em>who lives in Boston</em>, is visiting.</foreign> (nonrestrictive—one sister)</p></li>
+      <li><p><foreign>The report, <em>which I submitted yesterday</em>, was approved.</foreign> (nonrestrictive—report already identified)</p></li>
+    </ul>
+
+    <p><em>Do not</em> use commas with restrictive modifiers:</p>
+
+    <ul>
+      <li><p><foreign>The students who studied passed.</foreign> (restrictive—identifies which students)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Commas in Series</title>
+    </paragraphs>
+
+    <p>Separate items in a list of three or more:</p>
+
+    <ul>
+      <li><p><foreign>She bought apples, oranges, and bananas.</foreign></p></li>
+    </ul>
+
+    <p>The comma before <foreign>and</foreign> (the <term>Oxford comma</term>) is optional but recommended for clarity:</p>
+
+    <ul>
+      <li><p><foreign>I admire my parents, Gandhi, and Mother Teresa.</foreign> (clear)</p></li>
+      <li><p><foreign>I admire my parents, Gandhi and Mother Teresa.</foreign> (ambiguous—are the parents Gandhi and Mother Teresa?)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Commas with Coordinate Adjectives</title>
+    </paragraphs>
+
+    <p>Separate adjectives that independently modify the noun:</p>
+
+    <ul>
+      <li><p><foreign>a tall, elegant woman</foreign> (<foreign>tall</foreign> and <foreign>elegant</foreign> each modify <foreign>woman</foreign> independently)</p></li>
+    </ul>
+
+    <p><em>Test:</em> If you can put <foreign>and</foreign> between them and the meaning holds, use a comma.</p>
+
+    <p><em>Do not</em> use commas between cumulative adjectives (adjectives that build on each other in the fixed order from Chapter 13):</p>
+
+    <ul>
+      <li><p><foreign>a big red barn</foreign> (not <foreign><delete>big, red barn</delete></foreign>—<foreign>big</foreign> modifies <foreign>red barn</foreign> as a unit)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Comma Misuse: Separating Subject from Verb</title>
+    </paragraphs>
+
+    <p>Never place a comma between a subject and its verb, even when the subject is long:</p>
+
+    <ul>
+      <li><p><foreign><delete>The man who arrived late, was my cousin.</delete></foreign></p></li>
+      <li><p>Correct: <foreign>The man who arrived late was my cousin.</foreign></p></li>
+    </ul>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 15.7  THE APOSTROPHE                                          -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-15-punctuation-sec-157">
     <title>The Apostrophe</title>
 
-    <p>The apostrophe has two grammatically distinct jobs, and keeping them separate is the key to using it correctly. Its first job is to mark <em>possession</em>—the genitive relationship between a noun and whatever follows it. Recall from Chapter 5 that English has two ways to express this relationship: a prepositional phrase (<foreign>the tail of the dog</foreign>) and the Saxon genitive, which uses an apostrophe-s inflection (<foreign>the dog's tail</foreign>). The apostrophe in that construction is not decorative; it marks a real morphological operation. The apostrophe's second job is to signal <em>contraction</em>—the omission of one or more letters when two words are reduced to one. These two uses are unrelated to each other, but they share the same punctuation mark, which is why apostrophe errors are so common.</p>
+    <p>The apostrophe has two grammatically distinct jobs. Its first job is to mark <em>possession</em>—the genitive relationship between a noun and whatever follows it. Recall from Chapter 5 that English has two ways to express this relationship: a prepositional phrase (<foreign>the tail of the dog</foreign>) and the Saxon genitive, which uses an apostrophe-s inflection (<foreign>the dog's tail</foreign>). The apostrophe's second job is to signal <em>contraction</em>—the omission of one or more letters when two words are reduced to one.</p>
 
     <paragraphs>
       <title>Possession</title>
     </paragraphs>
 
-    <p>Singular nouns: Add <foreign>'s</foreign></p>
+    <p><em>Singular nouns:</em> Add <foreign>'s</foreign></p>
 
     <ul>
       <li><p><foreign>the dog's tail</foreign></p></li>
       <li><p><foreign>James's book</foreign> (or <foreign>James' book</foreign>)</p></li>
     </ul>
 
-    <p>Plural nouns ending in <foreign>-s</foreign>: Add <foreign>'</foreign></p>
+    <p><em>Plural nouns ending in <foreign>-s</foreign>:</em> Add <foreign>'</foreign></p>
 
     <ul>
       <li><p><foreign>the dogs' tails</foreign></p></li>
       <li><p><foreign>the students' grades</foreign></p></li>
     </ul>
 
-    <p>Plural nouns not ending in <foreign>-s</foreign>: Add <foreign>'s</foreign></p>
+    <p><em>Plural nouns not ending in <foreign>-s</foreign>:</em> Add <foreign>'s</foreign></p>
 
     <ul>
       <li><p><foreign>the children's toys</foreign></p></li>
@@ -311,8 +483,9 @@
 
     <ul>
       <li><p><foreign>don't</foreign> (<foreign>do not</foreign>)</p></li>
-      <li><p><foreign>it's</foreign> (<foreign>it is</foreign>)</p></li>
+      <li><p><foreign>it's</foreign> (<foreign>it is</foreign> or <foreign>it has</foreign>)</p></li>
       <li><p><foreign>they're</foreign> (<foreign>they are</foreign>)</p></li>
+      <li><p><foreign>won't</foreign> (<foreign>will not</foreign>)</p></li>
     </ul>
 
     <paragraphs>
@@ -323,23 +496,27 @@
 
     <ul>
       <li><p><foreign>Its</foreign> = possessive (<foreign>The dog wagged its tail.</foreign>)</p></li>
-      <li><p><foreign>It's</foreign> = <foreign>it is</foreign> (<foreign>It's raining.</foreign>)</p></li>
+      <li><p><foreign>It's</foreign> = contraction of <foreign>it is</foreign> (<foreign>It's raining.</foreign>)</p></li>
     </ul>
 
     <p><foreign>Their</foreign>, <foreign>There</foreign>, <foreign>They're</foreign>:</p>
 
     <ul>
-      <li><p><foreign>Their</foreign> = possessive (<foreign>Their house</foreign>)</p></li>
-      <li><p><foreign>There</foreign> = location (<foreign>over there</foreign>)</p></li>
-      <li><p><foreign>They're</foreign> = <foreign>they are</foreign> (<foreign>They're coming</foreign>)</p></li>
+      <li><p><foreign>Their</foreign> = possessive (<foreign>Their house is big.</foreign>)</p></li>
+      <li><p><foreign>There</foreign> = location (<foreign>Put it over there.</foreign>)</p></li>
+      <li><p><foreign>They're</foreign> = contraction of <foreign>they are</foreign> (<foreign>They're coming.</foreign>)</p></li>
     </ul>
 
   </section>
 
-  <section xml:id="ch-15-punctuation-sec-157">
+  <!-- ============================================================ -->
+  <!-- 15.8  DASHES AND PARENTHESES                                  -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-15-punctuation-sec-158">
     <title>Dashes and Parentheses</title>
 
-    <p>Both dashes and parentheses allow a writer to insert supplementary material into a sentence without making it a separate sentence. Grammatically, they solve the same problem: how do you include information that is relevant but not central to the main clause? The difference between them is one of emphasis and tone. Dashes are loud—they signal an interruption, an aside delivered with energy. Parentheses are quiet; they whisper supplementary information to the reader while the main clause continues on its way. Commas can serve the same function with nonrestrictive elements, so the choice among commas, dashes, and parentheses is partly stylistic, but the grammatical function is consistent across all three.</p>
+    <p>Both dashes and parentheses allow a writer to insert supplementary material into a sentence. Grammatically, they solve the same problem: how do you include information that is relevant but not central to the main clause? The difference is one of emphasis. Dashes are loud—they signal an interruption delivered with energy. Parentheses are quiet; they whisper supplementary information while the main clause continues.</p>
 
     <paragraphs>
       <title>Em Dash (—)</title>
@@ -350,85 +527,190 @@
     <ul>
       <li><p><foreign>The answer—surprisingly—was yes.</foreign></p></li>
       <li><p><foreign>She had one goal—and only one—to succeed.</foreign></p></li>
+      <li><p><foreign>Three students—Maria, James, and Lin—volunteered.</foreign></p></li>
     </ul>
 
-    <p>Creates stronger emphasis than commas.</p>
+    <p>Em dashes create stronger emphasis than commas. Use them when you want the parenthetical to stand out.</p>
 
     <paragraphs>
       <title>En Dash (–)</title>
     </paragraphs>
 
-    <p>Indicates ranges:</p>
+    <p>Indicates ranges and connections:</p>
 
     <ul>
       <li><p><foreign>pages 10–20</foreign></p></li>
       <li><p><foreign>the 2020–2021 academic year</foreign></p></li>
+      <li><p><foreign>the New York–London flight</foreign></p></li>
     </ul>
 
     <paragraphs>
       <title>Parentheses ( )</title>
     </paragraphs>
 
-    <p>Enclose supplementary or explanatory material:</p>
+    <p>Enclose supplementary or explanatory material that the writer wants to de-emphasize:</p>
 
     <ul>
       <li><p><foreign>The results (see Table 3) were significant.</foreign></p></li>
       <li><p><foreign>She graduated in 2010 (the same year I started).</foreign></p></li>
+      <li><p><foreign>The FANBOYS conjunctions (for, and, nor, but, or, yet, so) join independent clauses.</foreign></p></li>
     </ul>
 
-    <p>Creates less emphasis than dashes.</p>
+    <p>Parenthetical material can be removed without affecting the grammatical completeness of the sentence.</p>
 
   </section>
 
-  <section xml:id="ch-15-punctuation-sec-158">
+  <!-- ============================================================ -->
+  <!-- 15.9  QUOTATION MARKS                                         -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-15-punctuation-sec-159">
     <title>Quotation Marks</title>
 
-    <p>Quotation marks flag a special relationship between a piece of language and the text that contains it. When you quote someone directly, you are reporting their exact words rather than paraphrasing them—the quotation marks signal that the words inside belong to another speaker or writer, not to you. This is grammatically significant: you saw in Chapter 14 that English can embed speech both as a that-clause (<foreign>She said that she would come</foreign>, an indirect quotation with no quotation marks) and as a direct quotation (<foreign>She said, "I will come"</foreign>, where the original words are preserved). The choice between direct and indirect quotation changes the grammar of the sentence, and quotation marks are the written marker of the direct form.</p>
+    <p>Quotation marks flag a special relationship between a piece of language and the text that contains it. You saw in Chapter 14 that English can embed speech both as a that-clause (<foreign>She said that she would come</foreign>, an indirect quotation with no quotation marks) and as a direct quotation (<foreign>She said, "I will come"</foreign>, where the original words are preserved). The choice between direct and indirect quotation changes the grammar of the sentence, and quotation marks are the written marker of the direct form.</p>
 
     <paragraphs>
       <title>Direct Quotations</title>
     </paragraphs>
 
-    <p>Enclose exact words:</p>
+    <p>Enclose the exact words of a speaker or writer:</p>
 
     <ul>
       <li><p><foreign>She said, "I'll be there."</foreign></p></li>
       <li><p><foreign>"I'll be there," she said.</foreign></p></li>
+      <li><p><foreign>"I'll be there," she said, "as soon as I can."</foreign> (interrupted quotation)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Integrating Quotations Grammatically</title>
+    </paragraphs>
+
+    <p>When you incorporate a quotation into your own sentence, the result must be grammatically complete. There are three common patterns:</p>
+
+    <ul>
+      <li><p><em>Signal phrase + comma + quotation:</em> <foreign>She said, "The results are clear."</foreign></p></li>
+      <li><p><em>Full sentence + colon + quotation:</em> <foreign>The professor made her position clear: "We will not accept late submissions."</foreign></p></li>
+      <li><p><em>Quotation integrated into sentence grammar:</em> <foreign>He called the results "unprecedented" and "groundbreaking."</foreign> (no comma—the quote is part of the sentence's structure)</p></li>
     </ul>
 
     <paragraphs>
       <title>Titles</title>
     </paragraphs>
 
-    <p>Use for shorter works (articles, chapters, poems, songs):</p>
+    <p>Use quotation marks for titles of shorter works (articles, chapters, poems, songs, episodes):</p>
 
     <ul>
       <li><p><foreign>I read "The Road Not Taken."</foreign></p></li>
     </ul>
 
+    <p>Use italics for titles of longer works (books, journals, films, albums).</p>
+
     <paragraphs>
       <title>Punctuation with Quotation Marks</title>
     </paragraphs>
 
-    <p><em>American convention</em>: Periods and commas inside quotation marks:</p>
+    <p><em>American convention:</em> Periods and commas always go inside quotation marks:</p>
 
     <ul>
       <li><p><foreign>She said, "I agree."</foreign></p></li>
       <li><p><foreign>He called it "amazing," but I disagreed.</foreign></p></li>
     </ul>
 
-    <p><em>British convention</em>: Periods and commas may go outside if not part of the quotation.</p>
+    <p><em>British convention:</em> Periods and commas may go outside if not part of the quotation.</p>
 
-    <p>Question marks and exclamation points depend on the quotation:</p>
+    <p>Question marks and exclamation points depend on whether they belong to the quotation or the containing sentence:</p>
 
     <ul>
-      <li><p><foreign>Did she say "yes"?</foreign> (question is mine)</p></li>
-      <li><p><foreign>She asked, "Are you coming?"</foreign> (question is hers)</p></li>
+      <li><p><foreign>Did she say "yes"?</foreign> (the question is mine)</p></li>
+      <li><p><foreign>She asked, "Are you coming?"</foreign> (the question is hers)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Punctuation with Citations</title>
+    </paragraphs>
+
+    <p>In academic writing, parenthetical citations follow the closing quotation mark, and the period follows the citation:</p>
+
+    <ul>
+      <li><p><foreign>She argues that "grammar is a system, not a set of rules" (Smith 42).</foreign></p></li>
+    </ul>
+
+    <p>For block quotations (indented, no quotation marks), the citation follows the final period:</p>
+
+    <ul>
+      <li><p>Grammar is not a set of arbitrary rules imposed from above. It is the systematic structure that native speakers internalize through exposure and use. (Smith 42)</p></li>
     </ul>
 
   </section>
 
-    <section xml:id="ch-15-homework">
+  <!-- ============================================================ -->
+  <!-- 15.10  PARENTHETICALS                                         -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-15-punctuation-sec-1510">
+    <title>Parentheticals: Commas, Dashes, and Parentheses Compared</title>
+
+    <p>A <term>parenthetical</term> is any word, phrase, or clause inserted into a sentence to provide supplementary information that could be removed without changing the grammatical completeness of the sentence. English offers three ways to set off parenthetical material, and the choice among them is primarily one of emphasis:</p>
+
+    <paragraphs>
+      <title>The Emphasis Spectrum</title>
+    </paragraphs>
+
+    <p>From most to least emphasis:</p>
+
+    <ol>
+      <li><p><em>Dashes</em> — highest emphasis. The parenthetical calls attention to itself. Use for dramatic asides, surprising information, or material the reader should not miss.</p></li>
+      <li><p><em>Commas</em> — neutral emphasis. The parenthetical integrates smoothly into the sentence. Use for nonrestrictive modifiers and routine asides.</p></li>
+      <li><p><em>Parentheses</em> — lowest emphasis. The parenthetical is whispered. Use for technical details, citations, abbreviations, or truly peripheral information.</p></li>
+    </ol>
+
+    <paragraphs>
+      <title>The Same Information, Three Ways</title>
+    </paragraphs>
+
+    <p>Compare how the same parenthetical reads with each mark:</p>
+
+    <ul>
+      <li><p><foreign>The results—which surprised everyone—were published last week.</foreign> (dashes: "pay attention to this")</p></li>
+      <li><p><foreign>The results, which surprised everyone, were published last week.</foreign> (commas: smooth, integrated)</p></li>
+      <li><p><foreign>The results (which surprised everyone) were published last week.</foreign> (parentheses: "you can skip this if you want")</p></li>
+    </ul>
+
+    <p>All three are grammatically correct. The choice depends on the writer's rhetorical intent.</p>
+
+    <paragraphs>
+      <title>When Each Works Best</title>
+    </paragraphs>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell>Mark</cell>
+        <cell>Best for</cell>
+        <cell>Example</cell>
+      </row>
+      <row><cell>Dashes</cell><cell>Dramatic asides, surprising lists, emphasis</cell><cell><foreign>Three students—all freshmen—passed.</foreign></cell></row>
+      <row><cell>Commas</cell><cell>Nonrestrictive modifiers, routine elaboration</cell><cell><foreign>My sister, who lives in Boston, called.</foreign></cell></row>
+      <row><cell>Parentheses</cell><cell>Citations, definitions, technical details</cell><cell><foreign>The GDP (gross domestic product) fell.</foreign></cell></row>
+    </tabular>
+
+    <paragraphs>
+      <title>Key Points</title>
+    </paragraphs>
+
+    <ul>
+      <li><p>All three marks must come in pairs when they enclose material mid-sentence. Do not open a dash or parenthesis without closing it.</p></li>
+      <li><p>Do not mix marks: <foreign><delete>The results—which surprised everyone, were published.</delete></foreign></p></li>
+      <li><p>Overusing dashes diminishes their impact. Reserve them for moments that deserve emphasis.</p></li>
+      <li><p>In academic writing, commas are the default for nonrestrictive modifiers. Use dashes and parentheses as deliberate alternatives when the emphasis level matters.</p></li>
+    </ul>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- HOMEWORK                                                      -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-15-homework">
     <title>Homework: Punctuation</title>
 
     <subsection>
@@ -570,36 +852,101 @@
     </subsection>
 
     <subsection>
-      <title>Part 4: Comprehensive Punctuation (approx. 10 minutes)</title>
+      <title>Part 4: Diagramming Punctuation-Relevant Structures</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Add all necessary punctuation to the following passages.</p>
-
-      <paragraphs>
-        <title>Example (completed)</title>
-      </paragraphs>
-
-      <p>Unpunctuated: <foreign>When she arrived the meeting had already started however no one seemed to mind</foreign></p>
-
-      <p>Punctuated: <foreign>When she arrived, the meeting had already started; however, no one seemed to mind.</foreign></p>
+      <p>For each sentence, complete the labeling table (Role, Phrase, Word, POS), write the bracket notation, and draw a tree diagram. Pay attention to how the sentence structure relates to punctuation: compound sentences (comma + conjunction), non-restrictive clauses (comma pairs), adverbial fronting (introductory comma), and conjuncts.</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 16.</em> <foreign>When the meeting ended the participants left quickly however several stayed behind to discuss the proposal the main question was this should they proceed</foreign></p>
+      <p><em>Exercise 16.</em> <foreign>The storm ended, and the sun came out.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>storm</foreign></cell><cell><foreign>ended</foreign></cell><cell><foreign>and</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>sun</foreign></cell><cell><foreign>came</foreign></cell><cell><foreign>out</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p>Punctuated:</p>
+      <p><em>Exercise 17.</em> <foreign>Although she was tired, she finished the report.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>Although</foreign></cell><cell><foreign>she</foreign></cell><cell><foreign>was</foreign></cell><cell><foreign>tired</foreign></cell><cell><foreign>she</foreign></cell><cell><foreign>finished</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>report</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 17.</em> <foreign>The report which took three months to complete contained the following recommendations reduce costs improve efficiency and increase employee training however the board rejected all three proposals</foreign></p>
+      <p><em>Exercise 18.</em> <foreign>The professor, however, disagreed completely.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>professor</foreign></cell><cell><foreign>however</foreign></cell><cell><foreign>disagreed</foreign></cell><cell><foreign>completely</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p>Punctuated:</p>
+      <p><em>Exercise 19.</em> <foreign>My sister, who lives in Boston, visits often.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>My</foreign></cell><cell><foreign>sister</foreign></cell><cell><foreign>who</foreign></cell><cell><foreign>lives</foreign></cell><cell><foreign>in</foreign></cell><cell><foreign>Boston</foreign></cell><cell><foreign>visits</foreign></cell><cell><foreign>often</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 18.</em> <foreign>Dr Smith who has been teaching for twenty years said I believe that students learn best when theyre engaged in meaningful activities</foreign></p>
-
-      <p>Punctuated:</p>
+      <p><em>Exercise 20.</em> <foreign>After the lecture, students asked many questions.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>After</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>lecture</foreign></cell><cell><foreign>students</foreign></cell><cell><foreign>asked</foreign></cell><cell><foreign>many</foreign></cell><cell><foreign>questions</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
     </subsection>
 
     <subsection>
@@ -618,7 +965,7 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 19.</em> The following sentences are punctuated differently. Explain how the meaning changes:</p>
+      <p><em>Exercise 21.</em> The following sentences are punctuated differently. Explain how the meaning changes:</p>
 
       <p>a) <foreign>The students who studied passed the exam.</foreign></p>
 
@@ -631,10 +978,27 @@
       <p>How does punctuation change the meaning?</p>
 
       <paragraphs>
+        <title>Parenthetical Choices</title>
+      </paragraphs>
+
+      <p><em>Exercise 22.</em> Rewrite the following sentence three ways—using commas, dashes, and parentheses—and explain the effect of each:</p>
+
+      <p><foreign>The new policy which takes effect Monday will change everything.</foreign></p>
+
+      <p>With commas:</p>
+      <p>Effect:</p>
+
+      <p>With dashes:</p>
+      <p>Effect:</p>
+
+      <p>With parentheses:</p>
+      <p>Effect:</p>
+
+      <paragraphs>
         <title>Real-World Application</title>
       </paragraphs>
 
-      <p><em>Exercise 20.</em> Find or create a paragraph of 3-4 sentences. Identify at least four different punctuation marks and explain the grammatical reason for each.</p>
+      <p><em>Exercise 23.</em> Find or create a paragraph of 3-4 sentences. Identify at least four different punctuation marks and explain the grammatical reason for each.</p>
 
       <p>Paragraph:</p>
 
@@ -649,18 +1013,6 @@
 
       <p>Punctuation mark 4:</p>
       <p>Reason:</p>
-
-      <paragraphs>
-        <title>Reflection</title>
-      </paragraphs>
-
-      <p><em>Exercise 21.</em> Answer the following questions:</p>
-
-      <p>a) What punctuation rule do you find most confusing or difficult to apply consistently?</p>
-
-      <p>b) Why do you think this rule is challenging?</p>
-
-      <p>c) What strategy might help you master it?</p>
     </subsection>
 
     <p><em>Total estimated time: 40 minutes</em></p>
@@ -669,24 +1021,36 @@
   <glossary>
     <title>Glossary</title>
     <gi>
+      <title>Close punctuation</title>
+      <p>A punctuation style that uses marks wherever the rules allow; favored in academic and legal writing.</p>
+    </gi>
+    <gi>
       <title>Comma splice</title>
-      <p>The error of joining independent clauses with only a comma.</p>
+      <p>The error of joining independent clauses with only a comma and no conjunction.</p>
     </gi>
     <gi>
       <title>Nonrestrictive element</title>
-      <p>A modifier that adds extra information; set off with commas.</p>
+      <p>A modifier that adds extra information about an already-identified referent; set off with commas.</p>
+    </gi>
+    <gi>
+      <title>Open punctuation</title>
+      <p>A punctuation style that uses the minimum marks needed for clarity; common in journalism.</p>
     </gi>
     <gi>
       <title>Oxford comma</title>
-      <p>The comma before <foreign>and</foreign> in a series.</p>
+      <p>The comma before <foreign>and</foreign> in a series of three or more items.</p>
+    </gi>
+    <gi>
+      <title>Parenthetical</title>
+      <p>Any word, phrase, or clause inserted into a sentence as supplementary information that can be removed without affecting grammatical completeness.</p>
     </gi>
     <gi>
       <title>Restrictive element</title>
-      <p>A modifier essential for identification; no commas.</p>
+      <p>A modifier essential for identifying the referent; not set off with commas.</p>
     </gi>
     <gi>
       <title>Terminal punctuation</title>
-      <p>Punctuation that ends sentences (period, question mark, exclamation point).</p>
+      <p>Punctuation that ends sentences: period, question mark, exclamation point.</p>
     </gi>
   </glossary>
 
