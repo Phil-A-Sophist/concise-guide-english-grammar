@@ -7,149 +7,66 @@ Updated to match revised homework structure: Conjunctions and Clauses (5 parts, 
 from pathlib import Path
 from docx import Document
 from docx.shared import Pt, Inches
-from docx.oxml.ns import qn
-from docx.oxml import OxmlElement
+from answer_key_helpers import (
+    set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
+    add_plain_line, add_sub_sentence, setup_document, add_title_page,
+    add_part_heading, exercise_separator, get_font_config,
+    add_labeling_table, add_bracket_line, blank_labels,
+)
 
 
-def set_paragraph_spacing(paragraph, space_before=0, space_after=0):
-    pPr = paragraph._p.get_or_add_pPr()
-    spacing = OxmlElement('w:spacing')
-    spacing.set(qn('w:before'), str(int(space_before * 20)))
-    spacing.set(qn('w:after'), str(int(space_after * 20)))
-    pPr.append(spacing)
-
-
-def add_spacer_row(doc):
-    p = doc.add_paragraph()
-    run = p.add_run()
-    run.font.name = 'Times New Roman'
-    run.font.size = Pt(20)
-    pPr = p._p.get_or_add_pPr()
-    rPr = OxmlElement('w:rPr')
-    rFonts = OxmlElement('w:rFonts')
-    rFonts.set(qn('w:ascii'), 'Times New Roman')
-    rFonts.set(qn('w:hAnsi'), 'Times New Roman')
-    rPr.append(rFonts)
-    sz = OxmlElement('w:sz')
-    sz.set(qn('w:val'), '40')
-    rPr.append(sz)
-    pPr.append(rPr)
-    set_paragraph_spacing(p, space_before=0, space_after=0)
-    return p
-
-
-def add_exercise(doc, number, sentence, font_size, font_name=None):
-    p = doc.add_paragraph()
-    run = p.add_run(f'Exercise {number}. ')
-    run.bold = True
-    run.font.size = Pt(font_size)
-    if font_name:
-        run.font.name = font_name
-    if sentence:
-        run = p.add_run(sentence)
-        run.italic = True
-        run.font.size = Pt(font_size)
-        if font_name:
-            run.font.name = font_name
-    set_paragraph_spacing(p, space_before=6, space_after=3)
-    return p
-
-
-def add_answer_line(doc, label, answer, font_size, indent=0.35, font_name=None):
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(indent)
-    run = p.add_run(f'{label} ')
-    run.bold = True
-    run.font.size = Pt(font_size)
-    if font_name:
-        run.font.name = font_name
-    run = p.add_run(answer)
-    run.italic = True
-    run.font.size = Pt(font_size)
-    if font_name:
-        run.font.name = font_name
-    set_paragraph_spacing(p, space_before=0, space_after=2)
-    return p
-
-
-def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None, font_name=None):
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(indent)
-    if bold_prefix:
-        run = p.add_run(bold_prefix)
-        run.bold = True
-        run.font.size = Pt(font_size)
-        if font_name:
-            run.font.name = font_name
-    run = p.add_run(text)
-    run.font.size = Pt(font_size)
-    if font_name:
-        run.font.name = font_name
-    set_paragraph_spacing(p, space_before=0, space_after=2)
-    return p
-
-
-def add_sub_sentence(doc, sub, sentence, font_size, font_name=None):
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run(f'{sub} ')
-    run.bold = True
-    run.font.size = Pt(font_size)
-    if font_name:
-        run.font.name = font_name
-    if sentence:
-        run = p.add_run(sentence)
-        run.italic = True
-        run.font.size = Pt(font_size)
-        if font_name:
-            run.font.name = font_name
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-    return p
+DIAGRAM_EXERCISES = [
+    {
+        'sub': 'a)',
+        'sentence': 'Marcus and Elena traveled.',
+        'words':   ['Marcus', 'and', 'Elena', 'traveled'],
+        'roles':   ['Subj',   '',    '',       'Pred'],
+        'phrases': ['NP',     'CONJ','',        'VP'],
+        'pos':     ['N',      'CONJ','N',       'V'],
+        'bracket': '[S [NP [N Marcus] [CONJ and] [N Elena]] [VP [V traveled]]]',
+    },
+    {
+        'sub': 'b)',
+        'sentence': 'The dog barked and chased the squirrel.',
+        'words':   ['The',  'dog', 'barked', 'and',  'chased', 'the',  'squirrel'],
+        'roles':   ['Subj', '',    'Pred',   '',     '',       '',     ''],
+        'phrases': ['NP',   '',    'VP',     'CONJ', 'VP',     'NP',   ''],
+        'pos':     ['DET',  'N',   'V',      'CONJ', 'V',      'DET',  'N'],
+        'bracket': '[S [NP [DET The] [N dog]] [VP [V barked] [CONJ and] [VP [V chased] [NP [DET the] [N squirrel]]]]]',
+    },
+    {
+        'sub': 'c)',
+        'sentence': 'She writes poetry, and he composes music.',
+        'words':   ['She',   'writes', 'poetry', 'and',  'he',   'composes', 'music'],
+        'roles':   ['IC',    '',       '',       '',     'IC',   '',         ''],
+        'phrases': ['NP',    'VP',     'NP',     'CC',   'NP',   'VP',       'NP'],
+        'pos':     ['PRON',  'V',      'N',      'CONJ', 'PRON', 'V',        'N'],
+        'bracket': '[S [IC [NP [PRON She]] [VP [V writes] [NP [N poetry]]]] [CC [CONJ and]] [IC [NP [PRON he]] [VP [V composes] [NP [N music]]]]]',
+    },
+    {
+        'sub': 'd)',
+        'sentence': 'When it rained, we stayed inside.',
+        'words':   ['When', 'it',   'rained', 'we',   'stayed', 'inside'],
+        'roles':   ['DC',   '',     '',       'IC',   '',       ''],
+        'phrases': ['COMP', 'NP',   'VP',     'NP',   'VP',     'ADVP'],
+        'pos':     ['COMP', 'PRON', 'V',      'PRON', 'V',      'ADV'],
+        'bracket': '[S [DC [COMP When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON we]] [VP [V stayed] [ADVP [ADV inside]]]]]',
+    },
+]
 
 
 def create_answer_key(output_path, font_size=12, overhead=False):
-    if overhead:
-        body_font = 'Arial Narrow'
-        body_size = 18
-        heading1_size = 22
-        heading2_size = 20
-        heading3_size = 16
-    else:
-        body_font = 'Garamond'
-        body_size = font_size
-        heading1_size = 16
-        heading2_size = 14
-        heading3_size = 12
-
     doc = Document()
+    cfg = setup_document(doc, overhead)
+    body_font = cfg['body_font']
+    body_size = cfg['body_size']
 
-    style = doc.styles['Normal']
-    style.font.name = body_font
-    style.font.size = Pt(body_size)
-
-    for i in range(1, 4):
-        heading_style = doc.styles[f'Heading {i}']
-        heading_style.font.name = 'Open Sans' if not overhead else 'Arial Narrow'
-        heading_style.font.bold = True
-
-    # Title
-    title = doc.add_heading('Chapter 9: Conjunctions and Clauses', level=1)
-    title.runs[0].font.size = Pt(heading1_size)
-    set_paragraph_spacing(title, space_before=0, space_after=6)
-
-    subtitle = doc.add_heading('Answer Key', level=2)
-    subtitle.runs[0].font.size = Pt(heading2_size)
-    set_paragraph_spacing(subtitle, space_before=0, space_after=12)
-
-    if overhead:
-        add_spacer_row(doc)
+    add_title_page(doc, 'Chapter 9: Conjunctions and Clauses', cfg, overhead)
 
     # =============================================
     # Part 1: Sentence Type Identification
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 1: Sentence Type Identification', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 1: Sentence Type Identification', cfg, overhead)
 
     # Exercise 1
     add_exercise(doc, 1,
@@ -168,8 +85,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         '\u2022 "she still occasionally gives guest lectures" \u2014 IC',
         body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 2
     add_exercise(doc, 2,
@@ -184,8 +100,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         '\u2022 "I had time to revise my paper thoroughly" \u2014 IC',
         body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 3
     add_exercise(doc, 3,
@@ -196,19 +111,16 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_plain_line(doc,
         'One independent clause with a compound NP subject ("The exhausted marathon runner from Kenya" + '
         '"her experienced coach"). "After the race" is a prepositional phrase, not a dependent clause '
-        '(no subject-verb pair). The compound NP keeps both names as NPs inside a larger NP — '
+        '(no subject-verb pair). The compound NP keeps both names as NPs inside a larger NP \u2014 '
         'not two separate clauses.',
         body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # =============================================
     # Part 2: Sentence Writing
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 2: Sentence Writing', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 2: Sentence Writing', cfg, overhead)
 
     p = doc.add_paragraph()
     run = p.add_run('Exercises 4\u20137 are open-ended. Accept any grammatically correct sentence that matches the requested structure.')
@@ -217,53 +129,47 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
     # Exercise 4: compound sentence with semicolon + conjunctive adverb
-    add_exercise(doc, 4, None, body_size, font_name=body_font)
+    add_exercise(doc, 4, 'Write a compound sentence using a semicolon, conjunctive adverb, and comma.', body_size, font_name=body_font)
     add_plain_line(doc, 'Structure: Compound sentence using semicolon + conjunctive adverb + comma', body_size, bold_prefix='', font_name=body_font)
     add_plain_line(doc, 'Sample: "The test was difficult; however, most students passed."', body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc, 'Also acceptable: "The project was late. Nevertheless, the client was satisfied."', body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 5: complex sentence with cause/reason
-    add_exercise(doc, 5, None, body_size, font_name=body_font)
+    add_exercise(doc, 5, 'Write a complex sentence with a dependent clause showing cause or reason.', body_size, font_name=body_font)
     add_plain_line(doc, 'Structure: Complex sentence with dependent clause showing cause/reason', body_size, bold_prefix='', font_name=body_font)
     add_plain_line(doc, 'Sample: "Because the roads were icy, school was canceled."', body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc, 'Also acceptable: "She left early since she had an appointment."', body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 6: compound-complex sentence
-    add_exercise(doc, 6, None, body_size, font_name=body_font)
+    add_exercise(doc, 6, 'Write a compound-complex sentence (two ICs joined by FANBOYS + at least one DC).', body_size, font_name=body_font)
     add_plain_line(doc, 'Structure: Compound-complex (two ICs joined by FANBOYS + at least one DC)', body_size, bold_prefix='', font_name=body_font)
     add_plain_line(doc, 'Sample: "Although the weather was terrible, the game continued, and the fans cheered."', body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc, 'Sample: "She studied all night because the exam was important, and she passed."', body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc, 'Check: two ICs connected by a coordinating conjunction + at least one DC with a subordinating conjunction.', body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 7: DC first vs last, emphasis
-    add_exercise(doc, 7, None, body_size, font_name=body_font)
-    add_plain_line(doc, 'Structure: Complex sentence — one version DC first, one version DC last', body_size, bold_prefix='', font_name=body_font)
+    add_exercise(doc, 7, 'Write a complex sentence two ways: DC first, then DC last. Which version places more emphasis on the main clause?', body_size, font_name=body_font)
+    add_plain_line(doc, 'Structure: Complex sentence \u2014 one version DC first, one version DC last', body_size, bold_prefix='', font_name=body_font)
     add_plain_line(doc, 'Sample Version 1 (DC first): "Because she studied all week, she passed the exam."', body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc, 'Sample Version 2 (DC last): "She passed the exam because she studied all week."', body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc,
         'More emphasis on main clause: Version 2 places the main clause first and unqualified. '
         'Version 1 announces background context first, so the main clause feels like a conclusion. '
-        'Both are correct — the choice depends on what the writer wants the reader to notice first.',
+        'Both are correct \u2014 the choice depends on what the writer wants the reader to notice first.',
         body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # =============================================
     # Part 3: Error Correction
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 3: Error Correction', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 3: Error Correction', cfg, overhead)
 
     # Exercise 8
     add_exercise(doc, 8,
@@ -277,8 +183,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'Correction 2: "The assignment was challenging; many students struggled to finish it on time." (replace comma with semicolon)',
         body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 9
     add_exercise(doc, 9,
@@ -292,8 +197,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'Correction 2: "She enjoys hiking; he prefers swimming." (add semicolon)',
         body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 10
     add_exercise(doc, 10,
@@ -307,51 +211,32 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'Correction 2: "Because the restaurant was crowded, we decided to order takeout instead." (subordinate one clause)',
         body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # =============================================
     # Part 4: Sentence Tables and Diagrams
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 4: Sentence Tables and Diagrams', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 4: Sentence Tables and Diagrams', cfg, overhead)
 
     add_exercise(doc, 11, 'Complete the table and draw a tree diagram for each sentence.', body_size, font_name=body_font)
 
-    table_items = [
-        ('a)', 'Compound NP (simple sentence): Marcus and Elena traveled.',
-         '"Marcus" \u2192 NP | "and Elena" \u2192 NP (conjoined) | overall subject \u2192 compound NP | "traveled" \u2192 VP',
-         '[S [NP [NP [N Marcus]] [CONJ and] [NP [N Elena]]] [VP [V traveled]]]',
-         'Simple sentence (one IC). The conjunction joins two NPs into a larger compound NP subject — not two clauses.'),
-        ('b)', 'Compound VP (simple sentence): The dog barked and chased the squirrel.',
-         '"The dog" \u2192 NP (S) | "barked" \u2192 VP | "chased the squirrel" \u2192 VP (conjoined) | overall predicate \u2192 compound VP',
-         '[S [NP [DET The] [N dog]] [VP [VP [V barked]] [CONJ and] [VP [V chased] [NP [DET the] [N squirrel]]]]]',
-         'Simple sentence (one IC). Each conjunct keeps its own VP node inside the compound VP.'),
-        ('c)', 'Compound sentence: She writes poetry, and he composes music.',
-         '"She writes poetry" \u2192 IC | "and" \u2192 CONJ | "he composes music" \u2192 IC',
-         '[S [IC [NP [PRON She]] [VP [V writes] [NP [N poetry]]]] [CONJ and] [IC [NP [PRON he]] [VP [V composes] [NP [N music]]]]]',
-         'Compound sentence (two ICs). Each side has its own subject and predicate.'),
-        ('d)', 'Complex sentence: When it rained, we stayed inside.',
-         '"When it rained" \u2192 DC | "we stayed inside" \u2192 IC | subordinating conjunction: "When"',
-         '[S [DC [SUB When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON we]] [VP [V stayed] [ADVP [ADV inside]]]]]',
-         'Complex sentence (1 IC + 1 DC). The DC comes first and is followed by a comma.'),
-    ]
-
-    for sub, label, table_text, bracket, note in table_items:
-        add_sub_sentence(doc, sub, label, body_size, font_name=body_font)
-        add_plain_line(doc, f'Table: {table_text}', body_size, indent=0.7, font_name=body_font)
-        add_plain_line(doc, f'Bracket notation: {bracket}', body_size, indent=0.7, font_name=body_font)
-        add_plain_line(doc, f'Note: {note}', body_size, indent=0.7, font_name=body_font)
-        if overhead:
-            add_spacer_row(doc)
+    for ex in DIAGRAM_EXERCISES:
+        add_sub_sentence(doc, ex['sub'], ex['sentence'], body_size, font_name=body_font)
+        add_labeling_table(
+            doc,
+            words=ex['words'],
+            pos_labels=ex['pos'],
+            phrase_labels=ex['phrases'],
+            role_labels=ex['roles'],
+            font_size=body_size - 2,
+        )
+        add_bracket_line(doc, ex['bracket'], body_size, indent=0.35, font_name=body_font)
+        exercise_separator(doc, overhead)
 
     # =============================================
     # Part 5: Emphasis, End-Weight, and Clause Revision
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 5: Emphasis, End-Weight, and Clause Revision', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 5: Emphasis, End-Weight, and Clause Revision', cfg, overhead)
 
     # Exercise 12: emphasis (subordination for different effects)
     add_exercise(doc, 12,
@@ -389,17 +274,16 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run = p.add_run(
         'The coordinated version (original) presents both ideas as equally important. '
         'Coordination is the best choice when neither idea should be pushed into the background. '
-        'Both facts carry equal weight in the original — using "and" signals this equality.'
+        'Both facts carry equal weight in the original \u2014 using "and" signals this equality.'
     )
     run.font.size = Pt(body_size)
     run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 13: end-weight
-    add_exercise(doc, 13, None, body_size, font_name=body_font)
+    add_exercise(doc, 13, 'Revise the following front-loaded sentence using end-weight, then explain why the revision is easier to read.', body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
@@ -440,11 +324,10 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'In the original, readers must hold the long clause in memory before they know what the sentence is about.',
         body_size, indent=0.7, font_name=body_font)
 
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 14: clause density revision
-    add_exercise(doc, 14, None, body_size, font_name=body_font)
+    add_exercise(doc, 14, 'Revise the following passage using subordination. Then explain one of your revisions.', body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
@@ -496,12 +379,12 @@ def main():
     homework_dir = script_dir.parent / 'Homework'
 
     create_answer_key(
-        homework_dir / 'Chapter 09 Answer Key.docx',
+        homework_dir / 'Answer Keys' / 'Chapter 09 Answer Key.docx',
         font_size=12
     )
 
     create_answer_key(
-        homework_dir / 'Homework 09 Overhead.docx',
+        homework_dir / 'Overheads' / 'Homework 09 Overhead.docx',
         overhead=True
     )
 

@@ -6,71 +6,115 @@
   <objectives>
     <title>Learning Objectives</title>
     <ul>
-      <li><p>Distinguish between adverbs (form) and adverbials (function)</p></li>
+      <li><p>Distinguish between adverbs (form) and adverbials (function/role in a sentence)</p></li>
       <li><p>Identify the various structures that can function as adverbials</p></li>
-      <li><p>Classify adverbials by their semantic role (time, place, manner, reason, etc.)</p></li>
-      <li><p>Understand adverbial positions in sentences</p></li>
-      <li><p>Analyze adverb clauses and their subordinating conjunctions</p></li>
-      <li><p>Use adverbials effectively to add information and connect ideas</p></li>
-      <li><p>Adverb (form)</p></li>
-      <li><p>Adverbial (function)</p></li>
-      <li><p>Adjunct</p></li>
-      <li><p>Disjunct</p></li>
-      <li><p>Conjunct</p></li>
-      <li><p>Adverb clause</p></li>
-      <li><p>Subordinating conjunction</p></li>
-      <li><p>Adverbial position</p></li>
+      <li><p>Understand how adverbial position affects emphasis and information flow</p></li>
+      <li><p>Classify adverbials as adjuncts, disjuncts, or conjuncts</p></li>
+      <li><p>Analyze each structural form of adverbial: noun phrases, prepositional phrases, infinitive phrases, participial phrases, conjunctive adverbs, and adverbial clauses</p></li>
+      <li><p>Key terms: Adverb (form), Adverbial (function), Adjunct, Disjunct, Conjunct, Adverb clause, Subordinating conjunction, Conjunctive adverb, Participial phrase</p></li>
     </ul>
   </objectives>
 
   <p>You have spent the last several chapters building a vocabulary for grammatical form: nouns, verbs, adjectives, adverbs, phrases, and clauses. You have also learned to distinguish form from function—the idea that a noun phrase can serve as a subject, an object, or a complement depending on where it appears in a sentence. Now it is time to apply that distinction to a specific function. Chapter 8 identified adverbials as the optional modifiers in a clause, the elements that add information about time, place, manner, reason, and more. The question this chapter asks is: what forms can fill that role?</p>
 
-  <p>The answer is more varied than most students expect. The word <em>adverb</em> names a part of speech—a form class. The word <em>adverbial</em> names a function—a role that many different forms can play. A single adverb like <foreign>quickly</foreign> is an adverbial, but so is a prepositional phrase like <foreign>with great care</foreign>, a noun phrase like <foreign>last Tuesday</foreign>, an infinitive like <foreign>to pass the exam</foreign>, and even an entire clause like <foreign>because the roads were icy</foreign>. This chapter maps all of those structures onto the adverbial function, classifies adverbials by the type of information they contribute, and shows how their position in the sentence shapes emphasis and meaning.</p>
+  <p>The answer is more varied than most students expect. The word <em>adverb</em> names a part of speech—a form class. The word <em>adverbial</em> names a function—a role that many different forms can play. A single adverb like <foreign>quickly</foreign> is an adverbial, but so is a prepositional phrase like <foreign>with great care</foreign>, a noun phrase like <foreign>last Tuesday</foreign>, an infinitive like <foreign>to pass the exam</foreign>, and even an entire clause like <foreign>because the roads were icy</foreign>. This chapter maps all of those structures onto the adverbial function, shows how their position in the sentence shapes emphasis and meaning, and then examines each structural form in detail.</p>
+
+  <!-- ============================================================ -->
+  <!-- 12.1  ADVERBS VS. ADVERBIALS                                 -->
+  <!-- ============================================================ -->
 
   <section xml:id="ch-12-adverbials-sec-121">
     <title>Adverbs vs. Adverbials: Form vs. Function</title>
 
-    <p>If someone asks you to find the adverbials in a sentence, you might instinctively look for words ending in <foreign>-ly</foreign>. That is a reasonable first instinct—but it conflates two different things. An adverb is a type of word. An adverbial is a role that a phrase or clause can play. Keeping these two ideas separate is the foundation of everything in this chapter.</p>
-
-    <p>Understanding the distinction between <term>adverbs</term> (a form/part of speech) and <term>adverbials</term> (a function) is crucial for accurate grammatical analysis.</p>
+    <p>If someone asks you to find the adverbials in a sentence, you might instinctively look for words ending in <foreign>-ly</foreign>. That is a reasonable first instinct—but it conflates two different things. An <term>adverb</term> is a type of word—a part of speech (Chapter 5). An <term>adverbial</term> is a role in a sentence—any word, phrase, or clause that functions to modify a verb, adjective, adverb, or entire sentence. Keeping these two ideas separate is the foundation of everything in this chapter.</p>
 
     <paragraphs>
       <title>Adverb as Form</title>
     </paragraphs>
 
-    <p>An adverb is a part of speech—a word class with particular morphological and syntactic characteristics (Chapter 5). Adverbs often end in <foreign>-ly</foreign>, can modify verbs/adjectives/adverbs, and cannot appear between determiner and noun.</p>
-
-    <ul>
-      <li><p><foreign>quickly, carefully, often, very, however</foreign></p></li>
-    </ul>
+    <p>An adverb is a part of speech—a word class with particular morphological and syntactic characteristics. Adverbs often end in <foreign>-ly</foreign>, can modify verbs, adjectives, or other adverbs, and cannot appear between a determiner and a noun. Examples: <foreign>quickly, carefully, often, very, however</foreign>.</p>
 
     <paragraphs>
-      <title>Adverbial as Function</title>
+      <title>Adverbial as Function (Role in a Sentence)</title>
     </paragraphs>
 
-    <p>An adverbial is any word, phrase, or clause that <em>functions</em> to modify a verb, adjective, adverb, or sentence. This is a functional category, not a form category.</p>
+    <p>An adverbial is a functional category—a role in a sentence. Any structure that modifies a verb, adjective, adverb, or sentence is functioning as an adverbial, regardless of its form. The key insight: all adverbs functioning as modifiers are adverbials, but not all adverbials are adverbs.</p>
 
-    <p>Key insight: All adverbs functioning as modifiers are adverbials, but not all adverbials are adverbs.</p>
+    <p>Consider an adverb filling the adverbial role:</p>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell>Pred</cell><cell>Advl</cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell>VP</cell><cell>ADVP</cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>spoke</foreign></cell><cell><foreign>quietly</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>ADV</cell></row>
+    </tabular>
+
+    <p>Now compare a prepositional phrase filling the same adverbial role:</p>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell>Pred</cell><cell>Advl</cell><cell></cell><cell></cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell>VP</cell><cell>PP</cell><cell>NP</cell><cell></cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>spoke</foreign></cell><cell><foreign>with</foreign></cell><cell><foreign>great</foreign></cell><cell><foreign>care</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>PREP</cell><cell>ADJ</cell><cell>N</cell></row>
+    </tabular>
+
+    <p>Both <foreign>quietly</foreign> and <foreign>with great care</foreign> answer the question <em>how?</em> and both fill the adverbial slot in the clause. Their forms are different—an adverb phrase and a prepositional phrase—but their function is the same.</p>
+
+    <paragraphs>
+      <title>Semantic Roles</title>
+    </paragraphs>
+
+    <p>In addition to their structural form, adverbials are classified by the type of information they provide—their <em>semantic role</em>. Chapter 5 introduced these roles in the context of adverbs. The same roles apply to all adverbial structures:</p>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell>Semantic Role</cell>
+        <cell>Question Answered</cell>
+        <cell>Example</cell>
+      </row>
+      <row><cell>Time</cell><cell>When? How long? How often?</cell><cell><foreign>yesterday, for hours, often</foreign></cell></row>
+      <row><cell>Place</cell><cell>Where? In what direction?</cell><cell><foreign>downtown, in Boston, north</foreign></cell></row>
+      <row><cell>Manner</cell><cell>How? In what way?</cell><cell><foreign>quietly, with care, gracefully</foreign></cell></row>
+      <row><cell>Reason</cell><cell>Why? For what reason?</cell><cell><foreign>because of the noise</foreign></cell></row>
+      <row><cell>Purpose</cell><cell>For what purpose?</cell><cell><foreign>to stay healthy, for the meeting</foreign></cell></row>
+      <row><cell>Condition</cell><cell>Under what conditions?</cell><cell><foreign>if it rains, in case of emergency</foreign></cell></row>
+      <row><cell>Concession</cell><cell>Despite what?</cell><cell><foreign>although she tried, despite the rain</foreign></cell></row>
+      <row><cell>Result</cell><cell>With what result?</cell><cell><foreign>so hard that the roads flooded</foreign></cell></row>
+    </tabular>
+
+    <p>See Chapter 5 for a fuller treatment of these categories. The rest of this chapter focuses on the structural forms that fill the adverbial role and how their position in the sentence affects meaning.</p>
 
   </section>
+
+  <!-- ============================================================ -->
+  <!-- 12.2  STRUCTURES THAT FUNCTION AS ADVERBIALS                  -->
+  <!-- ============================================================ -->
 
   <section xml:id="ch-12-adverbials-sec-122">
     <title>Structures That Function as Adverbials</title>
 
-    <p>One of the most important insights of the form-vs-function framework is that a single grammatical role can be filled by many different structural forms. The adverbial function is a prime example. Consider three sentences: <foreign>She arrived quickly.</foreign> <foreign>She arrived at noon.</foreign> <foreign>She arrived when the bell rang.</foreign> In all three, the italicized element answers the same question—how or when she arrived—and all three occupy the adverbial slot in the clause. But their forms are completely different: an adverb phrase, a prepositional phrase, and a dependent clause. The six structures listed below are all legitimate adverbials in English, each with its own characteristic form and range of semantic roles.</p>
-
-    <p>Many different structures can serve the adverbial function.</p>
+    <p>One of the most important insights of the form-vs-function framework is that a single grammatical role can be filled by many different structural forms. The adverbial function is a prime example. Consider three sentences: <foreign>She arrived quickly.</foreign> <foreign>She arrived at noon.</foreign> <foreign>She arrived when the bell rang.</foreign> In all three, the final element answers the same question—how or when she arrived—and all three occupy the adverbial slot in the clause. But their forms are completely different: an adverb phrase, a prepositional phrase, and a dependent clause. The seven structures listed below are all legitimate adverbials in English.</p>
 
     <paragraphs>
       <title>1. Adverb Phrases</title>
     </paragraphs>
 
-    <p>The prototypical adverbial is an adverb phrase:</p>
+    <p>The prototypical adverbial is an adverb phrase—a single adverb or an adverb with a degree modifier:</p>
 
     <ul>
-      <li><p><foreign>She spoke <em>quietly</em>.</foreign></p></li>
-      <li><p><foreign>He arrived <em>very late</em>.</foreign></p></li>
-      <li><p><foreign>They finished <em>remarkably quickly</em>.</foreign></p></li>
+      <li><p><foreign>She spoke <em>quietly</em>.</foreign> (manner)</p></li>
+      <li><p><foreign>He arrived <em>very late</em>.</foreign> (time)</p></li>
+      <li><p><foreign>They finished <em>remarkably quickly</em>.</foreign> (manner)</p></li>
     </ul>
 
     <image source="diagrams/new/ch12_advp_adverbial.png" width="35%">
@@ -82,13 +126,12 @@
       <title>2. Prepositional Phrases</title>
     </paragraphs>
 
-    <p>Prepositional phrases commonly function as adverbials:</p>
+    <p>Prepositional phrases are the most versatile adverbial form, filling nearly every semantic role:</p>
 
     <ul>
       <li><p><foreign>She works <em>in the city</em>.</foreign> (place)</p></li>
       <li><p><foreign>He arrived <em>at noon</em>.</foreign> (time)</p></li>
       <li><p><foreign>They spoke <em>with enthusiasm</em>.</foreign> (manner)</p></li>
-      <li><p><foreign>We left <em>because of the weather</em>.</foreign> (reason)</p></li>
     </ul>
 
     <image source="diagrams/new/ch12_pp_place_adverbial.png" width="45%">
@@ -96,29 +139,73 @@
     </image>
     <p><c>[S [NP [PRON He]] [VP [V works] [PP [PREP in] [NP [DET the] [N city]]]]]</c></p>
 
-    <image source="diagrams/new/ch12_pp_time_adverbial.png" width="40%">
-      <description>Syntax tree for "She arrived at noon" showing a PP time adverbial inside the VP</description>
-    </image>
-    <p><c>[S [NP [PRON She]] [VP [V arrived] [PP [PREP at] [NP [N noon]]]]]</c></p>
-
     <paragraphs>
       <title>3. Noun Phrases (Temporal/Spatial)</title>
     </paragraphs>
 
-    <p>Certain noun phrases function adverbially, especially those indicating time or direction:</p>
+    <p>Certain noun phrases function adverbially, especially those indicating time, direction, or extent:</p>
 
     <ul>
       <li><p><foreign>She arrived <em>yesterday</em>.</foreign> (time)</p></li>
       <li><p><foreign>They met <em>last week</em>.</foreign> (time)</p></li>
       <li><p><foreign>The bird flew <em>north</em>.</foreign> (direction)</p></li>
-      <li><p><foreign>We walked <em>two miles</em>.</foreign> (extent)</p></li>
+    </ul>
+
+    <image source="diagrams/new/ch12_noun_as_adverbial.png" width="45%">
+      <description>Syntax tree for "I sleep every day" showing noun phrase as adverbial</description>
+    </image>
+    <p><c>[S [NP [PRON I]] [VP [V sleep] [NP [DET every] [N day]]]]</c></p>
+
+    <paragraphs>
+      <title>4. Infinitive Phrases</title>
+    </paragraphs>
+
+    <p>Infinitive phrases can function as adverbials, especially of purpose:</p>
+
+    <ul>
+      <li><p><foreign>She came <em>to help</em>.</foreign> (purpose)</p></li>
+      <li><p><foreign>He studied hard <em>to pass the exam</em>.</foreign> (purpose)</p></li>
+      <li><p><foreign><em>To succeed</em>, you must practice.</foreign> (purpose)</p></li>
+    </ul>
+
+    <image source="diagrams/new/ch12_infinitive_adverbial.png" width="40%">
+      <description>Syntax tree for "I went to run" showing infinitive as adverbial</description>
+    </image>
+    <p><c>[S [NP [PRON I]] [VP [V went] [VP [PREP to] [V run]]]]</c></p>
+
+    <paragraphs>
+      <title>5. Participial Phrases</title>
+    </paragraphs>
+
+    <p>Participial phrases can function adverbially, typically expressing reason, time, or attendant circumstances:</p>
+
+    <ul>
+      <li><p><foreign><em>Knowing the answer</em>, she raised her hand.</foreign> (reason)</p></li>
+      <li><p><foreign>He left, <em>having finished his work</em>.</foreign> (time/reason)</p></li>
+      <li><p><foreign><em>Exhausted</em>, she fell asleep.</foreign> (reason)</p></li>
+    </ul>
+
+    <image source="diagrams/new/ch12_participle_adverbial.png" width="40%">
+      <description>Syntax tree for "I left running" showing participle as adverbial</description>
+    </image>
+    <p><c>[S [NP [PRON I]] [VP [V left] [VP [V running]]]]</c></p>
+
+    <paragraphs>
+      <title>6. Conjunctive Adverbs</title>
+    </paragraphs>
+
+    <p>Conjunctive adverbs (<foreign>however, therefore, nevertheless, moreover</foreign>) function adverbially to connect ideas across sentences:</p>
+
+    <ul>
+      <li><p><foreign>She was tired. <em>However</em>, she continued.</foreign></p></li>
+      <li><p><foreign>The evidence is strong. <em>Therefore</em>, we should proceed.</foreign></p></li>
     </ul>
 
     <paragraphs>
-      <title>4. Adverb Clauses</title>
+      <title>7. Adverbial Clauses</title>
     </paragraphs>
 
-    <p>Entire clauses introduced by subordinating conjunctions function as adverbials:</p>
+    <p>Entire dependent clauses introduced by subordinating conjunctions function as adverbials. Adverbial clauses are covered in detail in <xref ref="ch-09-compound-and-complex-sentences" text="title"/> alongside other clause types. Here is a brief overview:</p>
 
     <ul>
       <li><p><foreign><em>When the bell rang</em>, students left.</foreign> (time)</p></li>
@@ -127,162 +214,92 @@
       <li><p><foreign><em>If you need help</em>, call me.</foreign> (condition)</p></li>
     </ul>
 
-    <paragraphs>
-      <title>5. Infinitive Phrases</title>
-    </paragraphs>
-
-    <p>Infinitive phrases can function as adverbials (especially of purpose):</p>
-
-    <ul>
-      <li><p><foreign>She came <em>to help</em>.</foreign> (purpose)</p></li>
-      <li><p><foreign>He studied hard <em>to pass the exam</em>.</foreign> (purpose)</p></li>
-      <li><p><foreign><em>To succeed</em>, you must practice.</foreign> (purpose)</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>6. Participial Phrases</title>
-    </paragraphs>
-
-    <p>Participial phrases can function adverbially:</p>
-
-    <ul>
-      <li><p><foreign><em>Knowing the answer</em>, she raised her hand.</foreign> (reason/cause)</p></li>
-      <li><p><foreign>He left, <em>having finished his work</em>.</foreign> (time/reason)</p></li>
-      <li><p><foreign><em>Exhausted</em>, she fell asleep.</foreign> (reason)</p></li>
-    </ul>
+    <image source="diagrams/new/ch12_adv_clause_when.png" width="55%">
+      <description>Syntax tree for "When the class ended, students left" showing an adverb clause of time</description>
+    </image>
+    <p><c>[S [DC [SUB When] [NP [DET the] [N class]] [VP [V ended]]] [IC [NP [N students]] [VP [V left]]]]</c></p>
 
   </section>
+
+  <!-- ============================================================ -->
+  <!-- 12.3  ADVERBIAL POSITION                                      -->
+  <!-- ============================================================ -->
 
   <section xml:id="ch-12-adverbials-sec-123">
-    <title>Semantic Roles of Adverbials</title>
+    <title>Adverbial Position</title>
 
-    <p>Knowing the form of an adverbial—whether it is a prepositional phrase, a noun phrase, or a clause—tells you what it is structurally. But adverbials are also classified by what they mean: the type of information they contribute to the clause. Does the adverbial say <em>when</em> something happened, <em>where</em>, <em>how</em>, or <em>why</em>? These semantic roles cut across form: a reason adverbial can be a prepositional phrase (<foreign>because of the noise</foreign>), a clause (<foreign>because she was tired</foreign>), or even a participial phrase (<foreign>being tired</foreign>). Learning to identify semantic roles gives you a second axis for analyzing adverbials alongside form.</p>
-
-    <p>Adverbials are classified by the type of information they provide.</p>
+    <p>Unlike subjects and objects, which occupy relatively fixed positions in English clauses, adverbials are mobile. You can say <foreign>Yesterday, she arrived</foreign> or <foreign>She arrived yesterday</foreign> or even <foreign>She yesterday arrived</foreign>—and in all three the basic meaning is the same. That mobility is one of the defining features of adverbials. But position is not meaningless: where you place an adverbial signals what is new information, what is the focus, and what serves as background. Understanding the three main positions—initial, medial, and final—gives you a tool for analyzing both how sentences are constructed and why particular arrangements feel more natural than others.</p>
 
     <paragraphs>
-      <title>Time Adverbials</title>
+      <title>Initial Position</title>
     </paragraphs>
 
-    <p>Answer: <em>When? How long? How often?</em></p>
+    <p>At the beginning of the sentence, an adverbial sets the scene or signals the topic. Initial adverbials are typically followed by a comma:</p>
 
     <ul>
-      <li><p><foreign>She arrived <em>yesterday</em>.</foreign> (point in time)</p></li>
-      <li><p><foreign>They talked <em>for hours</em>.</foreign> (duration)</p></li>
-      <li><p><foreign>He visits <em>often</em>.</foreign> (frequency)</p></li>
-      <li><p><foreign>We'll meet <em>before noon</em>.</foreign> (temporal reference)</p></li>
-      <li><p><foreign><em>While I was sleeping</em>, someone called.</foreign> (clause)</p></li>
+      <li><p><foreign><em>Yesterday</em>, she arrived.</foreign> (NP — time)</p></li>
+      <li><p><foreign><em>In the morning</em>, we'll leave.</foreign> (PP — time)</p></li>
+      <li><p><foreign><em>Frankly</em>, I disagree.</foreign> (AdvP — disjunct)</p></li>
+      <li><p><foreign><em>Because the roads were icy</em>, we drove slowly.</foreign> (clause — reason)</p></li>
     </ul>
+
+    <p>Initial position often signals scene-setting or topical information. It is the natural home for time and place adverbials that establish context, as well as for disjuncts that frame the speaker's stance.</p>
 
     <paragraphs>
-      <title>Place Adverbials</title>
+      <title>Medial Position</title>
     </paragraphs>
 
-    <p>Answer: <em>Where? In what direction?</em></p>
+    <p>Between the subject and verb, or within the verb phrase (often after the first auxiliary):</p>
 
     <ul>
-      <li><p><foreign>She works <em>downtown</em>.</foreign></p></li>
-      <li><p><foreign>They live <em>in Boston</em>.</foreign></p></li>
-      <li><p><foreign>The cat jumped <em>onto the table</em>.</foreign></p></li>
-      <li><p><foreign>He walked <em>toward the exit</em>.</foreign></p></li>
-      <li><p><foreign><em>Where the road ends</em>, the trail begins.</foreign> (clause)</p></li>
+      <li><p><foreign>She <em>often</em> works late.</foreign> (AdvP — frequency)</p></li>
+      <li><p><foreign>He has <em>always</em> been reliable.</foreign> (AdvP — frequency)</p></li>
+      <li><p><foreign>They will <em>probably</em> arrive soon.</foreign> (AdvP — likelihood)</p></li>
     </ul>
+
+    <p>Medial position is the default for frequency adverbs (<foreign>always, often, never, sometimes</foreign>) and for epistemic adverbs that express the speaker's certainty (<foreign>probably, certainly, definitely</foreign>). Prepositional phrases and clauses rarely appear in medial position.</p>
 
     <paragraphs>
-      <title>Manner Adverbials</title>
+      <title>Final Position</title>
     </paragraphs>
 
-    <p>Answer: <em>How? In what way?</em></p>
+    <p>At the end of the sentence—the default and most neutral position for most adverbials:</p>
 
     <ul>
-      <li><p><foreign>She spoke <em>quietly</em>.</foreign></p></li>
-      <li><p><foreign>He handled it <em>with care</em>.</foreign></p></li>
-      <li><p><foreign>They danced <em>gracefully</em>.</foreign></p></li>
-      <li><p><foreign>She responded <em>as if she knew</em>.</foreign> (clause)</p></li>
+      <li><p><foreign>She arrived <em>yesterday</em>.</foreign> (NP — time)</p></li>
+      <li><p><foreign>He spoke <em>quietly</em>.</foreign> (AdvP — manner)</p></li>
+      <li><p><foreign>We'll leave <em>in the morning</em>.</foreign> (PP — time)</p></li>
+      <li><p><foreign>She succeeded <em>because she worked hard</em>.</foreign> (clause — reason)</p></li>
     </ul>
+
+    <p>Final position is the unmarked default for manner, place, and time adverbials. When multiple adverbials stack in final position, they typically follow the order <em>manner → place → time</em>: <foreign>She worked <em>diligently</em> <em>in the lab</em> <em>all afternoon</em>.</foreign></p>
 
     <paragraphs>
-      <title>Reason/Cause Adverbials</title>
+      <title>Position and Focus</title>
     </paragraphs>
 
-    <p>Answer: <em>Why? For what reason?</em></p>
+    <p>Moving an adverbial to a different position changes what receives emphasis. Compare:</p>
 
     <ul>
-      <li><p><foreign>She left <em>because of the noise</em>.</foreign></p></li>
-      <li><p><foreign><em>Because she was tired</em>, she went home.</foreign> (clause)</p></li>
-      <li><p><foreign><em>Since you asked</em>, I'll explain.</foreign> (clause)</p></li>
-      <li><p><foreign><em>Being tired</em>, she went home.</foreign> (participial)</p></li>
+      <li><p><foreign>She spoke quietly <em>in the library</em>.</foreign> (neutral—library is given information)</p></li>
+      <li><p><foreign><em>In the library</em>, she spoke quietly.</foreign> (library emphasized as scene-setting)</p></li>
     </ul>
 
-    <image source="diagrams/new/ch12_adv_clause_because.png" width="55%">
-      <description>Syntax tree for "She left because she was tired" showing an adverb clause of reason following the main clause</description>
+    <image source="diagrams/new/ch12_multiple_adverbials.png" width="50%">
+      <description>Syntax tree for "She worked hard all day" showing two adverbials attached to the VP</description>
     </image>
-    <p><c>[S [IC [NP [PRON She]] [VP [V left]]] [DC [SUB because] [NP [PRON she]] [VP [V was] [ADJP [ADJ tired]]]]]</c></p>
-
-    <paragraphs>
-      <title>Purpose Adverbials</title>
-    </paragraphs>
-
-    <p>Answer: <em>For what purpose? Why?</em></p>
-
-    <ul>
-      <li><p><foreign>She came <em>for the meeting</em>.</foreign></p></li>
-      <li><p><foreign>He exercises <em>to stay healthy</em>.</foreign> (infinitive)</p></li>
-      <li><p><foreign>She spoke quietly <em>so that no one would hear</em>.</foreign> (clause)</p></li>
-      <li><p><foreign><em>In order to succeed</em>, you must practice.</foreign> (infinitive)</p></li>
-    </ul>
-
-    <image source="diagrams/new/ch12_inf_purpose_adverb.png" width="55%">
-      <description>Syntax tree for "He saved money to buy a car" showing an infinitive phrase functioning as a purpose adverbial</description>
-    </image>
-    <p><c>[S [NP [PRON He]] [VP [V saved] [NP [N money]] [VP [PREP to] [V buy] [NP [DET a] [N car]]]]]</c></p>
-
-    <paragraphs>
-      <title>Condition Adverbials</title>
-    </paragraphs>
-
-    <p>Answer: <em>Under what conditions?</em></p>
-
-    <ul>
-      <li><p><foreign><em>If it rains</em>, we'll cancel.</foreign></p></li>
-      <li><p><foreign><em>Unless you study</em>, you won't pass.</foreign></p></li>
-      <li><p><foreign><em>Provided that you agree</em>, we can proceed.</foreign></p></li>
-      <li><p><foreign><em>In case of emergency</em>, call 911.</foreign></p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Concession Adverbials</title>
-    </paragraphs>
-
-    <p>Answer: <em>Despite what?</em></p>
-
-    <ul>
-      <li><p><foreign><em>Although she tried</em>, she failed.</foreign></p></li>
-      <li><p><foreign><em>Even though it was expensive</em>, he bought it.</foreign></p></li>
-      <li><p><foreign><em>Despite the rain</em>, we continued.</foreign></p></li>
-      <li><p><foreign>She succeeded, <em>though the odds were against her</em>.</foreign></p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Result Adverbials</title>
-    </paragraphs>
-
-    <p>Answer: <em>With what result?</em></p>
-
-    <ul>
-      <li><p><foreign>He was so tired <em>that he fell asleep</em>.</foreign></p></li>
-      <li><p><foreign>It rained <em>so hard that the roads flooded</em>.</foreign></p></li>
-      <li><p><foreign>She worked hard, <em>so she succeeded</em>.</foreign></p></li>
-    </ul>
+    <p><c>[S [NP [PRON She]] [VP [V worked] [ADVP [ADV hard]] [NP [DET all] [N day]]]]</c></p>
 
   </section>
+
+  <!-- ============================================================ -->
+  <!-- 12.4  ADJUNCTS, DISJUNCTS, AND CONJUNCTS                     -->
+  <!-- ============================================================ -->
 
   <section xml:id="ch-12-adverbials-sec-124">
     <title>Types of Adverbials: Adjuncts, Disjuncts, and Conjuncts</title>
 
-    <p>So far you have looked at what adverbials say—their semantic roles. But there is another important dimension: how they relate to the rest of the clause. Consider the word <foreign>honestly</foreign> in two contexts. In <foreign>She answered honestly</foreign>, the word describes how she answered—it is part of the event itself. In <foreign>Honestly, I have no idea</foreign>, the word no longer describes any action; it expresses the speaker's stance toward the statement. That difference is not just a matter of meaning—it has grammatical consequences. Linguists divide adverbials into three types based on how they attach to clause content: adjuncts, disjuncts, and conjuncts. Understanding these types helps explain why some adverbials can be questioned or negated while others cannot, and why some adverbials glue sentences together rather than modify a single clause.</p>
-
-    <p>Linguists distinguish three functional types of adverbials.</p>
+    <p>So far you have looked at what adverbials say—their semantic roles—and where they appear—their position. But there is another important dimension: how they relate to the rest of the clause. Consider the word <foreign>honestly</foreign> in two contexts. In <foreign>She answered honestly</foreign>, the word describes how she answered—it is part of the event itself. In <foreign>Honestly, I have no idea</foreign>, the word no longer describes any action; it expresses the speaker's stance toward the statement. That difference is not just a matter of meaning—it has grammatical consequences. Linguists divide adverbials into three types based on how they attach to clause content: adjuncts, disjuncts, and conjuncts.</p>
 
     <paragraphs>
       <title>Adjuncts</title>
@@ -316,11 +333,10 @@
       <li><p><foreign><em>Unfortunately</em>, we lost.</foreign></p></li>
       <li><p><foreign><em>Frankly</em>, I don't care.</foreign></p></li>
       <li><p><foreign><em>Surprisingly</em>, she agreed.</foreign></p></li>
-      <li><p><foreign><em>Honestly</em>, I have no idea.</foreign></p></li>
     </ul>
 
     <image source="diagrams/new/ch12_sentence_adverb_disj.png" width="35%">
-      <description>Syntax tree for "Fortunately, she passed" showing a sentence-level disjunct adverb external to the main clause</description>
+      <description>Syntax tree for "Fortunately, she passed" showing a sentence-level disjunct adverb</description>
     </image>
     <p><c>[S [ADVP [ADV Fortunately]] [NP [PRON she]] [VP [V passed]]]</c></p>
 
@@ -328,28 +344,21 @@
 
     <ul>
       <li><p><foreign><em>Clearly</em>, this is wrong.</foreign></p></li>
-      <li><p><foreign><em>Obviously</em>, he's guilty.</foreign></p></li>
       <li><p><foreign><em>Technically</em>, it's legal.</foreign></p></li>
       <li><p><foreign><em>Politically</em>, it's controversial.</foreign></p></li>
     </ul>
 
-    <p>Disjuncts are not part of the proposition:</p>
-
-    <ul>
-      <li><p><foreign><delete>Did unfortunately we lose?</delete></foreign> (cannot question)</p></li>
-      <li><p><foreign>It's not the case that unfortunately we lost.</foreign> (negation doesn't target the disjunct)</p></li>
-    </ul>
+    <p>Disjuncts are not part of the proposition—they cannot be directly questioned or negated: <foreign><delete>Did unfortunately we lose?</delete></foreign></p>
 
     <paragraphs>
       <title>Conjuncts</title>
     </paragraphs>
 
-    <p><term>Conjuncts</term> connect sentences or clauses, showing logical relationships:</p>
+    <p><term>Conjuncts</term> connect sentences or clauses, showing logical relationships. They are covered in more detail in the conjunctive adverbs section below (12.9):</p>
 
     <ul>
       <li><p><foreign>She was tired. <em>However</em>, she continued.</foreign></p></li>
       <li><p><foreign>The evidence is strong. <em>Therefore</em>, we should proceed.</foreign></p></li>
-      <li><p><foreign>First, read the instructions. <em>Then</em>, begin the test.</foreign></p></li>
       <li><p><foreign>I disagree. <em>Nevertheless</em>, I respect your view.</foreign></p></li>
     </ul>
 
@@ -357,29 +366,357 @@
 
   </section>
 
+  <!-- ============================================================ -->
+  <!-- 12.5  NOUN PHRASE ADVERBIALS                                  -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-12-adverbials-sec-125">
-    <title>Adverb Clause Structure</title>
+    <title>Noun Phrase Adverbials</title>
 
-    <p>The most structurally complex adverbials are entire clauses. An adverb clause contains its own subject and predicate—it is a full clause—but it is introduced by a subordinating conjunction that makes it dependent on a main clause. The choice of subordinating conjunction determines the semantic role: <foreign>because</foreign> signals reason, <foreign>although</foreign> signals concession, <foreign>if</foreign> signals condition, and so on. Recognizing these conjunctions and the meanings they impose is the key to analyzing adverb clauses. The table below gives you a systematic reference organized by semantic role.</p>
-
-    <p><term>Adverb clauses</term> are dependent clauses that function as adverbials, introduced by subordinating conjunctions.</p>
+    <p>Most noun phrases function as subjects, objects, or complements—nominal roles. But a restricted class of noun phrases can function adverbially, filling the same slot as a prepositional phrase or adverb. These are almost always expressions of <em>time</em>, <em>direction</em>, or <em>extent</em>. You cannot use just any noun phrase as an adverbial (<foreign><delete>She spoke the table.</delete></foreign>), but temporal and spatial expressions have a long history of adverbial use in English.</p>
 
     <paragraphs>
-      <title>Structure</title>
+      <title>Formation</title>
     </paragraphs>
 
-    <p>Adverb Clause = Subordinating Conjunction + Subject + Predicate</p>
+    <p>Noun phrase adverbials take the same form as any NP—a noun with optional determiners and modifiers—but they appear in positions where you would expect a prepositional phrase or adverb. Compare:</p>
 
     <ul>
-      <li><p><foreign><em>When</em> [she arrived], we started.</foreign></p></li>
-      <li><p><foreign><em>Because</em> [the roads were icy], we drove slowly.</foreign></p></li>
-      <li><p><foreign><em>Although</em> [it was expensive], he bought it.</foreign></p></li>
+      <li><p><foreign>She arrived <em>on Monday</em>.</foreign> (PP adverbial)</p></li>
+      <li><p><foreign>She arrived <em>Monday</em>.</foreign> (NP adverbial—same meaning, no preposition)</p></li>
     </ul>
 
-    <image source="diagrams/new/ch12_adv_clause_when.png" width="55%">
-      <description>Syntax tree for "When the class ended, students left" showing an adverb clause of time in initial position before the main clause</description>
-    </image>
-    <p><c>[S [DC [SUB When] [NP [DET the] [N class]] [VP [V ended]]] [IC [NP [N students]] [VP [V left]]]]</c></p>
+    <paragraphs>
+      <title>Common Types</title>
+    </paragraphs>
+
+    <p><em>Temporal NP adverbials</em> are the most common. They answer <em>when?</em>, <em>how long?</em>, or <em>how often?</em></p>
+
+    <ul>
+      <li><p><foreign>She arrived <em>yesterday</em>.</foreign> (point in time)</p></li>
+      <li><p><foreign>They met <em>last week</em>.</foreign> (point in time)</p></li>
+      <li><p><foreign>The meeting lasted <em>three hours</em>.</foreign> (duration)</p></li>
+      <li><p><foreign>He calls <em>every morning</em>.</foreign> (frequency)</p></li>
+      <li><p><foreign>I'll see you <em>next Tuesday</em>.</foreign> (point in time)</p></li>
+    </ul>
+
+    <p><em>Directional and extent NP adverbials</em> answer <em>which way?</em> or <em>how far?</em></p>
+
+    <ul>
+      <li><p><foreign>The bird flew <em>north</em>.</foreign> (direction)</p></li>
+      <li><p><foreign>We walked <em>two miles</em>.</foreign> (extent)</p></li>
+      <li><p><foreign>Turn <em>left</em>.</foreign> (direction)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Pred</cell><cell>Advl</cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>VP</cell><cell>NP</cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>meeting</foreign></cell><cell><foreign>lasted</foreign></cell><cell><foreign>three</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>DET</cell></row>
+    </tabular>
+
+    <p>(Continued: <foreign>three hours</foreign> — the NP <foreign>three hours</foreign> functions as an adverbial of duration.)</p>
+
+    <paragraphs>
+      <title>Key Points</title>
+    </paragraphs>
+
+    <ul>
+      <li><p>NP adverbials are restricted to time, direction, and extent meanings.</p></li>
+      <li><p>They are often interchangeable with prepositional phrases: <foreign>Monday</foreign> ≈ <foreign>on Monday</foreign>; <foreign>two miles</foreign> ≈ <foreign>for two miles</foreign>.</p></li>
+      <li><p>In diagrams, label these as NP even though they fill the adverbial role—form and function are separate.</p></li>
+    </ul>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 12.6  PREPOSITIONAL PHRASE ADVERBIALS                         -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-12-adverbials-sec-126">
+    <title>Prepositional Phrase Adverbials</title>
+
+    <p>Prepositional phrases are the workhorse of the adverbial system. They can express nearly every semantic role—time, place, manner, reason, purpose, condition—and they appear in every position. If adverb phrases are the default single-word adverbial, prepositional phrases are the default phrasal adverbial. Their versatility comes from the wide range of prepositions in English and the fact that a PP can embed an NP of any complexity.</p>
+
+    <paragraphs>
+      <title>Formation</title>
+    </paragraphs>
+
+    <p>A prepositional phrase consists of a preposition followed by a noun phrase (its complement): <em>Preposition + NP</em>. The preposition determines the semantic relationship, and the NP provides the content:</p>
+
+    <ul>
+      <li><p><foreign><em>in</em> + the city</foreign> = place</p></li>
+      <li><p><foreign><em>at</em> + noon</foreign> = time</p></li>
+      <li><p><foreign><em>with</em> + enthusiasm</foreign> = manner</p></li>
+      <li><p><foreign><em>because of</em> + the weather</foreign> = reason</p></li>
+      <li><p><foreign><em>for</em> + the meeting</foreign> = purpose</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Semantic Roles</title>
+    </paragraphs>
+
+    <p>PPs fill a wider range of semantic roles than any other adverbial form:</p>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell>Role</cell>
+        <cell>Common Prepositions</cell>
+        <cell>Example</cell>
+      </row>
+      <row><cell>Place</cell><cell><foreign>in, at, on, under, behind, near</foreign></cell><cell><foreign>She works <em>in the lab</em>.</foreign></cell></row>
+      <row><cell>Time</cell><cell><foreign>at, on, in, before, after, during</foreign></cell><cell><foreign>He arrived <em>before noon</em>.</foreign></cell></row>
+      <row><cell>Direction</cell><cell><foreign>to, toward, into, through, across</foreign></cell><cell><foreign>She walked <em>toward the exit</em>.</foreign></cell></row>
+      <row><cell>Manner</cell><cell><foreign>with, without, by, in</foreign></cell><cell><foreign>He spoke <em>with confidence</em>.</foreign></cell></row>
+      <row><cell>Reason</cell><cell><foreign>because of, due to, on account of</foreign></cell><cell><foreign>We left <em>because of the rain</em>.</foreign></cell></row>
+      <row><cell>Purpose</cell><cell><foreign>for</foreign></cell><cell><foreign>She came <em>for the interview</em>.</foreign></cell></row>
+      <row><cell>Condition</cell><cell><foreign>in case of, in the event of</foreign></cell><cell><foreign><em>In case of fire</em>, exit immediately.</foreign></cell></row>
+    </tabular>
+
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell>Pred</cell><cell>Advl</cell><cell></cell><cell></cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell>VP</cell><cell>PP</cell><cell>NP</cell><cell></cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>He</foreign></cell><cell><foreign>spoke</foreign></cell><cell><foreign>with</foreign></cell><cell><foreign>great</foreign></cell><cell><foreign>confidence</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>PREP</cell><cell>ADJ</cell><cell>N</cell></row>
+    </tabular>
+
+    <paragraphs>
+      <title>Stacking PPs</title>
+    </paragraphs>
+
+    <p>Multiple PP adverbials often stack in final position. When they do, the typical order is <em>manner → place → time</em>:</p>
+
+    <ul>
+      <li><p><foreign>She studied <em>with focus</em> <em>in the library</em> <em>before the exam</em>.</foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>PP Adverbials vs. PP Adjectivals</title>
+    </paragraphs>
+
+    <p>Not every PP in a sentence is adverbial. A PP inside a noun phrase modifies the noun (adjectival function), while a PP inside a verb phrase modifies the verb (adverbial function). Compare:</p>
+
+    <ul>
+      <li><p><foreign>The book <em>on the shelf</em> fell.</foreign> (<em>on the shelf</em> modifies <foreign>book</foreign>—adjectival)</p></li>
+      <li><p><foreign>She put the book <em>on the shelf</em>.</foreign> (<em>on the shelf</em> modifies <foreign>put</foreign>—adverbial)</p></li>
+    </ul>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 12.7  INFINITIVE PHRASE ADVERBIALS                            -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-12-adverbials-sec-127">
+    <title>Infinitive Phrase Adverbials</title>
+
+    <p>Infinitive phrases—<foreign>to</foreign> followed by the base form of a verb—can fill several grammatical roles. In Chapter 14 you will see them as nominals (subjects, objects). Here the focus is on their adverbial use. When an infinitive phrase appears after a complete clause and answers the question <em>why?</em> or <em>for what purpose?</em>, it is functioning as an adverbial of purpose.</p>
+
+    <paragraphs>
+      <title>Formation</title>
+    </paragraphs>
+
+    <p>Adverbial infinitive phrase = <em>to</em> + base verb + (complements/modifiers). The expanded form <foreign>in order to</foreign> makes the purpose meaning explicit:</p>
+
+    <ul>
+      <li><p><foreign>She came <em>to help</em>.</foreign></p></li>
+      <li><p><foreign>He studied hard <em>to pass the exam</em>.</foreign></p></li>
+      <li><p><foreign><em>To succeed</em>, you must practice daily.</foreign></p></li>
+      <li><p><foreign>She saved money <em>in order to buy a car</em>.</foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Purpose vs. Other Infinitive Functions</title>
+    </paragraphs>
+
+    <p>Not every infinitive is adverbial. The purpose test is straightforward: can you paraphrase with <em>in order to</em>? If yes, it is an adverbial of purpose. If not, it is likely nominal (Chapter 14) or adjectival (Chapter 13).</p>
+
+    <ul>
+      <li><p><foreign>He ran <em>to catch the bus</em>.</foreign> → <foreign>He ran <em>in order to catch the bus</em>.</foreign> ✓ (adverbial—purpose)</p></li>
+      <li><p><foreign>She wants <em>to leave</em>.</foreign> → <foreign><delete>She wants in order to leave.</delete></foreign> ✗ (nominal—direct object)</p></li>
+      <li><p><foreign>She has a book <em>to read</em>.</foreign> → <foreign><delete>She has a book in order to read.</delete></foreign> ✗ (adjectival—modifies <foreign>book</foreign>)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell>Pred</cell><cell></cell><cell></cell><cell>Advl</cell><cell></cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell>VP</cell><cell></cell><cell></cell><cell>VP</cell><cell></cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>He</foreign></cell><cell><foreign>studied</foreign></cell><cell><foreign>hard</foreign></cell><cell><foreign>to</foreign></cell><cell><foreign>pass</foreign></cell><cell><foreign>the</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>ADV</cell><cell>PART</cell><cell>V</cell><cell>DET</cell></row>
+    </tabular>
+
+    <p>(Continued: <foreign>...the exam</foreign>. The infinitive phrase <foreign>to pass the exam</foreign> answers <em>why?</em>—purpose adverbial.)</p>
+
+    <paragraphs>
+      <title>Position</title>
+    </paragraphs>
+
+    <p>Purpose infinitives appear most naturally in final position but can be fronted for emphasis: <foreign><em>To succeed in this program</em>, you must commit to daily practice.</foreign> When fronted, a comma follows the infinitive phrase.</p>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 12.8  PARTICIPIAL PHRASE ADVERBIALS                           -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-12-adverbials-sec-128">
+    <title>Participial Phrase Adverbials</title>
+
+    <p>Participial phrases built on <foreign>-ing</foreign> (present participle) or <foreign>-ed/-en</foreign> (past participle) forms can function adverbially. These are among the most stylistically flexible adverbials—they compress information that might otherwise require a full adverbial clause into a compact modifier. When a participial phrase appears at the beginning or end of a clause and modifies the main verb (rather than a noun), it is functioning adverbially.</p>
+
+    <paragraphs>
+      <title>Formation</title>
+    </paragraphs>
+
+    <p>Present participle: <em>-ing form</em> + (complements/modifiers)</p>
+    <p>Past participle: <em>-ed/-en form</em> + (complements/modifiers)</p>
+    <p>Perfect participle: <em>having</em> + past participle + (complements/modifiers)</p>
+
+    <paragraphs>
+      <title>Common Semantic Roles</title>
+    </paragraphs>
+
+    <p><em>Reason/Cause:</em></p>
+    <ul>
+      <li><p><foreign><em>Knowing the answer</em>, she raised her hand.</foreign> (she raised her hand <em>because</em> she knew the answer)</p></li>
+      <li><p><foreign><em>Exhausted from the journey</em>, he collapsed on the couch.</foreign></p></li>
+    </ul>
+
+    <p><em>Time:</em></p>
+    <ul>
+      <li><p><foreign><em>Having finished the report</em>, she submitted it immediately.</foreign> (after finishing)</p></li>
+      <li><p><foreign><em>Arriving at the station</em>, we bought our tickets.</foreign> (when/upon arriving)</p></li>
+    </ul>
+
+    <p><em>Attendant Circumstance (simultaneous action):</em></p>
+    <ul>
+      <li><p><foreign>She left the room, <em>slamming the door behind her</em>.</foreign></p></li>
+      <li><p><foreign>He sat in the corner, <em>reading quietly</em>.</foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>Advl</cell><cell></cell><cell></cell><cell>Subj</cell><cell>Pred</cell><cell></cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>VP</cell><cell>NP</cell><cell></cell><cell>NP</cell><cell>VP</cell><cell></cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>Knowing</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>answer</foreign></cell><cell><foreign>she</foreign></cell><cell><foreign>raised</foreign></cell><cell><foreign>her</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>V</cell><cell>DET</cell><cell>N</cell><cell>PRON</cell><cell>V</cell><cell>DET</cell></row>
+    </tabular>
+
+    <p>(Continued: <foreign>...her hand</foreign>. The participial phrase <foreign>Knowing the answer</foreign> functions as a reason adverbial.)</p>
+
+    <paragraphs>
+      <title>Dangling Participles</title>
+    </paragraphs>
+
+    <p>A participial phrase must clearly modify the subject of the main clause. When it does not, the result is a <term>dangling participle</term>—a common error:</p>
+
+    <ul>
+      <li><p><foreign><delete>Walking through the park, the flowers were beautiful.</delete></foreign> (Who was walking? Not the flowers.)</p></li>
+      <li><p><foreign>Walking through the park, <em>I noticed</em> the beautiful flowers.</foreign> ✓</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Participial Adverbials vs. Participial Adjectivals</title>
+    </paragraphs>
+
+    <p>A participial phrase modifying a <em>noun</em> is adjectival (Chapter 13): <foreign>The woman <em>standing by the door</em> waved.</foreign> A participial phrase modifying the <em>main clause verb</em> is adverbial: <foreign><em>Standing by the door</em>, she waved.</foreign> Position is often the deciding factor: initial participial phrases are typically adverbial; post-nominal ones are typically adjectival.</p>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 12.9  CONJUNCTIVE ADVERBS AND ADVERBIAL CLAUSES               -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-12-adverbials-sec-129">
+    <title>Conjunctive Adverbs and Adverbial Clauses</title>
+
+    <p>The final two adverbial structures share a connection to clause-level grammar covered in <xref ref="ch-09-compound-and-complex-sentences" text="title"/>. Conjunctive adverbs connect ideas across sentence boundaries, and adverbial clauses embed entire dependent clauses within a sentence. Both involve relationships between clauses, and both interact closely with punctuation. This section provides a focused overview; see Chapter 9 for detailed treatment of clause combining and subordination.</p>
+
+    <paragraphs>
+      <title>Conjunctive Adverbs</title>
+    </paragraphs>
+
+    <p>A <term>conjunctive adverb</term> (also called a <em>conjunct</em>) is an adverb that signals a logical relationship between two independent clauses or sentences. Unlike coordinating conjunctions (<foreign>and, but, or</foreign>), conjunctive adverbs are grammatically adverbials—they can move within their clause and require semicolon or period punctuation at the boundary:</p>
+
+    <ul>
+      <li><p><foreign>She was tired; <em>however</em>, she continued.</foreign></p></li>
+      <li><p><foreign>She was tired. She continued, <em>however</em>.</foreign> (moved to final position)</p></li>
+    </ul>
+
+    <tabular halign="left">
+      <row header="yes" bottom="minor">
+        <cell>Relationship</cell>
+        <cell>Conjunctive Adverbs</cell>
+      </row>
+      <row><cell>Contrast</cell><cell><foreign>however, nevertheless, nonetheless, on the other hand, conversely</foreign></cell></row>
+      <row><cell>Result/Consequence</cell><cell><foreign>therefore, consequently, thus, hence, accordingly</foreign></cell></row>
+      <row><cell>Addition</cell><cell><foreign>moreover, furthermore, additionally, also, besides</foreign></cell></row>
+      <row><cell>Emphasis</cell><cell><foreign>indeed, in fact, certainly</foreign></cell></row>
+      <row><cell>Sequence</cell><cell><foreign>first, then, next, finally, meanwhile</foreign></cell></row>
+      <row><cell>Example</cell><cell><foreign>for example, for instance, specifically</foreign></cell></row>
+    </tabular>
+
+    <p>Conjunctive adverbs are punctuated differently from coordinating conjunctions. Compare:</p>
+
+    <ul>
+      <li><p><foreign>She was tired, <em>but</em> she continued.</foreign> (coordinating conjunction—comma)</p></li>
+      <li><p><foreign>She was tired; <em>however</em>, she continued.</foreign> (conjunctive adverb—semicolon + comma)</p></li>
+      <li><p><foreign><delete>She was tired, however, she continued.</delete></foreign> (comma splice—error)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Adverbial Clauses</title>
+    </paragraphs>
+
+    <p>An <term>adverbial clause</term> (also called an <em>adverb clause</em>) is a dependent clause introduced by a subordinating conjunction that functions as an adverbial. It contains its own subject and predicate but depends on the main clause for its grammatical completeness.</p>
+
+    <p>Structure: Subordinating Conjunction + Subject + Predicate</p>
+
+    <ul>
+      <li><p><foreign><em>When</em> she arrived, we started.</foreign> (time)</p></li>
+      <li><p><foreign><em>Because</em> the roads were icy, we drove slowly.</foreign> (reason)</p></li>
+      <li><p><foreign><em>Although</em> it was expensive, he bought it.</foreign> (concession)</p></li>
+      <li><p><foreign><em>If</em> you need help, call me.</foreign> (condition)</p></li>
+    </ul>
 
     <paragraphs>
       <title>Common Subordinating Conjunctions</title>
@@ -390,125 +727,50 @@
         <cell>Meaning</cell>
         <cell>Conjunctions</cell>
       </row>
-      <row>
-        <cell>Time</cell>
-        <cell><foreign>when, while, before, after, until, since, as, once, whenever, as soon as</foreign></cell>
-      </row>
-      <row>
-        <cell>Reason</cell>
-        <cell><foreign>because, since, as, given that, now that</foreign></cell>
-      </row>
-      <row>
-        <cell>Contrast</cell>
-        <cell><foreign>although, though, even though, while, whereas, even if</foreign></cell>
-      </row>
-      <row>
-        <cell>Condition</cell>
-        <cell><foreign>if, unless, provided that, as long as, in case</foreign></cell>
-      </row>
-      <row>
-        <cell>Purpose</cell>
-        <cell><foreign>so that, in order that</foreign></cell>
-      </row>
-      <row>
-        <cell>Result</cell>
-        <cell><foreign>so...that, such...that</foreign></cell>
-      </row>
-      <row>
-        <cell>Manner</cell>
-        <cell><foreign>as, as if, as though</foreign></cell>
-      </row>
-      <row>
-        <cell>Comparison</cell>
-        <cell><foreign>than, as...as</foreign></cell>
-      </row>
+      <row><cell>Time</cell><cell><foreign>when, while, before, after, until, since, as, once, whenever, as soon as</foreign></cell></row>
+      <row><cell>Reason</cell><cell><foreign>because, since, as, given that, now that</foreign></cell></row>
+      <row><cell>Contrast/Concession</cell><cell><foreign>although, though, even though, while, whereas, even if</foreign></cell></row>
+      <row><cell>Condition</cell><cell><foreign>if, unless, provided that, as long as, in case</foreign></cell></row>
+      <row><cell>Purpose</cell><cell><foreign>so that, in order that</foreign></cell></row>
+      <row><cell>Result</cell><cell><foreign>so...that, such...that</foreign></cell></row>
+      <row><cell>Manner</cell><cell><foreign>as, as if, as though</foreign></cell></row>
+      <row><cell>Comparison</cell><cell><foreign>than, as...as</foreign></cell></row>
     </tabular>
 
     <paragraphs>
-      <title>Punctuation</title>
+      <title>Punctuation with Adverbial Clauses</title>
     </paragraphs>
 
-    <p>Adverb clause first: comma after the clause</p>
+    <p>Two rules govern comma use with adverbial clauses:</p>
 
     <ul>
-      <li><p><foreign><em>When it rains</em>, we stay inside.</foreign></p></li>
+      <li><p><em>Adverbial clause first:</em> comma after the clause. <foreign><em>When it rains</em>, we stay inside.</foreign></p></li>
+      <li><p><em>Adverbial clause last:</em> usually no comma. <foreign>We stay inside <em>when it rains</em>.</foreign></p></li>
     </ul>
 
-    <p>Adverb clause last: usually no comma</p>
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
 
-    <ul>
-      <li><p><foreign>We stay inside <em>when it rains</em>.</foreign></p></li>
-    </ul>
+    <tabular top="minor" left="minor">
+      <col halign="left" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <col halign="center" right="minor"/>
+      <row bottom="minor"><cell>Role</cell><cell>DC</cell><cell></cell><cell></cell><cell>IC</cell><cell></cell><cell></cell></row>
+      <row bottom="minor"><cell>Phrase</cell><cell>COMP</cell><cell>NP</cell><cell>VP</cell><cell>NP</cell><cell>VP</cell><cell></cell></row>
+      <row bottom="minor"><cell>Word</cell><cell><foreign>When</foreign></cell><cell><foreign>she</foreign></cell><cell><foreign>arrived</foreign></cell><cell><foreign>we</foreign></cell><cell><foreign>started</foreign></cell><cell><foreign>working</foreign></cell></row>
+      <row bottom="minor"><cell>POS</cell><cell>COMP</cell><cell>PRON</cell><cell>V</cell><cell>PRON</cell><cell>V</cell><cell>V</cell></row>
+    </tabular>
 
   </section>
 
-  <section xml:id="ch-12-adverbials-sec-126">
-    <title>Adverbial Position</title>
-
-    <p>Unlike subjects and objects, which occupy fixed positions in the English clause, adverbials are mobile. You can say <foreign>Yesterday, she arrived</foreign> or <foreign>She arrived yesterday</foreign> or even, in some cases, <foreign>She yesterday arrived</foreign>—and in all three the basic meaning is the same. That mobility is one of the defining features of adverbials. But position is not grammatically meaningless: where you place an adverbial signals what is new information, what is the focus, and what serves as scene-setting background. Writers and speakers exploit adverbial position to control the flow of information and to place emphasis on what matters most. Understanding the three main positions—initial, medial, and final—gives you a tool for analyzing both how sentences are constructed and why particular arrangements feel more natural than others.</p>
-
-    <p>Adverbials can appear in different positions, affecting emphasis and information flow.</p>
-
-    <paragraphs>
-      <title>Initial Position</title>
-    </paragraphs>
-
-    <p>At the beginning of the sentence:</p>
-
-    <ul>
-      <li><p><foreign><em>Yesterday</em>, she arrived.</foreign></p></li>
-      <li><p><foreign><em>In the morning</em>, we'll leave.</foreign></p></li>
-      <li><p><foreign><em>Frankly</em>, I disagree.</foreign></p></li>
-    </ul>
-
-    <p>Initial position often signals topic or sets the scene.</p>
-
-    <paragraphs>
-      <title>Medial Position</title>
-    </paragraphs>
-
-    <p>Between subject and verb, or within the verb phrase:</p>
-
-    <ul>
-      <li><p><foreign>She <em>often</em> works late.</foreign></p></li>
-      <li><p><foreign>He has <em>always</em> been reliable.</foreign></p></li>
-      <li><p><foreign>They will <em>probably</em> arrive soon.</foreign></p></li>
-    </ul>
-
-    <p>Medial position is common for frequency adverbs and some manner adverbs.</p>
-
-    <paragraphs>
-      <title>Final Position</title>
-    </paragraphs>
-
-    <p>At the end of the sentence:</p>
-
-    <ul>
-      <li><p><foreign>She arrived <em>yesterday</em>.</foreign></p></li>
-      <li><p><foreign>We'll leave <em>in the morning</em>.</foreign></p></li>
-      <li><p><foreign>He spoke <em>quietly</em>.</foreign></p></li>
-    </ul>
-
-    <p>Final position is the default for many adverbials, especially manner and place.</p>
-
-    <paragraphs>
-      <title>Position and Focus</title>
-    </paragraphs>
-
-    <p>Moving an adverbial to a different position can change emphasis:</p>
-
-    <ul>
-      <li><p><foreign>She spoke quietly <em>in the library</em>.</foreign> (neutral)</p></li>
-      <li><p><foreign><em>In the library</em>, she spoke quietly.</foreign> (library emphasized)</p></li>
-      <li><p><foreign>She spoke <em>in the library</em> quietly.</foreign> (quietness emphasized)</p></li>
-    </ul>
-
-    <image source="diagrams/new/ch12_multiple_adverbials.png" width="50%">
-      <description>Syntax tree for "She worked hard all day" showing two adverbials — an AdvP and a temporal NP — both attached to the VP</description>
-    </image>
-    <p><c>[S [NP [PRON She]] [VP [V worked] [ADVP [ADV hard]] [NP [DET all] [N day]]]]</c></p>
-
-  </section>
+  <!-- ============================================================ -->
+  <!-- HOMEWORK                                                      -->
+  <!-- ============================================================ -->
 
   <section xml:id="ch-12-homework">
     <title>Homework: Adverbials</title>
@@ -533,26 +795,10 @@
           <cell>Form</cell>
           <cell>Semantic Role</cell>
         </row>
-        <row>
-          <cell><foreign>Yesterday</foreign></cell>
-          <cell>NP</cell>
-          <cell>time</cell>
-        </row>
-        <row>
-          <cell><foreign>carefully</foreign></cell>
-          <cell>AdvP</cell>
-          <cell>manner</cell>
-        </row>
-        <row>
-          <cell><foreign>at the office</foreign></cell>
-          <cell>PP</cell>
-          <cell>place</cell>
-        </row>
-        <row>
-          <cell><foreign>because she had a deadline</foreign></cell>
-          <cell>adverb clause</cell>
-          <cell>reason</cell>
-        </row>
+        <row><cell><foreign>Yesterday</foreign></cell><cell>NP</cell><cell>time</cell></row>
+        <row><cell><foreign>carefully</foreign></cell><cell>AdvP</cell><cell>manner</cell></row>
+        <row><cell><foreign>at the office</foreign></cell><cell>PP</cell><cell>place</cell></row>
+        <row><cell><foreign>because she had a deadline</foreign></cell><cell>adverb clause</cell><cell>reason</cell></row>
       </tabular>
 
       <paragraphs>
@@ -653,76 +899,111 @@
       </paragraphs>
 
       <p><em>Exercise 9.</em> Add a prepositional phrase of time: __________, the committee will announce its decision.</p>
-      <ul>
-        <li><p>Answer: __________</p></li>
-      </ul>
+      <ul><li><p>Answer: __________</p></li></ul>
 
       <p><em>Exercise 10.</em> Add an adverb clause of reason: She stayed home __________.</p>
-      <ul>
-        <li><p>Answer: __________</p></li>
-      </ul>
+      <ul><li><p>Answer: __________</p></li></ul>
 
       <p><em>Exercise 11.</em> Add an infinitive phrase of purpose: He went to the store __________.</p>
-      <ul>
-        <li><p>Answer: __________</p></li>
-      </ul>
+      <ul><li><p>Answer: __________</p></li></ul>
 
       <p><em>Exercise 12.</em> Add an adverb clause of concession: __________, we decided to proceed with the project.</p>
-      <ul>
-        <li><p>Answer: __________</p></li>
-      </ul>
+      <ul><li><p>Answer: __________</p></li></ul>
 
       <p><em>Exercise 13.</em> Add a participial phrase functioning as an adverbial: __________, she answered all the questions correctly.</p>
-      <ul>
-        <li><p>Answer: __________</p></li>
-      </ul>
+      <ul><li><p>Answer: __________</p></li></ul>
 
     </subsection>
 
     <subsection xml:id="ch-12-homework-part4">
-      <title>Part 4: Sentence Writing</title>
+      <title>Part 4: Diagramming Adverbials</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Write original sentences following each prompt.</p>
-
-      <paragraphs>
-        <title>Example (completed)</title>
-      </paragraphs>
-
-      <p>Write a sentence with an adverb clause of condition:</p>
-
-      <p><foreign>If the weather improves, we will have the picnic outside.</foreign></p>
+      <p>For each sentence, complete the labeling table (Role, Phrase, Word, POS), write the bracket notation, and draw a tree diagram. Pay special attention to adverbial elements and their phrase types (ADVP, PP, or clausal).</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 14.</em> Write a sentence with an adverb clause of time (using <foreign>while, when, before, after</foreign>, or <foreign>until</foreign>):</p>
-      <ul>
-        <li><p>__________</p></li>
-      </ul>
+      <p><em>Exercise 14.</em> <foreign>She spoke very clearly.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>spoke</foreign></cell><cell><foreign>very</foreign></cell><cell><foreign>clearly</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 15.</em> Write a sentence with a disjunct that expresses your attitude toward the content:</p>
-      <ul>
-        <li><p>__________</p></li>
-      </ul>
+      <p><em>Exercise 15.</em> <foreign>The train arrived after midnight.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>train</foreign></cell><cell><foreign>arrived</foreign></cell><cell><foreign>after</foreign></cell><cell><foreign>midnight</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 16.</em> Write a sentence with a conjunct that shows contrast (using <foreign>however, nevertheless</foreign>, or <foreign>on the other hand</foreign>):</p>
-      <ul>
-        <li><p>__________</p></li>
-      </ul>
+      <p><em>Exercise 16.</em> <foreign>He walked slowly through the park.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>He</foreign></cell><cell><foreign>walked</foreign></cell><cell><foreign>slowly</foreign></cell><cell><foreign>through</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>park</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 17.</em> Write a sentence with an adverb clause of purpose (using <foreign>so that</foreign> or <foreign>in order that</foreign>):</p>
-      <ul>
-        <li><p>__________</p></li>
-      </ul>
+      <p><em>Exercise 17.</em> <foreign>Unfortunately, the game was cancelled.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>Unfortunately</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>game</foreign></cell><cell><foreign>was</foreign></cell><cell><foreign>cancelled</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 18.</em> Write a sentence with a participial phrase functioning as an adverbial of reason:</p>
-      <ul>
-        <li><p>__________</p></li>
-      </ul>
+      <p><em>Exercise 18.</em> <foreign>She left early because the roads were icy.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>left</foreign></cell><cell><foreign>early</foreign></cell><cell><foreign>because</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>roads</foreign></cell><cell><foreign>were</foreign></cell><cell><foreign>icy</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
     </subsection>
 
@@ -754,9 +1035,7 @@
       </ul>
 
       <p><em>Exercise 20.</em> The passage contains both <foreign>Surprisingly</foreign> and <foreign>diligently</foreign>. Explain why <foreign>Surprisingly</foreign> is a disjunct while <foreign>diligently</foreign> is an adjunct.</p>
-      <ul>
-        <li><p>__________</p></li>
-      </ul>
+      <ul><li><p>__________</p></li></ul>
 
       <p><em>Exercise 21.</em> Rewrite the first sentence of the passage with the adverbial <foreign>yesterday</foreign> in three different positions. Explain how the emphasis changes in each version.</p>
       <ul>
@@ -772,6 +1051,10 @@
 
   </section>
 
+  <!-- ============================================================ -->
+  <!-- DIAGRAM EXAMPLES                                              -->
+  <!-- ============================================================ -->
+
   <section xml:id="ch-12-diagram-examples">
     <title>Diagram Examples</title>
 
@@ -781,7 +1064,7 @@
       <title>Adverb as Adverbial</title>
 
       <paragraphs>
-        <title>12.8.1 A: Adverb modifying verb: She spoke quietly.</title>
+        <title>12.10.1 A: Adverb modifying verb: She spoke quietly.</title>
       </paragraphs>
       <image source="diagrams/new/ch10_adv_modifying_verb.png" width="40%">
         <description>Syntax tree for "She spoke quietly" showing adverb modifying verb</description>
@@ -789,7 +1072,7 @@
       <p><c>[S [NP [PRON She]] [VP [V spoke] [ADVP [ADV quietly]]]]</c></p>
 
       <paragraphs>
-        <title>12.8.1 B: Sentence adverb: Unfortunately, she lost.</title>
+        <title>12.10.1 B: Sentence adverb: Unfortunately, she lost.</title>
       </paragraphs>
       <image source="diagrams/new/ch10_sentence_adverb.png" width="40%">
         <description>Syntax tree for "Unfortunately, she lost" showing sentence adverb</description>
@@ -801,7 +1084,7 @@
       <title>PP as Adverbial</title>
 
       <paragraphs>
-        <title>12.8.2 A: PP in VP (adverbial): She works at home.</title>
+        <title>12.10.2 A: PP in VP (adverbial): She works at home.</title>
       </paragraphs>
       <image source="diagrams/new/ch10_adverbial_pp.png" width="45%">
         <description>Syntax tree for "She works at home" showing PP as adverbial</description>
@@ -813,7 +1096,7 @@
       <title>Other Adverbial Structures</title>
 
       <paragraphs>
-        <title>12.8.3 A: Noun functioning as adverbial: I sleep every day.</title>
+        <title>12.10.3 A: Noun functioning as adverbial: I sleep every day.</title>
       </paragraphs>
       <image source="diagrams/new/ch12_noun_as_adverbial.png" width="45%">
         <description>Syntax tree for "I sleep every day" showing noun phrase as adverbial</description>
@@ -821,7 +1104,7 @@
       <p><c>[S [NP [PRON I]] [VP [V sleep] [NP [DET every] [N day]]]]</c></p>
 
       <paragraphs>
-        <title>12.8.3 B: Present participle as adverbial: I left running.</title>
+        <title>12.10.3 B: Present participle as adverbial: I left running.</title>
       </paragraphs>
       <image source="diagrams/new/ch12_participle_adverbial.png" width="40%">
         <description>Syntax tree for "I left running" showing participle as adverbial</description>
@@ -829,7 +1112,7 @@
       <p><c>[S [NP [PRON I]] [VP [V left] [VP [V running]]]]</c></p>
 
       <paragraphs>
-        <title>12.8.3 C: Infinitive as adverbial: I went to run.</title>
+        <title>12.10.3 C: Infinitive as adverbial: I went to run.</title>
       </paragraphs>
       <image source="diagrams/new/ch12_infinitive_adverbial.png" width="40%">
         <description>Syntax tree for "I went to run" showing infinitive as adverbial</description>
@@ -837,7 +1120,7 @@
       <p><c>[S [NP [PRON I]] [VP [V went] [VP [PREP to] [V run]]]]</c></p>
 
       <paragraphs>
-        <title>12.8.3 D: Multiple adverbials: She spoke quietly in the library.</title>
+        <title>12.10.3 D: Multiple adverbials: She spoke quietly in the library.</title>
       </paragraphs>
       <image source="diagrams/new/ch10_sentence_adverbials.png" width="55%">
         <description>Syntax tree for "She spoke quietly in the library" showing multiple adverbials</description>
@@ -846,6 +1129,10 @@
     </subsection>
 
   </section>
+
+  <!-- ============================================================ -->
+  <!-- GLOSSARY                                                      -->
+  <!-- ============================================================ -->
 
   <glossary>
     <title>Glossary</title>
@@ -863,19 +1150,31 @@
     </gi>
     <gi>
       <title>Adverbial</title>
-      <p>Any word, phrase, or clause functioning to modify a verb, adjective, adverb, or sentence.</p>
+      <p>Any word, phrase, or clause functioning to modify a verb, adjective, adverb, or sentence. A role in a sentence, not a form.</p>
     </gi>
     <gi>
       <title>Conjunct</title>
       <p>An adverbial that connects sentences or shows logical relationships (<foreign>however, therefore, nevertheless</foreign>, etc.).</p>
     </gi>
     <gi>
+      <title>Conjunctive adverb</title>
+      <p>An adverb that signals a logical relationship between independent clauses or sentences (<foreign>however, therefore, moreover</foreign>, etc.). Also called a conjunct.</p>
+    </gi>
+    <gi>
+      <title>Dangling participle</title>
+      <p>A participial phrase that does not clearly modify the subject of the main clause.</p>
+    </gi>
+    <gi>
       <title>Disjunct</title>
       <p>An adverbial expressing the speaker's attitude or evaluation, external to the proposition.</p>
     </gi>
     <gi>
+      <title>Participial phrase</title>
+      <p>A phrase built on a present or past participle, functioning adverbially (this chapter) or adjectivally (Chapter 13).</p>
+    </gi>
+    <gi>
       <title>Subordinating conjunction</title>
-      <p>A word that introduces a dependent clause (<foreign>when, because, although</foreign>, etc.).</p>
+      <p>A word that introduces a dependent clause (<foreign>when, because, although, if</foreign>, etc.).</p>
     </gi>
   </glossary>
 
