@@ -119,6 +119,9 @@
       <li><p><foreign>someone <em>happy about the news</em></foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_table_001.png" width="65%">
+      <description>Multi-level labeling table for "The red car stopped"</description>
+    </image>
     <image source="diagrams/new/ch13_adj_prenominal.png" width="35%">
       <description>Syntax tree for "The red car stopped" showing a prenominal adjective modifying "car"</description>
     </image>
@@ -150,6 +153,9 @@
       <li><p><foreign>a sense <em>of accomplishment</em></foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_table_002.png" width="80%">
+      <description>Multi-level labeling table for "The book on the shelf is mine"</description>
+    </image>
     <image source="diagrams/new/ch13_pp_adjectival.png" width="50%">
       <description>Syntax tree for "The book on the shelf is mine" showing a PP post-modifier inside the subject NP</description>
     </image>
@@ -167,6 +173,9 @@
       <li><p><foreign>the place <em>where we met</em></foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_table_003.png" width="65%">
+      <description>Multi-level labeling table for "The students who studied passed"</description>
+    </image>
     <image source="diagrams/new/ch13_rel_clause_restr.png" width="45%">
       <description>Syntax tree for "The students who studied passed" showing a restrictive relative clause embedded inside the subject NP</description>
     </image>
@@ -184,6 +193,9 @@
       <li><p><foreign>the book <em>written by Hemingway</em></foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_table_004.png" width="80%">
+      <description>Multi-level labeling table for "The woman singing on stage left"</description>
+    </image>
     <image source="diagrams/new/ch13_pres_part_phrase.png" width="60%">
       <description>Syntax tree for "The woman singing on stage left" showing a present participial phrase modifying "woman"</description>
     </image>
@@ -201,6 +213,9 @@
       <li><p><foreign>the first person <em>to arrive</em></foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_table_005.png" width="65%">
+      <description>Multi-level labeling table for "He has time to spare"</description>
+    </image>
     <image source="diagrams/new/ch13_inf_adjectival.png" width="45%">
       <description>Syntax tree for "He has time to spare" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
     </image>
@@ -259,6 +274,9 @@
       <li><p><q><foreign>She became <em>happy about the news</em>.</foreign></q></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_table_006.png" width="65%">
+      <description>Multi-level labeling table for "The car is red"</description>
+    </image>
     <image source="diagrams/new/ch13_adj_predicative.png" width="40%">
       <description>Syntax tree for "The car is red" showing an adjective in predicative position as a subject complement</description>
     </image>
@@ -781,6 +799,9 @@
       <li><p><foreign>a child <em>playing in the park</em></foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_table_007.png" width="80%">
+      <description>Multi-level labeling table for "The woman singing on stage left"</description>
+    </image>
     <image source="diagrams/new/ch13_pres_part_phrase.png" width="60%">
       <description>Syntax tree for "The woman singing on stage left" showing a present participial phrase modifying "woman"</description>
     </image>
@@ -798,6 +819,9 @@
       <li><p><foreign>the problem <em>discussed earlier</em></foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch13_table_008.png" width="95%">
+      <description>Multi-level labeling table for "The report written by the team was thorough"</description>
+    </image>
     <image source="diagrams/new/ch13_past_part_phrase.png" width="65%">
       <description>Syntax tree for "The report written by the team was thorough" showing a past participial phrase modifying "report"</description>
     </image>
@@ -1260,6 +1284,9 @@
       <paragraphs>
         <title>13.11.1 A: Prenominal adjective: The red car stopped.</title>
       </paragraphs>
+      <image source="diagrams/new/ch13_table_009.png" width="65%">
+        <description>Multi-level labeling table for "The red car stopped"</description>
+      </image>
       <image source="diagrams/new/ch13_adj_prenominal.png" width="35%">
         <description>Syntax tree for "The red car stopped" showing a prenominal adjective modifying "car"</description>
       </image>
@@ -1268,6 +1295,9 @@
       <paragraphs>
         <title>13.11.1 B: Predicative adjective: The car is red.</title>
       </paragraphs>
+      <image source="diagrams/new/ch13_table_010.png" width="65%">
+        <description>Multi-level labeling table for "The car is red"</description>
+      </image>
       <image source="diagrams/new/ch13_adj_predicative.png" width="40%">
         <description>Syntax tree for "The car is red" showing an adjective in predicative position as a subject complement</description>
       </image>
@@ -1276,6 +1306,9 @@
       <paragraphs>
         <title>13.11.1 C: PP adjectival: The book on the shelf is mine.</title>
       </paragraphs>
+      <image source="diagrams/new/ch13_table_011.png" width="80%">
+        <description>Multi-level labeling table for "The book on the shelf is mine"</description>
+      </image>
       <image source="diagrams/new/ch13_pp_adjectival.png" width="50%">
         <description>Syntax tree for "The book on the shelf is mine" showing a PP post-modifier inside the subject NP</description>
       </image>
@@ -1288,6 +1321,9 @@
       <paragraphs>
         <title>13.11.2 A: Restrictive relative clause: The students who studied passed.</title>
       </paragraphs>
+      <image source="diagrams/new/ch13_table_012.png" width="65%">
+        <description>Multi-level labeling table for "The students who studied passed"</description>
+      </image>
       <image source="diagrams/new/ch13_rel_clause_restr.png" width="45%">
         <description>Syntax tree for "The students who studied passed" showing a restrictive relative clause embedded inside the subject NP</description>
       </image>
@@ -1296,6 +1332,9 @@
       <paragraphs>
         <title>13.11.2 B: Non-restrictive relative clause: My sister who lives in Boston called.</title>
       </paragraphs>
+      <image source="diagrams/new/ch13_table_013.png" width="80%">
+        <description>Multi-level labeling table for "My sister who lives in Boston called"</description>
+      </image>
       <image source="diagrams/new/ch13_rel_clause_non_restr.png" width="60%">
         <description>Syntax tree for "My sister who lives in Boston called" showing a non-restrictive relative clause modifying the NP "My sister"</description>
       </image>
@@ -1304,6 +1343,9 @@
       <paragraphs>
         <title>13.11.2 C: Present participial phrase: The woman singing on stage left.</title>
       </paragraphs>
+      <image source="diagrams/new/ch13_table_014.png" width="80%">
+        <description>Multi-level labeling table for "The woman singing on stage left"</description>
+      </image>
       <image source="diagrams/new/ch13_pres_part_phrase.png" width="60%">
         <description>Syntax tree for "The woman singing on stage left" showing a present participial phrase modifying "woman"</description>
       </image>
@@ -1312,6 +1354,9 @@
       <paragraphs>
         <title>13.11.2 D: Past participial phrase: The report written by the team was thorough.</title>
       </paragraphs>
+      <image source="diagrams/new/ch13_table_015.png" width="95%">
+        <description>Multi-level labeling table for "The report written by the team was thorough"</description>
+      </image>
       <image source="diagrams/new/ch13_past_part_phrase.png" width="65%">
         <description>Syntax tree for "The report written by the team was thorough" showing a past participial phrase modifying "report"</description>
       </image>
@@ -1320,6 +1365,9 @@
       <paragraphs>
         <title>13.11.2 E: Infinitive adjectival: He has time to spare.</title>
       </paragraphs>
+      <image source="diagrams/new/ch13_table_016.png" width="65%">
+        <description>Multi-level labeling table for "He has time to spare"</description>
+      </image>
       <image source="diagrams/new/ch13_inf_adjectival.png" width="45%">
         <description>Syntax tree for "He has time to spare" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
       </image>

@@ -1552,54 +1552,113 @@
     </subsection>
 
     <subsection xml:id="ch-05-homework-4">
-      <title>Flexible Words</title>
+      <title>Diagramming Open-Class Words</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Many English words can function as different parts of speech. For each word below, write a sentence using it as the headword of the specified phrase type. You may change the word's form if needed (e.g., <foreign>book</foreign> → <foreign>books</foreign>, <foreign>booked</foreign>, <foreign>booking</foreign>).</p>
+      <p>For each sentence, complete the labeling table (Role, Phrase, Word, POS), write the bracket notation, and draw a tree diagram. Focus on identifying nouns, verbs, adjectives, and adverbs in their phrase contexts.</p>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
-      <p><em>Word:</em> <foreign>book</foreign></p>
-      <p><em>Use as:</em> headword of a VP (verb phrase)</p>
-      <p>Sentence: <foreign>We booked the flight last Tuesday.</foreign></p>
-      <p>Explanation: <foreign>Booked</foreign> is the headword of the VP <foreign>booked the flight last Tuesday</foreign>.</p>
+      <p><foreign>The cat slept.</foreign></p>
+
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Pred</cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>VP</cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>cat</foreign></cell><cell><foreign>slept</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>V</cell></row>
+      </tabular>
+
+      <image source="diagrams/new/ch05_table_001.png" width="50%">
+        <description>Multi-level labeling table for "The cat slept"</description>
+      </image>
+      <p>Bracket notation: <c>[S [NP [DET The] [N cat]] [VP [V slept]]]</c></p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 15.</em> <foreign>clean</foreign> — use as the headword of a VP</p>
-      <ul>
-        <li><p>Your sentence:</p></li>
-      </ul>
+      <p><em>Exercise 15.</em> <foreign>The tall girl runs quickly.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>tall</foreign></cell><cell><foreign>girl</foreign></cell><cell><foreign>runs</foreign></cell><cell><foreign>quickly</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 16.</em> <foreign>clean</foreign> — use as the headword of an AdjP</p>
-      <ul>
-        <li><p>Your sentence:</p></li>
-      </ul>
+      <p><em>Exercise 16.</em> <foreign>Heavy rain fell suddenly.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>Heavy</foreign></cell><cell><foreign>rain</foreign></cell><cell><foreign>fell</foreign></cell><cell><foreign>suddenly</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 17.</em> <foreign>water</foreign> — use as the headword of an NP</p>
-      <ul>
-        <li><p>Your sentence:</p></li>
-      </ul>
+      <p><em>Exercise 17.</em> <foreign>The young artist painted beautifully.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>young</foreign></cell><cell><foreign>artist</foreign></cell><cell><foreign>painted</foreign></cell><cell><foreign>beautifully</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 18.</em> <foreign>water</foreign> — use as the headword of a VP</p>
-      <ul>
-        <li><p>Your sentence:</p></li>
-      </ul>
+      <p><em>Exercise 18.</em> <foreign>Small birds sing loudly.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>Small</foreign></cell><cell><foreign>birds</foreign></cell><cell><foreign>sing</foreign></cell><cell><foreign>loudly</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 19.</em> <foreign>light</foreign> — use as the headword of an NP</p>
-      <ul>
-        <li><p>Your sentence:</p></li>
-      </ul>
-
-      <p><em>Exercise 20.</em> <foreign>light</foreign> — use as the headword of an AdjP</p>
-      <ul>
-        <li><p>Your sentence:</p></li>
-      </ul>
+      <p><em>Exercise 19.</em> <foreign>The clever student solved the difficult problem easily.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>clever</foreign></cell><cell><foreign>student</foreign></cell><cell><foreign>solved</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>difficult</foreign></cell><cell><foreign>problem</foreign></cell><cell><foreign>easily</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
     </subsection>
 
     <subsection xml:id="ch-05-homework-5">

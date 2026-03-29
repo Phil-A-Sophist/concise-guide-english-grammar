@@ -269,6 +269,9 @@
 
     <p><em>Example</em>: <q><foreign>The dog barked.</foreign></q></p>
 
+    <image source="diagrams/new/ch07_table_002.png" width="50%">
+      <description>Multi-level labeling table for "The dog barked"</description>
+    </image>
     <image source="diagrams/new/ch07_dog_barked.png" width="35%">
       <description>Syntax tree for "The dog barked" showing NP with DET and N, and VP with V</description>
     </image>
@@ -291,6 +294,9 @@
 
     <p><em>Example</em>: <q><foreign>The young artist from Paris painted beautiful landscapes.</foreign></q></p>
 
+    <image source="diagrams/new/ch07_table_003.png" width="95%">
+      <description>Multi-level labeling table for "The young artist from Paris painted beautiful landscapes"</description>
+    </image>
     <image source="diagrams/new/ch07_artist_painted.png" width="70%">
       <description>Syntax tree for "The young artist from Paris painted beautiful landscapes" showing complex NP with PP modifier and VP with object NP</description>
     </image>
@@ -426,6 +432,9 @@
 
     <p><em>Structure 1</em> (PP attaches to VP—<q><foreign>with binoculars</foreign></q> describes how I saw):</p>
 
+    <image source="diagrams/new/ch07_table_004.png" width="65%">
+      <description>Multi-level labeling table for "saw the man with binoculars"</description>
+    </image>
     <image source="diagrams/new/ch07_binoculars_vp.png" width="60%">
       <description>Syntax tree showing "with binoculars" as PP attached to VP, meaning I used binoculars to see the man</description>
     </image>
@@ -433,6 +442,9 @@
 
     <p><em>Structure 2</em> (PP attaches to NP—<q><foreign>with binoculars</foreign></q> describes which man):</p>
 
+    <image source="diagrams/new/ch07_table_005.png" width="65%">
+      <description>Multi-level labeling table for "saw the man with binoculars"</description>
+    </image>
     <image source="diagrams/new/ch07_binoculars_np.png" width="60%">
       <description>Syntax tree showing "with binoculars" as PP attached to NP "the man", meaning the man had binoculars</description>
     </image>
@@ -559,6 +571,9 @@
 
     <p>Compare this with the tree diagram for the same sentence:</p>
 
+    <image source="diagrams/new/ch07_table_006.png" width="50%">
+      <description>Multi-level labeling table for "The dog barked"</description>
+    </image>
     <image source="diagrams/new/ch07_dog_barked.png" width="35%">
       <description>Syntax tree for "The dog barked"</description>
     </image>
@@ -616,6 +631,9 @@
 
     <p>And the corresponding tree:</p>
 
+    <image source="diagrams/new/ch07_table_007.png" width="65%">
+      <description>Multi-level labeling table for "The cat chased the mouse"</description>
+    </image>
     <image source="diagrams/new/ch07_cat_chased.png" width="50%">
       <description>Syntax tree for "The cat chased the mouse"</description>
     </image>
@@ -665,6 +683,9 @@
 
       <p><em>Step 4—Draw the tree</em>:</p>
 
+      <image source="diagrams/new/ch07_table_008.png" width="65%">
+        <description>Multi-level labeling table for "The old man sat quietly"</description>
+      </image>
       <image source="diagrams/new/ch07_old_man_sat.png" width="55%">
         <description>Syntax tree for "The old man sat quietly" with ADJP and ADVP modifiers</description>
       </image>
@@ -740,6 +761,9 @@
 
       <p><em>Step 4—Build up to S</em>: The subject NP <q><foreign>The cat</foreign></q> and the VP <q><foreign>chased the mouse</foreign></q> combine under S.</p>
 
+      <image source="diagrams/new/ch07_table_009.png" width="65%">
+        <description>Multi-level labeling table for "The cat chased the mouse"</description>
+      </image>
       <image source="diagrams/new/ch07_cat_chased.png" width="50%">
         <description>Syntax tree for "The cat chased the mouse"</description>
       </image>
@@ -1066,6 +1090,9 @@
       </paragraphs>
       <p><em>Sentence:</em> <foreign>The cat slept.</foreign></p>
 
+      <image source="diagrams/new/ch07_table_010.png" width="50%">
+        <description>Multi-level labeling table for "The cat slept"</description>
+      </image>
       <p>Bracket notation: <c>[S [NP [DET The] [N cat]] [VP [V slept]]]</c></p>
 
       <tabular top="minor" left="minor">
@@ -1103,23 +1130,161 @@
 
       <p><em>Exercise 10.</em> <foreign>The dog barked loudly.</foreign></p>
 
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell>Role</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Phrase</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Word</cell>
+          <cell><foreign>The</foreign></cell>
+          <cell><foreign>dog</foreign></cell>
+          <cell><foreign>barked</foreign></cell>
+          <cell><foreign>loudly</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell>POS</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
+
       <ul>
-        <li><p>Your tree diagram or bracket notation: _____</p></li>
-        <li><p>Your sentence table: _____</p></li>
+        <li><p>Bracket notation: _____</p></li>
+        <li><p>Diagram:</p></li>
       </ul>
 
       <p><em>Exercise 11.</em> <foreign>The talented student from Ohio won the award.</foreign></p>
 
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell>Role</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Phrase</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Word</cell>
+          <cell><foreign>The</foreign></cell>
+          <cell><foreign>talented</foreign></cell>
+          <cell><foreign>student</foreign></cell>
+          <cell><foreign>from</foreign></cell>
+          <cell><foreign>Ohio</foreign></cell>
+          <cell><foreign>won</foreign></cell>
+          <cell><foreign>the</foreign></cell>
+          <cell><foreign>award</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell>POS</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
+
       <ul>
-        <li><p>Your tree diagram or bracket notation: _____</p></li>
-        <li><p>Your sentence table: _____</p></li>
+        <li><p>Bracket notation: _____</p></li>
+        <li><p>Diagram:</p></li>
       </ul>
 
       <p><em>Exercise 12.</em> <foreign>She carefully read the interesting book.</foreign></p>
 
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor">
+          <cell>Role</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Phrase</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row bottom="minor">
+          <cell>Word</cell>
+          <cell><foreign>She</foreign></cell>
+          <cell><foreign>carefully</foreign></cell>
+          <cell><foreign>read</foreign></cell>
+          <cell><foreign>the</foreign></cell>
+          <cell><foreign>interesting</foreign></cell>
+          <cell><foreign>book</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell>POS</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
+
       <ul>
-        <li><p>Your tree diagram or bracket notation: _____</p></li>
-        <li><p>Your sentence table: _____</p></li>
+        <li><p>Bracket notation: _____</p></li>
+        <li><p>Diagram:</p></li>
       </ul>
 
     </subsection>
@@ -1210,6 +1375,9 @@
       <paragraphs>
         <title>7.9.1 B: Simplest sentence (bare N + V)</title>
       </paragraphs>
+      <image source="diagrams/new/ch07_table_012.png" width="50%">
+        <description>Multi-level labeling table for "Thunder rumbled"</description>
+      </image>
       <image source="diagrams/new/ch07_thunder_rumbled.png" width="30%">
         <description>Syntax tree for "Thunder rumbled" showing S with NP containing N and VP containing V</description>
       </image>
@@ -1218,6 +1386,9 @@
       <paragraphs>
         <title>7.9.1 C: Sentence with DET</title>
       </paragraphs>
+      <image source="diagrams/new/ch07_table_013.png" width="50%">
+        <description>Multi-level labeling table for "The dog barked"</description>
+      </image>
       <image source="diagrams/new/ch07_dog_barked.png" width="35%">
         <description>Syntax tree for "The dog barked" showing NP with DET and N, VP with V</description>
       </image>
@@ -1226,6 +1397,9 @@
       <paragraphs>
         <title>7.9.1 D: Transitive sentence</title>
       </paragraphs>
+      <image source="diagrams/new/ch07_table_014.png" width="65%">
+        <description>Multi-level labeling table for "The cat chased the mouse"</description>
+      </image>
       <image source="diagrams/new/ch07_cat_chased.png" width="50%">
         <description>Syntax tree for "The cat chased the mouse" showing transitive structure</description>
       </image>
@@ -1238,6 +1412,9 @@
       <paragraphs>
         <title>7.9.2 A: Sentence with ADJ and ADV modifiers</title>
       </paragraphs>
+      <image source="diagrams/new/ch07_table_015.png" width="65%">
+        <description>Multi-level labeling table for "The old man sat quietly"</description>
+      </image>
       <image source="diagrams/new/ch07_old_man_sat.png" width="55%">
         <description>Syntax tree for "The old man sat quietly" with ADJP and ADVP modifiers</description>
       </image>
@@ -1246,6 +1423,9 @@
       <paragraphs>
         <title>7.9.2 B: Complex sentence with PP modifier</title>
       </paragraphs>
+      <image source="diagrams/new/ch07_table_016.png" width="95%">
+        <description>Multi-level labeling table for "The young artist from Paris painted beautiful landscapes"</description>
+      </image>
       <image source="diagrams/new/ch07_artist_painted.png" width="70%">
         <description>Syntax tree for "The young artist from Paris painted beautiful landscapes"</description>
       </image>
@@ -1258,6 +1438,9 @@
       <paragraphs>
         <title>7.9.3 A: VP attachment (PP modifies VP)</title>
       </paragraphs>
+      <image source="diagrams/new/ch07_table_017.png" width="65%">
+        <description>Multi-level labeling table for "saw the man with binoculars"</description>
+      </image>
       <image source="diagrams/new/ch07_binoculars_vp.png" width="60%">
         <description>Syntax tree for "I saw the man with binoculars" with PP attached to VP</description>
       </image>
@@ -1266,6 +1449,9 @@
       <paragraphs>
         <title>7.9.3 B: NP attachment (PP modifies NP)</title>
       </paragraphs>
+      <image source="diagrams/new/ch07_table_018.png" width="65%">
+        <description>Multi-level labeling table for "saw the man with binoculars"</description>
+      </image>
       <image source="diagrams/new/ch07_binoculars_np.png" width="60%">
         <description>Syntax tree for "I saw the man with binoculars" with PP attached to NP</description>
       </image>

@@ -640,11 +640,17 @@
 
     <p>The that-clause <foreign>that she is honest</foreign> fills the direct object position after the verb <foreign>believe</foreign>.</p>
 
+    <image source="diagrams/new/ch14_table_001.png" width="65%">
+      <description>Multi-level labeling table for "know that you cry"</description>
+    </image>
     <image source="diagrams/new/ch13_that_clause_object.png" width="55%">
       <description>Syntax tree for "I know that you cry" showing a complement clause as direct object</description>
     </image>
     <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]</c></p>
 
+    <image source="diagrams/new/ch14_table_002.png" width="65%">
+      <description>Multi-level labeling table for "That you cry upsets me"</description>
+    </image>
     <image source="diagrams/new/ch13_that_clause_subject.png" width="55%">
       <description>Syntax tree for "That you cry upsets me" showing a complement clause as subject</description>
     </image>
@@ -766,6 +772,9 @@
       <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>COMP</cell><cell>PRON</cell><cell>MODAL</cell><cell>V</cell></row>
     </tabular>
 
+    <image source="diagrams/new/ch14_table_003.png" width="65%">
+      <description>Multi-level labeling table for "wonder if you cry"</description>
+    </image>
     <image source="diagrams/new/ch13_if_clause.png" width="55%">
       <description>Syntax tree for "I wonder if you cry" showing an if-clause as direct object</description>
     </image>
@@ -1168,6 +1177,9 @@
       <paragraphs>
         <title>14.11.1 A: That-clause as object: I know that you cry.</title>
       </paragraphs>
+      <image source="diagrams/new/ch14_table_004.png" width="65%">
+        <description>Multi-level labeling table for "know that you cry"</description>
+      </image>
       <image source="diagrams/new/ch13_that_clause_object.png" width="55%">
         <description>Syntax tree for "I know that you cry" showing a complement clause as direct object</description>
       </image>
@@ -1176,6 +1188,9 @@
       <paragraphs>
         <title>14.11.1 B: That-clause as subject: That you cry upsets me.</title>
       </paragraphs>
+      <image source="diagrams/new/ch14_table_005.png" width="65%">
+        <description>Multi-level labeling table for "That you cry upsets me"</description>
+      </image>
       <image source="diagrams/new/ch13_that_clause_subject.png" width="55%">
         <description>Syntax tree for "That you cry upsets me" showing a complement clause as subject</description>
       </image>
@@ -1184,6 +1199,9 @@
       <paragraphs>
         <title>14.11.1 C: If/whether-clause as object: I wonder if you cry.</title>
       </paragraphs>
+      <image source="diagrams/new/ch14_table_006.png" width="65%">
+        <description>Multi-level labeling table for "wonder if you cry"</description>
+      </image>
       <image source="diagrams/new/ch13_if_clause.png" width="55%">
         <description>Syntax tree for "I wonder if you cry" showing an if-clause as direct object</description>
       </image>
@@ -1192,6 +1210,9 @@
       <paragraphs>
         <title>14.11.1 D: Missing complementizer: I know you cry.</title>
       </paragraphs>
+      <image source="diagrams/new/ch14_table_007.png" width="65%">
+        <description>Multi-level labeling table for "know _ you cry"</description>
+      </image>
       <image source="diagrams/new/ch13_missing_comp.png" width="55%">
         <description>Syntax tree for "I know you cry" showing an omitted complementizer</description>
       </image>

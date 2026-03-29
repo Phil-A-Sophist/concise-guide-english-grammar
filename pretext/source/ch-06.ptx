@@ -384,6 +384,9 @@
     <paragraphs>
       <title>Full NP: <foreign>The tall student sleeps</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch06_table_001.png" width="65%">
+      <description>Multi-level labeling table for "The tall student sleeps"</description>
+    </image>
     <image source="diagrams/new/ch06_np_full_sleeps.png" width="50%">
       <description>Syntax tree for "The tall student sleeps" showing full NP with determiner, adjective, and noun</description>
     </image>
@@ -392,6 +395,9 @@
     <paragraphs>
       <title>Pronoun replacement: <foreign>She sleeps</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch06_table_002.png" width="50%">
+      <description>Multi-level labeling table for "She sleeps"</description>
+    </image>
     <image source="diagrams/new/ch06_pronoun_subject.png" width="30%">
       <description>Syntax tree for "She sleeps" showing pronoun as complete NP</description>
     </image>
@@ -402,6 +408,9 @@
     <paragraphs>
       <title>Full NPs: <foreign>The teacher gave the young student a book</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch06_table_003.png" width="95%">
+      <description>Multi-level labeling table for "The teacher gave the young student a book"</description>
+    </image>
     <image source="diagrams/new/ch06_np_full_gave.png" width="75%">
       <description>Syntax tree for "The teacher gave the young student a book" showing full NPs</description>
     </image>
@@ -410,6 +419,9 @@
     <paragraphs>
       <title>Pronoun replacement: <foreign>She gave me a book</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch06_table_004.png" width="65%">
+      <description>Multi-level labeling table for "She gave me a book"</description>
+    </image>
     <image source="diagrams/new/ch06_ditransitive.png" width="50%">
       <description>Syntax tree for "She gave me a book" showing pronouns replacing full NPs</description>
     </image>
@@ -809,6 +821,9 @@
 
     <p>When a PP modifies the verb, it attaches inside the VP rather than inside any noun phrase:</p>
 
+    <image source="diagrams/new/ch06_table_005.png" width="65%">
+      <description>Multi-level labeling table for "She waited in the lobby"</description>
+    </image>
     <image source="diagrams/new/ch06_pp_mod_vp.png" width="60%">
       <description>Syntax tree for "She waited in the lobby" showing PP attached inside the VP, modifying the verb "waited"</description>
     </image>
@@ -827,6 +842,9 @@
 
     <p>Here, the PP <q><foreign>of her work</foreign></q> is embedded inside the adjective phrase, completing the meaning of <q><foreign>proud</foreign></q>:</p>
 
+    <image source="diagrams/new/ch06_table_006.png" width="80%">
+      <description>Multi-level labeling table for "She is proud of her work"</description>
+    </image>
     <image source="diagrams/new/ch06_pp_mod_adjp.png" width="60%">
       <description>Syntax tree for "She is proud of her work" showing PP embedded inside the ADJP, complementing the adjective "proud"</description>
     </image>
@@ -845,6 +863,9 @@
 
     <p>When a PP modifies the whole sentence, it attaches at the sentence level rather than inside any particular phrase:</p>
 
+    <image source="diagrams/new/ch06_table_007.png" width="80%">
+      <description>Multi-level labeling table for "In the morning we will leave"</description>
+    </image>
     <image source="diagrams/new/ch06_pp_mod_sentence.png" width="60%">
       <description>Syntax tree for "In the morning, we will leave" showing PP attached at the sentence level</description>
     </image>
@@ -897,6 +918,9 @@
 
     <p>The two readings correspond to two different tree structures. In Reading 1, the PP is embedded inside the NP:</p>
 
+    <image source="diagrams/new/ch06_table_008.png" width="65%">
+      <description>Multi-level labeling table for "saw the man with binoculars"</description>
+    </image>
     <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
       <description>Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars</description>
     </image>
@@ -907,6 +931,9 @@
 
     <p>In Reading 2, the PP attaches to the VP instead:</p>
 
+    <image source="diagrams/new/ch06_table_009.png" width="65%">
+      <description>Multi-level labeling table for "saw the man with binoculars"</description>
+    </image>
     <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
       <description>Syntax tree for "I saw the man with binoculars" where PP attaches to VP, meaning I used binoculars to see him</description>
     </image>
@@ -1275,37 +1302,98 @@
     </subsection>
 
     <subsection xml:id="ch-06-homework-4">
-      <title>Sentence Writing</title>
+      <title>Diagramming Closed-Class Words</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Write original sentences following each prompt.</p>
+      <p>For each sentence, complete the labeling table (Role, Phrase, Word, POS), write the bracket notation, and draw a tree diagram. Pay special attention to determiners (DET), pronouns (PRON), prepositions (PREP), and conjunctions (CONJ).</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 11.</em> Write a sentence containing at least two prepositional phrases—one that modifies a noun and one that modifies a verb. Label each PP and state what it modifies.</p>
+      <p><em>Exercise 11.</em> <foreign>She walked to the store.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>walked</foreign></cell><cell><foreign>to</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>store</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <ul>
-        <li><p>Your sentence:</p></li>
-      </ul>
+      <p><em>Exercise 12.</em> <foreign>They gave it to her.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>They</foreign></cell><cell><foreign>gave</foreign></cell><cell><foreign>it</foreign></cell><cell><foreign>to</foreign></cell><cell><foreign>her</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 12.</em> Write a sentence using a reflexive pronoun correctly:</p>
+      <p><em>Exercise 13.</em> <foreign>The book on the shelf belongs to him.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>book</foreign></cell><cell><foreign>on</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>shelf</foreign></cell><cell><foreign>belongs</foreign></cell><cell><foreign>to</foreign></cell><cell><foreign>him</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <ul>
-        <li><p>Your sentence:</p></li>
-      </ul>
+      <p><em>Exercise 14.</em> <foreign>Everyone in the room listened carefully.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>Everyone</foreign></cell><cell><foreign>in</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>room</foreign></cell><cell><foreign>listened</foreign></cell><cell><foreign>carefully</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 13.</em> Write a sentence that is structurally ambiguous because a prepositional phrase could attach to either the noun phrase or the verb phrase. Then explain both possible meanings.</p>
-
-      <ul>
-        <li><p>Sentence:</p></li>
-        <li><p>Meaning 1 (PP modifies noun):</p></li>
-        <li><p>Meaning 2 (PP modifies verb):</p></li>
-      </ul>
-
+      <p><em>Exercise 15.</em> <foreign>My sister and I drove to the park.</foreign></p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>My</foreign></cell><cell><foreign>sister</foreign></cell><cell><foreign>and</foreign></cell><cell><foreign>I</foreign></cell><cell><foreign>drove</foreign></cell><cell><foreign>to</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>park</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
     </subsection>
 
     <subsection xml:id="ch-06-homework-5">
@@ -1385,6 +1473,9 @@
       <paragraphs>
         <title>6.8.1 A: Article determiner in simple sentence</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_010.png" width="50%">
+        <description>Multi-level labeling table for "The dog barked"</description>
+      </image>
       <image source="diagrams/new/ch06_dog_barked.png" width="40%">
         <description>Syntax tree for "The dog barked" showing NP with article DET and N, and VP with V</description>
       </image>
@@ -1417,6 +1508,9 @@
       <paragraphs>
         <title>6.8.1 E: Determiner in transitive sentence</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_011.png" width="65%">
+        <description>Multi-level labeling table for "The cat chased the mouse"</description>
+      </image>
       <image source="diagrams/new/ch06_transitive.png" width="50%">
         <description>Syntax tree for "The cat chased the mouse" showing determiners in both subject and object NPs</description>
       </image>
@@ -1438,6 +1532,9 @@
       <paragraphs>
         <title>6.8.2 A: Pronoun as subject</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_012.png" width="50%">
+        <description>Multi-level labeling table for "She sleeps"</description>
+      </image>
       <image source="diagrams/new/ch06_pronoun_subject.png" width="30%">
         <description>Syntax tree for "She sleeps" showing S with pronoun NP and intransitive VP</description>
       </image>
@@ -1446,6 +1543,9 @@
       <paragraphs>
         <title>6.8.2 B: Pronouns as subject and indirect object</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_013.png" width="65%">
+        <description>Multi-level labeling table for "She gave me a book"</description>
+      </image>
       <image source="diagrams/new/ch06_ditransitive.png" width="50%">
         <description>Syntax tree for "She gave me a book" showing pronouns in subject and indirect object positions</description>
       </image>
@@ -1454,6 +1554,9 @@
       <paragraphs>
         <title>6.8.2 C: Pronoun with linking verb</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_014.png" width="50%">
+        <description>Multi-level labeling table for "She is happy"</description>
+      </image>
       <image source="diagrams/new/ch06_linking.png" width="35%">
         <description>Syntax tree for "She is happy" showing linking verb with pronoun subject and adjective complement</description>
       </image>
@@ -1462,6 +1565,9 @@
       <paragraphs>
         <title>6.8.2 D: Pronoun as object complement</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_015.png" width="65%">
+        <description>Multi-level labeling table for "They elected her president"</description>
+      </image>
       <image source="diagrams/new/ch06_complex_trans_np.png" width="50%">
         <description>Syntax tree for "They elected her president" showing complex transitive with pronoun object and NP complement</description>
       </image>
@@ -1470,6 +1576,9 @@
       <paragraphs>
         <title>6.8.2 E: Pronoun in object position</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_016.png" width="65%">
+        <description>Multi-level labeling table for "The jury found him guilty"</description>
+      </image>
       <image source="diagrams/new/ch06_complex_trans_adj.png" width="50%">
         <description>Syntax tree for "The jury found him guilty" showing pronoun in object position with adjective complement</description>
       </image>
@@ -1480,6 +1589,9 @@
       <paragraphs>
         <title>6.8.2 F: Full NP — "The tall student sleeps"</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_017.png" width="65%">
+        <description>Multi-level labeling table for "The tall student sleeps"</description>
+      </image>
       <image source="diagrams/new/ch06_np_full_sleeps.png" width="50%">
         <description>Syntax tree for "The tall student sleeps" showing full NP with determiner, adjective, and noun</description>
       </image>
@@ -1488,6 +1600,9 @@
       <paragraphs>
         <title>6.8.2 F (comparison): Pronoun replacement — "She sleeps"</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_018.png" width="50%">
+        <description>Multi-level labeling table for "She sleeps"</description>
+      </image>
       <image source="diagrams/new/ch06_pronoun_subject.png" width="30%">
         <description>Syntax tree for "She sleeps" — the pronoun "She" replaces the entire NP "The tall student"</description>
       </image>
@@ -1496,6 +1611,9 @@
       <paragraphs>
         <title>6.8.2 G: Full NP — "The teacher gave the young student a book"</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_019.png" width="95%">
+        <description>Multi-level labeling table for "The teacher gave the young student a book"</description>
+      </image>
       <image source="diagrams/new/ch06_np_full_gave.png" width="75%">
         <description>Syntax tree for "The teacher gave the young student a book" showing full NPs in subject, indirect object, and direct object positions</description>
       </image>
@@ -1504,6 +1622,9 @@
       <paragraphs>
         <title>6.8.2 G (comparison): Pronoun replacement — "She gave me a book"</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_020.png" width="65%">
+        <description>Multi-level labeling table for "She gave me a book"</description>
+      </image>
       <image source="diagrams/new/ch06_ditransitive.png" width="50%">
         <description>Syntax tree for "She gave me a book" — pronouns replace the full NPs "The teacher" and "the young student"</description>
       </image>
@@ -1575,6 +1696,9 @@
       <paragraphs>
         <title>6.8.3 F: PP modifying VP — "She waited in the lobby"</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_021.png" width="65%">
+        <description>Multi-level labeling table for "She waited in the lobby"</description>
+      </image>
       <image source="diagrams/new/ch06_pp_mod_vp.png" width="60%">
         <description>Syntax tree for "She waited in the lobby" showing PP attached inside the VP, modifying the verb "waited"</description>
       </image>
@@ -1583,6 +1707,9 @@
       <paragraphs>
         <title>6.8.3 G: PP modifying AdjP — "She is proud of her work"</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_022.png" width="80%">
+        <description>Multi-level labeling table for "She is proud of her work"</description>
+      </image>
       <image source="diagrams/new/ch06_pp_mod_adjp.png" width="60%">
         <description>Syntax tree for "She is proud of her work" showing PP embedded inside the ADJP, complementing the adjective "proud"</description>
       </image>
@@ -1591,6 +1718,9 @@
       <paragraphs>
         <title>6.8.3 H: PP modifying sentence — "In the morning, we will leave"</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_023.png" width="80%">
+        <description>Multi-level labeling table for "In the morning we will leave"</description>
+      </image>
       <image source="diagrams/new/ch06_pp_mod_sentence.png" width="60%">
         <description>Syntax tree for "In the morning, we will leave" showing PP attached at the sentence level</description>
       </image>
@@ -1601,6 +1731,9 @@
       <paragraphs>
         <title>6.8.3 I: PP modifies NP — "the man with binoculars"</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_024.png" width="65%">
+        <description>Multi-level labeling table for "saw the man with binoculars"</description>
+      </image>
       <image source="diagrams/new/ch06_ambig_binoculars_np.png" width="60%">
         <description>Syntax tree for "I saw the man with binoculars" where PP attaches to NP, meaning the man has binoculars</description>
       </image>
@@ -1609,6 +1742,9 @@
       <paragraphs>
         <title>6.8.3 J: PP modifies VP — "saw with binoculars"</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_025.png" width="65%">
+        <description>Multi-level labeling table for "saw the man with binoculars"</description>
+      </image>
       <image source="diagrams/new/ch06_ambig_binoculars_vp.png" width="60%">
         <description>Syntax tree for "I saw the man with binoculars" where PP attaches to VP, meaning I used binoculars to see him</description>
       </image>
@@ -1617,6 +1753,9 @@
       <paragraphs>
         <title>6.8.3 K: Complex sentence with PP modifier</title>
       </paragraphs>
+      <image source="diagrams/new/ch06_table_026.png" width="95%">
+        <description>Multi-level labeling table for "The young artist from Paris painted beautiful landscapes"</description>
+      </image>
       <image source="diagrams/new/ch06_artist_painted.png" width="80%">
         <description>Syntax tree for "The young artist from Paris painted beautiful landscapes" showing complex NP with PP modifier and transitive VP</description>
       </image>

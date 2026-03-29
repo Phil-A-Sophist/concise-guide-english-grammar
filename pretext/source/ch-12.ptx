@@ -117,6 +117,9 @@
       <li><p><foreign>They finished <em>remarkably quickly</em>.</foreign> (manner)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_table_001.png" width="50%">
+      <description>Multi-level labeling table for "She ran quickly"</description>
+    </image>
     <image source="diagrams/new/ch12_advp_adverbial.png" width="35%">
       <description>Syntax tree for "She ran quickly" showing an AdvP adverbial attached to the VP</description>
     </image>
@@ -134,6 +137,9 @@
       <li><p><foreign>They spoke <em>with enthusiasm</em>.</foreign> (manner)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_table_002.png" width="65%">
+      <description>Multi-level labeling table for "He works in the city"</description>
+    </image>
     <image source="diagrams/new/ch12_pp_place_adverbial.png" width="45%">
       <description>Syntax tree for "He works in the city" showing a PP place adverbial inside the VP</description>
     </image>
@@ -151,6 +157,9 @@
       <li><p><foreign>The bird flew <em>north</em>.</foreign> (direction)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_table_003.png" width="50%">
+      <description>Multi-level labeling table for "sleep every day"</description>
+    </image>
     <image source="diagrams/new/ch12_noun_as_adverbial.png" width="45%">
       <description>Syntax tree for "I sleep every day" showing noun phrase as adverbial</description>
     </image>
@@ -168,6 +177,9 @@
       <li><p><foreign><em>To succeed</em>, you must practice.</foreign> (purpose)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_table_004.png" width="50%">
+      <description>Multi-level labeling table for "went to run"</description>
+    </image>
     <image source="diagrams/new/ch12_infinitive_adverbial.png" width="40%">
       <description>Syntax tree for "I went to run" showing infinitive as adverbial</description>
     </image>
@@ -185,6 +197,9 @@
       <li><p><foreign><em>Exhausted</em>, she fell asleep.</foreign> (reason)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_table_005.png" width="50%">
+      <description>Multi-level labeling table for "left running"</description>
+    </image>
     <image source="diagrams/new/ch12_participle_adverbial.png" width="40%">
       <description>Syntax tree for "I left running" showing participle as adverbial</description>
     </image>
@@ -214,6 +229,9 @@
       <li><p><foreign><em>If you need help</em>, call me.</foreign> (condition)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_table_006.png" width="80%">
+      <description>Multi-level labeling table for "When the class ended students left"</description>
+    </image>
     <image source="diagrams/new/ch12_adv_clause_when.png" width="55%">
       <description>Syntax tree for "When the class ended, students left" showing an adverb clause of time</description>
     </image>
@@ -285,6 +303,9 @@
       <li><p><foreign><em>In the library</em>, she spoke quietly.</foreign> (library emphasized as scene-setting)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_table_007.png" width="65%">
+      <description>Multi-level labeling table for "She worked hard all day"</description>
+    </image>
     <image source="diagrams/new/ch12_multiple_adverbials.png" width="50%">
       <description>Syntax tree for "She worked hard all day" showing two adverbials attached to the VP</description>
     </image>
@@ -335,6 +356,9 @@
       <li><p><foreign><em>Surprisingly</em>, she agreed.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch12_table_008.png" width="50%">
+      <description>Multi-level labeling table for "Fortunately she passed"</description>
+    </image>
     <image source="diagrams/new/ch12_sentence_adverb_disj.png" width="35%">
       <description>Syntax tree for "Fortunately, she passed" showing a sentence-level disjunct adverb</description>
     </image>
@@ -1066,6 +1090,9 @@
       <paragraphs>
         <title>12.10.1 A: Adverb modifying verb: She spoke quietly.</title>
       </paragraphs>
+      <image source="diagrams/new/ch12_table_009.png" width="50%">
+        <description>Multi-level labeling table for "She spoke quietly"</description>
+      </image>
       <image source="diagrams/new/ch10_adv_modifying_verb.png" width="40%">
         <description>Syntax tree for "She spoke quietly" showing adverb modifying verb</description>
       </image>
@@ -1074,6 +1101,9 @@
       <paragraphs>
         <title>12.10.1 B: Sentence adverb: Unfortunately, she lost.</title>
       </paragraphs>
+      <image source="diagrams/new/ch12_table_010.png" width="50%">
+        <description>Multi-level labeling table for "Unfortunately she lost"</description>
+      </image>
       <image source="diagrams/new/ch10_sentence_adverb.png" width="40%">
         <description>Syntax tree for "Unfortunately, she lost" showing sentence adverb</description>
       </image>
@@ -1086,6 +1116,9 @@
       <paragraphs>
         <title>12.10.2 A: PP in VP (adverbial): She works at home.</title>
       </paragraphs>
+      <image source="diagrams/new/ch12_table_011.png" width="65%">
+        <description>Multi-level labeling table for "She works at home"</description>
+      </image>
       <image source="diagrams/new/ch10_adverbial_pp.png" width="45%">
         <description>Syntax tree for "She works at home" showing PP as adverbial</description>
       </image>
@@ -1098,6 +1131,9 @@
       <paragraphs>
         <title>12.10.3 A: Noun functioning as adverbial: I sleep every day.</title>
       </paragraphs>
+      <image source="diagrams/new/ch12_table_012.png" width="50%">
+        <description>Multi-level labeling table for "sleep every day"</description>
+      </image>
       <image source="diagrams/new/ch12_noun_as_adverbial.png" width="45%">
         <description>Syntax tree for "I sleep every day" showing noun phrase as adverbial</description>
       </image>
@@ -1106,6 +1142,9 @@
       <paragraphs>
         <title>12.10.3 B: Present participle as adverbial: I left running.</title>
       </paragraphs>
+      <image source="diagrams/new/ch12_table_013.png" width="50%">
+        <description>Multi-level labeling table for "left running"</description>
+      </image>
       <image source="diagrams/new/ch12_participle_adverbial.png" width="40%">
         <description>Syntax tree for "I left running" showing participle as adverbial</description>
       </image>
@@ -1114,6 +1153,9 @@
       <paragraphs>
         <title>12.10.3 C: Infinitive as adverbial: I went to run.</title>
       </paragraphs>
+      <image source="diagrams/new/ch12_table_014.png" width="50%">
+        <description>Multi-level labeling table for "went to run"</description>
+      </image>
       <image source="diagrams/new/ch12_infinitive_adverbial.png" width="40%">
         <description>Syntax tree for "I went to run" showing infinitive as adverbial</description>
       </image>
@@ -1122,6 +1164,9 @@
       <paragraphs>
         <title>12.10.3 D: Multiple adverbials: She spoke quietly in the library.</title>
       </paragraphs>
+      <image source="diagrams/new/ch12_table_015.png" width="80%">
+        <description>Multi-level labeling table for "She spoke quietly in the library"</description>
+      </image>
       <image source="diagrams/new/ch10_sentence_adverbials.png" width="55%">
         <description>Syntax tree for "She spoke quietly in the library" showing multiple adverbials</description>
       </image>

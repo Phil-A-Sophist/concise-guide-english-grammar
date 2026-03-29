@@ -113,6 +113,9 @@
       <li><p><foreign>He <em>has been working</em>.</foreign> (present perfect progressive)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch10_table_001.png" width="50%">
+      <description>Multi-level labeling table for "She is reading"</description>
+    </image>
     <image source="diagrams/new/ch10_be_progressive.png" width="30%">
       <description>Syntax tree for "She is reading" showing auxiliary be followed by the -ing main verb form</description>
     </image>
@@ -128,6 +131,9 @@
 
     <p><em>Note</em>: Passive voice is a rich topic with its own set of patterns and uses. We will examine it in detail in Chapter 11.</p>
 
+    <image source="diagrams/new/ch10_table_002.png" width="80%">
+      <description>Multi-level labeling table for "The book was written by Maria"</description>
+    </image>
     <image source="diagrams/new/ch10_be_passive_aux.png" width="50%">
       <description>Syntax tree for "The book was written by Maria" showing auxiliary be followed by past participle with an agent by-phrase</description>
     </image>
@@ -189,11 +195,17 @@
       <li><p><foreign>By then, I <em>will have completed</em> it.</foreign> (future perfect)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch10_table_003.png" width="65%">
+      <description>Multi-level labeling table for "She has finished the work"</description>
+    </image>
     <image source="diagrams/new/ch10_have_perfect.png" width="45%">
       <description>Syntax tree for "She has finished the work" showing auxiliary have followed by past participle with a direct object</description>
     </image>
     <p><c>[S [NP [PRON She]] [VP [AUX has] [V finished] [NP [DET the] [N work]]]]</c></p>
 
+    <image source="diagrams/new/ch10_table_004.png" width="65%">
+      <description>Multi-level labeling table for "They had left before arrived"</description>
+    </image>
     <image source="diagrams/new/ch10_have_perfect_past.png" width="55%">
       <description>Syntax tree for "They had left before I arrived" showing past perfect with an adverbial dependent clause</description>
     </image>
@@ -254,6 +266,9 @@
       <li><p><foreign>They <em>left</em> early.</foreign> → <foreign><em>Did</em> they leave early?</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch10_table_005.png" width="65%">
+      <description>Multi-level labeling table for "Does she work here"</description>
+    </image>
     <image source="diagrams/new/ch10_do_question.png" width="40%">
       <description>Syntax tree for "Does she work here?" showing do-support in question formation with the auxiliary fronted before the subject</description>
     </image>
@@ -266,6 +281,9 @@
       <li><p><foreign>They <em>left</em> early.</foreign> → <foreign>They <em>didn't</em> leave early.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch10_table_006.png" width="65%">
+      <description>Multi-level labeling table for "She does not work here"</description>
+    </image>
     <image source="diagrams/new/ch10_do_negation.png" width="45%">
       <description>Syntax tree for "She does not work here" showing do-support carrying the negation marker in a declarative sentence</description>
     </image>
@@ -367,6 +385,9 @@
       <li><p><foreign>I <em>drink</em> coffee in the morning.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch10_table_007.png" width="80%">
+      <description>Multi-level labeling table for "She walks to school every day"</description>
+    </image>
     <image source="diagrams/new/ch10_simple_present.png" width="55%">
       <description>Syntax tree for "She walks to school every day" showing simple present tense with a PP and NP as adverbials</description>
     </image>
@@ -701,6 +722,9 @@
       <li><p><foreign>By noon, she <em>will have been working</em> for six hours.</foreign> (future perfect progressive)</p></li>
     </ul>
 
+    <image source="diagrams/new/ch10_table_008.png" width="65%">
+      <description>Multi-level labeling table for "She has been waiting"</description>
+    </image>
     <image source="diagrams/new/ch10_perfect_progressive_pres.png" width="35%">
       <description>Syntax tree for "She has been waiting" showing the stacking of perfect auxiliary have and progressive auxiliary been before the -ing main verb</description>
     </image>
@@ -822,6 +846,9 @@
 
     <p><foreign>She walks.</foreign></p>
 
+    <image source="diagrams/new/ch10_table_009.png" width="50%">
+      <description>Multi-level labeling table for "She walks"</description>
+    </image>
     <p><c>[S [NP [PRON She]] [VP [V walks]]]</c></p>
 
     <p>The verb carries the tense marking directly. There is no AUX node because there is no auxiliary.</p>
@@ -836,12 +863,18 @@
 
     <p><foreign>She is walking.</foreign></p>
 
+    <image source="diagrams/new/ch10_table_010.png" width="50%">
+      <description>Multi-level labeling table for "She is walking"</description>
+    </image>
     <p><c>[S [NP [PRON She]] [VP [AUX is] [V walking]]]</c></p>
 
     <p><em>Perfect</em> (<foreign>have</foreign> + past participle):</p>
 
     <p><foreign>She has walked.</foreign></p>
 
+    <image source="diagrams/new/ch10_table_011.png" width="50%">
+      <description>Multi-level labeling table for "She has walked"</description>
+    </image>
     <p><c>[S [NP [PRON She]] [VP [AUX has] [V walked]]]</c></p>
 
     <p>In each case, tense is marked on the auxiliary (the first element in the verb phrase), not on the main verb. The main verb carries the participle form that signals the aspect.</p>
@@ -854,6 +887,9 @@
 
     <p><foreign>She has been walking.</foreign></p>
 
+    <image source="diagrams/new/ch10_table_012.png" width="65%">
+      <description>Multi-level labeling table for "She has been walking"</description>
+    </image>
     <p><c>[S [NP [PRON She]] [VP [AUX has] [AUX been] [V walking]]]</c></p>
 
     <p>Notice the order: <foreign>has</foreign> (perfect auxiliary, carries tense) → <foreign>been</foreign> (progressive auxiliary, past participle form) → <foreign>walking</foreign> (main verb, present participle form). Each auxiliary is labeled AUX.</p>
@@ -866,18 +902,27 @@
 
     <p><em>Progressive</em>: <foreign>The children are playing a game in the backyard.</foreign></p>
 
+    <image source="diagrams/new/ch10_table_013.png" width="95%">
+      <description>Multi-level labeling table for "The children are playing a game in the backyard"</description>
+    </image>
     <p><c>[S [NP [DET The] [N children]] [VP [AUX are] [V playing] [NP [DET a] [N game]] [PP [PREP in] [NP [DET the] [N backyard]]]]]</c></p>
 
     <p>The progressive auxiliary <foreign>are</foreign> carries present tense. The main verb <foreign>playing</foreign> is followed by a direct object NP and a prepositional phrase.</p>
 
     <p><em>Perfect</em>: <foreign>The professor has assigned three chapters for next week.</foreign></p>
 
+    <image source="diagrams/new/ch10_table_014.png" width="95%">
+      <description>Multi-level labeling table for "The professor has assigned three chapters for next week"</description>
+    </image>
     <p><c>[S [NP [DET The] [N professor]] [VP [AUX has] [V assigned] [NP [ADJ three] [N chapters]] [PP [PREP for] [NP [ADJ next] [N week]]]]]</c></p>
 
     <p>The perfect auxiliary <foreign>has</foreign> carries present tense. The past participle <foreign>assigned</foreign> is followed by a direct object NP and a prepositional phrase of time.</p>
 
     <p><em>Perfect progressive</em>: <foreign>The students had been studying grammar in the library all afternoon.</foreign></p>
 
+    <image source="diagrams/new/ch10_table_015.png" width="95%">
+      <description>Multi-level labeling table for "The students had been studying grammar in the library all afternoon"</description>
+    </image>
     <p><c>[S [NP [DET The] [N students]] [VP [AUX had] [AUX been] [V studying] [NP [N grammar]] [PP [PREP in] [NP [DET the] [N library]]] [NP [DET all] [N afternoon]]]]</c></p>
 
     <p>Two auxiliaries stack at the front: <foreign>had</foreign> (perfect, carries past tense) and <foreign>been</foreign> (progressive). The main verb <foreign>studying</foreign> is followed by a direct object, a prepositional phrase of place, and an adverbial NP of time.</p>
@@ -890,10 +935,16 @@
 
     <p><foreign>Does she walk?</foreign></p>
 
+    <image source="diagrams/new/ch10_table_016.png" width="50%">
+      <description>Multi-level labeling table for "Does she walk"</description>
+    </image>
     <p><c>[S [AUX Does] [NP [PRON she]] [VP [V walk]]]</c></p>
 
     <p><foreign>She does not walk.</foreign></p>
 
+    <image source="diagrams/new/ch10_table_017.png" width="65%">
+      <description>Multi-level labeling table for "She does not walk"</description>
+    </image>
     <p><c>[S [NP [PRON She]] [VP [AUX does] [NEG not] [V walk]]]</c></p>
 
     <p>In questions, the auxiliary moves to the front of the sentence, before the subject NP. In negation, <foreign>not</foreign> appears between the auxiliary and the main verb.</p>
@@ -944,46 +995,46 @@
       <p><em>Exercise 1.</em> <foreign>The researchers have analyzed the experimental data.</foreign></p>
 
       <ul>
-        <li><p>Auxiliary verb(s): ________</p></li>
-        <li><p>Main verb: ________</p></li>
-        <li><p>Tense: ________</p></li>
-        <li><p>Aspect: ________</p></li>
+        <li><p>Auxiliary verb(s):</p></li>
+        <li><p>Main verb:</p></li>
+        <li><p>Tense:</p></li>
+        <li><p>Aspect:</p></li>
       </ul>
 
       <p><em>Exercise 2.</em> <foreign>Yesterday, she was working in the library when I called.</foreign></p>
 
       <ul>
-        <li><p>Auxiliary verb(s): ________</p></li>
-        <li><p>Main verb: ________</p></li>
-        <li><p>Tense: ________</p></li>
-        <li><p>Aspect: ________</p></li>
+        <li><p>Auxiliary verb(s):</p></li>
+        <li><p>Main verb:</p></li>
+        <li><p>Tense:</p></li>
+        <li><p>Aspect:</p></li>
       </ul>
 
       <p><em>Exercise 3.</em> <foreign>By next month, they will have completed the entire project.</foreign></p>
 
       <ul>
-        <li><p>Auxiliary verb(s): ________</p></li>
-        <li><p>Main verb: ________</p></li>
-        <li><p>Tense: ________</p></li>
-        <li><p>Aspect: ________</p></li>
+        <li><p>Auxiliary verb(s):</p></li>
+        <li><p>Main verb:</p></li>
+        <li><p>Tense:</p></li>
+        <li><p>Aspect:</p></li>
       </ul>
 
       <p><em>Exercise 4.</em> <foreign>The professor teaches linguistics every semester.</foreign></p>
 
       <ul>
-        <li><p>Auxiliary verb(s): ________</p></li>
-        <li><p>Main verb: ________</p></li>
-        <li><p>Tense: ________</p></li>
-        <li><p>Aspect: ________</p></li>
+        <li><p>Auxiliary verb(s):</p></li>
+        <li><p>Main verb:</p></li>
+        <li><p>Tense:</p></li>
+        <li><p>Aspect:</p></li>
       </ul>
 
       <p><em>Exercise 5.</em> <foreign>The students had been studying for three hours before the test began.</foreign></p>
 
       <ul>
-        <li><p>Auxiliary verb(s): ________</p></li>
-        <li><p>Main verb: ________</p></li>
-        <li><p>Tense: ________</p></li>
-        <li><p>Aspect: ________</p></li>
+        <li><p>Auxiliary verb(s):</p></li>
+        <li><p>Main verb:</p></li>
+        <li><p>Tense:</p></li>
+        <li><p>Aspect:</p></li>
       </ul>
 
     </subsection>
@@ -1042,23 +1093,18 @@
 
       <p><em>Exercise 11.</em> Write a sentence in present perfect that shows an experience up to now:</p>
 
-      <p>________________________________________________________________________</p>
 
       <p><em>Exercise 12.</em> Write a sentence in past progressive that describes a background action interrupted by another event:</p>
 
-      <p>________________________________________________________________________</p>
 
       <p><em>Exercise 13.</em> Write a sentence in future perfect that describes an action completed before a future point:</p>
 
-      <p>________________________________________________________________________</p>
 
       <p><em>Exercise 14.</em> Write a sentence in present simple that expresses a general truth:</p>
 
-      <p>________________________________________________________________________</p>
 
       <p><em>Exercise 15.</em> Write a sentence in past perfect that positions one past event before another:</p>
 
-      <p>________________________________________________________________________</p>
 
     </subsection>
 
@@ -1068,15 +1114,22 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each sentence below, write a bracket notation diagram of the full sentence. Label auxiliary verbs as AUX and main verbs as V. Identify the tense and aspect of each verb phrase.</p>
+      <p>For each sentence below, (a) draw a tree diagram showing the full sentence structure and (b) identify the tense and aspect of the verb phrase. Label all nodes using ALL CAPS labels: S, NP, VP, DET, N, V, PRON, PREP, PP, etc. Label auxiliary verbs as <em>AUX</em> and main verbs as <em>V</em>. You may draw tree diagrams by hand and photograph them, use a digital tool, or describe the structure in bracket notation.</p>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p><foreign>She has been reading the book.</foreign></p>
+      <p><em>Sentence:</em> <foreign>She has been reading the book.</foreign></p>
 
-      <p>Diagram: <c>[S [NP [PRON She]] [VP [AUX has] [AUX been] [V reading] [NP [DET the] [N book]]]]</c></p>
+      <image source="diagrams/new/ch10_table_018.png" width="80%">
+        <description>Multi-level labeling table for "She has been reading the book"</description>
+      </image>
+      <p>Bracket notation: <c>[S [NP [PRON She]] [VP [AUX has] [AUX been] [V reading] [NP [DET the] [N book]]]]</c></p>
+
+      <image source="diagrams/new/ch10_hw_example.png" width="50%">
+        <description>Syntax tree for "She has been reading the book" showing two stacked auxiliaries (has, been) labeled AUX before the main verb reading labeled V, followed by the direct object NP</description>
+      </image>
 
       <p>Tense: present. Aspect: perfect progressive.</p>
 
@@ -1086,33 +1139,125 @@
 
       <p><em>Exercise 16.</em> <foreign>The students are studying for the exam.</foreign></p>
 
-      <p>Diagram: ________________________________________________________________________</p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>students</foreign></cell><cell><foreign>are</foreign></cell><cell><foreign>studying</foreign></cell><cell><foreign>for</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>exam</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
 
-      <p>Tense: ________ Aspect: ________</p>
+      <ul>
+        <li><p>Bracket notation: _____</p></li>
+        <li><p>Diagram:</p></li>
+      </ul>
+
+      <p>Tense: <fillin characters="10"/> Aspect: <fillin characters="15"/></p>
 
       <p><em>Exercise 17.</em> <foreign>He had finished the assignment before class.</foreign></p>
 
-      <p>Diagram: ________________________________________________________________________</p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>He</foreign></cell><cell><foreign>had</foreign></cell><cell><foreign>finished</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>assignment</foreign></cell><cell><foreign>before</foreign></cell><cell><foreign>class</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
 
-      <p>Tense: ________ Aspect: ________</p>
+      <ul>
+        <li><p>Bracket notation: _____</p></li>
+        <li><p>Diagram:</p></li>
+      </ul>
+
+      <p>Tense: <fillin characters="10"/> Aspect: <fillin characters="15"/></p>
 
       <p><em>Exercise 18.</em> <foreign>Does the professor teach on Fridays?</foreign></p>
 
-      <p>Diagram: ________________________________________________________________________</p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>Does</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>professor</foreign></cell><cell><foreign>teach</foreign></cell><cell><foreign>on</foreign></cell><cell><foreign>Fridays</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
 
-      <p>Tense: ________ Aspect: ________</p>
+      <ul>
+        <li><p>Bracket notation: _____</p></li>
+        <li><p>Diagram:</p></li>
+      </ul>
+
+      <p>Tense: <fillin characters="10"/> Aspect: <fillin characters="15"/></p>
 
       <p><em>Exercise 19.</em> <foreign>The report was written by the committee.</foreign></p>
 
-      <p>Diagram: ________________________________________________________________________</p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>report</foreign></cell><cell><foreign>was</foreign></cell><cell><foreign>written</foreign></cell><cell><foreign>by</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>committee</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
 
-      <p>Tense: ________ Aspect/Voice: ________</p>
+      <ul>
+        <li><p>Bracket notation: _____</p></li>
+        <li><p>Diagram:</p></li>
+      </ul>
+
+      <p>Tense: <fillin characters="10"/> Aspect/Voice: <fillin characters="15"/></p>
 
       <p><em>Exercise 20.</em> <foreign>They have been waiting at the station for an hour.</foreign></p>
 
-      <p>Diagram: ________________________________________________________________________</p>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>They</foreign></cell><cell><foreign>have</foreign></cell><cell><foreign>been</foreign></cell><cell><foreign>waiting</foreign></cell><cell><foreign>at</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>station</foreign></cell><cell><foreign>for</foreign></cell><cell><foreign>an</foreign></cell><cell><foreign>hour</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+      </tabular>
 
-      <p>Tense: ________ Aspect: ________</p>
+      <ul>
+        <li><p>Bracket notation: _____</p></li>
+        <li><p>Diagram:</p></li>
+      </ul>
+
+      <p>Tense: <fillin characters="10"/> Aspect: <fillin characters="15"/></p>
 
     </subsection>
 
@@ -1137,20 +1282,18 @@
       <p><em>Exercise 21.</em> Identify the tense-aspect of each verb phrase in the passage:</p>
 
       <ul>
-        <li><p><foreign>moved</foreign>: ________</p></li>
-        <li><p><foreign>has lived</foreign>: ________</p></li>
-        <li><p><foreign>visited</foreign>: ________</p></li>
-        <li><p><foreign>was working</foreign>: ________</p></li>
-        <li><p><foreign>has been writing</foreign>: ________</p></li>
-        <li><p><foreign>will have finished</foreign>: ________</p></li>
-        <li><p><foreign>will be looking</foreign>: ________</p></li>
+        <li><p><foreign>moved</foreign>:</p></li>
+        <li><p><foreign>has lived</foreign>:</p></li>
+        <li><p><foreign>visited</foreign>:</p></li>
+        <li><p><foreign>was working</foreign>:</p></li>
+        <li><p><foreign>has been writing</foreign>:</p></li>
+        <li><p><foreign>will have finished</foreign>:</p></li>
+        <li><p><foreign>will be looking</foreign>:</p></li>
       </ul>
 
       <p><em>Exercise 22.</em> The passage uses both <foreign>moved</foreign> (past simple) and <foreign>has lived</foreign> (present perfect). Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.</p>
 
-      <p>________________________________________________________________________</p>
 
-      <p>________________________________________________________________________</p>
 
       <p><em>Exercise 23.</em> Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each:</p>
 
@@ -1158,27 +1301,21 @@
 
       <p>a) Past progressive:</p>
 
-      <p>________________________________________________________________________</p>
 
       <p>Meaning change:</p>
 
-      <p>________________________________________________________________________</p>
 
       <p>b) Present perfect:</p>
 
-      <p>________________________________________________________________________</p>
 
       <p>Meaning change:</p>
 
-      <p>________________________________________________________________________</p>
 
       <p>c) Future perfect:</p>
 
-      <p>________________________________________________________________________</p>
 
       <p>Meaning change:</p>
 
-      <p>________________________________________________________________________</p>
 
     </subsection>
 

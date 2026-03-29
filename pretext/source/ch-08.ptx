@@ -65,6 +65,9 @@
       <li><p><foreign>The tall man walked.</foreign> → Who walked? → <foreign>The tall man</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch08_table_001.png" width="65%">
+      <description>Multi-level labeling table for "The young artist arrived"</description>
+    </image>
     <image source="diagrams/new/ch08_subj_pred_example.png" width="40%">
       <description>Syntax tree for "The young artist arrived" showing NP subject and VP predicate</description>
     </image>
@@ -117,6 +120,9 @@
       </row>
     </tabular>
 
+    <image source="diagrams/new/ch08_table_002.png" width="50%">
+      <description>Multi-level labeling table for "Dogs bark"</description>
+    </image>
     <image source="diagrams/new/ch08_s_np_vp.png" width="25%">
       <description>Syntax tree for "Dogs bark" showing the basic S → NP + VP sentence structure</description>
     </image>
@@ -167,6 +173,9 @@
       <li><p>All three elements are arguments of <q><foreign>put</foreign></q>.</p></li>
     </ul>
 
+    <image source="diagrams/new/ch08_table_003.png" width="80%">
+      <description>Multi-level labeling table for "She put the book on the table"</description>
+    </image>
     <image source="diagrams/new/ch08_argument_put.png" width="55%">
       <description>Syntax tree for "She put the book on the table" showing all three arguments of the verb put</description>
     </image>
@@ -197,6 +206,9 @@
       <li><p>Both are adverbials—optional modifiers.</p></li>
     </ul>
 
+    <image source="diagrams/new/ch08_table_004.png" width="80%">
+      <description>Multi-level labeling table for "She spoke quietly in the library"</description>
+    </image>
     <image source="diagrams/new/ch08_adverbial_spoke.png" width="55%">
       <description>Syntax tree for "She spoke quietly in the library" showing two optional adverbials hanging from the VP</description>
     </image>
@@ -261,6 +273,9 @@
 
     <p>Direct objects are always noun phrases (or clauses functioning as NPs).</p>
 
+    <image source="diagrams/new/ch08_table_005.png" width="65%">
+      <description>Multi-level labeling table for "The cat chased the mouse"</description>
+    </image>
     <image source="diagrams/new/ch08_direct_obj_basic.png" width="45%">
       <description>Syntax tree for "The cat chased the mouse" showing the direct object NP inside the VP</description>
     </image>
@@ -310,6 +325,9 @@
       <li><p>Prepositional phrases: <foreign>He seems <em>in good spirits</em>.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch08_table_006.png" width="50%">
+      <description>Multi-level labeling table for "She seems happy"</description>
+    </image>
     <image source="diagrams/new/ch08_subj_complement_adj.png" width="35%">
       <description>Syntax tree for "She seems happy" showing the AdjP subject complement following the linking verb</description>
     </image>
@@ -331,6 +349,9 @@
 
     <p>Object complements can be noun phrases or adjective phrases.</p>
 
+    <image source="diagrams/new/ch08_table_007.png" width="65%">
+      <description>Multi-level labeling table for "The jury found him guilty"</description>
+    </image>
     <image source="diagrams/new/ch08_obj_complement_adj.png" width="50%">
       <description>Syntax tree for "The jury found him guilty" showing the AdjP object complement following the direct object</description>
     </image>
@@ -371,6 +392,9 @@
       <li><p><foreign>Accidents <em>happen</em>.</foreign></p></li>
     </ul>
 
+    <image source="diagrams/new/ch08_table_008.png" width="50%">
+      <description>Multi-level labeling table for "Birds sing"</description>
+    </image>
     <image source="diagrams/new/ch08_valency_intrans.png" width="25%">
       <description>Syntax tree for "Birds sing" showing minimal intransitive structure with subject and verb only</description>
     </image>
@@ -795,6 +819,9 @@
     <paragraphs>
       <title>Diagram: <foreign>I am an optimist</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_009.png" width="50%">
+      <description>Multi-level labeling table for "am an optimist"</description>
+    </image>
     <image source="diagrams/new/ch12_copular_be.png" width="40%">
       <description>Syntax tree for "I am an optimist" with NP as subject complement</description>
     </image>
@@ -809,6 +836,9 @@
     <paragraphs>
       <title>Diagram: <foreign>She is happy</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_010.png" width="50%">
+      <description>Multi-level labeling table for "She is happy"</description>
+    </image>
     <image source="diagrams/new/ch06_linking.png" width="35%">
       <description>Syntax tree for "She is happy" with AdjP as subject complement</description>
     </image>
@@ -821,6 +851,9 @@
     <paragraphs>
       <title>Diagram: <foreign>Phillip is over the moon</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_011.png" width="65%">
+      <description>Multi-level labeling table for "Phillip is over the moon"</description>
+    </image>
     <image source="diagrams/new/ch08_copular_pp.png" width="50%">
       <description>Syntax tree for "Phillip is over the moon" with PP as subject complement</description>
     </image>
@@ -843,6 +876,9 @@
     <paragraphs>
       <title>Diagram: <foreign>Phillip became famous</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_012.png" width="50%">
+      <description>Multi-level labeling table for "Phillip became famous"</description>
+    </image>
     <image source="diagrams/new/ch08_linking_adjp.png" width="40%">
       <description>Syntax tree for "Phillip became famous" with linking verb and AdjP subject complement</description>
     </image>
@@ -855,6 +891,9 @@
     <paragraphs>
       <title>Diagram: <foreign>Phillip became a doctor</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_013.png" width="65%">
+      <description>Multi-level labeling table for "Phillip became a doctor"</description>
+    </image>
     <image source="diagrams/new/ch08_linking_np.png" width="45%">
       <description>Syntax tree for "Phillip became a doctor" with linking verb and NP subject complement</description>
     </image>
@@ -895,6 +934,9 @@
     <paragraphs>
       <title>Diagram: <foreign>Weasels stalk rabbits</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_014.png" width="50%">
+      <description>Multi-level labeling table for "Weasels stalk rabbits"</description>
+    </image>
     <image source="diagrams/new/ch12_basic_transitive.png" width="40%">
       <description>Syntax tree for "Weasels stalk rabbits" showing basic transitive structure</description>
     </image>
@@ -909,6 +951,9 @@
     <paragraphs>
       <title>Diagram: <foreign>The cat chased the mouse</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_015.png" width="65%">
+      <description>Multi-level labeling table for "The cat chased the mouse"</description>
+    </image>
     <image source="diagrams/new/ch06_transitive.png" width="50%">
       <description>Syntax tree for "The cat chased the mouse" showing determiners in both subject and object NPs</description>
     </image>
@@ -959,6 +1004,9 @@
     <paragraphs>
       <title>Diagram: <foreign>Marie sent Ramon a gift</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_016.png" width="65%">
+      <description>Multi-level labeling table for "Marie sent Ramon a gift"</description>
+    </image>
     <image source="diagrams/new/ch12_ditransitive_io_do.png" width="50%">
       <description>Syntax tree for "Marie sent Ramon a gift" with indirect object and direct object</description>
     </image>
@@ -971,6 +1019,9 @@
     <paragraphs>
       <title>Diagram: <foreign>She gave me a book</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_017.png" width="65%">
+      <description>Multi-level labeling table for "She gave me a book"</description>
+    </image>
     <image source="diagrams/new/ch06_ditransitive.png" width="50%">
       <description>Syntax tree for "She gave me a book" with indirect object pronoun and direct object</description>
     </image>
@@ -994,6 +1045,9 @@
     <paragraphs>
       <title>Diagram: <foreign>The jury found him guilty</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_018.png" width="65%">
+      <description>Multi-level labeling table for "The jury found him guilty"</description>
+    </image>
     <image source="diagrams/new/ch06_complex_trans_adj.png" width="50%">
       <description>Syntax tree for "The jury found him guilty" with direct object and AdjP object complement</description>
     </image>
@@ -1004,6 +1058,9 @@
     <paragraphs>
       <title>Diagram: <foreign>They elected her president</foreign></title>
     </paragraphs>
+    <image source="diagrams/new/ch08_table_019.png" width="65%">
+      <description>Multi-level labeling table for "They elected her president"</description>
+    </image>
     <image source="diagrams/new/ch06_complex_trans_np.png" width="45%">
       <description>Syntax tree for "They elected her president" with direct object and NP object complement</description>
     </image>
@@ -1315,31 +1372,25 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each sentence below, complete the table by writing the grammatical label for each phrase—Subject (S), Verb (V), Direct Object (DO), Indirect Object (IO), Subject Complement (SC), or Object Complement (OC). Then draw a syntax tree diagram for the sentence.</p>
+      <p>For each sentence below, complete the labeling table (Role, Phrase, Word, POS) and draw a syntax tree diagram. Use role labels: Subject (Subj), Predicate (Pred), Direct Object (DO), Indirect Object (IO), Subject Complement (SC), Object Complement (OC).</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 11.</em> Complete each table and draw a tree diagram.</p>
+      <p><em>Exercise 11.</em> Complete each labeling table and draw a tree diagram.</p>
 
       <p>a) Pattern 1 (Intransitive): <foreign>Birds sing.</foreign></p>
       <tabular top="minor" left="minor">
         <col halign="left" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Phrase</em></cell>
-          <cell><foreign>Birds</foreign></cell>
-          <cell><foreign>sing</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>Birds</foreign></cell><cell><foreign>sing</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>b) Pattern 2 (Copular <em>Be</em>): <foreign>The solution was simple.</foreign></p>
       <tabular top="minor" left="minor">
@@ -1347,20 +1398,13 @@
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Phrase</em></cell>
-          <cell><foreign>The solution</foreign></cell>
-          <cell><foreign>was</foreign></cell>
-          <cell><foreign>simple</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>solution</foreign></cell><cell><foreign>was</foreign></cell><cell><foreign>simple</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>c) Pattern 3 (Linking Verb): <foreign>The music sounded beautiful.</foreign></p>
       <tabular top="minor" left="minor">
@@ -1368,20 +1412,13 @@
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Phrase</em></cell>
-          <cell><foreign>The music</foreign></cell>
-          <cell><foreign>sounded</foreign></cell>
-          <cell><foreign>beautiful</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>music</foreign></cell><cell><foreign>sounded</foreign></cell><cell><foreign>beautiful</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>d) Pattern 4 (Transitive): <foreign>The student finished the report.</foreign></p>
       <tabular top="minor" left="minor">
@@ -1389,20 +1426,14 @@
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Phrase</em></cell>
-          <cell><foreign>The student</foreign></cell>
-          <cell><foreign>finished</foreign></cell>
-          <cell><foreign>the report</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>student</foreign></cell><cell><foreign>finished</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>report</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>e) Pattern 5 (Ditransitive, IO + DO): <foreign>The professor gave the class a deadline.</foreign></p>
       <tabular top="minor" left="minor">
@@ -1411,22 +1442,15 @@
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Phrase</em></cell>
-          <cell><foreign>The professor</foreign></cell>
-          <cell><foreign>gave</foreign></cell>
-          <cell><foreign>the class</foreign></cell>
-          <cell><foreign>a deadline</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>professor</foreign></cell><cell><foreign>gave</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>class</foreign></cell><cell><foreign>a</foreign></cell><cell><foreign>deadline</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>f) Pattern 6 (Ditransitive, DO + OC): <foreign>The board declared the plan inadequate.</foreign></p>
       <tabular top="minor" left="minor">
@@ -1435,22 +1459,14 @@
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Phrase</em></cell>
-          <cell><foreign>The board</foreign></cell>
-          <cell><foreign>declared</foreign></cell>
-          <cell><foreign>the plan</foreign></cell>
-          <cell><foreign>inadequate</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>board</foreign></cell><cell><foreign>declared</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>plan</foreign></cell><cell><foreign>inadequate</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
     </subsection>
 
@@ -1506,6 +1522,9 @@
       <paragraphs>
         <title>8.8.1 A: Basic intransitive</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_020.png" width="50%">
+        <description>Multi-level labeling table for "Cameras flashed"</description>
+      </image>
       <image source="diagrams/new/ch12_basic_intransitive.png" width="30%">
         <description>Syntax tree for "Cameras flashed" showing S with NP and VP</description>
       </image>
@@ -1514,6 +1533,9 @@
       <paragraphs>
         <title>8.8.1 B: Intransitive with adverbials</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_021.png" width="80%">
+        <description>Multi-level labeling table for "She spoke quietly in the library"</description>
+      </image>
       <image source="diagrams/new/ch08_adverbial_spoke.png" width="55%">
         <description>Syntax tree for "She spoke quietly in the library" showing an intransitive verb with two optional adverbials</description>
       </image>
@@ -1522,6 +1544,9 @@
       <paragraphs>
         <title>8.8.1 C: Intransitive with conjoined verbs</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_022.png" width="65%">
+        <description>Multi-level labeling table for "Gandalf thinks and acts"</description>
+      </image>
       <image source="diagrams/new/ch08_intrans_conj_vp.png" width="45%">
         <description>Syntax tree for "Gandalf thinks and acts" with coordinated VPs</description>
       </image>
@@ -1534,6 +1559,9 @@
       <paragraphs>
         <title>8.8.2 A: Basic transitive</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_023.png" width="50%">
+        <description>Multi-level labeling table for "Weasels stalk rabbits"</description>
+      </image>
       <image source="diagrams/new/ch12_basic_transitive.png" width="40%">
         <description>Syntax tree for "Weasels stalk rabbits" showing transitive structure</description>
       </image>
@@ -1546,6 +1574,9 @@
       <paragraphs>
         <title>8.8.3 A: Ditransitive with indirect and direct objects</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_024.png" width="65%">
+        <description>Multi-level labeling table for "Marie sent Ramon a gift"</description>
+      </image>
       <image source="diagrams/new/ch12_ditransitive_io_do.png" width="50%">
         <description>Syntax tree for "Marie sent Ramon a gift" with IO and DO</description>
       </image>
@@ -1558,6 +1589,9 @@
       <paragraphs>
         <title>8.8.4 A: Copular with NP complement</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_025.png" width="50%">
+        <description>Multi-level labeling table for "am an optimist"</description>
+      </image>
       <image source="diagrams/new/ch12_copular_be.png" width="40%">
         <description>Syntax tree for "I am an optimist" with NP as subject complement</description>
       </image>
@@ -1566,6 +1600,9 @@
       <paragraphs>
         <title>8.8.4 B: Copular with AdjP complement</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_026.png" width="50%">
+        <description>Multi-level labeling table for "She is happy"</description>
+      </image>
       <image source="diagrams/new/ch06_linking.png" width="35%">
         <description>Syntax tree for "She is happy" with ADJP as subject complement</description>
       </image>
@@ -1574,6 +1611,9 @@
       <paragraphs>
         <title>8.8.4 C: Copular with PP adverbial</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_027.png" width="65%">
+        <description>Multi-level labeling table for "Phillip is over the moon"</description>
+      </image>
       <image source="diagrams/new/ch08_copular_pp.png" width="50%">
         <description>Syntax tree for "Phillip is over the moon" with PP complement</description>
       </image>
@@ -1582,6 +1622,9 @@
       <paragraphs>
         <title>8.8.4 D: Copular with AdvP adverbial</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_028.png" width="50%">
+        <description>Multi-level labeling table for "Phillip is here"</description>
+      </image>
       <image source="diagrams/new/ch08_copular_advp.png" width="35%">
         <description>Syntax tree for "Phillip is here" with ADVP complement</description>
       </image>
@@ -1590,6 +1633,9 @@
       <paragraphs>
         <title>8.8.4 E: Linking verb with AdjP</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_029.png" width="50%">
+        <description>Multi-level labeling table for "Phillip became famous"</description>
+      </image>
       <image source="diagrams/new/ch08_linking_adjp.png" width="40%">
         <description>Syntax tree for "Phillip became famous" with linking verb and ADJP</description>
       </image>
@@ -1598,6 +1644,9 @@
       <paragraphs>
         <title>8.8.4 F: Linking verb with NP</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_030.png" width="65%">
+        <description>Multi-level labeling table for "Phillip became a doctor"</description>
+      </image>
       <image source="diagrams/new/ch08_linking_np.png" width="45%">
         <description>Syntax tree for "Phillip became a doctor" with linking verb and NP</description>
       </image>
@@ -1610,6 +1659,9 @@
       <paragraphs>
         <title>8.8.5 A: Complex transitive with AdjP object complement</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_031.png" width="65%">
+        <description>Multi-level labeling table for "The jury found him guilty"</description>
+      </image>
       <image source="diagrams/new/ch06_complex_trans_adj.png" width="50%">
         <description>Syntax tree for "The jury found him guilty" with DO and AdjP OC</description>
       </image>
@@ -1618,6 +1670,9 @@
       <paragraphs>
         <title>8.8.5 B: Complex transitive with NP object complement</title>
       </paragraphs>
+      <image source="diagrams/new/ch08_table_032.png" width="65%">
+        <description>Multi-level labeling table for "They elected her president"</description>
+      </image>
       <image source="diagrams/new/ch06_complex_trans_np.png" width="45%">
         <description>Syntax tree for "They elected her president" with DO and NP OC</description>
       </image>

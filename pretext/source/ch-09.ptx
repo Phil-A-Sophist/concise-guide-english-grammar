@@ -74,6 +74,9 @@
 
     <p>The simple sentence is the grammatical baseline. Before learning how clauses combine, it helps to understand what exactly makes a clause <q>independent.</q> An independent clause contains a subject and a finite verb and does not begin with any word that would subordinate it to another clause. It stands on its own. Everything in this chapter involves either joining two independent clauses (compounding) or embedding a dependent clause within or beside an independent one (subordination). The simple sentence is the starting point for all of it.</p>
 
+    <image source="diagrams/new/ch09_table_001.png" width="50%">
+      <description>Multi-level labeling table for "The students studied"</description>
+    </image>
     <image source="diagrams/new/ch09_simple_sentence.png" width="35%">
       <description>Syntax tree for "The students studied" showing a single independent clause</description>
     </image>
@@ -151,6 +154,12 @@
 
     <p>In <foreign>Marcus and Elena traveled to Spain</foreign>, the conjunction <foreign>and</foreign> joins two noun phrases—<foreign>Marcus</foreign> and <foreign>Elena</foreign>—into a single compound NP that serves as the subject. There is only one predicate. This is a simple sentence with a compound subject, not a compound sentence.</p>
 
+    <image source="diagrams/new/ch09_table_003.png" width="80%">
+      <description>Multi-level labeling table for "The dog barked and chased the squirrel"</description>
+    </image>
+    <image source="diagrams/new/ch09_table_002.png" width="65%">
+      <description>Multi-level labeling table for "Marcus and Elena traveled"</description>
+    </image>
     <image source="diagrams/new/ch09_compound_subj_only.png" width="40%">
       <description>Syntax tree for "Marcus and Elena traveled" showing compound NP subject — each name has its own NP node inside a larger NP</description>
     </image>
@@ -348,11 +357,17 @@
 
     <p><em>Test</em>: Does each side of the conjunction have its own subject? If yes → compound sentence.</p>
 
+    <image source="diagrams/new/ch09_table_004.png" width="65%">
+      <description>Multi-level labeling table for "Marcus and Elena traveled"</description>
+    </image>
     <image source="diagrams/new/ch09_compound_subj_only.png" width="40%">
       <description>Syntax tree for "Marcus and Elena traveled" showing compound subject inside a single NP — a simple sentence, not compound</description>
     </image>
     <p><c>[S [NP [NP [N Marcus]] [CONJ and] [NP [N Elena]]] [VP [V traveled]]]</c></p>
 
+    <image source="diagrams/new/ch09_table_005.png" width="80%">
+      <description>Multi-level labeling table for "She writes poetry and he composes music"</description>
+    </image>
     <image source="diagrams/new/ch09_compound_and.png" width="60%">
       <description>Syntax tree for "She writes poetry, and he composes music" showing two coordinated independent clauses</description>
     </image>
@@ -395,11 +410,17 @@
 
     <p>The dependent clause provides context, explanation, condition, or timing for the main clause.</p>
 
+    <image source="diagrams/new/ch09_table_006.png" width="80%">
+      <description>Multi-level labeling table for "She declined because she had other plans"</description>
+    </image>
     <image source="diagrams/new/ch09_complex_because.png" width="60%">
       <description>Syntax tree for "She declined because she had other plans" showing independent and dependent clause structure</description>
     </image>
     <p><c>[S [IC [NP [PRON She]] [VP [V declined]]] [DC [SUB because] [NP [PRON she]] [VP [AUX had] [NP [ADJ other] [N plans]]]]]</c></p>
 
+    <image source="diagrams/new/ch09_table_007.png" width="80%">
+      <description>Multi-level labeling table for "When the power flickered Everyone looked up"</description>
+    </image>
     <image source="diagrams/new/ch09_complex_when_first.png" width="60%">
       <description>Syntax tree for "When the power flickered, everyone looked up" showing the dependent clause placed before the independent clause</description>
     </image>
@@ -790,13 +811,13 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each sentence below, complete the phrase/clause label table and draw a tree diagram.</p>
+      <p>For each sentence below, complete the labeling table (Role, Phrase, Word, POS) and draw a tree diagram. For compound and complex sentences, use clause-level role labels: IC (independent clause), DC (dependent clause), CC (coordinating conjunction), COMP (subordinating conjunction/complementizer).</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 11.</em> Complete the table and draw a tree diagram for each sentence.</p>
+      <p><em>Exercise 11.</em> Complete each labeling table and draw a tree diagram.</p>
 
       <p>a) Compound noun phrase (simple sentence): <foreign>Marcus and Elena traveled.</foreign></p>
       <tabular top="minor" left="minor">
@@ -804,25 +825,13 @@
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Phrase</em></cell>
-          <cell><foreign>Marcus</foreign></cell>
-          <cell><foreign>and Elena</foreign></cell>
-          <cell><foreign>traveled</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Overall NP label</em></cell>
-          <cell colspan="3">___________</cell>
-        </row>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>Marcus</foreign></cell><cell><foreign>and</foreign></cell><cell><foreign>Elena</foreign></cell><cell><foreign>traveled</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
-      <p>[Draw tree here]</p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>b) Compound verb phrase (simple sentence): <foreign>The dog barked and chased the squirrel.</foreign></p>
       <tabular top="minor" left="minor">
@@ -830,25 +839,16 @@
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Phrase</em></cell>
-          <cell><foreign>The dog</foreign></cell>
-          <cell><foreign>barked</foreign></cell>
-          <cell><foreign>chased the squirrel</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Overall VP label</em></cell>
-          <cell colspan="3">___________</cell>
-        </row>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>dog</foreign></cell><cell><foreign>barked</foreign></cell><cell><foreign>and</foreign></cell><cell><foreign>chased</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>squirrel</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
-      <p>[Draw tree here]</p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>c) Compound sentence: <foreign>She writes poetry, and he composes music.</foreign></p>
       <tabular top="minor" left="minor">
@@ -856,44 +856,32 @@
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Clause</em></cell>
-          <cell><foreign>She writes poetry</foreign></cell>
-          <cell><foreign>and</foreign></cell>
-          <cell><foreign>he composes music</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label (IC or DC)</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>writes</foreign></cell><cell><foreign>poetry</foreign></cell><cell><foreign>and</foreign></cell><cell><foreign>he</foreign></cell><cell><foreign>composes</foreign></cell><cell><foreign>music</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
-      <p>[Draw tree here]</p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>d) Complex sentence: <foreign>When it rained, we stayed inside.</foreign></p>
       <tabular top="minor" left="minor">
         <col halign="left" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
-        <row bottom="minor">
-          <cell><em>Clause</em></cell>
-          <cell><foreign>When it rained</foreign></cell>
-          <cell><foreign>we stayed inside</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Label (IC or DC)</em></cell>
-          <cell>___________</cell>
-          <cell>___________</cell>
-        </row>
-        <row bottom="minor">
-          <cell><em>Subordinating conjunction</em></cell>
-          <cell colspan="2">___________</cell>
-        </row>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        <row bottom="minor"><cell>Word</cell><cell><foreign>When</foreign></cell><cell><foreign>it</foreign></cell><cell><foreign>rained</foreign></cell><cell><foreign>we</foreign></cell><cell><foreign>stayed</foreign></cell><cell><foreign>inside</foreign></cell></row>
+        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
       </tabular>
-      <p><em>Diagram:</em></p>
-      <p>[Draw tree here]</p>
+      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
     </subsection>
 
@@ -965,6 +953,9 @@
       <paragraphs>
         <title>9.8.1 A: Coordinated independent clauses: I laugh and you cry.</title>
       </paragraphs>
+      <image source="diagrams/new/ch09_table_008.png" width="65%">
+        <description>Multi-level labeling table for "laugh and you cry"</description>
+      </image>
       <image source="diagrams/new/ch09_coordination.png" width="50%">
         <description>Syntax tree for "I laugh and you cry" showing two coordinated sentences</description>
       </image>
@@ -977,6 +968,9 @@
       <paragraphs>
         <title>9.8.2 A: Dependent clause second: I laugh because you cry.</title>
       </paragraphs>
+      <image source="diagrams/new/ch09_table_009.png" width="65%">
+        <description>Multi-level labeling table for "laugh because you cry"</description>
+      </image>
       <image source="diagrams/new/ch09_subord_dc_second.png" width="55%">
         <description>Syntax tree for "I laugh because you cry" with dependent clause following</description>
       </image>
@@ -985,6 +979,9 @@
       <paragraphs>
         <title>9.8.2 B: Dependent clause first: Because you cry, I laugh.</title>
       </paragraphs>
+      <image source="diagrams/new/ch09_table_010.png" width="65%">
+        <description>Multi-level labeling table for "Because you cry laugh"</description>
+      </image>
       <image source="diagrams/new/ch09_subord_dc_first.png" width="55%">
         <description>Syntax tree for "Because you cry, I laugh" with dependent clause first</description>
       </image>
@@ -993,6 +990,9 @@
       <paragraphs>
         <title>9.8.2 C: Adverbial clause: When it rained, they stayed.</title>
       </paragraphs>
+      <image source="diagrams/new/ch09_table_011.png" width="65%">
+        <description>Multi-level labeling table for "When it rained they stayed"</description>
+      </image>
       <image source="diagrams/new/ch10_adverbial_clause.png" width="55%">
         <description>Syntax tree for "When it rained, they stayed" with adverbial dependent clause</description>
       </image>
