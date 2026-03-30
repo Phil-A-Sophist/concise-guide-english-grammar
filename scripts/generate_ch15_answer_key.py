@@ -1,160 +1,91 @@
 #!/usr/bin/env python3
 """
-Generate Chapter 15 Answer Key and Overhead Answer Key .docx files.
+Generate Chapter 15 homework files: Student Homework, Answer Key, and Overhead.
 """
 
 from pathlib import Path
 from docx import Document
 from docx.shared import Pt, Inches
-from docx.oxml.ns import qn
-from docx.oxml import OxmlElement
+
+from answer_key_helpers import (
+    set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
+    add_plain_line, setup_document, add_title_page, add_part_heading,
+    exercise_separator, get_font_config, add_bracket_line,
+    blank_labels,
+    add_multilevel_from_bracket, load_chapter_roles,
+    parse_bracket_to_multilevel, add_multilevel_labeling_table,
+)
 
 
-def set_paragraph_spacing(paragraph, space_before=0, space_after=0):
-    """Set paragraph spacing in points."""
-    pPr = paragraph._p.get_or_add_pPr()
-    spacing = OxmlElement('w:spacing')
-    spacing.set(qn('w:before'), str(int(space_before * 20)))
-    spacing.set(qn('w:after'), str(int(space_after * 20)))
-    pPr.append(spacing)
-
-
-def add_spacer_row(doc):
-    """Add a blank spacer paragraph in Times New Roman 20 (no text, for instructor notes)."""
-    p = doc.add_paragraph()
-    run = p.add_run()
-    run.font.name = 'Times New Roman'
-    run.font.size = Pt(20)
-    pPr = p._p.get_or_add_pPr()
-    rPr = OxmlElement('w:rPr')
-    rFonts = OxmlElement('w:rFonts')
-    rFonts.set(qn('w:ascii'), 'Times New Roman')
-    rFonts.set(qn('w:hAnsi'), 'Times New Roman')
-    rPr.append(rFonts)
-    sz = OxmlElement('w:sz')
-    sz.set(qn('w:val'), '40')  # 20pt = 40 half-points
-    rPr.append(sz)
-    pPr.append(rPr)
-    set_paragraph_spacing(p, space_before=0, space_after=0)
-    return p
-
-
-def add_exercise(doc, number, sentence, font_size, font_name=None):
-    """Add an exercise header with sentence."""
-    p = doc.add_paragraph()
-    run = p.add_run(f'Exercise {number}. ')
-    run.bold = True
-    run.font.size = Pt(font_size)
-    if font_name:
-        run.font.name = font_name
-    if sentence:
-        run = p.add_run(sentence)
-        run.italic = True
-        run.font.size = Pt(font_size)
-        if font_name:
-            run.font.name = font_name
-    set_paragraph_spacing(p, space_before=6, space_after=3)
-    return p
-
-
-def add_answer_line(doc, label, answer, font_size, indent=0.35, font_name=None):
-    """Add a label: answer line."""
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(indent)
-    run = p.add_run(f'{label} ')
-    run.bold = True
-    run.font.size = Pt(font_size)
-    if font_name:
-        run.font.name = font_name
-    run = p.add_run(answer)
-    run.italic = True
-    run.font.size = Pt(font_size)
-    if font_name:
-        run.font.name = font_name
-    set_paragraph_spacing(p, space_before=0, space_after=2)
-    return p
-
-
-def add_plain_line(doc, text, font_size, indent=0.35, bold_prefix=None, font_name=None):
-    """Add a plain text line with optional bold prefix."""
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(indent)
-    if bold_prefix:
-        run = p.add_run(bold_prefix)
-        run.bold = True
-        run.font.size = Pt(font_size)
-        if font_name:
-            run.font.name = font_name
-    run = p.add_run(text)
-    run.font.size = Pt(font_size)
-    if font_name:
-        run.font.name = font_name
-    set_paragraph_spacing(p, space_before=0, space_after=2)
-    return p
+DIAGRAM_EXERCISES = [
+    {
+        'num': 16, 'sentence': 'The storm ended, and the sun came out.',
+        'words':   ['The', 'storm', 'ended', 'and', 'the', 'sun', 'came', 'out'],
+        'roles':   ['IC', '', '', '', 'IC', '', '', ''],
+        'phrases': ['NP', '', 'VP', 'CC', 'NP', '', 'VP', 'ADVP'],
+        'pos':     ['DET', 'N', 'V', 'CONJ', 'DET', 'N', 'V', 'ADV'],
+        'bracket': '[S [IC [NP [DET The] [N storm]] [VP [V ended]]] [CC [CONJ and]] [IC [NP [DET the] [N sun]] [VP [V came] [ADVP [ADV out]]]]]',
+    },
+    {
+        'num': 17, 'sentence': 'Although she was tired, she finished the report.',
+        'words':   ['Although', 'she', 'was', 'tired', 'she', 'finished', 'the', 'report'],
+        'roles':   ['DC', '', '', '', 'IC', '', '', ''],
+        'phrases': ['COMP', 'NP', 'VP', 'ADJP', 'NP', 'VP', 'NP', ''],
+        'pos':     ['COMP', 'PRON', 'V', 'ADJ', 'PRON', 'V', 'DET', 'N'],
+        'bracket': '[S [DC [COMP Although] [NP [PRON she]] [VP [V was] [ADJP [ADJ tired]]]] [IC [NP [PRON she]] [VP [V finished] [NP [DET the] [N report]]]]]',
+    },
+    {
+        'num': 18, 'sentence': 'The professor, however, disagreed completely.',
+        'words':   ['The', 'professor', 'however', 'disagreed', 'completely'],
+        'roles':   ['Subj', '', 'Conjunct', 'Pred', ''],
+        'phrases': ['NP', '', 'ADVP', 'VP', 'ADVP'],
+        'pos':     ['DET', 'N', 'ADV', 'V', 'ADV'],
+        'bracket': '[S [NP [DET The] [N professor]] [ADVP [ADV however]] [VP [V disagreed] [ADVP [ADV completely]]]]',
+    },
+    {
+        'num': 19, 'sentence': 'My sister, who lives in Boston, visits often.',
+        'words':   ['My', 'sister', 'who', 'lives', 'in', 'Boston', 'visits', 'often'],
+        'roles':   ['Subj', '', '', '', '', '', 'Pred', ''],
+        'phrases': ['NP', '', 'RC', 'VP', 'PP', '', 'VP', 'ADVP'],
+        'pos':     ['DET', 'N', 'REL', 'V', 'PREP', 'N', 'V', 'ADV'],
+        'bracket': '[S [NP [DET My] [N sister] [RC [REL who] [VP [V lives] [PP [PREP in] [NP [N Boston]]]]]] [VP [V visits] [ADVP [ADV often]]]]',
+    },
+    {
+        'num': 20, 'sentence': 'After the lecture, students asked many questions.',
+        'words':   ['After', 'the', 'lecture', 'students', 'asked', 'many', 'questions'],
+        'roles':   ['Advl', '', '', 'Subj', 'Pred', '', ''],
+        'phrases': ['PP', 'NP', '', 'NP', 'VP', 'NP', ''],
+        'pos':     ['PREP', 'DET', 'N', 'N', 'V', 'DET', 'N'],
+        'bracket': '[S [PP [PREP After] [NP [DET the] [N lecture]]] [NP [N students]] [VP [V asked] [NP [DET many] [N questions]]]]',
+    },
+]
 
 
 def create_answer_key(output_path, font_size=12, overhead=False):
     """Create the Chapter 15 Answer Key document."""
-    if overhead:
-        body_font = 'Arial Narrow'
-        body_size = 18
-        heading1_size = 22
-        heading2_size = 20
-        heading3_size = 16
-        table_size = 16
-        bracket_size = 15
-    else:
-        body_font = 'Garamond'
-        body_size = font_size
-        heading1_size = 16
-        heading2_size = 14
-        heading3_size = 12
-        table_size = font_size - 1
-        bracket_size = font_size - 1
-
     doc = Document()
+    cfg = setup_document(doc, overhead)
+    body_font = cfg['body_font']
+    body_size = cfg['body_size']
 
-    style = doc.styles['Normal']
-    style.font.name = body_font
-    style.font.size = Pt(body_size)
-
-    for i in range(1, 4):
-        heading_style = doc.styles[f'Heading {i}']
-        heading_style.font.name = 'Open Sans' if not overhead else 'Arial Narrow'
-        heading_style.font.bold = True
-
-    # Title
-    title = doc.add_heading('Chapter 15: Punctuation', level=1)
-    title.runs[0].font.size = Pt(heading1_size)
-    set_paragraph_spacing(title, space_before=0, space_after=6)
-
-    subtitle = doc.add_heading('Answer Key', level=2)
-    subtitle.runs[0].font.size = Pt(heading2_size)
-    set_paragraph_spacing(subtitle, space_before=0, space_after=12)
-
-    if overhead:
-        add_spacer_row(doc)
+    add_title_page(doc, 'Chapter 15: Punctuation', cfg, overhead)
 
     # =============================================
     # Part 1: Comma Usage
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 1: Comma Usage', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 1: Comma Usage', cfg, overhead)
 
     # Exercise 1
     add_exercise(doc, 1, 'When the storm passed we surveyed the damage and began cleanup efforts.', body_size, font_name=body_font)
     add_answer_line(doc, 'Corrected:', 'When the storm passed, we surveyed the damage and began cleanup efforts.', body_size, font_name=body_font)
     add_plain_line(doc, 'Function: comma after introductory adverb clause', body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 2
     add_exercise(doc, 2, 'She is talented hardworking and creative.', body_size, font_name=body_font)
     add_answer_line(doc, 'Corrected:', 'She is talented, hardworking, and creative.', body_size, font_name=body_font)
     add_plain_line(doc, 'Function: commas separating items in a series (Oxford comma before "and")', body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 3
     add_exercise(doc, 3, 'My brother who lives in Seattle is visiting next week.', body_size, font_name=body_font)
@@ -163,15 +94,13 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'Function: commas setting off nonrestrictive relative clause (assumes the speaker has only one brother; '
         'if the speaker has multiple brothers, no commas would be needed \u2014 the clause would be restrictive)',
         body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 4
     add_exercise(doc, 4, 'The meeting was productive but it ran overtime.', body_size, font_name=body_font)
     add_answer_line(doc, 'Corrected:', 'The meeting was productive, but it ran overtime.', body_size, font_name=body_font)
     add_plain_line(doc, 'Function: comma before coordinating conjunction joining two independent clauses', body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 5
     add_exercise(doc, 5, 'The tall distinguished professor gave an inspiring lecture.', body_size, font_name=body_font)
@@ -180,8 +109,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'Function: comma between coordinate adjectives (you can say "tall and distinguished," '
         'so a comma is appropriate)',
         body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # Exercise 6
     add_exercise(doc, 6, 'The students who completed the assignment received extra credit.', body_size, font_name=body_font)
@@ -190,15 +118,12 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'it identifies which students received extra credit (only those who completed the assignment, '
         'not all students). Removing the clause would change the meaning.',
         body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
     # =============================================
     # Part 2: Semicolons and Colons
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 2: Semicolons and Colons', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 2: Semicolons and Colons', cfg, overhead)
 
     punctuation = [
         (7, 'She had one goal ( : / ; ) to finish the project on time.',
@@ -219,15 +144,12 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
         add_answer_line(doc, 'Choice:', choice, body_size, font_name=body_font)
         add_plain_line(doc, reasoning, body_size, font_name=body_font)
-        if overhead:
-            add_spacer_row(doc)
+        exercise_separator(doc, overhead)
 
     # =============================================
     # Part 3: Apostrophes
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 3: Apostrophes', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 3: Apostrophes', cfg, overhead)
 
     apostrophes = [
         (11, 'Its important to understand its function in the sentence.',
@@ -252,65 +174,30 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         add_exercise(doc, num, original, body_size, font_name=body_font)
         add_answer_line(doc, 'Corrected:', corrected, body_size, font_name=body_font)
         add_plain_line(doc, explanation, body_size, font_name=body_font)
-        if overhead:
-            add_spacer_row(doc)
+        exercise_separator(doc, overhead)
 
     # =============================================
-    # Part 4: Comprehensive Punctuation
+    # Part 4: Diagramming Punctuation-Relevant Structures
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 4: Comprehensive Punctuation', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 4: Diagramming Punctuation-Relevant Structures', cfg, overhead)
 
-    # Exercise 16
-    add_exercise(doc, 16, None, body_size, font_name=body_font)
-    add_plain_line(doc,
-        'When the meeting ended, the participants left quickly; however, several stayed behind '
-        'to discuss the proposal. The main question was this: should they proceed?',
-        body_size, font_name=body_font)
-    add_plain_line(doc,
-        'Comma after introductory clause; semicolon before "however"; comma after "however"; '
-        'period after "proposal"; colon before elaboration; question mark for direct question.',
-        body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    ch_roles = load_chapter_roles(15)
+    mode = 'overhead' if overhead else 'answer_key'
 
-    # Exercise 17
-    add_exercise(doc, 17, None, body_size, font_name=body_font)
-    add_plain_line(doc,
-        'The report, which took three months to complete, contained the following recommendations: '
-        'reduce costs, improve efficiency, and increase employee training. However, the board '
-        'rejected all three proposals.',
-        body_size, font_name=body_font)
-    add_plain_line(doc,
-        'Commas around nonrestrictive clause; colon before list; commas in series (Oxford comma); '
-        'period; comma after "However."',
-        body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
-
-    # Exercise 18
-    add_exercise(doc, 18, None, body_size, font_name=body_font)
-    add_plain_line(doc,
-        'Dr. Smith, who has been teaching for twenty years, said, "I believe that students '
-        'learn best when they\u2019re engaged in meaningful activities."',
-        body_size, font_name=body_font)
-    add_plain_line(doc,
-        'Period after "Dr"; commas around nonrestrictive clause; comma before quotation; '
-        'quotation marks around direct speech; apostrophe in "they\u2019re"; period inside quotation marks.',
-        body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    for ex in DIAGRAM_EXERCISES:
+        add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        bracket_key = ' '.join(ex['bracket'].split())
+        add_multilevel_from_bracket(doc, ex['bracket'], roles_dict=ch_roles.get(bracket_key), mode=mode, font_size=body_size)
+        add_bracket_line(doc, ex['bracket'], body_size, font_name=body_font)
+        exercise_separator(doc, overhead)
 
     # =============================================
     # Part 5: Analysis and Application
     # =============================================
-    doc.add_page_break()
-    part = doc.add_heading('Part 5: Analysis and Application', level=3)
-    part.runs[0].font.size = Pt(heading3_size)
+    add_part_heading(doc, 'Part 5: Analysis and Application', cfg, overhead)
 
-    # Exercise 19
-    add_exercise(doc, 19, None, body_size, font_name=body_font)
+    # Exercise 21
+    add_exercise(doc, 21, 'Explain how punctuation changes meaning in these two sentences.', body_size, font_name=body_font)
     add_plain_line(doc,
         '(a) "The students who studied passed the exam." \u2014 Restrictive: only those students '
         'who studied passed. Implies some students didn\u2019t study and didn\u2019t pass.',
@@ -323,26 +210,90 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'The commas change the meaning from identifying a subset (restrictive) to describing the '
         'whole group (non-restrictive). This is a key example of how punctuation affects meaning.',
         body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
-    # Exercise 20
-    add_exercise(doc, 20, None, body_size, font_name=body_font)
+    # Exercise 22
+    add_exercise(doc, 22, 'Find a paragraph from a newspaper, textbook, or article and identify at least four punctuation marks with grammatical explanations.', body_size, font_name=body_font)
     add_plain_line(doc,
         'Open-ended. Accept any paragraph that correctly identifies at least four punctuation marks '
         'with accurate grammatical explanations for each.',
         body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
 
-    # Exercise 21
-    add_exercise(doc, 21, None, body_size, font_name=body_font)
+    # Exercise 23
+    add_exercise(doc, 23, 'Reflect on which punctuation rules you find most challenging and why.', body_size, font_name=body_font)
     add_plain_line(doc,
         'Open-ended reflection. Accept thoughtful answers that demonstrate awareness of '
         'punctuation rules and self-assessment of challenges.',
         body_size, font_name=body_font)
-    if overhead:
-        add_spacer_row(doc)
+    exercise_separator(doc, overhead)
+
+    doc.save(str(output_path))
+    print(f"Created: {output_path}")
+
+
+def create_student_homework(output_path):
+    """Create the Chapter 15 Student Homework with blank multi-level tables."""
+    doc = Document()
+
+    # Basic styling — Garamond 12pt, landscape
+    style = doc.styles['Normal']
+    style.font.name = 'Garamond'
+    style.font.size = Pt(12)
+    fs = 12
+
+    section = doc.sections[0]
+    section.page_width = Inches(11)
+    section.page_height = Inches(8.5)
+    section.left_margin = Inches(0.75)
+    section.right_margin = Inches(0.75)
+    section.top_margin = Inches(0.75)
+    section.bottom_margin = Inches(0.75)
+
+    # Title
+    p = doc.add_paragraph()
+    run = p.add_run('Chapter 15 Homework: Punctuation')
+    run.bold = True
+    run.font.size = Pt(16)
+    run.font.name = 'Garamond'
+    set_paragraph_spacing(p, space_before=0, space_after=4)
+
+    # --- Part 4: Diagramming Punctuation-Relevant Structures ---
+    p = doc.add_paragraph()
+    set_paragraph_spacing(p, space_before=10, space_after=4)
+    run = p.add_run('Part 4: Diagramming Punctuation-Relevant Structures')
+    run.bold = True
+    run.font.size = Pt(14)
+    run.font.name = 'Garamond'
+
+    p = doc.add_paragraph()
+    run = p.add_run('Instructions: ')
+    run.bold = True
+    run.font.size = Pt(fs)
+    run.font.name = 'Garamond'
+    run = p.add_run('For each sentence, complete the labeling table and write the bracket notation.')
+    run.font.size = Pt(fs)
+    run.font.name = 'Garamond'
+
+    for ex in DIAGRAM_EXERCISES:
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=8, space_after=2)
+        run = p.add_run(f'Exercise {ex["num"]}. ')
+        run.bold = True
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
+        run = p.add_run(ex['sentence'])
+        run.italic = True
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
+
+        table_data = parse_bracket_to_multilevel(ex['bracket'])
+        add_multilevel_labeling_table(doc, table_data, mode='student', font_size=10)
+
+        p = doc.add_paragraph()
+        run = p.add_run('Bracket notation: _____')
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
 
     doc.save(str(output_path))
     print(f"Created: {output_path}")
@@ -352,13 +303,17 @@ def main():
     script_dir = Path(__file__).parent
     homework_dir = script_dir.parent / 'Homework'
 
+    create_student_homework(
+        homework_dir / 'Student' / 'Chapter 15 Homework.docx'
+    )
+
     create_answer_key(
-        homework_dir / 'Chapter 15 Answer Key.docx',
+        homework_dir / 'Answer Keys' / 'Chapter 15 Answer Key.docx',
         font_size=12
     )
 
     create_answer_key(
-        homework_dir / 'Homework 15 Overhead.docx',
+        homework_dir / 'Overheads' / 'Homework 15 Overhead.docx',
         overhead=True
     )
 

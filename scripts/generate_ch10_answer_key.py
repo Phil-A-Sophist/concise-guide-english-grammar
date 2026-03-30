@@ -13,7 +13,7 @@ from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, add_bracket_line, add_diagram_image, setup_document,
     add_title_page, add_part_heading, exercise_separator, get_font_config,
-    add_labeling_table, blank_labels,
+    add_multilevel_from_bracket, load_chapter_roles,
 )
 
 
@@ -143,59 +143,42 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_part_heading(doc, 'Part 4: Diagramming Verb Phrases', cfg, overhead)
 
     diagram_exercises = [
-        (16, 'The students are studying for the exam.',
-         '[S [NP [DET The] [N students]] [VP [AUX are] [V studying] [PP [PREP for] [NP [DET the] [N exam]]]]]',
-         'present', 'progressive',
-         'ch10_hw_ex16_students_studying',
-         ['The', 'students', 'are', 'studying', 'for', 'the', 'exam'],
-         ['Subj', '', 'Pred', '', '', '', ''],
-         ['NP', '', 'VP', '', 'PP', 'NP', ''],
-         ['DET', 'N', 'AUX', 'V', 'PREP', 'DET', 'N']),
-        (17, 'He had finished the assignment before class.',
-         '[S [NP [PRON He]] [VP [AUX had] [V finished] [NP [DET the] [N assignment]] [PP [PREP before] [NP [N class]]]]]',
-         'past', 'perfect',
-         'ch10_hw_ex17_had_finished',
-         ['He', 'had', 'finished', 'the', 'assignment', 'before', 'class'],
-         ['Subj', 'Pred', '', '', '', 'Advl', ''],
-         ['NP', 'VP', '', 'NP', '', 'PP', ''],
-         ['PRON', 'AUX', 'V', 'DET', 'N', 'PREP', 'N']),
-        (18, 'Does the professor teach on Fridays?',
-         '[S [AUX Does] [NP [DET the] [N professor]] [VP [V teach] [PP [PREP on] [NP [N Fridays]]]]]',
-         'present', 'simple (do-support)',
-         'ch10_hw_ex18_does_teach',
-         ['Does', 'the', 'professor', 'teach', 'on', 'Fridays'],
-         ['Pred', 'Subj', '', '', 'Advl', ''],
-         ['VP', 'NP', '', '', 'PP', ''],
-         ['AUX', 'DET', 'N', 'V', 'PREP', 'N']),
-        (19, 'The report was written by the committee.',
-         '[S [NP [DET The] [N report]] [VP [AUX was] [V written] [PP [PREP by] [NP [DET the] [N committee]]]]]',
-         'past', 'passive voice',
-         'ch10_hw_ex19_was_written',
-         ['The', 'report', 'was', 'written', 'by', 'the', 'committee'],
-         ['Subj', '', 'Pred', '', 'Actor', '', ''],
-         ['NP', '', 'VP', '', 'PP', 'NP', ''],
-         ['DET', 'N', 'AUX', 'V', 'PREP', 'DET', 'N']),
-        (20, 'They have been waiting at the station for an hour.',
-         '[S [NP [PRON They]] [VP [AUX have] [AUX been] [V waiting] [PP [PREP at] [NP [DET the] [N station]]] [PP [PREP for] [NP [DET an] [N hour]]]]]',
-         'present', 'perfect progressive',
-         'ch10_hw_ex20_have_been_waiting',
-         ['They', 'have', 'been', 'waiting', 'at', 'the', 'station', 'for', 'an', 'hour'],
-         ['Subj', 'Pred', '', '', 'Advl', '', '', 'Advl', '', ''],
-         ['NP', 'VP', '', '', 'PP', 'NP', '', 'PP', 'NP', ''],
-         ['PRON', 'AUX', 'AUX', 'V', 'PREP', 'DET', 'N', 'PREP', 'DET', 'N']),
+        {'num': 16, 'sentence': 'The students are studying for the exam.',
+         'bracket': '[S [NP [DET The] [N students]] [VP [AUX are] [V studying] [PP [PREP for] [NP [DET the] [N exam]]]]]',
+         'tense': 'present', 'aspect': 'progressive',
+         'diagram': 'ch10_hw_ex16_students_studying'},
+        {'num': 17, 'sentence': 'He had finished the assignment before class.',
+         'bracket': '[S [NP [PRON He]] [VP [AUX had] [V finished] [NP [DET the] [N assignment]] [PP [PREP before] [NP [N class]]]]]',
+         'tense': 'past', 'aspect': 'perfect',
+         'diagram': 'ch10_hw_ex17_had_finished'},
+        {'num': 18, 'sentence': 'Does the professor teach on Fridays?',
+         'bracket': '[S [AUX Does] [NP [DET the] [N professor]] [VP [V teach] [PP [PREP on] [NP [N Fridays]]]]]',
+         'tense': 'present', 'aspect': 'simple (do-support)',
+         'diagram': 'ch10_hw_ex18_does_teach'},
+        {'num': 19, 'sentence': 'The report was written by the committee.',
+         'bracket': '[S [NP [DET The] [N report]] [VP [AUX was] [V written] [PP [PREP by] [NP [DET the] [N committee]]]]]',
+         'tense': 'past', 'aspect': 'passive voice',
+         'diagram': 'ch10_hw_ex19_was_written'},
+        {'num': 20, 'sentence': 'They have been waiting at the station for an hour.',
+         'bracket': '[S [NP [PRON They]] [VP [AUX have] [AUX been] [V waiting] [PP [PREP at] [NP [DET the] [N station]]] [PP [PREP for] [NP [DET an] [N hour]]]]]',
+         'tense': 'present', 'aspect': 'perfect progressive',
+         'diagram': 'ch10_hw_ex20_have_been_waiting'},
     ]
 
-    for i, (num, sentence, bracket, tense, aspect, diagram_name,
-            words, roles, phrases, pos) in enumerate(diagram_exercises):
+    ch_roles = load_chapter_roles(10)
+    mode = 'overhead' if overhead else 'answer_key'
+    for i, ex in enumerate(diagram_exercises):
         if i > 0:
             exercise_separator(doc, overhead)
-        add_exercise(doc, num, sentence, body_size, font_name=body_font)
-        add_labeling_table(doc, words, pos_labels=pos, phrase_labels=phrases,
-                           role_labels=roles, font_size=bracket_size)
-        add_bracket_line(doc, bracket, bracket_size)
-        add_diagram_image(doc, DIAGRAM_DIR, diagram_name, width_inches=diagram_width)
-        add_answer_line(doc, 'Tense:', tense, body_size, font_name=body_font)
-        add_answer_line(doc, 'Aspect:', aspect, body_size, font_name=body_font)
+        add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        bracket_key = ' '.join(ex['bracket'].split())
+        add_multilevel_from_bracket(doc, ex['bracket'],
+                                     roles_dict=ch_roles.get(bracket_key),
+                                     mode=mode, font_size=body_size)
+        add_bracket_line(doc, ex['bracket'], bracket_size)
+        add_diagram_image(doc, DIAGRAM_DIR, ex['diagram'], width_inches=diagram_width)
+        add_answer_line(doc, 'Tense:', ex['tense'], body_size, font_name=body_font)
+        add_answer_line(doc, 'Aspect:', ex['aspect'], body_size, font_name=body_font)
 
     # =============================================
     # Part 5: Contextual Analysis
@@ -278,9 +261,80 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     print(f"Created: {output_path}")
 
 
+def create_student_homework(output_path):
+    """Create the Chapter 10 Student Homework with blank multi-level tables for Part 4."""
+    from answer_key_helpers import parse_bracket_to_multilevel, add_multilevel_labeling_table
+    doc = Document()
+    style = doc.styles['Normal']
+    style.font.name = 'Garamond'
+    style.font.size = Pt(12)
+    fs = 12
+
+    # Set landscape
+    section = doc.sections[0]
+    section.page_width, section.page_height = section.page_height, section.page_width
+    section.left_margin = Inches(0.75)
+    section.right_margin = Inches(0.75)
+
+    p = doc.add_paragraph()
+    run = p.add_run('Chapter 10 Homework: Verbs Part One \u2014 Tense and Aspect')
+    run.bold = True
+    run.font.size = Pt(16)
+    run.font.name = 'Garamond'
+    set_paragraph_spacing(p, space_before=0, space_after=4)
+
+    # Part 4 with blank multi-level tables
+    p = doc.add_paragraph()
+    set_paragraph_spacing(p, space_before=10, space_after=4)
+    run = p.add_run('Part 4: Diagramming Verb Phrases')
+    run.bold = True
+    run.font.size = Pt(14)
+    run.font.name = 'Garamond'
+
+    diagram_exercises = [
+        {'num': 16, 'sentence': 'The students are studying for the exam.',
+         'bracket': '[S [NP [DET The] [N students]] [VP [AUX are] [V studying] [PP [PREP for] [NP [DET the] [N exam]]]]]'},
+        {'num': 17, 'sentence': 'He had finished the assignment before class.',
+         'bracket': '[S [NP [PRON He]] [VP [AUX had] [V finished] [NP [DET the] [N assignment]] [PP [PREP before] [NP [N class]]]]]'},
+        {'num': 18, 'sentence': 'Does the professor teach on Fridays?',
+         'bracket': '[S [AUX Does] [NP [DET the] [N professor]] [VP [V teach] [PP [PREP on] [NP [N Fridays]]]]]'},
+        {'num': 19, 'sentence': 'The report was written by the committee.',
+         'bracket': '[S [NP [DET The] [N report]] [VP [AUX was] [V written] [PP [PREP by] [NP [DET the] [N committee]]]]]'},
+        {'num': 20, 'sentence': 'They have been waiting at the station for an hour.',
+         'bracket': '[S [NP [PRON They]] [VP [AUX have] [AUX been] [V waiting] [PP [PREP at] [NP [DET the] [N station]]] [PP [PREP for] [NP [DET an] [N hour]]]]]'},
+    ]
+
+    for ex in diagram_exercises:
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=6, space_after=2)
+        run = p.add_run(f'Exercise {ex["num"]}. ')
+        run.bold = True
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
+        run = p.add_run(ex['sentence'])
+        run.italic = True
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
+
+        td = parse_bracket_to_multilevel(ex['bracket'])
+        add_multilevel_labeling_table(doc, td, mode='student', font_size=fs)
+
+        p = doc.add_paragraph()
+        run = p.add_run('Bracket notation: _____')
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
+
+    doc.save(str(output_path))
+    print(f'Created: {output_path}')
+
+
 def main():
     script_dir = Path(__file__).parent
     homework_dir = script_dir.parent / 'Homework'
+
+    create_student_homework(
+        homework_dir / 'Student' / 'Chapter 10 Homework.docx'
+    )
 
     create_answer_key(
         homework_dir / 'Answer Keys' / 'Chapter 10 Answer Key.docx',

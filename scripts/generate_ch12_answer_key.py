@@ -10,8 +10,9 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, setup_document, add_title_page, add_part_heading,
-    exercise_separator, get_font_config,
-    add_labeling_table, add_bracket_line, blank_labels,
+    exercise_separator, get_font_config, add_bracket_line, blank_labels,
+    add_multilevel_from_bracket, load_chapter_roles,
+    parse_bracket_to_multilevel, add_multilevel_labeling_table,
 )
 
 
@@ -161,18 +162,16 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # =============================================
     add_part_heading(doc, 'Part 4: Diagramming Adverbials', cfg, overhead)
 
+    ch_roles = load_chapter_roles(12)
+    mode = 'overhead' if overhead else 'answer_key'
     for i, ex in enumerate(DIAGRAM_EXERCISES):
         if i > 0:
             exercise_separator(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
-        add_labeling_table(
-            doc,
-            words=ex['words'],
-            pos_labels=ex['pos'],
-            phrase_labels=ex['phrases'],
-            role_labels=ex['roles'],
-            font_size=body_size,
-        )
+        bracket_key = ' '.join(ex['bracket'].split())
+        add_multilevel_from_bracket(doc, ex['bracket'],
+                                     roles_dict=ch_roles.get(bracket_key),
+                                     mode=mode, font_size=body_size)
         add_bracket_line(doc, ex['bracket'], body_size, font_name=body_font)
 
     # =============================================
@@ -248,9 +247,67 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     print(f"Created: {output_path}")
 
 
+def create_student_homework(output_path):
+    """Create the Chapter 12 Student Homework with blank multi-level tables."""
+    from answer_key_helpers import parse_bracket_to_multilevel, add_multilevel_labeling_table
+    doc = Document()
+    style = doc.styles['Normal']
+    style.font.name = 'Garamond'
+    style.font.size = Pt(12)
+    fs = 12
+
+    # Set landscape
+    section = doc.sections[0]
+    section.page_width, section.page_height = section.page_height, section.page_width
+    section.left_margin = Inches(0.75)
+    section.right_margin = Inches(0.75)
+
+    p = doc.add_paragraph()
+    run = p.add_run('Chapter 12 Homework: Adverbials')
+    run.bold = True
+    run.font.size = Pt(16)
+    run.font.name = 'Garamond'
+    set_paragraph_spacing(p, space_before=0, space_after=4)
+
+    # Part 4 with blank multi-level tables
+    p = doc.add_paragraph()
+    set_paragraph_spacing(p, space_before=10, space_after=4)
+    run = p.add_run('Part 4: Diagramming Adverbials')
+    run.bold = True
+    run.font.size = Pt(14)
+    run.font.name = 'Garamond'
+
+    for ex in DIAGRAM_EXERCISES:
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=6, space_after=2)
+        run = p.add_run(f'Exercise {ex["num"]}. ')
+        run.bold = True
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
+        run = p.add_run(ex['sentence'])
+        run.italic = True
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
+
+        td = parse_bracket_to_multilevel(ex['bracket'])
+        add_multilevel_labeling_table(doc, td, mode='student', font_size=fs)
+
+        p = doc.add_paragraph()
+        run = p.add_run('Bracket notation: _____')
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
+
+    doc.save(str(output_path))
+    print(f'Created: {output_path}')
+
+
 def main():
     script_dir = Path(__file__).parent
     homework_dir = script_dir.parent / 'Homework'
+
+    create_student_homework(
+        homework_dir / 'Student' / 'Chapter 12 Homework.docx'
+    )
 
     create_answer_key(
         homework_dir / 'Answer Keys' / 'Chapter 12 Answer Key.docx',
