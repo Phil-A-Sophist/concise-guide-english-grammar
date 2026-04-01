@@ -134,6 +134,19 @@
       <li><p><foreign>a book <em>written</em> by Hemingway</foreign></p></li>
     </ul>
 
+    <paragraphs>
+      <title>The Perfect Participle</title>
+    </paragraphs>
+
+    <p>There is one additional participial form worth noting: the <term>perfect participle</term>, formed with <foreign>having</foreign> + past participle. It signals that one action was completed before another:</p>
+
+    <ul>
+      <li><p><foreign><em>Having finished</em> the exam, she left the room.</foreign></p></li>
+      <li><p><foreign><em>Having read</em> the report, the committee made its decision.</foreign></p></li>
+    </ul>
+
+    <p>The perfect participle functions like a present participle (it can modify a noun phrase or provide circumstantial information), but it adds the meaning of completed prior action. You will see this form in exercises throughout the rest of the book.</p>
+
   </section>
 
   <section xml:id="ch-16-other-grammatical-forms-sec-162">
@@ -175,26 +188,6 @@
     <ul>
       <li><p><foreign>I wonder <em>what she said</em>.</foreign></p></li>
       <li><p><foreign>Tell me <em>how you did it</em>.</foreign></p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Raising vs. Control</title>
-    </paragraphs>
-
-    <p>Some verbs allow special subject relationships:</p>
-
-    <p><term>Raising</term> (subject "raised" from complement):</p>
-
-    <ul>
-      <li><p><foreign>She seems <em>to be happy</em>.</foreign> (she is really the subject of be happy)</p></li>
-      <li><p><foreign>It appears <em>that she's happy</em>.</foreign></p></li>
-    </ul>
-
-    <p><term>Control</term> (subject "controls" reference in complement):</p>
-
-    <ul>
-      <li><p><foreign>She promised <em>to help</em>.</foreign> (she will help—subject control)</p></li>
-      <li><p><foreign>She persuaded him <em>to help</em>.</foreign> (him will help—object control)</p></li>
     </ul>
 
     <paragraphs>
@@ -381,7 +374,7 @@
 
     <p>Here is something counterintuitive: some of the most grammatically interesting sentences are the ones with words missing. When someone says <foreign>She can swim, and he can too</foreign>, the second clause has no verb phrase—yet everyone understands that he can swim. The missing material is not random; it follows strict grammatical rules about what can be omitted and what must remain. Linguists call this <term>ellipsis</term>, and it is the grammar of what is <em>not</em> said.</p>
 
-    <p>Ellipsis is everywhere in natural speech and writing, where it creates concision and avoids cumbersome repetition. Understanding it also reveals something important about grammar: the sentence you see or hear is not always the full grammatical representation. The absent material is still there, structurally, even when it is phonologically silent.</p>
+    <p>Ellipsis is everywhere in natural speech and writing, where it creates concision and avoids cumbersome repetition. Understanding it also reveals something important about grammar: the sentence you see or hear is not always the full grammatical representation. The absent material is still there, structurally, even when it is not spoken or written.</p>
 
     <p><term>Ellipsis</term> is the omission of words recoverable from context, avoiding redundancy.</p>
 
@@ -462,7 +455,7 @@
       <li><p>Question: <foreign><em>Can</em> she swim?</foreign></p></li>
     </ul>
 
-    <p><em>Wh-questions</em> (wh-movement + inversion):</p>
+    <p><em>Wh-questions</em> (the wh-word moves to the front + inversion):</p>
 
     <ul>
       <li><p>Statement: <foreign>She read something.</foreign></p></li>

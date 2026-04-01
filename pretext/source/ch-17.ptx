@@ -6,7 +6,7 @@
   <objectives>
     <title>Learning Objectives</title>
     <introduction>
-      <p><em>Key Terms: style, sentence variety, information structure, given vs. new information, end-focus, end-weight, extraposition, cleft sentence, loose sentence, periodic sentence, balanced sentence</em></p>
+      <p><em>Key Terms: style, sentence variety, information structure, given vs. new information, end-focus, end-weight, extraposition, cleft sentence, absolute phrase, inversion, loose sentence, periodic sentence, balanced sentence</em></p>
     </introduction>
     <ul>
       <li><p>Understand how grammatical choices affect style and meaning</p></li>
@@ -239,11 +239,18 @@
       <title>Inversion</title>
     </paragraphs>
 
-    <p>Reversing normal word order creates emphasis:</p>
+    <p>English declarative sentences normally follow subject-verb order (Chapter 8). <term>Inversion</term> reverses that order, placing a complement or modifier before the verb and pushing the subject after it. The effect is emphatic—the fronted element receives stress precisely because it appears where readers do not expect it:</p>
 
     <ul>
       <li><p>Normal: <foreign>The results were more surprising.</foreign></p></li>
       <li><p>Inverted: <foreign>More surprising were the results.</foreign></p></li>
+    </ul>
+
+    <p>Inversion is most effective when used sparingly. It works best with short complements and when the sentence follows a sequence that sets up the fronted element:</p>
+
+    <ul>
+      <li><p><foreign>Gone are the days of easy answers.</foreign></p></li>
+      <li><p><foreign>Never had they seen such a storm.</foreign></p></li>
     </ul>
 
     <paragraphs>
@@ -302,14 +309,34 @@
     <p>Classical rhetoric gave names to patterns of sentence construction that achieve recognizable effects—patterns that skilled writers have used deliberately for centuries and that you already respond to as a reader. Where does the main clause fall? Does the sentence release its meaning early and then elaborate, or does it withhold the main point, building through qualification and detail until the final clause delivers what the reader has been waiting for? Does it mirror one half of itself against the other, creating the kind of balance that sounds inevitable in quotation? These are not ornamental options reserved for formal speeches. They are tools available in any writing context, and naming them makes them easier to use with intention.</p>
 
     <paragraphs>
+      <title>Absolute Phrases</title>
+    </paragraphs>
+
+    <p>Before looking at rhetorical sentence patterns, you need one more structural tool. An <term>absolute phrase</term> consists of a noun phrase followed by a participle (or other modifier), and it modifies the entire sentence rather than any single word within it:</p>
+
+    <ul>
+      <li><p><foreign><em>Its sails catching the wind</em>, the ship moved forward.</foreign></p></li>
+      <li><p><foreign>The teacher stood at the board, <em>her hands covered in chalk dust</em>.</foreign></p></li>
+    </ul>
+
+    <p>Notice that absolute phrases have their own subject (<foreign>its sails</foreign>, <foreign>her hands</foreign>) that is different from the subject of the main clause. This is what distinguishes them from participial phrases, which share the subject of the main clause. Compare:</p>
+
+    <ul>
+      <li><p>Participial phrase: <foreign><em>Rocking gently</em>, the ship sailed on.</foreign> (The ship is rocking.)</p></li>
+      <li><p>Absolute phrase: <foreign><em>Its sails catching the wind</em>, the ship sailed on.</foreign> (The sails are catching—not the ship.)</p></li>
+    </ul>
+
+    <p>Because absolute phrases have their own subject, they are <em>not</em> dangling modifiers (Chapter 18). Dangling modifiers lack a subject and attach incorrectly to the wrong noun; absolute phrases state their subject explicitly and modify the whole clause. Skilled writers use absolute phrases to add vivid, simultaneous detail without subordination.</p>
+
+    <paragraphs>
       <title>Loose (Cumulative) Sentences</title>
     </paragraphs>
 
-    <p>In a <term>loose sentence</term>, the main clause comes first, followed by modifying elements:</p>
+    <p>In a <term>loose sentence</term>, the main clause comes first, followed by modifying elements. Those modifiers may be participial phrases, absolute phrases, or other structures that add detail:</p>
 
-    <p><foreign>The ship sailed slowly, <em>rocking gently, its sails catching the wind, the crew relaxing on deck</em>.</foreign></p>
+    <p><foreign>The ship sailed slowly, <em>rocking gently</em>, <em>its sails catching the wind</em>, <em>the crew relaxing on deck</em>.</foreign></p>
 
-    <p>Loose sentences feel natural and relaxed.</p>
+    <p>In this example, <foreign>rocking gently</foreign> is a participial phrase (the ship is rocking), while <foreign>its sails catching the wind</foreign> and <foreign>the crew relaxing on deck</foreign> are absolute phrases (each has its own subject). The sentence accumulates detail after the main point, creating a relaxed, expansive feel.</p>
 
     <paragraphs>
       <title>Periodic Sentences</title>
@@ -317,9 +344,9 @@
 
     <p>In a <term>periodic sentence</term>, modifying elements come first, delaying the main clause:</p>
 
-    <p><foreign><em>Rocking gently, its sails catching the wind, the crew relaxing on deck</em>, the ship sailed slowly.</foreign></p>
+    <p><foreign><em>Rocking gently</em>, <em>its sails catching the wind</em>, <em>the crew relaxing on deck</em>, the ship sailed slowly.</foreign></p>
 
-    <p>Periodic sentences build suspense and create emphasis.</p>
+    <p>Periodic sentences build suspense and create emphasis by making the reader wait for the main clause.</p>
 
     <paragraphs>
       <title>Balanced Sentences</title>
@@ -492,6 +519,10 @@
   <glossary>
     <title>Glossary</title>
     <gi>
+      <title>Absolute phrase</title>
+      <p>A noun phrase plus a participle (or other modifier) that modifies the entire sentence rather than a single word. It has its own subject distinct from the main clause's subject.</p>
+    </gi>
+    <gi>
       <title>Balanced sentence</title>
       <p>A sentence with parallel structures that create symmetry and rhetorical balance.</p>
     </gi>
@@ -518,6 +549,10 @@
     <gi>
       <title>Information structure</title>
       <p>How information is arranged within a sentence.</p>
+    </gi>
+    <gi>
+      <title>Inversion</title>
+      <p>Reversing normal subject-verb word order to place a complement or modifier before the verb for emphasis.</p>
     </gi>
     <gi>
       <title>Loose sentence</title>
