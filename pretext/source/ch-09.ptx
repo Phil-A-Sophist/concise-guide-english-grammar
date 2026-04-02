@@ -74,6 +74,8 @@
 
     <p>The simple sentence is the grammatical baseline. Before learning how clauses combine, it helps to understand what exactly makes a clause <q>independent.</q> An independent clause contains a subject and a finite verb and does not begin with any word that would subordinate it to another clause. It stands on its own. Everything in this chapter involves either joining two independent clauses (compounding) or embedding a dependent clause within or beside an independent one (subordination). The simple sentence is the starting point for all of it.</p>
 
+    <p>The labeling table and tree diagram below show the structure of a simple sentence — <foreign>The students studied</foreign>:</p>
+
     <image source="diagrams/new/ch09_table_001.png" width="50%">
       <description>Multi-level labeling table for "The students studied"</description>
     </image>
@@ -313,9 +315,8 @@
 
     <p>In <foreign>Marcus and Elena traveled to Spain</foreign>, the conjunction <foreign>and</foreign> joins two noun phrases—<foreign>Marcus</foreign> and <foreign>Elena</foreign>—into a single compound NP that serves as the subject. There is only one predicate. This is a simple sentence with a compound subject, not a compound sentence.</p>
 
-    <image source="diagrams/new/ch09_table_003.png" width="80%">
-      <description>Multi-level labeling table for "The dog barked and chased the squirrel"</description>
-    </image>
+    <p>The labeling table and tree diagram below show how <foreign>Marcus</foreign> and <foreign>Elena</foreign> form a compound NP subject within a single clause:</p>
+
     <image source="diagrams/new/ch09_table_002.png" width="65%">
       <description>Multi-level labeling table for "Marcus and Elena traveled"</description>
     </image>
@@ -332,6 +333,14 @@
 
     <p>In <foreign>The dog barked and chased the squirrel</foreign>, the conjunction joins two verb phrases—<foreign>barked</foreign> and <foreign>chased the squirrel</foreign>—into a single compound VP. There is only one subject. This is again a simple sentence, this time with a compound predicate.</p>
 
+    <p>The labeling table and tree diagram below show the compound VP — two verb phrases joined inside a single clause:</p>
+
+    <image source="diagrams/new/ch09_table_003.png" width="80%">
+      <description>Multi-level labeling table for "The dog barked and chased the squirrel"</description>
+    </image>
+    <image source="diagrams/new/ch09_compound_vp.png" width="55%">
+      <description>Syntax tree for "The dog barked and chased the squirrel" showing compound VP — two verb phrases joined inside a single clause</description>
+    </image>
     <p><c>[S [NP [DET The] [N dog]] [VP [VP [V barked]] [CONJ and] [VP [V chased] [NP [DET the] [N squirrel]]]]]</c></p>
 
     <p>Each conjunct VP keeps its own VP node inside the larger compound VP.</p>
@@ -385,6 +394,8 @@
 
     <p><q><foreign>It rained<em>,</em> and we stayed inside.</foreign></q></p>
 
+    <p>The labeling table and tree diagram below show the structure of this compound sentence:</p>
+
     <image source="diagrams/new/ch09_table_012.png" width="80%">
       <description>Multi-level labeling table for "It rained, and we stayed inside"</description>
     </image>
@@ -430,6 +441,8 @@
 
     <p><em>Test</em>: Does each side of the conjunction have its own subject <em>and</em> predicate? If yes → compound sentence. If they share a subject or a predicate → simple sentence with a compound element.</p>
 
+    <p>Compare the simple sentence <foreign>Marcus and Elena traveled</foreign> (compound subject, one clause):</p>
+
     <image source="diagrams/new/ch09_table_004.png" width="65%">
       <description>Multi-level labeling table for "Marcus and Elena traveled"</description>
     </image>
@@ -437,6 +450,8 @@
       <description>Syntax tree for "Marcus and Elena traveled" showing compound subject inside a single NP — a simple sentence, not compound</description>
     </image>
     <p><c>[S [NP [NP [N Marcus]] [CONJ and] [NP [N Elena]]] [VP [V traveled]]]</c></p>
+
+    <p>With the compound sentence <foreign>She writes poetry, and he composes music</foreign> (two independent clauses, both labeled Main):</p>
 
     <image source="diagrams/new/ch09_table_005.png" width="80%">
       <description>Multi-level labeling table for "She writes poetry and he composes music"</description>
@@ -483,6 +498,8 @@
 
     <p>The dependent clause provides context, explanation, condition, or timing for the main clause.</p>
 
+    <p>The labeling table and tree diagram below show the structure of <foreign>She declined because she had other plans</foreign> — a complex sentence with the dependent clause following the main clause:</p>
+
     <image source="diagrams/new/ch09_table_006.png" width="80%">
       <description>Multi-level labeling table for "She declined because she had other plans"</description>
     </image>
@@ -490,6 +507,8 @@
       <description>Syntax tree for "She declined because she had other plans" showing independent and dependent clause structure</description>
     </image>
     <p><c>[S [IC [NP [PRON She]] [VP [V declined]]] [DC [SUB because] [NP [PRON she]] [VP [AUX had] [NP [ADJ other] [N plans]]]]]</c></p>
+
+    <p>When the dependent clause comes first, the structure looks like this — <foreign>When the power flickered, everyone looked up</foreign>:</p>
 
     <image source="diagrams/new/ch09_table_007.png" width="80%">
       <description>Multi-level labeling table for "When the power flickered Everyone looked up"</description>
