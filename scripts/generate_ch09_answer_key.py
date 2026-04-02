@@ -385,14 +385,38 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     print(f'Created: {output_path}')
 
 
+def _add_student_exercise(doc, num, text, fs=12, font='Garamond'):
+    """Add a numbered exercise with blank answer lines."""
+    p = doc.add_paragraph()
+    set_paragraph_spacing(p, space_before=6, space_after=2)
+    run = p.add_run(f'Exercise {num}. ')
+    run.bold = True
+    run.font.size = Pt(fs)
+    run.font.name = font
+    run = p.add_run(text)
+    run.font.size = Pt(fs)
+    run.font.name = font
+
+
+def _add_blank_lines(doc, labels, fs=12, font='Garamond'):
+    """Add labeled blank answer lines."""
+    for label in labels:
+        p = doc.add_paragraph()
+        run = p.add_run(f'{label} _______')
+        run.font.size = Pt(fs)
+        run.font.name = font
+        set_paragraph_spacing(p, space_before=2, space_after=2)
+
+
 def create_student_homework(output_path):
-    """Create the Chapter 9 Student Homework with blank multi-level tables."""
+    """Create the Chapter 9 Student Homework with all 5 parts."""
     from answer_key_helpers import parse_bracket_to_multilevel, add_multilevel_labeling_table
     doc = Document()
     style = doc.styles['Normal']
     style.font.name = 'Garamond'
     style.font.size = Pt(12)
     fs = 12
+    font = 'Garamond'
 
     # Set landscape
     section = doc.sections[0]
@@ -404,16 +428,113 @@ def create_student_homework(output_path):
     run = p.add_run('Chapter 9 Homework: Conjunctions and Clauses')
     run.bold = True
     run.font.size = Pt(16)
-    run.font.name = 'Garamond'
+    run.font.name = font
     set_paragraph_spacing(p, space_before=0, space_after=4)
 
-    # Part 4 with blank multi-level tables
+    # =============================================
+    # Part 1: Sentence Type Identification
+    # =============================================
+    p = doc.add_paragraph()
+    set_paragraph_spacing(p, space_before=10, space_after=4)
+    run = p.add_run('Part 1: Sentence Type Identification')
+    run.bold = True
+    run.font.size = Pt(14)
+    run.font.name = font
+
+    p = doc.add_paragraph()
+    run = p.add_run('For each sentence, identify the sentence type (simple, compound, complex, or compound-complex) and identify all clauses. Label each clause as independent (IC) or dependent (DC).')
+    run.font.size = Pt(fs)
+    run.font.name = font
+    set_paragraph_spacing(p, space_before=2, space_after=6)
+
+    _add_student_exercise(doc, 1,
+        'The exhausted marathon runner from Kenya and her experienced coach celebrated after the race.',
+        fs, font)
+    _add_blank_lines(doc, ['Sentence type:', 'Clauses:'], fs, font)
+
+    _add_student_exercise(doc, 2,
+        'Because the deadline was extended, I had time to revise my paper thoroughly.',
+        fs, font)
+    _add_blank_lines(doc, ['Sentence type:', 'Clauses:'], fs, font)
+
+    _add_student_exercise(doc, 3,
+        'Although the professor has retired, she still occasionally gives guest lectures, and her former students attend whenever they can.',
+        fs, font)
+    _add_blank_lines(doc, ['Sentence type:', 'Clauses (identify each as IC or DC):'], fs, font)
+
+    # =============================================
+    # Part 2: Sentence Writing
+    # =============================================
+    p = doc.add_paragraph()
+    set_paragraph_spacing(p, space_before=10, space_after=4)
+    run = p.add_run('Part 2: Sentence Writing')
+    run.bold = True
+    run.font.size = Pt(14)
+    run.font.name = font
+
+    p = doc.add_paragraph()
+    run = p.add_run('Write original sentences following each prompt.')
+    run.font.size = Pt(fs)
+    run.font.name = font
+    set_paragraph_spacing(p, space_before=2, space_after=6)
+
+    _add_student_exercise(doc, 4,
+        'Connect two clauses using a semicolon and a conjunctive adverb (such as however, therefore, moreover, consequently):',
+        fs, font)
+    _add_blank_lines(doc, [''], fs, font)
+
+    _add_student_exercise(doc, 5,
+        'Write a complex sentence with a dependent clause showing cause or reason (use because, since, or as):',
+        fs, font)
+    _add_blank_lines(doc, [''], fs, font)
+
+    _add_student_exercise(doc, 6,
+        'Write a compound-complex sentence. Use a coordinating conjunction (FANBOYS) to join two independent clauses, and add at least one dependent clause using a subordinating conjunction:',
+        fs, font)
+    _add_blank_lines(doc, [''], fs, font)
+
+    # =============================================
+    # Part 3: Error Correction
+    # =============================================
+    p = doc.add_paragraph()
+    set_paragraph_spacing(p, space_before=10, space_after=4)
+    run = p.add_run('Part 3: Error Correction')
+    run.bold = True
+    run.font.size = Pt(14)
+    run.font.name = font
+
+    p = doc.add_paragraph()
+    run = p.add_run('Each sentence below contains a comma splice or run-on error. Provide two different corrections for each.')
+    run.font.size = Pt(fs)
+    run.font.name = font
+    set_paragraph_spacing(p, space_before=2, space_after=6)
+
+    _add_student_exercise(doc, 7, 'She enjoys hiking he prefers swimming.', fs, font)
+    _add_blank_lines(doc, ['Correction 1:', 'Correction 2:'], fs, font)
+
+    _add_student_exercise(doc, 8,
+        'The assignment was challenging, many students struggled to finish it on time.', fs, font)
+    _add_blank_lines(doc, ['Correction 1:', 'Correction 2:'], fs, font)
+
+    _add_student_exercise(doc, 9,
+        'The restaurant was crowded, we decided to order takeout instead.', fs, font)
+    _add_blank_lines(doc, ['Correction 1:', 'Correction 2:'], fs, font)
+
+    # =============================================
+    # Part 4: Sentence Tables and Diagrams
+    # =============================================
     p = doc.add_paragraph()
     set_paragraph_spacing(p, space_before=10, space_after=4)
     run = p.add_run('Part 4: Sentence Tables and Diagrams')
     run.bold = True
     run.font.size = Pt(14)
-    run.font.name = 'Garamond'
+    run.font.name = font
+
+    p = doc.add_paragraph()
+    run = p.add_run('For each sentence, complete the labeling table and draw a tree diagram. At the clause level, assign the role Main to independent clauses and Adverbial to dependent clauses.')
+    run.font.size = Pt(fs)
+    run.font.name = font
+    set_paragraph_spacing(p, space_before=2, space_after=6)
 
     for ex in DIAGRAM_EXERCISES:
         p = doc.add_paragraph()
@@ -421,14 +542,14 @@ def create_student_homework(output_path):
         run = p.add_run(f'Exercise {ex["num"]}. ')
         run.bold = True
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
+        run.font.name = font
         run = p.add_run(f'{ex["label"]}. Complete the labeling table and draw a tree diagram for: ')
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
+        run.font.name = font
         run = p.add_run(ex['sentence'])
         run.italic = True
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
+        run.font.name = font
 
         td = parse_bracket_to_multilevel(ex['bracket'])
         add_multilevel_labeling_table(doc, td, mode='student', font_size=fs)
@@ -436,7 +557,60 @@ def create_student_homework(output_path):
         p = doc.add_paragraph()
         run = p.add_run('Bracket notation: _____')
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
+        run.font.name = font
+
+    # =============================================
+    # Part 5: Emphasis, End-Weight, and Clause Revision
+    # =============================================
+    p = doc.add_paragraph()
+    set_paragraph_spacing(p, space_before=10, space_after=4)
+    run = p.add_run('Part 5: Emphasis, End-Weight, and Clause Revision')
+    run.bold = True
+    run.font.size = Pt(14)
+    run.font.name = font
+
+    p = doc.add_paragraph()
+    run = p.add_run('Apply what you have learned about emphasis, end-weight, and clause management to revise and analyze sentences.')
+    run.font.size = Pt(fs)
+    run.font.name = font
+    set_paragraph_spacing(p, space_before=2, space_after=6)
+
+    _add_student_exercise(doc, 13,
+        'The following passage strings together several ideas using only coordination. Separate it into individual simple sentences. Then explain: what relationships between the ideas are lost?',
+        fs, font)
+    p = doc.add_paragraph()
+    run = p.add_run('The lecture was long and the material was difficult and students were confused and they asked many questions and the professor stayed late to help.')
+    run.italic = True
+    run.font.size = Pt(fs)
+    run.font.name = font
+    set_paragraph_spacing(p, space_before=2, space_after=4)
+    _add_blank_lines(doc, ['Simple sentences:', 'What is lost:'], fs, font)
+
+    _add_student_exercise(doc, 14,
+        'The following sentence is front-loaded\u2014the heavy element appears too early:',
+        fs, font)
+    p = doc.add_paragraph()
+    run = p.add_run('After the committee reviewed every proposal and discussed the budget in detail, they approved the new plan.')
+    run.italic = True
+    run.font.size = Pt(fs)
+    run.font.name = font
+    set_paragraph_spacing(p, space_before=2, space_after=4)
+    _add_blank_lines(doc, ['a) End-weighted revision:', 'b) Why is the revised version easier to read?'], fs, font)
+
+    _add_student_exercise(doc, 15,
+        'The following sentence uses coordination:',
+        fs, font)
+    p = doc.add_paragraph()
+    run = p.add_run('The experiment failed, and the researchers were disappointed.')
+    run.italic = True
+    run.font.size = Pt(fs)
+    run.font.name = font
+    set_paragraph_spacing(p, space_before=2, space_after=4)
+    _add_blank_lines(doc, [
+        'a) Rewrite to emphasize disappointment (make "the researchers were disappointed" the main clause):',
+        'b) Rewrite to emphasize the failure (make "the experiment failed" the main clause):',
+        'c) Which version would you use if both ideas should feel equally important? Explain:',
+    ], fs, font)
 
     doc.save(str(output_path))
     print(f'Created: {output_path}')
