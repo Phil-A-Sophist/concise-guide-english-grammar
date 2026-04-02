@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate Chapter 9 Answer Key and Overhead Answer Key .docx files.
-Updated to match revised homework structure: Conjunctions and Clauses (5 parts, 13 exercises).
+Revised homework: 5 parts, 15 exercises. Part 4 uses new sentences (10-12).
 """
 
 from pathlib import Path
@@ -22,44 +22,25 @@ DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch09'
 
 DIAGRAM_EXERCISES = [
     {
-        'sub': '10A)',
-        'sentence': 'Marcus and Elena traveled.',
-        'words':   ['Marcus', 'and', 'Elena', 'traveled'],
-        'roles':   ['Subj',   '',    '',       'Pred'],
-        'phrases': ['NP',     'CONJ','',        'VP'],
-        'pos':     ['N',      'CONJ','N',       'V'],
-        'bracket': '[S [NP [N Marcus] [CONJ and] [N Elena]] [VP [V traveled]]]',
-        'diagram': 'ch09_hw_ex10a_marcus_traveled',
+        'num': 10,
+        'label': 'Compound noun phrase (simple sentence)',
+        'sentence': 'The teacher and the principal met after school.',
+        'bracket': '[S [NP [NP [DET The] [N teacher]] [CONJ and] [NP [DET the] [N principal]]] [VP [V met] [PP [PREP after] [NP [N school]]]]]',
+        'diagram': 'ch09_hw_ex10_teacher_principal',
     },
     {
-        'sub': '10B)',
-        'sentence': 'The dog barked and chased the squirrel.',
-        'words':   ['The',  'dog', 'barked', 'and',  'chased', 'the',  'squirrel'],
-        'roles':   ['Subj', '',    'Pred',   '',     '',       '',     ''],
-        'phrases': ['NP',   '',    'VP',     'CONJ', 'VP',     'NP',   ''],
-        'pos':     ['DET',  'N',   'V',      'CONJ', 'V',      'DET',  'N'],
-        'bracket': '[S [NP [DET The] [N dog]] [VP [V barked] [CONJ and] [VP [V chased] [NP [DET the] [N squirrel]]]]]',
-        'diagram': 'ch09_hw_ex10b_dog_barked',
+        'num': 11,
+        'label': 'Compound sentence',
+        'sentence': 'The train arrived late, but the passengers remained calm.',
+        'bracket': '[S [IC [NP [DET The] [N train]] [VP [V arrived] [ADVP [ADV late]]]] [CONJ but] [IC [NP [DET the] [N passengers]] [VP [V remained] [AdjP [ADJ calm]]]]]',
+        'diagram': 'ch09_hw_ex11_train_passengers',
     },
     {
-        'sub': '10C)',
-        'sentence': 'She writes poetry, and he composes music.',
-        'words':   ['She',   'writes', 'poetry', 'and',  'he',   'composes', 'music'],
-        'roles':   ['IC',    '',       '',       '',     'IC',   '',         ''],
-        'phrases': ['NP',    'VP',     'NP',     'CC',   'NP',   'VP',       'NP'],
-        'pos':     ['PRON',  'V',      'N',      'CONJ', 'PRON', 'V',        'N'],
-        'bracket': '[S [IC [NP [PRON She]] [VP [V writes] [NP [N poetry]]]] [CC [CONJ and]] [IC [NP [PRON he]] [VP [V composes] [NP [N music]]]]]',
-        'diagram': 'ch09_hw_ex10c_writes_composes',
-    },
-    {
-        'sub': '10D)',
-        'sentence': 'When it rained, we stayed inside.',
-        'words':   ['When', 'it',   'rained', 'we',   'stayed', 'inside'],
-        'roles':   ['DC',   '',     '',       'IC',   '',       ''],
-        'phrases': ['SUB',  'NP',   'VP',     'NP',   'VP',     'ADVP'],
-        'pos':     ['SUB',  'PRON', 'V',      'PRON', 'V',      'ADV'],
-        'bracket': '[S [DC [SUB When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON we]] [VP [V stayed] [ADVP [ADV inside]]]]]',
-        'diagram': 'ch09_hw_ex10d_when_rained',
+        'num': 12,
+        'label': 'Complex sentence',
+        'sentence': 'Although the library was quiet, she could not concentrate.',
+        'bracket': '[S [DC [SUB Although] [NP [DET the] [N library]] [VP [V was] [AdjP [ADJ quiet]]]] [IC [NP [PRON she]] [VP [AUX could] [ADV not] [V concentrate]]]]',
+        'diagram': 'ch09_hw_ex12_library_concentrate',
     },
 ]
 
@@ -235,14 +216,21 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # =============================================
     add_part_heading(doc, 'Part 4: Sentence Tables and Diagrams', cfg, overhead)
 
-    add_exercise(doc, 10, 'Complete the table and draw a tree diagram for each sentence.', body_size, font_name=body_font)
-
     ch_roles = load_chapter_roles(9)
     mode = 'overhead' if overhead else 'answer_key'
     for i, ex in enumerate(DIAGRAM_EXERCISES):
         if i > 0:
             question_page_break(doc, overhead)
-        add_sub_sentence(doc, ex['sub'], ex['sentence'], body_size, font_name=body_font)
+        add_exercise(doc, ex['num'],
+            f'{ex["label"]}. Complete the labeling table and draw a tree diagram for:',
+            body_size, font_name=body_font)
+        p = doc.add_paragraph()
+        p.paragraph_format.left_indent = Inches(0.35)
+        run = p.add_run(ex['sentence'])
+        run.italic = True
+        run.font.size = Pt(body_size)
+        run.font.name = body_font
+        set_paragraph_spacing(p, space_before=2, space_after=4)
         add_multilevel_from_bracket(doc, ex['bracket'],
                                      roles_dict=ch_roles.get(' '.join(ex['bracket'].split())),
                                      mode='student', font_size=body_size)
@@ -258,8 +246,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # =============================================
     add_part_heading(doc, 'Part 5: Emphasis, End-Weight, and Clause Revision', cfg, overhead)
 
-    # Exercise 11: separate into simple sentences (simplest task — was old Ex 14, flipped)
-    add_exercise(doc, 11,
+    # Exercise 13: separate into simple sentences
+    add_exercise(doc, 13,
         'Separate the following passage into individual simple sentences. Then explain what relationships between the ideas are lost.',
         body_size, font_name=body_font)
 
@@ -305,8 +293,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     question_page_break(doc, overhead)
 
-    # Exercise 12: end-weight (simplified — was old Ex 13)
-    add_exercise(doc, 12, 'Revise the following front-loaded sentence using end-weight, then explain why the revision is easier to read.', body_size, font_name=body_font)
+    # Exercise 14: end-weight
+    add_exercise(doc, 14, 'Revise the following front-loaded sentence using end-weight, then explain why the revision is easier to read.', body_size, font_name=body_font)
 
     answer_page_break(doc, overhead)
 
@@ -349,8 +337,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     question_page_break(doc, overhead)
 
-    # Exercise 13: emphasis (most complex — was old Ex 12)
-    add_exercise(doc, 13,
+    # Exercise 15: emphasis (most complex)
+    add_exercise(doc, 15,
         'The experiment failed, and the researchers were disappointed.',
         body_size, font_name=body_font)
 
@@ -427,20 +415,14 @@ def create_student_homework(output_path):
     run.font.size = Pt(14)
     run.font.name = 'Garamond'
 
-    p = doc.add_paragraph()
-    run = p.add_run('Exercise 10. ')
-    run.bold = True
-    run.font.size = Pt(fs)
-    run.font.name = 'Garamond'
-    run = p.add_run('Complete the table and draw a tree diagram for each sentence.')
-    run.font.size = Pt(fs)
-    run.font.name = 'Garamond'
-
     for ex in DIAGRAM_EXERCISES:
         p = doc.add_paragraph()
         set_paragraph_spacing(p, space_before=6, space_after=2)
-        run = p.add_run(f'{ex["sub"]} ')
+        run = p.add_run(f'Exercise {ex["num"]}. ')
         run.bold = True
+        run.font.size = Pt(fs)
+        run.font.name = 'Garamond'
+        run = p.add_run(f'{ex["label"]}. Complete the labeling table and draw a tree diagram for: ')
         run.font.size = Pt(fs)
         run.font.name = 'Garamond'
         run = p.add_run(ex['sentence'])

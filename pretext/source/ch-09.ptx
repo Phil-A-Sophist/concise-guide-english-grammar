@@ -67,41 +67,6 @@
 
   </section>
 
-  <section xml:id="ch-09-compound-and-complex-sentences-sec-92">
-    <title>Simple Sentences</title>
-
-    <p>A <term>simple sentence</term> contains one independent clause—a subject-predicate unit that expresses a complete thought.</p>
-
-    <p>The simple sentence is the grammatical baseline. Before learning how clauses combine, it helps to understand what exactly makes a clause <q>independent.</q> An independent clause contains a subject and a finite verb and does not begin with any word that would subordinate it to another clause. It stands on its own. Everything in this chapter involves either joining two independent clauses (compounding) or embedding a dependent clause within or beside an independent one (subordination). The simple sentence is the starting point for all of it.</p>
-
-    <p>The labeling table and tree diagram below show the structure of a simple sentence — <foreign>The students studied</foreign>:</p>
-
-    <image source="diagrams/new/ch09_table_001.png" width="50%">
-      <description>Multi-level labeling table for "The students studied"</description>
-    </image>
-    <image source="diagrams/new/ch09_simple_sentence.png" width="35%">
-      <description>Syntax tree for "The students studied" showing a single independent clause</description>
-    </image>
-    <p><c>[S [NP [DET The] [N students]] [VP [V studied]]]</c></p>
-
-    <p>The key word is <em>independent</em>. An independent clause can stand alone as a grammatically complete sentence: it has a subject, a predicate, and it does not begin with a subordinating word that would make it lean on something else for completion. Compare <foreign>The students studied</foreign> (independent—complete on its own) with <foreign>when the students studied</foreign> (dependent—waiting for a main clause to complete it). That small grammatical change—adding <foreign>when</foreign>—removes the clause's independence entirely. The distinction between independent and dependent clauses is the organizing principle of this chapter; every sentence type we examine is defined by how many of each it contains.</p>
-
-    <p>A simple sentence, then, is defined not by its length but by its clause count: exactly one independent clause, no matter how elaborate that clause might be.</p>
-
-    <p><q><foreign>The students studied.</foreign></q></p>
-
-    <p><q><foreign>My neighbor's talented daughter won the competition last week.</foreign></q></p>
-
-    <p>Simple sentences can be long if they have compound subjects, compound predicates, or extensive modification:</p>
-
-    <ul>
-      <li><p>Compound subject: <q><foreign>Marcus <em>and</em> Elena traveled to Spain.</foreign></q> (still simple—one predicate)</p></li>
-      <li><p>Compound predicate: <foreign>The dog <em>barked</em> and <em>chased</em> the squirrel.</foreign> (still simple—one subject)</p></li>
-      <li><p>Heavy modification: <foreign>The exhausted marathon runner from Kenya collapsed at the finish line.</foreign> (still simple—one clause)</p></li>
-    </ul>
-
-  </section>
-
   <section xml:id="ch-09-clauses-and-phrases">
     <title>Clauses and Phrases</title>
 
@@ -346,6 +311,23 @@
     <p>Each conjunct VP keeps its own VP node inside the larger compound VP.</p>
 
     <paragraphs>
+      <title>Other Conjoined Phrases</title>
+    </paragraphs>
+
+    <p>The same coordination pattern applies to any phrase type. When a conjunction joins two phrases of the same category, the result is a larger phrase of that category—still inside a single clause, still a simple sentence:</p>
+
+    <ul>
+      <li><p>Compound AdjP: <foreign>The soup was <em>hot and spicy</em>.</foreign></p>
+      <p><c>[S [NP [DET The] [N soup]] [VP [V was] [AdjP [AdjP [ADJ hot]] [CONJ and] [AdjP [ADJ spicy]]]]]</c></p></li>
+      <li><p>Compound AdvP: <foreign>She spoke <em>clearly and confidently</em>.</foreign></p>
+      <p><c>[S [NP [PRON She]] [VP [V spoke] [AdvP [AdvP [ADV clearly]] [CONJ and] [AdvP [ADV confidently]]]]]</c></p></li>
+      <li><p>Compound PP: <foreign>The cat slept <em>on the couch and under the blanket</em>.</foreign></p>
+      <p><c>[S [NP [DET The] [N cat]] [VP [V slept] [PP [PP [PREP on] [NP [DET the] [N couch]]] [CONJ and] [PP [PREP under] [NP [DET the] [N blanket]]]]]]</c></p></li>
+    </ul>
+
+    <p>In every case, each conjunct keeps its own phrase node inside a larger phrase of the same type. The conjunction holds them together at the phrase level, not the clause level.</p>
+
+    <paragraphs>
       <title>Phrase vs. Clause Conjunction: The Test</title>
     </paragraphs>
 
@@ -371,11 +353,51 @@
         <cell>Simple</cell>
       </row>
       <row bottom="minor">
+        <cell><foreign>The soup was hot and spicy.</foreign></cell>
+        <cell>Compound AdjP complement, one clause</cell>
+        <cell>Simple</cell>
+      </row>
+      <row bottom="minor">
         <cell><foreign>Marcus traveled, and Elena stayed.</foreign></cell>
         <cell>Two full ICs (each with subject + predicate)</cell>
         <cell>Compound</cell>
       </row>
     </tabular>
+
+  </section>
+
+  <section xml:id="ch-09-compound-and-complex-sentences-sec-92">
+    <title>Simple Sentences</title>
+
+    <p>A <term>simple sentence</term> contains one independent clause—a subject-predicate unit that expresses a complete thought.</p>
+
+    <p>The simple sentence is the grammatical baseline. Now that we have examined how phrases and clauses differ, and how conjunctions can join phrases within a single clause, we can define the simple sentence precisely. An independent clause contains a subject and a finite verb and does not begin with any word that would subordinate it to another clause. It stands on its own. Everything that follows in this chapter involves either joining two independent clauses (compounding) or embedding a dependent clause within or beside an independent one (subordination). The simple sentence is the starting point for all of it.</p>
+
+    <p>The labeling table and tree diagram below show the structure of a simple sentence — <foreign>The students studied</foreign>:</p>
+
+    <image source="diagrams/new/ch09_table_001.png" width="50%">
+      <description>Multi-level labeling table for "The students studied"</description>
+    </image>
+    <image source="diagrams/new/ch09_simple_sentence.png" width="35%">
+      <description>Syntax tree for "The students studied" showing a single independent clause</description>
+    </image>
+    <p><c>[S [NP [DET The] [N students]] [VP [V studied]]]</c></p>
+
+    <p>The key word is <em>independent</em>. An independent clause can stand alone as a grammatically complete sentence: it has a subject, a predicate, and it does not begin with a subordinating word that would make it lean on something else for completion. Compare <foreign>The students studied</foreign> (independent—complete on its own) with <foreign>when the students studied</foreign> (dependent—waiting for a main clause to complete it). That small grammatical change—adding <foreign>when</foreign>—removes the clause's independence entirely. The distinction between independent and dependent clauses is the organizing principle of this chapter; every sentence type we examine is defined by how many of each it contains.</p>
+
+    <p>A simple sentence, then, is defined not by its length but by its clause count: exactly one independent clause, no matter how elaborate that clause might be.</p>
+
+    <p><q><foreign>The students studied.</foreign></q></p>
+
+    <p><q><foreign>My neighbor's talented daughter won the competition last week.</foreign></q></p>
+
+    <p>Simple sentences can be long if they have compound subjects, compound predicates, or extensive modification:</p>
+
+    <ul>
+      <li><p>Compound subject: <q><foreign>Marcus <em>and</em> Elena traveled to Spain.</foreign></q> (still simple—one predicate)</p></li>
+      <li><p>Compound predicate: <foreign>The dog <em>barked</em> and <em>chased</em> the squirrel.</foreign> (still simple—one subject)</p></li>
+      <li><p>Heavy modification: <foreign>The exhausted marathon runner from Kenya collapsed at the finish line.</foreign> (still simple—one clause)</p></li>
+    </ul>
 
   </section>
 
@@ -918,29 +940,21 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 10.</em> Complete each labeling table and draw a tree diagram.</p>
-
-      <p>a) Compound noun phrase (simple sentence): <foreign>Marcus and Elena traveled.</foreign></p>
-      <image source="diagrams/new/ch09_hw_student_001.png" width="50%">
-        <description>Student labeling table for "Marcus and Elena traveled"</description>
+      <p><em>Exercise 10.</em> Compound noun phrase (simple sentence). Complete the labeling table and draw a tree diagram for: <foreign>The teacher and the principal met after school.</foreign></p>
+      <image source="diagrams/new/ch09_hw_student_010.png" width="70%">
+        <description>Student labeling table for "The teacher and the principal met after school"</description>
       </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p>b) Compound verb phrase (simple sentence): <foreign>The dog barked and chased the squirrel.</foreign></p>
-      <image source="diagrams/new/ch09_hw_student_002.png" width="70%">
-        <description>Student labeling table for "The dog barked and chased the squirrel"</description>
+      <p><em>Exercise 11.</em> Compound sentence. Complete the labeling table and draw a tree diagram for: <foreign>The train arrived late, but the passengers remained calm.</foreign></p>
+      <image source="diagrams/new/ch09_hw_student_011.png" width="80%">
+        <description>Student labeling table for "The train arrived late, but the passengers remained calm"</description>
       </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p>c) Compound sentence: <foreign>She writes poetry, and he composes music.</foreign></p>
-      <image source="diagrams/new/ch09_hw_student_003.png" width="70%">
-        <description>Student labeling table for "She writes poetry, and he composes music"</description>
-      </image>
-      <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
-
-      <p>d) Complex sentence: <foreign>When it rained, we stayed inside.</foreign></p>
-      <image source="diagrams/new/ch09_hw_student_004.png" width="65%">
-        <description>Student labeling table for "When it rained, we stayed inside"</description>
+      <p><em>Exercise 12.</em> Complex sentence. Complete the labeling table and draw a tree diagram for: <foreign>Although the library was quiet, she could not concentrate.</foreign></p>
+      <image source="diagrams/new/ch09_hw_student_012.png" width="80%">
+        <description>Student labeling table for "Although the library was quiet, she could not concentrate"</description>
       </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
@@ -958,7 +972,7 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 11.</em> The following passage strings together several ideas using only coordination. Separate it into individual simple sentences. Then explain: what relationships between the ideas are lost?</p>
+      <p><em>Exercise 13.</em> The following passage strings together several ideas using only coordination. Separate it into individual simple sentences. Then explain: what relationships between the ideas are lost?</p>
 
       <p><foreign>The lecture was long and the material was difficult and students were confused and they asked many questions and the professor stayed late to help.</foreign></p>
       <ul>
@@ -966,7 +980,7 @@
         <li><p>What is lost: _______</p></li>
       </ul>
 
-      <p><em>Exercise 12.</em> The following sentence is front-loaded—the heavy element appears too early:</p>
+      <p><em>Exercise 14.</em> The following sentence is front-loaded—the heavy element appears too early:</p>
 
       <p><foreign>After the committee reviewed every proposal and discussed the budget in detail, they approved the new plan.</foreign></p>
 
@@ -980,7 +994,7 @@
         <li><p>_______</p></li>
       </ul>
 
-      <p><em>Exercise 13.</em> The following sentence uses coordination:</p>
+      <p><em>Exercise 15.</em> The following sentence uses coordination:</p>
 
       <p><foreign>The experiment failed, and the researchers were disappointed.</foreign></p>
 
