@@ -5,6 +5,10 @@
 # ensure this file is tracked
 !.gitignore
 
+# Machine-specific
+_local/
+memorybot-local/logs/archive/
+
 # don't track unpublished builds or stage (note: Runestone uses `published`)
 output
 published
@@ -134,3 +138,7 @@ Homework/
 
 # Reference textbooks — large PDFs, not needed in repo
 reference_materials/Grammar Textbooks/
+
+# Binary files sync via Supabase Storage, not git
+data/binary/
+data/binary/.manifest.json

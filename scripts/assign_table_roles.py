@@ -194,7 +194,7 @@ def assign_roles_to_tree(tree):
         for child in np_node.children:
             if child.label in ('DET', 'N', 'PRON', 'CONJ'):
                 continue
-            if child.label in ('ADJP', 'ADJ', 'PP', 'RC', 'VP'):
+            if child.label in ('ADJP', 'ADJ', 'PP', 'RC', 'VP', 'SBAR'):
                 add_role(depth, child, 'Adjectival')
                 if child.label == 'PP':
                     process_pp_np(child, depth + 1)
@@ -202,6 +202,11 @@ def assign_roles_to_tree(tree):
                     process_vp_inside_np(child, depth + 1)
                 elif child.label == 'RC':
                     process_rc(child, depth + 1)
+                elif child.label == 'SBAR':
+                    # Complement clause inside NP (e.g., "the fact that...")
+                    for sbar_child in child.children:
+                        if sbar_child.label == 'S':
+                            process_s_level(sbar_child, depth + 1)
             elif child.label == 'NP':
                 process_np_modifiers(child, depth + 1)
 
@@ -291,6 +296,22 @@ def assign_roles_to_tree(tree):
             elif child.label == 'DC':
                 add_role(depth, child, 'Adverbial')
 
+            elif child.label == 'SBAR':
+                add_role(depth, child, 'Direct Object')
+                for sbar_child in child.children:
+                    if sbar_child.label == 'S':
+                        process_s_level(sbar_child, depth + 1)
+
+            elif child.label == 'NOM':
+                add_role(depth, child, 'Direct Object')
+                for nom_child in child.children:
+                    if nom_child.label == 'VP':
+                        process_vp(nom_child, depth + 1)
+                    elif nom_child.label == 'PP':
+                        process_pp_np(nom_child, depth + 1)
+                    elif nom_child.label == 'NP':
+                        process_np_modifiers(nom_child, depth + 1)
+
             elif child.label == 'PRON':
                 if copular:
                     add_role(depth, child, 'Subject Complement')
@@ -335,6 +356,20 @@ def assign_roles_to_tree(tree):
                     add_role(base_depth, child, 'Subject')
                 else:
                     add_role(base_depth, child, 'Direct Object')
+            elif child.label == 'NOM':
+                add_role(base_depth, child, 'Subject')
+                for nom_child in child.children:
+                    if nom_child.label == 'VP':
+                        process_vp(nom_child, base_depth + 1)
+                    elif nom_child.label == 'NP':
+                        process_np_modifiers(nom_child, base_depth + 1)
+                    elif nom_child.label == 'PP':
+                        process_pp_np(nom_child, base_depth + 1)
+            elif child.label == 'SBAR':
+                add_role(base_depth, child, 'Adverbial')
+                for sbar_child in child.children:
+                    if sbar_child.label == 'S':
+                        process_s_level(sbar_child, base_depth + 1)
             elif child.label == 'S':
                 # Coordinated S — recurse without labeling the S itself
                 process_s_level(child, base_depth)

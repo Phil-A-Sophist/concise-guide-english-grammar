@@ -13,10 +13,14 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, setup_document, add_title_page, add_part_heading,
-    exercise_separator, get_font_config, add_bracket_line,
+    exercise_separator, get_font_config, add_bracket_line, add_diagram_image,
     add_multilevel_from_bracket, load_chapter_roles,
     parse_bracket_to_multilevel, add_multilevel_labeling_table,
+    question_page_break, answer_page_break,
 )
+
+
+DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch11'
 
 
 # =============================================================================
@@ -77,6 +81,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'VP', '', 'ADVP'],
         'pos':     ['DET', 'N', 'AUX', 'V', 'ADV'],
         'bracket': '[S [NP [DET The] [N letter]] [VP [AUX was] [V delivered] [ADVP [ADV yesterday]]]]',
+        'diagram': 'ch11_hw_ex18_was_delivered',
     },
     {
         'num': 19,
@@ -86,6 +91,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', 'VP', '', 'PP', ''],
         'pos':     ['PRON', 'MOD', 'V', 'PREP', 'N'],
         'bracket': '[S [NP [PRON She]] [VP [MOD must] [V leave] [PP [PREP before] [NP [N noon]]]]]',
+        'diagram': 'ch11_hw_ex19_must_leave',
     },
     {
         'num': 20,
@@ -95,6 +101,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'VP', '', '', 'ADVP'],
         'pos':     ['DET', 'N', 'MOD', 'AUX', 'V', 'ADV'],
         'bracket': '[S [NP [DET The] [N report]] [VP [MOD can] [AUX be] [V finished] [ADVP [ADV tomorrow]]]]',
+        'diagram': 'ch11_hw_ex20_can_be_finished',
     },
     {
         'num': 21,
@@ -104,6 +111,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', 'VP', '', '', 'ADVP'],
         'pos':     ['PRON', 'MOD', 'AUX', 'V', 'ADV'],
         'bracket': '[S [NP [PRON He]] [VP [MOD should] [AUX have] [V called] [ADVP [ADV earlier]]]]',
+        'diagram': 'ch11_hw_ex21_should_have_called',
     },
 ]
 
@@ -114,6 +122,7 @@ EXAMPLE_DIAGRAM = {
     'phrases': ['NP', 'VP', ''],
     'pos':     ['PRON', 'MOD', 'V'],
     'bracket': '[S [NP [PRON She]] [VP [MOD can] [V swim]]]',
+    'diagram': 'ch11_hw_example_can_swim',
 }
 
 PART5_PASSIVES = [
@@ -415,6 +424,8 @@ def create_student_homework(output_path):
     run.font.name = 'Consolas'
     run.font.size = Pt(11)
 
+    add_diagram_image(doc, DIAGRAM_DIR, EXAMPLE_DIAGRAM['diagram'], width_inches=5.5)
+
     # Exercises with blank pre-merged tables
     for ex in DIAGRAM_EXERCISES:
         p = doc.add_paragraph()
@@ -536,8 +547,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, ex in enumerate(PART1_EXERCISES):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_answer_line(doc, 'Voice:', ex['voice'], body_size, font_name=body_font)
         if ex['actor']:
             add_answer_line(doc, 'Actor:', ex['actor'], body_size, font_name=body_font)
@@ -552,8 +564,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, (num, prompt, answer) in enumerate(PART2_EXERCISES):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, num, prompt, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_answer_line(doc, 'Answer:', answer, body_size, font_name=body_font)
 
     # =============================================
@@ -563,19 +576,20 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, (num, sentence, answers) in enumerate(PART3_MODALS):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         for label, answer in answers:
             add_answer_line(doc, label, answer, body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 17
     add_exercise(doc, 17, 'Explain the difference between the two uses of must:', body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('a) ')
+    run = p.add_run('17A) ')
     run.bold = True
     run.font.size = Pt(body_size)
     run.font.name = body_font
@@ -585,14 +599,18 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
+    answer_page_break(doc, overhead)
+
     add_plain_line(doc,
         'Meaning type: obligation. The speaker is stating a rule or requirement '
         'that the listener is obligated to follow.',
         body_size, indent=0.7, font_name=body_font)
 
+    question_page_break(doc, overhead)
+
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('b) ')
+    run = p.add_run('17B) ')
     run.bold = True
     run.font.size = Pt(body_size)
     run.font.name = body_font
@@ -601,6 +619,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.size = Pt(body_size)
     run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
+
+    answer_page_break(doc, overhead)
 
     add_plain_line(doc,
         'Meaning type: deduction. The speaker is drawing a logical conclusion '
@@ -617,8 +637,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, ex in enumerate(DIAGRAM_EXERCISES):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
 
         bracket_key = ' '.join(ex['bracket'].split())
         add_multilevel_from_bracket(doc, ex['bracket'],
@@ -627,6 +648,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
                                     font_size=body_size - 2)
 
         add_bracket_line(doc, ex['bracket'], body_size, font_name=body_font)
+        add_diagram_image(doc, DIAGRAM_DIR, ex['diagram'], width_inches=cfg['diagram_width'])
 
     # =============================================
     # Part 5: Analysis and Application
@@ -635,15 +657,17 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 22
     add_exercise(doc, 22, 'Identify passive voice constructions in the passage:', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for i, (construction, reason) in enumerate(PART5_PASSIVES, 1):
         add_plain_line(doc, f'Passive {i}: "{construction}"', body_size, indent=0.35, font_name=body_font)
         add_plain_line(doc, f'Reason: {reason}', body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 23
     add_exercise(doc, 23, 'Identify modals and classify as certainty/possibility or obligation/permission:', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for modal, classification in PART5_MODALS:
         add_answer_line(doc, f'{modal}:', classification, body_size, indent=0.35, font_name=body_font)

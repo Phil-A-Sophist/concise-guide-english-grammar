@@ -10,11 +10,15 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, setup_document, add_title_page, add_part_heading,
-    exercise_separator, get_font_config, add_bracket_line,
+    exercise_separator, get_font_config, add_bracket_line, add_diagram_image,
     blank_labels,
     add_multilevel_from_bracket, load_chapter_roles,
     parse_bracket_to_multilevel, add_multilevel_labeling_table,
+    question_page_break, answer_page_break,
 )
+
+
+DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch15'
 
 
 DIAGRAM_EXERCISES = [
@@ -25,6 +29,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'VP', 'CC', 'NP', '', 'VP', 'ADVP'],
         'pos':     ['DET', 'N', 'V', 'CONJ', 'DET', 'N', 'V', 'ADV'],
         'bracket': '[S [IC [NP [DET The] [N storm]] [VP [V ended]]] [CC [CONJ and]] [IC [NP [DET the] [N sun]] [VP [V came] [ADVP [ADV out]]]]]',
+        'diagram': 'ch15_hw_ex16_storm_ended',
     },
     {
         'num': 17, 'sentence': 'Although she was tired, she finished the report.',
@@ -33,6 +38,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['COMP', 'NP', 'VP', 'ADJP', 'NP', 'VP', 'NP', ''],
         'pos':     ['COMP', 'PRON', 'V', 'ADJ', 'PRON', 'V', 'DET', 'N'],
         'bracket': '[S [DC [COMP Although] [NP [PRON she]] [VP [V was] [ADJP [ADJ tired]]]] [IC [NP [PRON she]] [VP [V finished] [NP [DET the] [N report]]]]]',
+        'diagram': 'ch15_hw_ex17_although_tired',
     },
     {
         'num': 18, 'sentence': 'The professor, however, disagreed completely.',
@@ -41,6 +47,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'ADVP', 'VP', 'ADVP'],
         'pos':     ['DET', 'N', 'ADV', 'V', 'ADV'],
         'bracket': '[S [NP [DET The] [N professor]] [ADVP [ADV however]] [VP [V disagreed] [ADVP [ADV completely]]]]',
+        'diagram': 'ch15_hw_ex18_however',
     },
     {
         'num': 19, 'sentence': 'My sister, who lives in Boston, visits often.',
@@ -49,6 +56,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'RC', 'VP', 'PP', '', 'VP', 'ADVP'],
         'pos':     ['DET', 'N', 'REL', 'V', 'PREP', 'N', 'V', 'ADV'],
         'bracket': '[S [NP [DET My] [N sister] [RC [REL who] [VP [V lives] [PP [PREP in] [NP [N Boston]]]]]] [VP [V visits] [ADVP [ADV often]]]]',
+        'diagram': 'ch15_hw_ex19_sister_boston',
     },
     {
         'num': 20, 'sentence': 'After the lecture, students asked many questions.',
@@ -57,6 +65,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['PP', 'NP', '', 'NP', 'VP', 'NP', ''],
         'pos':     ['PREP', 'DET', 'N', 'N', 'V', 'DET', 'N'],
         'bracket': '[S [PP [PREP After] [NP [DET the] [N lecture]]] [NP [N students]] [VP [V asked] [NP [DET many] [N questions]]]]',
+        'diagram': 'ch15_hw_ex20_after_lecture',
     },
 ]
 
@@ -77,48 +86,53 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 1
     add_exercise(doc, 1, 'When the storm passed we surveyed the damage and began cleanup efforts.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Corrected:', 'When the storm passed, we surveyed the damage and began cleanup efforts.', body_size, font_name=body_font)
     add_plain_line(doc, 'Function: comma after introductory adverb clause', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 2
+    question_page_break(doc, overhead)
     add_exercise(doc, 2, 'She is talented hardworking and creative.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Corrected:', 'She is talented, hardworking, and creative.', body_size, font_name=body_font)
     add_plain_line(doc, 'Function: commas separating items in a series (Oxford comma before "and")', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 3
+    question_page_break(doc, overhead)
     add_exercise(doc, 3, 'My brother who lives in Seattle is visiting next week.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Corrected:', 'My brother, who lives in Seattle, is visiting next week.', body_size, font_name=body_font)
     add_plain_line(doc,
         'Function: commas setting off nonrestrictive relative clause (assumes the speaker has only one brother; '
         'if the speaker has multiple brothers, no commas would be needed \u2014 the clause would be restrictive)',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 4
+    question_page_break(doc, overhead)
     add_exercise(doc, 4, 'The meeting was productive but it ran overtime.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Corrected:', 'The meeting was productive, but it ran overtime.', body_size, font_name=body_font)
     add_plain_line(doc, 'Function: comma before coordinating conjunction joining two independent clauses', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 5
+    question_page_break(doc, overhead)
     add_exercise(doc, 5, 'The tall distinguished professor gave an inspiring lecture.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Corrected:', 'The tall, distinguished professor gave an inspiring lecture.', body_size, font_name=body_font)
     add_plain_line(doc,
         'Function: comma between coordinate adjectives (you can say "tall and distinguished," '
         'so a comma is appropriate)',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 6
+    question_page_break(doc, overhead)
     add_exercise(doc, 6, 'The students who completed the assignment received extra credit.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_plain_line(doc,
         'No comma is needed because "who completed the assignment" is a restrictive relative clause \u2014 '
         'it identifies which students received extra credit (only those who completed the assignment, '
         'not all students). Removing the clause would change the meaning.',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # =============================================
     # Part 2: Semicolons and Colons
@@ -140,11 +154,13 @@ def create_answer_key(output_path, font_size=12, overhead=False):
          'A semicolon is needed before a conjunctive adverb ("however") joining two independent clauses.'),
     ]
 
-    for num, sentence, choice, reasoning in punctuation:
+    for i, (num, sentence, choice, reasoning) in enumerate(punctuation):
+        if i > 0:
+            question_page_break(doc, overhead)
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_answer_line(doc, 'Choice:', choice, body_size, font_name=body_font)
         add_plain_line(doc, reasoning, body_size, font_name=body_font)
-        exercise_separator(doc, overhead)
 
     # =============================================
     # Part 3: Apostrophes
@@ -170,11 +186,13 @@ def create_answer_key(output_path, font_size=12, overhead=False):
          'Since "women" doesn\u2019t end in -s, add \u2019s.'),
     ]
 
-    for num, original, corrected, explanation in apostrophes:
+    for i, (num, original, corrected, explanation) in enumerate(apostrophes):
+        if i > 0:
+            question_page_break(doc, overhead)
         add_exercise(doc, num, original, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_answer_line(doc, 'Corrected:', corrected, body_size, font_name=body_font)
         add_plain_line(doc, explanation, body_size, font_name=body_font)
-        exercise_separator(doc, overhead)
 
     # =============================================
     # Part 4: Diagramming Punctuation-Relevant Structures
@@ -184,12 +202,15 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     ch_roles = load_chapter_roles(15)
     mode = 'overhead' if overhead else 'answer_key'
 
-    for ex in DIAGRAM_EXERCISES:
+    for i, ex in enumerate(DIAGRAM_EXERCISES):
+        if i > 0:
+            question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         bracket_key = ' '.join(ex['bracket'].split())
         add_multilevel_from_bracket(doc, ex['bracket'], roles_dict=ch_roles.get(bracket_key), mode=mode, font_size=body_size)
         add_bracket_line(doc, ex['bracket'], body_size, font_name=body_font)
-        exercise_separator(doc, overhead)
+        add_diagram_image(doc, DIAGRAM_DIR, ex['diagram'], width_inches=cfg['diagram_width'])
 
     # =============================================
     # Part 5: Analysis and Application
@@ -198,35 +219,37 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 21
     add_exercise(doc, 21, 'Explain how punctuation changes meaning in these two sentences.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_plain_line(doc,
-        '(a) "The students who studied passed the exam." \u2014 Restrictive: only those students '
+        '(21A) "The students who studied passed the exam." \u2014 Restrictive: only those students '
         'who studied passed. Implies some students didn\u2019t study and didn\u2019t pass.',
         body_size, font_name=body_font)
     add_plain_line(doc,
-        '(b) "The students, who studied, passed the exam." \u2014 Non-restrictive: all the students '
+        '(21B) "The students, who studied, passed the exam." \u2014 Non-restrictive: all the students '
         'studied, and all of them passed. The clause adds extra information about what the students did.',
         body_size, font_name=body_font)
     add_plain_line(doc,
         'The commas change the meaning from identifying a subset (restrictive) to describing the '
         'whole group (non-restrictive). This is a key example of how punctuation affects meaning.',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 22
+    question_page_break(doc, overhead)
     add_exercise(doc, 22, 'Find a paragraph from a newspaper, textbook, or article and identify at least four punctuation marks with grammatical explanations.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_plain_line(doc,
         'Open-ended. Accept any paragraph that correctly identifies at least four punctuation marks '
         'with accurate grammatical explanations for each.',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 23
+    question_page_break(doc, overhead)
     add_exercise(doc, 23, 'Reflect on which punctuation rules you find most challenging and why.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_plain_line(doc,
         'Open-ended reflection. Accept thoughtful answers that demonstrate awareness of '
         'punctuation rules and self-assessment of challenges.',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     doc.save(str(output_path))
     print(f"Created: {output_path}")

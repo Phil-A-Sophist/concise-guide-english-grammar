@@ -10,10 +10,14 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, setup_document, add_title_page, add_part_heading,
-    exercise_separator, get_font_config, add_bracket_line, blank_labels,
+    get_font_config, add_bracket_line, blank_labels, add_diagram_image,
     add_multilevel_from_bracket, load_chapter_roles,
     parse_bracket_to_multilevel, add_multilevel_labeling_table,
+    question_page_break, answer_page_break,
 )
+
+
+DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch13'
 
 
 DIAGRAM_EXERCISES = [
@@ -24,6 +28,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'RC', 'VP', 'NP', '', 'VP'],
         'pos':     ['DET', 'N', 'REL', 'V', 'DET', 'N', 'V'],
         'bracket': '[S [NP [DET The] [N student] [RC [REL who] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]',
+        'diagram': 'ch13_hw_ex16_student_award',
     },
     {
         'num': 17, 'sentence': 'The extremely tall building collapsed.',
@@ -32,6 +37,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', 'ADJP', '', '', 'VP'],
         'pos':     ['DET', 'ADV', 'ADJ', 'N', 'V'],
         'bracket': '[S [NP [DET The] [ADJP [ADV extremely] [ADJ tall]] [N building]] [VP [V collapsed]]]',
+        'diagram': 'ch13_hw_ex17_tall_building',
     },
     {
         'num': 18, 'sentence': 'The book on the table is mine.',
@@ -40,6 +46,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'PP', 'NP', '', 'VP', 'NP'],
         'pos':     ['DET', 'N', 'PREP', 'DET', 'N', 'V', 'PRON'],
         'bracket': '[S [NP [DET The] [N book] [PP [PREP on] [NP [DET the] [N table]]]] [VP [V is] [NP [PRON mine]]]]',
+        'diagram': 'ch13_hw_ex18_book_table',
     },
     {
         'num': 19, 'sentence': 'Running water flowed through the pipe.',
@@ -48,6 +55,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'VP', 'PP', 'NP', ''],
         'pos':     ['V', 'N', 'V', 'PREP', 'DET', 'N'],
         'bracket': '[S [NP [V Running] [N water]] [VP [V flowed] [PP [PREP through] [NP [DET the] [N pipe]]]]]',
+        'diagram': 'ch13_hw_ex19_running_water',
     },
     {
         'num': 20, 'sentence': 'The woman wearing the red coat smiled.',
@@ -56,6 +64,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'VP', 'NP', '', '', 'VP'],
         'pos':     ['DET', 'N', 'V', 'DET', 'ADJ', 'N', 'V'],
         'bracket': '[S [NP [DET The] [N woman] [VP [V wearing] [NP [DET the] [ADJP [ADJ red]] [N coat]]]] [VP [V smiled]]]',
+        'diagram': 'ch13_hw_ex20_woman_coat',
     },
 ]
 
@@ -76,48 +85,55 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 1
     add_exercise(doc, 1, 'The book on the top shelf belongs to my professor.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'prepositional phrase', body_size, font_name=body_font)
     add_plain_line(doc, 'Modifies "book" \u2014 tells which book', body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 2
     add_exercise(doc, 2, 'The woman who won the award gave an inspiring speech.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'relative clause', body_size, font_name=body_font)
     add_plain_line(doc, 'Modifies "woman" \u2014 identifies which woman', body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 3
     add_exercise(doc, 3, 'The broken window needs to be repaired immediately.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'past participle (single-word adjectival)', body_size, font_name=body_font)
     add_plain_line(doc, 'Modifies "window" \u2014 describes the window\u2019s state', body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 4
     add_exercise(doc, 4, 'I need something to eat before the meeting.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'infinitive phrase', body_size, font_name=body_font)
     add_plain_line(doc, 'Modifies "something" \u2014 specifies what kind of something', body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 5
     add_exercise(doc, 5, 'The government report was released yesterday.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'noun (used as adjectival)', body_size, font_name=body_font)
     add_plain_line(doc, 'Modifies "report" \u2014 classifies the type of report', body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 6
     add_exercise(doc, 6, 'The students waiting in line seemed impatient.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'present participial phrase', body_size, font_name=body_font)
     add_plain_line(doc, 'Modifies "students" \u2014 identifies which students', body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 7
     add_exercise(doc, 7, 'We found a very comfortable chair at the antique store.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'adjective phrase', body_size, font_name=body_font)
     add_plain_line(doc, 'Modifies "chair" \u2014 describes the chair', body_size, font_name=body_font)
 
@@ -147,8 +163,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, (num, sentence, classification, explanation) in enumerate(classifications):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_answer_line(doc, 'Type:', classification, body_size, font_name=body_font)
         add_plain_line(doc, explanation, body_size, font_name=body_font)
 
@@ -177,9 +194,10 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, (num, prompt, sample) in enumerate(combinations):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, num, f'Combine using the specified structure: {prompt}', body_size, font_name=body_font)
         add_plain_line(doc, prompt, body_size, bold_prefix='Prompt: ', font_name=body_font)
+        answer_page_break(doc, overhead)
         add_plain_line(doc, f'Sample: {sample}', body_size, font_name=body_font)
 
     # =============================================
@@ -191,13 +209,15 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     mode = 'overhead' if overhead else 'answer_key'
     for i, ex in enumerate(DIAGRAM_EXERCISES):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         bracket_key = ' '.join(ex['bracket'].split())
         add_multilevel_from_bracket(doc, ex['bracket'],
                                      roles_dict=ch_roles.get(bracket_key),
                                      mode=mode, font_size=body_size)
         add_bracket_line(doc, ex['bracket'], body_size, font_name=body_font)
+        add_diagram_image(doc, DIAGRAM_DIR, ex['diagram'], width_inches=cfg['diagram_width'])
 
     # =============================================
     # Part 5: Error Correction and Analysis
@@ -208,36 +228,38 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 21, 'Correct each dangling participle:', body_size, font_name=body_font)
 
     danglers = [
-        ('a)', 'Walking through the park, the flowers were beautiful.',
+        ('21A)', 'Walking through the park, the flowers were beautiful.',
          '"Walking through the park, I thought the flowers were beautiful." '
          'OR "As I walked through the park, the flowers were beautiful."',
          'The original implies the flowers were walking.'),
-        ('b)', 'Having finished the report, the computer was shut down.',
+        ('21B)', 'Having finished the report, the computer was shut down.',
          '"Having finished the report, she shut down the computer."',
          'The original implies the computer finished the report.'),
-        ('c)', 'Exhausted from the journey, the bed looked inviting.',
+        ('21C)', 'Exhausted from the journey, the bed looked inviting.',
          '"Exhausted from the journey, I thought the bed looked inviting."',
          'The original implies the bed was exhausted.'),
     ]
 
+    answer_page_break(doc, overhead)
     for label, original, corrected, explanation in danglers:
         add_plain_line(doc, f'{label} {original}', body_size, indent=0.35, font_name=body_font)
         add_plain_line(doc, f'Corrected: {corrected}', body_size, indent=0.7, font_name=body_font)
         add_plain_line(doc, f'Explanation: {explanation}', body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 22: Meaning Analysis
     add_exercise(doc, 22, 'Explain the meaning difference between restrictive and non-restrictive versions:', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_plain_line(doc,
-        'a) "My brother who lives in Chicago is a doctor."',
+        '22A) "My brother who lives in Chicago is a doctor."',
         body_size, font_name=body_font)
     add_plain_line(doc,
         'Restrictive: implies the speaker has more than one brother. The clause '
         'identifies which brother \u2014 the one in Chicago (as opposed to brothers elsewhere).',
         body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc,
-        'b) "My brother, who lives in Chicago, is a doctor."',
+        '22B) "My brother, who lives in Chicago, is a doctor."',
         body_size, font_name=body_font)
     add_plain_line(doc,
         'Non-restrictive: implies the speaker has only one brother. The clause '
@@ -245,7 +267,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'to distinguish him from other brothers.',
         body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 23: Multiple Adjectivals
     add_exercise(doc, 23, 'Identify and analyze the adjectivals in the noun phrase:', body_size, font_name=body_font)
@@ -253,7 +275,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'The talented young American jazz musician from New Orleans who won the competition',
         body_size, font_name=body_font)
 
-    add_plain_line(doc, 'a) Adjectivals identified:', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
+    add_plain_line(doc, '23A) Adjectivals identified:', body_size, font_name=body_font)
 
     adjectivals = [
         ('"talented"', 'adjective (pre-modifier, opinion)'),
@@ -268,14 +291,14 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         add_plain_line(doc, f'{word} \u2014 {form}', body_size, indent=0.7, font_name=body_font)
 
     add_plain_line(doc,
-        'b) Pre-modifiers follow this typical order: determiner \u2192 opinion \u2192 size \u2192 '
+        '23B) Pre-modifiers follow this typical order: determiner \u2192 opinion \u2192 size \u2192 '
         'age \u2192 shape \u2192 color \u2192 origin \u2192 material \u2192 purpose \u2192 NOUN. '
         'In this example: opinion (talented) \u2192 age (young) \u2192 origin (American) \u2192 '
         'type (jazz) \u2192 NOUN (musician).',
         body_size, font_name=body_font)
 
     add_plain_line(doc,
-        'c) Post-modifiers follow the noun because they are longer, more complex structures '
+        '23C) Post-modifiers follow the noun because they are longer, more complex structures '
         '(phrases and clauses) that would be unwieldy before the noun. English places shorter, '
         'simpler modifiers before the noun and longer, more complex ones after it. '
         'PPs and relative clauses are too heavy for pre-nominal position.',

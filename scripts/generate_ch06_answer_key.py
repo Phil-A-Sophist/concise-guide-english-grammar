@@ -11,9 +11,13 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, setup_document, add_title_page,
-    add_part_heading, exercise_separator, get_font_config,
+    add_part_heading, get_font_config, add_diagram_image,
     add_multilevel_from_bracket, load_chapter_roles, add_bracket_line, blank_labels,
+    question_page_break, answer_page_break,
 )
+
+
+DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch06'
 
 
 DIAGRAM_EXERCISES = [
@@ -24,6 +28,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', 'VP', 'PP', 'NP', ''],
         'pos':     ['PRON', 'V', 'PREP', 'DET', 'N'],
         'bracket': '[S [NP [PRON She]] [VP [V walked] [PP [PREP to] [NP [DET the] [N store]]]]]',
+        'diagram': 'ch06_hw_ex11_she_walked',
     },
     {
         'num': 12, 'sentence': 'They gave it to her.',
@@ -32,6 +37,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', 'VP', 'NP', 'PP', ''],
         'pos':     ['PRON', 'V', 'PRON', 'PREP', 'PRON'],
         'bracket': '[S [NP [PRON They]] [VP [V gave] [NP [PRON it]] [PP [PREP to] [NP [PRON her]]]]]',
+        'diagram': 'ch06_hw_ex12_they_gave',
     },
     {
         'num': 13, 'sentence': 'The book on the shelf belongs to him.',
@@ -40,6 +46,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'PP', 'NP', '', 'VP', 'PP', ''],
         'pos':     ['DET', 'N', 'PREP', 'DET', 'N', 'V', 'PREP', 'PRON'],
         'bracket': '[S [NP [DET The] [N book] [PP [PREP on] [NP [DET the] [N shelf]]]] [VP [V belongs] [PP [PREP to] [NP [PRON him]]]]]',
+        'diagram': 'ch06_hw_ex13_book_belongs',
     },
     {
         'num': 14, 'sentence': 'Everyone in the room listened carefully.',
@@ -48,6 +55,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', 'PP', 'NP', '', 'VP', 'ADVP'],
         'pos':     ['PRON', 'PREP', 'DET', 'N', 'V', 'ADV'],
         'bracket': '[S [NP [PRON Everyone] [PP [PREP in] [NP [DET the] [N room]]]] [VP [V listened] [ADVP [ADV carefully]]]]',
+        'diagram': 'ch06_hw_ex14_everyone_listened',
     },
     {
         'num': 15, 'sentence': 'My sister and I drove to the park.',
@@ -56,6 +64,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'CONJ', '', 'VP', 'PP', 'NP', ''],
         'pos':     ['DET', 'N', 'CONJ', 'PRON', 'V', 'PREP', 'DET', 'N'],
         'bracket': '[S [NP [DET My] [N sister] [CONJ and] [PRON I]] [VP [V drove] [PP [PREP to] [NP [DET the] [N park]]]]]',
+        'diagram': 'ch06_hw_ex15_sister_drove',
     },
 ]
 
@@ -142,6 +151,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 1,
         'The ambitious student submitted her application to several universities.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_label_line(doc, 'Determiners: ', '', body_size, font_name=body_font)
     add_bullet(doc, 'article (definite)', body_size, bold_prefix='The \u2014 ', font_name=body_font)
@@ -152,12 +162,12 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'not a pronoun, because it precedes and modifies a noun.',
         body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 2
+    question_page_break(doc, overhead)
     add_exercise(doc, 2,
         'Everyone who attended the conference received their materials before the first session.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_label_line(doc, 'Pronouns: ', '', body_size, font_name=body_font)
     add_bullet(doc, 'indefinite pronoun', body_size, bold_prefix='Everyone \u2014 ', font_name=body_font)
@@ -167,12 +177,12 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'depending on grammar framework)',
         body_size, bold_prefix='their \u2014 ', font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 3
+    question_page_break(doc, overhead)
     add_exercise(doc, 3,
         'Those books on the shelf belong to someone in this department.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_label_line(doc, 'Determiners: ', '', body_size, font_name=body_font)
     add_bullet(doc, 'demonstrative (far)', body_size, bold_prefix='Those \u2014 ', font_name=body_font)
@@ -191,6 +201,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 4,
         'The student with the red backpack studied in the library until midnight.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for pp_label, pp_phrase, modifies, question in [
         ('PP 1: ', 'with the red backpack', 'modifies \u201Cstudent\u201D (noun)', 'Which student?'),
@@ -201,12 +212,12 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         add_bullet(doc, modifies, body_size, bold_prefix='Modifies: ', font_name=body_font)
         add_bullet(doc, question, body_size, bold_prefix='Question answered: ', font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 5
+    question_page_break(doc, overhead)
     add_exercise(doc, 5,
         'The child with the blue hat ran to the store for some milk.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for pp_label, pp_phrase, modifies, question in [
         ('PP 1: ', 'with the blue hat', 'modifies \u201Cchild\u201D (noun)', 'Which child?'),
@@ -217,12 +228,12 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         add_bullet(doc, modifies, body_size, bold_prefix='Modifies: ', font_name=body_font)
         add_bullet(doc, question, body_size, bold_prefix='Question answered: ', font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 6
+    question_page_break(doc, overhead)
     add_exercise(doc, 6,
         'The author of the bestselling novel spoke to reporters about her new book.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for pp_label, pp_phrase, modifies, question in [
         ('PP 1: ', 'of the bestselling novel', 'modifies \u201Cauthor\u201D (noun)', 'Which author?'),
@@ -242,6 +253,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 7,
         'Add a prepositional phrase that modifies the noun book: The book won an award.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_label_line(doc, 'Sample revision: ',
         '\u201CThe book about climate change won an award.\u201D',
@@ -251,13 +263,13 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         '(e.g., on the bestseller list, by the famous author, with the blue cover).',
         body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 8
+    question_page_break(doc, overhead)
     add_exercise(doc, 8,
         'Add a prepositional phrase that modifies the verb and indicates when: '
         'She completed the project.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_label_line(doc, 'Sample revision: ',
         '\u201CShe completed the project before the deadline.\u201D',
@@ -267,24 +279,24 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         '(e.g., during the weekend, in the afternoon, after the meeting).',
         body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 9
+    question_page_break(doc, overhead)
     add_exercise(doc, 9,
         'Replace the noun phrases with appropriate pronouns: '
         'Maria told John that Maria would return John\u2019s laptop to John tomorrow.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_label_line(doc, 'Revised: ',
         '\u201CMaria told him that she would return his laptop to him tomorrow.\u201D',
         body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 10
+    question_page_break(doc, overhead)
     add_exercise(doc, 10,
         'Write a sentence with a determiner, a conjunction, and a prepositional phrase.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_label_line(doc, 'Sample: ',
         '\u201CThe cat and the dog played in the yard.\u201D',
@@ -307,14 +319,16 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     ch_roles = load_chapter_roles(6)
     mode = 'overhead' if overhead else 'answer_key'
     for i, ex in enumerate(DIAGRAM_EXERCISES):
+        if i > 0:
+            question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         bracket_key = ' '.join(ex['bracket'].split())
         add_multilevel_from_bracket(doc, ex['bracket'],
                                      roles_dict=ch_roles.get(bracket_key),
                                      mode=mode, font_size=body_size)
         add_bracket_line(doc, ex['bracket'], bracket_size)
-        if i < len(DIAGRAM_EXERCISES) - 1:
-            exercise_separator(doc, overhead)
+        add_diagram_image(doc, DIAGRAM_DIR, ex['diagram'], width_inches=cfg['diagram_width'])
 
     # =========================================
     # Part 5: Analysis and Reflection (Q16-Q19)
@@ -339,12 +353,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
             run.font.name = body_font
         set_paragraph_spacing(p, space_before=2, space_after=4)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 16
     add_exercise(doc, 16,
         'Identify three pronouns with vague or ambiguous referents.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_plain_line(doc, 'Answers will vary. Acceptable answers include any three of the following:',
         body_size, font_name=body_font)
@@ -379,11 +392,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         add_bullet(doc, problem, body_size, bold_prefix='Problem: ', font_name=body_font)
         add_bullet(doc, revision, body_size, bold_prefix='Revision: ', font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 17
+    question_page_break(doc, overhead)
     add_exercise(doc, 17, 'Identify two determiner problems in the passage.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_label_line(doc, 'Problem 1 (premature \u201Cthe\u201D): ',
         'The passage opens with \u201Cthe bank\u201D as if the reader already knows which bank is being '
@@ -408,11 +421,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'of the executives admitted\u2026\u201D or specify which executives.',
         body_size, bold_prefix='Fix: ', font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 18
+    question_page_break(doc, overhead)
     add_exercise(doc, 18, 'Identify two incorrect prepositions in the passage.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_label_line(doc, 'Error 1: ', '\u201Ccompliance to all trading laws\u201D',
         body_size, font_name=body_font)
@@ -428,12 +441,12 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'a party, not \u201Con\u201D a party.',
         body_size, bold_prefix='Correction: ', font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # Exercise 19
+    question_page_break(doc, overhead)
     add_exercise(doc, 19,
         'Rewrite one paragraph correcting all closed-class word issues.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_plain_line(doc, 'Answers will vary. Sample rewrite of paragraph 1:',
         body_size, font_name=body_font)

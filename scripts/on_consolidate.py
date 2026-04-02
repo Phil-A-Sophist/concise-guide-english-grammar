@@ -25,7 +25,7 @@ MANIFEST_FILE = HOMEWORK_DIR / ".sync_manifest.json"
 TEXT_EXTS = {".md", ".py", ".json"}
 # Binary extensions that go to Supabase Storage
 BINARY_EXTS = {".docx"}
-# All syncable extensions (no PNGs — those live in data/static/homework-images/)
+# All syncable extensions (no PNGs — those live in assets/homework-images/)
 SYNC_EXTS = TEXT_EXTS | BINARY_EXTS
 
 # OneDrive path from env var, with fallback
@@ -39,7 +39,7 @@ ONEDRIVE_DIR = Path(os.environ.get(
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
 GRAMMAR_PROJECT_ID = "5f76a6a4-3840-4a9f-81bc-058b65036be5"
-STORAGE_BUCKET = "homework"
+STORAGE_BUCKET = "grammar-binaries"
 
 
 def file_hash(path: Path) -> str:

@@ -10,66 +10,76 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, add_sub_sentence, setup_document, add_title_page,
-    add_part_heading, exercise_separator, get_font_config,
+    add_part_heading, get_font_config, add_diagram_image,
     add_bracket_line, blank_labels,
     add_multilevel_from_bracket, load_chapter_roles,
+    question_page_break, answer_page_break,
 )
+
+
+DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch08'
 
 
 DIAGRAM_EXERCISES = [
     {
-        'sub': 'a)',
+        'sub': '11A)',
         'label': 'Pattern 1 (Intransitive): Birds sing.',
         'words':   ['Birds', 'sing'],
         'roles':   ['Subj', 'Pred'],
         'phrases': ['NP', 'VP'],
         'pos':     ['N', 'V'],
         'bracket': '[S [NP [N Birds]] [VP [V sing]]]',
+        'diagram': 'ch08_hw_ex11a_birds_sing',
     },
     {
-        'sub': 'b)',
+        'sub': '11B)',
         'label': 'Pattern 2 (Copular Be): The solution was simple.',
         'words':   ['The', 'solution', 'was', 'simple'],
         'roles':   ['Subj', '', 'Pred', 'SC'],
         'phrases': ['NP', '', 'VP', 'ADJP'],
         'pos':     ['DET', 'N', 'V', 'ADJ'],
         'bracket': '[S [NP [DET The] [N solution]] [VP [V was] [ADJP [ADJ simple]]]]',
+        'diagram': 'ch08_hw_ex11b_solution_simple',
     },
     {
-        'sub': 'c)',
+        'sub': '11C)',
         'label': 'Pattern 3 (Linking Verb): The music sounded beautiful.',
         'words':   ['The', 'music', 'sounded', 'beautiful'],
         'roles':   ['Subj', '', 'Pred', 'SC'],
         'phrases': ['NP', '', 'VP', 'ADJP'],
         'pos':     ['DET', 'N', 'V', 'ADJ'],
         'bracket': '[S [NP [DET The] [N music]] [VP [V sounded] [ADJP [ADJ beautiful]]]]',
+        'diagram': 'ch08_hw_ex11c_music_sounded',
     },
     {
-        'sub': 'd)',
+        'sub': '11D)',
         'label': 'Pattern 4 (Transitive): The student finished the report.',
         'words':   ['The', 'student', 'finished', 'the', 'report'],
         'roles':   ['Subj', '', 'Pred', 'DO', ''],
         'phrases': ['NP', '', 'VP', 'NP', ''],
         'pos':     ['DET', 'N', 'V', 'DET', 'N'],
         'bracket': '[S [NP [DET The] [N student]] [VP [V finished] [NP [DET the] [N report]]]]',
+        'diagram': 'ch08_hw_ex11d_student_finished',
     },
     {
-        'sub': 'e)',
+        'sub': '11E)',
         'label': 'Pattern 5 (Ditransitive, IO + DO): The professor gave the class a deadline.',
         'words':   ['The', 'professor', 'gave', 'the', 'class', 'a', 'deadline'],
         'roles':   ['Subj', '', 'Pred', 'IO', '', 'DO', ''],
         'phrases': ['NP', '', 'VP', 'NP', '', 'NP', ''],
         'pos':     ['DET', 'N', 'V', 'DET', 'N', 'DET', 'N'],
         'bracket': '[S [NP [DET The] [N professor]] [VP [V gave] [NP [DET the] [N class]] [NP [DET a] [N deadline]]]]',
+        'diagram': 'ch08_hw_ex11e_professor_gave',
     },
     {
-        'sub': 'f)',
+        'sub': '11F)',
         'label': 'Pattern 6 (Ditransitive, DO + OC): The board declared the plan inadequate.',
         'words':   ['The', 'board', 'declared', 'the', 'plan', 'inadequate'],
         'roles':   ['Subj', '', 'Pred', 'DO', '', 'OC'],
         'phrases': ['NP', '', 'VP', 'NP', '', 'ADJP'],
         'pos':     ['DET', 'N', 'V', 'DET', 'N', 'ADJ'],
         'bracket': '[S [NP [DET The] [N board]] [VP [V declared] [NP [DET the] [N plan]] [ADJP [ADJ inadequate]]]]',
+        'diagram': 'ch08_hw_ex11f_board_declared',
     },
 ]
 
@@ -89,42 +99,42 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 1: Identify DO/IO/SC/OC
     add_exercise(doc, 1, 'Identify the direct object, indirect object, subject complement, or object complement in each sentence.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
-    add_sub_sentence(doc, 'a)', 'The committee awarded the outstanding student a prestigious scholarship.', body_size, font_name=body_font)
+    add_sub_sentence(doc, '1A)', 'The committee awarded the outstanding student a prestigious scholarship.', body_size, font_name=body_font)
     add_answer_line(doc, 'Indirect Object (IO):', 'the outstanding student', body_size, indent=0.7, font_name=body_font)
     add_answer_line(doc, 'Direct Object (DO):', 'a prestigious scholarship', body_size, indent=0.7, font_name=body_font)
 
-    add_sub_sentence(doc, 'b)', 'The homemade soup tasted absolutely delicious.', body_size, font_name=body_font)
+    add_sub_sentence(doc, '1B)', 'The homemade soup tasted absolutely delicious.', body_size, font_name=body_font)
     add_answer_line(doc, 'Subject Complement (SC):', 'absolutely delicious (AdjP)', body_size, indent=0.7, font_name=body_font)
 
-    add_sub_sentence(doc, 'c)', 'The judges declared the young contestant the winner.', body_size, font_name=body_font)
+    add_sub_sentence(doc, '1C)', 'The judges declared the young contestant the winner.', body_size, font_name=body_font)
     add_answer_line(doc, 'Direct Object (DO):', 'the young contestant', body_size, indent=0.7, font_name=body_font)
     add_answer_line(doc, 'Object Complement (OC):', 'the winner (NP)', body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 2: Argument vs. adverbial
     add_exercise(doc, 2, 'Determine whether the underlined element is an argument (required) or an adverbial (optional). Explain your reasoning.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for sub, sentence, verdict, explanation in [
-        ('a)', 'She placed the documents on the desk.',
+        ('2A)', 'She placed the documents on the desk.',
          'Argument (required)',
          '"On the desk" is required by "placed." Remove it: *She placed the documents. \u2717 \u2014 ungrammatical without a location argument.'),
-        ('b)', 'She found the documents on the desk.',
+        ('2B)', 'She found the documents on the desk.',
          'Adverbial (optional)',
          '"On the desk" is an optional location modifier. Remove it: She found the documents. \u2713 \u2014 still grammatical.'),
-        ('c)', 'The professor is extremely knowledgeable about linguistics.',
+        ('2C)', 'The professor is extremely knowledgeable about linguistics.',
          'Argument (required)',
          '"Extremely knowledgeable about linguistics" is the subject complement required by "is." Remove it: *The professor is. \u2717 \u2014 incomplete.'),
-        ('d)', 'The professor lectured extremely knowledgeably about linguistics.',
+        ('2D)', 'The professor lectured extremely knowledgeably about linguistics.',
          'Adverbial (optional)',
          '"Extremely knowledgeably about linguistics" is an optional manner/topic modifier. Remove it: The professor lectured. \u2713 \u2014 still grammatical.'),
     ]:
         add_sub_sentence(doc, sub, sentence, body_size, font_name=body_font)
         add_answer_line(doc, 'Answer:', verdict, body_size, indent=0.7, font_name=body_font)
         add_plain_line(doc, explanation, body_size, indent=0.7, font_name=body_font)
-
-    exercise_separator(doc, overhead)
 
     # =============================================
     # Part 2: Sentence Pattern Identification
@@ -160,8 +170,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
          'Be substitution test: "The situation was increasingly tense" \u2713. Pattern 3 (Linking).'),
     ]
 
-    for num, sentence, pattern, explanation in patterns:
+    for i, (num, sentence, pattern, explanation) in enumerate(patterns):
+        if i > 0:
+            question_page_break(doc, overhead)
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_answer_line(doc, 'Pattern:', pattern, body_size, font_name=body_font)
         p = doc.add_paragraph()
         p.paragraph_format.left_indent = Inches(0.35)
@@ -173,7 +186,6 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         run.font.size = Pt(body_size)
         run.font.name = body_font
         set_paragraph_spacing(p, space_before=0, space_after=2)
-        exercise_separator(doc, overhead)
 
     # =============================================
     # Part 3: Sentence Writing
@@ -186,18 +198,20 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
-    for num, pattern_label, sample in [
+    for i, (num, pattern_label, sample) in enumerate([
         (8, 'Pattern 4 (S + V + DO)',
          'Sample: "[The dog]_S [chased]_V [the cat]_DO."'),
         (9, 'Pattern 5 (S + V + IO + DO)',
          'Sample: "[The teacher]_S [gave]_V [the students]_IO [a quiz]_DO."'),
         (10, 'Pattern 6 (S + V + DO + OC)',
          'Sample: "[The class]_S [elected]_V [Maria]_DO [president]_OC."'),
-    ]:
+    ]):
+        if i > 0:
+            question_page_break(doc, overhead)
         add_exercise(doc, num, f'Write a sentence using {pattern_label} and label each element.', body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_plain_line(doc, f'{pattern_label}:', body_size, bold_prefix='Pattern: ', font_name=body_font)
         add_plain_line(doc, sample, body_size, font_name=body_font)
-        exercise_separator(doc, overhead)
 
     # =============================================
     # Part 4: Sentence Tables and Diagrams
@@ -205,6 +219,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_part_heading(doc, 'Part 4: Sentence Tables and Diagrams', cfg, overhead)
 
     add_exercise(doc, 11, 'Complete each table and draw a tree diagram.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     ch_roles = load_chapter_roles(8)
     mode = 'overhead' if overhead else 'answer_key'
@@ -215,7 +230,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
                                      roles_dict=ch_roles.get(bracket_key),
                                      mode=mode, font_size=body_size)
         add_bracket_line(doc, ex['bracket'], body_size, indent=0.7, font_name=body_font)
-        exercise_separator(doc, overhead)
+        add_diagram_image(doc, DIAGRAM_DIR, ex['diagram'], width_inches=cfg['diagram_width'])
 
     # =============================================
     # Part 5: Analysis and Reflection
@@ -224,6 +239,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 12: "put" valency
     add_exercise(doc, 12, 'She put the book on the shelf.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for sub, answer in [
         ('What happens if you remove "the book"?',
@@ -243,12 +259,13 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         set_paragraph_spacing(p, space_before=3, space_after=2)
         add_plain_line(doc, answer, body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 13: linking vs transitive
     add_exercise(doc, 13, 'Explain the difference between the two uses of "smells" in the following sentences.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
-    add_sub_sentence(doc, 'a)', 'The milk smells sour. vs. The detective smells trouble.', body_size, font_name=body_font)
+    add_sub_sentence(doc, '13A)', 'The milk smells sour. vs. The detective smells trouble.', body_size, font_name=body_font)
     add_plain_line(doc,
         '"The milk smells sour" \u2014 linking verb (Pattern 3). "Sour" is a subject complement describing the milk.',
         body_size, indent=0.7, font_name=body_font)
@@ -260,10 +277,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         '"The detective is trouble" \u2717 (doesn\'t make sense \u2192 not linking, therefore transitive).',
         body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 14: argument vs adverbial reflection
     add_exercise(doc, 14, 'In your own words, explain the difference between an argument and an adverbial. Why does this distinction matter for identifying sentence patterns? Give an example.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)

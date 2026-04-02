@@ -10,10 +10,13 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, setup_document, add_title_page, add_part_heading,
-    exercise_separator, get_font_config, add_bracket_line, blank_labels,
-    add_multilevel_from_bracket, load_chapter_roles,
-    parse_bracket_to_multilevel, add_multilevel_labeling_table,
+    question_page_break, answer_page_break, get_font_config, add_bracket_line,
+    blank_labels, add_multilevel_from_bracket, load_chapter_roles,
+    parse_bracket_to_multilevel, add_multilevel_labeling_table, add_diagram_image,
 )
+
+
+DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch12'
 
 
 DIAGRAM_EXERCISES = [
@@ -24,6 +27,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', 'VP', 'ADVP', ''],
         'pos':     ['PRON', 'V', 'ADV', 'ADV'],
         'bracket': '[S [NP [PRON She]] [VP [V spoke] [ADVP [ADV very] [ADV clearly]]]]',
+        'diagram': 'ch12_hw_ex14_spoke_clearly',
     },
     {
         'num': 15, 'sentence': 'The train arrived after midnight.',
@@ -32,6 +36,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', '', 'VP', 'PP', ''],
         'pos':     ['DET', 'N', 'V', 'PREP', 'N'],
         'bracket': '[S [NP [DET The] [N train]] [VP [V arrived] [PP [PREP after] [NP [N midnight]]]]]',
+        'diagram': 'ch12_hw_ex15_train_arrived',
     },
     {
         'num': 16, 'sentence': 'He walked slowly through the park.',
@@ -40,6 +45,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', 'VP', 'ADVP', 'PP', 'NP', ''],
         'pos':     ['PRON', 'V', 'ADV', 'PREP', 'DET', 'N'],
         'bracket': '[S [NP [PRON He]] [VP [V walked] [ADVP [ADV slowly]] [PP [PREP through] [NP [DET the] [N park]]]]]',
+        'diagram': 'ch12_hw_ex16_walked_park',
     },
     {
         'num': 17, 'sentence': 'Unfortunately, the game was cancelled.',
@@ -48,6 +54,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['ADVP', 'NP', '', 'VP', ''],
         'pos':     ['ADV', 'DET', 'N', 'AUX', 'V'],
         'bracket': '[S [ADVP [ADV Unfortunately]] [NP [DET the] [N game]] [VP [AUX was] [V cancelled]]]',
+        'diagram': 'ch12_hw_ex17_unfortunately',
     },
     {
         'num': 18, 'sentence': 'She left early because the roads were icy.',
@@ -56,6 +63,7 @@ DIAGRAM_EXERCISES = [
         'phrases': ['NP', 'VP', 'ADVP', 'SBAR', 'NP', '', 'VP', 'ADJP'],
         'pos':     ['PRON', 'V', 'ADV', 'COMP', 'DET', 'N', 'V', 'ADJ'],
         'bracket': '[S [NP [PRON She]] [VP [V left] [ADVP [ADV early]]] [SBAR [COMP because] [S [NP [DET the] [N roads]] [VP [V were] [ADJP [ADJ icy]]]]]]',
+        'diagram': 'ch12_hw_ex18_left_early',
     },
 ]
 
@@ -76,21 +84,24 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 1
     add_exercise(doc, 1, 'Last week, the students studied diligently in the library.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Adverbial 1:', 'Last week \u2014 NP \u2014 time', body_size, font_name=body_font)
     add_answer_line(doc, 'Adverbial 2:', 'diligently \u2014 AdvP \u2014 manner', body_size, font_name=body_font)
     add_answer_line(doc, 'Adverbial 3:', 'in the library \u2014 PP \u2014 place', body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 2
     add_exercise(doc, 2, 'If you need assistance, please call the help desk immediately.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Adverbial 1:', 'If you need assistance \u2014 adverb clause \u2014 condition', body_size, font_name=body_font)
     add_answer_line(doc, 'Adverbial 2:', 'immediately \u2014 AdvP \u2014 time', body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 3
     add_exercise(doc, 3, 'She left early to catch her flight.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Adverbial 1:', 'early \u2014 AdvP \u2014 time', body_size, font_name=body_font)
     add_answer_line(doc, 'Adverbial 2:', 'to catch her flight \u2014 infinitive phrase \u2014 purpose', body_size, font_name=body_font)
 
@@ -121,8 +132,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, (num, sentence, classification, explanation) in enumerate(classifications):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_answer_line(doc, 'Classification:', classification, body_size, font_name=body_font)
         add_plain_line(doc, explanation, body_size, font_name=body_font)
 
@@ -152,8 +164,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, (num, prompt, sample) in enumerate(completions):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, num, f'Complete the sentence with the specified adverbial type: {prompt}', body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_plain_line(doc, prompt, body_size, bold_prefix='Prompt: ', font_name=body_font)
         add_plain_line(doc, f'Sample: {sample}', body_size, font_name=body_font)
 
@@ -166,13 +179,15 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     mode = 'overhead' if overhead else 'answer_key'
     for i, ex in enumerate(DIAGRAM_EXERCISES):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         bracket_key = ' '.join(ex['bracket'].split())
         add_multilevel_from_bracket(doc, ex['bracket'],
                                      roles_dict=ch_roles.get(bracket_key),
                                      mode=mode, font_size=body_size)
         add_bracket_line(doc, ex['bracket'], body_size, font_name=body_font)
+        add_diagram_image(doc, DIAGRAM_DIR, ex['diagram'], width_inches=cfg['diagram_width'])
 
     # =============================================
     # Part 5: Analysis and Application
@@ -181,6 +196,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 19
     add_exercise(doc, 19, 'Identify five adverbials in the passage:', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     adverbials = [
         ('Yesterday', 'NP', 'time'),
@@ -201,10 +217,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     for adv, form, role in adverbials:
         add_plain_line(doc, f'"{adv}" \u2014 {form} \u2014 {role}', body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 20
     add_exercise(doc, 20, 'Explain the difference between "Surprisingly" (disjunct) and "diligently" (adjunct):', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_plain_line(doc,
         '"Surprisingly" is a disjunct because it comments on the entire sentence from the '
         'speaker\u2019s perspective \u2014 it expresses the speaker\u2019s surprise at the '
@@ -217,10 +234,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         '("Did they work diligently?") and negate it ("They didn\u2019t work diligently").',
         body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 21
     add_exercise(doc, 21, 'Rewrite with "yesterday" in three positions:', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     positions = [
         ('Initial:', '"Yesterday, the researchers finally completed their groundbreaking study."',

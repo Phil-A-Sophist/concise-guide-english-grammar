@@ -11,9 +11,10 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, add_diagram_image, setup_document, add_title_page,
-    add_part_heading, exercise_separator, get_font_config,
+    add_part_heading, get_font_config,
     add_labeling_table, add_bracket_line, compute_spans, blank_labels,
     add_multilevel_from_bracket, load_chapter_roles,
+    question_page_break, answer_page_break,
 )
 
 
@@ -100,6 +101,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 1
     add_exercise(doc, 1, 'The curious students from the advanced chemistry class carefully examined the unusual compound.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for label, answer in [
         ('Subject NP:', 'The curious students from the advanced chemistry class'),
@@ -109,10 +111,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     ]:
         add_answer_line(doc, label, answer, body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 2
     add_exercise(doc, 2, 'My extremely talented older sister from Portland won the national competition.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for label, answer in [
         ('Subject NP:', 'My extremely talented older sister from Portland'),
@@ -122,10 +125,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     ]:
         add_answer_line(doc, label, answer, body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 3
     add_exercise(doc, 3, 'Several angry protesters outside the courthouse demanded immediate action.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     for label, answer in [
         ('Subject NP:', 'Several angry protesters outside the courthouse'),
@@ -143,6 +147,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # Exercise 4
     add_exercise(doc, 4, 'my grandmother\'s beautiful antique wooden jewelry box', body_size, font_name=body_font)
 
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Head:', 'box', body_size, font_name=body_font)
 
     add_plain_line(doc, '', body_size, bold_prefix='Modifiers:', font_name=body_font)
@@ -162,10 +167,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         run.font.name = body_font
         set_paragraph_spacing(p, space_before=0, space_after=1)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 5
     add_exercise(doc, 5, 'extremely carefully', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_answer_line(doc, 'Head:', 'carefully', body_size, font_name=body_font)
 
@@ -178,10 +184,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.name = body_font
     set_paragraph_spacing(p, space_before=0, space_after=1)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 6
     add_exercise(doc, 6, 'quite proud of her remarkable achievement', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
 
     add_answer_line(doc, 'Head:', 'proud', body_size, font_name=body_font)
 
@@ -205,14 +212,15 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_part_heading(doc, 'Part 3: Completing Sentence Tables', cfg, overhead)
 
     for i, ex in enumerate(TABLE_EXERCISES):
+        if i > 0:
+            question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_labeling_table(doc, ex['words'],
                            pos_labels=ex['pos'],
                            phrase_labels=ex['phrases'],
                            role_labels=ex['roles'],
                            font_size=table_size)
-        if i < len(TABLE_EXERCISES) - 1:
-            exercise_separator(doc, overhead)
 
     # ===========================================
     # Part 4: Completing Diagrams and Tables
@@ -222,15 +230,16 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     ch_roles = load_chapter_roles(7)
     mode = 'overhead' if overhead else 'answer_key'
     for i, ex in enumerate(DIAGRAM_EXERCISES):
+        if i > 0:
+            question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         bracket_key = ' '.join(ex['bracket'].split())
         add_multilevel_from_bracket(doc, ex['bracket'],
                                      roles_dict=ch_roles.get(bracket_key),
                                      mode=mode, font_size=body_size)
         add_bracket_line(doc, ex['bracket'], bracket_size)
         add_diagram_image(doc, DIAGRAM_DIR, ex['image'], width_inches=diagram_width)
-        if i < len(DIAGRAM_EXERCISES) - 1:
-            exercise_separator(doc, overhead)
 
     # ==========================================
     # Part 5: Structural Ambiguity Analysis
@@ -242,7 +251,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('a) Two possible meanings:')
+    run = p.add_run('13A) Two possible meanings:')
     run.bold = True
     run.font.size = Pt(body_size)
     run.font.name = body_font
@@ -260,11 +269,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.size = Pt(body_size)
     run.font.name = body_font
 
-    exercise_separator(doc, overhead)
+    answer_page_break(doc, overhead)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('b) Diagrams and bracket notation for each reading:')
+    run = p.add_run('13B) Diagrams and bracket notation for each reading:')
     run.bold = True
     run.font.size = Pt(body_size)
     run.font.name = body_font
@@ -286,7 +295,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     add_diagram_image(doc, DIAGRAM_DIR, 'ch07_hw_ex13_elephant_vp', width_inches=diagram_width)
 
-    exercise_separator(doc, overhead)
+    answer_page_break(doc, overhead)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.7)
@@ -304,11 +313,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     add_diagram_image(doc, DIAGRAM_DIR, 'ch07_hw_ex13_elephant_np', width_inches=diagram_width)
 
-    exercise_separator(doc, overhead)
+    answer_page_break(doc, overhead)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('c) Model response:')
+    run = p.add_run('13C) Model response:')
     run.bold = True
     run.font.size = Pt(body_size)
     run.font.name = body_font
@@ -330,13 +339,13 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.name = body_font
 
     # Exercise 14
-    doc.add_page_break()
+    question_page_break(doc, overhead)
 
     add_exercise(doc, 14, 'The horse raced past the barn fell.', body_size, font_name=body_font)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('a) Initial reading:')
+    run = p.add_run('14A) Initial reading:')
     run.bold = True
     run.font.size = Pt(body_size)
     run.font.name = body_font
@@ -353,11 +362,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.size = Pt(body_size)
     run.font.name = body_font
 
-    exercise_separator(doc, overhead)
+    answer_page_break(doc, overhead)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('b) Correct reading:')
+    run = p.add_run('14B) Correct reading:')
     run.bold = True
     run.font.size = Pt(body_size)
     run.font.name = body_font
@@ -375,11 +384,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.size = Pt(body_size)
     run.font.name = body_font
 
-    exercise_separator(doc, overhead)
+    answer_page_break(doc, overhead)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('c) Diagrams and bracket notation for each reading:')
+    run = p.add_run('14C) Diagrams and bracket notation for each reading:')
     run.bold = True
     run.font.size = Pt(body_size)
     run.font.name = body_font
@@ -411,7 +420,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.size = Pt(body_size)
     run.font.name = body_font
 
-    exercise_separator(doc, overhead)
+    answer_page_break(doc, overhead)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.7)
@@ -438,11 +447,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.size = Pt(body_size)
     run.font.name = body_font
 
-    exercise_separator(doc, overhead)
+    answer_page_break(doc, overhead)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('d) Model response:')
+    run = p.add_run('14D) Model response:')
     run.bold = True
     run.font.size = Pt(body_size)
     run.font.name = body_font

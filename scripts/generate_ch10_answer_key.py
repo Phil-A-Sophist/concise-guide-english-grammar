@@ -14,6 +14,7 @@ from answer_key_helpers import (
     add_plain_line, add_bracket_line, add_diagram_image, setup_document,
     add_title_page, add_part_heading, exercise_separator, get_font_config,
     add_multilevel_from_bracket, load_chapter_roles,
+    question_page_break, answer_page_break,
 )
 
 
@@ -72,8 +73,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, (num, sentence, answers) in enumerate(exercises_p1):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         for label, answer in answers:
             add_answer_line(doc, label, answer, body_size, font_name=body_font)
 
@@ -97,8 +99,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, (num, prompt, answer) in enumerate(completions):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, num, prompt, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_answer_line(doc, 'Answer:', answer, body_size, font_name=body_font)
 
     # =============================================
@@ -132,8 +135,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for i, (num, question, structure, sample) in enumerate(writing):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, num, question, body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         add_plain_line(doc, f'{structure}:', body_size, bold_prefix='Structure: ', font_name=body_font)
         add_plain_line(doc, f'Sample: {sample}', body_size, font_name=body_font)
 
@@ -169,8 +173,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     mode = 'overhead' if overhead else 'answer_key'
     for i, ex in enumerate(diagram_exercises):
         if i > 0:
-            exercise_separator(doc, overhead)
+            question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
+        answer_page_break(doc, overhead)
         bracket_key = ' '.join(ex['bracket'].split())
         add_multilevel_from_bracket(doc, ex['bracket'],
                                      roles_dict=ch_roles.get(bracket_key),
@@ -200,6 +205,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=4)
 
+    answer_page_break(doc, overhead)
+
     verb_phrases = [
         ('moved:', 'past simple'),
         ('has lived:', 'present perfect'),
@@ -213,13 +220,15 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     for verb, tense_aspect in verb_phrases:
         add_answer_line(doc, verb, tense_aspect, body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 22
     add_exercise(doc, 22,
         'The passage uses both "moved" (past simple) and "has lived" (present perfect). '
         'Both refer to events that began in 2018. Explain why the writer chose different tense-aspects for these two verbs.',
         body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
 
     add_plain_line(doc,
         '"Moved" (past simple) presents the action as a completed event in the past \u2014 the move happened '
@@ -228,21 +237,23 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'and present perfect for the ongoing state of living there, because the living continues into the present.',
         body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 23
     add_exercise(doc, 23,
         'Rewrite the following sentence in three different tense-aspect combinations and explain how the meaning changes with each: "She studies linguistics."',
         body_size, font_name=body_font)
 
+    answer_page_break(doc, overhead)
+
     for sub, rewrite, explanation in [
-        ('a) Past progressive:',
+        ('23A) Past progressive:',
          '"She was studying linguistics."',
          'Changes from a habitual/general statement to a temporary, ongoing activity at a specific past moment.'),
-        ('b) Present perfect:',
+        ('23B) Present perfect:',
          '"She has studied linguistics."',
          'Changes from a current habit to a completed experience with present relevance (she has this knowledge now).'),
-        ('c) Future perfect:',
+        ('23C) Future perfect:',
          '"She will have studied linguistics (by graduation)."',
          'Projects the activity into the future as something that will be completed before a reference point.'),
     ]:

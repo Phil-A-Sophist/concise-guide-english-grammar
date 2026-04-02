@@ -10,7 +10,7 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, setup_document, add_title_page, add_part_heading,
-    exercise_separator, get_font_config,
+    exercise_separator, get_font_config, question_page_break, answer_page_break,
 )
 
 
@@ -30,39 +30,44 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 1
     add_exercise(doc, 1, 'When John met Mark, he was surprised.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Problem:', 'Ambiguous reference \u2014 "he" could refer to John or Mark.', body_size, font_name=body_font)
     add_answer_line(doc, 'Revised:', 'When John met Mark, John was surprised.', body_size, font_name=body_font)
     add_plain_line(doc, '(Or: "When John met Mark, Mark was surprised.")', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 2
+    question_page_break(doc, overhead)
     add_exercise(doc, 2, 'They say the economy is improving.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Problem:', 'Vague reference \u2014 "they" has no identifiable antecedent.', body_size, font_name=body_font)
     add_answer_line(doc, 'Revised:', 'Economists say the economy is improving.', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 3
+    question_page_break(doc, overhead)
     add_exercise(doc, 3, 'She failed the test, which disappointed her parents.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Problem:',
         'Broad reference \u2014 "which" refers to the whole clause, not a specific noun.',
         body_size, font_name=body_font)
     add_answer_line(doc, 'Revised:', 'Her test failure disappointed her parents.', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 4
+    question_page_break(doc, overhead)
     add_exercise(doc, 4,
         'The committee reviewed the proposal and rejected it. This caused problems.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Problem:',
         'Broad reference \u2014 "this" could refer to the review, the rejection, or both.',
         body_size, font_name=body_font)
     add_answer_line(doc, 'Revised:', 'The committee\'s rejection of the proposal caused problems.', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 5
+    question_page_break(doc, overhead)
     add_exercise(doc, 5,
         'The teacher told the student that her presentation needed work.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Problem:',
         'Ambiguous reference \u2014 "her" could refer to the teacher or the student.',
         body_size, font_name=body_font)
@@ -77,42 +82,47 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 6
     add_exercise(doc, 6, 'Having finished dinner, the movie was started.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Error type:', 'Dangling modifier \u2014 the movie did not finish dinner.', body_size, font_name=body_font)
     add_answer_line(doc, 'Revised:', 'Having finished dinner, we started the movie.', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 7
+    question_page_break(doc, overhead)
     add_exercise(doc, 7, 'She almost failed every exam.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Error type:',
         'Misplaced modifier \u2014 "almost" modifies "failed," but the intended meaning is '
         '"almost every."',
         body_size, font_name=body_font)
     add_answer_line(doc, 'Revised:', 'She failed almost every exam.', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 8
+    question_page_break(doc, overhead)
     add_exercise(doc, 8, 'Students who cheat often get caught.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Error type:',
         'Squinting modifier \u2014 "often" could modify "cheat" or "get caught."',
         body_size, font_name=body_font)
     add_answer_line(doc, 'Meaning 1:', 'Students who often cheat get caught.', body_size, font_name=body_font)
     add_answer_line(doc, 'Meaning 2:', 'Students who cheat get caught often.', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 9
+    question_page_break(doc, overhead)
     add_exercise(doc, 9,
         'To earn a good grade, the assignment must be completed carefully.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Error type:',
         'Dangling modifier \u2014 the assignment cannot earn a grade.',
         body_size, font_name=body_font)
     add_answer_line(doc, 'Revised:',
         'To earn a good grade, you must complete the assignment carefully.',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 10
+    question_page_break(doc, overhead)
     add_exercise(doc, 10, 'He only eats organic food on weekdays.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Error type:',
         'Misplaced modifier \u2014 "only" modifies "eats," but the intended meaning '
         'is "only on weekdays" or "only organic food."',
@@ -127,6 +137,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 11
     add_exercise(doc, 11, 'I photographed the elephant with a camera.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Meaning 1:',
         'I used a camera to photograph the elephant. (PP modifies VP)',
         body_size, font_name=body_font)
@@ -135,10 +146,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'The elephant had a camera. (PP modifies NP)',
         body_size, font_name=body_font)
     add_answer_line(doc, 'Revised:', 'I photographed the elephant that had a camera.', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 12
+    question_page_break(doc, overhead)
     add_exercise(doc, 12, 'Bright students and teachers attended the workshop.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Meaning 1:',
         'Only the students are bright. (ADJ modifies first conjunct only)',
         body_size, font_name=body_font)
@@ -151,10 +163,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_answer_line(doc, 'Revised:',
         'Bright students and bright teachers attended the workshop.',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 13
+    question_page_break(doc, overhead)
     add_exercise(doc, 13, 'The professor\'s assistant who was sick left early.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Meaning 1:',
         'The assistant was sick. (Relative clause modifies "assistant")',
         body_size, font_name=body_font)
@@ -167,10 +180,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_answer_line(doc, 'Revised:',
         'The assistant of the professor who was sick left early.',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 14
+    question_page_break(doc, overhead)
     add_exercise(doc, 14, 'She watched the children playing in the park.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Meaning 1:',
         'She was in the park when she watched. (PP modifies VP)',
         body_size, font_name=body_font)
@@ -191,20 +205,23 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 15
     add_exercise(doc, 15, 'She enjoys reading, writing, and to paint.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Revised:', 'She enjoys reading, writing, and painting.', body_size, font_name=body_font)
     add_plain_line(doc, 'All three items are now gerunds, creating parallel structure.', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 16
+    question_page_break(doc, overhead)
     add_exercise(doc, 16, 'The job requires experience, dedication, and being creative.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Revised:', 'The job requires experience, dedication, and creativity.', body_size, font_name=body_font)
     add_plain_line(doc, 'All three items are now nouns, creating parallel structure.', body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 17
+    question_page_break(doc, overhead)
     add_exercise(doc, 17,
         'He not only finished the report but also he proofread the entire document.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Revised:',
         'He not only finished the report but also proofread the entire document.',
         body_size, font_name=body_font)
@@ -212,25 +229,27 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'The correlative conjunction "not only...but also" now connects parallel verb '
         'phrases ("finished the report" and "proofread the entire document").',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 18
+    question_page_break(doc, overhead)
     add_exercise(doc, 18,
         'The report, which was commissioned by the board that was established last year '
         'to oversee operations, contains recommendations that, if implemented, would '
         'significantly improve efficiency.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Revised:',
         'The board established a committee last year to oversee operations. The committee\'s '
         'report contains recommendations that would significantly improve efficiency if implemented.',
         body_size, font_name=body_font)
-    exercise_separator(doc, overhead)
 
     # Exercise 19
+    question_page_break(doc, overhead)
     add_exercise(doc, 19,
         'The student, who had already completed the assignment that the professor assigned '
         'last week during the lecture that was held in the auditorium, submitted it early.',
         body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_answer_line(doc, 'Revised:',
         'Last week, the professor assigned an assignment during a lecture in the auditorium. '
         'One student had already completed it and submitted it early.',
@@ -243,6 +262,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     # Exercise 20
     add_exercise(doc, 20, 'Revise the following paragraph, correcting at least four clarity issues.', body_size, font_name=body_font)
+    answer_page_break(doc, overhead)
     add_plain_line(doc, 'Sample revised paragraph:', body_size, indent=0, bold_prefix='', font_name=body_font)
     add_plain_line(doc,
         'When the team walked into the meeting, the tension was immediately apparent. '

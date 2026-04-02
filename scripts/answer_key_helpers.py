@@ -753,11 +753,11 @@ def get_font_config(overhead=False, font_size=12):
     if overhead:
         return {
             'body_font': 'Arial Narrow',
-            'body_size': 18,
-            'heading1_size': 22,
-            'heading2_size': 20,
-            'heading3_size': 16,
-            'bracket_size': 15,
+            'body_size': 22,
+            'heading1_size': 30,
+            'heading2_size': 26,
+            'heading3_size': 22,
+            'bracket_size': 18,
             'diagram_width': 9.0,
         }
     else:
@@ -817,8 +817,22 @@ def add_part_heading(doc, part_title, cfg, overhead=False):
 
 
 def exercise_separator(doc, overhead=False):
-    """Add appropriate separator between exercises.
-    For overhead: page break so each question starts on a new page.
-    For answer key: just a spacer for readability."""
+    """DEPRECATED — use question_page_break / answer_page_break instead.
+    Kept for backward compatibility. For overhead: page break."""
+    if overhead:
+        doc.add_page_break()
+
+
+def question_page_break(doc, overhead=False):
+    """Start a new page before a question (overhead only).
+    Call before add_exercise() or add_sub_sentence() for each item
+    except the first item after a part heading (which already has a break)."""
+    if overhead:
+        doc.add_page_break()
+
+
+def answer_page_break(doc, overhead=False):
+    """Start a new page before the answer reveal (overhead only).
+    Call after the question content and before the answer content."""
     if overhead:
         doc.add_page_break()
