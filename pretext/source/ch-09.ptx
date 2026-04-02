@@ -141,6 +141,165 @@
 
   </section>
 
+  <section xml:id="ch-09-types-of-conjunctions">
+    <title>Types of Conjunctions</title>
+
+    <p>Now that we have distinguished clauses from phrases, we need to understand the words that connect them. English has three types of connecting words, each with different grammatical properties and punctuation rules. Recognizing them is essential for building and punctuating multi-clause sentences correctly.</p>
+
+    <paragraphs>
+      <title>Coordinating Conjunctions (FANBOYS)</title>
+    </paragraphs>
+
+    <p>The seven <term>coordinating conjunctions</term> join grammatically equal elements—two noun phrases, two verb phrases, or two independent clauses. The acronym FANBOYS helps you remember them:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Conjunction</cell>
+        <cell>Relationship</cell>
+        <cell>Example</cell>
+      </row>
+      <row>
+        <cell><foreign>For</foreign></cell>
+        <cell>reason/cause</cell>
+        <cell><foreign>We hurried home, for a storm was approaching.</foreign></cell>
+      </row>
+      <row>
+        <cell><foreign>And</foreign></cell>
+        <cell>addition</cell>
+        <cell><foreign>She writes poetry, and he composes music.</foreign></cell>
+      </row>
+      <row>
+        <cell><foreign>Nor</foreign></cell>
+        <cell>negative addition</cell>
+        <cell><foreign>The store wasn't open, nor was anyone answering.</foreign></cell>
+      </row>
+      <row>
+        <cell><foreign>But</foreign></cell>
+        <cell>contrast</cell>
+        <cell><foreign>I finished the book, but I didn't understand it.</foreign></cell>
+      </row>
+      <row>
+        <cell><foreign>Or</foreign></cell>
+        <cell>alternative</cell>
+        <cell><foreign>We can meet at noon, or we can reschedule.</foreign></cell>
+      </row>
+      <row>
+        <cell><foreign>Yet</foreign></cell>
+        <cell>contrast (surprising)</cell>
+        <cell><foreign>The task seemed simple, yet it took hours.</foreign></cell>
+      </row>
+      <row>
+        <cell><foreign>So</foreign></cell>
+        <cell>result/effect</cell>
+        <cell><foreign>The restaurant was packed, so we ordered takeout.</foreign></cell>
+      </row>
+    </tabular>
+
+    <p>The choice of conjunction shapes meaning. <foreign>And</foreign> simply adds one idea to another. <foreign>But</foreign> and <foreign>yet</foreign> introduce contrast or surprise. <foreign>So</foreign> announces a result; <foreign>for</foreign> signals a reason. <foreign>Or</foreign> presents an alternative; <foreign>nor</foreign> negates both options. Selecting a conjunction is not just a grammar decision—it is a decision about how the two ideas relate.</p>
+
+    <p><em>Punctuation</em>: When a coordinating conjunction joins two independent clauses, place a comma before the conjunction:</p>
+
+    <p><q><foreign>The lecture was fascinating<em>,</em> and I took detailed notes.</foreign></q></p>
+
+    <p>No comma is needed when the conjunction joins phrases rather than clauses: <foreign>She writes poetry and prose</foreign> (compound NP—no comma).</p>
+
+    <paragraphs>
+      <title>Subordinating Conjunctions</title>
+    </paragraphs>
+
+    <p><term>Subordinating conjunctions</term> transform an independent clause into a dependent one. They attach to the beginning of a clause and make it unable to stand alone—it now needs a main clause to complete it. The choice of conjunction specifies the relationship between the two clauses:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Relationship</cell>
+        <cell>Conjunctions</cell>
+        <cell>Example</cell>
+      </row>
+      <row>
+        <cell>Time</cell>
+        <cell><foreign>when, while, before, after, until, since, once</foreign></cell>
+        <cell><foreign><em>When</em> the bell rang, students left.</foreign></cell>
+      </row>
+      <row>
+        <cell>Cause/Reason</cell>
+        <cell><foreign>because, since, as, now that</foreign></cell>
+        <cell><foreign>She smiled <em>because</em> she understood.</foreign></cell>
+      </row>
+      <row>
+        <cell>Contrast</cell>
+        <cell><foreign>although, though, even though, whereas</foreign></cell>
+        <cell><foreign><em>Although</em> it rained, they played outside.</foreign></cell>
+      </row>
+      <row>
+        <cell>Condition</cell>
+        <cell><foreign>if, unless, provided that, as long as</foreign></cell>
+        <cell><foreign>We will go <em>if</em> the weather clears.</foreign></cell>
+      </row>
+      <row>
+        <cell>Purpose</cell>
+        <cell><foreign>so that, in order that</foreign></cell>
+        <cell><foreign>She studied hard <em>so that</em> she could pass.</foreign></cell>
+      </row>
+    </tabular>
+
+    <p><em>Punctuation</em>: When the dependent clause comes first, place a comma after it. When it comes last, usually no comma is needed:</p>
+
+    <ul>
+      <li><p>DC first: <foreign><em>Because it rained</em>, we stayed inside.</foreign></p></li>
+      <li><p>DC last: <foreign>We stayed inside <em>because it rained</em>.</foreign></p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Conjunctive Adverbs</title>
+    </paragraphs>
+
+    <p><term>Conjunctive adverbs</term> are adverbs—not conjunctions—that signal logical relationships between ideas. Unlike coordinating and subordinating conjunctions, conjunctive adverbs do not grammatically join clauses. They can appear in any clause, including a simple sentence:</p>
+
+    <p><q><foreign>The test was difficult. However, most students passed.</foreign></q></p>
+
+    <p>These are two separate simple sentences. The conjunctive adverb <foreign>however</foreign> signals a contrast between them, but it does not connect them into a single sentence. It is an adverb inside the second clause, not a bridge between clauses.</p>
+
+    <p>Common conjunctive adverbs, grouped by the relationship they signal:</p>
+
+    <tabular>
+      <row header="yes">
+        <cell>Relationship</cell>
+        <cell>Conjunctive Adverbs</cell>
+      </row>
+      <row>
+        <cell>Addition</cell>
+        <cell><foreign>moreover, furthermore, additionally, also</foreign></cell>
+      </row>
+      <row>
+        <cell>Contrast</cell>
+        <cell><foreign>however, nevertheless, nonetheless, instead</foreign></cell>
+      </row>
+      <row>
+        <cell>Result</cell>
+        <cell><foreign>therefore, thus, consequently, hence</foreign></cell>
+      </row>
+      <row>
+        <cell>Time</cell>
+        <cell><foreign>meanwhile, subsequently, afterward, then</foreign></cell>
+      </row>
+      <row>
+        <cell>Example</cell>
+        <cell><foreign>for example, for instance, specifically</foreign></cell>
+      </row>
+    </tabular>
+
+    <p>When two clauses are closely related and you want to keep them in a single sentence, a semicolon can join them. A conjunctive adverb may then appear in the second clause to make the relationship explicit:</p>
+
+    <p><q><foreign>The test was difficult<em>;</em> however<em>,</em> most students passed.</foreign></q></p>
+
+    <p>Notice that it is the <em>semicolon</em> that connects the two clauses into one sentence—not the conjunctive adverb. The adverb simply clarifies the logical relationship. A semicolon can also join two clauses without any conjunctive adverb at all:</p>
+
+    <p><q><foreign>The test was difficult<em>;</em> most students passed.</foreign></q></p>
+
+    <p><em>Punctuation</em>: A comma always follows the conjunctive adverb to set it off from the rest of its clause. The clauses themselves are joined by a semicolon (one sentence) or separated by a period (two sentences). Using only a comma between the clauses—<foreign><delete>The test was difficult, however, most students passed</delete></foreign>—creates a comma splice.</p>
+
+  </section>
+
   <section xml:id="ch-09-conjoined-phrases">
     <title>Conjoined Phrases</title>
 
@@ -214,117 +373,31 @@
   <section xml:id="ch-09-compound-and-complex-sentences-sec-93">
     <title>Compound Sentences</title>
 
-    <p>A <term>compound sentence</term> contains two or more <em>independent clauses</em> joined through coordination. Each clause could stand alone, but coordination shows the ideas are related.</p>
+    <p>A <term>compound sentence</term> contains two or more <em>independent clauses</em> joined by a coordinating conjunction. Each clause has its own subject and predicate and could stand alone as a complete sentence. Coordination shows the ideas are related and presents them as grammatically equal—neither is made to depend on the other.</p>
+
+    <p>This grammatical equality is the defining feature of a compound sentence. In <foreign>It rained, and we stayed inside</foreign>, both <foreign>It rained</foreign> and <foreign>we stayed inside</foreign> are complete thoughts. The coordinating conjunction <foreign>and</foreign> connects them without subordinating either one. Compare this with a complex sentence like <foreign>Because it rained, we stayed inside</foreign>, where <foreign>because</foreign> makes the first clause dependent—it can no longer stand on its own.</p>
 
     <paragraphs>
-      <title>Creating Compound Sentences</title>
+      <title>Creating Compound Sentences with Coordinating Conjunctions</title>
     </paragraphs>
 
-    <p>Coordination treats two ideas as grammatically equal—neither is made to depend on the other. This is appropriate when the ideas are parallel in importance and when you want the structure of the sentence to reflect that equality. There are three main ways to join independent clauses into a compound sentence, and each produces a slightly different effect even when the content is the same:</p>
+    <p>A coordinating conjunction (FANBOYS—see <xref ref="ch-09-types-of-conjunctions"/>) placed between two independent clauses creates a compound sentence. A comma precedes the conjunction:</p>
 
-    <ol>
-      <li><p>Coordinating conjunction (with comma): <foreign>The power went out, and we lit candles.</foreign></p></li>
-      <li><p>Semicolon: <foreign>The power went out; we lit candles.</foreign></p></li>
-      <li><p>Semicolon + conjunctive adverb: <foreign>The power went out; therefore, we lit candles.</foreign></p></li>
-    </ol>
+    <p><q><foreign>It rained<em>,</em> and we stayed inside.</foreign></q></p>
+
+    <image source="diagrams/new/ch09_table_012.png" width="80%">
+      <description>Multi-level labeling table for "It rained, and we stayed inside"</description>
+    </image>
+    <image source="diagrams/new/ch09_compound_simple.png" width="55%">
+      <description>Syntax tree for "It rained, and we stayed inside" showing two coordinated independent clauses</description>
+    </image>
+    <p><c>[S [IC [NP [PRON It]] [VP [V rained]]] [CONJ and] [IC [NP [PRON we]] [VP [V stayed] [ADVP [ADV inside]]]]]</c></p>
 
     <paragraphs>
-      <title>Coordinating Conjunctions (FANBOYS)</title>
+      <title>Clause Roles in Compound Sentences</title>
     </paragraphs>
 
-    <p>The acronym FANBOYS helps you remember the seven coordinating conjunctions:</p>
-
-    <tabular>
-      <row header="yes">
-        <cell>Conjunction</cell>
-        <cell>Relationship</cell>
-        <cell>Example</cell>
-      </row>
-      <row>
-        <cell><foreign>For</foreign></cell>
-        <cell>reason/cause</cell>
-        <cell><foreign>We hurried home, for a storm was approaching.</foreign></cell>
-      </row>
-      <row>
-        <cell><foreign>And</foreign></cell>
-        <cell>addition</cell>
-        <cell><foreign>She writes poetry, and he composes music.</foreign></cell>
-      </row>
-      <row>
-        <cell><foreign>Nor</foreign></cell>
-        <cell>negative addition</cell>
-        <cell><foreign>The store wasn't open, nor was anyone answering.</foreign></cell>
-      </row>
-      <row>
-        <cell><foreign>But</foreign></cell>
-        <cell>contrast</cell>
-        <cell><foreign>I finished the book, but I didn't understand it.</foreign></cell>
-      </row>
-      <row>
-        <cell><foreign>Or</foreign></cell>
-        <cell>alternative</cell>
-        <cell><foreign>We can meet at noon, or we can reschedule.</foreign></cell>
-      </row>
-      <row>
-        <cell><foreign>Yet</foreign></cell>
-        <cell>contrast (surprising)</cell>
-        <cell><foreign>The task seemed simple, yet it took hours.</foreign></cell>
-      </row>
-      <row>
-        <cell><foreign>So</foreign></cell>
-        <cell>result/effect</cell>
-        <cell><foreign>The restaurant was packed, so we ordered takeout.</foreign></cell>
-      </row>
-    </tabular>
-
-    <p><em>Punctuation rule</em>: Place a comma before the conjunction when it joins two independent clauses:</p>
-
-    <p><q><foreign>The lecture was fascinating<em>,</em> and I took detailed notes.</foreign></q></p>
-
-    <p>The choice of conjunction shapes meaning. <foreign>And</foreign> simply adds one idea to another. <foreign>But</foreign> and <foreign>yet</foreign> introduce contrast or surprise. <foreign>So</foreign> announces a result; <foreign>for</foreign> signals a reason. <foreign>Or</foreign> presents an alternative; <foreign>nor</foreign> negates both options. Selecting a conjunction is not just a grammar decision—it is a decision about how the two ideas relate, and readers will interpret the relationship based on which word you choose.</p>
-
-    <paragraphs>
-      <title>Conjunctive Adverbs</title>
-    </paragraphs>
-
-    <p><term>Conjunctive adverbs</term> offer another way to connect independent clauses with more explicit relationships:</p>
-
-    <tabular>
-      <row header="yes">
-        <cell>Relationship</cell>
-        <cell>Examples</cell>
-      </row>
-      <row>
-        <cell>Addition</cell>
-        <cell><foreign>moreover, furthermore, additionally, also</foreign></cell>
-      </row>
-      <row>
-        <cell>Contrast</cell>
-        <cell><foreign>however, nevertheless, nonetheless, instead</foreign></cell>
-      </row>
-      <row>
-        <cell>Result</cell>
-        <cell><foreign>therefore, thus, consequently, hence</foreign></cell>
-      </row>
-      <row>
-        <cell>Time</cell>
-        <cell><foreign>meanwhile, subsequently, afterward, then</foreign></cell>
-      </row>
-      <row>
-        <cell>Example</cell>
-        <cell><foreign>for example, for instance, specifically</foreign></cell>
-      </row>
-    </tabular>
-
-    <p><em>Punctuation</em>: The default method is to write two separate sentences, with the conjunctive adverb beginning the second sentence followed by a comma:</p>
-
-    <p><q><foreign>The experiment failed. However<em>,</em> we learned from the results.</foreign></q></p>
-
-    <p>A semicolon before the conjunctive adverb is also acceptable, particularly when the two ideas are closely connected and you want to keep them in a single sentence:</p>
-
-    <p><q><foreign>The experiment failed<em>;</em> however<em>,</em> we learned from the results.</foreign></q></p>
-
-    <p>Notice that conjunctive adverbs are more precise than coordinating conjunctions in some ways—they offer a wider vocabulary for specifying logical relationships. Where <foreign>but</foreign> signals contrast broadly, you can choose between <foreign>however</foreign>, <foreign>nevertheless</foreign>, <foreign>nonetheless</foreign>, or <foreign>instead</foreign> depending on the nuance you want. In either form—period or semicolon—a comma always follows the conjunctive adverb to set it apart from the rest of the second clause. Omitting that comma (or using only a plain comma between the clauses) creates a comma splice or a run-on.</p>
+    <p>In the labeling table above, each independent clause receives the role <em>Main</em> at the clause level. Why "Main"? Because each independent clause <em>could</em> be the main clause of its own sentence. Coordination preserves that independence—it presents two main clauses side by side as equals. Neither clause is pushed into a supporting role. The tree diagram reflects this structure: both clauses appear as IC (independent clause) nodes directly under the sentence node S, connected by the conjunction.</p>
 
     <paragraphs>
       <title>Compound vs. Compound Elements</title>
@@ -350,12 +423,12 @@
       </row>
       <row>
         <cell>Compound sentence</cell>
-        <cell><foreign>Marcus traveled, and Elena stayed.</foreign></cell>
+        <cell><foreign>She writes poetry, and he composes music.</foreign></cell>
         <cell>Compound (two clauses)</cell>
       </row>
     </tabular>
 
-    <p><em>Test</em>: Does each side of the conjunction have its own subject? If yes → compound sentence.</p>
+    <p><em>Test</em>: Does each side of the conjunction have its own subject <em>and</em> predicate? If yes → compound sentence. If they share a subject or a predicate → simple sentence with a compound element.</p>
 
     <image source="diagrams/new/ch09_table_004.png" width="65%">
       <description>Multi-level labeling table for "Marcus and Elena traveled"</description>
@@ -369,7 +442,7 @@
       <description>Multi-level labeling table for "She writes poetry and he composes music"</description>
     </image>
     <image source="diagrams/new/ch09_compound_and.png" width="60%">
-      <description>Syntax tree for "She writes poetry, and he composes music" showing two coordinated independent clauses</description>
+      <description>Syntax tree for "She writes poetry, and he composes music" showing two coordinated independent clauses — both ICs labeled Main</description>
     </image>
     <p><c>[S [IC [NP [PRON She]] [VP [V writes] [NP [N poetry]]]] [CONJ and] [IC [NP [PRON he]] [VP [V composes] [NP [N music]]]]]</c></p>
 
@@ -425,6 +498,14 @@
       <description>Syntax tree for "When the power flickered, everyone looked up" showing the dependent clause placed before the independent clause</description>
     </image>
     <p><c>[S [DC [SUB When] [NP [DET the] [N power]] [VP [V flickered]]] [IC [NP [PRON Everyone]] [VP [V looked] [ADVP [ADV up]]]]]</c></p>
+
+    <paragraphs>
+      <title>Clause Roles in Complex Sentences</title>
+    </paragraphs>
+
+    <p>In the labeling tables above, the independent clause receives the role <em>Main</em>—it carries the primary idea. The dependent clause receives the role <em>Adverbial</em>. Why "Adverbial"? Because adverbial dependent clauses function like adverbs: they modify the main clause by telling <em>when</em>, <em>why</em>, <em>how</em>, or <em>under what conditions</em> the main event occurred. Just as an adverb like <foreign>quickly</foreign> modifies a verb, an adverbial clause like <foreign>because she had other plans</foreign> modifies the entire main clause.</p>
+
+    <p>This role distinction reflects the hierarchy of a complex sentence: the Main clause is the foreground, and the Adverbial clause is the background—supporting, explaining, or qualifying the main idea.</p>
 
     <paragraphs>
       <title>Why Use Complex Sentences?</title>
@@ -508,32 +589,40 @@
     <p>Getting punctuation right in compound and complex sentences is not a matter of following arbitrary rules. Each rule reflects the grammatical relationship between the clauses involved. Independent clauses are complete thoughts; they require more than a comma to connect them, which is why comma splices are errors. Dependent clauses, by contrast, announce their incompleteness through subordinating words, and punctuation follows predictably from their position. Understanding why the rules exist makes them far easier to apply correctly and consistently.</p>
 
     <paragraphs>
-      <title>Compound Sentences</title>
+      <title>Compound Sentences: Coordinating Conjunctions</title>
     </paragraphs>
 
-    <p><em>With coordinating conjunction</em>: comma before conjunction</p>
+    <p>As introduced in the previous section, a coordinating conjunction joins two independent clauses with a comma before the conjunction:</p>
 
     <ul>
-      <li><p><foreign>It rained, <em>and</em> we stayed inside.</foreign></p></li>
+      <li><p><foreign>It rained<em>,</em> <em>and</em> we stayed inside.</foreign></p></li>
     </ul>
 
-    <p><em>With semicolon only</em>: no conjunction needed</p>
+    <paragraphs>
+      <title>Additional Ways to Connect Independent Clauses</title>
+    </paragraphs>
+
+    <p>Coordinating conjunctions are not the only way to join independent clauses grammatically. A <term>semicolon</term> can connect two closely related independent clauses without any conjunction at all:</p>
 
     <ul>
-      <li><p><foreign>It rained; we stayed inside.</foreign></p></li>
+      <li><p><foreign>It rained<em>;</em> we stayed inside.</foreign></p></li>
     </ul>
 
-    <p><em>With conjunctive adverb (period, default)</em>: period ending first sentence; conjunctive adverb begins second sentence with comma after</p>
+    <p>The semicolon signals that the two clauses are closely connected in thought—more connected than a period would suggest, but without the explicit relationship a conjunction provides. Use a semicolon when the connection between the ideas is clear enough that no conjunction is needed.</p>
+
+    <p>A <term>conjunctive adverb</term> (see <xref ref="ch-09-types-of-conjunctions"/>) may appear in the second clause to make the relationship explicit. Remember that the conjunctive adverb is an adverb within its clause—it is the semicolon that does the grammatical work of joining the clauses:</p>
+
+    <ul>
+      <li><p><foreign>It rained<em>;</em> therefore<em>,</em> we stayed inside.</foreign></p></li>
+    </ul>
+
+    <p>Conjunctive adverbs can also begin a new sentence after a period—the default when the ideas are less tightly connected:</p>
 
     <ul>
       <li><p><foreign>It rained. Therefore<em>,</em> we stayed inside.</foreign></p></li>
     </ul>
 
-    <p><em>With conjunctive adverb (semicolon, additional option)</em>: semicolon before, comma after</p>
-
-    <ul>
-      <li><p><foreign>It rained<em>;</em> therefore<em>,</em> we stayed inside.</foreign></p></li>
-    </ul>
+    <p>In both cases, a comma follows the conjunctive adverb. Using only a comma between the clauses—without a semicolon or period—produces a comma splice.</p>
 
     <paragraphs>
       <title>Complex Sentences</title>
@@ -707,10 +796,10 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 1.</em> <foreign>Although the professor has retired, she still occasionally gives guest lectures, and her former students attend whenever they can.</foreign></p>
+      <p><em>Exercise 1.</em> <foreign>The exhausted marathon runner from Kenya and her experienced coach celebrated after the race.</foreign></p>
       <ul>
         <li><p>Sentence type: _______</p></li>
-        <li><p>Clauses (identify each as IC or DC): _______</p></li>
+        <li><p>Clauses: _______</p></li>
       </ul>
 
       <p><em>Exercise 2.</em> <foreign>Because the deadline was extended, I had time to revise my paper thoroughly.</foreign></p>
@@ -719,10 +808,10 @@
         <li><p>Clauses: _______</p></li>
       </ul>
 
-      <p><em>Exercise 3.</em> <foreign>The exhausted marathon runner from Kenya and her experienced coach celebrated after the race.</foreign></p>
+      <p><em>Exercise 3.</em> <foreign>Although the professor has retired, she still occasionally gives guest lectures, and her former students attend whenever they can.</foreign></p>
       <ul>
         <li><p>Sentence type: _______</p></li>
-        <li><p>Clauses: _______</p></li>
+        <li><p>Clauses (identify each as IC or DC): _______</p></li>
       </ul>
 
     </subsection>
@@ -739,7 +828,7 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 4.</em> Write a compound sentence using a semicolon and a conjunctive adverb (such as <foreign>however</foreign>, <foreign>therefore</foreign>, <foreign>moreover</foreign>, <foreign>consequently</foreign>):</p>
+      <p><em>Exercise 4.</em> Connect two clauses using a semicolon and a conjunctive adverb (such as <foreign>however</foreign>, <foreign>therefore</foreign>, <foreign>moreover</foreign>, <foreign>consequently</foreign>):</p>
       <ul>
         <li><p>_______</p></li>
       </ul>
@@ -752,13 +841,6 @@
       <p><em>Exercise 6.</em> Write a compound-complex sentence. Use a coordinating conjunction (FANBOYS) to join two independent clauses, and add at least one dependent clause using a subordinating conjunction:</p>
       <ul>
         <li><p>_______</p></li>
-      </ul>
-
-      <p><em>Exercise 7.</em> Write a complex sentence that begins with a dependent clause. Then rewrite the same sentence with the dependent clause moved to the end. Which version places more emphasis on the main clause? Explain briefly.</p>
-      <ul>
-        <li><p>Version 1 (DC first): _______</p></li>
-        <li><p>Version 2 (DC last): _______</p></li>
-        <li><p>Which places more emphasis on the main clause? _______</p></li>
       </ul>
 
     </subsection>
@@ -775,7 +857,7 @@
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p><em>Error:</em> <foreign><delete>The lecture was fascinating, I took detailed notes.</delete></foreign></p>
+      <p><em>Error:</em> <foreign>The lecture was fascinating, I took detailed notes.</foreign></p>
 
       <p>Correction 1: <foreign>The lecture was fascinating, <em>and</em> I took detailed notes.</foreign> (added coordinating conjunction)</p>
 
@@ -785,19 +867,19 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 8.</em> <foreign><delete>The assignment was challenging, many students struggled to finish it on time.</delete></foreign></p>
+      <p><em>Exercise 7.</em> <foreign>She enjoys hiking he prefers swimming.</foreign></p>
       <ul>
         <li><p>Correction 1: _______</p></li>
         <li><p>Correction 2: _______</p></li>
       </ul>
 
-      <p><em>Exercise 9.</em> <foreign><delete>She enjoys hiking he prefers swimming.</delete></foreign></p>
+      <p><em>Exercise 8.</em> <foreign>The assignment was challenging, many students struggled to finish it on time.</foreign></p>
       <ul>
         <li><p>Correction 1: _______</p></li>
         <li><p>Correction 2: _______</p></li>
       </ul>
 
-      <p><em>Exercise 10.</em> <foreign><delete>The restaurant was crowded, we decided to order takeout instead.</delete></foreign></p>
+      <p><em>Exercise 9.</em> <foreign>The restaurant was crowded, we decided to order takeout instead.</foreign></p>
       <ul>
         <li><p>Correction 1: _______</p></li>
         <li><p>Correction 2: _______</p></li>
@@ -811,76 +893,36 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each sentence below, complete the labeling table (Role, Phrase, Word, POS) and draw a tree diagram. For compound and complex sentences, use clause-level role labels: IC (independent clause), DC (dependent clause), CC (coordinating conjunction), COMP (subordinating conjunction/complementizer).</p>
+      <p>For each sentence below, complete the labeling table and draw a tree diagram. At the clause level, assign the role Main to independent clauses and Adverbial to dependent clauses.</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 11.</em> Complete each labeling table and draw a tree diagram.</p>
+      <p><em>Exercise 10.</em> Complete each labeling table and draw a tree diagram.</p>
 
       <p>a) Compound noun phrase (simple sentence): <foreign>Marcus and Elena traveled.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>Marcus</foreign></cell><cell><foreign>and</foreign></cell><cell><foreign>Elena</foreign></cell><cell><foreign>traveled</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch09_hw_student_001.png" width="50%">
+        <description>Student labeling table for "Marcus and Elena traveled"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>b) Compound verb phrase (simple sentence): <foreign>The dog barked and chased the squirrel.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>dog</foreign></cell><cell><foreign>barked</foreign></cell><cell><foreign>and</foreign></cell><cell><foreign>chased</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>squirrel</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch09_hw_student_002.png" width="70%">
+        <description>Student labeling table for "The dog barked and chased the squirrel"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>c) Compound sentence: <foreign>She writes poetry, and he composes music.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>writes</foreign></cell><cell><foreign>poetry</foreign></cell><cell><foreign>and</foreign></cell><cell><foreign>he</foreign></cell><cell><foreign>composes</foreign></cell><cell><foreign>music</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch09_hw_student_003.png" width="70%">
+        <description>Student labeling table for "She writes poetry, and he composes music"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p>d) Complex sentence: <foreign>When it rained, we stayed inside.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>When</foreign></cell><cell><foreign>it</foreign></cell><cell><foreign>rained</foreign></cell><cell><foreign>we</foreign></cell><cell><foreign>stayed</foreign></cell><cell><foreign>inside</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch09_hw_student_004.png" width="65%">
+        <description>Student labeling table for "When it rained, we stayed inside"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
     </subsection>
@@ -897,7 +939,29 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 12.</em> The following sentence uses coordination:</p>
+      <p><em>Exercise 11.</em> The following passage strings together several ideas using only coordination. Separate it into individual simple sentences. Then explain: what relationships between the ideas are lost?</p>
+
+      <p><foreign>The lecture was long and the material was difficult and students were confused and they asked many questions and the professor stayed late to help.</foreign></p>
+      <ul>
+        <li><p>Simple sentences: _______</p></li>
+        <li><p>What is lost: _______</p></li>
+      </ul>
+
+      <p><em>Exercise 12.</em> The following sentence is front-loaded—the heavy element appears too early:</p>
+
+      <p><foreign>After the committee reviewed every proposal and discussed the budget in detail, they approved the new plan.</foreign></p>
+
+      <p>a) Rewrite the sentence to apply end-weight (move the heavy clause toward the end):</p>
+      <ul>
+        <li><p>_______</p></li>
+      </ul>
+
+      <p>b) Why is the revised version easier to read? Refer to end-weight in your answer.</p>
+      <ul>
+        <li><p>_______</p></li>
+      </ul>
+
+      <p><em>Exercise 13.</em> The following sentence uses coordination:</p>
 
       <p><foreign>The experiment failed, and the researchers were disappointed.</foreign></p>
 
@@ -914,28 +978,6 @@
       <p>c) Which version—a, b, or the original coordination—would you use if you wanted both ideas to feel equally important? Explain.</p>
       <ul>
         <li><p>_______</p></li>
-      </ul>
-
-      <p><em>Exercise 13.</em> The following sentence is front-loaded—the heavy element appears too early:</p>
-
-      <p><foreign>That the committee rejected the proposal without reading it completely surprised the students.</foreign></p>
-
-      <p>a) Rewrite the sentence to apply end-weight (move the heavy clause toward the end):</p>
-      <ul>
-        <li><p>_______</p></li>
-      </ul>
-
-      <p>b) Why is the revised version easier to read? Refer to end-weight in your answer.</p>
-      <ul>
-        <li><p>_______</p></li>
-      </ul>
-
-      <p><em>Exercise 14.</em> The following passage uses only coordination. Rewrite it using a mix of subordination and coordination to make the relationships between ideas clear. Then briefly explain one revision you made and why.</p>
-
-      <p><foreign>The lecture was long and the material was difficult and students were confused and they asked many questions and the professor stayed late to help.</foreign></p>
-      <ul>
-        <li><p>Revised passage: _______</p></li>
-        <li><p>Explanation of one revision: _______</p></li>
       </ul>
 
     </subsection>

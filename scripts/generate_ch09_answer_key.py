@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate Chapter 9 Answer Key and Overhead Answer Key .docx files.
-Updated to match revised homework structure: Conjunctions and Clauses (5 parts, 14 exercises).
+Updated to match revised homework structure: Conjunctions and Clauses (5 parts, 13 exercises).
 """
 
 from pathlib import Path
@@ -10,48 +10,56 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, add_sub_sentence, setup_document, add_title_page,
-    add_part_heading, exercise_separator, get_font_config,
+    add_part_heading, get_font_config, add_diagram_image,
     add_bracket_line, blank_labels,
     add_multilevel_from_bracket, load_chapter_roles,
+    question_page_break, answer_page_break,
 )
+
+
+DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch09'
 
 
 DIAGRAM_EXERCISES = [
     {
-        'sub': 'a)',
+        'sub': '10A)',
         'sentence': 'Marcus and Elena traveled.',
         'words':   ['Marcus', 'and', 'Elena', 'traveled'],
         'roles':   ['Subj',   '',    '',       'Pred'],
         'phrases': ['NP',     'CONJ','',        'VP'],
         'pos':     ['N',      'CONJ','N',       'V'],
         'bracket': '[S [NP [N Marcus] [CONJ and] [N Elena]] [VP [V traveled]]]',
+        'diagram': 'ch09_hw_ex10a_marcus_traveled',
     },
     {
-        'sub': 'b)',
+        'sub': '10B)',
         'sentence': 'The dog barked and chased the squirrel.',
         'words':   ['The',  'dog', 'barked', 'and',  'chased', 'the',  'squirrel'],
         'roles':   ['Subj', '',    'Pred',   '',     '',       '',     ''],
         'phrases': ['NP',   '',    'VP',     'CONJ', 'VP',     'NP',   ''],
         'pos':     ['DET',  'N',   'V',      'CONJ', 'V',      'DET',  'N'],
         'bracket': '[S [NP [DET The] [N dog]] [VP [V barked] [CONJ and] [VP [V chased] [NP [DET the] [N squirrel]]]]]',
+        'diagram': 'ch09_hw_ex10b_dog_barked',
     },
     {
-        'sub': 'c)',
+        'sub': '10C)',
         'sentence': 'She writes poetry, and he composes music.',
         'words':   ['She',   'writes', 'poetry', 'and',  'he',   'composes', 'music'],
         'roles':   ['IC',    '',       '',       '',     'IC',   '',         ''],
         'phrases': ['NP',    'VP',     'NP',     'CC',   'NP',   'VP',       'NP'],
         'pos':     ['PRON',  'V',      'N',      'CONJ', 'PRON', 'V',        'N'],
         'bracket': '[S [IC [NP [PRON She]] [VP [V writes] [NP [N poetry]]]] [CC [CONJ and]] [IC [NP [PRON he]] [VP [V composes] [NP [N music]]]]]',
+        'diagram': 'ch09_hw_ex10c_writes_composes',
     },
     {
-        'sub': 'd)',
+        'sub': '10D)',
         'sentence': 'When it rained, we stayed inside.',
         'words':   ['When', 'it',   'rained', 'we',   'stayed', 'inside'],
         'roles':   ['DC',   '',     '',       'IC',   '',       ''],
-        'phrases': ['COMP', 'NP',   'VP',     'NP',   'VP',     'ADVP'],
-        'pos':     ['COMP', 'PRON', 'V',      'PRON', 'V',      'ADV'],
-        'bracket': '[S [DC [COMP When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON we]] [VP [V stayed] [ADVP [ADV inside]]]]]',
+        'phrases': ['SUB',  'NP',   'VP',     'NP',   'VP',     'ADVP'],
+        'pos':     ['SUB',  'PRON', 'V',      'PRON', 'V',      'ADV'],
+        'bracket': '[S [DC [SUB When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON we]] [VP [V stayed] [ADVP [ADV inside]]]]]',
+        'diagram': 'ch09_hw_ex10d_when_rained',
     },
 ]
 
@@ -69,54 +77,61 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # =============================================
     add_part_heading(doc, 'Part 1: Sentence Type Identification', cfg, overhead)
 
-    # Exercise 1
+    # Exercise 1 (simple — was old Ex 3)
     add_exercise(doc, 1,
-        'The professor who taught my linguistics class has retired, but she still occasionally gives guest lectures.',
-        body_size, font_name=body_font)
-
-    add_answer_line(doc, 'Sentence type:', 'Compound-complex', body_size, font_name=body_font)
-    add_plain_line(doc, 'Clauses:', body_size, bold_prefix='', font_name=body_font)
-    add_plain_line(doc,
-        '\u2022 "The professor\u2026has retired" \u2014 IC',
-        body_size, indent=0.7, font_name=body_font)
-    add_plain_line(doc,
-        '\u2022 "who taught my linguistics class" \u2014 DC (modifies "professor")',
-        body_size, indent=0.7, font_name=body_font)
-    add_plain_line(doc,
-        '\u2022 "she still occasionally gives guest lectures" \u2014 IC',
-        body_size, indent=0.7, font_name=body_font)
-
-    exercise_separator(doc, overhead)
-
-    # Exercise 2
-    add_exercise(doc, 2,
-        'Because the deadline was extended, I had time to revise my paper thoroughly.',
-        body_size, font_name=body_font)
-
-    add_answer_line(doc, 'Sentence type:', 'Complex', body_size, font_name=body_font)
-    add_plain_line(doc,
-        '\u2022 "Because the deadline was extended" \u2014 DC (dependent clause, reason)',
-        body_size, indent=0.7, font_name=body_font)
-    add_plain_line(doc,
-        '\u2022 "I had time to revise my paper thoroughly" \u2014 IC',
-        body_size, indent=0.7, font_name=body_font)
-
-    exercise_separator(doc, overhead)
-
-    # Exercise 3
-    add_exercise(doc, 3,
         'The exhausted marathon runner from Kenya and her experienced coach celebrated after the race.',
         body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
 
     add_answer_line(doc, 'Sentence type:', 'Simple', body_size, font_name=body_font)
     add_plain_line(doc,
         'One independent clause with a compound NP subject ("The exhausted marathon runner from Kenya" + '
         '"her experienced coach"). "After the race" is a prepositional phrase, not a dependent clause '
-        '(no subject-verb pair). The compound NP keeps both names as NPs inside a larger NP \u2014 '
+        '(no subject-verb pair). The compound NP keeps both names as NPs inside a larger NP — '
         'not two separate clauses.',
         body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
+
+    # Exercise 2 (complex — same as old Ex 2)
+    add_exercise(doc, 2,
+        'Because the deadline was extended, I had time to revise my paper thoroughly.',
+        body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
+
+    add_answer_line(doc, 'Sentence type:', 'Complex', body_size, font_name=body_font)
+    add_plain_line(doc,
+        '\u2022 "Because the deadline was extended" — DC (dependent clause, reason)',
+        body_size, indent=0.7, font_name=body_font)
+    add_plain_line(doc,
+        '\u2022 "I had time to revise my paper thoroughly" — IC',
+        body_size, indent=0.7, font_name=body_font)
+
+    question_page_break(doc, overhead)
+
+    # Exercise 3 (compound-complex — was old Ex 1)
+    add_exercise(doc, 3,
+        'Although the professor has retired, she still occasionally gives guest lectures, and her former students attend whenever they can.',
+        body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
+
+    add_answer_line(doc, 'Sentence type:', 'Compound-complex', body_size, font_name=body_font)
+    add_plain_line(doc, 'Clauses:', body_size, bold_prefix='', font_name=body_font)
+    add_plain_line(doc,
+        '\u2022 "Although the professor has retired" — DC',
+        body_size, indent=0.7, font_name=body_font)
+    add_plain_line(doc,
+        '\u2022 "she still occasionally gives guest lectures" — IC',
+        body_size, indent=0.7, font_name=body_font)
+    add_plain_line(doc,
+        '\u2022 "her former students attend whenever they can" — IC',
+        body_size, indent=0.7, font_name=body_font)
+    add_plain_line(doc,
+        '\u2022 "whenever they can" — DC (nested inside the second IC)',
+        body_size, indent=0.7, font_name=body_font)
 
     # =============================================
     # Part 2: Sentence Writing
@@ -124,72 +139,55 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_part_heading(doc, 'Part 2: Sentence Writing', cfg, overhead)
 
     p = doc.add_paragraph()
-    run = p.add_run('Exercises 4\u20137 are open-ended. Accept any grammatically correct sentence that matches the requested structure.')
+    run = p.add_run('Exercises 4\u20136 are open-ended. Accept any grammatically correct sentence that matches the requested structure.')
     run.font.size = Pt(body_size)
     run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
-    # Exercise 4: compound sentence with semicolon + conjunctive adverb
-    add_exercise(doc, 4, 'Write a compound sentence using a semicolon, conjunctive adverb, and comma.', body_size, font_name=body_font)
-    add_plain_line(doc, 'Structure: Compound sentence using semicolon + conjunctive adverb + comma', body_size, bold_prefix='', font_name=body_font)
-    add_plain_line(doc, 'Sample: "The test was difficult; however, most students passed."', body_size, indent=0.7, font_name=body_font)
-    add_plain_line(doc, 'Also acceptable: "The project was late. Nevertheless, the client was satisfied."', body_size, indent=0.7, font_name=body_font)
+    # Exercise 4: connect two clauses with semicolon + conjunctive adverb
+    add_exercise(doc, 4, 'Connect two clauses using a semicolon and a conjunctive adverb.', body_size, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    answer_page_break(doc, overhead)
+
+    add_plain_line(doc, 'Structure: Two independent clauses joined by semicolon + conjunctive adverb + comma', body_size, bold_prefix='', font_name=body_font)
+    add_plain_line(doc, 'Sample: "The test was difficult; however, most students passed."', body_size, indent=0.7, font_name=body_font)
+    add_plain_line(doc, 'Also acceptable: "The project was late; nevertheless, the client was satisfied."', body_size, indent=0.7, font_name=body_font)
+
+    question_page_break(doc, overhead)
 
     # Exercise 5: complex sentence with cause/reason
     add_exercise(doc, 5, 'Write a complex sentence with a dependent clause showing cause or reason.', body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
+
     add_plain_line(doc, 'Structure: Complex sentence with dependent clause showing cause/reason', body_size, bold_prefix='', font_name=body_font)
     add_plain_line(doc, 'Sample: "Because the roads were icy, school was canceled."', body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc, 'Also acceptable: "She left early since she had an appointment."', body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
     # Exercise 6: compound-complex sentence
     add_exercise(doc, 6, 'Write a compound-complex sentence (two ICs joined by FANBOYS + at least one DC).', body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
+
     add_plain_line(doc, 'Structure: Compound-complex (two ICs joined by FANBOYS + at least one DC)', body_size, bold_prefix='', font_name=body_font)
     add_plain_line(doc, 'Sample: "Although the weather was terrible, the game continued, and the fans cheered."', body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc, 'Sample: "She studied all night because the exam was important, and she passed."', body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc, 'Check: two ICs connected by a coordinating conjunction + at least one DC with a subordinating conjunction.', body_size, indent=0.7, font_name=body_font)
-
-    exercise_separator(doc, overhead)
-
-    # Exercise 7: DC first vs last, emphasis
-    add_exercise(doc, 7, 'Write a complex sentence two ways: DC first, then DC last. Which version places more emphasis on the main clause?', body_size, font_name=body_font)
-    add_plain_line(doc, 'Structure: Complex sentence \u2014 one version DC first, one version DC last', body_size, bold_prefix='', font_name=body_font)
-    add_plain_line(doc, 'Sample Version 1 (DC first): "Because she studied all week, she passed the exam."', body_size, indent=0.7, font_name=body_font)
-    add_plain_line(doc, 'Sample Version 2 (DC last): "She passed the exam because she studied all week."', body_size, indent=0.7, font_name=body_font)
-    add_plain_line(doc,
-        'More emphasis on main clause: Version 2 places the main clause first and unqualified. '
-        'Version 1 announces background context first, so the main clause feels like a conclusion. '
-        'Both are correct \u2014 the choice depends on what the writer wants the reader to notice first.',
-        body_size, indent=0.7, font_name=body_font)
-
-    exercise_separator(doc, overhead)
 
     # =============================================
     # Part 3: Error Correction
     # =============================================
     add_part_heading(doc, 'Part 3: Error Correction', cfg, overhead)
 
-    # Exercise 8
-    add_exercise(doc, 8,
-        'The assignment was challenging, many students struggled to finish it on time.',
-        body_size, font_name=body_font)
-    add_plain_line(doc, 'Error type: Comma splice', body_size, bold_prefix='', font_name=body_font)
-    add_plain_line(doc,
-        'Correction 1: "The assignment was challenging, and many students struggled to finish it on time." (add coordinating conjunction)',
-        body_size, indent=0.7, font_name=body_font)
-    add_plain_line(doc,
-        'Correction 2: "The assignment was challenging; many students struggled to finish it on time." (replace comma with semicolon)',
-        body_size, indent=0.7, font_name=body_font)
-
-    exercise_separator(doc, overhead)
-
-    # Exercise 9
-    add_exercise(doc, 9,
+    # Exercise 7 (run-on — was old Ex 9, simplest error type first)
+    add_exercise(doc, 7,
         'She enjoys hiking he prefers swimming.',
         body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
+
     add_plain_line(doc, 'Error type: Run-on (fused sentence)', body_size, bold_prefix='', font_name=body_font)
     add_plain_line(doc,
         'Correction 1: "She enjoys hiking, but he prefers swimming." (add comma + coordinating conjunction)',
@@ -198,12 +196,32 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'Correction 2: "She enjoys hiking; he prefers swimming." (add semicolon)',
         body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
+    question_page_break(doc, overhead)
 
-    # Exercise 10
-    add_exercise(doc, 10,
+    # Exercise 8 (comma splice — was old Ex 8)
+    add_exercise(doc, 8,
+        'The assignment was challenging, many students struggled to finish it on time.',
+        body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
+
+    add_plain_line(doc, 'Error type: Comma splice', body_size, bold_prefix='', font_name=body_font)
+    add_plain_line(doc,
+        'Correction 1: "The assignment was challenging, and many students struggled to finish it on time." (add coordinating conjunction)',
+        body_size, indent=0.7, font_name=body_font)
+    add_plain_line(doc,
+        'Correction 2: "The assignment was challenging; many students struggled to finish it on time." (replace comma with semicolon)',
+        body_size, indent=0.7, font_name=body_font)
+
+    question_page_break(doc, overhead)
+
+    # Exercise 9 (comma splice — was old Ex 10)
+    add_exercise(doc, 9,
         'The restaurant was crowded, we decided to order takeout instead.',
         body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
+
     add_plain_line(doc, 'Error type: Comma splice', body_size, bold_prefix='', font_name=body_font)
     add_plain_line(doc,
         'Correction 1: "The restaurant was crowded, so we decided to order takeout instead." (add coordinating conjunction)',
@@ -212,35 +230,131 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'Correction 2: "Because the restaurant was crowded, we decided to order takeout instead." (subordinate one clause)',
         body_size, indent=0.7, font_name=body_font)
 
-    exercise_separator(doc, overhead)
-
     # =============================================
     # Part 4: Sentence Tables and Diagrams
     # =============================================
     add_part_heading(doc, 'Part 4: Sentence Tables and Diagrams', cfg, overhead)
 
-    add_exercise(doc, 11, 'Complete the table and draw a tree diagram for each sentence.', body_size, font_name=body_font)
+    add_exercise(doc, 10, 'Complete the table and draw a tree diagram for each sentence.', body_size, font_name=body_font)
 
     ch_roles = load_chapter_roles(9)
     mode = 'overhead' if overhead else 'answer_key'
-    for ex in DIAGRAM_EXERCISES:
+    for i, ex in enumerate(DIAGRAM_EXERCISES):
+        if i > 0:
+            question_page_break(doc, overhead)
         add_sub_sentence(doc, ex['sub'], ex['sentence'], body_size, font_name=body_font)
-        bracket_key = ' '.join(ex['bracket'].split())
         add_multilevel_from_bracket(doc, ex['bracket'],
-                                     roles_dict=ch_roles.get(bracket_key),
+                                     roles_dict=ch_roles.get(' '.join(ex['bracket'].split())),
+                                     mode='student', font_size=body_size)
+        answer_page_break(doc, overhead)
+        add_multilevel_from_bracket(doc, ex['bracket'],
+                                     roles_dict=ch_roles.get(' '.join(ex['bracket'].split())),
                                      mode=mode, font_size=body_size)
         add_bracket_line(doc, ex['bracket'], body_size, indent=0.7, font_name=body_font)
-        exercise_separator(doc, overhead)
+        add_diagram_image(doc, DIAGRAM_DIR, ex['diagram'], width_inches=cfg['diagram_width'])
 
     # =============================================
     # Part 5: Emphasis, End-Weight, and Clause Revision
     # =============================================
     add_part_heading(doc, 'Part 5: Emphasis, End-Weight, and Clause Revision', cfg, overhead)
 
-    # Exercise 12: emphasis (subordination for different effects)
-    add_exercise(doc, 12,
+    # Exercise 11: separate into simple sentences (simplest task — was old Ex 14, flipped)
+    add_exercise(doc, 11,
+        'Separate the following passage into individual simple sentences. Then explain what relationships between the ideas are lost.',
+        body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.35)
+    run = p.add_run('Original: ')
+    run.bold = True
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
+    run = p.add_run('The lecture was long and the material was difficult and students were confused and they asked many questions and the professor stayed late to help.')
+    run.italic = True
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
+    set_paragraph_spacing(p, space_before=3, space_after=2)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.35)
+    run = p.add_run('Simple sentences:')
+    run.bold = True
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
+    set_paragraph_spacing(p, space_before=3, space_after=2)
+    add_plain_line(doc,
+        '1. The lecture was long. 2. The material was difficult. 3. Students were confused. '
+        '4. They asked many questions. 5. The professor stayed late to help.',
+        body_size, indent=0.7, font_name=body_font)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.35)
+    run = p.add_run('What is lost:')
+    run.bold = True
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
+    set_paragraph_spacing(p, space_before=3, space_after=2)
+    add_plain_line(doc,
+        'The cause-effect relationships disappear. The original (however awkward) implies that '
+        'the lecture length and difficulty caused the confusion, which caused the questions, which '
+        'caused the professor to stay late. The simple sentences present these as five unrelated '
+        'facts. Coordination and subordination are what make those relationships visible.',
+        body_size, indent=0.7, font_name=body_font)
+
+    question_page_break(doc, overhead)
+
+    # Exercise 12: end-weight (simplified — was old Ex 13)
+    add_exercise(doc, 12, 'Revise the following front-loaded sentence using end-weight, then explain why the revision is easier to read.', body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.35)
+    run = p.add_run('Original (front-loaded): ')
+    run.bold = True
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
+    run = p.add_run('After the committee reviewed every proposal and discussed the budget in detail, they approved the new plan.')
+    run.italic = True
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
+    set_paragraph_spacing(p, space_before=3, space_after=2)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.35)
+    run = p.add_run('a) End-weighted revision:')
+    run.bold = True
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
+    set_paragraph_spacing(p, space_before=3, space_after=2)
+    add_plain_line(doc,
+        '"The committee approved the new plan after they reviewed every proposal and discussed the budget in detail."',
+        body_size, indent=0.7, font_name=body_font)
+
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Inches(0.35)
+    run = p.add_run('b) Why is the revised version easier to read?')
+    run.bold = True
+    run.font.size = Pt(body_size)
+    run.font.name = body_font
+    set_paragraph_spacing(p, space_before=3, space_after=2)
+    add_plain_line(doc,
+        'End-weight: placing the heavy dependent clause ("after they reviewed every proposal and discussed '
+        'the budget in detail") at the end allows readers to process the main point first ("The committee '
+        'approved the new plan"), then receive the background detail. In the original, readers must hold '
+        'the long clause in memory before they know what the sentence is about.',
+        body_size, indent=0.7, font_name=body_font)
+
+    question_page_break(doc, overhead)
+
+    # Exercise 13: emphasis (most complex — was old Ex 12)
+    add_exercise(doc, 13,
         'The experiment failed, and the researchers were disappointed.',
         body_size, font_name=body_font)
+
+    answer_page_break(doc, overhead)
 
     p = doc.add_paragraph()
     p.paragraph_format.left_indent = Inches(0.35)
@@ -279,96 +393,6 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     run.font.name = body_font
     set_paragraph_spacing(p, space_before=3, space_after=2)
 
-    exercise_separator(doc, overhead)
-
-    # Exercise 13: end-weight
-    add_exercise(doc, 13, 'Revise the following front-loaded sentence using end-weight, then explain why the revision is easier to read.', body_size, font_name=body_font)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('Original (front-loaded): ')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('That the committee rejected the proposal without reading it completely surprised the students.')
-    run.italic = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('a) End-weighted revision:')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-    add_plain_line(doc,
-        '"The students were surprised that the committee rejected the proposal without reading it completely."',
-        body_size, indent=0.7, font_name=body_font)
-    add_plain_line(doc,
-        'Also acceptable: "It surprised the students that the committee rejected the proposal without reading it completely."',
-        body_size, indent=0.7, font_name=body_font)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('b) Why is the revised version easier to read?')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-    add_plain_line(doc,
-        'End-weight: placing the heavy noun clause ("that the committee rejected\u2026") at the end allows '
-        'readers to process the main point first ("The students were surprised"), then receive the explanation. '
-        'In the original, readers must hold the long clause in memory before they know what the sentence is about.',
-        body_size, indent=0.7, font_name=body_font)
-
-    exercise_separator(doc, overhead)
-
-    # Exercise 14: clause density revision
-    add_exercise(doc, 14, 'Revise the following passage using subordination. Then explain one of your revisions.', body_size, font_name=body_font)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('Original: ')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    run = p.add_run('The lecture was long and the material was difficult and students were confused and they asked many questions and the professor stayed late to help.')
-    run.italic = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('Revised passage:')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-    add_plain_line(doc,
-        'Sample: "Because the lecture was long and the material was difficult, students were confused '
-        'and asked many questions. The professor stayed late to help."',
-        body_size, indent=0.7, font_name=body_font)
-    add_plain_line(doc,
-        'Other arrangements acceptable as long as at least one subordinating conjunction is used and the logical '
-        'relationships (cause \u2192 effect) are made explicit.',
-        body_size, indent=0.7, font_name=body_font)
-
-    p = doc.add_paragraph()
-    p.paragraph_format.left_indent = Inches(0.35)
-    run = p.add_run('Explanation of one revision:')
-    run.bold = True
-    run.font.size = Pt(body_size)
-    run.font.name = body_font
-    set_paragraph_spacing(p, space_before=3, space_after=2)
-    add_plain_line(doc,
-        'Sample: Using "because" to subordinate the two cause clauses ("the lecture was long," "the material was '
-        'difficult") makes explicit that these are reasons for the students\'s confusion, not just separate events. '
-        'Subordination changes what the reader sees as the main point: the confusion and questions, not the lecture length.',
-        body_size, indent=0.7, font_name=body_font)
-
     doc.save(str(output_path))
     print(f'Created: {output_path}')
 
@@ -404,7 +428,7 @@ def create_student_homework(output_path):
     run.font.name = 'Garamond'
 
     p = doc.add_paragraph()
-    run = p.add_run('Exercise 11. ')
+    run = p.add_run('Exercise 10. ')
     run.bold = True
     run.font.size = Pt(fs)
     run.font.name = 'Garamond'
