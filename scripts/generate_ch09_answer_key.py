@@ -38,9 +38,9 @@ DIAGRAM_EXERCISES = [
     {
         'num': 12,
         'label': 'Complex sentence',
-        'sentence': 'Although the library was quiet, she could not concentrate.',
-        'bracket': '[S [DC [SUB Although] [NP [DET the] [N library]] [VP [V was] [AdjP [ADJ quiet]]]] [IC [NP [PRON she]] [VP [AUX could] [ADV not] [V concentrate]]]]',
-        'diagram': 'ch09_hw_ex12_library_concentrate',
+        'sentence': 'Although the library was quiet, she remained distracted.',
+        'bracket': '[S [DC [SUB Although] [NP [DET the] [N library]] [VP [V was] [AdjP [ADJ quiet]]]] [IC [NP [PRON she]] [VP [V remained] [AdjP [ADJ distracted]]]]]',
+        'diagram': 'ch09_hw_ex12_library_distracted',
     },
 ]
 
