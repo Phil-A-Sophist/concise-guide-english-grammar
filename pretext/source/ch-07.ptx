@@ -966,6 +966,11 @@
           <cell>V</cell>
         </row>
       </tabular>
+      <p>Bracket notation: <c>[S [NP [PRON She]] [VP [V arrived]]]</c></p>
+
+      <image source="diagrams/new/ch07_example_she_arrived.png" width="30%">
+        <description>Syntax tree for "She arrived" showing NP (She) and VP (arrived)</description>
+      </image>
 
       <paragraphs>
         <title>Exercises</title>
@@ -1123,6 +1128,10 @@
           <cell>V</cell>
         </row>
       </tabular>
+
+      <image source="diagrams/new/ch07_example_cat_slept.png" width="35%">
+        <description>Syntax tree for "The cat slept" showing NP (DET The, N cat) and VP (V slept)</description>
+      </image>
 
       <paragraphs>
         <title>Exercises</title>
