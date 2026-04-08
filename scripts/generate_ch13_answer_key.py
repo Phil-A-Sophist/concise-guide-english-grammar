@@ -10,7 +10,7 @@ from docx.shared import Pt, Inches
 from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, setup_document, add_title_page, add_part_heading,
-    get_font_config, add_bracket_line, blank_labels, add_diagram_image,
+    get_font_config, add_bracket_line, add_diagram_image,
     add_multilevel_from_bracket, load_chapter_roles,
     parse_bracket_to_multilevel, add_multilevel_labeling_table,
     question_page_break, answer_page_break,

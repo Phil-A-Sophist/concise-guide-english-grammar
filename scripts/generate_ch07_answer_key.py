@@ -12,7 +12,7 @@ from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, add_diagram_image, setup_document, add_title_page,
     add_part_heading, get_font_config,
-    add_labeling_table, add_bracket_line, compute_spans, blank_labels,
+    add_bracket_line,
     add_multilevel_from_bracket, load_chapter_roles,
     question_page_break, answer_page_break,
 )
@@ -54,24 +54,15 @@ DIAGRAM_EXERCISES = [
 TABLE_EXERCISES = [
     {
         'num': 7, 'sentence': 'Thunder rumbled.',
-        'words':   ['Thunder', 'rumbled'],
-        'roles':   ['Subj', 'Pred'],
-        'phrases': ['NP', 'VP'],
-        'pos':     ['N', 'V'],
+        'bracket': '[S [NP [N Thunder]] [VP [V rumbled]]]',
     },
     {
         'num': 8, 'sentence': 'The old man sat quietly.',
-        'words':   ['The', 'old', 'man', 'sat', 'quietly'],
-        'roles':   ['Subj', '', '', 'Pred', ''],
-        'phrases': ['NP', '', '', 'VP', 'ADVP'],
-        'pos':     ['DET', 'ADJ', 'N', 'V', 'ADV'],
+        'bracket': '[S [NP [DET The] [ADJP [ADJ old]] [N man]] [VP [V sat] [ADVP [ADV quietly]]]]',
     },
     {
         'num': 9, 'sentence': 'The cat chased the mouse.',
-        'words':   ['The', 'cat', 'chased', 'the', 'mouse'],
-        'roles':   ['Subj', '', 'Pred', '', ''],
-        'phrases': ['NP', '', 'VP', 'NP', ''],
-        'pos':     ['DET', 'N', 'V', 'DET', 'N'],
+        'bracket': '[S [NP [DET The] [N cat]] [VP [V chased] [NP [DET the] [N mouse]]]]',
     },
 ]
 
@@ -211,16 +202,17 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # ======================================
     add_part_heading(doc, 'Part 3: Completing Sentence Tables', cfg, overhead)
 
+    ch_roles_part3 = load_chapter_roles(7)
+    table_mode = 'overhead' if overhead else 'answer_key'
     for i, ex in enumerate(TABLE_EXERCISES):
         if i > 0:
             question_page_break(doc, overhead)
         add_exercise(doc, ex['num'], ex['sentence'], body_size, font_name=body_font)
         answer_page_break(doc, overhead)
-        add_labeling_table(doc, ex['words'],
-                           pos_labels=ex['pos'],
-                           phrase_labels=ex['phrases'],
-                           role_labels=ex['roles'],
-                           font_size=table_size)
+        bracket_key = ' '.join(ex['bracket'].split())
+        add_multilevel_from_bracket(doc, ex['bracket'],
+                                     roles_dict=ch_roles_part3.get(bracket_key),
+                                     mode=table_mode, font_size=table_size)
 
     # ===========================================
     # Part 4: Completing Diagrams and Tables

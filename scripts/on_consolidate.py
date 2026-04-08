@@ -228,6 +228,22 @@ def main():
     save_manifest(current)
     print("[ON_CONSOLIDATE] Homework sync complete")
 
+    # Run table validation after sync
+    print("[ON_CONSOLIDATE] Running homework table validation...")
+    import subprocess
+    validate_script = REPO_ROOT / "scripts" / "validate_homework_tables.py"
+    if validate_script.exists():
+        result = subprocess.run(
+            [sys.executable, str(validate_script)],
+            capture_output=True, text=True
+        )
+        if result.stdout:
+            print(result.stdout)
+        if result.returncode != 0:
+            print("[ON_CONSOLIDATE] WARNING: Table validation found issues (see above)")
+        else:
+            print("[ON_CONSOLIDATE] Table validation passed")
+
 
 if __name__ == "__main__":
     main()
