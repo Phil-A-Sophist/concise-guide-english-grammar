@@ -314,16 +314,37 @@
       <title>Other Conjoined Phrases</title>
     </paragraphs>
 
-    <p>The same coordination pattern applies to any phrase type. When a conjunction joins two phrases of the same category, the result is a larger phrase of that category—still inside a single clause, still a simple sentence:</p>
+    <p>The same coordination pattern applies to any phrase type. When a conjunction joins two phrases of the same category, the result is a larger phrase of that category—still inside a single clause, still a simple sentence.</p>
 
-    <ul>
-      <li><p>Compound AdjP: <foreign>The soup was <em>hot and spicy</em>.</foreign></p>
-      <p><c>[S [NP [DET The] [N soup]] [VP [V was] [AdjP [AdjP [ADJ hot]] [CONJ and] [AdjP [ADJ spicy]]]]]</c></p></li>
-      <li><p>Compound AdvP: <foreign>She spoke <em>clearly and confidently</em>.</foreign></p>
-      <p><c>[S [NP [PRON She]] [VP [V spoke] [AdvP [AdvP [ADV clearly]] [CONJ and] [AdvP [ADV confidently]]]]]</c></p></li>
-      <li><p>Compound PP: <foreign>The cat slept <em>on the couch and under the blanket</em>.</foreign></p>
-      <p><c>[S [NP [DET The] [N cat]] [VP [V slept] [PP [PP [PREP on] [NP [DET the] [N couch]]] [CONJ and] [PP [PREP under] [NP [DET the] [N blanket]]]]]]</c></p></li>
-    </ul>
+    <p><em>Compound AdjP.</em> In <foreign>The soup was <em>hot and spicy</em></foreign>, the conjunction <foreign>and</foreign> joins two adjective phrases into a compound AdjP that serves as a subject complement:</p>
+
+    <image source="diagrams/new/ch09_table_013.png" width="50%">
+      <description>Multi-level labeling table for "The soup was hot and spicy"</description>
+    </image>
+    <image source="diagrams/new/ch09_compound_adjp.png" width="40%">
+      <description>Syntax tree for "The soup was hot and spicy" showing compound AdjP — two adjective phrases joined inside a single VP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N soup]] [VP [V was] [AdjP [AdjP [ADJ hot]] [CONJ and] [AdjP [ADJ spicy]]]]]</c></p>
+
+    <p><em>Compound AdvP.</em> In <foreign>She spoke <em>clearly and confidently</em></foreign>, the conjunction joins two adverb phrases into a compound AdvP functioning as an adverbial:</p>
+
+    <image source="diagrams/new/ch09_table_014.png" width="45%">
+      <description>Multi-level labeling table for "She spoke clearly and confidently"</description>
+    </image>
+    <image source="diagrams/new/ch09_compound_advp.png" width="40%">
+      <description>Syntax tree for "She spoke clearly and confidently" showing compound AdvP — two adverb phrases joined inside a single VP</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V spoke] [AdvP [AdvP [ADV clearly]] [CONJ and] [AdvP [ADV confidently]]]]]</c></p>
+
+    <p><em>Compound PP.</em> In <foreign>The cat slept <em>on the couch and under the blanket</em></foreign>, the conjunction joins two prepositional phrases into a compound PP functioning as an adverbial:</p>
+
+    <image source="diagrams/new/ch09_table_015.png" width="75%">
+      <description>Multi-level labeling table for "The cat slept on the couch and under the blanket"</description>
+    </image>
+    <image source="diagrams/new/ch09_compound_pp.png" width="55%">
+      <description>Syntax tree for "The cat slept on the couch and under the blanket" showing compound PP — two prepositional phrases joined inside a single VP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N cat]] [VP [V slept] [PP [PP [PREP on] [NP [DET the] [N couch]]] [CONJ and] [PP [PREP under] [NP [DET the] [N blanket]]]]]]</c></p>
 
     <p>In every case, each conjunct keeps its own phrase node inside a larger phrase of the same type. The conjunction holds them together at the phrase level, not the clause level.</p>
 
@@ -709,6 +730,18 @@
     <p>The comma before <foreign>but</foreign> joins the two independent clauses. No comma is needed before the dependent clause <foreign>because she had other plans</foreign> because it follows its main clause.</p>
 
     <p>Compound-complex sentences are natural and common in well-developed prose. They allow a writer to present parallel developments (through coordination) while precisely specifying cause, time, or condition (through subordination) all within one sentence. Used deliberately, they give writing both accuracy and variety.</p>
+
+    <p>The labeling table and tree diagram below show the full structure of a compound-complex sentence: <foreign>After the concert ended, the musicians packed their instruments, and the audience filed outside.</foreign></p>
+
+    <image source="diagrams/new/ch09_table_016.png" width="95%">
+      <description>Multi-level labeling table for "After the concert ended, the musicians packed their instruments, and the audience filed outside"</description>
+    </image>
+    <image source="diagrams/new/ch09_compound_complex.png" width="75%">
+      <description>Syntax tree for "After the concert ended, the musicians packed their instruments, and the audience filed outside" showing one dependent clause (Adverbial) and two independent clauses (both Main) joined by a coordinating conjunction</description>
+    </image>
+    <p><c>[S [DC [SUB After] [NP [DET the] [N concert]] [VP [V ended]]] [IC [NP [DET the] [N musicians]] [VP [V packed] [NP [DET their] [N instruments]]]] [CONJ and] [IC [NP [DET the] [N audience]] [VP [V filed] [ADVP [ADV outside]]]]]</c></p>
+
+    <p>The dependent clause <foreign>After the concert ended</foreign> receives the role Adverbial (it specifies time), while both independent clauses are labeled Main. The coordinating conjunction <foreign>and</foreign> joins the two independent clauses, making this a compound sentence; the subordinating conjunction <foreign>after</foreign> introduces the dependent clause, making it also complex.</p>
 
   </section>
 

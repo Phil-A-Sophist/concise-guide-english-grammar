@@ -11,7 +11,7 @@ from answer_key_helpers import (
     set_paragraph_spacing, add_spacer_row, add_exercise, add_answer_line,
     add_plain_line, add_sub_sentence, setup_document, add_title_page,
     add_part_heading, get_font_config, add_diagram_image,
-    add_bracket_line, blank_labels,
+    add_bracket_line,
     add_multilevel_from_bracket, load_chapter_roles,
     question_page_break, answer_page_break,
 )
@@ -19,6 +19,21 @@ from answer_key_helpers import (
 
 DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch09'
 
+
+PART1_BRACKETS = {
+    1: {
+        'bracket': '[S [NP [NP [DET The] [ADJ exhausted] [N marathon] [N runner] [PP [PREP from] [NP [N Kenya]]]] [CONJ and] [NP [DET her] [ADJ experienced] [N coach]]] [VP [V celebrated] [PP [PREP after] [NP [DET the] [N race]]]]]',
+        'diagram': 'ch09_hw_ex01_marathon_coach',
+    },
+    2: {
+        'bracket': '[S [DC [SUB Because] [NP [DET the] [N deadline]] [VP [AUX was] [V extended]]] [IC [NP [PRON I]] [VP [V had] [NP [N time] [VP [PART to] [V revise] [NP [DET my] [N paper]] [ADVP [ADV thoroughly]]]]]]]',
+        'diagram': 'ch09_hw_ex02_deadline_revise',
+    },
+    3: {
+        'bracket': '[S [DC [SUB Although] [NP [DET the] [N professor]] [VP [AUX has] [V retired]]] [IC [NP [PRON she]] [VP [ADV still] [ADV occasionally] [V gives] [NP [N guest] [N lectures]]]] [CONJ and] [IC [NP [DET her] [ADJ former] [N students]] [VP [V attend] [DC [SUB whenever] [NP [PRON they]] [VP [V can]]]]]]',
+        'diagram': 'ch09_hw_ex03_professor_students',
+    },
+}
 
 DIAGRAM_EXERCISES = [
     {
@@ -50,6 +65,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     cfg = setup_document(doc, overhead)
     body_font = cfg['body_font']
     body_size = cfg['body_size']
+    table_font = 'Arial Narrow'
+    table_size = 8
 
     add_title_page(doc, 'Chapter 9: Conjunctions and Clauses', cfg, overhead)
 
@@ -57,6 +74,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # Part 1: Sentence Type Identification
     # =============================================
     add_part_heading(doc, 'Part 1: Sentence Type Identification', cfg, overhead)
+
+    ch_roles = load_chapter_roles(9)
+    mode = 'overhead' if overhead else 'answer_key'
 
     # Exercise 1 (simple — was old Ex 3)
     add_exercise(doc, 1,
@@ -67,11 +87,21 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     add_answer_line(doc, 'Sentence type:', 'Simple', body_size, font_name=body_font)
     add_plain_line(doc,
-        'One independent clause with a compound NP subject ("The exhausted marathon runner from Kenya" + '
-        '"her experienced coach"). "After the race" is a prepositional phrase, not a dependent clause '
-        '(no subject-verb pair). The compound NP keeps both names as NPs inside a larger NP — '
-        'not two separate clauses.',
+        '\u2022 One independent clause with a compound NP subject',
         body_size, indent=0.7, font_name=body_font)
+    add_plain_line(doc,
+        '\u2022 Compound NP: "The exhausted marathon runner from Kenya" + "her experienced coach"',
+        body_size, indent=0.7, font_name=body_font)
+    add_plain_line(doc,
+        '\u2022 "after the race" is a PP, not a dependent clause (no subject-verb pair)',
+        body_size, indent=0.7, font_name=body_font)
+
+    ex1 = PART1_BRACKETS[1]
+    add_multilevel_from_bracket(doc, ex1['bracket'],
+                                 roles_dict=ch_roles.get(' '.join(ex1['bracket'].split())),
+                                 mode=mode, font_size=table_size, font_name=table_font)
+    add_bracket_line(doc, ex1['bracket'], body_size, indent=0.7, font_name=body_font)
+    add_diagram_image(doc, DIAGRAM_DIR, ex1['diagram'], width_inches=cfg['diagram_width'])
 
     question_page_break(doc, overhead)
 
@@ -84,11 +114,21 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     add_answer_line(doc, 'Sentence type:', 'Complex', body_size, font_name=body_font)
     add_plain_line(doc,
-        '\u2022 "Because the deadline was extended" — DC (dependent clause, reason)',
+        '\u2022 DC: "Because the deadline was extended" (reason)',
         body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc,
-        '\u2022 "I had time to revise my paper thoroughly" — IC',
+        '\u2022 IC: "I had time to revise my paper thoroughly"',
         body_size, indent=0.7, font_name=body_font)
+    add_plain_line(doc,
+        '\u2022 Subordinating conjunction: "because"',
+        body_size, indent=0.7, font_name=body_font)
+
+    ex2 = PART1_BRACKETS[2]
+    add_multilevel_from_bracket(doc, ex2['bracket'],
+                                 roles_dict=ch_roles.get(' '.join(ex2['bracket'].split())),
+                                 mode=mode, font_size=table_size, font_name=table_font)
+    add_bracket_line(doc, ex2['bracket'], body_size, indent=0.7, font_name=body_font)
+    add_diagram_image(doc, DIAGRAM_DIR, ex2['diagram'], width_inches=cfg['diagram_width'])
 
     question_page_break(doc, overhead)
 
@@ -100,19 +140,25 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     answer_page_break(doc, overhead)
 
     add_answer_line(doc, 'Sentence type:', 'Compound-complex', body_size, font_name=body_font)
-    add_plain_line(doc, 'Clauses:', body_size, bold_prefix='', font_name=body_font)
     add_plain_line(doc,
-        '\u2022 "Although the professor has retired" — DC',
+        '\u2022 DC: "Although the professor has retired"',
         body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc,
-        '\u2022 "she still occasionally gives guest lectures" — IC',
+        '\u2022 IC\u2081: "she still occasionally gives guest lectures"',
         body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc,
-        '\u2022 "her former students attend whenever they can" — IC',
+        '\u2022 IC\u2082: "her former students attend whenever they can"',
         body_size, indent=0.7, font_name=body_font)
     add_plain_line(doc,
-        '\u2022 "whenever they can" — DC (nested inside the second IC)',
+        '\u2022 DC (nested): "whenever they can" (inside IC\u2082)',
         body_size, indent=0.7, font_name=body_font)
+
+    ex3 = PART1_BRACKETS[3]
+    add_multilevel_from_bracket(doc, ex3['bracket'],
+                                 roles_dict=ch_roles.get(' '.join(ex3['bracket'].split())),
+                                 mode=mode, font_size=table_size, font_name=table_font)
+    add_bracket_line(doc, ex3['bracket'], body_size, indent=0.7, font_name=body_font)
+    add_diagram_image(doc, DIAGRAM_DIR, ex3['diagram'], width_inches=cfg['diagram_width'])
 
     # =============================================
     # Part 2: Sentence Writing
@@ -216,8 +262,6 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # =============================================
     add_part_heading(doc, 'Part 4: Sentence Tables and Diagrams', cfg, overhead)
 
-    ch_roles = load_chapter_roles(9)
-    mode = 'overhead' if overhead else 'answer_key'
     for i, ex in enumerate(DIAGRAM_EXERCISES):
         if i > 0:
             question_page_break(doc, overhead)
@@ -233,11 +277,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         set_paragraph_spacing(p, space_before=2, space_after=4)
         add_multilevel_from_bracket(doc, ex['bracket'],
                                      roles_dict=ch_roles.get(' '.join(ex['bracket'].split())),
-                                     mode='student', font_size=body_size)
+                                     mode='student', font_size=table_size, font_name=table_font)
         answer_page_break(doc, overhead)
         add_multilevel_from_bracket(doc, ex['bracket'],
                                      roles_dict=ch_roles.get(' '.join(ex['bracket'].split())),
-                                     mode=mode, font_size=body_size)
+                                     mode=mode, font_size=table_size, font_name=table_font)
         add_bracket_line(doc, ex['bracket'], body_size, indent=0.7, font_name=body_font)
         add_diagram_image(doc, DIAGRAM_DIR, ex['diagram'], width_inches=cfg['diagram_width'])
 
