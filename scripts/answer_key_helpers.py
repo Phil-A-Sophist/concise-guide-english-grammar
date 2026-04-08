@@ -145,11 +145,20 @@ def add_labeling_table(doc, words, pos_labels=None, phrase_labels=None,
                        role_labels=None, font_size=10):
     """Add a sentence labeling table with merged cells for Role and Phrase rows.
 
+    .. deprecated::
+        Use add_multilevel_labeling_table() with explicit mode parameter instead.
+
     When labels are provided for Role/Phrase rows, cells are merged to show
     how words group into phrases and roles. When labels are None (student
     version), cells are left unmerged so students can write in each cell.
     Pass blank_labels(answer_labels) for pre-merged blank cells.
     """
+    import warnings
+    warnings.warn(
+        "add_labeling_table() is deprecated. Use add_multilevel_labeling_table() "
+        "with explicit mode='answer_key'|'student'|'overhead' instead.",
+        DeprecationWarning, stacklevel=2
+    )
     from docx.enum.table import WD_TABLE_ALIGNMENT
 
     num_cols = len(words) + 1  # +1 for row headers
@@ -284,7 +293,8 @@ def parse_bracket_to_multilevel(bracket):
 
     # Known POS tags
     POS_TAGS = {'N', 'NOUN', 'V', 'VERB', 'ADJ', 'ADV', 'DET', 'PRON', 'PREP',
-                'MOD', 'AUX', 'REL', 'COMP', 'CONJ', 'SUB', 'PART', 'MODAL'}
+                'MOD', 'AUX', 'REL', 'COMP', 'CONJ', 'SUB', 'PART', 'MODAL',
+                'CC'}
 
     # Collect terminals and POS in order, and build phrase/clause node info
     words = []
@@ -319,7 +329,7 @@ def parse_bracket_to_multilevel(bracket):
 
         if label and end_col > start_col:
             # Skip the root S node (depth 0) — use its children as top level
-            CLAUSE_TAGS = {'S', 'IC', 'DC', 'RC', 'CC'}
+            CLAUSE_TAGS = {'S', 'IC', 'DC', 'RC'}
             if depth == 0 and label in CLAUSE_TAGS:
                 return  # Skip root clause, children already processed at depth+1
             nodes.append((label, depth, start_col, end_col))
@@ -351,7 +361,7 @@ def parse_bracket_to_multilevel(bracket):
 
 
 def add_multilevel_labeling_table(doc, table_data, roles=None, font_size=10,
-                                   mode='answer_key'):
+                                   mode='answer_key', font_name='Calibri'):
     """Add a multi-level labeling table matching SyntaxTreeHybrid styling.
 
     Args:
@@ -362,6 +372,7 @@ def add_multilevel_labeling_table(doc, table_data, roles=None, font_size=10,
         font_size: font size in points
         mode: 'answer_key' (all filled), 'student' (words only, rest blank),
               'overhead' (same as answer_key)
+        font_name: font name for table cells (default 'Calibri')
 
     Returns:
         The table object.
@@ -405,7 +416,7 @@ def add_multilevel_labeling_table(doc, table_data, roles=None, font_size=10,
         shading.set(qn('w:val'), 'clear')
         tcPr.append(shading)
 
-    def set_cell_text(cell, text, bold=False, center=True, font_name='Calibri'):
+    def set_cell_text(cell, text, bold=False, center=True, font_name=font_name):
         cell.text = ""
         p = cell.paragraphs[0]
         if center:
@@ -605,12 +616,54 @@ def add_bracket_line(doc, bracket, font_size, indent=0.35, font_name=None):
     return p
 
 
+def _auto_assign_roles(bracket, table_data=None):
+    """Auto-assign functional roles from bracket notation via assign_table_roles.py logic.
+
+    Returns roles dict keyed by multilevel table level indices (matching
+    parse_bracket_to_multilevel output), or empty dict if parsing fails.
+
+    When table_data is provided, remaps assign_roles_to_tree() depth-based
+    indices to match the level structure of the multilevel table. This handles
+    the depth-indexing mismatch between the two systems.
+    """
+    import sys
+    from pathlib import Path
+    scripts_dir = Path(__file__).resolve().parent
+    if str(scripts_dir) not in sys.path:
+        sys.path.insert(0, str(scripts_dir))
+    from assign_table_roles import parse_bracket, assign_roles_to_tree
+    tree = parse_bracket(bracket)
+    if tree is None:
+        return {}
+    raw_roles = assign_roles_to_tree(tree)
+    if not raw_roles or not table_data:
+        return raw_roles
+
+    # Remap: assign_roles_to_tree uses tree depths, but add_multilevel_labeling_table
+    # uses level indices from parse_bracket_to_multilevel. Map by matching role
+    # positions (start_col) to phrase spans at each level.
+    levels = table_data.get('levels', [])
+    remapped = {}
+    for level_idx, entries in enumerate(levels):
+        # Collect all start_cols that have phrases at this level
+        level_cols = {e['start_col'] for e in entries}
+        # Search raw_roles for any depth that has roles matching these positions
+        for raw_depth, depth_roles in raw_roles.items():
+            for col_str, role_label in depth_roles.items():
+                col = int(col_str)
+                if col in level_cols:
+                    remapped.setdefault(str(level_idx), {})[col_str] = role_label
+    return remapped
+
+
 def add_multilevel_from_bracket(doc, bracket, roles_json_path=None, roles_dict=None,
-                                mode='answer_key', font_size=10):
+                                mode='answer_key', font_size=10, font_name='Calibri'):
     """Parse a bracket notation and add a multi-level labeling table.
 
     Convenience wrapper: parses the bracket, looks up roles from JSON or dict,
-    and calls add_multilevel_labeling_table().
+    and calls add_multilevel_labeling_table(). When mode is not 'student' and
+    no roles are found, auto-assigns roles from the bracket structure and prints
+    a warning.
 
     Args:
         doc: python-docx Document
@@ -620,6 +673,7 @@ def add_multilevel_from_bracket(doc, bracket, roles_json_path=None, roles_dict=N
         roles_dict: direct roles dict (overrides JSON lookup)
         mode: 'answer_key', 'student', or 'overhead'
         font_size: font size in points
+        font_name: font name for table cells (default 'Calibri')
 
     Returns:
         The table object.
@@ -640,8 +694,41 @@ def add_multilevel_from_bracket(doc, bracket, roles_json_path=None, roles_dict=N
                     roles = entry.get('roles')
                     break
 
+    # Auto-assign: fill missing roles when not in student mode
+    if mode != 'student':
+        if not roles:
+            # No roles at all — full auto-assign
+            roles = _auto_assign_roles(bracket, table_data)
+            if roles:
+                preview = bracket[:60] + ('...' if len(bracket) > 60 else '')
+                print(f"WARNING: Auto-assigned ALL roles for '{preview}'. "
+                      f"Add to JSON for accuracy.")
+        else:
+            # Roles exist but may have gaps — merge auto-assign for missing levels
+            auto = _auto_assign_roles(bracket, table_data)
+            if auto:
+                filled_levels = []
+                for level_key, level_roles in auto.items():
+                    if level_key not in roles or not roles[level_key]:
+                        # JSON has no roles for this level — use auto-assign
+                        roles[level_key] = level_roles
+                        filled_levels.append(level_key)
+                    else:
+                        # JSON has partial roles — fill individual gaps
+                        for col_key, role_label in level_roles.items():
+                            if col_key not in roles[level_key]:
+                                roles[level_key][col_key] = role_label
+                                if level_key not in filled_levels:
+                                    filled_levels.append(level_key)
+                if filled_levels:
+                    preview = bracket[:60] + ('...' if len(bracket) > 60 else '')
+                    print(f"WARNING: Auto-filled roles at level(s) "
+                          f"{','.join(filled_levels)} for '{preview}'. "
+                          f"Update JSON for accuracy.")
+
     return add_multilevel_labeling_table(doc, table_data, roles=roles,
-                                         font_size=font_size, mode=mode)
+                                         font_size=font_size, mode=mode,
+                                         font_name=font_name)
 
 
 def load_chapter_roles(chapter_num):

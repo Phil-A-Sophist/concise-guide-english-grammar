@@ -851,6 +851,10 @@
     </image>
     <p><c>[S [NP [PRON She]] [VP [V walks]]]</c></p>
 
+    <image source="diagrams/new/ch10_tree_simple.png" width="25%">
+      <description>Tree diagram for "She walks"</description>
+    </image>
+
     <p>The verb carries the tense marking directly. There is no AUX node because there is no auxiliary.</p>
 
     <paragraphs>
@@ -868,6 +872,10 @@
     </image>
     <p><c>[S [NP [PRON She]] [VP [AUX is] [V walking]]]</c></p>
 
+    <image source="diagrams/new/ch10_tree_progressive.png" width="30%">
+      <description>Tree diagram for "She is walking"</description>
+    </image>
+
     <p><em>Perfect</em> (<foreign>have</foreign> + past participle):</p>
 
     <p><foreign>She has walked.</foreign></p>
@@ -876,6 +884,10 @@
       <description>Multi-level labeling table for "She has walked"</description>
     </image>
     <p><c>[S [NP [PRON She]] [VP [AUX has] [V walked]]]</c></p>
+
+    <image source="diagrams/new/ch10_tree_perfect.png" width="30%">
+      <description>Tree diagram for "She has walked"</description>
+    </image>
 
     <p>In each case, tense is marked on the auxiliary (the first element in the verb phrase), not on the main verb. The main verb carries the participle form that signals the aspect.</p>
 
@@ -892,6 +904,10 @@
     </image>
     <p><c>[S [NP [PRON She]] [VP [AUX has] [AUX been] [V walking]]]</c></p>
 
+    <image source="diagrams/new/ch10_tree_perf_prog.png" width="35%">
+      <description>Tree diagram for "She has been walking"</description>
+    </image>
+
     <p>Notice the order: <foreign>has</foreign> (perfect auxiliary, carries tense) → <foreign>been</foreign> (progressive auxiliary, past participle form) → <foreign>walking</foreign> (main verb, present participle form). Each auxiliary is labeled AUX.</p>
 
     <paragraphs>
@@ -907,6 +923,10 @@
     </image>
     <p><c>[S [NP [DET The] [N children]] [VP [AUX are] [V playing] [NP [DET a] [N game]] [PP [PREP in] [NP [DET the] [N backyard]]]]]</c></p>
 
+    <image source="diagrams/new/ch10_tree_full_prog.png" width="75%">
+      <description>Tree diagram for "The children are playing a game in the backyard"</description>
+    </image>
+
     <p>The progressive auxiliary <foreign>are</foreign> carries present tense. The main verb <foreign>playing</foreign> is followed by a direct object NP and a prepositional phrase.</p>
 
     <p><em>Perfect</em>: <foreign>The professor has assigned three chapters for next week.</foreign></p>
@@ -916,6 +936,10 @@
     </image>
     <p><c>[S [NP [DET The] [N professor]] [VP [AUX has] [V assigned] [NP [ADJ three] [N chapters]] [PP [PREP for] [NP [ADJ next] [N week]]]]]</c></p>
 
+    <image source="diagrams/new/ch10_tree_full_perfect.png" width="80%">
+      <description>Tree diagram for "The professor has assigned three chapters for next week"</description>
+    </image>
+
     <p>The perfect auxiliary <foreign>has</foreign> carries present tense. The past participle <foreign>assigned</foreign> is followed by a direct object NP and a prepositional phrase of time.</p>
 
     <p><em>Perfect progressive</em>: <foreign>The students had been studying grammar in the library all afternoon.</foreign></p>
@@ -924,6 +948,10 @@
       <description>Multi-level labeling table for "The students had been studying grammar in the library all afternoon"</description>
     </image>
     <p><c>[S [NP [DET The] [N students]] [VP [AUX had] [AUX been] [V studying] [NP [N grammar]] [PP [PREP in] [NP [DET the] [N library]]] [NP [DET all] [N afternoon]]]]</c></p>
+
+    <image source="diagrams/new/ch10_tree_full_perf_prog.png" width="95%">
+      <description>Tree diagram for "The students had been studying grammar in the library all afternoon"</description>
+    </image>
 
     <p>Two auxiliaries stack at the front: <foreign>had</foreign> (perfect, carries past tense) and <foreign>been</foreign> (progressive). The main verb <foreign>studying</foreign> is followed by a direct object, a prepositional phrase of place, and an adverbial NP of time.</p>
 
@@ -940,12 +968,20 @@
     </image>
     <p><c>[S [AUX Does] [NP [PRON she]] [VP [V walk]]]</c></p>
 
+    <image source="diagrams/new/ch10_tree_do_question.png" width="30%">
+      <description>Tree diagram for "Does she walk?"</description>
+    </image>
+
     <p><foreign>She does not walk.</foreign></p>
 
     <image source="diagrams/new/ch10_table_017.png" width="65%">
       <description>Multi-level labeling table for "She does not walk"</description>
     </image>
-    <p><c>[S [NP [PRON She]] [VP [AUX does] [NEG not] [V walk]]]</c></p>
+    <p><c>[S [NP [PRON She]] [VP [AUX does] [ADV not] [V walk]]]</c></p>
+
+    <image source="diagrams/new/ch10_tree_do_negation.png" width="35%">
+      <description>Tree diagram for "She does not walk"</description>
+    </image>
 
     <p>In questions, the auxiliary moves to the front of the sentence, before the subject NP. In negation, <foreign>not</foreign> appears between the auxiliary and the main verb.</p>
 
