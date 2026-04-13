@@ -141,6 +141,14 @@
 
     <p>These are sometimes called "noun adjuncts" or "attributive nouns." They always precede the head noun.</p>
 
+    <image source="diagrams/new/ch13_table_017.png" width="50%">
+      <description>Multi-level labeling table for "The history professor lectured"</description>
+    </image>
+    <image source="diagrams/new/ch13_noun_adjunct.png" width="35%">
+      <description>Syntax tree for "The history professor lectured" showing a noun adjunct modifying "professor"</description>
+    </image>
+    <p><c>[S [NP [DET The] [N history] [N professor]] [VP [V lectured]]]</c></p>
+
     <paragraphs>
       <title>3. Prepositional Phrases</title>
     </paragraphs>
@@ -396,6 +404,29 @@
     </ul>
 
     <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <p>Consider this sentence with both readings:</p>
+
+    <ul>
+      <li><p>Restrictive: <foreign>The players who practiced won the game.</foreign> (only those who practiced won)</p></li>
+      <li><p>Non-restrictive: <foreign>The players, who practiced, won the game.</foreign> (all the players practiced; all won)</p></li>
+    </ul>
+
+    <p>The tree structure is the same in both cases—the difference lies in punctuation and meaning, not in syntax:</p>
+
+    <image source="diagrams/new/ch13_table_024.png" width="80%">
+      <description>Multi-level labeling table for "The players who practiced won the game"</description>
+    </image>
+    <image source="diagrams/new/ch13_restr_nonrestr.png" width="50%">
+      <description>Syntax tree for "The players who practiced won the game" showing a relative clause modifying "players"</description>
+    </image>
+    <p><c>[S [NP [DET The] [N players] [RC [REL who] [VP [V practiced]]]] [VP [V won] [NP [DET the] [N game]]]]</c></p>
+
+    <p>The commas are the only written signal: with them, the relative clause is supplementary information; without them, it identifies <em>which</em> players.</p>
+
+    <paragraphs>
       <title>Beyond Relative Clauses</title>
     </paragraphs>
 
@@ -448,18 +479,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell>Pred</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>ADJP</cell><cell></cell><cell>VP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>extremely</foreign></cell><cell><foreign>tall</foreign></cell><cell><foreign>building</foreign></cell><cell><foreign>collapsed</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>ADV</cell><cell>ADJ</cell><cell>N</cell><cell>V</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch13_table_018.png" width="65%">
+      <description>Multi-level labeling table for "The extremely tall building collapsed"</description>
+    </image>
+    <image source="diagrams/new/ch13_adjp_degree.png" width="40%">
+      <description>Syntax tree for "The extremely tall building collapsed" showing a degree-modified adjective phrase functioning as an adjectival</description>
+    </image>
+    <p><c>[S [NP [DET The] [ADJP [ADV extremely] [ADJ tall]] [N building]] [VP [V collapsed]]]</c></p>
 
     <p>The adverb <foreign>extremely</foreign> modifies the adjective <foreign>tall</foreign>, forming an adjective phrase that functions adjectivally to modify <foreign>building</foreign>.</p>
 
@@ -515,17 +541,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell>Pred</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>NP</cell><cell>VP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>government</foreign></cell><cell><foreign>report</foreign></cell><cell><foreign>arrived</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>N</cell><cell>V</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch13_table_019.png" width="50%">
+      <description>Multi-level labeling table for "The government report arrived"</description>
+    </image>
+    <image source="diagrams/new/ch13_noun_adjunct_detail.png" width="35%">
+      <description>Syntax tree for "The government report arrived" showing a noun adjunct modifying the head noun "report"</description>
+    </image>
+    <p><c>[S [NP [DET The] [N government] [N report]] [VP [V arrived]]]</c></p>
 
     <p>Note that the POS for the noun adjunct is N (noun), not ADJ—it retains its form as a noun even though it fills the adjectival function.</p>
 
@@ -583,22 +605,15 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell></cell><cell>Pred</cell><cell></cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>PP</cell><cell>NP</cell><cell></cell><cell>VP</cell><cell></cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>book</foreign></cell><cell><foreign>on</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>shelf</foreign></cell><cell><foreign>is</foreign></cell><cell><foreign>mine</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>PREP</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>PRON</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch13_table_020.png" width="75%">
+      <description>Multi-level labeling table for "The woman in the office called"</description>
+    </image>
+    <image source="diagrams/new/ch13_pp_adj_detail.png" width="45%">
+      <description>Syntax tree for "The woman in the office called" showing a PP adjectival inside the subject NP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N woman] [PP [PREP in] [NP [DET the] [N office]]]] [VP [V called]]]</c></p>
 
-    <p>The PP <foreign>on the shelf</foreign> sits inside the subject NP and modifies <foreign>book</foreign>—it is an adjectival, not an adverbial.</p>
+    <p>The PP <foreign>in the office</foreign> sits inside the subject NP and modifies <foreign>woman</foreign>—it is an adjectival, not an adverbial.</p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -737,20 +752,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell></cell><cell></cell><cell>Pred</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>RC</cell><cell></cell><cell></cell><cell></cell><cell>VP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>student</foreign></cell><cell><foreign>who</foreign></cell><cell><foreign>won</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>award</foreign></cell><cell><foreign>celebrated</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>REL</cell><cell>V</cell><cell>DET</cell><cell>N</cell><cell>V</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch13_table_021.png" width="80%">
+      <description>Multi-level labeling table for "The student who won the award celebrated"</description>
+    </image>
+    <image source="diagrams/new/ch13_rel_clause_detail.png" width="55%">
+      <description>Syntax tree for "The student who won the award celebrated" showing a relative clause embedded inside the subject NP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N student] [RC [REL who] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]</c></p>
 
     <p>The relative clause <foreign>who won the award</foreign> sits inside the subject NP and modifies <foreign>student</foreign>.</p>
 
@@ -873,20 +881,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell></cell><cell></cell><cell>Pred</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>VP</cell><cell></cell><cell>NP</cell><cell></cell><cell>VP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>woman</foreign></cell><cell><foreign>wearing</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>red</foreign></cell><cell><foreign>coat</foreign></cell><cell><foreign>smiled</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>DET</cell><cell>ADJ</cell><cell>N</cell><cell>V</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch13_table_022.png" width="80%">
+      <description>Multi-level labeling table for "The woman wearing the red coat smiled"</description>
+    </image>
+    <image source="diagrams/new/ch13_part_phrase_detail.png" width="60%">
+      <description>Syntax tree for "The woman wearing the red coat smiled" showing a present participial phrase with an embedded NP modifying "woman"</description>
+    </image>
+    <p><c>[S [NP [DET The] [N woman] [VP [V wearing] [NP [DET the] [ADJP [ADJ red]] [N coat]]]] [VP [V smiled]]]</c></p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -952,20 +953,15 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell>Pred</cell><cell>DO</cell><cell></cell><cell>Adjvl</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell>VP</cell><cell>NP</cell><cell></cell><cell>VP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>He</foreign></cell><cell><foreign>has</foreign></cell><cell><foreign>time</foreign></cell><cell><foreign>to</foreign></cell><cell><foreign>spare</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>N</cell><cell>PART</cell><cell>V</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch13_table_023.png" width="65%">
+      <description>Multi-level labeling table for "The team has a plan to follow"</description>
+    </image>
+    <image source="diagrams/new/ch13_inf_adj_detail.png" width="45%">
+      <description>Syntax tree for "The team has a plan to follow" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N team]] [VP [V has] [NP [NP [DET a] [N plan]] [VP [PART to] [V follow]]]]]</c></p>
 
-    <p>The infinitive phrase <foreign>to spare</foreign> modifies the noun <foreign>time</foreign>—it tells us <em>which kind of time</em>, not <em>why</em> he has it.</p>
+    <p>The infinitive phrase <foreign>to follow</foreign> modifies the noun <foreign>plan</foreign>—it tells us <em>which kind of plan</em>, not <em>why</em> the team has it.</p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -988,7 +984,7 @@
     <title>Homework: Adjectivals</title>
 
     <subsection>
-      <title>Part 1: Identification and Classification (approx. 10 minutes)</title>
+      <title>Identification and Classification</title>
 
       <paragraphs>
         <title>Instructions</title>
@@ -1040,7 +1036,7 @@
     </subsection>
 
     <subsection>
-      <title>Part 2: Restrictive vs. Non-Restrictive (approx. 5 minutes)</title>
+      <title>Restrictive vs. Non-Restrictive</title>
 
       <paragraphs>
         <title>Instructions</title>
@@ -1084,7 +1080,7 @@
     </subsection>
 
     <subsection>
-      <title>Part 3: Sentence Combining (approx. 8 minutes)</title>
+      <title>Sentence Combining</title>
 
       <paragraphs>
         <title>Instructions</title>
@@ -1113,7 +1109,7 @@
     </subsection>
 
     <subsection>
-      <title>Part 4: Diagramming Adjectivals</title>
+      <title>Diagramming Adjectivals</title>
 
       <paragraphs>
         <title>Instructions</title>
@@ -1208,7 +1204,7 @@
     </subsection>
 
     <subsection>
-      <title>Part 5: Error Correction and Analysis (approx. 10 minutes)</title>
+      <title>Error Correction and Analysis</title>
 
       <paragraphs>
         <title>Instructions</title>
@@ -1270,6 +1266,29 @@
   </section>
 
   <!-- ============================================================ -->
+  <!-- CHAPTER SUMMARY                                               -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-13-summary">
+    <title>Chapter Summary</title>
+
+    <p>This chapter introduced the distinction between <em>adjective</em> (a form—a part of speech) and <em>adjectival</em> (a function—the role of modifying a noun). Six structural forms serve the adjectival function in English:</p>
+
+    <ol>
+      <li><p><em>Adjective phrases:</em> the prototypical adjectival, appearing before or after the noun (<foreign>the tall man</foreign>, <foreign>someone proud of her work</foreign>)</p></li>
+      <li><p><em>Noun adjuncts:</em> nouns modifying other nouns, always pre-nominal (<foreign>the coffee table</foreign>)</p></li>
+      <li><p><em>Prepositional phrases:</em> the most common post-modifier (<foreign>the book on the shelf</foreign>)</p></li>
+      <li><p><em>Relative clauses:</em> the most structurally complex adjectival, containing a full clause embedded in an NP (<foreign>the student who won the prize</foreign>)</p></li>
+      <li><p><em>Participial phrases:</em> compact modifiers built on present or past participles (<foreign>the woman talking on the phone</foreign>, <foreign>the report written by the committee</foreign>)</p></li>
+      <li><p><em>Infinitive phrases:</em> post-modifiers especially common with abstract nouns and indefinite pronouns (<foreign>a book to read</foreign>, <foreign>the decision to leave</foreign>)</p></li>
+    </ol>
+
+    <p>Adjectivals occupy three positional slots: <em>pre-modification</em> (before the noun), <em>post-modification</em> (after the noun), and <em>predicative position</em> (after a linking verb). Single adjectives and noun adjuncts precede the noun; phrases and clauses follow it. When multiple pre-modifiers stack, they follow a conventional order (opinion → size → age → shape → color → origin → material → purpose → NOUN).</p>
+
+    <p>The <em>restrictive/non-restrictive</em> distinction determines whether a modifier identifies the referent (restrictive—no commas, essential) or merely adds supplementary information (non-restrictive—set off with commas, removable). This distinction affects all adjectival types, not just relative clauses. In American English, restrictive relative clauses prefer <foreign>that</foreign> while non-restrictive clauses use <foreign>which</foreign>.</p>
+  </section>
+
+  <!-- ============================================================ -->
   <!-- DIAGRAM EXAMPLES                                              -->
   <!-- ============================================================ -->
 
@@ -1313,6 +1332,17 @@
         <description>Syntax tree for "The book on the shelf is mine" showing a PP post-modifier inside the subject NP</description>
       </image>
       <p><c>[S [NP [DET The] [N book] [PP [PREP on] [NP [DET the] [N shelf]]]] [VP [V is] [PRON mine]]]</c></p>
+
+      <paragraphs>
+        <title>13.11.1 D: Noun adjunct: The history professor lectured.</title>
+      </paragraphs>
+      <image source="diagrams/new/ch13_table_025.png" width="50%">
+        <description>Multi-level labeling table for "The history professor lectured"</description>
+      </image>
+      <image source="diagrams/new/ch13_noun_adjunct.png" width="35%">
+        <description>Syntax tree for "The history professor lectured" showing a noun adjunct modifying the head noun "professor"</description>
+      </image>
+      <p><c>[S [NP [DET The] [N history] [N professor]] [VP [V lectured]]]</c></p>
     </subsection>
 
     <subsection xml:id="ch-13-diagrams-clausal">
