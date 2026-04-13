@@ -50,7 +50,7 @@ DIAGRAM_EXERCISES = [
     {
         'num': 17, 'sentence': 'Unfortunately, the game was cancelled.',
         'words':   ['Unfortunately', 'the', 'game', 'was', 'cancelled'],
-        'roles':   ['Disjunct', 'Subj', '', 'Pred', ''],
+        'roles':   ['Advl', 'Subj', '', 'Pred', ''],
         'phrases': ['ADVP', 'NP', '', 'VP', ''],
         'pos':     ['ADV', 'DET', 'N', 'AUX', 'V'],
         'bracket': '[S [ADVP [ADV Unfortunately]] [NP [DET the] [N game]] [VP [AUX was] [V cancelled]]]',
@@ -106,37 +106,35 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_answer_line(doc, 'Adverbial 2:', 'to catch her flight \u2014 infinitive phrase \u2014 purpose', body_size, font_name=body_font)
 
     # =============================================
-    # Part 2: Adjunct, Disjunct, or Conjunct
+    # Part 2: Adverbial Position and Scope
     # =============================================
-    add_part_heading(doc, 'Part 2: Adjunct, Disjunct, or Conjunct', cfg, overhead)
+    add_part_heading(doc, 'Part 2: Adverbial Position and Scope', cfg, overhead)
 
-    classifications = [
+    scope_exercises = [
         (4, 'She answered the questions honestly.',
-         'adjunct',
-         'Honestly modifies the verb answered, telling how she answered (manner). '
-         'It is integrated into the clause and can be questioned: "Did she answer honestly?"'),
+         'the verb answered (tells how she answered \u2014 manner)',
+         'final position'),
         (5, 'Honestly, I don\u2019t think that\u2019s a good idea.',
-         'disjunct',
-         'Honestly expresses the speaker\u2019s stance/attitude toward the statement. '
-         'It is not part of the proposition \u2014 it cannot be questioned or negated within the clause.'),
-        (6, 'The data were inconclusive. Nevertheless, the researchers published their findings.',
-         'conjunct',
-         'Nevertheless connects the two sentences, showing a contrast/concession relationship between them.'),
-        (7, 'He spoke softly so the children wouldn\u2019t wake up.',
-         'adjunct',
-         'Softly modifies the verb spoke, telling how he spoke (manner). It is integrated into the clause.'),
-        (8, 'The experiment failed. Therefore, they redesigned the protocol.',
-         'conjunct',
-         'Therefore connects the two sentences, showing a cause-result relationship.'),
+         'the whole sentence (expresses the speaker\u2019s stance, not how anyone acts)',
+         'initial position'),
+        (6, 'The results were surprisingly clear.',
+         'the adjective clear (intensifies/evaluates the adjective)',
+         'pre-adjective position'),
+        (7, 'He spoke remarkably softly so the children wouldn\u2019t wake up.',
+         'the adverb softly (intensifies the manner adverb)',
+         'pre-adverb position'),
+        (8, 'She has always enjoyed reading.',
+         'the verb enjoyed (tells how often \u2014 frequency)',
+         'medial position (between auxiliary and main verb)'),
     ]
 
-    for i, (num, sentence, classification, explanation) in enumerate(classifications):
+    for i, (num, sentence, modifies, position) in enumerate(scope_exercises):
         if i > 0:
             question_page_break(doc, overhead)
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
         answer_page_break(doc, overhead)
-        add_answer_line(doc, 'Classification:', classification, body_size, font_name=body_font)
-        add_plain_line(doc, explanation, body_size, font_name=body_font)
+        add_answer_line(doc, 'Modifies:', modifies, body_size, font_name=body_font)
+        add_answer_line(doc, 'Position:', position, body_size, font_name=body_font)
 
     # =============================================
     # Part 3: Sentence Completion
@@ -201,7 +199,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     adverbials = [
         ('Yesterday', 'NP', 'time'),
         ('finally', 'AdvP', 'time (completion)'),
-        ('Surprisingly', 'AdvP (disjunct)', 'speaker attitude'),
+        ('Surprisingly', 'AdvP (sentence-level)', 'speaker attitude'),
         ('diligently', 'AdvP', 'manner'),
         ('for three years', 'PP', 'time (duration)'),
         ('because funding was severely limited', 'adverb clause', 'reason'),
@@ -220,18 +218,18 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     question_page_break(doc, overhead)
 
     # Exercise 20
-    add_exercise(doc, 20, 'Explain the difference between "Surprisingly" (disjunct) and "diligently" (adjunct):', body_size, font_name=body_font)
+    add_exercise(doc, 20, 'Explain the difference between "Surprisingly" and "diligently":', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
     add_plain_line(doc,
-        '"Surprisingly" is a disjunct because it comments on the entire sentence from the '
-        'speaker\u2019s perspective \u2014 it expresses the speaker\u2019s surprise at the '
-        'results. It is not part of the proposition: you cannot ask "Did the results '
-        'surprisingly contradict the findings?" in the same way.',
+        '"Surprisingly" is a sentence-level adverbial \u2014 it modifies the entire sentence, '
+        'expressing the speaker\u2019s surprise at the results. Its initial position and comma '
+        'separation signal that it is external to the core proposition.',
         body_size, font_name=body_font)
     add_plain_line(doc,
-        '"Diligently" is an adjunct because it modifies the verb "worked," telling how '
-        'they worked. It is integrated into the clause structure: you can question it '
-        '("Did they work diligently?") and negate it ("They didn\u2019t work diligently").',
+        '"Diligently" modifies the verb "worked," telling how they worked (manner). '
+        'It appears in final position within the verb phrase and is integrated into the '
+        'clause: you can question it ("Did they work diligently?") and negate it '
+        '("They didn\u2019t work diligently").',
         body_size, font_name=body_font)
 
     question_page_break(doc, overhead)

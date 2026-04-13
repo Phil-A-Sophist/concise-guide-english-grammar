@@ -365,7 +365,7 @@
     </figure>
 
     <figure xml:id="fig-app-advp-05-disjunct">
-      <caption>Sentence-Level Adverb (Disjunct): <foreign>Unfortunately, she lost</foreign></caption>
+      <caption>Sentence-Level Adverb: <foreign>Unfortunately, she lost</foreign></caption>
       <image source="diagrams/new/ch10_sentence_adverb.png" width="30%">
         <description>Syntax tree showing sentence-level adverb "Unfortunately" modifying the entire sentence</description>
       </image>
@@ -695,9 +695,9 @@
     </figure>
 
     <figure xml:id="fig-app-adverbl-09-disjunct">
-      <caption>Sentence Adverb (Disjunct): <foreign>Fortunately, she passed</foreign></caption>
+      <caption>Sentence-Level Adverb: <foreign>Fortunately, she passed</foreign></caption>
       <image source="diagrams/new/ch12_sentence_adverb_disj.png" width="30%">
-        <description>Syntax tree showing sentence-level adverb "Fortunately" as disjunct</description>
+        <description>Syntax tree showing sentence-level adverb "Fortunately" modifying the entire sentence</description>
       </image>
     </figure>
 
