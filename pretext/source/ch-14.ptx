@@ -43,31 +43,23 @@
 
     <p>Consider a noun phrase filling the subject role:</p>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Pred</cell><cell>DO</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>VP</cell><cell>NP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>students</foreign></cell><cell><foreign>read</foreign></cell><cell><foreign>books</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>N</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch14_table_008.png" width="65%">
+      <description>Multi-level labeling table for "The students read books"</description>
+    </image>
+    <image source="diagrams/new/ch14_np_subject.png" width="55%">
+      <description>Syntax tree for "The students read books" showing a noun phrase as subject</description>
+    </image>
+    <p><c>[S [NP [DET The] [N students]] [VP [V read] [NP [N books]]]]</c></p>
 
     <p>Now compare a gerund phrase filling the same subject role:</p>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Pred</cell><cell></cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>GP</cell><cell></cell><cell>VP</cell><cell></cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>Reading</foreign></cell><cell><foreign>books</foreign></cell><cell><foreign>is</foreign></cell><cell><foreign>fun</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>V(-ing)</cell><cell>N</cell><cell>V</cell><cell>ADJ</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch14_table_009.png" width="65%">
+      <description>Multi-level labeling table for "Reading books is fun"</description>
+    </image>
+    <image source="diagrams/new/ch14_gerund_subject.png" width="55%">
+      <description>Syntax tree for "Reading books is fun" showing a gerund phrase as subject</description>
+    </image>
+    <p><c>[S [NOM [V Reading] [NP [N books]]] [VP [V is] [ADJP [ADJ fun]]]]</c></p>
 
     <p>Both <foreign>The students</foreign> and <foreign>Reading books</foreign> fill the subject slot. Their forms are completely different—a noun phrase and a gerund phrase—but their function is the same.</p>
 
@@ -286,17 +278,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Pred</cell><cell>DO</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>VP</cell><cell>NP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>student</foreign></cell><cell><foreign>read</foreign></cell><cell><foreign>books</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>N</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch14_table_010.png" width="65%">
+      <description>Multi-level labeling table for "The student read books"</description>
+    </image>
+    <image source="diagrams/new/ch14_np_subject.png" width="55%">
+      <description>Syntax tree for "The student read books" showing a noun phrase as subject</description>
+    </image>
+    <p><c>[S [NP [DET The] [N student]] [VP [V read] [NP [N books]]]]</c></p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -423,18 +411,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell></cell><cell>Pred</cell><cell></cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>GP</cell><cell></cell><cell></cell><cell>VP</cell><cell>ADJP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>Running</foreign></cell><cell><foreign>every</foreign></cell><cell><foreign>morning</foreign></cell><cell><foreign>is</foreign></cell><cell><foreign>healthy</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>V(-ing)</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>ADJ</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch14_table_011.png" width="65%">
+      <description>Multi-level labeling table for "Running every morning is healthy"</description>
+    </image>
+    <image source="diagrams/new/ch14_gerund_running.png" width="55%">
+      <description>Syntax tree for "Running every morning is healthy" showing a gerund phrase as subject</description>
+    </image>
+    <p><c>[S [NOM [V Running] [NP [DET every] [N morning]]] [VP [V is] [ADJP [ADJ healthy]]]]</c></p>
 
     <p>The gerund phrase <foreign>Running every morning</foreign> fills the subject slot—a position normally occupied by a noun phrase.</p>
 
@@ -519,21 +502,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell></cell><cell></cell><cell>Pred</cell><cell>SC</cell><cell></cell><cell></cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>VP</cell><cell></cell><cell>NP</cell><cell></cell><cell>VP</cell><cell>NP</cell><cell></cell><cell></cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>To</foreign></cell><cell><foreign>win</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>race</foreign></cell><cell><foreign>was</foreign></cell><cell><foreign>her</foreign></cell><cell><foreign>only</foreign></cell><cell><foreign>goal</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>PART</cell><cell>V</cell><cell>DET</cell><cell>N</cell><cell>V</cell><cell>PRON</cell><cell>ADJ</cell><cell>N</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch14_table_012.png" width="65%">
+      <description>Multi-level labeling table for "To win the race was her only goal"</description>
+    </image>
+    <image source="diagrams/new/ch14_inf_subject.png" width="55%">
+      <description>Syntax tree for "To win the race was her only goal" showing an infinitive phrase as subject</description>
+    </image>
+    <p><c>[S [NOM [V To] [VP [V win] [NP [DET the] [N race]]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]</c></p>
 
     <p>The infinitive phrase <foreign>To win the race</foreign> fills the subject position.</p>
 
@@ -624,19 +599,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell></cell><cell></cell><cell>Pred</cell><cell>DO</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell></cell><cell></cell><cell>VP</cell><cell>NP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>I</foreign></cell><cell><foreign>believe</foreign></cell><cell><foreign>that</foreign></cell><cell><foreign>she</foreign></cell><cell><foreign>is</foreign></cell><cell><foreign>honest</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>COMP</cell><cell>PRON</cell><cell>V</cell><cell>ADJ</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch14_table_013.png" width="65%">
+      <description>Multi-level labeling table for "I believe that she is honest"</description>
+    </image>
+    <image source="diagrams/new/ch14_that_believe.png" width="55%">
+      <description>Syntax tree for "I believe that she is honest" showing a that-clause as direct object</description>
+    </image>
+    <p><c>[S [NP [PRON I]] [VP [V believe] [CC [COMP that] [NP [PRON she]] [VP [V is] [ADJP [ADJ honest]]]]]]</c></p>
 
     <p>The that-clause <foreign>that she is honest</foreign> fills the direct object position after the verb <foreign>believe</foreign>.</p>
 
@@ -759,18 +728,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell></cell><cell>Pred</cell><cell>DO</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell></cell><cell>VP</cell><cell></cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>asked</foreign></cell><cell><foreign>whether</foreign></cell><cell><foreign>we</foreign></cell><cell><foreign>could</foreign></cell><cell><foreign>help</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>PRON</cell><cell>V</cell><cell>COMP</cell><cell>PRON</cell><cell>MODAL</cell><cell>V</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch14_table_014.png" width="65%">
+      <description>Multi-level labeling table for "She asked whether we could help"</description>
+    </image>
+    <image source="diagrams/new/ch14_whether_asked.png" width="55%">
+      <description>Syntax tree for "She asked whether we could help" showing a whether-clause as direct object</description>
+    </image>
+    <p><c>[S [NP [PRON She]] [VP [V asked] [CC [COMP whether] [NP [PRON we]] [VP [MOD could] [V help]]]]]</c></p>
 
     <image source="diagrams/new/ch14_table_003.png" width="65%">
       <description>Multi-level labeling table for "wonder if you cry"</description>
@@ -864,6 +828,27 @@
 
     <p>The gerund is often more concise.</p>
 
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- CHAPTER SUMMARY                                               -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-14-summary">
+    <title>Chapter Summary</title>
+
+    <p>This chapter introduced nominals—structures that fill the argument positions of a sentence. The key points are:</p>
+
+    <ul>
+      <li><p><em>Form vs. function:</em> A noun is a part of speech (form); a nominal is any structure functioning in a noun-phrase position (function). All nouns in subject or object position are nominals, but not all nominals are nouns.</p></li>
+      <li><p><em>Five nominal positions:</em> subject, direct object, indirect object, object of a preposition, and subject complement. These are the argument slots that the verb requires or the sentence structure provides.</p></li>
+      <li><p><em>Six nominal forms:</em> noun phrases, pronouns, gerund phrases, infinitive phrases, that-clauses, and wh-clauses can each fill nominal positions, though some have distributional restrictions.</p></li>
+      <li><p><em>Gerund phrases</em> (<foreign>-ing</foreign> form) can fill all five nominal positions, including object of a preposition.</p></li>
+      <li><p><em>Infinitive phrases</em> (<foreign>to</foreign> + verb) fill subject, direct object, and complement positions—but not object of a preposition.</p></li>
+      <li><p><em>Complement clauses</em> are full clauses filling nominal positions. That-clauses embed statements; wh-clauses embed questions. The complementizer <foreign>that</foreign> can be omitted in object position but not in subject position.</p></li>
+      <li><p><em>Extraposition</em> moves long subject clauses to the end of the sentence, placing <foreign>it</foreign> as a placeholder subject—a common pattern in both speech and writing.</p></li>
+      <li><p><em>Choice matters:</em> Gerund vs. infinitive can change meaning (<foreign>stopped smoking</foreign> vs. <foreign>stopped to smoke</foreign>), and some verbs require one or the other.</p></li>
+    </ul>
   </section>
 
   <!-- ============================================================ -->
