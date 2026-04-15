@@ -801,7 +801,34 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each sentence, identify all adverbials, their form (adverb phrase, prepositional phrase, noun phrase, adverb clause, infinitive phrase, or participial phrase), and their semantic role (time, place, manner, reason, purpose, condition, or concession).</p>
+      <p>For each sentence, identify all adverbials, their form, and their semantic role. Use the reference tables below.</p>
+
+      <tabular halign="left">
+        <row header="yes" bottom="minor">
+          <cell>Adverbial Forms</cell>
+        </row>
+        <row><cell>AdvP (Adverb Phrase)</cell></row>
+        <row><cell>PP (Prepositional Phrase)</cell></row>
+        <row><cell>NP (Noun Phrase)</cell></row>
+        <row><cell>Infinitive Phrase</cell></row>
+        <row><cell>Present Participial Phrase</cell></row>
+        <row><cell>Past Participial Phrase</cell></row>
+        <row><cell>Dependent Clause</cell></row>
+      </tabular>
+
+      <tabular halign="left">
+        <row header="yes" bottom="minor">
+          <cell>Semantic Role</cell>
+          <cell>Question Answered</cell>
+        </row>
+        <row><cell>Time</cell><cell>When? How long? How often?</cell></row>
+        <row><cell>Place</cell><cell>Where? In what direction?</cell></row>
+        <row><cell>Manner</cell><cell>How? In what way?</cell></row>
+        <row><cell>Reason</cell><cell>Why? For what reason?</cell></row>
+        <row><cell>Purpose</cell><cell>What for? In order to?</cell></row>
+        <row><cell>Condition</cell><cell>Under what circumstances?</cell></row>
+        <row><cell>Concession</cell><cell>Despite what?</cell></row>
+      </tabular>
 
       <paragraphs>
         <title>Example (completed)</title>
@@ -818,7 +845,7 @@
         <row><cell><foreign>Yesterday</foreign></cell><cell>NP</cell><cell>time</cell></row>
         <row><cell><foreign>carefully</foreign></cell><cell>AdvP</cell><cell>manner</cell></row>
         <row><cell><foreign>at the office</foreign></cell><cell>PP</cell><cell>place</cell></row>
-        <row><cell><foreign>because she had a deadline</foreign></cell><cell>adverb clause</cell><cell>reason</cell></row>
+        <row><cell><foreign>because she had a deadline</foreign></cell><cell>Dependent Clause</cell><cell>reason</cell></row>
       </tabular>
 
       <paragraphs>
@@ -832,7 +859,7 @@
         <li><p>Adverbial 3: __________ Form: __________ Semantic role: __________</p></li>
       </ul>
 
-      <p><em>Exercise 2.</em> <foreign>If you need assistance, please call the help desk immediately.</foreign></p>
+      <p><em>Exercise 2.</em> <foreign>If you need assistance, call the help desk immediately.</foreign></p>
       <ul>
         <li><p>Adverbial 1: __________ Form: __________ Semantic role: __________</p></li>
         <li><p>Adverbial 2: __________ Form: __________ Semantic role: __________</p></li>
@@ -847,12 +874,36 @@
     </subsection>
 
     <subsection xml:id="ch-12-homework-part2">
-      <title>Part 2: Adverbial Position and Scope</title>
+      <title>Part 2: Adverbial Scope and Form</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each underlined adverbial, state (a) what it modifies (a verb, an adjective, another adverb, or the whole sentence) and (b) its position (initial, medial, final, or pre-adjective/pre-adverb).</p>
+      <p>For each underlined adverbial, state (a) what it modifies and (b) its form. Use the reference tables below.</p>
+
+      <tabular halign="left">
+        <row header="yes" bottom="minor">
+          <cell>What Adverbials Can Modify</cell>
+        </row>
+        <row><cell>a verb</cell></row>
+        <row><cell>an adjective</cell></row>
+        <row><cell>another adverb</cell></row>
+        <row><cell>the whole sentence</cell></row>
+      </tabular>
+
+      <tabular halign="left">
+        <row header="yes" bottom="minor">
+          <cell>Adverbial Forms</cell>
+          <cell>Example</cell>
+        </row>
+        <row><cell>AdvP (Adverb Phrase)</cell><cell><foreign>quickly, very carefully</foreign></cell></row>
+        <row><cell>PP (Prepositional Phrase)</cell><cell><foreign>in the library, with care</foreign></cell></row>
+        <row><cell>NP (Noun Phrase)</cell><cell><foreign>last week, every morning</foreign></cell></row>
+        <row><cell>Infinitive Phrase</cell><cell><foreign>to catch the train</foreign></cell></row>
+        <row><cell>Present Participial Phrase</cell><cell><foreign>knowing the answer</foreign></cell></row>
+        <row><cell>Past Participial Phrase</cell><cell><foreign>exhausted from the race</foreign></cell></row>
+        <row><cell>Dependent Clause</cell><cell><foreign>because it rained</foreign></cell></row>
+      </tabular>
 
       <paragraphs>
         <title>Example (completed)</title>
@@ -860,40 +911,40 @@
 
       <p><foreign><em>Fortunately</em>, the rain stopped before the game.</foreign></p>
 
-      <p><foreign>Fortunately</foreign> — modifies the whole sentence (expresses the speaker's attitude); initial position</p>
+      <p><foreign>Fortunately</foreign> — modifies: the whole sentence; form: AdvP</p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 4.</em> <foreign>She answered the questions <em>honestly</em>.</foreign></p>
+      <p><em>Exercise 4.</em> <foreign>She studied <em>with great focus</em> before the exam.</foreign></p>
       <ul>
         <li><p>Modifies: __________</p></li>
-        <li><p>Position: __________</p></li>
+        <li><p>Form: __________</p></li>
       </ul>
 
-      <p><em>Exercise 5.</em> <foreign><em>Honestly</em>, I don't think that's a good idea.</foreign></p>
+      <p><em>Exercise 5.</em> <foreign><em>Smiling broadly</em>, she accepted the award.</foreign></p>
       <ul>
         <li><p>Modifies: __________</p></li>
-        <li><p>Position: __________</p></li>
+        <li><p>Form: __________</p></li>
       </ul>
 
       <p><em>Exercise 6.</em> <foreign>The results were <em>surprisingly</em> clear.</foreign></p>
       <ul>
         <li><p>Modifies: __________</p></li>
-        <li><p>Position: __________</p></li>
+        <li><p>Form: __________</p></li>
       </ul>
 
-      <p><em>Exercise 7.</em> <foreign>He spoke <em>remarkably</em> softly so the children wouldn't wake up.</foreign></p>
+      <p><em>Exercise 7.</em> <foreign>He practiced <em>every morning</em> before the competition.</foreign></p>
       <ul>
         <li><p>Modifies: __________</p></li>
-        <li><p>Position: __________</p></li>
+        <li><p>Form: __________</p></li>
       </ul>
 
-      <p><em>Exercise 8.</em> <foreign>She has <em>always</em> enjoyed reading.</foreign></p>
+      <p><em>Exercise 8.</em> <foreign>She left early <em>to catch the train</em>.</foreign></p>
       <ul>
         <li><p>Modifies: __________</p></li>
-        <li><p>Position: __________</p></li>
+        <li><p>Form: __________</p></li>
       </ul>
 
     </subsection>
@@ -904,13 +955,13 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Add the requested type of adverbial to complete each sentence.</p>
+      <p>Add an adverbial of the requested form to complete each sentence.</p>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p>Add an adverb clause of condition: __________, you should bring an umbrella.</p>
+      <p>Add a dependent clause: __________, you should bring an umbrella.</p>
 
       <p>Answer: <foreign>If it looks like rain, you should bring an umbrella.</foreign></p>
 
@@ -918,19 +969,19 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 9.</em> Add a prepositional phrase of time: __________, the committee will announce its decision.</p>
+      <p><em>Exercise 9.</em> Add a prepositional phrase: __________, the committee will announce its decision.</p>
       <ul><li><p>Answer: __________</p></li></ul>
 
-      <p><em>Exercise 10.</em> Add an adverb clause of reason: She stayed home __________.</p>
+      <p><em>Exercise 10.</em> Add a dependent clause: She stayed home __________.</p>
       <ul><li><p>Answer: __________</p></li></ul>
 
-      <p><em>Exercise 11.</em> Add an infinitive phrase of purpose: He went to the store __________.</p>
+      <p><em>Exercise 11.</em> Add an infinitive phrase: He went to the store __________.</p>
       <ul><li><p>Answer: __________</p></li></ul>
 
-      <p><em>Exercise 12.</em> Add an adverb clause of concession: __________, we decided to proceed with the project.</p>
+      <p><em>Exercise 12.</em> Add a past participial phrase: __________, the runners collapsed at the finish line.</p>
       <ul><li><p>Answer: __________</p></li></ul>
 
-      <p><em>Exercise 13.</em> Add a participial phrase functioning as an adverbial: __________, she answered all the questions correctly.</p>
+      <p><em>Exercise 13.</em> Add a present participial phrase: __________, she answered all the questions correctly.</p>
       <ul><li><p>Answer: __________</p></li></ul>
 
     </subsection>
@@ -948,81 +999,33 @@
       </paragraphs>
 
       <p><em>Exercise 14.</em> <foreign>She spoke very clearly.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>spoke</foreign></cell><cell><foreign>very</foreign></cell><cell><foreign>clearly</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch12_hw_student_001.png" width="50%">
+        <description>Blank labeling table for "She spoke very clearly"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 15.</em> <foreign>The train arrived after midnight.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>train</foreign></cell><cell><foreign>arrived</foreign></cell><cell><foreign>after</foreign></cell><cell><foreign>midnight</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch12_hw_student_002.png" width="55%">
+        <description>Blank labeling table for "The train arrived after midnight"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 16.</em> <foreign>He walked slowly through the park.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>He</foreign></cell><cell><foreign>walked</foreign></cell><cell><foreign>slowly</foreign></cell><cell><foreign>through</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>park</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch12_hw_student_003.png" width="65%">
+        <description>Blank labeling table for "He walked slowly through the park"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 17.</em> <foreign>Unfortunately, the game was cancelled.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>Unfortunately</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>game</foreign></cell><cell><foreign>was</foreign></cell><cell><foreign>cancelled</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch12_hw_student_004.png" width="55%">
+        <description>Blank labeling table for "Unfortunately the game was cancelled"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 18.</em> <foreign>She left early because the roads were icy.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>left</foreign></cell><cell><foreign>early</foreign></cell><cell><foreign>because</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>roads</foreign></cell><cell><foreign>were</foreign></cell><cell><foreign>icy</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch12_hw_student_005.png" width="80%">
+        <description>Blank labeling table for "She left early because the roads were icy"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
     </subsection>
@@ -1033,7 +1036,7 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Read the passage below and answer the questions.</p>
+      <p>Read the passage below and answer the question.</p>
 
       <paragraphs>
         <title>Passage</title>
@@ -1042,7 +1045,7 @@
       <p><foreign>Yesterday, the researchers finally completed their groundbreaking study. Surprisingly, the results contradicted earlier findings. They had worked diligently for three years because funding was severely limited. Nevertheless, they published their findings in a prestigious journal last month. If additional funding becomes available, they will continue their research next year in a new laboratory.</foreign></p>
 
       <paragraphs>
-        <title>Exercises</title>
+        <title>Exercise</title>
       </paragraphs>
 
       <p><em>Exercise 19.</em> Identify five adverbials in the passage. For each, state its form and semantic role.</p>
@@ -1052,19 +1055,6 @@
         <li><p>Adverbial 3: __________ Form: __________ Semantic role: __________</p></li>
         <li><p>Adverbial 4: __________ Form: __________ Semantic role: __________</p></li>
         <li><p>Adverbial 5: __________ Form: __________ Semantic role: __________</p></li>
-      </ul>
-
-      <p><em>Exercise 20.</em> The passage contains both <foreign>Surprisingly</foreign> and <foreign>diligently</foreign>. Explain the difference: what does each adverbial modify, and how does its position signal that difference?</p>
-      <ul><li><p>__________</p></li></ul>
-
-      <p><em>Exercise 21.</em> Rewrite the first sentence of the passage with the adverbial <foreign>yesterday</foreign> in three different positions. Explain how the emphasis changes in each version.</p>
-      <ul>
-        <li><p>Position 1: __________</p></li>
-        <li><p>Effect on emphasis: __________</p></li>
-        <li><p>Position 2: __________</p></li>
-        <li><p>Effect on emphasis: __________</p></li>
-        <li><p>Position 3: __________</p></li>
-        <li><p>Effect on emphasis: __________</p></li>
       </ul>
 
     </subsection>
