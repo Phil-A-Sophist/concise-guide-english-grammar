@@ -92,9 +92,9 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     question_page_break(doc, overhead)
 
     # Exercise 2
-    add_exercise(doc, 2, 'If you need assistance, please call the help desk immediately.', body_size, font_name=body_font)
+    add_exercise(doc, 2, 'If you need assistance, call the help desk immediately.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
-    add_answer_line(doc, 'Adverbial 1:', 'If you need assistance \u2014 adverb clause \u2014 condition', body_size, font_name=body_font)
+    add_answer_line(doc, 'Adverbial 1:', 'If you need assistance \u2014 Dependent Clause \u2014 condition', body_size, font_name=body_font)
     add_answer_line(doc, 'Adverbial 2:', 'immediately \u2014 AdvP \u2014 time', body_size, font_name=body_font)
 
     question_page_break(doc, overhead)
@@ -106,35 +106,35 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_answer_line(doc, 'Adverbial 2:', 'to catch her flight \u2014 infinitive phrase \u2014 purpose', body_size, font_name=body_font)
 
     # =============================================
-    # Part 2: Adverbial Position and Scope
+    # Part 2: Adverbial Scope and Form
     # =============================================
-    add_part_heading(doc, 'Part 2: Adverbial Position and Scope', cfg, overhead)
+    add_part_heading(doc, 'Part 2: Adverbial Scope and Form', cfg, overhead)
 
     scope_exercises = [
-        (4, 'She answered the questions honestly.',
-         'the verb answered (tells how she answered \u2014 manner)',
-         'final position'),
-        (5, 'Honestly, I don\u2019t think that\u2019s a good idea.',
-         'the whole sentence (expresses the speaker\u2019s stance, not how anyone acts)',
-         'initial position'),
+        (4, 'She studied with great focus before the exam.',
+         'the verb studied (tells how she studied \u2014 manner)',
+         'PP'),
+        (5, 'Smiling broadly, she accepted the award.',
+         'the verb accepted (tells the circumstance of accepting)',
+         'Present Participial Phrase'),
         (6, 'The results were surprisingly clear.',
          'the adjective clear (intensifies/evaluates the adjective)',
-         'pre-adjective position'),
-        (7, 'He spoke remarkably softly so the children wouldn\u2019t wake up.',
-         'the adverb softly (intensifies the manner adverb)',
-         'pre-adverb position'),
-        (8, 'She has always enjoyed reading.',
-         'the verb enjoyed (tells how often \u2014 frequency)',
-         'medial position (between auxiliary and main verb)'),
+         'AdvP'),
+        (7, 'He practiced every morning before the competition.',
+         'the verb practiced (tells when he practiced \u2014 frequency)',
+         'NP'),
+        (8, 'She left early to catch the train.',
+         'the verb left (tells why she left \u2014 purpose)',
+         'Infinitive Phrase'),
     ]
 
-    for i, (num, sentence, modifies, position) in enumerate(scope_exercises):
+    for i, (num, sentence, modifies, form) in enumerate(scope_exercises):
         if i > 0:
             question_page_break(doc, overhead)
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
         answer_page_break(doc, overhead)
         add_answer_line(doc, 'Modifies:', modifies, body_size, font_name=body_font)
-        add_answer_line(doc, 'Position:', position, body_size, font_name=body_font)
+        add_answer_line(doc, 'Form:', form, body_size, font_name=body_font)
 
     # =============================================
     # Part 3: Sentence Completion
@@ -148,15 +148,15 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
     completions = [
-        (9, 'PP of time: __________, the committee will announce its decision.',
+        (9, 'Prepositional phrase: __________, the committee will announce its decision.',
          '"After the meeting, the committee will announce its decision."'),
-        (10, 'Adverb clause of reason: She stayed home __________.',
+        (10, 'Dependent clause: She stayed home __________.',
          '"She stayed home because she was feeling ill."'),
-        (11, 'Infinitive phrase of purpose: He went to the store __________.',
+        (11, 'Infinitive phrase: He went to the store __________.',
          '"He went to the store to buy groceries."'),
-        (12, 'Adverb clause of concession: __________, we decided to proceed with the project.',
-         '"Although the budget was tight, we decided to proceed with the project."'),
-        (13, 'Participial phrase as adverbial: __________, she answered all the questions correctly.',
+        (12, 'Past participial phrase: __________, the runners collapsed at the finish line.',
+         '"Exhausted from the race, the runners collapsed at the finish line."'),
+        (13, 'Present participial phrase: __________, she answered all the questions correctly.',
          '"Having studied all night, she answered all the questions correctly."'),
     ]
 
@@ -202,10 +202,10 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         ('Surprisingly', 'AdvP (sentence-level)', 'speaker attitude'),
         ('diligently', 'AdvP', 'manner'),
         ('for three years', 'PP', 'time (duration)'),
-        ('because funding was severely limited', 'adverb clause', 'reason'),
+        ('because funding was severely limited', 'Dependent Clause', 'reason'),
         ('in a prestigious journal', 'PP', 'place'),
         ('last month', 'NP', 'time'),
-        ('If additional funding becomes available', 'adverb clause', 'condition'),
+        ('If additional funding becomes available', 'Dependent Clause', 'condition'),
         ('next year', 'NP', 'time'),
         ('in a new laboratory', 'PP', 'place'),
     ]
@@ -214,50 +214,6 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
     for adv, form, role in adverbials:
         add_plain_line(doc, f'"{adv}" \u2014 {form} \u2014 {role}', body_size, indent=0.7, font_name=body_font)
-
-    question_page_break(doc, overhead)
-
-    # Exercise 20
-    add_exercise(doc, 20, 'Explain the difference between "Surprisingly" and "diligently":', body_size, font_name=body_font)
-    answer_page_break(doc, overhead)
-    add_plain_line(doc,
-        '"Surprisingly" is a sentence-level adverbial \u2014 it modifies the entire sentence, '
-        'expressing the speaker\u2019s surprise at the results. Its initial position and comma '
-        'separation signal that it is external to the core proposition.',
-        body_size, font_name=body_font)
-    add_plain_line(doc,
-        '"Diligently" modifies the verb "worked," telling how they worked (manner). '
-        'It appears in final position within the verb phrase and is integrated into the '
-        'clause: you can question it ("Did they work diligently?") and negate it '
-        '("They didn\u2019t work diligently").',
-        body_size, font_name=body_font)
-
-    question_page_break(doc, overhead)
-
-    # Exercise 21
-    add_exercise(doc, 21, 'Rewrite with "yesterday" in three positions:', body_size, font_name=body_font)
-    answer_page_break(doc, overhead)
-
-    positions = [
-        ('Initial:', '"Yesterday, the researchers finally completed their groundbreaking study."',
-         'Sets the time frame first; "yesterday" functions as a scene-setting topic.'),
-        ('Medial:', '"The researchers yesterday finally completed their groundbreaking study."',
-         'Places "yesterday" closer to the verb; slightly unusual but emphasizes the recency.'),
-        ('Final:', '"The researchers finally completed their groundbreaking study yesterday."',
-         'Default/neutral position; "yesterday" receives end-focus as new information.'),
-    ]
-
-    for label, rewrite, effect in positions:
-        p = doc.add_paragraph()
-        p.paragraph_format.left_indent = Inches(0.35)
-        run = p.add_run(label)
-        run.bold = True
-        run.font.size = Pt(body_size)
-        run.font.name = body_font
-        set_paragraph_spacing(p, space_before=3, space_after=2)
-
-        add_plain_line(doc, rewrite, body_size, indent=0.7, font_name=body_font)
-        add_plain_line(doc, f'Effect: {effect}', body_size, indent=0.7, font_name=body_font)
 
     doc.save(str(output_path))
     print(f"Created: {output_path}")
