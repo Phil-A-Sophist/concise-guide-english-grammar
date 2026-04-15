@@ -59,10 +59,10 @@ DIAGRAM_EXERCISES = [
     {
         'num': 18, 'sentence': 'She left early because the roads were icy.',
         'words':   ['She', 'left', 'early', 'because', 'the', 'roads', 'were', 'icy'],
-        'roles':   ['Subj', 'Pred', '', 'Advl', '', '', '', ''],
-        'phrases': ['NP', 'VP', 'ADVP', 'SBAR', 'NP', '', 'VP', 'ADJP'],
-        'pos':     ['PRON', 'V', 'ADV', 'COMP', 'DET', 'N', 'V', 'ADJ'],
-        'bracket': '[S [NP [PRON She]] [VP [V left] [ADVP [ADV early]]] [SBAR [COMP because] [S [NP [DET the] [N roads]] [VP [V were] [ADJP [ADJ icy]]]]]]',
+        'roles':   ['Main', '', '', 'Advl', '', '', '', ''],
+        'phrases': ['IC', '', '', 'DC', '', '', '', ''],
+        'pos':     ['PRON', 'V', 'ADV', 'SUB', 'DET', 'N', 'V', 'ADJ'],
+        'bracket': '[S [IC [NP [PRON She]] [VP [V left] [ADVP [ADV early]]]] [DC [SUB because] [NP [DET the] [N roads]] [VP [V were] [ADJP [ADJ icy]]]]]',
         'diagram': 'ch12_hw_ex18_left_early',
     },
 ]
