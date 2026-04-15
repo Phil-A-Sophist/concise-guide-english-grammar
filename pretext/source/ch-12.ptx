@@ -175,7 +175,7 @@
     <image source="diagrams/new/ch12_infinitive_adverbial.png" width="40%">
       <description>Syntax tree for "I went to run" showing infinitive as adverbial</description>
     </image>
-    <p><c>[S [NP [PRON I]] [VP [V went] [VP [V to] [V run]]]]</c></p>
+    <p><c>[S [NP [PRON I]] [VP [V went] [VP [V to run]]]]</c></p>
 
     <paragraphs>
       <title>5. Participial Phrases</title>
@@ -535,11 +535,11 @@
       <title>The Infinitive Form</title>
     </paragraphs>
 
-    <p>In many languages, the infinitive is a single word—a specific verb form with its own ending. Spanish has <foreign>correr</foreign> ("to run"), French has <foreign>courir</foreign>, German has <foreign>laufen</foreign>. In those languages, the infinitive is one inflected form. English works differently: the infinitive is a two-word construction—the marker <foreign>to</foreign> plus the base form of the verb. There is no special verb ending; <foreign>to run</foreign> and <foreign>run</foreign> use the same base form. In our labeling system, we treat the entire infinitive phrase as a VP, with <foreign>to</foreign> labeled as V alongside the main verb:</p>
+    <p>In many languages, the infinitive is a single word—a specific verb form with its own ending. Spanish has <foreign>correr</foreign> ("to run"), French has <foreign>courir</foreign>, German has <foreign>laufen</foreign>. In those languages, the infinitive is one inflected form. English works differently: the infinitive is a two-word construction—the marker <foreign>to</foreign> plus the base form of the verb. There is no special verb ending; <foreign>to run</foreign> and <foreign>run</foreign> use the same base form. In our labeling system, we treat the infinitive as a single unit—one V node containing both the marker and the verb—inside a VP:</p>
 
     <ul>
-      <li><p><foreign>to run</foreign> → VP containing V(<foreign>to</foreign>) + V(<foreign>run</foreign>)</p></li>
-      <li><p><foreign>to pass the exam</foreign> → VP containing V(<foreign>to</foreign>) + V(<foreign>pass</foreign>) + NP(<foreign>the exam</foreign>)</p></li>
+      <li><p><foreign>to run</foreign> → VP containing V(<foreign>to run</foreign>)</p></li>
+      <li><p><foreign>to pass the exam</foreign> → VP containing V(<foreign>to pass</foreign>) + NP(<foreign>the exam</foreign>)</p></li>
     </ul>
 
     <paragraphs>
@@ -573,7 +573,7 @@
     <image source="diagrams/new/ch12_127_studied_to_pass.png" width="55%">
       <description>Syntax tree for "He studied hard to pass the exam" showing an infinitive VP as adverbial of purpose</description>
     </image>
-    <p><c>[S [NP [PRON He]] [VP [V studied] [ADVP [ADV hard]] [VP [V to] [V pass] [NP [DET the] [N exam]]]]]</c></p>
+    <p><c>[S [NP [PRON He]] [VP [V studied] [ADVP [ADV hard]] [VP [V to pass] [NP [DET the] [N exam]]]]]</c></p>
 
     <paragraphs>
       <title>Position</title>
@@ -602,7 +602,7 @@
     <image source="diagrams/new/ch12_127_happy_to_help.png" width="40%">
       <description>Syntax tree for "She was happy to help" showing an infinitive VP inside an adjective phrase</description>
     </image>
-    <p><c>[S [NP [PRON She]] [VP [V was] [ADJP [ADJ happy] [VP [V to] [V help]]]]]</c></p>
+    <p><c>[S [NP [PRON She]] [VP [V was] [ADJP [ADJ happy] [VP [V to help]]]]]</c></p>
 
   </section>
 
@@ -1093,7 +1093,7 @@
       <image source="diagrams/new/ch10_sentence_adverb.png" width="40%">
         <description>Syntax tree for "Unfortunately, she lost" showing sentence adverb</description>
       </image>
-      <p><c>[S [ADVP [ADV Unfortunately]] [S [NP [PRON she]] [VP [V lost]]]]</c></p>
+      <p><c>[S [ADVP [ADV Unfortunately]] [NP [PRON she]] [VP [V lost]]]</c></p>
     </subsection>
 
     <subsection xml:id="ch-12-diagrams-pp">
@@ -1145,7 +1145,7 @@
       <image source="diagrams/new/ch12_infinitive_adverbial.png" width="40%">
         <description>Syntax tree for "I went to run" showing infinitive as adverbial</description>
       </image>
-      <p><c>[S [NP [PRON I]] [VP [V went] [VP [V to] [V run]]]]</c></p>
+      <p><c>[S [NP [PRON I]] [VP [V went] [VP [V to run]]]]</c></p>
 
       <paragraphs>
         <title>12.10.3 D: Multiple adverbials: She spoke quietly in the library.</title>

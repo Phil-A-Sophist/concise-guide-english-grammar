@@ -30,10 +30,10 @@ DIAGRAMS = {
     "ch12_126_last_week_met": "[S [NP [ADJP [ADJ Last]] [N week]] [NP [DET the] [N students]] [VP [V met]]]",
 
     # 12.6 Infinitive: He studied hard to pass the exam
-    "ch12_127_studied_to_pass": "[S [NP [PRON He]] [VP [V studied] [ADVP [ADV hard]] [VP [V to] [V pass] [NP [DET the] [N exam]]]]]",
+    "ch12_127_studied_to_pass": "[S [NP [PRON He]] [VP [V studied] [ADVP [ADV hard]] [VP [V to pass] [NP [DET the] [N exam]]]]]",
 
     # 12.6 Infinitive+Adj: She was happy to help
-    "ch12_127_happy_to_help": "[S [NP [PRON She]] [VP [V was] [ADJP [ADJ happy] [VP [V to] [V help]]]]]",
+    "ch12_127_happy_to_help": "[S [NP [PRON She]] [VP [V was] [ADJP [ADJ happy] [VP [V to help]]]]]",
 
     # 12.7 Present participle: Knowing the answer she raised her hand
     "ch12_128_knowing_answer": "[S [VP [V Knowing] [NP [DET the] [N answer]]] [NP [PRON she]] [VP [V raised] [NP [DET her] [N hand]]]]",
