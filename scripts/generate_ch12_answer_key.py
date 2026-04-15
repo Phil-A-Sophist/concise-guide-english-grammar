@@ -220,8 +220,11 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
 
 def create_student_homework(output_path):
-    """Create the Chapter 12 Student Homework with all parts."""
+    """Create the Chapter 12 Student Homework mirroring the HTML homework."""
     from answer_key_helpers import parse_bracket_to_multilevel, add_multilevel_labeling_table
+    from docx.oxml.ns import qn
+    from docx.enum.table import WD_TABLE_ALIGNMENT
+
     doc = Document()
     style = doc.styles['Normal']
     style.font.name = 'Garamond'
@@ -250,7 +253,19 @@ def create_student_homework(output_path):
         run.font.size = Pt(14)
         run.font.name = fn
 
-    def add_ex(num, sentence):
+    def add_text(text, bold=False, italic=False, indent=0, space_before=3, space_after=2):
+        p = doc.add_paragraph()
+        if indent:
+            p.paragraph_format.left_indent = Inches(indent)
+        set_paragraph_spacing(p, space_before=space_before, space_after=space_after)
+        run = p.add_run(text)
+        run.font.size = Pt(fs)
+        run.font.name = fn
+        run.bold = bold
+        run.italic = italic
+        return p
+
+    def add_ex(num, sentence, italic=True):
         p = doc.add_paragraph()
         set_paragraph_spacing(p, space_before=6, space_after=2)
         run = p.add_run(f'Exercise {num}. ')
@@ -258,7 +273,7 @@ def create_student_homework(output_path):
         run.font.size = Pt(fs)
         run.font.name = fn
         run = p.add_run(sentence)
-        run.italic = True
+        run.italic = italic
         run.font.size = Pt(fs)
         run.font.name = fn
 
@@ -269,18 +284,64 @@ def create_student_homework(output_path):
         run.font.size = Pt(fs)
         run.font.name = fn
 
-    def add_instruction(text):
+    def add_ref_table(headers, rows):
+        """Add a simple reference table matching the HTML style."""
+        ncols = len(headers)
+        table = doc.add_table(rows=1 + len(rows), cols=ncols)
+        table.alignment = WD_TABLE_ALIGNMENT.LEFT
+        # Header row
+        for i, h in enumerate(headers):
+            cell = table.rows[0].cells[i]
+            cell.text = ''
+            run = cell.paragraphs[0].add_run(h)
+            run.bold = True
+            run.font.size = Pt(fs - 1)
+            run.font.name = fn
+        # Data rows
+        for ri, row_data in enumerate(rows):
+            for ci, val in enumerate(row_data):
+                cell = table.rows[ri + 1].cells[ci]
+                cell.text = ''
+                run = cell.paragraphs[0].add_run(val)
+                run.font.size = Pt(fs - 1)
+                run.font.name = fn
+        # Add spacing after table
         p = doc.add_paragraph()
-        set_paragraph_spacing(p, space_before=3, space_after=4)
-        run = p.add_run(text)
-        run.font.size = Pt(fs)
-        run.font.name = fn
+        set_paragraph_spacing(p, space_before=0, space_after=2)
 
     # =============================================
     # Part 1: Identification and Classification
     # =============================================
     add_part('Part 1: Identification and Classification')
-    add_instruction('For each sentence, identify all adverbials, their form, and their semantic role.')
+    add_text('For each sentence, identify all adverbials, their form, and their semantic role. Use the reference tables below.')
+
+    add_ref_table(['Adverbial Forms'], [
+        ['AdvP (Adverb Phrase)'], ['PP (Prepositional Phrase)'], ['NP (Noun Phrase)'],
+        ['Infinitive Phrase'], ['Present Participial Phrase'],
+        ['Past Participial Phrase'], ['Dependent Clause'],
+    ])
+
+    add_ref_table(['Semantic Role', 'Question Answered'], [
+        ['Time', 'When? How long? How often?'],
+        ['Place', 'Where? In what direction?'],
+        ['Manner', 'How? In what way?'],
+        ['Reason', 'Why? For what reason?'],
+        ['Purpose', 'What for? In order to?'],
+        ['Condition', 'Under what circumstances?'],
+        ['Concession', 'Despite what?'],
+    ])
+
+    add_text('Example (completed)', bold=True)
+    add_text('Yesterday, she worked carefully at the office because she had a deadline.', italic=True)
+
+    add_ref_table(['Adverbial', 'Form', 'Semantic Role'], [
+        ['Yesterday', 'NP', 'time'],
+        ['carefully', 'AdvP', 'manner'],
+        ['at the office', 'PP', 'place'],
+        ['because she had a deadline', 'Dependent Clause', 'reason'],
+    ])
+
+    add_text('Exercises', bold=True)
 
     add_ex(1, 'Last week, the students studied diligently in the library.')
     for i in range(1, 4):
@@ -298,7 +359,27 @@ def create_student_homework(output_path):
     # Part 2: Adverbial Scope and Form
     # =============================================
     add_part('Part 2: Adverbial Scope and Form')
-    add_instruction('For each underlined adverbial, state (a) what it modifies and (b) its form.')
+    add_text('For each underlined adverbial, state (a) what it modifies and (b) its form. Use the reference tables below.')
+
+    add_ref_table(['What Adverbials Can Modify'], [
+        ['a verb'], ['an adjective'], ['another adverb'], ['the whole sentence'],
+    ])
+
+    add_ref_table(['Adverbial Forms', 'Example'], [
+        ['AdvP (Adverb Phrase)', 'quickly, very carefully'],
+        ['PP (Prepositional Phrase)', 'in the library, with care'],
+        ['NP (Noun Phrase)', 'last week, every morning'],
+        ['Infinitive Phrase', 'to catch the train'],
+        ['Present Participial Phrase', 'knowing the answer'],
+        ['Past Participial Phrase', 'exhausted from the race'],
+        ['Dependent Clause', 'because it rained'],
+    ])
+
+    add_text('Example (completed)', bold=True)
+    add_text('Fortunately, the rain stopped before the game.', italic=True)
+    add_text('Fortunately \u2014 modifies: the whole sentence; form: AdvP')
+
+    add_text('Exercises', bold=True)
 
     part2_exercises = [
         (4, 'She studied with great focus before the exam.'),
@@ -316,7 +397,13 @@ def create_student_homework(output_path):
     # Part 3: Sentence Completion
     # =============================================
     add_part('Part 3: Sentence Completion')
-    add_instruction('Add an adverbial of the requested form to complete each sentence.')
+    add_text('Add an adverbial of the requested form to complete each sentence.')
+
+    add_text('Example (completed)', bold=True)
+    add_text('Add a dependent clause: __________, you should bring an umbrella.')
+    add_text('Answer: If it looks like rain, you should bring an umbrella.', italic=True)
+
+    add_text('Exercises', bold=True)
 
     part3_exercises = [
         (9, 'Add a prepositional phrase: __________, the committee will announce its decision.'),
@@ -326,22 +413,14 @@ def create_student_homework(output_path):
         (13, 'Add a present participial phrase: __________, she answered all the questions correctly.'),
     ]
     for num, prompt in part3_exercises:
-        p = doc.add_paragraph()
-        set_paragraph_spacing(p, space_before=6, space_after=2)
-        run = p.add_run(f'Exercise {num}. ')
-        run.bold = True
-        run.font.size = Pt(fs)
-        run.font.name = fn
-        run = p.add_run(prompt)
-        run.font.size = Pt(fs)
-        run.font.name = fn
+        add_ex(num, prompt, italic=False)
         add_blank('   Answer: __________')
 
     # =============================================
     # Part 4: Diagramming Adverbials
     # =============================================
     add_part('Part 4: Diagramming Adverbials')
-    add_instruction('For each sentence, complete the labeling table, write the bracket notation, and draw a tree diagram.')
+    add_text('For each sentence, complete the labeling table, write the bracket notation, and draw a tree diagram.')
 
     for ex in DIAGRAM_EXERCISES:
         add_ex(ex['num'], ex['sentence'])
@@ -358,16 +437,19 @@ def create_student_homework(output_path):
     # Part 5: Analysis and Application
     # =============================================
     add_part('Part 5: Analysis and Application')
-    add_instruction(
-        'Read the passage and answer the question.\n\n'
+    add_text('Read the passage and answer the question.')
+
+    add_text('Passage', bold=True)
+    add_text(
         'Yesterday, the researchers finally completed their groundbreaking study. '
         'Surprisingly, the results contradicted earlier findings. They had worked '
         'diligently for three years because funding was severely limited. Nevertheless, '
         'they published their findings in a prestigious journal last month. If additional '
-        'funding becomes available, they will continue their research next year in a new laboratory.'
+        'funding becomes available, they will continue their research next year in a new laboratory.',
+        italic=True
     )
 
-    add_ex(19, 'Identify five adverbials in the passage. For each, state its form and semantic role.')
+    add_ex(19, 'Identify five adverbials in the passage. For each, state its form and semantic role.', italic=False)
     for i in range(1, 6):
         add_blank(f'   Adverbial {i}: __________ Form: __________ Semantic role: __________')
 
