@@ -508,7 +508,7 @@
     <image source="diagrams/new/ch12_126_last_week_met.png" width="45%">
       <description>Syntax tree for "Last week the students met" showing an NP adverbial in initial position</description>
     </image>
-    <p><c>[S [NP [ADJ Last] [N week]] [NP [DET the] [N students]] [VP [V met]]]</c></p>
+    <p><c>[S [NP [ADJP [ADJ Last]] [N week]] [NP [DET the] [N students]] [VP [V met]]]</c></p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -778,19 +778,13 @@
       <title>Labeling Table</title>
     </paragraphs>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>DC</cell><cell></cell><cell></cell><cell>IC</cell><cell></cell><cell></cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell></cell><cell>NP</cell><cell>VP</cell><cell>NP</cell><cell>VP</cell><cell></cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>When</foreign></cell><cell><foreign>she</foreign></cell><cell><foreign>arrived</foreign></cell><cell><foreign>we</foreign></cell><cell><foreign>started</foreign></cell><cell><foreign>working</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>SUB</cell><cell>PRON</cell><cell>V</cell><cell>PRON</cell><cell>V</cell><cell>V</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch12_table_023.png" width="80%">
+      <description>Multi-level labeling table for "When she arrived we started working"</description>
+    </image>
+    <image source="diagrams/new/ch12_129_when_arrived.png" width="55%">
+      <description>Syntax tree for "When she arrived, we started working" showing an adverb clause of time</description>
+    </image>
+    <p><c>[S [DC [SUB When] [NP [PRON she]] [VP [V arrived]]] [IC [NP [PRON we]] [VP [V started] [VP [V working]]]]]</c></p>
 
   </section>
 
