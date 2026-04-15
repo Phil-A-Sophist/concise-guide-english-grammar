@@ -43,6 +43,9 @@ DIAGRAMS = {
 
     # 12.8 Adverbial clause: When she arrived we started working
     "ch12_129_when_arrived": "[S [DC [SUB When] [NP [PRON she]] [VP [V arrived]]] [IC [NP [PRON we]] [VP [V started] [VP [V working]]]]]",
+
+    # 12.10.3 B: Present participle: Braving the elements, I trudged towards home
+    "ch12_1003b_braving_trudged": "[S [VP [V Braving] [NP [DET the] [N elements]]] [NP [PRON I]] [VP [V trudged] [PP [PREP towards] [NP [N home]]]]]",
 }
 
 
