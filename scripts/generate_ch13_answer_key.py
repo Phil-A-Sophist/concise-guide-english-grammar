@@ -52,9 +52,9 @@ DIAGRAM_EXERCISES = [
         'num': 19, 'sentence': 'Running water flowed through the pipe.',
         'words':   ['Running', 'water', 'flowed', 'through', 'the', 'pipe'],
         'roles':   ['Subj', '', 'Pred', '', '', ''],
-        'phrases': ['NP', '', 'VP', 'PP', 'NP', ''],
+        'phrases': ['VP', '', 'VP', 'PP', 'NP', ''],
         'pos':     ['V', 'N', 'V', 'PREP', 'DET', 'N'],
-        'bracket': '[S [NP [V Running] [N water]] [VP [V flowed] [PP [PREP through] [NP [DET the] [N pipe]]]]]',
+        'bracket': '[S [NP [VP [V Running]] [N water]] [VP [V flowed] [PP [PREP through] [NP [DET the] [N pipe]]]]]',
         'diagram': 'ch13_hw_ex19_running_water',
     },
     {
@@ -277,13 +277,16 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
 
 def create_student_homework(output_path):
-    """Create the Chapter 13 Student Homework with blank multi-level tables."""
+    """Create the Chapter 13 Student Homework mirroring the HTML homework."""
     from answer_key_helpers import parse_bracket_to_multilevel, add_multilevel_labeling_table
+    from docx.enum.table import WD_TABLE_ALIGNMENT
+
     doc = Document()
     style = doc.styles['Normal']
     style.font.name = 'Garamond'
     style.font.size = Pt(12)
     fs = 12
+    fn = 'Garamond'
 
     # Set landscape
     section = doc.sections[0]
@@ -295,16 +298,186 @@ def create_student_homework(output_path):
     run = p.add_run('Chapter 13 Homework: Adjectivals')
     run.bold = True
     run.font.size = Pt(16)
-    run.font.name = 'Garamond'
+    run.font.name = fn
     set_paragraph_spacing(p, space_before=0, space_after=4)
 
-    # Part 4 with blank multi-level tables
-    p = doc.add_paragraph()
-    set_paragraph_spacing(p, space_before=10, space_after=4)
-    run = p.add_run('Part 4: Diagramming Adjectivals')
-    run.bold = True
-    run.font.size = Pt(14)
-    run.font.name = 'Garamond'
+    def add_part(title):
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=10, space_after=4)
+        run = p.add_run(title)
+        run.bold = True
+        run.font.size = Pt(14)
+        run.font.name = fn
+
+    def add_text(text, bold=False, italic=False, indent=0, space_before=3, space_after=2):
+        p = doc.add_paragraph()
+        if indent:
+            p.paragraph_format.left_indent = Inches(indent)
+        set_paragraph_spacing(p, space_before=space_before, space_after=space_after)
+        run = p.add_run(text)
+        run.font.size = Pt(fs)
+        run.font.name = fn
+        run.bold = bold
+        run.italic = italic
+        return p
+
+    def add_ex(num, sentence, italic=True):
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=6, space_after=2)
+        run = p.add_run(f'Exercise {num}. ')
+        run.bold = True
+        run.font.size = Pt(fs)
+        run.font.name = fn
+        run = p.add_run(sentence)
+        run.italic = italic
+        run.font.size = Pt(fs)
+        run.font.name = fn
+
+    def add_blank(text):
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=1, space_after=1)
+        run = p.add_run(text)
+        run.font.size = Pt(fs)
+        run.font.name = fn
+
+    def add_ref_table(headers, rows):
+        """Add a simple reference table matching the HTML style."""
+        ncols = len(headers)
+        table = doc.add_table(rows=1 + len(rows), cols=ncols)
+        table.alignment = WD_TABLE_ALIGNMENT.LEFT
+        for i, h in enumerate(headers):
+            cell = table.rows[0].cells[i]
+            cell.text = ''
+            run = cell.paragraphs[0].add_run(h)
+            run.bold = True
+            run.font.size = Pt(fs - 1)
+            run.font.name = fn
+        for ri, row_data in enumerate(rows):
+            for ci, val in enumerate(row_data):
+                cell = table.rows[ri + 1].cells[ci]
+                cell.text = ''
+                run = cell.paragraphs[0].add_run(val)
+                run.font.size = Pt(fs - 1)
+                run.font.name = fn
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=0, space_after=2)
+
+    # =============================================
+    # Part 1: Identification and Classification
+    # =============================================
+    add_part('Part 1: Identification and Classification')
+    add_text('For each sentence, identify the underlined adjectival and classify its form '
+             '(adjective phrase, prepositional phrase, relative clause, participial phrase, '
+             'infinitive phrase, or noun).')
+
+    add_ref_table(['Adjectival Forms', 'Example'], [
+        ['Adjective Phrase (ADJP)', 'the tall man, very interesting'],
+        ['Noun Adjectival', 'the coffee table, government report'],
+        ['Prepositional Phrase (PP)', 'the book on the shelf'],
+        ['Relative Clause (RC)', 'the student who won'],
+        ['Participial Phrase (VP)', 'the woman singing, the report written'],
+        ['Infinitive Phrase (VP)', 'a book to read'],
+    ])
+
+    add_text('Example (completed)', bold=True)
+    add_text('The extremely talented musician performed last night.', italic=True)
+    add_blank('   Form: adjective phrase')
+    add_blank('   Function: modifies "musician"')
+
+    add_text('Exercises', bold=True)
+
+    add_ex(1, 'The book on the top shelf belongs to my professor.')
+    add_blank('   Form:')
+
+    add_ex(2, 'The woman who won the award gave an inspiring speech.')
+    add_blank('   Form:')
+
+    add_ex(3, 'The broken window needs to be repaired immediately.')
+    add_blank('   Form:')
+
+    add_ex(4, 'I need something to eat before the meeting.')
+    add_blank('   Form:')
+
+    add_ex(5, 'The government report was released yesterday.')
+    add_blank('   Form:')
+
+    add_ex(6, 'The students waiting in line seemed impatient.')
+    add_blank('   Form:')
+
+    add_ex(7, 'We found a very comfortable chair at the antique store.')
+    add_blank('   Form:')
+
+    # =============================================
+    # Part 2: Restrictive vs. Non-Restrictive
+    # =============================================
+    add_part('Part 2: Restrictive vs. Non-Restrictive')
+    add_text('The commas have been removed from the following sentences. For each, '
+             'determine whether the modifier is restrictive (R) or non-restrictive (NR), '
+             'explain your reasoning, and rewrite the sentence with correct punctuation if needed.')
+
+    add_text('Example (completed)', bold=True)
+    add_text('My sister who lives in Portland is visiting next week.', italic=True)
+    add_blank('   Type: Non-restrictive (NR)')
+    add_blank('   Reasoning: The speaker has only one sister, so the clause adds extra '
+              'information rather than identifying which sister.')
+    add_blank('   Rewrite: My sister, who lives in Portland, is visiting next week.')
+
+    add_text('Exercises', bold=True)
+
+    add_ex(8, 'The students who completed the extra assignment received bonus points.')
+    add_blank('   Type:')
+    add_blank('   Reasoning:')
+    add_blank('   Rewrite:')
+
+    add_ex(9, 'The Eiffel Tower which was built in 1889 attracts millions of visitors.')
+    add_blank('   Type:')
+    add_blank('   Reasoning:')
+    add_blank('   Rewrite:')
+
+    add_ex(10, 'The car that I bought last year already needs repairs.')
+    add_blank('   Type:')
+    add_blank('   Reasoning:')
+    add_blank('   Rewrite:')
+
+    add_ex(11, 'Professor Adams who teaches linguistics won a research award.')
+    add_blank('   Type:')
+    add_blank('   Reasoning:')
+    add_blank('   Rewrite:')
+
+    # =============================================
+    # Part 3: Sentence Combining
+    # =============================================
+    add_part('Part 3: Sentence Combining')
+    add_text('Combine each pair of sentences using a relative clause or participial phrase.')
+
+    add_text('Example (completed)', bold=True)
+    add_text('Sentences: I met a professor. She specializes in linguistics.', italic=True)
+    add_blank('   Combined (relative clause): I met a professor who specializes in linguistics.')
+
+    add_text('Exercises', bold=True)
+
+    add_ex(12, 'Combine with a relative clause: This is the book. I told you about it.', italic=False)
+    add_blank('')
+
+    add_ex(13, 'Combine with a relative clause: The scientist won a Nobel Prize. Her research changed medicine.', italic=False)
+    add_blank('')
+
+    add_ex(14, 'Combine with a participial phrase: The students were exhausted from the exam. They went home early.', italic=False)
+    add_blank('')
+
+    add_ex(15, 'Combine with a participial phrase: The letter was written in 1945. The letter was found in the attic.', italic=False)
+    add_blank('')
+
+    # =============================================
+    # Part 4: Diagramming Adjectivals
+    # =============================================
+    add_part('Part 4: Diagramming Adjectivals')
+    add_text('For each sentence, complete the labeling table (Role, Phrase, Word, POS), '
+             'write the bracket notation, and draw a tree diagram. Pay special attention '
+             'to adjectival elements: relative clauses (RC), adjective phrases (ADJP), '
+             'and prepositional phrases (PP) modifying nouns.')
+
+    add_text('Exercises', bold=True)
 
     for ex in DIAGRAM_EXERCISES:
         p = doc.add_paragraph()
@@ -312,11 +485,11 @@ def create_student_homework(output_path):
         run = p.add_run(f'Exercise {ex["num"]}. ')
         run.bold = True
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
+        run.font.name = fn
         run = p.add_run(ex['sentence'])
         run.italic = True
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
+        run.font.name = fn
 
         td = parse_bracket_to_multilevel(ex['bracket'])
         add_multilevel_labeling_table(doc, td, mode='student', font_size=fs)
@@ -324,7 +497,36 @@ def create_student_homework(output_path):
         p = doc.add_paragraph()
         run = p.add_run('Bracket notation: _____')
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
+        run.font.name = fn
+
+    # =============================================
+    # Part 5: Error Correction and Analysis
+    # =============================================
+    add_part('Part 5: Error Correction and Analysis')
+
+    add_text('Dangling Participle Correction', bold=True)
+
+    add_ex(21, 'Correct each dangling participle by rewriting the sentence:', italic=False)
+
+    add_text('a) Walking through the park, the flowers were beautiful.', italic=True)
+    add_blank('   Corrected:')
+
+    add_text('b) Having finished the report, the computer was shut down.', italic=True)
+    add_blank('   Corrected:')
+
+    add_text('c) Exhausted from the journey, the bed looked inviting.', italic=True)
+    add_blank('   Corrected:')
+
+    add_text('Meaning Analysis', bold=True)
+
+    add_ex(22, 'Explain the difference in meaning between these two sentences. '
+           'What does each sentence imply about how many brothers the speaker has?', italic=False)
+
+    add_text('a) My brother who lives in Chicago is a doctor.', italic=True)
+    add_blank('   Sentence (a) implies:')
+
+    add_text('b) My brother, who lives in Chicago, is a doctor.', italic=True)
+    add_blank('   Sentence (b) implies:')
 
     doc.save(str(output_path))
     print(f'Created: {output_path}')
