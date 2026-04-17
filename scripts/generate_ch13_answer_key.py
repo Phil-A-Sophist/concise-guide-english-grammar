@@ -27,7 +27,7 @@ DIAGRAM_EXERCISES = [
         'roles':   ['Subj', '', '', '', '', '', 'Pred'],
         'phrases': ['NP', '', 'RC', 'VP', 'NP', '', 'VP'],
         'pos':     ['DET', 'N', 'REL', 'V', 'DET', 'N', 'V'],
-        'bracket': '[S [NP [DET The] [N student] [RC [REL who] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]',
+        'bracket': '[S [NP [DET The] [N student] [RC [NP [REL who]] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]',
         'diagram': 'ch13_hw_ex16_student_award',
     },
     {

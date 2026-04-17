@@ -26,6 +26,15 @@ OUTPUT_DIR = Path(r"C:\Users\irphy\Documents\concise-guide-english-grammar\asset
 EXPORT_MULTIPLIER = 5
 
 DIAGRAMS = {
+    # 13.2 #4 / 13.11.2 A: Restrictive relative clause
+    "ch13_rel_clause_restr": "[S [NP [DET The] [N students] [RC [NP [REL who]] [VP [V studied]]]] [VP [V passed]]]",
+
+    # 13.2 #6 / 13.11.2 E: Infinitive adjectival
+    "ch13_inf_adjectival": "[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [V to spare]]]]]",
+
+    # 13.11.2 B: Non-restrictive relative clause
+    "ch13_rel_clause_non_restr": "[S [NP [NP [PRON My] [N sister]] [RC [NP [REL who]] [VP [V lives] [PP [PREP in] [NP [N Boston]]]]]] [VP [V called]]]",
+
     # 13.2 #2 / 13.6 / 13.11: Noun adjunct
     "ch13_noun_adjunct": "[S [NP [DET The] [N history] [N professor]] [VP [V lectured]]]",
 
@@ -39,16 +48,16 @@ DIAGRAMS = {
     "ch13_pp_adj_detail": "[S [NP [DET The] [N woman] [PP [PREP in] [NP [DET the] [N office]]]] [VP [V called]]]",
 
     # 13.8: Relative clause (detail section)
-    "ch13_rel_clause_detail": "[S [NP [DET The] [N student] [RC [REL who] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]",
+    "ch13_rel_clause_detail": "[S [NP [DET The] [N student] [RC [NP [REL who]] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]",
 
     # 13.9: Participial phrase (detail section)
     "ch13_part_phrase_detail": "[S [NP [DET The] [N woman] [VP [V wearing] [NP [DET the] [ADJP [ADJ red]] [N coat]]]] [VP [V smiled]]]",
 
     # 13.10: Infinitive adjectival (new sentence)
-    "ch13_inf_adj_detail": "[S [NP [DET The] [N team]] [VP [V has] [NP [NP [DET a] [N plan]] [VP [PART to] [V follow]]]]]",
+    "ch13_inf_adj_detail": "[S [NP [DET The] [N team]] [VP [V has] [NP [NP [DET a] [N plan]] [VP [V to follow]]]]]",
 
     # 13.4: Restrictive/Non-restrictive
-    "ch13_restr_nonrestr": "[S [NP [DET The] [N players] [RC [REL who] [VP [V practiced]]]] [VP [V won] [NP [DET the] [N game]]]]",
+    "ch13_restr_nonrestr": "[S [NP [DET The] [N players] [RC [NP [REL who]] [VP [V practiced]]]] [VP [V won] [NP [DET the] [N game]]]]",
 }
 
 

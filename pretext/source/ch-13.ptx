@@ -42,33 +42,17 @@
 
     <p>Consider an adjective phrase filling the adjectival role:</p>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell>Pred</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>ADJP</cell><cell>VP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>tall</foreign></cell><cell><foreign>man</foreign></cell><cell><foreign>arrived</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>ADJ</cell><cell>N</cell><cell>V</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch13_table_026.png" width="50%">
+      <description>Multi-level labeling table for "The tall man arrived"</description>
+    </image>
+    <p><c>[S [NP [DET The] [ADJ tall] [N man]] [VP [V arrived]]]</c></p>
 
     <p>Now compare a prepositional phrase filling the same adjectival role:</p>
 
-    <tabular top="minor" left="minor">
-      <col halign="left" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <col halign="center" right="minor"/>
-      <row bottom="minor"><cell>Role</cell><cell>Subj</cell><cell></cell><cell>Adjvl</cell><cell></cell><cell></cell><cell>Pred</cell></row>
-      <row bottom="minor"><cell>Phrase</cell><cell>NP</cell><cell></cell><cell>PP</cell><cell>NP</cell><cell></cell><cell>VP</cell></row>
-      <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>man</foreign></cell><cell><foreign>in</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>hat</foreign></cell><cell><foreign>arrived</foreign></cell></row>
-      <row bottom="minor"><cell>POS</cell><cell>DET</cell><cell>N</cell><cell>PREP</cell><cell>DET</cell><cell>N</cell><cell>V</cell></row>
-    </tabular>
+    <image source="diagrams/new/ch13_table_027.png" width="65%">
+      <description>Multi-level labeling table for "The man in the hat arrived"</description>
+    </image>
+    <p><c>[S [NP [DET The] [N man] [PP [PREP in] [NP [DET the] [N hat]]]] [VP [V arrived]]]</c></p>
 
     <p>Both <foreign>tall</foreign> and <foreign>in the hat</foreign> answer the question <em>which man?</em> and both modify the noun <foreign>man</foreign>. Their forms are different—an adjective phrase and a prepositional phrase—but their function is the same.</p>
 
@@ -187,7 +171,7 @@
     <image source="diagrams/new/ch13_rel_clause_restr.png" width="45%">
       <description>Syntax tree for "The students who studied passed" showing a restrictive relative clause embedded inside the subject NP</description>
     </image>
-    <p><c>[S [NP [DET The] [N students] [RC [REL who] [VP [V studied]]]] [VP [V passed]]]</c></p>
+    <p><c>[S [NP [DET The] [N students] [RC [NP [REL who]] [VP [V studied]]]] [VP [V passed]]]</c></p>
 
     <paragraphs>
       <title>5. Participial Phrases</title>
@@ -227,7 +211,7 @@
     <image source="diagrams/new/ch13_inf_adjectival.png" width="45%">
       <description>Syntax tree for "He has time to spare" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
     </image>
-    <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [PART to] [V spare]]]]]</c></p>
+    <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [V to spare]]]]]</c></p>
 
   </section>
 
@@ -422,7 +406,7 @@
     <image source="diagrams/new/ch13_restr_nonrestr.png" width="50%">
       <description>Syntax tree for "The players who practiced won the game" showing a relative clause modifying "players"</description>
     </image>
-    <p><c>[S [NP [DET The] [N players] [RC [REL who] [VP [V practiced]]]] [VP [V won] [NP [DET the] [N game]]]]</c></p>
+    <p><c>[S [NP [DET The] [N players] [RC [NP [REL who]] [VP [V practiced]]]] [VP [V won] [NP [DET the] [N game]]]]</c></p>
 
     <p>The commas are the only written signal: with them, the relative clause is supplementary information; without them, it identifies <em>which</em> players.</p>
 
@@ -758,7 +742,7 @@
     <image source="diagrams/new/ch13_rel_clause_detail.png" width="55%">
       <description>Syntax tree for "The student who won the award celebrated" showing a relative clause embedded inside the subject NP</description>
     </image>
-    <p><c>[S [NP [DET The] [N student] [RC [REL who] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]</c></p>
+    <p><c>[S [NP [DET The] [N student] [RC [NP [REL who]] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]</c></p>
 
     <p>The relative clause <foreign>who won the award</foreign> sits inside the subject NP and modifies <foreign>student</foreign>.</p>
 
@@ -959,7 +943,7 @@
     <image source="diagrams/new/ch13_inf_adj_detail.png" width="45%">
       <description>Syntax tree for "The team has a plan to follow" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
     </image>
-    <p><c>[S [NP [DET The] [N team]] [VP [V has] [NP [NP [DET a] [N plan]] [VP [PART to] [V follow]]]]]</c></p>
+    <p><c>[S [NP [DET The] [N team]] [VP [V has] [NP [NP [DET a] [N plan]] [VP [V to follow]]]]]</c></p>
 
     <p>The infinitive phrase <foreign>to follow</foreign> modifies the noun <foreign>plan</foreign>—it tells us <em>which kind of plan</em>, not <em>why</em> the team has it.</p>
 
@@ -985,6 +969,19 @@
 
     <subsection>
       <title>Identification and Classification</title>
+
+      <tabular halign="left">
+        <row header="yes" bottom="minor">
+          <cell>Adjectival Forms</cell>
+          <cell>Example</cell>
+        </row>
+        <row><cell>Adjective Phrase (ADJP)</cell><cell><foreign>the tall man</foreign>, <foreign>very interesting</foreign></cell></row>
+        <row><cell>Noun Adjunct</cell><cell><foreign>the coffee table</foreign>, <foreign>government report</foreign></cell></row>
+        <row><cell>Prepositional Phrase (PP)</cell><cell><foreign>the book on the shelf</foreign></cell></row>
+        <row><cell>Relative Clause (RC)</cell><cell><foreign>the student who won</foreign></cell></row>
+        <row><cell>Participial Phrase (VP)</cell><cell><foreign>the woman singing</foreign>, <foreign>the report written</foreign></cell></row>
+        <row><cell>Infinitive Phrase (VP)</cell><cell><foreign>a book to read</foreign></cell></row>
+      </tabular>
 
       <paragraphs>
         <title>Instructions</title>
@@ -1121,85 +1118,33 @@
       </paragraphs>
 
       <p><em>Exercise 16.</em> <foreign>The student who won the award celebrated.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>student</foreign></cell><cell><foreign>who</foreign></cell><cell><foreign>won</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>award</foreign></cell><cell><foreign>celebrated</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch13_hw_student_001.png" width="80%">
+        <description>Blank labeling table for "The student who won the award celebrated"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 17.</em> <foreign>The extremely tall building collapsed.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>extremely</foreign></cell><cell><foreign>tall</foreign></cell><cell><foreign>building</foreign></cell><cell><foreign>collapsed</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch13_hw_student_002.png" width="65%">
+        <description>Blank labeling table for "The extremely tall building collapsed"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 18.</em> <foreign>The book on the table is mine.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>book</foreign></cell><cell><foreign>on</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>table</foreign></cell><cell><foreign>is</foreign></cell><cell><foreign>mine</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch13_hw_student_003.png" width="80%">
+        <description>Blank labeling table for "The book on the table is mine"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 19.</em> <foreign>Running water flowed through the pipe.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>Running</foreign></cell><cell><foreign>water</foreign></cell><cell><foreign>flowed</foreign></cell><cell><foreign>through</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>pipe</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch13_hw_student_004.png" width="65%">
+        <description>Blank labeling table for "Running water flowed through the pipe"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 20.</em> <foreign>The woman wearing the red coat smiled.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>woman</foreign></cell><cell><foreign>wearing</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>red</foreign></cell><cell><foreign>coat</foreign></cell><cell><foreign>smiled</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <image source="diagrams/new/ch13_hw_student_005.png" width="80%">
+        <description>Blank labeling table for "The woman wearing the red coat smiled"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
     </subsection>
 
@@ -1357,7 +1302,7 @@
       <image source="diagrams/new/ch13_rel_clause_restr.png" width="45%">
         <description>Syntax tree for "The students who studied passed" showing a restrictive relative clause embedded inside the subject NP</description>
       </image>
-      <p><c>[S [NP [DET The] [N students] [RC [REL who] [VP [V studied]]]] [VP [V passed]]]</c></p>
+      <p><c>[S [NP [DET The] [N students] [RC [NP [REL who]] [VP [V studied]]]] [VP [V passed]]]</c></p>
 
       <paragraphs>
         <title>13.11.2 B: Non-restrictive relative clause: My sister who lives in Boston called.</title>
@@ -1368,7 +1313,7 @@
       <image source="diagrams/new/ch13_rel_clause_non_restr.png" width="60%">
         <description>Syntax tree for "My sister who lives in Boston called" showing a non-restrictive relative clause modifying the NP "My sister"</description>
       </image>
-      <p><c>[S [NP [NP [PRON My] [N sister]] [RC [REL who] [VP [V lives] [PP [PREP in] [NP [N Boston]]]]]] [VP [V called]]]</c></p>
+      <p><c>[S [NP [NP [PRON My] [N sister]] [RC [NP [REL who]] [VP [V lives] [PP [PREP in] [NP [N Boston]]]]]] [VP [V called]]]</c></p>
 
       <paragraphs>
         <title>13.11.2 C: Present participial phrase: The woman singing on stage left.</title>
@@ -1401,7 +1346,7 @@
       <image source="diagrams/new/ch13_inf_adjectival.png" width="45%">
         <description>Syntax tree for "He has time to spare" showing an infinitive phrase functioning as an adjectival post-modifier on the direct object NP</description>
       </image>
-      <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [PART to] [V spare]]]]]</c></p>
+      <p><c>[S [NP [PRON He]] [VP [V has] [NP [NP [N time]] [VP [V to spare]]]]]</c></p>
     </subsection>
 
   </section>
