@@ -31,22 +31,22 @@ DIAGRAM_EXERCISES = [
         'diagram': 'ch13_hw_ex16_student_award',
     },
     {
-        'num': 17, 'sentence': 'The extremely tall building collapsed.',
-        'words':   ['The', 'extremely', 'tall', 'building', 'collapsed'],
-        'roles':   ['Subj', '', '', '', 'Pred'],
-        'phrases': ['NP', 'ADJP', '', '', 'VP'],
-        'pos':     ['DET', 'ADV', 'ADJ', 'N', 'V'],
-        'bracket': '[S [NP [DET The] [ADJP [ADV extremely] [ADJ tall]] [N building]] [VP [V collapsed]]]',
-        'diagram': 'ch13_hw_ex17_tall_building',
+        'num': 17, 'sentence': 'The students selected for the team celebrated.',
+        'words':   ['The', 'students', 'selected', 'for', 'the', 'team', 'celebrated'],
+        'roles':   ['Subj', '', '', '', '', '', 'Pred'],
+        'phrases': ['NP', '', 'VP', 'PP', 'NP', '', 'VP'],
+        'pos':     ['DET', 'N', 'V', 'PREP', 'DET', 'N', 'V'],
+        'bracket': '[S [NP [DET The] [N students] [VP [V selected] [PP [PREP for] [NP [DET the] [N team]]]]] [VP [V celebrated]]]',
+        'diagram': 'ch13_hw_ex17_selected_team',
     },
     {
-        'num': 18, 'sentence': 'The book on the table is mine.',
-        'words':   ['The', 'book', 'on', 'the', 'table', 'is', 'mine'],
-        'roles':   ['Subj', '', '', '', '', 'Pred', 'SC'],
-        'phrases': ['NP', '', 'PP', 'NP', '', 'VP', 'NP'],
-        'pos':     ['DET', 'N', 'PREP', 'DET', 'N', 'V', 'PRON'],
-        'bracket': '[S [NP [DET The] [N book] [PP [PREP on] [NP [DET the] [N table]]]] [VP [V is] [NP [PRON mine]]]]',
-        'diagram': 'ch13_hw_ex18_book_table',
+        'num': 18, 'sentence': 'The team has a plan to win the tournament.',
+        'words':   ['The', 'team', 'has', 'a', 'plan', 'to win', 'the', 'tournament'],
+        'roles':   ['Subj', '', 'Pred', 'DO', '', '', '', ''],
+        'phrases': ['NP', '', 'VP', 'NP', '', 'VP', 'NP', ''],
+        'pos':     ['DET', 'N', 'V', 'DET', 'N', 'V', 'DET', 'N'],
+        'bracket': '[S [NP [DET The] [N team]] [VP [V has] [NP [DET a] [N plan] [VP [V to win] [NP [DET the] [N tournament]]]]]]',
+        'diagram': 'ch13_hw_ex18_plan_win',
     },
     {
         'num': 19, 'sentence': 'Running water flowed through the pipe.',
@@ -145,29 +145,34 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     classifications = [
         (8, 'The students who completed the extra assignment received bonus points.',
          'Restrictive (R)',
-         'No commas set off the clause. It identifies which students received bonus points \u2014 '
-         'only those who completed the extra assignment, not all students.'),
-        (9, 'The Eiffel Tower, which was built in 1889, attracts millions of visitors.',
+         'The clause identifies which students received bonus points \u2014 '
+         'only those who completed the extra assignment, not all students.',
+         'No change needed \u2014 the sentence is correctly punctuated without commas.'),
+        (9, 'The Eiffel Tower which was built in 1889 attracts millions of visitors.',
          'Non-restrictive (NR)',
-         'Commas set off the clause. The Eiffel Tower is already uniquely identified; '
-         'the clause adds supplementary information about when it was built.'),
+         'The Eiffel Tower is already uniquely identified; '
+         'the clause adds supplementary information about when it was built.',
+         'The Eiffel Tower, which was built in 1889, attracts millions of visitors.'),
         (10, 'The car that I bought last year already needs repairs.',
          'Restrictive (R)',
-         'No commas; "that" is used (typical of restrictive clauses). '
-         'The clause identifies which car \u2014 specifically the one bought last year.'),
-        (11, 'My neighbor\u2019s dog, a golden retriever, barks every morning.',
+         '"That" signals a restrictive clause identifying which car \u2014 '
+         'specifically the one bought last year.',
+         'No change needed \u2014 the sentence is correctly punctuated without commas.'),
+        (11, 'Professor Adams who teaches linguistics won a research award.',
          'Non-restrictive (NR)',
-         'Commas set off the appositive. The dog is already identified as "my neighbor\u2019s dog"; '
-         '"a golden retriever" adds extra descriptive information.'),
+         'Professor Adams is already uniquely identified by name; '
+         'the clause adds extra information about what he teaches.',
+         'Professor Adams, who teaches linguistics, won a research award.'),
     ]
 
-    for i, (num, sentence, classification, explanation) in enumerate(classifications):
+    for i, (num, sentence, classification, explanation, rewrite) in enumerate(classifications):
         if i > 0:
             question_page_break(doc, overhead)
         add_exercise(doc, num, sentence, body_size, font_name=body_font)
         answer_page_break(doc, overhead)
         add_answer_line(doc, 'Type:', classification, body_size, font_name=body_font)
         add_plain_line(doc, explanation, body_size, font_name=body_font)
+        add_answer_line(doc, 'Rewrite:', rewrite, body_size, font_name=body_font)
 
     # =============================================
     # Part 3: Sentence Combining
@@ -266,43 +271,6 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         'adds supplementary information about where he lives; it doesn\u2019t serve '
         'to distinguish him from other brothers.',
         body_size, indent=0.7, font_name=body_font)
-
-    question_page_break(doc, overhead)
-
-    # Exercise 23: Multiple Adjectivals
-    add_exercise(doc, 23, 'Identify and analyze the adjectivals in the noun phrase:', body_size, font_name=body_font)
-    add_plain_line(doc,
-        'The talented young American jazz musician from New Orleans who won the competition',
-        body_size, font_name=body_font)
-
-    answer_page_break(doc, overhead)
-    add_plain_line(doc, '23A) Adjectivals identified:', body_size, font_name=body_font)
-
-    adjectivals = [
-        ('"talented"', 'adjective (pre-modifier, opinion)'),
-        ('"young"', 'adjective (pre-modifier, age)'),
-        ('"American"', 'adjective (pre-modifier, origin)'),
-        ('"jazz"', 'noun as adjectival (pre-modifier, purpose/type)'),
-        ('"from New Orleans"', 'prepositional phrase (post-modifier)'),
-        ('"who won the competition"', 'relative clause (post-modifier)'),
-    ]
-
-    for word, form in adjectivals:
-        add_plain_line(doc, f'{word} \u2014 {form}', body_size, indent=0.7, font_name=body_font)
-
-    add_plain_line(doc,
-        '23B) Pre-modifiers follow this typical order: determiner \u2192 opinion \u2192 size \u2192 '
-        'age \u2192 shape \u2192 color \u2192 origin \u2192 material \u2192 purpose \u2192 NOUN. '
-        'In this example: opinion (talented) \u2192 age (young) \u2192 origin (American) \u2192 '
-        'type (jazz) \u2192 NOUN (musician).',
-        body_size, font_name=body_font)
-
-    add_plain_line(doc,
-        '23C) Post-modifiers follow the noun because they are longer, more complex structures '
-        '(phrases and clauses) that would be unwieldy before the noun. English places shorter, '
-        'simpler modifiers before the noun and longer, more complex ones after it. '
-        'PPs and relative clauses are too heavy for pre-nominal position.',
-        body_size, font_name=body_font)
 
     doc.save(str(output_path))
     print(f"Created: {output_path}")

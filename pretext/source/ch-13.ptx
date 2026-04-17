@@ -10,7 +10,7 @@
       <li><p>Identify the various structures that can function as adjectivals</p></li>
       <li><p>Understand how adjectival position affects meaning and emphasis</p></li>
       <li><p>Distinguish between restrictive and non-restrictive modifiers</p></li>
-      <li><p>Analyze each structural form of adjectival: adjective phrases, noun adjuncts, prepositional phrases, relative clauses, participial phrases, and infinitive phrases</p></li>
+      <li><p>Analyze each structural form of adjectival: adjective phrases, noun adjectivals, prepositional phrases, relative clauses, participial phrases, and infinitive phrases</p></li>
       <li><p>Key terms: Adjective (form), Adjectival (function), Restrictive modifier, Non-restrictive modifier, Relative clause, Participial phrase, Noun adjunct, Attributive position, Predicative position, Pre-modifier, Post-modifier</p></li>
     </ul>
   </objectives>
@@ -123,13 +123,13 @@
       <li><p><foreign>the <em>history</em> professor</foreign></p></li>
     </ul>
 
-    <p>These are sometimes called "noun adjuncts" or "attributive nouns." They always precede the head noun.</p>
+    <p>These are sometimes called "noun adjectivals" or "attributive nouns." They always precede the head noun.</p>
 
     <image source="diagrams/new/ch13_table_017.png" width="50%">
       <description>Multi-level labeling table for "The history professor lectured"</description>
     </image>
     <image source="diagrams/new/ch13_noun_adjunct.png" width="35%">
-      <description>Syntax tree for "The history professor lectured" showing a noun adjunct modifying "professor"</description>
+      <description>Syntax tree for "The history professor lectured" showing a noun adjectival modifying "professor"</description>
     </image>
     <p><c>[S [NP [DET The] [N history] [N professor]] [VP [V lectured]]]</c></p>
 
@@ -235,7 +235,7 @@
       <li><p><foreign>a <em>very interesting</em> book</foreign> (adjective phrase)</p></li>
       <li><p><foreign><em>running</em> water</foreign> (present participle)</p></li>
       <li><p><foreign>the <em>broken</em> window</foreign> (past participle)</p></li>
-      <li><p><foreign>the <em>government</em> report</foreign> (noun adjunct)</p></li>
+      <li><p><foreign>the <em>government</em> report</foreign> (noun adjectival)</p></li>
     </ul>
 
     <paragraphs>
@@ -490,15 +490,15 @@
   <!-- ============================================================ -->
 
   <section xml:id="ch-13-adjectivals-sec-136">
-    <title>Noun Adjuncts</title>
+    <title>Noun Adjectivals</title>
 
-    <p>When one noun modifies another noun, the modifying noun is called a <term>noun adjunct</term> (also known as an attributive noun). In <foreign>coffee table</foreign>, the noun <foreign>coffee</foreign> modifies <foreign>table</foreign>, specifying what <em>kind</em> of table it is. This is a productive pattern in English—speakers create new noun-noun compounds freely. Noun adjuncts differ from adjectives in important ways: they cannot be graded (<foreign><delete>a very coffee table</delete></foreign>), they cannot appear in predicative position (<foreign><delete>the table is coffee</delete></foreign>), and they always precede the head noun.</p>
+    <p>When one noun modifies another noun, the modifying noun is called a <term>noun adjectival</term> (also known as an attributive noun). In <foreign>coffee table</foreign>, the noun <foreign>coffee</foreign> modifies <foreign>table</foreign>, specifying what <em>kind</em> of table it is. This is a productive pattern in English—speakers create new noun-noun compounds freely. Noun adjuncts differ from adjectives in important ways: they cannot be graded (<foreign><delete>a very coffee table</delete></foreign>), they cannot appear in predicative position (<foreign><delete>the table is coffee</delete></foreign>), and they always precede the head noun.</p>
 
     <paragraphs>
       <title>Formation</title>
     </paragraphs>
 
-    <p>A noun adjunct is simply a noun placed before another noun to modify it. The first noun classifies, categorizes, or identifies the type of the second noun:</p>
+    <p>A noun adjectival is simply a noun placed before another noun to modify it. The first noun classifies, categorizes, or identifies the type of the second noun:</p>
 
     <ul>
       <li><p><foreign>the <em>coffee</em> table</foreign> (material/purpose)</p></li>
@@ -510,14 +510,14 @@
     </ul>
 
     <paragraphs>
-      <title>Noun Adjunct vs. Adjective</title>
+      <title>Noun Adjectival vs. Adjective</title>
     </paragraphs>
 
-    <p>How do you know whether a pre-modifier is a noun adjunct or an adjective? Apply the adjective tests from Chapter 5:</p>
+    <p>How do you know whether a pre-modifier is a noun adjectival or an adjective? Apply the adjective tests from Chapter 5:</p>
 
     <ul>
-      <li><p>Can it be graded? <foreign><delete>a very government report</delete></foreign> — No. It is a noun adjunct.</p></li>
-      <li><p>Can it appear predicatively? <foreign><delete>The report is government.</delete></foreign> — No. It is a noun adjunct.</p></li>
+      <li><p>Can it be graded? <foreign><delete>a very government report</delete></foreign> — No. It is a noun adjectival.</p></li>
+      <li><p>Can it appear predicatively? <foreign><delete>The report is government.</delete></foreign> — No. It is a noun adjectival.</p></li>
       <li><p>Compare: <foreign>a beautiful report</foreign> → <foreign>a very beautiful report</foreign> → <foreign>The report is beautiful.</foreign> — Yes to both. <foreign>Beautiful</foreign> is an adjective.</p></li>
     </ul>
 
@@ -529,11 +529,11 @@
       <description>Multi-level labeling table for "The government report arrived"</description>
     </image>
     <image source="diagrams/new/ch13_noun_adjunct_detail.png" width="35%">
-      <description>Syntax tree for "The government report arrived" showing a noun adjunct modifying the head noun "report"</description>
+      <description>Syntax tree for "The government report arrived" showing a noun adjectival modifying the head noun "report"</description>
     </image>
     <p><c>[S [NP [DET The] [N government] [N report]] [VP [V arrived]]]</c></p>
 
-    <p>Note that the POS for the noun adjunct is N (noun), not ADJ—it retains its form as a noun even though it fills the adjectival function.</p>
+    <p>Note that the POS for the noun adjectival is N (noun), not ADJ—it retains its form as a noun even though it fills the adjectival function.</p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -541,9 +541,9 @@
 
     <ul>
       <li><p>Noun adjuncts always precede the head noun—they never appear in post-position or predicative position.</p></li>
-      <li><p>Multiple noun adjuncts can stack: <foreign>the university research ethics committee</foreign>.</p></li>
-      <li><p>In the pre-modifier order (Section 13.3), noun adjuncts come last, just before the head noun: <foreign>a beautiful old French <em>cooking</em> pot</foreign>.</p></li>
-      <li><p>In diagrams, label noun adjuncts as N, not ADJ. Their form is noun; their function is adjectival.</p></li>
+      <li><p>Multiple noun adjectivals can stack: <foreign>the university research ethics committee</foreign>.</p></li>
+      <li><p>In the pre-modifier order (Section 13.3), noun adjectivals come last, just before the head noun: <foreign>a beautiful old French <em>cooking</em> pot</foreign>.</p></li>
+      <li><p>In diagrams, label noun adjectivals as N, not ADJ. Their form is noun; their function is adjectival.</p></li>
     </ul>
 
   </section>
@@ -826,7 +826,7 @@
       <title>How Relative Clauses Compare to Other Adjectivals</title>
     </paragraphs>
 
-    <p>Each adjectival form adds a different degree of structural complexity to the noun phrase. Adjective phrases and noun adjuncts are single words or tight word groups that slot directly before the head noun. Prepositional phrases add one layer of embedding—a preposition linking the noun to a following noun phrase. Participial phrases go one step further: they retain the verb's form and can take their own complements, but they lack a subject of their own. Relative clauses are the only adjectival that contains a full subject-predicate structure. This makes them the most flexible and informative of the adjectival types, but also the heaviest—and the one most likely to create attachment and parsing difficulties in long sentences.</p>
+    <p>Each adjectival form adds a different degree of structural complexity to the noun phrase. Adjective phrases and noun adjectivals are single words or tight word groups that slot directly before the head noun. Prepositional phrases add one layer of embedding—a preposition linking the noun to a following noun phrase. Participial phrases go one step further: they retain the verb's form and can take their own complements, but they lack a subject of their own. Relative clauses are the only adjectival that contains a full subject-predicate structure. This makes them the most flexible and informative of the adjectival types, but also the heaviest—and the one most likely to create attachment and parsing difficulties in long sentences.</p>
 
     <paragraphs>
       <title>Where Relative Clauses Appear</title>
@@ -1007,7 +1007,7 @@
       <li><p><em>Relative clauses:</em> the most structurally complex adjectival, containing a full clause embedded in an NP (<foreign>the student who won the prize</foreign>)</p></li>
     </ol>
 
-    <p>Adjectivals occupy three positional slots: <em>pre-modification</em> (before the noun), <em>post-modification</em> (after the noun), and <em>predicative position</em> (after a linking verb). Single adjectives and noun adjuncts precede the noun; phrases and clauses follow it. When multiple pre-modifiers stack, they follow a conventional order (opinion → size → age → shape → color → origin → material → purpose → NOUN).</p>
+    <p>Adjectivals occupy three positional slots: <em>pre-modification</em> (before the noun), <em>post-modification</em> (after the noun), and <em>predicative position</em> (after a linking verb). Single adjectives and noun adjectivals precede the noun; phrases and clauses follow it. When multiple pre-modifiers stack, they follow a conventional order (opinion → size → age → shape → color → origin → material → purpose → NOUN).</p>
 
     <p>The <em>restrictive/non-restrictive</em> distinction determines whether a modifier identifies the referent (restrictive—no commas, essential) or merely adds supplementary information (non-restrictive—set off with commas, removable). This distinction affects all adjectival types, not just relative clauses. In American English, restrictive relative clauses prefer <foreign>that</foreign> while non-restrictive clauses use <foreign>which</foreign>.</p>
   </section>
@@ -1028,7 +1028,7 @@
           <cell>Example</cell>
         </row>
         <row><cell>Adjective Phrase (ADJP)</cell><cell><foreign>the tall man</foreign>, <foreign>very interesting</foreign></cell></row>
-        <row><cell>Noun Adjunct</cell><cell><foreign>the coffee table</foreign>, <foreign>government report</foreign></cell></row>
+        <row><cell>Noun Adjectival</cell><cell><foreign>the coffee table</foreign>, <foreign>government report</foreign></cell></row>
         <row><cell>Prepositional Phrase (PP)</cell><cell><foreign>the book on the shelf</foreign></cell></row>
         <row><cell>Relative Clause (RC)</cell><cell><foreign>the student who won</foreign></cell></row>
         <row><cell>Participial Phrase (VP)</cell><cell><foreign>the woman singing</foreign>, <foreign>the report written</foreign></cell></row>
@@ -1090,17 +1090,18 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each sentence, indicate whether the underlined modifier is restrictive (R) or non-restrictive (NR). Explain your reasoning.</p>
+      <p>The commas have been removed from the following sentences. For each, determine whether the modifier is restrictive (R) or non-restrictive (NR), explain your reasoning, and rewrite the sentence with correct punctuation if needed.</p>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p><foreign>My sister, <em>who lives in Portland</em>, is visiting next week.</foreign></p>
+      <p><foreign>My sister who lives in Portland is visiting next week.</foreign></p>
 
       <ul>
         <li><p>Type: Non-restrictive (NR)</p></li>
-        <li><p>Reasoning: The commas indicate this adds extra information; the speaker has only one sister, so the clause doesn't identify which sister.</p></li>
+        <li><p>Reasoning: The speaker has only one sister, so the clause adds extra information rather than identifying which sister.</p></li>
+        <li><p>Rewrite: <foreign>My sister, who lives in Portland, is visiting next week.</foreign></p></li>
       </ul>
 
       <paragraphs>
@@ -1111,21 +1112,25 @@
 
       <p>Type:</p>
       <p>Reasoning:</p>
+      <p>Rewrite:</p>
 
-      <p><em>Exercise 9.</em> <foreign>The Eiffel Tower, which was built in 1889, attracts millions of visitors.</foreign></p>
+      <p><em>Exercise 9.</em> <foreign>The Eiffel Tower which was built in 1889 attracts millions of visitors.</foreign></p>
 
       <p>Type:</p>
       <p>Reasoning:</p>
+      <p>Rewrite:</p>
 
       <p><em>Exercise 10.</em> <foreign>The car that I bought last year already needs repairs.</foreign></p>
 
       <p>Type:</p>
       <p>Reasoning:</p>
+      <p>Rewrite:</p>
 
-      <p><em>Exercise 11.</em> <foreign>My neighbor's dog, a golden retriever, barks every morning.</foreign></p>
+      <p><em>Exercise 11.</em> <foreign>Professor Adams who teaches linguistics won a research award.</foreign></p>
 
       <p>Type:</p>
       <p>Reasoning:</p>
+      <p>Rewrite:</p>
     </subsection>
 
     <subsection>
@@ -1175,15 +1180,15 @@
       </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 17.</em> <foreign>The extremely tall building collapsed.</foreign></p>
-      <image source="diagrams/new/ch13_hw_student_002.png" width="65%">
-        <description>Blank labeling table for "The extremely tall building collapsed"</description>
+      <p><em>Exercise 17.</em> <foreign>The students selected for the team celebrated.</foreign></p>
+      <image source="diagrams/new/ch13_hw_student_002.png" width="80%">
+        <description>Blank labeling table for "The students selected for the team celebrated"</description>
       </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
-      <p><em>Exercise 18.</em> <foreign>The book on the table is mine.</foreign></p>
-      <image source="diagrams/new/ch13_hw_student_003.png" width="80%">
-        <description>Blank labeling table for "The book on the table is mine"</description>
+      <p><em>Exercise 18.</em> <foreign>The team has a plan to win the tournament.</foreign></p>
+      <image source="diagrams/new/ch13_hw_student_003.png" width="85%">
+        <description>Blank labeling table for "The team has a plan to win the tournament"</description>
       </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
@@ -1244,19 +1249,6 @@
 
       <p>Sentence (b) implies:</p>
 
-      <paragraphs>
-        <title>Multiple Adjectivals</title>
-      </paragraphs>
-
-      <p><em>Exercise 23.</em> The following noun phrase contains multiple adjectivals:</p>
-
-      <p><foreign>The talented young American jazz musician from New Orleans who won the competition</foreign></p>
-
-      <p>a) Identify each adjectival and its form:</p>
-
-      <p>b) Explain the typical order for pre-modifiers in English noun phrases (what types come before others?):</p>
-
-      <p>c) Why do post-modifiers (like <foreign>from New Orleans</foreign> and <foreign>who won the competition</foreign>) follow the noun instead of preceding it?</p>
     </subsection>
 
     <p><em>Total estimated time: 40 minutes</em></p>
@@ -1314,7 +1306,7 @@
         <description>Multi-level labeling table for "The history professor lectured"</description>
       </image>
       <image source="diagrams/new/ch13_noun_adjunct.png" width="35%">
-        <description>Syntax tree for "The history professor lectured" showing a noun adjunct modifying the head noun "professor"</description>
+        <description>Syntax tree for "The history professor lectured" showing a noun adjectival modifying the head noun "professor"</description>
       </image>
       <p><c>[S [NP [DET The] [N history] [N professor]] [VP [V lectured]]]</c></p>
     </subsection>
