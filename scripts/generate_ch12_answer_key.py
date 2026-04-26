@@ -35,7 +35,7 @@ DIAGRAM_EXERCISES = [
         'roles':   ['Subj', 'Pred', 'Advl', '', ''],
         'phrases': ['NP', 'VP', 'VP', 'NP', ''],
         'pos':     ['PRON', 'V', 'V', 'DET', 'N'],
-        'bracket': '[S [NP [PRON She]] [VP [V paused] [VP [V to check] [NP [DET her] [N notes]]]]]',
+        'bracket': '[S [NP [PRON She]] [VP [V paused] [VP [V to_check] [NP [DET her] [N notes]]]]]',
         'diagram': 'ch12_hw_ex15_paused_check',
     },
     {

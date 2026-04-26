@@ -348,8 +348,60 @@ def build_epub():
     return True
 
 
+def validate_canonical_data(chapter=None):
+    """Run scripts/validate_canonical.py. Errors abort the build.
+
+    Args:
+        chapter: optional int — restrict to one chapter's canonical files.
+
+    Returns True on pass, False on error. Warnings are printed but allowed.
+    """
+    print("Validating canonical data...")
+    cmd = [sys.executable, str(ROOT / 'scripts' / 'validate_canonical.py')]
+    if chapter is not None:
+        cmd.extend(['--chapter', str(chapter)])
+    cmd.append('--quiet')
+    result = subprocess.run(cmd, cwd=ROOT)
+    if result.returncode != 0:
+        print(f"Canonical validation FAILED. Fix errors before building.")
+        return False
+    return True
+
+
+def parse_chapter_arg(args):
+    """Detect a chapter selector in argv and return (chapter_int, remaining_args).
+
+    Accepts forms: 'ch14', 'chapter14', 'chapter 14', '--chapter 14'.
+    """
+    remaining = []
+    chapter = None
+    i = 0
+    while i < len(args):
+        a = args[i]
+        if a in ('--chapter', 'chapter') and i + 1 < len(args) and args[i + 1].isdigit():
+            chapter = int(args[i + 1])
+            i += 2
+            continue
+        m = a.lower()
+        if m.startswith('ch') and m[2:].isdigit():
+            chapter = int(m[2:])
+            i += 1
+            continue
+        if m.startswith('chapter') and m[7:].isdigit():
+            chapter = int(m[7:])
+            i += 1
+            continue
+        remaining.append(a)
+        i += 1
+    return chapter, remaining
+
+
 def main():
     args = sys.argv[1:]
+    chapter, args = parse_chapter_arg(args)
+
+    if not validate_canonical_data(chapter=chapter):
+        sys.exit(1)
 
     if not args or "html" in args:
         if not build_html():

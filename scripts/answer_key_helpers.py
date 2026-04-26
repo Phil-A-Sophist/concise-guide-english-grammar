@@ -317,9 +317,9 @@ def parse_bracket_to_multilevel(bracket):
         children = node[1:] if label else node
 
         if is_pos_node(node):
-            # Terminal: POS + word
+            # Terminal: POS + word (underscores represent spaces in multi-word tokens)
             pos_labels.append(label)
-            words.append(node[1])
+            words.append(node[1].replace('_', ' '))
             return
 
         start_col = len(words)
@@ -732,10 +732,26 @@ def add_multilevel_from_bracket(doc, bracket, roles_json_path=None, roles_dict=N
 
 
 def load_chapter_roles(chapter_num):
-    """Load the roles JSON for a chapter. Returns dict mapping bracket -> roles."""
+    """Load the roles JSON for a chapter. Returns dict mapping bracket -> roles.
+
+    Prefers canonical files in data/trees/ch{N}/ when available; falls back
+    to legacy data/static/table-roles/ch{N}_tables.json otherwise.
+    """
     import json
     from pathlib import Path
-    json_dir = Path(__file__).resolve().parent.parent / 'data' / 'static' / 'table-roles'
+    repo_root = Path(__file__).resolve().parent.parent
+    canonical_dir = repo_root / 'data' / 'trees' / f'ch{chapter_num:02d}'
+    if canonical_dir.exists():
+        result = {}
+        for jp in sorted(canonical_dir.glob('*.json')):
+            entry = json.loads(jp.read_text(encoding='utf-8'))
+            key = ' '.join(entry['bracket'].split())
+            result[key] = entry.get('roles', {})
+        if result:
+            return result
+
+    # Legacy fallback
+    json_dir = repo_root / 'data' / 'static' / 'table-roles'
     jp = json_dir / f'ch{chapter_num:02d}_tables.json'
     if not jp.exists():
         return {}
@@ -745,6 +761,32 @@ def load_chapter_roles(chapter_num):
         key = ' '.join(entry['bracket'].split())
         result[key] = entry.get('roles', {})
     return result
+
+
+def load_canonical_trees(chapter_num, purpose=None):
+    """Load all canonical tree files for a chapter from data/trees/ch{N}/.
+
+    Args:
+        chapter_num: integer chapter number
+        purpose: optional filter — 'homework', 'textbook_example', etc.
+
+    Returns:
+        list of dicts (the parsed canonical entries), sorted by id.
+        Returns empty list if directory doesn't exist.
+    """
+    import json
+    from pathlib import Path
+    canonical_dir = (Path(__file__).resolve().parent.parent
+                     / 'data' / 'trees' / f'ch{chapter_num:02d}')
+    if not canonical_dir.exists():
+        return []
+    entries = []
+    for jp in sorted(canonical_dir.glob('*.json')):
+        entry = json.loads(jp.read_text(encoding='utf-8'))
+        if purpose is not None and entry.get('purpose') != purpose:
+            continue
+        entries.append(entry)
+    return entries
 
 
 def generate_pretext_labeling_xml(words, filled=False, roles=None, phrases=None, pos_labels=None):

@@ -14,59 +14,31 @@ from answer_key_helpers import (
     add_multilevel_from_bracket, load_chapter_roles,
     parse_bracket_to_multilevel, add_multilevel_labeling_table,
     question_page_break, answer_page_break,
+    load_canonical_trees,
 )
 
 
 DIAGRAM_DIR = Path(__file__).parent.parent / 'Homework' / 'diagrams' / 'ch14'
 
 
-DIAGRAM_EXERCISES = [
-    {
-        'num': 18, 'sentence': 'What she said surprised everyone.',
-        'words':   ['What', 'she', 'said', 'surprised', 'everyone'],
-        'roles':   ['Subj', '', '', 'Pred', 'DO'],
-        'phrases': ['NOM', 'NP', 'VP', 'VP', 'NP'],
-        'pos':     ['PRON', 'PRON', 'V', 'V', 'PRON'],
-        'bracket': '[S [NOM [PRON What] [NP [PRON she]] [VP [V said]]] [VP [V surprised] [NP [PRON everyone]]]]',
-        'diagram': 'ch14_hw_ex18_what_said',
-    },
-    {
-        'num': 19, 'sentence': 'He enjoys swimming in the lake.',
-        'words':   ['He', 'enjoys', 'swimming', 'in', 'the', 'lake'],
-        'roles':   ['Subj', 'Pred', 'DO', '', '', ''],
-        'phrases': ['NP', 'VP', 'NOM', 'PP', 'NP', ''],
-        'pos':     ['PRON', 'V', 'V', 'PREP', 'DET', 'N'],
-        'bracket': '[S [NP [PRON He]] [VP [V enjoys] [NOM [V swimming] [PP [PREP in] [NP [DET the] [N lake]]]]]]',
-        'diagram': 'ch14_hw_ex19_enjoys_swimming',
-    },
-    {
-        'num': 20, 'sentence': 'To win the race was her only goal.',
-        'words':   ['To', 'win', 'the', 'race', 'was', 'her', 'only', 'goal'],
-        'roles':   ['Subj', '', '', '', 'Pred', 'SC', '', ''],
-        'phrases': ['NOM', 'VP', 'NP', '', 'VP', 'NP', '', ''],
-        'pos':     ['PART', 'V', 'DET', 'N', 'V', 'DET', 'ADJ', 'N'],
-        'bracket': '[S [NOM [PART To] [VP [V win] [NP [DET the] [N race]]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]',
-        'diagram': 'ch14_hw_ex20_to_win',
-    },
-    {
-        'num': 21, 'sentence': 'The fact that he lied angered them.',
-        'words':   ['The', 'fact', 'that', 'he', 'lied', 'angered', 'them'],
-        'roles':   ['Subj', '', '', '', '', 'Pred', 'DO'],
-        'phrases': ['NP', '', 'SBAR', 'NP', 'VP', 'VP', 'NP'],
-        'pos':     ['DET', 'N', 'COMP', 'PRON', 'V', 'V', 'PRON'],
-        'bracket': '[S [NP [DET The] [N fact] [SBAR [COMP that] [S [NP [PRON he]] [VP [V lied]]]]] [VP [V angered] [NP [PRON them]]]]',
-        'diagram': 'ch14_hw_ex21_fact_lied',
-    },
-    {
-        'num': 22, 'sentence': 'She asked whether we could help.',
-        'words':   ['She', 'asked', 'whether', 'we', 'could', 'help'],
-        'roles':   ['Subj', 'Pred', 'DO', '', '', ''],
-        'phrases': ['NP', 'VP', 'SBAR', 'NP', 'VP', ''],
-        'pos':     ['PRON', 'V', 'COMP', 'PRON', 'MOD', 'V'],
-        'bracket': '[S [NP [PRON She]] [VP [V asked] [SBAR [COMP whether] [S [NP [PRON we]] [VP [MOD could] [V help]]]]]]',
-        'diagram': 'ch14_hw_ex22_asked_whether',
-    },
-]
+def _build_diagram_exercises():
+    """Load homework exercises from canonical data/trees/ch14/."""
+    canonical = load_canonical_trees(14, purpose='homework')
+    exercises = []
+    for entry in canonical:
+        if entry.get('exercise_num') is None:
+            continue  # canonical homework items without exercise number — skip
+        exercises.append({
+            'num': entry['exercise_num'],
+            'sentence': entry['sentence'],
+            'bracket': entry['bracket'],
+            'diagram': entry.get('diagram_filename'),
+        })
+    exercises.sort(key=lambda x: x['num'])
+    return exercises
+
+
+DIAGRAM_EXERCISES = _build_diagram_exercises()
 
 
 def create_answer_key(output_path, font_size=12, overhead=False):

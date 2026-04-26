@@ -25,25 +25,27 @@ SYNTAX_TREE_DIR = Path(r"C:\Users\irphy\Documents\SyntaxTreeHybrid")
 OUTPUT_DIR = Path(r"C:\Users\irphy\Documents\concise-guide-english-grammar\assets\diagrams\new")
 EXPORT_MULTIPLIER = 5
 
-DIAGRAMS = {
-    # 14.1 / 14.4: NP as subject (basic transitive)
-    "ch14_np_subject": "[S [NP [DET The] [N students]] [VP [V read] [NP [N books]]]]",
 
-    # 14.1: Gerund phrase as subject
-    "ch14_gerund_subject": "[S [NOM [V Reading] [NP [N books]]] [VP [V is] [ADJP [ADJ fun]]]]",
+def _load_diagrams_from_canonical():
+    """Load textbook-content tree diagrams from data/trees/ch14/.
 
-    # 14.6: Gerund phrase as subject (with adverbial)
-    "ch14_gerund_running": "[S [NOM [V Running] [NP [DET every] [N morning]]] [VP [V is] [ADJP [ADJ healthy]]]]",
+    Each canonical entry whose outputs include 'diagram_png' contributes one
+    entry, keyed by diagram_filename.
+    """
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from answer_key_helpers import load_canonical_trees
+    diagrams = {}
+    for entry in load_canonical_trees(14, purpose='textbook_example'):
+        name = entry.get('diagram_filename')
+        if not name:
+            continue
+        if 'diagram_png' not in entry.get('outputs', []):
+            continue
+        diagrams[name] = entry['bracket']
+    return diagrams
 
-    # 14.7: Infinitive phrase as subject
-    "ch14_inf_subject": "[S [NOM [V To] [VP [V win] [NP [DET the] [N race]]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]",
 
-    # 14.8: That-clause as direct object
-    "ch14_that_believe": "[S [NP [PRON I]] [VP [V believe] [CC [COMP that] [NP [PRON she]] [VP [V is] [ADJP [ADJ honest]]]]]]",
-
-    # 14.9: Whether-clause as direct object
-    "ch14_whether_asked": "[S [NP [PRON She]] [VP [V asked] [CC [COMP whether] [NP [PRON we]] [VP [MOD could] [V help]]]]]",
-}
+DIAGRAMS = _load_diagrams_from_canonical()
 
 
 def log(msg):

@@ -45,7 +45,7 @@ DIAGRAM_EXERCISES = [
         'roles':   ['Subj', '', 'Pred', 'DO', '', '', '', ''],
         'phrases': ['NP', '', 'VP', 'NP', '', 'VP', 'NP', ''],
         'pos':     ['DET', 'N', 'V', 'DET', 'N', 'V', 'DET', 'N'],
-        'bracket': '[S [NP [DET The] [N team]] [VP [V has] [NP [DET a] [N plan] [VP [V to win] [NP [DET the] [N tournament]]]]]]',
+        'bracket': '[S [NP [DET The] [N team]] [VP [V has] [NP [DET a] [N plan] [VP [V to_win] [NP [DET the] [N tournament]]]]]]',
         'diagram': 'ch13_hw_ex18_plan_win',
     },
     {
@@ -87,7 +87,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 1, 'The book on the top shelf belongs to my professor.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'prepositional phrase', body_size, font_name=body_font)
-    add_plain_line(doc, 'Modifies "book" \u2014 tells which book', body_size, font_name=body_font)
+    add_answer_line(doc, 'Modifies:', '"book" \u2014 tells which book', body_size, font_name=body_font)
 
     question_page_break(doc, overhead)
 
@@ -95,7 +95,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 2, 'The woman who won the award gave an inspiring speech.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'relative clause', body_size, font_name=body_font)
-    add_plain_line(doc, 'Modifies "woman" \u2014 identifies which woman', body_size, font_name=body_font)
+    add_answer_line(doc, 'Modifies:', '"woman" \u2014 identifies which woman', body_size, font_name=body_font)
 
     question_page_break(doc, overhead)
 
@@ -103,7 +103,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 3, 'The broken window needs to be repaired immediately.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'past participle (single-word adjectival)', body_size, font_name=body_font)
-    add_plain_line(doc, 'Modifies "window" \u2014 describes the window\u2019s state', body_size, font_name=body_font)
+    add_answer_line(doc, 'Modifies:', '"window" \u2014 describes the window\u2019s state', body_size, font_name=body_font)
 
     question_page_break(doc, overhead)
 
@@ -111,7 +111,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 4, 'I need something to eat before the meeting.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'infinitive phrase', body_size, font_name=body_font)
-    add_plain_line(doc, 'Modifies "something" \u2014 specifies what kind of something', body_size, font_name=body_font)
+    add_answer_line(doc, 'Modifies:', '"something" \u2014 specifies what kind of something', body_size, font_name=body_font)
 
     question_page_break(doc, overhead)
 
@@ -119,7 +119,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 5, 'The government report was released yesterday.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'noun (used as adjectival)', body_size, font_name=body_font)
-    add_plain_line(doc, 'Modifies "report" \u2014 classifies the type of report', body_size, font_name=body_font)
+    add_answer_line(doc, 'Modifies:', '"report" \u2014 classifies the type of report', body_size, font_name=body_font)
 
     question_page_break(doc, overhead)
 
@@ -127,7 +127,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 6, 'The students waiting in line seemed impatient.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'present participial phrase', body_size, font_name=body_font)
-    add_plain_line(doc, 'Modifies "students" \u2014 identifies which students', body_size, font_name=body_font)
+    add_answer_line(doc, 'Modifies:', '"students" \u2014 identifies which students', body_size, font_name=body_font)
 
     question_page_break(doc, overhead)
 
@@ -135,7 +135,7 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_exercise(doc, 7, 'We found a very comfortable chair at the antique store.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
     add_answer_line(doc, 'Form:', 'adjective phrase', body_size, font_name=body_font)
-    add_plain_line(doc, 'Modifies "chair" \u2014 describes the chair', body_size, font_name=body_font)
+    add_answer_line(doc, 'Modifies:', '"chair" \u2014 describes the chair', body_size, font_name=body_font)
 
     # =============================================
     # Part 2: Restrictive vs. Non-Restrictive
@@ -382,30 +382,37 @@ def create_student_homework(output_path):
     add_text('Example (completed)', bold=True)
     add_text('The extremely talented musician performed last night.', italic=True)
     add_blank('   Form: adjective phrase')
-    add_blank('   Function: modifies "musician"')
+    add_blank('   Modifies: "musician"')
 
     add_text('Exercises', bold=True)
 
     add_ex(1, 'The book on the top shelf belongs to my professor.')
     add_blank('   Form:')
+    add_blank('   Modifies:')
 
     add_ex(2, 'The woman who won the award gave an inspiring speech.')
     add_blank('   Form:')
+    add_blank('   Modifies:')
 
     add_ex(3, 'The broken window needs to be repaired immediately.')
     add_blank('   Form:')
+    add_blank('   Modifies:')
 
     add_ex(4, 'I need something to eat before the meeting.')
     add_blank('   Form:')
+    add_blank('   Modifies:')
 
     add_ex(5, 'The government report was released yesterday.')
     add_blank('   Form:')
+    add_blank('   Modifies:')
 
     add_ex(6, 'The students waiting in line seemed impatient.')
     add_blank('   Form:')
+    add_blank('   Modifies:')
 
     add_ex(7, 'We found a very comfortable chair at the antique store.')
     add_blank('   Form:')
+    add_blank('   Modifies:')
 
     # =============================================
     # Part 2: Restrictive vs. Non-Restrictive

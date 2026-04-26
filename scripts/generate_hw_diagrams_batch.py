@@ -76,16 +76,16 @@ CHAPTERS = {
             '[S [DC [SUB When] [NP [PRON it]] [VP [V rained]]] [IC [NP [PRON we]] [VP [V stayed] [ADVP [ADV inside]]]]]',
     },
     'ch12': {
-        'ch12_hw_ex14_spoke_clearly':
-            '[S [NP [PRON She]] [VP [V spoke] [ADVP [ADV very] [ADV clearly]]]]',
-        'ch12_hw_ex15_train_arrived':
-            '[S [NP [DET The] [N train]] [VP [V arrived] [PP [PREP after] [NP [N midnight]]]]]',
-        'ch12_hw_ex16_walked_park':
-            '[S [NP [PRON He]] [VP [V walked] [ADVP [ADV slowly]] [PP [PREP through] [NP [DET the] [N park]]]]]',
+        'ch12_hw_ex14_practiced_afternoon':
+            '[S [NP [DET The] [N team]] [VP [V practiced] [NP [DET every] [N afternoon]]]]',
+        'ch12_hw_ex15_paused_check':
+            '[S [NP [PRON She]] [VP [V paused] [VP [V to_check] [NP [DET her] [N notes]]]]]',
+        'ch12_hw_ex16_running_caught':
+            '[S [VP [V Running] [ADVP [ADV quickly]]] [NP [PRON he]] [VP [V caught] [NP [DET the] [N bus]]]]',
         'ch12_hw_ex17_unfortunately':
             '[S [ADVP [ADV Unfortunately]] [NP [DET the] [N game]] [VP [AUX was] [V cancelled]]]',
         'ch12_hw_ex18_left_early':
-            '[S [NP [PRON She]] [VP [V left] [ADVP [ADV early]]] [SBAR [COMP because] [S [NP [DET the] [N roads]] [VP [V were] [ADJP [ADJ icy]]]]]]',
+            '[S [IC [NP [PRON She]] [VP [V left] [ADVP [ADV early]]]] [DC [SUB because] [NP [DET the] [N roads]] [VP [V were] [ADJP [ADJ icy]]]]]',
     },
     'ch13': {
         'ch13_hw_ex16_student_award':
@@ -93,24 +93,13 @@ CHAPTERS = {
         'ch13_hw_ex17_selected_team':
             '[S [NP [DET The] [N students] [VP [V selected] [PP [PREP for] [NP [DET the] [N team]]]]] [VP [V celebrated]]]',
         'ch13_hw_ex18_plan_win':
-            '[S [NP [DET The] [N team]] [VP [V has] [NP [DET a] [N plan] [VP [V to win] [NP [DET the] [N tournament]]]]]]',
+            '[S [NP [DET The] [N team]] [VP [V has] [NP [DET a] [N plan] [VP [V to_win] [NP [DET the] [N tournament]]]]]]',
         'ch13_hw_ex19_running_water':
-            '[S [NP [V Running] [N water]] [VP [V flowed] [PP [PREP through] [NP [DET the] [N pipe]]]]]',
+            '[S [NP [VP [V Running]] [N water]] [VP [V flowed] [PP [PREP through] [NP [DET the] [N pipe]]]]]',
         'ch13_hw_ex20_woman_coat':
             '[S [NP [DET The] [N woman] [VP [V wearing] [NP [DET the] [ADJP [ADJ red]] [N coat]]]] [VP [V smiled]]]',
     },
-    'ch14': {
-        'ch14_hw_ex18_what_said':
-            '[S [NOM [PRON What] [NP [PRON she]] [VP [V said]]] [VP [V surprised] [NP [PRON everyone]]]]',
-        'ch14_hw_ex19_enjoys_swimming':
-            '[S [NP [PRON He]] [VP [V enjoys] [NOM [V swimming] [PP [PREP in] [NP [DET the] [N lake]]]]]]',
-        'ch14_hw_ex20_to_win':
-            '[S [NOM [PART To] [VP [V win] [NP [DET the] [N race]]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]',
-        'ch14_hw_ex21_fact_lied':
-            '[S [NP [DET The] [N fact] [SBAR [COMP that] [S [NP [PRON he]] [VP [V lied]]]]] [VP [V angered] [NP [PRON them]]]]',
-        'ch14_hw_ex22_asked_whether':
-            '[S [NP [PRON She]] [VP [V asked] [SBAR [COMP whether] [S [NP [PRON we]] [VP [MOD could] [V help]]]]]]',
-    },
+    # 'ch14' loaded from canonical data/trees/ch14/ — see _load_canonical_ch14() below
     'ch15': {
         'ch15_hw_ex16_storm_ended':
             '[S [IC [NP [DET The] [N storm]] [VP [V ended]]] [CC [CONJ and]] [IC [NP [DET the] [N sun]] [VP [V came] [ADVP [ADV out]]]]]',
@@ -124,6 +113,25 @@ CHAPTERS = {
             '[S [PP [PREP After] [NP [DET the] [N lecture]]] [NP [N students]] [VP [V asked] [NP [DET many] [N questions]]]]',
     },
 }
+
+
+def _load_canonical_ch14():
+    """Load ch14 homework diagrams from canonical data/trees/ch14/."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from answer_key_helpers import load_canonical_trees
+    out = {}
+    for entry in load_canonical_trees(14, purpose='homework'):
+        name = entry.get('diagram_filename')
+        if not name:
+            continue
+        if 'diagram_png' not in entry.get('outputs', []):
+            continue
+        out[name] = entry['bracket']
+    return out
+
+
+# Inject canonical ch14 entries
+CHAPTERS['ch14'] = _load_canonical_ch14()
 
 
 def log(msg):
@@ -146,9 +154,23 @@ def save_data_url_as_png(data_url, filepath):
 
 
 def main():
-    total = sum(len(d) for d in CHAPTERS.values())
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--chapter', type=int, default=None,
+                        help='Limit to a single chapter, e.g., --chapter 14')
+    cli_args = parser.parse_args()
+
+    chapters = dict(CHAPTERS)
+    if cli_args.chapter is not None:
+        key = f'ch{cli_args.chapter:02d}'
+        chapters = {key: chapters.get(key, {})}
+        if not chapters[key]:
+            log(f"No diagrams for {key}")
+            return
+
+    total = sum(len(d) for d in chapters.values())
     log("=" * 60)
-    log(f"Generating Homework Diagrams: {len(CHAPTERS)} chapters, {total} diagrams")
+    log(f"Generating Homework Diagrams: {len(chapters)} chapter(s), {total} diagrams")
     log("=" * 60)
 
     log("Starting HTTP server...")
@@ -163,7 +185,7 @@ def main():
         browser = p.chromium.launch(headless=False)
         page = browser.new_page(viewport={"width": 1400, "height": 900})
 
-        for ch_name, diagrams in CHAPTERS.items():
+        for ch_name, diagrams in chapters.items():
             output_dir = BASE_OUTPUT_DIR / ch_name
             output_dir.mkdir(parents=True, exist_ok=True)
             log(f"\n--- {ch_name.upper()} ({len(diagrams)} diagrams) -> {output_dir} ---")
