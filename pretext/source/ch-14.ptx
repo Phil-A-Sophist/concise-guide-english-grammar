@@ -314,9 +314,21 @@
 
     <p>Section 14.1 showed a basic NP filling the subject slot in <foreign>The students read books</foreign>. The labeling table and tree diagram for that example serve as the canonical NP-as-subject illustration; refer back to it for the simplest case. Below we illustrate a more developed NP—one with both pre-modification and post-modification—to show that internal complexity does not change the nominal function.</p>
 
-    <p>Consider the sentence <foreign>She read the interesting book on the shelf</foreign>. The subject <foreign>She</foreign> is a pronoun NP; the direct object <foreign>the interesting book on the shelf</foreign> is a much heavier NP that combines a determiner, an adjective phrase, a head noun, and a postmodifying prepositional phrase. Despite the difference in length, both NPs do exactly what NPs do: they fill an argument slot of the verb <foreign>read</foreign>:</p>
+    <p>Consider the sentence <foreign>She read the interesting book on the shelf</foreign>. The subject <foreign>She</foreign> is a pronoun NP; the direct object <foreign>the interesting book on the shelf</foreign> is a much heavier NP that combines a determiner, an adjective phrase, a head noun, and a postmodifying prepositional phrase. Despite the difference in length, both NPs do exactly what NPs do: they fill an argument slot of the verb <foreign>read</foreign>.</p>
 
+    <paragraphs>
+      <title>Labeling Table: <foreign>She read the interesting book on the shelf</foreign></title>
+    </paragraphs>
+
+    <image source="diagrams/new/ch14_table_017.png" width="95%">
+      <description>Multi-level labeling table for "She read the interesting book on the shelf"</description>
+    </image>
+    <image source="diagrams/new/ch14_np_complex.png" width="65%">
+      <description>Syntax tree for "She read the interesting book on the shelf" showing a complex NP as direct object</description>
+    </image>
     <p><c>[S [NP [PRON She]] [VP [V read] [NP [DET the] [ADJP [ADJ interesting]] [N book] [PP [PREP on] [NP [DET the] [N shelf]]]]]]</c></p>
+
+    <p>The internal structure of the direct-object NP shows three layers of modification—an adjective before the head, a prepositional phrase after the head, and a smaller NP inside that PP—but the topmost label of the whole structure is still NP, and its role is still Direct Object. That is the point: NPs scale up without changing what they are functionally.</p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -376,6 +388,9 @@
 
     <image source="diagrams/new/ch14_table_015.png" width="80%">
       <description>Multi-level labeling table for "She gave him the book"</description>
+    </image>
+    <image source="diagrams/new/ch14_pronoun_ditrans.png" width="55%">
+      <description>Syntax tree for "She gave him the book" showing three pronouns and a noun phrase in subject, indirect object, and direct object positions</description>
     </image>
     <p><c>[S [NP [PRON She]] [VP [V gave] [NP [PRON him]] [NP [DET the] [N book]]]]</c></p>
 
@@ -550,6 +565,9 @@
     <image source="diagrams/new/ch14_table_016.png" width="90%">
       <description>Multi-level labeling table for extraposed infinitive subject "It is difficult to learn a new language"</description>
     </image>
+    <image source="diagrams/new/ch14_extraposition.png" width="65%">
+      <description>Syntax tree for "It is difficult to learn a new language" showing the placeholder it and the extraposed infinitive phrase</description>
+    </image>
     <p><c>[S [NP [PRON It]] [VP [V is] [ADJP [ADJ difficult]] [VP [V to learn] [NP [DET a] [ADJP [ADJ new]] [N language]]]]]</c></p>
 
     <p>Two things stand out. First, English fills the surface subject slot with <foreign>it</foreign> even though that pronoun has no real referent—a pure placeholder. Second, the infinitive phrase is labeled <term>Extraposed Subject</term> to mark the unusual relationship: it is the underlying subject, but it has been displaced to the end of the clause to satisfy the end-weight preference. Notice also that the infinitive <foreign>to learn</foreign> sits in a single column under a single V—the marker <foreign>to</foreign> and the verb <foreign>learn</foreign> form one verbal unit.</p>
@@ -676,6 +694,40 @@
       <li><p>In diagrams, label the complementizer <foreign>that</foreign> as COMP.</p></li>
     </ul>
 
+    <paragraphs>
+      <title>Variations: That-clause in Other Positions</title>
+    </paragraphs>
+
+    <p>The example above placed the that-clause in direct-object position. Two further patterns are common: the that-clause as <em>subject</em> and the that-clause as <em>subject complement</em>. Each illustrates that the same internal structure—a complementizer plus a full clause—can fill different argument slots in the matrix sentence.</p>
+
+    <paragraphs>
+      <title>Labeling Table: <foreign>That she resigned surprised everyone</foreign> (that-clause as Subject)</title>
+    </paragraphs>
+
+    <image source="diagrams/new/ch14_table_018.png" width="80%">
+      <description>Multi-level labeling table for "That she resigned surprised everyone"</description>
+    </image>
+    <image source="diagrams/new/ch14_that_subject.png" width="55%">
+      <description>Syntax tree for "That she resigned surprised everyone" showing a that-clause filling subject position</description>
+    </image>
+    <p><c>[S [CC [COMP That] [NP [PRON she]] [VP [V resigned]]] [VP [V surprised] [NP [PRON everyone]]]]</c></p>
+
+    <p>The that-clause here is the subject of <foreign>surprised</foreign>. Notice that in subject position the complementizer <foreign>that</foreign> cannot be dropped—removing it would produce <foreign><delete>She resigned surprised everyone</delete></foreign>, which English does not allow.</p>
+
+    <paragraphs>
+      <title>Labeling Table: <foreign>The truth is that she lied</foreign> (that-clause as Subject Complement)</title>
+    </paragraphs>
+
+    <image source="diagrams/new/ch14_table_019.png" width="80%">
+      <description>Multi-level labeling table for "The truth is that she lied"</description>
+    </image>
+    <image source="diagrams/new/ch14_that_complement.png" width="55%">
+      <description>Syntax tree for "The truth is that she lied" showing a that-clause as subject complement after the linking verb</description>
+    </image>
+    <p><c>[S [NP [DET The] [N truth]] [VP [V is] [CC [COMP that] [NP [PRON she]] [VP [V lied]]]]]</c></p>
+
+    <p>Here the that-clause follows the linking verb <foreign>is</foreign> and identifies what the subject <foreign>The truth</foreign> consists of. Pedagogically this pattern is worth memorizing because it is the most common way to deliver a propositional definition or explanation in formal writing.</p>
+
   </section>
 
   <!-- ============================================================ -->
@@ -788,10 +840,44 @@
       <li><p>Common verbs taking wh-clause objects: <foreign>know, wonder, ask, tell, explain, decide, understand</foreign>.</p></li>
     </ul>
 
+    <paragraphs>
+      <title>Variations: Wh-word Roles and Wh-clause Positions</title>
+    </paragraphs>
+
+    <p>Wh-clauses are richer than that-clauses in two ways. First, the wh-word can itself fill a grammatical role inside the embedded clause—as subject, object, or even adverbial. Second, wh-clauses are the only complement-clause type that can serve as the object of a preposition. The two examples below illustrate each variation.</p>
+
+    <paragraphs>
+      <title>Labeling Table: <foreign>What happened was unexpected</foreign> (wh-word as embedded subject)</title>
+    </paragraphs>
+
+    <image source="diagrams/new/ch14_table_020.png" width="65%">
+      <description>Multi-level labeling table for "What happened was unexpected" showing the wh-word as the subject of its own clause</description>
+    </image>
+    <image source="diagrams/new/ch14_wh_embedded_subject.png" width="50%">
+      <description>Syntax tree for "What happened was unexpected" showing the wh-word filling the subject NP slot of the embedded clause</description>
+    </image>
+    <p><c>[S [CC [NP [PRON What]] [VP [V happened]]] [VP [V was] [ADJP [ADJ unexpected]]]]</c></p>
+
+    <p>Here the wh-word <foreign>What</foreign> serves a double duty: it introduces the embedded clause <em>and</em> functions as that clause's subject. There is no separate complementizer node—the wh-pronoun fills the subject NP slot directly. The whole CC then occupies the matrix subject slot.</p>
+
+    <paragraphs>
+      <title>Labeling Table: <foreign>We talked about what he said</foreign> (wh-clause as Object of Preposition)</title>
+    </paragraphs>
+
+    <image source="diagrams/new/ch14_table_021.png" width="80%">
+      <description>Multi-level labeling table for "We talked about what he said" showing a wh-clause as object of preposition</description>
+    </image>
+    <image source="diagrams/new/ch14_wh_objprep.png" width="55%">
+      <description>Syntax tree for "We talked about what he said" showing the wh-clause filling the object-of-preposition slot inside an adverbial PP</description>
+    </image>
+    <p><c>[S [NP [PRON We]] [VP [V talked] [PP [PREP about] [CC [COMP what] [NP [PRON he]] [VP [V said]]]]]]</c></p>
+
+    <p>Of all the complement-clause types, only wh-clauses can sit after a preposition. You can say <foreign>about what he said</foreign> but not <foreign><delete>about that he said</delete></foreign>. This pattern is common after verbs and adjectives that select prepositional complements: <foreign>think about, talk about, interested in, curious about, worried about</foreign>.</p>
+
   </section>
 
   <!-- ============================================================ -->
-  <!-- 14.10  COMPARING NOMINAL STRUCTURES                           -->
+  <!-- 14.10 (CUT) COMPARING NOMINAL STRUCTURES                      -->
   <!-- ============================================================ -->
 
   <section xml:id="ch-14-nominals-sec-1410">
