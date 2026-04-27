@@ -8,7 +8,7 @@
     <ul>
       <li><p>Distinguish between nouns (form) and nominals (function/role in a sentence)</p></li>
       <li><p>Identify the various structures that can function as nominals</p></li>
-      <li><p>Understand the five syntactic positions nominals occupy</p></li>
+      <li><p>Understand the six syntactic positions nominals occupy</p></li>
       <li><p>Analyze gerund phrases, infinitive phrases, and complement clauses as nominals</p></li>
       <li><p>Distinguish between that-clauses and wh-clauses as complement clauses</p></li>
       <li><p>Compare gerund, infinitive, and clausal nominal structures</p></li>
@@ -64,7 +64,7 @@
     <p>Both <foreign>The students</foreign> and <foreign>Reading books</foreign> fill the subject slot. Their forms are completely different—a noun phrase and a gerund phrase—but their function is the same.</p>
 
     <paragraphs>
-      <title>The Five Nominal Positions</title>
+      <title>The Six Nominal Positions</title>
     </paragraphs>
 
     <p>Unlike adverbials (which are optional) and adjectivals (which modify nouns), nominals fill the <em>argument</em> positions of a clause—the slots that the verb requires or that the sentence structure provides. Chapter 8 introduced these positions; here is a quick reference:</p>
@@ -80,6 +80,7 @@
       <row><cell>Indirect Object</cell><cell>Before the direct object</cell><cell><foreign>She gave <em>me</em> a book.</foreign></cell></row>
       <row><cell>Object of Preposition</cell><cell>After a preposition</cell><cell><foreign>We talked about <em>the problem</em>.</foreign></cell></row>
       <row><cell>Subject Complement</cell><cell>After a linking verb</cell><cell><foreign>She is <em>a doctor</em>.</foreign></cell></row>
+      <row><cell>Object Complement</cell><cell>After the direct object</cell><cell><foreign>They elected her <em>president</em>.</foreign></cell></row>
     </tabular>
 
     <p>See Section 14.3 for a fuller treatment of these positions with examples from all nominal types.</p>
@@ -208,7 +209,7 @@
   <section xml:id="ch-14-nominals-sec-143">
     <title>Nominal Position</title>
 
-    <p>One of the most useful things about the nominal function is that it gives you a systematic way to identify what role any noun-like structure is playing in a sentence. Rather than asking <q>Is this a noun?</q>—a question about form—you ask <q>What slot does it fill?</q>—a question about function. The answer is one of five positions: subject, direct object, indirect object, object of a preposition, or subject complement. Each position has a characteristic location in the sentence, and recognizing the position tells you immediately how the nominal relates to the verb and the rest of the clause.</p>
+    <p>One of the most useful things about the nominal function is that it gives you a systematic way to identify what role any noun-like structure is playing in a sentence. Rather than asking <q>Is this a noun?</q>—a question about form—you ask <q>What slot does it fill?</q>—a question about function. The answer is one of six positions: subject, direct object, indirect object, object of a preposition, subject complement, or object complement. Each position has a characteristic location in the sentence, and recognizing the position tells you immediately how the nominal relates to the verb and the rest of the clause.</p>
 
     <paragraphs>
       <title>Subject Position</title>
@@ -251,7 +252,7 @@
       <title>Object of Preposition</title>
     </paragraphs>
 
-    <p>The object of a preposition completes a prepositional phrase. <em>Diagnostic:</em> find a preposition (<foreign>about, in, by, for, with</foreign>, etc.); whatever nominal follows and completes its meaning is the object of the preposition. Of all five positions, this one shows the sharpest restriction: gerunds and noun phrases appear here freely, but infinitive phrases cannot fill this slot at all (you cannot say <foreign><delete>interested in to learn</delete></foreign>).</p>
+    <p>The object of a preposition completes a prepositional phrase. <em>Diagnostic:</em> find a preposition (<foreign>about, in, by, for, with</foreign>, etc.); whatever nominal follows and completes its meaning is the object of the preposition. Of all six positions, this one shows the sharpest restriction: gerunds and noun phrases appear here freely, but infinitive phrases cannot fill this slot at all (you cannot say <foreign><delete>interested in to learn</delete></foreign>).</p>
 
     <ul>
       <li><p><foreign>We talked about <em>the problem</em>.</foreign> (NP)</p></li>
@@ -271,6 +272,21 @@
       <li><p><foreign>His hobby is <em>collecting coins</em>.</foreign> (gerund)</p></li>
       <li><p><foreign>The goal is <em>to finish on time</em>.</foreign> (infinitive)</p></li>
     </ul>
+
+    <paragraphs>
+      <title>Object Complement Position</title>
+    </paragraphs>
+
+    <p>An object complement follows the direct object and renames or characterizes <em>the direct object</em>—not the subject. It appears after verbs like <foreign>elect, name, call, consider, declare, appoint</foreign>, where one entity is being assigned an identity, role, or label. <em>Diagnostic:</em> after the direct object, ask <q>the direct object equals what?</q>—if a nominal answers that, it is functioning as the object complement:</p>
+
+    <ul>
+      <li><p><foreign>They elected her <em>president</em>.</foreign> (NP)</p></li>
+      <li><p><foreign>We named the dog <em>Rex</em>.</foreign> (NP)</p></li>
+      <li><p><foreign>I consider him <em>a good friend</em>.</foreign> (NP)</p></li>
+      <li><p><foreign>The board declared the meeting <em>a success</em>.</foreign> (NP)</p></li>
+    </ul>
+
+    <p>Object complements are most often noun phrases or adjective phrases. The nominal use—an NP renaming the direct object—is the relevant pattern for this chapter.</p>
 
   </section>
 
@@ -307,7 +323,7 @@
     </paragraphs>
 
     <ul>
-      <li><p>NPs can fill all five nominal positions (subject, direct object, indirect object, object of preposition, subject complement).</p></li>
+      <li><p>NPs can fill all six nominal positions (subject, direct object, indirect object, object of preposition, subject complement, object complement).</p></li>
       <li><p>The head noun determines the number (singular/plural) and triggers verb agreement, regardless of how many modifiers attach to it.</p></li>
       <li><p>Chapters 12 and 13 showed NPs functioning as adverbials and adjectivals—form is noun phrase, but function varies. Position in the sentence is what tells you whether an NP is acting as a nominal, an adverbial, or an adjectival.</p></li>
     </ul>
@@ -353,53 +369,14 @@
     </ul>
 
     <paragraphs>
-      <title>Labeling Table</title>
+      <title>Labeling Table: <foreign>She gave him the book</foreign></title>
     </paragraphs>
 
     <p>The sentence <foreign>She gave him the book</foreign> packs three nominals into a single short clause—a subject pronoun, an indirect object pronoun, and a direct object noun phrase. The labeling table below makes this triple visible:</p>
 
-    <table xml:id="ch-14-table-pronoun">
-      <title>Pronoun nominals in three positions: <foreign>She gave him the book</foreign></title>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row header="yes" bottom="minor">
-          <cell>Role</cell>
-          <cell>Subject</cell>
-          <cell>Predicate</cell>
-          <cell>Indirect Object</cell>
-          <cell colspan="2">Direct Object</cell>
-        </row>
-        <row bottom="minor">
-          <cell>Phrase</cell>
-          <cell>NP</cell>
-          <cell>VP</cell>
-          <cell>NP</cell>
-          <cell colspan="2">NP</cell>
-        </row>
-        <row bottom="minor">
-          <cell>Word</cell>
-          <cell><foreign>She</foreign></cell>
-          <cell><foreign>gave</foreign></cell>
-          <cell><foreign>him</foreign></cell>
-          <cell><foreign>the</foreign></cell>
-          <cell><foreign>book</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell>POS</cell>
-          <cell>PRON</cell>
-          <cell>V</cell>
-          <cell>PRON</cell>
-          <cell>DET</cell>
-          <cell>N</cell>
-        </row>
-      </tabular>
-    </table>
-
+    <image source="diagrams/new/ch14_table_015.png" width="80%">
+      <description>Multi-level labeling table for "She gave him the book"</description>
+    </image>
     <p><c>[S [NP [PRON She]] [VP [V gave] [NP [PRON him]] [NP [DET the] [N book]]]]</c></p>
 
     <p>Notice that all three nominals are NPs at the phrase level even though one of them is a single pronoun and another is a determiner-plus-noun. Position—not internal complexity—is what makes each nominal what it is. Notice too the case shift: <foreign>she</foreign> in subject position and <foreign>him</foreign> in object position are the same person, but English requires different forms.</p>
@@ -476,7 +453,7 @@
     <p>Both are acceptable in modern English, though the possessive is preferred in formal writing.</p>
 
     <paragraphs>
-      <title>Labeling Table</title>
+      <title>Labeling Table: <foreign>Running every morning is healthy</foreign></title>
     </paragraphs>
 
     <image source="diagrams/new/ch14_table_011.png" width="65%">
@@ -485,7 +462,7 @@
     <image source="diagrams/new/ch14_gerund_running.png" width="55%">
       <description>Syntax tree for "Running every morning is healthy" showing a gerund phrase as subject</description>
     </image>
-    <p><c>[S [NOM [V Running] [NP [DET every] [N morning]]] [VP [V is] [ADJP [ADJ healthy]]]]</c></p>
+    <p><c>[S [VP [V Running] [NP [DET every] [N morning]]] [VP [V is] [ADJP [ADJ healthy]]]]</c></p>
 
     <p>The gerund phrase <foreign>Running every morning</foreign> fills the subject slot—a position normally occupied by a noun phrase.</p>
 
@@ -495,7 +472,7 @@
 
     <ul>
       <li><p>Gerunds look identical to present participles (<foreign>-ing</foreign>). The distinction is functional: gerunds are nominals, participles are adjectivals or part of verb phrases.</p></li>
-      <li><p>Gerund phrases can fill all five nominal positions, including object of preposition (which infinitives cannot).</p></li>
+      <li><p>Gerund phrases can fill subject, direct object, indirect object, object of preposition, and subject complement positions—including object of preposition (which infinitives cannot).</p></li>
       <li><p>In diagrams, label the gerund phrase as GP (gerund phrase) at the phrase level.</p></li>
     </ul>
 
@@ -564,65 +541,21 @@
       <li><p><foreign><em>It</em> is challenging <em>to learn a new language at fifty</em>.</foreign> (extraposed)</p></li>
     </ul>
 
-    <p>Extraposition is extremely common in both speech and writing. The extraposed version is often preferred because it places the main verb closer to the beginning of the sentence, making it easier to process. The labeling table below shows what extraposition looks like under analysis: the surface subject is the placeholder pronoun <foreign>it</foreign>, while the infinitive phrase—the <em>real</em> subject in semantic terms—appears at the end of the clause:</p>
-
-    <table xml:id="ch-14-table-extraposition">
-      <title>Extraposed infinitive subject: <foreign>It is difficult to learn a new language</foreign></title>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row header="yes" bottom="minor">
-          <cell>Role</cell>
-          <cell>Placeholder Subject</cell>
-          <cell>Predicate</cell>
-          <cell>Subject Complement</cell>
-          <cell colspan="5">Extraposed Subject</cell>
-        </row>
-        <row bottom="minor">
-          <cell>Phrase</cell>
-          <cell>NP</cell>
-          <cell>VP</cell>
-          <cell>ADJP</cell>
-          <cell colspan="5">NOM</cell>
-        </row>
-        <row bottom="minor">
-          <cell>Word</cell>
-          <cell><foreign>It</foreign></cell>
-          <cell><foreign>is</foreign></cell>
-          <cell><foreign>difficult</foreign></cell>
-          <cell><foreign>to</foreign></cell>
-          <cell><foreign>learn</foreign></cell>
-          <cell><foreign>a</foreign></cell>
-          <cell><foreign>new</foreign></cell>
-          <cell><foreign>language</foreign></cell>
-        </row>
-        <row bottom="minor">
-          <cell>POS</cell>
-          <cell>PRON</cell>
-          <cell>V</cell>
-          <cell>ADJ</cell>
-          <cell>PART</cell>
-          <cell>V</cell>
-          <cell>DET</cell>
-          <cell>ADJ</cell>
-          <cell>N</cell>
-        </row>
-      </tabular>
-    </table>
-
-    <p><c>[S [NP [PRON It]] [VP [V is] [ADJP [ADJ difficult]] [NOM [PART to] [VP [V learn] [NP [DET a] [ADJP [ADJ new]] [N language]]]]]]</c></p>
-
-    <p>Two things stand out. First, English fills the surface subject slot with <foreign>it</foreign> even though that pronoun has no real referent—a pure placeholder. Second, the infinitive phrase is labeled <term>Extraposed Subject</term> to mark the unusual relationship: it is the underlying subject, but it has been displaced to the end of the clause to satisfy the end-weight preference.</p>
+    <p>Extraposition is extremely common in both speech and writing. The extraposed version is often preferred because it places the main verb closer to the beginning of the sentence, making it easier to process. The labeling table below shows what extraposition looks like under analysis: the surface subject is the placeholder pronoun <foreign>it</foreign>, while the infinitive phrase—the <em>real</em> subject in semantic terms—appears at the end of the clause.</p>
 
     <paragraphs>
-      <title>Labeling Table</title>
+      <title>Labeling Table: <foreign>It is difficult to learn a new language</foreign> (extraposition)</title>
+    </paragraphs>
+
+    <image source="diagrams/new/ch14_table_016.png" width="90%">
+      <description>Multi-level labeling table for extraposed infinitive subject "It is difficult to learn a new language"</description>
+    </image>
+    <p><c>[S [NP [PRON It]] [VP [V is] [ADJP [ADJ difficult]] [VP [V to learn] [NP [DET a] [ADJP [ADJ new]] [N language]]]]]</c></p>
+
+    <p>Two things stand out. First, English fills the surface subject slot with <foreign>it</foreign> even though that pronoun has no real referent—a pure placeholder. Second, the infinitive phrase is labeled <term>Extraposed Subject</term> to mark the unusual relationship: it is the underlying subject, but it has been displaced to the end of the clause to satisfy the end-weight preference. Notice also that the infinitive <foreign>to learn</foreign> sits in a single column under a single V—the marker <foreign>to</foreign> and the verb <foreign>learn</foreign> form one verbal unit.</p>
+
+    <paragraphs>
+      <title>Labeling Table: <foreign>To win the race was her only goal</foreign></title>
     </paragraphs>
 
     <image source="diagrams/new/ch14_table_012.png" width="65%">
@@ -631,9 +564,9 @@
     <image source="diagrams/new/ch14_inf_subject.png" width="55%">
       <description>Syntax tree for "To win the race was her only goal" showing an infinitive phrase as subject</description>
     </image>
-    <p><c>[S [NOM [PART To] [VP [V win] [NP [DET the] [N race]]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]</c></p>
+    <p><c>[S [VP [V To win] [NP [DET the] [N race]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]</c></p>
 
-    <p>The infinitive phrase <foreign>To win the race</foreign> fills the subject position. Note that the infinitive marker <foreign>to</foreign> is labeled <term>PART</term> (particle) rather than <term>V</term>: it is the verbal-marker function that wraps a verb and turns the whole phrase into a nominal, not a verb itself.</p>
+    <p>The infinitive phrase <foreign>To win the race</foreign> fills the subject position. Note that the marker <foreign>to</foreign> and the verb <foreign>win</foreign> are treated as a single verb unit—they live in one cell of the labeling table and one V node in the tree. The phrase as a whole is a VP serving the nominal function (Subject); the form is verbal but the function is nominal.</p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -719,7 +652,7 @@
     </ul>
 
     <paragraphs>
-      <title>Labeling Table</title>
+      <title>Labeling Table: <foreign>I believe that she is honest</foreign></title>
     </paragraphs>
 
     <image source="diagrams/new/ch14_table_013.png" width="65%">
@@ -832,7 +765,7 @@
     <p>In general, <foreign>whether</foreign> is preferred in formal writing and required in subject position.</p>
 
     <paragraphs>
-      <title>Labeling Table</title>
+      <title>Labeling Table: <foreign>She asked whether we could help</foreign></title>
     </paragraphs>
 
     <image source="diagrams/new/ch14_table_014.png" width="65%">
@@ -876,6 +809,7 @@
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
         <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
         <col halign="left" right="minor"/>
         <row header="yes" bottom="minor">
           <cell>Form</cell>
@@ -883,12 +817,13 @@
           <cell>Direct Object</cell>
           <cell>Obj. of Prep.</cell>
           <cell>Subject Compl.</cell>
+          <cell>Object Compl.</cell>
           <cell>Typical flavor</cell>
         </row>
-        <row><cell>Gerund phrase</cell><cell>yes</cell><cell>yes</cell><cell>yes</cell><cell>yes</cell><cell>activity / process</cell></row>
-        <row><cell>Infinitive phrase</cell><cell>yes (often extraposed)</cell><cell>yes (selected verbs)</cell><cell>no</cell><cell>yes</cell><cell>goal / hypothetical</cell></row>
-        <row><cell>That-clause</cell><cell>yes</cell><cell>yes (selected verbs)</cell><cell>no</cell><cell>yes</cell><cell>asserted proposition</cell></row>
-        <row><cell>Wh-clause</cell><cell>yes</cell><cell>yes (selected verbs)</cell><cell>yes</cell><cell>yes</cell><cell>embedded question</cell></row>
+        <row><cell>Gerund phrase</cell><cell>yes</cell><cell>yes</cell><cell>yes</cell><cell>yes</cell><cell>rare</cell><cell>activity / process</cell></row>
+        <row><cell>Infinitive phrase</cell><cell>yes (often extraposed)</cell><cell>yes (selected verbs)</cell><cell>no</cell><cell>yes</cell><cell>rare</cell><cell>goal / hypothetical</cell></row>
+        <row><cell>That-clause</cell><cell>yes</cell><cell>yes (selected verbs)</cell><cell>no</cell><cell>yes</cell><cell>no</cell><cell>asserted proposition</cell></row>
+        <row><cell>Wh-clause</cell><cell>yes</cell><cell>yes (selected verbs)</cell><cell>yes</cell><cell>yes</cell><cell>no</cell><cell>embedded question</cell></row>
       </tabular>
     </table>
 
@@ -970,9 +905,9 @@
 
     <ul>
       <li><p><em>Form vs. function:</em> A noun is a part of speech (form); a nominal is any structure functioning in a noun-phrase position (function). All nouns in subject or object position are nominals, but not all nominals are nouns.</p></li>
-      <li><p><em>Five nominal positions:</em> subject, direct object, indirect object, object of a preposition, and subject complement. These are the argument slots that the verb requires or the sentence structure provides.</p></li>
+      <li><p><em>Six nominal positions:</em> subject, direct object, indirect object, object of a preposition, subject complement, and object complement. These are the argument slots that the verb requires or the sentence structure provides.</p></li>
       <li><p><em>Six nominal forms:</em> noun phrases, pronouns, gerund phrases, infinitive phrases, that-clauses, and wh-clauses can each fill nominal positions, though some have distributional restrictions.</p></li>
-      <li><p><em>Gerund phrases</em> (<foreign>-ing</foreign> form) can fill all five nominal positions, including object of a preposition.</p></li>
+      <li><p><em>Gerund phrases</em> (<foreign>-ing</foreign> form) can fill subject, direct object, indirect object, object of a preposition, and subject complement positions.</p></li>
       <li><p><em>Infinitive phrases</em> (<foreign>to</foreign> + verb) fill subject, direct object, and complement positions—but not object of a preposition.</p></li>
       <li><p><em>Complement clauses</em> are full clauses filling nominal positions. That-clauses embed statements; wh-clauses embed questions. The complementizer <foreign>that</foreign> can be omitted in object position but not in subject position.</p></li>
       <li><p><em>Extraposition</em> moves long subject clauses to the end of the sentence, placing <foreign>it</foreign> as a placeholder subject—a common pattern in both speech and writing.</p></li>
@@ -1018,6 +953,7 @@
         <row><cell>Indirect Object</cell><cell>Sits between the verb and the direct object; answers <q>to whom?</q> or <q>for whom?</q></cell></row>
         <row><cell>Object of Preposition</cell><cell>Follows a preposition; completes the prepositional phrase</cell></row>
         <row><cell>Subject Complement</cell><cell>Follows a linking verb (<foreign>be, seem, become</foreign>); renames or describes the subject</cell></row>
+        <row><cell>Object Complement</cell><cell>Follows the direct object after verbs like <foreign>elect, name, call, consider</foreign>; renames the direct object</cell></row>
       </tabular>
 
       <paragraphs>
@@ -1089,6 +1025,7 @@
         <row><cell>Indirect Object</cell><cell>Between the verb and the direct object (the recipient)</cell></row>
         <row><cell>Object of Preposition</cell><cell>After a preposition (<foreign>about, in, by, for</foreign>, etc.)</cell></row>
         <row><cell>Subject Complement</cell><cell>After a linking verb (<foreign>be, seem, become</foreign>)</cell></row>
+        <row><cell>Object Complement</cell><cell>After the direct object (renames the object after verbs like <foreign>elect, name, call</foreign>)</cell></row>
       </tabular>
 
       <paragraphs>
@@ -1286,7 +1223,7 @@
       <image source="diagrams/new/ch14_gerund_running.png" width="55%">
         <description>Syntax tree for "Running every morning is healthy" showing a gerund phrase as subject</description>
       </image>
-      <p><c>[S [NOM [V Running] [NP [DET every] [N morning]]] [VP [V is] [ADJP [ADJ healthy]]]]</c></p>
+      <p><c>[S [VP [V Running] [NP [DET every] [N morning]]] [VP [V is] [ADJP [ADJ healthy]]]]</c></p>
 
       <paragraphs>
         <title>14.11.1 C: Infinitive phrase as subject: <foreign>To win the race was her only goal</foreign></title>
@@ -1297,9 +1234,9 @@
       <image source="diagrams/new/ch14_inf_subject.png" width="55%">
         <description>Syntax tree for "To win the race was her only goal" showing an infinitive phrase as subject</description>
       </image>
-      <p><c>[S [NOM [PART To] [VP [V win] [NP [DET the] [N race]]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]</c></p>
+      <p><c>[S [VP [V To win] [NP [DET the] [N race]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]</c></p>
 
-      <p>Reading these three diagrams side by side makes the form-vs.-function distinction concrete: the subject slot looks identical from outside, but the structures slotting into it differ dramatically. The NP version is a flat determiner-noun structure; the gerund version uses NOM as a wrapper around a verbal head with its own object; the infinitive version uses NOM as a wrapper around a particle plus a full VP.</p>
+      <p>Reading these three diagrams side by side makes the form-vs.-function distinction concrete: the subject slot looks identical from outside, but the structures slotting into it differ dramatically. The NP version is a flat determiner-noun structure; the gerund version is a VP whose head is the <foreign>-ing</foreign> form of a verb; the infinitive version is a VP whose head is the multi-word <foreign>to V</foreign> unit. In all three cases, the phrase as a whole functions as Subject regardless of what its internal structure is built from.</p>
     </subsection>
 
     <subsection xml:id="ch-14-diagrams-complement-clauses">

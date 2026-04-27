@@ -373,6 +373,7 @@ def create_student_homework(output_path):
         ['Indirect Object', 'Sits between the verb and the direct object; "to whom?"'],
         ['Object of Preposition', 'Follows a preposition; completes the prepositional phrase'],
         ['Subject Complement', 'Follows a linking verb (be, seem, become); renames the subject'],
+        ['Object Complement', 'Follows the direct object after verbs like elect, name, call; renames the direct object'],
     ])
 
     add_text('Example (completed)', bold=True)
@@ -408,6 +409,7 @@ def create_student_homework(output_path):
         ['Indirect Object', 'Between the verb and the direct object (the recipient)'],
         ['Object of Preposition', 'After a preposition (about, in, by, for, etc.)'],
         ['Subject Complement', 'After a linking verb (be, seem, become)'],
+        ['Object Complement', 'After the direct object (renames the object after verbs like elect, name, call)'],
     ])
 
     add_text('Example (completed)', bold=True)

@@ -167,25 +167,28 @@ def check_words_match(entry, parsed, errors):
         return
     sentence = entry.get('sentence', '')
     bracket_words = parsed['words']
-    # Filter elided words ('_' alone, which becomes ' ' after underscore swap)
-    visible_bracket = [w for w in bracket_words if w.replace('_', ' ').strip()]
+    # parser already replaces underscore with space, so 'to_win' arrives as 'to win'
+    visible_bracket = [w for w in bracket_words if w.strip()]
     sent_normalized = sentence.rstrip('.?!').strip()
     sent_words = sent_normalized.split()
-    if len(sent_words) != len(visible_bracket):
+
+    # Expand bracket terminals into their underlying word sequence so multi-word
+    # terminals like 'to win' get matched word-by-word against the sentence.
+    bracket_seq = []
+    for bw in visible_bracket:
+        bracket_seq.extend(bw.split())
+
+    if len(sent_words) != len(bracket_seq):
         errors.append(
-            f"sentence has {len(sent_words)} words but bracket has "
-            f"{len(visible_bracket)} visible terminals "
-            f"(plus {len(bracket_words) - len(visible_bracket)} elided)")
+            f"sentence has {len(sent_words)} words but bracket expands to "
+            f"{len(bracket_seq)} word(s)")
         return
-    for i, (sw, bw) in enumerate(zip(sent_words, visible_bracket)):
-        bw_normalized = bw.replace('_', ' ')
+    for i, (sw, bw) in enumerate(zip(sent_words, bracket_seq)):
         if i == 0:
-            if sw.lower() != bw_normalized.lower():
-                errors.append(
-                    f"word {i}: sentence='{sw}' vs bracket='{bw_normalized}'")
-        elif sw != bw_normalized:
-            errors.append(
-                f"word {i}: sentence='{sw}' vs bracket='{bw_normalized}'")
+            if sw.lower() != bw.lower():
+                errors.append(f"word {i}: sentence='{sw}' vs bracket='{bw}'")
+        elif sw != bw:
+            errors.append(f"word {i}: sentence='{sw}' vs bracket='{bw}'")
 
 
 def check_role_coverage(entry, parsed, errors, warnings):
