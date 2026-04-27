@@ -9,16 +9,16 @@
       <li><p>Distinguish between nouns (form) and nominals (function/role in a sentence)</p></li>
       <li><p>Identify the various structures that can function as nominals</p></li>
       <li><p>Understand the six syntactic positions nominals occupy</p></li>
-      <li><p>Analyze gerund phrases, infinitive phrases, and complement clauses as nominals</p></li>
-      <li><p>Distinguish between that-clauses and wh-clauses as complement clauses</p></li>
-      <li><p>Compare gerund, infinitive, and clausal nominal structures</p></li>
-      <li><p>Key terms: Noun (form), Nominal (function), Gerund, Gerund phrase, Infinitive phrase (nominal), Complement clause, That-clause, Wh-clause, Extraposition, Nominalized adjective</p></li>
+      <li><p>Analyze present participle phrases (gerunds), infinitive phrases, and complement clauses as nominals</p></li>
+      <li><p>Recognize the structural patterns of complement clauses</p></li>
+      <li><p>Compare present participle, infinitive, and clausal nominal structures</p></li>
+      <li><p>Key terms: Noun (form), Nominal (function), Present participle phrase (gerund phrase), Infinitive phrase (nominal), Complement clause, Complementizer, Extraposition, Nominalized adjective</p></li>
     </ul>
   </objectives>
 
   <p>Chapter 12 introduced adverbials—structures that modify verbs, adding information about time, place, manner, and reason. Chapter 13 introduced adjectivals—structures that modify nouns, describing or restricting what those nouns refer to. With this chapter, the triad is complete. <term>Nominals</term> are structures that fill the argument slots of a sentence: the subject, the direct object, the indirect object, the object of a preposition, and the subject complement. Together, these three functional categories—adverbial, adjectival, nominal—account for nearly every role a phrase or clause can play in English.</p>
 
-  <p>What makes nominals surprising is the range of forms that can fill a position you might expect only a noun to occupy. Consider the subject slot: in <foreign>Happiness is rare</foreign>, a single noun fills it. But in <foreign>That she persisted surprised everyone</foreign>, an entire clause with its own subject and verb fills the same slot. In <foreign>Swimming every morning changed his life</foreign>, a phrase built on a verb form does the same. This chapter explains how noun phrases, pronouns, gerund phrases, infinitive phrases, and complement clauses can each step into the noun's shoes—and why recognizing them matters for both analysis and writing.</p>
+  <p>What makes nominals surprising is the range of forms that can fill a position you might expect only a noun to occupy. Consider the subject slot: in <foreign>Happiness is rare</foreign>, a single noun fills it. But in <foreign>That she persisted surprised everyone</foreign>, an entire clause with its own subject and verb fills the same slot. In <foreign>Swimming every morning changed his life</foreign>, a phrase built on a verb form does the same. This chapter explains how noun phrases, pronouns, present participle phrases, infinitive phrases, and complement clauses can each step into the noun's shoes—and why recognizing them matters for both analysis and writing.</p>
 
   <!-- ============================================================ -->
   <!-- 14.1  NOUNS VS. NOMINALS                                      -->
@@ -51,17 +51,17 @@
     </image>
     <p><c>[S [NP [DET The] [N students]] [VP [V read] [NP [N books]]]]</c></p>
 
-    <p>Now compare a gerund phrase filling the same subject role:</p>
+    <p>Now compare a present participle phrase filling the same subject role:</p>
 
     <image source="diagrams/new/ch14_table_009.png" width="65%">
       <description>Multi-level labeling table for "Reading books is fun"</description>
     </image>
     <image source="diagrams/new/ch14_gerund_subject.png" width="55%">
-      <description>Syntax tree for "Reading books is fun" showing a gerund phrase as subject</description>
+      <description>Syntax tree for "Reading books is fun" showing a present participle phrase as subject</description>
     </image>
-    <p><c>[S [NOM [V Reading] [NP [N books]]] [VP [V is] [ADJP [ADJ fun]]]]</c></p>
+    <p><c>[S [VP [V Reading] [NP [N books]]] [VP [V is] [ADJP [ADJ fun]]]]</c></p>
 
-    <p>Both <foreign>The students</foreign> and <foreign>Reading books</foreign> fill the subject slot. Their forms are completely different—a noun phrase and a gerund phrase—but their function is the same.</p>
+    <p>Both <foreign>The students</foreign> and <foreign>Reading books</foreign> fill the subject slot. Their forms are completely different—a noun phrase and a present participle phrase (also called a <em>gerund phrase</em> when used nominally)—but their function is the same.</p>
 
     <paragraphs>
       <title>The Six Nominal Positions</title>
@@ -94,7 +94,7 @@
   <section xml:id="ch-14-nominals-sec-142">
     <title>Structures That Function as Nominals</title>
 
-    <p>The simplest nominal is what you would expect: a noun phrase with a determiner, perhaps some modifiers, and a noun at its head. But the nominal function is not restricted to noun phrases. Pronouns, complement clauses, gerund phrases, infinitive phrases, and even some adjectives can all occupy the same syntactic slots. The catalog below moves from the most typical to the more structurally complex, so you can see the full range of what English treats as equivalent to a noun phrase. Use the following table as a quick reference; each form is treated in greater depth in the sections that follow.</p>
+    <p>The simplest nominal is what you would expect: a noun phrase with a determiner, perhaps some modifiers, and a noun at its head. But the nominal function is not restricted to noun phrases. Pronouns, complement clauses, present participle phrases, infinitive phrases, and even some adjectives can all occupy the same syntactic slots. The catalog below moves from the most typical to the more structurally complex, so you can see the full range of what English treats as equivalent to a noun phrase. Use the following table as a quick reference; each form is treated in greater depth in the sections that follow.</p>
 
     <table xml:id="ch-14-forms-at-a-glance">
       <title>Nominal Forms at a Glance</title>
@@ -109,10 +109,9 @@
         </row>
         <row><cell>Noun phrase (NP)</cell><cell>Determiner + (Modifiers) + Head Noun</cell><cell><foreign>The interesting book</foreign> arrived.</cell></row>
         <row><cell>Pronoun</cell><cell>Single word; carries case</cell><cell><foreign>She</foreign> arrived.</cell></row>
-        <row><cell>Gerund phrase</cell><cell><foreign>-ing</foreign> verb + (Object/Modifiers)</cell><cell><foreign>Reading novels</foreign> is fun.</cell></row>
+        <row><cell>Present participle phrase (gerund phrase)</cell><cell><foreign>-ing</foreign> verb + (Object/Modifiers)</cell><cell><foreign>Reading novels</foreign> is fun.</cell></row>
         <row><cell>Infinitive phrase</cell><cell><foreign>to</foreign> + verb + (Object/Modifiers)</cell><cell><foreign>To win</foreign> was her goal.</cell></row>
-        <row><cell>That-clause</cell><cell><foreign>that</foreign> + Subject + Predicate</cell><cell>I know <foreign>that she left</foreign>.</cell></row>
-        <row><cell>Wh-clause</cell><cell>wh-word + (Subject) + Predicate</cell><cell>I wonder <foreign>where she went</foreign>.</cell></row>
+        <row><cell>Complement clause</cell><cell>complementizer + (Subject) + Predicate</cell><cell>I know <foreign>that she left</foreign>.</cell></row>
         <row><cell>Nominalized adjective</cell><cell>Determiner + Adjective</cell><cell><foreign>The poor</foreign> need help.</cell></row>
       </tabular>
     </table>
@@ -142,10 +141,10 @@
     </ul>
 
     <paragraphs>
-      <title>3. Gerund Phrases</title>
+      <title>3. Present Participle Phrases (Gerunds)</title>
     </paragraphs>
 
-    <p>The <foreign>-ing</foreign> form of a verb (gerund) heads phrases that function as nominals:</p>
+    <p>The <foreign>-ing</foreign> form of a verb (the <term>present participle</term>) heads phrases that can function nominally. When a present participle phrase fills a noun-phrase slot, it is traditionally called a <em>gerund phrase</em>; we use both names interchangeably, but treat <em>present participle phrase</em> as the primary term so that one form name covers all the uses you have already seen (adverbial, adjectival, and now nominal).</p>
 
     <ul>
       <li><p><foreign><em>Swimming</em> is good exercise.</foreign> (subject)</p></li>
@@ -166,31 +165,23 @@
     </ul>
 
     <paragraphs>
-      <title>5. That-clauses (Complement Clauses)</title>
+      <title>5. Complement Clauses</title>
     </paragraphs>
 
-    <p>Clauses introduced by <foreign>that</foreign> function as nominals. These are also called <em>complement clauses</em> or <em>nominal clauses</em>:</p>
+    <p>A <term>complement clause</term> (also called a <em>nominal clause</em> or <em>noun clause</em>) is a full clause—with its own subject and predicate—filling a nominal position. Complement clauses are introduced by a <em>complementizer</em>: most commonly <foreign>that</foreign>, <foreign>if</foreign>, <foreign>whether</foreign>, or a wh-word (<foreign>what, who, where, when, why, how</foreign>).</p>
 
     <ul>
       <li><p><foreign><em>That she resigned</em> surprised everyone.</foreign> (subject)</p></li>
       <li><p><foreign>I believe <em>that she is honest</em>.</foreign> (direct object)</p></li>
       <li><p><foreign>The problem is <em>that we're out of time</em>.</foreign> (subject complement)</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>6. Wh-clauses (Complement Clauses)</title>
-    </paragraphs>
-
-    <p>Clauses introduced by wh-words also function as nominals:</p>
-
-    <ul>
       <li><p><foreign><em>What she said</em> was important.</foreign> (subject)</p></li>
       <li><p><foreign>I don't know <em>where he went</em>.</foreign> (direct object)</p></li>
-      <li><p><foreign>The question is <em>who will lead</em>.</foreign> (subject complement)</p></li>
     </ul>
 
+    <p>Section 14.8 introduces complement clauses; Section 14.9 examines their structural patterns.</p>
+
     <paragraphs>
-      <title>7. Nominalized Adjectives</title>
+      <title>6. Nominalized Adjectives</title>
     </paragraphs>
 
     <p>Some adjectives, with a determiner, function nominally by referring to a group of people:</p>
@@ -219,9 +210,9 @@
 
     <ul>
       <li><p><foreign><em>The students</em> studied.</foreign> (NP)</p></li>
-      <li><p><foreign><em>That he won</em> surprised us.</foreign> (that-clause)</p></li>
-      <li><p><foreign><em>Swimming</em> is fun.</foreign> (gerund)</p></li>
-      <li><p><foreign><em>To forgive</em> is divine.</foreign> (infinitive)</p></li>
+      <li><p><foreign><em>That he won</em> surprised us.</foreign> (complement clause)</p></li>
+      <li><p><foreign><em>Swimming</em> is fun.</foreign> (present participle phrase)</p></li>
+      <li><p><foreign><em>To forgive</em> is divine.</foreign> (infinitive phrase)</p></li>
     </ul>
 
     <paragraphs>
@@ -232,32 +223,32 @@
 
     <ul>
       <li><p><foreign>She read <em>the book</em>.</foreign> (NP)</p></li>
-      <li><p><foreign>I know <em>that she's coming</em>.</foreign> (that-clause)</p></li>
-      <li><p><foreign>He enjoys <em>playing chess</em>.</foreign> (gerund)</p></li>
-      <li><p><foreign>She wants <em>to succeed</em>.</foreign> (infinitive)</p></li>
+      <li><p><foreign>I know <em>that she's coming</em>.</foreign> (complement clause)</p></li>
+      <li><p><foreign>He enjoys <em>playing chess</em>.</foreign> (present participle phrase)</p></li>
+      <li><p><foreign>She wants <em>to succeed</em>.</foreign> (infinitive phrase)</p></li>
     </ul>
 
     <paragraphs>
       <title>Indirect Object Position</title>
     </paragraphs>
 
-    <p>The indirect object sits between the verb and the direct object and identifies the recipient or beneficiary of the action. <em>Diagnostic:</em> ask <q>to whom?</q> or <q>for whom?</q>—the answer is the indirect object. This position is more restricted than the others; it is filled almost exclusively by noun phrases and pronouns, with wh-clauses appearing only occasionally:</p>
+    <p>The indirect object sits between the verb and the direct object and identifies the recipient or beneficiary of the action. <em>Diagnostic:</em> ask <q>to whom?</q> or <q>for whom?</q>—the answer is the indirect object. This position is more restricted than the others; it is filled almost exclusively by noun phrases and pronouns, with complement clauses appearing only occasionally:</p>
 
     <ul>
       <li><p><foreign>She gave <em>me</em> a book.</foreign> (pronoun)</p></li>
-      <li><p><foreign>Tell <em>whoever asks</em> the truth.</foreign> (wh-clause)</p></li>
+      <li><p><foreign>Tell <em>whoever asks</em> the truth.</foreign> (complement clause)</p></li>
     </ul>
 
     <paragraphs>
       <title>Object of Preposition</title>
     </paragraphs>
 
-    <p>The object of a preposition completes a prepositional phrase. <em>Diagnostic:</em> find a preposition (<foreign>about, in, by, for, with</foreign>, etc.); whatever nominal follows and completes its meaning is the object of the preposition. Of all six positions, this one shows the sharpest restriction: gerunds and noun phrases appear here freely, but infinitive phrases cannot fill this slot at all (you cannot say <foreign><delete>interested in to learn</delete></foreign>).</p>
+    <p>The object of a preposition completes a prepositional phrase. <em>Diagnostic:</em> find a preposition (<foreign>about, in, by, for, with</foreign>, etc.); whatever nominal follows and completes its meaning is the object of the preposition. Of all six positions, this one shows the sharpest restriction: present participle phrases and noun phrases appear here freely, but infinitive phrases cannot fill this slot at all (you cannot say <foreign><delete>interested in to learn</delete></foreign>).</p>
 
     <ul>
       <li><p><foreign>We talked about <em>the problem</em>.</foreign> (NP)</p></li>
-      <li><p><foreign>I'm interested in <em>what you said</em>.</foreign> (wh-clause)</p></li>
-      <li><p><foreign>She succeeded by <em>working hard</em>.</foreign> (gerund)</p></li>
+      <li><p><foreign>I'm interested in <em>what you said</em>.</foreign> (complement clause)</p></li>
+      <li><p><foreign>She succeeded by <em>working hard</em>.</foreign> (present participle phrase)</p></li>
     </ul>
 
     <paragraphs>
@@ -268,9 +259,9 @@
 
     <ul>
       <li><p><foreign>She is <em>a doctor</em>.</foreign> (NP)</p></li>
-      <li><p><foreign>The problem is <em>that we're late</em>.</foreign> (that-clause)</p></li>
-      <li><p><foreign>His hobby is <em>collecting coins</em>.</foreign> (gerund)</p></li>
-      <li><p><foreign>The goal is <em>to finish on time</em>.</foreign> (infinitive)</p></li>
+      <li><p><foreign>The problem is <em>that we're late</em>.</foreign> (complement clause)</p></li>
+      <li><p><foreign>His hobby is <em>collecting coins</em>.</foreign> (present participle phrase)</p></li>
+      <li><p><foreign>The goal is <em>to finish on time</em>.</foreign> (infinitive phrase)</p></li>
     </ul>
 
     <paragraphs>
@@ -297,7 +288,7 @@
   <section xml:id="ch-14-nominals-sec-144">
     <title>Noun Phrase Nominals</title>
 
-    <p>The noun phrase is the prototypical nominal—the structure that fills argument positions by default. Every other nominal type in this chapter can be understood as a non-NP structure stepping into a slot that an NP would normally occupy. Understanding the NP baseline makes the other types easier to grasp, because once you know what an NP can do, you can recognize a gerund or a clause as <em>doing the same job</em>—occupying the same slot, satisfying the same valency, triggering the same verb agreement—simply through a different surface form.</p>
+    <p>The noun phrase is the prototypical nominal—the structure that fills argument positions by default. Every other nominal type in this chapter can be understood as a non-NP structure stepping into a slot that an NP would normally occupy. Understanding the NP baseline makes the other types easier to grasp, because once you know what an NP can do, you can recognize a present participle phrase or a clause as <em>doing the same job</em>—occupying the same slot, satisfying the same valency, triggering the same verb agreement—simply through a different surface form.</p>
 
     <paragraphs>
       <title>Formation</title>
@@ -399,31 +390,33 @@
   </section>
 
   <!-- ============================================================ -->
-  <!-- 14.6  GERUND PHRASE NOMINALS                                  -->
+  <!-- 14.6  PRESENT PARTICIPLE PHRASE NOMINALS                      -->
   <!-- ============================================================ -->
 
   <section xml:id="ch-14-nominals-sec-146">
-    <title>Gerund Phrase Nominals</title>
+    <title>Present Participle Phrase Nominals (Gerunds)</title>
 
-    <p>A <term>gerund</term> is the <foreign>-ing</foreign> form of a verb functioning nominally. Gerunds present one of the clearest examples of the form-vs.-function distinction at work. Morphologically, <foreign>swimming</foreign> looks exactly like a present participle—the same <foreign>-ing</foreign> ending, the same verbal form. The difference is purely functional: when it modifies a noun (as in <foreign>the swimming dog</foreign>), it is a participle functioning adjectivally; when it fills a noun-phrase slot (as in <foreign>Swimming is good exercise</foreign>), it is a gerund functioning nominally. Because gerunds retain their verbal character, they can take their own objects and modifiers, which means a gerund phrase can be quite long even though it fills a single argument slot.</p>
+    <p>A <term>present participle</term> is the <foreign>-ing</foreign> form of a verb. Present participle phrases can fill several functions across English: in Chapter 12 you saw them as adverbials (<foreign>Walking home, she thought about her day</foreign>); in Chapter 13 you saw them as adjectivals (<foreign>the running water</foreign>); here the focus is on their nominal use—when a present participle phrase fills a subject, object, or complement position. When a present participle phrase functions nominally, it is traditionally called a <term>gerund phrase</term>; we use both names, but treat <em>present participle phrase</em> as the primary term so that one form name covers all three functions.</p>
+
+    <p>Because present participle phrases retain their verbal character, they can take their own objects and modifiers, which means a present participle phrase can be quite long even though it fills a single argument slot.</p>
 
     <paragraphs>
       <title>Formation</title>
     </paragraphs>
 
-    <p>A <term>gerund phrase</term> consists of a gerund (the <foreign>-ing</foreign> form) plus any complements and modifiers:</p>
+    <p>A nominal present participle phrase consists of the <foreign>-ing</foreign> form plus any complements and modifiers:</p>
 
-    <p>Gerund Phrase = (Possessive) + Gerund + (Complements/Modifiers)</p>
+    <p>Present Participle Phrase = (Possessive) + <foreign>-ing</foreign> Verb + (Complements/Modifiers)</p>
 
     <ul>
-      <li><p><foreign><em>Swimming</em> is fun.</foreign> (simple gerund)</p></li>
-      <li><p><foreign><em>Swimming laps</em> is good exercise.</foreign> (gerund + object)</p></li>
-      <li><p><foreign><em>His swimming</em> improved.</foreign> (possessive + gerund)</p></li>
-      <li><p><foreign><em>Their constantly complaining</em> annoys everyone.</foreign> (possessive + modifier + gerund)</p></li>
+      <li><p><foreign><em>Swimming</em> is fun.</foreign> (simple)</p></li>
+      <li><p><foreign><em>Swimming laps</em> is good exercise.</foreign> (with direct object)</p></li>
+      <li><p><foreign><em>His swimming</em> improved.</foreign> (with possessive)</p></li>
+      <li><p><foreign><em>Their constantly complaining</em> annoys everyone.</foreign> (with possessive and adverbial modifier)</p></li>
     </ul>
 
     <paragraphs>
-      <title>Gerund Functions</title>
+      <title>Functions</title>
     </paragraphs>
 
     <p><em>As subject:</em></p>
@@ -455,10 +448,10 @@
     </ul>
 
     <paragraphs>
-      <title>Possessive with Gerunds</title>
+      <title>Possessive Before a Nominal Present Participle</title>
     </paragraphs>
 
-    <p>Formal usage prefers possessive forms before gerunds:</p>
+    <p>Formal usage prefers a possessive form before a nominal present participle (the older grammar tradition calls this the <em>possessive-with-gerund</em> rule):</p>
 
     <ul>
       <li><p><foreign>I appreciated <em>his helping</em> us.</foreign> (formal)</p></li>
@@ -475,20 +468,20 @@
       <description>Multi-level labeling table for "Running every morning is healthy"</description>
     </image>
     <image source="diagrams/new/ch14_gerund_running.png" width="55%">
-      <description>Syntax tree for "Running every morning is healthy" showing a gerund phrase as subject</description>
+      <description>Syntax tree for "Running every morning is healthy" showing a present participle phrase as subject</description>
     </image>
     <p><c>[S [VP [V Running] [NP [DET every] [N morning]]] [VP [V is] [ADJP [ADJ healthy]]]]</c></p>
 
-    <p>The gerund phrase <foreign>Running every morning</foreign> fills the subject slot—a position normally occupied by a noun phrase.</p>
+    <p>The present participle phrase <foreign>Running every morning</foreign> fills the subject slot—a position normally occupied by a noun phrase. Its form is verbal (a VP headed by an <foreign>-ing</foreign> verb), but its function is nominal.</p>
 
     <paragraphs>
       <title>Key Points</title>
     </paragraphs>
 
     <ul>
-      <li><p>Gerunds look identical to present participles (<foreign>-ing</foreign>). The distinction is functional: gerunds are nominals, participles are adjectivals or part of verb phrases.</p></li>
-      <li><p>Gerund phrases can fill subject, direct object, indirect object, object of preposition, and subject complement positions—including object of preposition (which infinitives cannot).</p></li>
-      <li><p>In diagrams, label the gerund phrase as GP (gerund phrase) at the phrase level.</p></li>
+      <li><p>The same <foreign>-ing</foreign> form serves three functions across English: adverbial (Chapter 12), adjectival (Chapter 13), and nominal (this chapter). When a present participle phrase functions nominally, it is also called a <em>gerund phrase</em>.</p></li>
+      <li><p>Nominal present participle phrases can fill subject, direct object, indirect object, object of preposition, and subject complement positions—including object of preposition, which infinitive phrases cannot fill.</p></li>
+      <li><p>In diagrams, the form is a VP headed by an <foreign>-ing</foreign> verb. The nominal function is expressed by the role label, not by a special phrase node.</p></li>
     </ul>
 
   </section>
@@ -500,7 +493,7 @@
   <section xml:id="ch-14-nominals-sec-147">
     <title>Infinitive Phrase Nominals</title>
 
-    <p>Like gerund phrases, infinitive phrases are built on a verbal base, and they can take their own objects and modifiers. In Chapter 12 you saw infinitive phrases as adverbials of purpose (<foreign>She came to help</foreign>). In Chapter 13 you saw them as adjectivals modifying nouns (<foreign>a book to read</foreign>). Here the focus is on their nominal use—when an infinitive phrase fills a subject, object, or complement position. Unlike gerunds, infinitives have a narrower distribution as nominals: they appear frequently as subjects and complements, but only certain verbs allow an infinitive direct object.</p>
+    <p>Like present participle phrases, infinitive phrases are built on a verbal base, and they can take their own objects and modifiers. In Chapter 12 you saw infinitive phrases as adverbials of purpose (<foreign>She came to help</foreign>). In Chapter 13 you saw them as adjectivals modifying nouns (<foreign>a book to read</foreign>). Here the focus is on their nominal use—when an infinitive phrase fills a subject, object, or complement position. Unlike present participle phrases, infinitives have a narrower distribution as nominals: they appear frequently as subjects and complements, but only certain verbs allow an infinitive direct object.</p>
 
     <paragraphs>
       <title>Formation</title>
@@ -591,7 +584,7 @@
     </paragraphs>
 
     <ul>
-      <li><p>Nominal infinitives fill subject, direct object, and complement positions—but not object of preposition (use a gerund instead: <foreign>interested in learning</foreign>, not <foreign><delete>interested in to learn</delete></foreign>).</p></li>
+      <li><p>Nominal infinitives fill subject, direct object, and complement positions—but not object of preposition (use a present participle phrase instead: <foreign>interested in learning</foreign>, not <foreign><delete>interested in to learn</delete></foreign>).</p></li>
       <li><p>Extraposition with <foreign>it</foreign> is the most common way to handle long infinitive subjects.</p></li>
       <li><p>The same infinitive form can be nominal (filling an argument slot), adverbial (expressing purpose), or adjectival (modifying a noun)—always check the position.</p></li>
     </ul>
@@ -599,75 +592,83 @@
   </section>
 
   <!-- ============================================================ -->
-  <!-- 14.8  COMPLEMENT CLAUSES: THAT-CLAUSES                       -->
+  <!-- 14.8  COMPLEMENT CLAUSES: OVERVIEW                            -->
   <!-- ============================================================ -->
 
   <section xml:id="ch-14-nominals-sec-148">
-    <title>Complement Clauses: That-Clauses</title>
+    <title>Complement Clauses: Overview</title>
 
-    <p>A <term>complement clause</term> (also called a <em>nominal clause</em> or <em>noun clause</em>) is a full clause—with its own subject and predicate—that fills a nominal position in a larger sentence. The term <em>complement</em> here means that the clause completes the meaning of a verb, adjective, or noun. This section covers that-clauses; the next section covers wh-clauses. Together they are the two main types of complement clause in English.</p>
-
-    <paragraphs>
-      <title>Formation</title>
-    </paragraphs>
-
-    <p>A that-clause consists of the complementizer <foreign>that</foreign> followed by a complete clause (subject + predicate):</p>
-
-    <p>That-clause = <foreign>that</foreign> + Subject + Predicate</p>
-
-    <ul>
-      <li><p><foreign><em>That she won</em> surprised no one.</foreign></p></li>
-      <li><p><foreign>I believe <em>that she is honest</em>.</foreign></p></li>
-    </ul>
+    <p>Of all nominal forms, the complement clause is the most complex because it is a full clause—with its own subject and predicate—filling a single argument slot in a larger sentence. A <term>complement clause</term> (also called a <em>nominal clause</em> or <em>noun clause</em>) is connected to the matrix sentence by a <em>complementizer</em>: the word that introduces the clause and signals that what follows fills a nominal position. The most common complementizers are <foreign>that</foreign>, <foreign>if</foreign>, <foreign>whether</foreign>, and the wh-words <foreign>what, who, whom, where, when, why, how, which</foreign>.</p>
 
     <paragraphs>
-      <title>Positions</title>
+      <title>How Complement Clauses Compare to Other Nominals</title>
     </paragraphs>
 
-    <p><em>As subject:</em></p>
-
-    <ul>
-      <li><p><foreign><em>That she won</em> surprised no one.</foreign></p></li>
-      <li><p><foreign><em>That the earth is round</em> is well established.</foreign></p></li>
-    </ul>
-
-    <p><em>As direct object</em> (<foreign>that</foreign> often omitted):</p>
-
-    <ul>
-      <li><p><foreign>I believe <em>(that) she's honest</em>.</foreign></p></li>
-      <li><p><foreign>He knows <em>(that) we're coming</em>.</foreign></p></li>
-    </ul>
-
-    <p><em>As subject complement:</em></p>
-
-    <ul>
-      <li><p><foreign>The truth is <em>that we need more time</em>.</foreign></p></li>
-      <li><p><foreign>My hope is <em>that things will improve</em>.</foreign></p></li>
-    </ul>
-
-    <p><em>After adjectives:</em></p>
-
-    <ul>
-      <li><p><foreign>I'm glad <em>that you came</em>.</foreign></p></li>
-      <li><p><foreign>She was certain <em>that he was wrong</em>.</foreign></p></li>
-    </ul>
+    <p>Each nominal form adds a different degree of structural complexity. A noun phrase or pronoun fills an argument slot with a single phrase. A present participle phrase or infinitive phrase adds verbal content—an action—but lacks an internal subject of its own. A complement clause is the only nominal form that contains a full subject-predicate structure. This makes it the most flexible (it can express a complete proposition or question as a single argument), but also the heaviest, and the one most likely to create parsing difficulty in long sentences.</p>
 
     <paragraphs>
-      <title>Omitting <foreign>that</foreign></title>
+      <title>What Complement Clauses Express</title>
     </paragraphs>
 
-    <p>When a that-clause is a direct object, the complementizer <foreign>that</foreign> can often be omitted with no change in meaning:</p>
+    <p>Complement clauses fall into two broad meaning types based on the complementizer that introduces them:</p>
 
     <ul>
-      <li><p><foreign>I think <em>(that)</em> she's right.</foreign></p></li>
-      <li><p><foreign>He said <em>(that)</em> he would come.</foreign></p></li>
+      <li><p><em>Statements (propositions).</em> Clauses introduced by <foreign>that</foreign> embed a proposition—something that can be true or false: <foreign>I believe <em>that she is honest</em></foreign>.</p></li>
+      <li><p><em>Questions (yes/no or open).</em> Clauses introduced by <foreign>whether</foreign> or <foreign>if</foreign> embed yes/no questions; clauses introduced by wh-words embed open questions: <foreign>I wonder <em>whether she's coming</em></foreign>; <foreign>I know <em>what she said</em></foreign>.</p></li>
     </ul>
 
-    <p>When a that-clause is a subject, <foreign>that</foreign> cannot be omitted:</p>
+    <p>The same nominal positions appear with both meaning types. What changes is the complementizer and, with it, what the clause is doing semantically (asserting vs. asking).</p>
+
+    <paragraphs>
+      <title>Where Complement Clauses Appear</title>
+    </paragraphs>
+
+    <p>A complement clause can fill almost any nominal slot:</p>
 
     <ul>
-      <li><p><foreign><em>That</em> she won surprised everyone.</foreign> (not <foreign><delete>She won surprised everyone.</delete></foreign>)</p></li>
+      <li><p><em>Subject:</em> <foreign><em>That she resigned</em> surprised everyone.</foreign></p></li>
+      <li><p><em>Direct object:</em> <foreign>I believe <em>that she is honest</em>.</foreign></p></li>
+      <li><p><em>Subject complement:</em> <foreign>The truth is <em>that we need more time</em>.</foreign></p></li>
+      <li><p><em>Object of preposition:</em> <foreign>We talked about <em>what he said</em>.</foreign></p></li>
     </ul>
+
+    <p>One distributional fact is worth flagging in advance: only complement clauses introduced by a wh-word can sit after a preposition. You can say <foreign>about what he said</foreign> but not <foreign><delete>about that he said</delete></foreign>—a constraint covered in Section 14.9.</p>
+
+    <paragraphs>
+      <title>Three Structural Patterns</title>
+    </paragraphs>
+
+    <p>Complement clauses come in three structural patterns depending on the role the introducing word plays inside the clause. In the first, a complementizer (typically <foreign>that</foreign>, <foreign>if</foreign>, or <foreign>whether</foreign>) is just a marker, with a separate subject NP following it: <c>[CC [COMP that] [NP ...] [VP ...]]</c>. In the second, a wh-word is the embedded subject and there is no separate subject NP: <c>[CC [NP [PRON who]] [VP ...]]</c>. In the third, a wh-word precedes a separate subject NP—the wh-word having been pulled from a non-subject role inside the clause: <c>[CC [COMP what] [NP ...] [VP ...]]</c>. Section 14.9 examines each pattern in detail with diagrams. (This three-way split parallels the structural patterns you saw for relative clauses in Section 13.10.)</p>
+
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- 14.9  COMPLEMENT CLAUSE STRUCTURES                            -->
+  <!-- ============================================================ -->
+
+  <section xml:id="ch-14-nominals-sec-149">
+    <title>Complement Clause Structures</title>
+
+    <p>This section examines the three structural patterns of complement clauses introduced in Section 14.8: the complementizer-as-marker pattern (Pattern 1), the wh-pronoun-as-embedded-subject pattern (Pattern 2), and the wh-word-preceding-subject pattern (Pattern 3). Each pattern is illustrated with a labeling table, a tree diagram, and a bracket notation. The same surface position—say, direct object—can be filled by any of the three patterns; what differs is the internal structure of the clause.</p>
+
+    <paragraphs>
+      <title>Pattern 1: Complementizer + Full Clause</title>
+    </paragraphs>
+
+    <p>The most common pattern. A complementizer (<foreign>that</foreign>, <foreign>if</foreign>, or <foreign>whether</foreign>) introduces the clause but plays no role inside it. The clause has a complete subject and predicate of its own:</p>
+
+    <p>Pattern 1 = COMP + Subject NP + Predicate VP</p>
+
+    <ul>
+      <li><p><foreign>I believe <em>that she is honest</em>.</foreign> (DO)</p></li>
+      <li><p><foreign><em>That she resigned</em> surprised everyone.</foreign> (Subject)</p></li>
+      <li><p><foreign>I wonder <em>whether we should leave</em>.</foreign> (DO)</p></li>
+      <li><p><foreign>The question is <em>whether to accept the offer</em>.</foreign> (Subject Complement)</p></li>
+    </ul>
+
+    <p>When the clause is a direct object, the complementizer <foreign>that</foreign> can often be omitted with no change in meaning: <foreign>I believe she is honest</foreign>. In subject position, <foreign>that</foreign> cannot be dropped (<foreign><delete>She resigned surprised everyone</delete></foreign> is ungrammatical). In tree diagrams an omitted <foreign>that</foreign> is represented with an empty COMP node, marking the structural slot the complementizer would have occupied.</p>
+
+    <p><foreign>If</foreign> and <foreign>whether</foreign> both introduce yes/no questions, but they are not always interchangeable. Use <foreign>whether</foreign>—not <foreign>if</foreign>—in subject position (<foreign>Whether he comes remains to be seen</foreign>) and before <foreign>or not</foreign> (<foreign>I don't know whether or not she's coming</foreign>).</p>
 
     <paragraphs>
       <title>Labeling Table: <foreign>I believe that she is honest</foreign></title>
@@ -677,144 +678,25 @@
       <description>Multi-level labeling table for "I believe that she is honest"</description>
     </image>
     <image source="diagrams/new/ch14_that_believe.png" width="55%">
-      <description>Syntax tree for "I believe that she is honest" showing a that-clause as direct object</description>
+      <description>Syntax tree for "I believe that she is honest" showing a complement clause as direct object</description>
     </image>
     <p><c>[S [NP [PRON I]] [VP [V believe] [CC [COMP that] [NP [PRON she]] [VP [V is] [ADJP [ADJ honest]]]]]]</c></p>
 
-    <p>The that-clause <foreign>that she is honest</foreign> fills the direct object position after the verb <foreign>believe</foreign>. The clause has its own subject (<foreign>she</foreign>), its own verb (<foreign>is</foreign>), and its own complement (<foreign>honest</foreign>)—a complete propositional structure embedded as a single argument of the higher verb. Section 14.11 collects additional that-clause and wh-clause diagrams for reference.</p>
+    <p>The complement clause <foreign>that she is honest</foreign> fills the direct-object slot after <foreign>believe</foreign>. The complementizer <foreign>that</foreign> introduces the clause but plays no role inside it; the embedded subject is <foreign>she</foreign> and the embedded predicate is <foreign>is honest</foreign>.</p>
 
     <paragraphs>
-      <title>Key Points</title>
-    </paragraphs>
-
-    <ul>
-      <li><p>That-clauses report propositions—statements about the world that can be true or false.</p></li>
-      <li><p>The complementizer <foreign>that</foreign> can be omitted in object position but not in subject position.</p></li>
-      <li><p>Common verbs taking that-clause objects: <foreign>believe, know, think, say, hope, realize, admit, claim, doubt</foreign>.</p></li>
-      <li><p>In diagrams, label the complementizer <foreign>that</foreign> as COMP.</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>Variations: That-clause in Other Positions</title>
-    </paragraphs>
-
-    <p>The example above placed the that-clause in direct-object position. Two further patterns are common: the that-clause as <em>subject</em> and the that-clause as <em>subject complement</em>. Each illustrates that the same internal structure—a complementizer plus a full clause—can fill different argument slots in the matrix sentence.</p>
-
-    <paragraphs>
-      <title>Labeling Table: <foreign>That she resigned surprised everyone</foreign> (that-clause as Subject)</title>
+      <title>Labeling Table: <foreign>That she resigned surprised everyone</foreign> (CC as Subject)</title>
     </paragraphs>
 
     <image source="diagrams/new/ch14_table_018.png" width="80%">
       <description>Multi-level labeling table for "That she resigned surprised everyone"</description>
     </image>
     <image source="diagrams/new/ch14_that_subject.png" width="55%">
-      <description>Syntax tree for "That she resigned surprised everyone" showing a that-clause filling subject position</description>
+      <description>Syntax tree for "That she resigned surprised everyone" showing a complement clause filling subject position</description>
     </image>
     <p><c>[S [CC [COMP That] [NP [PRON she]] [VP [V resigned]]] [VP [V surprised] [NP [PRON everyone]]]]</c></p>
 
-    <p>The that-clause here is the subject of <foreign>surprised</foreign>. Notice that in subject position the complementizer <foreign>that</foreign> cannot be dropped—removing it would produce <foreign><delete>She resigned surprised everyone</delete></foreign>, which English does not allow.</p>
-
-    <paragraphs>
-      <title>Labeling Table: <foreign>The truth is that she lied</foreign> (that-clause as Subject Complement)</title>
-    </paragraphs>
-
-    <image source="diagrams/new/ch14_table_019.png" width="80%">
-      <description>Multi-level labeling table for "The truth is that she lied"</description>
-    </image>
-    <image source="diagrams/new/ch14_that_complement.png" width="55%">
-      <description>Syntax tree for "The truth is that she lied" showing a that-clause as subject complement after the linking verb</description>
-    </image>
-    <p><c>[S [NP [DET The] [N truth]] [VP [V is] [CC [COMP that] [NP [PRON she]] [VP [V lied]]]]]</c></p>
-
-    <p>Here the that-clause follows the linking verb <foreign>is</foreign> and identifies what the subject <foreign>The truth</foreign> consists of. Pedagogically this pattern is worth memorizing because it is the most common way to deliver a propositional definition or explanation in formal writing.</p>
-
-  </section>
-
-  <!-- ============================================================ -->
-  <!-- 14.9  COMPLEMENT CLAUSES: WH-CLAUSES                         -->
-  <!-- ============================================================ -->
-
-  <section xml:id="ch-14-nominals-sec-149">
-    <title>Complement Clauses: Wh-Clauses</title>
-
-    <p>The second major type of complement clause is the <term>wh-clause</term> (also called an <em>interrogative content clause</em> or <em>indirect question</em>). While that-clauses embed statements, wh-clauses embed questions. In <foreign>I know that she left</foreign>, the speaker states a fact; in <foreign>I know where she went</foreign>, the speaker reports the answer to an implicit question. The wh-word simultaneously introduces the clause and fills a grammatical role within it—much like a relative pronoun does in a relative clause (Chapter 13), but here the clause functions nominally rather than adjectivally.</p>
-
-    <paragraphs>
-      <title>Formation</title>
-    </paragraphs>
-
-    <p>A wh-clause consists of a wh-word followed by clause content. The wh-word both introduces the clause and fills a role within it:</p>
-
-    <p>Wh-clause = Wh-word + (Subject) + Predicate</p>
-
-    <tabular halign="left">
-      <row header="yes" bottom="minor">
-        <cell>Wh-word</cell>
-        <cell>Asks about</cell>
-        <cell>Example</cell>
-      </row>
-      <row><cell><foreign>what</foreign></cell><cell>things/actions</cell><cell><foreign>I know <em>what happened</em>.</foreign></cell></row>
-      <row><cell><foreign>who/whom</foreign></cell><cell>people</cell><cell><foreign>She asked <em>who called</em>.</foreign></cell></row>
-      <row><cell><foreign>which</foreign></cell><cell>specific choice</cell><cell><foreign>Tell me <em>which one you prefer</em>.</foreign></cell></row>
-      <row><cell><foreign>where</foreign></cell><cell>place</cell><cell><foreign>I don't know <em>where he went</em>.</foreign></cell></row>
-      <row><cell><foreign>when</foreign></cell><cell>time</cell><cell><foreign>She asked <em>when we would arrive</em>.</foreign></cell></row>
-      <row><cell><foreign>why</foreign></cell><cell>reason</cell><cell><foreign>I wonder <em>why she left</em>.</foreign></cell></row>
-      <row><cell><foreign>how</foreign></cell><cell>manner/extent</cell><cell><foreign>Tell me <em>how you did it</em>.</foreign></cell></row>
-      <row><cell><foreign>whether/if</foreign></cell><cell>yes/no</cell><cell><foreign>I wonder <em>whether she'll come</em>.</foreign></cell></row>
-    </tabular>
-
-    <paragraphs>
-      <title>Positions</title>
-    </paragraphs>
-
-    <p><em>As subject:</em></p>
-
-    <ul>
-      <li><p><foreign><em>What she discovered</em> changed everything.</foreign></p></li>
-      <li><p><foreign><em>Where they went</em> remains a mystery.</foreign></p></li>
-      <li><p><foreign><em>Whether he'll accept</em> is uncertain.</foreign></p></li>
-    </ul>
-
-    <p><em>As direct object:</em></p>
-
-    <ul>
-      <li><p><foreign>I don't know <em>what happened</em>.</foreign></p></li>
-      <li><p><foreign>She asked <em>whether I was coming</em>.</foreign></p></li>
-      <li><p><foreign>Tell me <em>how you did it</em>.</foreign></p></li>
-    </ul>
-
-    <p><em>As subject complement:</em></p>
-
-    <ul>
-      <li><p><foreign>The issue is <em>how we proceed</em>.</foreign></p></li>
-      <li><p><foreign>The question is <em>whether to accept</em>.</foreign></p></li>
-    </ul>
-
-    <paragraphs>
-      <title>If vs. Whether</title>
-    </paragraphs>
-
-    <p>Both <foreign>if</foreign> and <foreign>whether</foreign> introduce yes/no complement clauses, but they are not always interchangeable:</p>
-
-    <ul>
-      <li><p><foreign>Whether</foreign> can be a subject; <foreign>if</foreign> typically cannot:</p></li>
-    </ul>
-
-    <ul>
-      <li><p><foreign><em>Whether</em> he comes remains to be seen.</foreign> ✓</p></li>
-      <li><p><foreign><delete>If he comes remains to be seen.</delete></foreign> ✗</p></li>
-    </ul>
-
-    <ul>
-      <li><p><foreign>Whether</foreign> allows <foreign>or not</foreign> immediately after; <foreign>if</foreign> does not:</p></li>
-    </ul>
-
-    <ul>
-      <li><p><foreign>I don't know <em>whether or not</em> she's coming.</foreign> ✓</p></li>
-      <li><p><foreign><delete>I don't know if or not she's coming.</delete></foreign> ✗</p></li>
-    </ul>
-
-    <p>In general, <foreign>whether</foreign> is preferred in formal writing and required in subject position.</p>
+    <p>Same Pattern 1 structure—complementizer + full clause—filling subject position instead of direct-object position. Note that <foreign>that</foreign> cannot be dropped here, even though it can be in object position.</p>
 
     <paragraphs>
       <title>Labeling Table: <foreign>She asked whether we could help</foreign></title>
@@ -828,26 +710,26 @@
     </image>
     <p><c>[S [NP [PRON She]] [VP [V asked] [CC [COMP whether] [NP [PRON we]] [VP [MOD could] [V help]]]]]</c></p>
 
-    <p>The wh-word <foreign>whether</foreign> introduces the embedded clause and signals that the speaker is reporting an unresolved yes/no question rather than asserting a fact. Compare this with the parallel <foreign>if</foreign>-clause and additional examples in Section 14.11.</p>
+    <p>Pattern 1 with a different complementizer. <foreign>whether</foreign> signals that the embedded clause is a yes/no question rather than a statement, but the structural pattern—COMP plus full subject-predicate clause—is identical.</p>
 
     <paragraphs>
-      <title>Key Points</title>
+      <title>Pattern 2: Wh-pronoun as Embedded Subject</title>
     </paragraphs>
+
+    <p>When a wh-word is itself the subject of the embedded clause, there is no separate subject NP and no COMP node. The wh-word fills the subject NP slot directly:</p>
+
+    <p>Pattern 2 = Wh-pronoun (as Subject NP) + Predicate VP</p>
 
     <ul>
-      <li><p>Wh-clauses embed questions as nominals. The word order within the clause is declarative, not interrogative: <foreign>I know where she went</foreign> (not <foreign><delete>I know where did she go</delete></foreign>).</p></li>
-      <li><p>Use <foreign>whether</foreign> (not <foreign>if</foreign>) in subject position and before <foreign>or not</foreign>.</p></li>
-      <li><p>Common verbs taking wh-clause objects: <foreign>know, wonder, ask, tell, explain, decide, understand</foreign>.</p></li>
+      <li><p><foreign><em>What happened</em> was unexpected.</foreign> (Subject; <foreign>What</foreign> = subject of <foreign>happened</foreign>)</p></li>
+      <li><p><foreign>I know <em>who called</em>.</foreign> (DO; <foreign>who</foreign> = subject of <foreign>called</foreign>)</p></li>
+      <li><p><foreign>The committee will decide <em>which proposal wins</em>.</foreign> (DO; <foreign>which proposal</foreign> = subject of <foreign>wins</foreign>)</p></li>
     </ul>
 
-    <paragraphs>
-      <title>Variations: Wh-word Roles and Wh-clause Positions</title>
-    </paragraphs>
-
-    <p>Wh-clauses are richer than that-clauses in two ways. First, the wh-word can itself fill a grammatical role inside the embedded clause—as subject, object, or even adverbial. Second, wh-clauses are the only complement-clause type that can serve as the object of a preposition. The two examples below illustrate each variation.</p>
+    <p>This is the parallel of the Section 13.10 relative-clause pattern in which a relative pronoun fills the embedded subject NP. Here a wh-pronoun does the same job inside a complement clause.</p>
 
     <paragraphs>
-      <title>Labeling Table: <foreign>What happened was unexpected</foreign> (wh-word as embedded subject)</title>
+      <title>Labeling Table: <foreign>What happened was unexpected</foreign> (wh-pronoun as embedded subject)</title>
     </paragraphs>
 
     <image source="diagrams/new/ch14_table_020.png" width="65%">
@@ -858,21 +740,57 @@
     </image>
     <p><c>[S [CC [NP [PRON What]] [VP [V happened]]] [VP [V was] [ADJP [ADJ unexpected]]]]</c></p>
 
-    <p>Here the wh-word <foreign>What</foreign> serves a double duty: it introduces the embedded clause <em>and</em> functions as that clause's subject. There is no separate complementizer node—the wh-pronoun fills the subject NP slot directly. The whole CC then occupies the matrix subject slot.</p>
+    <p>The wh-word <foreign>What</foreign> serves a double duty: it introduces the embedded clause <em>and</em> fills its subject slot. There is no separate complementizer node—the wh-pronoun is the subject NP. The whole CC then occupies the matrix subject slot.</p>
 
     <paragraphs>
-      <title>Labeling Table: <foreign>We talked about what he said</foreign> (wh-clause as Object of Preposition)</title>
+      <title>Pattern 3: Wh-word Preceding the Subject</title>
+    </paragraphs>
+
+    <p>When a wh-word fills a non-subject role inside the embedded clause (object, adverbial, etc.), a separate subject NP follows it. The wh-word still introduces the clause, but it has been pulled from somewhere inside the predicate to the front:</p>
+
+    <p>Pattern 3 = Wh-word + Subject NP + Predicate VP</p>
+
+    <ul>
+      <li><p><foreign>I know <em>what she said</em>.</foreign> (DO; <foreign>what</foreign> = direct object of <foreign>said</foreign>)</p></li>
+      <li><p><foreign>She asked <em>where he went</em>.</foreign> (DO; <foreign>where</foreign> = adverbial of <foreign>went</foreign>)</p></li>
+      <li><p><foreign>We discussed <em>why the experiment failed</em>.</foreign> (DO; <foreign>why</foreign> = adverbial)</p></li>
+    </ul>
+
+    <p>The word order inside the embedded clause is declarative, not interrogative: <foreign>I know what she said</foreign>, not <foreign><delete>I know what did she say</delete></foreign>. This is one of the most common error patterns in academic writing—students bring the question word order along with the wh-word, creating an indirect-question/direct-question hybrid that is not standard English.</p>
+
+    <p>Pattern 3 is also the only complement-clause pattern that can fill the object-of-preposition slot. <foreign>about what he said</foreign> is grammatical; <foreign><delete>about that he said</delete></foreign> is not. This pattern is common after verbs and adjectives that select prepositional complements: <foreign>think about, talk about, interested in, curious about, worried about</foreign>.</p>
+
+    <paragraphs>
+      <title>Labeling Table: <foreign>We talked about what he said</foreign> (CC as Object of Preposition)</title>
     </paragraphs>
 
     <image source="diagrams/new/ch14_table_021.png" width="80%">
-      <description>Multi-level labeling table for "We talked about what he said" showing a wh-clause as object of preposition</description>
+      <description>Multi-level labeling table for "We talked about what he said" showing a complement clause as object of preposition</description>
     </image>
     <image source="diagrams/new/ch14_wh_objprep.png" width="55%">
-      <description>Syntax tree for "We talked about what he said" showing the wh-clause filling the object-of-preposition slot inside an adverbial PP</description>
+      <description>Syntax tree for "We talked about what he said" showing the complement clause filling the object-of-preposition slot inside an adverbial PP</description>
     </image>
     <p><c>[S [NP [PRON We]] [VP [V talked] [PP [PREP about] [CC [COMP what] [NP [PRON he]] [VP [V said]]]]]]</c></p>
 
-    <p>Of all the complement-clause types, only wh-clauses can sit after a preposition. You can say <foreign>about what he said</foreign> but not <foreign><delete>about that he said</delete></foreign>. This pattern is common after verbs and adjectives that select prepositional complements: <foreign>think about, talk about, interested in, curious about, worried about</foreign>.</p>
+    <p>The wh-word <foreign>what</foreign> sits at the front of the complement clause; the embedded subject (<foreign>he</foreign>) and embedded predicate (<foreign>said</foreign>) follow. <foreign>what</foreign> is the direct object of <foreign>said</foreign>, pulled to the clause-initial position.</p>
+
+    <paragraphs>
+      <title>Empty Complementizer (Omitted <foreign>that</foreign>)</title>
+    </paragraphs>
+
+    <p>In Pattern 1 with <foreign>that</foreign> in object position, the complementizer can be omitted: <foreign>I believe she is honest</foreign>. Structurally the slot is still there—it's just unfilled. Some textbook traditions show this with an empty COMP node in the tree diagram; others simply omit the COMP node entirely. We use the convention from Chapter 13 (the empty-relativizer convention): show the omission as <foreign>(that)</foreign> in prose and use a normal Pattern 1 bracket with the omitted word in parentheses when it would otherwise be ambiguous.</p>
+
+    <paragraphs>
+      <title>Key Points</title>
+    </paragraphs>
+
+    <ul>
+      <li><p>Complement clauses come in three structural patterns. Pattern 1 has a separate complementizer (<foreign>that</foreign>, <foreign>if</foreign>, <foreign>whether</foreign>) and a separate subject NP. Pattern 2 has a wh-pronoun filling the embedded subject NP. Pattern 3 has a wh-word at the front and a separate subject NP after it.</p></li>
+      <li><p>The same surface position (subject, DO, SubjComp, OP) can be filled by any pattern—what differs is the structure inside the clause.</p></li>
+      <li><p>Only Pattern 3 (wh-word + separate subject) can serve as the object of a preposition.</p></li>
+      <li><p>Word order inside the embedded clause is always declarative: <foreign>I know what she said</foreign>, not <foreign><delete>I know what did she say</delete></foreign>.</p></li>
+      <li><p>Common matrix verbs that take complement-clause objects: <foreign>believe, know, think, say, hope, realize, admit, claim, doubt, wonder, ask, tell, explain, decide, understand</foreign>.</p></li>
+    </ul>
 
   </section>
 
@@ -888,10 +806,10 @@
     <ul>
       <li><p><em>Form vs. function:</em> A noun is a part of speech (form); a nominal is any structure functioning in a noun-phrase position (function). All nouns in subject or object position are nominals, but not all nominals are nouns.</p></li>
       <li><p><em>Six nominal positions:</em> subject, direct object, indirect object, object of a preposition, subject complement, and object complement. These are the argument slots that the verb requires or the sentence structure provides.</p></li>
-      <li><p><em>Six nominal forms:</em> noun phrases, pronouns, gerund phrases, infinitive phrases, that-clauses, and wh-clauses can each fill nominal positions, though some have distributional restrictions.</p></li>
-      <li><p><em>Gerund phrases</em> (<foreign>-ing</foreign> form) can fill subject, direct object, indirect object, object of a preposition, and subject complement positions.</p></li>
+      <li><p><em>Five nominal forms:</em> noun phrases, pronouns, present participle phrases (gerund phrases), infinitive phrases, and complement clauses can each fill nominal positions, though some have distributional restrictions.</p></li>
+      <li><p><em>Present participle phrases</em> (<foreign>-ing</foreign> form, traditionally called <em>gerund phrases</em> when used nominally) can fill subject, direct object, indirect object, object of a preposition, and subject complement positions.</p></li>
       <li><p><em>Infinitive phrases</em> (<foreign>to</foreign> + verb) fill subject, direct object, and complement positions—but not object of a preposition.</p></li>
-      <li><p><em>Complement clauses</em> are full clauses filling nominal positions. That-clauses embed statements; wh-clauses embed questions. The complementizer <foreign>that</foreign> can be omitted in object position but not in subject position.</p></li>
+      <li><p><em>Complement clauses</em> are full clauses filling nominal positions. They come in three structural patterns: complementizer + full clause (Pattern 1, e.g., <foreign>that she is honest</foreign>); wh-pronoun as embedded subject (Pattern 2, e.g., <foreign>what happened</foreign>); wh-word preceding a separate subject (Pattern 3, e.g., <foreign>what she said</foreign>). The complementizer <foreign>that</foreign> can be omitted in object position but not in subject position.</p></li>
       <li><p><em>Extraposition</em> moves long subject clauses to the end of the sentence, placing <foreign>it</foreign> as a placeholder subject—a common pattern in both speech and writing.</p></li>
     </ul>
   </section>
@@ -918,10 +836,9 @@
         </row>
         <row><cell>Noun Phrase (NP)</cell><cell><foreign>the interesting book</foreign></cell></row>
         <row><cell>Pronoun</cell><cell><foreign>she, him, them</foreign></cell></row>
-        <row><cell>Gerund Phrase</cell><cell><foreign>swimming every morning</foreign></cell></row>
+        <row><cell>Present Participle Phrase (Gerund Phrase)</cell><cell><foreign>swimming every morning</foreign></cell></row>
         <row><cell>Infinitive Phrase</cell><cell><foreign>to win the race</foreign></cell></row>
-        <row><cell>That-clause</cell><cell><foreign>that she resigned</foreign></cell></row>
-        <row><cell>Wh-clause</cell><cell><foreign>what she said</foreign>, <foreign>whether he comes</foreign></cell></row>
+        <row><cell>Complement Clause</cell><cell><foreign>that she resigned</foreign>, <foreign>what she said</foreign>, <foreign>whether he comes</foreign></cell></row>
       </tabular>
 
       <tabular halign="left">
@@ -944,7 +861,7 @@
       <p><foreign><em>Swimming every morning</em> has improved my health.</foreign></p>
 
       <ul>
-        <li><p>Form: gerund phrase</p></li>
+        <li><p>Form: present participle phrase (gerund phrase)</p></li>
         <li><p>Function: subject</p></li>
       </ul>
 
@@ -994,26 +911,26 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Combine each pair of sentences into a single sentence by turning one of them into the requested nominal form (gerund phrase, infinitive phrase, that-clause, or wh-clause) in the requested position. Use the reference table below as a quick reminder of the available forms.</p>
+      <p>Combine each pair of sentences into a single sentence by turning one of them into the requested nominal form (present participle phrase, infinitive phrase, or complement clause) in the requested position. The first sentence in each pair contains a placeholder noun (<em>a fact, a habit, a plan, a question</em>); the second supplies the content that fills the placeholder. Use the reference table below as a quick reminder of the available forms.</p>
 
       <tabular halign="left">
         <row header="yes" bottom="minor">
           <cell>Form</cell>
           <cell>Example fragment</cell>
         </row>
-        <row><cell>Gerund phrase</cell><cell><foreign>studying every night</foreign></cell></row>
-        <row><cell>Infinitive phrase</cell><cell><foreign>to visit her grandmother</foreign></cell></row>
-        <row><cell>That-clause</cell><cell><foreign>that the team practiced</foreign></cell></row>
-        <row><cell>Wh-clause</cell><cell><foreign>what your opinion is</foreign></cell></row>
+        <row><cell>Present participle phrase (gerund phrase)</cell><cell><foreign>studying every night</foreign></cell></row>
+        <row><cell>Infinitive phrase</cell><cell><foreign>to study abroad</foreign></cell></row>
+        <row><cell>Complement clause (that)</cell><cell><foreign>that the exam will be on Friday</foreign></cell></row>
+        <row><cell>Complement clause (wh)</cell><cell><foreign>why the experiment failed</foreign></cell></row>
       </tabular>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p>Combine using a <em>that-clause</em> as <em>direct object</em>:</p>
+      <p>Combine using a <em>complement clause</em> as <em>direct object</em>:</p>
 
-      <p><foreign>The committee will reconvene tomorrow. The chair announced this.</foreign></p>
+      <p><foreign>The chair announced a decision. The committee will reconvene tomorrow.</foreign></p>
 
       <p>Combined: <foreign>The chair announced that the committee will reconvene tomorrow.</foreign></p>
 
@@ -1021,33 +938,33 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 8.</em> Combine using a <em>that-clause</em> as <em>direct object</em>:</p>
+      <p><em>Exercise 8.</em> Combine using a <em>complement clause</em> (with <foreign>that</foreign>) as <em>direct object</em>:</p>
 
-      <p><foreign>The team had practiced hard. She knew this.</foreign></p>
+      <p><foreign>The teacher announced a fact. The exam will be on Friday.</foreign></p>
 
       <p>Combined: __________</p>
 
-      <p><em>Exercise 9.</em> Combine using a <em>gerund phrase</em> as <em>subject</em>:</p>
+      <p><em>Exercise 9.</em> Combine using a <em>present participle phrase</em> as <em>subject</em>:</p>
 
-      <p><foreign>Students study every night. This improves their grades.</foreign></p>
+      <p><foreign>A daily habit improves grades. Students study every night.</foreign></p>
 
       <p>Combined: __________</p>
 
       <p><em>Exercise 10.</em> Combine using an <em>infinitive phrase</em> as <em>direct object</em>:</p>
 
-      <p><foreign>She would visit her grandmother. She decided this.</foreign></p>
+      <p><foreign>Maria made a plan. Maria will study abroad next year.</foreign></p>
 
       <p>Combined: __________</p>
 
-      <p><em>Exercise 11.</em> Combine using a <em>wh-clause</em> as <em>direct object</em>:</p>
+      <p><em>Exercise 11.</em> Combine using a <em>complement clause</em> (with a wh-word) as <em>direct object</em>:</p>
 
-      <p><foreign>I want to know your opinion. Tell me your opinion.</foreign></p>
+      <p><foreign>The student asked a question. Why did the experiment fail?</foreign></p>
 
       <p>Combined: __________</p>
 
-      <p><em>Exercise 12.</em> Combine using a <em>gerund phrase</em> as <em>object of a preposition</em>:</p>
+      <p><em>Exercise 12.</em> Combine using a <em>present participle phrase</em> as <em>object of a preposition</em>:</p>
 
-      <p><foreign>She practiced daily. She succeeded by this.</foreign></p>
+      <p><foreign>Maria won the chess tournament. Maria practiced every day.</foreign></p>
 
       <p>Combined: __________</p>
     </subsection>
@@ -1064,7 +981,7 @@
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p>Add a that-clause as direct object: <foreign>The scientists discovered __________.</foreign></p>
+      <p>Add a complement clause as direct object: <foreign>The scientists discovered __________.</foreign></p>
 
       <p>Answer: <foreign>The scientists discovered that the cells could regenerate.</foreign></p>
 
@@ -1072,15 +989,15 @@
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 13.</em> Add a gerund phrase as subject: <foreign>__________ can be challenging for new employees.</foreign></p>
+      <p><em>Exercise 13.</em> Add a present participle phrase as subject: <foreign>__________ can be challenging for new employees.</foreign></p>
 
-      <p><em>Exercise 14.</em> Add a wh-clause as direct object: <foreign>The detective investigated __________.</foreign></p>
+      <p><em>Exercise 14.</em> Add a complement clause (with a wh-word) as direct object: <foreign>The detective investigated __________.</foreign></p>
 
       <p><em>Exercise 15.</em> Add an infinitive phrase as subject complement: <foreign>Her goal this year is __________.</foreign></p>
 
-      <p><em>Exercise 16.</em> Add a that-clause as subject: <foreign>__________ surprised everyone at the meeting.</foreign></p>
+      <p><em>Exercise 16.</em> Add a complement clause (with <foreign>that</foreign>) as subject: <foreign>__________ surprised everyone at the meeting.</foreign></p>
 
-      <p><em>Exercise 17.</em> Add a gerund phrase as object of a preposition: <foreign>She succeeded by __________.</foreign></p>
+      <p><em>Exercise 17.</em> Add a present participle phrase as object of a preposition: <foreign>She succeeded by __________.</foreign></p>
     </subsection>
 
     <subsection>
@@ -1089,7 +1006,7 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each sentence, complete the labeling table (Role, Phrase, Word, POS), write the bracket notation, and draw a tree diagram. Pay special attention to nominal elements: noun clauses, gerund phrases, and infinitive phrases functioning as subjects, objects, or complements.</p>
+      <p>For each sentence, complete the labeling table (Role, Phrase, Word, POS), write the bracket notation, and draw a tree diagram. Pay special attention to nominal elements: complement clauses, present participle phrases, and infinitive phrases functioning as subjects, objects, or complements.</p>
 
       <paragraphs>
         <title>Exercises</title>
@@ -1133,7 +1050,7 @@
         <title>Prose Impact: Choosing Among Nominal Forms</title>
       </paragraphs>
 
-      <p><em>Exercise 23.</em> The two paragraphs below describe the same sequence of events. Paragraph A uses mostly noun phrases and pronouns in its nominal slots. Paragraph B fills the same slots with that-clauses, gerund phrases, infinitive phrases, and wh-clauses. Read both, then answer the questions that follow.</p>
+      <p><em>Exercise 23.</em> The two paragraphs below describe the same sequence of events. Paragraph A uses mostly noun phrases and pronouns in its nominal slots. Paragraph B fills the same slots with complement clauses, present participle phrases, and infinitive phrases. Read both, then answer the questions that follow.</p>
 
       <p><em>Paragraph A.</em></p>
 
@@ -1145,7 +1062,7 @@
 
       <p>a) Identify two nominals from Paragraph A and label each one's form (NP, pronoun, etc.) and function (subject, direct object, etc.).</p>
 
-      <p>b) Identify two nominals from Paragraph B and label each one's form (that-clause, gerund phrase, infinitive phrase, wh-clause) and function.</p>
+      <p>b) Identify two nominals from Paragraph B and label each one's form (complement clause, present participle phrase, infinitive phrase) and function.</p>
 
       <p>c) How does the rhythm or pacing of the two paragraphs differ? Read each one aloud if it helps you decide.</p>
 
@@ -1181,13 +1098,13 @@
       <p><c>[S [NP [DET The] [N students]] [VP [V read] [NP [N books]]]]</c></p>
 
       <paragraphs>
-        <title>14.11.1 B: Gerund phrase as subject: <foreign>Running every morning is healthy</foreign></title>
+        <title>14.11.1 B: Present participle phrase as subject: <foreign>Running every morning is healthy</foreign></title>
       </paragraphs>
       <image source="diagrams/new/ch14_table_011.png" width="65%">
         <description>Multi-level labeling table for "Running every morning is healthy"</description>
       </image>
       <image source="diagrams/new/ch14_gerund_running.png" width="55%">
-        <description>Syntax tree for "Running every morning is healthy" showing a gerund phrase as subject</description>
+        <description>Syntax tree for "Running every morning is healthy" showing a present participle phrase as subject</description>
       </image>
       <p><c>[S [VP [V Running] [NP [DET every] [N morning]]] [VP [V is] [ADJP [ADJ healthy]]]]</c></p>
 
@@ -1202,14 +1119,14 @@
       </image>
       <p><c>[S [VP [V To win] [NP [DET the] [N race]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]</c></p>
 
-      <p>Reading these three diagrams side by side makes the form-vs.-function distinction concrete: the subject slot looks identical from outside, but the structures slotting into it differ dramatically. The NP version is a flat determiner-noun structure; the gerund version is a VP whose head is the <foreign>-ing</foreign> form of a verb; the infinitive version is a VP whose head is the multi-word <foreign>to V</foreign> unit. In all three cases, the phrase as a whole functions as Subject regardless of what its internal structure is built from.</p>
+      <p>Reading these three diagrams side by side makes the form-vs.-function distinction concrete: the subject slot looks identical from outside, but the structures slotting into it differ dramatically. The NP version is a flat determiner-noun structure; the present participle version is a VP whose head is the <foreign>-ing</foreign> form of a verb; the infinitive version is a VP whose head is the multi-word <foreign>to V</foreign> unit. In all three cases, the phrase as a whole functions as Subject regardless of what its internal structure is built from.</p>
     </subsection>
 
     <subsection xml:id="ch-14-diagrams-complement-clauses">
       <title>Complement Clauses</title>
 
       <paragraphs>
-        <title>14.11.2 A: That-clause as object: <foreign>I know that you cry</foreign></title>
+        <title>14.11.2 A: Pattern 1 (complementizer + clause) as direct object: <foreign>I know that you cry</foreign></title>
       </paragraphs>
       <image source="diagrams/new/ch14_table_004.png" width="65%">
         <description>Multi-level labeling table for "know that you cry"</description>
@@ -1220,7 +1137,7 @@
       <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]</c></p>
 
       <paragraphs>
-        <title>14.11.2 B: That-clause as subject: <foreign>That you cry upsets me</foreign></title>
+        <title>14.11.2 B: Pattern 1 as subject: <foreign>That you cry upsets me</foreign></title>
       </paragraphs>
       <image source="diagrams/new/ch14_table_005.png" width="65%">
         <description>Multi-level labeling table for "That you cry upsets me"</description>
@@ -1231,7 +1148,7 @@
       <p><c>[S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]</c></p>
 
       <paragraphs>
-        <title>14.11.2 C: If/whether-clause as object: <foreign>I wonder if you cry</foreign></title>
+        <title>14.11.2 C: Pattern 1 with <foreign>if</foreign>: <foreign>I wonder if you cry</foreign></title>
       </paragraphs>
       <image source="diagrams/new/ch14_table_006.png" width="65%">
         <description>Multi-level labeling table for "wonder if you cry"</description>
@@ -1242,7 +1159,7 @@
       <p><c>[S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]</c></p>
 
       <paragraphs>
-        <title>14.11.2 D: Missing complementizer: <foreign>I know you cry</foreign></title>
+        <title>14.11.2 D: Pattern 1 with empty complementizer: <foreign>I know you cry</foreign></title>
       </paragraphs>
       <image source="diagrams/new/ch14_table_007.png" width="65%">
         <description>Multi-level labeling table for "know _ you cry"</description>
@@ -1266,12 +1183,12 @@
       <p>Moving a long subject clause to the end of a sentence and placing <foreign>it</foreign> in the subject position as a placeholder.</p>
     </gi>
     <gi>
-      <title>Gerund</title>
-      <p>The <foreign>-ing</foreign> form of a verb functioning nominally.</p>
+      <title>Complementizer</title>
+      <p>The word that introduces a complement clause: most commonly <foreign>that</foreign>, <foreign>if</foreign>, <foreign>whether</foreign>, or a wh-word (<foreign>what, who, where, when, why, how</foreign>).</p>
     </gi>
     <gi>
-      <title>Gerund phrase</title>
-      <p>A gerund with its complements and modifiers, functioning as a nominal.</p>
+      <title>Gerund</title>
+      <p>Traditional term for a present participle (<foreign>-ing</foreign> form) functioning nominally. We use <em>present participle phrase</em> as the primary term.</p>
     </gi>
     <gi>
       <title>Infinitive phrase (nominal)</title>
@@ -1290,12 +1207,8 @@
       <p>A part of speech naming people, places, things, or ideas.</p>
     </gi>
     <gi>
-      <title>That-clause</title>
-      <p>A complement clause introduced by the complementizer <foreign>that</foreign>.</p>
-    </gi>
-    <gi>
-      <title>Wh-clause</title>
-      <p>A complement clause introduced by a wh-word (<foreign>what, where, whether</foreign>, etc.).</p>
+      <title>Present participle phrase (nominal)</title>
+      <p>A phrase headed by an <foreign>-ing</foreign> verb functioning as a nominal. Traditionally called a <em>gerund phrase</em> when used in this nominal sense.</p>
     </gi>
   </glossary>
 

@@ -58,14 +58,14 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # Exercise 1
     add_exercise(doc, 1, 'I don\u2019t know whether she received my message.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
-    add_answer_line(doc, 'Form:', 'wh-clause (whether-clause)', body_size, font_name=body_font)
+    add_answer_line(doc, 'Form:', 'complement clause (whether-clause)', body_size, font_name=body_font)
     add_answer_line(doc, 'Function:', 'direct object (of "know")', body_size, font_name=body_font)
 
     # Exercise 2
     question_page_break(doc, overhead)
     add_exercise(doc, 2, 'The problem is that we lack sufficient funding.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
-    add_answer_line(doc, 'Form:', 'that-clause', body_size, font_name=body_font)
+    add_answer_line(doc, 'Form:', 'complement clause (that-clause)', body_size, font_name=body_font)
     add_answer_line(doc, 'Function:', 'subject complement', body_size, font_name=body_font)
 
     # Exercise 3
@@ -79,28 +79,28 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     question_page_break(doc, overhead)
     add_exercise(doc, 4, 'What the scientist discovered changed the field of biology.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
-    add_answer_line(doc, 'Form:', 'wh-clause', body_size, font_name=body_font)
+    add_answer_line(doc, 'Form:', 'complement clause (wh-clause)', body_size, font_name=body_font)
     add_answer_line(doc, 'Function:', 'subject', body_size, font_name=body_font)
 
     # Exercise 5
     question_page_break(doc, overhead)
     add_exercise(doc, 5, 'She enjoys reading mystery novels on rainy afternoons.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
-    add_answer_line(doc, 'Form:', 'gerund phrase', body_size, font_name=body_font)
+    add_answer_line(doc, 'Form:', 'present participle phrase (gerund phrase)', body_size, font_name=body_font)
     add_answer_line(doc, 'Function:', 'direct object (of "enjoys")', body_size, font_name=body_font)
 
     # Exercise 6
     question_page_break(doc, overhead)
     add_exercise(doc, 6, 'He asked who would be attending the conference.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
-    add_answer_line(doc, 'Form:', 'wh-clause', body_size, font_name=body_font)
+    add_answer_line(doc, 'Form:', 'complement clause (wh-clause)', body_size, font_name=body_font)
     add_answer_line(doc, 'Function:', 'direct object (of "asked")', body_size, font_name=body_font)
 
     # Exercise 7
     question_page_break(doc, overhead)
     add_exercise(doc, 7, 'Her greatest fear is making a mistake in public.', body_size, font_name=body_font)
     answer_page_break(doc, overhead)
-    add_answer_line(doc, 'Form:', 'gerund phrase', body_size, font_name=body_font)
+    add_answer_line(doc, 'Form:', 'present participle phrase (gerund phrase)', body_size, font_name=body_font)
     add_answer_line(doc, 'Function:', 'subject complement', body_size, font_name=body_font)
 
     # =============================================
@@ -109,27 +109,28 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_part_heading(doc, 'Part 2: Sentence Combining with Nominals', cfg, overhead)
 
     combinings = [
-        (8, 'that-clause as direct object',
-         'The team had practiced hard. She knew this.',
-         'She knew that the team had practiced hard.'),
-        (9, 'gerund phrase as subject',
-         'Students study every night. This improves their grades.',
-         'Studying every night improves students\u2019 grades.'),
+        (8, 'complement clause (with that) as direct object',
+         'The teacher announced a fact. The exam will be on Friday.',
+         'The teacher announced that the exam will be on Friday.'),
+        (9, 'present participle phrase as subject',
+         'A daily habit improves grades. Students study every night.',
+         'Studying every night improves grades.'),
         (10, 'infinitive phrase as direct object',
-         'She would visit her grandmother. She decided this.',
-         'She decided to visit her grandmother.'),
-        (11, 'wh-clause as direct object',
-         'I want to know your opinion. Tell me your opinion.',
-         'Tell me what your opinion is.'),
-        (12, 'gerund phrase as object of a preposition',
-         'She practiced daily. She succeeded by this.',
-         'She succeeded by practicing daily.'),
+         'Maria made a plan. Maria will study abroad next year.',
+         'Maria planned to study abroad next year.'),
+        (11, 'complement clause (with a wh-word) as direct object',
+         'The student asked a question. Why did the experiment fail?',
+         'The student asked why the experiment failed.'),
+        (12, 'present participle phrase as object of a preposition',
+         'Maria won the chess tournament. Maria practiced every day.',
+         'Maria won the chess tournament by practicing every day.'),
     ]
 
     for i, (num, target, sources, sample) in enumerate(combinings):
         if i > 0:
             question_page_break(doc, overhead)
-        add_exercise(doc, num, f'Combine using a {target}.', body_size, font_name=body_font)
+        article = 'an' if target[0].lower() in 'aeiou' else 'a'
+        add_exercise(doc, num, f'Combine using {article} {target}.', body_size, font_name=body_font)
         add_plain_line(doc, sources, body_size, font_name=body_font)
         answer_page_break(doc, overhead)
         add_plain_line(doc, f'Sample: {sample}', body_size, font_name=body_font)
@@ -146,15 +147,15 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     set_paragraph_spacing(p, space_before=3, space_after=6)
 
     completions = [
-        (13, 'Gerund phrase as subject: __________ can be challenging for new employees.',
+        (13, 'Present participle phrase as subject: __________ can be challenging for new employees.',
          '"Learning new software can be challenging for new employees."'),
-        (14, 'Wh-clause as direct object: The detective investigated __________.',
+        (14, 'Complement clause (with a wh-word) as direct object: The detective investigated __________.',
          '"The detective investigated who had access to the building."'),
         (15, 'Infinitive phrase as subject complement: Her goal this year is __________.',
          '"Her goal this year is to complete her dissertation."'),
-        (16, 'That-clause as subject: __________ surprised everyone at the meeting.',
+        (16, 'Complement clause (with that) as subject: __________ surprised everyone at the meeting.',
          '"That the CEO resigned surprised everyone at the meeting."'),
-        (17, 'Gerund phrase as object of preposition: She succeeded by __________.',
+        (17, 'Present participle phrase as object of preposition: She succeeded by __________.',
          '"She succeeded by studying consistently throughout the semester."'),
     ]
 
@@ -216,10 +217,10 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         body_size, font_name=body_font)
     add_plain_line(doc,
         '(b) Sample identifications from Paragraph B: '
-        '"That the staff was divided" \u2014 that-clause, subject of "became"; '
-        '"Calling a vote" \u2014 gerund phrase, subject of "was"; '
-        '"What happened next" \u2014 wh-clause, subject of "surprised"; '
-        '"Reading the minority report" \u2014 gerund phrase, subject of "revealed"; '
+        '"That the staff was divided" \u2014 complement clause, subject of "became"; '
+        '"Calling a vote" \u2014 present participle phrase, subject of "was"; '
+        '"What happened next" \u2014 complement clause, subject of "surprised"; '
+        '"Reading the minority report" \u2014 present participle phrase, subject of "revealed"; '
         '"To project unity" \u2014 infinitive phrase, subject of "required". '
         'Accept any two correctly labeled nominals.',
         body_size, font_name=body_font)
@@ -345,10 +346,9 @@ def create_student_homework(output_path):
     add_ref_table(['Nominal Forms', 'Example'], [
         ['Noun Phrase (NP)', 'the interesting book'],
         ['Pronoun', 'she, him, them'],
-        ['Gerund Phrase', 'swimming every morning'],
+        ['Present Participle Phrase (Gerund Phrase)', 'swimming every morning'],
         ['Infinitive Phrase', 'to win the race'],
-        ['That-clause', 'that she resigned'],
-        ['Wh-clause', 'what she said, whether he comes'],
+        ['Complement Clause', 'that she resigned, what she said, whether he comes'],
     ])
 
     add_ref_table(['Nominal Functions', 'Diagnostic'], [
@@ -362,7 +362,7 @@ def create_student_homework(output_path):
 
     add_text('Example (completed)', bold=True)
     add_text('Swimming every morning has improved my health.', italic=True)
-    add_blank('   Form: gerund phrase')
+    add_blank('   Form: present participle phrase (gerund phrase)')
     add_blank('   Function: subject')
 
     add_text('Exercises', bold=True)
@@ -386,35 +386,37 @@ def create_student_homework(output_path):
     # =============================================
     add_part('Part 2: Sentence Combining with Nominals (approx. 10 minutes)')
     add_text('Combine each pair of sentences into a single sentence by turning '
-             'one of them into the requested nominal form (gerund phrase, '
-             'infinitive phrase, that-clause, or wh-clause) in the requested '
-             'position. Use the reference table below.')
+             'one of them into the requested nominal form (present participle '
+             'phrase, infinitive phrase, or complement clause) in the requested '
+             'position. The first sentence in each pair contains a placeholder '
+             'noun (a fact, a habit, a plan, a question); the second supplies '
+             'the content. Use the reference table below.')
 
     add_ref_table(['Form', 'Example fragment'], [
-        ['Gerund phrase', 'studying every night'],
-        ['Infinitive phrase', 'to visit her grandmother'],
-        ['That-clause', 'that the team practiced'],
-        ['Wh-clause', 'what your opinion is'],
+        ['Present participle phrase (gerund phrase)', 'studying every night'],
+        ['Infinitive phrase', 'to study abroad'],
+        ['Complement clause (that)', 'that the exam will be on Friday'],
+        ['Complement clause (wh)', 'why the experiment failed'],
     ])
 
     add_text('Example (completed)', bold=True)
-    add_text('Combine using a that-clause as direct object:')
-    add_text('The committee will reconvene tomorrow. The chair announced this.', italic=True)
+    add_text('Combine using a complement clause as direct object:')
+    add_text('The chair announced a decision. The committee will reconvene tomorrow.', italic=True)
     add_text('Combined: The chair announced that the committee will reconvene tomorrow.', italic=True)
 
     add_text('Exercises', bold=True)
 
     part2_combinings = [
-        (8, 'a that-clause as direct object',
-         'The team had practiced hard. She knew this.'),
-        (9, 'a gerund phrase as subject',
-         'Students study every night. This improves their grades.'),
+        (8, 'a complement clause (with that) as direct object',
+         'The teacher announced a fact. The exam will be on Friday.'),
+        (9, 'a present participle phrase as subject',
+         'A daily habit improves grades. Students study every night.'),
         (10, 'an infinitive phrase as direct object',
-         'She would visit her grandmother. She decided this.'),
-        (11, 'a wh-clause as direct object',
-         'I want to know your opinion. Tell me your opinion.'),
-        (12, 'a gerund phrase as object of a preposition',
-         'She practiced daily. She succeeded by this.'),
+         'Maria made a plan. Maria will study abroad next year.'),
+        (11, 'a complement clause (with a wh-word) as direct object',
+         'The student asked a question. Why did the experiment fail?'),
+        (12, 'a present participle phrase as object of a preposition',
+         'Maria won the chess tournament. Maria practiced every day.'),
     ]
     for num, target, sources in part2_combinings:
         add_ex(num, f'Combine using {target}:', italic=False)
@@ -428,17 +430,17 @@ def create_student_homework(output_path):
     add_text('Complete each sentence with the requested nominal structure.')
 
     add_text('Example (completed)', bold=True)
-    add_text('Add a that-clause as direct object: The scientists discovered __________.')
+    add_text('Add a complement clause as direct object: The scientists discovered __________.')
     add_text('Answer: The scientists discovered that the cells could regenerate.', italic=True)
 
     add_text('Exercises', bold=True)
 
     part3_exercises = [
-        (13, 'Add a gerund phrase as subject: __________ can be challenging for new employees.'),
-        (14, 'Add a wh-clause as direct object: The detective investigated __________.'),
+        (13, 'Add a present participle phrase as subject: __________ can be challenging for new employees.'),
+        (14, 'Add a complement clause (with a wh-word) as direct object: The detective investigated __________.'),
         (15, 'Add an infinitive phrase as subject complement: Her goal this year is __________.'),
-        (16, 'Add a that-clause as subject: __________ surprised everyone at the meeting.'),
-        (17, 'Add a gerund phrase as object of a preposition: She succeeded by __________.'),
+        (16, 'Add a complement clause (with that) as subject: __________ surprised everyone at the meeting.'),
+        (17, 'Add a present participle phrase as object of a preposition: She succeeded by __________.'),
     ]
     for num, prompt in part3_exercises:
         add_ex(num, prompt, italic=False)
@@ -472,9 +474,9 @@ def create_student_homework(output_path):
     add_ex(23,
            'The two paragraphs below describe the same sequence of events. '
            'Paragraph A uses mostly noun phrases and pronouns in its nominal slots. '
-           'Paragraph B fills the same slots with that-clauses, gerund phrases, '
-           'infinitive phrases, and wh-clauses. Read both, then answer the questions '
-           'that follow.', italic=False)
+           'Paragraph B fills the same slots with complement clauses, present '
+           'participle phrases, and infinitive phrases. Read both, then answer the '
+           'questions that follow.', italic=False)
 
     add_text('Paragraph A.', bold=True)
     add_text(
@@ -494,7 +496,7 @@ def create_student_homework(output_path):
     add_blank('   a) Identify two nominals from Paragraph A and label each one’s '
               'form (NP, pronoun, etc.) and function (subject, direct object, etc.).')
     add_blank('   b) Identify two nominals from Paragraph B and label each one’s '
-              'form (that-clause, gerund phrase, infinitive phrase, wh-clause) and function.')
+              'form (complement clause, present participle phrase, infinitive phrase) and function.')
     add_blank('   c) How does the rhythm or pacing of the two paragraphs differ? '
               'Read each one aloud if it helps you decide.')
     add_blank('   d) One paragraph foregrounds entities and outcomes; the other '
