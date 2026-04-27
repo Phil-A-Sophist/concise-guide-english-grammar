@@ -1168,23 +1168,33 @@
       </paragraphs>
 
       <p><em>Exercise 18.</em> <foreign>What she said surprised everyone.</foreign></p>
-      <xi:include href="generated/ch14/ch14_hw_001.ptx"/>
+      <image source="diagrams/new/ch14_hw_student_001.png" width="65%">
+        <description>Blank multi-level labeling table for "What she said surprised everyone"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 19.</em> <foreign>He enjoys swimming in the lake.</foreign></p>
-      <xi:include href="generated/ch14/ch14_hw_002.ptx"/>
+      <image source="diagrams/new/ch14_hw_student_002.png" width="80%">
+        <description>Blank multi-level labeling table for "He enjoys swimming in the lake"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 20.</em> <foreign>To win the race was her only goal.</foreign></p>
-      <xi:include href="generated/ch14/ch14_hw_003.ptx"/>
+      <image source="diagrams/new/ch14_hw_student_003.png" width="90%">
+        <description>Blank multi-level labeling table for "To win the race was her only goal"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 21.</em> <foreign>The fact that he lied angered them.</foreign></p>
-      <xi:include href="generated/ch14/ch14_hw_004.ptx"/>
+      <image source="diagrams/new/ch14_hw_student_004.png" width="85%">
+        <description>Blank multi-level labeling table for "The fact that he lied angered them"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 22.</em> <foreign>She asked whether we could help.</foreign></p>
-      <xi:include href="generated/ch14/ch14_hw_005.ptx"/>
+      <image source="diagrams/new/ch14_hw_student_005.png" width="80%">
+        <description>Blank multi-level labeling table for "She asked whether we could help"</description>
+      </image>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
     </subsection>
 
