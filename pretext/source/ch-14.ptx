@@ -228,7 +228,7 @@
       <title>Direct Object Position</title>
     </paragraphs>
 
-    <p>The direct object follows a transitive verb and receives the action—it is the thing acted upon. <em>Diagnostic:</em> isolate the verb, then ask <q>verb what?</q> or <q>verb whom?</q> The answer is the direct object. Most verbs that take an object accept several different nominal forms in this slot, though some restrict their objects to a particular form (see Section 14.10).</p>
+    <p>The direct object follows a transitive verb and receives the action—it is the thing acted upon. <em>Diagnostic:</em> isolate the verb, then ask <q>verb what?</q> or <q>verb whom?</q> The answer is the direct object. Most verbs that take an object accept several different nominal forms in this slot, though some restrict their objects to a particular form.</p>
 
     <ul>
       <li><p><foreign>She read <em>the book</em>.</foreign> (NP)</p></li>
@@ -877,110 +877,6 @@
   </section>
 
   <!-- ============================================================ -->
-  <!-- 14.10 (CUT) COMPARING NOMINAL STRUCTURES                      -->
-  <!-- ============================================================ -->
-
-  <section xml:id="ch-14-nominals-sec-1410">
-    <title>Comparing Nominal Structures</title>
-
-    <p>Different nominal structures may seem interchangeable but often carry subtle differences in meaning or style. If you can say <foreign>I like swimming</foreign> and also <foreign>I like to swim</foreign>, you might wonder whether the choice of gerund versus infinitive ever matters. The answer is: sometimes no, sometimes yes, and sometimes the choice changes the meaning of the sentence entirely. This section gives you the tools to choose among nominal structures deliberately rather than by habit.</p>
-
-    <p>Before diving into the contrasts, the table below summarizes the distributional differences among the four most common verbal/clausal nominal forms. Use it as a navigational aid: whenever a verb takes an object, the table tells you which forms are even available before you start choosing among them on stylistic grounds.</p>
-
-    <table xml:id="ch-14-comparison">
-      <title>Distributional comparison of nominal forms</title>
-      <tabular halign="left" top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="left" right="minor"/>
-        <row header="yes" bottom="minor">
-          <cell>Form</cell>
-          <cell>Subject</cell>
-          <cell>Direct Object</cell>
-          <cell>Obj. of Prep.</cell>
-          <cell>Subject Compl.</cell>
-          <cell>Object Compl.</cell>
-          <cell>Typical flavor</cell>
-        </row>
-        <row><cell>Gerund phrase</cell><cell>yes</cell><cell>yes</cell><cell>yes</cell><cell>yes</cell><cell>rare</cell><cell>activity / process</cell></row>
-        <row><cell>Infinitive phrase</cell><cell>yes (often extraposed)</cell><cell>yes (selected verbs)</cell><cell>no</cell><cell>yes</cell><cell>rare</cell><cell>goal / hypothetical</cell></row>
-        <row><cell>That-clause</cell><cell>yes</cell><cell>yes (selected verbs)</cell><cell>no</cell><cell>yes</cell><cell>no</cell><cell>asserted proposition</cell></row>
-        <row><cell>Wh-clause</cell><cell>yes</cell><cell>yes (selected verbs)</cell><cell>yes</cell><cell>yes</cell><cell>no</cell><cell>embedded question</cell></row>
-      </tabular>
-    </table>
-
-    <p>Three patterns are worth memorizing from this table. First, only gerunds (and wh-clauses) survive as objects of prepositions. Second, infinitive subjects almost always extrapose when they grow long—the bare-subject form is grammatical but rare in connected prose. Third, every form except gerunds is restricted to particular verbs in object position; you have to know which verbs select which complements.</p>
-
-    <paragraphs>
-      <title>Gerund vs. Infinitive</title>
-    </paragraphs>
-
-    <p>Many verbs take either gerund or infinitive objects with little difference:</p>
-
-    <ul>
-      <li><p><foreign>I like <em>swimming</em>.</foreign> / <foreign>I like <em>to swim</em>.</foreign></p></li>
-      <li><p><foreign>She started <em>working</em>.</foreign> / <foreign>She started <em>to work</em>.</foreign></p></li>
-    </ul>
-
-    <p>But some verbs show clear differences:</p>
-
-    <p><em>Gerund only:</em> <foreign>enjoy, avoid, finish, deny, consider, keep, mind</foreign></p>
-
-    <ul>
-      <li><p><foreign>She enjoys <em>swimming</em>.</foreign> (not <foreign><delete>to swim</delete></foreign>)</p></li>
-    </ul>
-
-    <p><em>Infinitive only:</em> <foreign>want, hope, decide, agree, refuse, plan, promise</foreign></p>
-
-    <ul>
-      <li><p><foreign>She wants <em>to swim</em>.</foreign> (not <foreign><delete>swimming</delete></foreign>)</p></li>
-    </ul>
-
-    <p><em>Different meanings with gerund vs. infinitive:</em></p>
-
-    <ul>
-      <li><p><foreign>I stopped <em>smoking</em>.</foreign> (quit the habit)</p></li>
-      <li><p><foreign>I stopped <em>to smoke</em>.</foreign> (paused in order to smoke)</p></li>
-    </ul>
-
-    <ul>
-      <li><p><foreign>I remember <em>locking</em> the door.</foreign> (I recall the past act of locking)</p></li>
-      <li><p><foreign>I remember <em>to lock</em> the door.</foreign> (I don't forget to do it)</p></li>
-    </ul>
-
-    <paragraphs>
-      <title>That-clause vs. Infinitive</title>
-    </paragraphs>
-
-    <p>Some verbs allow both:</p>
-
-    <ul>
-      <li><p><foreign>I believe <em>that she's honest</em>.</foreign></p></li>
-      <li><p><foreign>I believe <em>her to be honest</em>.</foreign></p></li>
-    </ul>
-
-    <p>The infinitive construction may sound more formal.</p>
-
-    <paragraphs>
-      <title>That-clause vs. Gerund</title>
-    </paragraphs>
-
-    <p>Some verbs take either:</p>
-
-    <ul>
-      <li><p><foreign>He admitted <em>that he was wrong</em>.</foreign></p></li>
-      <li><p><foreign>He admitted <em>being wrong</em>.</foreign></p></li>
-    </ul>
-
-    <p>The gerund is often more concise.</p>
-
-  </section>
-
-  <!-- ============================================================ -->
   <!-- CHAPTER SUMMARY                                               -->
   <!-- ============================================================ -->
 
@@ -997,7 +893,6 @@
       <li><p><em>Infinitive phrases</em> (<foreign>to</foreign> + verb) fill subject, direct object, and complement positions—but not object of a preposition.</p></li>
       <li><p><em>Complement clauses</em> are full clauses filling nominal positions. That-clauses embed statements; wh-clauses embed questions. The complementizer <foreign>that</foreign> can be omitted in object position but not in subject position.</p></li>
       <li><p><em>Extraposition</em> moves long subject clauses to the end of the sentence, placing <foreign>it</foreign> as a placeholder subject—a common pattern in both speech and writing.</p></li>
-      <li><p><em>Choice matters:</em> Gerund vs. infinitive can change meaning (<foreign>stopped smoking</foreign> vs. <foreign>stopped to smoke</foreign>), and some verbs require one or the other.</p></li>
     </ul>
   </section>
 
@@ -1094,57 +989,67 @@
     </subsection>
 
     <subsection>
-      <title>Part 2: Functional Analysis (approx. 5 minutes)</title>
+      <title>Part 2: Sentence Combining with Nominals (approx. 10 minutes)</title>
 
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Identify the function of each underlined nominal. Use the reference table below.</p>
+      <p>Combine each pair of sentences into a single sentence by turning one of them into the requested nominal form (gerund phrase, infinitive phrase, that-clause, or wh-clause) in the requested position. Use the reference table below as a quick reminder of the available forms.</p>
 
       <tabular halign="left">
         <row header="yes" bottom="minor">
-          <cell>Function</cell>
-          <cell>Position in the Clause</cell>
+          <cell>Form</cell>
+          <cell>Example fragment</cell>
         </row>
-        <row><cell>Subject</cell><cell>Before the main verb</cell></row>
-        <row><cell>Direct Object</cell><cell>After a transitive verb (the thing acted upon)</cell></row>
-        <row><cell>Indirect Object</cell><cell>Between the verb and the direct object (the recipient)</cell></row>
-        <row><cell>Object of Preposition</cell><cell>After a preposition (<foreign>about, in, by, for</foreign>, etc.)</cell></row>
-        <row><cell>Subject Complement</cell><cell>After a linking verb (<foreign>be, seem, become</foreign>)</cell></row>
-        <row><cell>Object Complement</cell><cell>After the direct object (renames the object after verbs like <foreign>elect, name, call</foreign>)</cell></row>
+        <row><cell>Gerund phrase</cell><cell><foreign>studying every night</foreign></cell></row>
+        <row><cell>Infinitive phrase</cell><cell><foreign>to visit her grandmother</foreign></cell></row>
+        <row><cell>That-clause</cell><cell><foreign>that the team practiced</foreign></cell></row>
+        <row><cell>Wh-clause</cell><cell><foreign>what your opinion is</foreign></cell></row>
       </tabular>
 
       <paragraphs>
         <title>Example (completed)</title>
       </paragraphs>
 
-      <p><foreign>She believes <em>that honesty is important</em>.</foreign></p>
+      <p>Combine using a <em>that-clause</em> as <em>direct object</em>:</p>
 
-      <p>Function: direct object (of the verb <foreign>believes</foreign>)</p>
+      <p><foreign>The committee will reconvene tomorrow. The chair announced this.</foreign></p>
+
+      <p>Combined: <foreign>The chair announced that the committee will reconvene tomorrow.</foreign></p>
 
       <paragraphs>
         <title>Exercises</title>
       </paragraphs>
 
-      <p><em>Exercise 8.</em> <foreign><em>That the project failed</em> disappointed everyone.</foreign></p>
+      <p><em>Exercise 8.</em> Combine using a <em>that-clause</em> as <em>direct object</em>:</p>
 
-      <p>Function:</p>
+      <p><foreign>The team had practiced hard. She knew this.</foreign></p>
 
-      <p><em>Exercise 9.</em> <foreign>The committee discussed <em>how they would proceed</em>.</foreign></p>
+      <p>Combined: __________</p>
 
-      <p>Function:</p>
+      <p><em>Exercise 9.</em> Combine using a <em>gerund phrase</em> as <em>subject</em>:</p>
 
-      <p><em>Exercise 10.</em> <foreign>She's interested in <em>learning more about linguistics</em>.</foreign></p>
+      <p><foreign>Students study every night. This improves their grades.</foreign></p>
 
-      <p>Function:</p>
+      <p>Combined: __________</p>
 
-      <p><em>Exercise 11.</em> <foreign>The main issue is <em>whether we should continue</em>.</foreign></p>
+      <p><em>Exercise 10.</em> Combine using an <em>infinitive phrase</em> as <em>direct object</em>:</p>
 
-      <p>Function:</p>
+      <p><foreign>She would visit her grandmother. She decided this.</foreign></p>
 
-      <p><em>Exercise 12.</em> <foreign>I appreciate <em>your helping us with the move</em>.</foreign></p>
+      <p>Combined: __________</p>
 
-      <p>Function:</p>
+      <p><em>Exercise 11.</em> Combine using a <em>wh-clause</em> as <em>direct object</em>:</p>
+
+      <p><foreign>I want to know your opinion. Tell me your opinion.</foreign></p>
+
+      <p>Combined: __________</p>
+
+      <p><em>Exercise 12.</em> Combine using a <em>gerund phrase</em> as <em>object of a preposition</em>:</p>
+
+      <p><foreign>She practiced daily. She succeeded by this.</foreign></p>
+
+      <p>Combined: __________</p>
     </subsection>
 
     <subsection>
@@ -1225,35 +1130,10 @@
       <title>Part 5: Analysis and Application (approx. 10 minutes)</title>
 
       <paragraphs>
-        <title>Instructions</title>
-      </paragraphs>
-      <p>Read the sentences and answer the questions.</p>
-
-      <paragraphs>
-        <title>Gerund vs. Infinitive</title>
-      </paragraphs>
-
-      <paragraphs>
-        <title>Exercises</title>
-      </paragraphs>
-
-      <p><em>Exercise 23.</em> Consider the verb <foreign>stop</foreign> in these two sentences:</p>
-
-      <p>a) <foreign>She stopped smoking.</foreign></p>
-
-      <p>b) <foreign>She stopped to smoke.</foreign></p>
-
-      <p>Explain the grammatical difference (what form follows <foreign>stop</foreign> in each?) and the meaning difference:</p>
-
-      <p>Grammatical difference:</p>
-
-      <p>Meaning difference:</p>
-
-      <paragraphs>
         <title>Prose Impact: Choosing Among Nominal Forms</title>
       </paragraphs>
 
-      <p><em>Exercise 24.</em> The two paragraphs below describe the same sequence of events. Paragraph A uses mostly noun phrases and pronouns in its nominal slots. Paragraph B fills the same slots with that-clauses, gerund phrases, infinitive phrases, and wh-clauses. Read both, then answer the questions that follow.</p>
+      <p><em>Exercise 23.</em> The two paragraphs below describe the same sequence of events. Paragraph A uses mostly noun phrases and pronouns in its nominal slots. Paragraph B fills the same slots with that-clauses, gerund phrases, infinitive phrases, and wh-clauses. Read both, then answer the questions that follow.</p>
 
       <p><em>Paragraph A.</em></p>
 

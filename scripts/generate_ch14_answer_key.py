@@ -104,35 +104,35 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     add_answer_line(doc, 'Function:', 'subject complement', body_size, font_name=body_font)
 
     # =============================================
-    # Part 2: Functional Analysis
+    # Part 2: Sentence Combining with Nominals
     # =============================================
-    add_part_heading(doc, 'Part 2: Functional Analysis', cfg, overhead)
+    add_part_heading(doc, 'Part 2: Sentence Combining with Nominals', cfg, overhead)
 
-    functions = [
-        (8, 'That the project failed disappointed everyone.',
-         'subject',
-         'The that-clause is the subject of "disappointed."'),
-        (9, 'The committee discussed how they would proceed.',
-         'direct object',
-         'The wh-clause is the direct object of "discussed."'),
-        (10, 'She\u2019s interested in learning more about linguistics.',
-         'object of preposition',
-         'The gerund phrase is the object of the preposition "in."'),
-        (11, 'The main issue is whether we should continue.',
-         'subject complement',
-         'The wh-clause follows the linking verb "is" and renames "the main issue."'),
-        (12, 'I appreciate your helping us with the move.',
-         'direct object',
-         'The gerund phrase (with possessive) is the direct object of "appreciate."'),
+    combinings = [
+        (8, 'that-clause as direct object',
+         'The team had practiced hard. She knew this.',
+         'She knew that the team had practiced hard.'),
+        (9, 'gerund phrase as subject',
+         'Students study every night. This improves their grades.',
+         'Studying every night improves students\u2019 grades.'),
+        (10, 'infinitive phrase as direct object',
+         'She would visit her grandmother. She decided this.',
+         'She decided to visit her grandmother.'),
+        (11, 'wh-clause as direct object',
+         'I want to know your opinion. Tell me your opinion.',
+         'Tell me what your opinion is.'),
+        (12, 'gerund phrase as object of a preposition',
+         'She practiced daily. She succeeded by this.',
+         'She succeeded by practicing daily.'),
     ]
 
-    for i, (num, sentence, function, explanation) in enumerate(functions):
+    for i, (num, target, sources, sample) in enumerate(combinings):
         if i > 0:
             question_page_break(doc, overhead)
-        add_exercise(doc, num, sentence, body_size, font_name=body_font)
+        add_exercise(doc, num, f'Combine using a {target}.', body_size, font_name=body_font)
+        add_plain_line(doc, sources, body_size, font_name=body_font)
         answer_page_break(doc, overhead)
-        add_answer_line(doc, 'Function:', function, body_size, font_name=body_font)
-        add_plain_line(doc, explanation, body_size, font_name=body_font)
+        add_plain_line(doc, f'Sample: {sample}', body_size, font_name=body_font)
 
     # =============================================
     # Part 3: Sentence Completion
@@ -188,24 +188,8 @@ def create_answer_key(output_path, font_size=12, overhead=False):
     # =============================================
     add_part_heading(doc, 'Part 5: Analysis and Application', cfg, overhead)
 
-    # Exercise 23
-    add_exercise(doc, 23, 'Explain the grammatical and meaning differences between these pairs.', body_size, font_name=body_font)
-    add_plain_line(doc, '23A) "She stopped smoking." vs. 23B) "She stopped to smoke."', body_size, font_name=body_font)
-    answer_page_break(doc, overhead)
-
-    add_plain_line(doc,
-        'Grammatical difference: In (a), "smoking" is a gerund \u2014 it functions as '
-        'the direct object of "stopped." In (b), "to smoke" is an infinitive phrase \u2014 '
-        'it functions as an adverbial of purpose.',
-        body_size, font_name=body_font)
-    add_plain_line(doc,
-        'Meaning difference: (a) means she quit the habit of smoking. '
-        '(b) means she paused what she was doing in order to have a smoke.',
-        body_size, font_name=body_font)
-
-    # Exercise 24 \u2014 Prose Impact (paragraph swap)
-    question_page_break(doc, overhead)
-    add_exercise(doc, 24,
+    # Exercise 23 \u2014 Prose Impact (paragraph swap)
+    add_exercise(doc, 23,
         'Read Paragraphs A and B (same events, different nominal forms) and '
         'answer questions a\u2013e.',
         body_size, font_name=body_font)
@@ -398,36 +382,44 @@ def create_student_homework(output_path):
         add_blank('   Function: __________')
 
     # =============================================
-    # Part 2: Functional Analysis
+    # Part 2: Sentence Combining with Nominals
     # =============================================
-    add_part('Part 2: Functional Analysis (approx. 5 minutes)')
-    add_text('Identify the function of each underlined nominal. Use the reference table below.')
+    add_part('Part 2: Sentence Combining with Nominals (approx. 10 minutes)')
+    add_text('Combine each pair of sentences into a single sentence by turning '
+             'one of them into the requested nominal form (gerund phrase, '
+             'infinitive phrase, that-clause, or wh-clause) in the requested '
+             'position. Use the reference table below.')
 
-    add_ref_table(['Function', 'Position in the Clause'], [
-        ['Subject', 'Before the main verb'],
-        ['Direct Object', 'After a transitive verb (the thing acted upon)'],
-        ['Indirect Object', 'Between the verb and the direct object (the recipient)'],
-        ['Object of Preposition', 'After a preposition (about, in, by, for, etc.)'],
-        ['Subject Complement', 'After a linking verb (be, seem, become)'],
-        ['Object Complement', 'After the direct object (renames the object after verbs like elect, name, call)'],
+    add_ref_table(['Form', 'Example fragment'], [
+        ['Gerund phrase', 'studying every night'],
+        ['Infinitive phrase', 'to visit her grandmother'],
+        ['That-clause', 'that the team practiced'],
+        ['Wh-clause', 'what your opinion is'],
     ])
 
     add_text('Example (completed)', bold=True)
-    add_text('She believes that honesty is important.', italic=True)
-    add_blank('   Function: direct object (of the verb "believes")')
+    add_text('Combine using a that-clause as direct object:')
+    add_text('The committee will reconvene tomorrow. The chair announced this.', italic=True)
+    add_text('Combined: The chair announced that the committee will reconvene tomorrow.', italic=True)
 
     add_text('Exercises', bold=True)
 
-    part2_exercises = [
-        (8, 'That the project failed disappointed everyone.'),
-        (9, 'The committee discussed how they would proceed.'),
-        (10, 'She’s interested in learning more about linguistics.'),
-        (11, 'The main issue is whether we should continue.'),
-        (12, 'I appreciate your helping us with the move.'),
+    part2_combinings = [
+        (8, 'a that-clause as direct object',
+         'The team had practiced hard. She knew this.'),
+        (9, 'a gerund phrase as subject',
+         'Students study every night. This improves their grades.'),
+        (10, 'an infinitive phrase as direct object',
+         'She would visit her grandmother. She decided this.'),
+        (11, 'a wh-clause as direct object',
+         'I want to know your opinion. Tell me your opinion.'),
+        (12, 'a gerund phrase as object of a preposition',
+         'She practiced daily. She succeeded by this.'),
     ]
-    for num, sentence in part2_exercises:
-        add_ex(num, sentence)
-        add_blank('   Function: __________')
+    for num, target, sources in part2_combinings:
+        add_ex(num, f'Combine using {target}:', italic=False)
+        add_text(sources, italic=True, indent=0.35)
+        add_blank('   Combined: __________')
 
     # =============================================
     # Part 3: Sentence Completion
@@ -474,21 +466,10 @@ def create_student_homework(output_path):
     # Part 5: Analysis and Application
     # =============================================
     add_part('Part 5: Analysis and Application (approx. 10 minutes)')
-    add_text('Read the sentences and answer the questions.')
 
-    # Exercise 23 — gerund vs infinitive (stop)
-    add_text('Gerund vs. Infinitive', bold=True)
-    add_ex(23, 'Consider the verb "stop" in these two sentences:', italic=False)
-    add_blank('   a) She stopped smoking.')
-    add_blank('   b) She stopped to smoke.')
-    add_blank('   Explain the grammatical difference (what form follows "stop" in each?) '
-              'and the meaning difference:')
-    add_blank('   Grammatical difference: __________')
-    add_blank('   Meaning difference: __________')
-
-    # Exercise 24 — Prose Impact (paragraph swap)
+    # Exercise 23 — Prose Impact (paragraph swap)
     add_text('Prose Impact: Choosing Among Nominal Forms', bold=True)
-    add_ex(24,
+    add_ex(23,
            'The two paragraphs below describe the same sequence of events. '
            'Paragraph A uses mostly noun phrases and pronouns in its nominal slots. '
            'Paragraph B fills the same slots with that-clauses, gerund phrases, '
