@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AUTO-GENERATED from data/trees/ch14/ch14_hw_001.json - do not edit; regenerate via scripts/regenerate_ch14_pretext.py -->
+  <tabular top="minor" left="minor">
+    <col halign="left" right="minor"/>
+    <col halign="center" right="minor"/>
+    <col halign="center" right="minor"/>
+    <col halign="center" right="minor"/>
+    <col halign="center" right="minor"/>
+    <col halign="center" right="minor"/>
+    <row bottom="minor">
+      <cell>Role</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row bottom="minor">
+      <cell>Phrase</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row bottom="minor">
+      <cell>Word</cell>
+      <cell><foreign>What</foreign></cell>
+      <cell><foreign>she</foreign></cell>
+      <cell><foreign>said</foreign></cell>
+      <cell><foreign>surprised</foreign></cell>
+      <cell><foreign>everyone</foreign></cell>
+    </row>
+    <row bottom="minor">
+      <cell>POS</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+  </tabular>

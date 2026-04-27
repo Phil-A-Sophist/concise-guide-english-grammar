@@ -203,62 +203,64 @@ def create_answer_key(output_path, font_size=12, overhead=False):
         '(b) means she paused what she was doing in order to have a smoke.',
         body_size, font_name=body_font)
 
-    # Exercise 24
+    # Exercise 24 \u2014 Prose Impact (paragraph swap)
     question_page_break(doc, overhead)
-    add_exercise(doc, 24, 'Explain the grammatical and meaning differences between these pairs.', body_size, font_name=body_font)
-    add_plain_line(doc, '24A) "I remember locking the door." vs. 24B) "I remember to lock the door."', body_size, font_name=body_font)
+    add_exercise(doc, 24,
+        'Read Paragraphs A and B (same events, different nominal forms) and '
+        'answer questions a\u2013e.',
+        body_size, font_name=body_font)
+    add_plain_line(doc,
+        'Paragraph A: "The decision divided the staff. The chairperson called a vote. '
+        'The outcome surprised the team. The minority report contained the strongest '
+        'arguments. The press release was a careful attempt at unity."',
+        body_size, font_name=body_font)
+    add_plain_line(doc,
+        'Paragraph B: "That the staff was divided became clear at once. Calling a vote '
+        'was the chairperson\u2019s only option. What happened next surprised the team. '
+        'Reading the minority report revealed the strongest arguments. To project unity '
+        'required a careful press release."',
+        body_size, font_name=body_font)
     answer_page_break(doc, overhead)
 
     add_plain_line(doc,
-        '(a) The gerund "locking" refers to a past event \u2014 I have a memory of '
-        'having locked the door (I recall doing it).',
+        '(a) Sample identifications from Paragraph A: '
+        '"The decision" \u2014 NP, subject of "divided"; '
+        '"The staff" \u2014 NP, direct object of "divided"; '
+        '"a vote" \u2014 NP, direct object of "called"; '
+        '"The outcome" \u2014 NP, subject of "surprised". '
+        'Accept any two correctly labeled nominals.',
         body_size, font_name=body_font)
     add_plain_line(doc,
-        '(b) The infinitive "to lock" refers to a future/habitual obligation \u2014 '
-        'I don\u2019t forget to lock the door (I remember that I need to do it).',
-        body_size, font_name=body_font)
-
-    # Exercise 25
-    question_page_break(doc, overhead)
-    add_exercise(doc, 25, 'Transform "The experiment succeeded" into four nominal structures.', body_size, font_name=body_font)
-    answer_page_break(doc, overhead)
-
-    transforms = [
-        ('25A) That-clause as subject:',
-         '"That the experiment succeeded pleased the researchers."'),
-        ('25B) Gerund phrase as subject:',
-         '"The experiment\u2019s succeeding pleased the researchers." '
-         'OR "The experiment succeeding pleased the researchers."'),
-        ('25C) Wh-clause as direct object:',
-         '"They wondered whether the experiment had succeeded."'),
-        ('25D) Infinitive after "seem":',
-         '"The experiment seemed to succeed." OR "The experiment seemed to have succeeded."'),
-    ]
-
-    for label, sample in transforms:
-        add_plain_line(doc, label, body_size, indent=0.35, font_name=body_font)
-        add_plain_line(doc, f'Sample: {sample}', body_size, indent=0.7, font_name=body_font)
-
-    # Exercise 26
-    question_page_break(doc, overhead)
-    add_exercise(doc, 26, 'Answer the following questions about extraposition.', body_size, font_name=body_font)
-    answer_page_break(doc, overhead)
-    add_plain_line(doc,
-        '26A) Extraposition moves a clausal subject to the end of the sentence, '
-        'replacing it with the placeholder pronoun "it" in subject position. '
-        'Example: "That she resigned surprised everyone" \u2192 '
-        '"It surprised everyone that she resigned."',
+        '(b) Sample identifications from Paragraph B: '
+        '"That the staff was divided" \u2014 that-clause, subject of "became"; '
+        '"Calling a vote" \u2014 gerund phrase, subject of "was"; '
+        '"What happened next" \u2014 wh-clause, subject of "surprised"; '
+        '"Reading the minority report" \u2014 gerund phrase, subject of "revealed"; '
+        '"To project unity" \u2014 infinitive phrase, subject of "required". '
+        'Accept any two correctly labeled nominals.',
         body_size, font_name=body_font)
     add_plain_line(doc,
-        '26B) A writer might prefer the extraposed version when the clausal subject '
-        'is long or complex, as it follows the end-weight principle \u2014 '
-        'placing heavier elements at the end for easier processing. '
-        'It also sounds more natural in conversation.',
+        '(c) Paragraph A reads in short, even bursts: noun-verb-noun, noun-verb-noun. '
+        'Paragraph B is heavier and slower in its subjects \u2014 each opens with a '
+        'phrase or clause that has to be parsed before the main verb arrives. '
+        'Reading aloud, B has more pause and more cognitive load up front.',
         body_size, font_name=body_font)
     add_plain_line(doc,
-        '26C) A writer might prefer the non-extraposed version to give the clause '
-        'more prominence or emphasis (topic position), or when the clause is '
-        'relatively short and doesn\u2019t create processing difficulty.',
+        '(d) Paragraph A foregrounds entities and outcomes \u2014 the decision, the '
+        'staff, the vote, the outcome, the report, the press release. The actions are '
+        'compressed into single verbs. Paragraph B foregrounds actions and processes '
+        '\u2014 being divided, calling, what happened, reading, projecting unity. '
+        'The verbs of the original sentences become the heads of the new subjects. '
+        'Example contrast: "The chairperson called a vote" (entity-foregrounded) vs. '
+        '"Calling a vote was the chairperson\u2019s only option" (process-foregrounded).',
+        body_size, font_name=body_font)
+    add_plain_line(doc,
+        '(e) Paragraph A would feel at home in a news report: short sentences, concrete '
+        'entities, fast pace. Paragraph B would feel at home in an analytical essay or '
+        'formal article: clausal and gerundive subjects let the writer treat actions and '
+        'states as topics for analysis, and the heavier rhythm signals reflection rather '
+        'than reporting. Either is acceptable for either genre when used deliberately, '
+        'but the default expectations of those genres lean A and B respectively.',
         body_size, font_name=body_font)
 
     doc.save(str(output_path))

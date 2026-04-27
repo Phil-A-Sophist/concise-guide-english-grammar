@@ -396,12 +396,78 @@ def parse_chapter_arg(args):
     return chapter, remaining
 
 
+# Per-chapter generator scripts. Add entries here as more chapters migrate
+# to the canonical pipeline. Each entry is a list of (subprocess argv, label).
+CHAPTER_GENERATORS = {
+    14: [
+        ([sys.executable, str(ROOT / 'scripts' / 'regenerate_ch14_pretext.py')],
+         'PreTeXt include files'),
+        ([sys.executable, str(ROOT / 'scripts' / 'generate_ch14_answer_key.py')],
+         'Word answer key + student + overhead'),
+    ],
+}
+
+CHAPTER_DIAGRAM_GENERATORS = {
+    14: [
+        ([sys.executable, str(ROOT / 'scripts' / 'generate_ch14_tree_diagrams.py')],
+         'Textbook content tree diagrams'),
+        ([sys.executable, str(ROOT / 'scripts' / 'generate_hw_diagrams_batch.py'),
+          '--chapter', '14'],
+         'Homework tree diagrams'),
+    ],
+}
+
+
+def regenerate_chapter_artifacts(chapter, with_diagrams=False):
+    """Run the per-chapter generator scripts."""
+    if chapter not in CHAPTER_GENERATORS:
+        print(f"No generators registered for chapter {chapter}. "
+              f"Skipping chapter-specific regeneration.")
+        return True
+    print(f"\n=== Regenerating chapter {chapter} artifacts ===")
+    for cmd, label in CHAPTER_GENERATORS[chapter]:
+        print(f"  > {label}")
+        result = subprocess.run(cmd, cwd=ROOT)
+        if result.returncode != 0:
+            print(f"FAILED: {label}")
+            return False
+    if with_diagrams and chapter in CHAPTER_DIAGRAM_GENERATORS:
+        print(f"\n=== Regenerating chapter {chapter} diagrams ===")
+        for cmd, label in CHAPTER_DIAGRAM_GENERATORS[chapter]:
+            print(f"  > {label}")
+            result = subprocess.run(cmd, cwd=ROOT)
+            if result.returncode != 0:
+                print(f"FAILED: {label}")
+                return False
+    return True
+
+
 def main():
     args = sys.argv[1:]
     chapter, args = parse_chapter_arg(args)
 
+    with_diagrams = '--diagrams' in args
+    if with_diagrams:
+        args.remove('--diagrams')
+
     if not validate_canonical_data(chapter=chapter):
         sys.exit(1)
+
+    if chapter is not None:
+        if not regenerate_chapter_artifacts(chapter, with_diagrams=with_diagrams):
+            sys.exit(1)
+        # Chapter-specific build: HTML only by default; EPUB only if asked.
+        if "epub" in args:
+            if not build_html():
+                sys.exit(1)
+            if not build_epub():
+                sys.exit(1)
+        else:
+            if not build_html():
+                sys.exit(1)
+        print(f"\nChapter {chapter} build complete!")
+        print(f"  HTML: {DOCS_DIR}/")
+        return
 
     if not args or "html" in args:
         if not build_html():

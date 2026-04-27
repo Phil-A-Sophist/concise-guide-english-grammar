@@ -93,7 +93,28 @@
   <section xml:id="ch-14-nominals-sec-142">
     <title>Structures That Function as Nominals</title>
 
-    <p>The simplest nominal is what you would expect: a noun phrase with a determiner, perhaps some modifiers, and a noun at its head. But the nominal function is not restricted to noun phrases. Pronouns, complement clauses, gerund phrases, infinitive phrases, and even some adjectives can all occupy the same syntactic slots. The catalog below moves from the most typical to the more structurally complex, so you can see the full range of what English treats as equivalent to a noun phrase.</p>
+    <p>The simplest nominal is what you would expect: a noun phrase with a determiner, perhaps some modifiers, and a noun at its head. But the nominal function is not restricted to noun phrases. Pronouns, complement clauses, gerund phrases, infinitive phrases, and even some adjectives can all occupy the same syntactic slots. The catalog below moves from the most typical to the more structurally complex, so you can see the full range of what English treats as equivalent to a noun phrase. Use the following table as a quick reference; each form is treated in greater depth in the sections that follow.</p>
+
+    <table xml:id="ch-14-forms-at-a-glance">
+      <title>Nominal Forms at a Glance</title>
+      <tabular halign="left" top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="left" right="minor"/>
+        <col halign="left" right="minor"/>
+        <row header="yes" bottom="minor">
+          <cell>Form</cell>
+          <cell>Internal Structure</cell>
+          <cell>Example</cell>
+        </row>
+        <row><cell>Noun phrase (NP)</cell><cell>Determiner + (Modifiers) + Head Noun</cell><cell><foreign>The interesting book</foreign> arrived.</cell></row>
+        <row><cell>Pronoun</cell><cell>Single word; carries case</cell><cell><foreign>She</foreign> arrived.</cell></row>
+        <row><cell>Gerund phrase</cell><cell><foreign>-ing</foreign> verb + (Object/Modifiers)</cell><cell><foreign>Reading novels</foreign> is fun.</cell></row>
+        <row><cell>Infinitive phrase</cell><cell><foreign>to</foreign> + verb + (Object/Modifiers)</cell><cell><foreign>To win</foreign> was her goal.</cell></row>
+        <row><cell>That-clause</cell><cell><foreign>that</foreign> + Subject + Predicate</cell><cell>I know <foreign>that she left</foreign>.</cell></row>
+        <row><cell>Wh-clause</cell><cell>wh-word + (Subject) + Predicate</cell><cell>I wonder <foreign>where she went</foreign>.</cell></row>
+        <row><cell>Nominalized adjective</cell><cell>Determiner + Adjective</cell><cell><foreign>The poor</foreign> need help.</cell></row>
+      </tabular>
+    </table>
 
     <paragraphs>
       <title>1. Noun Phrases</title>
@@ -193,7 +214,7 @@
       <title>Subject Position</title>
     </paragraphs>
 
-    <p>Before the main verb. The subject is what the sentence is about—the entity performing the action or being described:</p>
+    <p>The subject sits before the main verb and names what the sentence is about—the entity performing the action or being described. <em>Diagnostic:</em> ask <q>who or what is doing or being something?</q> The answer is the subject. Across the four examples below, notice that the form changes from a single noun phrase to an entire embedded clause, but the role stays the same:</p>
 
     <ul>
       <li><p><foreign><em>The students</em> studied.</foreign> (NP)</p></li>
@@ -206,7 +227,7 @@
       <title>Direct Object Position</title>
     </paragraphs>
 
-    <p>After a transitive verb. The direct object receives the action:</p>
+    <p>The direct object follows a transitive verb and receives the action—it is the thing acted upon. <em>Diagnostic:</em> isolate the verb, then ask <q>verb what?</q> or <q>verb whom?</q> The answer is the direct object. Most verbs that take an object accept several different nominal forms in this slot, though some restrict their objects to a particular form (see Section 14.10).</p>
 
     <ul>
       <li><p><foreign>She read <em>the book</em>.</foreign> (NP)</p></li>
@@ -219,7 +240,7 @@
       <title>Indirect Object Position</title>
     </paragraphs>
 
-    <p>Before the direct object. The indirect object is the recipient:</p>
+    <p>The indirect object sits between the verb and the direct object and identifies the recipient or beneficiary of the action. <em>Diagnostic:</em> ask <q>to whom?</q> or <q>for whom?</q>—the answer is the indirect object. This position is more restricted than the others; it is filled almost exclusively by noun phrases and pronouns, with wh-clauses appearing only occasionally:</p>
 
     <ul>
       <li><p><foreign>She gave <em>me</em> a book.</foreign> (pronoun)</p></li>
@@ -230,7 +251,7 @@
       <title>Object of Preposition</title>
     </paragraphs>
 
-    <p>After a preposition. The nominal completes the prepositional phrase:</p>
+    <p>The object of a preposition completes a prepositional phrase. <em>Diagnostic:</em> find a preposition (<foreign>about, in, by, for, with</foreign>, etc.); whatever nominal follows and completes its meaning is the object of the preposition. Of all five positions, this one shows the sharpest restriction: gerunds and noun phrases appear here freely, but infinitive phrases cannot fill this slot at all (you cannot say <foreign><delete>interested in to learn</delete></foreign>).</p>
 
     <ul>
       <li><p><foreign>We talked about <em>the problem</em>.</foreign> (NP)</p></li>
@@ -242,7 +263,7 @@
       <title>Subject Complement Position</title>
     </paragraphs>
 
-    <p>After a linking verb. The complement renames or describes the subject:</p>
+    <p>A subject complement follows a linking verb (<foreign>be, seem, become, appear</foreign>) and renames or describes the subject. <em>Diagnostic:</em> after a linking verb, ask <q>the subject equals what?</q>—if a nominal answers that question, it is functioning as the subject complement. Unlike direct objects, subject complements do not name a different entity; they identify the subject from another angle:</p>
 
     <ul>
       <li><p><foreign>She is <em>a doctor</em>.</foreign> (NP)</p></li>
@@ -260,40 +281,35 @@
   <section xml:id="ch-14-nominals-sec-144">
     <title>Noun Phrase Nominals</title>
 
-    <p>The noun phrase is the prototypical nominal—the structure that fills argument positions by default. Every other nominal type in this chapter can be understood as a non-NP structure stepping into a slot that an NP would normally occupy. Understanding the NP baseline makes the other types easier to grasp.</p>
+    <p>The noun phrase is the prototypical nominal—the structure that fills argument positions by default. Every other nominal type in this chapter can be understood as a non-NP structure stepping into a slot that an NP would normally occupy. Understanding the NP baseline makes the other types easier to grasp, because once you know what an NP can do, you can recognize a gerund or a clause as <em>doing the same job</em>—occupying the same slot, satisfying the same valency, triggering the same verb agreement—simply through a different surface form.</p>
 
     <paragraphs>
       <title>Formation</title>
     </paragraphs>
 
-    <p>A noun phrase consists of a head noun with optional determiners, pre-modifiers, and post-modifiers (Chapter 7):</p>
+    <p>A noun phrase consists of a head noun with optional determiners, pre-modifiers, and post-modifiers (Chapter 7). The head determines the agreement features of the whole NP:</p>
 
     <ul>
-      <li><p><em>Simple:</em> <foreign><em>books</em></foreign></p></li>
-      <li><p><em>With determiner:</em> <foreign><em>the book</em></foreign></p></li>
-      <li><p><em>With modifiers:</em> <foreign><em>the interesting old book on the shelf</em></foreign></p></li>
+      <li><p><em>Bare head:</em> <foreign><em>books</em></foreign></p></li>
+      <li><p><em>Determiner + head:</em> <foreign><em>the book</em></foreign></p></li>
+      <li><p><em>Determiner + pre-modifier + head:</em> <foreign><em>the interesting book</em></foreign></p></li>
+      <li><p><em>Pre-modification and post-modification combined:</em> <foreign><em>the interesting old book on the shelf</em></foreign></p></li>
     </ul>
 
-    <paragraphs>
-      <title>Labeling Table</title>
-    </paragraphs>
+    <p>Section 14.1 showed a basic NP filling the subject slot in <foreign>The students read books</foreign>. The labeling table and tree diagram for that example serve as the canonical NP-as-subject illustration; refer back to it for the simplest case. Below we illustrate a more developed NP—one with both pre-modification and post-modification—to show that internal complexity does not change the nominal function.</p>
 
-    <image source="diagrams/new/ch14_table_010.png" width="65%">
-      <description>Multi-level labeling table for "The student read books"</description>
-    </image>
-    <image source="diagrams/new/ch14_np_subject.png" width="55%">
-      <description>Syntax tree for "The student read books" showing a noun phrase as subject</description>
-    </image>
-    <p><c>[S [NP [DET The] [N student]] [VP [V read] [NP [N books]]]]</c></p>
+    <p>Consider the sentence <foreign>She read the interesting book on the shelf</foreign>. The subject <foreign>She</foreign> is a pronoun NP; the direct object <foreign>the interesting book on the shelf</foreign> is a much heavier NP that combines a determiner, an adjective phrase, a head noun, and a postmodifying prepositional phrase. Despite the difference in length, both NPs do exactly what NPs do: they fill an argument slot of the verb <foreign>read</foreign>:</p>
+
+    <p><c>[S [NP [PRON She]] [VP [V read] [NP [DET the] [ADJP [ADJ interesting]] [N book] [PP [PREP on] [NP [DET the] [N shelf]]]]]]</c></p>
 
     <paragraphs>
       <title>Key Points</title>
     </paragraphs>
 
     <ul>
-      <li><p>NPs can fill all five nominal positions (subject, DO, IO, object of preposition, complement).</p></li>
-      <li><p>The head noun determines the number (singular/plural) and triggers verb agreement.</p></li>
-      <li><p>Chapters 12 and 13 showed NPs functioning as adverbials and adjectivals—form is noun phrase, but function varies.</p></li>
+      <li><p>NPs can fill all five nominal positions (subject, direct object, indirect object, object of preposition, subject complement).</p></li>
+      <li><p>The head noun determines the number (singular/plural) and triggers verb agreement, regardless of how many modifiers attach to it.</p></li>
+      <li><p>Chapters 12 and 13 showed NPs functioning as adverbials and adjectivals—form is noun phrase, but function varies. Position in the sentence is what tells you whether an NP is acting as a nominal, an adverbial, or an adjectival.</p></li>
     </ul>
 
   </section>
@@ -335,6 +351,58 @@
       <li><p>In formal usage, subject complements take subjective case: <foreign>It is I</foreign>. In informal speech, objective case is standard: <foreign>It's me</foreign>.</p></li>
       <li><p>See Chapter 6 for the full pronoun classification (personal, demonstrative, indefinite, relative, interrogative, reflexive).</p></li>
     </ul>
+
+    <paragraphs>
+      <title>Labeling Table</title>
+    </paragraphs>
+
+    <p>The sentence <foreign>She gave him the book</foreign> packs three nominals into a single short clause—a subject pronoun, an indirect object pronoun, and a direct object noun phrase. The labeling table below makes this triple visible:</p>
+
+    <table xml:id="ch-14-table-pronoun">
+      <title>Pronoun nominals in three positions: <foreign>She gave him the book</foreign></title>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row header="yes" bottom="minor">
+          <cell>Role</cell>
+          <cell>Subject</cell>
+          <cell>Predicate</cell>
+          <cell>Indirect Object</cell>
+          <cell colspan="2">Direct Object</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Phrase</cell>
+          <cell>NP</cell>
+          <cell>VP</cell>
+          <cell>NP</cell>
+          <cell colspan="2">NP</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Word</cell>
+          <cell><foreign>She</foreign></cell>
+          <cell><foreign>gave</foreign></cell>
+          <cell><foreign>him</foreign></cell>
+          <cell><foreign>the</foreign></cell>
+          <cell><foreign>book</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell>POS</cell>
+          <cell>PRON</cell>
+          <cell>V</cell>
+          <cell>PRON</cell>
+          <cell>DET</cell>
+          <cell>N</cell>
+        </row>
+      </tabular>
+    </table>
+
+    <p><c>[S [NP [PRON She]] [VP [V gave] [NP [PRON him]] [NP [DET the] [N book]]]]</c></p>
+
+    <p>Notice that all three nominals are NPs at the phrase level even though one of them is a single pronoun and another is a determiner-plus-noun. Position—not internal complexity—is what makes each nominal what it is. Notice too the case shift: <foreign>she</foreign> in subject position and <foreign>him</foreign> in object position are the same person, but English requires different forms.</p>
 
   </section>
 
@@ -496,7 +564,62 @@
       <li><p><foreign><em>It</em> is challenging <em>to learn a new language at fifty</em>.</foreign> (extraposed)</p></li>
     </ul>
 
-    <p>Extraposition is extremely common in both speech and writing. The extraposed version is often preferred because it places the main verb closer to the beginning of the sentence, making it easier to process.</p>
+    <p>Extraposition is extremely common in both speech and writing. The extraposed version is often preferred because it places the main verb closer to the beginning of the sentence, making it easier to process. The labeling table below shows what extraposition looks like under analysis: the surface subject is the placeholder pronoun <foreign>it</foreign>, while the infinitive phrase—the <em>real</em> subject in semantic terms—appears at the end of the clause:</p>
+
+    <table xml:id="ch-14-table-extraposition">
+      <title>Extraposed infinitive subject: <foreign>It is difficult to learn a new language</foreign></title>
+      <tabular top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <row header="yes" bottom="minor">
+          <cell>Role</cell>
+          <cell>Placeholder Subject</cell>
+          <cell>Predicate</cell>
+          <cell>Subject Complement</cell>
+          <cell colspan="5">Extraposed Subject</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Phrase</cell>
+          <cell>NP</cell>
+          <cell>VP</cell>
+          <cell>ADJP</cell>
+          <cell colspan="5">NOM</cell>
+        </row>
+        <row bottom="minor">
+          <cell>Word</cell>
+          <cell><foreign>It</foreign></cell>
+          <cell><foreign>is</foreign></cell>
+          <cell><foreign>difficult</foreign></cell>
+          <cell><foreign>to</foreign></cell>
+          <cell><foreign>learn</foreign></cell>
+          <cell><foreign>a</foreign></cell>
+          <cell><foreign>new</foreign></cell>
+          <cell><foreign>language</foreign></cell>
+        </row>
+        <row bottom="minor">
+          <cell>POS</cell>
+          <cell>PRON</cell>
+          <cell>V</cell>
+          <cell>ADJ</cell>
+          <cell>PART</cell>
+          <cell>V</cell>
+          <cell>DET</cell>
+          <cell>ADJ</cell>
+          <cell>N</cell>
+        </row>
+      </tabular>
+    </table>
+
+    <p><c>[S [NP [PRON It]] [VP [V is] [ADJP [ADJ difficult]] [NOM [PART to] [VP [V learn] [NP [DET a] [ADJP [ADJ new]] [N language]]]]]]</c></p>
+
+    <p>Two things stand out. First, English fills the surface subject slot with <foreign>it</foreign> even though that pronoun has no real referent—a pure placeholder. Second, the infinitive phrase is labeled <term>Extraposed Subject</term> to mark the unusual relationship: it is the underlying subject, but it has been displaced to the end of the clause to satisfy the end-weight preference.</p>
 
     <paragraphs>
       <title>Labeling Table</title>
@@ -508,9 +631,9 @@
     <image source="diagrams/new/ch14_inf_subject.png" width="55%">
       <description>Syntax tree for "To win the race was her only goal" showing an infinitive phrase as subject</description>
     </image>
-    <p><c>[S [NOM [V To] [VP [V win] [NP [DET the] [N race]]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]</c></p>
+    <p><c>[S [NOM [PART To] [VP [V win] [NP [DET the] [N race]]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]</c></p>
 
-    <p>The infinitive phrase <foreign>To win the race</foreign> fills the subject position.</p>
+    <p>The infinitive phrase <foreign>To win the race</foreign> fills the subject position. Note that the infinitive marker <foreign>to</foreign> is labeled <term>PART</term> (particle) rather than <term>V</term>: it is the verbal-marker function that wraps a verb and turns the whole phrase into a nominal, not a verb itself.</p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -607,23 +730,7 @@
     </image>
     <p><c>[S [NP [PRON I]] [VP [V believe] [CC [COMP that] [NP [PRON she]] [VP [V is] [ADJP [ADJ honest]]]]]]</c></p>
 
-    <p>The that-clause <foreign>that she is honest</foreign> fills the direct object position after the verb <foreign>believe</foreign>.</p>
-
-    <image source="diagrams/new/ch14_table_001.png" width="65%">
-      <description>Multi-level labeling table for "know that you cry"</description>
-    </image>
-    <image source="diagrams/new/ch13_that_clause_object.png" width="55%">
-      <description>Syntax tree for "I know that you cry" showing a complement clause as direct object</description>
-    </image>
-    <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]</c></p>
-
-    <image source="diagrams/new/ch14_table_002.png" width="65%">
-      <description>Multi-level labeling table for "That you cry upsets me"</description>
-    </image>
-    <image source="diagrams/new/ch13_that_clause_subject.png" width="55%">
-      <description>Syntax tree for "That you cry upsets me" showing a complement clause as subject</description>
-    </image>
-    <p><c>[S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]</c></p>
+    <p>The that-clause <foreign>that she is honest</foreign> fills the direct object position after the verb <foreign>believe</foreign>. The clause has its own subject (<foreign>she</foreign>), its own verb (<foreign>is</foreign>), and its own complement (<foreign>honest</foreign>)—a complete propositional structure embedded as a single argument of the higher verb. Section 14.11 collects additional that-clause and wh-clause diagrams for reference.</p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -736,13 +843,7 @@
     </image>
     <p><c>[S [NP [PRON She]] [VP [V asked] [CC [COMP whether] [NP [PRON we]] [VP [MOD could] [V help]]]]]</c></p>
 
-    <image source="diagrams/new/ch14_table_003.png" width="65%">
-      <description>Multi-level labeling table for "wonder if you cry"</description>
-    </image>
-    <image source="diagrams/new/ch13_if_clause.png" width="55%">
-      <description>Syntax tree for "I wonder if you cry" showing an if-clause as direct object</description>
-    </image>
-    <p><c>[S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]</c></p>
+    <p>The wh-word <foreign>whether</foreign> introduces the embedded clause and signals that the speaker is reporting an unresolved yes/no question rather than asserting a fact. Compare this with the parallel <foreign>if</foreign>-clause and additional examples in Section 14.11.</p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -764,6 +865,34 @@
     <title>Comparing Nominal Structures</title>
 
     <p>Different nominal structures may seem interchangeable but often carry subtle differences in meaning or style. If you can say <foreign>I like swimming</foreign> and also <foreign>I like to swim</foreign>, you might wonder whether the choice of gerund versus infinitive ever matters. The answer is: sometimes no, sometimes yes, and sometimes the choice changes the meaning of the sentence entirely. This section gives you the tools to choose among nominal structures deliberately rather than by habit.</p>
+
+    <p>Before diving into the contrasts, the table below summarizes the distributional differences among the four most common verbal/clausal nominal forms. Use it as a navigational aid: whenever a verb takes an object, the table tells you which forms are even available before you start choosing among them on stylistic grounds.</p>
+
+    <table xml:id="ch-14-comparison">
+      <title>Distributional comparison of nominal forms</title>
+      <tabular halign="left" top="minor" left="minor">
+        <col halign="left" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="center" right="minor"/>
+        <col halign="left" right="minor"/>
+        <row header="yes" bottom="minor">
+          <cell>Form</cell>
+          <cell>Subject</cell>
+          <cell>Direct Object</cell>
+          <cell>Obj. of Prep.</cell>
+          <cell>Subject Compl.</cell>
+          <cell>Typical flavor</cell>
+        </row>
+        <row><cell>Gerund phrase</cell><cell>yes</cell><cell>yes</cell><cell>yes</cell><cell>yes</cell><cell>activity / process</cell></row>
+        <row><cell>Infinitive phrase</cell><cell>yes (often extraposed)</cell><cell>yes (selected verbs)</cell><cell>no</cell><cell>yes</cell><cell>goal / hypothetical</cell></row>
+        <row><cell>That-clause</cell><cell>yes</cell><cell>yes (selected verbs)</cell><cell>no</cell><cell>yes</cell><cell>asserted proposition</cell></row>
+        <row><cell>Wh-clause</cell><cell>yes</cell><cell>yes (selected verbs)</cell><cell>yes</cell><cell>yes</cell><cell>embedded question</cell></row>
+      </tabular>
+    </table>
+
+    <p>Three patterns are worth memorizing from this table. First, only gerunds (and wh-clauses) survive as objects of prepositions. Second, infinitive subjects almost always extrapose when they grow long—the bare-subject form is grammatical but rare in connected prose. Third, every form except gerunds is restricted to particular verbs in object position; you have to know which verbs select which complements.</p>
 
     <paragraphs>
       <title>Gerund vs. Infinitive</title>
@@ -864,7 +993,32 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>For each sentence, identify the underlined nominal and classify its form (noun phrase, that-clause, wh-clause, gerund phrase, or infinitive phrase).</p>
+      <p>For each sentence, identify the underlined nominal, classify its <em>form</em>, and identify its <em>function</em> in the sentence. Use the reference tables below.</p>
+
+      <tabular halign="left">
+        <row header="yes" bottom="minor">
+          <cell>Nominal Forms</cell>
+          <cell>Example</cell>
+        </row>
+        <row><cell>Noun Phrase (NP)</cell><cell><foreign>the interesting book</foreign></cell></row>
+        <row><cell>Pronoun</cell><cell><foreign>she, him, them</foreign></cell></row>
+        <row><cell>Gerund Phrase</cell><cell><foreign>swimming every morning</foreign></cell></row>
+        <row><cell>Infinitive Phrase</cell><cell><foreign>to win the race</foreign></cell></row>
+        <row><cell>That-clause</cell><cell><foreign>that she resigned</foreign></cell></row>
+        <row><cell>Wh-clause</cell><cell><foreign>what she said</foreign>, <foreign>whether he comes</foreign></cell></row>
+      </tabular>
+
+      <tabular halign="left">
+        <row header="yes" bottom="minor">
+          <cell>Nominal Functions</cell>
+          <cell>Diagnostic</cell>
+        </row>
+        <row><cell>Subject</cell><cell>Sits before the main verb; answers <q>who/what is doing or being something?</q></cell></row>
+        <row><cell>Direct Object</cell><cell>Follows a transitive verb; answers <q>verb what?</q> or <q>verb whom?</q></cell></row>
+        <row><cell>Indirect Object</cell><cell>Sits between the verb and the direct object; answers <q>to whom?</q> or <q>for whom?</q></cell></row>
+        <row><cell>Object of Preposition</cell><cell>Follows a preposition; completes the prepositional phrase</cell></row>
+        <row><cell>Subject Complement</cell><cell>Follows a linking verb (<foreign>be, seem, become</foreign>); renames or describes the subject</cell></row>
+      </tabular>
 
       <paragraphs>
         <title>Example (completed)</title>
@@ -923,7 +1077,19 @@
       <paragraphs>
         <title>Instructions</title>
       </paragraphs>
-      <p>Identify the function of each underlined nominal (subject, direct object, object of preposition, or subject complement).</p>
+      <p>Identify the function of each underlined nominal. Use the reference table below.</p>
+
+      <tabular halign="left">
+        <row header="yes" bottom="minor">
+          <cell>Function</cell>
+          <cell>Position in the Clause</cell>
+        </row>
+        <row><cell>Subject</cell><cell>Before the main verb</cell></row>
+        <row><cell>Direct Object</cell><cell>After a transitive verb (the thing acted upon)</cell></row>
+        <row><cell>Indirect Object</cell><cell>Between the verb and the direct object (the recipient)</cell></row>
+        <row><cell>Object of Preposition</cell><cell>After a preposition (<foreign>about, in, by, for</foreign>, etc.)</cell></row>
+        <row><cell>Subject Complement</cell><cell>After a linking verb (<foreign>be, seem, become</foreign>)</cell></row>
+      </tabular>
 
       <paragraphs>
         <title>Example (completed)</title>
@@ -1002,84 +1168,23 @@
       </paragraphs>
 
       <p><em>Exercise 18.</em> <foreign>What she said surprised everyone.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>What</foreign></cell><cell><foreign>she</foreign></cell><cell><foreign>said</foreign></cell><cell><foreign>surprised</foreign></cell><cell><foreign>everyone</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <xi:include href="generated/ch14/ch14_hw_001.ptx"/>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 19.</em> <foreign>He enjoys swimming in the lake.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>He</foreign></cell><cell><foreign>enjoys</foreign></cell><cell><foreign>swimming</foreign></cell><cell><foreign>in</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>lake</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <xi:include href="generated/ch14/ch14_hw_002.ptx"/>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 20.</em> <foreign>To win the race was her only goal.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>To</foreign></cell><cell><foreign>win</foreign></cell><cell><foreign>the</foreign></cell><cell><foreign>race</foreign></cell><cell><foreign>was</foreign></cell><cell><foreign>her</foreign></cell><cell><foreign>only</foreign></cell><cell><foreign>goal</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <xi:include href="generated/ch14/ch14_hw_003.ptx"/>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 21.</em> <foreign>The fact that he lied angered them.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>The</foreign></cell><cell><foreign>fact</foreign></cell><cell><foreign>that</foreign></cell><cell><foreign>he</foreign></cell><cell><foreign>lied</foreign></cell><cell><foreign>angered</foreign></cell><cell><foreign>them</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <xi:include href="generated/ch14/ch14_hw_004.ptx"/>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
 
       <p><em>Exercise 22.</em> <foreign>She asked whether we could help.</foreign></p>
-      <tabular top="minor" left="minor">
-        <col halign="left" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <col halign="center" right="minor"/>
-        <row bottom="minor"><cell>Role</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Phrase</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-        <row bottom="minor"><cell>Word</cell><cell><foreign>She</foreign></cell><cell><foreign>asked</foreign></cell><cell><foreign>whether</foreign></cell><cell><foreign>we</foreign></cell><cell><foreign>could</foreign></cell><cell><foreign>help</foreign></cell></row>
-        <row bottom="minor"><cell>POS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
-      </tabular>
+      <xi:include href="generated/ch14/ch14_hw_005.ptx"/>
       <ul><li><p>Bracket notation: _____</p></li><li><p>Diagram:</p></li></ul>
     </subsection>
 
@@ -1111,37 +1216,29 @@
 
       <p>Meaning difference:</p>
 
-      <p><em>Exercise 24.</em> Consider the verb <foreign>remember</foreign> in these two sentences:</p>
-
-      <p>a) <foreign>I remember locking the door.</foreign></p>
-
-      <p>b) <foreign>I remember to lock the door.</foreign></p>
-
-      <p>Explain the meaning difference:</p>
-
       <paragraphs>
-        <title>Transformation and Style</title>
+        <title>Prose Impact: Choosing Among Nominal Forms</title>
       </paragraphs>
 
-      <p><em>Exercise 25.</em> Transform the following statement into four different nominal structures:</p>
+      <p><em>Exercise 24.</em> The two paragraphs below describe the same sequence of events. Paragraph A uses mostly noun phrases and pronouns in its nominal slots. Paragraph B fills the same slots with that-clauses, gerund phrases, infinitive phrases, and wh-clauses. Read both, then answer the questions that follow.</p>
 
-      <p>Statement: <foreign>The experiment succeeded.</foreign></p>
+      <p><em>Paragraph A.</em></p>
 
-      <p>a) As a that-clause functioning as subject:</p>
+      <p><foreign>The decision divided the staff. The chairperson called a vote. The outcome surprised the team. The minority report contained the strongest arguments. The press release was a careful attempt at unity.</foreign></p>
 
-      <p>b) As a gerund phrase functioning as subject:</p>
+      <p><em>Paragraph B.</em></p>
 
-      <p>c) As a wh-clause (embedded question) functioning as direct object (use a verb like <foreign>wonder</foreign> or <foreign>ask</foreign>):</p>
+      <p><foreign>That the staff was divided became clear at once. Calling a vote was the chairperson's only option. What happened next surprised the team. Reading the minority report revealed the strongest arguments. To project unity required a careful press release.</foreign></p>
 
-      <p>d) As an infinitive phrase after the verb <foreign>seem</foreign>:</p>
+      <p>a) Identify two nominals from Paragraph A and label each one's form (NP, pronoun, etc.) and function (subject, direct object, etc.).</p>
 
-      <p><em>Exercise 26.</em> In formal writing, sentences like <q><foreign>That she resigned surprised everyone</foreign></q> are sometimes revised to <q><foreign>It surprised everyone that she resigned</foreign></q> (extraposition).</p>
+      <p>b) Identify two nominals from Paragraph B and label each one's form (that-clause, gerund phrase, infinitive phrase, wh-clause) and function.</p>
 
-      <p>a) What is extraposition?</p>
+      <p>c) How does the rhythm or pacing of the two paragraphs differ? Read each one aloud if it helps you decide.</p>
 
-      <p>b) How does extraposition change the processing of the sentence? Which version places the heavy element where the reader expects it?</p>
+      <p>d) One paragraph foregrounds <em>entities and outcomes</em>; the other foregrounds <em>actions and processes</em>. Which is which? Point to a specific sentence in each that supports your answer.</p>
 
-      <p>c) In which version is the that-clause easier to identify as the subject? Explain why.</p>
+      <p>e) Which version would feel more at home in a quickly written news report? Which in an analytical essay or formal article? Explain why—appeal to specific features of the nominals used.</p>
     </subsection>
 
     <p><em>Total estimated time: 40 minutes</em></p>
@@ -1154,13 +1251,52 @@
   <section xml:id="ch-14-diagram-examples">
     <title>Diagram Examples</title>
 
-    <p>This section provides reference diagrams for nominal structures introduced in this chapter.</p>
+    <p>This section gathers reference diagrams for the nominal structures introduced in this chapter so they are easy to find and compare. The first subsection contrasts the three most common forms in subject position; the second collects complement-clause patterns.</p>
+
+    <subsection xml:id="ch-14-diagrams-subject-forms">
+      <title>Forms in Subject Position</title>
+
+      <paragraphs>
+        <title>14.11.1 A: Noun phrase as subject: <foreign>The students read books</foreign></title>
+      </paragraphs>
+      <image source="diagrams/new/ch14_table_008.png" width="65%">
+        <description>Multi-level labeling table for "The students read books"</description>
+      </image>
+      <image source="diagrams/new/ch14_np_subject.png" width="55%">
+        <description>Syntax tree for "The students read books" showing a noun phrase as subject</description>
+      </image>
+      <p><c>[S [NP [DET The] [N students]] [VP [V read] [NP [N books]]]]</c></p>
+
+      <paragraphs>
+        <title>14.11.1 B: Gerund phrase as subject: <foreign>Running every morning is healthy</foreign></title>
+      </paragraphs>
+      <image source="diagrams/new/ch14_table_011.png" width="65%">
+        <description>Multi-level labeling table for "Running every morning is healthy"</description>
+      </image>
+      <image source="diagrams/new/ch14_gerund_running.png" width="55%">
+        <description>Syntax tree for "Running every morning is healthy" showing a gerund phrase as subject</description>
+      </image>
+      <p><c>[S [NOM [V Running] [NP [DET every] [N morning]]] [VP [V is] [ADJP [ADJ healthy]]]]</c></p>
+
+      <paragraphs>
+        <title>14.11.1 C: Infinitive phrase as subject: <foreign>To win the race was her only goal</foreign></title>
+      </paragraphs>
+      <image source="diagrams/new/ch14_table_012.png" width="65%">
+        <description>Multi-level labeling table for "To win the race was her only goal"</description>
+      </image>
+      <image source="diagrams/new/ch14_inf_subject.png" width="55%">
+        <description>Syntax tree for "To win the race was her only goal" showing an infinitive phrase as subject</description>
+      </image>
+      <p><c>[S [NOM [PART To] [VP [V win] [NP [DET the] [N race]]]] [VP [V was] [NP [DET her] [ADJP [ADJ only]] [N goal]]]]</c></p>
+
+      <p>Reading these three diagrams side by side makes the form-vs.-function distinction concrete: the subject slot looks identical from outside, but the structures slotting into it differ dramatically. The NP version is a flat determiner-noun structure; the gerund version uses NOM as a wrapper around a verbal head with its own object; the infinitive version uses NOM as a wrapper around a particle plus a full VP.</p>
+    </subsection>
 
     <subsection xml:id="ch-14-diagrams-complement-clauses">
       <title>Complement Clauses</title>
 
       <paragraphs>
-        <title>14.11.1 A: That-clause as object: I know that you cry.</title>
+        <title>14.11.2 A: That-clause as object: <foreign>I know that you cry</foreign></title>
       </paragraphs>
       <image source="diagrams/new/ch14_table_004.png" width="65%">
         <description>Multi-level labeling table for "know that you cry"</description>
@@ -1171,7 +1307,7 @@
       <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP that] [NP [PRON you]] [VP [V cry]]]]]</c></p>
 
       <paragraphs>
-        <title>14.11.1 B: That-clause as subject: That you cry upsets me.</title>
+        <title>14.11.2 B: That-clause as subject: <foreign>That you cry upsets me</foreign></title>
       </paragraphs>
       <image source="diagrams/new/ch14_table_005.png" width="65%">
         <description>Multi-level labeling table for "That you cry upsets me"</description>
@@ -1182,7 +1318,7 @@
       <p><c>[S [CC [COMP That] [NP [PRON you]] [VP [V cry]]] [VP [V upsets] [NP [PRON me]]]]</c></p>
 
       <paragraphs>
-        <title>14.11.1 C: If/whether-clause as object: I wonder if you cry.</title>
+        <title>14.11.2 C: If/whether-clause as object: <foreign>I wonder if you cry</foreign></title>
       </paragraphs>
       <image source="diagrams/new/ch14_table_006.png" width="65%">
         <description>Multi-level labeling table for "wonder if you cry"</description>
@@ -1193,7 +1329,7 @@
       <p><c>[S [NP [PRON I]] [VP [V wonder] [CC [COMP if] [NP [PRON you]] [VP [V cry]]]]]</c></p>
 
       <paragraphs>
-        <title>14.11.1 D: Missing complementizer: I know you cry.</title>
+        <title>14.11.2 D: Missing complementizer: <foreign>I know you cry</foreign></title>
       </paragraphs>
       <image source="diagrams/new/ch14_table_007.png" width="65%">
         <description>Multi-level labeling table for "know _ you cry"</description>
