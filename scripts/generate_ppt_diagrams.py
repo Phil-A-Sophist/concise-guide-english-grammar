@@ -25,6 +25,7 @@ sys.stdout.reconfigure(line_buffering=True)
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_FILE = PROJECT_ROOT / "data" / "static" / "ppt_diagram_data.json"
+CANONICAL_DIR = PROJECT_ROOT / "data" / "trees" / "ppt"
 TABLE_DIR = PROJECT_ROOT / "data" / "static" / "ppt-diagrams" / "tables"
 TREE_DIR = PROJECT_ROOT / "data" / "static" / "ppt-diagrams" / "trees"
 STH_DIR = Path("C:/Users/irphy/Documents/SyntaxTreeHybrid")
@@ -273,15 +274,33 @@ def generate_table(page, url, bracket, roles, output_path):
     return True
 
 
+def load_canonical():
+    """Load all canonical PPT JSONs from data/trees/ppt/ keyed by id.
+
+    Falls back to legacy ROLE_ASSIGNMENTS only if a canonical file is absent
+    (with a warning). The canonical schema is the single source of truth for
+    bracket + roles; ppt_diagram_data.json provides slide mappings only.
+    """
+    out = {}
+    for f in sorted(CANONICAL_DIR.glob("*.json")):
+        out[f.stem] = json.loads(f.read_text())
+    return out
+
+
 def main():
     with open(DATA_FILE) as f:
         data = json.load(f)
 
+    canonical = load_canonical()
     sentences = data["sentences"]
     total = len(sentences)
 
     print("=" * 60)
     print(f"PPT Diagram Generator: {total} sentences x 2 (table + tree) = {total * 2} PNGs")
+    print(f"Canonical entries loaded: {len(canonical)}")
+    missing = [s["id"] for s in sentences if s["id"] not in canonical]
+    if missing:
+        print(f"WARNING: no canonical for: {', '.join(missing)} — will use legacy ROLE_ASSIGNMENTS")
     print("=" * 60)
 
     httpd = start_server()
@@ -296,8 +315,12 @@ def main():
 
         for i, s in enumerate(sentences):
             sid = s["id"]
-            bracket = s["bracket"]
-            roles = ROLE_ASSIGNMENTS.get(sid, {})
+            if sid in canonical:
+                bracket = canonical[sid]["bracket"]
+                roles = canonical[sid]["roles"]
+            else:
+                bracket = s["bracket"]
+                roles = ROLE_ASSIGNMENTS.get(sid, {})
 
             print(f"\n[{i+1}/{total}] {sid}: {s['sentence'][:60]}...")
 
