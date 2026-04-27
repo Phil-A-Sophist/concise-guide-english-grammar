@@ -945,10 +945,74 @@
     </ul>
 
     <paragraphs>
-      <title>Zero Relative (Contact Clauses)</title>
+      <title>Three Structural Patterns</title>
     </paragraphs>
 
-    <p>When the relative pronoun is the object, it can be omitted entirely. The resulting clause is sometimes called a contact clause:</p>
+    <p>Section 13.10 introduced the two-way structural split between relative pronouns that fill the embedded subject slot and relative pronouns that precede a separate subject. There is also a third pattern in which the relative pronoun is omitted entirely. The three patterns differ both visually (in the labeling table) and structurally (in the tree). Each is demonstrated below with a labeling table, a tree diagram, and the corresponding bracket notation.</p>
+
+    <paragraphs>
+      <title>Pattern 1: Relativizer as the Embedded Subject</title>
+    </paragraphs>
+
+    <p>The relative pronoun fills the subject NP slot inside the embedded clause and is followed directly by the embedded predicate. There is no separate subject NP — the relative pronoun <em>is</em> the subject.</p>
+
+    <p>Pattern 1 = REL (as Subject NP) + Predicate VP</p>
+
+    <ul>
+      <li><p><foreign>the student <em>who</em> won the award</foreign> (<foreign>who</foreign> = subject of <foreign>won</foreign>)</p></li>
+      <li><p><foreign>the players <em>who</em> practiced</foreign> (<foreign>who</foreign> = subject of <foreign>practiced</foreign>)</p></li>
+      <li><p><foreign>the book <em>that</em> changed my life</foreign> (<foreign>that</foreign> = subject of <foreign>changed</foreign>)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Labeling Table: <foreign>The student who won the award celebrated</foreign> (Pattern 1)</title>
+    </paragraphs>
+
+    <image source="diagrams/new/ch13_table_021.png" width="80%">
+      <description>Multi-level labeling table for "The student who won the award celebrated" showing the relativizer who as the embedded subject</description>
+    </image>
+    <image source="diagrams/new/ch13_rel_clause_detail.png" width="55%">
+      <description>Syntax tree for "The student who won the award celebrated" showing the relativizer who filling the subject NP slot of the embedded clause</description>
+    </image>
+    <p><c>[S [NP [DET The] [N student] [RC [NP [REL who]] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]</c></p>
+
+    <p>Notice that the embedded subject NP wraps the relativizer directly: <c>[NP [REL who]]</c>. The whole RC is an Adjectival modifying <foreign>student</foreign>; inside it, <foreign>who</foreign> is Subject and <foreign>won the award</foreign> is Predicate.</p>
+
+    <paragraphs>
+      <title>Pattern 2: Relativizer Preceding the Embedded Subject</title>
+    </paragraphs>
+
+    <p>The relative pronoun fills a non-subject role inside the embedded clause (typically direct object). A separate subject NP follows the relativizer, and the embedded predicate follows after that. The relative pronoun has been pulled from somewhere inside the predicate to the front of the clause.</p>
+
+    <p>Pattern 2 = REL + Subject NP + Predicate VP</p>
+
+    <ul>
+      <li><p><foreign>the author <em>whom</em> the critics praised</foreign> (<foreign>whom</foreign> = direct object of <foreign>praised</foreign>)</p></li>
+      <li><p><foreign>the book <em>that</em> the students read</foreign> (<foreign>that</foreign> = direct object of <foreign>read</foreign>)</p></li>
+      <li><p><foreign>the report <em>which</em> the committee approved</foreign> (<foreign>which</foreign> = direct object of <foreign>approved</foreign>)</p></li>
+    </ul>
+
+    <paragraphs>
+      <title>Labeling Table: <foreign>The author whom the critics praised wrote a bestseller</foreign> (Pattern 2)</title>
+    </paragraphs>
+
+    <image source="diagrams/new/ch13_table_028.png" width="80%">
+      <description>Multi-level labeling table for "The author whom the critics praised wrote a bestseller" showing the relativizer whom preceding a separate embedded subject NP</description>
+    </image>
+    <image source="diagrams/new/ch13_rc_whom.png" width="55%">
+      <description>Syntax tree for "The author whom the critics praised wrote a bestseller" showing the relativizer whom outside the embedded subject NP</description>
+    </image>
+    <p><c>[S [NP [DET The] [N author] [RC [REL whom] [NP [DET the] [N critics]] [VP [V praised]]]] [VP [V wrote] [NP [DET a] [N bestseller]]]]</c></p>
+
+    <p>Here the RC has three children: a bare <c>[REL whom]</c> at the front (no NP wrapper, because the relativizer is not the embedded subject), the embedded subject NP <foreign>the critics</foreign>, and the embedded predicate VP <foreign>praised</foreign>. <foreign>whom</foreign> is the direct object of <foreign>praised</foreign> in the underlying meaning, but in the surface order it appears at the clause edge.</p>
+
+    <paragraphs>
+      <title>Pattern 3: Empty Relativizer (Zero Relative)</title>
+    </paragraphs>
+
+    <p>When the relative pronoun is the object, it can be omitted entirely. The resulting clause is sometimes called a <term>zero relative</term> or <em>contact clause</em>. The bracket notation reflects the omission by leaving the REL node out: the RC contains only the embedded subject NP and the embedded predicate VP, with no introducing word at all.</p>
+
+    <p>Pattern 3 = (no relativizer) + Subject NP + Predicate VP</p>
 
     <ul>
       <li><p><foreign>the book <em>(that)</em> I read</foreign></p></li>
@@ -956,25 +1020,25 @@
       <li><p><foreign>the person <em>(that)</em> she called</foreign></p></li>
     </ul>
 
-    <p>This cannot be done when the relative is the subject:</p>
+    <p>The omission is only possible when the relativizer would have been a non-subject (Pattern 2). It cannot be done when the relativizer is the embedded subject (Pattern 1):</p>
 
     <ul>
       <li><p><foreign>the man <em>who</em> arrived</foreign> (not <foreign><delete>the man arrived</delete></foreign>)</p></li>
     </ul>
 
     <paragraphs>
-      <title>Labeling Table</title>
+      <title>Labeling Table: <foreign>The book Maria recommended changed the curriculum</foreign> (Pattern 3)</title>
     </paragraphs>
 
-    <image source="diagrams/new/ch13_table_021.png" width="80%">
-      <description>Multi-level labeling table for "The student who won the award celebrated"</description>
+    <image source="diagrams/new/ch13_table_029.png" width="80%">
+      <description>Multi-level labeling table for "The book Maria recommended changed the curriculum" showing a relative clause with no relativizer (zero relative)</description>
     </image>
-    <image source="diagrams/new/ch13_rel_clause_detail.png" width="55%">
-      <description>Syntax tree for "The student who won the award celebrated" showing a relative clause embedded inside the subject NP</description>
+    <image source="diagrams/new/ch13_rc_empty.png" width="55%">
+      <description>Syntax tree for "The book Maria recommended changed the curriculum" showing a relative clause whose RC node has no relativizer child</description>
     </image>
-    <p><c>[S [NP [DET The] [N student] [RC [NP [REL who]] [VP [V won] [NP [DET the] [N award]]]]] [VP [V celebrated]]]</c></p>
+    <p><c>[S [NP [DET The] [N book] [RC [NP [N Maria]] [VP [V recommended]]]] [VP [V changed] [NP [DET the] [N curriculum]]]]</c></p>
 
-    <p>The relative clause <foreign>who won the award</foreign> sits inside the subject NP and modifies <foreign>student</foreign>.</p>
+    <p>The RC has only two children — the embedded subject NP <foreign>Maria</foreign> and the embedded predicate VP <foreign>recommended</foreign>. There is no REL node at all. The structural difference between Pattern 1 and Pattern 3 is subtle but important: in Pattern 1 the inner NP wraps a REL (<c>[NP [REL who]]</c>), whereas in Pattern 3 the inner NP is a regular noun phrase (<c>[NP [N Maria]]</c>) and the relativizer position is empty.</p>
 
     <paragraphs>
       <title>Key Points</title>
@@ -983,8 +1047,8 @@
     <ul>
       <li><p>Relative clauses always follow the noun they modify (post-modification).</p></li>
       <li><p>The relative pronoun simultaneously connects the clause and fills a role within it (subject, object, or possessive).</p></li>
+      <li><p>Pattern 1: Relativizer fills the embedded subject slot. Pattern 2: Relativizer precedes a separate embedded subject. Pattern 3: Relativizer is omitted entirely (only possible when it would have filled a non-subject role).</p></li>
       <li><p>Restrictive relative clauses use <foreign>that</foreign>; non-restrictive use <foreign>which</foreign> (American English convention).</p></li>
-      <li><p>Object relative pronouns can be omitted (zero relative), but subject relative pronouns cannot.</p></li>
     </ul>
 
   </section>

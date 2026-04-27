@@ -713,6 +713,20 @@
     <p>Pattern 1 with a different complementizer. <foreign>whether</foreign> signals that the embedded clause is a yes/no question rather than a statement, but the structural pattern—COMP plus full subject-predicate clause—is identical.</p>
 
     <paragraphs>
+      <title>Labeling Table: <foreign>I know you cry</foreign> (Pattern 1 with empty complementizer)</title>
+    </paragraphs>
+
+    <image source="diagrams/new/ch14_table_007.png" width="65%">
+      <description>Multi-level labeling table for "I know you cry" showing an empty complementizer slot before the embedded subject</description>
+    </image>
+    <image source="diagrams/new/ch13_missing_comp.png" width="55%">
+      <description>Syntax tree for "I know you cry" showing the COMP slot empty (omitted that)</description>
+    </image>
+    <p><c>[S [NP [PRON I]] [VP [V know] [CC [COMP _] [NP [PRON you]] [VP [V cry]]]]]</c></p>
+
+    <p>Same Pattern 1 structure with the complementizer omitted. The COMP slot is shown empty in the bracket and table—the structural position is preserved even though no word fills it. This is parallel to the zero-relative pattern in relative clauses (Section 13.11): when the introducing word would have been a non-subject, English allows it to be dropped, but the structural slot remains.</p>
+
+    <paragraphs>
       <title>Pattern 2: Wh-pronoun as Embedded Subject</title>
     </paragraphs>
 

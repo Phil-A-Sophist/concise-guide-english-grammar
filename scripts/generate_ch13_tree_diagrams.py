@@ -58,6 +58,12 @@ DIAGRAMS = {
 
     # 13.4: Restrictive/Non-restrictive
     "ch13_restr_nonrestr": "[S [NP [DET The] [N players] [RC [NP [REL who]] [VP [V practiced]]]] [VP [V won] [NP [DET the] [N game]]]]",
+
+    # 13.11 Pattern 2: Relativizer preceding embedded subject (whom)
+    "ch13_rc_whom": "[S [NP [DET The] [N author] [RC [REL whom] [NP [DET the] [N critics]] [VP [V praised]]]] [VP [V wrote] [NP [DET a] [N bestseller]]]]",
+
+    # 13.11 Pattern 3: Empty relativizer (zero relative / contact clause)
+    "ch13_rc_empty": "[S [NP [DET The] [N book] [RC [NP [N Maria]] [VP [V recommended]]]] [VP [V changed] [NP [DET the] [N curriculum]]]]",
 }
 
 
