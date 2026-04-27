@@ -268,59 +268,197 @@ def create_answer_key(output_path, font_size=12, overhead=False):
 
 
 def create_student_homework(output_path):
-    """Create the Chapter 14 Student Homework with blank multi-level tables."""
-    doc = Document()
+    """Create the Chapter 14 Student Homework with all 5 parts, mirroring the HTML."""
+    from docx.enum.table import WD_TABLE_ALIGNMENT
 
-    # Basic styling — Garamond 12pt, landscape
+    doc = Document()
     style = doc.styles['Normal']
     style.font.name = 'Garamond'
     style.font.size = Pt(12)
     fs = 12
+    fn = 'Garamond'
 
     section = doc.sections[0]
-    section.page_width = Inches(11)
-    section.page_height = Inches(8.5)
+    section.page_width, section.page_height = section.page_height, section.page_width
     section.left_margin = Inches(0.75)
     section.right_margin = Inches(0.75)
     section.top_margin = Inches(0.75)
     section.bottom_margin = Inches(0.75)
 
-    # Title
     p = doc.add_paragraph()
     run = p.add_run('Chapter 14 Homework: Nominals')
     run.bold = True
     run.font.size = Pt(16)
-    run.font.name = 'Garamond'
+    run.font.name = fn
     set_paragraph_spacing(p, space_before=0, space_after=4)
 
-    # --- Part 4: Diagramming Nominals ---
-    p = doc.add_paragraph()
-    set_paragraph_spacing(p, space_before=10, space_after=4)
-    run = p.add_run('Part 4: Diagramming Nominals')
-    run.bold = True
-    run.font.size = Pt(14)
-    run.font.name = 'Garamond'
-
-    p = doc.add_paragraph()
-    run = p.add_run('Instructions: ')
-    run.bold = True
-    run.font.size = Pt(fs)
-    run.font.name = 'Garamond'
-    run = p.add_run('For each sentence, complete the labeling table and write the bracket notation.')
-    run.font.size = Pt(fs)
-    run.font.name = 'Garamond'
-
-    for ex in DIAGRAM_EXERCISES:
+    def add_part(title):
         p = doc.add_paragraph()
-        set_paragraph_spacing(p, space_before=8, space_after=2)
-        run = p.add_run(f'Exercise {ex["num"]}. ')
+        set_paragraph_spacing(p, space_before=10, space_after=4)
+        run = p.add_run(title)
+        run.bold = True
+        run.font.size = Pt(14)
+        run.font.name = fn
+
+    def add_text(text, bold=False, italic=False, indent=0, space_before=3, space_after=2):
+        p = doc.add_paragraph()
+        if indent:
+            p.paragraph_format.left_indent = Inches(indent)
+        set_paragraph_spacing(p, space_before=space_before, space_after=space_after)
+        run = p.add_run(text)
+        run.font.size = Pt(fs)
+        run.font.name = fn
+        run.bold = bold
+        run.italic = italic
+
+    def add_ex(num, sentence, italic=True):
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=6, space_after=2)
+        run = p.add_run(f'Exercise {num}. ')
         run.bold = True
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
-        run = p.add_run(ex['sentence'])
-        run.italic = True
+        run.font.name = fn
+        run = p.add_run(sentence)
+        run.italic = italic
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
+        run.font.name = fn
+
+    def add_blank(text):
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=1, space_after=1)
+        run = p.add_run(text)
+        run.font.size = Pt(fs)
+        run.font.name = fn
+
+    def add_ref_table(headers, rows):
+        ncols = len(headers)
+        table = doc.add_table(rows=1 + len(rows), cols=ncols)
+        table.alignment = WD_TABLE_ALIGNMENT.LEFT
+        for i, h in enumerate(headers):
+            cell = table.rows[0].cells[i]
+            cell.text = ''
+            run = cell.paragraphs[0].add_run(h)
+            run.bold = True
+            run.font.size = Pt(fs - 1)
+            run.font.name = fn
+        for ri, row_data in enumerate(rows):
+            for ci, val in enumerate(row_data):
+                cell = table.rows[ri + 1].cells[ci]
+                cell.text = ''
+                run = cell.paragraphs[0].add_run(val)
+                run.font.size = Pt(fs - 1)
+                run.font.name = fn
+        p = doc.add_paragraph()
+        set_paragraph_spacing(p, space_before=0, space_after=2)
+
+    # =============================================
+    # Part 1: Identification and Classification
+    # =============================================
+    add_part('Part 1: Identification and Classification (approx. 10 minutes)')
+    add_text('For each sentence, identify the underlined nominal, classify its form, '
+             'and identify its function in the sentence. Use the reference tables below.')
+
+    add_ref_table(['Nominal Forms', 'Example'], [
+        ['Noun Phrase (NP)', 'the interesting book'],
+        ['Pronoun', 'she, him, them'],
+        ['Gerund Phrase', 'swimming every morning'],
+        ['Infinitive Phrase', 'to win the race'],
+        ['That-clause', 'that she resigned'],
+        ['Wh-clause', 'what she said, whether he comes'],
+    ])
+
+    add_ref_table(['Nominal Functions', 'Diagnostic'], [
+        ['Subject', 'Sits before the main verb; "who/what is doing or being something?"'],
+        ['Direct Object', 'Follows a transitive verb; "verb what?" / "verb whom?"'],
+        ['Indirect Object', 'Sits between the verb and the direct object; "to whom?"'],
+        ['Object of Preposition', 'Follows a preposition; completes the prepositional phrase'],
+        ['Subject Complement', 'Follows a linking verb (be, seem, become); renames the subject'],
+    ])
+
+    add_text('Example (completed)', bold=True)
+    add_text('Swimming every morning has improved my health.', italic=True)
+    add_blank('   Form: gerund phrase')
+    add_blank('   Function: subject')
+
+    add_text('Exercises', bold=True)
+
+    part1_exercises = [
+        (1, 'I don’t know whether she received my message.'),
+        (2, 'The problem is that we lack sufficient funding.'),
+        (3, 'To learn a new language requires dedication and practice.'),
+        (4, 'What the scientist discovered changed the field of biology.'),
+        (5, 'She enjoys reading mystery novels on rainy afternoons.'),
+        (6, 'He asked who would be attending the conference.'),
+        (7, 'Her greatest fear is making a mistake in public.'),
+    ]
+    for num, sentence in part1_exercises:
+        add_ex(num, sentence)
+        add_blank('   Form: __________')
+        add_blank('   Function: __________')
+
+    # =============================================
+    # Part 2: Functional Analysis
+    # =============================================
+    add_part('Part 2: Functional Analysis (approx. 5 minutes)')
+    add_text('Identify the function of each underlined nominal. Use the reference table below.')
+
+    add_ref_table(['Function', 'Position in the Clause'], [
+        ['Subject', 'Before the main verb'],
+        ['Direct Object', 'After a transitive verb (the thing acted upon)'],
+        ['Indirect Object', 'Between the verb and the direct object (the recipient)'],
+        ['Object of Preposition', 'After a preposition (about, in, by, for, etc.)'],
+        ['Subject Complement', 'After a linking verb (be, seem, become)'],
+    ])
+
+    add_text('Example (completed)', bold=True)
+    add_text('She believes that honesty is important.', italic=True)
+    add_blank('   Function: direct object (of the verb "believes")')
+
+    add_text('Exercises', bold=True)
+
+    part2_exercises = [
+        (8, 'That the project failed disappointed everyone.'),
+        (9, 'The committee discussed how they would proceed.'),
+        (10, 'She’s interested in learning more about linguistics.'),
+        (11, 'The main issue is whether we should continue.'),
+        (12, 'I appreciate your helping us with the move.'),
+    ]
+    for num, sentence in part2_exercises:
+        add_ex(num, sentence)
+        add_blank('   Function: __________')
+
+    # =============================================
+    # Part 3: Sentence Completion
+    # =============================================
+    add_part('Part 3: Sentence Completion (approx. 5 minutes)')
+    add_text('Complete each sentence with the requested nominal structure.')
+
+    add_text('Example (completed)', bold=True)
+    add_text('Add a that-clause as direct object: The scientists discovered __________.')
+    add_text('Answer: The scientists discovered that the cells could regenerate.', italic=True)
+
+    add_text('Exercises', bold=True)
+
+    part3_exercises = [
+        (13, 'Add a gerund phrase as subject: __________ can be challenging for new employees.'),
+        (14, 'Add a wh-clause as direct object: The detective investigated __________.'),
+        (15, 'Add an infinitive phrase as subject complement: Her goal this year is __________.'),
+        (16, 'Add a that-clause as subject: __________ surprised everyone at the meeting.'),
+        (17, 'Add a gerund phrase as object of a preposition: She succeeded by __________.'),
+    ]
+    for num, prompt in part3_exercises:
+        add_ex(num, prompt, italic=False)
+        add_blank('   Answer: __________')
+
+    # =============================================
+    # Part 4: Diagramming Nominals
+    # =============================================
+    add_part('Part 4: Diagramming Nominals')
+    add_text('For each sentence, complete the labeling table (Role, Phrase, Word, POS), '
+             'write the bracket notation, and draw a tree diagram.')
+
+    for ex in DIAGRAM_EXERCISES:
+        add_ex(ex['num'], ex['sentence'])
 
         table_data = parse_bracket_to_multilevel(ex['bracket'])
         add_multilevel_labeling_table(doc, table_data, mode='student', font_size=10)
@@ -328,7 +466,62 @@ def create_student_homework(output_path):
         p = doc.add_paragraph()
         run = p.add_run('Bracket notation: _____')
         run.font.size = Pt(fs)
-        run.font.name = 'Garamond'
+        run.font.name = fn
+
+    # =============================================
+    # Part 5: Analysis and Application
+    # =============================================
+    add_part('Part 5: Analysis and Application (approx. 10 minutes)')
+    add_text('Read the sentences and answer the questions.')
+
+    # Exercise 23 — gerund vs infinitive (stop)
+    add_text('Gerund vs. Infinitive', bold=True)
+    add_ex(23, 'Consider the verb "stop" in these two sentences:', italic=False)
+    add_blank('   a) She stopped smoking.')
+    add_blank('   b) She stopped to smoke.')
+    add_blank('   Explain the grammatical difference (what form follows "stop" in each?) '
+              'and the meaning difference:')
+    add_blank('   Grammatical difference: __________')
+    add_blank('   Meaning difference: __________')
+
+    # Exercise 24 — Prose Impact (paragraph swap)
+    add_text('Prose Impact: Choosing Among Nominal Forms', bold=True)
+    add_ex(24,
+           'The two paragraphs below describe the same sequence of events. '
+           'Paragraph A uses mostly noun phrases and pronouns in its nominal slots. '
+           'Paragraph B fills the same slots with that-clauses, gerund phrases, '
+           'infinitive phrases, and wh-clauses. Read both, then answer the questions '
+           'that follow.', italic=False)
+
+    add_text('Paragraph A.', bold=True)
+    add_text(
+        'The decision divided the staff. The chairperson called a vote. The outcome '
+        'surprised the team. The minority report contained the strongest arguments. '
+        'The press release was a careful attempt at unity.',
+        italic=True)
+
+    add_text('Paragraph B.', bold=True)
+    add_text(
+        'That the staff was divided became clear at once. Calling a vote was the '
+        'chairperson’s only option. What happened next surprised the team. '
+        'Reading the minority report revealed the strongest arguments. To project '
+        'unity required a careful press release.',
+        italic=True)
+
+    add_blank('   a) Identify two nominals from Paragraph A and label each one’s '
+              'form (NP, pronoun, etc.) and function (subject, direct object, etc.).')
+    add_blank('   b) Identify two nominals from Paragraph B and label each one’s '
+              'form (that-clause, gerund phrase, infinitive phrase, wh-clause) and function.')
+    add_blank('   c) How does the rhythm or pacing of the two paragraphs differ? '
+              'Read each one aloud if it helps you decide.')
+    add_blank('   d) One paragraph foregrounds entities and outcomes; the other '
+              'foregrounds actions and processes. Which is which? Point to a specific '
+              'sentence in each that supports your answer.')
+    add_blank('   e) Which version would feel more at home in a quickly written news '
+              'report? Which in an analytical essay or formal article? Explain why— '
+              'appeal to specific features of the nominals used.')
+
+    add_text('Total estimated time: 40 minutes', italic=True, space_before=12)
 
     doc.save(str(output_path))
     print(f"Created: {output_path}")
