@@ -142,3 +142,9 @@ reference_materials/Grammar Textbooks/
 # Binary files sync via Supabase Storage, not git
 data/binary/
 data/binary/.manifest.json
+
+# 2026-06-11: memory layer moved to the private primary repo (grammar-primary).
+# This public repo hosts only the published textbook + site (docs/).
+memorybot-local/
+wiki/
+data/
